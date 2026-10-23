@@ -1,0 +1,52 @@
+{
+  "checkedOn": "2026-10-23",
+  "scope": "Local migration validation before publishing the documentation overlay; remote branch verification is performed separately.",
+  "sourceRepository": "occult-kranti/bashar-index",
+  "destinationRepository": "occult-kranti/channels-ET",
+  "exactImportCommit": "07724b1b92a116bc231fe701629912260e3f64bd",
+  "sourceFileCount": 660,
+  "missingSourceFiles": [],
+  "unchangedSourceFileCount": 654,
+  "intendedModifiedSourceFiles": [
+    ".gitignore",
+    "README.md",
+    "research/analysis/build_report.py",
+    "research/maintenance/branch-register.json",
+    "research/paper/README.md",
+    "research/paper/scripts/package_paper.py"
+  ],
+  "allDistArtifactsByteIdentical": true,
+  "preservedArtifactSha256": {
+    "dist/analysis/data.json": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+    "dist/analysis/channeling-atlas-paper.pdf": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716",
+    "dist/analysis/channeling-atlas-overleaf.zip": "f35108542cfad5e4ff5d6f9984d3334885875c180c07a3d23019eee132e6ac98",
+    "dist/analysis/channeling-analysis-bundle.zip": "815fede371fcd47d052bc8f56c55421f072375e702cd2f700398d2da71b93114"
+  },
+  "checks": [
+    {
+      "command": "python research/validate.py",
+      "result": "passed: 190 sources, 26 profiles, 49 events and all cross references"
+    },
+    {
+      "command": "python research/validate_discovery.py",
+      "result": "passed: 873 records, 106 individual CSV files and ZIP integrity"
+    },
+    {
+      "command": "node --check dist/app.js",
+      "result": "passed"
+    },
+    {
+      "check": "Python AST parse of both modified generators",
+      "result": "passed"
+    },
+    {
+      "check": "Independent read-only review of paths, README links, licenses, manifest and branch roles",
+      "result": "passed"
+    }
+  ],
+  "limitations": [
+    "This transfer adds no new scientific results or review rounds.",
+    "No new GitHub Pages deployment or branch protection is claimed.",
+    "Existing reviewed packages preserve historical repository links."
+  ]
+}

@@ -6,3 +6,9 @@ research/paper/build/
 research/paper/missfont.log
 research/paper/mfput.log
 research/paper/vendor/AuthorKit27.zip
+
+# Local deployment identity and development environments
+.openai/
+.venv/
+local-data/
+models/

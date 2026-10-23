@@ -1,4 +1,6 @@
-# Channeling Atlas
+# channels-ET
+
+Channeling Atlas is the cross-channel ET channeling research project. **Continue this analysis in `occult-kranti/channels-ET`.** The original [Bashar Index](https://github.com/occult-kranti/bashar-index) remains preserved and focused on Bashar. The existing copy of the Atlas in that repository is retained as history.
 
 ## Current analytical release — 23 October 2026
 
@@ -15,7 +17,7 @@ The dashboard analysis was published before paper work began. The manuscript use
 
 ## Handoff: resume here
 
-**Status:** both requested phases are complete: analysis rounds 1–3, then manuscript rounds 4–6. The next phase is planned, not executed. The last scientific release is GitHub commit [`bbe4801`](https://github.com/occult-kranti/bashar-index/commit/bbe4801a09c28f07eeea6f0fe7e9f0d61e4d791f), preserved on `release/channeling-atlas-2026-10-23`. This README handoff changes documentation, not the reviewed data, figures or PDF.
+**Status:** both requested phases are complete: analysis rounds 1–3, then manuscript rounds 4–6. The next phase is planned, not executed. The scientific snapshot was originally released as [`bbe4801`](https://github.com/occult-kranti/bashar-index/commit/bbe4801a09c28f07eeea6f0fe7e9f0d61e4d791f). Its complete project files are preserved here at import commit [`07724b1`](https://github.com/occult-kranti/channels-ET/commit/07724b1b92a116bc231fe701629912260e3f64bd) on `release/channeling-atlas-2026-10-23`. The repository split updates continuation guidance and future output links; reviewed data, figures, PDF and ZIPs retain their original bytes. See [migration provenance](research/maintenance/MIGRATION.md).
 
 | Start with | Purpose |
 |---|---|
@@ -45,22 +47,21 @@ f35108542cfad5e4ff5d6f9984d3334885875c180c07a3d23019eee132e6ac98
 
 ### Repository and branch workflow
 
-The GitHub repository `occult-kranti/bashar-index` contains the original Bashar Index at its root and this project under `channeling-atlas/`. The Sites source repository contains this project at its own root. Their commit histories and root READMEs are different. Translate paths deliberately when synchronizing them; preserve the original Bashar Index and the Site's hosting identity.
+The GitHub repository `occult-kranti/channels-ET` contains this project directly at its root: `dist/` is the website and downloadable artifacts; `research/` contains the data pipelines, source records and paper. Run commands from this repository root. The existing Sites deployment is a separate checkout and history; its private hosting identity is intentionally excluded from this export. The original `occult-kranti/bashar-index` repository is preserved, including its cross-channel historical copy and experiment branch.
 
-| Branch | Role | Maintenance rule |
+| Branch in channels-ET | Role | Maintenance rule |
 |---|---|---|
-| `main` | Integrated, reviewed source and release documentation | Merge bounded reviewed changes; verify the latest head before pushing |
-| `release/channeling-atlas-2026-10-23` | Scientific baseline at `bbe4801` | Keep pinned; use a new dated release branch for a later release |
-| `research/channeling-atlas-next` | Continuation branch, including this handoff | Start the next bounded research task here; update through ordinary commits |
-| `experiment-frequency-of-place` | Existing separate experiment at `e628974` | Preserve its unique work; compare and review before any integration |
+| `main` | Reviewed import and current continuation documentation | Merge bounded reviewed changes; verify the latest head before pushing |
+| `release/channeling-atlas-2026-10-23` | Exact project import at `07724b1` | Keep pinned; create a new dated release branch for later scientific releases |
+| `research/channeling-atlas-next` | Continuation branch, including this repository handoff | Start the next bounded research task here; use ordinary commits |
 
-At the pre-handoff audit, `experiment-frequency-of-place` was one commit ahead and three behind `main` at `bbe4801`; no open pull request existed. Those counts are a dated observation and will change as `main` advances. No experiment integration was performed in this handoff. Branch protection was not configured by this maintenance pass; the release pin is a documented convention.
+The earlier Bashar repository branch audit is retained in [the origin branch register](research/maintenance/branch-register-bashar-origin-2026-10-23.json). It does not describe this repository's branches. The frequency-of-place experiment remains in `bashar-index`; it was not imported as a new experiment here. Branch protection is not configured by this import; the release pin is a documented convention.
 
 Use task branches such as `research/atlas-identity-audit`, `analysis/atlas-speaker-segments`, `paper/atlas-next-draft` and `fix/atlas-<issue>` only when starting that work. Preserve prior snapshots and never reuse old review receipts to certify a changed artifact. Avoid force-pushing shared branches. Before merging an experiment, compare changed paths, check overlapping root files and run its own domain and build checks.
 
 ### First actions in a fresh checkout
 
-For the GitHub checkout, select `research/channeling-atlas-next`, then `cd channeling-atlas`. In the Sites checkout, remain at the project root. Inspect status before changing branches or generating files.
+For this GitHub checkout, select `research/channeling-atlas-next` and remain at the repository root. There is no nested `channeling-atlas/` directory here. Inspect status before changing branches or generating files.
 
 ```sh
 git status --short
@@ -108,7 +109,7 @@ Candidate hypotheses to investigate: upload format may explain more variation th
 
 ### Next release acceptance
 
-Freeze collection and model versions; preserve source access levels and nulls; regenerate only affected layers; compare all changed claims with underlying rows; inspect every changed figure and PDF page; record independent workstream findings and corrections; then push the reviewed source and artifacts, publish the Site, and create a new dated release branch. Record GitHub and Site commits separately. This README establishes the continuation process; it does not schedule unattended updates.
+Freeze collection and model versions; preserve source access levels and nulls; regenerate only affected layers; compare all changed claims with underlying rows; inspect every changed figure and PDF page; record independent workstream findings and corrections; then push the reviewed source and artifacts, publish the Site, and create a new dated release branch. Record GitHub and Site commits separately. Publish new cross-channel work to `channels-ET`; keep Bashar-specific changes in `bashar-index`. This README establishes the continuation process; it does not schedule unattended updates.
 
 ## Earlier atlas and discovery layers
 
@@ -142,7 +143,7 @@ Service audits cover 14 contemporary ET-associated candidates, including Elan. F
 - `research/extend_youtube.py`: merges the expanded index, dated activity checks and service audits into the compiled dataset.
 - `research/validate.py`: validates references, source identity, chronology, required caveats and named profile anchors.
 
-Run the validators for the layer being changed. `research/compile.py` is a writer for the historical atlas, not a general validation command; use it only when rebuilding that layer and follow its extension steps. See the handoff above for a safe starting sequence. Serve `dist/` for local development. Hosted configuration is in `.openai/hosting.json` and must retain the existing Site identity.
+Run the validators for the layer being changed. `research/compile.py` is a writer for the historical atlas, not a general validation command; use it only when rebuilding that layer and follow its extension steps. See the handoff above for a safe starting sequence. Serve `dist/` for local development. The root `index.html` forwards to `dist/`; the static app itself remains in `dist/`. The existing Sites hosting configuration is maintained separately and is not included in this GitHub export.
 
 ## Verification
 

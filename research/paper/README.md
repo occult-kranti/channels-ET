@@ -6,7 +6,7 @@ The first three analysis rounds were completed and published before manuscript w
 
 ## Build and update
 
-Use a disposable worktree or copy. From the Channeling Atlas project root (the `channeling-atlas/` subdirectory in the GitHub repository), install the analysis Python dependencies and run:
+Use a disposable worktree or copy. From the Channeling Atlas project root (the root of the `channels-ET` GitHub repository), install the analysis Python dependencies and run:
 
 ```sh
 python research/paper/scripts/analyze_paper.py
