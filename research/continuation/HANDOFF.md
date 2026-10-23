@@ -1,5 +1,14 @@
 # Continuation handoff — 23 October 2026
 
+The newer [indexed-source acquisition handoff](../harvest/ACQUISITION-REPORT.md)
+and [live GitHub Pages dashboard](https://occult-kranti.github.io/channels-ET/)
+supersede this document's collection-status snapshot. The Acquisition view joins
+the expanded YouTube queue, independent original-publisher audio and source-bound
+local ASR ledgers. The tables and review rounds below describe the earlier frozen
+scientific release; publisher audio has not silently become new paper results,
+literal multi-medium Q&A or a new model-training corpus. Read the newer handoff
+before running collection or rebuilding the acquisition dashboard.
+
 ## Destination and preservation
 
 Continue cross-channel ET research in `occult-kranti/channels-ET`. The separate

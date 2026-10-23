@@ -1,0 +1,1249 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-23T22:20:16.156862+00:00",
+  "scope": "Public metadata/link sources only; no video, audio, captions or model weights.",
+  "repositories": {
+    "bashar-index": {
+      "origin": "https://github.com/occult-kranti/bashar-index",
+      "head": "151efb25824dd54768edef7b71ca2a22f1c6d1ac"
+    },
+    "channels-ET": {
+      "origin": "https://github.com/occult-kranti/channels-ET",
+      "head": "b3db3a5a587a727c22c148a18140def1b0a1498e"
+    }
+  },
+  "files": [
+    {
+      "source_id": "bashar-index:data/README.md",
+      "repository": "bashar-index",
+      "origin_path": "data/README.md",
+      "snapshot_path": "sourcepins/bashar-index/data/README.md",
+      "sha256": "b851adea67cfc5824e98181753f0102edf42457fe33e5b34180927fcfa6de2b7",
+      "bytes": 1525
+    },
+    {
+      "source_id": "bashar-index:data/analysis.json",
+      "repository": "bashar-index",
+      "origin_path": "data/analysis.json",
+      "snapshot_path": "sourcepins/bashar-index/data/analysis.json",
+      "sha256": "4c9816c190fd26cd5a75428304113abe7276dc4ceccc208eac4415146ad409d8",
+      "bytes": 67104
+    },
+    {
+      "source_id": "bashar-index:data/anka_works.json",
+      "repository": "bashar-index",
+      "origin_path": "data/anka_works.json",
+      "snapshot_path": "sourcepins/bashar-index/data/anka_works.json",
+      "sha256": "688c27ab9f1d107732759a5f8fef64c21d09019ba2c2f0bd84ce5b44888ef5d1",
+      "bytes": 14211
+    },
+    {
+      "source_id": "bashar-index:data/catalog_sessions.json",
+      "repository": "bashar-index",
+      "origin_path": "data/catalog_sessions.json",
+      "snapshot_path": "sourcepins/bashar-index/data/catalog_sessions.json",
+      "sha256": "618bb5667a883803fb108a9e3cd37c5d444ceaf73ec450a9cf23fa620b626c8d",
+      "bytes": 479354
+    },
+    {
+      "source_id": "bashar-index:data/diagrams.json",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams.json",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams.json",
+      "sha256": "fe13304b6f57deb95eb6893edc262630b994cbc9d741c1a30bbaaef712c579a9",
+      "bytes": 139201
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/1-3-5-7-11-download.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/1-3-5-7-11-download.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/1-3-5-7-11-download.svg",
+      "sha256": "8477b5d64331728f4abd63baa930e97028902bde7e6fd7081cff2531ebd088d5",
+      "bytes": 2434
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/33rd-parallel.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/33rd-parallel.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/33rd-parallel.svg",
+      "sha256": "18fe051159ceecf874f46bb412de1d8ceec0d1d420f0bd88104b28098db375cb",
+      "bytes": 3522
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/as-above-so-below.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/as-above-so-below.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/as-above-so-below.svg",
+      "sha256": "a97441c7e33fafa04a7b429a568efe542c227f871068056dfc9b93f50de70df9",
+      "bytes": 3074
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/basic-principles-13.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/basic-principles-13.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/basic-principles-13.svg",
+      "sha256": "a5f299bfd82aeec02010807fcc8f4565b63fe126d26076aa2cff13874c7bb970",
+      "bytes": 7968
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/belief-emotion-thought-action.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/belief-emotion-thought-action.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/belief-emotion-thought-action.svg",
+      "sha256": "10aed8730c36ad42ca0ca016273f144ea123db5ff3833ee49ff68ee20ba0a50e",
+      "bytes": 3534
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/black-box.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/black-box.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/black-box.svg",
+      "sha256": "34b24fdef39ef0ccb11fef1794697bbd2eb636613b7ff047a4b9171f5e62e58c",
+      "bytes": 3153
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/brick-walls-and-beliefs.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/brick-walls-and-beliefs.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/brick-walls-and-beliefs.svg",
+      "sha256": "3a097355fc8cc611f731296f9f3b14b7098861e7451f35dbaf0bcfb46818dc88",
+      "bytes": 3753
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/changing-core-beliefs.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/changing-core-beliefs.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/changing-core-beliefs.svg",
+      "sha256": "a0d9475ec2a0c86ce794d87ff826aa56c428868db3d89d47faaa02ffd76b70f2",
+      "bytes": 2760
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/circle-of-self-empowerment.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/circle-of-self-empowerment.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/circle-of-self-empowerment.svg",
+      "sha256": "fa03048f1d54c99b33b789fb0b56a7b93be4386c5a64f62064550666720ddc60",
+      "bytes": 2001
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/construction-of-physical-reality.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/construction-of-physical-reality.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/construction-of-physical-reality.svg",
+      "sha256": "169622447604acf4ef71c2ed6b8ede7a70a5635d8f2fd030f9f6517f32985e0c",
+      "bytes": 4057
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/contact-crystal-and-crystal-techniques.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/contact-crystal-and-crystal-techniques.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/contact-crystal-and-crystal-techniques.svg",
+      "sha256": "305316ad18bffb4ff7b6aa97e5ac7ef6f40be9356dcfae3e3b9d140b8137afd9",
+      "bytes": 2266
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/cybo-lucky-13.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/cybo-lucky-13.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/cybo-lucky-13.svg",
+      "sha256": "a9e05bd280c09f1ed9b8840964476bf71c5da15204005a09c41a2123c3ecfb18",
+      "bytes": 4343
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/density-dimension-ladder.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/density-dimension-ladder.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/density-dimension-ladder.svg",
+      "sha256": "c1c8daf4e8c7fa3a0f35b50d371df472b45025692beaf995a986d75394a3b258",
+      "bytes": 3248
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/eclipse.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/eclipse.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/eclipse.svg",
+      "sha256": "981cd504842331d2746f80b6d0d43ad079c3553be2336eb7ed0b46e9c1773556",
+      "bytes": 1353
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/essassani-ai-spheres-triad.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/essassani-ai-spheres-triad.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/essassani-ai-spheres-triad.svg",
+      "sha256": "f95c4289122a8cedd48554b35d4b11e42f11939da58468baf411be6ad7e5567a",
+      "bytes": 1953
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/excitement-formula-kit.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/excitement-formula-kit.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/excitement-formula-kit.svg",
+      "sha256": "c7d3114ee9c2ac305c764e40b39e9cb761bc31a9571440bf2c3771944dbf1449",
+      "bytes": 3950
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/eye-of-the-needle.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/eye-of-the-needle.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/eye-of-the-needle.svg",
+      "sha256": "66198875f0ca8b7c6162338e5771b6e582e24e1d01b234697875495fb54952c0",
+      "bytes": 2470
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/five-laws-of-creation.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/five-laws-of-creation.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/five-laws-of-creation.svg",
+      "sha256": "dc8958fba801d4061e8808abe5fa2df01a19d94824e8ba9c86059d9a3d0f9e6c",
+      "bytes": 1949
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/frames-of-film-parallel-shifting.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/frames-of-film-parallel-shifting.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/frames-of-film-parallel-shifting.svg",
+      "sha256": "5584dae2fae823398e9fcfe5e823d3e9f559fc53307e436f20da22b6ea655253",
+      "bytes": 8665
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/guide-to-open-contact-window-door-gate.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/guide-to-open-contact-window-door-gate.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/guide-to-open-contact-window-door-gate.svg",
+      "sha256": "012af7dcc807f335776eaf7031c80e1458c9cdfbaa66f791e83103995920e791",
+      "bytes": 3686
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/holotope.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/holotope.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/holotope.svg",
+      "sha256": "08492f147b10b0d043948516bb0b340539fa9e6984a2c705d6b066ffb2a982bd",
+      "bytes": 3640
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/hour-of-power.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/hour-of-power.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/hour-of-power.svg",
+      "sha256": "b1adcbca012e2acfdcff5751713ca300b97c8a4c1b6b336e04b38304329d0994",
+      "bytes": 6280
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/hybrid-races-ladder.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/hybrid-races-ladder.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/hybrid-races-ladder.svg",
+      "sha256": "f8c213b62038fd56abaa49cc608183f261292827402a153dcbfb2b949e6e4ea4",
+      "bytes": 4900
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/increasing-the-probability-of-contact.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/increasing-the-probability-of-contact.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/increasing-the-probability-of-contact.svg",
+      "sha256": "2516b3ba3fe90803a6e24a9aaf7503fce4698a4929a5ec3076c1879da28ec67f",
+      "bytes": 1886
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/interdimensional-portals.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/interdimensional-portals.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/interdimensional-portals.svg",
+      "sha256": "2b297eafdb61f249639abdcd47812f2ece943321d5e5c942cb155fb1ccf81c60",
+      "bytes": 1845
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/interstellar-alliance-social-experiment.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/interstellar-alliance-social-experiment.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/interstellar-alliance-social-experiment.svg",
+      "sha256": "68035b0752e91ba83d948a0de2078b6a063fa10eed12faf2703b61b350ed2f75",
+      "bytes": 2588
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/interstellar-enneagram.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/interstellar-enneagram.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/interstellar-enneagram.svg",
+      "sha256": "43932835c4d0cdcea0701ab660bdb30a8262d7cbc4ec7a0653165c3d2b78a382",
+      "bytes": 5910
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/keys-of-ascension.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/keys-of-ascension.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/keys-of-ascension.svg",
+      "sha256": "001430fdedb2dc69663641f434577f6a0c25663f26ab3cac593f4ade661e41e1",
+      "bytes": 7107
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/mechanics-of-channeling.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/mechanics-of-channeling.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/mechanics-of-channeling.svg",
+      "sha256": "952fbad44f0aa8cd00cd5cce7428cc84a9835e0b77a118860c6b3136fde10817",
+      "bytes": 2714
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/near-life-experience-master-permission-slip.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/near-life-experience-master-permission-slip.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/near-life-experience-master-permission-slip.svg",
+      "sha256": "c95730829a65dd7205d2c696e0563381c0a72e825b5e13b6de49cb6a49c80aa6",
+      "bytes": 4984
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/nine-levels-of-consciousness.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/nine-levels-of-consciousness.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/nine-levels-of-consciousness.svg",
+      "sha256": "df6cae7d84cb5dbacd582962e2c24fabf13cfd40d0ce3af452708025616310f4",
+      "bytes": 4026
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/parallel-realities-diagram-1997.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/parallel-realities-diagram-1997.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/parallel-realities-diagram-1997.svg",
+      "sha256": "ecf3d4d00c09f7fa79475bf891a64e011fec133474323f1bb87fed22ef3fc340",
+      "bytes": 4830
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/parallel-reality-wheel.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/parallel-reality-wheel.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/parallel-reality-wheel.svg",
+      "sha256": "c2e644611c7365f54d74befddee9e90dca81955502daa9d07739e55734fd1f9c",
+      "bytes": 4906
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/permission-slips-concept.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/permission-slips-concept.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/permission-slips-concept.svg",
+      "sha256": "64fca73ce9d8a870579283cdebf6de41978fd33c9dce269ecef12b020de4133a",
+      "bytes": 2491
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/physical-mind-higher-mind.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/physical-mind-higher-mind.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/physical-mind-higher-mind.svg",
+      "sha256": "a3ebbc459282be755da41527c3ba905a63ac285a39a7c3d69ece08e76a09f446",
+      "bytes": 2418
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/preparing-for-contact-101.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/preparing-for-contact-101.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/preparing-for-contact-101.svg",
+      "sha256": "2e81b6c70ddca73687500fef047aa8c3f1605c8d62c72882d0ced31e80bb6aac",
+      "bytes": 1928
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/prime-radiant.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/prime-radiant.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/prime-radiant.svg",
+      "sha256": "ef5ce00403608443608415a20d43552e2847062fed8a409e6acdf60b19034559",
+      "bytes": 5219
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/protocols-of-first-contact.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/protocols-of-first-contact.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/protocols-of-first-contact.svg",
+      "sha256": "a4733ef3b4eb14a5ebbe9cdab155253cd8337649f4c619b7c687b0cb45aef9c7",
+      "bytes": 11514
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/reincarnation-deeper-explanation.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/reincarnation-deeper-explanation.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/reincarnation-deeper-explanation.svg",
+      "sha256": "99ad72acd8d5c03e0334e59b2efa7df8c045330272eabfa48f985c58d36a9ed6",
+      "bytes": 3403
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/resonance-and-reflection.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/resonance-and-reflection.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/resonance-and-reflection.svg",
+      "sha256": "5b227a593e98df703a1d4ec7ece74cae70ede8386fc617b1c8350e77ec7206df",
+      "bytes": 1800
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/sacred-circuitry.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/sacred-circuitry.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/sacred-circuitry.svg",
+      "sha256": "fba73e2bc1440b249cce2fcaac75ced400f1f2ded9d88fa1c881dd36f731eba7",
+      "bytes": 4075
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/seven-steps-of-manifestation.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/seven-steps-of-manifestation.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/seven-steps-of-manifestation.svg",
+      "sha256": "c5408deec18fb2697680d35ad7c392b610a8b18c6a98594bbcf34d066a0640cf",
+      "bytes": 3305
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/soul-blueprint-workshop.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/soul-blueprint-workshop.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/soul-blueprint-workshop.svg",
+      "sha256": "6f5588a19a4e97920a725510e55173d55743584cf2aecb9e999393f254cb11ef",
+      "bytes": 2470
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/spectrum-of-fear.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/spectrum-of-fear.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/spectrum-of-fear.svg",
+      "sha256": "fb744f84ded6be6529a3aab2af39d773f2001450d131501b21fd0ecd2fa6dbce",
+      "bytes": 4755
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/spiral-exercise.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/spiral-exercise.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/spiral-exercise.svg",
+      "sha256": "a175aab5ce0b19242a79933f70b4d8fd697c0496bcfa63094bc8aa42e9140c03",
+      "bytes": 4264
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/story-tree.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/story-tree.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/story-tree.svg",
+      "sha256": "1e0231a8d892cbaa09f1cd902c96c4f1f9610da529b9ac3dca22e0d5c5c46ee5",
+      "bytes": 3700
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/tell-them-bashar-sent-you.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/tell-them-bashar-sent-you.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/tell-them-bashar-sent-you.svg",
+      "sha256": "fa5129bf54740968bb432fa3315ebbf8f4a09a167cb5fa057e2350ac0be432b8",
+      "bytes": 2510
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/the-formula.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/the-formula.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/the-formula.svg",
+      "sha256": "a41e4d197083716a8f7b334790823db21b7f5e08455349c167b4c2b8c702103d",
+      "bytes": 3519
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/tis-the-season.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/tis-the-season.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/tis-the-season.svg",
+      "sha256": "15ab7d4cf495840fcf0e55fb1e8ad89c5d3745251ea7fc22b6793cba99af3178",
+      "bytes": 1733
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/transforming-core-beliefs.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/transforming-core-beliefs.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/transforming-core-beliefs.svg",
+      "sha256": "0ea3fed7af2cdaf9ab10e50437474f04e50d3b8b718c9d034f2fd241bb93cc5f",
+      "bytes": 3843
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/triad-mind.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/triad-mind.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/triad-mind.svg",
+      "sha256": "68a4a6fcd55f7fb180d7684845d10186106cc965250ce155cd8e3fb829c371be",
+      "bytes": 2109
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/ufo-witness-declaration.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/ufo-witness-declaration.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/ufo-witness-declaration.svg",
+      "sha256": "60f77022cfb968b8e2b7524d33ce8e4503d4278bb7de6e2fe2d524f02bd4e39d",
+      "bytes": 2345
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/vortex-array.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/vortex-array.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/vortex-array.svg",
+      "sha256": "17d73265e4aabc9c19f4b18bd0e1c99ca8dd82e3221f322328663f7b619d9a40",
+      "bytes": 5213
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/vortex-vibrations.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/vortex-vibrations.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/vortex-vibrations.svg",
+      "sha256": "4cb47fda7bbe19008f3f3aab31ecbb83c92b0a0d6c528550b5e4e054ec265155",
+      "bytes": 2023
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/window-of-discovery.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/window-of-discovery.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/window-of-discovery.svg",
+      "sha256": "e884f7da19be1937776805aa29e408eddf60d379e43ae3e2af79aae89ea216a1",
+      "bytes": 2273
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/you-are-all-time-travelers.svg",
+      "repository": "bashar-index",
+      "origin_path": "data/diagrams_svg/you-are-all-time-travelers.svg",
+      "snapshot_path": "sourcepins/bashar-index/data/diagrams_svg/you-are-all-time-travelers.svg",
+      "sha256": "2fff8703454cf8c4e46abf172bb8df5117832dee800ca26cacb27ad09bb7efec",
+      "bytes": 2850
+    },
+    {
+      "source_id": "bashar-index:data/digests/0htF1V0v6ec.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/0htF1V0v6ec.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/0htF1V0v6ec.json",
+      "sha256": "7da5f278a7d592cc5dd6449eaa5f6528a69ee2217353e1b7c9ed21c7c65baf86",
+      "bytes": 13109
+    },
+    {
+      "source_id": "bashar-index:data/digests/1x7Z68os7HE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/1x7Z68os7HE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/1x7Z68os7HE.json",
+      "sha256": "390bf5587db357a662059577b223b3bd9bcf428e0bb4199e159fcd0ccad6a83b",
+      "bytes": 4376
+    },
+    {
+      "source_id": "bashar-index:data/digests/2GVhU6BRVWY.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/2GVhU6BRVWY.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/2GVhU6BRVWY.json",
+      "sha256": "d604e46d10704b965083261d4f82b060b9888048693ca87d48adeddaa06d8fe9",
+      "bytes": 14328
+    },
+    {
+      "source_id": "bashar-index:data/digests/4NGd9kqWM04.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/4NGd9kqWM04.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/4NGd9kqWM04.json",
+      "sha256": "0b4de71f63186e56b75909f09839721e559bf17cfb80891ddc3ec9453af98fbf",
+      "bytes": 7807
+    },
+    {
+      "source_id": "bashar-index:data/digests/5Js8U9sJ5-8.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/5Js8U9sJ5-8.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/5Js8U9sJ5-8.json",
+      "sha256": "673679b92eb1cd338300fee8873114fed66429ceedaf28d542b34a385ac3d26c",
+      "bytes": 14035
+    },
+    {
+      "source_id": "bashar-index:data/digests/5lOHuqDbpoc.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/5lOHuqDbpoc.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/5lOHuqDbpoc.json",
+      "sha256": "7a8a31a6ba78c69d43611404f47dd49d0efa4029b5e5175e4a05507493fd30d7",
+      "bytes": 13720
+    },
+    {
+      "source_id": "bashar-index:data/digests/66D69G8uQ50.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/66D69G8uQ50.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/66D69G8uQ50.json",
+      "sha256": "1fc8dd5b6f1e5d97c2fa64d27be93d2abbefb43ecbbe80ff0e9d282fe1b264d6",
+      "bytes": 3136
+    },
+    {
+      "source_id": "bashar-index:data/digests/7WjydoNj7hE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/7WjydoNj7hE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/7WjydoNj7hE.json",
+      "sha256": "3d7cc631f68bf8508f487c3ab89cfe1e17b157312ecfffa1781afc1f0db696da",
+      "bytes": 11947
+    },
+    {
+      "source_id": "bashar-index:data/digests/94agFEADfyk.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/94agFEADfyk.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/94agFEADfyk.json",
+      "sha256": "301c31d9285329d61fbbeb4e9b6a276732712166cdb3b0bc019767a8e7d71549",
+      "bytes": 14730
+    },
+    {
+      "source_id": "bashar-index:data/digests/98KsASkO8Cs.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/98KsASkO8Cs.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/98KsASkO8Cs.json",
+      "sha256": "5a63336782b967674fa805b2b3d0d509ffa6d5e78881f3bbf1da1380d3891824",
+      "bytes": 3879
+    },
+    {
+      "source_id": "bashar-index:data/digests/9FrwPg8FYvM.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/9FrwPg8FYvM.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/9FrwPg8FYvM.json",
+      "sha256": "500fad556043b9e04d8103a4e3ba9c93138af6dc63de63592bbc3a1f3435a48f",
+      "bytes": 15288
+    },
+    {
+      "source_id": "bashar-index:data/digests/9Ij2AEoRwoM.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/9Ij2AEoRwoM.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/9Ij2AEoRwoM.json",
+      "sha256": "283e59a1e2334b05af5c61ebd454565b6a9fa09454c14ca019e680a039425817",
+      "bytes": 6189
+    },
+    {
+      "source_id": "bashar-index:data/digests/BaN26a0SbLQ.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/BaN26a0SbLQ.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/BaN26a0SbLQ.json",
+      "sha256": "4fdab4f59dfeb2e74f2db60cd988b879f5576643a538e72a2dc69c65dde17cc2",
+      "bytes": 6209
+    },
+    {
+      "source_id": "bashar-index:data/digests/CJb6grCrMhY.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/CJb6grCrMhY.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/CJb6grCrMhY.json",
+      "sha256": "ec505d4cd86dd0e8a55187b6145a67986cae95c2f9a4b3640e6b55311cf2cc5c",
+      "bytes": 4637
+    },
+    {
+      "source_id": "bashar-index:data/digests/D8El0NsIF04.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/D8El0NsIF04.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/D8El0NsIF04.json",
+      "sha256": "1c788456c2d8617e4f1ee9a958cbf13592dc51401f71b2cffaf98cc14dc18199",
+      "bytes": 6585
+    },
+    {
+      "source_id": "bashar-index:data/digests/DvWNnqnBAjc.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/DvWNnqnBAjc.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/DvWNnqnBAjc.json",
+      "sha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+      "bytes": 14833
+    },
+    {
+      "source_id": "bashar-index:data/digests/Dw9XHTMrgBE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/Dw9XHTMrgBE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/Dw9XHTMrgBE.json",
+      "sha256": "e90e8261c7587b100e009eff051c371b1a4523cf0b17f21d45db52b661d127bf",
+      "bytes": 15967
+    },
+    {
+      "source_id": "bashar-index:data/digests/EHK_mwdk3kM.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/EHK_mwdk3kM.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/EHK_mwdk3kM.json",
+      "sha256": "bdd2809bebe41454b48917fd1ccd91488af3efc4d5cc6ff474a3abb075629cac",
+      "bytes": 4038
+    },
+    {
+      "source_id": "bashar-index:data/digests/ETuHIzyRhyY.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/ETuHIzyRhyY.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/ETuHIzyRhyY.json",
+      "sha256": "1db595b9e445d77eccc7856f03fe3b3283080025aefdc32df2c326578dc2bc6a",
+      "bytes": 13161
+    },
+    {
+      "source_id": "bashar-index:data/digests/E_cPno64Z-Q.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/E_cPno64Z-Q.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/E_cPno64Z-Q.json",
+      "sha256": "e8377a5383a66fefbc052a025edb2f34bb536c2fca8f2d08df7e6392495df794",
+      "bytes": 13006
+    },
+    {
+      "source_id": "bashar-index:data/digests/Fp1YFz-8d4Y.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/Fp1YFz-8d4Y.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/Fp1YFz-8d4Y.json",
+      "sha256": "87e92031d73ef8a248aaffcdafce4324eee71e73373354642dff5009d4643502",
+      "bytes": 12120
+    },
+    {
+      "source_id": "bashar-index:data/digests/HoYNcoMTk-4.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/HoYNcoMTk-4.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/HoYNcoMTk-4.json",
+      "sha256": "b1574b12f861ad3e28dc442afab8718cb235fd246d961a07bce580d6a129cdaa",
+      "bytes": 12506
+    },
+    {
+      "source_id": "bashar-index:data/digests/IKJzZ-KVPdQ.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/IKJzZ-KVPdQ.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/IKJzZ-KVPdQ.json",
+      "sha256": "2cde10feb8ce6e2565cdeabb27da144684915ba829cb9d96783c5b058ec94200",
+      "bytes": 15041
+    },
+    {
+      "source_id": "bashar-index:data/digests/IKYfZdjv3aE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/IKYfZdjv3aE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/IKYfZdjv3aE.json",
+      "sha256": "641a3b45a8a89d2ffec57f2c8e7977637368f379413d510b989565c77c63fd72",
+      "bytes": 11684
+    },
+    {
+      "source_id": "bashar-index:data/digests/IuO0mjva9ls.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/IuO0mjva9ls.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/IuO0mjva9ls.json",
+      "sha256": "702cc91af94269b7b34b756685d05d2b11b2b90964810929f57d95cc300a0730",
+      "bytes": 6244
+    },
+    {
+      "source_id": "bashar-index:data/digests/JSwqz_ZhH_I.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/JSwqz_ZhH_I.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/JSwqz_ZhH_I.json",
+      "sha256": "8baac2f6ce8c42af22267c2302e54ef9dc144cbab3b1e65e763521913c501534",
+      "bytes": 6015
+    },
+    {
+      "source_id": "bashar-index:data/digests/OzkviF1GCFc.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/OzkviF1GCFc.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/OzkviF1GCFc.json",
+      "sha256": "ee0b784658ec2264d886e16e06ba08d4b2c18c2c54b506ed38b36244cd94ae1e",
+      "bytes": 10749
+    },
+    {
+      "source_id": "bashar-index:data/digests/PjIvEohms5I.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/PjIvEohms5I.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/PjIvEohms5I.json",
+      "sha256": "9a03e30a16a553db4f4fd380a47c2e854006a7c7e72570f04f78cdc9147d32dd",
+      "bytes": 13267
+    },
+    {
+      "source_id": "bashar-index:data/digests/Q9X_NGyYN3M.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/Q9X_NGyYN3M.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/Q9X_NGyYN3M.json",
+      "sha256": "be9fc0790c46237a8e81428218aeca2394a239ed4bc8ef1948f63a126b97ab7e",
+      "bytes": 3287
+    },
+    {
+      "source_id": "bashar-index:data/digests/QBk2MQ1MVZo.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/QBk2MQ1MVZo.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/QBk2MQ1MVZo.json",
+      "sha256": "f2cce2c01bd9668bcbd2de1ff0162e1397103ab760d9a65b033e99952cc8739d",
+      "bytes": 10642
+    },
+    {
+      "source_id": "bashar-index:data/digests/Rcjd1TkZUMY.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/Rcjd1TkZUMY.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/Rcjd1TkZUMY.json",
+      "sha256": "2ae873fcfecf8a6d66c73c702e44621cd9b38713d773fea83af710690836c915",
+      "bytes": 18467
+    },
+    {
+      "source_id": "bashar-index:data/digests/S3Xw09ZE2Dg.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/S3Xw09ZE2Dg.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/S3Xw09ZE2Dg.json",
+      "sha256": "83b4a8e7db432b94a68ec887b3858c8c34ff3d60671348e89bf73a9cd558d547",
+      "bytes": 5763
+    },
+    {
+      "source_id": "bashar-index:data/digests/SBRcXicYs0I.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/SBRcXicYs0I.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/SBRcXicYs0I.json",
+      "sha256": "f38ccacf597c036fb5242702124310bba0bf196d3aa50414dad19572efa92786",
+      "bytes": 16491
+    },
+    {
+      "source_id": "bashar-index:data/digests/T5QtncJq1Jc.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/T5QtncJq1Jc.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/T5QtncJq1Jc.json",
+      "sha256": "4aad006e4f38b6720e6ae426c9430018176e9325b7d60d6b86b7c249f2922177",
+      "bytes": 5003
+    },
+    {
+      "source_id": "bashar-index:data/digests/U-DHIk0lIQ4.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/U-DHIk0lIQ4.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/U-DHIk0lIQ4.json",
+      "sha256": "09c746cc37f874905b6404b895116bdb080f36afb3e94322144d776d04456b2a",
+      "bytes": 10453
+    },
+    {
+      "source_id": "bashar-index:data/digests/WEVqgD-L5kc.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/WEVqgD-L5kc.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/WEVqgD-L5kc.json",
+      "sha256": "f8f9c8da85af683f9be082469aa2cdc1dae5dcb32c2745f9fa6e582b878cebbf",
+      "bytes": 10284
+    },
+    {
+      "source_id": "bashar-index:data/digests/ZACIL5Hzb5c.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/ZACIL5Hzb5c.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/ZACIL5Hzb5c.json",
+      "sha256": "024e4f15e6594821d3d981808cfe131ffaf87816c86d26177a702103be61bc6e",
+      "bytes": 8879
+    },
+    {
+      "source_id": "bashar-index:data/digests/_UZ8EyuOuY8.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/_UZ8EyuOuY8.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/_UZ8EyuOuY8.json",
+      "sha256": "d48eab133f5a6d5e02dd92b2bc96a8242acd86b3eccd899ece904caf8188fb6b",
+      "bytes": 5594
+    },
+    {
+      "source_id": "bashar-index:data/digests/aZvcNhWthUA.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/aZvcNhWthUA.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/aZvcNhWthUA.json",
+      "sha256": "0d6954fbb0a81a89a7ccbbe3c0bf1f9f47e70f4288eabf111431cf907624bb2a",
+      "bytes": 5308
+    },
+    {
+      "source_id": "bashar-index:data/digests/alW2lHKFy2k.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/alW2lHKFy2k.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/alW2lHKFy2k.json",
+      "sha256": "39af9a63f8f6380621174f18146ddd75d2b1b6e4399136038c60c5d2055cfb72",
+      "bytes": 3157
+    },
+    {
+      "source_id": "bashar-index:data/digests/d--HZiDqgs0.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/d--HZiDqgs0.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/d--HZiDqgs0.json",
+      "sha256": "50f5179c0c3529a947f9b4c9f75a398863d174a78b66dddb824094f5f91378ff",
+      "bytes": 4541
+    },
+    {
+      "source_id": "bashar-index:data/digests/eCxOH-AK1rc.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/eCxOH-AK1rc.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/eCxOH-AK1rc.json",
+      "sha256": "8e426029fa44275241ea59b5232eeff8f8196f191c0ca0ab9af5227e1d74e8c5",
+      "bytes": 10466
+    },
+    {
+      "source_id": "bashar-index:data/digests/egu6iDTj2ys.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/egu6iDTj2ys.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/egu6iDTj2ys.json",
+      "sha256": "8292cb81d5e8a4e72906864844cb5bc7b39100e35ebed216de9dd6ac405c29fd",
+      "bytes": 13782
+    },
+    {
+      "source_id": "bashar-index:data/digests/fOi0W9_JEWM.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/fOi0W9_JEWM.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/fOi0W9_JEWM.json",
+      "sha256": "b3cf544a5b26286883c0cb9beac92932119b530e9814f8ee3e30a2701015c481",
+      "bytes": 4579
+    },
+    {
+      "source_id": "bashar-index:data/digests/fZmY4xS_qXE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/fZmY4xS_qXE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/fZmY4xS_qXE.json",
+      "sha256": "836e8c00949534629073c76a1f0c539582af376c754a6ddb330206d6c34e2d17",
+      "bytes": 5185
+    },
+    {
+      "source_id": "bashar-index:data/digests/hFC4F3JO33M.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/hFC4F3JO33M.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/hFC4F3JO33M.json",
+      "sha256": "3fcfc9640b9c8aacbec6d4a75fcd44a84de2c7ac5b541a7d60b93a2bede519d2",
+      "bytes": 7494
+    },
+    {
+      "source_id": "bashar-index:data/digests/hTlU_M_R0eE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/hTlU_M_R0eE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/hTlU_M_R0eE.json",
+      "sha256": "e705f125fbd595d9014ece2609d916827493c99b6cd1cb93a9bb89a1ad055156",
+      "bytes": 16612
+    },
+    {
+      "source_id": "bashar-index:data/digests/hmX3hlNJBjU.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/hmX3hlNJBjU.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/hmX3hlNJBjU.json",
+      "sha256": "d52b0e14479c1cd23c6da1a6ffcedff765417de753cd1e3341aca6935442cbcc",
+      "bytes": 13786
+    },
+    {
+      "source_id": "bashar-index:data/digests/iq2QpcqHlmw.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/iq2QpcqHlmw.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/iq2QpcqHlmw.json",
+      "sha256": "ed7984b4e1041084ad886e6798f063d51c9d0735d53b4a6d7fe6f49a9d6845d8",
+      "bytes": 3407
+    },
+    {
+      "source_id": "bashar-index:data/digests/jQbxp4e6bfg.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/jQbxp4e6bfg.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/jQbxp4e6bfg.json",
+      "sha256": "eb1547f94d9775678dd6c6b6fc3246c80f39c9e42a08136eb7bcf2c4d8c76e04",
+      "bytes": 14259
+    },
+    {
+      "source_id": "bashar-index:data/digests/ja8BrsruFOo.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/ja8BrsruFOo.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/ja8BrsruFOo.json",
+      "sha256": "a5aebf90fc217ddf12c4bfe7580dc012112c38f8d973ee673c38fba19ee8dce4",
+      "bytes": 14426
+    },
+    {
+      "source_id": "bashar-index:data/digests/jdzErS12DvU.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/jdzErS12DvU.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/jdzErS12DvU.json",
+      "sha256": "6156eb603023217cb946cf487d41635ad6b057350fc182b9b41e3a7d3b9a11b3",
+      "bytes": 13973
+    },
+    {
+      "source_id": "bashar-index:data/digests/ji9rMw37o2M.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/ji9rMw37o2M.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/ji9rMw37o2M.json",
+      "sha256": "0fefd670a9d027b9cebb9f01ecbbfdcdf80419b84a000367c5ea7c4c80404a09",
+      "bytes": 8663
+    },
+    {
+      "source_id": "bashar-index:data/digests/k0lWJ2B90-I.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/k0lWJ2B90-I.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/k0lWJ2B90-I.json",
+      "sha256": "98cff969c4c05317f9e25d8069808eca90c8eddd8d00dc16e18c243d45333954",
+      "bytes": 3436
+    },
+    {
+      "source_id": "bashar-index:data/digests/kPWOUEtUx2Y.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/kPWOUEtUx2Y.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/kPWOUEtUx2Y.json",
+      "sha256": "167d656beccf0232e580686a94f92043865a19313e2091da186b79d1ded92f1d",
+      "bytes": 7309
+    },
+    {
+      "source_id": "bashar-index:data/digests/kvU9mCJr-eo.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/kvU9mCJr-eo.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/kvU9mCJr-eo.json",
+      "sha256": "22b873b1409a77932a05e49ffbceba27dd115b1ef93df1135e479cc4cce28f12",
+      "bytes": 8680
+    },
+    {
+      "source_id": "bashar-index:data/digests/lLFUTAVah30.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/lLFUTAVah30.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/lLFUTAVah30.json",
+      "sha256": "b48e0c58cc7e456e9dce4a1c667d8c8ebe1e484c3239463cecab8a63aaf2f258",
+      "bytes": 14660
+    },
+    {
+      "source_id": "bashar-index:data/digests/mgSgI0ElfTI.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/mgSgI0ElfTI.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/mgSgI0ElfTI.json",
+      "sha256": "b6a406c5731374e6b74910d624a511ab3cd4fa04d574402ef55bcf08b6928bdd",
+      "bytes": 13868
+    },
+    {
+      "source_id": "bashar-index:data/digests/mk_yQrOQHJs.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/mk_yQrOQHJs.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/mk_yQrOQHJs.json",
+      "sha256": "2bcce50c12b71dfd5ffefb7f746edcb695bb6488e523ae9825731684d8344477",
+      "bytes": 13595
+    },
+    {
+      "source_id": "bashar-index:data/digests/mzcFoYUvbOE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/mzcFoYUvbOE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/mzcFoYUvbOE.json",
+      "sha256": "e428f25cfe2185ba894a2755d6499a19db7e7c2aeeaba110811a9379e73bafd2",
+      "bytes": 6597
+    },
+    {
+      "source_id": "bashar-index:data/digests/os4a7-7bnLw.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/os4a7-7bnLw.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/os4a7-7bnLw.json",
+      "sha256": "2fac64da12142cd1816274321cbb7d103e420c271cc2592ed1dcebf3f4836e51",
+      "bytes": 14742
+    },
+    {
+      "source_id": "bashar-index:data/digests/ozHG5P7fY5I.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/ozHG5P7fY5I.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/ozHG5P7fY5I.json",
+      "sha256": "2d843df88b66b74050c2dc1dabdd98b8b728fcc19c8543c8a656ff428acf34cf",
+      "bytes": 3897
+    },
+    {
+      "source_id": "bashar-index:data/digests/p8JC21bFf5M.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/p8JC21bFf5M.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/p8JC21bFf5M.json",
+      "sha256": "cf903b66fa59442d28026dc3e8114f9e06523f3ccdf66f88111b2df18236d4a2",
+      "bytes": 13886
+    },
+    {
+      "source_id": "bashar-index:data/digests/pfB4F7uAjwE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/pfB4F7uAjwE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/pfB4F7uAjwE.json",
+      "sha256": "5c6f384fe161eaf03963592f9e277be7fcd7121cb38521c9d36364ce542dcea9",
+      "bytes": 13326
+    },
+    {
+      "source_id": "bashar-index:data/digests/sFjR-VFy4tE.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/sFjR-VFy4tE.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/sFjR-VFy4tE.json",
+      "sha256": "f422c42718a7af84408514c5162604fbb6145c0ff128a5a134eada45a02c9279",
+      "bytes": 15536
+    },
+    {
+      "source_id": "bashar-index:data/digests/tYAnYpeyWTc.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/tYAnYpeyWTc.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/tYAnYpeyWTc.json",
+      "sha256": "76e3fc98aac0d636d487e3d7f89379ee15dce569d764a2fdc42860decd30df0a",
+      "bytes": 3278
+    },
+    {
+      "source_id": "bashar-index:data/digests/tskKYl3w0J8.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/tskKYl3w0J8.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/tskKYl3w0J8.json",
+      "sha256": "9dcd4220b7ee5ab4ab15b8982caf696e0a42ecc929691c22c6434b7362d78112",
+      "bytes": 14946
+    },
+    {
+      "source_id": "bashar-index:data/digests/ufzO0sbNICQ.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/ufzO0sbNICQ.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/ufzO0sbNICQ.json",
+      "sha256": "31a806c66e4eba76e96edf64ac1b16dd05397dd05b4cc2226ab0af05c832bbd3",
+      "bytes": 12485
+    },
+    {
+      "source_id": "bashar-index:data/digests/vrv3J-ri804.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/vrv3J-ri804.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/vrv3J-ri804.json",
+      "sha256": "bca4110a8b3729c400439a7a066113d65632ff3e5b31d59c560047d9692f6bcb",
+      "bytes": 12854
+    },
+    {
+      "source_id": "bashar-index:data/digests/wCZ1Lib1_cQ.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/wCZ1Lib1_cQ.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/wCZ1Lib1_cQ.json",
+      "sha256": "ce72da40994e5bb361673a167f8f0aedd9dc911b8880df1e563bb30d9e874df8",
+      "bytes": 4617
+    },
+    {
+      "source_id": "bashar-index:data/digests/wwkC86EEu1s.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/wwkC86EEu1s.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/wwkC86EEu1s.json",
+      "sha256": "c93c3f22c7f24037c8c61e17b4eb4d8ed200d69e974c73fcb662cc1782ac06ff",
+      "bytes": 14105
+    },
+    {
+      "source_id": "bashar-index:data/digests/y0-_YOFU8eQ.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/y0-_YOFU8eQ.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/y0-_YOFU8eQ.json",
+      "sha256": "58903489331f04f8a1d52d75513266c231a8d179f2fc307667c665ee5160ca4f",
+      "bytes": 11827
+    },
+    {
+      "source_id": "bashar-index:data/digests/ygzBrMyMAQA.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/ygzBrMyMAQA.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/ygzBrMyMAQA.json",
+      "sha256": "eb286800d8394d744ced45aa72c3046812364cb3e49b77c5a80fbd137ec228b4",
+      "bytes": 16663
+    },
+    {
+      "source_id": "bashar-index:data/digests/yx5hg3wTESs.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/yx5hg3wTESs.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/yx5hg3wTESs.json",
+      "sha256": "c6514ea50c4c55977a54faa9f9ef4a251580e870c62da76a31fb1fcd7232c0ac",
+      "bytes": 5856
+    },
+    {
+      "source_id": "bashar-index:data/digests/zOcZDBhRaOQ.json",
+      "repository": "bashar-index",
+      "origin_path": "data/digests/zOcZDBhRaOQ.json",
+      "snapshot_path": "sourcepins/bashar-index/data/digests/zOcZDBhRaOQ.json",
+      "sha256": "7491dd0cd549caf84ba436e64eb60346cf14d2f245e5027d66bf3acf166c30c7",
+      "bytes": 14789
+    },
+    {
+      "source_id": "bashar-index:data/divine_light_vibes_channel.json",
+      "repository": "bashar-index",
+      "origin_path": "data/divine_light_vibes_channel.json",
+      "snapshot_path": "sourcepins/bashar-index/data/divine_light_vibes_channel.json",
+      "sha256": "ddd29f84a8eb08b4993e2019fa3650f2ff1386a9b1654550254c499bbe8cb199",
+      "bytes": 11971
+    },
+    {
+      "source_id": "bashar-index:data/events_upcoming.json",
+      "repository": "bashar-index",
+      "origin_path": "data/events_upcoming.json",
+      "snapshot_path": "sourcepins/bashar-index/data/events_upcoming.json",
+      "sha256": "8e5f50f3c34b9652a70096c2b9c36542ea4dc428283d89adeda615d4571f177c",
+      "bytes": 9947
+    },
+    {
+      "source_id": "bashar-index:data/glossary.json",
+      "repository": "bashar-index",
+      "origin_path": "data/glossary.json",
+      "snapshot_path": "sourcepins/bashar-index/data/glossary.json",
+      "sha256": "c0573711bf820642d017cc55c049cf68945f0185450a4d628373ed3e44bb4faf",
+      "bytes": 54536
+    },
+    {
+      "source_id": "bashar-index:data/key_terms.csv",
+      "repository": "bashar-index",
+      "origin_path": "data/key_terms.csv",
+      "snapshot_path": "sourcepins/bashar-index/data/key_terms.csv",
+      "sha256": "9535aca0323900e347e98543c25e26755d339dda789bbe40a77d86079a689663",
+      "bytes": 1618
+    },
+    {
+      "source_id": "bashar-index:data/official_channels.md",
+      "repository": "bashar-index",
+      "origin_path": "data/official_channels.md",
+      "snapshot_path": "sourcepins/bashar-index/data/official_channels.md",
+      "sha256": "f0cd7b5c8ae95c6067135444a1bb4fd762ad6b77746e731fcceff74cfac4c7e2",
+      "bytes": 6551
+    },
+    {
+      "source_id": "bashar-index:data/podcasts.json",
+      "repository": "bashar-index",
+      "origin_path": "data/podcasts.json",
+      "snapshot_path": "sourcepins/bashar-index/data/podcasts.json",
+      "sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191",
+      "bytes": 36390
+    },
+    {
+      "source_id": "bashar-index:data/recordings.csv",
+      "repository": "bashar-index",
+      "origin_path": "data/recordings.csv",
+      "snapshot_path": "sourcepins/bashar-index/data/recordings.csv",
+      "sha256": "f42dd8f2e14bd7086d5d45031963bbb5f7ac30864a73a4520d3b86016ab1e93f",
+      "bytes": 15973
+    },
+    {
+      "source_id": "bashar-index:data/session_catalog.csv",
+      "repository": "bashar-index",
+      "origin_path": "data/session_catalog.csv",
+      "snapshot_path": "sourcepins/bashar-index/data/session_catalog.csv",
+      "sha256": "cf07c7660dcbafefb60e00295bb8927598bbf56d1309353bbc27f15a7dbb49a1",
+      "bytes": 257074
+    },
+    {
+      "source_id": "bashar-index:data/skeptical_coverage.md",
+      "repository": "bashar-index",
+      "origin_path": "data/skeptical_coverage.md",
+      "snapshot_path": "sourcepins/bashar-index/data/skeptical_coverage.md",
+      "sha256": "561fb5d7532eceee6ada5f4cafdb2d4663dfad925e27aac36c6ff7241c20ecae",
+      "bytes": 7520
+    },
+    {
+      "source_id": "bashar-index:data/teachings.md",
+      "repository": "bashar-index",
+      "origin_path": "data/teachings.md",
+      "snapshot_path": "sourcepins/bashar-index/data/teachings.md",
+      "sha256": "66f31aa006f7dd14585c4b4fd4541f21e8b5470769b0ba07e4131762812d5c51",
+      "bytes": 61368
+    },
+    {
+      "source_id": "bashar-index:data/timeline.json",
+      "repository": "bashar-index",
+      "origin_path": "data/timeline.json",
+      "snapshot_path": "sourcepins/bashar-index/data/timeline.json",
+      "sha256": "a1eb79783e1d0ad7563df518fc749fd5eba944f04ba1fb3d0ef13497de1c99c6",
+      "bytes": 19201
+    },
+    {
+      "source_id": "bashar-index:data/topic_share.csv",
+      "repository": "bashar-index",
+      "origin_path": "data/topic_share.csv",
+      "snapshot_path": "sourcepins/bashar-index/data/topic_share.csv",
+      "sha256": "3652dbd7f4b5275cb2412e93a95fe91b8f2366ebfb286e567889aabf95cd2dd2",
+      "bytes": 1051
+    },
+    {
+      "source_id": "bashar-index:data/topics.py",
+      "repository": "bashar-index",
+      "origin_path": "data/topics.py",
+      "snapshot_path": "sourcepins/bashar-index/data/topics.py",
+      "sha256": "8699e5b86a79333a3776e81b411ffe2aa02ce183db5142a8de51f90582d64c90",
+      "bytes": 29815
+    },
+    {
+      "source_id": "bashar-index:data/videos.json",
+      "repository": "bashar-index",
+      "origin_path": "data/videos.json",
+      "snapshot_path": "sourcepins/bashar-index/data/videos.json",
+      "sha256": "fbd3610ead8a53448cd6b4058ac5a13fb285f9eda65266f0ff21884694d275b5",
+      "bytes": 755688
+    },
+    {
+      "source_id": "bashar-index:index.html",
+      "repository": "bashar-index",
+      "origin_path": "index.html",
+      "snapshot_path": "sourcepins/bashar-index/index.html",
+      "sha256": "80e02ffc7a30cce47753c9cef761bfea3cad82d7b3b67826ec27500d393c840c",
+      "bytes": 2088727
+    },
+    {
+      "source_id": "channels-ET:dist/analysis/data.json",
+      "repository": "channels-ET",
+      "origin_path": "dist/analysis/data.json",
+      "snapshot_path": "sourcepins/channels-ET/dist/analysis/data.json",
+      "sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+      "bytes": 3906689
+    },
+    {
+      "source_id": "channels-ET:dist/data.json",
+      "repository": "channels-ET",
+      "origin_path": "dist/data.json",
+      "snapshot_path": "sourcepins/channels-ET/dist/data.json",
+      "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a",
+      "bytes": 2931464
+    },
+    {
+      "source_id": "channels-ET:research/expansion/acquisition/collection-plan.json",
+      "repository": "channels-ET",
+      "origin_path": "research/expansion/acquisition/collection-plan.json",
+      "snapshot_path": "sourcepins/channels-ET/research/expansion/acquisition/collection-plan.json",
+      "sha256": "c772a6aa0fe9dd8d73ab51de68d8a99896cb1c6cbc3df1756a1f94b1104258da",
+      "bytes": 694655
+    }
+  ]
+}

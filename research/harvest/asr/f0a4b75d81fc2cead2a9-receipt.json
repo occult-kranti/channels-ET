@@ -1,0 +1,95 @@
+{
+  "status": "completed",
+  "checkedAt": "2026-10-23T22:53:56.664634+00:00",
+  "sourceId": "rss-425328515-addbc47ecbd7",
+  "sourceUrl": "https://afp-9384.calisto.simplecastaudio.com/35621d45-8bc2-42d2-a1f7-8e2805787cb7/episodes/7a6dbd04-aa77-47c0-bf5d-14a4debfe23f/audio/128/default.mp3?aid=rss_feed&awCollectionId=35621d45-8bc2-42d2-a1f7-8e2805787cb7&awEpisodeId=7a6dbd04-aa77-47c0-bf5d-14a4debfe23f&feed=ftB6Gihc",
+  "sourceKind": "publisher_original_audio",
+  "sourceAudioPath": "/workspace/channels-et-raw/publisher-audio/rss-425328515-addbc47ecbd7.mp3",
+  "sourceAudioSha256": "f0a4b75d81fc2cead2a9d90e0c81167b57dbca0f6a3e6cd465051f1accc5b2bd",
+  "sourceAudioDurationSeconds": 6595.291378,
+  "publisherAcquisitionRecord": {
+    "sourceId": "rss-425328515-addbc47ecbd7",
+    "audioSha256": "f0a4b75d81fc2cead2a9d90e0c81167b57dbca0f6a3e6cd465051f1accc5b2bd",
+    "enclosureUrl": "https://afp-9384.calisto.simplecastaudio.com/35621d45-8bc2-42d2-a1f7-8e2805787cb7/episodes/7a6dbd04-aa77-47c0-bf5d-14a4debfe23f/audio/128/default.mp3?aid=rss_feed&awCollectionId=35621d45-8bc2-42d2-a1f7-8e2805787cb7&awEpisodeId=7a6dbd04-aa77-47c0-bf5d-14a4debfe23f&feed=ftB6Gihc"
+  },
+  "sourceValidation": {
+    "validation_outcome": "saved_complete_publisher_response_with_rss_metadata_warning",
+    "rss_duration_seconds": 6595,
+    "duration_delta_from_rss_seconds": 0.2913779999998951,
+    "rss_duration_within_tolerance": true
+  },
+  "transcribedScope": "full_decoded_audio",
+  "clipSeconds": null,
+  "lastSegmentEndSeconds": 6576.5,
+  "segments": 2444,
+  "words": 19916,
+  "modelId": "Systran/faster-whisper-tiny.en",
+  "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+  "device": "cpu",
+  "computeType": "int8",
+  "cpuThreads": 2,
+  "versions": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.3",
+    "av": "16.1.0"
+  },
+  "executionSignature": "326d1cc5cb133302ef664c39580aa98fc10e60ddcabc1f469edd19c7ce642a1f",
+  "executionProtocol": {
+    "sourceId": "rss-425328515-addbc47ecbd7",
+    "sourceUrl": "https://afp-9384.calisto.simplecastaudio.com/35621d45-8bc2-42d2-a1f7-8e2805787cb7/episodes/7a6dbd04-aa77-47c0-bf5d-14a4debfe23f/audio/128/default.mp3?aid=rss_feed&awCollectionId=35621d45-8bc2-42d2-a1f7-8e2805787cb7&awEpisodeId=7a6dbd04-aa77-47c0-bf5d-14a4debfe23f&feed=ftB6Gihc",
+    "audioSha256": "f0a4b75d81fc2cead2a9d90e0c81167b57dbca0f6a3e6cd465051f1accc5b2bd",
+    "modelManifestSha256": "60452b6a810c402781341181e9bd655c5d56ba2b3161da5076b8a9a25b937076",
+    "versions": {
+      "faster-whisper": "1.2.1",
+      "ctranslate2": "4.8.3",
+      "av": "16.1.0"
+    },
+    "cpuThreads": 2,
+    "decoding": {
+      "language": "en",
+      "beam_size": 1,
+      "vad_filter": true,
+      "condition_on_previous_text": false
+    },
+    "scriptSha256": "f42b8bcf2ad8f69238119c2da16022d310d99b0c02af40aa7214b9c054ee3a1a"
+  },
+  "cudaDevices": 0,
+  "secondsElapsed": 151.16600960200003,
+  "realTimeFactor": 0.02292029281772849,
+  "decoding": {
+    "language": "en",
+    "beam_size": 1,
+    "vad_filter": true,
+    "condition_on_previous_text": false
+  },
+  "reportedLanguage": "en",
+  "outputs": [
+    {
+      "name": "segments.jsonl",
+      "bytes": 429599,
+      "sha256": "2685fe336a52ffcc1410a8db93860f051284fce4f51bf67e9e3f12c80ae44be8"
+    },
+    {
+      "name": "transcript.txt",
+      "bytes": 105644,
+      "sha256": "ccdd6aa33b9d23f97e229a41dee2bc6a35459e66ce3e27482bfc2bedc59dea47"
+    },
+    {
+      "name": "transcript.srt",
+      "bytes": 192520,
+      "sha256": "8be91b39510b79c826009f12f549333572f0b82818bf632049bd4ffdc83bacc8"
+    }
+  ],
+  "decoderDurationSeconds": 6595.2914375,
+  "durationAfterVadSeconds": 6565.7714375,
+  "humanReviewed": false,
+  "speakerDiarizationPerformed": false,
+  "youtubeVideoEditionVerified": false,
+  "limitations": [
+    "Automatic English-only transcription; names, claims, punctuation and timestamps are unverified.",
+    "Full decoded audio is not proof that speech recognition captured every spoken word.",
+    "Primary audio publication and any indexed YouTube upload are distinct editions unless verified.",
+    "Raw audio and transcript text remain private cloud files, not part of the public Git/Pages release."
+  ],
+  "transcriptDirectory": "/workspace/channels-et-raw/transcripts/f0a4b75d81fc2cead2a9"
+}

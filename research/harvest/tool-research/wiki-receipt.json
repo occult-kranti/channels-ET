@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": "wiki-ejs",
+      "source_url": "https://github.com/yt-dlp/yt-dlp/wiki/EJS",
+      "git_url": "https://github.com/yt-dlp/yt-dlp.wiki.git",
+      "commit": "ee29d169f44e2185bf1e05419ba3d15864c0367e",
+      "path": "EJS.md",
+      "bytes": 11053,
+      "sha256": "0b07ba789625c045d6e215df427af2eee1d3e444d5359b07dd81108fbbbe83ea",
+      "retrieved_at": "2026-10-23T22:18:09.307745+00:00",
+      "retrieval": "ordinary shallow git clone through inherited proxy; no credential extraction"
+    },
+    {
+      "id": "wiki-faq",
+      "source_url": "https://github.com/yt-dlp/yt-dlp/wiki/FAQ",
+      "git_url": "https://github.com/yt-dlp/yt-dlp.wiki.git",
+      "commit": "ee29d169f44e2185bf1e05419ba3d15864c0367e",
+      "path": "FAQ.md",
+      "bytes": 18605,
+      "sha256": "1322595f80bbcac827ab132cb2a7500350aa61706fe58c2195d4f678f9e63b1a",
+      "retrieved_at": "2026-10-23T22:18:09.307869+00:00",
+      "retrieval": "ordinary shallow git clone through inherited proxy; no credential extraction"
+    },
+    {
+      "id": "wiki-installation",
+      "source_url": "https://github.com/yt-dlp/yt-dlp/wiki/Installation",
+      "git_url": "https://github.com/yt-dlp/yt-dlp.wiki.git",
+      "commit": "ee29d169f44e2185bf1e05419ba3d15864c0367e",
+      "path": "Installation.md",
+      "bytes": 5847,
+      "sha256": "fdb4e03bbbb612ef63595ac92436e40273cfef90cbce652e5fa9f23d41e406d1",
+      "retrieved_at": "2026-10-23T22:18:09.307953+00:00",
+      "retrieval": "ordinary shallow git clone through inherited proxy; no credential extraction"
+    }
+  ]
+}

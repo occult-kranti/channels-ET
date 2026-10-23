@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-23T22:20:47.395083+00:00",
+  "python": "Python 3.12.14",
+  "venv": "/workspace/channels-et-harvest-venv",
+  "yt_dlp": "2026.10.21",
+  "node": "v24.19.0",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ejsPackageVersion": "0.8.0",
+  "pipCheck": "PASS",
+  "youtubeNetworkRetriedByClient": false,
+  "networkDiagnostics": {
+    "retainedHistory": "not_found",
+    "records": 0,
+    "legacyDiagnosticEndpoint": "INVALID_ARGUMENT: use environment_diagnostics"
+  },
+  "sourcePolicyObservations": "Root observed unrestricted/enforced revision5; independent roles observed unrestricted/unknown revision5. Actual ordinary watch request returned proxy CONNECT403; successful public YouTube access is not established."
+}

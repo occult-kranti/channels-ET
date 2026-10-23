@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "worker_sha256": "b7093d84e9ef3abecb367e0df2fc3eed42ce8d99cb1675202ac9cc83e69ef9c7",
+  "verifier_sha256": "1512afba19a7fe79c5d9d21951948350a5671e305819baaffa98173009a52b92",
+  "checks_passed": 18,
+  "checks_total": 18,
+  "checks": [
+    {
+      "name": "missing completed artifact is not trusted",
+      "status": "PASS",
+      "detail": "Deleted output invalidated and source job became claimable."
+    },
+    {
+      "name": "resume full hash catches same-size corruption",
+      "status": "PASS",
+      "detail": "Same-sized, timestamp-preserved corruption detected by full resume hash."
+    },
+    {
+      "name": "partial caption jobs resume",
+      "status": "PASS",
+      "detail": "Partial captions remain resumable after backoff."
+    },
+    {
+      "name": "one overrun cannot consume another reservation",
+      "status": "PASS",
+      "detail": "150 actual + 100 remaining + 100 proposed exceeds quota 300."
+    },
+    {
+      "name": "concurrent JSON exports use unique temporary paths",
+      "status": "PASS",
+      "detail": "Two coordinated atomic replacements complete without a shared-temp collision."
+    },
+    {
+      "name": "transactional concurrent claims deduplicate jobs",
+      "status": "PASS",
+      "detail": "Sixteen simultaneous claim calls lease exactly twelve distinct jobs."
+    },
+    {
+      "name": "stale lease cannot finalize another owner",
+      "status": "PASS",
+      "detail": "Stale owner refused before state finalization."
+    },
+    {
+      "name": "live inline work survives lease recovery",
+      "status": "PASS",
+      "detail": "Expired wall-clock lease does not reclaim a live matching owner process."
+    },
+    {
+      "name": "format unavailable schedules typed audio fallback",
+      "status": "PASS",
+      "detail": "media_size_or_format_limit"
+    },
+    {
+      "name": "size-skipped zero-exit artifact schedules typed audio fallback",
+      "status": "PASS",
+      "detail": "media_size_or_format_limit"
+    },
+    {
+      "name": "nested channel containers retain IDs and pending children",
+      "status": "PASS",
+      "detail": "Inline IDs retained; tab URL queued; parent not complete before child."
+    },
+    {
+      "name": "unresolved bounded inline container prevents completion",
+      "status": "PASS",
+      "detail": "A bounded unresolved inline listing cannot certify a complete public listing tree."
+    },
+    {
+      "name": "verified partial caption body is reused within reservation",
+      "status": "PASS",
+      "detail": "Verified existing near-cap track uses zero new body requests and zero extra bytes."
+    },
+    {
+      "name": "caption circuit cancellation is not a failed parse",
+      "status": "PASS",
+      "detail": "Circuit-cancelled caption work remains retryable without an IndexError."
+    },
+    {
+      "name": "attached album art cannot count as a video",
+      "status": "PASS",
+      "detail": "An audio stream plus attached cover image is not certified as audiovisual."
+    },
+    {
+      "name": "invalidated completed media cannot be silently re-certified",
+      "status": "PASS",
+      "detail": "Changed media retained in quarantine; a zero-output client cannot re-certify it."
+    },
+    {
+      "name": "explicit proxy denial remains a hard run stop",
+      "status": "PASS",
+      "detail": "Known denial rejected; no downstream client or source call was made."
+    },
+    {
+      "name": "worker bytes remained unchanged during audit",
+      "status": "PASS"
+    }
+  ],
+  "source_network_requests": 0,
+  "scope": "Independent synthetic control regressions; not successful live collection, source interpretation or human validation."
+}

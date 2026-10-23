@@ -1,0 +1,59 @@
+{
+  "scope": "Independent RSS original-publisher page and HEAD only; no audio downloaded, no Youtube requests",
+  "records": [
+    {
+      "id": "soultalk-publisher-page",
+      "requested_url": "https://podcast.kuteblackson.com/darryl-anka",
+      "method": "GET",
+      "attempted_at": "2026-10-23T22:20:26.104748+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "soultalk-enclosure-head",
+      "requested_url": "https://traffic.libsyn.com/secure/kuteblacksonsoultalk/ST_233.mp3?dest-id=511128",
+      "method": "HEAD",
+      "attempted_at": "2026-10-23T22:20:26.105454+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://content.libsyn.com/p/7/1/e/71eb6238eafe7305/ST_233.mp3",
+      "content_type": "audio/mpeg",
+      "content_length": "62146296",
+      "accept_ranges": "bytes",
+      "etag": "\"8b8057d116bf50ea2918f236d2188c1a\"",
+      "last_modified": "Wed, 16 Mar 2022 12:05:33 GMT",
+      "final_query_keys_only": [
+        "Expires",
+        "Key-Pair-Id",
+        "Signature",
+        "c_id",
+        "cs_id",
+        "destination_id",
+        "response-content-type"
+      ],
+      "ephemeral_redirect_query_omitted": true,
+      "stable_url_policy": "Use original RSS enclosure URL; do not persist or reuse expiring signed CDN redirects."
+    },
+    {
+      "id": "impossible-enclosure-head",
+      "requested_url": "https://episodes.captivate.fm/episode/595aec41-d00f-4119-910b-f32ff9e50235.mp3",
+      "method": "HEAD",
+      "attempted_at": "2026-10-23T22:20:26.105884+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://podcasts.captivate.fm/media/c7e6b601-19f7-4752-a8ff-3dd59ee19624/Anka-V2.mp3",
+      "content_type": "audio/mpeg",
+      "content_length": "157323633",
+      "accept_ranges": "bytes",
+      "etag": "\"f2941db256764ed45c376951e24abbb2-16\"",
+      "last_modified": "Fri, 06 Mar 2026 18:24:51 GMT"
+    }
+  ]
+}

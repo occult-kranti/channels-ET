@@ -1,0 +1,24 @@
+{
+  "source_id": "rss-1546456269-353036e21117",
+  "status": "applied",
+  "reviewed_at": "2026-10-23T22:45:11.304733+00:00",
+  "decision": "saved_complete_publisher_response_with_rss_metadata_warning",
+  "review_roles": [
+    "Independent manuscript/source reviewer",
+    "Coordinator"
+  ],
+  "human_review": false,
+  "independent_audit_path": "research/harvest/audits/rss-metadata-disagreement-review.json",
+  "independent_audit_sha256": "30bb33b5c4f73f8c43b65bae3b5ac32ede3358677b021ada35954d8e999357eb",
+  "original_strict_record_sha256": "d7881a2f7fc0266e93d3c8c1e9d0126838b6be528fda68ea3c85efa280d65939",
+  "final_audio_sha256": "f3b7cc1ba691e1ee5532847daadfe038825c37712e23a57d2d2ea606473ca897",
+  "final_audio_bytes": 59230133,
+  "rss_enclosure_length_bytes": 54377325,
+  "rss_size_delta_bytes": 4852808,
+  "final_audio_duration_seconds": 3696.979438,
+  "rss_duration_seconds": 3398,
+  "duration_delta_seconds": 298.97943799999985,
+  "youtube_edition_equivalence_verified": false,
+  "strict_attempt_preserved": true,
+  "additional_network_requests": 0
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "schema_sha256": "c857afc7cc1818953f3138c15a079cd9d37c986252f1c597b59c44051f646dee",
+  "jsonschema_version": "4.26.0",
+  "records_validated": {
+    "videos.jsonl": 942,
+    "edges.jsonl": 3654,
+    "podcast-sources.jsonl": 48,
+    "channel-routes.json": 362
+  },
+  "failed": []
+}

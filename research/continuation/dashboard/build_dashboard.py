@@ -10,6 +10,9 @@ OUT = ROOT / 'dist/research'
 OUT.mkdir(exist_ok=True)
 for name in ('index.html', 'app.js', 'styles.css'):
     shutil.copyfile(HERE / name, OUT / name)
+harvest_view = ROOT / 'research/harvest/dashboard/harvest.js'
+if harvest_view.exists():
+    shutil.copyfile(harvest_view, OUT / 'harvest.js')
 
 def read(path):
     return json.loads(path.read_text()) if path.exists() else None
@@ -50,10 +53,39 @@ bundle = {
     'newFamilyLabels': read(CONT / 'models/qwen35-content-label-results.json'),
     'newFamilyLabelPredictions': read(CONT / 'models/qwen35-content-label-predictions.json'),
     'newFamilyLabelProtocol': read(CONT / 'models/qwen35-content-label-protocol.json'),
+    'harvest': {'run': read(ROOT / 'research/harvest/summary.json'),
+                'inventory': read(ROOT / 'research/harvest/inventory/summary.json'),
+                'jobs': read(ROOT / 'research/harvest/jobs.json'),
+                'attempts': read(ROOT / 'research/harvest/attempts.json'),
+                'saved': read(ROOT / 'research/harvest/artifacts.json'),
+                'channels': read(ROOT / 'research/harvest/inventory/channel-routes.json'),
+                'rootProbe': read(ROOT / 'research/harvest/access/preflight-2026-10-23-revision5.json'),
+                'publisherAudio': read(ROOT / 'research/harvest/publisher_sources/publisher-summary.json'),
+                'asr': read(ROOT / 'research/harvest/asr/summary.json')},
     'acquisition': None,
     'artifacts': [],
     'figures': [],
 }
+
+# Keep the interactive status payload compact. Full input/provenance and lease
+# details remain in the separately downloadable, byte-bound job manifest.
+harvest_jobs = bundle['harvest']['jobs']
+if harvest_jobs and isinstance(harvest_jobs.get('records'), list):
+    view_fields = ('id', 'kind', 'target_id', 'source_url', 'status', 'attempt_count',
+                   'cursor_start', 'listing_end', 'complete_returned_public_listing_tree',
+                   'error_class', 'error', 'updated_at', 'next_action')
+    view_records = []
+    for row in harvest_jobs['records']:
+        record = {key: row[key] for key in view_fields if key in row}
+        item = row.get('input') or {}
+        record['input'] = {key: item[key] for key in ('title', 'publisher', 'people', 'entities') if key in item}
+        result = row.get('result') or {}
+        if row.get('kind') == 'channel':
+            record['result'] = {key: result[key] for key in ('complete_returned_public_listing_tree', 'cursor_start', 'listing_end') if key in result}
+        view_records.append(record)
+    bundle['harvest']['jobs'] = {'schema_version': harvest_jobs.get('schema_version'),
+                                 'projection': 'Dashboard operation fields; full source and lease provenance in harvest-jobs.json',
+                                 'records': view_records}
 
 # Only explicit derived result files are eligible for publication. Never glob
 # local training corpora, model/checkpoint files or caption directories.
@@ -97,6 +129,20 @@ if figure_manifest:
                                       'title': f['title'], 'caption': f['caption']})
 published_targets = set()
 for source, target, label, kind in [
+    ('research/harvest/summary.json', 'harvest-summary.json', 'Latest exported harvest run', 'Dated operation states, saved bytes and access outcomes'),
+    ('research/harvest/jobs.json', 'harvest-jobs.json', 'Harvest job ledger', 'Recorded queues, attempts and terminal job states'),
+    ('research/harvest/attempts.json', 'harvest-attempts.json', 'Harvest operation attempts', 'Worker leases; each operation can issue zero or several HTTP requests'),
+    ('research/harvest/artifacts.json', 'harvest-artifacts.json', 'Saved raw-file manifest', 'Hashes and local-only paths; excludes raw media and captions'),
+    ('research/harvest/inventory/summary.json', 'harvest-inventory-summary.json', 'Indexed source inventory summary', 'Offline extraction; does not establish source availability'),
+    ('research/harvest/inventory/videos.jsonl', 'harvest-video-inventory.jsonl', 'Complete indexed video inventory', 'Source-linked metadata; indexed does not mean downloaded'),
+    ('research/harvest/inventory/channel-routes.json', 'harvest-channel-routes.json', 'Complete literal account-route inventory', 'Explicit route provenance and known source edges'),
+    ('research/harvest/inventory/edges.jsonl', 'harvest-source-edges.jsonl', 'Inventory source edges', 'Explicit source membership; no display-name identity merges'),
+    ('research/harvest/inventory/queries.jsonl', 'harvest-query-inventory.jsonl', 'Distinct source search queries', 'Recorded query references; not executed search results'),
+    ('research/harvest/inventory/inventory.sqlite', 'harvest-inventory.sqlite', 'Source inventory database', 'Metadata, provenance and explicit edges; SQLite'),
+    ('research/harvest/access/preflight-2026-10-23-revision5.json', 'harvest-root-access-probe.json', 'Dated root watch-page access probe', 'One ordinary watch-page request; not all-video collection attempts'),
+    ('research/harvest/publisher_sources/publisher-summary.json', 'harvest-publisher-audio.json', 'Independent publisher audio inventory', 'Original RSS enclosures; YouTube edition equivalence not established'),
+    ('research/harvest/asr/summary.json', 'harvest-asr-summary.json', 'Automatic publisher-audio transcription receipts', 'Machine ASR metadata; no raw transcript text or human validation'),
+    ('research/harvest/ACQUISITION-REPORT.md', 'harvest-acquisition-report.md', 'Acquisition supplement report', 'Dated source-acquisition report; retained manuscript remains separate'),
     ('research/continuation/analysis/results.json', 'analysis-results.json', 'Continuation analysis results', 'Derived numeric JSON'),
     ('research/continuation/models/results.json', 'model-results.json', 'Local-model experiment results', 'Executed / failed states and outputs'),
     ('research/continuation/models/benchmark-results.json', 'model-results.json', 'Local-model experiment results', 'Executed / failed states and outputs'),

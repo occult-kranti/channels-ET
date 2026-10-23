@@ -1,0 +1,117 @@
+{
+  "auxiliary_media_counts": {
+    "podcast_index_rows": 48,
+    "podcast_rows_with_apple_link": 22,
+    "podcast_rows_with_explicit_youtube_link": 21,
+    "podcast_rows_with_spotify_link": 9,
+    "primary_rss_enclosures_verified_by_this_inventory": 0
+  },
+  "counts": {
+    "channel_routes": 362,
+    "current_analysis_video_ids": 925,
+    "duration_conflict_video_ids": 10,
+    "explicit_relationship_edges": 3654,
+    "historical_plan_channel_routes": 157,
+    "inventory_beyond_current_analysis": 17,
+    "keyword_queries": 597,
+    "malformed_video_url_mentions": 2,
+    "original_analysis_overlap": 104,
+    "original_bashar_root_video_ids": 119,
+    "original_only_video_ids": 15,
+    "playlists": 169,
+    "practitioner_candidates_from_discovery": 106,
+    "practitioner_profiles_from_earlier_atlas": 26,
+    "publisher_account_groups_from_analysis": 256,
+    "routes_in_historical_plan_present": 157,
+    "unique_video_ids": 942,
+    "videos_missing_duration": 61,
+    "videos_with_duration": 881,
+    "videos_with_explicit_route_association": 898,
+    "videos_with_no_explicit_route_association": 44
+  },
+  "download_state": {
+    "attempted": 0,
+    "bytes_saved": 0,
+    "failed": 0,
+    "inventory_only": 942,
+    "queued": 0,
+    "saved": 0,
+    "scope": "This offline inventory; acquisition run ledger is authoritative for executed downloads."
+  },
+  "duration": {
+    "coverage_fraction": 0.935244161358811,
+    "known_hours": 502.10527777777776,
+    "known_seconds": 1807579.0,
+    "selection_rule": "Prefer positive measured current-analysis duration, then explicit podcast duration, then other positive recorded duration; preserve alternatives and conflicts. Never estimate from word count."
+  },
+  "inventory_status": "offline_source_inventory_complete_not_a_platform_crawl",
+  "limitations": [
+    "Indexed links do not establish current availability, permission, playback, a completed download or exhaustive channel coverage.",
+    "Channel routes, account groups, publisher labels, practitioner candidates and actual speakers are distinct units.",
+    "Literal route normalization removes listing suffixes and transport/query variation only; names and undocumented numeric/handle aliases are not merged.",
+    "Explicit route/video associations retain their inherited relation type and may be weaker than a platform-verified uploader identity.",
+    "Original session catalogue rows without YouTube IDs remain catalogue records; 684 sessions is not 684 downloadable YouTube videos.",
+    "Storage estimates use hypothetical constant combined payload bitrates and known durations only, not observed encodings or a bound on all channels."
+  ],
+  "scheduling": {
+    "caption_metadata_concurrency": 2,
+    "deduplication_unit": "YouTube video ID; recording/session duplicates remain unresolved",
+    "initial_media_concurrency": 1,
+    "no_total_size_claim": "Full channel expansion and missing durations are unknown. These bitrate scenarios cover known indexed duration only; overhead, separate redundant encodes and future discoveries add bytes.",
+    "quota_reserve_fraction": 0.15,
+    "recommended_order": [
+      "Public-access preflight",
+      "Enumerate every inherited channel route and playlist without a total-channel completeness claim",
+      "Refresh metadata and unavailable/private/deleted outcomes for unique video IDs",
+      "Save offered captions for all eligible IDs with per-ID outcomes",
+      "Download media in resumable byte-quota batches with stable IDs and one shared download archive"
+    ]
+  },
+  "schema_version": 1,
+  "source_captured_at": "2026-10-23T22:20:16.156862+00:00",
+  "source_manifest_sha256": "ad49be9154a59bed3a72d8ece58724705278e672a5c7a216c5c3cabca3db1c7a",
+  "storage_scenarios": [
+    {
+      "assumed_total_bits_per_second": 64000,
+      "ideal_transfer_hours_at_50mbps": 0.6426947555555556,
+      "known_duration_payload_bytes": 14460632000,
+      "known_duration_payload_gib": 13.467513024806976,
+      "scenario": "audio_64kbps"
+    },
+    {
+      "assumed_total_bits_per_second": 128000,
+      "ideal_transfer_hours_at_50mbps": 1.285389511111111,
+      "known_duration_payload_bytes": 28921264000,
+      "known_duration_payload_gib": 26.935026049613953,
+      "scenario": "audio_128kbps"
+    },
+    {
+      "assumed_total_bits_per_second": 192000,
+      "ideal_transfer_hours_at_50mbps": 1.9280842666666667,
+      "known_duration_payload_bytes": 43381896000,
+      "known_duration_payload_gib": 40.40253907442093,
+      "scenario": "audio_192kbps"
+    },
+    {
+      "assumed_total_bits_per_second": 512000,
+      "ideal_transfer_hours_at_50mbps": 5.141558044444444,
+      "known_duration_payload_bytes": 115685056000,
+      "known_duration_payload_gib": 107.74010419845581,
+      "scenario": "av_512kbps"
+    },
+    {
+      "assumed_total_bits_per_second": 1500000,
+      "ideal_transfer_hours_at_50mbps": 15.063158333333334,
+      "known_duration_payload_bytes": 338921062500,
+      "known_duration_payload_gib": 315.6448365189135,
+      "scenario": "av_1500kbps"
+    },
+    {
+      "assumed_total_bits_per_second": 3500000,
+      "ideal_transfer_hours_at_50mbps": 35.14736944444444,
+      "known_duration_payload_bytes": 790815812500,
+      "known_duration_payload_gib": 736.5046185441315,
+      "scenario": "av_3500kbps"
+    }
+  ]
+}

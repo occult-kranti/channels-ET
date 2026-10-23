@@ -1,0 +1,138 @@
+{
+  "source_index_path": "/workspace/bashar-index/data/podcasts.json",
+  "source_index_sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191",
+  "records": [
+    {
+      "id": "align",
+      "requested_url": "https://itunes.apple.com/lookup?id=988576741&entity=podcast",
+      "attempted_at": "2026-10-23T22:19:20.612061+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://itunes.apple.com/lookup?id=988576741&entity=podcast",
+      "bytes": 1603,
+      "sha256": "fb0200ed5961a1219969719a241781c9697b0bf98b421f743cdab1214ede5f09",
+      "result_count": 1,
+      "catalog": [
+        {
+          "collectionId": 988576741,
+          "collectionName": "Align Podcast",
+          "artistName": "Aaron Alexander",
+          "feedUrl": "https://feeds.megaphone.fm/SSM6025167151",
+          "collectionViewUrl": "https://podcasts.apple.com/us/podcast/align-podcast/id988576741?uo=4"
+        }
+      ]
+    },
+    {
+      "id": "soul-talk",
+      "requested_url": "https://itunes.apple.com/lookup?id=1349934168&entity=podcast",
+      "attempted_at": "2026-10-23T22:19:20.612894+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://itunes.apple.com/lookup?id=1349934168&entity=podcast",
+      "bytes": 1809,
+      "sha256": "5f3498c747c50d8e2680078116d12515c83670cc9532aef82a938a6852aa0594",
+      "result_count": 1,
+      "catalog": [
+        {
+          "collectionId": 1349934168,
+          "collectionName": "SoulTalk with Kute Blackson",
+          "artistName": "Transformational Teacher and National Best-Selling Author",
+          "feedUrl": "https://rss.libsyn.com/shows/98235/destinations/511128.xml",
+          "collectionViewUrl": "https://podcasts.apple.com/us/podcast/soultalk-with-kute-blackson/id1349934168?uo=4"
+        }
+      ]
+    },
+    {
+      "id": "new-thinking-allowed",
+      "requested_url": "https://itunes.apple.com/lookup?id=1435178031&entity=podcast",
+      "attempted_at": "2026-10-23T22:19:20.613491+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://itunes.apple.com/lookup?id=1435178031&entity=podcast",
+      "bytes": 1720,
+      "sha256": "8b7c0ac55deedec3c1b3f654984c1cbab533ba98c8457761d8c46f77fae4c267",
+      "result_count": 1,
+      "catalog": [
+        {
+          "collectionId": 1435178031,
+          "collectionName": "New Thinking Allowed Audio Podcast",
+          "artistName": "New Thinking Allowed Audio Podcast",
+          "feedUrl": "https://feed.podbean.com/jmishlove/feed.xml",
+          "collectionViewUrl": "https://podcasts.apple.com/us/podcast/new-thinking-allowed-audio-podcast/id1435178031?uo=4"
+        }
+      ]
+    },
+    {
+      "id": "impossible-dreams",
+      "requested_url": "https://itunes.apple.com/lookup?id=1841496060&entity=podcast",
+      "attempted_at": "2026-10-23T22:19:21.480634+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://itunes.apple.com/lookup?id=1841496060&entity=podcast",
+      "bytes": 1715,
+      "sha256": "6f1c7c442066efe0dec7ec451239442410fd7511e57b2107075e3ced9563f899",
+      "result_count": 1,
+      "catalog": [
+        {
+          "collectionId": 1841496060,
+          "collectionName": "Impossible Dreams",
+          "artistName": "Impossible Dreams Media",
+          "feedUrl": "https://feeds.captivate.fm/impossible-dreams-with-aaron-lazar/",
+          "collectionViewUrl": "https://podcasts.apple.com/us/podcast/impossible-dreams/id1841496060?uo=4"
+        }
+      ]
+    },
+    {
+      "id": "next-level-soul",
+      "requested_url": "https://itunes.apple.com/lookup?id=1560904383&entity=podcast",
+      "attempted_at": "2026-10-23T22:19:21.588380+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://itunes.apple.com/lookup?id=1560904383&entity=podcast",
+      "bytes": 1800,
+      "sha256": "aabc329e8f3b28cf8560f81076ba0ce0f0cf4f66c154ef929fad5c2980b44f1e",
+      "result_count": 1,
+      "catalog": [
+        {
+          "collectionId": 1560904383,
+          "collectionName": "Next Level Soul Podcast with Alex Ferrari",
+          "artistName": "Alex Ferrari",
+          "feedUrl": "https://www.spreaker.com/show/4858435/episodes/feed",
+          "collectionViewUrl": "https://podcasts.apple.com/us/podcast/next-level-soul-podcast-with-alex-ferrari/id1560904383?uo=4"
+        }
+      ]
+    },
+    {
+      "id": "pretty-intense",
+      "requested_url": "https://itunes.apple.com/lookup?id=1465014169&entity=podcast",
+      "attempted_at": "2026-10-23T22:19:21.627507+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://itunes.apple.com/lookup?id=1465014169&entity=podcast",
+      "bytes": 1756,
+      "sha256": "8bfb6283d84843da9bedc86ee5512d61975dd3b4019d4a2f5914c48237dc9f8a",
+      "result_count": 1,
+      "catalog": [
+        {
+          "collectionId": 1465014169,
+          "collectionName": "Danica Patrick Pretty Intense Podcast",
+          "artistName": "Danica Patrick",
+          "feedUrl": "https://feeds.simplecast.com/5LExlydD",
+          "collectionViewUrl": "https://podcasts.apple.com/us/podcast/danica-patrick-pretty-intense-podcast/id1465014169?uo=4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "status": "completed",
+  "checkedAt": "2026-10-23T22:29:36.484378+00:00",
+  "sourceId": "impossible-dreams-21-20260310",
+  "sourceUrl": "https://episodes.captivate.fm/episode/595aec41-d00f-4119-910b-f32ff9e50235.mp3",
+  "sourceKind": "publisher_original_audio",
+  "sourceAudioPath": "/workspace/channels-et-raw/publisher-audio/impossible-dreams-21-20260310.mp3",
+  "sourceAudioSha256": "cede2923d24725dd8f170734a02e5b858645be3b81eded229921b88b85dd254e",
+  "sourceAudioDurationSeconds": 3881.1392,
+  "publisherAcquisitionRecord": {
+    "sourceId": "impossible-dreams-21-20260310",
+    "audioSha256": "cede2923d24725dd8f170734a02e5b858645be3b81eded229921b88b85dd254e",
+    "enclosureUrl": "https://episodes.captivate.fm/episode/595aec41-d00f-4119-910b-f32ff9e50235.mp3"
+  },
+  "transcribedScope": "full_decoded_audio",
+  "clipSeconds": null,
+  "lastSegmentEndSeconds": 3881.62,
+  "segments": 976,
+  "words": 10718,
+  "modelId": "Systran/faster-whisper-tiny.en",
+  "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+  "device": "cpu",
+  "computeType": "int8",
+  "cpuThreads": 2,
+  "versions": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.3",
+    "av": "16.1.0"
+  },
+  "executionSignature": "8bd91227224fa99ac866449726647ba7191ae8c3f86f3ef3381651169d0d7c9a",
+  "executionProtocol": {
+    "sourceId": "impossible-dreams-21-20260310",
+    "sourceUrl": "https://episodes.captivate.fm/episode/595aec41-d00f-4119-910b-f32ff9e50235.mp3",
+    "audioSha256": "cede2923d24725dd8f170734a02e5b858645be3b81eded229921b88b85dd254e",
+    "modelManifestSha256": "60452b6a810c402781341181e9bd655c5d56ba2b3161da5076b8a9a25b937076",
+    "versions": {
+      "faster-whisper": "1.2.1",
+      "ctranslate2": "4.8.3",
+      "av": "16.1.0"
+    },
+    "cpuThreads": 2,
+    "decoding": {
+      "language": "en",
+      "beam_size": 1,
+      "vad_filter": true,
+      "condition_on_previous_text": false
+    },
+    "scriptSha256": "b5cb40e85de956bb7558760c34895dcc02db838a61e4e73f95a82910bbbbad7d"
+  },
+  "cudaDevices": 0,
+  "secondsElapsed": 91.10680536799998,
+  "realTimeFactor": 0.02347424317272619,
+  "decoding": {
+    "language": "en",
+    "beam_size": 1,
+    "vad_filter": true,
+    "condition_on_previous_text": false
+  },
+  "reportedLanguage": "en",
+  "outputs": [
+    {
+      "name": "segments.jsonl",
+      "bytes": 186160,
+      "sha256": "f7aeffc4b2469f0666b0a568a67a0b56241f8cc793507c28c83f7cb28a7f9ce1"
+    },
+    {
+      "name": "transcript.txt",
+      "bytes": 57630,
+      "sha256": "0910a1f72633bb9c9af6abd52a54b156752154c7f23c46782aa26111a86533be"
+    },
+    {
+      "name": "transcript.srt",
+      "bytes": 91681,
+      "sha256": "e8baa705486e79aa73744e75981e3432e612d164a9b84f7069bedf3f65a65fe5"
+    }
+  ],
+  "decoderDurationSeconds": 3881.136,
+  "durationAfterVadSeconds": 3873.28,
+  "humanReviewed": false,
+  "speakerDiarizationPerformed": false,
+  "youtubeVideoEditionVerified": false,
+  "limitations": [
+    "Automatic English-only transcription; names, claims, punctuation and timestamps are unverified.",
+    "Full decoded audio is not proof that speech recognition captured every spoken word.",
+    "Primary audio publication and any indexed YouTube upload are distinct editions unless verified.",
+    "Raw audio and transcript text remain private cloud files, not part of the public Git/Pages release."
+  ],
+  "transcriptDirectory": "/workspace/channels-et-raw/transcripts/cede2923d24725dd8f17"
+}

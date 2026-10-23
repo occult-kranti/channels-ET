@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-23T22:31:29.328837+00:00",
+  "checks_passed": 2194,
+  "summary_sha256": "cd79addfed0fdf150a87dc902aaf801c3897d1bb4864cf2c8e275d7808455008",
+  "model_manifest_sha256": "60452b6a810c402781341181e9bd655c5d56ba2b3161da5076b8a9a25b937076",
+  "records": [
+    {
+      "source_id": "soul-talk-224-20220316",
+      "segments": 1155,
+      "words": 11177,
+      "audio_duration_seconds": 3877.328,
+      "decoder_duration_seconds": 3877.32,
+      "duration_after_vad_seconds": 3856.736,
+      "last_segment_end_seconds": 3862.04,
+      "last_segment_beyond_media_seconds": 0,
+      "seconds_elapsed": 93.45160930899999,
+      "execution_source_sha256": "b5cb40e85de956bb7558760c34895dcc02db838a61e4e73f95a82910bbbbad7d",
+      "raw_transcript_text_printed_or_published_by_reviewer": false
+    },
+    {
+      "source_id": "impossible-dreams-21-20260310",
+      "segments": 976,
+      "words": 10718,
+      "audio_duration_seconds": 3881.1392,
+      "decoder_duration_seconds": 3881.136,
+      "duration_after_vad_seconds": 3873.28,
+      "last_segment_end_seconds": 3881.62,
+      "last_segment_beyond_media_seconds": 0.4807999999998174,
+      "seconds_elapsed": 91.10680536799998,
+      "execution_source_sha256": "b5cb40e85de956bb7558760c34895dcc02db838a61e4e73f95a82910bbbbad7d",
+      "raw_transcript_text_printed_or_published_by_reviewer": false
+    }
+  ],
+  "scope": "Saved-output verification only. No source network requests, inference rerun, human listening, speaker validation, word-error-rate estimate or raw transcript publication."
+}

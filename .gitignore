@@ -2,6 +2,10 @@ __pycache__/
 *.py[cod]
 research/analysis/queue.sqlite*
 
+# Transient SQLite coordination files; the checkpointed metadata DB is retained.
+/research/harvest/state.sqlite-shm
+/research/harvest/state.sqlite-wal
+
 research/paper/build/
 research/paper/missfont.log
 research/paper/mfput.log

@@ -2,3 +2,5 @@
 
 .controls label{min-width:0;max-width:100%}#prediction-filter label{flex:1;min-width:200px}#prediction-filter select{width:100%}.response{border-top:1px solid var(--line);margin-top:20px;padding-top:7px}@media(max-width:450px){#prediction-filter label{min-width:0}}
 .artifact-heading{flex-wrap:wrap}.artifact-heading a{min-width:0}.artifact-heading .badge{max-width:100%;white-space:normal}
+#harvest-run meter{display:block;max-width:100%;width:100%;height:15px;margin-top:8px}#harvest-channels td small,#harvest-jobs td small,#harvest-saved td small{overflow-wrap:anywhere}#harvest-channels .pager{align-items:start}#harvest-channels .pager>span{max-width:65%}@media(max-width:450px){#harvest-channels .pager{display:block}#harvest-channels .pager>span{display:block;max-width:100%;margin-bottom:12px}}
+#harvest-asr .metrics{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}

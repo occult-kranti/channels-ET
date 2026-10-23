@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-23T22:54:45.653078+00:00",
+  "access_gate": {
+    "status": "blocked",
+    "reason": "explicit_proxy_tunnel_denial",
+    "probe_path": "research/harvest/access/preflight-2026-10-23-revision5.json",
+    "probe_sha256": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff",
+    "probe": {
+      "checkedAt": "2026-10-23T22:15:34.435790+00:00",
+      "url": "https://www.youtube.com/watch?v=fZmY4xS_qXE",
+      "method": "ordinary urllib HTTPS GET using inherited proxy and verified TLS",
+      "purpose": "New supported preflight after runtime/configuration revision5; not a media download",
+      "runtimeObservationBeforeProbe": {
+        "mode": "unrestricted",
+        "state": "enforced",
+        "specRevision": "5",
+        "observationsCurrent": true
+      },
+      "secretPresenceOnly": {
+        "GH_TOKEN": true,
+        "GITHUB_TOKEN": false,
+        "YOUTUBE_API_KEY": false,
+        "YOUTUBE_DATA_API_KEY": false,
+        "GOOGLE_API_KEY": false
+      },
+      "status": "request_failed",
+      "errorType": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "proxyTunnelDenied": true
+    }
+  },
+  "inventory": {
+    "videos": 942,
+    "channel_jobs": 362,
+    "playlist_jobs": 169
+  },
+  "counts_by_kind": {
+    "captions": {
+      "queued": 942
+    },
+    "channel": {
+      "queued": 362
+    },
+    "metadata": {
+      "queued": 942
+    },
+    "playlist": {
+      "queued": 169
+    },
+    "video": {
+      "queued": 942
+    }
+  },
+  "attempts_total": 0,
+  "artifacts_by_type": {
+    "video": 0,
+    "audio": 0,
+    "caption": 0,
+    "metadata": 0,
+    "partial": 0,
+    "quarantine": 0
+  },
+  "raw_bytes": 1671767154,
+  "quota_bytes": 21474836480,
+  "reserve_free_bytes": 6442450944,
+  "filesystem_free_bytes": 29626761216,
+  "channel_listing_trees_complete": 0,
+  "playlist_listing_trees_complete": 0,
+  "completeness_scope": "Returned public listing and expanded containers only, not private/deleted/uploads absent from response or verified original sessions",
+  "run_status": "not_executed_access_gate"
+}

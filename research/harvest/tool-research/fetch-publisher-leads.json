@@ -1,0 +1,66 @@
+{
+  "records": [
+    {
+      "id": "github-pages-limits",
+      "requested_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+      "attempted_at": "2026-10-23T22:18:53.591537+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+      "content_type": "text/html",
+      "bytes": 88733,
+      "sha256": "7f2af92e0ccdc5f7ab480ca66e3b436fa72448d76a0514b31baeea04aa7fac4b"
+    },
+    {
+      "id": "daniel-home",
+      "requested_url": "https://danielscranton.com/",
+      "attempted_at": "2026-10-23T22:18:53.592270+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://danielscranton.com/",
+      "content_type": "text/html",
+      "bytes": 408640,
+      "sha256": "eaed86a96ada316a51bef7235cbab43a8722df2873f760da071ea6687b0b0d49"
+    },
+    {
+      "id": "daniel-feed",
+      "requested_url": "https://danielscranton.com/feed/",
+      "attempted_at": "2026-10-23T22:18:53.593083+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://danielscranton.com/feed/",
+      "content_type": "application/rss+xml",
+      "bytes": 290791,
+      "sha256": "fa45b678c00d729e1060805acfbeaf30f3fbda9cf870fa3ba2942ebae0991e16"
+    },
+    {
+      "id": "kryon-home",
+      "requested_url": "https://www.kryon.com/",
+      "attempted_at": "2026-10-23T22:18:54.296903+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://kryon.com/",
+      "content_type": "text/html",
+      "bytes": 232,
+      "sha256": "48b06529b9767332d46c95cf9b6bf4700d372e7076c6b987f012ab3a19e7c374"
+    },
+    {
+      "id": "kryon-free-audio",
+      "requested_url": "https://www.kryon.com/k_freeAudio.html",
+      "attempted_at": "2026-10-23T22:18:56.118657+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-23T22:17:19.875679+00:00",
+  "yt_dlp_version": "2026.10.21",
+  "sources": {
+    "official_readme": {
+      "local_path": "/workspace/channeling-atlas-private/literature/yt-dlp-readme",
+      "sha256": "6adba80a892aee34940550ee8d7085041afca6140b7ac56d6414f1e6eb484bfe",
+      "access_depth": "selected sections inspected locally; no new network retrieval",
+      "inspected": [
+        {
+          "lines": "203-215",
+          "topic": "ffmpeg/ffprobe, yt-dlp-ejs and JavaScript dependencies"
+        },
+        {
+          "lines": "317-325",
+          "topic": "ignore-errors vs abort-on-error semantics"
+        },
+        {
+          "lines": "536-585",
+          "topic": "download archive, concurrency, missing-fragment behavior"
+        },
+        {
+          "lines": "367-397",
+          "topic": "enabled runtimes and remote-component defaults"
+        }
+      ]
+    },
+    "installed_youtubedl": {
+      "local_path": "/workspace/channels-et-analysis-venv/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py",
+      "sha256": "30fb3e855b43233e7b19793001cf6a8d1b9e4e8ad4c375329d7abdb604b6c00a",
+      "access_depth": "selected sections inspected locally; no new network retrieval",
+      "inspected": [
+        {
+          "lines": "3120-3155",
+          "topic": "archive write eligibility and requested downloads"
+        },
+        {
+          "lines": "3875-3896",
+          "topic": "per-process in-memory archive plus file-locked append"
+        }
+      ]
+    },
+    "installed_youtube_tab": {
+      "local_path": "/workspace/channels-et-analysis-venv/lib/python3.12/site-packages/yt_dlp/extractor/youtube/_tab.py",
+      "sha256": "736ac305841cf6f070cb44a2d7060771e9743f30b6ef38fe0304fc419877b970",
+      "access_depth": "selected sections inspected locally; no new network retrieval",
+      "inspected": [
+        {
+          "lines": "2347-2394",
+          "topic": "root channel includes videos, shorts and streams tabs; nested containers"
+        }
+      ]
+    }
+  }
+}

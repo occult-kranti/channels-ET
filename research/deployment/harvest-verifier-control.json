@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-23T22:58:19.323379+00:00",
+  "status": "passed",
+  "control": "In-memory ASR audio SHA changed with coherent dashboard copy and metadata hash; source join must still fail",
+  "expected_rejection": "ASR/audio source join mismatch",
+  "source_verifier_sha256": "ca6116bb34c8625278e4f36c98a9d5c1edc3dfacf38ed16c97c78ee40363808b",
+  "source_staged_manifest_sha256": "3924215b39000babe6f60bc9e83b5432d2a362b9833822e997645167f66b87fb",
+  "public_source_files_modified": false
+}

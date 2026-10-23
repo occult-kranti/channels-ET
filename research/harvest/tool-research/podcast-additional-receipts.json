@@ -1,0 +1,569 @@
+{
+  "source_index_path": "research/deep/repo_raw/data/podcasts.json",
+  "source_index_sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191",
+  "scope": "Additional original-index catalog/feed metadata only; exact episode identity still needs screening.",
+  "excluded_sources": [
+    {
+      "original_index_row": 34,
+      "show": "Multiverse 5D Podcast (unofficial re-upload)",
+      "reason": "explicitly indexed unofficial redistribution; excluded from original-publisher acquisition"
+    }
+  ],
+  "records": [
+    {
+      "catalog_collection_id": 1611118279,
+      "original_index_rows": [
+        4
+      ],
+      "retrieved_at": "2026-10-23T22:28:15.504562+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "catalog": {
+        "collectionId": 1611118279,
+        "collectionName": "Just Tap In with Emilio Ortiz",
+        "artistName": "Emilio Ortiz",
+        "feedUrl": "https://anchor.fm/s/d22ad49c/podcast/rss",
+        "collectionViewUrl": "https://podcasts.apple.com/us/podcast/just-tap-in-with-emilio-ortiz/id1611118279?uo=4"
+      },
+      "catalog_receipt": {
+        "url": "https://itunes.apple.com/lookup?id=1611118279&entity=podcast",
+        "http_status": 200,
+        "sha256": "aae6cedd6b449869f6027246f8986fe2a254ea35ec3580ed23b970b6e70bc7fd",
+        "bytes": 1706
+      },
+      "feed_receipt": {
+        "url": "https://anchor.fm/s/d22ad49c/podcast/rss",
+        "final_url": "https://anchor.fm/s/d22ad49c/podcast/rss",
+        "http_status": 200,
+        "sha256": "090afbaffbe76b89dad46196e0e60253199f0b3b7aa2358fcf02d0eacc218bf1",
+        "bytes": 5185906
+      },
+      "status": "retrieved",
+      "feed_title": "Just Tap In with Emilio Ortiz",
+      "feed_link": "https://www.youtube.com/c/EmilioOrtiz",
+      "feed_author": "Emilio Ortiz",
+      "copyright": "Emilio Ortiz",
+      "item_count": 349,
+      "candidate_episodes": [
+        {
+          "feed_item_index": 32,
+          "title": "#312 Darryl Anka \u2013 Why Humanity Must Evolve Before Open Contact",
+          "guid": "15a56950-53a6-4341-9a64-95da04a5367e",
+          "link": "https://podcasters.spotify.com/pod/show/just-tap-in-emilio-ortiz/episodes/312-Darryl-Anka--Why-Humanity-Must-Evolve-Before-Open-Contact-e3lh8j5",
+          "pub_date": "Mon, 06 Jul 2026 15:11:00 GMT",
+          "duration": "01:26:31",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://anchor.fm/s/d22ad49c/podcast/play/122249253/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-1%2F427171779-44100-2-75abc2e125551.mp3",
+            "length": "83064371",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": " In this historic interview, Darryl Anka returns to Just Tap In with Emilio Ortiz to explore Bashar&#39;s perspective on why humanity is approaching what he calls a &quot;graduation&quot; point in our evolution. Together, we dive into why empathy\u2014not intelligence or technology\u2014is our highest evolutionary trait, how telepathy emerges through deeper "
+        },
+        {
+          "feed_item_index": 96,
+          "title": "#248 Darryl Anka / Bashar \u2013 Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human",
+          "guid": "8904b6c4-b9d7-46c9-86ea-5d8a3e9ffe10",
+          "link": "https://podcasters.spotify.com/pod/show/just-tap-in-emilio-ortiz/episodes/248-Darryl-Anka--Bashar--Preparing-for-Open-Contact-The-Three-Year-Collapse--Timeline-Mechanics--The-New-Human-e3bmgi0",
+          "pub_date": "Mon, 01 Dec 2025 23:04:00 GMT",
+          "duration": "01:25:48",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://anchor.fm/s/d22ad49c/podcast/play/111935488/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-30%2F413482971-44100-2-b506f5f9bdf32.mp3",
+            "length": "82382261",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": " In this historic interview, Bashar (channeled by Darryl Anka) delivers a direct confirmation that humanity has entered the three-year global breakdown phase leading to Open Contact by 2027. In this new transmission, Darryl explains how current world events, collapsing systems, and rapid technological acceleration are part of a greater timeline con"
+        },
+        {
+          "feed_item_index": 212,
+          "title": "#131 Darryl Anka / Bashar - Galactic Contact: Hybrids, Manifestation, and the New Earth",
+          "guid": "e0176367-3627-4181-935c-c6ebf2777876",
+          "link": "https://podcasters.spotify.com/pod/show/just-tap-in-emilio-ortiz/episodes/131-Darryl-Anka--Bashar---Galactic-Contact-Hybrids--Manifestation--and-the-New-Earth-e3000ag",
+          "pub_date": "Mon, 14 Apr 2025 20:21:46 GMT",
+          "duration": "01:06:34",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://anchor.fm/s/d22ad49c/podcast/play/99663632/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-10%2F396332675-44100-2-8be397e72e2d5.mp3",
+            "length": "63912645",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": " Darry Anka, channel for Bashar, join the podcast to reveal the key things we need to know to avoid a path of destruction and move towards a golden age (New Earth). He talks about the upcoming open contact with extraterrestrial beings and the role of hybrid children in assisting humanity's evolution. In this interview, Darryl Anka discusses various"
+        }
+      ]
+    },
+    {
+      "catalog_collection_id": 1620917042,
+      "original_index_rows": [
+        6
+      ],
+      "retrieved_at": "2026-10-23T22:28:15.505262+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "catalog": {
+        "collectionId": 1620917042,
+        "collectionName": "Gaia Consciousness",
+        "artistName": "Gaia.com",
+        "feedUrl": "https://rss.buzzsprout.com/1949910.rss",
+        "collectionViewUrl": "https://podcasts.apple.com/us/podcast/gaia-consciousness/id1620917042?uo=4"
+      },
+      "catalog_receipt": {
+        "url": "https://itunes.apple.com/lookup?id=1620917042&entity=podcast",
+        "http_status": 200,
+        "sha256": "cc3c1072393c70093d3d4e525ade60d85e1f6f0b608c082c2315f30bc8f4139a",
+        "bytes": 1652
+      },
+      "feed_receipt": {
+        "url": "https://rss.buzzsprout.com/1949910.rss",
+        "final_url": "https://rss.buzzsprout.com/1949910.rss",
+        "http_status": 200,
+        "sha256": "a2ec33af837087c7f3b3436a34b6dc299fbd681abf6ef172c6f16960b773b8aa",
+        "bytes": 315901
+      },
+      "status": "retrieved",
+      "feed_title": "Gaia Consciousness",
+      "feed_link": "http://www.gaia.com",
+      "feed_author": "Gaia.com",
+      "copyright": "\u00a9 2026 Gaia Consciousness",
+      "item_count": 99,
+      "candidate_episodes": [
+        {
+          "feed_item_index": 16,
+          "title": "Darryl Anka: Channeling Bashar",
+          "guid": "Buzzsprout-16710915",
+          "link": null,
+          "pub_date": "Wed, 05 Mar 2025 15:00:00 -0500",
+          "duration": "1955",
+          "episode_number": "1",
+          "enclosure": {
+            "url": "https://www.buzzsprout.com/1949910/episodes/16710915-darryl-anka-channeling-bashar.mp3",
+            "length": "23557581",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": "  Gaia is opening up the highly anticipated fourth annual    Emersion 2025    conference for FREE.    Join our global livestream   \u00a0with headline Darryl Anka!   Until then, enjoy this extraordinary journey of Darryl Anka as he unveils the profound wisdom of Bashar, an interdimensional being with a deep connection to humanity. Through decades of cha"
+        }
+      ]
+    },
+    {
+      "catalog_collection_id": 1763048673,
+      "original_index_rows": [
+        9,
+        10
+      ],
+      "retrieved_at": "2026-10-23T22:28:15.505892+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "catalog": {
+        "collectionId": 1763048673,
+        "collectionName": "ACID FOR SQUARES",
+        "artistName": "Acid For Squares",
+        "feedUrl": "https://feeds.megaphone.fm/acidforsquares",
+        "collectionViewUrl": "https://podcasts.apple.com/us/podcast/acid-for-squares/id1763048673?uo=4"
+      },
+      "catalog_receipt": {
+        "url": "https://itunes.apple.com/lookup?id=1763048673&entity=podcast",
+        "http_status": 200,
+        "sha256": "7614807a785270a89ee4e2f46abbc70f5ef6555fd8b717f1917d9981a8cfaf75",
+        "bytes": 1688
+      },
+      "feed_receipt": {
+        "url": "https://feeds.megaphone.fm/acidforsquares",
+        "final_url": "https://feeds.megaphone.fm/acidforsquares",
+        "http_status": 200,
+        "sha256": "c80b507e7f42dbde5d065c62528d8f23f9e165b2772ad9c6747aa62ebf613371",
+        "bytes": 859259
+      },
+      "status": "retrieved",
+      "feed_title": "ACID FOR SQUARES",
+      "feed_link": "https://www.acidforsquares.com",
+      "feed_author": "Acid For Squares",
+      "copyright": "\u00a9 2024 Acid For Squares",
+      "item_count": 119,
+      "candidate_episodes": [
+        {
+          "feed_item_index": 4,
+          "title": "#112 Darryl Anka: Bashar's State of the Union on Alien Contact ",
+          "guid": "9a25c484-b5da-11f1-94bf-9b81718309f4",
+          "link": null,
+          "pub_date": "Tue, 22 Sep 2026 08:00:00 -0000",
+          "duration": "5230",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://pdst.fm/e/tracking.swap.fm/track/JhoQDAATtO1l0y8tdKNa/pscrb.fm/rss/p/traffic.megaphone.fm/ADL9493177317.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": "On this episode of the Acid For Squares podcast, hosts Tanya Dahl and Cody Blue welcome back legendary channel Darryl Anka, best known for channeling the entity known as Bashar. For decades, Darryl has shared Bashar\u2019s teachings on consciousness, extraterrestrial intelligence, human evolution, and the possibility of open contact between humanity and"
+        },
+        {
+          "feed_item_index": 48,
+          "title": "#68 Darryl Anka: Bashar\u2019s Guide For The End Of The World",
+          "guid": "ac0f2a28-c404-11f0-a9d0-13542c2b075c",
+          "link": null,
+          "pub_date": "Tue, 18 Nov 2025 08:00:00 -0000",
+          "duration": "6119",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://pdst.fm/e/tracking.swap.fm/track/JhoQDAATtO1l0y8tdKNa/pscrb.fm/rss/p/traffic.megaphone.fm/ADL6618799493.mp3?updated=1764350910",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": "On this episode of the\u00a0Acid For Squares\u00a0podcast, hosts Tanya Dahl and Cody Blue sit down with legendary channel Darryl Anka, who has spent over four decades transmitting messages from\u00a0Bashar, a multidimensional being and first contact specialist. Darryl reveals Bashar\u2019s startling message: open contact with extraterrestrials is rapidly approaching, "
+        },
+        {
+          "feed_item_index": 108,
+          "title": "#10 Darryl Anka: Channeling Bashar and First Contact with Aliens",
+          "guid": "77af43bc-89e5-11ef-b4a3-cb93cbad6948",
+          "link": null,
+          "pub_date": "Mon, 14 Oct 2024 09:00:00 -0000",
+          "duration": "6167",
+          "episode_number": "10",
+          "enclosure": {
+            "url": "https://pdst.fm/e/tracking.swap.fm/track/JhoQDAATtO1l0y8tdKNa/pscrb.fm/rss/p/traffic.megaphone.fm/ADL1940277313.mp3?updated=1728919442",
+            "length": "0",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": "First Contact has begun! In Episode 10 of\u00a0Acid for Squares, we sit down with the world\u2019s foremost living channel, Daryl Anka, who serves as the medium for Bashar, a benevolent extraterrestrial. Bashar is a First Contact specialist whose mission is to prepare humanity for open contact by delivering profound messages and teachings. Daryl shares his r"
+        }
+      ]
+    },
+    {
+      "catalog_collection_id": 1529629262,
+      "original_index_rows": [
+        20
+      ],
+      "retrieved_at": "2026-10-23T22:28:17.367397+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "catalog": {
+        "collectionId": 1529629262,
+        "collectionName": "Gateways to Awakening with Yasmeen Turayhi",
+        "artistName": "Yasmeen Turayhi",
+        "feedUrl": "https://anchor.fm/s/fff6b260/podcast/rss",
+        "collectionViewUrl": "https://podcasts.apple.com/us/podcast/gateways-to-awakening-with-yasmeen-turayhi/id1529629262?uo=4"
+      },
+      "catalog_receipt": {
+        "url": "https://itunes.apple.com/lookup?id=1529629262&entity=podcast",
+        "http_status": 200,
+        "sha256": "f3ae169904ecf712cb3f1718cb900c95db93d88e8e8bed9bd67b85106387c195",
+        "bytes": 1928
+      },
+      "feed_receipt": {
+        "url": "https://anchor.fm/s/fff6b260/podcast/rss",
+        "final_url": "https://anchor.fm/s/fff6b260/podcast/rss",
+        "http_status": 200,
+        "sha256": "3d895ef2b37d279cd2913e881fb584ff9e7f1ca0abc4f04d71061a29dc9e3916",
+        "bytes": 1635241
+      },
+      "status": "retrieved",
+      "feed_title": "Gateways to Awakening with Yasmeen Turayhi",
+      "feed_link": "InnerKnowingSchool.com",
+      "feed_author": "Yasmeen Turayhi",
+      "copyright": "Yasmeen Turayhi",
+      "item_count": 312,
+      "candidate_episodes": [
+        {
+          "feed_item_index": 101,
+          "title": "What is Reality and What We Need to Know with Bashar / Darryl Anka",
+          "guid": "https://hakawati.fm/media/3137/10172/488490/66f5637f3487220240926093703/3137-10172-488490-66f5637f3487220240926093703.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/yasmeen-turayhi/episodes/What-is-Reality-and-What-We-Need-to-Know-with-Bashar--Darryl-Anka-e2tg6ki",
+          "pub_date": "Thu, 26 Sep 2024 04:00:00 GMT",
+          "duration": "01:08:23",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://anchor.fm/s/fff6b260/podcast/play/97048658/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-14%2F393070516-44100-2-776e14c83532858e.mp3",
+            "length": "65661870",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": "Today\u2019s episode on Gateways to Awakening is with Darryl Anka - known as \"Bashar\", who has given seminars around the world for 40 years on the subject of metaphysics via Bashar Communications, Inc. which is owned and operated by April Rochelle. Over 20 books, based on his seminars, have been published in the United States and Japan, with more books "
+        }
+      ]
+    },
+    {
+      "catalog_collection_id": 1705626495,
+      "original_index_rows": [
+        21,
+        22
+      ],
+      "retrieved_at": "2026-10-23T22:28:19.309346+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "catalog": {
+        "collectionId": 1705626495,
+        "collectionName": "Healing + Human Potential",
+        "artistName": "Alyssa Nobriga",
+        "feedUrl": "https://rss.libsyn.com/shows/482922/destinations/4112301.xml",
+        "collectionViewUrl": "https://podcasts.apple.com/us/podcast/healing-human-potential/id1705626495?uo=4"
+      },
+      "catalog_receipt": {
+        "url": "https://itunes.apple.com/lookup?id=1705626495&entity=podcast",
+        "http_status": 200,
+        "sha256": "547fff82de352412ca414d46801a71242bc1a6ba9bd477fb690e17411fbf3088",
+        "bytes": 1745
+      },
+      "feed_receipt": {
+        "url": "https://rss.libsyn.com/shows/482922/destinations/4112301.xml",
+        "final_url": "https://rss.libsyn.com/shows/482922/destinations/4112301.xml",
+        "http_status": 200,
+        "sha256": "48f7649cd9415923d6219002792c829ea1b1ce0227f2850ec1b3a84b2160925b",
+        "bytes": 1835910
+      },
+      "status": "retrieved",
+      "feed_title": "Healing + Human Potential",
+      "feed_link": "https://www.alyssanobriga.com/",
+      "feed_author": "Alyssa Nobriga",
+      "copyright": "2023",
+      "item_count": 166,
+      "candidate_episodes": [
+        {
+          "feed_item_index": 46,
+          "title": "Bashar's NEW Predictions: The Great Shift + How Life Will Change Forever!",
+          "guid": "a6882b54-e916-47f3-800e-57f0a44a8a18",
+          "link": "https://194b0c56-593f-4fd4-8c98-56751752863e.libsyn.com/bashars-new-predictions-the-great-shift-how-life-will-change-forever",
+          "pub_date": "Tue, 09 Dec 2025 14:00:00 +0000",
+          "duration": "01:00:58",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://traffic.libsyn.com/secure/194b0c56-593f-4fd4-8c98-56751752863e/Darryl_Anka_Final_Audio.mp3?dest-id=4112301",
+            "length": "58518699",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": " What if the future of humanity's evolution is intertwined with extraterrestrial contact, and it all begins with your vibration?   In this episode of The Healing & Human Potential Podcast, I welcome back Darryl Anka, who has been channeling an extraterrestrial being, Bashar, for over 40 years. Together, we discuss Bashar's predictions of the upcomi"
+        },
+        {
+          "feed_item_index": 61,
+          "title": "The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104",
+          "guid": "f88e8c8e-d904-49e4-8d92-e878f26b9b8c",
+          "link": "https://194b0c56-593f-4fd4-8c98-56751752863e.libsyn.com/the-proven-5-steps-to-live-passionately-attract-abundance-now-darryl-anka-bashar-ep-104",
+          "pub_date": "Tue, 02 Sep 2025 13:00:00 +0000",
+          "duration": "01:05:04",
+          "episode_number": "104",
+          "enclosure": {
+            "url": "https://traffic.libsyn.com/secure/194b0c56-593f-4fd4-8c98-56751752863e/Darryl_Bashar_104_FULL_EP_AUDIO_V2.mp3?dest-id=4112301",
+            "length": "93687272",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": "           What if the key to shaping your reality isn't about controlling the outside world, but about the\u00a0 state of being  you choose in each moment?   \u00a0   In this episode, I sit down with Darryl Anka, who for over 40 years has been channeling Bashar \u2014 a multidimensional being who shares teachings on how our beliefs, emotions, and choices create "
+        }
+      ]
+    },
+    {
+      "catalog_collection_id": 1546456269,
+      "original_index_rows": [
+        23,
+        24
+      ],
+      "retrieved_at": "2026-10-23T22:28:19.545053+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "catalog": {
+        "collectionId": 1546456269,
+        "collectionName": "Mayim Bialik's Breakdown",
+        "artistName": "Mayim Bialik",
+        "feedUrl": "https://rss.pdrl.fm/a88a08/feeds.megaphone.fm/MASL6091580855/",
+        "collectionViewUrl": "https://podcasts.apple.com/us/podcast/mayim-bialiks-breakdown/id1546456269?uo=4"
+      },
+      "catalog_receipt": {
+        "url": "https://itunes.apple.com/lookup?id=1546456269&entity=podcast",
+        "http_status": 200,
+        "sha256": "ef1983cd7fe1adf62ec60064da5b2000ebe2a81c9b8bc431ff3d6f16c2df6ffd",
+        "bytes": 1700
+      },
+      "feed_receipt": {
+        "url": "https://rss.pdrl.fm/a88a08/feeds.megaphone.fm/MASL6091580855/",
+        "final_url": "https://rss.art19.com/mayim-bialiks-breakdown",
+        "http_status": 200,
+        "sha256": "f62c0c270e1ddc326e47fe30c39feca59919f8dcc404839eeeb551211f3eddc8",
+        "bytes": 4893211
+      },
+      "status": "retrieved",
+      "feed_title": "Mayim Bialik's Breakdown",
+      "feed_link": "https://art19.com/shows/mayim-bialiks-breakdown",
+      "feed_author": "Mayim Bialik",
+      "copyright": null,
+      "item_count": 518,
+      "candidate_episodes": [
+        {
+          "feed_item_index": 101,
+          "title": "Part Two: Bashar\u2019s Warning: Extraterrestrial Contact In 2027, Humanity\u2019s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka",
+          "guid": "78cdaa3e-aec6-11f0-aa41-87014439626a",
+          "link": null,
+          "pub_date": "Wed, 25 Mar 2026 07:30:00 -0000",
+          "duration": "00:39:00",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://claritaspod.com/measure/pscrb.fm/rss/p/arttrk.com/p/PMMIC/prfx.byspotify.com/e/mgln.ai/e/1047/dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/21dd72f4-3320-4266-9ab5-36d6c31460dd.mp3?rss_browser=BAhJIhljaGFubmVscy1FVC1yZXNlYXJjaAY6BkVU--2d91fd88f4ff956145823c70deb86ca5d18d1f1c",
+            "type": "audio/mpeg",
+            "length": "37442873"
+          },
+          "description_excerpt": "\n         For 41 years, Darryl Anka has served as the channel for Bashar \u2014 a multidimensional, physical extraterrestrial hybrid being from a parallel reality\u2026and what he\u2019s revealing now may change EVERYTHING. \n   \n Is humanity heading for a massive reset? \n Is 2026 the true Year of Disclosure? \n And will we experience OPEN CONTACT in 2027 \u2014 literal"
+        },
+        {
+          "feed_item_index": 102,
+          "title": "Bashar\u2019s Warning: Extraterrestrial Contact In 2027, Humanity\u2019s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka",
+          "guid": "68375f4e-aec6-11f0-b3d2-83a4d21f151c",
+          "link": null,
+          "pub_date": "Tue, 24 Mar 2026 07:30:00 -0000",
+          "duration": "00:56:38",
+          "episode_number": null,
+          "enclosure": {
+            "url": "https://claritaspod.com/measure/pscrb.fm/rss/p/arttrk.com/p/PMMIC/prfx.byspotify.com/e/mgln.ai/e/1047/dts.podtrac.com/redirect.mp3/rss.art19.com/episodes/94d148de-41b7-4556-8f07-f358f0599bc4.mp3?rss_browser=BAhJIhljaGFubmVscy1FVC1yZXNlYXJjaAY6BkVU--2d91fd88f4ff956145823c70deb86ca5d18d1f1c",
+            "type": "audio/mpeg",
+            "length": "54377325"
+          },
+          "description_excerpt": "\n         For 41 years, Darryl Anka has served as the channel for Bashar \u2014 a multidimensional, physical extraterrestrial hybrid being from a parallel reality\u2026and what he\u2019s revealing now may change EVERYTHING. \n   \n Is humanity heading for a massive reset? \n Is 2026 the true Year of Disclosure? \n And will we experience OPEN CONTACT in 2027 \u2014 literal"
+        }
+      ]
+    },
+    {
+      "catalog_collection_id": 1556820026,
+      "original_index_rows": [
+        27,
+        28
+      ],
+      "retrieved_at": "2026-10-23T22:28:20.786423+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "catalog": {
+        "collectionId": 1556820026,
+        "collectionName": "Virtual Campfire hosted by Krystal Kelley",
+        "artistName": "Krystal Kelley",
+        "feedUrl": "https://anchor.fm/s/4f6d2b68/podcast/rss",
+        "collectionViewUrl": "https://podcasts.apple.com/us/podcast/virtual-campfire-hosted-by-krystal-kelley/id1556820026?uo=4"
+      },
+      "catalog_receipt": {
+        "url": "https://itunes.apple.com/lookup?id=1556820026&entity=podcast",
+        "http_status": 200,
+        "sha256": "7e3389b3d016bd18967849cad858000fdafafb0770799035e755bcb2d93d95ca",
+        "bytes": 1767
+      },
+      "feed_receipt": {
+        "url": "https://anchor.fm/s/4f6d2b68/podcast/rss",
+        "final_url": "https://anchor.fm/s/4f6d2b68/podcast/rss",
+        "http_status": 200,
+        "sha256": "bef9cd4b353758d38a11f69ec29c75e3e8f1626a46c4811927c8abd48f4a88eb",
+        "bytes": 176757
+      },
+      "status": "retrieved",
+      "feed_title": "Virtual Campfire hosted by Krystal Kelley",
+      "feed_link": "https://www.krystalkelley.com/",
+      "feed_author": "Krystal Kelley",
+      "copyright": "Krystal Kelley",
+      "item_count": 59,
+      "candidate_episodes": [
+        {
+          "feed_item_index": 4,
+          "title": "E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar",
+          "guid": "535938fb-0c2e-47df-8ea1-d8c285870667",
+          "link": "https://podcasters.spotify.com/pod/show/krystal-kelley/episodes/E55-Part-2-Preparing-for-Alien-Contact-with-Darryl-Anka-aka-Bashar-e2s0ame",
+          "pub_date": "Sat, 07 Dec 2024 01:55:00 GMT",
+          "duration": "00:50:07",
+          "episode_number": "55",
+          "enclosure": {
+            "url": "https://anchor.fm/s/4f6d2b68/podcast/play/95479950/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-7%2F391122949-44100-2-10b4535d7a9c2.mp3",
+            "length": "48115878",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": " \nIn this two-part series, Alder Sherwood and Krystal Kelley interview Darryl Anka (aka Bashar). Darryl dives into predictions Bashar has given for WHEN contact will happen. These are exciting times! @BasharChanneledbyDarrylAnka\n\nWatch Part 1 where Darryl explains Bashar's Formula: 5 powerful steps Bashar gives to help you live your highest vibrati"
+        },
+        {
+          "feed_item_index": 5,
+          "title": "E54: Preparing for Alien Contact with Darryl Anka aka Bashar",
+          "guid": "5d185482-fab9-4f17-aef7-b76cbbd8faa5",
+          "link": "https://podcasters.spotify.com/pod/show/krystal-kelley/episodes/E54-Preparing-for-Alien-Contact-with-Darryl-Anka-aka-Bashar-e2rtb5q",
+          "pub_date": "Thu, 05 Dec 2024 13:55:00 GMT",
+          "duration": "00:35:48",
+          "episode_number": "54",
+          "enclosure": {
+            "url": "https://anchor.fm/s/4f6d2b68/podcast/play/95382138/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-5%2F391001627-44100-2-b4e8a7632f71c.mp3",
+            "length": "34382575",
+            "type": "audio/mpeg"
+          },
+          "description_excerpt": " \nIn this two-part series, Alder Sherwood and Krystal Kelley interview Darryl Anka (aka Bashar). They dive into 5 powerful steps Bashar gives to help you live your highest vibrational path and other tools and messages to prepare humanity for Extraterrestrial contact. @BasharChanneledbyDarrylAnka\n\nWatch Part 2 when Darryl gives much more information"
+        }
+      ]
+    },
+    {
+      "catalog_collection_id": 425328515,
+      "original_index_rows": [
+        35
+      ],
+      "retrieved_at": "2026-10-23T22:28:21.421865+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "catalog": {
+        "collectionId": 425328515,
+        "collectionName": "Oh No, Ross and Carrie",
+        "artistName": "Ross and Carrie",
+        "feedUrl": "https://feeds.simplecast.com/ftB6Gihc",
+        "collectionViewUrl": "https://podcasts.apple.com/us/podcast/oh-no-ross-and-carrie/id425328515?uo=4"
+      },
+      "catalog_receipt": {
+        "url": "https://itunes.apple.com/lookup?id=425328515&entity=podcast",
+        "http_status": 200,
+        "sha256": "cbec2a013952149bac9ebddb6c94a8c051609714ee96dda94f665b5826ce2a33",
+        "bytes": 1812
+      },
+      "feed_receipt": {
+        "url": "https://feeds.simplecast.com/ftB6Gihc",
+        "final_url": "https://feeds.simplecast.com/ftB6Gihc",
+        "http_status": 200,
+        "sha256": "bb5f0932699ac286fc97c7dc9eeee9b7d843fb4c65718834bc2f223d985cfc94",
+        "bytes": 1240969
+      },
+      "status": "retrieved",
+      "feed_title": "Oh No, Ross and Carrie",
+      "feed_link": "http://maximumfun.org/shows/oh-no-ross-and-carrie",
+      "feed_author": "Ross and Carrie",
+      "copyright": null,
+      "item_count": 425,
+      "candidate_episodes": [
+        {
+          "feed_item_index": 45,
+          "title": "Ross and Carrie Transmit Bashar (Part 2): Follow Your Excitement Edition",
+          "guid": "77f4cc2d-b144-46cd-91c9-330e3e21a3ca",
+          "link": "http://maximumfun.org/shows/oh-no-ross-and-carrie",
+          "pub_date": "Sun, 9 Jul 2023 20:26:04 +0000",
+          "duration": "01:26:08",
+          "episode_number": "379",
+          "enclosure": {
+            "length": "83269439",
+            "type": "audio/mpeg",
+            "url": "https://afp-9384.calisto.simplecastaudio.com/35621d45-8bc2-42d2-a1f7-8e2805787cb7/episodes/9b542b6b-93e9-4eaa-b869-845517849188/audio/128/default.mp3?aid=rss_feed&awCollectionId=35621d45-8bc2-42d2-a1f7-8e2805787cb7&awEpisodeId=9b542b6b-93e9-4eaa-b869-845517849188&feed=ftB6Gihc"
+          },
+          "description_excerpt": " Ross and Carrie witness Bashar, a purported extraterrestrial entity, inhabiting a 71-year-old escape room operator. They marvel as he dispels wisdom to a room of fans eager to be roasted by their favorite alien. Topics include parenting advice, interstellar contact, theories of comedy, and a BIG announcement for what might happen in the future! Pl"
+        },
+        {
+          "feed_item_index": 46,
+          "title": "Ross and Carrie Transmit Bashar (Part 1): Very Telling Edition",
+          "guid": "76a605e9-0cfb-4df0-8b9c-fc12b15ec977",
+          "link": "http://maximumfun.org/shows/oh-no-ross-and-carrie",
+          "pub_date": "Mon, 26 Jun 2023 03:29:26 +0000",
+          "duration": "01:14:50",
+          "episode_number": "378",
+          "enclosure": {
+            "length": "72399125",
+            "type": "audio/mpeg",
+            "url": "https://afp-9384.calisto.simplecastaudio.com/35621d45-8bc2-42d2-a1f7-8e2805787cb7/episodes/96f62abf-0ec3-46b6-8e27-eef548b2093b/audio/128/default.mp3?aid=rss_feed&awCollectionId=35621d45-8bc2-42d2-a1f7-8e2805787cb7&awEpisodeId=96f62abf-0ec3-46b6-8e27-eef548b2093b&feed=ftB6Gihc"
+          },
+          "description_excerpt": " Ross and Carrie return to see Bashar, an alien channeled by a 71-year-old former visual effects artist. To a live, nearly sold-out crowd, Darryl Anka demonstrates his ability to connect with this multidimensional being and share wisdom from the future. Bashar takes questions from an eager crowd, and teaches about UFOs, open contact, and his specia"
+        },
+        {
+          "feed_item_index": 92,
+          "title": "Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition",
+          "guid": "25f2894b-44ee-43aa-90da-0f193ec42aaf",
+          "link": "http://maximumfun.org/shows/oh-no-ross-and-carrie",
+          "pub_date": "Fri, 6 May 2022 07:30:17 +0000",
+          "duration": "01:49:55",
+          "episode_number": "332",
+          "enclosure": {
+            "length": "106114538",
+            "type": "audio/mpeg",
+            "url": "https://afp-9384.calisto.simplecastaudio.com/35621d45-8bc2-42d2-a1f7-8e2805787cb7/episodes/7a6dbd04-aa77-47c0-bf5d-14a4debfe23f/audio/128/default.mp3?aid=rss_feed&awCollectionId=35621d45-8bc2-42d2-a1f7-8e2805787cb7&awEpisodeId=7a6dbd04-aa77-47c0-bf5d-14a4debfe23f&feed=ftB6Gihc"
+          },
+          "description_excerpt": " Ross and Carrie return to the Conscious Life Expo to catch the final talk of the event: a question and answer session with Bashar, the multi-dimensional and extra-terrestrial being who floats in a craft thousands of miles above Sedona, Arizona\u2026 but comes to us via channeler Darryl Anka. Did Bashar predict COVID\u2019s behavior? Can he provide wisdom fo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-23T22:15:34.435790+00:00",
+  "url": "https://www.youtube.com/watch?v=fZmY4xS_qXE",
+  "method": "ordinary urllib HTTPS GET using inherited proxy and verified TLS",
+  "purpose": "New supported preflight after runtime/configuration revision5; not a media download",
+  "runtimeObservationBeforeProbe": {
+    "mode": "unrestricted",
+    "state": "enforced",
+    "specRevision": "5",
+    "observationsCurrent": true
+  },
+  "secretPresenceOnly": {
+    "GH_TOKEN": true,
+    "GITHUB_TOKEN": false,
+    "YOUTUBE_API_KEY": false,
+    "YOUTUBE_DATA_API_KEY": false,
+    "GOOGLE_API_KEY": false
+  },
+  "status": "request_failed",
+  "errorType": "URLError",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "proxyTunnelDenied": true
+}

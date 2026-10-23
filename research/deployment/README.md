@@ -13,6 +13,8 @@ python3 scripts/pages/verify_site.py --directory /tmp/channels-et-pages-site --s
 
 The stage contains `deployment-manifest.json`, recording the checkout commit, whether root/static inputs have uncommitted changes, and SHA-256/size of every staged file except that manifest itself. A local working-tree preflight binds staged bytes through those hashes; its checkout commit alone does not certify uncommitted changes. The production workflow checks out the committed release. Verification checks every local file, then requests ten representative routes over HTTP at the project prefix and checks response bytes against the manifest. The download checks include the paper, source archive, LoRA adapter archive, and Q&A SQLite database. Static checking does not execute browser JavaScript; browser interaction is checked separately by the dashboard review.
 
+When `dist/research/harvest.js` exists in the deployment manifest, verification also downloads that script and every published `harvest-*` file and checks their hashes. It reconciles the dashboard data with the downloadable source summaries, the complete worker ledger with the inventory-derived video/channel/playlist universe, operation attempts and state counts, and SQLite counts with JSON/JSONL inventories. It recomputes publisher download totals and ASR totals and joins each ASR receipt to its completed publisher source by ID, audio hash and enclosure URL. These checks use the bound manifests rather than fixed expected future counts. They inspect public bookkeeping only: no private raw paths or external media URLs are followed, and no media collection runs in Actions.
+
 After Actions succeeds, verify the real site and retain an operational receipt:
 
 ```sh

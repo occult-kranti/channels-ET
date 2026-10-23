@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-23T22:55:15.887501+00:00",
+  "status": "PASS_prepared_gate_blocked",
+  "checks": {
+    "jobs_3357": true,
+    "unique_job_ids": true,
+    "inventory_942_362_169": true,
+    "all_queued_unattempted": true,
+    "zero_worker_attempts": true,
+    "zero_youtube_artifacts": true,
+    "global_denial_preserved": true,
+    "separate_listing_scopes": true,
+    "sqlite_checkpoint_clean": true,
+    "sqlite_quick_check": true,
+    "final_raw_snapshot_matches": true,
+    "core_unchanged": true,
+    "source_bound_unit_and_independent_checks": true,
+    "environment_freeze_bound": true
+  },
+  "unit_tests": 16,
+  "independent_regressions": 18,
+  "new_network_requests_by_worker": 0,
+  "current_export_timestamp": "2026-10-23T22:54:45.653078+00:00",
+  "current_export_raw_bytes_snapshot": 1671767154,
+  "raw_bytes_caveat": "Final dated shared raw-tree snapshot after parent confirmed publisher/ASR writers terminal; includes separate source branches, not YouTube artifacts.",
+  "database_release": {
+    "checkpoint": "PRAGMA wal_checkpoint(TRUNCATE)",
+    "checkpoint_result": [
+      0,
+      0,
+      0
+    ],
+    "quick_check": "ok",
+    "temporary_wal_shm_excluded_from_git": true,
+    "checkpoint_before_database_hash": true
+  },
+  "tool_versions": {
+    "yt-dlp": "2026.10.21",
+    "yt-dlp-ejs": "0.8.0",
+    "youtube-transcript-api": "1.2.4"
+  },
+  "worker_environment": "/workspace/channels-et-harvest-venv",
+  "hashes": {
+    "research/harvest/harvest.py": "b7093d84e9ef3abecb367e0df2fc3eed42ce8d99cb1675202ac9cc83e69ef9c7",
+    "research/harvest/verify_harvest.py": "a46254ce51fb7a29b900445e53940d120f8f223f43afa61dade5bd11441ac85f",
+    "research/harvest/verification.json": "07274155f33ff7fd206c2635850c6b14fe427ecd0f59a2d35894bf62b5c6084a",
+    "research/harvest/audits/verify_worker_independent.py": "1512afba19a7fe79c5d9d21951948350a5671e305819baaffa98173009a52b92",
+    "research/harvest/audits/worker-independent-verification.json": "5527e8aeed9199a72e523ace2b961a7564318b0763c44ff03dbce3094ae09482",
+    "research/harvest/README.md": "6b07d19c672bc4dd229def2a5e38920e2e8c891ca083a86820e9e952c0a45211",
+    "research/harvest/schema.json": "d5040585c66b61261ccd189786bff598e5f75f265743b0b2be846a988874294a",
+    "research/harvest/environment-freeze.txt": "451b6ef4cde9795cda92fc18909e2d58397eef1e7428a2e61fbea682727cd25c",
+    "research/harvest/environment-verification.json": "d073d9dd0f0b4af10a4a453d2d23828339eb85a1c2e33483bdd6a8c5e3e9bc9a",
+    "research/harvest/summary.json": "ed47dafb60e785f2e7bf89e8990bd806600cb36f575c7ab547797f7f06a61016",
+    "research/harvest/jobs.json": "f5c11198878978b1e1819d0fa76871cce1ccd5da721ade7e688154962ba9d47e",
+    "research/harvest/attempts.json": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209",
+    "research/harvest/artifacts.json": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209",
+    "research/harvest/state.sqlite": "908d7f1aa4725ac5997d157ef43bec397f7f4f82e9cd406dd9b5bd6de90ffec2",
+    "research/harvest/inventory/summary.json": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916",
+    "research/harvest/inventory/videos.jsonl": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d",
+    "research/harvest/inventory/channel-routes.json": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee",
+    "research/harvest/inventory/playlists.jsonl": "bf38d1dac257df8c08156f6603ae9221226f1724567539ee81d71a4b306e2a5f",
+    "research/harvest/access/preflight-2026-10-23-revision5.json": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff"
+  },
+  "limitations": [
+    "Fresh public YouTube probe remains denied by inherited proxy before TLS even under revision5 unrestricted/enforced runtime",
+    "Queue preparation and local fixtures do not demonstrate any YouTube item availability or completed public channel listing",
+    "Separate original publisher audio has its own ledger; no YouTube video edition equivalence is asserted",
+    "20GiB total shared budget cannot promise retention of every full indexed video; partial/quarantine bytes remain counted"
+  ],
+  "scope": "Final metadata release: core code unchanged and all owned files held after receipt; no further live YouTube attempt without meaningful state change and fresh ordinary access evidence."
+}

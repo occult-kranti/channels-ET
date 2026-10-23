@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-23T22:37:32.795193+00:00",
+  "scope": "Observed installed tool metadata; no network/media request or package installation. EJS absence was separately observed before expansion.",
+  "analysis_environment": {
+    "yt-dlp": "2026.10.21",
+    "youtube-transcript-api": "1.2.4"
+  },
+  "node_version": "v24.19.0",
+  "ffmpeg_version_line": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffprobe_version_line": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+  "licenses": {
+    "yt_dlp_core": "Unlicense; inspected pinned officialLICENSE. Bundled binaries/dependencies differ.",
+    "ejs_core": "Unlicense, prebuiltcomponentsMIT/ISC per officialREADME.",
+    "installed_ffmpeg": "GPLv2-or-later according to actual ffmpeg -L output; upstream builds vary."
+  },
+  "required_proxy_and_ca": "Inherited configuration preserved; credential values not inspected or copied.",
+  "root_youtube_failure_record": "research/harvest/access/preflight-2026-10-23-revision5.json"
+}

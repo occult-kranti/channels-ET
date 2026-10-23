@@ -1,0 +1,73 @@
+{
+  "checked_at_utc": "2026-10-23T22:45:23.320913+00:00",
+  "status": "passed",
+  "local_files_verified": 272,
+  "prefix_http": {
+    "base_url": "http://127.0.0.1:38923/channels-ET/",
+    "source_commit": "b3db3a5a587a727c22c148a18140def1b0a1498e",
+    "static_inputs_dirty": false,
+    "routes": [
+      {
+        "route": "",
+        "status": 200,
+        "bytes": 600,
+        "sha256": "96972bef4ea9e62ae4099ef5a4215cc2d25cdb70a020e076ed5fca1cb7fe6d77"
+      },
+      {
+        "route": "dist/",
+        "status": 200,
+        "bytes": 2276,
+        "sha256": "0df8872473ab6b00da0ab92f3e9dc4badc0eb16d568a31a47af4b4e7a56d49e9"
+      },
+      {
+        "route": "dist/expansion/",
+        "status": 200,
+        "bytes": 2072,
+        "sha256": "745eb05cd91bf2fe198cafd9f0e1f355cc5a1ec34c0e5f6fe24b80eb5fcc97a6"
+      },
+      {
+        "route": "dist/research/",
+        "status": 200,
+        "bytes": 1683,
+        "sha256": "75f9bbf90472c6e8aa623c4f9f2713476b31022fe6cac3aa0d541e9c79434d36"
+      },
+      {
+        "route": "dist/research/app.js",
+        "status": 200,
+        "bytes": 48174,
+        "sha256": "99cf214e0462c773a9fec57c527450db54cfcd37fe03d82e8bae81b551675486"
+      },
+      {
+        "route": "dist/research/data.json",
+        "status": 200,
+        "bytes": 956161,
+        "sha256": "b82fcbfdf8ca3e0714712a6c4f76afbfff07096aa469f67b590a72e254d313a5"
+      },
+      {
+        "route": "dist/research/paper.pdf",
+        "status": 200,
+        "bytes": 397048,
+        "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+      },
+      {
+        "route": "dist/research/source.zip",
+        "status": 200,
+        "bytes": 296455,
+        "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+      },
+      {
+        "route": "dist/research/qwen-digest-lora-pilot.zip",
+        "status": 200,
+        "bytes": 1018863,
+        "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+      },
+      {
+        "route": "dist/research/qa-candidates.sqlite",
+        "status": 200,
+        "bytes": 925696,
+        "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+      }
+    ]
+  },
+  "source_commit": "b3db3a5a587a727c22c148a18140def1b0a1498e"
+}

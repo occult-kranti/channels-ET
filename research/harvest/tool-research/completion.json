@@ -1,0 +1,154 @@
+{
+  "status": "COMPLETE_WITH_EXPLICIT_SOURCE_WARNINGS",
+  "completed_at": "2026-10-23T22:47:29.827467+00:00",
+  "scope": "Current official tool/storage research and bounded original-publisher podcast acquisition, not another paper-review round.",
+  "official_documentation_sources": 18,
+  "documentation_tls_and_inherited_proxy_preserved": true,
+  "youtube_requests_by_this_workstream": 0,
+  "fixed_apple_linked_source_frame": 22,
+  "publisher_audio_jobs": 19,
+  "completed_current_publisher_responses": 19,
+  "publisher_shows": 13,
+  "bytes": 1664529703,
+  "duration_seconds": 80008.630513,
+  "source_specific_rss_metadata_warning_files": 4,
+  "exclusions": 2,
+  "unmatched_current_feed_items": 1,
+  "guard_checks": 16,
+  "raw_media_publicly_rehosted": false,
+  "media_mutations_pending": false,
+  "source_summary_on_hold": true,
+  "source_plan_on_hold": true,
+  "limits": [
+    "Public RSS availability is not an open redistribution license.",
+    "Source-response completeness does not establish original-recording/YouTube edition equivalence.",
+    "Four accepted current responses retain strict RSS failures and dated independent-model-agent/coordinator review; thresholds unchanged.",
+    "Actual speaker turns, original speech accuracy, external truth and human construct validity remain unverified.",
+    "ASR processing and public-dashboard release are coordinated by their separate workstreams."
+  ],
+  "files": [
+    {
+      "path": "research/harvest/tool-research/RECOMMENDATIONS.md",
+      "sha256": "7a81fe3f910175b9da7e5817700d86aac66c46bf46ac1adf26a4a7bf194e287e"
+    },
+    {
+      "path": "research/harvest/tool-research/PRIMARY-SOURCES.md",
+      "sha256": "acc242235aa9a70aa6c487c942de6c3b4a0a7f767d5a4d81338edccc805a58a3"
+    },
+    {
+      "path": "research/harvest/tool-research/source-register.json",
+      "sha256": "ff0e5f14e48698eb8a13b9800a69c6e2c1de642771039c05f626be56aeaba547"
+    },
+    {
+      "path": "research/harvest/tool-research/runtime-observation.json",
+      "sha256": "744d3a976cab40d48976dbf7ee9cdca63aa80900bc213bae5c0800a17d87624d"
+    },
+    {
+      "path": "research/harvest/tool-research/fetch-receipts.json",
+      "sha256": "90c8709737ab5cb8533acb32bf81472cb87423d3122c4b56554e437208b973fc"
+    },
+    {
+      "path": "research/harvest/tool-research/fetch-source-code.json",
+      "sha256": "83c32a06364003147799f3dc7f45e5c5efafb85263c351edd2738e7eaf81797b"
+    },
+    {
+      "path": "research/harvest/tool-research/wiki-receipt.json",
+      "sha256": "ed0cc43c1e721c1fe105c91012f8775f5a6222f9c22156a9b7c5d1b44a5e1831"
+    },
+    {
+      "path": "research/harvest/tool-research/podcast-catalog-receipts.json",
+      "sha256": "ad8568a292e10800a8e918724c313e09387a92edb2b6c5ff73fe82083f606a63"
+    },
+    {
+      "path": "research/harvest/tool-research/podcast-feed-receipts.json",
+      "sha256": "fbd52087c1684bb7d6eb0cef014a1226c0fc9a1708efe4e0d5b4280242c685be"
+    },
+    {
+      "path": "research/harvest/tool-research/podcast-additional-receipts.json",
+      "sha256": "157f1763ec56e06a5a1e45a33d30040871af95f1b69c12b085fe4ac1a3cd35ea"
+    },
+    {
+      "path": "research/harvest/tool-research/publisher-pilot-access.json",
+      "sha256": "f45522f6388972febb8118200800614b0724104c0de073a0e61861ac6442fb90"
+    },
+    {
+      "path": "research/harvest/publisher_sources/download.py",
+      "sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864"
+    },
+    {
+      "path": "research/harvest/publisher_sources/verify_guards.py",
+      "sha256": "c0372e0098625a049920b636a600b5b411c9d5b9c2b83ced7a7d7642d872ec5b"
+    },
+    {
+      "path": "research/harvest/publisher_sources/guard-verification.json",
+      "sha256": "71798e34c7001f309496a7e9b60f1902b0c35f275659d4e11bdc87355e68180b"
+    },
+    {
+      "path": "research/harvest/publisher_sources/pilot-plan.json",
+      "sha256": "c08b54c733dff37901dfa21baaab84cc9fb4eec04e1633fadc54a67814b6523d"
+    },
+    {
+      "path": "research/harvest/publisher_sources/expanded-plan.json",
+      "sha256": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712"
+    },
+    {
+      "path": "research/harvest/publisher_sources/publisher-summary.json",
+      "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+    },
+    {
+      "path": "research/harvest/publisher_sources/publisher-attempts.jsonl",
+      "sha256": "fced53fb869e891f21f127f9b694d0cc53922166364c308df9cd1bf3ad15523c"
+    },
+    {
+      "path": "research/harvest/publisher_sources/delivery-redaction-receipt.json",
+      "sha256": "f918f6f1fd8b627ef5bd5d1d7ed438c435472a11951ea61fc51c870e4435fa70"
+    },
+    {
+      "path": "research/harvest/publisher_sources/duration-review-amendment.json",
+      "sha256": "3b07158d1010ee47507d0b2fd41e583460b09a1e8da4485f7cf13d054014dfc8"
+    },
+    {
+      "path": "research/harvest/publisher_sources/apply_duration_review.py",
+      "sha256": "33613af1e4b89be8ebce3402ee63dcb47e8ea568df5574570144decd7fe31813"
+    },
+    {
+      "path": "research/harvest/publisher_sources/apply_rss_metadata_reviews.py",
+      "sha256": "5a0d2aa578c2a1f9eeba176846bb09a6a22096d7417992f798ad3916f6b7b9bb"
+    },
+    {
+      "path": "research/harvest/publisher_sources/redact_delivery_metadata.py",
+      "sha256": "ae43bb09ec147182809b8a95612e533be6dde76b69537e2117bc68c09fc08ddb"
+    },
+    {
+      "path": "research/harvest/publisher_sources/README.md",
+      "sha256": "c73a49f2be18dbc09adf4bd3b7efb56a03be02e7485f6975bda9d72eddb0f08b"
+    },
+    {
+      "path": "research/harvest/publisher_sources/execution-code-register.json",
+      "sha256": "35a376b5a2b7befaf739ffa5482224887aec08614d609cc271ed73e64c1c19b1"
+    },
+    {
+      "path": "research/harvest/publisher_sources/code-versions/download-gateways-retry.py",
+      "sha256": "31efc69df53b1d274dcb6537073f44572b12cd85b72db6589c8c0c7d0824469d"
+    },
+    {
+      "path": "research/harvest/publisher_sources/code-versions/guard-verification-before-replay-fix.json",
+      "sha256": "7cafdecf2a3561e065ffc6636c3665538ea09cf802bc91a68907dcaf1c9d7847"
+    },
+    {
+      "path": "research/harvest/publisher_sources/verify_existing_replay.py",
+      "sha256": "78e82d7332780acdefa5616797c6ece6257a151b82c791f2b50fe924986c52a4"
+    },
+    {
+      "path": "research/harvest/publisher_sources/existing-replay-verification.json",
+      "sha256": "232e6ccc57ae9a9770b6c84e43efffc70fb8734734283f15052c5e66192cff54"
+    },
+    {
+      "path": "research/harvest/publisher_sources/replay-fix-receipt.json",
+      "sha256": "c502bfc8bf432c26690b5cd91919e1c83f9ceeb7e2db6c7aa40b58918f999554"
+    }
+  ],
+  "read_only_existing_artifact_checks": 60,
+  "warning_records_preserved_on_replay": 4,
+  "offline_replay_only_hardening": true
+}

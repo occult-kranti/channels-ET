@@ -1,0 +1,34 @@
+{
+  "kind": "asr_dispatcher_orchestration_source",
+  "filename": "queue-resumed-6da232b6f30ba48bf32dda36a7b4a79bd0f4003b8595eb0e6b3df2c1b2cc77da.py",
+  "sha256": "6da232b6f30ba48bf32dda36a7b4a79bd0f4003b8595eb0e6b3df2c1b2cc77da",
+  "bytes": 24495,
+  "archived_at": "2026-10-23T22:50:52.434837+00:00",
+  "executed_as": "actual resumptive bounded queue pass",
+  "run_id": "20261023T224949651730",
+  "plan_sha256": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712",
+  "observed_at": "2026-10-23T22:50:52.229557+00:00",
+  "observed_status": "running",
+  "observed_attempted_this_run": 2,
+  "observed_completed_new_this_run": 0,
+  "observed_reused_existing": 14,
+  "observed_verified_completed_total": 14,
+  "observed_in_flight_source_ids": [
+    "rss-1529629262-6e621316510d",
+    "rss-1546456269-353036e21117"
+  ],
+  "first_pass_state_sha256": "5548d62c7aec610370847904b6d393973c00c59e48fa6c08a3bca698c183692b",
+  "first_pass_terminal": {
+    "run_id": "20261023T223854739674",
+    "status": "completed_with_failures",
+    "verified_completed_total": 14,
+    "completed_new_this_run": 12,
+    "reused_existing": 2,
+    "acquisition_failed": 5,
+    "asr_failed": 0
+  },
+  "decoder_source_defined_here": false,
+  "decoder_provenance": "Every actual ASR child independently binds its retained transcriber source SHA, source audio SHA, model revision, versions and decoding signature.",
+  "final_nineteen_transcripts_established_at_archive_time": false,
+  "inference_or_summary_writes_by_archive_operation": false
+}

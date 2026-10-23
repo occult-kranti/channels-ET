@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "checks": 16,
+  "failures": [],
+  "collector_sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864",
+  "external_network_requests": 0,
+  "synthetic_fixture_not_corpus_data": true,
+  "all_checks": [
+    {
+      "check": "synthetic local MP3 exercises actual ffprobe",
+      "passed": true
+    },
+    {
+      "check": "valid synthetic audio promoted after transport/hash/probe/integrity checks",
+      "passed": true
+    },
+    {
+      "check": "promoted synthetic bytes independently hashed",
+      "passed": true
+    },
+    {
+      "check": "generic binary media requires actual hash/probe/integrity before completion",
+      "passed": true
+    },
+    {
+      "check": "known RSS size mismatch cannot count complete",
+      "passed": true
+    },
+    {
+      "check": "known RSS duration mismatch cannot count complete",
+      "passed": true
+    },
+    {
+      "check": "HTTP source refused before any network call",
+      "passed": true
+    },
+    {
+      "check": "unmanifested existing file is not reused as source evidence",
+      "passed": true
+    },
+    {
+      "check": "matching prior source/hash reuses artifact with no GET",
+      "passed": true
+    },
+    {
+      "check": "changed artifact hash prevents reuse",
+      "passed": true
+    },
+    {
+      "check": "no-GET replay preserves source/hash-bound warning, strict flags, amendment, original timing and executed-source lineage",
+      "passed": true
+    },
+    {
+      "check": "warning exception cannot transfer to an unbound artifact amendment",
+      "passed": true
+    },
+    {
+      "check": "declared per-file oversize never promoted",
+      "passed": true
+    },
+    {
+      "check": "HTTPS-to-HTTP redirect refused",
+      "passed": true
+    },
+    {
+      "check": "CDN signed path and query values omitted from public endpoint metadata",
+      "passed": true
+    },
+    {
+      "check": "separate file handles cannot hold exclusive writer lock together",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,2836 @@
+{
+ "generated": "2026-09-11",
+ "method": {
+  "corpus": "Structured digests generated from public YouTube auto-transcripts via youtubetotranscript.com (one digest per video), plus podcast metadata. Each digest holds a summary, Q&A gists, key terms, ≤30-word quotes and an LLM-estimated topic mix over 20 fixed tags.",
+  "document_text": "title ×2 + opening summary + every Q&A question and answer gist + key terms repeated by frequency bucket (high×3, medium×2, low×1) + tools + named entities; multi-word Bashar terms fused into single tokens.",
+  "vectorizer": "TF-IDF, unigrams+bigrams, min_df=2, max_df=0.8, sublinear tf, English + custom stop words.",
+  "clustering": "Session archetypes: k-means (50 restarts, seed 42) on the square-rooted 20-tag topic mix of each video; k=5 chosen for the best balance of silhouette (0.35) and interpretability (k=6–7 only split off 2–3-video clusters). Diagnostic: k-means on TF-IDF vocabulary alone gives silhouette 0.01–0.05 for k=4..7 — Bashar's vocabulary is nearly the same in every recording, so vocabulary alone barely separates sessions.",
+  "map": "t-SNE (perplexity 8, cosine) over 30-d LSA of TF-IDF vocabulary",
+  "topic_share": "Weighted mean of per-video topic percentages, weights = approximate transcript word count (so full sessions count more than short clips). Unweighted mean also reported.",
+  "caveats": [
+   "Topic percentages are model estimates from auto-transcripts, not hand coding.",
+   "Sample is skewed to what is on YouTube in 2024–2026 (re-uploads, highlight clips, interviews); it is not a random sample of 40 years of sessions.",
+   "Many re-upload titles carry invented dates; year-based views use only videos with a reliable date.",
+   "Interviews with Darryl Anka are in his voice, not Bashar's, and are flagged separately."
+  ]
+ },
+ "tags": [
+  {
+   "tag": "formula_excitement",
+   "label": "Follow your excitement / The Formula"
+  },
+  {
+   "tag": "beliefs_emotions_fear",
+   "label": "Beliefs, emotions & fear"
+  },
+  {
+   "tag": "parallel_realities_shifting",
+   "label": "Parallel realities & shifting"
+  },
+  {
+   "tag": "physical_vs_higher_mind",
+   "label": "Physical mind vs higher mind"
+  },
+  {
+   "tag": "permission_slips_tools",
+   "label": "Permission slips & tools"
+  },
+  {
+   "tag": "et_contact_disclosure_2027",
+   "label": "ET contact, disclosure & 2027"
+  },
+  {
+   "tag": "essassani_hybrids_other_civilizations",
+   "label": "Essassani, hybrids & other civilizations"
+  },
+  {
+   "tag": "earth_shift_timelines_ascension",
+   "label": "Earth's shift, timelines & ascension"
+  },
+  {
+   "tag": "abundance_money_career",
+   "label": "Abundance, money & career"
+  },
+  {
+   "tag": "relationships_family_sexuality",
+   "label": "Relationships, family & sexuality"
+  },
+  {
+   "tag": "health_body_healing_death",
+   "label": "Health, body, healing & death"
+  },
+  {
+   "tag": "time_simultaneity_reincarnation",
+   "label": "Time, simultaneity & reincarnation"
+  },
+  {
+   "tag": "channeling_mechanics_darryl",
+   "label": "Channeling mechanics & Darryl"
+  },
+  {
+   "tag": "consciousness_oversoul_higherself",
+   "label": "Consciousness, oversoul & higher self"
+  },
+  {
+   "tag": "synchronicity_dreams_meditation",
+   "label": "Synchronicity, dreams & meditation"
+  },
+  {
+   "tag": "politics_society_economy_ai",
+   "label": "Politics, society, economy & AI"
+  },
+  {
+   "tag": "physics_energy_frequency_dimensions",
+   "label": "Energy, frequency & dimensions"
+  },
+  {
+   "tag": "spirituality_god_love_service",
+   "label": "Spirituality, God, love & service"
+  },
+  {
+   "tag": "ancient_history_atlantis_orion_sirius",
+   "label": "Ancient history: Atlantis, Orion, Sirius"
+  },
+  {
+   "tag": "misc_life_guidance",
+   "label": "Practical life guidance (misc)"
+  }
+ ],
+ "headline": {
+  "n_docs": 75,
+  "n_full_sessions": 27,
+  "n_interviews": 21,
+  "n_official_clips": 12,
+  "n_clips": 15,
+  "approx_words_analyzed": 1186510,
+  "n_questions": 949,
+  "top3": [
+   {
+    "tag": "beliefs_emotions_fear",
+    "label": "Beliefs, emotions & fear",
+    "weighted_pct": 12.3,
+    "unweighted_pct": 13.0,
+    "docs_with_10pct": 51,
+    "docs_present": 74
+   },
+   {
+    "tag": "formula_excitement",
+    "label": "Follow your excitement / The Formula",
+    "weighted_pct": 10.0,
+    "unweighted_pct": 8.5,
+    "docs_with_10pct": 31,
+    "docs_present": 62
+   },
+   {
+    "tag": "et_contact_disclosure_2027",
+    "label": "ET contact, disclosure & 2027",
+    "weighted_pct": 8.8,
+    "unweighted_pct": 11.0,
+    "docs_with_10pct": 34,
+    "docs_present": 56
+   }
+  ],
+  "top3_combined_pct": 31.1,
+  "docs_mentioning_2027": 28,
+  "docs_mentioning_2026": 23,
+  "docs_mentioning_2033": 7,
+  "n_clusters": 5,
+  "silhouette": 0.346,
+  "k_search": {
+   "3": {
+    "silhouette": 0.311,
+    "sizes": [
+     14,
+     53,
+     8
+    ]
+   },
+   "4": {
+    "silhouette": 0.339,
+    "sizes": [
+     8,
+     9,
+     47,
+     11
+    ]
+   },
+   "5": {
+    "silhouette": 0.346,
+    "sizes": [
+     7,
+     7,
+     6,
+     47,
+     8
+    ]
+   },
+   "6": {
+    "silhouette": 0.359,
+    "sizes": [
+     49,
+     7,
+     5,
+     3,
+     7,
+     4
+    ]
+   },
+   "7": {
+    "silhouette": 0.371,
+    "sizes": [
+     49,
+     7,
+     4,
+     7,
+     3,
+     3,
+     2
+    ]
+   }
+  },
+  "text_only_clustering": {
+   "4": {
+    "silhouette": 0.016,
+    "sizes": [
+     3,
+     42,
+     22,
+     8
+    ]
+   },
+   "5": {
+    "silhouette": 0.006,
+    "sizes": [
+     11,
+     37,
+     20,
+     3,
+     4
+    ]
+   },
+   "6": {
+    "silhouette": 0.017,
+    "sizes": [
+     15,
+     20,
+     7,
+     7,
+     19,
+     7
+    ]
+   },
+   "7": {
+    "silhouette": 0.029,
+    "sizes": [
+     17,
+     13,
+     4,
+     5,
+     8,
+     23,
+     5
+    ]
+   }
+  },
+  "map_method": "t-SNE (perplexity 8, cosine) over 30-d LSA of TF-IDF vocabulary",
+  "terms_in_most_docs": [
+   "synchronicity",
+   "permission slip",
+   "definition",
+   "parallel reality",
+   "highest excitement",
+   "physical mind",
+   "higher mind",
+   "open contact",
+   "frequency",
+   "hybrid children"
+  ],
+  "most_asked": [
+   {
+    "tag": "misc_life_guidance",
+    "label": "Practical life guidance (misc)",
+    "count": 234,
+    "pct": 24.7,
+    "examples": [
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "Is the Earth flat, and what about hollow Earth theories?"
+     },
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "What is fundamental to be less limited?"
+     },
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "Does Bashar know everything?"
+     },
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "How do I release and let go of things no longer serving me?"
+     },
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "What connections do I have to water and dolphins?"
+     }
+    ]
+   },
+   {
+    "tag": "et_contact_disclosure_2027",
+    "label": "ET contact, disclosure & 2027",
+    "count": 159,
+    "pct": 16.8,
+    "examples": [
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "Will there be open extraterrestrial contact, and is Bashar the last channeling?"
+     },
+     {
+      "video_id": "2GVhU6BRVWY",
+      "question": "Who must humanity become to adapt to open ET contact?"
+     },
+     {
+      "video_id": "2GVhU6BRVWY",
+      "question": "Why do ETs limit nuclear weapons but allow other mistakes?"
+     },
+     {
+      "video_id": "2GVhU6BRVWY",
+      "question": "How will open contact unfold over decades?"
+     },
+     {
+      "video_id": "2GVhU6BRVWY",
+      "question": "What does the 'Disclosure Day' movie represent strategically?"
+     }
+    ]
+   },
+   {
+    "tag": "relationships_family_sexuality",
+    "label": "Relationships, family & sexuality",
+    "count": 72,
+    "pct": 7.6,
+    "examples": [
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "Can one person inspire global peace, unity, and race relations healing?"
+     },
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "How do I balance family and career with my higher calling?"
+     },
+     {
+      "video_id": "5Js8U9sJ5-8",
+      "question": "Why do children see beings and interdimensional entities?"
+     },
+     {
+      "video_id": "5Js8U9sJ5-8",
+      "question": "What does a dark pattern portal on the ceiling during childhood mean?"
+     },
+     {
+      "video_id": "5Js8U9sJ5-8",
+      "question": "What did the school desk during childhood gray encounter signify?"
+     }
+    ]
+   },
+   {
+    "tag": "health_body_healing_death",
+    "label": "Health, body, healing & death",
+    "count": 71,
+    "pct": 7.5,
+    "examples": [
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "What is the ideal diet for humans?"
+     },
+     {
+      "video_id": "2GVhU6BRVWY",
+      "question": "What did brain studies reveal about Darryl's channeling?"
+     },
+     {
+      "video_id": "5Js8U9sJ5-8",
+      "question": "Do we shift to the same Earth upon waking as we went to sleep in?"
+     },
+     {
+      "video_id": "5Js8U9sJ5-8",
+      "question": "How do we become more lucid during sleep and out-of-body experiences?"
+     },
+     {
+      "video_id": "5lOHuqDbpoc",
+      "question": "How do near-death experiences function spiritually?"
+     }
+    ]
+   },
+   {
+    "tag": "formula_excitement",
+    "label": "Follow your excitement / The Formula",
+    "count": 55,
+    "pct": 5.8,
+    "examples": [
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "How do I proceed with my highest excitement when blueprints run out at age 33?"
+     },
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "Do we have one life purpose or many?"
+     },
+     {
+      "video_id": "0htF1V0v6ec",
+      "question": "What about finding excitement in daily life?"
+     },
+     {
+      "video_id": "2GVhU6BRVWY",
+      "question": "How does empathy relate to telepathy and advancement?"
+     },
+     {
+      "video_id": "2GVhU6BRVWY",
+      "question": "What is Bashar's core formula for manifesting reality?"
+     }
+    ]
+   }
+  ]
+ },
+ "share_overall": [
+  {
+   "tag": "beliefs_emotions_fear",
+   "label": "Beliefs, emotions & fear",
+   "weighted_pct": 12.3,
+   "unweighted_pct": 13.0,
+   "docs_with_10pct": 51,
+   "docs_present": 74
+  },
+  {
+   "tag": "formula_excitement",
+   "label": "Follow your excitement / The Formula",
+   "weighted_pct": 10.0,
+   "unweighted_pct": 8.5,
+   "docs_with_10pct": 31,
+   "docs_present": 62
+  },
+  {
+   "tag": "et_contact_disclosure_2027",
+   "label": "ET contact, disclosure & 2027",
+   "weighted_pct": 8.8,
+   "unweighted_pct": 11.0,
+   "docs_with_10pct": 34,
+   "docs_present": 56
+  },
+  {
+   "tag": "physical_vs_higher_mind",
+   "label": "Physical mind vs higher mind",
+   "weighted_pct": 7.2,
+   "unweighted_pct": 8.8,
+   "docs_with_10pct": 17,
+   "docs_present": 70
+  },
+  {
+   "tag": "parallel_realities_shifting",
+   "label": "Parallel realities & shifting",
+   "weighted_pct": 7.0,
+   "unweighted_pct": 7.7,
+   "docs_with_10pct": 20,
+   "docs_present": 63
+  },
+  {
+   "tag": "essassani_hybrids_other_civilizations",
+   "label": "Essassani, hybrids & other civilizations",
+   "weighted_pct": 6.4,
+   "unweighted_pct": 7.2,
+   "docs_with_10pct": 16,
+   "docs_present": 62
+  },
+  {
+   "tag": "permission_slips_tools",
+   "label": "Permission slips & tools",
+   "weighted_pct": 5.0,
+   "unweighted_pct": 4.9,
+   "docs_with_10pct": 7,
+   "docs_present": 60
+  },
+  {
+   "tag": "consciousness_oversoul_higherself",
+   "label": "Consciousness, oversoul & higher self",
+   "weighted_pct": 4.8,
+   "unweighted_pct": 5.8,
+   "docs_with_10pct": 8,
+   "docs_present": 67
+  },
+  {
+   "tag": "earth_shift_timelines_ascension",
+   "label": "Earth's shift, timelines & ascension",
+   "weighted_pct": 4.6,
+   "unweighted_pct": 4.3,
+   "docs_with_10pct": 7,
+   "docs_present": 59
+  },
+  {
+   "tag": "spirituality_god_love_service",
+   "label": "Spirituality, God, love & service",
+   "weighted_pct": 4.5,
+   "unweighted_pct": 3.5,
+   "docs_with_10pct": 2,
+   "docs_present": 53
+  },
+  {
+   "tag": "physics_energy_frequency_dimensions",
+   "label": "Energy, frequency & dimensions",
+   "weighted_pct": 4.3,
+   "unweighted_pct": 3.8,
+   "docs_with_10pct": 2,
+   "docs_present": 61
+  },
+  {
+   "tag": "misc_life_guidance",
+   "label": "Practical life guidance (misc)",
+   "weighted_pct": 4.3,
+   "unweighted_pct": 3.2,
+   "docs_with_10pct": 3,
+   "docs_present": 53
+  },
+  {
+   "tag": "synchronicity_dreams_meditation",
+   "label": "Synchronicity, dreams & meditation",
+   "weighted_pct": 3.8,
+   "unweighted_pct": 2.7,
+   "docs_with_10pct": 3,
+   "docs_present": 51
+  },
+  {
+   "tag": "time_simultaneity_reincarnation",
+   "label": "Time, simultaneity & reincarnation",
+   "weighted_pct": 3.3,
+   "unweighted_pct": 3.5,
+   "docs_with_10pct": 4,
+   "docs_present": 55
+  },
+  {
+   "tag": "channeling_mechanics_darryl",
+   "label": "Channeling mechanics & Darryl",
+   "weighted_pct": 2.7,
+   "unweighted_pct": 2.3,
+   "docs_with_10pct": 3,
+   "docs_present": 52
+  },
+  {
+   "tag": "relationships_family_sexuality",
+   "label": "Relationships, family & sexuality",
+   "weighted_pct": 2.5,
+   "unweighted_pct": 1.9,
+   "docs_with_10pct": 1,
+   "docs_present": 46
+  },
+  {
+   "tag": "abundance_money_career",
+   "label": "Abundance, money & career",
+   "weighted_pct": 2.4,
+   "unweighted_pct": 2.7,
+   "docs_with_10pct": 6,
+   "docs_present": 47
+  },
+  {
+   "tag": "health_body_healing_death",
+   "label": "Health, body, healing & death",
+   "weighted_pct": 2.3,
+   "unweighted_pct": 1.9,
+   "docs_with_10pct": 3,
+   "docs_present": 50
+  },
+  {
+   "tag": "politics_society_economy_ai",
+   "label": "Politics, society, economy & AI",
+   "weighted_pct": 1.9,
+   "unweighted_pct": 1.9,
+   "docs_with_10pct": 3,
+   "docs_present": 46
+  },
+  {
+   "tag": "ancient_history_atlantis_orion_sirius",
+   "label": "Ancient history: Atlantis, Orion, Sirius",
+   "weighted_pct": 1.9,
+   "unweighted_pct": 1.3,
+   "docs_with_10pct": 1,
+   "docs_present": 39
+  }
+ ],
+ "share_by_type": {
+  "Clip / excerpt": {
+   "n": 15,
+   "share": {
+    "formula_excitement": 3.3,
+    "beliefs_emotions_fear": 12.7,
+    "parallel_realities_shifting": 8.4,
+    "physical_vs_higher_mind": 15.4,
+    "permission_slips_tools": 6.1,
+    "et_contact_disclosure_2027": 12.4,
+    "essassani_hybrids_other_civilizations": 7.3,
+    "earth_shift_timelines_ascension": 4.7,
+    "abundance_money_career": 1.6,
+    "relationships_family_sexuality": 0.2,
+    "health_body_healing_death": 1.4,
+    "time_simultaneity_reincarnation": 10.1,
+    "channeling_mechanics_darryl": 1.2,
+    "consciousness_oversoul_higherself": 7.9,
+    "synchronicity_dreams_meditation": 0.6,
+    "politics_society_economy_ai": 0.7,
+    "physics_energy_frequency_dimensions": 2.5,
+    "spirituality_god_love_service": 0.9,
+    "ancient_history_atlantis_orion_sirius": 1.0,
+    "misc_life_guidance": 1.4
+   }
+  },
+  "Full session (re-upload)": {
+   "n": 27,
+   "share": {
+    "formula_excitement": 10.7,
+    "beliefs_emotions_fear": 13.4,
+    "parallel_realities_shifting": 7.4,
+    "physical_vs_higher_mind": 7.2,
+    "permission_slips_tools": 5.8,
+    "et_contact_disclosure_2027": 6.7,
+    "essassani_hybrids_other_civilizations": 5.8,
+    "earth_shift_timelines_ascension": 4.1,
+    "abundance_money_career": 2.5,
+    "relationships_family_sexuality": 2.9,
+    "health_body_healing_death": 2.6,
+    "time_simultaneity_reincarnation": 3.1,
+    "channeling_mechanics_darryl": 1.4,
+    "consciousness_oversoul_higherself": 4.4,
+    "synchronicity_dreams_meditation": 4.4,
+    "politics_society_economy_ai": 1.6,
+    "physics_energy_frequency_dimensions": 4.1,
+    "spirituality_god_love_service": 4.6,
+    "ancient_history_atlantis_orion_sirius": 2.3,
+    "misc_life_guidance": 4.9
+   }
+  },
+  "Interview with Darryl Anka": {
+   "n": 21,
+   "share": {
+    "formula_excitement": 9.1,
+    "beliefs_emotions_fear": 9.6,
+    "parallel_realities_shifting": 6.2,
+    "physical_vs_higher_mind": 6.5,
+    "permission_slips_tools": 3.1,
+    "et_contact_disclosure_2027": 12.6,
+    "essassani_hybrids_other_civilizations": 7.7,
+    "earth_shift_timelines_ascension": 5.8,
+    "abundance_money_career": 2.1,
+    "relationships_family_sexuality": 2.0,
+    "health_body_healing_death": 1.8,
+    "time_simultaneity_reincarnation": 3.2,
+    "channeling_mechanics_darryl": 5.7,
+    "consciousness_oversoul_higherself": 5.3,
+    "synchronicity_dreams_meditation": 2.8,
+    "politics_society_economy_ai": 2.6,
+    "physics_energy_frequency_dimensions": 4.8,
+    "spirituality_god_love_service": 4.7,
+    "ancient_history_atlantis_orion_sirius": 1.1,
+    "misc_life_guidance": 3.3
+   }
+  },
+  "Official highlight clip": {
+   "n": 12,
+   "share": {
+    "formula_excitement": 11.6,
+    "beliefs_emotions_fear": 22.5,
+    "parallel_realities_shifting": 3.1,
+    "physical_vs_higher_mind": 15.1,
+    "permission_slips_tools": 5.3,
+    "et_contact_disclosure_2027": 13.6,
+    "essassani_hybrids_other_civilizations": 2.6,
+    "earth_shift_timelines_ascension": 1.4,
+    "abundance_money_career": 4.6,
+    "relationships_family_sexuality": 0.0,
+    "health_body_healing_death": 1.0,
+    "time_simultaneity_reincarnation": 0.9,
+    "channeling_mechanics_darryl": 1.7,
+    "consciousness_oversoul_higherself": 7.1,
+    "synchronicity_dreams_meditation": 2.0,
+    "politics_society_economy_ai": 1.5,
+    "physics_energy_frequency_dimensions": 2.8,
+    "spirituality_god_love_service": 1.6,
+    "ancient_history_atlantis_orion_sirius": 0.0,
+    "misc_life_guidance": 1.4
+   }
+  }
+ },
+ "share_by_year": {
+  "2024": {
+   "n": 4,
+   "share": {
+    "formula_excitement": 3.4,
+    "beliefs_emotions_fear": 8.6,
+    "parallel_realities_shifting": 8.4,
+    "physical_vs_higher_mind": 6.9,
+    "permission_slips_tools": 4.4,
+    "et_contact_disclosure_2027": 29.4,
+    "essassani_hybrids_other_civilizations": 4.8,
+    "earth_shift_timelines_ascension": 6.3,
+    "abundance_money_career": 0.0,
+    "relationships_family_sexuality": 1.6,
+    "health_body_healing_death": 0.3,
+    "time_simultaneity_reincarnation": 1.4,
+    "channeling_mechanics_darryl": 5.5,
+    "consciousness_oversoul_higherself": 5.6,
+    "synchronicity_dreams_meditation": 0.8,
+    "politics_society_economy_ai": 1.2,
+    "physics_energy_frequency_dimensions": 3.6,
+    "spirituality_god_love_service": 4.3,
+    "ancient_history_atlantis_orion_sirius": 0.0,
+    "misc_life_guidance": 3.5
+   }
+  },
+  "2025": {
+   "n": 16,
+   "share": {
+    "formula_excitement": 10.3,
+    "beliefs_emotions_fear": 12.6,
+    "parallel_realities_shifting": 7.4,
+    "physical_vs_higher_mind": 6.6,
+    "permission_slips_tools": 5.1,
+    "et_contact_disclosure_2027": 10.3,
+    "essassani_hybrids_other_civilizations": 6.9,
+    "earth_shift_timelines_ascension": 5.6,
+    "abundance_money_career": 2.3,
+    "relationships_family_sexuality": 2.2,
+    "health_body_healing_death": 1.7,
+    "time_simultaneity_reincarnation": 2.8,
+    "channeling_mechanics_darryl": 2.2,
+    "consciousness_oversoul_higherself": 4.3,
+    "synchronicity_dreams_meditation": 2.7,
+    "politics_society_economy_ai": 3.0,
+    "physics_energy_frequency_dimensions": 3.5,
+    "spirituality_god_love_service": 4.1,
+    "ancient_history_atlantis_orion_sirius": 1.2,
+    "misc_life_guidance": 5.1
+   }
+  },
+  "2026": {
+   "n": 15,
+   "share": {
+    "formula_excitement": 10.4,
+    "beliefs_emotions_fear": 12.5,
+    "parallel_realities_shifting": 4.6,
+    "physical_vs_higher_mind": 6.2,
+    "permission_slips_tools": 4.0,
+    "et_contact_disclosure_2027": 12.2,
+    "essassani_hybrids_other_civilizations": 6.8,
+    "earth_shift_timelines_ascension": 4.5,
+    "abundance_money_career": 1.6,
+    "relationships_family_sexuality": 2.7,
+    "health_body_healing_death": 2.6,
+    "time_simultaneity_reincarnation": 2.8,
+    "channeling_mechanics_darryl": 2.2,
+    "consciousness_oversoul_higherself": 4.6,
+    "synchronicity_dreams_meditation": 5.2,
+    "politics_society_economy_ai": 2.1,
+    "physics_energy_frequency_dimensions": 3.6,
+    "spirituality_god_love_service": 5.2,
+    "ancient_history_atlantis_orion_sirius": 1.9,
+    "misc_life_guidance": 4.2
+   }
+  }
+ },
+ "share_by_era": {
+  "2024–2026": {
+   "n": 36,
+   "share": {
+    "formula_excitement": 10.2,
+    "beliefs_emotions_fear": 12.5,
+    "parallel_realities_shifting": 6.1,
+    "physical_vs_higher_mind": 6.4,
+    "permission_slips_tools": 4.5,
+    "et_contact_disclosure_2027": 11.6,
+    "essassani_hybrids_other_civilizations": 6.8,
+    "earth_shift_timelines_ascension": 5.1,
+    "abundance_money_career": 1.9,
+    "relationships_family_sexuality": 2.4,
+    "health_body_healing_death": 2.1,
+    "time_simultaneity_reincarnation": 2.8,
+    "channeling_mechanics_darryl": 2.3,
+    "consciousness_oversoul_higherself": 4.4,
+    "synchronicity_dreams_meditation": 3.9,
+    "politics_society_economy_ai": 2.5,
+    "physics_energy_frequency_dimensions": 3.6,
+    "spirituality_god_love_service": 4.6,
+    "ancient_history_atlantis_orion_sirius": 1.6,
+    "misc_life_guidance": 4.7
+   }
+  }
+ },
+ "clusters": [
+  {
+   "id": 0,
+   "top_terms": [
+    "attract",
+    "crazy",
+    "abundance",
+    "obstacles",
+    "money",
+    "imagination",
+    "passion",
+    "path",
+    "belief",
+    "opportunity",
+    "fulfilling",
+    "assumptions"
+   ],
+   "size": 7,
+   "members": [
+    "S3Xw09ZE2Dg",
+    "d--HZiDqgs0",
+    "JSwqz_ZhH_I",
+    "ozHG5P7fY5I",
+    "k0lWJ2B90-I",
+    "T5QtncJq1Jc",
+    "1x7Z68os7HE"
+   ],
+   "top_tags": [
+    {
+     "tag": "beliefs_emotions_fear",
+     "label": "Beliefs, emotions & fear",
+     "mean_pct": 29.9
+    },
+    {
+     "tag": "formula_excitement",
+     "label": "Follow your excitement / The Formula",
+     "mean_pct": 18.4
+    },
+    {
+     "tag": "permission_slips_tools",
+     "label": "Permission slips & tools",
+     "mean_pct": 17.0
+    },
+    {
+     "tag": "abundance_money_career",
+     "label": "Abundance, money & career",
+     "mean_pct": 10.7
+    },
+    {
+     "tag": "physical_vs_higher_mind",
+     "label": "Physical mind vs higher mind",
+     "mean_pct": 7.7
+    }
+   ],
+   "content_types": {
+    "Clip / excerpt": 2,
+    "Official highlight clip": 5
+   },
+   "mean_words": 1255,
+   "name": "Belief work, the Formula & tools"
+  },
+  {
+   "id": 1,
+   "top_terms": [
+    "disclosure",
+    "open contact",
+    "contact",
+    "ets",
+    "extraterrestrial",
+    "secret",
+    "western",
+    "indigenous",
+    "western culture",
+    "introduction",
+    "reptilians",
+    "beings"
+   ],
+   "size": 7,
+   "members": [
+    "hFC4F3JO33M",
+    "eCxOH-AK1rc",
+    "9Ij2AEoRwoM",
+    "4NGd9kqWM04",
+    "_UZ8EyuOuY8",
+    "fOi0W9_JEWM",
+    "fZmY4xS_qXE"
+   ],
+   "top_tags": [
+    {
+     "tag": "et_contact_disclosure_2027",
+     "label": "ET contact, disclosure & 2027",
+     "mean_pct": 50.3
+    },
+    {
+     "tag": "beliefs_emotions_fear",
+     "label": "Beliefs, emotions & fear",
+     "mean_pct": 12.8
+    },
+    {
+     "tag": "essassani_hybrids_other_civilizations",
+     "label": "Essassani, hybrids & other civilizations",
+     "mean_pct": 11.6
+    },
+    {
+     "tag": "physical_vs_higher_mind",
+     "label": "Physical mind vs higher mind",
+     "mean_pct": 4.1
+    },
+    {
+     "tag": "earth_shift_timelines_ascension",
+     "label": "Earth's shift, timelines & ascension",
+     "mean_pct": 4.1
+    }
+   ],
+   "content_types": {
+    "Interview with Darryl Anka": 3,
+    "Clip / excerpt": 3,
+    "Official highlight clip": 1
+   },
+   "mean_words": 4464,
+   "name": "Contact & disclosure"
+  },
+  {
+   "id": 2,
+   "top_terms": [
+    "travel",
+    "instantaneous",
+    "resources",
+    "civilization",
+    "universe",
+    "physical",
+    "location",
+    "planets",
+    "objects",
+    "object",
+    "non physical",
+    "technological"
+   ],
+   "size": 6,
+   "members": [
+    "ji9rMw37o2M",
+    "98KsASkO8Cs",
+    "aZvcNhWthUA",
+    "iq2QpcqHlmw",
+    "mzcFoYUvbOE",
+    "EHK_mwdk3kM"
+   ],
+   "top_tags": [
+    {
+     "tag": "essassani_hybrids_other_civilizations",
+     "label": "Essassani, hybrids & other civilizations",
+     "mean_pct": 25.5
+    },
+    {
+     "tag": "consciousness_oversoul_higherself",
+     "label": "Consciousness, oversoul & higher self",
+     "mean_pct": 10.8
+    },
+    {
+     "tag": "physics_energy_frequency_dimensions",
+     "label": "Energy, frequency & dimensions",
+     "mean_pct": 10.0
+    },
+    {
+     "tag": "parallel_realities_shifting",
+     "label": "Parallel realities & shifting",
+     "mean_pct": 8.3
+    },
+    {
+     "tag": "beliefs_emotions_fear",
+     "label": "Beliefs, emotions & fear",
+     "mean_pct": 7.5
+    }
+   ],
+   "content_types": {
+    "Clip / excerpt": 4,
+    "Official highlight clip": 2
+   },
+   "mean_words": 1231,
+   "name": "Other civilizations & cosmology"
+  },
+  {
+   "id": 3,
+   "top_terms": [
+    "frequency",
+    "belief",
+    "vibration",
+    "synchronicity",
+    "soul",
+    "parallel reality",
+    "state",
+    "passion",
+    "consciousness",
+    "highest excitement",
+    "contact",
+    "permission slip"
+   ],
+   "size": 47,
+   "members": [
+    "mk_yQrOQHJs",
+    "ygzBrMyMAQA",
+    "p8JC21bFf5M",
+    "94agFEADfyk",
+    "0htF1V0v6ec",
+    "jdzErS12DvU",
+    "5Js8U9sJ5-8",
+    "OzkviF1GCFc",
+    "lLFUTAVah30",
+    "tskKYl3w0J8",
+    "QBk2MQ1MVZo",
+    "os4a7-7bnLw",
+    "sFjR-VFy4tE",
+    "DvWNnqnBAjc",
+    "Dw9XHTMrgBE",
+    "2GVhU6BRVWY",
+    "zOcZDBhRaOQ",
+    "vrv3J-ri804",
+    "HoYNcoMTk-4",
+    "PjIvEohms5I",
+    "9FrwPg8FYvM",
+    "egu6iDTj2ys",
+    "ja8BrsruFOo",
+    "ufzO0sbNICQ",
+    "hTlU_M_R0eE",
+    "wwkC86EEu1s",
+    "SBRcXicYs0I",
+    "IKYfZdjv3aE",
+    "U-DHIk0lIQ4",
+    "Rcjd1TkZUMY",
+    "ETuHIzyRhyY",
+    "jQbxp4e6bfg",
+    "mgSgI0ElfTI",
+    "hmX3hlNJBjU",
+    "WEVqgD-L5kc",
+    "IKJzZ-KVPdQ",
+    "7WjydoNj7hE",
+    "Fp1YFz-8d4Y",
+    "ZACIL5Hzb5c",
+    "kvU9mCJr-eo",
+    "y0-_YOFU8eQ",
+    "5lOHuqDbpoc",
+    "E_cPno64Z-Q",
+    "BaN26a0SbLQ",
+    "pfB4F7uAjwE",
+    "D8El0NsIF04",
+    "kPWOUEtUx2Y"
+   ],
+   "top_tags": [
+    {
+     "tag": "beliefs_emotions_fear",
+     "label": "Beliefs, emotions & fear",
+     "mean_pct": 11.9
+    },
+    {
+     "tag": "formula_excitement",
+     "label": "Follow your excitement / The Formula",
+     "mean_pct": 9.8
+    },
+    {
+     "tag": "et_contact_disclosure_2027",
+     "label": "ET contact, disclosure & 2027",
+     "mean_pct": 9.1
+    },
+    {
+     "tag": "physical_vs_higher_mind",
+     "label": "Physical mind vs higher mind",
+     "mean_pct": 6.9
+    },
+    {
+     "tag": "parallel_realities_shifting",
+     "label": "Parallel realities & shifting",
+     "mean_pct": 6.9
+    }
+   ],
+   "content_types": {
+    "Full session (re-upload)": 27,
+    "Interview with Darryl Anka": 18,
+    "Official highlight clip": 1,
+    "Clip / excerpt": 1
+   },
+   "mean_words": 23927,
+   "name": "The long-form mix (full sessions & interviews)"
+  },
+  {
+   "id": 4,
+   "top_terms": [
+    "moment",
+    "physical",
+    "parallel reality",
+    "consciousness",
+    "teaching",
+    "non physical",
+    "higher mind",
+    "self",
+    "afterlife",
+    "present",
+    "died",
+    "illusion"
+   ],
+   "size": 8,
+   "members": [
+    "66D69G8uQ50",
+    "IuO0mjva9ls",
+    "tYAnYpeyWTc",
+    "yx5hg3wTESs",
+    "CJb6grCrMhY",
+    "wCZ1Lib1_cQ",
+    "alW2lHKFy2k",
+    "Q9X_NGyYN3M"
+   ],
+   "top_tags": [
+    {
+     "tag": "physical_vs_higher_mind",
+     "label": "Physical mind vs higher mind",
+     "mean_pct": 26.1
+    },
+    {
+     "tag": "parallel_realities_shifting",
+     "label": "Parallel realities & shifting",
+     "mean_pct": 19.5
+    },
+    {
+     "tag": "consciousness_oversoul_higherself",
+     "label": "Consciousness, oversoul & higher self",
+     "mean_pct": 13.1
+    },
+    {
+     "tag": "time_simultaneity_reincarnation",
+     "label": "Time, simultaneity & reincarnation",
+     "mean_pct": 12.9
+    },
+    {
+     "tag": "beliefs_emotions_fear",
+     "label": "Beliefs, emotions & fear",
+     "mean_pct": 9.0
+    }
+   ],
+   "content_types": {
+    "Official highlight clip": 3,
+    "Clip / excerpt": 5
+   },
+   "mean_words": 1810,
+   "name": "Mind, parallel realities & time"
+  }
+ ],
+ "terms": [
+  {
+   "term": "synchronicity",
+   "docs": 47,
+   "weighted": 116
+  },
+  {
+   "term": "permission slip",
+   "docs": 45,
+   "weighted": 96
+  },
+  {
+   "term": "definition",
+   "docs": 44,
+   "weighted": 100
+  },
+  {
+   "term": "parallel reality",
+   "docs": 38,
+   "weighted": 94
+  },
+  {
+   "term": "highest excitement",
+   "docs": 37,
+   "weighted": 91
+  },
+  {
+   "term": "physical mind",
+   "docs": 33,
+   "weighted": 73
+  },
+  {
+   "term": "higher mind",
+   "docs": 32,
+   "weighted": 76
+  },
+  {
+   "term": "open contact",
+   "docs": 31,
+   "weighted": 87
+  },
+  {
+   "term": "frequency",
+   "docs": 27,
+   "weighted": 72
+  },
+  {
+   "term": "hybrid children",
+   "docs": 25,
+   "weighted": 47
+  },
+  {
+   "term": "vibration",
+   "docs": 24,
+   "weighted": 69
+  },
+  {
+   "term": "formula",
+   "docs": 23,
+   "weighted": 68
+  },
+  {
+   "term": "essassani",
+   "docs": 22,
+   "weighted": 30
+  },
+  {
+   "term": "belief system",
+   "docs": 20,
+   "weighted": 57
+  },
+  {
+   "term": "disclosure",
+   "docs": 13,
+   "weighted": 36
+  },
+  {
+   "term": "unconditional love",
+   "docs": 13,
+   "weighted": 31
+  },
+  {
+   "term": "higher self",
+   "docs": 13,
+   "weighted": 30
+  },
+  {
+   "term": "consciousness",
+   "docs": 12,
+   "weighted": 33
+  },
+  {
+   "term": "interstellar alliance",
+   "docs": 12,
+   "weighted": 22
+  },
+  {
+   "term": "contact fulcrum",
+   "docs": 12,
+   "weighted": 13
+  },
+  {
+   "term": "oversoul",
+   "docs": 11,
+   "weighted": 22
+  },
+  {
+   "term": "channeling",
+   "docs": 10,
+   "weighted": 23
+  },
+  {
+   "term": "life path",
+   "docs": 9,
+   "weighted": 27
+  },
+  {
+   "term": "passion",
+   "docs": 9,
+   "weighted": 26
+  },
+  {
+   "term": "soul",
+   "docs": 9,
+   "weighted": 24
+  },
+  {
+   "term": "vibrational frequency",
+   "docs": 9,
+   "weighted": 23
+  },
+  {
+   "term": "channeling state",
+   "docs": 9,
+   "weighted": 21
+  },
+  {
+   "term": "grays",
+   "docs": 9,
+   "weighted": 17
+  },
+  {
+   "term": "sassani",
+   "docs": 9,
+   "weighted": 15
+  },
+  {
+   "term": "anunnaki",
+   "docs": 9,
+   "weighted": 14
+  },
+  {
+   "term": "pleiadians",
+   "docs": 9,
+   "weighted": 13
+  },
+  {
+   "term": "fear-based beliefs",
+   "docs": 8,
+   "weighted": 20
+  },
+  {
+   "term": "spirit guides",
+   "docs": 8,
+   "weighted": 17
+  },
+  {
+   "term": "first contact specialist",
+   "docs": 8,
+   "weighted": 15
+  },
+  {
+   "term": "ascension",
+   "docs": 8,
+   "weighted": 14
+  },
+  {
+   "term": "soul family",
+   "docs": 8,
+   "weighted": 13
+  },
+  {
+   "term": "akashic records",
+   "docs": 8,
+   "weighted": 9
+  },
+  {
+   "term": "2027",
+   "docs": 7,
+   "weighted": 20
+  },
+  {
+   "term": "orchestration",
+   "docs": 7,
+   "weighted": 15
+  },
+  {
+   "term": "path of least resistance",
+   "docs": 7,
+   "weighted": 14
+  },
+  {
+   "term": "law of attraction",
+   "docs": 7,
+   "weighted": 14
+  },
+  {
+   "term": "negative belief",
+   "docs": 6,
+   "weighted": 18
+  },
+  {
+   "term": "follow your passion",
+   "docs": 6,
+   "weighted": 17
+  },
+  {
+   "term": "self-empowerment",
+   "docs": 6,
+   "weighted": 15
+  },
+  {
+   "term": "positive state",
+   "docs": 6,
+   "weighted": 15
+  },
+  {
+   "term": "physical reality",
+   "docs": 6,
+   "weighted": 14
+  },
+  {
+   "term": "extraterrestrial",
+   "docs": 6,
+   "weighted": 14
+  },
+  {
+   "term": "manifestation",
+   "docs": 6,
+   "weighted": 13
+  },
+  {
+   "term": "altered state",
+   "docs": 6,
+   "weighted": 11
+  },
+  {
+   "term": "first contact",
+   "docs": 6,
+   "weighted": 10
+  },
+  {
+   "term": "telepathy",
+   "docs": 6,
+   "weighted": 9
+  },
+  {
+   "term": "galactic federation",
+   "docs": 6,
+   "weighted": 8
+  },
+  {
+   "term": "act on your passion",
+   "docs": 5,
+   "weighted": 15
+  },
+  {
+   "term": "parallel realities",
+   "docs": 5,
+   "weighted": 14
+  },
+  {
+   "term": "abundance",
+   "docs": 5,
+   "weighted": 13
+  },
+  {
+   "term": "resonance",
+   "docs": 5,
+   "weighted": 12
+  },
+  {
+   "term": "flow",
+   "docs": 5,
+   "weighted": 10
+  },
+  {
+   "term": "reflection",
+   "docs": 5,
+   "weighted": 10
+  },
+  {
+   "term": "galactic family",
+   "docs": 5,
+   "weighted": 8
+  },
+  {
+   "term": "set point",
+   "docs": 5,
+   "weighted": 7
+  },
+  {
+   "term": "multidimensional",
+   "docs": 5,
+   "weighted": 7
+  },
+  {
+   "term": "fourth density",
+   "docs": 5,
+   "weighted": 7
+  },
+  {
+   "term": "know thyself",
+   "docs": 5,
+   "weighted": 7
+  },
+  {
+   "term": "gamma state",
+   "docs": 5,
+   "weighted": 6
+  },
+  {
+   "term": "spirit",
+   "docs": 4,
+   "weighted": 11
+  },
+  {
+   "term": "belief systems",
+   "docs": 4,
+   "weighted": 11
+  },
+  {
+   "term": "state of being",
+   "docs": 4,
+   "weighted": 11
+  },
+  {
+   "term": "alignment",
+   "docs": 4,
+   "weighted": 10
+  },
+  {
+   "term": "contact",
+   "docs": 4,
+   "weighted": 10
+  },
+  {
+   "term": "meditation",
+   "docs": 4,
+   "weighted": 9
+  },
+  {
+   "term": "curiosity",
+   "docs": 4,
+   "weighted": 9
+  },
+  {
+   "term": "telepathic connection",
+   "docs": 4,
+   "weighted": 9
+  },
+  {
+   "term": "all that is",
+   "docs": 4,
+   "weighted": 9
+  },
+  {
+   "term": "source",
+   "docs": 4,
+   "weighted": 8
+  },
+  {
+   "term": "spirit team",
+   "docs": 4,
+   "weighted": 8
+  },
+  {
+   "term": "channel",
+   "docs": 4,
+   "weighted": 8
+  },
+  {
+   "term": "what you put out is what you get back",
+   "docs": 4,
+   "weighted": 8
+  },
+  {
+   "term": "life review",
+   "docs": 4,
+   "weighted": 7
+  },
+  {
+   "term": "collective consciousness",
+   "docs": 4,
+   "weighted": 7
+  },
+  {
+   "term": "sirius",
+   "docs": 4,
+   "weighted": 6
+  }
+ ],
+ "entities": [
+  {
+   "entity": "Sassani/Essassani",
+   "docs": 53
+  },
+  {
+   "entity": "Pleiadians",
+   "docs": 28
+  },
+  {
+   "entity": "Yahyel",
+   "docs": 27
+  },
+  {
+   "entity": "Orion",
+   "docs": 25
+  },
+  {
+   "entity": "Sirius",
+   "docs": 22
+  },
+  {
+   "entity": "Anunnaki",
+   "docs": 17
+  },
+  {
+   "entity": "Atlantis",
+   "docs": 15
+  },
+  {
+   "entity": "Greys/Zeta",
+   "docs": 12
+  },
+  {
+   "entity": "Interstellar Alliance",
+   "docs": 12
+  },
+  {
+   "entity": "Jesus/Yeshua",
+   "docs": 9
+  },
+  {
+   "entity": "Reptilians",
+   "docs": 8
+  },
+  {
+   "entity": "Mantis beings",
+   "docs": 7
+  },
+  {
+   "entity": "Sedona",
+   "docs": 7
+  },
+  {
+   "entity": "Sasquatch/Bigfoot",
+   "docs": 6
+  },
+  {
+   "entity": "Hybrid children",
+   "docs": 6
+  },
+  {
+   "entity": "Homo sapiens",
+   "docs": 5
+  },
+  {
+   "entity": "Tall Whites",
+   "docs": 5
+  },
+  {
+   "entity": "Buddha",
+   "docs": 5
+  },
+  {
+   "entity": "Edgar Cayce",
+   "docs": 5
+  },
+  {
+   "entity": "Egypt",
+   "docs": 5
+  },
+  {
+   "entity": "Skinwalker Ranch",
+   "docs": 5
+  },
+  {
+   "entity": "Galactic Federation",
+   "docs": 5
+  },
+  {
+   "entity": "Homo habilis",
+   "docs": 4
+  },
+  {
+   "entity": "Arcturians",
+   "docs": 4
+  },
+  {
+   "entity": "Krishna",
+   "docs": 4
+  },
+  {
+   "entity": "Source",
+   "docs": 4
+  },
+  {
+   "entity": "Oversoul",
+   "docs": 4
+  },
+  {
+   "entity": "Spirit guides",
+   "docs": 4
+  },
+  {
+   "entity": "Willa Hillicrissing",
+   "docs": 4
+  },
+  {
+   "entity": "Mars",
+   "docs": 4
+  },
+  {
+   "entity": "Roswell",
+   "docs": 4
+  },
+  {
+   "entity": "Seth material",
+   "docs": 4
+  },
+  {
+   "entity": "Oakland",
+   "docs": 3
+  },
+  {
+   "entity": "Europe",
+   "docs": 3
+  },
+  {
+   "entity": "First Contact (documentary)",
+   "docs": 3
+  },
+  {
+   "entity": "New York",
+   "docs": 3
+  },
+  {
+   "entity": "Akashic Records",
+   "docs": 3
+  },
+  {
+   "entity": "Galactic family",
+   "docs": 3
+  },
+  {
+   "entity": "Heart Coherence Collaborative",
+   "docs": 3
+  },
+  {
+   "entity": "Bell Rock",
+   "docs": 3
+  }
+ ],
+ "tools": [
+  {
+   "tool": "Meditation",
+   "docs": 24
+  },
+  {
+   "tool": "The Formula / acting on highest excitement",
+   "docs": 22
+  },
+  {
+   "tool": "Belief investigation (\"what would I have to believe?\")",
+   "docs": 14
+  },
+  {
+   "tool": "Visualization / imagination",
+   "docs": 13
+  },
+  {
+   "tool": "Synchronicity tracking",
+   "docs": 12
+  },
+  {
+   "tool": "Permission slips",
+   "docs": 11
+  },
+  {
+   "tool": "Channeling practice",
+   "docs": 10
+  },
+  {
+   "tool": "Dream work",
+   "docs": 9
+  },
+  {
+   "tool": "Journaling / writing",
+   "docs": 4
+  },
+  {
+   "tool": "Grounding / time in nature",
+   "docs": 3
+  },
+  {
+   "tool": "Self-inquiry questions",
+   "docs": 3
+  },
+  {
+   "tool": "Breathing exercises",
+   "docs": 3
+  },
+  {
+   "tool": "Contact protocols / CE-5",
+   "docs": 2
+  },
+  {
+   "tool": "Light language",
+   "docs": 2
+  },
+  {
+   "tool": "The 1-3-5-7-11 download",
+   "docs": 1
+  },
+  {
+   "tool": "Crystal work",
+   "docs": 1
+  },
+  {
+   "tool": "Ritual",
+   "docs": 1
+  },
+  {
+   "tool": "The Spiral exercise",
+   "docs": 1
+  },
+  {
+   "tool": "Gratitude / appreciation practice",
+   "docs": 1
+  },
+  {
+   "tool": "Interstellar Alliance Social Experiment",
+   "docs": 1
+  },
+  {
+   "tool": "Divination tools (tarot etc.)",
+   "docs": 1
+  }
+ ],
+ "predictions": [
+  {
+   "year": 1973,
+   "docs": 2,
+   "examples": [
+    {
+     "video_id": "PjIvEohms5I",
+     "text": "{\"year\": \"1973\", \"context\": \"UFO sightings in San Diego Freeway area that initiated Darryl's research\"}"
+    },
+    {
+     "video_id": "ufzO0sbNICQ",
+     "text": "{\"date\": \"1973\", \"context\": \"Darryl witnessed UFO sightings in Los Angeles\"}"
+    }
+   ]
+  },
+  {
+   "year": 1983,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "ufzO0sbNICQ",
+     "text": "{\"date\": \"1983\", \"context\": \"Began channeling Bashar after guided meditation class\"}"
+    }
+   ]
+  },
+  {
+   "year": 1984,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "7WjydoNj7hE",
+     "text": "{\"year\": \"1984\", \"context\": \"Darryl Anka's first contact with Bashar during meditation class in Los Angeles\"}"
+    }
+   ]
+  },
+  {
+   "year": 1987,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "HoYNcoMTk-4",
+     "text": "{\"year\": \"1987\", \"context\": \"Harmonic Convergence, 40 years after Roswell; humanity was close to contact then\"}"
+    }
+   ]
+  },
+  {
+   "year": 1998,
+   "docs": 2,
+   "examples": [
+    {
+     "video_id": "IKYfZdjv3aE",
+     "text": "{\"year\": \"1998\", \"context\": \"Bashar reportedly said that by end of 2001 there would be a terrorist attack in New York City (retro-cited 9/11 prediction)\"}"
+    },
+    {
+     "video_id": "_UZ8EyuOuY8",
+     "text": "{\"year\": \"1998\", \"context\": \"Bashar reportedly said that before end of 2001 New York would suffer a terrorist attack\"}"
+    }
+   ]
+  },
+  {
+   "year": 2001,
+   "docs": 2,
+   "examples": [
+    {
+     "video_id": "IKYfZdjv3aE",
+     "text": "{\"year\": \"1998\", \"context\": \"Bashar reportedly said that by end of 2001 there would be a terrorist attack in New York City (retro-cited 9/11 prediction)\"}"
+    },
+    {
+     "video_id": "_UZ8EyuOuY8",
+     "text": "{\"year\": \"1998\", \"context\": \"Bashar reportedly said that before end of 2001 New York would suffer a terrorist attack\"}"
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "text": "{\"year\": 2008, \"context\": \"Year a questioner had abduction experience aboard a ship\"}"
+    }
+   ]
+  },
+  {
+   "year": 2011,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "text": "{\"year\": 2011, \"context\": \"October 2011; CE-5 protocol ET contact attempt with ship sightings and strange events\"}"
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "jQbxp4e6bfg",
+     "text": "{\"year\": \"2012\", \"context\": \"Splitting prism threshold; beginning of acceleration toward new reality and understanding\"}"
+    }
+   ]
+  },
+  {
+   "year": 2014,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "mgSgI0ElfTI",
+     "text": "{\"date\": \"2014\", \"context\": \"Reuben Langdon began communicating with extra-dimensional beings through channelers (host background, not a prediction)\"}"
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "docs": 10,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "text": "{\"date\": \"Late June (year per title 2026; likely actually 2016)\", \"prediction\": \"First theatrical showing of 'First Contact' documentary in Los Angeles\"}"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "text": "{\"year\": \"2016\", \"context\": \"Bashar predicted 'everything would change in the fall' regarding US political trajectory\"}"
+    },
+    {
+     "video_id": "Dw9XHTMrgBE",
+     "text": "{\"date\": \"Fall 2016\", \"context\": \"Major probability threshold where everything changed; high-momentum shift occurred\"}"
+    },
+    {
+     "video_id": "IKJzZ-KVPdQ",
+     "text": "{\"date\": \"2016\", \"context\": \"First Contact movie documentary premiered in Sedona September 2016\"}"
+    }
+   ]
+  },
+  {
+   "year": 2020,
+   "docs": 8,
+   "examples": [
+    {
+     "video_id": "2GVhU6BRVWY",
+     "text": "{\"prediction\": \"2050 referenced as endpoint of three-decade resetting period (2020-2050)\", \"context\": \"New generations adapted to ET presence will lead by then\"}"
+    },
+    {
+     "video_id": "DvWNnqnBAjc",
+     "text": "{\"year_or_date\": \"2020-2050\", \"context\": \"30-year reset period for humanity; after 2050 humans will be on different trajectory toward Interstellar Alliance membership\"}"
+    },
+    {
+     "video_id": "ETuHIzyRhyY",
+     "text": "{\"year\": \"2050\", \"context\": \"End of three-decade reset (2020-2050); humanity operates on fundamentally new consciousness and technological level; new generation running world\"}"
+    },
+    {
+     "video_id": "QBk2MQ1MVZo",
+     "text": "{\"year\": \"2020\", \"context\": \"Original contact window start mentioned; later narrowed to 2027\"}"
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "docs": 2,
+   "examples": [
+    {
+     "video_id": "Fp1YFz-8d4Y",
+     "text": "{\"date\": \"2023–2033\", \"context\": \"Open contact window for extraterrestrial contact\"}"
+    },
+    {
+     "video_id": "jdzErS12DvU",
+     "text": "{\"year\": \"2023-2040\", \"context\": \"Window for beginning open contact with extraterrestrials, starting sporadically with discoveries and sightings\"}"
+    }
+   ]
+  },
+  {
+   "year": 2024,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "fOi0W9_JEWM",
+     "text": "{\"year\": \"2024\", \"context\": \"New cycle begins; 40-year transmission cycle completes\"}"
+    }
+   ]
+  },
+  {
+   "year": 2025,
+   "docs": 9,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "text": "{\"date\": \"2025-2033\", \"prediction\": \"Open extraterrestrial contact most probable within this window based on current energy reading\"}"
+    },
+    {
+     "video_id": "Dw9XHTMrgBE",
+     "text": "{\"date\": \"September 24, 2025\", \"context\": \"Uploader title date; described as 'last morning' of a workshop series\"}"
+    },
+    {
+     "video_id": "Rcjd1TkZUMY",
+     "text": "{\"year_or_date\": \"October 1st, 2025\", \"context\": \"Uploader's title date; transmission labelled 1-3-5-7-11 refresher\"}"
+    },
+    {
+     "video_id": "ja8BrsruFOo",
+     "text": "{\"date\": \"2025-2033\", \"context\": \"Most probable timeline for open extraterrestrial contact based on current energy\"}"
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "docs": 23,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "text": "{\"date\": \"Late June (year per title 2026; likely actually 2016)\", \"prediction\": \"First theatrical showing of 'First Contact' documentary in Los Angeles\"}"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "text": "{\"prediction\": \"2026 is described as 'the year of disclosure'\", \"context\": \"Secrets and files are emerging to the surface\"}"
+    },
+    {
+     "video_id": "4NGd9kqWM04",
+     "text": "{\"date\": \"2026\", \"context\": \"Open contact framed in the video title as beginning in 2026\"}"
+    },
+    {
+     "video_id": "94agFEADfyk",
+     "text": "{\"date\": \"April 27, 2026\", \"context\": \"Session date of this transmission (per title)\"}"
+    }
+   ]
+  },
+  {
+   "year": 2027,
+   "docs": 28,
+   "examples": [
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "text": "{\"year\": 2027, \"context\": \"Implied timeline for open ET contact window through increased UFO sightings over next decade\"}"
+    },
+    {
+     "video_id": "9FrwPg8FYvM",
+     "text": "{\"date\": \"Late 2026 - early 2027\", \"context\": \"Originally suggested timeline for major contact event or catalyst; now revised to 2028-2029.\"}"
+    },
+    {
+     "video_id": "9Ij2AEoRwoM",
+     "text": "{\"year\": \"2027\", \"context\": \"Public disclosure of decades-long secret ET collaboration with governments and scientists\"}"
+    },
+    {
+     "video_id": "D8El0NsIF04",
+     "text": "{\"year_or_date\": \"late 2026, early 2027\", \"context\": \"Possible major event beginning contact process\"}"
+    }
+   ]
+  },
+  {
+   "year": 2028,
+   "docs": 2,
+   "examples": [
+    {
+     "video_id": "9FrwPg8FYvM",
+     "text": "{\"date\": \"Late 2026 - early 2027\", \"context\": \"Originally suggested timeline for major contact event or catalyst; now revised to 2028-2029.\"}"
+    },
+    {
+     "video_id": "SBRcXicYs0I",
+     "text": "{\"date\": \"2027-2028 (approximately)\", \"context\": \"Open contact with extraterrestrials predicted to occur 'in a couple of years'\"}"
+    }
+   ]
+  },
+  {
+   "year": 2029,
+   "docs": 2,
+   "examples": [
+    {
+     "video_id": "9FrwPg8FYvM",
+     "text": "{\"date\": \"Late 2026 - early 2027\", \"context\": \"Originally suggested timeline for major contact event or catalyst; now revised to 2028-2029.\"}"
+    },
+    {
+     "video_id": "kvU9mCJr-eo",
+     "text": "{\"year\": \"within 5 years of interview (c. 2027-2029)\", \"context\": \"Open contact with extraterrestrials predicted to occur within five years\"}"
+    }
+   ]
+  },
+  {
+   "year": 2030,
+   "docs": 2,
+   "examples": [
+    {
+     "video_id": "mk_yQrOQHJs",
+     "text": "{\"date\": \"Within 5 years (from August 2025 = ~2030)\", \"context\": \"Open contact with extraterrestrials will begin with slow introductions to different species\"}"
+    },
+    {
+     "video_id": "y0-_YOFU8eQ",
+     "text": "{\"date\": \"2030-2035\", \"context\": \"Expected period with advanced medicines, clean energy, AI integration, and increased ET-government cooperation.\"}"
+    }
+   ]
+  },
+  {
+   "year": 2031,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "DvWNnqnBAjc",
+     "text": "{\"year_or_date\": \"Next 5 years (from May 2026, so by 2031)\", \"context\": \"Open contact will begin to occur with slow introductions to extraterrestrial species\"}"
+    }
+   ]
+  },
+  {
+   "year": 2033,
+   "docs": 7,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "text": "{\"date\": \"2025-2033\", \"prediction\": \"Open extraterrestrial contact most probable within this window based on current energy reading\"}"
+    },
+    {
+     "video_id": "9FrwPg8FYvM",
+     "text": "{\"date\": \"2033\", \"context\": \"Predicted as 'sea change' year (33/333 double gate); massive directional shift in humanity's frequency and evolution path.\"}"
+    },
+    {
+     "video_id": "Fp1YFz-8d4Y",
+     "text": "{\"date\": \"2023–2033\", \"context\": \"Open contact window for extraterrestrial contact\"}"
+    },
+    {
+     "video_id": "QBk2MQ1MVZo",
+     "text": "{\"year\": \"2033\", \"context\": \"Upper end of earlier contact window mentioned\"}"
+    }
+   ]
+  },
+  {
+   "year": 2035,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "y0-_YOFU8eQ",
+     "text": "{\"date\": \"2030-2035\", \"context\": \"Expected period with advanced medicines, clean energy, AI integration, and increased ET-government cooperation.\"}"
+    }
+   ]
+  },
+  {
+   "year": 2037,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "Fp1YFz-8d4Y",
+     "text": "{\"date\": \"2037\", \"context\": \"Public contact timeframe mentioned in previous transmissions\"}"
+    }
+   ]
+  },
+  {
+   "year": 2040,
+   "docs": 2,
+   "examples": [
+    {
+     "video_id": "Fp1YFz-8d4Y",
+     "text": "{\"date\": \"2033–2040\", \"context\": \"Other markers and levels of contact occurring between these years\"}"
+    },
+    {
+     "video_id": "jdzErS12DvU",
+     "text": "{\"year\": \"2023-2040\", \"context\": \"Window for beginning open contact with extraterrestrials, starting sporadically with discoveries and sightings\"}"
+    }
+   ]
+  },
+  {
+   "year": 2050,
+   "docs": 15,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "text": "{\"date\": \"2050\", \"prediction\": \"Absolute latest boundary for open contact if timeline stretches further\"}"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "text": "{\"prediction\": \"2050 referenced as endpoint of three-decade resetting period (2020-2050)\", \"context\": \"New generations adapted to ET presence will lead by then\"}"
+    },
+    {
+     "video_id": "9FrwPg8FYvM",
+     "text": "{\"date\": \"2050\", \"context\": \"By this year, humanity's merged integration with galactic family will be significantly underway post-contact.\"}"
+    },
+    {
+     "video_id": "DvWNnqnBAjc",
+     "text": "{\"year_or_date\": \"2020-2050\", \"context\": \"30-year reset period for humanity; after 2050 humans will be on different trajectory toward Interstellar Alliance membership\"}"
+    }
+   ]
+  },
+  {
+   "year": 2054,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "zOcZDBhRaOQ",
+     "text": "{\"year\": 2054, \"context\": \"Collective humanity trends toward peace, love, harmony, and genuine celebration of diversity\"}"
+    }
+   ]
+  },
+  {
+   "year": 2060,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "y0-_YOFU8eQ",
+     "text": "{\"date\": \"2050-2060\", \"context\": \"Bashar's 'Decade of Dream' with scientific miracles and advanced ET technologies.\"}"
+    }
+   ]
+  },
+  {
+   "year": 2075,
+   "docs": 1,
+   "examples": [
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "text": "{\"year\": 2075, \"context\": \"Approximately 50 years from now; timeline for collective Earth experience of harmony and synchronized memories\"}"
+    }
+   ]
+  }
+ ],
+ "tag_pairs": [
+  {
+   "a": "Physical mind vs higher mind",
+   "b": "Consciousness, oversoul & higher self",
+   "co_docs": 5,
+   "lift": 2.76
+  },
+  {
+   "a": "Follow your excitement / The Formula",
+   "b": "Abundance, money & career",
+   "co_docs": 4,
+   "lift": 1.61
+  },
+  {
+   "a": "Beliefs, emotions & fear",
+   "b": "Abundance, money & career",
+   "co_docs": 6,
+   "lift": 1.47
+  },
+  {
+   "a": "ET contact, disclosure & 2027",
+   "b": "Essassani, hybrids & other civilizations",
+   "co_docs": 10,
+   "lift": 1.38
+  },
+  {
+   "a": "Follow your excitement / The Formula",
+   "b": "Beliefs, emotions & fear",
+   "co_docs": 27,
+   "lift": 1.28
+  },
+  {
+   "a": "ET contact, disclosure & 2027",
+   "b": "Earth's shift, timelines & ascension",
+   "co_docs": 4,
+   "lift": 1.26
+  },
+  {
+   "a": "Beliefs, emotions & fear",
+   "b": "Parallel realities & shifting",
+   "co_docs": 15,
+   "lift": 1.1
+  },
+  {
+   "a": "Parallel realities & shifting",
+   "b": "Physical mind vs higher mind",
+   "co_docs": 5,
+   "lift": 1.1
+  },
+  {
+   "a": "Follow your excitement / The Formula",
+   "b": "Parallel realities & shifting",
+   "co_docs": 9,
+   "lift": 1.09
+  },
+  {
+   "a": "Beliefs, emotions & fear",
+   "b": "Permission slips & tools",
+   "co_docs": 5,
+   "lift": 1.05
+  },
+  {
+   "a": "Follow your excitement / The Formula",
+   "b": "ET contact, disclosure & 2027",
+   "co_docs": 14,
+   "lift": 1.0
+  },
+  {
+   "a": "Beliefs, emotions & fear",
+   "b": "ET contact, disclosure & 2027",
+   "co_docs": 23,
+   "lift": 0.99
+  },
+  {
+   "a": "Parallel realities & shifting",
+   "b": "Essassani, hybrids & other civilizations",
+   "co_docs": 4,
+   "lift": 0.94
+  },
+  {
+   "a": "Beliefs, emotions & fear",
+   "b": "Physical mind vs higher mind",
+   "co_docs": 10,
+   "lift": 0.87
+  },
+  {
+   "a": "Beliefs, emotions & fear",
+   "b": "Earth's shift, timelines & ascension",
+   "co_docs": 4,
+   "lift": 0.84
+  },
+  {
+   "a": "Physical mind vs higher mind",
+   "b": "ET contact, disclosure & 2027",
+   "co_docs": 6,
+   "lift": 0.78
+  },
+  {
+   "a": "Follow your excitement / The Formula",
+   "b": "Physical mind vs higher mind",
+   "co_docs": 5,
+   "lift": 0.71
+  },
+  {
+   "a": "Beliefs, emotions & fear",
+   "b": "Essassani, hybrids & other civilizations",
+   "co_docs": 6,
+   "lift": 0.55
+  },
+  {
+   "a": "Parallel realities & shifting",
+   "b": "ET contact, disclosure & 2027",
+   "co_docs": 4,
+   "lift": 0.44
+  }
+ ],
+ "questions": [
+  {
+   "tag": "misc_life_guidance",
+   "label": "Practical life guidance (misc)",
+   "count": 234,
+   "pct": 24.7,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "Is the Earth flat, and what about hollow Earth theories?"
+    },
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "What is fundamental to be less limited?"
+    },
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "Does Bashar know everything?"
+    },
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "How do I release and let go of things no longer serving me?"
+    },
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "What connections do I have to water and dolphins?"
+    }
+   ]
+  },
+  {
+   "tag": "et_contact_disclosure_2027",
+   "label": "ET contact, disclosure & 2027",
+   "count": 159,
+   "pct": 16.8,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "Will there be open extraterrestrial contact, and is Bashar the last channeling?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "Who must humanity become to adapt to open ET contact?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "Why do ETs limit nuclear weapons but allow other mistakes?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "How will open contact unfold over decades?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "What does the 'Disclosure Day' movie represent strategically?"
+    }
+   ]
+  },
+  {
+   "tag": "relationships_family_sexuality",
+   "label": "Relationships, family & sexuality",
+   "count": 72,
+   "pct": 7.6,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "Can one person inspire global peace, unity, and race relations healing?"
+    },
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "How do I balance family and career with my higher calling?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "Why do children see beings and interdimensional entities?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "What does a dark pattern portal on the ceiling during childhood mean?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "What did the school desk during childhood gray encounter signify?"
+    }
+   ]
+  },
+  {
+   "tag": "health_body_healing_death",
+   "label": "Health, body, healing & death",
+   "count": 71,
+   "pct": 7.5,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "What is the ideal diet for humans?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "What did brain studies reveal about Darryl's channeling?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "Do we shift to the same Earth upon waking as we went to sleep in?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "How do we become more lucid during sleep and out-of-body experiences?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "How do near-death experiences function spiritually?"
+    }
+   ]
+  },
+  {
+   "tag": "formula_excitement",
+   "label": "Follow your excitement / The Formula",
+   "count": 55,
+   "pct": 5.8,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "How do I proceed with my highest excitement when blueprints run out at age 33?"
+    },
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "Do we have one life purpose or many?"
+    },
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "What about finding excitement in daily life?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "How does empathy relate to telepathy and advancement?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "What is Bashar's core formula for manifesting reality?"
+    }
+   ]
+  },
+  {
+   "tag": "channeling_mechanics_darryl",
+   "label": "Channeling mechanics & Darryl",
+   "count": 47,
+   "pct": 5.0,
+   "examples": [
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "Why is channeling difficult to accept in modern times?"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "What's changed in your channeling ability over 34 years?"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "Do you become Bashar or remain separate during channeling?"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "What do you remember after channeling sessions?"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "Can you channel Bashar when alone?"
+    }
+   ]
+  },
+  {
+   "tag": "abundance_money_career",
+   "label": "Abundance, money & career",
+   "count": 46,
+   "pct": 4.8,
+   "examples": [
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "How does the law of attraction truly work?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "What forms of abundance exist beyond money?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "Why do Bashar's teachings work on multiple layers?"
+    },
+    {
+     "video_id": "94agFEADfyk",
+     "question": "Why fear after leaving toxic military/social work environment?"
+    },
+    {
+     "video_id": "9FrwPg8FYvM",
+     "question": "Did the Anunnaki successfully save their planet through gold mining?"
+    }
+   ]
+  },
+  {
+   "tag": "essassani_hybrids_other_civilizations",
+   "label": "Essassani, hybrids & other civilizations",
+   "count": 41,
+   "pct": 4.3,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "How did humans and Anunnaki come to Earth?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "What do hybrid whales indicate about collective consciousness?"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "What is Essassani and how do they live?"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "How do the Greys relate to current hybrids?"
+    },
+    {
+     "video_id": "94agFEADfyk",
+     "question": "How is racism overcome in other civilizations?"
+    }
+   ]
+  },
+  {
+   "tag": "consciousness_oversoul_higherself",
+   "label": "Consciousness, oversoul & higher self",
+   "count": 41,
+   "pct": 4.3,
+   "examples": [
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "How does consciousness shape physical reality?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "What single action most activates soul guidance?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "How does the vortex energy in Sedona/Insanus relate to consciousness acceleration?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "How does evolution of the soul continue infinitely?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "What is an oversoul?"
+    }
+   ]
+  },
+  {
+   "tag": "beliefs_emotions_fear",
+   "label": "Beliefs, emotions & fear",
+   "count": 35,
+   "pct": 3.7,
+   "examples": [
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "What is the paradox of confidence and belief?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "How do we help others without imposing beliefs?"
+    },
+    {
+     "video_id": "94agFEADfyk",
+     "question": "How can I trust communication from higher realms?"
+    },
+    {
+     "video_id": "9FrwPg8FYvM",
+     "question": "How do I hold my beliefs without succumbing to dogma or cult-like thinking around Bashar teachings?"
+    },
+    {
+     "video_id": "DvWNnqnBAjc",
+     "question": "What belief structures underlie allergic reactions?"
+    }
+   ]
+  },
+  {
+   "tag": "synchronicity_dreams_meditation",
+   "label": "Synchronicity, dreams & meditation",
+   "count": 26,
+   "pct": 2.7,
+   "examples": [
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "How do meditation duration and neurology interact?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "How does synchronicity reveal interconnection?"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "If reality is a dream, do all people share one reality?"
+    },
+    {
+     "video_id": "94agFEADfyk",
+     "question": "What do green eyes in meditation indicate?"
+    },
+    {
+     "video_id": "Dw9XHTMrgBE",
+     "question": "What do green pools and caves in dreams signify?"
+    }
+   ]
+  },
+  {
+   "tag": "parallel_realities_shifting",
+   "label": "Parallel realities & shifting",
+   "count": 24,
+   "pct": 2.5,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "After lightning strike and channeling abilities, how do I discern parallel dimensions?"
+    },
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "What's the mechanism of parallel reality shifting?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "How do parallel realities relate to the thinning veil?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "What is the mechanism behind simultaneous reality experiences and time shifts in groups?"
+    },
+    {
+     "video_id": "DvWNnqnBAjc",
+     "question": "Do parallel universe versions of me experience my thoughts with same emotions?"
+    }
+   ]
+  },
+  {
+   "tag": "politics_society_economy_ai",
+   "label": "Politics, society, economy & AI",
+   "count": 19,
+   "pct": 2.0,
+   "examples": [
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "What inner technology must activate before outer technology transfer?"
+    },
+    {
+     "video_id": "4NGd9kqWM04",
+     "question": "Why is Earth considered a special school?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "Can we unite all three minds into one conscious awareness?"
+    },
+    {
+     "video_id": "ETuHIzyRhyY",
+     "question": "What's Bashar's perspective on AI development?"
+    },
+    {
+     "video_id": "Fp1YFz-8d4Y",
+     "question": "Does crude teleportation technology for humans exist?"
+    }
+   ]
+  },
+  {
+   "tag": "physics_energy_frequency_dimensions",
+   "label": "Energy, frequency & dimensions",
+   "count": 19,
+   "pct": 2.0,
+   "examples": [
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "How do we understand that everything is vibration and frequency?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "How can womb energy transform oppression into freedom?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "How does frequency affect what we perceive and accomplish?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "How do we raise our vibration and frequency?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "What is the core vibrational frequency of existence?"
+    }
+   ]
+  },
+  {
+   "tag": "permission_slips_tools",
+   "label": "Permission slips & tools",
+   "count": 16,
+   "pct": 1.7,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "What's the spiritual meaning of Syrian/European migration crises?"
+    },
+    {
+     "video_id": "9FrwPg8FYvM",
+     "question": "I have aphantasia and cannot visualize. Will this hinder my spiritual growth?"
+    },
+    {
+     "video_id": "IKJzZ-KVPdQ",
+     "question": "What do different eye colors represent spiritually and metaphysically?"
+    },
+    {
+     "video_id": "IKYfZdjv3aE",
+     "question": "How does channeling differ from other spiritual practices like glossolalia?"
+    },
+    {
+     "video_id": "OzkviF1GCFc",
+     "question": "How do I program intention into salt and crystals?"
+    }
+   ]
+  },
+  {
+   "tag": "time_simultaneity_reincarnation",
+   "label": "Time, simultaneity & reincarnation",
+   "count": 14,
+   "pct": 1.5,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "What about karma and past lives related to animals?"
+    },
+    {
+     "video_id": "2GVhU6BRVWY",
+     "question": "How do souls choose to incarnate on Earth?"
+    },
+    {
+     "video_id": "7WjydoNj7hE",
+     "question": "Explain Bashar's view on time travel."
+    },
+    {
+     "video_id": "94agFEADfyk",
+     "question": "Can souls jump to different density levels across incarnations?"
+    },
+    {
+     "video_id": "94agFEADfyk",
+     "question": "Do animals know they'll experience mistreatment when incarnating?"
+    }
+   ]
+  },
+  {
+   "tag": "physical_vs_higher_mind",
+   "label": "Physical mind vs higher mind",
+   "count": 10,
+   "pct": 1.1,
+   "examples": [
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "How can we stop the ego from dominating and needing to know how everything works?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "Is stubbornness an ego trait or belief system issue?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "How does the physical mind relate to the higher mind?"
+    },
+    {
+     "video_id": "ETuHIzyRhyY",
+     "question": "How to align higher self amid everyday chaos and responsibilities?"
+    },
+    {
+     "video_id": "jQbxp4e6bfg",
+     "question": "Is ego negotiation really necessary, or should I bypass the ego?"
+    }
+   ]
+  },
+  {
+   "tag": "earth_shift_timelines_ascension",
+   "label": "Earth's shift, timelines & ascension",
+   "count": 10,
+   "pct": 1.1,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "Will the majority of the West be spiritually conscious by 2033?"
+    },
+    {
+     "video_id": "5Js8U9sJ5-8",
+     "question": "How can we facilitate returning multidimensional perception abilities?"
+    },
+    {
+     "video_id": "Fp1YFz-8d4Y",
+     "question": "What does living multidimensionally on Earth mean?"
+    },
+    {
+     "video_id": "jQbxp4e6bfg",
+     "question": "How do I use a vortex/dimensional gateway like Sedona?"
+    },
+    {
+     "video_id": "lLFUTAVah30",
+     "question": "How do ascension symptoms like heart arrhythmia manifest during energy processing?"
+    }
+   ]
+  },
+  {
+   "tag": "spirituality_god_love_service",
+   "label": "Spirituality, God, love & service",
+   "count": 6,
+   "pct": 0.6,
+   "examples": [
+    {
+     "video_id": "0htF1V0v6ec",
+     "question": "How do I speak to trauma survivors about unconditional love philosophy?"
+    },
+    {
+     "video_id": "5lOHuqDbpoc",
+     "question": "What is the perspective on Jesus, Buddha, and ascended masters?"
+    },
+    {
+     "video_id": "ETuHIzyRhyY",
+     "question": "What does Bashar teach about forgiveness?"
+    },
+    {
+     "video_id": "egu6iDTj2ys",
+     "question": "From Bashar's perspective, what or where is God?"
+    },
+    {
+     "video_id": "egu6iDTj2ys",
+     "question": "What is religion's function?"
+    }
+   ]
+  },
+  {
+   "tag": "ancient_history_atlantis_orion_sirius",
+   "label": "Ancient history: Atlantis, Orion, Sirius",
+   "count": 4,
+   "pct": 0.4,
+   "examples": [
+    {
+     "video_id": "E_cPno64Z-Q",
+     "question": "Did Atlantis have nuclear weapons?"
+    },
+    {
+     "video_id": "IKJzZ-KVPdQ",
+     "question": "Are tarot cards originally from Atlantis, and what cultures influenced them?"
+    },
+    {
+     "video_id": "Rcjd1TkZUMY",
+     "question": "How did Lemurians ascend and what can they teach us?"
+    },
+    {
+     "video_id": "vrv3J-ri804",
+     "question": "What caused Atlantis destruction and earlier resets?"
+    }
+   ]
+  }
+ ]
+}

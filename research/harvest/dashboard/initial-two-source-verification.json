@@ -1,0 +1,380 @@
+{
+  "scope": "Harvest supplement; UI checks are not collection operations",
+  "checks": [
+    "Source inventory exists",
+    "Unique indexed video denominator matches full metadata manifest",
+    "Literal route denominator matches full route manifest",
+    "Exported job counts reconcile exactly to authoritative job rows",
+    "Attempt denominator matches actual attempt ledger",
+    "Saved artifact rows reconcile for video",
+    "Saved artifact rows reconcile for audio",
+    "Saved artifact rows reconcile for caption",
+    "Saved artifact rows reconcile for metadata",
+    "Saved artifact rows reconcile for partial",
+    "Publisher audio completion count matches distinct completed records",
+    "Publisher saved-byte total reconciles",
+    "Publisher editions are not silently equated to YouTube videos",
+    "Completed full-audio ASR receipt exists",
+    "Full-audio ASR counts reconcile to completed receipt rows",
+    "ASR word total reconciles to full-audio receipts",
+    "ASR input hashes bind exact saved publisher audio",
+    "Acquisition is a primary selected navigation view",
+    "Indexed IDs shown as source inventory",
+    "Only saved video artifacts count as saved YouTube video files",
+    "Independent publisher audio has a separate completion count",
+    "Offered YouTube captions separate from publisher ASR",
+    "Published-state freshness is explicit",
+    "Publisher source boundary visible",
+    "Publisher audio source hash inspectable",
+    "No video-equivalent edition claim",
+    "Single root probe is not all-video attempts",
+    "Actor-specific runtime observations explicit",
+    "Per-route search exposes source route",
+    "Route totals not treated as unique-video sum",
+    "Route no-match state meaningful",
+    "Keyboard-filtered job population is the selected target and operation",
+    "CSV exports only the filtered job row",
+    "Job no-match state does not imply completed acquisition",
+    "Refresh reloads published data without pretending to run downloads",
+    "ASR has a separate source layer",
+    "ASR not human-validated speech",
+    "No invalid values in overview",
+    "No desktop overflow in overview",
+    "No invalid values in harvest",
+    "No desktop overflow in harvest",
+    "No invalid values in experiments",
+    "No desktop overflow in experiments",
+    "No invalid values in collection",
+    "No desktop overflow in collection",
+    "No invalid values in methods",
+    "No desktop overflow in methods",
+    "Acquisition view fits390pxpage width",
+    "No200percent CSSzoom page overflow in harvest",
+    "No200percent CSSzoom page overflow in methods",
+    "Prefix download HTTP200 harvest-summary.json",
+    "Served bytes match displayed hash harvest-summary.json",
+    "Download matches current retained source harvest-summary.json",
+    "Prefix download HTTP200 harvest-jobs.json",
+    "Served bytes match displayed hash harvest-jobs.json",
+    "Download matches current retained source harvest-jobs.json",
+    "Prefix download HTTP200 harvest-attempts.json",
+    "Served bytes match displayed hash harvest-attempts.json",
+    "Download matches current retained source harvest-attempts.json",
+    "Prefix download HTTP200 harvest-artifacts.json",
+    "Served bytes match displayed hash harvest-artifacts.json",
+    "Download matches current retained source harvest-artifacts.json",
+    "Prefix download HTTP200 harvest-inventory-summary.json",
+    "Served bytes match displayed hash harvest-inventory-summary.json",
+    "Download matches current retained source harvest-inventory-summary.json",
+    "Prefix download HTTP200 harvest-video-inventory.jsonl",
+    "Served bytes match displayed hash harvest-video-inventory.jsonl",
+    "Download matches current retained source harvest-video-inventory.jsonl",
+    "Prefix download HTTP200 harvest-channel-routes.json",
+    "Served bytes match displayed hash harvest-channel-routes.json",
+    "Download matches current retained source harvest-channel-routes.json",
+    "Prefix download HTTP200 harvest-source-edges.jsonl",
+    "Served bytes match displayed hash harvest-source-edges.jsonl",
+    "Download matches current retained source harvest-source-edges.jsonl",
+    "Prefix download HTTP200 harvest-query-inventory.jsonl",
+    "Served bytes match displayed hash harvest-query-inventory.jsonl",
+    "Download matches current retained source harvest-query-inventory.jsonl",
+    "Prefix download HTTP200 harvest-inventory.sqlite",
+    "Served bytes match displayed hash harvest-inventory.sqlite",
+    "Download matches current retained source harvest-inventory.sqlite",
+    "Prefix download HTTP200 harvest-root-access-probe.json",
+    "Served bytes match displayed hash harvest-root-access-probe.json",
+    "Download matches current retained source harvest-root-access-probe.json",
+    "Prefix download HTTP200 harvest-publisher-audio.json",
+    "Served bytes match displayed hash harvest-publisher-audio.json",
+    "Download matches current retained source harvest-publisher-audio.json",
+    "Prefix download HTTP200 harvest-asr-summary.json",
+    "Served bytes match displayed hash harvest-asr-summary.json",
+    "Download matches current retained source harvest-asr-summary.json",
+    "Prefix download HTTP200 analysis-results.json",
+    "Served bytes match displayed hash analysis-results.json",
+    "Download matches current retained source analysis-results.json",
+    "Prefix download HTTP200 model-results.json",
+    "Served bytes match displayed hash model-results.json",
+    "Download matches current retained source model-results.json",
+    "Prefix download HTTP200 training-receipt.json",
+    "Served bytes match displayed hash training-receipt.json",
+    "Download matches current retained source training-receipt.json",
+    "Prefix download HTTP200 predictions.json",
+    "Served bytes match displayed hash predictions.json",
+    "Download matches current retained source predictions.json",
+    "Prefix download HTTP200 qwen-digest-lora-pilot.zip",
+    "Served bytes match displayed hash qwen-digest-lora-pilot.zip",
+    "Download matches current retained source qwen-digest-lora-pilot.zip",
+    "Prefix download HTTP200 posthoc-diagnostics.json",
+    "Served bytes match displayed hash posthoc-diagnostics.json",
+    "Download matches current retained source posthoc-diagnostics.json",
+    "Prefix download HTTP200 content-label-results.json",
+    "Served bytes match displayed hash content-label-results.json",
+    "Download matches current retained source content-label-results.json",
+    "Prefix download HTTP200 content-label-predictions.json",
+    "Served bytes match displayed hash content-label-predictions.json",
+    "Download matches current retained source content-label-predictions.json",
+    "Prefix download HTTP200 current-family-smoke.json",
+    "Served bytes match displayed hash current-family-smoke.json",
+    "Download matches current retained source current-family-smoke.json",
+    "Prefix download HTTP200 length-audit.json",
+    "Served bytes match displayed hash length-audit.json",
+    "Download matches current retained source length-audit.json",
+    "Prefix download HTTP200 option-order-results.json",
+    "Served bytes match displayed hash option-order-results.json",
+    "Download matches current retained source option-order-results.json",
+    "Prefix download HTTP200 option-order-protocol.json",
+    "Served bytes match displayed hash option-order-protocol.json",
+    "Download matches current retained source option-order-protocol.json",
+    "Prefix download HTTP200 option-order-predictions.json",
+    "Served bytes match displayed hash option-order-predictions.json",
+    "Download matches current retained source option-order-predictions.json",
+    "Prefix download HTTP200 annotation-comparison.json",
+    "Served bytes match displayed hash annotation-comparison.json",
+    "Download matches current retained source annotation-comparison.json",
+    "Prefix download HTTP200 conditional-lexicon-sensitivity.json",
+    "Served bytes match displayed hash conditional-lexicon-sensitivity.json",
+    "Download matches current retained source conditional-lexicon-sensitivity.json",
+    "Prefix download HTTP200 qwen35-content-label-results.json",
+    "Served bytes match displayed hash qwen35-content-label-results.json",
+    "Download matches current retained source qwen35-content-label-results.json",
+    "Prefix download HTTP200 qwen35-content-label-predictions.json",
+    "Served bytes match displayed hash qwen35-content-label-predictions.json",
+    "Download matches current retained source qwen35-content-label-predictions.json",
+    "Prefix download HTTP200 qwen35-content-label-protocol.json",
+    "Served bytes match displayed hash qwen35-content-label-protocol.json",
+    "Download matches current retained source qwen35-content-label-protocol.json",
+    "Prefix download HTTP200 hardware.json",
+    "Served bytes match displayed hash hardware.json",
+    "Download matches current retained source hardware.json",
+    "Prefix download HTTP200 model-protocol.json",
+    "Served bytes match displayed hash model-protocol.json",
+    "Download matches current retained source model-protocol.json",
+    "Prefix download HTTP200 model-split.json",
+    "Served bytes match displayed hash model-split.json",
+    "Download matches current retained source model-split.json",
+    "Prefix download HTTP200 model-metadata.json",
+    "Served bytes match displayed hash model-metadata.json",
+    "Download matches current retained source model-metadata.json",
+    "Prefix download HTTP200 acquisition-summary.json",
+    "Served bytes match displayed hash acquisition-summary.json",
+    "Download matches current retained source acquisition-summary.json",
+    "Prefix download HTTP200 corpus-index.sqlite",
+    "Served bytes match displayed hash corpus-index.sqlite",
+    "Download matches current retained source corpus-index.sqlite",
+    "Prefix download HTTP200 qa-candidates.sqlite",
+    "Served bytes match displayed hash qa-candidates.sqlite",
+    "Download matches current retained source qa-candidates.sqlite",
+    "Prefix download HTTP200 qa-summary.json",
+    "Served bytes match displayed hash qa-summary.json",
+    "Download matches current retained source qa-summary.json",
+    "Prefix download HTTP200 paper.pdf",
+    "Served bytes match displayed hash paper.pdf",
+    "Download matches current retained source paper.pdf",
+    "Prefix download HTTP200 source.zip",
+    "Served bytes match displayed hash source.zip",
+    "Download matches current retained source source.zip",
+    "Prefix asset HTTP200 index.html",
+    "Prefix asset HTTP200 app.js",
+    "Prefix asset HTTP200 harvest.js",
+    "Prefix asset HTTP200 styles.css",
+    "Prefix asset HTTP200 data.json",
+    "No browser runtime errors"
+  ],
+  "fixtureOnlyChecks": [
+    "Fixture only: saved artifact metadata rendered",
+    "Fixture only: partial listing never promoted to complete",
+    "Fixture only: route saved count uses exact job/artifact relation",
+    "Fixture only: failure message preserved"
+  ],
+  "errors": [],
+  "artifacts": {
+    "harvest-summary.json": {
+      "sha256": "01ea10a7e311bad940f27227a77609c9e936496d97185d1895151183db64bbe0",
+      "bytes": 1995
+    },
+    "harvest-jobs.json": {
+      "sha256": "cf140d389b23bb5c4e23961d4a1a204e46d0ea81c32f26a4935881e9771b2948",
+      "bytes": 7986307
+    },
+    "harvest-attempts.json": {
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209",
+      "bytes": 43
+    },
+    "harvest-artifacts.json": {
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209",
+      "bytes": 43
+    },
+    "harvest-inventory-summary.json": {
+      "sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916",
+      "bytes": 5312
+    },
+    "harvest-video-inventory.jsonl": {
+      "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d",
+      "bytes": 2599443
+    },
+    "harvest-channel-routes.json": {
+      "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee",
+      "bytes": 775403
+    },
+    "harvest-source-edges.jsonl": {
+      "sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383",
+      "bytes": 1342069
+    },
+    "harvest-query-inventory.jsonl": {
+      "sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71",
+      "bytes": 240925
+    },
+    "harvest-inventory.sqlite": {
+      "sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2",
+      "bytes": 7462912
+    },
+    "harvest-root-access-probe.json": {
+      "sha256": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff",
+      "bytes": 771
+    },
+    "harvest-publisher-audio.json": {
+      "sha256": "2a39903559fca2e80d2a55b5977343a700390a5e18b434788febdd8120670655",
+      "bytes": 7845
+    },
+    "harvest-asr-summary.json": {
+      "sha256": "cd79addfed0fdf150a87dc902aaf801c3897d1bb4864cf2c8e275d7808455008",
+      "bytes": 8163
+    },
+    "analysis-results.json": {
+      "sha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+      "bytes": 244716
+    },
+    "model-results.json": {
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+      "bytes": 6396
+    },
+    "training-receipt.json": {
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+      "bytes": 8809
+    },
+    "predictions.json": {
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+      "bytes": 66483
+    },
+    "qwen-digest-lora-pilot.zip": {
+      "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+      "bytes": 1018863
+    },
+    "posthoc-diagnostics.json": {
+      "sha256": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+      "bytes": 7475
+    },
+    "content-label-results.json": {
+      "sha256": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+      "bytes": 1695
+    },
+    "content-label-predictions.json": {
+      "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+      "bytes": 15071
+    },
+    "current-family-smoke.json": {
+      "sha256": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83",
+      "bytes": 2197
+    },
+    "length-audit.json": {
+      "sha256": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31",
+      "bytes": 9284
+    },
+    "option-order-results.json": {
+      "sha256": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792",
+      "bytes": 1217
+    },
+    "option-order-protocol.json": {
+      "sha256": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292",
+      "bytes": 2182
+    },
+    "option-order-predictions.json": {
+      "sha256": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417",
+      "bytes": 15529
+    },
+    "annotation-comparison.json": {
+      "sha256": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2",
+      "bytes": 3889
+    },
+    "conditional-lexicon-sensitivity.json": {
+      "sha256": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55",
+      "bytes": 1915
+    },
+    "qwen35-content-label-results.json": {
+      "sha256": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2",
+      "bytes": 1437
+    },
+    "qwen35-content-label-predictions.json": {
+      "sha256": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0",
+      "bytes": 16946
+    },
+    "qwen35-content-label-protocol.json": {
+      "sha256": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba",
+      "bytes": 1924
+    },
+    "hardware.json": {
+      "sha256": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38",
+      "bytes": 328
+    },
+    "model-protocol.json": {
+      "sha256": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f",
+      "bytes": 2537
+    },
+    "model-split.json": {
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+      "bytes": 88879
+    },
+    "model-metadata.json": {
+      "sha256": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a",
+      "bytes": 9557
+    },
+    "acquisition-summary.json": {
+      "sha256": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00",
+      "bytes": 83109
+    },
+    "corpus-index.sqlite": {
+      "sha256": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+      "bytes": 593920
+    },
+    "qa-candidates.sqlite": {
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5",
+      "bytes": 925696
+    },
+    "qa-summary.json": {
+      "sha256": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100",
+      "bytes": 245622
+    },
+    "paper.pdf": {
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+      "bytes": 397048
+    },
+    "source.zip": {
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+      "bytes": 296455
+    },
+    "index.html": {
+      "sha256": "fe31d89cdee97257f47f7419d51814eb66ee4138edea7299cfb60505649281c9",
+      "bytes": 1809
+    },
+    "app.js": {
+      "sha256": "8e5da01e9d45e1b7a3ef533a493a8f58c4707015585b1183bb1c0924fcb65267",
+      "bytes": 50695
+    },
+    "harvest.js": {
+      "sha256": "27d922621307176fe4635a5677fec81c1a3e7ab6007d12e60fdc2efffe3465e7",
+      "bytes": 27367
+    },
+    "styles.css": {
+      "sha256": "70c42575c75b1d255531e68d999f11287973f0f7e0083f8b2700b90f328411ca",
+      "bytes": 9770
+    },
+    "data.json": {
+      "sha256": "da78baa965ac2bf6db67bdf6efbfb3f3883620e81454c27f54bc4ab1fbd1acd1",
+      "bytes": 7190733
+    }
+  },
+  "status": "PASS",
+  "finishedAt": "2026-10-23T22:32:16.994Z",
+  "publicDataSha256": "da78baa965ac2bf6db67bdf6efbfb3f3883620e81454c27f54bc4ab1fbd1acd1"
+}

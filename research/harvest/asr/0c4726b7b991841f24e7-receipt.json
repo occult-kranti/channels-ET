@@ -1,0 +1,94 @@
+{
+  "status": "completed",
+  "checkedAt": "2026-10-23T22:44:01.051392+00:00",
+  "sourceId": "rss-1611118279-afab067a712d",
+  "sourceUrl": "https://anchor.fm/s/d22ad49c/podcast/play/111935488/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-30%2F413482971-44100-2-b506f5f9bdf32.mp3",
+  "sourceKind": "publisher_original_audio",
+  "sourceAudioPath": "/workspace/channels-et-raw/publisher-audio/rss-1611118279-afab067a712d.mp3",
+  "sourceAudioSha256": "0c4726b7b991841f24e78194afa0dcca18ff43a5f2407694d2268e5785784eea",
+  "sourceAudioDurationSeconds": 5148.865306,
+  "publisherAcquisitionRecord": {
+    "sourceId": "rss-1611118279-afab067a712d",
+    "audioSha256": "0c4726b7b991841f24e78194afa0dcca18ff43a5f2407694d2268e5785784eea",
+    "enclosureUrl": "https://anchor.fm/s/d22ad49c/podcast/play/111935488/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-30%2F413482971-44100-2-b506f5f9bdf32.mp3"
+  },
+  "sourceValidation": {
+    "rss_duration_seconds": 5148,
+    "duration_delta_from_rss_seconds": 0.8653059999996913,
+    "rss_duration_within_tolerance": true
+  },
+  "transcribedScope": "full_decoded_audio",
+  "clipSeconds": null,
+  "lastSegmentEndSeconds": 5128.96,
+  "segments": 1057,
+  "words": 13147,
+  "modelId": "Systran/faster-whisper-tiny.en",
+  "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+  "device": "cpu",
+  "computeType": "int8",
+  "cpuThreads": 2,
+  "versions": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.3",
+    "av": "16.1.0"
+  },
+  "executionSignature": "2758d8c37d786f7fba14759bb33257451c9f9d00576e985c6e2ab70c503b044d",
+  "executionProtocol": {
+    "sourceId": "rss-1611118279-afab067a712d",
+    "sourceUrl": "https://anchor.fm/s/d22ad49c/podcast/play/111935488/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-30%2F413482971-44100-2-b506f5f9bdf32.mp3",
+    "audioSha256": "0c4726b7b991841f24e78194afa0dcca18ff43a5f2407694d2268e5785784eea",
+    "modelManifestSha256": "60452b6a810c402781341181e9bd655c5d56ba2b3161da5076b8a9a25b937076",
+    "versions": {
+      "faster-whisper": "1.2.1",
+      "ctranslate2": "4.8.3",
+      "av": "16.1.0"
+    },
+    "cpuThreads": 2,
+    "decoding": {
+      "language": "en",
+      "beam_size": 1,
+      "vad_filter": true,
+      "condition_on_previous_text": false
+    },
+    "scriptSha256": "f42b8bcf2ad8f69238119c2da16022d310d99b0c02af40aa7214b9c054ee3a1a"
+  },
+  "cudaDevices": 0,
+  "secondsElapsed": 115.71534850800003,
+  "realTimeFactor": 0.022473951371995756,
+  "decoding": {
+    "language": "en",
+    "beam_size": 1,
+    "vad_filter": true,
+    "condition_on_previous_text": false
+  },
+  "reportedLanguage": "en",
+  "outputs": [
+    {
+      "name": "segments.jsonl",
+      "bytes": 212569,
+      "sha256": "195a7775235e149d2e785b289d33609a0518b39d54c29778b22b56cdd58f1dd3"
+    },
+    {
+      "name": "transcript.txt",
+      "bytes": 72910,
+      "sha256": "6f9c0afe736aa5a381141dbe13f59c508bc6525f20cc5cd352528428f5c5dffe"
+    },
+    {
+      "name": "transcript.srt",
+      "bytes": 109854,
+      "sha256": "9cfb70b240c881ed06a9e48ef0ee7308c9ea16f17f75cd2b90c4724b5bc40db8"
+    }
+  ],
+  "decoderDurationSeconds": 5148.816,
+  "durationAfterVadSeconds": 5083.472,
+  "humanReviewed": false,
+  "speakerDiarizationPerformed": false,
+  "youtubeVideoEditionVerified": false,
+  "limitations": [
+    "Automatic English-only transcription; names, claims, punctuation and timestamps are unverified.",
+    "Full decoded audio is not proof that speech recognition captured every spoken word.",
+    "Primary audio publication and any indexed YouTube upload are distinct editions unless verified.",
+    "Raw audio and transcript text remain private cloud files, not part of the public Git/Pages release."
+  ],
+  "transcriptDirectory": "/workspace/channels-et-raw/transcripts/0c4726b7b991841f24e7"
+}

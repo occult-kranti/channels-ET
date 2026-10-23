@@ -1,0 +1,2172 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-10-23T23:00:07.836246+00:00",
+  "status": "source_and_static_release_prepared",
+  "checkoutParentCommitAtFreeze": "60023ae1d8a910fcc49b9d60a31d7bfeb14c5089",
+  "binding": "Per-file hashes bind current source and artifacts; later Action/live receipts identify deployed commit.",
+  "liveUrl": "https://occult-kranti.github.io/channels-ET/",
+  "youtubeIds": 942,
+  "channelRoutes": 362,
+  "playlists": 169,
+  "preparedJobs": 3357,
+  "youtubeWorkerAttempts": 0,
+  "youtubeVideoDownloads": 0,
+  "publisherAudioFiles": 19,
+  "publisherAudioBytes": 1664529703,
+  "publisherAudioSeconds": 80008.630513,
+  "fullDecodedAudioAsrPasses": 19,
+  "asrSegments": 20938,
+  "asrWords": 222699,
+  "humanTranscriptAccuracyValidated": false,
+  "youtubeEditionEquivalenceVerified": false,
+  "rawAudioAndTranscriptTextInPublicRelease": false,
+  "excludedToAvoidCircularBinding": [
+    "research/harvest/FINAL-RELEASE.json",
+    "research/harvest/reviews/final-release-review.json"
+  ],
+  "deploymentReceipts": "research/deployment/; these are recorded after deployment and outside this file list",
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1641,
+      "sha256": "681dbee126a495be943a0cde22a92e989dddcd6b9a5333b6d1964e836b695ee5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 632,
+      "sha256": "34b6cadc6bf5ddf314bc6d8b489dc0076423f32bb429430c859d9a3fbd4303d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 22460,
+      "sha256": "4d97b18402b7d3da7376f0d5f3c0aa4a7382d1a6882fcecf4e897060077dfdc3"
+    },
+    {
+      "path": "dist/research/acquisition-summary.json",
+      "bytes": 83109,
+      "sha256": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00"
+    },
+    {
+      "path": "dist/research/analysis-results.json",
+      "bytes": 244716,
+      "sha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd"
+    },
+    {
+      "path": "dist/research/annotation-comparison.json",
+      "bytes": 3889,
+      "sha256": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2"
+    },
+    {
+      "path": "dist/research/app.js",
+      "bytes": 50695,
+      "sha256": "8e5da01e9d45e1b7a3ef533a493a8f58c4707015585b1183bb1c0924fcb65267"
+    },
+    {
+      "path": "dist/research/channel-progress.json",
+      "bytes": 80216,
+      "sha256": "81172f86aaecac3e03953fdd26b70774fcfc78752ce6066fbe8cbd97d9b038e2"
+    },
+    {
+      "path": "dist/research/conditional-lexicon-sensitivity.json",
+      "bytes": 1915,
+      "sha256": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55"
+    },
+    {
+      "path": "dist/research/content-label-predictions.json",
+      "bytes": 15071,
+      "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+    },
+    {
+      "path": "dist/research/content-label-results.json",
+      "bytes": 1695,
+      "sha256": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27"
+    },
+    {
+      "path": "dist/research/corpus-index.sqlite",
+      "bytes": 593920,
+      "sha256": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e"
+    },
+    {
+      "path": "dist/research/current-family-smoke.json",
+      "bytes": 2197,
+      "sha256": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83"
+    },
+    {
+      "path": "dist/research/data.json",
+      "bytes": 3143169,
+      "sha256": "ec7722c8639fd76470b02b426375cead16d4e51e67f1fa191005b980d6fb9eaa"
+    },
+    {
+      "path": "dist/research/figures/caption-duration-controls.pdf",
+      "bytes": 25751,
+      "sha256": "2d81dbd4af11287b9e4bfee569c54767f91dd5e3b7070c3fc954610a1c746334"
+    },
+    {
+      "path": "dist/research/figures/caption-duration-controls.png",
+      "bytes": 158132,
+      "sha256": "677a3af1a9b7acc5be2d65cf987d2fd3cb5cf8e1758c1cf7c074782d1f2afef4"
+    },
+    {
+      "path": "dist/research/figures/caption-duration-controls.svg",
+      "bytes": 112158,
+      "sha256": "fefea9f2fc5d7282b41eb9c882eed0d9587d7a2b608761a6036020ab24642196"
+    },
+    {
+      "path": "dist/research/figures/lexical-graph-stability.pdf",
+      "bytes": 12866,
+      "sha256": "1ada693fccdd12c830556cf475818e4a1d1da2f1a827192ee558fa4c6f57ab07"
+    },
+    {
+      "path": "dist/research/figures/lexical-graph-stability.png",
+      "bytes": 88214,
+      "sha256": "3a0a009baab82985084e46833aa5fd1751e1e43b9cc1b9f373a38009f4055ad3"
+    },
+    {
+      "path": "dist/research/figures/lexical-graph-stability.svg",
+      "bytes": 21716,
+      "sha256": "fb1aaf57a6d1fc6741cfce19fb25d9e78e1b5c59a645622cd304d978fb3eef7c"
+    },
+    {
+      "path": "dist/research/figures/model-reconstruction-controls.pdf",
+      "bytes": 16681,
+      "sha256": "292e782c48d1b81b8452d5793b1abed1051cda9ec22ccb5fe867efcd3e02ca63"
+    },
+    {
+      "path": "dist/research/figures/model-reconstruction-controls.png",
+      "bytes": 99816,
+      "sha256": "7d8d3536020bfc677348e894ae123537542c59328679421749e872b52579b44a"
+    },
+    {
+      "path": "dist/research/figures/model-reconstruction-controls.svg",
+      "bytes": 23851,
+      "sha256": "4ac85c9525601dd93d05bc7d380d36af93536907092e196a0d210ad0c757fbb7"
+    },
+    {
+      "path": "dist/research/figures/question-answer-alignment.pdf",
+      "bytes": 17829,
+      "sha256": "d13e58ebf43ce393231b245101730ddeea9c9973202a39bc21cf9a35e7db6196"
+    },
+    {
+      "path": "dist/research/figures/question-answer-alignment.png",
+      "bytes": 96092,
+      "sha256": "961f40d98416f44e4371c29699d3fafba7ca9cf0518466a4c428b6f90da79238"
+    },
+    {
+      "path": "dist/research/figures/question-answer-alignment.svg",
+      "bytes": 39683,
+      "sha256": "a806430a428a4582170dcc8cae4cf4a576aa8c227d13e247ceba64973fae43f9"
+    },
+    {
+      "path": "dist/research/figures/question-cosine-common-support.pdf",
+      "bytes": 16349,
+      "sha256": "e6fed7efd8a1295978888c7a878b670ad956260f8f6babbd292a610f075d920b"
+    },
+    {
+      "path": "dist/research/figures/question-cosine-common-support.png",
+      "bytes": 90430,
+      "sha256": "69a0ae3a10d6e8c9e02cba76897fe960a3d81458d7f9be125540511e024d2c83"
+    },
+    {
+      "path": "dist/research/figures/question-cosine-common-support.svg",
+      "bytes": 23625,
+      "sha256": "cf7bd084d16f92ab6259f772528a86c780fab3fcd12d607e13880dc5e50770a6"
+    },
+    {
+      "path": "dist/research/figures/source-leakage-guard.pdf",
+      "bytes": 13779,
+      "sha256": "a4dcd8f131f16cebb0536a1b6e16fbee0b14307380ebb8b4973ae5a37776c37a"
+    },
+    {
+      "path": "dist/research/figures/source-leakage-guard.png",
+      "bytes": 62606,
+      "sha256": "598c18812319815030f94ebbe504f26573690d16b634f190124e1b9a85fe259a"
+    },
+    {
+      "path": "dist/research/figures/source-leakage-guard.svg",
+      "bytes": 18773,
+      "sha256": "667633ae081929b54bb4fa1b1f93578bec3bebbcb697f57420c9bfed42fe87f3"
+    },
+    {
+      "path": "dist/research/hardware.json",
+      "bytes": 328,
+      "sha256": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38"
+    },
+    {
+      "path": "dist/research/harvest-acquisition-report.md",
+      "bytes": 9872,
+      "sha256": "4eb8014f633cdd85aad7fd36a094dd610f408e7e40f5f15ee6318d331a5e3400"
+    },
+    {
+      "path": "dist/research/harvest-artifacts.json",
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    {
+      "path": "dist/research/harvest-asr-summary.json",
+      "bytes": 80379,
+      "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba"
+    },
+    {
+      "path": "dist/research/harvest-attempts.json",
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    {
+      "path": "dist/research/harvest-channel-routes.json",
+      "bytes": 775403,
+      "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee"
+    },
+    {
+      "path": "dist/research/harvest-inventory-summary.json",
+      "bytes": 5312,
+      "sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916"
+    },
+    {
+      "path": "dist/research/harvest-inventory.sqlite",
+      "bytes": 7462912,
+      "sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2"
+    },
+    {
+      "path": "dist/research/harvest-jobs.json",
+      "bytes": 8282097,
+      "sha256": "f5c11198878978b1e1819d0fa76871cce1ccd5da721ade7e688154962ba9d47e"
+    },
+    {
+      "path": "dist/research/harvest-publisher-audio.json",
+      "bytes": 106794,
+      "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+    },
+    {
+      "path": "dist/research/harvest-query-inventory.jsonl",
+      "bytes": 240925,
+      "sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71"
+    },
+    {
+      "path": "dist/research/harvest-root-access-probe.json",
+      "bytes": 771,
+      "sha256": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff"
+    },
+    {
+      "path": "dist/research/harvest-source-edges.jsonl",
+      "bytes": 1342069,
+      "sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383"
+    },
+    {
+      "path": "dist/research/harvest-summary.json",
+      "bytes": 2128,
+      "sha256": "ed47dafb60e785f2e7bf89e8990bd806600cb36f575c7ab547797f7f06a61016"
+    },
+    {
+      "path": "dist/research/harvest-video-inventory.jsonl",
+      "bytes": 2599443,
+      "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d"
+    },
+    {
+      "path": "dist/research/harvest.js",
+      "bytes": 30968,
+      "sha256": "6471c91dc4bc4dc02fcde5703cc0e67519aeeddd48f2b1ca529b210dcb066d9e"
+    },
+    {
+      "path": "dist/research/index.html",
+      "bytes": 1809,
+      "sha256": "fe31d89cdee97257f47f7419d51814eb66ee4138edea7299cfb60505649281c9"
+    },
+    {
+      "path": "dist/research/length-audit.json",
+      "bytes": 9284,
+      "sha256": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31"
+    },
+    {
+      "path": "dist/research/model-metadata.json",
+      "bytes": 9557,
+      "sha256": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a"
+    },
+    {
+      "path": "dist/research/model-protocol.json",
+      "bytes": 2537,
+      "sha256": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f"
+    },
+    {
+      "path": "dist/research/model-results.json",
+      "bytes": 6396,
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f"
+    },
+    {
+      "path": "dist/research/model-split.json",
+      "bytes": 88879,
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e"
+    },
+    {
+      "path": "dist/research/option-order-predictions.json",
+      "bytes": 15529,
+      "sha256": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+    },
+    {
+      "path": "dist/research/option-order-protocol.json",
+      "bytes": 2182,
+      "sha256": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292"
+    },
+    {
+      "path": "dist/research/option-order-results.json",
+      "bytes": 1217,
+      "sha256": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792"
+    },
+    {
+      "path": "dist/research/paper.pdf",
+      "bytes": 397048,
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    {
+      "path": "dist/research/posthoc-diagnostics.json",
+      "bytes": 7475,
+      "sha256": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619"
+    },
+    {
+      "path": "dist/research/predictions.json",
+      "bytes": 66483,
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5"
+    },
+    {
+      "path": "dist/research/qa-candidates.sqlite",
+      "bytes": 925696,
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+    },
+    {
+      "path": "dist/research/qa-summary.json",
+      "bytes": 245622,
+      "sha256": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100"
+    },
+    {
+      "path": "dist/research/qwen-digest-lora-pilot.zip",
+      "bytes": 1018863,
+      "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+    },
+    {
+      "path": "dist/research/qwen35-content-label-predictions.json",
+      "bytes": 16946,
+      "sha256": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+    },
+    {
+      "path": "dist/research/qwen35-content-label-protocol.json",
+      "bytes": 1924,
+      "sha256": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba"
+    },
+    {
+      "path": "dist/research/qwen35-content-label-results.json",
+      "bytes": 1437,
+      "sha256": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2"
+    },
+    {
+      "path": "dist/research/source.zip",
+      "bytes": 296455,
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    {
+      "path": "dist/research/styles.css",
+      "bytes": 9850,
+      "sha256": "40b13762e962284c7988700d59e8ec5d9fe5d8c79493b10851cb9455cabd6bba"
+    },
+    {
+      "path": "dist/research/training-receipt.json",
+      "bytes": 8809,
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+    },
+    {
+      "path": "research/continuation/HANDOFF.md",
+      "bytes": 6350,
+      "sha256": "954c3e798bd21d0c95f56551df02faa5b2eb9b83ec8dd895ba211a90cad7f4aa"
+    },
+    {
+      "path": "research/continuation/dashboard/app.js",
+      "bytes": 50695,
+      "sha256": "8e5da01e9d45e1b7a3ef533a493a8f58c4707015585b1183bb1c0924fcb65267"
+    },
+    {
+      "path": "research/continuation/dashboard/build_dashboard.py",
+      "bytes": 15738,
+      "sha256": "16789cc231672ec42b07d419d2a47c3001a28e9b3739bcf4337035a510cfe845"
+    },
+    {
+      "path": "research/continuation/dashboard/check_annotations.cjs",
+      "bytes": 7790,
+      "sha256": "a10e0f8bf6cb7f4ea7d341456ed2fbec31e8e6ad1441e5b621f769175a7b9dc8"
+    },
+    {
+      "path": "research/continuation/dashboard/check_dashboard.cjs",
+      "bytes": 7192,
+      "sha256": "3f4916668b060f1a78f0e2c090d28c5fbbf37ba3abe3869111e3b121b347c100"
+    },
+    {
+      "path": "research/continuation/dashboard/check_diagnostics.cjs",
+      "bytes": 6013,
+      "sha256": "e0d2b353e5bc669026560d5bfd35f49d9c91b5527bdd1045cdddebbbb47c2e66"
+    },
+    {
+      "path": "research/continuation/dashboard/check_model_bindings.cjs",
+      "bytes": 4691,
+      "sha256": "11e2b2f01a9d0832fa9fb94a62fe7c0033e577299d636568b6fbdd41406f2526"
+    },
+    {
+      "path": "research/continuation/dashboard/filtered-coverage-check.csv",
+      "bytes": 6577,
+      "sha256": "68056b1447df55658307073c70393b972de111ae59f36997bfcf2f487f5058c1"
+    },
+    {
+      "path": "research/continuation/dashboard/index.html",
+      "bytes": 1809,
+      "sha256": "fe31d89cdee97257f47f7419d51814eb66ee4138edea7299cfb60505649281c9"
+    },
+    {
+      "path": "research/continuation/dashboard/round10-browser.json",
+      "bytes": 4973,
+      "sha256": "f19807113c5e782843520f580b74c31e78107aa9e89085da273215a101a08064"
+    },
+    {
+      "path": "research/continuation/dashboard/round10-experiments-actual.png",
+      "bytes": 413554,
+      "sha256": "755804cd7ac900747650d7d13329bd5198efcd97ccbf75460354d22754cd1267"
+    },
+    {
+      "path": "research/continuation/dashboard/round10-experiments-mobile-actual.png",
+      "bytes": 52825,
+      "sha256": "11a0b66b9866145de7f70b99f40f242978778c344e10b7c46c530aba0d7eee5c"
+    },
+    {
+      "path": "research/continuation/dashboard/round10-experiments-mobile-viewport.png",
+      "bytes": 55447,
+      "sha256": "7874612eb673d22e00219b47e61640cd64d9bd617603dbc44094dc76ddfb48d1"
+    },
+    {
+      "path": "research/continuation/dashboard/round10-experiments-mobile.png",
+      "bytes": 95269,
+      "sha256": "4e10e9bd31cbda238469556ce1927b94092fe58092ad545211f6f76187f39da6"
+    },
+    {
+      "path": "research/continuation/dashboard/round10-model-bindings.json",
+      "bytes": 5399,
+      "sha256": "62f106a3b6d001dda549a70e842e7fad0ef62f4f3aa1eedcdc188b0c5a191299"
+    },
+    {
+      "path": "research/continuation/dashboard/round10-overview.png",
+      "bytes": 436860,
+      "sha256": "cf6977fe25b38d1e6371ae1d96dd79baa55c04c7da6bf23368643342b69c8a60"
+    },
+    {
+      "path": "research/continuation/dashboard/round10-public-artifacts.json",
+      "bytes": 3785,
+      "sha256": "37a4d8e92d71e20ef219937c3d98e87049905ddc771dd14f4e0699a487b84622"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-browser.json",
+      "bytes": 7500,
+      "sha256": "67f58c8fd20721f7781ee85fdd79f9e791045ea07cfe6004a5837b9c3247e8bd"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-diagnostics.json",
+      "bytes": 1828,
+      "sha256": "e358556896193fa08d23ea475286017ffd7c6f1bf5ff0a9d5865aaa8227e0d40"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-diagnostics.png",
+      "bytes": 103990,
+      "sha256": "6a41566443e5c72e37234c796465cb4f4df4c02320284d5c15117d53bc963da0"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-experiments-actual.png",
+      "bytes": 577671,
+      "sha256": "e67568e97c4fe95e1003bbc7a234f85eb7c0bde5d62875daf157c2ba47dd032d"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-experiments-mobile-actual.png",
+      "bytes": 56156,
+      "sha256": "5cdfb693afffe037be568bf684e94b25c7a1d4d86058c8f5c92ca3f58c9568d9"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-experiments-mobile-viewport.png",
+      "bytes": 50578,
+      "sha256": "9fd4d2340561a921962e1e756ebcb59eee08aed382a2483b5e95f5a400943378"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-experiments-mobile.png",
+      "bytes": 507231,
+      "sha256": "fa2108766d197db84143ab94eb1e84b8427d12e362c1ceecb7b2c9ff87e8b1d0"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-labels-mobile.png",
+      "bytes": 67726,
+      "sha256": "42ddf517ae3c2ef0a332b301456dfba1f66f27c5adfe2289b0970ee9df9f459d"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-model-bindings.json",
+      "bytes": 6933,
+      "sha256": "529261b792c7dc14b440d65df22778a89b8824ccf5a865cb7c976915422bdf78"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-overview.png",
+      "bytes": 552312,
+      "sha256": "f0836e1ef574f27301bd55d3b20a590b28786393e763e3378144e52de0677dcd"
+    },
+    {
+      "path": "research/continuation/dashboard/round11-root-routes.json",
+      "bytes": 445,
+      "sha256": "37ad44b37324ad5457d8095079ff2a3fe8627f22acf843e35b9cefb6b8807c55"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-annotation-comparison.png",
+      "bytes": 165470,
+      "sha256": "d27ee2be4d430f5b40612c9abf696bf0985a6765140da9b4c9d3a964d6b4b718"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-annotation-mobile.png",
+      "bytes": 67450,
+      "sha256": "698fddf8e8c51b876fbf30de75fdfa0a0da0912e7cdad3604495a97b609e863c"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-annotations.json",
+      "bytes": 2493,
+      "sha256": "e8b6141a2fa90f315cb8c954d808bd83bfdf0f7f81120cb32a4bbf0851518999"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-browser.json",
+      "bytes": 9857,
+      "sha256": "2d7c3ac9f571cd02691c84b1908026fbec2c70b322c82a2f60da888d7d78c714"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-diagnostics.json",
+      "bytes": 1828,
+      "sha256": "d0910b45832d3ce26338e19ac17eeac40d533ff5d291908c1489ccde22f14d2a"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-diagnostics.png",
+      "bytes": 103986,
+      "sha256": "94c938cc58159524a1309890006bab26e5ebbac6bf1600eed692ab76b4c26406"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-experiments-actual.png",
+      "bytes": 720729,
+      "sha256": "057553869d47cae9e9d4101ab2dcbdff01d73c545d174d7b60ead0e920f70adc"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-experiments-mobile-actual.png",
+      "bytes": 59331,
+      "sha256": "3c908c04b9c6794f943b4d8250f2ec87d175c1f2190ad7885f12c3b6f8f65557"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-experiments-mobile-viewport.png",
+      "bytes": 53406,
+      "sha256": "c2cb7a70391d57227bf211de0ec6705312345061ab8fa085b698a0a171de7e2c"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-experiments-mobile.png",
+      "bytes": 637335,
+      "sha256": "a575b1bcae53b229422679b4c1f04354485ebf84879e901eb856e909bd68fb2a"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-final-receipt.json",
+      "bytes": 2642,
+      "sha256": "b56fbeed70ff9a3466c1375664eacce68877cb0efff2786ff337afb06aa2eb65"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-labels-mobile.png",
+      "bytes": 69886,
+      "sha256": "f9060d49b24b3094453751ae1ff26f10aaf66b2377186ed094c6feca324c47ad"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-model-bindings.json",
+      "bytes": 9591,
+      "sha256": "a076ddef591c47c8526e02f1b6360cb0b22386de21f2b47107caacc3b53fe706"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-overview-scope.png",
+      "bytes": 62026,
+      "sha256": "cf3427dbc50b1fc4cda2e3299a7307a6f52859f3b36355736fd4178e9ac8c153"
+    },
+    {
+      "path": "research/continuation/dashboard/round12-overview.png",
+      "bytes": 552890,
+      "sha256": "cf06abd84c7dc8af6ddebaf14d7f3c883c5a23144b789173e1df52c6349efa42"
+    },
+    {
+      "path": "research/continuation/dashboard/styles.css",
+      "bytes": 9850,
+      "sha256": "40b13762e962284c7988700d59e8ec5d9fe5d8c79493b10851cb9455cabd6bba"
+    },
+    {
+      "path": "research/harvest/ACQUISITION-REPORT.md",
+      "bytes": 9872,
+      "sha256": "4eb8014f633cdd85aad7fd36a094dd610f408e7e40f5f15ee6318d331a5e3400"
+    },
+    {
+      "path": "research/harvest/README.md",
+      "bytes": 8183,
+      "sha256": "6b07d19c672bc4dd229def2a5e38920e2e8c891ca083a86820e9e952c0a45211"
+    },
+    {
+      "path": "research/harvest/access/preflight-2026-10-23-revision5.json",
+      "bytes": 771,
+      "sha256": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff"
+    },
+    {
+      "path": "research/harvest/access/runtime-prerequisites.json",
+      "bytes": 381,
+      "sha256": "0cb90e8ffce4766e93e0cfd28a9fa065ab9a3b04fda09460eb185a8b2f1b408e"
+    },
+    {
+      "path": "research/harvest/access/toolchain.json",
+      "bytes": 783,
+      "sha256": "fc116ea6da1236a8cfcc5e752697bf02e2ca0b977152b23c75090a1872f94f96"
+    },
+    {
+      "path": "research/harvest/artifacts.json",
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    {
+      "path": "research/harvest/asr/03f822593bfc4923ce66-receipt.json",
+      "bytes": 3727,
+      "sha256": "d6f276f70281960d694822c14bab96354708c7031074e6e1d6e95903aadddc72"
+    },
+    {
+      "path": "research/harvest/asr/0c4726b7b991841f24e7-receipt.json",
+      "bytes": 3817,
+      "sha256": "b36e0de66d3d7521915650eaa58339dd8683612393ee3753180f26d2b4349e63"
+    },
+    {
+      "path": "research/harvest/asr/23bb107055b158ebe4dc-receipt.json",
+      "bytes": 3808,
+      "sha256": "8374e1a2da9c379b199029acf5670a0d34a62a4ace7e4786208b23f55ef9309e"
+    },
+    {
+      "path": "research/harvest/asr/2faf0b5e0de8be739cbd-receipt.json",
+      "bytes": 3792,
+      "sha256": "cd1dd12901311dae184d3fedc0812dd43d783b763e78d6099d5990d94f39dc58"
+    },
+    {
+      "path": "research/harvest/asr/3e4d7c6d1c98f9f32e12-receipt.json",
+      "bytes": 3753,
+      "sha256": "4457cca55cf9c731823b62749ca48da2e8a77a6bc64797976a187bf43a63091e"
+    },
+    {
+      "path": "research/harvest/asr/3e5ee24b12aacc9a0d0d-receipt.json",
+      "bytes": 3682,
+      "sha256": "86c8438fa5e6029c59b3363bb7a2f6f113c265f83030f315e398732c7383da65"
+    },
+    {
+      "path": "research/harvest/asr/414890acbef167a9abc2-receipt.json",
+      "bytes": 3687,
+      "sha256": "3be473ff507da0b5e376fa163542ce5995200006f18717b30c6a962b464c9954"
+    },
+    {
+      "path": "research/harvest/asr/61cba21c5f343f9692cc-receipt.json",
+      "bytes": 3607,
+      "sha256": "40003f1bcecc0d59c5aa7d6ec3567e25e11410eeef868e4230ff6d5219fc6698"
+    },
+    {
+      "path": "research/harvest/asr/7a9dae8f6f6daba48d44-receipt.json",
+      "bytes": 3810,
+      "sha256": "0aa5dbf377406c4c637b0f85389e8c2afa93be9e3c6bc0b157c01082af72765c"
+    },
+    {
+      "path": "research/harvest/asr/8010e1ec2242d9a758e9-receipt.json",
+      "bytes": 3754,
+      "sha256": "56bf05ae1be134b4d07d59749624f151d5e26b1423a05b656a30c63ca3d3b43c"
+    },
+    {
+      "path": "research/harvest/asr/95bdecb70384bdf16fa8-receipt.json",
+      "bytes": 3399,
+      "sha256": "6c52a385d97dddeb0b8a8058373f41ae7ad38fc205deeb4d328c2bb34f4ec059"
+    },
+    {
+      "path": "research/harvest/asr/9cb96cce288bf552fca5-receipt.json",
+      "bytes": 3948,
+      "sha256": "5f8070ac40d629609c96a8a9b592c3fe58c237baa19cd6f0a6f70f03d5f79eb1"
+    },
+    {
+      "path": "research/harvest/asr/QUEUE.md",
+      "bytes": 6378,
+      "sha256": "dd5ca4606efdfa6d11483e4200e8226768bb2647455403545b2d40680c4f9ad8"
+    },
+    {
+      "path": "research/harvest/asr/README.md",
+      "bytes": 2776,
+      "sha256": "be41467276755155cdb6b525bea8ca45c9386cbcdb42e2da6dccb85575bc856a"
+    },
+    {
+      "path": "research/harvest/asr/b8de61ae962b10ac1e90-receipt.json",
+      "bytes": 4295,
+      "sha256": "e3036457e6992922bef089571b44a66b1547791953bbed4c6ee8ff4c0c691c9a"
+    },
+    {
+      "path": "research/harvest/asr/bdb957be64aaf123e461-receipt.json",
+      "bytes": 3757,
+      "sha256": "28df9a588d1281c930f71c216d7305ffd2bf03e46f69495d683e6ccd60d080c4"
+    },
+    {
+      "path": "research/harvest/asr/build_summary.py",
+      "bytes": 4622,
+      "sha256": "5fc975b1ada44ef8bf714940cb11d88bf84b369289e31d135ffefdbcb887c0b9"
+    },
+    {
+      "path": "research/harvest/asr/c37ddc75240366c4df1a-receipt.json",
+      "bytes": 3822,
+      "sha256": "e79627db2a0f38a9adfad4f0879f55aba1413e1fefac2d26aa57bc5fffcaa0ce"
+    },
+    {
+      "path": "research/harvest/asr/cede2923d24725dd8f17-receipt.json",
+      "bytes": 3420,
+      "sha256": "1a11c8af175907ff435351c4336c26b4f86206a1c13c329782fdb98cf469135c"
+    },
+    {
+      "path": "research/harvest/asr/download_model.py",
+      "bytes": 2545,
+      "sha256": "372a0b498af47c530cee52fc1aa5436b8a5f9670ed5bb5cba1863b18a2e6e73c"
+    },
+    {
+      "path": "research/harvest/asr/e5d364fe1559f7153da4-receipt.json",
+      "bytes": 3948,
+      "sha256": "974efb70db16a6bf51c804ee471cf6e65cc32b95e8447e2fb4c27d5fc02c60de"
+    },
+    {
+      "path": "research/harvest/asr/environment-freeze.txt",
+      "bytes": 384,
+      "sha256": "e177e3829b60b50e7881efd2ea3453c4225a5ca959abaa237b14cb6522819d3e"
+    },
+    {
+      "path": "research/harvest/asr/executed-sources/b5cb40e85de956bb7558760c34895dcc02db838a61e4e73f95a82910bbbbad7d.py",
+      "bytes": 10299,
+      "sha256": "b5cb40e85de956bb7558760c34895dcc02db838a61e4e73f95a82910bbbbad7d"
+    },
+    {
+      "path": "research/harvest/asr/executed-sources/f42b8bcf2ad8f69238119c2da16022d310d99b0c02af40aa7214b9c054ee3a1a.py",
+      "bytes": 11049,
+      "sha256": "f42b8bcf2ad8f69238119c2da16022d310d99b0c02af40aa7214b9c054ee3a1a"
+    },
+    {
+      "path": "research/harvest/asr/executed-sources/queue-initial-36ba8282f0c2157059927415fe562f33f3570bae67a5ed0204efa20526a45b5f.json",
+      "bytes": 1170,
+      "sha256": "fcf3ccab1b4901ff837ef0e221a7e5fd7e4c9f561b1e7e6eb3cfd43bf3d04530"
+    },
+    {
+      "path": "research/harvest/asr/executed-sources/queue-initial-36ba8282f0c2157059927415fe562f33f3570bae67a5ed0204efa20526a45b5f.py",
+      "bytes": 22985,
+      "sha256": "36ba8282f0c2157059927415fe562f33f3570bae67a5ed0204efa20526a45b5f"
+    },
+    {
+      "path": "research/harvest/asr/executed-sources/queue-resumed-6da232b6f30ba48bf32dda36a7b4a79bd0f4003b8595eb0e6b3df2c1b2cc77da.json",
+      "bytes": 1526,
+      "sha256": "e4193faef8949035b3d8521f41a484ff60d17c230a45b46b57a662c66ec919f8"
+    },
+    {
+      "path": "research/harvest/asr/executed-sources/queue-resumed-6da232b6f30ba48bf32dda36a7b4a79bd0f4003b8595eb0e6b3df2c1b2cc77da.py",
+      "bytes": 24495,
+      "sha256": "6da232b6f30ba48bf32dda36a7b4a79bd0f4003b8595eb0e6b3df2c1b2cc77da"
+    },
+    {
+      "path": "research/harvest/asr/f0a4b75d81fc2cead2a9-receipt.json",
+      "bytes": 4272,
+      "sha256": "1f19a2d2f7a1196732c46615df4dff398b99688ab144e6e85af9b8b89e29fec1"
+    },
+    {
+      "path": "research/harvest/asr/f3b7cc1ba691e1ee5532-receipt.json",
+      "bytes": 4305,
+      "sha256": "807e26e53526500cb02d24fa7713bc952843729100b1df31ab1d8899221d2dbb"
+    },
+    {
+      "path": "research/harvest/asr/first-pass-queue-state.json",
+      "bytes": 11871,
+      "sha256": "5548d62c7aec610370847904b6d393973c00c59e48fa6c08a3bca698c183692b"
+    },
+    {
+      "path": "research/harvest/asr/model-manifest.json",
+      "bytes": 1934,
+      "sha256": "60452b6a810c402781341181e9bd655c5d56ba2b3161da5076b8a9a25b937076"
+    },
+    {
+      "path": "research/harvest/asr/queue-attempts.jsonl",
+      "bytes": 13347,
+      "sha256": "af6160a0381e6b50b7e01c4e033eedc9e52422d5e530f92ea8dd46b2359381da"
+    },
+    {
+      "path": "research/harvest/asr/queue-state.json",
+      "bytes": 11480,
+      "sha256": "d3b6eacf32cb55a0f0ea4d53c83ae925ece544c96b66e7d431a93494766fd1a4"
+    },
+    {
+      "path": "research/harvest/asr/run_queue.py",
+      "bytes": 24495,
+      "sha256": "6da232b6f30ba48bf32dda36a7b4a79bd0f4003b8595eb0e6b3df2c1b2cc77da"
+    },
+    {
+      "path": "research/harvest/asr/setup-events.json",
+      "bytes": 856,
+      "sha256": "6c730eb1ab38e332b9204ea6d5b4146918ba88cea4ec8b72c838ef82eb063c5f"
+    },
+    {
+      "path": "research/harvest/asr/summary.json",
+      "bytes": 80379,
+      "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba"
+    },
+    {
+      "path": "research/harvest/asr/transcribe.py",
+      "bytes": 11049,
+      "sha256": "f42b8bcf2ad8f69238119c2da16022d310d99b0c02af40aa7214b9c054ee3a1a"
+    },
+    {
+      "path": "research/harvest/asr/upstream-model-metadata.json",
+      "bytes": 1143,
+      "sha256": "0689c9bb3c60a3c10d717534d915eb30b9146ee61c27dad30b337d8103aa5b0c"
+    },
+    {
+      "path": "research/harvest/attempts.json",
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    {
+      "path": "research/harvest/audits/asr-artifact-verification.json",
+      "bytes": 1584,
+      "sha256": "da0f277ff25dbae90a8ca8417b6dd6ff738ba95c904b240083284e83784fa7ac"
+    },
+    {
+      "path": "research/harvest/audits/client-prerequisites.json",
+      "bytes": 1427,
+      "sha256": "60767b58999159cd7ef151409d485482fc3ed767e7414c25fb14a10ee6f8f7d9"
+    },
+    {
+      "path": "research/harvest/audits/independent-pages-preflight.json",
+      "bytes": 2273,
+      "sha256": "d7d32da3d19d0ccc164f16cf64c8de6170c152f84d056a7499b2fda73a9a24af"
+    },
+    {
+      "path": "research/harvest/audits/initial-adversarial-findings.json",
+      "bytes": 956,
+      "sha256": "5a59e8dae9cd5e77a9fff1d0f0b57fdf0094be24318dbb317c9d0cc8489b5cfa"
+    },
+    {
+      "path": "research/harvest/audits/inspected-client-sources.json",
+      "bytes": 2014,
+      "sha256": "1cc5198d8564eb9c6f46ca069055142db55c99777fa8dab882ca108a142ee3af"
+    },
+    {
+      "path": "research/harvest/audits/preservation-verification.json",
+      "bytes": 815,
+      "sha256": "6d067a89fb95dbd7223124d569545395403c2d0b15b6d9ac6450088924910067"
+    },
+    {
+      "path": "research/harvest/audits/publisher-artifact-verification.json",
+      "bytes": 4038,
+      "sha256": "5ffc4965cf4302b699bac8e98f6ee2ee8ddf6e6b9ba968ffef1350915a460f50"
+    },
+    {
+      "path": "research/harvest/audits/publisher-endpoint-redaction-verification.json",
+      "bytes": 279,
+      "sha256": "7db28e2cfcfeac57a7cd10f2966408ca32297d30b0e75bb5a97147cdf514460f"
+    },
+    {
+      "path": "research/harvest/audits/publisher-final-verification.json",
+      "bytes": 6714,
+      "sha256": "a220e5ad4ea3e439660757b1e37b8116c9db8fe5612e35cdc03aceb43acc1c4a"
+    },
+    {
+      "path": "research/harvest/audits/reservation-adversarial-finding.json",
+      "bytes": 400,
+      "sha256": "b73607bebc4ad83612bd908b6c7fca6124c242dae24f8806cc311842a0315ec7"
+    },
+    {
+      "path": "research/harvest/audits/rss-metadata-disagreement-review.json",
+      "bytes": 2555,
+      "sha256": "30bb33b5c4f73f8c43b65bae3b5ac32ede3358677b021ada35954d8e999357eb"
+    },
+    {
+      "path": "research/harvest/audits/saved-artifacts-final-verification.json",
+      "bytes": 11210,
+      "sha256": "655cdf367b68f93381b0ea33aa7f657c2473e046e037a66d8ad1c3faf879a266"
+    },
+    {
+      "path": "research/harvest/audits/verify_saved_artifacts.py",
+      "bytes": 10987,
+      "sha256": "eb6af6068855d867d2141a586265c54a510182c6757f88a584d4b06ba29ecb8b"
+    },
+    {
+      "path": "research/harvest/audits/verify_worker_independent.py",
+      "bytes": 14977,
+      "sha256": "1512afba19a7fe79c5d9d21951948350a5671e305819baaffa98173009a52b92"
+    },
+    {
+      "path": "research/harvest/audits/worker-independent-verification.json",
+      "bytes": 3678,
+      "sha256": "5527e8aeed9199a72e523ace2b961a7564318b0763c44ff03dbce3094ae09482"
+    },
+    {
+      "path": "research/harvest/audits/worker-live-queue-verification.json",
+      "bytes": 618,
+      "sha256": "3d9e2ea37ecaa012770d64913ed30c72e0211ce049b1072fde97c6435dcd68a6"
+    },
+    {
+      "path": "research/harvest/build_handoff.py",
+      "bytes": 11769,
+      "sha256": "b9a689766473b09db5a5feebdf123900acd088533acbd973d19e6b6ddda5caaa"
+    },
+    {
+      "path": "research/harvest/dashboard/README.md",
+      "bytes": 2763,
+      "sha256": "bfa7cb14992d79d92d4d8bd8b5675b9289bf6d759bdd4bda5d3fc0dcc0fe9f00"
+    },
+    {
+      "path": "research/harvest/dashboard/REVIEW.md",
+      "bytes": 2873,
+      "sha256": "65d85e036ebd8247306117fb9674b9c09c1f64bea4a1417579aa0afb6efe4eb0"
+    },
+    {
+      "path": "research/harvest/dashboard/asr-desktop.png",
+      "bytes": 122897,
+      "sha256": "bbd7f910bb7092adb807ac162403135105536d9781f8a804104dbd975a17c780"
+    },
+    {
+      "path": "research/harvest/dashboard/asr-mobile.png",
+      "bytes": 64979,
+      "sha256": "f94fc369ff249c80de6174e0b22ab441f66e768ba914217bde4c8b63e281fa58"
+    },
+    {
+      "path": "research/harvest/dashboard/browser-verification.json",
+      "bytes": 18890,
+      "sha256": "c6c2e7c25a860cbc585f4f7bd2bde2adc3498ac16b8cfab19e4f1eb7d0813a57"
+    },
+    {
+      "path": "research/harvest/dashboard/check_browser.cjs",
+      "bytes": 15101,
+      "sha256": "86aeb702449ddeb47fc9d71af6a0dbfc70290b9cbf5051c3882751a24dc15cb9"
+    },
+    {
+      "path": "research/harvest/dashboard/desktop.png",
+      "bytes": 119786,
+      "sha256": "95785e7f9478663a15444749b98ea4299693d70e23cd4855f489cd13e4082b81"
+    },
+    {
+      "path": "research/harvest/dashboard/filtered-jobs-check.csv",
+      "bytes": 367,
+      "sha256": "3962bd21eaca77d82c50aaf577ce9fefe4807a600c49fd0b99ca9417429afab4"
+    },
+    {
+      "path": "research/harvest/dashboard/harvest.js",
+      "bytes": 30968,
+      "sha256": "6471c91dc4bc4dc02fcde5703cc0e67519aeeddd48f2b1ca529b210dcb066d9e"
+    },
+    {
+      "path": "research/harvest/dashboard/initial-desktop.png",
+      "bytes": 112297,
+      "sha256": "b8c9ff5b272b3ac536970c16225776e890ec16b4fe0296af1ff315f5b77e6c0a"
+    },
+    {
+      "path": "research/harvest/dashboard/initial-mobile.png",
+      "bytes": 55697,
+      "sha256": "9faa95001f53ea2e84eb5fda96ca1a79e143c6d55137b3d000900c7303f69af5"
+    },
+    {
+      "path": "research/harvest/dashboard/initial-two-source-verification.json",
+      "bytes": 17839,
+      "sha256": "8fc6635bf0a145de19dd34da00279146fb82e44993a2dca30f9c49d9fbba6836"
+    },
+    {
+      "path": "research/harvest/dashboard/mobile.png",
+      "bytes": 52663,
+      "sha256": "f9e8d0e5adcce3702fa1dea1ad8db73a2ad1df7b7e81e47894f9e8896441cc1f"
+    },
+    {
+      "path": "research/harvest/dashboard/nineteen-source-preview.png",
+      "bytes": 134018,
+      "sha256": "edce11273761e438a26c95357c62a64895cac6bb4d92b77d0ab7160ab1f1c6ea"
+    },
+    {
+      "path": "research/harvest/dashboard/publisher-audio.png",
+      "bytes": 175109,
+      "sha256": "a69972286110747ffebae4f7cf29b3cad458a0f2fffb9958f68095ad61129f19"
+    },
+    {
+      "path": "research/harvest/dashboard/two-source-desktop.png",
+      "bytes": 123016,
+      "sha256": "630fc6a426fa71c0b90429f7bfb0877cc8c28432690fa51bc6c73fbe487d870b"
+    },
+    {
+      "path": "research/harvest/dashboard/two-source-mobile.png",
+      "bytes": 56282,
+      "sha256": "1fca4921be6a47f10658832b9781699e754dd098c25d670ca9008f6332ff4604"
+    },
+    {
+      "path": "research/harvest/environment-freeze.txt",
+      "bytes": 255,
+      "sha256": "451b6ef4cde9795cda92fc18909e2d58397eef1e7428a2e61fbea682727cd25c"
+    },
+    {
+      "path": "research/harvest/environment-verification.json",
+      "bytes": 820,
+      "sha256": "d073d9dd0f0b4af10a4a453d2d23828339eb85a1c2e33483bdd6a8c5e3e9bc9a"
+    },
+    {
+      "path": "research/harvest/finalize_release.py",
+      "bytes": 5268,
+      "sha256": "dcb513355fa387a0b91b9eb6fee13a7b4a72d3de4c3b8986ffc5f0925644c73c"
+    },
+    {
+      "path": "research/harvest/harvest-receipt.json",
+      "bytes": 4354,
+      "sha256": "e4b2dca4f2457a5d920eef3b12242307caf7107c0fdd13c9de8f7314af86ed1f"
+    },
+    {
+      "path": "research/harvest/harvest.py",
+      "bytes": 42111,
+      "sha256": "b7093d84e9ef3abecb367e0df2fc3eed42ce8d99cb1675202ac9cc83e69ef9c7"
+    },
+    {
+      "path": "research/harvest/inventory/README.md",
+      "bytes": 6731,
+      "sha256": "f9c59ef52319f55532f3c76796a8f8a5dba44ccd3321b901384b78ac61ea7879"
+    },
+    {
+      "path": "research/harvest/inventory/build_inventory.py",
+      "bytes": 30522,
+      "sha256": "c2d0d7885fd9c97349d0c4bc51f034e6c91b3eaa30000df627a1f06d5676d994"
+    },
+    {
+      "path": "research/harvest/inventory/capture_sources.py",
+      "bytes": 2594,
+      "sha256": "e4d7fb936e74d2aa2d0e3df5c5aa6c1c70b1d7d8a02ce0f36a765d6a193bf9ff"
+    },
+    {
+      "path": "research/harvest/inventory/channel-routes.json",
+      "bytes": 775403,
+      "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee"
+    },
+    {
+      "path": "research/harvest/inventory/edges.jsonl",
+      "bytes": 1342069,
+      "sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383"
+    },
+    {
+      "path": "research/harvest/inventory/inventory.sqlite",
+      "bytes": 7462912,
+      "sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2"
+    },
+    {
+      "path": "research/harvest/inventory/origin-reconciliation.json",
+      "bytes": 45689,
+      "sha256": "15363f7c740cda96740886e0dd12fc56313b3084d1346779284a56e367acea78"
+    },
+    {
+      "path": "research/harvest/inventory/playlists.jsonl",
+      "bytes": 114633,
+      "sha256": "bf38d1dac257df8c08156f6603ae9221226f1724567539ee81d71a4b306e2a5f"
+    },
+    {
+      "path": "research/harvest/inventory/podcast-sources.jsonl",
+      "bytes": 82922,
+      "sha256": "d6c00061a4fc4e08dcb1e367bca89eeb9c13f1d27e49cc1d22ae95dd2a8efe3e"
+    },
+    {
+      "path": "research/harvest/inventory/practitioner-candidates.json",
+      "bytes": 211887,
+      "sha256": "119c5390c7a803b7cfd7c8a8982385cc5952b596f8810dbec5bbabb0b6829895"
+    },
+    {
+      "path": "research/harvest/inventory/practitioner-profiles.json",
+      "bytes": 37251,
+      "sha256": "aaba31fbfb7f5a7ed662d694545b305937c7f7613327108bc19bd14542931b18"
+    },
+    {
+      "path": "research/harvest/inventory/publisher-accounts.json",
+      "bytes": 114359,
+      "sha256": "903ae48bc91ff0853421c408ea082d097a87f30723671c03f7e1e3254b7a454b"
+    },
+    {
+      "path": "research/harvest/inventory/queries.jsonl",
+      "bytes": 240925,
+      "sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71"
+    },
+    {
+      "path": "research/harvest/inventory/rejected-video-mentions.jsonl",
+      "bytes": 1106,
+      "sha256": "7316592ff716368a5ee6881e00192814b416dc86d3f871274dd6748aa3b1b0f7"
+    },
+    {
+      "path": "research/harvest/inventory/schema-verification.json",
+      "bytes": 304,
+      "sha256": "cd7ddb0fa6ccf01bbe60677d822489279b3c71b5e79f568d98248eae3259f1b6"
+    },
+    {
+      "path": "research/harvest/inventory/schema.json",
+      "bytes": 4735,
+      "sha256": "c857afc7cc1818953f3138c15a079cd9d37c986252f1c597b59c44051f646dee"
+    },
+    {
+      "path": "research/harvest/inventory/source-manifest.json",
+      "bytes": 56764,
+      "sha256": "ad49be9154a59bed3a72d8ece58724705278e672a5c7a216c5c3cabca3db1c7a"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/README.md",
+      "bytes": 1525,
+      "sha256": "b851adea67cfc5824e98181753f0102edf42457fe33e5b34180927fcfa6de2b7"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/analysis.json",
+      "bytes": 67104,
+      "sha256": "4c9816c190fd26cd5a75428304113abe7276dc4ceccc208eac4415146ad409d8"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/anka_works.json",
+      "bytes": 14211,
+      "sha256": "688c27ab9f1d107732759a5f8fef64c21d09019ba2c2f0bd84ce5b44888ef5d1"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/catalog_sessions.json",
+      "bytes": 479354,
+      "sha256": "618bb5667a883803fb108a9e3cd37c5d444ceaf73ec450a9cf23fa620b626c8d"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams.json",
+      "bytes": 139201,
+      "sha256": "fe13304b6f57deb95eb6893edc262630b994cbc9d741c1a30bbaaef712c579a9"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/1-3-5-7-11-download.svg",
+      "bytes": 2434,
+      "sha256": "8477b5d64331728f4abd63baa930e97028902bde7e6fd7081cff2531ebd088d5"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/33rd-parallel.svg",
+      "bytes": 3522,
+      "sha256": "18fe051159ceecf874f46bb412de1d8ceec0d1d420f0bd88104b28098db375cb"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/as-above-so-below.svg",
+      "bytes": 3074,
+      "sha256": "a97441c7e33fafa04a7b429a568efe542c227f871068056dfc9b93f50de70df9"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/basic-principles-13.svg",
+      "bytes": 7968,
+      "sha256": "a5f299bfd82aeec02010807fcc8f4565b63fe126d26076aa2cff13874c7bb970"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/belief-emotion-thought-action.svg",
+      "bytes": 3534,
+      "sha256": "10aed8730c36ad42ca0ca016273f144ea123db5ff3833ee49ff68ee20ba0a50e"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/black-box.svg",
+      "bytes": 3153,
+      "sha256": "34b24fdef39ef0ccb11fef1794697bbd2eb636613b7ff047a4b9171f5e62e58c"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/brick-walls-and-beliefs.svg",
+      "bytes": 3753,
+      "sha256": "3a097355fc8cc611f731296f9f3b14b7098861e7451f35dbaf0bcfb46818dc88"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/changing-core-beliefs.svg",
+      "bytes": 2760,
+      "sha256": "a0d9475ec2a0c86ce794d87ff826aa56c428868db3d89d47faaa02ffd76b70f2"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/circle-of-self-empowerment.svg",
+      "bytes": 2001,
+      "sha256": "fa03048f1d54c99b33b789fb0b56a7b93be4386c5a64f62064550666720ddc60"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/construction-of-physical-reality.svg",
+      "bytes": 4057,
+      "sha256": "169622447604acf4ef71c2ed6b8ede7a70a5635d8f2fd030f9f6517f32985e0c"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/contact-crystal-and-crystal-techniques.svg",
+      "bytes": 2266,
+      "sha256": "305316ad18bffb4ff7b6aa97e5ac7ef6f40be9356dcfae3e3b9d140b8137afd9"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/cybo-lucky-13.svg",
+      "bytes": 4343,
+      "sha256": "a9e05bd280c09f1ed9b8840964476bf71c5da15204005a09c41a2123c3ecfb18"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/density-dimension-ladder.svg",
+      "bytes": 3248,
+      "sha256": "c1c8daf4e8c7fa3a0f35b50d371df472b45025692beaf995a986d75394a3b258"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/eclipse.svg",
+      "bytes": 1353,
+      "sha256": "981cd504842331d2746f80b6d0d43ad079c3553be2336eb7ed0b46e9c1773556"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/essassani-ai-spheres-triad.svg",
+      "bytes": 1953,
+      "sha256": "f95c4289122a8cedd48554b35d4b11e42f11939da58468baf411be6ad7e5567a"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/excitement-formula-kit.svg",
+      "bytes": 3950,
+      "sha256": "c7d3114ee9c2ac305c764e40b39e9cb761bc31a9571440bf2c3771944dbf1449"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/eye-of-the-needle.svg",
+      "bytes": 2470,
+      "sha256": "66198875f0ca8b7c6162338e5771b6e582e24e1d01b234697875495fb54952c0"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/five-laws-of-creation.svg",
+      "bytes": 1949,
+      "sha256": "dc8958fba801d4061e8808abe5fa2df01a19d94824e8ba9c86059d9a3d0f9e6c"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/frames-of-film-parallel-shifting.svg",
+      "bytes": 8665,
+      "sha256": "5584dae2fae823398e9fcfe5e823d3e9f559fc53307e436f20da22b6ea655253"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/guide-to-open-contact-window-door-gate.svg",
+      "bytes": 3686,
+      "sha256": "012af7dcc807f335776eaf7031c80e1458c9cdfbaa66f791e83103995920e791"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/holotope.svg",
+      "bytes": 3640,
+      "sha256": "08492f147b10b0d043948516bb0b340539fa9e6984a2c705d6b066ffb2a982bd"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/hour-of-power.svg",
+      "bytes": 6280,
+      "sha256": "b1adcbca012e2acfdcff5751713ca300b97c8a4c1b6b336e04b38304329d0994"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/hybrid-races-ladder.svg",
+      "bytes": 4900,
+      "sha256": "f8c213b62038fd56abaa49cc608183f261292827402a153dcbfb2b949e6e4ea4"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/increasing-the-probability-of-contact.svg",
+      "bytes": 1886,
+      "sha256": "2516b3ba3fe90803a6e24a9aaf7503fce4698a4929a5ec3076c1879da28ec67f"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/interdimensional-portals.svg",
+      "bytes": 1845,
+      "sha256": "2b297eafdb61f249639abdcd47812f2ece943321d5e5c942cb155fb1ccf81c60"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/interstellar-alliance-social-experiment.svg",
+      "bytes": 2588,
+      "sha256": "68035b0752e91ba83d948a0de2078b6a063fa10eed12faf2703b61b350ed2f75"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/interstellar-enneagram.svg",
+      "bytes": 5910,
+      "sha256": "43932835c4d0cdcea0701ab660bdb30a8262d7cbc4ec7a0653165c3d2b78a382"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/keys-of-ascension.svg",
+      "bytes": 7107,
+      "sha256": "001430fdedb2dc69663641f434577f6a0c25663f26ab3cac593f4ade661e41e1"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/mechanics-of-channeling.svg",
+      "bytes": 2714,
+      "sha256": "952fbad44f0aa8cd00cd5cce7428cc84a9835e0b77a118860c6b3136fde10817"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/near-life-experience-master-permission-slip.svg",
+      "bytes": 4984,
+      "sha256": "c95730829a65dd7205d2c696e0563381c0a72e825b5e13b6de49cb6a49c80aa6"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/nine-levels-of-consciousness.svg",
+      "bytes": 4026,
+      "sha256": "df6cae7d84cb5dbacd582962e2c24fabf13cfd40d0ce3af452708025616310f4"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/parallel-realities-diagram-1997.svg",
+      "bytes": 4830,
+      "sha256": "ecf3d4d00c09f7fa79475bf891a64e011fec133474323f1bb87fed22ef3fc340"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/parallel-reality-wheel.svg",
+      "bytes": 4906,
+      "sha256": "c2e644611c7365f54d74befddee9e90dca81955502daa9d07739e55734fd1f9c"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/permission-slips-concept.svg",
+      "bytes": 2491,
+      "sha256": "64fca73ce9d8a870579283cdebf6de41978fd33c9dce269ecef12b020de4133a"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/physical-mind-higher-mind.svg",
+      "bytes": 2418,
+      "sha256": "a3ebbc459282be755da41527c3ba905a63ac285a39a7c3d69ece08e76a09f446"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/preparing-for-contact-101.svg",
+      "bytes": 1928,
+      "sha256": "2e81b6c70ddca73687500fef047aa8c3f1605c8d62c72882d0ced31e80bb6aac"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/prime-radiant.svg",
+      "bytes": 5219,
+      "sha256": "ef5ce00403608443608415a20d43552e2847062fed8a409e6acdf60b19034559"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/protocols-of-first-contact.svg",
+      "bytes": 11514,
+      "sha256": "a4733ef3b4eb14a5ebbe9cdab155253cd8337649f4c619b7c687b0cb45aef9c7"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/reincarnation-deeper-explanation.svg",
+      "bytes": 3403,
+      "sha256": "99ad72acd8d5c03e0334e59b2efa7df8c045330272eabfa48f985c58d36a9ed6"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/resonance-and-reflection.svg",
+      "bytes": 1800,
+      "sha256": "5b227a593e98df703a1d4ec7ece74cae70ede8386fc617b1c8350e77ec7206df"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/sacred-circuitry.svg",
+      "bytes": 4075,
+      "sha256": "fba73e2bc1440b249cce2fcaac75ced400f1f2ded9d88fa1c881dd36f731eba7"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/seven-steps-of-manifestation.svg",
+      "bytes": 3305,
+      "sha256": "c5408deec18fb2697680d35ad7c392b610a8b18c6a98594bbcf34d066a0640cf"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/soul-blueprint-workshop.svg",
+      "bytes": 2470,
+      "sha256": "6f5588a19a4e97920a725510e55173d55743584cf2aecb9e999393f254cb11ef"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/spectrum-of-fear.svg",
+      "bytes": 4755,
+      "sha256": "fb744f84ded6be6529a3aab2af39d773f2001450d131501b21fd0ecd2fa6dbce"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/spiral-exercise.svg",
+      "bytes": 4264,
+      "sha256": "a175aab5ce0b19242a79933f70b4d8fd697c0496bcfa63094bc8aa42e9140c03"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/story-tree.svg",
+      "bytes": 3700,
+      "sha256": "1e0231a8d892cbaa09f1cd902c96c4f1f9610da529b9ac3dca22e0d5c5c46ee5"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/tell-them-bashar-sent-you.svg",
+      "bytes": 2510,
+      "sha256": "fa5129bf54740968bb432fa3315ebbf8f4a09a167cb5fa057e2350ac0be432b8"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/the-formula.svg",
+      "bytes": 3519,
+      "sha256": "a41e4d197083716a8f7b334790823db21b7f5e08455349c167b4c2b8c702103d"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/tis-the-season.svg",
+      "bytes": 1733,
+      "sha256": "15ab7d4cf495840fcf0e55fb1e8ad89c5d3745251ea7fc22b6793cba99af3178"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/transforming-core-beliefs.svg",
+      "bytes": 3843,
+      "sha256": "0ea3fed7af2cdaf9ab10e50437474f04e50d3b8b718c9d034f2fd241bb93cc5f"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/triad-mind.svg",
+      "bytes": 2109,
+      "sha256": "68a4a6fcd55f7fb180d7684845d10186106cc965250ce155cd8e3fb829c371be"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/ufo-witness-declaration.svg",
+      "bytes": 2345,
+      "sha256": "60f77022cfb968b8e2b7524d33ce8e4503d4278bb7de6e2fe2d524f02bd4e39d"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/vortex-array.svg",
+      "bytes": 5213,
+      "sha256": "17d73265e4aabc9c19f4b18bd0e1c99ca8dd82e3221f322328663f7b619d9a40"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/vortex-vibrations.svg",
+      "bytes": 2023,
+      "sha256": "4cb47fda7bbe19008f3f3aab31ecbb83c92b0a0d6c528550b5e4e054ec265155"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/window-of-discovery.svg",
+      "bytes": 2273,
+      "sha256": "e884f7da19be1937776805aa29e408eddf60d379e43ae3e2af79aae89ea216a1"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/diagrams_svg/you-are-all-time-travelers.svg",
+      "bytes": 2850,
+      "sha256": "2fff8703454cf8c4e46abf172bb8df5117832dee800ca26cacb27ad09bb7efec"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/0htF1V0v6ec.json",
+      "bytes": 13109,
+      "sha256": "7da5f278a7d592cc5dd6449eaa5f6528a69ee2217353e1b7c9ed21c7c65baf86"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/1x7Z68os7HE.json",
+      "bytes": 4376,
+      "sha256": "390bf5587db357a662059577b223b3bd9bcf428e0bb4199e159fcd0ccad6a83b"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/2GVhU6BRVWY.json",
+      "bytes": 14328,
+      "sha256": "d604e46d10704b965083261d4f82b060b9888048693ca87d48adeddaa06d8fe9"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/4NGd9kqWM04.json",
+      "bytes": 7807,
+      "sha256": "0b4de71f63186e56b75909f09839721e559bf17cfb80891ddc3ec9453af98fbf"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/5Js8U9sJ5-8.json",
+      "bytes": 14035,
+      "sha256": "673679b92eb1cd338300fee8873114fed66429ceedaf28d542b34a385ac3d26c"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/5lOHuqDbpoc.json",
+      "bytes": 13720,
+      "sha256": "7a8a31a6ba78c69d43611404f47dd49d0efa4029b5e5175e4a05507493fd30d7"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/66D69G8uQ50.json",
+      "bytes": 3136,
+      "sha256": "1fc8dd5b6f1e5d97c2fa64d27be93d2abbefb43ecbbe80ff0e9d282fe1b264d6"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/7WjydoNj7hE.json",
+      "bytes": 11947,
+      "sha256": "3d7cc631f68bf8508f487c3ab89cfe1e17b157312ecfffa1781afc1f0db696da"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/94agFEADfyk.json",
+      "bytes": 14730,
+      "sha256": "301c31d9285329d61fbbeb4e9b6a276732712166cdb3b0bc019767a8e7d71549"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/98KsASkO8Cs.json",
+      "bytes": 3879,
+      "sha256": "5a63336782b967674fa805b2b3d0d509ffa6d5e78881f3bbf1da1380d3891824"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/9FrwPg8FYvM.json",
+      "bytes": 15288,
+      "sha256": "500fad556043b9e04d8103a4e3ba9c93138af6dc63de63592bbc3a1f3435a48f"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/9Ij2AEoRwoM.json",
+      "bytes": 6189,
+      "sha256": "283e59a1e2334b05af5c61ebd454565b6a9fa09454c14ca019e680a039425817"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/BaN26a0SbLQ.json",
+      "bytes": 6209,
+      "sha256": "4fdab4f59dfeb2e74f2db60cd988b879f5576643a538e72a2dc69c65dde17cc2"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/CJb6grCrMhY.json",
+      "bytes": 4637,
+      "sha256": "ec505d4cd86dd0e8a55187b6145a67986cae95c2f9a4b3640e6b55311cf2cc5c"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/D8El0NsIF04.json",
+      "bytes": 6585,
+      "sha256": "1c788456c2d8617e4f1ee9a958cbf13592dc51401f71b2cffaf98cc14dc18199"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/DvWNnqnBAjc.json",
+      "bytes": 14833,
+      "sha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/Dw9XHTMrgBE.json",
+      "bytes": 15967,
+      "sha256": "e90e8261c7587b100e009eff051c371b1a4523cf0b17f21d45db52b661d127bf"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/EHK_mwdk3kM.json",
+      "bytes": 4038,
+      "sha256": "bdd2809bebe41454b48917fd1ccd91488af3efc4d5cc6ff474a3abb075629cac"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/ETuHIzyRhyY.json",
+      "bytes": 13161,
+      "sha256": "1db595b9e445d77eccc7856f03fe3b3283080025aefdc32df2c326578dc2bc6a"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/E_cPno64Z-Q.json",
+      "bytes": 13006,
+      "sha256": "e8377a5383a66fefbc052a025edb2f34bb536c2fca8f2d08df7e6392495df794"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/Fp1YFz-8d4Y.json",
+      "bytes": 12120,
+      "sha256": "87e92031d73ef8a248aaffcdafce4324eee71e73373354642dff5009d4643502"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/HoYNcoMTk-4.json",
+      "bytes": 12506,
+      "sha256": "b1574b12f861ad3e28dc442afab8718cb235fd246d961a07bce580d6a129cdaa"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/IKJzZ-KVPdQ.json",
+      "bytes": 15041,
+      "sha256": "2cde10feb8ce6e2565cdeabb27da144684915ba829cb9d96783c5b058ec94200"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/IKYfZdjv3aE.json",
+      "bytes": 11684,
+      "sha256": "641a3b45a8a89d2ffec57f2c8e7977637368f379413d510b989565c77c63fd72"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/IuO0mjva9ls.json",
+      "bytes": 6244,
+      "sha256": "702cc91af94269b7b34b756685d05d2b11b2b90964810929f57d95cc300a0730"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/JSwqz_ZhH_I.json",
+      "bytes": 6015,
+      "sha256": "8baac2f6ce8c42af22267c2302e54ef9dc144cbab3b1e65e763521913c501534"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/OzkviF1GCFc.json",
+      "bytes": 10749,
+      "sha256": "ee0b784658ec2264d886e16e06ba08d4b2c18c2c54b506ed38b36244cd94ae1e"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/PjIvEohms5I.json",
+      "bytes": 13267,
+      "sha256": "9a03e30a16a553db4f4fd380a47c2e854006a7c7e72570f04f78cdc9147d32dd"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/Q9X_NGyYN3M.json",
+      "bytes": 3287,
+      "sha256": "be9fc0790c46237a8e81428218aeca2394a239ed4bc8ef1948f63a126b97ab7e"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/QBk2MQ1MVZo.json",
+      "bytes": 10642,
+      "sha256": "f2cce2c01bd9668bcbd2de1ff0162e1397103ab760d9a65b033e99952cc8739d"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/Rcjd1TkZUMY.json",
+      "bytes": 18467,
+      "sha256": "2ae873fcfecf8a6d66c73c702e44621cd9b38713d773fea83af710690836c915"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/S3Xw09ZE2Dg.json",
+      "bytes": 5763,
+      "sha256": "83b4a8e7db432b94a68ec887b3858c8c34ff3d60671348e89bf73a9cd558d547"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/SBRcXicYs0I.json",
+      "bytes": 16491,
+      "sha256": "f38ccacf597c036fb5242702124310bba0bf196d3aa50414dad19572efa92786"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/T5QtncJq1Jc.json",
+      "bytes": 5003,
+      "sha256": "4aad006e4f38b6720e6ae426c9430018176e9325b7d60d6b86b7c249f2922177"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/U-DHIk0lIQ4.json",
+      "bytes": 10453,
+      "sha256": "09c746cc37f874905b6404b895116bdb080f36afb3e94322144d776d04456b2a"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/WEVqgD-L5kc.json",
+      "bytes": 10284,
+      "sha256": "f8f9c8da85af683f9be082469aa2cdc1dae5dcb32c2745f9fa6e582b878cebbf"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/ZACIL5Hzb5c.json",
+      "bytes": 8879,
+      "sha256": "024e4f15e6594821d3d981808cfe131ffaf87816c86d26177a702103be61bc6e"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/_UZ8EyuOuY8.json",
+      "bytes": 5594,
+      "sha256": "d48eab133f5a6d5e02dd92b2bc96a8242acd86b3eccd899ece904caf8188fb6b"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/aZvcNhWthUA.json",
+      "bytes": 5308,
+      "sha256": "0d6954fbb0a81a89a7ccbbe3c0bf1f9f47e70f4288eabf111431cf907624bb2a"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/alW2lHKFy2k.json",
+      "bytes": 3157,
+      "sha256": "39af9a63f8f6380621174f18146ddd75d2b1b6e4399136038c60c5d2055cfb72"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/d--HZiDqgs0.json",
+      "bytes": 4541,
+      "sha256": "50f5179c0c3529a947f9b4c9f75a398863d174a78b66dddb824094f5f91378ff"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/eCxOH-AK1rc.json",
+      "bytes": 10466,
+      "sha256": "8e426029fa44275241ea59b5232eeff8f8196f191c0ca0ab9af5227e1d74e8c5"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/egu6iDTj2ys.json",
+      "bytes": 13782,
+      "sha256": "8292cb81d5e8a4e72906864844cb5bc7b39100e35ebed216de9dd6ac405c29fd"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/fOi0W9_JEWM.json",
+      "bytes": 4579,
+      "sha256": "b3cf544a5b26286883c0cb9beac92932119b530e9814f8ee3e30a2701015c481"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/fZmY4xS_qXE.json",
+      "bytes": 5185,
+      "sha256": "836e8c00949534629073c76a1f0c539582af376c754a6ddb330206d6c34e2d17"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/hFC4F3JO33M.json",
+      "bytes": 7494,
+      "sha256": "3fcfc9640b9c8aacbec6d4a75fcd44a84de2c7ac5b541a7d60b93a2bede519d2"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/hTlU_M_R0eE.json",
+      "bytes": 16612,
+      "sha256": "e705f125fbd595d9014ece2609d916827493c99b6cd1cb93a9bb89a1ad055156"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/hmX3hlNJBjU.json",
+      "bytes": 13786,
+      "sha256": "d52b0e14479c1cd23c6da1a6ffcedff765417de753cd1e3341aca6935442cbcc"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/iq2QpcqHlmw.json",
+      "bytes": 3407,
+      "sha256": "ed7984b4e1041084ad886e6798f063d51c9d0735d53b4a6d7fe6f49a9d6845d8"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/jQbxp4e6bfg.json",
+      "bytes": 14259,
+      "sha256": "eb1547f94d9775678dd6c6b6fc3246c80f39c9e42a08136eb7bcf2c4d8c76e04"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/ja8BrsruFOo.json",
+      "bytes": 14426,
+      "sha256": "a5aebf90fc217ddf12c4bfe7580dc012112c38f8d973ee673c38fba19ee8dce4"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/jdzErS12DvU.json",
+      "bytes": 13973,
+      "sha256": "6156eb603023217cb946cf487d41635ad6b057350fc182b9b41e3a7d3b9a11b3"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/ji9rMw37o2M.json",
+      "bytes": 8663,
+      "sha256": "0fefd670a9d027b9cebb9f01ecbbfdcdf80419b84a000367c5ea7c4c80404a09"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/k0lWJ2B90-I.json",
+      "bytes": 3436,
+      "sha256": "98cff969c4c05317f9e25d8069808eca90c8eddd8d00dc16e18c243d45333954"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/kPWOUEtUx2Y.json",
+      "bytes": 7309,
+      "sha256": "167d656beccf0232e580686a94f92043865a19313e2091da186b79d1ded92f1d"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/kvU9mCJr-eo.json",
+      "bytes": 8680,
+      "sha256": "22b873b1409a77932a05e49ffbceba27dd115b1ef93df1135e479cc4cce28f12"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/lLFUTAVah30.json",
+      "bytes": 14660,
+      "sha256": "b48e0c58cc7e456e9dce4a1c667d8c8ebe1e484c3239463cecab8a63aaf2f258"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/mgSgI0ElfTI.json",
+      "bytes": 13868,
+      "sha256": "b6a406c5731374e6b74910d624a511ab3cd4fa04d574402ef55bcf08b6928bdd"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/mk_yQrOQHJs.json",
+      "bytes": 13595,
+      "sha256": "2bcce50c12b71dfd5ffefb7f746edcb695bb6488e523ae9825731684d8344477"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/mzcFoYUvbOE.json",
+      "bytes": 6597,
+      "sha256": "e428f25cfe2185ba894a2755d6499a19db7e7c2aeeaba110811a9379e73bafd2"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/os4a7-7bnLw.json",
+      "bytes": 14742,
+      "sha256": "2fac64da12142cd1816274321cbb7d103e420c271cc2592ed1dcebf3f4836e51"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/ozHG5P7fY5I.json",
+      "bytes": 3897,
+      "sha256": "2d843df88b66b74050c2dc1dabdd98b8b728fcc19c8543c8a656ff428acf34cf"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/p8JC21bFf5M.json",
+      "bytes": 13886,
+      "sha256": "cf903b66fa59442d28026dc3e8114f9e06523f3ccdf66f88111b2df18236d4a2"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/pfB4F7uAjwE.json",
+      "bytes": 13326,
+      "sha256": "5c6f384fe161eaf03963592f9e277be7fcd7121cb38521c9d36364ce542dcea9"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/sFjR-VFy4tE.json",
+      "bytes": 15536,
+      "sha256": "f422c42718a7af84408514c5162604fbb6145c0ff128a5a134eada45a02c9279"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/tYAnYpeyWTc.json",
+      "bytes": 3278,
+      "sha256": "76e3fc98aac0d636d487e3d7f89379ee15dce569d764a2fdc42860decd30df0a"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/tskKYl3w0J8.json",
+      "bytes": 14946,
+      "sha256": "9dcd4220b7ee5ab4ab15b8982caf696e0a42ecc929691c22c6434b7362d78112"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/ufzO0sbNICQ.json",
+      "bytes": 12485,
+      "sha256": "31a806c66e4eba76e96edf64ac1b16dd05397dd05b4cc2226ab0af05c832bbd3"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/vrv3J-ri804.json",
+      "bytes": 12854,
+      "sha256": "bca4110a8b3729c400439a7a066113d65632ff3e5b31d59c560047d9692f6bcb"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/wCZ1Lib1_cQ.json",
+      "bytes": 4617,
+      "sha256": "ce72da40994e5bb361673a167f8f0aedd9dc911b8880df1e563bb30d9e874df8"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/wwkC86EEu1s.json",
+      "bytes": 14105,
+      "sha256": "c93c3f22c7f24037c8c61e17b4eb4d8ed200d69e974c73fcb662cc1782ac06ff"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/y0-_YOFU8eQ.json",
+      "bytes": 11827,
+      "sha256": "58903489331f04f8a1d52d75513266c231a8d179f2fc307667c665ee5160ca4f"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/ygzBrMyMAQA.json",
+      "bytes": 16663,
+      "sha256": "eb286800d8394d744ced45aa72c3046812364cb3e49b77c5a80fbd137ec228b4"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/yx5hg3wTESs.json",
+      "bytes": 5856,
+      "sha256": "c6514ea50c4c55977a54faa9f9ef4a251580e870c62da76a31fb1fcd7232c0ac"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/digests/zOcZDBhRaOQ.json",
+      "bytes": 14789,
+      "sha256": "7491dd0cd549caf84ba436e64eb60346cf14d2f245e5027d66bf3acf166c30c7"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/divine_light_vibes_channel.json",
+      "bytes": 11971,
+      "sha256": "ddd29f84a8eb08b4993e2019fa3650f2ff1386a9b1654550254c499bbe8cb199"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/events_upcoming.json",
+      "bytes": 9947,
+      "sha256": "8e5f50f3c34b9652a70096c2b9c36542ea4dc428283d89adeda615d4571f177c"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/glossary.json",
+      "bytes": 54536,
+      "sha256": "c0573711bf820642d017cc55c049cf68945f0185450a4d628373ed3e44bb4faf"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/key_terms.csv",
+      "bytes": 1618,
+      "sha256": "9535aca0323900e347e98543c25e26755d339dda789bbe40a77d86079a689663"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/official_channels.md",
+      "bytes": 6551,
+      "sha256": "f0cd7b5c8ae95c6067135444a1bb4fd762ad6b77746e731fcceff74cfac4c7e2"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/podcasts.json",
+      "bytes": 36390,
+      "sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/recordings.csv",
+      "bytes": 15973,
+      "sha256": "f42dd8f2e14bd7086d5d45031963bbb5f7ac30864a73a4520d3b86016ab1e93f"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/session_catalog.csv",
+      "bytes": 257074,
+      "sha256": "cf07c7660dcbafefb60e00295bb8927598bbf56d1309353bbc27f15a7dbb49a1"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/skeptical_coverage.md",
+      "bytes": 7520,
+      "sha256": "561fb5d7532eceee6ada5f4cafdb2d4663dfad925e27aac36c6ff7241c20ecae"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/teachings.md",
+      "bytes": 61368,
+      "sha256": "66f31aa006f7dd14585c4b4fd4541f21e8b5470769b0ba07e4131762812d5c51"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/timeline.json",
+      "bytes": 19201,
+      "sha256": "a1eb79783e1d0ad7563df518fc749fd5eba944f04ba1fb3d0ef13497de1c99c6"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/topic_share.csv",
+      "bytes": 1051,
+      "sha256": "3652dbd7f4b5275cb2412e93a95fe91b8f2366ebfb286e567889aabf95cd2dd2"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/topics.py",
+      "bytes": 29815,
+      "sha256": "8699e5b86a79333a3776e81b411ffe2aa02ce183db5142a8de51f90582d64c90"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/data/videos.json",
+      "bytes": 755688,
+      "sha256": "fbd3610ead8a53448cd6b4058ac5a13fb285f9eda65266f0ff21884694d275b5"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/bashar-index/index.html",
+      "bytes": 2088727,
+      "sha256": "80e02ffc7a30cce47753c9cef761bfea3cad82d7b3b67826ec27500d393c840c"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/channels-ET/dist/analysis/data.json",
+      "bytes": 3906689,
+      "sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+      "bytes": 2931464,
+      "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+    },
+    {
+      "path": "research/harvest/inventory/sourcepins/channels-ET/research/expansion/acquisition/collection-plan.json",
+      "bytes": 694655,
+      "sha256": "c772a6aa0fe9dd8d73ab51de68d8a99896cb1c6cbc3df1756a1f94b1104258da"
+    },
+    {
+      "path": "research/harvest/inventory/summary.json",
+      "bytes": 5312,
+      "sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916"
+    },
+    {
+      "path": "research/harvest/inventory/verification.json",
+      "bytes": 3548,
+      "sha256": "24ad7a55d4ed06e761d69f4d975a72fbb77e4fa030e86c77b91a6ebccf959d78"
+    },
+    {
+      "path": "research/harvest/inventory/verify_inventory.py",
+      "bytes": 8358,
+      "sha256": "89334e3733a4d5c27ef3b658d7b9fc029552df1d91bc8d146577a1815a1a607b"
+    },
+    {
+      "path": "research/harvest/inventory/videos.jsonl",
+      "bytes": 2599443,
+      "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d"
+    },
+    {
+      "path": "research/harvest/jobs.json",
+      "bytes": 8282097,
+      "sha256": "f5c11198878978b1e1819d0fa76871cce1ccd5da721ade7e688154962ba9d47e"
+    },
+    {
+      "path": "research/harvest/publisher_sources/README.md",
+      "bytes": 6177,
+      "sha256": "c73a49f2be18dbc09adf4bd3b7efb56a03be02e7485f6975bda9d72eddb0f08b"
+    },
+    {
+      "path": "research/harvest/publisher_sources/apply_duration_review.py",
+      "bytes": 6501,
+      "sha256": "33613af1e4b89be8ebce3402ee63dcb47e8ea568df5574570144decd7fe31813"
+    },
+    {
+      "path": "research/harvest/publisher_sources/apply_rss_metadata_reviews.py",
+      "bytes": 8191,
+      "sha256": "5a0d2aa578c2a1f9eeba176846bb09a6a22096d7417992f798ad3916f6b7b9bb"
+    },
+    {
+      "path": "research/harvest/publisher_sources/code-versions/download-expanded-initial.py",
+      "bytes": 15923,
+      "sha256": "7e02de8ba68a35c35638e5a885f258ae29b0a4f4fa0d435473d7f85eade151a0"
+    },
+    {
+      "path": "research/harvest/publisher_sources/code-versions/download-gateways-retry.py",
+      "bytes": 16945,
+      "sha256": "31efc69df53b1d274dcb6537073f44572b12cd85b72db6589c8c0c7d0824469d"
+    },
+    {
+      "path": "research/harvest/publisher_sources/code-versions/download-initial.py",
+      "bytes": 11516,
+      "sha256": "f988af93df064668835faaccc78f34b05a4de0bede4e3fe699594f8d1443938a"
+    },
+    {
+      "path": "research/harvest/publisher_sources/code-versions/guard-verification-before-replay-fix.json",
+      "bytes": 1719,
+      "sha256": "7cafdecf2a3561e065ffc6636c3665538ea09cf802bc91a68907dcaf1c9d7847"
+    },
+    {
+      "path": "research/harvest/publisher_sources/delivery-redaction-receipt.json",
+      "bytes": 1077,
+      "sha256": "f918f6f1fd8b627ef5bd5d1d7ed438c435472a11951ea61fc51c870e4435fa70"
+    },
+    {
+      "path": "research/harvest/publisher_sources/download.py",
+      "bytes": 19271,
+      "sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864"
+    },
+    {
+      "path": "research/harvest/publisher_sources/duration-review-amendment.json",
+      "bytes": 1307,
+      "sha256": "3b07158d1010ee47507d0b2fd41e583460b09a1e8da4485f7cf13d054014dfc8"
+    },
+    {
+      "path": "research/harvest/publisher_sources/execution-code-register.json",
+      "bytes": 2299,
+      "sha256": "35a376b5a2b7befaf739ffa5482224887aec08614d609cc271ed73e64c1c19b1"
+    },
+    {
+      "path": "research/harvest/publisher_sources/existing-replay-verification.json",
+      "bytes": 7135,
+      "sha256": "232e6ccc57ae9a9770b6c84e43efffc70fb8734734283f15052c5e66192cff54"
+    },
+    {
+      "path": "research/harvest/publisher_sources/expanded-plan.json",
+      "bytes": 42203,
+      "sha256": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712"
+    },
+    {
+      "path": "research/harvest/publisher_sources/guard-verification.json",
+      "bytes": 2010,
+      "sha256": "71798e34c7001f309496a7e9b60f1902b0c35f275659d4e11bdc87355e68180b"
+    },
+    {
+      "path": "research/harvest/publisher_sources/pilot-plan.json",
+      "bytes": 3970,
+      "sha256": "c08b54c733dff37901dfa21baaab84cc9fb4eec04e1633fadc54a67814b6523d"
+    },
+    {
+      "path": "research/harvest/publisher_sources/publisher-attempts.jsonl",
+      "bytes": 117206,
+      "sha256": "fced53fb869e891f21f127f9b694d0cc53922166364c308df9cd1bf3ad15523c"
+    },
+    {
+      "path": "research/harvest/publisher_sources/publisher-summary.json",
+      "bytes": 106794,
+      "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+    },
+    {
+      "path": "research/harvest/publisher_sources/redact_delivery_metadata.py",
+      "bytes": 2848,
+      "sha256": "ae43bb09ec147182809b8a95612e533be6dde76b69537e2117bc68c09fc08ddb"
+    },
+    {
+      "path": "research/harvest/publisher_sources/replay-fix-receipt.json",
+      "bytes": 1667,
+      "sha256": "c502bfc8bf432c26690b5cd91919e1c83f9ceeb7e2db6c7aa40b58918f999554"
+    },
+    {
+      "path": "research/harvest/publisher_sources/rss-1546456269-353036e21117-metadata-amendment.json",
+      "bytes": 1060,
+      "sha256": "6a635ae1ba07f887192a152948fcbca8f6def343228cda9cf50bb7a269bba1c5"
+    },
+    {
+      "path": "research/harvest/publisher_sources/rss-1546456269-b82d79f0d2c0-metadata-amendment.json",
+      "bytes": 1048,
+      "sha256": "9e41533597ffa88cd4814836c86b59c1a8febc16259aa6bdcd699d2468cbca3f"
+    },
+    {
+      "path": "research/harvest/publisher_sources/rss-425328515-addbc47ecbd7-metadata-amendment.json",
+      "bytes": 1061,
+      "sha256": "b8aa9e1ac400a14debe3e963d7f206302ca061f155d9dd538b1da39a431d2c01"
+    },
+    {
+      "path": "research/harvest/publisher_sources/verify_existing_replay.py",
+      "bytes": 3777,
+      "sha256": "78e82d7332780acdefa5616797c6ece6257a151b82c791f2b50fe924986c52a4"
+    },
+    {
+      "path": "research/harvest/publisher_sources/verify_guards.py",
+      "bytes": 8561,
+      "sha256": "c0372e0098625a049920b636a600b5b411c9d5b9c2b83ced7a7d7642d872ec5b"
+    },
+    {
+      "path": "research/harvest/reviews/acceptance-criteria.md",
+      "bytes": 3838,
+      "sha256": "0dab35a5ff87390cc4c42afcaab54c3e69a7fc07330de5ebfeeea8a290fbcdda"
+    },
+    {
+      "path": "research/harvest/reviews/independent-acquisition-review.md",
+      "bytes": 5195,
+      "sha256": "4ef852eeb3593abe9c8b7588b4da202d3d95a993fb36c5b8656fd8550a4b093f"
+    },
+    {
+      "path": "research/harvest/schema.json",
+      "bytes": 3928,
+      "sha256": "d5040585c66b61261ccd189786bff598e5f75f265743b0b2be846a988874294a"
+    },
+    {
+      "path": "research/harvest/setup-verification.json",
+      "bytes": 965,
+      "sha256": "b916d3c903e762f15558f7971584fe813827b64c98eb5dd0237f5d6d7119270a"
+    },
+    {
+      "path": "research/harvest/setup_environment.sh",
+      "bytes": 1582,
+      "sha256": "6369eb60c3b799ce47aa824d7da98c2dc7a478e73a0828de510cc3eb80769092"
+    },
+    {
+      "path": "research/harvest/state.sqlite",
+      "bytes": 12951552,
+      "sha256": "908d7f1aa4725ac5997d157ef43bec397f7f4f82e9cd406dd9b5bd6de90ffec2"
+    },
+    {
+      "path": "research/harvest/summary.json",
+      "bytes": 2128,
+      "sha256": "ed47dafb60e785f2e7bf89e8990bd806600cb36f575c7ab547797f7f06a61016"
+    },
+    {
+      "path": "research/harvest/tool-research/.gitignore",
+      "bytes": 14,
+      "sha256": "f222cf81d3a1572a886d5d452d71143de996063cc7fa0ee2eb7c3a95b0f93627"
+    },
+    {
+      "path": "research/harvest/tool-research/PRIMARY-SOURCES.md",
+      "bytes": 5072,
+      "sha256": "acc242235aa9a70aa6c487c942de6c3b4a0a7f767d5a4d81338edccc805a58a3"
+    },
+    {
+      "path": "research/harvest/tool-research/README.md",
+      "bytes": 2352,
+      "sha256": "233284fada0b7795fb9c0e730a0e3f7b2e85f0432df58d9499a9a5e48fb29d2c"
+    },
+    {
+      "path": "research/harvest/tool-research/RECOMMENDATIONS.md",
+      "bytes": 11198,
+      "sha256": "7a81fe3f910175b9da7e5817700d86aac66c46bf46ac1adf26a4a7bf194e287e"
+    },
+    {
+      "path": "research/harvest/tool-research/build_source_register.py",
+      "bytes": 8343,
+      "sha256": "98f59c27f881ddd610bf6b0eff1814d85631e8303c34641e72bcfded556742f3"
+    },
+    {
+      "path": "research/harvest/tool-research/completion.json",
+      "bytes": 6719,
+      "sha256": "7854543f4ec59e95da61eb11db944d5ef2bfff7c30ff4af4775689d833480fb3"
+    },
+    {
+      "path": "research/harvest/tool-research/extract_sources.py",
+      "bytes": 2273,
+      "sha256": "879def3b514a971efc0db2264e34a0442c6993b892f7f676e3ec60ec0b5448e2"
+    },
+    {
+      "path": "research/harvest/tool-research/fetch-publisher-leads.json",
+      "bytes": 2421,
+      "sha256": "d95c9f8558177bbdea52daf9561f377d788cbfd7a2e0d2c6b4ff278655d5d839"
+    },
+    {
+      "path": "research/harvest/tool-research/fetch-receipts.json",
+      "bytes": 7031,
+      "sha256": "90c8709737ab5cb8533acb32bf81472cb87423d3122c4b56554e437208b973fc"
+    },
+    {
+      "path": "research/harvest/tool-research/fetch-source-code.json",
+      "bytes": 1864,
+      "sha256": "83c32a06364003147799f3dc7f45e5c5efafb85263c351edd2738e7eaf81797b"
+    },
+    {
+      "path": "research/harvest/tool-research/fetch_podcast_sources.py",
+      "bytes": 5031,
+      "sha256": "cf926bfa11b8968092b2650de7d0cc305f3284f5121cfc202f18d381ab64fa61"
+    },
+    {
+      "path": "research/harvest/tool-research/fetch_sources.py",
+      "bytes": 3339,
+      "sha256": "232e291d1eb7dd6944724ded19ae236805eabd4676d5a9ffdff95fbc1cfb79b8"
+    },
+    {
+      "path": "research/harvest/tool-research/podcast-additional-receipts.json",
+      "bytes": 31322,
+      "sha256": "157f1763ec56e06a5a1e45a33d30040871af95f1b69c12b085fe4ac1a3cd35ea"
+    },
+    {
+      "path": "research/harvest/tool-research/podcast-catalog-receipts.json",
+      "bytes": 5748,
+      "sha256": "ad8568a292e10800a8e918724c313e09387a92edb2b6c5ff73fe82083f606a63"
+    },
+    {
+      "path": "research/harvest/tool-research/podcast-feed-receipts.json",
+      "bytes": 28543,
+      "sha256": "fbd52087c1684bb7d6eb0cef014a1226c0fc9a1708efe4e0d5b4280242c685be"
+    },
+    {
+      "path": "research/harvest/tool-research/publisher-pilot-access.json",
+      "bytes": 2269,
+      "sha256": "f45522f6388972febb8118200800614b0724104c0de073a0e61861ac6442fb90"
+    },
+    {
+      "path": "research/harvest/tool-research/runtime-observation.json",
+      "bytes": 1055,
+      "sha256": "744d3a976cab40d48976dbf7ee9cdca63aa80900bc213bae5c0800a17d87624d"
+    },
+    {
+      "path": "research/harvest/tool-research/source-register.json",
+      "bytes": 19206,
+      "sha256": "ff0e5f14e48698eb8a13b9800a69c6e2c1de642771039c05f626be56aeaba547"
+    },
+    {
+      "path": "research/harvest/tool-research/wiki-receipt.json",
+      "bytes": 1578,
+      "sha256": "ed0cc43c1e721c1fe105c91012f8775f5a6222f9c22156a9b7c5d1b44a5e1831"
+    },
+    {
+      "path": "research/harvest/verification.json",
+      "bytes": 377,
+      "sha256": "07274155f33ff7fd206c2635850c6b14fe427ecd0f59a2d35894bf62b5c6084a"
+    },
+    {
+      "path": "research/harvest/verify_harvest.py",
+      "bytes": 12433,
+      "sha256": "a46254ce51fb7a29b900445e53940d120f8f223f43afa61dade5bd11441ac85f"
+    },
+    {
+      "path": "scripts/pages/stage_site.py",
+      "bytes": 3367,
+      "sha256": "090b0c0c734b0b0573d883dcaf54268fb789e72c06ccfbf6755872ed7968c511"
+    },
+    {
+      "path": "scripts/pages/verify_site.py",
+      "bytes": 12313,
+      "sha256": "ca6116bb34c8625278e4f36c98a9d5c1edc3dfacf38ed16c97c78ee40363808b"
+    }
+  ],
+  "fileCount": 428,
+  "totalBytes": 83989470
+}

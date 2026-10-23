@@ -1,0 +1,321 @@
+#!/usr/bin/env python3
+"""Bounded, source-bound direct downloads of publisher RSS audio enclosures.
+
+No YouTube extraction, cookies, alternate proxy routes or TLS override. Raw
+media remain outside Git; public files contain provenance and derived metadata.
+"""
+import argparse
+import concurrent.futures
+import datetime
+import fcntl
+import hashlib
+import json
+import math
+import pathlib
+import re
+import shutil
+import subprocess
+import threading
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+
+H = pathlib.Path(__file__).resolve().parent
+R = H.parents[2]
+RAW_ROOT = pathlib.Path('/workspace/channels-et-raw')
+RAW = RAW_ROOT / 'publisher-audio'
+CAP = 256 * 1024 ** 2
+RESERVE = 6 * 1024 ** 3
+BUDGET = 20 * 1024 ** 3
+LOCK = threading.RLock()
+RESULTS = []
+IN_FLIGHT = {}
+PLANNED_IDS = set()
+PRIOR = {}
+RUN_STATE = 'initializing'
+RUN_TERMINAL = False
+
+
+class ValidationMismatch(RuntimeError):
+    pass
+
+
+class HTTPSOnlyRedirect(urllib.request.HTTPRedirectHandler):
+    def __init__(self):
+        super().__init__()
+        self.events = []
+
+    def redirect_request(self, request, response, code, message, headers, new_url):
+        parsed = urllib.parse.urlsplit(new_url)
+        if parsed.scheme != 'https' or parsed.username or parsed.password:
+            raise RuntimeError('non_https_redirect_rejected')
+        self.events.append({'http_status': code, **safe_endpoint(new_url)})
+        return super().redirect_request(request, response, code, message, headers, new_url)
+
+
+def now():
+    return datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+
+def save(path, value):
+    tmp = path.with_suffix(path.suffix + '.tmp')
+    tmp.write_text(json.dumps(value, indent=2) + '\n')
+    tmp.replace(path)
+
+
+def sha(path):
+    h = hashlib.sha256()
+    with path.open('rb') as f:
+        for b in iter(lambda: f.read(1024 * 1024), b''):
+            h.update(b)
+    return h.hexdigest()
+
+
+def tree_bytes(path):
+    return sum(p.stat().st_size for p in path.rglob('*') if p.is_file() and not p.is_symlink()) if path.exists() else 0
+
+
+def real_git_ancestor(path):
+    for parent in [path.resolve(), *path.resolve().parents]:
+        meta = parent / '.git'
+        if meta.is_dir() and (meta / 'HEAD').is_file():
+            return True
+        if meta.is_file() and meta.read_text().strip().startswith('gitdir:'):
+            return True
+    return False
+
+
+def safe_endpoint(url):
+    p = urllib.parse.urlsplit(url)
+    authority = p.hostname or ''
+    if p.port:
+        authority += ':' + str(p.port)
+    origin = p.scheme + '://' + authority
+    return {'origin': origin, 'url_without_query': origin + '/', 'path_redacted': True,
+            'query_keys_only': sorted({k for k, v in urllib.parse.parse_qsl(p.query)}),
+            'reason': 'CDN paths and queries may contain expiring authorization; retain origin only. Use original RSS enclosure URL.'}
+
+
+def capacity(additional=0):
+    used = tree_bytes(RAW_ROOT)
+    free = shutil.disk_usage(RAW).free
+    if used + additional > BUDGET or free - additional < RESERVE:
+        raise RuntimeError('raw_budget_or_free_space_reserve_reached')
+    return {'total_raw_bytes': used, 'filesystem_free_bytes': free}
+
+
+def probe(path):
+    p = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration,size,format_name:stream=codec_type,codec_name,sample_rate,channels',
+                        '-of', 'json', str(path)], capture_output=True, text=True, timeout=45, check=True)
+    d = json.loads(p.stdout)
+    duration = float(d['format']['duration'])
+    if not math.isfinite(duration) or duration <= 0 or not any(s.get('codec_type') == 'audio' for s in d['streams']):
+        raise RuntimeError('invalid_audio_stream_or_duration')
+    return d
+
+
+def snapshot(plan_hash):
+    s = {'schema_version': 1, 'updated_at': now(), 'plan_sha256': plan_hash,
+         'run_status': RUN_STATE, 'terminal': RUN_TERMINAL,
+         'terminal_record_statuses': ['completed', 'failed', 'blocked', 'quota_stopped', 'validation_mismatch'],
+         'source_kind': 'independent_original_publisher_rss_audio',
+         'not_youtube_downloads': True, 'youtube_requests': 0,
+         'concurrency_limit': 2, 'per_file_cap_bytes': CAP, 'free_space_reserve_bytes': RESERVE, 'total_raw_budget_bytes': BUDGET,
+         'shared_collection_lock': str(RAW_ROOT / '.collection-worker.lock'),
+         'coordination': 'Publisher run holds exclusive process lock; YouTube writers must use the same lock and remain paused until integration.',
+         'planned_jobs': len(PLANNED_IDS), 'in_flight': sorted(IN_FLIGHT),
+         'completed_audio_files': sum(r['status'] == 'completed' for r in RESULTS),
+         'completed_audio_bytes': sum(r.get('bytes', 0) for r in RESULTS if r['status'] == 'completed'),
+         'completed_audio_seconds': sum(r.get('duration_seconds', 0) for r in RESULTS if r['status'] == 'completed'),
+         'warning_audio_files': sum(bool(r.get('validation_outcome')) for r in RESULTS if r['status'] == 'completed'),
+         'records': RESULTS,
+         'limitations': ['Independent podcast editions are not automatically byte-equivalent to indexed YouTube uploads.',
+                        'RSS identity and public availability do not grant an open redistribution license.',
+                        'Raw media are local-only; generated ASR text requires separate validation.']}
+    save(H / 'publisher-summary.json', s)
+
+
+def download(row, plan_hash):
+    ident = row['source_id']
+    path = RAW / (ident + '.mp3')
+    part = path.with_suffix(path.suffix + '.part')
+    sidecar = part.with_suffix(part.suffix + '.meta.json')
+    record = {**row, 'started_at': now(), 'status': 'in_flight', 'raw_local_path': str(path), 'tls_verified': True,
+              'proxy': 'inherited_session_configuration', 'audio_rehosted_publicly': False,
+              'actual_speaker_status': 'not_verified; host_guest_advertising_and_claimed_entity_turns_unsegmented',
+              'acquisition_plan_sha256': plan_hash, 'collector_sha256': sha(pathlib.Path(__file__).resolve())}
+    start = time.monotonic()
+    try:
+        original = urllib.parse.urlsplit(row['enclosure_url'])
+        if original.scheme != 'https' or original.username or original.password:
+            raise RuntimeError('source_requires_public_https_without_userinfo')
+        with LOCK:
+            # Reserve the maximum permitted bytes for each in-flight file.
+            capacity(sum(IN_FLIGHT.values()) + CAP)
+            IN_FLIGHT[ident] = CAP
+            snapshot(plan_hash)
+        if path.is_file():
+            prior = PRIOR.get(ident)
+            if path.stat().st_size > CAP:
+                raise RuntimeError('existing_media_exceeds_per_file_cap')
+            if not prior or prior.get('status') != 'completed' or prior.get('enclosure_url') != row['enclosure_url']:
+                raise RuntimeError('existing_media_missing_matching_source_manifest')
+            actual_sha = sha(path)
+            if actual_sha != prior.get('sha256') or path.stat().st_size != prior.get('bytes'):
+                raise RuntimeError('existing_media_source_manifest_hash_or_size_mismatch')
+            media = probe(path)
+            measured = float(media['format']['duration'])
+            expected = row.get('rss_duration_seconds')
+            if row.get('rss_enclosure_length_bytes') and path.stat().st_size != row['rss_enclosure_length_bytes']:
+                raise ValidationMismatch('existing_media_differs_from_current_rss_size')
+            if expected and abs(measured - expected) > max(10, expected * .01):
+                raise ValidationMismatch('existing_media_differs_from_current_rss_duration')
+            record.update(status='completed', reused_existing_file=True, bytes=path.stat().st_size,
+                          sha256=actual_sha, duration_seconds=measured, ffprobe=media,
+                          prior_verified_acquisition=prior.get('finished_at'))
+        else:
+            offset = 0
+            headers = {'User-Agent': 'channels-ET-research/1.0 independent public RSS collection'}
+            # Resume only a source-bound partial with an HTTP validator.
+            if part.is_file() and sidecar.is_file():
+                prior = json.loads(sidecar.read_text())
+                validator = prior.get('etag') or prior.get('last_modified')
+                if prior.get('enclosure_url') == row['enclosure_url'] and validator:
+                    offset = part.stat().st_size
+                    if offset > CAP:
+                        raise RuntimeError('existing_partial_exceeds_per_file_cap')
+                    headers.update({'Range': 'bytes=' + str(offset) + '-', 'If-Range': validator})
+            request = urllib.request.Request(row['enclosure_url'], headers=headers)
+            redirects = HTTPSOnlyRedirect()
+            opener = urllib.request.build_opener(redirects)
+            with opener.open(request, timeout=45) as response:
+                code = response.status
+                if offset and code == 206:
+                    content_range = response.headers.get('Content-Range', '')
+                    if not content_range.startswith('bytes ' + str(offset) + '-'):
+                        raise RuntimeError('resume_content_range_mismatch')
+                    mode = 'ab'
+                elif code == 200:
+                    offset = 0
+                    mode = 'wb'
+                else:
+                    raise RuntimeError('unexpected_media_http_status_' + str(code))
+                content_type = response.headers.get_content_type()
+                record.update(http_status=code, content_type=content_type, resumed_from_bytes=offset,
+                              final_endpoint=safe_endpoint(response.url), redirect_chain=redirects.events)
+                if not (content_type.startswith('audio/') or content_type in ['application/octet-stream', 'binary/octet-stream']):
+                    raise RuntimeError('unexpected_media_content_type_' + content_type)
+                declared = response.headers.get('Content-Length')
+                declared = int(declared) if declared is not None else None
+                if declared is not None and offset + declared > CAP:
+                    raise RuntimeError('declared_media_exceeds_per_file_cap')
+                record.update(http_status=code, content_type=content_type, resumed_from_bytes=offset,
+                              final_endpoint=safe_endpoint(response.url), redirect_chain=redirects.events,
+                              response_declared_remaining_bytes=declared)
+                save(sidecar, {'enclosure_url': row['enclosure_url'], 'etag': response.headers.get('ETag'),
+                               'last_modified': response.headers.get('Last-Modified')})
+                count = offset
+                with part.open(mode) as stream:
+                    while True:
+                        chunk = response.read(1024 * 1024)
+                        if not chunk:
+                            break
+                        if count + len(chunk) > CAP:
+                            raise RuntimeError('stream_media_exceeds_per_file_cap')
+                        with LOCK:
+                            capacity(len(chunk))
+                            stream.write(chunk)
+                            stream.flush()
+                            count += len(chunk)
+                            IN_FLIGHT[ident] = max(0, CAP - count)
+                if declared is not None and count - offset != declared:
+                    raise RuntimeError('incomplete_declared_media_body')
+            if not part.stat().st_size:
+                raise RuntimeError('empty_media_artifact')
+            media = probe(part)
+            measured = float(media['format']['duration'])
+            expected = row.get('rss_duration_seconds')
+            record.update(duration_seconds=measured, duration_delta_from_rss_seconds=measured - expected if expected else None,
+                          rss_duration_within_tolerance=abs(measured - expected) <= max(10, expected * .01) if expected else None,
+                          bytes=part.stat().st_size, sha256=sha(part), ffprobe=media)
+            if row.get('rss_enclosure_length_bytes'):
+                record['rss_size_matches_actual'] = row['rss_enclosure_length_bytes'] == part.stat().st_size
+                if not record['rss_size_matches_actual']:
+                    raise ValidationMismatch('rss_enclosure_size_differs_from_actual')
+            if expected and not record['rss_duration_within_tolerance']:
+                raise ValidationMismatch('rss_duration_outside_tolerance')
+            with LOCK:
+                capacity()
+                if part.stat().st_size > CAP:
+                    raise RuntimeError('post_exit_per_file_cap')
+                part.replace(path)
+                sidecar.unlink(missing_ok=True)
+                record['status'] = 'completed'
+    except Exception as error:
+        message = str(error)
+        status = 'validation_mismatch' if isinstance(error, ValidationMismatch) else 'blocked' if 'Tunnel connection failed' in message or (isinstance(error, urllib.error.HTTPError) and error.code in [403, 429]) else 'quota_stopped' if 'per_file_cap' in message or 'space_reserve' in message else 'failed'
+        record.update(status=status, error_type=type(error).__name__,
+                      error=('HTTPError_' + str(error.code)) if isinstance(error, urllib.error.HTTPError) else re.sub(r'https?://\S+', '[endpoint omitted]', message)[:350],
+                      partial_bytes=part.stat().st_size if part.exists() else 0)
+        if 'Tunnel connection failed' in message:
+            record['failure_layer'] = 'proxy_connect_before_origin_tls'
+        elif isinstance(error, urllib.error.HTTPError):
+            record['failure_layer'] = 'http_response_after_connection'
+    finally:
+        record.update(finished_at=now(), elapsed_seconds=round(time.monotonic() - start, 6))
+        with LOCK:
+            IN_FLIGHT.pop(ident, None)
+            RESULTS[:] = [r for r in RESULTS if r['source_id'] != ident]
+            RESULTS.append(record)
+            with (H / 'publisher-attempts.jsonl').open('a') as f:
+                f.write(json.dumps(record) + '\n')
+            snapshot(plan_hash)
+            print(json.dumps({'source_id': ident, 'status': record['status'], 'raw_local_path': record.get('raw_local_path'),
+                              'bytes': record.get('bytes'), 'duration_seconds': record.get('duration_seconds'), 'sha256': record.get('sha256'),
+                              'error': record.get('error')}), flush=True)
+    return record
+
+
+def main():
+    global RUN_STATE, RUN_TERMINAL
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--plan', type=pathlib.Path, default=H / 'pilot-plan.json')
+    parser.add_argument('--only-source-id', action='append', default=[], help='Retry a diagnosed subset without changing the frozen plan/cohort hash')
+    args = parser.parse_args()
+    if real_git_ancestor(RAW):
+        raise RuntimeError('raw_directory_inside_real_git_checkout')
+    RAW.mkdir(parents=True, exist_ok=True)
+    with (RAW_ROOT / '.collection-worker.lock').open('a+') as lock:
+        try:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            raise RuntimeError('another_collection_process_holds_shared_raw_budget_lock')
+        data = args.plan.read_bytes()
+        planned_rows = json.loads(data)['records']
+        rows = [r for r in planned_rows if not args.only_source_id or r['source_id'] in args.only_source_id]
+        if args.only_source_id and set(args.only_source_id) - {r['source_id'] for r in planned_rows}:
+            raise RuntimeError('requested_subset_outside_frozen_source_plan')
+        previous = H / 'publisher-summary.json'
+        if previous.is_file():
+            retained = json.loads(previous.read_text())['records']
+            RESULTS.extend(retained)
+            PRIOR.update({r['source_id']: r for r in retained})
+        PLANNED_IDS.update(r['source_id'] for r in [*RESULTS, *planned_rows])
+        if any(not re.fullmatch(r'[a-z0-9-]+', x['source_id']) for x in rows):
+            raise RuntimeError('unsafe_source_id')
+        if len({x['source_id'] for x in rows}) != len(rows):
+            raise RuntimeError('duplicate_source_id')
+        RUN_STATE = 'running'
+        snapshot(hashlib.sha256(data).hexdigest())
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+            results = list(pool.map(lambda row: download(row, hashlib.sha256(data).hexdigest()), rows))
+        RUN_TERMINAL = True
+        RUN_STATE = 'completed_with_failures' if any(r['status'] != 'completed' for r in RESULTS) else 'completed'
+        snapshot(hashlib.sha256(data).hexdigest())
+        fcntl.flock(lock, fcntl.LOCK_UN)
+    return int(any(r['status'] != 'completed' for r in results))
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

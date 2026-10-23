@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-23T22:41:28.501925+00:00",
+  "status": "PASS_WITH_SOURCE_METADATA_WARNINGS",
+  "network_requests": 0,
+  "records": [
+    {
+      "source_id": "rss-1546456269-353036e21117",
+      "actual_path": "/workspace/channels-et-raw/publisher-audio/rss-1546456269-353036e21117.mp3.part",
+      "bytes": 59230133,
+      "sha256": "f3b7cc1ba691e1ee5532847daadfe038825c37712e23a57d2d2ea606473ca897",
+      "http_body_complete": true,
+      "rss_size_bytes": 54377325,
+      "size_delta_bytes": 4852808,
+      "audio_duration_seconds": 3696.979438,
+      "rss_duration_seconds": 3398,
+      "duration_delta_seconds": 298.97943799999985,
+      "decision": "Eligible only as the complete current publisher HTTP response with explicit RSS metadata disagreement; original recording and YouTube-edition equivalence remain unverified",
+      "source_format": "interview"
+    },
+    {
+      "source_id": "rss-1546456269-b82d79f0d2c0",
+      "actual_path": "/workspace/channels-et-raw/publisher-audio/rss-1546456269-b82d79f0d2c0.mp3.part",
+      "bytes": 40274039,
+      "sha256": "b8de61ae962b10ac1e904ba3ec8c1262a01361de3a28c1ef21828c42e528fb5f",
+      "http_body_complete": true,
+      "rss_size_bytes": 37442873,
+      "size_delta_bytes": 2831166,
+      "audio_duration_seconds": 2511.9085,
+      "rss_duration_seconds": 2340,
+      "duration_delta_seconds": 171.9085,
+      "decision": "Eligible only as the complete current publisher HTTP response with explicit RSS metadata disagreement; original recording and YouTube-edition equivalence remain unverified",
+      "source_format": "interview"
+    },
+    {
+      "source_id": "rss-425328515-addbc47ecbd7",
+      "actual_path": "/workspace/channels-et-raw/publisher-audio/rss-425328515-addbc47ecbd7.mp3.part",
+      "bytes": 106006995,
+      "sha256": "f0a4b75d81fc2cead2a9d90e0c81167b57dbca0f6a3e6cd465051f1accc5b2bd",
+      "http_body_complete": true,
+      "rss_size_bytes": 106114538,
+      "size_delta_bytes": -107543,
+      "audio_duration_seconds": 6595.291378,
+      "rss_duration_seconds": 6595,
+      "duration_delta_seconds": 0.2913779999998951,
+      "decision": "Eligible only as the complete current publisher HTTP response with explicit RSS metadata disagreement; original recording and YouTube-edition equivalence remain unverified",
+      "source_format": "skeptical_commentary"
+    }
+  ],
+  "scope": "Source-specific local byte/hash/ffprobe checks, not a tolerance change or human content verification. Preserve original strict validation failures and amendment provenance."
+}

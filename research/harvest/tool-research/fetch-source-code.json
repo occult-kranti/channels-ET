@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "id": "yt-dlp-pyproject",
+      "requested_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/fa9886678eb65103303c627b8e013f13f8999b41/pyproject.toml",
+      "attempted_at": "2026-10-23T22:17:25.858183+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/fa9886678eb65103303c627b8e013f13f8999b41/pyproject.toml",
+      "bytes": 12514,
+      "sha256": "547a77c39856e6593e72cd42195c61a30dc1b2f175774f0bd3ac594b931704eb"
+    },
+    {
+      "id": "yt-dlp-youtubedl",
+      "requested_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/fa9886678eb65103303c627b8e013f13f8999b41/yt_dlp/YoutubeDL.py",
+      "attempted_at": "2026-10-23T22:17:25.858882+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/fa9886678eb65103303c627b8e013f13f8999b41/yt_dlp/YoutubeDL.py",
+      "bytes": 218917,
+      "sha256": "1e6e127e8b03e987dfe81dc83e8de1217145339280e043feb867de168aef3e21"
+    },
+    {
+      "id": "yt-dlp-http-downloader",
+      "requested_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/fa9886678eb65103303c627b8e013f13f8999b41/yt_dlp/downloader/http.py",
+      "attempted_at": "2026-10-23T22:17:25.859377+00:00",
+      "tls_verification": true,
+      "proxy": "inherited_session_configuration",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/fa9886678eb65103303c627b8e013f13f8999b41/yt_dlp/downloader/http.py",
+      "bytes": 16515,
+      "sha256": "e111fffdc894f68253ce3c5155fa1aa7390e58caa9a33eeb28d9ef78134e2cd0"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-23T22:17:19.875679+00:00",
+  "method": "local package metadata, executable lookup and node --version; no source network requests",
+  "packages": {
+    "yt-dlp": "2026.10.21",
+    "yt-dlp-ejs": null,
+    "youtube-transcript-api": "1.2.4",
+    "curl-cffi": null,
+    "requests": "2.34.2"
+  },
+  "executables": {
+    "ffmpeg": "/usr/bin/ffmpeg",
+    "ffprobe": "/usr/bin/ffprobe",
+    "node": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "deno": null,
+    "bun": null,
+    "qjs": null
+  },
+  "node_version": "v24.19.0",
+  "policy_observations": {
+    "this_actor_environment_status": {
+      "observations_current": true,
+      "spec_revision": "5",
+      "observed_spec_revision": "5",
+      "mode": "unrestricted",
+      "state": "unknown"
+    },
+    "local_startup_policy": {
+      "type": "unrestricted"
+    },
+    "root_preflight_receipt": "research/harvest/access/preflight-2026-10-23-revision5.json",
+    "root_receipt_policy_state": "enforced",
+    "root_receipt_watch_outcome": "proxy CONNECT403"
+  },
+  "diagnosis": "Missing yt-dlp-ejs/default-deno is a future client readiness issue; it does not explain or repair an ordinary HTTPS CONNECT denial. Preserve actor/time-specific observations.",
+  "new_network_requests_by_this_reviewer": 0,
+  "scope": "Prerequisites only; no successful live channel enumeration, caption retrieval or media download certified."
+}

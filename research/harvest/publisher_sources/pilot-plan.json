@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "scope": "Independent original-publisher podcast editions, not YouTube extraction or mirroring",
+  "authorization": "Root task authorized two public publisher RSS enclosure downloads; per-file256MiB,reserve6GiB,totalraw20GiB,concurrency2",
+  "records": [
+    {
+      "source_id": "soul-talk-224-20220316",
+      "source_kind": "independent_original_publisher_rss_audio",
+      "publisher_name": "SoulTalk with Kute Blackson",
+      "publisher_author": "Transformational Teacher and National Best-Selling Author",
+      "copyright_statement": "Copyright 2020 The Blackson Group LLC",
+      "license_status": "No open redistribution license established; public publisher RSS availability; raw media retained locally only.",
+      "catalog_collection_id": 1349934168,
+      "feed_url": "https://rss.libsyn.com/shows/98235/destinations/511128.xml",
+      "feed_sha256": "da30ddcf7111d2d3ff93740e709500c511364c3705b9f8593f52d75b9f52b5ae",
+      "feed_item_index": 265,
+      "episode_guid": "6f6034c5-be34-4a29-8ca0-777b0d9af949",
+      "episode_title": "224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs",
+      "episode_publication_date": "Wed, 16 Mar 2022 12:04:27 +0000",
+      "enclosure_url": "https://traffic.libsyn.com/secure/kuteblacksonsoultalk/ST_233.mp3?dest-id=511128",
+      "rss_enclosure_length_bytes": 62146296,
+      "rss_duration_seconds": 3878,
+      "original_index_edge": {
+        "source_path": "research/deep/repo_raw/data/podcasts.json",
+        "source_sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191",
+        "source_pointer": "/2",
+        "apple_url": "https://podcasts.apple.com/us/podcast/darryl-anka-bashar-how-to-outgrow-your-fear-based-beliefs/id1349934168?i=1000554249906",
+        "youtube_url_as_indexed": null,
+        "identity_basis": "Exact show/guest/title/date match with Apple collection-to-feed bridge; retained episode number/title conventions may differ.",
+        "youtube_edition_equivalence_verified": false
+      },
+      "source_audio_inspected_by_human": false,
+      "transcript_status": "not_transcribed"
+    },
+    {
+      "source_id": "impossible-dreams-21-20260310",
+      "source_kind": "independent_original_publisher_rss_audio",
+      "publisher_name": "Impossible Dreams",
+      "publisher_author": "Impossible Dreams Media",
+      "copyright_statement": "624771",
+      "license_status": "No open redistribution license established; public publisher RSS availability; raw media retained locally only.",
+      "catalog_collection_id": 1841496060,
+      "feed_url": "https://feeds.captivate.fm/impossible-dreams-with-aaron-lazar/",
+      "feed_sha256": "599b989faea6c9794f06e3d50e74a961d417b2b201d895ac4e6ac47728f105ff",
+      "feed_item_index": 6,
+      "episode_guid": "595aec41-d00f-4119-910b-f32ff9e50235",
+      "episode_title": "Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21",
+      "episode_publication_date": "Tue, 10 Mar 2026 05:00:00 -0400",
+      "enclosure_url": "https://episodes.captivate.fm/episode/595aec41-d00f-4119-910b-f32ff9e50235.mp3",
+      "rss_enclosure_length_bytes": 157323633,
+      "rss_duration_seconds": 3881,
+      "original_index_edge": {
+        "source_path": "research/deep/repo_raw/data/podcasts.json",
+        "source_sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191",
+        "source_pointer": "/5",
+        "apple_url": "https://podcasts.apple.com/ca/podcast/darryl-anka-channeler-of-bashar-from-ufos-to-the/id1841496060?i=1000754429050",
+        "youtube_url_as_indexed": "https://www.youtube.com/watch?v=ufzO0sbNICQ",
+        "identity_basis": "Exact show/guest/title/date match with Apple collection-to-feed bridge; retained episode number/title conventions may differ.",
+        "youtube_edition_equivalence_verified": false
+      },
+      "source_audio_inspected_by_human": false,
+      "transcript_status": "not_transcribed"
+    }
+  ]
+}

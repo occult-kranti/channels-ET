@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-23T22:39:49.255527+00:00",
+  "worker_sha256": "b7093d84e9ef3abecb367e0df2fc3eed42ce8d99cb1675202ac9cc83e69ef9c7",
+  "video_ids": 942,
+  "job_counts": {
+    "captions": 942,
+    "channel": 362,
+    "metadata": 942,
+    "playlist": 169,
+    "video": 942
+  },
+  "status_counts": {
+    "queued": 3357
+  },
+  "attempts": 0,
+  "artifact_rows": 0,
+  "inventory_input_hashes_current": 3,
+  "scope": "Actual prepared queue consistency. Zero job attempts means no per-video/channel/playlist access or downloaded corpus is certified; root watch preflight is separately recorded."
+}

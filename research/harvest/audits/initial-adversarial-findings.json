@@ -1,0 +1,29 @@
+{
+  "status": "FOUR_BUGS_REPRODUCED",
+  "worker_sha256": "9f698d27c4fc2da88eb92c75000ca4fd94c7a41e482b342bdd6a59141d9cc756",
+  "method": "Local synthetic fixtures only; no source network requests, no empirical corpus records; temporary files removed",
+  "observations": {
+    "missing_artifact_still_certified": {
+      "bug_reproduced": true,
+      "complete_metadata_artifacts_after_file_deleted": 1
+    },
+    "partial_caption_not_resumable": {
+      "bug_reproduced": true,
+      "next_claim": null
+    },
+    "format_fallback_shadowed": {
+      "bug_reproduced": true,
+      "classification": {
+        "status": "unavailable",
+        "error_class": "source_unavailable",
+        "error": "ERROR: [youtube] Requested format is not available. Use --list-formats for a list of available formats"
+      }
+    },
+    "concurrent_export_tmp_collision": {
+      "bug_reproduced": true,
+      "exceptions": [
+        "FileNotFoundError"
+      ]
+    }
+  }
+}

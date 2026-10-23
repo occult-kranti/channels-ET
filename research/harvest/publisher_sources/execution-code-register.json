@@ -1,0 +1,32 @@
+{
+  "initial_two_downloads": {
+    "script": "research/harvest/publisher_sources/code-versions/download-initial.py",
+    "sha256": "f988af93df064668835faaccc78f34b05a4de0bede4e3fe699594f8d1443938a",
+    "plan_sha256": "c08b54c733dff37901dfa21baaab84cc9fb4eec04e1633fadc54a67814b6523d",
+    "completed_at": "2026-10-23T22:25:43.096984+00:00",
+    "scope": "Initial two targets did not exist and were streamed fresh; later edits harden reuse and cumulative summaries before expansion."
+  },
+  "nineteen_episode_initial_run": {
+    "script": "research/harvest/publisher_sources/code-versions/download-expanded-initial.py",
+    "sha256": "7e02de8ba68a35c35638e5a885f258ae29b0a4f4fa0d435473d7f85eade151a0",
+    "plan_sha256": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712",
+    "scope": "Initial expanded19-job attempt; later MIME and endpoint-redaction fixes do not change those executed bytes."
+  },
+  "gateways_diagnosed_retry": {
+    "script": "research/harvest/publisher_sources/code-versions/download-gateways-retry.py",
+    "sha256": "31efc69df53b1d274dcb6537073f44572b12cd85b72db6589c8c0c7d0824469d",
+    "plan_sha256": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712",
+    "scope": "Exact executed source for Gateways MIME diagnosis retry; retained before an offline-only replay warning-lineage correction. No reacquisition for that correction."
+  },
+  "offline_replay_hardening": {
+    "script": "research/harvest/publisher_sources/download.py",
+    "sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864",
+    "guard_checks": 16,
+    "guard_receipt": "research/harvest/publisher_sources/guard-verification.json",
+    "guard_receipt_sha256": "71798e34c7001f309496a7e9b60f1902b0c35f275659d4e11bdc87355e68180b",
+    "existing_artifact_checks": 60,
+    "existing_artifact_receipt": "research/harvest/publisher_sources/existing-replay-verification.json",
+    "existing_artifact_receipt_sha256": "232e6ccc57ae9a9770b6c84e43efffc70fb8734734283f15052c5e66192cff54",
+    "scope": "Offline-only warning/amendment and original capture-lineage preservation on verified existing-file reuse. No new downloads or changes to audio, held publisher summary or attempt journal. Executed download source pins remain the historical versions above."
+  }
+}

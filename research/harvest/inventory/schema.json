@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/occult-kranti/channels-ET/research/harvest/inventory/schema.json",
+  "title": "Offline source-pinned harvest inventory contract",
+  "$defs": {
+    "source_ref": {
+      "type": "object",
+      "required": ["source_id", "locator"],
+      "properties": {"source_id": {"type": "string"}, "locator": {"type": "string"}}
+    },
+    "media_source": {
+      "type": "object",
+      "required": ["source_kind", "source_id", "status"],
+      "properties": {
+        "source_kind": {"enum": ["youtube_video", "podcast_episode_index_record", "apple_podcast_episode", "spotify_episode", "publisher_rss_episode", "publisher_media_enclosure"]},
+        "source_id": {"type": "string"},
+        "source_url": {"type": "string"},
+        "status": {"type": "string"}
+      },
+      "description": "YouTube IDs and independently verified publisher RSS/GUID/enclosure IDs are separate namespaces. Same-row associations are explicit evidence edges, not proof of identical edits."
+    },
+    "video": {
+      "type": "object",
+      "required": ["video_id", "source_url", "source_kind", "source_id", "source_refs", "status", "availability", "duration_seconds", "channel_route_ids", "person_ids"],
+      "properties": {
+        "video_id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{11}$"},
+        "source_url": {"type": "string"},
+        "source_kind": {"const": "youtube_video"},
+        "source_id": {"type": "string", "pattern": "^youtube:[A-Za-z0-9_-]{11}$"},
+        "title": {"type": ["string", "null"]},
+        "duration_seconds": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "duration_source_ref": {"anyOf": [{"$ref": "#/$defs/source_ref"}, {"type": "null"}]},
+        "source_refs": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source_ref"}},
+        "channel_route_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "person_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "status": {"const": "indexed_not_checked"},
+        "availability": {"const": "not_checked"}
+      }
+    },
+    "channel_route": {
+      "type": "object",
+      "required": ["route_id", "url", "route_type", "known_video_ids", "known_video_count", "person_ids", "source_refs", "enumeration_status"],
+      "properties": {
+        "route_id": {"type": "string"}, "url": {"type": "string"},
+        "route_type": {"enum": ["handle", "platform_channel_id", "legacy_custom_route"]},
+        "known_video_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[A-Za-z0-9_-]{11}$"}},
+        "known_video_count": {"type": "integer", "minimum": 0},
+        "person_ids": {"type": "array", "items": {"type": "string"}},
+        "source_refs": {"type": "array", "items": {"$ref": "#/$defs/source_ref"}},
+        "enumeration_status": {"const": "not_enumerated"}
+      }
+    },
+    "podcast": {
+      "type": "object",
+      "required": ["source_kind", "source_id", "source_ref", "source_sha256", "original_record", "linked_youtube_video_ids", "primary_publisher_identity"],
+      "properties": {
+        "source_kind": {"const": "podcast_episode_index_record"}, "source_id": {"type": "string"},
+        "source_ref": {"$ref": "#/$defs/source_ref"},
+        "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "linked_youtube_video_ids": {"type": "array", "items": {"type": "string", "pattern": "^[A-Za-z0-9_-]{11}$"}},
+        "primary_publisher_identity": {"const": "not_resolved_by_this_offline_inventory"},
+        "rss_url": {"type": "null"}, "enclosure_url": {"type": "null"},
+        "original_record": {"type": "object"}
+      }
+    },
+    "edge": {
+      "type": "object",
+      "required": ["edge_id", "subject_type", "subject_id", "relation", "object_type", "object_id", "source_refs"],
+      "properties": {
+        "edge_id": {"type": "string"}, "subject_id": {"type": "string"}, "object_id": {"type": "string"}, "relation": {"type": "string"},
+        "subject_type": {"enum": ["video", "channel_route", "publisher_account", "practitioner_candidate", "practitioner_profile"]},
+        "object_type": {"enum": ["video", "channel_route", "publisher_account", "practitioner_candidate", "practitioner_profile"]},
+        "source_refs": {"type": "array", "items": {"$ref": "#/$defs/source_ref"}}
+      }
+    }
+  },
+  "description": "JSONL files use the matching $defs item schema. channel-routes.json wraps channel_route rows in {schema_version:1,records:[]}. inventory.sqlite retains indexed columns and full record_json. Actual crawl/download state belongs to the acquisition ledger, not these frozen inventory statuses."
+}

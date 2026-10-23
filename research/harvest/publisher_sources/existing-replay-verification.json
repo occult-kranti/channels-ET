@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "checks": 60,
+  "failures": [],
+  "collector_sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864",
+  "held_summary_sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3",
+  "held_plan_sha256": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712",
+  "source_artifacts_checked_read_only": 19,
+  "warning_records_preserved": 4,
+  "network_requests": 0,
+  "media_or_held_export_writes": 0,
+  "all_checks": [
+    {
+      "check": "local artifact reused rss-988576741-f283904d1eb7",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-988576741-f283904d1eb7",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-988576741-f283904d1eb7",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-988576741-1ecc5cb023cf",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-988576741-1ecc5cb023cf",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-988576741-1ecc5cb023cf",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused soul-talk-224-20220316",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved soul-talk-224-20220316",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity soul-talk-224-20220316",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1611118279-afab067a712d",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1611118279-afab067a712d",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1611118279-afab067a712d",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused impossible-dreams-21-20260310",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved impossible-dreams-21-20260310",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity impossible-dreams-21-20260310",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1620917042-0d435eadc49d",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1620917042-0d435eadc49d",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1620917042-0d435eadc49d",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1465014169-8dd4267008f8",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1465014169-8dd4267008f8",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1465014169-8dd4267008f8",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1465014169-7a91901169c6",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1465014169-7a91901169c6",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1465014169-7a91901169c6",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1763048673-1cf4301536f2",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1763048673-1cf4301536f2",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1763048673-1cf4301536f2",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1763048673-32a6fb8cd623",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1763048673-32a6fb8cd623",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1763048673-32a6fb8cd623",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1560904383-7f4e01fae0ff",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1560904383-7f4e01fae0ff",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1560904383-7f4e01fae0ff",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1529629262-6e621316510d",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1529629262-6e621316510d",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1529629262-6e621316510d",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1705626495-6f489902be87",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1705626495-6f489902be87",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1705626495-6f489902be87",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1705626495-ae84c9540581",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1705626495-ae84c9540581",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1705626495-ae84c9540581",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1546456269-353036e21117",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1546456269-353036e21117",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1546456269-353036e21117",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1546456269-b82d79f0d2c0",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1546456269-b82d79f0d2c0",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1546456269-b82d79f0d2c0",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1556820026-35f9fd91f5ab",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1556820026-35f9fd91f5ab",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1556820026-35f9fd91f5ab",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-1556820026-decefb87233c",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-1556820026-decefb87233c",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-1556820026-decefb87233c",
+      "passed": true
+    },
+    {
+      "check": "local artifact reused rss-425328515-addbc47ecbd7",
+      "passed": true
+    },
+    {
+      "check": "prior acquisition/validation lineage preserved rss-425328515-addbc47ecbd7",
+      "passed": true
+    },
+    {
+      "check": "unchanged audio identity rss-425328515-addbc47ecbd7",
+      "passed": true
+    },
+    {
+      "check": "all four reviewed warnings survive nineteen-source replay",
+      "passed": true
+    },
+    {
+      "check": "held publisher summary byte-identical after replay",
+      "passed": true
+    },
+    {
+      "check": "held publisher journal byte-identical after replay",
+      "passed": true
+    }
+  ]
+}

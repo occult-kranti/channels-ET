@@ -1,0 +1,18 @@
+{
+  "worker_sha256": "9f698d27c4fc2da88eb92c75000ca4fd94c7a41e482b342bdd6a59141d9cc756",
+  "fixture_only": true,
+  "actual_bytes": 150,
+  "running_reservations": [
+    100,
+    100
+  ],
+  "per_job_remaining_reservations": [
+    0,
+    100
+  ],
+  "proposed_additional_reservation": 100,
+  "quota": 300,
+  "correct_projected_bytes": 350,
+  "current_code_allows_claim": true,
+  "bug_reproduced": true
+}

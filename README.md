@@ -2,6 +2,28 @@
 
 Channeling Atlas is the cross-channel ET channeling research project. **Continue this analysis in `occult-kranti/channels-ET`.** The original [Bashar Index](https://github.com/occult-kranti/bashar-index) remains preserved and focused on Bashar. The existing copy of the Atlas in that repository is retained as history.
 
+The live site is **[Channels ET on GitHub Pages](https://occult-kranti.github.io/channels-ET/)**,
+published by the [Pages Action](.github/workflows/pages.yml). Open **Acquisition**
+in the research dashboard for the latest download inventory, actual files,
+source failures and machine-transcription counts. The
+[acquisition handoff](research/harvest/ACQUISITION-REPORT.md) explains this newer
+collection layer; the paper and model experiments below retain their reviewed
+scientific snapshot. Independently published podcast audio and its automatic
+transcripts are separate from YouTube videos and platform caption tracks.
+
+The expanded queue imports **942 YouTube IDs, 362 literal channel routes and
+169 playlists** from the preserved Bashar index and Atlas sources. It supports
+bounded parallel collection, resumable files, hashes and storage accounting.
+The ordinary YouTube watch probe returned a proxy CONNECT 403 before TLS, so
+the queue has zero YouTube item attempts or downloads.
+
+Independent publisher feeds supplied **19 Bashar-related podcast recordings
+(22.22 hours)** across 13 shows. All 19 received local automatic transcription;
+the ASR text is unverified and does not establish speaker or video-edition identity.
+Raw recordings and full machine transcripts live in
+`/workspace/channels-et-raw/`, outside public Git and Pages. Code, source
+provenance, metadata databases, summary exports and review receipts are here.
+
 ## Living study: source-aware analysis and local models
 
 The current continuation is organized entirely in this repository. Open the
@@ -36,8 +58,8 @@ annotation-accuracy results. No CUDA GPU was detected.
 
 The [collection pipeline](research/continuation/acquisition/README.md) supports
 resumable channel listings, offered captions and quota-controlled media downloads.
-Current ordinary YouTube and author-transcript requests failed; no new video or
-transcript corpus is claimed. An unrestricted desired environment policy alone
+Those continuation-round YouTube and author-transcript requests failed; the newer
+publisher-audio collection is documented above. An unrestricted desired environment policy alone
 does not establish access. Public scholarly PDFs and model artifacts were
 retrieved successfully. Raw third-party captions/media and base-model weights
 stay outside Git; source metadata, derived tables and the small pilot adapter are
@@ -56,7 +78,7 @@ The analysis merges the original atlas with the supplied Claude archive: **925 u
 
 The dashboard analysis was published before paper work began. The manuscript uses the official AAAI 2027 preprint template and marks human authorship, construct validation, institutional ethics determination and checklist completion as TBD. It has not been submitted.
 
-## Handoff: resume here
+## Historical release handoff
 
 **Status:** both requested phases are complete: analysis rounds 1–3, then manuscript rounds 4–6. The next phase is planned, not executed. The scientific snapshot was originally released as [`bbe4801`](https://github.com/occult-kranti/bashar-index/commit/bbe4801a09c28f07eeea6f0fe7e9f0d61e4d791f). Its complete project files are preserved here at import commit [`07724b1`](https://github.com/occult-kranti/channels-ET/commit/07724b1b92a116bc231fe701629912260e3f64bd) on `release/channeling-atlas-2026-10-23`. The repository split updates continuation guidance and future output links; reviewed data, figures, PDF and ZIPs retain their original bytes. See [migration provenance](research/maintenance/MIGRATION.md).
 

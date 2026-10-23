@@ -1,0 +1,47 @@
+{
+  "modelId": "Systran/faster-whisper-tiny.en",
+  "revision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+  "license": "mit",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1477,
+      "blobId": "c7d9f3332a950355d5a77d85000f05e6f45435ea",
+      "lfs": null
+    },
+    {
+      "path": "README.md",
+      "size": 1323,
+      "blobId": "274935f9e69738f32b157a5572d8940122d27417",
+      "lfs": null
+    },
+    {
+      "path": "config.json",
+      "size": 2317,
+      "blobId": "4065bb3bed375b176d5465be117d2d202e210434",
+      "lfs": null
+    },
+    {
+      "path": "model.bin",
+      "size": 75537502,
+      "blobId": "c390061331454be019b6b2e72f2995f09d6dec4f",
+      "lfs": {
+        "sha256": "1a5afae06a4db91c975c9a9d78be5cc110ee4ea022ad57d55492e4550e936b2a",
+        "size": 75537502,
+        "pointerSize": 133
+      }
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 2128466,
+      "blobId": "15d7bdf9ba25718ca2504eec6a8f02bc55af0a6a",
+      "lfs": null
+    },
+    {
+      "path": "vocabulary.txt",
+      "size": 422309,
+      "blobId": "ee695b8d3e3c10d488304e04468efec4ca27554a",
+      "lfs": null
+    }
+  ]
+}

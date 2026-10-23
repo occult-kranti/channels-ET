@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "scope": "Offline-only regression correction; no acquisition or raw/held-export mutation",
+  "recorded_at": "2026-10-23T22:58:38.815972+00:00",
+  "original_executed_collector": {
+    "path": "research/harvest/publisher_sources/code-versions/download-gateways-retry.py",
+    "sha256": "31efc69df53b1d274dcb6537073f44572b12cd85b72db6589c8c0c7d0824469d"
+  },
+  "hardened_collector": {
+    "path": "research/harvest/publisher_sources/download.py",
+    "sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864"
+  },
+  "guard_checks": 16,
+  "read_only_actual_artifact_checks": 60,
+  "actual_artifacts_checked": 19,
+  "source_bound_warning_records_preserved": 4,
+  "network_requests": 0,
+  "media_or_held_export_writes": 0,
+  "held_files": [
+    {
+      "path": "research/harvest/publisher_sources/publisher-summary.json",
+      "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3",
+      "unchanged": true
+    },
+    {
+      "path": "research/harvest/publisher_sources/publisher-attempts.jsonl",
+      "sha256": "fced53fb869e891f21f127f9b694d0cc53922166364c308df9cd1bf3ad15523c",
+      "unchanged": true
+    },
+    {
+      "path": "research/harvest/publisher_sources/expanded-plan.json",
+      "sha256": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712",
+      "unchanged": true
+    }
+  ],
+  "preserved": [
+    "original RSS mismatch flags and strict failure",
+    "source/hash/duration-bound applied review amendment",
+    "original acquisition started/finished/elapsed timing",
+    "historical actually executed collector hash"
+  ],
+  "new_replay_metadata_field": "reuse_verification"
+}

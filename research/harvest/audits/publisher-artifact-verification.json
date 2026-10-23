@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-23T22:27:18.247201+00:00",
+  "checks_passed": 32,
+  "checks": [
+    {
+      "check": "summary_plan_hash",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:complete",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:external_existing",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:sha256",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:actual_size",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:cap",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:enclosure_url",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:episode_guid",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:feed_sha256",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:source_kind",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:audio_stream",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:duration_binding",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:rss_duration_tolerance",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:not_youtube_equivalence",
+      "pass": true
+    },
+    {
+      "check": "impossible-dreams-21-20260310:not_human_reviewed",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:complete",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:external_existing",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:sha256",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:actual_size",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:cap",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:enclosure_url",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:episode_guid",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:feed_sha256",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:source_kind",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:audio_stream",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:duration_binding",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:rss_duration_tolerance",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:not_youtube_equivalence",
+      "pass": true
+    },
+    {
+      "check": "soul-talk-224-20220316:not_human_reviewed",
+      "pass": true
+    },
+    {
+      "check": "two_completed_artifacts",
+      "pass": true
+    },
+    {
+      "check": "total_bytes",
+      "pass": true
+    },
+    {
+      "check": "total_seconds",
+      "pass": true
+    }
+  ],
+  "summary_sha256": "2a39903559fca2e80d2a55b5977343a700390a5e18b434788febdd8120670655",
+  "plan_sha256": "c08b54c733dff37901dfa21baaab84cc9fb4eec04e1633fadc54a67814b6523d",
+  "artifacts": [
+    {
+      "source_id": "impossible-dreams-21-20260310",
+      "bytes": 157323633,
+      "sha256": "cede2923d24725dd8f170734a02e5b858645be3b81eded229921b88b85dd254e",
+      "duration_seconds": 3881.1392,
+      "audio_streams": 1,
+      "nonattached_video_streams": 0,
+      "attached_picture_streams": 0,
+      "artifact_kind": "independent_publisher_audio"
+    },
+    {
+      "source_id": "soul-talk-224-20220316",
+      "bytes": 62146296,
+      "sha256": "95bdecb70384bdf16fa877c62db181a4037e7d0e9fa63c91111bfc41871f2b6c",
+      "duration_seconds": 3877.328,
+      "audio_streams": 1,
+      "nonattached_video_streams": 0,
+      "attached_picture_streams": 1,
+      "artifact_kind": "independent_publisher_audio"
+    }
+  ],
+  "new_source_network_requests": 0,
+  "scope": "Independent local bytes/hash/ffprobe/source-ledger verification, not listening, speech recognition, speaker validation or YouTube-edition equivalence."
+}

@@ -1,0 +1,26 @@
+{
+  "source_id": "rss-988576741-1ecc5cb023cf",
+  "status": "applied",
+  "reviewed_at": "2026-10-23T22:38:38.815658+00:00",
+  "review_roles": [
+    "Independent manuscript/source reviewer",
+    "Coordinator"
+  ],
+  "human_review": false,
+  "decision": "Accept complete current publisher HTTP response with explicit RSS duration warning; no claim of original/video edition equivalence.",
+  "validation_outcome": "saved_complete_publisher_response_with_duration_warning",
+  "expected_bytes": 81631438,
+  "expected_sha256": "2faf0b5e0de8be739cbdf0e83bc5a04f26aa10e85d6853cb1568c3068fc75d3a",
+  "expected_duration_seconds": 5099.179878,
+  "rss_duration_seconds": 4999,
+  "duration_delta_seconds": 100.17987799999992,
+  "strict_attempt_preserved": true,
+  "additional_network_requests": 0,
+  "mutual_exclusion": "Promote only after current publisher run releases shared raw writer lock.",
+  "applied_at": "2026-10-23T22:40:05.861760+00:00",
+  "original_strict_record_sha256": "bfd4d9c5aab9c6c0d7f5756290b59a7d2f2d81b84425b17a21c09c7eaa52e800",
+  "final_audio_sha256": "2faf0b5e0de8be739cbdf0e83bc5a04f26aa10e85d6853cb1568c3068fc75d3a",
+  "final_audio_bytes": 81631438,
+  "final_audio_duration_seconds": 5099.179878,
+  "updated_summary_sha256": "8403357cba0ff122fb1d4c5152932f697947b670b4c4e883782fe36a28fbebf5"
+}

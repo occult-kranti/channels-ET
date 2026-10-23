@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "summary_root": "object",
+  "records_roots": {
+    "jobs.json": "{schema_version:1, records:[job]}",
+    "attempts.json": "{schema_version:1, records:[attempt]}",
+    "artifacts.json": "{schema_version:1, records:[artifact]}"
+  },
+  "authoritative_store": "state.sqlite",
+  "job_id": "kind + ':' + target_id",
+  "target_by_kind": {
+    "metadata": "YouTube 11-character video_id",
+    "captions": "YouTube 11-character video_id",
+    "video": "YouTube 11-character video_id",
+    "audio": "YouTube 11-character video_id; explicit size/format fallback only",
+    "channel": "first 24 hex characters of SHA256(literal source_url without trailing '/')",
+    "playlist": "first 24 hex characters of SHA256(literal source_url without trailing '/')"
+  },
+  "source_url": "Exact listing route for channel/playlist; canonical watch URL for video jobs. Never join by display name.",
+  "statuses": {
+    "queued": "Prepared or next enumeration page; not evidence a request occurred",
+    "running": "Worker lease held; operation may issue zero, one or many HTTP requests",
+    "succeeded": "For metadata/captions/media, matching complete artifact required. For channel/playlist, a returned page succeeded; inspect listing_end and tree-completeness flag separately",
+    "partial": "Some caption tracks saved, remaining slots unresolved; eligible for bounded resume",
+    "retryable": "Interrupted or transient operation; eligible when due and below attempt cap",
+    "disk_wait": "Storage cap or reservation unavailable; not necessarily a source failure",
+    "blocked": "Actual operation hit access denial or exhausted rate-limit allowance",
+    "unavailable": "Actual operation reported unavailable source/track/allowed format",
+    "failed": "Actual operation failed validation or another terminal operation error"
+  },
+  "attempt_status_extra": {
+    "interrupted": "Lease recovered only after owner and child no longer live"
+  },
+  "attempts_total": "Count of leased worker operations, not HTTP requests. The separate ordinary access probe is not a per-item worker attempt.",
+  "inventory_units": {
+    "videos": "Deduplicated upload IDs",
+    "channel_jobs": "Literal channel route jobs, not distinct people or necessarily distinct platform channels",
+    "playlist_jobs": "Explicit playlist route jobs, kept separate from channels"
+  },
+  "completeness": "complete_returned_public_listing_tree requires listing_end, recursively completed child routes and no unresolved bounded inline containers. Excludes private/deleted/omitted items and original-session verification.",
+  "artifact_types": {
+    "metadata": "Complete raw metadata JSON retained outside Git",
+    "caption": "One offered language/manual-or-auto track retained outside Git",
+    "video": "Validated real audio plus non-attached video stream",
+    "audio": "Validated audio fallback, never a video count",
+    "partial": "Retained non-certified files, complete=false",
+    "quarantine": "Unbound or integrity-changed prior media moved aside with provenance/hash audit, complete=false"
+  },
+  "artifact_identity": "job_id + raw_relative_path + exact bytes/SHA256. Actual speaker remains unknown unless independently verified.",
+  "raw_bytes": "Physical bytes of every non-symlink file in shared external raw tree at export time, including publisher audio, ASR, logs, partials and quarantine. Not a YouTube download count.",
+  "byte_units": "All *_bytes values are bytes; GiB=2^30 and MiB=2^20 in CLI limits",
+  "public_safety": "Metadata only. raw_relative_path is local-only and not a hosted download URL. Full signed format URLs, media, captions, process logs and transcripts remain outside Git.",
+  "external_access_state": "Global access_gate preserves dated probe receipt and its hash; blocked gate does not mark queued items attempted/failed. A successful ordinary probe is prerequisite evidence only, not all-route availability."
+}

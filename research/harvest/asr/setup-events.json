@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "stage": "first_two_source_invocations",
+      "state": "failed_before_transcription",
+      "fasterWhisper": "1.2.1",
+      "av": "19.0.2",
+      "error": "PyAV open() got unexpected metadata_errors keyword",
+      "segmentsProduced": 0,
+      "correction": "Pinned av16.1.0 through verified PyPI/TLS; pipcheckPASS; reranactualaudio successfully"
+    },
+    {
+      "stage": "successful_full_transcriptions",
+      "state": "completed",
+      "count": 2,
+      "av": "16.1.0",
+      "sourceEvidence": "Per-audio receipts, output files, hashes and retained executed-source snapshot",
+      "laterCodeHardening": "Added per-output process lock and malformed-cache recovery; completed experiments used distinct audio-hash directories, with executed script retained."
+    }
+  ],
+  "checkedAt": "2026-10-23T22:31:15.951322+00:00"
+}

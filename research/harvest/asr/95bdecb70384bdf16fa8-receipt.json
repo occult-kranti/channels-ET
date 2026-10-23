@@ -1,0 +1,89 @@
+{
+  "status": "completed",
+  "checkedAt": "2026-10-23T22:29:39.864252+00:00",
+  "sourceId": "soul-talk-224-20220316",
+  "sourceUrl": "https://traffic.libsyn.com/secure/kuteblacksonsoultalk/ST_233.mp3?dest-id=511128",
+  "sourceKind": "publisher_original_audio",
+  "sourceAudioPath": "/workspace/channels-et-raw/publisher-audio/soul-talk-224-20220316.mp3",
+  "sourceAudioSha256": "95bdecb70384bdf16fa877c62db181a4037e7d0e9fa63c91111bfc41871f2b6c",
+  "sourceAudioDurationSeconds": 3877.328,
+  "publisherAcquisitionRecord": {
+    "sourceId": "soul-talk-224-20220316",
+    "audioSha256": "95bdecb70384bdf16fa877c62db181a4037e7d0e9fa63c91111bfc41871f2b6c",
+    "enclosureUrl": "https://traffic.libsyn.com/secure/kuteblacksonsoultalk/ST_233.mp3?dest-id=511128"
+  },
+  "transcribedScope": "full_decoded_audio",
+  "clipSeconds": null,
+  "lastSegmentEndSeconds": 3862.04,
+  "segments": 1155,
+  "words": 11177,
+  "modelId": "Systran/faster-whisper-tiny.en",
+  "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+  "device": "cpu",
+  "computeType": "int8",
+  "cpuThreads": 2,
+  "versions": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.3",
+    "av": "16.1.0"
+  },
+  "executionSignature": "5565fb691b9c60d6001e73a6e411d65c170c49e3ea8b5d001cc11df8b84cef7f",
+  "executionProtocol": {
+    "sourceId": "soul-talk-224-20220316",
+    "sourceUrl": "https://traffic.libsyn.com/secure/kuteblacksonsoultalk/ST_233.mp3?dest-id=511128",
+    "audioSha256": "95bdecb70384bdf16fa877c62db181a4037e7d0e9fa63c91111bfc41871f2b6c",
+    "modelManifestSha256": "60452b6a810c402781341181e9bd655c5d56ba2b3161da5076b8a9a25b937076",
+    "versions": {
+      "faster-whisper": "1.2.1",
+      "ctranslate2": "4.8.3",
+      "av": "16.1.0"
+    },
+    "cpuThreads": 2,
+    "decoding": {
+      "language": "en",
+      "beam_size": 1,
+      "vad_filter": true,
+      "condition_on_previous_text": false
+    },
+    "scriptSha256": "b5cb40e85de956bb7558760c34895dcc02db838a61e4e73f95a82910bbbbad7d"
+  },
+  "cudaDevices": 0,
+  "secondsElapsed": 93.45160930899999,
+  "realTimeFactor": 0.02410206443947997,
+  "decoding": {
+    "language": "en",
+    "beam_size": 1,
+    "vad_filter": true,
+    "condition_on_previous_text": false
+  },
+  "reportedLanguage": "en",
+  "outputs": [
+    {
+      "name": "segments.jsonl",
+      "bytes": 213617,
+      "sha256": "f81d2a8d30ce0eacd8cbba6b82698259e20cba51c76b07a06093e1dd763c893d"
+    },
+    {
+      "name": "transcript.txt",
+      "bytes": 61399,
+      "sha256": "7827656cbd1ec203e96ab6178161df3a1ddf25b3b8b2ed7011cc2a5457f1000a"
+    },
+    {
+      "name": "transcript.srt",
+      "bytes": 101871,
+      "sha256": "9569db3a7512e01489e851ee07870c012ad6f9673e2a5c5451b0cdb575d32bb7"
+    }
+  ],
+  "decoderDurationSeconds": 3877.32,
+  "durationAfterVadSeconds": 3856.736,
+  "humanReviewed": false,
+  "speakerDiarizationPerformed": false,
+  "youtubeVideoEditionVerified": false,
+  "limitations": [
+    "Automatic English-only transcription; names, claims, punctuation and timestamps are unverified.",
+    "Full decoded audio is not proof that speech recognition captured every spoken word.",
+    "Primary audio publication and any indexed YouTube upload are distinct editions unless verified.",
+    "Raw audio and transcript text remain private cloud files, not part of the public Git/Pages release."
+  ],
+  "transcriptDirectory": "/workspace/channels-et-raw/transcripts/95bdecb70384bdf16fa8"
+}

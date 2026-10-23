@@ -1,0 +1,17 @@
+{
+  "kind": "asr_dispatcher_orchestration_source",
+  "filename": "queue-initial-36ba8282f0c2157059927415fe562f33f3570bae67a5ed0204efa20526a45b5f.py",
+  "sha256": "36ba8282f0c2157059927415fe562f33f3570bae67a5ed0204efa20526a45b5f",
+  "bytes": 22985,
+  "archived_at": "2026-10-23T22:42:44.823686+00:00",
+  "executed_as": "first bounded queue pass",
+  "run_id": "20261023T223854739674",
+  "observed_first_pass_status": "running",
+  "decoder_source_defined_here": false,
+  "decoder_provenance": "Each child receipt binds its separately retained transcribe.py SHA, model revision, installed versions and decoding signature.",
+  "first_pass_policy": "Failed acquisition records remain final within that in-memory process. Existing ASR receipts are strictly verified and reused.",
+  "resumed_pass_policy": "Updated run_queue.py reopens later completed acquisitions and awaits explicitly approved pending source promotions; all existing ASR receipts are reverified.",
+  "resumed_entrypoint_sha256": "6da232b6f30ba48bf32dda36a7b4a79bd0f4003b8595eb0e6b3df2c1b2cc77da",
+  "resumed_pass_executed_at_archive_time": false,
+  "inference_or_summary_writes_by_archive_operation": false
+}

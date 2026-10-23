@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-23T22:46:32.501307+00:00",
+  "status": "PASS_current_instance",
+  "scriptSha256": "6369eb60c3b799ce47aa824d7da98c2dc7a478e73a0828de510cc3eb80769092",
+  "executedCommand": "bash research/harvest/setup_environment.sh",
+  "exitCode": 0,
+  "privateLogPath": "/workspace/setup-validation/harvest-setup.log",
+  "environments": {
+    "analysis": {
+      "python": "Python 3.12.14",
+      "pipCheck": "No broken requirements found.",
+      "freezePath": "research/continuation/analysis/environment-freeze.txt"
+    },
+    "harvest": {
+      "python": "Python 3.12.14",
+      "pipCheck": "No broken requirements found.",
+      "freezePath": "research/harvest/environment-freeze.txt"
+    },
+    "asr": {
+      "python": "Python 3.12.14",
+      "pipCheck": "No broken requirements found.",
+      "freezePath": "research/harvest/asr/environment-freeze.txt"
+    }
+  },
+  "collectionOrInferenceRunBySetup": false,
+  "freshTaskRestorationTested": false
+}

@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "checks": 11293,
+  "passed": 11293,
+  "failed": [],
+  "summary_sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916",
+  "source_manifest_sha256": "ad49be9154a59bed3a72d8ece58724705278e672a5c7a216c5c3cabca3db1c7a",
+  "source_files_verified": 154,
+  "numerical_and_database_reproduction": [
+    {
+      "path": "channel-routes.json",
+      "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee",
+      "reproduced_sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee",
+      "identical": true
+    },
+    {
+      "path": "edges.jsonl",
+      "sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383",
+      "reproduced_sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383",
+      "identical": true
+    },
+    {
+      "path": "inventory.sqlite",
+      "sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2",
+      "reproduced_sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2",
+      "identical": true
+    },
+    {
+      "path": "playlists.jsonl",
+      "sha256": "bf38d1dac257df8c08156f6603ae9221226f1724567539ee81d71a4b306e2a5f",
+      "reproduced_sha256": "bf38d1dac257df8c08156f6603ae9221226f1724567539ee81d71a4b306e2a5f",
+      "identical": true
+    },
+    {
+      "path": "podcast-sources.jsonl",
+      "sha256": "d6c00061a4fc4e08dcb1e367bca89eeb9c13f1d27e49cc1d22ae95dd2a8efe3e",
+      "reproduced_sha256": "d6c00061a4fc4e08dcb1e367bca89eeb9c13f1d27e49cc1d22ae95dd2a8efe3e",
+      "identical": true
+    },
+    {
+      "path": "practitioner-candidates.json",
+      "sha256": "119c5390c7a803b7cfd7c8a8982385cc5952b596f8810dbec5bbabb0b6829895",
+      "reproduced_sha256": "119c5390c7a803b7cfd7c8a8982385cc5952b596f8810dbec5bbabb0b6829895",
+      "identical": true
+    },
+    {
+      "path": "practitioner-profiles.json",
+      "sha256": "aaba31fbfb7f5a7ed662d694545b305937c7f7613327108bc19bd14542931b18",
+      "reproduced_sha256": "aaba31fbfb7f5a7ed662d694545b305937c7f7613327108bc19bd14542931b18",
+      "identical": true
+    },
+    {
+      "path": "publisher-accounts.json",
+      "sha256": "903ae48bc91ff0853421c408ea082d097a87f30723671c03f7e1e3254b7a454b",
+      "reproduced_sha256": "903ae48bc91ff0853421c408ea082d097a87f30723671c03f7e1e3254b7a454b",
+      "identical": true
+    },
+    {
+      "path": "queries.jsonl",
+      "sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71",
+      "reproduced_sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71",
+      "identical": true
+    },
+    {
+      "path": "rejected-video-mentions.jsonl",
+      "sha256": "7316592ff716368a5ee6881e00192814b416dc86d3f871274dd6748aa3b1b0f7",
+      "reproduced_sha256": "7316592ff716368a5ee6881e00192814b416dc86d3f871274dd6748aa3b1b0f7",
+      "identical": true
+    },
+    {
+      "path": "summary.json",
+      "sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916",
+      "reproduced_sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916",
+      "identical": true
+    },
+    {
+      "path": "videos.jsonl",
+      "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d",
+      "reproduced_sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d",
+      "identical": true
+    }
+  ],
+  "scope": "Offline source inventory, grain, joins, explicit attribution, durations, storage arithmetic and reproducibility only; no network or semantic/speaker validation."
+}

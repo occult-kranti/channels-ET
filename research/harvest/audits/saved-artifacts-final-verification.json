@@ -1,0 +1,322 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-23T22:54:58.075570+00:00",
+  "checks_passed": 21567,
+  "publisher_summary_sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3",
+  "asr_summary_sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba",
+  "publisher_terminal": true,
+  "publisher_planned_jobs": 19,
+  "verified_saved_publisher_files": 19,
+  "verified_saved_publisher_bytes": 1664529703,
+  "saved_publisher_records": [
+    {
+      "source_id": "rss-988576741-1ecc5cb023cf",
+      "status": "completed",
+      "bytes": 81631438,
+      "sha256": "2faf0b5e0de8be739cbdf0e83bc5a04f26aa10e85d6853cb1568c3068fc75d3a",
+      "duration_seconds": 5099.179878,
+      "rss_metadata_warning": true,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "soul-talk-224-20220316",
+      "status": "completed",
+      "bytes": 62146296,
+      "sha256": "95bdecb70384bdf16fa877c62db181a4037e7d0e9fa63c91111bfc41871f2b6c",
+      "duration_seconds": 3877.328,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1611118279-afab067a712d",
+      "status": "completed",
+      "bytes": 82382261,
+      "sha256": "0c4726b7b991841f24e78194afa0dcca18ff43a5f2407694d2268e5785784eea",
+      "duration_seconds": 5148.865306,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "impossible-dreams-21-20260310",
+      "status": "completed",
+      "bytes": 157323633,
+      "sha256": "cede2923d24725dd8f170734a02e5b858645be3b81eded229921b88b85dd254e",
+      "duration_seconds": 3881.1392,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1620917042-0d435eadc49d",
+      "status": "completed",
+      "bytes": 23557581,
+      "sha256": "61cba21c5f343f9692ccaeda6cc5dd4712b642755ceed6a77e4731aa16d4c886",
+      "duration_seconds": 1955.197589,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-988576741-f283904d1eb7",
+      "status": "completed",
+      "bytes": 165884562,
+      "sha256": "3e4d7c6d1c98f9f32e123591ba93a80e4ac80ec882fadb14a3268e6d03f4b3d8",
+      "duration_seconds": 4146.024425,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1465014169-8dd4267008f8",
+      "status": "completed",
+      "bytes": 75780998,
+      "sha256": "9cb96cce288bf552fca528f423fe100ee7c5dda4f85719a275d7cf40a4d03e31",
+      "duration_seconds": 4713.482449,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1465014169-7a91901169c6",
+      "status": "completed",
+      "bytes": 65356999,
+      "sha256": "e5d364fe1559f7153da4958f5035e64134090f0a5309d190f4f02c180eaacf1e",
+      "duration_seconds": 4034.298776,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1763048673-1cf4301536f2",
+      "status": "completed",
+      "bytes": 73492058,
+      "sha256": "bdb957be64aaf123e461fc4dd4a81fd9e3815b62a3c0522d1e21cacff934acc8",
+      "duration_seconds": 6111.634083,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1560904383-7f4e01fae0ff",
+      "status": "completed",
+      "bytes": 128479603,
+      "sha256": "3e5ee24b12aacc9a0d0d0903b9394556db775683fb404b26ab66b7685a5615d1",
+      "duration_seconds": 5352.965333,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1763048673-32a6fb8cd623",
+      "status": "completed",
+      "bytes": 242616813,
+      "sha256": "8010e1ec2242d9a758e9e782592bccf3c9172026a5f31b95eec423f9c5c3d326",
+      "duration_seconds": 6063.412156,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1705626495-ae84c9540581",
+      "status": "completed",
+      "bytes": 58518699,
+      "sha256": "414890acbef167a9abc27563cedfdebd30af2181657edbf64fd639364eb9ab44",
+      "duration_seconds": 3657.325714,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1705626495-6f489902be87",
+      "status": "completed",
+      "bytes": 93687272,
+      "sha256": "03f822593bfc4923ce66599557a8b1fb2e9a803a93e33c16de94ac5f5bdf5ba5",
+      "duration_seconds": 3903.63425,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1546456269-353036e21117",
+      "status": "completed",
+      "bytes": 59230133,
+      "sha256": "f3b7cc1ba691e1ee5532847daadfe038825c37712e23a57d2d2ea606473ca897",
+      "duration_seconds": 3696.979438,
+      "rss_metadata_warning": true,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1546456269-b82d79f0d2c0",
+      "status": "completed",
+      "bytes": 40274039,
+      "sha256": "b8de61ae962b10ac1e904ba3ec8c1262a01361de3a28c1ef21828c42e528fb5f",
+      "duration_seconds": 2511.9085,
+      "rss_metadata_warning": true,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1556820026-35f9fd91f5ab",
+      "status": "completed",
+      "bytes": 34382575,
+      "sha256": "23bb107055b158ebe4dc434ef60d76fdd0bffb38c403099c11477db0ed1fd51b",
+      "duration_seconds": 2148.884898,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-425328515-addbc47ecbd7",
+      "status": "completed",
+      "bytes": 106006995,
+      "sha256": "f0a4b75d81fc2cead2a9d90e0c81167b57dbca0f6a3e6cd465051f1accc5b2bd",
+      "duration_seconds": 6595.291378,
+      "rss_metadata_warning": true,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1556820026-decefb87233c",
+      "status": "completed",
+      "bytes": 48115878,
+      "sha256": "7a9dae8f6f6daba48d44420ffb57662659806fd885fd004a9494ded4bf0bda93",
+      "duration_seconds": 3007.216327,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    },
+    {
+      "source_id": "rss-1529629262-6e621316510d",
+      "status": "completed",
+      "bytes": 65661870,
+      "sha256": "c37ddc75240366c4df1af63c8614dc14ad179f56bfdf77248b0871a9974cb62a",
+      "duration_seconds": 4103.862813,
+      "rss_metadata_warning": false,
+      "nonattached_video_streams": 0
+    }
+  ],
+  "verified_asr_records": [
+    {
+      "source_id": "rss-1705626495-6f489902be87",
+      "segments": 1131,
+      "words": 12667,
+      "scope": "full_decoded_audio",
+      "source_sha256": "03f822593bfc4923ce66599557a8b1fb2e9a803a93e33c16de94ac5f5bdf5ba5"
+    },
+    {
+      "source_id": "rss-1611118279-afab067a712d",
+      "segments": 1057,
+      "words": 13147,
+      "scope": "full_decoded_audio",
+      "source_sha256": "0c4726b7b991841f24e78194afa0dcca18ff43a5f2407694d2268e5785784eea"
+    },
+    {
+      "source_id": "rss-1556820026-35f9fd91f5ab",
+      "segments": 538,
+      "words": 5886,
+      "scope": "full_decoded_audio",
+      "source_sha256": "23bb107055b158ebe4dc434ef60d76fdd0bffb38c403099c11477db0ed1fd51b"
+    },
+    {
+      "source_id": "rss-988576741-1ecc5cb023cf",
+      "segments": 1274,
+      "words": 13645,
+      "scope": "full_decoded_audio",
+      "source_sha256": "2faf0b5e0de8be739cbdf0e83bc5a04f26aa10e85d6853cb1568c3068fc75d3a"
+    },
+    {
+      "source_id": "rss-988576741-f283904d1eb7",
+      "segments": 944,
+      "words": 11118,
+      "scope": "full_decoded_audio",
+      "source_sha256": "3e4d7c6d1c98f9f32e123591ba93a80e4ac80ec882fadb14a3268e6d03f4b3d8"
+    },
+    {
+      "source_id": "rss-1560904383-7f4e01fae0ff",
+      "segments": 1236,
+      "words": 14326,
+      "scope": "full_decoded_audio",
+      "source_sha256": "3e5ee24b12aacc9a0d0d0903b9394556db775683fb404b26ab66b7685a5615d1"
+    },
+    {
+      "source_id": "rss-1705626495-ae84c9540581",
+      "segments": 848,
+      "words": 10653,
+      "scope": "full_decoded_audio",
+      "source_sha256": "414890acbef167a9abc27563cedfdebd30af2181657edbf64fd639364eb9ab44"
+    },
+    {
+      "source_id": "rss-1620917042-0d435eadc49d",
+      "segments": 451,
+      "words": 5181,
+      "scope": "full_decoded_audio",
+      "source_sha256": "61cba21c5f343f9692ccaeda6cc5dd4712b642755ceed6a77e4731aa16d4c886"
+    },
+    {
+      "source_id": "rss-1556820026-decefb87233c",
+      "segments": 776,
+      "words": 7914,
+      "scope": "full_decoded_audio",
+      "source_sha256": "7a9dae8f6f6daba48d44420ffb57662659806fd885fd004a9494ded4bf0bda93"
+    },
+    {
+      "source_id": "rss-1763048673-32a6fb8cd623",
+      "segments": 1585,
+      "words": 16543,
+      "scope": "full_decoded_audio",
+      "source_sha256": "8010e1ec2242d9a758e9e782592bccf3c9172026a5f31b95eec423f9c5c3d326"
+    },
+    {
+      "source_id": "soul-talk-224-20220316",
+      "segments": 1155,
+      "words": 11177,
+      "scope": "full_decoded_audio",
+      "source_sha256": "95bdecb70384bdf16fa877c62db181a4037e7d0e9fa63c91111bfc41871f2b6c"
+    },
+    {
+      "source_id": "rss-1465014169-8dd4267008f8",
+      "segments": 1109,
+      "words": 12922,
+      "scope": "full_decoded_audio",
+      "source_sha256": "9cb96cce288bf552fca528f423fe100ee7c5dda4f85719a275d7cf40a4d03e31"
+    },
+    {
+      "source_id": "rss-1546456269-b82d79f0d2c0",
+      "segments": 701,
+      "words": 7443,
+      "scope": "full_decoded_audio",
+      "source_sha256": "b8de61ae962b10ac1e904ba3ec8c1262a01361de3a28c1ef21828c42e528fb5f"
+    },
+    {
+      "source_id": "rss-1763048673-1cf4301536f2",
+      "segments": 1712,
+      "words": 16635,
+      "scope": "full_decoded_audio",
+      "source_sha256": "bdb957be64aaf123e461fc4dd4a81fd9e3815b62a3c0522d1e21cacff934acc8"
+    },
+    {
+      "source_id": "rss-1529629262-6e621316510d",
+      "segments": 935,
+      "words": 10903,
+      "scope": "full_decoded_audio",
+      "source_sha256": "c37ddc75240366c4df1af63c8614dc14ad179f56bfdf77248b0871a9974cb62a"
+    },
+    {
+      "source_id": "impossible-dreams-21-20260310",
+      "segments": 976,
+      "words": 10718,
+      "scope": "full_decoded_audio",
+      "source_sha256": "cede2923d24725dd8f170734a02e5b858645be3b81eded229921b88b85dd254e"
+    },
+    {
+      "source_id": "rss-1465014169-7a91901169c6",
+      "segments": 1073,
+      "words": 11298,
+      "scope": "full_decoded_audio",
+      "source_sha256": "e5d364fe1559f7153da4958f5035e64134090f0a5309d190f4f02c180eaacf1e"
+    },
+    {
+      "source_id": "rss-425328515-addbc47ecbd7",
+      "segments": 2444,
+      "words": 19916,
+      "scope": "full_decoded_audio",
+      "source_sha256": "f0a4b75d81fc2cead2a9d90e0c81167b57dbca0f6a3e6cd465051f1accc5b2bd"
+    },
+    {
+      "source_id": "rss-1546456269-353036e21117",
+      "segments": 993,
+      "words": 10607,
+      "scope": "full_decoded_audio",
+      "source_sha256": "f3b7cc1ba691e1ee5532847daadfe038825c37712e23a57d2d2ea606473ca897"
+    }
+  ],
+  "source_network_requests": 0,
+  "verifier_sha256": "eb6af6068855d867d2141a586265c54a510182c6757f88a584d4b06ba29ecb8b",
+  "scope": "Actual local files and saved-output mechanics only; no inference rerun, raw speech publication, human accuracy, speaker or video-edition validation."
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS_WITH_EXPLICIT_ACCESS_AND_EVIDENCE_LIMITS",
+  "checked_at": "2026-10-23T23:01:53.515992+00:00",
+  "reviewer": "Independent model-agent acquisition/release skeptic; not human peer review",
+  "manifest_sha256": "98eb71c4b78839537e67c255cab01dda8e55349149ee51514b91bea1ddf4acaf",
+  "manifest_files_verified": 428,
+  "manifest_bytes_verified": 83989470,
+  "all_manifest_worktree_bytes_match_hashes": true,
+  "all_manifest_staged_blobs_identical_to_worktree": true,
+  "all_staged_feature_files_bound_or_explicitly_excluded": true,
+  "circular_binding_exclusions_verified": [
+    "research/harvest/FINAL-RELEASE.json",
+    "research/harvest/reviews/final-release-review.json"
+  ],
+  "accepted_scope": {
+    "youtube_indexed_ids": 942,
+    "literal_channel_routes": 362,
+    "explicit_playlists": 169,
+    "prepared_jobs": 3357,
+    "youtube_item_attempts": 0,
+    "youtube_video_or_caption_downloads": 0,
+    "youtube_access": "Ordinary watch preflight failed at proxy CONNECT403; no live full-channel or per-item availability claim",
+    "publisher_audio_files": 19,
+    "publisher_audio_bytes": 1664529703,
+    "publisher_audio_seconds": 80008.630513,
+    "source_specific_rss_metadata_warnings": 4,
+    "full_asr_decoding_passes": 19,
+    "asr_segments": 20938,
+    "asr_whitespace_words": 222699,
+    "human_asr_accuracy_speaker_and_video_equivalence_validation": false,
+    "raw_speech_files_published": false
+  },
+  "passing_evidence": {
+    "independent_worker_controls": 18,
+    "combined_local_artifact_checks": 21567,
+    "publisher_file_checks": 236,
+    "browser_receipt": "187 actual snapshot checks and9 clearly labeled synthetic fixtures; reviewed as existing passing evidence, not rerun",
+    "pages_preflight": "25 prefix routes/287 staged files; prepublication staging, not proof of final deployment"
+  },
+  "publication_status": "Final feature source is ready for commit/push. The new release still requires its own successful Action and live commit/download-hash receipt; earlier Action certifies60023ae only.",
+  "preservation": "Frozen paper/model evidence and original Bashar checkout remain separately preserved; new audio/ASR is an acquisition supplement.",
+  "review_source_requests_or_inference_runs": 0,
+  "scope": "Bounded final source/staged-byte and evidence-scope review; no new media, inference or browser experiment."
+}

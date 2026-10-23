@@ -1,0 +1,21 @@
+{
+  "proxyAddresses": {
+    "HTTP_PROXY": {
+      "scheme": "http",
+      "host": "proxy",
+      "port": 8080,
+      "hasUserInfo": false
+    },
+    "HTTPS_PROXY": {
+      "scheme": "http",
+      "host": "proxy",
+      "port": 8080,
+      "hasUserInfo": false
+    }
+  },
+  "secretPresenceOnly": {
+    "GH_TOKEN": true,
+    "GITHUB_TOKEN": false,
+    "YOUTUBE_API_KEY": false
+  }
+}

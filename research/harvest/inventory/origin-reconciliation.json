@@ -1,0 +1,936 @@
+{
+  "status": "PASS",
+  "scope": "Read-only comparison of current origin paths to copied metadata pins; standalone builds do not require origins.",
+  "origin_heads": {
+    "bashar-index": "151efb25824dd54768edef7b71ca2a22f1c6d1ac",
+    "channels-ET": "60023ae1d8a910fcc49b9d60a31d7bfeb14c5089"
+  },
+  "source_files": 154,
+  "matching_source_files": 154,
+  "files": [
+    {
+      "source_id": "bashar-index:data/README.md",
+      "current_origin_sha256": "b851adea67cfc5824e98181753f0102edf42457fe33e5b34180927fcfa6de2b7",
+      "pinned_sha256": "b851adea67cfc5824e98181753f0102edf42457fe33e5b34180927fcfa6de2b7",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/analysis.json",
+      "current_origin_sha256": "4c9816c190fd26cd5a75428304113abe7276dc4ceccc208eac4415146ad409d8",
+      "pinned_sha256": "4c9816c190fd26cd5a75428304113abe7276dc4ceccc208eac4415146ad409d8",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/anka_works.json",
+      "current_origin_sha256": "688c27ab9f1d107732759a5f8fef64c21d09019ba2c2f0bd84ce5b44888ef5d1",
+      "pinned_sha256": "688c27ab9f1d107732759a5f8fef64c21d09019ba2c2f0bd84ce5b44888ef5d1",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/catalog_sessions.json",
+      "current_origin_sha256": "618bb5667a883803fb108a9e3cd37c5d444ceaf73ec450a9cf23fa620b626c8d",
+      "pinned_sha256": "618bb5667a883803fb108a9e3cd37c5d444ceaf73ec450a9cf23fa620b626c8d",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams.json",
+      "current_origin_sha256": "fe13304b6f57deb95eb6893edc262630b994cbc9d741c1a30bbaaef712c579a9",
+      "pinned_sha256": "fe13304b6f57deb95eb6893edc262630b994cbc9d741c1a30bbaaef712c579a9",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/1-3-5-7-11-download.svg",
+      "current_origin_sha256": "8477b5d64331728f4abd63baa930e97028902bde7e6fd7081cff2531ebd088d5",
+      "pinned_sha256": "8477b5d64331728f4abd63baa930e97028902bde7e6fd7081cff2531ebd088d5",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/33rd-parallel.svg",
+      "current_origin_sha256": "18fe051159ceecf874f46bb412de1d8ceec0d1d420f0bd88104b28098db375cb",
+      "pinned_sha256": "18fe051159ceecf874f46bb412de1d8ceec0d1d420f0bd88104b28098db375cb",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/as-above-so-below.svg",
+      "current_origin_sha256": "a97441c7e33fafa04a7b429a568efe542c227f871068056dfc9b93f50de70df9",
+      "pinned_sha256": "a97441c7e33fafa04a7b429a568efe542c227f871068056dfc9b93f50de70df9",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/basic-principles-13.svg",
+      "current_origin_sha256": "a5f299bfd82aeec02010807fcc8f4565b63fe126d26076aa2cff13874c7bb970",
+      "pinned_sha256": "a5f299bfd82aeec02010807fcc8f4565b63fe126d26076aa2cff13874c7bb970",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/belief-emotion-thought-action.svg",
+      "current_origin_sha256": "10aed8730c36ad42ca0ca016273f144ea123db5ff3833ee49ff68ee20ba0a50e",
+      "pinned_sha256": "10aed8730c36ad42ca0ca016273f144ea123db5ff3833ee49ff68ee20ba0a50e",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/black-box.svg",
+      "current_origin_sha256": "34b24fdef39ef0ccb11fef1794697bbd2eb636613b7ff047a4b9171f5e62e58c",
+      "pinned_sha256": "34b24fdef39ef0ccb11fef1794697bbd2eb636613b7ff047a4b9171f5e62e58c",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/brick-walls-and-beliefs.svg",
+      "current_origin_sha256": "3a097355fc8cc611f731296f9f3b14b7098861e7451f35dbaf0bcfb46818dc88",
+      "pinned_sha256": "3a097355fc8cc611f731296f9f3b14b7098861e7451f35dbaf0bcfb46818dc88",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/changing-core-beliefs.svg",
+      "current_origin_sha256": "a0d9475ec2a0c86ce794d87ff826aa56c428868db3d89d47faaa02ffd76b70f2",
+      "pinned_sha256": "a0d9475ec2a0c86ce794d87ff826aa56c428868db3d89d47faaa02ffd76b70f2",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/circle-of-self-empowerment.svg",
+      "current_origin_sha256": "fa03048f1d54c99b33b789fb0b56a7b93be4386c5a64f62064550666720ddc60",
+      "pinned_sha256": "fa03048f1d54c99b33b789fb0b56a7b93be4386c5a64f62064550666720ddc60",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/construction-of-physical-reality.svg",
+      "current_origin_sha256": "169622447604acf4ef71c2ed6b8ede7a70a5635d8f2fd030f9f6517f32985e0c",
+      "pinned_sha256": "169622447604acf4ef71c2ed6b8ede7a70a5635d8f2fd030f9f6517f32985e0c",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/contact-crystal-and-crystal-techniques.svg",
+      "current_origin_sha256": "305316ad18bffb4ff7b6aa97e5ac7ef6f40be9356dcfae3e3b9d140b8137afd9",
+      "pinned_sha256": "305316ad18bffb4ff7b6aa97e5ac7ef6f40be9356dcfae3e3b9d140b8137afd9",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/cybo-lucky-13.svg",
+      "current_origin_sha256": "a9e05bd280c09f1ed9b8840964476bf71c5da15204005a09c41a2123c3ecfb18",
+      "pinned_sha256": "a9e05bd280c09f1ed9b8840964476bf71c5da15204005a09c41a2123c3ecfb18",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/density-dimension-ladder.svg",
+      "current_origin_sha256": "c1c8daf4e8c7fa3a0f35b50d371df472b45025692beaf995a986d75394a3b258",
+      "pinned_sha256": "c1c8daf4e8c7fa3a0f35b50d371df472b45025692beaf995a986d75394a3b258",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/eclipse.svg",
+      "current_origin_sha256": "981cd504842331d2746f80b6d0d43ad079c3553be2336eb7ed0b46e9c1773556",
+      "pinned_sha256": "981cd504842331d2746f80b6d0d43ad079c3553be2336eb7ed0b46e9c1773556",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/essassani-ai-spheres-triad.svg",
+      "current_origin_sha256": "f95c4289122a8cedd48554b35d4b11e42f11939da58468baf411be6ad7e5567a",
+      "pinned_sha256": "f95c4289122a8cedd48554b35d4b11e42f11939da58468baf411be6ad7e5567a",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/excitement-formula-kit.svg",
+      "current_origin_sha256": "c7d3114ee9c2ac305c764e40b39e9cb761bc31a9571440bf2c3771944dbf1449",
+      "pinned_sha256": "c7d3114ee9c2ac305c764e40b39e9cb761bc31a9571440bf2c3771944dbf1449",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/eye-of-the-needle.svg",
+      "current_origin_sha256": "66198875f0ca8b7c6162338e5771b6e582e24e1d01b234697875495fb54952c0",
+      "pinned_sha256": "66198875f0ca8b7c6162338e5771b6e582e24e1d01b234697875495fb54952c0",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/five-laws-of-creation.svg",
+      "current_origin_sha256": "dc8958fba801d4061e8808abe5fa2df01a19d94824e8ba9c86059d9a3d0f9e6c",
+      "pinned_sha256": "dc8958fba801d4061e8808abe5fa2df01a19d94824e8ba9c86059d9a3d0f9e6c",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/frames-of-film-parallel-shifting.svg",
+      "current_origin_sha256": "5584dae2fae823398e9fcfe5e823d3e9f559fc53307e436f20da22b6ea655253",
+      "pinned_sha256": "5584dae2fae823398e9fcfe5e823d3e9f559fc53307e436f20da22b6ea655253",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/guide-to-open-contact-window-door-gate.svg",
+      "current_origin_sha256": "012af7dcc807f335776eaf7031c80e1458c9cdfbaa66f791e83103995920e791",
+      "pinned_sha256": "012af7dcc807f335776eaf7031c80e1458c9cdfbaa66f791e83103995920e791",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/holotope.svg",
+      "current_origin_sha256": "08492f147b10b0d043948516bb0b340539fa9e6984a2c705d6b066ffb2a982bd",
+      "pinned_sha256": "08492f147b10b0d043948516bb0b340539fa9e6984a2c705d6b066ffb2a982bd",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/hour-of-power.svg",
+      "current_origin_sha256": "b1adcbca012e2acfdcff5751713ca300b97c8a4c1b6b336e04b38304329d0994",
+      "pinned_sha256": "b1adcbca012e2acfdcff5751713ca300b97c8a4c1b6b336e04b38304329d0994",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/hybrid-races-ladder.svg",
+      "current_origin_sha256": "f8c213b62038fd56abaa49cc608183f261292827402a153dcbfb2b949e6e4ea4",
+      "pinned_sha256": "f8c213b62038fd56abaa49cc608183f261292827402a153dcbfb2b949e6e4ea4",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/increasing-the-probability-of-contact.svg",
+      "current_origin_sha256": "2516b3ba3fe90803a6e24a9aaf7503fce4698a4929a5ec3076c1879da28ec67f",
+      "pinned_sha256": "2516b3ba3fe90803a6e24a9aaf7503fce4698a4929a5ec3076c1879da28ec67f",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/interdimensional-portals.svg",
+      "current_origin_sha256": "2b297eafdb61f249639abdcd47812f2ece943321d5e5c942cb155fb1ccf81c60",
+      "pinned_sha256": "2b297eafdb61f249639abdcd47812f2ece943321d5e5c942cb155fb1ccf81c60",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/interstellar-alliance-social-experiment.svg",
+      "current_origin_sha256": "68035b0752e91ba83d948a0de2078b6a063fa10eed12faf2703b61b350ed2f75",
+      "pinned_sha256": "68035b0752e91ba83d948a0de2078b6a063fa10eed12faf2703b61b350ed2f75",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/interstellar-enneagram.svg",
+      "current_origin_sha256": "43932835c4d0cdcea0701ab660bdb30a8262d7cbc4ec7a0653165c3d2b78a382",
+      "pinned_sha256": "43932835c4d0cdcea0701ab660bdb30a8262d7cbc4ec7a0653165c3d2b78a382",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/keys-of-ascension.svg",
+      "current_origin_sha256": "001430fdedb2dc69663641f434577f6a0c25663f26ab3cac593f4ade661e41e1",
+      "pinned_sha256": "001430fdedb2dc69663641f434577f6a0c25663f26ab3cac593f4ade661e41e1",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/mechanics-of-channeling.svg",
+      "current_origin_sha256": "952fbad44f0aa8cd00cd5cce7428cc84a9835e0b77a118860c6b3136fde10817",
+      "pinned_sha256": "952fbad44f0aa8cd00cd5cce7428cc84a9835e0b77a118860c6b3136fde10817",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/near-life-experience-master-permission-slip.svg",
+      "current_origin_sha256": "c95730829a65dd7205d2c696e0563381c0a72e825b5e13b6de49cb6a49c80aa6",
+      "pinned_sha256": "c95730829a65dd7205d2c696e0563381c0a72e825b5e13b6de49cb6a49c80aa6",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/nine-levels-of-consciousness.svg",
+      "current_origin_sha256": "df6cae7d84cb5dbacd582962e2c24fabf13cfd40d0ce3af452708025616310f4",
+      "pinned_sha256": "df6cae7d84cb5dbacd582962e2c24fabf13cfd40d0ce3af452708025616310f4",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/parallel-realities-diagram-1997.svg",
+      "current_origin_sha256": "ecf3d4d00c09f7fa79475bf891a64e011fec133474323f1bb87fed22ef3fc340",
+      "pinned_sha256": "ecf3d4d00c09f7fa79475bf891a64e011fec133474323f1bb87fed22ef3fc340",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/parallel-reality-wheel.svg",
+      "current_origin_sha256": "c2e644611c7365f54d74befddee9e90dca81955502daa9d07739e55734fd1f9c",
+      "pinned_sha256": "c2e644611c7365f54d74befddee9e90dca81955502daa9d07739e55734fd1f9c",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/permission-slips-concept.svg",
+      "current_origin_sha256": "64fca73ce9d8a870579283cdebf6de41978fd33c9dce269ecef12b020de4133a",
+      "pinned_sha256": "64fca73ce9d8a870579283cdebf6de41978fd33c9dce269ecef12b020de4133a",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/physical-mind-higher-mind.svg",
+      "current_origin_sha256": "a3ebbc459282be755da41527c3ba905a63ac285a39a7c3d69ece08e76a09f446",
+      "pinned_sha256": "a3ebbc459282be755da41527c3ba905a63ac285a39a7c3d69ece08e76a09f446",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/preparing-for-contact-101.svg",
+      "current_origin_sha256": "2e81b6c70ddca73687500fef047aa8c3f1605c8d62c72882d0ced31e80bb6aac",
+      "pinned_sha256": "2e81b6c70ddca73687500fef047aa8c3f1605c8d62c72882d0ced31e80bb6aac",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/prime-radiant.svg",
+      "current_origin_sha256": "ef5ce00403608443608415a20d43552e2847062fed8a409e6acdf60b19034559",
+      "pinned_sha256": "ef5ce00403608443608415a20d43552e2847062fed8a409e6acdf60b19034559",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/protocols-of-first-contact.svg",
+      "current_origin_sha256": "a4733ef3b4eb14a5ebbe9cdab155253cd8337649f4c619b7c687b0cb45aef9c7",
+      "pinned_sha256": "a4733ef3b4eb14a5ebbe9cdab155253cd8337649f4c619b7c687b0cb45aef9c7",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/reincarnation-deeper-explanation.svg",
+      "current_origin_sha256": "99ad72acd8d5c03e0334e59b2efa7df8c045330272eabfa48f985c58d36a9ed6",
+      "pinned_sha256": "99ad72acd8d5c03e0334e59b2efa7df8c045330272eabfa48f985c58d36a9ed6",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/resonance-and-reflection.svg",
+      "current_origin_sha256": "5b227a593e98df703a1d4ec7ece74cae70ede8386fc617b1c8350e77ec7206df",
+      "pinned_sha256": "5b227a593e98df703a1d4ec7ece74cae70ede8386fc617b1c8350e77ec7206df",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/sacred-circuitry.svg",
+      "current_origin_sha256": "fba73e2bc1440b249cce2fcaac75ced400f1f2ded9d88fa1c881dd36f731eba7",
+      "pinned_sha256": "fba73e2bc1440b249cce2fcaac75ced400f1f2ded9d88fa1c881dd36f731eba7",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/seven-steps-of-manifestation.svg",
+      "current_origin_sha256": "c5408deec18fb2697680d35ad7c392b610a8b18c6a98594bbcf34d066a0640cf",
+      "pinned_sha256": "c5408deec18fb2697680d35ad7c392b610a8b18c6a98594bbcf34d066a0640cf",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/soul-blueprint-workshop.svg",
+      "current_origin_sha256": "6f5588a19a4e97920a725510e55173d55743584cf2aecb9e999393f254cb11ef",
+      "pinned_sha256": "6f5588a19a4e97920a725510e55173d55743584cf2aecb9e999393f254cb11ef",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/spectrum-of-fear.svg",
+      "current_origin_sha256": "fb744f84ded6be6529a3aab2af39d773f2001450d131501b21fd0ecd2fa6dbce",
+      "pinned_sha256": "fb744f84ded6be6529a3aab2af39d773f2001450d131501b21fd0ecd2fa6dbce",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/spiral-exercise.svg",
+      "current_origin_sha256": "a175aab5ce0b19242a79933f70b4d8fd697c0496bcfa63094bc8aa42e9140c03",
+      "pinned_sha256": "a175aab5ce0b19242a79933f70b4d8fd697c0496bcfa63094bc8aa42e9140c03",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/story-tree.svg",
+      "current_origin_sha256": "1e0231a8d892cbaa09f1cd902c96c4f1f9610da529b9ac3dca22e0d5c5c46ee5",
+      "pinned_sha256": "1e0231a8d892cbaa09f1cd902c96c4f1f9610da529b9ac3dca22e0d5c5c46ee5",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/tell-them-bashar-sent-you.svg",
+      "current_origin_sha256": "fa5129bf54740968bb432fa3315ebbf8f4a09a167cb5fa057e2350ac0be432b8",
+      "pinned_sha256": "fa5129bf54740968bb432fa3315ebbf8f4a09a167cb5fa057e2350ac0be432b8",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/the-formula.svg",
+      "current_origin_sha256": "a41e4d197083716a8f7b334790823db21b7f5e08455349c167b4c2b8c702103d",
+      "pinned_sha256": "a41e4d197083716a8f7b334790823db21b7f5e08455349c167b4c2b8c702103d",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/tis-the-season.svg",
+      "current_origin_sha256": "15ab7d4cf495840fcf0e55fb1e8ad89c5d3745251ea7fc22b6793cba99af3178",
+      "pinned_sha256": "15ab7d4cf495840fcf0e55fb1e8ad89c5d3745251ea7fc22b6793cba99af3178",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/transforming-core-beliefs.svg",
+      "current_origin_sha256": "0ea3fed7af2cdaf9ab10e50437474f04e50d3b8b718c9d034f2fd241bb93cc5f",
+      "pinned_sha256": "0ea3fed7af2cdaf9ab10e50437474f04e50d3b8b718c9d034f2fd241bb93cc5f",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/triad-mind.svg",
+      "current_origin_sha256": "68a4a6fcd55f7fb180d7684845d10186106cc965250ce155cd8e3fb829c371be",
+      "pinned_sha256": "68a4a6fcd55f7fb180d7684845d10186106cc965250ce155cd8e3fb829c371be",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/ufo-witness-declaration.svg",
+      "current_origin_sha256": "60f77022cfb968b8e2b7524d33ce8e4503d4278bb7de6e2fe2d524f02bd4e39d",
+      "pinned_sha256": "60f77022cfb968b8e2b7524d33ce8e4503d4278bb7de6e2fe2d524f02bd4e39d",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/vortex-array.svg",
+      "current_origin_sha256": "17d73265e4aabc9c19f4b18bd0e1c99ca8dd82e3221f322328663f7b619d9a40",
+      "pinned_sha256": "17d73265e4aabc9c19f4b18bd0e1c99ca8dd82e3221f322328663f7b619d9a40",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/vortex-vibrations.svg",
+      "current_origin_sha256": "4cb47fda7bbe19008f3f3aab31ecbb83c92b0a0d6c528550b5e4e054ec265155",
+      "pinned_sha256": "4cb47fda7bbe19008f3f3aab31ecbb83c92b0a0d6c528550b5e4e054ec265155",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/window-of-discovery.svg",
+      "current_origin_sha256": "e884f7da19be1937776805aa29e408eddf60d379e43ae3e2af79aae89ea216a1",
+      "pinned_sha256": "e884f7da19be1937776805aa29e408eddf60d379e43ae3e2af79aae89ea216a1",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/diagrams_svg/you-are-all-time-travelers.svg",
+      "current_origin_sha256": "2fff8703454cf8c4e46abf172bb8df5117832dee800ca26cacb27ad09bb7efec",
+      "pinned_sha256": "2fff8703454cf8c4e46abf172bb8df5117832dee800ca26cacb27ad09bb7efec",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/0htF1V0v6ec.json",
+      "current_origin_sha256": "7da5f278a7d592cc5dd6449eaa5f6528a69ee2217353e1b7c9ed21c7c65baf86",
+      "pinned_sha256": "7da5f278a7d592cc5dd6449eaa5f6528a69ee2217353e1b7c9ed21c7c65baf86",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/1x7Z68os7HE.json",
+      "current_origin_sha256": "390bf5587db357a662059577b223b3bd9bcf428e0bb4199e159fcd0ccad6a83b",
+      "pinned_sha256": "390bf5587db357a662059577b223b3bd9bcf428e0bb4199e159fcd0ccad6a83b",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/2GVhU6BRVWY.json",
+      "current_origin_sha256": "d604e46d10704b965083261d4f82b060b9888048693ca87d48adeddaa06d8fe9",
+      "pinned_sha256": "d604e46d10704b965083261d4f82b060b9888048693ca87d48adeddaa06d8fe9",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/4NGd9kqWM04.json",
+      "current_origin_sha256": "0b4de71f63186e56b75909f09839721e559bf17cfb80891ddc3ec9453af98fbf",
+      "pinned_sha256": "0b4de71f63186e56b75909f09839721e559bf17cfb80891ddc3ec9453af98fbf",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/5Js8U9sJ5-8.json",
+      "current_origin_sha256": "673679b92eb1cd338300fee8873114fed66429ceedaf28d542b34a385ac3d26c",
+      "pinned_sha256": "673679b92eb1cd338300fee8873114fed66429ceedaf28d542b34a385ac3d26c",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/5lOHuqDbpoc.json",
+      "current_origin_sha256": "7a8a31a6ba78c69d43611404f47dd49d0efa4029b5e5175e4a05507493fd30d7",
+      "pinned_sha256": "7a8a31a6ba78c69d43611404f47dd49d0efa4029b5e5175e4a05507493fd30d7",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/66D69G8uQ50.json",
+      "current_origin_sha256": "1fc8dd5b6f1e5d97c2fa64d27be93d2abbefb43ecbbe80ff0e9d282fe1b264d6",
+      "pinned_sha256": "1fc8dd5b6f1e5d97c2fa64d27be93d2abbefb43ecbbe80ff0e9d282fe1b264d6",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/7WjydoNj7hE.json",
+      "current_origin_sha256": "3d7cc631f68bf8508f487c3ab89cfe1e17b157312ecfffa1781afc1f0db696da",
+      "pinned_sha256": "3d7cc631f68bf8508f487c3ab89cfe1e17b157312ecfffa1781afc1f0db696da",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/94agFEADfyk.json",
+      "current_origin_sha256": "301c31d9285329d61fbbeb4e9b6a276732712166cdb3b0bc019767a8e7d71549",
+      "pinned_sha256": "301c31d9285329d61fbbeb4e9b6a276732712166cdb3b0bc019767a8e7d71549",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/98KsASkO8Cs.json",
+      "current_origin_sha256": "5a63336782b967674fa805b2b3d0d509ffa6d5e78881f3bbf1da1380d3891824",
+      "pinned_sha256": "5a63336782b967674fa805b2b3d0d509ffa6d5e78881f3bbf1da1380d3891824",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/9FrwPg8FYvM.json",
+      "current_origin_sha256": "500fad556043b9e04d8103a4e3ba9c93138af6dc63de63592bbc3a1f3435a48f",
+      "pinned_sha256": "500fad556043b9e04d8103a4e3ba9c93138af6dc63de63592bbc3a1f3435a48f",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/9Ij2AEoRwoM.json",
+      "current_origin_sha256": "283e59a1e2334b05af5c61ebd454565b6a9fa09454c14ca019e680a039425817",
+      "pinned_sha256": "283e59a1e2334b05af5c61ebd454565b6a9fa09454c14ca019e680a039425817",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/BaN26a0SbLQ.json",
+      "current_origin_sha256": "4fdab4f59dfeb2e74f2db60cd988b879f5576643a538e72a2dc69c65dde17cc2",
+      "pinned_sha256": "4fdab4f59dfeb2e74f2db60cd988b879f5576643a538e72a2dc69c65dde17cc2",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/CJb6grCrMhY.json",
+      "current_origin_sha256": "ec505d4cd86dd0e8a55187b6145a67986cae95c2f9a4b3640e6b55311cf2cc5c",
+      "pinned_sha256": "ec505d4cd86dd0e8a55187b6145a67986cae95c2f9a4b3640e6b55311cf2cc5c",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/D8El0NsIF04.json",
+      "current_origin_sha256": "1c788456c2d8617e4f1ee9a958cbf13592dc51401f71b2cffaf98cc14dc18199",
+      "pinned_sha256": "1c788456c2d8617e4f1ee9a958cbf13592dc51401f71b2cffaf98cc14dc18199",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/DvWNnqnBAjc.json",
+      "current_origin_sha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+      "pinned_sha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/Dw9XHTMrgBE.json",
+      "current_origin_sha256": "e90e8261c7587b100e009eff051c371b1a4523cf0b17f21d45db52b661d127bf",
+      "pinned_sha256": "e90e8261c7587b100e009eff051c371b1a4523cf0b17f21d45db52b661d127bf",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/EHK_mwdk3kM.json",
+      "current_origin_sha256": "bdd2809bebe41454b48917fd1ccd91488af3efc4d5cc6ff474a3abb075629cac",
+      "pinned_sha256": "bdd2809bebe41454b48917fd1ccd91488af3efc4d5cc6ff474a3abb075629cac",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/ETuHIzyRhyY.json",
+      "current_origin_sha256": "1db595b9e445d77eccc7856f03fe3b3283080025aefdc32df2c326578dc2bc6a",
+      "pinned_sha256": "1db595b9e445d77eccc7856f03fe3b3283080025aefdc32df2c326578dc2bc6a",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/E_cPno64Z-Q.json",
+      "current_origin_sha256": "e8377a5383a66fefbc052a025edb2f34bb536c2fca8f2d08df7e6392495df794",
+      "pinned_sha256": "e8377a5383a66fefbc052a025edb2f34bb536c2fca8f2d08df7e6392495df794",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/Fp1YFz-8d4Y.json",
+      "current_origin_sha256": "87e92031d73ef8a248aaffcdafce4324eee71e73373354642dff5009d4643502",
+      "pinned_sha256": "87e92031d73ef8a248aaffcdafce4324eee71e73373354642dff5009d4643502",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/HoYNcoMTk-4.json",
+      "current_origin_sha256": "b1574b12f861ad3e28dc442afab8718cb235fd246d961a07bce580d6a129cdaa",
+      "pinned_sha256": "b1574b12f861ad3e28dc442afab8718cb235fd246d961a07bce580d6a129cdaa",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/IKJzZ-KVPdQ.json",
+      "current_origin_sha256": "2cde10feb8ce6e2565cdeabb27da144684915ba829cb9d96783c5b058ec94200",
+      "pinned_sha256": "2cde10feb8ce6e2565cdeabb27da144684915ba829cb9d96783c5b058ec94200",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/IKYfZdjv3aE.json",
+      "current_origin_sha256": "641a3b45a8a89d2ffec57f2c8e7977637368f379413d510b989565c77c63fd72",
+      "pinned_sha256": "641a3b45a8a89d2ffec57f2c8e7977637368f379413d510b989565c77c63fd72",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/IuO0mjva9ls.json",
+      "current_origin_sha256": "702cc91af94269b7b34b756685d05d2b11b2b90964810929f57d95cc300a0730",
+      "pinned_sha256": "702cc91af94269b7b34b756685d05d2b11b2b90964810929f57d95cc300a0730",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/JSwqz_ZhH_I.json",
+      "current_origin_sha256": "8baac2f6ce8c42af22267c2302e54ef9dc144cbab3b1e65e763521913c501534",
+      "pinned_sha256": "8baac2f6ce8c42af22267c2302e54ef9dc144cbab3b1e65e763521913c501534",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/OzkviF1GCFc.json",
+      "current_origin_sha256": "ee0b784658ec2264d886e16e06ba08d4b2c18c2c54b506ed38b36244cd94ae1e",
+      "pinned_sha256": "ee0b784658ec2264d886e16e06ba08d4b2c18c2c54b506ed38b36244cd94ae1e",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/PjIvEohms5I.json",
+      "current_origin_sha256": "9a03e30a16a553db4f4fd380a47c2e854006a7c7e72570f04f78cdc9147d32dd",
+      "pinned_sha256": "9a03e30a16a553db4f4fd380a47c2e854006a7c7e72570f04f78cdc9147d32dd",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/Q9X_NGyYN3M.json",
+      "current_origin_sha256": "be9fc0790c46237a8e81428218aeca2394a239ed4bc8ef1948f63a126b97ab7e",
+      "pinned_sha256": "be9fc0790c46237a8e81428218aeca2394a239ed4bc8ef1948f63a126b97ab7e",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/QBk2MQ1MVZo.json",
+      "current_origin_sha256": "f2cce2c01bd9668bcbd2de1ff0162e1397103ab760d9a65b033e99952cc8739d",
+      "pinned_sha256": "f2cce2c01bd9668bcbd2de1ff0162e1397103ab760d9a65b033e99952cc8739d",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/Rcjd1TkZUMY.json",
+      "current_origin_sha256": "2ae873fcfecf8a6d66c73c702e44621cd9b38713d773fea83af710690836c915",
+      "pinned_sha256": "2ae873fcfecf8a6d66c73c702e44621cd9b38713d773fea83af710690836c915",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/S3Xw09ZE2Dg.json",
+      "current_origin_sha256": "83b4a8e7db432b94a68ec887b3858c8c34ff3d60671348e89bf73a9cd558d547",
+      "pinned_sha256": "83b4a8e7db432b94a68ec887b3858c8c34ff3d60671348e89bf73a9cd558d547",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/SBRcXicYs0I.json",
+      "current_origin_sha256": "f38ccacf597c036fb5242702124310bba0bf196d3aa50414dad19572efa92786",
+      "pinned_sha256": "f38ccacf597c036fb5242702124310bba0bf196d3aa50414dad19572efa92786",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/T5QtncJq1Jc.json",
+      "current_origin_sha256": "4aad006e4f38b6720e6ae426c9430018176e9325b7d60d6b86b7c249f2922177",
+      "pinned_sha256": "4aad006e4f38b6720e6ae426c9430018176e9325b7d60d6b86b7c249f2922177",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/U-DHIk0lIQ4.json",
+      "current_origin_sha256": "09c746cc37f874905b6404b895116bdb080f36afb3e94322144d776d04456b2a",
+      "pinned_sha256": "09c746cc37f874905b6404b895116bdb080f36afb3e94322144d776d04456b2a",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/WEVqgD-L5kc.json",
+      "current_origin_sha256": "f8f9c8da85af683f9be082469aa2cdc1dae5dcb32c2745f9fa6e582b878cebbf",
+      "pinned_sha256": "f8f9c8da85af683f9be082469aa2cdc1dae5dcb32c2745f9fa6e582b878cebbf",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/ZACIL5Hzb5c.json",
+      "current_origin_sha256": "024e4f15e6594821d3d981808cfe131ffaf87816c86d26177a702103be61bc6e",
+      "pinned_sha256": "024e4f15e6594821d3d981808cfe131ffaf87816c86d26177a702103be61bc6e",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/_UZ8EyuOuY8.json",
+      "current_origin_sha256": "d48eab133f5a6d5e02dd92b2bc96a8242acd86b3eccd899ece904caf8188fb6b",
+      "pinned_sha256": "d48eab133f5a6d5e02dd92b2bc96a8242acd86b3eccd899ece904caf8188fb6b",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/aZvcNhWthUA.json",
+      "current_origin_sha256": "0d6954fbb0a81a89a7ccbbe3c0bf1f9f47e70f4288eabf111431cf907624bb2a",
+      "pinned_sha256": "0d6954fbb0a81a89a7ccbbe3c0bf1f9f47e70f4288eabf111431cf907624bb2a",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/alW2lHKFy2k.json",
+      "current_origin_sha256": "39af9a63f8f6380621174f18146ddd75d2b1b6e4399136038c60c5d2055cfb72",
+      "pinned_sha256": "39af9a63f8f6380621174f18146ddd75d2b1b6e4399136038c60c5d2055cfb72",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/d--HZiDqgs0.json",
+      "current_origin_sha256": "50f5179c0c3529a947f9b4c9f75a398863d174a78b66dddb824094f5f91378ff",
+      "pinned_sha256": "50f5179c0c3529a947f9b4c9f75a398863d174a78b66dddb824094f5f91378ff",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/eCxOH-AK1rc.json",
+      "current_origin_sha256": "8e426029fa44275241ea59b5232eeff8f8196f191c0ca0ab9af5227e1d74e8c5",
+      "pinned_sha256": "8e426029fa44275241ea59b5232eeff8f8196f191c0ca0ab9af5227e1d74e8c5",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/egu6iDTj2ys.json",
+      "current_origin_sha256": "8292cb81d5e8a4e72906864844cb5bc7b39100e35ebed216de9dd6ac405c29fd",
+      "pinned_sha256": "8292cb81d5e8a4e72906864844cb5bc7b39100e35ebed216de9dd6ac405c29fd",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/fOi0W9_JEWM.json",
+      "current_origin_sha256": "b3cf544a5b26286883c0cb9beac92932119b530e9814f8ee3e30a2701015c481",
+      "pinned_sha256": "b3cf544a5b26286883c0cb9beac92932119b530e9814f8ee3e30a2701015c481",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/fZmY4xS_qXE.json",
+      "current_origin_sha256": "836e8c00949534629073c76a1f0c539582af376c754a6ddb330206d6c34e2d17",
+      "pinned_sha256": "836e8c00949534629073c76a1f0c539582af376c754a6ddb330206d6c34e2d17",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/hFC4F3JO33M.json",
+      "current_origin_sha256": "3fcfc9640b9c8aacbec6d4a75fcd44a84de2c7ac5b541a7d60b93a2bede519d2",
+      "pinned_sha256": "3fcfc9640b9c8aacbec6d4a75fcd44a84de2c7ac5b541a7d60b93a2bede519d2",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/hTlU_M_R0eE.json",
+      "current_origin_sha256": "e705f125fbd595d9014ece2609d916827493c99b6cd1cb93a9bb89a1ad055156",
+      "pinned_sha256": "e705f125fbd595d9014ece2609d916827493c99b6cd1cb93a9bb89a1ad055156",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/hmX3hlNJBjU.json",
+      "current_origin_sha256": "d52b0e14479c1cd23c6da1a6ffcedff765417de753cd1e3341aca6935442cbcc",
+      "pinned_sha256": "d52b0e14479c1cd23c6da1a6ffcedff765417de753cd1e3341aca6935442cbcc",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/iq2QpcqHlmw.json",
+      "current_origin_sha256": "ed7984b4e1041084ad886e6798f063d51c9d0735d53b4a6d7fe6f49a9d6845d8",
+      "pinned_sha256": "ed7984b4e1041084ad886e6798f063d51c9d0735d53b4a6d7fe6f49a9d6845d8",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/jQbxp4e6bfg.json",
+      "current_origin_sha256": "eb1547f94d9775678dd6c6b6fc3246c80f39c9e42a08136eb7bcf2c4d8c76e04",
+      "pinned_sha256": "eb1547f94d9775678dd6c6b6fc3246c80f39c9e42a08136eb7bcf2c4d8c76e04",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/ja8BrsruFOo.json",
+      "current_origin_sha256": "a5aebf90fc217ddf12c4bfe7580dc012112c38f8d973ee673c38fba19ee8dce4",
+      "pinned_sha256": "a5aebf90fc217ddf12c4bfe7580dc012112c38f8d973ee673c38fba19ee8dce4",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/jdzErS12DvU.json",
+      "current_origin_sha256": "6156eb603023217cb946cf487d41635ad6b057350fc182b9b41e3a7d3b9a11b3",
+      "pinned_sha256": "6156eb603023217cb946cf487d41635ad6b057350fc182b9b41e3a7d3b9a11b3",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/ji9rMw37o2M.json",
+      "current_origin_sha256": "0fefd670a9d027b9cebb9f01ecbbfdcdf80419b84a000367c5ea7c4c80404a09",
+      "pinned_sha256": "0fefd670a9d027b9cebb9f01ecbbfdcdf80419b84a000367c5ea7c4c80404a09",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/k0lWJ2B90-I.json",
+      "current_origin_sha256": "98cff969c4c05317f9e25d8069808eca90c8eddd8d00dc16e18c243d45333954",
+      "pinned_sha256": "98cff969c4c05317f9e25d8069808eca90c8eddd8d00dc16e18c243d45333954",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/kPWOUEtUx2Y.json",
+      "current_origin_sha256": "167d656beccf0232e580686a94f92043865a19313e2091da186b79d1ded92f1d",
+      "pinned_sha256": "167d656beccf0232e580686a94f92043865a19313e2091da186b79d1ded92f1d",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/kvU9mCJr-eo.json",
+      "current_origin_sha256": "22b873b1409a77932a05e49ffbceba27dd115b1ef93df1135e479cc4cce28f12",
+      "pinned_sha256": "22b873b1409a77932a05e49ffbceba27dd115b1ef93df1135e479cc4cce28f12",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/lLFUTAVah30.json",
+      "current_origin_sha256": "b48e0c58cc7e456e9dce4a1c667d8c8ebe1e484c3239463cecab8a63aaf2f258",
+      "pinned_sha256": "b48e0c58cc7e456e9dce4a1c667d8c8ebe1e484c3239463cecab8a63aaf2f258",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/mgSgI0ElfTI.json",
+      "current_origin_sha256": "b6a406c5731374e6b74910d624a511ab3cd4fa04d574402ef55bcf08b6928bdd",
+      "pinned_sha256": "b6a406c5731374e6b74910d624a511ab3cd4fa04d574402ef55bcf08b6928bdd",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/mk_yQrOQHJs.json",
+      "current_origin_sha256": "2bcce50c12b71dfd5ffefb7f746edcb695bb6488e523ae9825731684d8344477",
+      "pinned_sha256": "2bcce50c12b71dfd5ffefb7f746edcb695bb6488e523ae9825731684d8344477",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/mzcFoYUvbOE.json",
+      "current_origin_sha256": "e428f25cfe2185ba894a2755d6499a19db7e7c2aeeaba110811a9379e73bafd2",
+      "pinned_sha256": "e428f25cfe2185ba894a2755d6499a19db7e7c2aeeaba110811a9379e73bafd2",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/os4a7-7bnLw.json",
+      "current_origin_sha256": "2fac64da12142cd1816274321cbb7d103e420c271cc2592ed1dcebf3f4836e51",
+      "pinned_sha256": "2fac64da12142cd1816274321cbb7d103e420c271cc2592ed1dcebf3f4836e51",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/ozHG5P7fY5I.json",
+      "current_origin_sha256": "2d843df88b66b74050c2dc1dabdd98b8b728fcc19c8543c8a656ff428acf34cf",
+      "pinned_sha256": "2d843df88b66b74050c2dc1dabdd98b8b728fcc19c8543c8a656ff428acf34cf",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/p8JC21bFf5M.json",
+      "current_origin_sha256": "cf903b66fa59442d28026dc3e8114f9e06523f3ccdf66f88111b2df18236d4a2",
+      "pinned_sha256": "cf903b66fa59442d28026dc3e8114f9e06523f3ccdf66f88111b2df18236d4a2",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/pfB4F7uAjwE.json",
+      "current_origin_sha256": "5c6f384fe161eaf03963592f9e277be7fcd7121cb38521c9d36364ce542dcea9",
+      "pinned_sha256": "5c6f384fe161eaf03963592f9e277be7fcd7121cb38521c9d36364ce542dcea9",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/sFjR-VFy4tE.json",
+      "current_origin_sha256": "f422c42718a7af84408514c5162604fbb6145c0ff128a5a134eada45a02c9279",
+      "pinned_sha256": "f422c42718a7af84408514c5162604fbb6145c0ff128a5a134eada45a02c9279",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/tYAnYpeyWTc.json",
+      "current_origin_sha256": "76e3fc98aac0d636d487e3d7f89379ee15dce569d764a2fdc42860decd30df0a",
+      "pinned_sha256": "76e3fc98aac0d636d487e3d7f89379ee15dce569d764a2fdc42860decd30df0a",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/tskKYl3w0J8.json",
+      "current_origin_sha256": "9dcd4220b7ee5ab4ab15b8982caf696e0a42ecc929691c22c6434b7362d78112",
+      "pinned_sha256": "9dcd4220b7ee5ab4ab15b8982caf696e0a42ecc929691c22c6434b7362d78112",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/ufzO0sbNICQ.json",
+      "current_origin_sha256": "31a806c66e4eba76e96edf64ac1b16dd05397dd05b4cc2226ab0af05c832bbd3",
+      "pinned_sha256": "31a806c66e4eba76e96edf64ac1b16dd05397dd05b4cc2226ab0af05c832bbd3",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/vrv3J-ri804.json",
+      "current_origin_sha256": "bca4110a8b3729c400439a7a066113d65632ff3e5b31d59c560047d9692f6bcb",
+      "pinned_sha256": "bca4110a8b3729c400439a7a066113d65632ff3e5b31d59c560047d9692f6bcb",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/wCZ1Lib1_cQ.json",
+      "current_origin_sha256": "ce72da40994e5bb361673a167f8f0aedd9dc911b8880df1e563bb30d9e874df8",
+      "pinned_sha256": "ce72da40994e5bb361673a167f8f0aedd9dc911b8880df1e563bb30d9e874df8",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/wwkC86EEu1s.json",
+      "current_origin_sha256": "c93c3f22c7f24037c8c61e17b4eb4d8ed200d69e974c73fcb662cc1782ac06ff",
+      "pinned_sha256": "c93c3f22c7f24037c8c61e17b4eb4d8ed200d69e974c73fcb662cc1782ac06ff",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/y0-_YOFU8eQ.json",
+      "current_origin_sha256": "58903489331f04f8a1d52d75513266c231a8d179f2fc307667c665ee5160ca4f",
+      "pinned_sha256": "58903489331f04f8a1d52d75513266c231a8d179f2fc307667c665ee5160ca4f",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/ygzBrMyMAQA.json",
+      "current_origin_sha256": "eb286800d8394d744ced45aa72c3046812364cb3e49b77c5a80fbd137ec228b4",
+      "pinned_sha256": "eb286800d8394d744ced45aa72c3046812364cb3e49b77c5a80fbd137ec228b4",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/yx5hg3wTESs.json",
+      "current_origin_sha256": "c6514ea50c4c55977a54faa9f9ef4a251580e870c62da76a31fb1fcd7232c0ac",
+      "pinned_sha256": "c6514ea50c4c55977a54faa9f9ef4a251580e870c62da76a31fb1fcd7232c0ac",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/digests/zOcZDBhRaOQ.json",
+      "current_origin_sha256": "7491dd0cd549caf84ba436e64eb60346cf14d2f245e5027d66bf3acf166c30c7",
+      "pinned_sha256": "7491dd0cd549caf84ba436e64eb60346cf14d2f245e5027d66bf3acf166c30c7",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/divine_light_vibes_channel.json",
+      "current_origin_sha256": "ddd29f84a8eb08b4993e2019fa3650f2ff1386a9b1654550254c499bbe8cb199",
+      "pinned_sha256": "ddd29f84a8eb08b4993e2019fa3650f2ff1386a9b1654550254c499bbe8cb199",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/events_upcoming.json",
+      "current_origin_sha256": "8e5f50f3c34b9652a70096c2b9c36542ea4dc428283d89adeda615d4571f177c",
+      "pinned_sha256": "8e5f50f3c34b9652a70096c2b9c36542ea4dc428283d89adeda615d4571f177c",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/glossary.json",
+      "current_origin_sha256": "c0573711bf820642d017cc55c049cf68945f0185450a4d628373ed3e44bb4faf",
+      "pinned_sha256": "c0573711bf820642d017cc55c049cf68945f0185450a4d628373ed3e44bb4faf",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/key_terms.csv",
+      "current_origin_sha256": "9535aca0323900e347e98543c25e26755d339dda789bbe40a77d86079a689663",
+      "pinned_sha256": "9535aca0323900e347e98543c25e26755d339dda789bbe40a77d86079a689663",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/official_channels.md",
+      "current_origin_sha256": "f0cd7b5c8ae95c6067135444a1bb4fd762ad6b77746e731fcceff74cfac4c7e2",
+      "pinned_sha256": "f0cd7b5c8ae95c6067135444a1bb4fd762ad6b77746e731fcceff74cfac4c7e2",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/podcasts.json",
+      "current_origin_sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191",
+      "pinned_sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/recordings.csv",
+      "current_origin_sha256": "f42dd8f2e14bd7086d5d45031963bbb5f7ac30864a73a4520d3b86016ab1e93f",
+      "pinned_sha256": "f42dd8f2e14bd7086d5d45031963bbb5f7ac30864a73a4520d3b86016ab1e93f",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/session_catalog.csv",
+      "current_origin_sha256": "cf07c7660dcbafefb60e00295bb8927598bbf56d1309353bbc27f15a7dbb49a1",
+      "pinned_sha256": "cf07c7660dcbafefb60e00295bb8927598bbf56d1309353bbc27f15a7dbb49a1",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/skeptical_coverage.md",
+      "current_origin_sha256": "561fb5d7532eceee6ada5f4cafdb2d4663dfad925e27aac36c6ff7241c20ecae",
+      "pinned_sha256": "561fb5d7532eceee6ada5f4cafdb2d4663dfad925e27aac36c6ff7241c20ecae",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/teachings.md",
+      "current_origin_sha256": "66f31aa006f7dd14585c4b4fd4541f21e8b5470769b0ba07e4131762812d5c51",
+      "pinned_sha256": "66f31aa006f7dd14585c4b4fd4541f21e8b5470769b0ba07e4131762812d5c51",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/timeline.json",
+      "current_origin_sha256": "a1eb79783e1d0ad7563df518fc749fd5eba944f04ba1fb3d0ef13497de1c99c6",
+      "pinned_sha256": "a1eb79783e1d0ad7563df518fc749fd5eba944f04ba1fb3d0ef13497de1c99c6",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/topic_share.csv",
+      "current_origin_sha256": "3652dbd7f4b5275cb2412e93a95fe91b8f2366ebfb286e567889aabf95cd2dd2",
+      "pinned_sha256": "3652dbd7f4b5275cb2412e93a95fe91b8f2366ebfb286e567889aabf95cd2dd2",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/topics.py",
+      "current_origin_sha256": "8699e5b86a79333a3776e81b411ffe2aa02ce183db5142a8de51f90582d64c90",
+      "pinned_sha256": "8699e5b86a79333a3776e81b411ffe2aa02ce183db5142a8de51f90582d64c90",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:data/videos.json",
+      "current_origin_sha256": "fbd3610ead8a53448cd6b4058ac5a13fb285f9eda65266f0ff21884694d275b5",
+      "pinned_sha256": "fbd3610ead8a53448cd6b4058ac5a13fb285f9eda65266f0ff21884694d275b5",
+      "matches": true
+    },
+    {
+      "source_id": "bashar-index:index.html",
+      "current_origin_sha256": "80e02ffc7a30cce47753c9cef761bfea3cad82d7b3b67826ec27500d393c840c",
+      "pinned_sha256": "80e02ffc7a30cce47753c9cef761bfea3cad82d7b3b67826ec27500d393c840c",
+      "matches": true
+    },
+    {
+      "source_id": "channels-ET:dist/analysis/data.json",
+      "current_origin_sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+      "pinned_sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+      "matches": true
+    },
+    {
+      "source_id": "channels-ET:dist/data.json",
+      "current_origin_sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a",
+      "pinned_sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a",
+      "matches": true
+    },
+    {
+      "source_id": "channels-ET:research/expansion/acquisition/collection-plan.json",
+      "current_origin_sha256": "c772a6aa0fe9dd8d73ab51de68d8a99896cb1c6cbc3df1756a1f94b1104258da",
+      "pinned_sha256": "c772a6aa0fe9dd8d73ab51de68d8a99896cb1c6cbc3df1756a1f94b1104258da",
+      "matches": true
+    }
+  ]
+}
