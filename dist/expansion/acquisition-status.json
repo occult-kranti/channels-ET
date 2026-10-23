@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-23T20:42:13.757552+00:00",
+  "units": {
+    "practitioner_candidates": 106,
+    "keyword_queries": 590,
+    "account_routes": 157,
+    "historical_upload_ids": 925,
+    "caption_candidates": 215
+  },
+  "new_successful_operations": 0,
+  "recorded_preflight_attempts": 1,
+  "recorded_blocks": 1,
+  "planned_not_executed": {
+    "keyword_queries": 590,
+    "account_crawls": 157,
+    "caption_candidates": 215
+  },
+  "identity_records": 106,
+  "software": {
+    "yt-dlp": "2026.10.21",
+    "youtube-transcript-api": "1.2.4"
+  },
+  "sha256": {
+    "collect.py": "59b69185b088c2b76bafc3f51c9f99a46f85dd9a36e6a84df344052116cc4fd4",
+    "collection-plan.json": "c772a6aa0fe9dd8d73ab51de68d8a99896cb1c6cbc3df1756a1f94b1104258da",
+    "identity-map.json": "feb2f6e63532f3d555ed2fcc168f1daf93973d48e9a488874ce66bcee803da82",
+    "practitioner-frame.json": "898036cd868ad76efe066f94e541dbdf1f6b47be7a92a7c801f3679e20278059",
+    "preflight-initial.json": "1eecf7e7273ef6f2b3b9a2e0e5c9842001aa589280a7a0cc246edcd136a14b0a",
+    "safety-verification.json": "b2eb11169e51beaf31e374711093c07c859937d48665e381293c5bd6579084a8",
+    "identity-publisher-links.json": "0ba9af8f3f60fbedead603c8b25c158bf34dcfdfebc8531384a5a9a69808dccc",
+    "verify_safety.py": "d2f291e9e77883b338ec4bbe36e3c669e4fa606ea2ce836f479624e2083c9cd8",
+    "README.md": "055fd4de44d3c47524f6c183d3904d02f10caebc141eae9d4940b3f3411549eb",
+    "requirements.txt": "c71307b13ff6c6b68ff5688717891180ebc3e9c443b6348ff71199db2c72ab69"
+  },
+  "inherited_candidate_publisher_route_matches": 83,
+  "new_collection_status": "blocked_before_tool_crawls",
+  "executed_live_clients": {
+    "stdlib_urllib_watch_preflight": 1,
+    "yt_dlp": 0,
+    "youtube_transcript_api": 0
+  },
+  "implemented_clients": [
+    "yt-dlp search/channel discovery",
+    "standard-library public-watch metadata refresh",
+    "youtube-transcript-api offered caption retrieval"
+  ],
+  "scope_note": "590 queries,157 crawls,215 caption candidates remain planned; six mocked control tests do not validate live acquisition."
+}

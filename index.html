@@ -3,9 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>channels-ET · Channeling Atlas</title>
-<meta http-equiv="refresh" content="0;url=./dist/">
-<script>window.location.replace('./dist/' + window.location.search + window.location.hash);</script>
+<title>channels-ET · Living research</title>
+<meta http-equiv="refresh" content="0;url=./dist/research/">
+<script>
+const destination = window.location.hash.startsWith('#/') ? './dist/' : './dist/research/';
+window.location.replace(destination + window.location.search + window.location.hash);
+</script>
 </head>
-<body><p><a href="./dist/">Open the Channeling Atlas dashboard</a></p></body>
+<body><p><a href="./dist/research/">Open the living research dashboard</a></p><p><a href="./dist/">Open the earlier Channeling Atlas</a></p></body>
 </html>

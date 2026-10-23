@@ -1,0 +1,47 @@
+{
+  "stage": "Current-family same-item method comparison, defined before this run",
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "license": "apache-2.0",
+  "selectedIds": [
+    "qa-jdzErS12DvU-002",
+    "qa-WEVqgD-L5kc-000",
+    "qa-ufzO0sbNICQ-014",
+    "qa-E_cPno64Z-Q-014",
+    "qa-IKJzZ-KVPdQ-017",
+    "qa-Rcjd1TkZUMY-000",
+    "qa-Dw9XHTMrgBE-015",
+    "qa-_UZ8EyuOuY8-004",
+    "qa-ygzBrMyMAQA-010",
+    "qa-pfB4F7uAjwE-012",
+    "qa-ETuHIzyRhyY-009",
+    "qa-os4a7-7bnLw-012"
+  ],
+  "originalPredictionsSha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+  "systemPrompt": "Read only the supplied digest excerpt. Classify the primary answer theme as contact_forecast, personal_practice, cosmology, other, or unclear. Classify conditional wording as yes, no, or unclear. Return JSON only with keys theme, conditional, evidence. Evidence must be an exact substring of the answer, at most eight words. These are reported claims, not verified facts.",
+  "themeOrder": [
+    "contact_forecast",
+    "personal_practice",
+    "cosmology",
+    "other",
+    "unclear"
+  ],
+  "class": "AutoModelForImageTextToText",
+  "taskActuallyRun": "text-only digest annotation",
+  "imageOrVideoInputUsed": false,
+  "maxNewTokens": 96,
+  "doSample": false,
+  "seed": 42,
+  "torchThreads": 2,
+  "dtype": "float32",
+  "enableThinking": false,
+  "trustRemoteCode": false,
+  "operationalDifferences": [
+    "Qwen3.5 uses its own tokenizer/chat template and Transformers5.20.2; baseline uses Qwen2.5/Transformers4.51.3.",
+    "The image-text architecture receives text only; no image/video/speech capability is measured.",
+    "A common96-token cap is not an identical word budget across different tokenizers.",
+    "Reference PyTorch linear-attention/convolution kernels are used; no GPU is exposed."
+  ],
+  "humanGroundTruth": false,
+  "sourceTruthValidation": false
+}

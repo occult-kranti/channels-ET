@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+  "source_zip_sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+  "pages": 16,
+  "clean_package": {
+    "directory": "/workspace/channels-et-paper-clean-_p8ysu6p",
+    "commands": [
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      [
+        "bibtex",
+        "main"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ]
+    ],
+    "all_exit_zero": true,
+    "extracted_page_text_identical": true
+  },
+  "fonts": {
+    "no_type3": true,
+    "report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nQTBYVT+TeXGyreTermesX-Bold           Type 1            Custom           yes yes yes      4  0\nAUOQPQ+TeXGyreTermesX-Regular        Type 1            Custom           yes yes yes      5  0\nPFQPHP+TeXGyreTermes-Regular         Type 1            Custom           yes yes yes      6  0\nBHOYWU+NimbusMonL-Regu               Type 1            Custom           yes yes yes     16  0\nBLBFMY+CMMI10                        Type 1            Builtin          yes yes yes     20  0\nBFNGJS+CMMI7                         Type 1            Builtin          yes yes yes     21  0\nCZKGAS+CMR10                         Type 1            Builtin          yes yes yes     22  0\nFJIZNZ+CMSY7                         Type 1            Builtin          yes yes yes     23  0\nJRUBZP+CMSY10                        Type 1            Builtin          yes yes yes     24  0\nRKDUWA+CMR7                          Type 1            Builtin          yes yes yes     25  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     27  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     46  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     59  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     71  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     85  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     99  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    114  0\nKNPMLK+TeXGyreTermesX-Italic         Type 1            Custom           yes yes yes    129  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    144  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    156  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    164  0\n"
+  },
+  "latex": {
+    "overfull_boxes": 0,
+    "undefined_citations_or_references": 0
+  },
+  "render": {
+    "directory": "/workspace/channels-et-paper-clean-_p8ysu6p/render",
+    "pages_rendered": 16,
+    "visual_inspection": {
+      "status": "PASS",
+      "reviewer": "manuscript model agent; not human peer review",
+      "all_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "contact_sheets": [
+        "/workspace/channels-et-paper-clean-_p8ysu6p/render/contact-1.png",
+        "/workspace/channels-et-paper-clean-_p8ysu6p/render/contact-2.png",
+        "/workspace/channels-et-paper-clean-_p8ysu6p/render/contact-3.png",
+        "/workspace/channels-et-paper-clean-_p8ysu6p/render/contact-4.png"
+      ],
+      "method": "Inspected all final-candidate pages in four labeled contact sheets; checked full-size abstract, annotation results/table and appendix locator pages in the numerically identical pre-layout candidate. Only final pages 14 and 15 changed after the explanatory appendix sentence; both were re-inspected in final renders.",
+      "findings": "No clipped text, figure/legend collisions, table collisions or unreadable labels observed. The source-rule subsection now has explanatory prose below its heading."
+    }
+  },
+  "scope": "Local build and artifact checks; no human peer review or venue-compliance certification.",
+  "source_closure": {
+    "current_input_hashes": 33,
+    "copied_continuation_figure_pdfs_identical_to_source": 6,
+    "source_zip_members_bound_to_current_files": 26
+  }
+}

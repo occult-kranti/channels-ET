@@ -1,0 +1,67 @@
+{
+  "themes": [
+    {
+      "id": "contact",
+      "label": "ET contact and disclosure",
+      "regex": "\\b(?:contact|disclosure|extraterrestrial|alien|ufo|uap|hybrid|gr[ae]ys?|sassani|anunnaki)\\b"
+    },
+    {
+      "id": "excitement",
+      "label": "Excitement and life direction",
+      "regex": "\\b(?:excite\\w*|passion\\w*|purpose|career|calling|abundance|money|wealth)\\b"
+    },
+    {
+      "id": "belief",
+      "label": "Beliefs, emotions and relationships",
+      "regex": "\\b(?:belie\\w*|fear\\w*|emotion\\w*|relation\\w*|trauma\\w*|anx\\w*|worth\\w*|love|family)\\b"
+    },
+    {
+      "id": "consciousness",
+      "label": "Consciousness and parallel realities",
+      "regex": "\\b(?:conscious\\w*|parallel|realit\\w*|dimension\\w*|oversoul|soul\\w*|dream\\w*|spirit\\w*|reincarn\\w*|karma)\\b"
+    },
+    {
+      "id": "practice",
+      "label": "Channeling and spiritual practices",
+      "regex": "\\b(?:channel\\w*|meditat\\w*|permission slips?|synchronic\\w*|telepath\\w*|intuition)\\b"
+    },
+    {
+      "id": "physical",
+      "label": "Body, health and physical claims",
+      "regex": "\\b(?:health\\w*|heal\\w*|disease\\w*|diet\\w*|brain\\w*|physics|quantum|frequency|frequencies|vibrat\\w*|energy|energies)\\b"
+    },
+    {
+      "id": "prediction",
+      "label": "Time windows and predictions",
+      "regex": "\\b(?:predict\\w*|future\\w*|probab\\w*|timeline\\w*|timeframe\\w*|202[0-9]|203[0-9]|2040)\\b"
+    },
+    {
+      "id": "society",
+      "label": "History, society and institutions",
+      "regex": "\\b(?:histor\\w*|ancient|atlant\\w*|government\\w*|politic\\w*|religion\\w*|society|humanity|civilization\\w*)\\b"
+    }
+  ],
+  "modality": [
+    {
+      "id": "conditional",
+      "regex": "\\b(?:if|unless|depend\\w*|provided|as long as)\\b"
+    },
+    {
+      "id": "possibility",
+      "regex": "\\b(?:may|might|could|possibly|perhaps|potential\\w*)\\b"
+    },
+    {
+      "id": "probability",
+      "regex": "\\b(?:likely|unlikely|probab\\w*|chance\\w*)\\b|\\b\\d+\\s*%"
+    },
+    {
+      "id": "absolute",
+      "regex": "\\b(?:always|never|everyone|everything|nothing|all|must|guarantee\\w*)\\b"
+    },
+    {
+      "id": "imperative",
+      "regex": "^(?:follow|act|choose|trust|use|find|remember|let|focus|be|don't|do not)\\b"
+    }
+  ],
+  "validation": "Unvalidated, overlapping descriptive indicators; no human agreement or criterion validity claim"
+}

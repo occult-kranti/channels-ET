@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "round": 9,
+  "method": "fresh temporary output directory; same unchanged source",
+  "artifacts": [
+    {
+      "file": "qa-candidates.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "source-manifest.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "summary.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "question-pairs.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "practitioner-coverage.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "codebook.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "qa-candidates.csv",
+      "byteIdentical": true
+    },
+    {
+      "file": "qa-candidates.sqlite",
+      "byteIdentical": true
+    }
+  ],
+  "rawCaptionsUsed": false
+}

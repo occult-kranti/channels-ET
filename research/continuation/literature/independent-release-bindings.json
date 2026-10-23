@@ -1,0 +1,1638 @@
+{
+  "round": 12,
+  "status": "PASS",
+  "checks": 169,
+  "failures": [],
+  "explicit_pdf_sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+  "explicit_source_zip_sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+  "pages": 16,
+  "public_artifact_count": 28,
+  "source_zip_members": 26,
+  "bibtex_entries": 37,
+  "cited_keys": 32,
+  "extracted_pdf_text_sha256": "6a567aa2ec9e36578954df3fef94672fb0793322ab416375530e8974ad604a48",
+  "file_sha256": {
+    "research/continuation/paper/channels-et-paper.pdf": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+    "research/continuation/paper/channels-et-source.zip": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+    "dist/research/paper.pdf": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+    "dist/research/source.zip": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+    "research/continuation/paper/README.md": "27e13a0bd95c434467a3b6ac286d630cfac2abd6006e3af05e98de4c72b17528",
+    "research/continuation/paper/appendices.tex": "b5459a2cc6b0be2f3503c8015a9c2d807ba05e643c5ea70f1a71526e9d243ce3",
+    "research/continuation/paper/body.tex": "d6ebcdfc58a3af3dd1179493173d96484d8b6aac9eb225b8f66c2ca4308fb153",
+    "research/continuation/paper/generated/coverage-table.tex": "065cd25d72ec3f7ae26913ba9d7781c00541f0576acac0bc04d9124e56a81e8c",
+    "research/continuation/paper/generated/extended-results.tex": "ceb6672f1152094ea395ab7496228d4ea22461244a294a1922ff25f57ed2d851",
+    "research/continuation/paper/generated/figures/caption-duration-controls.pdf": "2d81dbd4af11287b9e4bfee569c54767f91dd5e3b7070c3fc954610a1c746334",
+    "research/continuation/paper/generated/figures/evidence-flow.pdf": "7ce9171d2b7df6cf8ec93ceaadebdfd86f440a77e7fdefe7107a143139b13d9e",
+    "research/continuation/paper/generated/figures/evidence-flow.png": "6efc67cd0ba45a7993187690456e6596b6ff555a1280a9947de90d8a01de9f33",
+    "research/continuation/paper/generated/figures/lexical-graph-stability.pdf": "1ada693fccdd12c830556cf475818e4a1d1da2f1a827192ee558fa4c6f57ab07",
+    "research/continuation/paper/generated/figures/model-reconstruction-controls.pdf": "292e782c48d1b81b8452d5793b1abed1051cda9ec22ccb5fe867efcd3e02ca63",
+    "research/continuation/paper/generated/figures/question-answer-alignment.pdf": "d13e58ebf43ce393231b245101730ddeea9c9973202a39bc21cf9a35e7db6196",
+    "research/continuation/paper/generated/figures/question-cosine-common-support.pdf": "e6fed7efd8a1295978888c7a878b670ad956260f8f6babbd292a610f075d920b",
+    "research/continuation/paper/generated/figures/retained-caption-selection.pdf": "c268c4278a880553c642d0db87b3ae6116a8f1514cfa6bfd63af5a3c8e9e6963",
+    "research/continuation/paper/generated/figures/retained-concentration.pdf": "0520480b9192e4d7fd796eb954a4fdb31295904577c9546f6e0b308498b6d7ef",
+    "research/continuation/paper/generated/figures/retained-keyword-duration.pdf": "70b5b9608533cc5c55e3c54df0c087b40d349c31f3578990f72523179d6c0dd5",
+    "research/continuation/paper/generated/figures/source-leakage-guard.pdf": "a4dcd8f131f16cebb0536a1b6e16fbee0b14307380ebb8b4973ae5a37776c37a",
+    "research/continuation/paper/generated/model-results.tex": "53e4ea6d890cde5de3abb2cdb30b27f0e9b8db3bd20654f06c4998893676aa4c",
+    "research/continuation/paper/generated/new-related-work.tex": "95799a9365a234eab24f2914a1f61e34e7b04761ec321b5930014bb93a29eab0",
+    "research/continuation/paper/generated/results.tex": "288e23ad98cd87a03adcb6b093421821e746917bbe52fadcc057d529a29e0dce",
+    "research/continuation/paper/generated/values.tex": "b1159fc2dc25965d55c148c2aa8b5f2e04b712b025c6dca4d57c9779caffd98c",
+    "research/continuation/paper/input-manifest.json": "a92d91f85f0ce0d3e71c4f725556845517b64d427601bec9aab708c87852ecb5",
+    "research/continuation/paper/main.tex": "7ab90a5766ca31d498a7d0465e356e5e15e850b52ae0a93f0b21f948d3cf281c",
+    "research/continuation/paper/references.bib": "16c62e3e8d759f34e6e62c6333ed1a1115936e9bab349faa9b09a669cb17af08",
+    "research/continuation/paper/tex-dependencies.json": "d7917f71794614ab4fde67bfcbabe0f3e633f2717622ba5767f3e2faf8fadf41",
+    "research/continuation/paper/vendor/aaai2027.bst": "5db7765ba99de5c1e4686f9b3940a0add9c5e702f2164514462bec130ccb6e3c",
+    "research/continuation/paper/vendor/aaai2027.sty": "01990f8d3716f8e39c5b28a7478f3ac6e28630d1161de6105a7217f5e7f60e43",
+    "dist/research/data.json": "b82fcbfdf8ca3e0714712a6c4f76afbfff07096aa469f67b590a72e254d313a5",
+    "dist/research/analysis-results.json": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+    "research/continuation/analysis/results.json": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+    "dist/research/model-results.json": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+    "research/continuation/models/benchmark-results.json": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+    "dist/research/training-receipt.json": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+    "research/continuation/models/training-receipt.json": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+    "dist/research/predictions.json": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+    "research/continuation/models/predictions.json": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+    "dist/research/qwen-digest-lora-pilot.zip": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+    "research/continuation/models/qwen-digest-lora-pilot.zip": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+    "dist/research/posthoc-diagnostics.json": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+    "research/continuation/models/posthoc-diagnostics.json": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+    "dist/research/content-label-results.json": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+    "research/continuation/models/content-label-results.json": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+    "dist/research/content-label-predictions.json": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+    "research/continuation/models/content-label-predictions.json": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+    "dist/research/current-family-smoke.json": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83",
+    "research/continuation/models/current-family-smoke.json": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83",
+    "dist/research/length-audit.json": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31",
+    "research/continuation/models/length-audit.json": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31",
+    "dist/research/option-order-results.json": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792",
+    "research/continuation/models/option-order-results.json": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792",
+    "dist/research/option-order-protocol.json": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292",
+    "research/continuation/models/option-order-protocol.json": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292",
+    "dist/research/option-order-predictions.json": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417",
+    "research/continuation/models/option-order-predictions.json": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417",
+    "dist/research/annotation-comparison.json": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2",
+    "research/continuation/models/annotation-comparison.json": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2",
+    "dist/research/conditional-lexicon-sensitivity.json": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55",
+    "research/continuation/models/conditional-lexicon-sensitivity.json": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55",
+    "dist/research/qwen35-content-label-results.json": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2",
+    "research/continuation/models/qwen35-content-label-results.json": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2",
+    "dist/research/qwen35-content-label-predictions.json": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0",
+    "research/continuation/models/qwen35-content-label-predictions.json": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0",
+    "dist/research/qwen35-content-label-protocol.json": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba",
+    "research/continuation/models/qwen35-content-label-protocol.json": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba",
+    "dist/research/hardware.json": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38",
+    "research/continuation/models/hardware.json": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38",
+    "dist/research/model-protocol.json": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f",
+    "research/continuation/models/protocol.json": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f",
+    "dist/research/model-split.json": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "research/continuation/models/split.json": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "dist/research/model-metadata.json": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a",
+    "research/continuation/models/model-metadata.json": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a",
+    "dist/research/acquisition-summary.json": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00",
+    "research/continuation/acquisition/acquisition-status.json": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00",
+    "dist/research/corpus-index.sqlite": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+    "research/continuation/acquisition/corpus-index.sqlite": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+    "dist/research/qa-candidates.sqlite": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5",
+    "research/expansion/qa/qa-candidates.sqlite": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5",
+    "dist/research/qa-summary.json": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100",
+    "research/expansion/qa/summary.json": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100",
+    "dist/research/app.js": "0117c62403e6d01ac17cdd81e6b45b865d7010f8f88810ed0c512dbe1bb5f2f4",
+    "research/continuation/dashboard/app.js": "0117c62403e6d01ac17cdd81e6b45b865d7010f8f88810ed0c512dbe1bb5f2f4",
+    "dist/research/index.html": "75f9bbf90472c6e8aa623c4f9f2713476b31022fe6cac3aa0d541e9c79434d36",
+    "research/continuation/dashboard/index.html": "75f9bbf90472c6e8aa623c4f9f2713476b31022fe6cac3aa0d541e9c79434d36",
+    "dist/research/styles.css": "a13e46bd4572e0f66b2a71355eec352b261ec9062c0b1467709c347ff26e509d",
+    "research/continuation/dashboard/styles.css": "a13e46bd4572e0f66b2a71355eec352b261ec9062c0b1467709c347ff26e509d",
+    "research/paper/literature/source-register.json": "8f6de5289d9bde75ed4bc5b5b6946d88f1eb3d86659e0d1368e8ecbf63b60a15"
+  },
+  "network_or_inference_runs": 0,
+  "scope": "Independent final-byte and selected actual-PDF-text/source/citation audit; no browser, new rendering, human review or source-study replication claimed.",
+  "all_checks": [
+    {
+      "check": "explicitly named definitive PDF",
+      "passed": true,
+      "actual": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+      "expected": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    {
+      "check": "explicitly named definitive source ZIP",
+      "passed": true,
+      "actual": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+      "expected": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    {
+      "check": "public paper bytes identical",
+      "passed": true,
+      "actual": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+      "expected": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    {
+      "check": "public source ZIP bytes identical",
+      "passed": true,
+      "actual": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+      "expected": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    {
+      "check": "sixteen actual PDF pages",
+      "passed": true,
+      "actual": 16,
+      "expected": 16
+    },
+    {
+      "check": "actual PDF claim/caveat retained: 6 change primary theme",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: 0/9 parseable outputs",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: 60 to 58 among 949",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: 5/12 exact answer",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: 6/12 dictionary concordance",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: always-yes result",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: 10 are exact contiguous",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: 5 of those exceed eight words",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: 2 nonexact",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: twenty single-candidate and twelve paired",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: All paired answer-agreement fields remain undetermined",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: not a conventional factual RAG benchmark",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "actual PDF claim/caveat retained: first-in-field claim",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP contains no duplicate member names",
+      "passed": true,
+      "actual": 26,
+      "expected": 26
+    },
+    {
+      "check": "ZIP member paths bounded",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP source file present README.md",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source README.md",
+      "passed": true,
+      "actual": "27e13a0bd95c434467a3b6ac286d630cfac2abd6006e3af05e98de4c72b17528",
+      "expected": "27e13a0bd95c434467a3b6ac286d630cfac2abd6006e3af05e98de4c72b17528"
+    },
+    {
+      "check": "ZIP source file present appendices.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source appendices.tex",
+      "passed": true,
+      "actual": "b5459a2cc6b0be2f3503c8015a9c2d807ba05e643c5ea70f1a71526e9d243ce3",
+      "expected": "b5459a2cc6b0be2f3503c8015a9c2d807ba05e643c5ea70f1a71526e9d243ce3"
+    },
+    {
+      "check": "ZIP source file present body.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source body.tex",
+      "passed": true,
+      "actual": "d6ebcdfc58a3af3dd1179493173d96484d8b6aac9eb225b8f66c2ca4308fb153",
+      "expected": "d6ebcdfc58a3af3dd1179493173d96484d8b6aac9eb225b8f66c2ca4308fb153"
+    },
+    {
+      "check": "ZIP source file present generated/coverage-table.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/coverage-table.tex",
+      "passed": true,
+      "actual": "065cd25d72ec3f7ae26913ba9d7781c00541f0576acac0bc04d9124e56a81e8c",
+      "expected": "065cd25d72ec3f7ae26913ba9d7781c00541f0576acac0bc04d9124e56a81e8c"
+    },
+    {
+      "check": "ZIP source file present generated/extended-results.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/extended-results.tex",
+      "passed": true,
+      "actual": "ceb6672f1152094ea395ab7496228d4ea22461244a294a1922ff25f57ed2d851",
+      "expected": "ceb6672f1152094ea395ab7496228d4ea22461244a294a1922ff25f57ed2d851"
+    },
+    {
+      "check": "ZIP source file present generated/figures/caption-duration-controls.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/caption-duration-controls.pdf",
+      "passed": true,
+      "actual": "2d81dbd4af11287b9e4bfee569c54767f91dd5e3b7070c3fc954610a1c746334",
+      "expected": "2d81dbd4af11287b9e4bfee569c54767f91dd5e3b7070c3fc954610a1c746334"
+    },
+    {
+      "check": "ZIP source file present generated/figures/evidence-flow.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/evidence-flow.pdf",
+      "passed": true,
+      "actual": "7ce9171d2b7df6cf8ec93ceaadebdfd86f440a77e7fdefe7107a143139b13d9e",
+      "expected": "7ce9171d2b7df6cf8ec93ceaadebdfd86f440a77e7fdefe7107a143139b13d9e"
+    },
+    {
+      "check": "ZIP source file present generated/figures/evidence-flow.png",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/evidence-flow.png",
+      "passed": true,
+      "actual": "6efc67cd0ba45a7993187690456e6596b6ff555a1280a9947de90d8a01de9f33",
+      "expected": "6efc67cd0ba45a7993187690456e6596b6ff555a1280a9947de90d8a01de9f33"
+    },
+    {
+      "check": "ZIP source file present generated/figures/lexical-graph-stability.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/lexical-graph-stability.pdf",
+      "passed": true,
+      "actual": "1ada693fccdd12c830556cf475818e4a1d1da2f1a827192ee558fa4c6f57ab07",
+      "expected": "1ada693fccdd12c830556cf475818e4a1d1da2f1a827192ee558fa4c6f57ab07"
+    },
+    {
+      "check": "ZIP source file present generated/figures/model-reconstruction-controls.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/model-reconstruction-controls.pdf",
+      "passed": true,
+      "actual": "292e782c48d1b81b8452d5793b1abed1051cda9ec22ccb5fe867efcd3e02ca63",
+      "expected": "292e782c48d1b81b8452d5793b1abed1051cda9ec22ccb5fe867efcd3e02ca63"
+    },
+    {
+      "check": "ZIP source file present generated/figures/question-answer-alignment.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/question-answer-alignment.pdf",
+      "passed": true,
+      "actual": "d13e58ebf43ce393231b245101730ddeea9c9973202a39bc21cf9a35e7db6196",
+      "expected": "d13e58ebf43ce393231b245101730ddeea9c9973202a39bc21cf9a35e7db6196"
+    },
+    {
+      "check": "ZIP source file present generated/figures/question-cosine-common-support.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/question-cosine-common-support.pdf",
+      "passed": true,
+      "actual": "e6fed7efd8a1295978888c7a878b670ad956260f8f6babbd292a610f075d920b",
+      "expected": "e6fed7efd8a1295978888c7a878b670ad956260f8f6babbd292a610f075d920b"
+    },
+    {
+      "check": "ZIP source file present generated/figures/retained-caption-selection.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/retained-caption-selection.pdf",
+      "passed": true,
+      "actual": "c268c4278a880553c642d0db87b3ae6116a8f1514cfa6bfd63af5a3c8e9e6963",
+      "expected": "c268c4278a880553c642d0db87b3ae6116a8f1514cfa6bfd63af5a3c8e9e6963"
+    },
+    {
+      "check": "ZIP source file present generated/figures/retained-concentration.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/retained-concentration.pdf",
+      "passed": true,
+      "actual": "0520480b9192e4d7fd796eb954a4fdb31295904577c9546f6e0b308498b6d7ef",
+      "expected": "0520480b9192e4d7fd796eb954a4fdb31295904577c9546f6e0b308498b6d7ef"
+    },
+    {
+      "check": "ZIP source file present generated/figures/retained-keyword-duration.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/retained-keyword-duration.pdf",
+      "passed": true,
+      "actual": "70b5b9608533cc5c55e3c54df0c087b40d349c31f3578990f72523179d6c0dd5",
+      "expected": "70b5b9608533cc5c55e3c54df0c087b40d349c31f3578990f72523179d6c0dd5"
+    },
+    {
+      "check": "ZIP source file present generated/figures/source-leakage-guard.pdf",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/figures/source-leakage-guard.pdf",
+      "passed": true,
+      "actual": "a4dcd8f131f16cebb0536a1b6e16fbee0b14307380ebb8b4973ae5a37776c37a",
+      "expected": "a4dcd8f131f16cebb0536a1b6e16fbee0b14307380ebb8b4973ae5a37776c37a"
+    },
+    {
+      "check": "ZIP source file present generated/model-results.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/model-results.tex",
+      "passed": true,
+      "actual": "53e4ea6d890cde5de3abb2cdb30b27f0e9b8db3bd20654f06c4998893676aa4c",
+      "expected": "53e4ea6d890cde5de3abb2cdb30b27f0e9b8db3bd20654f06c4998893676aa4c"
+    },
+    {
+      "check": "ZIP source file present generated/new-related-work.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/new-related-work.tex",
+      "passed": true,
+      "actual": "95799a9365a234eab24f2914a1f61e34e7b04761ec321b5930014bb93a29eab0",
+      "expected": "95799a9365a234eab24f2914a1f61e34e7b04761ec321b5930014bb93a29eab0"
+    },
+    {
+      "check": "ZIP source file present generated/results.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/results.tex",
+      "passed": true,
+      "actual": "288e23ad98cd87a03adcb6b093421821e746917bbe52fadcc057d529a29e0dce",
+      "expected": "288e23ad98cd87a03adcb6b093421821e746917bbe52fadcc057d529a29e0dce"
+    },
+    {
+      "check": "ZIP source file present generated/values.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source generated/values.tex",
+      "passed": true,
+      "actual": "b1159fc2dc25965d55c148c2aa8b5f2e04b712b025c6dca4d57c9779caffd98c",
+      "expected": "b1159fc2dc25965d55c148c2aa8b5f2e04b712b025c6dca4d57c9779caffd98c"
+    },
+    {
+      "check": "ZIP source file present input-manifest.json",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source input-manifest.json",
+      "passed": true,
+      "actual": "a92d91f85f0ce0d3e71c4f725556845517b64d427601bec9aab708c87852ecb5",
+      "expected": "a92d91f85f0ce0d3e71c4f725556845517b64d427601bec9aab708c87852ecb5"
+    },
+    {
+      "check": "ZIP source file present main.tex",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source main.tex",
+      "passed": true,
+      "actual": "7ab90a5766ca31d498a7d0465e356e5e15e850b52ae0a93f0b21f948d3cf281c",
+      "expected": "7ab90a5766ca31d498a7d0465e356e5e15e850b52ae0a93f0b21f948d3cf281c"
+    },
+    {
+      "check": "ZIP source file present references.bib",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source references.bib",
+      "passed": true,
+      "actual": "16c62e3e8d759f34e6e62c6333ed1a1115936e9bab349faa9b09a669cb17af08",
+      "expected": "16c62e3e8d759f34e6e62c6333ed1a1115936e9bab349faa9b09a669cb17af08"
+    },
+    {
+      "check": "ZIP source file present tex-dependencies.json",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source tex-dependencies.json",
+      "passed": true,
+      "actual": "d7917f71794614ab4fde67bfcbabe0f3e633f2717622ba5767f3e2faf8fadf41",
+      "expected": "d7917f71794614ab4fde67bfcbabe0f3e633f2717622ba5767f3e2faf8fadf41"
+    },
+    {
+      "check": "ZIP source file present aaai2027.bst",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source aaai2027.bst",
+      "passed": true,
+      "actual": "5db7765ba99de5c1e4686f9b3940a0add9c5e702f2164514462bec130ccb6e3c",
+      "expected": "5db7765ba99de5c1e4686f9b3940a0add9c5e702f2164514462bec130ccb6e3c"
+    },
+    {
+      "check": "ZIP source file present aaai2027.sty",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "ZIP member equals current source aaai2027.sty",
+      "passed": true,
+      "actual": "01990f8d3716f8e39c5b28a7478f3ac6e28630d1161de6105a7217f5e7f60e43",
+      "expected": "01990f8d3716f8e39c5b28a7478f3ac6e28630d1161de6105a7217f5e7f60e43"
+    },
+    {
+      "check": "public advertised artifact hash analysis-results.json",
+      "passed": true,
+      "actual": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+      "expected": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd"
+    },
+    {
+      "check": "public advertised artifact bytes analysis-results.json",
+      "passed": true,
+      "actual": 244716,
+      "expected": 244716
+    },
+    {
+      "check": "public source equality analysis-results.json",
+      "passed": true,
+      "actual": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+      "expected": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd"
+    },
+    {
+      "check": "public advertised artifact hash model-results.json",
+      "passed": true,
+      "actual": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+      "expected": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f"
+    },
+    {
+      "check": "public advertised artifact bytes model-results.json",
+      "passed": true,
+      "actual": 6396,
+      "expected": 6396
+    },
+    {
+      "check": "public source equality model-results.json",
+      "passed": true,
+      "actual": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+      "expected": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f"
+    },
+    {
+      "check": "public advertised artifact hash training-receipt.json",
+      "passed": true,
+      "actual": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+      "expected": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+    },
+    {
+      "check": "public advertised artifact bytes training-receipt.json",
+      "passed": true,
+      "actual": 8809,
+      "expected": 8809
+    },
+    {
+      "check": "public source equality training-receipt.json",
+      "passed": true,
+      "actual": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+      "expected": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+    },
+    {
+      "check": "public advertised artifact hash predictions.json",
+      "passed": true,
+      "actual": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+      "expected": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5"
+    },
+    {
+      "check": "public advertised artifact bytes predictions.json",
+      "passed": true,
+      "actual": 66483,
+      "expected": 66483
+    },
+    {
+      "check": "public source equality predictions.json",
+      "passed": true,
+      "actual": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+      "expected": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5"
+    },
+    {
+      "check": "public advertised artifact hash qwen-digest-lora-pilot.zip",
+      "passed": true,
+      "actual": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+      "expected": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+    },
+    {
+      "check": "public advertised artifact bytes qwen-digest-lora-pilot.zip",
+      "passed": true,
+      "actual": 1018863,
+      "expected": 1018863
+    },
+    {
+      "check": "public source equality qwen-digest-lora-pilot.zip",
+      "passed": true,
+      "actual": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+      "expected": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+    },
+    {
+      "check": "public advertised artifact hash posthoc-diagnostics.json",
+      "passed": true,
+      "actual": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+      "expected": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619"
+    },
+    {
+      "check": "public advertised artifact bytes posthoc-diagnostics.json",
+      "passed": true,
+      "actual": 7475,
+      "expected": 7475
+    },
+    {
+      "check": "public source equality posthoc-diagnostics.json",
+      "passed": true,
+      "actual": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+      "expected": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619"
+    },
+    {
+      "check": "public advertised artifact hash content-label-results.json",
+      "passed": true,
+      "actual": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+      "expected": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27"
+    },
+    {
+      "check": "public advertised artifact bytes content-label-results.json",
+      "passed": true,
+      "actual": 1695,
+      "expected": 1695
+    },
+    {
+      "check": "public source equality content-label-results.json",
+      "passed": true,
+      "actual": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+      "expected": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27"
+    },
+    {
+      "check": "public advertised artifact hash content-label-predictions.json",
+      "passed": true,
+      "actual": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+      "expected": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+    },
+    {
+      "check": "public advertised artifact bytes content-label-predictions.json",
+      "passed": true,
+      "actual": 15071,
+      "expected": 15071
+    },
+    {
+      "check": "public source equality content-label-predictions.json",
+      "passed": true,
+      "actual": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+      "expected": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+    },
+    {
+      "check": "public advertised artifact hash current-family-smoke.json",
+      "passed": true,
+      "actual": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83",
+      "expected": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83"
+    },
+    {
+      "check": "public advertised artifact bytes current-family-smoke.json",
+      "passed": true,
+      "actual": 2197,
+      "expected": 2197
+    },
+    {
+      "check": "public source equality current-family-smoke.json",
+      "passed": true,
+      "actual": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83",
+      "expected": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83"
+    },
+    {
+      "check": "public advertised artifact hash length-audit.json",
+      "passed": true,
+      "actual": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31",
+      "expected": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31"
+    },
+    {
+      "check": "public advertised artifact bytes length-audit.json",
+      "passed": true,
+      "actual": 9284,
+      "expected": 9284
+    },
+    {
+      "check": "public source equality length-audit.json",
+      "passed": true,
+      "actual": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31",
+      "expected": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31"
+    },
+    {
+      "check": "public advertised artifact hash option-order-results.json",
+      "passed": true,
+      "actual": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792",
+      "expected": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792"
+    },
+    {
+      "check": "public advertised artifact bytes option-order-results.json",
+      "passed": true,
+      "actual": 1217,
+      "expected": 1217
+    },
+    {
+      "check": "public source equality option-order-results.json",
+      "passed": true,
+      "actual": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792",
+      "expected": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792"
+    },
+    {
+      "check": "public advertised artifact hash option-order-protocol.json",
+      "passed": true,
+      "actual": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292",
+      "expected": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292"
+    },
+    {
+      "check": "public advertised artifact bytes option-order-protocol.json",
+      "passed": true,
+      "actual": 2182,
+      "expected": 2182
+    },
+    {
+      "check": "public source equality option-order-protocol.json",
+      "passed": true,
+      "actual": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292",
+      "expected": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292"
+    },
+    {
+      "check": "public advertised artifact hash option-order-predictions.json",
+      "passed": true,
+      "actual": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417",
+      "expected": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+    },
+    {
+      "check": "public advertised artifact bytes option-order-predictions.json",
+      "passed": true,
+      "actual": 15529,
+      "expected": 15529
+    },
+    {
+      "check": "public source equality option-order-predictions.json",
+      "passed": true,
+      "actual": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417",
+      "expected": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+    },
+    {
+      "check": "public advertised artifact hash annotation-comparison.json",
+      "passed": true,
+      "actual": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2",
+      "expected": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2"
+    },
+    {
+      "check": "public advertised artifact bytes annotation-comparison.json",
+      "passed": true,
+      "actual": 3889,
+      "expected": 3889
+    },
+    {
+      "check": "public source equality annotation-comparison.json",
+      "passed": true,
+      "actual": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2",
+      "expected": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2"
+    },
+    {
+      "check": "public advertised artifact hash conditional-lexicon-sensitivity.json",
+      "passed": true,
+      "actual": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55",
+      "expected": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55"
+    },
+    {
+      "check": "public advertised artifact bytes conditional-lexicon-sensitivity.json",
+      "passed": true,
+      "actual": 1915,
+      "expected": 1915
+    },
+    {
+      "check": "public source equality conditional-lexicon-sensitivity.json",
+      "passed": true,
+      "actual": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55",
+      "expected": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55"
+    },
+    {
+      "check": "public advertised artifact hash qwen35-content-label-results.json",
+      "passed": true,
+      "actual": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2",
+      "expected": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2"
+    },
+    {
+      "check": "public advertised artifact bytes qwen35-content-label-results.json",
+      "passed": true,
+      "actual": 1437,
+      "expected": 1437
+    },
+    {
+      "check": "public source equality qwen35-content-label-results.json",
+      "passed": true,
+      "actual": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2",
+      "expected": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2"
+    },
+    {
+      "check": "public advertised artifact hash qwen35-content-label-predictions.json",
+      "passed": true,
+      "actual": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0",
+      "expected": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+    },
+    {
+      "check": "public advertised artifact bytes qwen35-content-label-predictions.json",
+      "passed": true,
+      "actual": 16946,
+      "expected": 16946
+    },
+    {
+      "check": "public source equality qwen35-content-label-predictions.json",
+      "passed": true,
+      "actual": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0",
+      "expected": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+    },
+    {
+      "check": "public advertised artifact hash qwen35-content-label-protocol.json",
+      "passed": true,
+      "actual": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba",
+      "expected": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba"
+    },
+    {
+      "check": "public advertised artifact bytes qwen35-content-label-protocol.json",
+      "passed": true,
+      "actual": 1924,
+      "expected": 1924
+    },
+    {
+      "check": "public source equality qwen35-content-label-protocol.json",
+      "passed": true,
+      "actual": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba",
+      "expected": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba"
+    },
+    {
+      "check": "public advertised artifact hash hardware.json",
+      "passed": true,
+      "actual": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38",
+      "expected": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38"
+    },
+    {
+      "check": "public advertised artifact bytes hardware.json",
+      "passed": true,
+      "actual": 328,
+      "expected": 328
+    },
+    {
+      "check": "public source equality hardware.json",
+      "passed": true,
+      "actual": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38",
+      "expected": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38"
+    },
+    {
+      "check": "public advertised artifact hash model-protocol.json",
+      "passed": true,
+      "actual": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f",
+      "expected": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f"
+    },
+    {
+      "check": "public advertised artifact bytes model-protocol.json",
+      "passed": true,
+      "actual": 2537,
+      "expected": 2537
+    },
+    {
+      "check": "public source equality model-protocol.json",
+      "passed": true,
+      "actual": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f",
+      "expected": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f"
+    },
+    {
+      "check": "public advertised artifact hash model-split.json",
+      "passed": true,
+      "actual": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+      "expected": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e"
+    },
+    {
+      "check": "public advertised artifact bytes model-split.json",
+      "passed": true,
+      "actual": 88879,
+      "expected": 88879
+    },
+    {
+      "check": "public source equality model-split.json",
+      "passed": true,
+      "actual": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+      "expected": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e"
+    },
+    {
+      "check": "public advertised artifact hash model-metadata.json",
+      "passed": true,
+      "actual": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a",
+      "expected": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a"
+    },
+    {
+      "check": "public advertised artifact bytes model-metadata.json",
+      "passed": true,
+      "actual": 9557,
+      "expected": 9557
+    },
+    {
+      "check": "public source equality model-metadata.json",
+      "passed": true,
+      "actual": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a",
+      "expected": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a"
+    },
+    {
+      "check": "public advertised artifact hash acquisition-summary.json",
+      "passed": true,
+      "actual": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00",
+      "expected": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00"
+    },
+    {
+      "check": "public advertised artifact bytes acquisition-summary.json",
+      "passed": true,
+      "actual": 83109,
+      "expected": 83109
+    },
+    {
+      "check": "public source equality acquisition-summary.json",
+      "passed": true,
+      "actual": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00",
+      "expected": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00"
+    },
+    {
+      "check": "public advertised artifact hash corpus-index.sqlite",
+      "passed": true,
+      "actual": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+      "expected": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e"
+    },
+    {
+      "check": "public advertised artifact bytes corpus-index.sqlite",
+      "passed": true,
+      "actual": 593920,
+      "expected": 593920
+    },
+    {
+      "check": "public source equality corpus-index.sqlite",
+      "passed": true,
+      "actual": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+      "expected": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e"
+    },
+    {
+      "check": "public advertised artifact hash qa-candidates.sqlite",
+      "passed": true,
+      "actual": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5",
+      "expected": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+    },
+    {
+      "check": "public advertised artifact bytes qa-candidates.sqlite",
+      "passed": true,
+      "actual": 925696,
+      "expected": 925696
+    },
+    {
+      "check": "public source equality qa-candidates.sqlite",
+      "passed": true,
+      "actual": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5",
+      "expected": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+    },
+    {
+      "check": "public advertised artifact hash qa-summary.json",
+      "passed": true,
+      "actual": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100",
+      "expected": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100"
+    },
+    {
+      "check": "public advertised artifact bytes qa-summary.json",
+      "passed": true,
+      "actual": 245622,
+      "expected": 245622
+    },
+    {
+      "check": "public source equality qa-summary.json",
+      "passed": true,
+      "actual": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100",
+      "expected": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100"
+    },
+    {
+      "check": "public advertised artifact hash paper.pdf",
+      "passed": true,
+      "actual": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+      "expected": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    {
+      "check": "public advertised artifact bytes paper.pdf",
+      "passed": true,
+      "actual": 397048,
+      "expected": 397048
+    },
+    {
+      "check": "public source equality paper.pdf",
+      "passed": true,
+      "actual": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+      "expected": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    {
+      "check": "public advertised artifact hash source.zip",
+      "passed": true,
+      "actual": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+      "expected": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    {
+      "check": "public advertised artifact bytes source.zip",
+      "passed": true,
+      "actual": 296455,
+      "expected": 296455
+    },
+    {
+      "check": "public source equality source.zip",
+      "passed": true,
+      "actual": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+      "expected": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    {
+      "check": "public bundle current diagnostic optionOrder",
+      "passed": true,
+      "actual": {
+        "status": "completed",
+        "classification": "Prompt-order sensitivity, not annotation accuracy",
+        "n": 12,
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+        "originalParsedRecords": 9,
+        "reversedParsedRecords": 9,
+        "reversedParseFailures": 3,
+        "pairedParsedRecords": 8,
+        "originalThemeCounts": {
+          "contact_forecast": 9
+        },
+        "reversedThemeCounts": {
+          "personal_practice": 7,
+          "contact_forecast": 2
+        },
+        "pairedThemeChangedCount": 6,
+        "originalFirstOptionCount": 9,
+        "reversedFirstOptionCount": 0,
+        "reversedEvidenceSpanValidCount": 0,
+        "meanSeconds": 3.1432725559165724,
+        "lexiconSensitivity": {
+          "n": 949,
+          "originalConditionalCount": 60,
+          "stricterConditionalCount": 58,
+          "changedCount": 2
+        },
+        "limitations": [
+          "Option-order effects are a local model/prompt diagnostic, not evidence of source-topic prevalence.",
+          "Paired label changes exclude parse failures; both denominators and raw failures remain visible.",
+          "The lexicon comparison is a separate post-hoc indicator sensitivity, not a corrected human reference.",
+          "No factual truth, speech authenticity or human annotation accuracy is established."
+        ]
+      },
+      "expected": {
+        "status": "completed",
+        "classification": "Prompt-order sensitivity, not annotation accuracy",
+        "n": 12,
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+        "originalParsedRecords": 9,
+        "reversedParsedRecords": 9,
+        "reversedParseFailures": 3,
+        "pairedParsedRecords": 8,
+        "originalThemeCounts": {
+          "contact_forecast": 9
+        },
+        "reversedThemeCounts": {
+          "personal_practice": 7,
+          "contact_forecast": 2
+        },
+        "pairedThemeChangedCount": 6,
+        "originalFirstOptionCount": 9,
+        "reversedFirstOptionCount": 0,
+        "reversedEvidenceSpanValidCount": 0,
+        "meanSeconds": 3.1432725559165724,
+        "lexiconSensitivity": {
+          "n": 949,
+          "originalConditionalCount": 60,
+          "stricterConditionalCount": 58,
+          "changedCount": 2
+        },
+        "limitations": [
+          "Option-order effects are a local model/prompt diagnostic, not evidence of source-topic prevalence.",
+          "Paired label changes exclude parse failures; both denominators and raw failures remain visible.",
+          "The lexicon comparison is a separate post-hoc indicator sensitivity, not a corrected human reference.",
+          "No factual truth, speech authenticity or human annotation accuracy is established."
+        ]
+      }
+    },
+    {
+      "check": "public bundle current diagnostic annotationComparison",
+      "passed": true,
+      "actual": {
+        "status": "completed_source_only_bookkeeping",
+        "conditions": [
+          {
+            "id": "qwen25_original",
+            "model": "Qwen/Qwen2.5-0.5B-Instruct",
+            "themeOptionOrder": "original",
+            "maxNewTokens": 96,
+            "n": 12,
+            "parsedRecords": 9,
+            "parseFailures": 3,
+            "sourceSpanExactCount": 0,
+            "sourceSpanAtMostEightWordsCount": 9,
+            "sourceSpanExactAndShortCount": 0,
+            "sourceSpanExactButOverLengthCount": 0,
+            "sourceSpanNonexactCount": 9,
+            "conditionalYesCount": 9,
+            "conditionalMethodAgreementCount": 5,
+            "conditionalParsedDenominator": 9,
+            "conditionalAlwaysYesBaselineAgreementCount": 5,
+            "conditionalAlwaysYesBaselineRate": 0.5555555555555556,
+            "conditionalMethodAgreementRate": 0.5555555555555556,
+            "allParsedConditionalLabelsYes": true
+          },
+          {
+            "id": "qwen25_reversed",
+            "model": "Qwen/Qwen2.5-0.5B-Instruct",
+            "themeOptionOrder": "reversed",
+            "maxNewTokens": 96,
+            "n": 12,
+            "parsedRecords": 9,
+            "parseFailures": 3,
+            "sourceSpanExactCount": 0,
+            "sourceSpanAtMostEightWordsCount": 7,
+            "sourceSpanExactAndShortCount": 0,
+            "sourceSpanExactButOverLengthCount": 0,
+            "sourceSpanNonexactCount": 9,
+            "conditionalYesCount": 8,
+            "conditionalMethodAgreementCount": 3,
+            "conditionalParsedDenominator": 9,
+            "conditionalAlwaysYesBaselineAgreementCount": 4,
+            "conditionalAlwaysYesBaselineRate": 0.4444444444444444,
+            "conditionalMethodAgreementRate": 0.3333333333333333,
+            "allParsedConditionalLabelsYes": false
+          },
+          {
+            "id": "qwen35_original",
+            "model": "Qwen/Qwen3.5-0.8B",
+            "themeOptionOrder": "original",
+            "maxNewTokens": 96,
+            "n": 12,
+            "parsedRecords": 12,
+            "parseFailures": 0,
+            "sourceSpanExactCount": 10,
+            "sourceSpanAtMostEightWordsCount": 6,
+            "sourceSpanExactAndShortCount": 5,
+            "sourceSpanExactButOverLengthCount": 5,
+            "sourceSpanNonexactCount": 2,
+            "conditionalYesCount": 12,
+            "conditionalMethodAgreementCount": 6,
+            "conditionalParsedDenominator": 12,
+            "conditionalAlwaysYesBaselineAgreementCount": 6,
+            "conditionalAlwaysYesBaselineRate": 0.5,
+            "conditionalMethodAgreementRate": 0.5,
+            "allParsedConditionalLabelsYes": true
+          }
+        ],
+        "sameSourceIds": [
+          "qa-jdzErS12DvU-002",
+          "qa-WEVqgD-L5kc-000",
+          "qa-ufzO0sbNICQ-014",
+          "qa-E_cPno64Z-Q-014",
+          "qa-IKJzZ-KVPdQ-017",
+          "qa-Rcjd1TkZUMY-000",
+          "qa-Dw9XHTMrgBE-015",
+          "qa-_UZ8EyuOuY8-004",
+          "qa-ygzBrMyMAQA-010",
+          "qa-pfB4F7uAjwE-012",
+          "qa-ETuHIzyRhyY-009",
+          "qa-os4a7-7bnLw-012"
+        ],
+        "sourceBindings": [
+          {
+            "file": "content-label-predictions.json",
+            "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+          },
+          {
+            "file": "option-order-predictions.json",
+            "sha256": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+          },
+          {
+            "file": "qwen35-content-label-predictions.json",
+            "sha256": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+          }
+        ],
+        "spanRule": "Nonempty case-sensitive contiguous substring of supplied answer gist; combined compliance additionally requires at most eight whitespace-separated words.",
+        "conditionalReference": "Inherited unvalidated regex indicator, not human truth. Always-yes baseline uses the same parsed-row denominator.",
+        "limitations": [
+          "Exact but overlength spans are length failures, not invented evidence.",
+          "The newer model and the original baseline both label every parsed conditional case yes; their concordance equals the always-yes baseline.",
+          "Different architectures/tokenizers/runtimes prevent a parameter-scale-only causal interpretation.",
+          "Parsing and source-span compliance do not validate semantic labels, original speech or factual truth."
+        ]
+      },
+      "expected": {
+        "status": "completed_source_only_bookkeeping",
+        "conditions": [
+          {
+            "id": "qwen25_original",
+            "model": "Qwen/Qwen2.5-0.5B-Instruct",
+            "themeOptionOrder": "original",
+            "maxNewTokens": 96,
+            "n": 12,
+            "parsedRecords": 9,
+            "parseFailures": 3,
+            "sourceSpanExactCount": 0,
+            "sourceSpanAtMostEightWordsCount": 9,
+            "sourceSpanExactAndShortCount": 0,
+            "sourceSpanExactButOverLengthCount": 0,
+            "sourceSpanNonexactCount": 9,
+            "conditionalYesCount": 9,
+            "conditionalMethodAgreementCount": 5,
+            "conditionalParsedDenominator": 9,
+            "conditionalAlwaysYesBaselineAgreementCount": 5,
+            "conditionalAlwaysYesBaselineRate": 0.5555555555555556,
+            "conditionalMethodAgreementRate": 0.5555555555555556,
+            "allParsedConditionalLabelsYes": true
+          },
+          {
+            "id": "qwen25_reversed",
+            "model": "Qwen/Qwen2.5-0.5B-Instruct",
+            "themeOptionOrder": "reversed",
+            "maxNewTokens": 96,
+            "n": 12,
+            "parsedRecords": 9,
+            "parseFailures": 3,
+            "sourceSpanExactCount": 0,
+            "sourceSpanAtMostEightWordsCount": 7,
+            "sourceSpanExactAndShortCount": 0,
+            "sourceSpanExactButOverLengthCount": 0,
+            "sourceSpanNonexactCount": 9,
+            "conditionalYesCount": 8,
+            "conditionalMethodAgreementCount": 3,
+            "conditionalParsedDenominator": 9,
+            "conditionalAlwaysYesBaselineAgreementCount": 4,
+            "conditionalAlwaysYesBaselineRate": 0.4444444444444444,
+            "conditionalMethodAgreementRate": 0.3333333333333333,
+            "allParsedConditionalLabelsYes": false
+          },
+          {
+            "id": "qwen35_original",
+            "model": "Qwen/Qwen3.5-0.8B",
+            "themeOptionOrder": "original",
+            "maxNewTokens": 96,
+            "n": 12,
+            "parsedRecords": 12,
+            "parseFailures": 0,
+            "sourceSpanExactCount": 10,
+            "sourceSpanAtMostEightWordsCount": 6,
+            "sourceSpanExactAndShortCount": 5,
+            "sourceSpanExactButOverLengthCount": 5,
+            "sourceSpanNonexactCount": 2,
+            "conditionalYesCount": 12,
+            "conditionalMethodAgreementCount": 6,
+            "conditionalParsedDenominator": 12,
+            "conditionalAlwaysYesBaselineAgreementCount": 6,
+            "conditionalAlwaysYesBaselineRate": 0.5,
+            "conditionalMethodAgreementRate": 0.5,
+            "allParsedConditionalLabelsYes": true
+          }
+        ],
+        "sameSourceIds": [
+          "qa-jdzErS12DvU-002",
+          "qa-WEVqgD-L5kc-000",
+          "qa-ufzO0sbNICQ-014",
+          "qa-E_cPno64Z-Q-014",
+          "qa-IKJzZ-KVPdQ-017",
+          "qa-Rcjd1TkZUMY-000",
+          "qa-Dw9XHTMrgBE-015",
+          "qa-_UZ8EyuOuY8-004",
+          "qa-ygzBrMyMAQA-010",
+          "qa-pfB4F7uAjwE-012",
+          "qa-ETuHIzyRhyY-009",
+          "qa-os4a7-7bnLw-012"
+        ],
+        "sourceBindings": [
+          {
+            "file": "content-label-predictions.json",
+            "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+          },
+          {
+            "file": "option-order-predictions.json",
+            "sha256": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+          },
+          {
+            "file": "qwen35-content-label-predictions.json",
+            "sha256": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+          }
+        ],
+        "spanRule": "Nonempty case-sensitive contiguous substring of supplied answer gist; combined compliance additionally requires at most eight whitespace-separated words.",
+        "conditionalReference": "Inherited unvalidated regex indicator, not human truth. Always-yes baseline uses the same parsed-row denominator.",
+        "limitations": [
+          "Exact but overlength spans are length failures, not invented evidence.",
+          "The newer model and the original baseline both label every parsed conditional case yes; their concordance equals the always-yes baseline.",
+          "Different architectures/tokenizers/runtimes prevent a parameter-scale-only causal interpretation.",
+          "Parsing and source-span compliance do not validate semantic labels, original speech or factual truth."
+        ]
+      }
+    },
+    {
+      "check": "public bundle current diagnostic newFamilyLabels",
+      "passed": true,
+      "actual": {
+        "status": "completed",
+        "model": "Qwen/Qwen3.5-0.8B",
+        "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+        "license": "apache-2.0",
+        "n": 12,
+        "parsedRecords": 12,
+        "parseFailures": 0,
+        "sourceSpanExactAndShortCount": 5,
+        "sourceSpanEvaluableRecords": 12,
+        "conditionalMethodAgreementCount": 6,
+        "conditionalMethodAgreementDenominator": 12,
+        "conditionalMethodAgreementRate": 0.5,
+        "primaryThemeDictionaryConcordanceCount": 5,
+        "themeCounts": {
+          "personal_practice": 11,
+          "contact_forecast": 1
+        },
+        "conditionalLabelCounts": {
+          "yes": 12
+        },
+        "meanSeconds": 6.901981043000016,
+        "generationCapHits": 0,
+        "peakProcessRssKiB": 5612900,
+        "maxNewTokens": 96,
+        "enableThinking": false,
+        "device": "cpu",
+        "baselineComparison": {
+          "model": "Qwen/Qwen2.5-0.5B-Instruct",
+          "parsedRecords": 9,
+          "sourceSpanExactAndShortCount": 0
+        },
+        "limitations": [
+          "Same-item parse/span compliance comparison, not human annotation accuracy or factual truth.",
+          "Different model architectures, tokenizers and required runtime versions prevent isolating parameter scale as the cause.",
+          "Twelve balanced purposive digest excerpts from one practitioner context cannot support a general model ranking.",
+          "Exact short substrings support traceability but do not validate the semantic label or the original speech.",
+          "No images, video, audio, GPU fine-tuning or Qwen3.5 fine-tuning was run."
+        ]
+      },
+      "expected": {
+        "status": "completed",
+        "model": "Qwen/Qwen3.5-0.8B",
+        "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+        "license": "apache-2.0",
+        "n": 12,
+        "parsedRecords": 12,
+        "parseFailures": 0,
+        "sourceSpanExactAndShortCount": 5,
+        "sourceSpanEvaluableRecords": 12,
+        "conditionalMethodAgreementCount": 6,
+        "conditionalMethodAgreementDenominator": 12,
+        "conditionalMethodAgreementRate": 0.5,
+        "primaryThemeDictionaryConcordanceCount": 5,
+        "themeCounts": {
+          "personal_practice": 11,
+          "contact_forecast": 1
+        },
+        "conditionalLabelCounts": {
+          "yes": 12
+        },
+        "meanSeconds": 6.901981043000016,
+        "generationCapHits": 0,
+        "peakProcessRssKiB": 5612900,
+        "maxNewTokens": 96,
+        "enableThinking": false,
+        "device": "cpu",
+        "baselineComparison": {
+          "model": "Qwen/Qwen2.5-0.5B-Instruct",
+          "parsedRecords": 9,
+          "sourceSpanExactAndShortCount": 0
+        },
+        "limitations": [
+          "Same-item parse/span compliance comparison, not human annotation accuracy or factual truth.",
+          "Different model architectures, tokenizers and required runtime versions prevent isolating parameter scale as the cause.",
+          "Twelve balanced purposive digest excerpts from one practitioner context cannot support a general model ranking.",
+          "Exact short substrings support traceability but do not validate the semantic label or the original speech.",
+          "No images, video, audio, GPU fine-tuning or Qwen3.5 fine-tuning was run."
+        ]
+      }
+    },
+    {
+      "check": "public bundle current diagnostic lexiconSensitivity",
+      "passed": true,
+      "actual": {
+        "classification": "Post-hoc lexicon sensitivity after inspecting dependency false positive; not human validation",
+        "sourceQaSha256": "cdd36b99d8f8a58929ef3bd190521e614ffad3d2027533596abf2e40cdf0aab6",
+        "originalRegex": "\\b(?:if|unless|depend\\w*|provided|as long as)\\b",
+        "stricterRegex": "\\b(?:if|unless|depends?|depending|provided|as long as)\\b",
+        "n": 949,
+        "originalConditionalCount": 60,
+        "stricterConditionalCount": 58,
+        "changedCount": 2,
+        "changedRecords": [
+          {
+            "id": "qa-94agFEADfyk-004",
+            "sourceUrl": "https://www.youtube.com/watch?v=94agFEADfyk",
+            "sourceSha256": "301c31d9285329d61fbbeb4e9b6a276732712166cdb3b0bc019767a8e7d71549",
+            "sourcePointer": "/qa_topics/4",
+            "answerGist": "Redefine dependence as an opportunity for others to serve and grow. Soul chose these experiences for specific growth; viewing them positively transforms the experience from negative to constructive.",
+            "originalConditionalIndicator": true,
+            "stricterConditionalIndicator": false
+          },
+          {
+            "id": "qa-jdzErS12DvU-002",
+            "sourceUrl": "https://www.youtube.com/watch?v=jdzErS12DvU",
+            "sourceSha256": "6156eb603023217cb946cf487d41635ad6b057350fc182b9b41e3a7d3b9a11b3",
+            "sourcePointer": "/qa_topics/2",
+            "answerGist": "Their frequency is so high it could overwhelm human consciousness and cause psychic shock. They need humanity to raise its vibration first through self-empowerment rather than dependency.",
+            "originalConditionalIndicator": true,
+            "stricterConditionalIndicator": false
+          }
+        ],
+        "limitations": [
+          "The narrower rule excludes dependency/dependence forms but remains an unvalidated lexical indicator.",
+          "Words such as provided can be nonconditional; neither rule establishes actual uncertainty, intent or factual truth.",
+          "The original codebook, selection and benchmark labels remain unchanged."
+        ]
+      },
+      "expected": {
+        "classification": "Post-hoc lexicon sensitivity after inspecting dependency false positive; not human validation",
+        "sourceQaSha256": "cdd36b99d8f8a58929ef3bd190521e614ffad3d2027533596abf2e40cdf0aab6",
+        "originalRegex": "\\b(?:if|unless|depend\\w*|provided|as long as)\\b",
+        "stricterRegex": "\\b(?:if|unless|depends?|depending|provided|as long as)\\b",
+        "n": 949,
+        "originalConditionalCount": 60,
+        "stricterConditionalCount": 58,
+        "changedCount": 2,
+        "changedRecords": [
+          {
+            "id": "qa-94agFEADfyk-004",
+            "sourceUrl": "https://www.youtube.com/watch?v=94agFEADfyk",
+            "sourceSha256": "301c31d9285329d61fbbeb4e9b6a276732712166cdb3b0bc019767a8e7d71549",
+            "sourcePointer": "/qa_topics/4",
+            "answerGist": "Redefine dependence as an opportunity for others to serve and grow. Soul chose these experiences for specific growth; viewing them positively transforms the experience from negative to constructive.",
+            "originalConditionalIndicator": true,
+            "stricterConditionalIndicator": false
+          },
+          {
+            "id": "qa-jdzErS12DvU-002",
+            "sourceUrl": "https://www.youtube.com/watch?v=jdzErS12DvU",
+            "sourceSha256": "6156eb603023217cb946cf487d41635ad6b057350fc182b9b41e3a7d3b9a11b3",
+            "sourcePointer": "/qa_topics/2",
+            "answerGist": "Their frequency is so high it could overwhelm human consciousness and cause psychic shock. They need humanity to raise its vibration first through self-empowerment rather than dependency.",
+            "originalConditionalIndicator": true,
+            "stricterConditionalIndicator": false
+          }
+        ],
+        "limitations": [
+          "The narrower rule excludes dependency/dependence forms but remains an unvalidated lexical indicator.",
+          "Words such as provided can be nonconditional; neither rule establishes actual uncertainty, intent or factual truth.",
+          "The original codebook, selection and benchmark labels remain unchanged."
+        ]
+      }
+    },
+    {
+      "check": "public bundle current diagnostic contentLabels",
+      "passed": true,
+      "actual": {
+        "status": "completed",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+        "adapterUsed": false,
+        "task": "Primary answer orientation and conditional wording from supplied digest text",
+        "primaryThemes": [
+          "contact_forecast",
+          "personal_practice",
+          "cosmology",
+          "other",
+          "unclear"
+        ],
+        "conditionalLabels": [
+          "yes",
+          "no",
+          "unclear"
+        ],
+        "selection": "Fixed seed42, six dictionary-conditional and six dictionary-nonconditional examples, all12 from distinct conservative source-proxy groups; purposive balanced method comparison",
+        "humanLabels": false,
+        "truthLabels": false,
+        "source": "AI-generated digest paraphrases only",
+        "n": 12,
+        "parsedRecords": 9,
+        "parseFailures": 3,
+        "conditionalMethodAgreementCount": 5,
+        "conditionalMethodAgreementDenominator": 9,
+        "conditionalMethodAgreementRate": 0.5555555555555556,
+        "primaryThemeDictionaryConcordanceCount": 2,
+        "sourceSpanExactAndShortCount": 0,
+        "meanSeconds": 2.7721690833333335,
+        "themeCounts": {
+          "contact_forecast": 9
+        },
+        "limitations": [
+          "Method concordance is not human annotation accuracy or factual correctness.",
+          "Balanced12-example selection is purposive, not representative corpus prevalence.",
+          "Primary-theme labels are forced single labels; dictionary categories overlap.",
+          "Invalid or unsupported evidence spans are retained as failures, not silently corrected.",
+          "No original speech, turn boundaries or entity authenticity were validated."
+        ],
+        "sourceSpanEvaluableRecords": 9,
+        "sourceSpanInvalidParsedCount": 9,
+        "conditionalLabelCounts": {
+          "yes": 9
+        },
+        "unknownConditionalCount": 0
+      },
+      "expected": {
+        "status": "completed",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+        "adapterUsed": false,
+        "task": "Primary answer orientation and conditional wording from supplied digest text",
+        "primaryThemes": [
+          "contact_forecast",
+          "personal_practice",
+          "cosmology",
+          "other",
+          "unclear"
+        ],
+        "conditionalLabels": [
+          "yes",
+          "no",
+          "unclear"
+        ],
+        "selection": "Fixed seed42, six dictionary-conditional and six dictionary-nonconditional examples, all12 from distinct conservative source-proxy groups; purposive balanced method comparison",
+        "humanLabels": false,
+        "truthLabels": false,
+        "source": "AI-generated digest paraphrases only",
+        "n": 12,
+        "parsedRecords": 9,
+        "parseFailures": 3,
+        "conditionalMethodAgreementCount": 5,
+        "conditionalMethodAgreementDenominator": 9,
+        "conditionalMethodAgreementRate": 0.5555555555555556,
+        "primaryThemeDictionaryConcordanceCount": 2,
+        "sourceSpanExactAndShortCount": 0,
+        "meanSeconds": 2.7721690833333335,
+        "themeCounts": {
+          "contact_forecast": 9
+        },
+        "limitations": [
+          "Method concordance is not human annotation accuracy or factual correctness.",
+          "Balanced12-example selection is purposive, not representative corpus prevalence.",
+          "Primary-theme labels are forced single labels; dictionary categories overlap.",
+          "Invalid or unsupported evidence spans are retained as failures, not silently corrected.",
+          "No original speech, turn boundaries or entity authenticity were validated."
+        ],
+        "sourceSpanEvaluableRecords": 9,
+        "sourceSpanInvalidParsedCount": 9,
+        "conditionalLabelCounts": {
+          "yes": 9
+        },
+        "unknownConditionalCount": 0
+      }
+    },
+    {
+      "check": "public UI equals reviewed source app.js",
+      "passed": true,
+      "actual": "0117c62403e6d01ac17cdd81e6b45b865d7010f8f88810ed0c512dbe1bb5f2f4",
+      "expected": "0117c62403e6d01ac17cdd81e6b45b865d7010f8f88810ed0c512dbe1bb5f2f4"
+    },
+    {
+      "check": "public UI equals reviewed source index.html",
+      "passed": true,
+      "actual": "75f9bbf90472c6e8aa623c4f9f2713476b31022fe6cac3aa0d541e9c79434d36",
+      "expected": "75f9bbf90472c6e8aa623c4f9f2713476b31022fe6cac3aa0d541e9c79434d36"
+    },
+    {
+      "check": "public UI equals reviewed source styles.css",
+      "passed": true,
+      "actual": "a13e46bd4572e0f66b2a71355eec352b261ec9062c0b1467709c347ff26e509d",
+      "expected": "a13e46bd4572e0f66b2a71355eec352b261ec9062c0b1467709c347ff26e509d"
+    },
+    {
+      "check": "targeted fresh register has eighteen sources",
+      "passed": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "check": "prior twenty-eight-source register preserved",
+      "passed": true,
+      "actual": "8f6de5289d9bde75ed4bc5b5b6946d88f1eb3d86659e0d1368e8ecbf63b60a15",
+      "expected": "8f6de5289d9bde75ed4bc5b5b6946d88f1eb3d86659e0d1368e8ecbf63b60a15"
+    },
+    {
+      "check": "fresh official style exact",
+      "passed": true,
+      "actual": "01990f8d3716f8e39c5b28a7478f3ac6e28630d1161de6105a7217f5e7f60e43",
+      "expected": "01990f8d3716f8e39c5b28a7478f3ac6e28630d1161de6105a7217f5e7f60e43"
+    },
+    {
+      "check": "no duplicate BibTeX keys",
+      "passed": true,
+      "actual": 37,
+      "expected": 37
+    },
+    {
+      "check": "every cited key resolves in current bibliography",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    }
+  ]
+}

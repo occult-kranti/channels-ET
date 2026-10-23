@@ -1,0 +1,66 @@
+{
+  "round": 12,
+  "role": "Coordinating AI technical reviewer; not human peer review",
+  "status": "PASS_WITH_EXPLICIT_EXTERNAL_AND_VALIDITY_LIMITS",
+  "checkedAt": "2026-10-23T22:01:28.568312+00:00",
+  "basharPreserved": {
+    "head": "151efb25824dd54768edef7b71ca2a22f1c6d1ac",
+    "trackedAndUntrackedStatusEmpty": true
+  },
+  "defaultFullBuild": {
+    "command": "/workspace/channels-et-analysis-venv/bin/python research/continuation/build.py",
+    "exitCode": 0,
+    "logSha256": "7e2fdde29721b052c307ff36a4abc0ecdee73eeaf6952dcf9ecc143614d1ae20",
+    "scope": "Full migrated expansion plus corrected-round11 continuation, tested in independent fresh environment."
+  },
+  "finalContinuationBuild": {
+    "command": "/workspace/channels-et-analysis-venv/bin/python research/continuation/build.py --skip-expansion",
+    "exitCode": 0,
+    "logSha256": "00f6b48f4817e26cdd09bddb448011b6deed9e469847cc49cd08905c7942bf70",
+    "scope": "All final round12 saved-output audits,13-file numerical reproduction,figures,paper,publicdashboard and234source/byteclosure checks."
+  },
+  "releaseVerificationSha256": "773db499075281ab851c4fea531f46e8b74c34de276ec32a1a5d8b45e72a5f60",
+  "paperVerificationSha256": "f5b4929df680cbcfb398ef1cf84bf9938bf751a762fa43f9220ee159e0145c10",
+  "paperRepeatabilitySha256": "75ba6e31468083fe4e116176e056708803ba2d208070ed4242b464c75c11309b",
+  "dashboardFinalReceiptSha256": "b56fbeed70ff9a3466c1375664eacce68877cb0efff2786ff337afb06aa2eb65",
+  "independentMethodsReceiptSha256": "8c9cc4f190c72f88985bb0aedf2fbb6f78b264cba2cd8373b841cc036511b3ee",
+  "currentLocalHttpChecks": [
+    {
+      "path": "/dist/research/paper.pdf",
+      "status": 200,
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    {
+      "path": "/dist/research/source.zip",
+      "status": 200,
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    {
+      "path": "/dist/research/data.json",
+      "status": 200,
+      "sha256": "b82fcbfdf8ca3e0714712a6c4f76afbfff07096aa469f67b590a72e254d313a5"
+    },
+    {
+      "path": "/dist/research/qa-candidates.sqlite",
+      "status": 200,
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+    }
+  ],
+  "finalReviewerNotes": {
+    "acquisition": "a013c99c7e263dfbe7d714b51814f7acbe34c3469e5bf42ca073981a0b427508",
+    "analysis": "3aa75905e95418ff9b0b97c7c238c64d34d063a86f2a37de91b42dbce5a721d9",
+    "dashboard": "92ad54298a8710b9c3c7e3a4e89d3098ca13c0d962fe94e50c84176311e14e08",
+    "methods": "807ac51f7a1bbc79acb5e57268c4d30c7045a97a599168db4aa5c9ce71939f4e",
+    "models": "2cc157fb9cd207c54ad00f330e13dd6aa32d0ffe43910f3b2ba03d74ae80ceec",
+    "paper": "2a93fd623c1e1d5a254b341e8464688ba88338839df905e1568e3b2ed95a2ed7"
+  },
+  "neuralInferenceReplayedInFinalBuild": false,
+  "exactTokenizerReplayInOfflineBuild": "Skipped explicitly; retained length receipt is not a fresh tokenization run.",
+  "externalLimits": [
+    "Zero successful new raw transcripts or media; two distinct denied source requests; candidate queues not executed.",
+    "No CUDA GPU; current-family text probes do not establish SOTA or audiovisual performance.",
+    "949Q&A are AI-digest candidates from one practitioner context; no human semantic accuracy or multi-practitioner answer comparison.",
+    "Hosted deployment,Overleaf project creation,environment publication and conference submission not performed."
+  ],
+  "sourceAndDownloadDiscrepancies": []
+}

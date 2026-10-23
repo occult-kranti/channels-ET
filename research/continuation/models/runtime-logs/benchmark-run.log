@@ -1,0 +1,70 @@
+Sliding Window Attention is enabled but not implemented for `eager`; unexpected results may be encountered.
+{"arm": "lexical_retrieval", "id": "qa-_UZ8EyuOuY8-000", "seconds": 0.0, "tokenF1": 0.041667, "abstained": false}
+{"arm": "lexical_retrieval", "id": "qa-QBk2MQ1MVZo-000", "seconds": 0.0, "tokenF1": 0.0, "abstained": true}
+{"arm": "lexical_retrieval", "id": "qa-ufzO0sbNICQ-000", "seconds": 0.0, "tokenF1": 0.088889, "abstained": false}
+{"arm": "lexical_retrieval", "id": "qa-DvWNnqnBAjc-000", "seconds": 0.0, "tokenF1": 0.071429, "abstained": false}
+{"arm": "lexical_retrieval", "id": "qa-Fp1YFz-8d4Y-000", "seconds": 0.0, "tokenF1": 0.043478, "abstained": false}
+{"arm": "lexical_retrieval", "id": "qa-IuO0mjva9ls-000", "seconds": 0.0, "tokenF1": 0.0, "abstained": true}
+{"arm": "lexical_retrieval", "id": "qa-vrv3J-ri804-000", "seconds": 0.0, "tokenF1": 0.034483, "abstained": false}
+{"arm": "lexical_retrieval", "id": "qa-yx5hg3wTESs-000", "seconds": 0.0, "tokenF1": 0.0, "abstained": true}
+{"arm": "lexical_retrieval", "id": "control-studio-temperature", "seconds": 0.0, "tokenF1": null, "abstained": true}
+{"arm": "lexical_retrieval", "id": "control-unpublished-hash", "seconds": 0.0, "tokenF1": null, "abstained": false}
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{"arm": "qwen_base_closed", "id": "qa-_UZ8EyuOuY8-000", "seconds": 1.05, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_closed", "id": "qa-QBk2MQ1MVZo-000", "seconds": 2.61, "tokenF1": 0.047619, "abstained": false}
+{"arm": "qwen_base_closed", "id": "qa-ufzO0sbNICQ-000", "seconds": 1.6, "tokenF1": 0.258065, "abstained": false}
+{"arm": "qwen_base_closed", "id": "qa-DvWNnqnBAjc-000", "seconds": 2.19, "tokenF1": 0.090909, "abstained": false}
+{"arm": "qwen_base_closed", "id": "qa-Fp1YFz-8d4Y-000", "seconds": 1.0, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_closed", "id": "qa-IuO0mjva9ls-000", "seconds": 1.0, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_closed", "id": "qa-vrv3J-ri804-000", "seconds": 2.14, "tokenF1": 0.085106, "abstained": false}
+{"arm": "qwen_base_closed", "id": "qa-yx5hg3wTESs-000", "seconds": 0.89, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_closed", "id": "control-studio-temperature", "seconds": 0.73, "tokenF1": null, "abstained": false}
+{"arm": "qwen_base_closed", "id": "control-unpublished-hash", "seconds": 0.75, "tokenF1": null, "abstained": false}
+{"arm": "qwen_base_rag", "id": "qa-_UZ8EyuOuY8-000", "seconds": 1.38, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_rag", "id": "qa-QBk2MQ1MVZo-000", "seconds": 0.95, "tokenF1": 0.0, "abstained": false}
+{"arm": "qwen_base_rag", "id": "qa-ufzO0sbNICQ-000", "seconds": 1.56, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_rag", "id": "qa-DvWNnqnBAjc-000", "seconds": 1.08, "tokenF1": 0.0, "abstained": false}
+{"arm": "qwen_base_rag", "id": "qa-Fp1YFz-8d4Y-000", "seconds": 1.27, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_rag", "id": "qa-IuO0mjva9ls-000", "seconds": 1.04, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_rag", "id": "qa-vrv3J-ri804-000", "seconds": 2.57, "tokenF1": 0.085106, "abstained": false}
+{"arm": "qwen_base_rag", "id": "qa-yx5hg3wTESs-000", "seconds": 1.06, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_base_rag", "id": "control-studio-temperature", "seconds": 1.23, "tokenF1": null, "abstained": true}
+{"arm": "qwen_base_rag", "id": "control-unpublished-hash", "seconds": 1.13, "tokenF1": null, "abstained": false}
+{"trainingMicrostep": 4, "loss": 5.929271, "elapsed": 5.66}
+{"trainingMicrostep": 8, "loss": 3.471393, "elapsed": 11.27}
+{"trainingMicrostep": 12, "loss": 3.59927, "elapsed": 16.97}
+{"trainingMicrostep": 16, "loss": 4.421309, "elapsed": 22.44}
+{"trainingMicrostep": 20, "loss": 3.881777, "elapsed": 28.07}
+{"trainingMicrostep": 24, "loss": 4.559571, "elapsed": 33.36}
+{"trainingMicrostep": 28, "loss": 5.527016, "elapsed": 38.51}
+{"trainingMicrostep": 32, "loss": 3.963983, "elapsed": 43.63}
+{"trainingMicrostep": 36, "loss": 4.884829, "elapsed": 48.57}
+{"trainingMicrostep": 40, "loss": 3.745277, "elapsed": 54.01}
+{"trainingMicrostep": 44, "loss": 3.934283, "elapsed": 59.66}
+{"trainingMicrostep": 48, "loss": 4.584746, "elapsed": 65.04}
+{"arm": "qwen_lora_closed", "id": "qa-_UZ8EyuOuY8-000", "seconds": 3.96, "tokenF1": 0.071429, "abstained": false}
+{"arm": "qwen_lora_closed", "id": "qa-QBk2MQ1MVZo-000", "seconds": 4.16, "tokenF1": 0.105263, "abstained": false}
+{"arm": "qwen_lora_closed", "id": "qa-ufzO0sbNICQ-000", "seconds": 2.49, "tokenF1": 0.153846, "abstained": false}
+{"arm": "qwen_lora_closed", "id": "qa-DvWNnqnBAjc-000", "seconds": 4.23, "tokenF1": 0.225806, "abstained": false}
+{"arm": "qwen_lora_closed", "id": "qa-Fp1YFz-8d4Y-000", "seconds": 1.15, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_lora_closed", "id": "qa-IuO0mjva9ls-000", "seconds": 4.38, "tokenF1": 0.204082, "abstained": false}
+{"arm": "qwen_lora_closed", "id": "qa-vrv3J-ri804-000", "seconds": 3.78, "tokenF1": 0.163934, "abstained": false}
+{"arm": "qwen_lora_closed", "id": "qa-yx5hg3wTESs-000", "seconds": 4.4, "tokenF1": 0.238095, "abstained": false}
+{"arm": "qwen_lora_closed", "id": "control-studio-temperature", "seconds": 1.94, "tokenF1": null, "abstained": false}
+{"arm": "qwen_lora_closed", "id": "control-unpublished-hash", "seconds": 2.4, "tokenF1": null, "abstained": false}
+{"arm": "qwen_lora_rag", "id": "qa-_UZ8EyuOuY8-000", "seconds": 1.56, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_lora_rag", "id": "qa-QBk2MQ1MVZo-000", "seconds": 0.83, "tokenF1": 0.0, "abstained": false}
+{"arm": "qwen_lora_rag", "id": "qa-ufzO0sbNICQ-000", "seconds": 1.45, "tokenF1": 0.0, "abstained": false}
+{"arm": "qwen_lora_rag", "id": "qa-DvWNnqnBAjc-000", "seconds": 1.51, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_lora_rag", "id": "qa-Fp1YFz-8d4Y-000", "seconds": 1.97, "tokenF1": 0.066667, "abstained": false}
+{"arm": "qwen_lora_rag", "id": "qa-IuO0mjva9ls-000", "seconds": 0.86, "tokenF1": 0.0, "abstained": false}
+{"arm": "qwen_lora_rag", "id": "qa-vrv3J-ri804-000", "seconds": 4.41, "tokenF1": 0.03125, "abstained": false}
+{"arm": "qwen_lora_rag", "id": "qa-yx5hg3wTESs-000", "seconds": 1.02, "tokenF1": 0.0, "abstained": true}
+{"arm": "qwen_lora_rag", "id": "control-studio-temperature", "seconds": 1.12, "tokenF1": null, "abstained": true}
+{"arm": "qwen_lora_rag", "id": "control-unpublished-hash", "seconds": 3.0, "tokenF1": null, "abstained": true}
+{"status": "completed", "arms": [{"id": "lexical_retrieval", "kind": "lexical", "n": 8, "controlN": 2, "meanTokenF1": 0.034993, "meanSeconds": 0.000421, "validCitationRate": 0.625, "invalidCitationRate": 0.0, "abstentionRateOnControls": 0.5, "abstentionRateOnHeldoutQuestions": 0.375}, {"id": "qwen_base_closed", "kind": "local_language_model", "n": 8, "controlN": 2, "meanTokenF1": 0.060212, "meanSeconds": 1.396184, "validCitationRate": null, "invalidCitationRate": null, "abstentionRateOnControls": 0.0, "abstentionRateOnHeldoutQuestions": 0.5}, {"id": "qwen_base_rag", "kind": "local_language_model", "n": 8, "controlN": 2, "meanTokenF1": 0.010638, "meanSeconds": 1.326006, "validCitationRate": 0.0, "invalidCitationRate": 0.0, "abstentionRateOnControls": 0.5, "abstentionRateOnHeldoutQuestions": 0.625}, {"id": "qwen_lora_closed", "kind": "local_language_model", "n": 8, "controlN": 2, "meanTokenF1": 0.145307, "meanSeconds": 3.289925, "validCitationRate": null, "invalidCitationRate": null, "abstentionRateOnControls": 0.0, "abstentionRateOnHeldoutQuestions": 0.125}, {"id": "qwen_lora_rag", "kind": "local_language_model", "n": 8, "controlN": 2, "meanTokenF1": 0.01224, "meanSeconds": 1.771506, "validCitationRate": 0.0, "invalidCitationRate": 0.0, "abstentionRateOnControls": 1.0, "abstentionRateOnHeldoutQuestions": 0.375}], "trainingSeconds": 65.03990754899996}

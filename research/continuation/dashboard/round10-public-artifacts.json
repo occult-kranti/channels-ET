@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "checks": [
+    "analysis-results.json HTTP/source/displayed-hash equality",
+    "model-results.json HTTP/source/displayed-hash equality",
+    "training-receipt.json HTTP/source/displayed-hash equality",
+    "predictions.json HTTP/source/displayed-hash equality",
+    "qwen-digest-lora-pilot.zip HTTP/source/displayed-hash equality",
+    "hardware.json HTTP/source/displayed-hash equality",
+    "model-protocol.json HTTP/source/displayed-hash equality",
+    "model-split.json HTTP/source/displayed-hash equality",
+    "model-metadata.json HTTP/source/displayed-hash equality",
+    "acquisition-summary.json HTTP/source/displayed-hash equality",
+    "corpus-index.sqlite HTTP/source/displayed-hash equality",
+    "qa-candidates.sqlite HTTP/source/displayed-hash equality",
+    "qa-summary.json HTTP/source/displayed-hash equality",
+    "paper.pdf HTTP/source/displayed-hash equality",
+    "source.zip HTTP/source/displayed-hash equality"
+  ],
+  "artifacts": {
+    "analysis-results.json": {
+      "bytes": 221394,
+      "sha256": "b760388e04cf6b8158efd86a30b384f8c63db25bd09b71f02901bc168c30a878"
+    },
+    "model-results.json": {
+      "bytes": 6396,
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f"
+    },
+    "training-receipt.json": {
+      "bytes": 8809,
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+    },
+    "predictions.json": {
+      "bytes": 66483,
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5"
+    },
+    "qwen-digest-lora-pilot.zip": {
+      "bytes": 1015037,
+      "sha256": "cd8d7e67f94f9b8f8fa9b80656992eb2cbfa5ec4a1634f3ccb9b6c5c9e05139c"
+    },
+    "hardware.json": {
+      "bytes": 328,
+      "sha256": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38"
+    },
+    "model-protocol.json": {
+      "bytes": 2537,
+      "sha256": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f"
+    },
+    "model-split.json": {
+      "bytes": 88879,
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e"
+    },
+    "model-metadata.json": {
+      "bytes": 9557,
+      "sha256": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a"
+    },
+    "acquisition-summary.json": {
+      "bytes": 83109,
+      "sha256": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00"
+    },
+    "corpus-index.sqlite": {
+      "bytes": 593920,
+      "sha256": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e"
+    },
+    "qa-candidates.sqlite": {
+      "bytes": 925696,
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+    },
+    "qa-summary.json": {
+      "bytes": 245622,
+      "sha256": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100"
+    },
+    "paper.pdf": {
+      "bytes": 356559,
+      "sha256": "0ad9ae29da658a55c14acdbdced2abbdfda96b985a519745912f08230f1ec081"
+    },
+    "source.zip": {
+      "bytes": 163293,
+      "sha256": "0f14ecb4179fd0059b5c629754d654e7d7bfcc9858be995fc056ed70b84cef17"
+    },
+    "app.js": {
+      "bytes": 25970,
+      "sha256": "998257a8604cec135749e07c5c4eef85e550bf3641226dd50bc205d31e7085f9"
+    },
+    "styles.css": {
+      "bytes": 9232,
+      "sha256": "232dd84c1fd59776d501d4e6a27ade5d1cd680d358c1c0fbe47ae941bdc18baf"
+    },
+    "index.html": {
+      "bytes": 1678,
+      "sha256": "3aac6e03ef4a5c496eb0a2d8a1d9d527f13ef1954b34fe0b776a8cee94358d33"
+    },
+    "data.json": {
+      "bytes": 866973,
+      "sha256": "bbf18487817985d390e5e626626532906464cad270e3a6f53efe155d8489f2e8"
+    }
+  },
+  "checkedAt": "2026-10-23T21:26:29.559300+00:00",
+  "note": "Only paper and analytical assets changed after focused browser pass; public routes/hashes/source bytes rechecked."
+}

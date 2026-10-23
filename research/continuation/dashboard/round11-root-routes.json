@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "entry": "/",
+      "url": "http://127.0.0.1:8013/dist/research/",
+      "status": "PASS"
+    },
+    {
+      "entry": "/#experiments",
+      "url": "http://127.0.0.1:8013/dist/research/#experiments",
+      "status": "PASS"
+    },
+    {
+      "entry": "/#/analysis",
+      "url": "http://127.0.0.1:8013/dist/#/analysis",
+      "status": "PASS"
+    }
+  ],
+  "checkedAt": "2026-10-23T21:38:22.457Z"
+}

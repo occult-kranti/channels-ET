@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "stage": "initial_local_tokenizer_load",
+      "outcome": "failed_before_predictions_or_training",
+      "observedError": "ImportError: requires the protobuf library but it was not found in your environment",
+      "context": "Attempt occurred before the model downloader had completed tokenizer files or its verified manifest",
+      "correction": "Installed protobuf 6.33.2; waited for complete official-hash-verified model manifest before retry",
+      "receiptType": "Structured observation from tool output; initial full log was replaced by the subsequent run log"
+    },
+    {
+      "stage": "baseline_artifact_download",
+      "outcome": "verified",
+      "modelSafetensorsBytes": 988097824,
+      "modelSafetensorsSha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "verification": "Official pinned Hub LFS SHA256; other files verified against official Git blob SHA1"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "command": "bash research/continuation/models/setup_model_envs.sh",
+  "mode": "Repeatability check against the already-prepared environments; not a fresh-machine claim",
+  "pipChecksPassed": 2,
+  "modernIsolationAssertionPassed": true,
+  "scriptSha256": "84eb4a6fad2353f633ec1e8ea5c852694e9a2921e08f5dae692d107248da8936",
+  "logSha256": "be452953f0372f88c5d6453fde1186d14189f4ee9e981fde6012b39201cc6552"
+}

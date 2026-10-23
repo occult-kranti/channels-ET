@@ -1,0 +1,42 @@
+{
+  "review": "Cross-workstream numerical and provenance audit, not human or audiovisual validation",
+  "inputs": {
+    "qa-candidates.json": "87034285066bea7c59f4b190977b6a7b9f1077d0291dae834c25c904e813043a",
+    "question-pairs.json": "17629517ea6d187d92aab30079be8d5b61f2fc581e54012410e5bf10a544a476",
+    "summary.json": "7cc9705a73bed33523397b0e4812bb47974dfc21a8a48c83d294c53948a46128"
+  },
+  "checks": 2994,
+  "passed": 2994,
+  "failed": [],
+  "questionPairs": 127,
+  "distinctUploadPairs": 71,
+  "threeLargestUploadPairsQuestionPairCount": 30,
+  "upperThresholdSensitivity": [
+    {
+      "threshold": 0.4,
+      "retainedPairs": 127
+    },
+    {
+      "threshold": 0.5,
+      "retainedPairs": 73
+    },
+    {
+      "threshold": 0.6,
+      "retainedPairs": 47
+    },
+    {
+      "threshold": 0.7,
+      "retainedPairs": 34
+    },
+    {
+      "threshold": 0.8,
+      "retainedPairs": 24
+    },
+    {
+      "threshold": 0.9,
+      "retainedPairs": 18
+    }
+  ],
+  "summaryPreviewPairs": 100,
+  "status": "PASS"
+}

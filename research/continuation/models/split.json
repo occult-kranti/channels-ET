@@ -1,0 +1,2287 @@
+{
+  "seed": 42,
+  "sourceQaSha256": "cdd36b99d8f8a58929ef3bd190521e614ffad3d2027533596abf2e40cdf0aab6",
+  "sourceScope": "949 inherited AI digest pairs; Darryl Anka/Bashar context only",
+  "groupRule": "Union upload IDs if any exact normalized question, any question cosine>=0.80, or >=3 cross-upload retrieval pairs at cosine>=0.40; conservative proxy, not known original sessions",
+  "groupCount": 55,
+  "trainExamples": 48,
+  "testQuestions": 8,
+  "controls": 2,
+  "trainGroupIds": [
+    "0htF1V0v6ec",
+    "2GVhU6BRVWY",
+    "4NGd9kqWM04",
+    "5Js8U9sJ5-8",
+    "5lOHuqDbpoc",
+    "7WjydoNj7hE",
+    "94agFEADfyk",
+    "98KsASkO8Cs",
+    "9FrwPg8FYvM",
+    "9Ij2AEoRwoM",
+    "BaN26a0SbLQ",
+    "Dw9XHTMrgBE",
+    "EHK_mwdk3kM",
+    "ETuHIzyRhyY",
+    "E_cPno64Z-Q",
+    "HoYNcoMTk-4",
+    "IKJzZ-KVPdQ",
+    "IKYfZdjv3aE",
+    "JSwqz_ZhH_I",
+    "OzkviF1GCFc",
+    "Rcjd1TkZUMY",
+    "S3Xw09ZE2Dg",
+    "T5QtncJq1Jc",
+    "U-DHIk0lIQ4",
+    "WEVqgD-L5kc",
+    "ZACIL5Hzb5c",
+    "aZvcNhWthUA",
+    "d--HZiDqgs0",
+    "eCxOH-AK1rc",
+    "fOi0W9_JEWM",
+    "fZmY4xS_qXE",
+    "hFC4F3JO33M",
+    "hTlU_M_R0eE",
+    "hmX3hlNJBjU",
+    "jQbxp4e6bfg",
+    "ji9rMw37o2M",
+    "k0lWJ2B90-I",
+    "kPWOUEtUx2Y",
+    "kvU9mCJr-eo",
+    "lLFUTAVah30",
+    "mzcFoYUvbOE",
+    "ozHG5P7fY5I",
+    "p8JC21bFf5M",
+    "pfB4F7uAjwE",
+    "wCZ1Lib1_cQ",
+    "y0-_YOFU8eQ",
+    "zOcZDBhRaOQ"
+  ],
+  "testGroupIds": [
+    "_UZ8EyuOuY8",
+    "QBk2MQ1MVZo",
+    "ufzO0sbNICQ",
+    "DvWNnqnBAjc",
+    "Fp1YFz-8d4Y",
+    "IuO0mjva9ls",
+    "vrv3J-ri804",
+    "yx5hg3wTESs"
+  ],
+  "train": [
+    {
+      "id": "qa-fZmY4xS_qXE-000",
+      "videoId": "fZmY4xS_qXE",
+      "sourceUrl": "https://www.youtube.com/watch?v=fZmY4xS_qXE",
+      "sourcePath": "data/digests/fZmY4xS_qXE.json",
+      "sourceSha256": "836e8c00949534629073c76a1f0c539582af376c754a6ddb330206d6c34e2d17",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Why do some people perceive ETs as good while others see them as negative or destructive?",
+      "answerGist": "Perception depends on ET orientation and human fear responses. 99% of ETs engaging Earth are positive; negative ones are rare and managed. Reptilians trigger mammalian fight-or-flight responses due to species differences, not necessarily hostile intent.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "belief"
+      ],
+      "answerModalityMarkers": [
+        "conditional",
+        "probability"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "fZmY4xS_qXE"
+    },
+    {
+      "id": "qa-IKYfZdjv3aE-000",
+      "videoId": "IKYfZdjv3aE",
+      "sourceUrl": "https://www.youtube.com/watch?v=IKYfZdjv3aE",
+      "sourcePath": "data/digests/IKYfZdjv3aE.json",
+      "sourceSha256": "641a3b45a8a89d2ffec57f2c8e7977637368f379413d510b989565c77c63fd72",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How did your close encounters in 1973 lead to channeling Bashar?",
+      "answerGist": "Two UFO sightings (150 and 70 feet away) triggered research into metaphysics. Ten years later, during a channeling class meditation, Anka received a telepathic connection from Bashar recalling a prior agreement to channel in this lifetime.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": null,
+      "publisherName": "New Thinking Allowed with Jeffrey Mishlove",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "practice"
+      ],
+      "answerThemes": [
+        "contact",
+        "practice"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "unresolved-name-8fcf66829c97",
+      "sourceGroupId": "IKYfZdjv3aE"
+    },
+    {
+      "id": "qa-9Ij2AEoRwoM-000",
+      "videoId": "9Ij2AEoRwoM",
+      "sourceUrl": "https://www.youtube.com/watch?v=9Ij2AEoRwoM",
+      "sourcePath": "data/digests/9Ij2AEoRwoM.json",
+      "sourceSha256": "283e59a1e2334b05af5c61ebd454565b6a9fa09454c14ca019e680a039425817",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "What is happening in 2027 regarding extraterrestrials?",
+      "answerGist": "Open contact will be revealed—not new arrivals, but acknowledgment of decades-long secret collaboration already underway with governments, scientists, and officials.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-37bcf1f3be52",
+      "publisherName": "Next Level Soul: Soul Bites",
+      "format": "clip",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "prediction"
+      ],
+      "answerThemes": [
+        "contact",
+        "society"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-37bcf1f3be52",
+      "sourceGroupId": "9Ij2AEoRwoM"
+    },
+    {
+      "id": "qa-eCxOH-AK1rc-000",
+      "videoId": "eCxOH-AK1rc",
+      "sourceUrl": "https://www.youtube.com/watch?v=eCxOH-AK1rc",
+      "sourcePath": "data/digests/eCxOH-AK1rc.json",
+      "sourceSha256": "8e426029fa44275241ea59b5232eeff8f8196f191c0ca0ab9af5227e1d74e8c5",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Is Area 51 storing aliens as Obama suggested?",
+      "answerGist": "False; keepers of the secret operate above government protocols. Presidents often lack clearance due to need-to-know basis.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-8341a599036b",
+      "publisherName": "Higher Journeys Podcast",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "society"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-8341a599036b",
+      "sourceGroupId": "eCxOH-AK1rc"
+    },
+    {
+      "id": "qa-k0lWJ2B90-I-000",
+      "videoId": "k0lWJ2B90-I",
+      "sourceUrl": "https://www.youtube.com/watch?v=k0lWJ2B90-I",
+      "sourcePath": "data/digests/k0lWJ2B90-I.json",
+      "sourceSha256": "98cff969c4c05317f9e25d8069808eca90c8eddd8d00dc16e18c243d45333954",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How can I manifest another opportunity after turning down my dream job?",
+      "answerGist": "Release regret and the belief you made a mistake. Apply the formula to attract similar opportunities that will be equally fulfilling, even if not identical in form.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "Q&A only",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "belief"
+      ],
+      "answerModalityMarkers": [
+        "conditional"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "k0lWJ2B90-I"
+    },
+    {
+      "id": "qa-lLFUTAVah30-000",
+      "videoId": "lLFUTAVah30",
+      "sourceUrl": "https://www.youtube.com/watch?v=lLFUTAVah30",
+      "sourcePath": "data/digests/lLFUTAVah30.json",
+      "sourceSha256": "b48e0c58cc7e456e9dce4a1c667d8c8ebe1e484c3239463cecab8a63aaf2f258",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=lLFUTAVah30",
+      "question": "How do ascension symptoms like heart arrhythmia manifest during energy processing?",
+      "answerGist": "The body adapts to new energy frequencies. As you become less resistant and more superconductive neurologically, such symptoms taper off. Follow highest excitement with zero insistence on outcomes.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "physical"
+      ],
+      "answerThemes": [
+        "excitement",
+        "physical"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "lLFUTAVah30"
+    },
+    {
+      "id": "qa-ZACIL5Hzb5c-000",
+      "videoId": "ZACIL5Hzb5c",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZACIL5Hzb5c",
+      "sourcePath": "data/digests/ZACIL5Hzb5c.json",
+      "sourceSha256": "024e4f15e6594821d3d981808cfe131ffaf87816c86d26177a702103be61bc6e",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How can we consciously participate in extraterrestrial contact?",
+      "answerGist": "Follow the five-step formula: act on passion, continue until excitement naturally wanes, assume nothing about outcomes, stay positive, and release fear-based beliefs that don't belong to you.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-98d943e650e6",
+      "publisherName": "Gaia",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact",
+        "consciousness"
+      ],
+      "answerThemes": [
+        "excitement",
+        "belief"
+      ],
+      "answerModalityMarkers": [
+        "absolute",
+        "imperative"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-98d943e650e6",
+      "sourceGroupId": "ZACIL5Hzb5c"
+    },
+    {
+      "id": "qa-zOcZDBhRaOQ-000",
+      "videoId": "zOcZDBhRaOQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=zOcZDBhRaOQ",
+      "sourcePath": "data/digests/zOcZDBhRaOQ.json",
+      "sourceSha256": "7491dd0cd549caf84ba436e64eb60346cf14d2f245e5027d66bf3acf166c30c7",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=zOcZDBhRaOQ",
+      "question": "What makes someone an ascended master and do they know more than other souls?",
+      "answerGist": "Ascended masters have accumulated over 1000 incarnations and access higher vibrational levels in spirit. All souls know what's relevant for their level; ascended masters simply operate on higher frequency planes with deeper knowledge.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": null,
+      "publisherName": "Hibbs Teachings Hub",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "consciousness",
+        "physical"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "unresolved-name-0e0aa973c959",
+      "sourceGroupId": "zOcZDBhRaOQ"
+    },
+    {
+      "id": "qa-5Js8U9sJ5-8-000",
+      "videoId": "5Js8U9sJ5-8",
+      "sourceUrl": "https://www.youtube.com/watch?v=5Js8U9sJ5-8",
+      "sourcePath": "data/digests/5Js8U9sJ5-8.json",
+      "sourceSha256": "673679b92eb1cd338300fee8873114fed66429ceedaf28d542b34a385ac3d26c",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=5Js8U9sJ5-8",
+      "question": "How does the vortex energy in Sedona/Insanus relate to consciousness acceleration?",
+      "answerGist": "Vortices are nodal points of different energies worldwide. The named area has quickening energy allowing faster experiences and alignment, attracting those seeking accelerated consciousness exploration.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness",
+        "physical"
+      ],
+      "answerThemes": [
+        "consciousness",
+        "physical"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "5Js8U9sJ5-8"
+    },
+    {
+      "id": "qa-JSwqz_ZhH_I-000",
+      "videoId": "JSwqz_ZhH_I",
+      "sourceUrl": "https://www.youtube.com/watch?v=JSwqz_ZhH_I",
+      "sourcePath": "data/digests/JSwqz_ZhH_I.json",
+      "sourceSha256": "8baac2f6ce8c42af22267c2302e54ef9dc144cbab3b1e65e763521913c501534",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How do you stay positive when unexpected or crazy things happen?",
+      "answerGist": "Assign positive meaning to neutral events through language and imagination; define surprises as opportunities rather than obstacles that will derail you.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "JSwqz_ZhH_I"
+    },
+    {
+      "id": "qa-ozHG5P7fY5I-000",
+      "videoId": "ozHG5P7fY5I",
+      "sourceUrl": "https://www.youtube.com/watch?v=ozHG5P7fY5I",
+      "sourcePath": "data/digests/ozHG5P7fY5I.json",
+      "sourceSha256": "2d843df88b66b74050c2dc1dabdd98b8b728fcc19c8543c8a656ff428acf34cf",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How can someone who feels persistently low-energy and burnt out find inspiration to act on their passion?",
+      "answerGist": "True passion naturally generates energy when you act on it. Burnout signals you haven't found your unique path of least resistance; you must creatively discover your personal way rather than following inherited templates from society, family, or education.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "excitement",
+        "physical"
+      ],
+      "answerThemes": [
+        "excitement",
+        "belief",
+        "physical",
+        "society"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "ozHG5P7fY5I"
+    },
+    {
+      "id": "qa-5lOHuqDbpoc-000",
+      "videoId": "5lOHuqDbpoc",
+      "sourceUrl": "https://www.youtube.com/watch?v=5lOHuqDbpoc",
+      "sourcePath": "data/digests/5lOHuqDbpoc.json",
+      "sourceSha256": "7a8a31a6ba78c69d43611404f47dd49d0efa4029b5e5175e4a05507493fd30d7",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "What are the biggest metaphysical misconceptions people hold?",
+      "answerGist": "Outdated definitions confuse the experience with the mechanism. For example, telepathy isn't literally reading minds but matching vibrational frequencies so you think similar thoughts. Understanding the true mechanism (resonance, frequency, vibration) clarifies how metaphysical phenomena actually work.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-7855f163ea48",
+      "publisherName": "Next Level Soul Podcast",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "practice",
+        "physical"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-7855f163ea48",
+      "sourceGroupId": "5lOHuqDbpoc"
+    },
+    {
+      "id": "qa-WEVqgD-L5kc-000",
+      "videoId": "WEVqgD-L5kc",
+      "sourceUrl": "https://www.youtube.com/watch?v=WEVqgD-L5kc",
+      "sourcePath": "data/digests/WEVqgD-L5kc.json",
+      "sourceSha256": "f8f9c8da85af683f9be082469aa2cdc1dae5dcb32c2745f9fa6e582b878cebbf",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=WEVqgD-L5kc",
+      "question": "How can I follow highest joy if the economy collapses?",
+      "answerGist": "Examine why you prefer the disempowering belief. Often fear of the unknown makes the familiar seem preferable, even if painful. Identify and release inherited beliefs that aren't truly yours.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "belief"
+      ],
+      "answerModalityMarkers": [
+        "conditional"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "WEVqgD-L5kc"
+    },
+    {
+      "id": "qa-BaN26a0SbLQ-000",
+      "videoId": "BaN26a0SbLQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=BaN26a0SbLQ",
+      "sourcePath": "data/digests/BaN26a0SbLQ.json",
+      "sourceSha256": "4fdab4f59dfeb2e74f2db60cd988b879f5576643a538e72a2dc69c65dde17cc2",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How can I better understand my spirit team communications and light language?",
+      "answerGist": "Light language is raw channeled energy not yet translated into earthly language. Practice grounding it through people asking questions, or use journaling for 15-20 minutes daily to train your brain to translate it into physical language over 2-3 weeks.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "practice",
+        "physical"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "BaN26a0SbLQ"
+    },
+    {
+      "id": "qa-kPWOUEtUx2Y-000",
+      "videoId": "kPWOUEtUx2Y",
+      "sourceUrl": "https://www.youtube.com/watch?v=kPWOUEtUx2Y",
+      "sourcePath": "data/digests/kPWOUEtUx2Y.json",
+      "sourceSha256": "167d656beccf0232e580686a94f92043865a19313e2091da186b79d1ded92f1d",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How can I spread joy and awakening to others?",
+      "answerGist": "Be an example of yourself; don't need others to believe or change. Share through talking and music without attachment to outcomes.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-1ee2b3abaf07",
+      "publisherName": "Cosmic Bridge",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "belief"
+      ],
+      "answerModalityMarkers": [
+        "imperative"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-1ee2b3abaf07",
+      "sourceGroupId": "kPWOUEtUx2Y"
+    },
+    {
+      "id": "qa-OzkviF1GCFc-000",
+      "videoId": "OzkviF1GCFc",
+      "sourceUrl": "https://www.youtube.com/watch?v=OzkviF1GCFc",
+      "sourcePath": "data/digests/OzkviF1GCFc.json",
+      "sourceSha256": "ee0b784658ec2264d886e16e06ba08d4b2c18c2c54b506ed38b36244cd94ae1e",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=OzkviF1GCFc",
+      "question": "Should we trust government ET disclosure documents?",
+      "answerGist": "Regardless of how disclosed, the information reinforces collective focus on ET contact, which will eventually manifest it. Distrust specific outcomes but trust the process of focusing on the concept.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact",
+        "society"
+      ],
+      "answerThemes": [
+        "contact"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "OzkviF1GCFc"
+    },
+    {
+      "id": "qa-hmX3hlNJBjU-000",
+      "videoId": "hmX3hlNJBjU",
+      "sourceUrl": "https://www.youtube.com/watch?v=hmX3hlNJBjU",
+      "sourcePath": "data/digests/hmX3hlNJBjU.json",
+      "sourceSha256": "d52b0e14479c1cd23c6da1a6ffcedff765417de753cd1e3341aca6935442cbcc",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=hmX3hlNJBjU",
+      "question": "How can scary monster movies for children serve as effective storytelling tools?",
+      "answerGist": "When structured with proper story arc and catharsis, fear can be emotionally beneficial. Story structure is built into human psychology; hitting all the right chords creates resonance that lasts across generations.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "belief"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "hmX3hlNJBjU"
+    },
+    {
+      "id": "qa-Rcjd1TkZUMY-000",
+      "videoId": "Rcjd1TkZUMY",
+      "sourceUrl": "https://www.youtube.com/watch?v=Rcjd1TkZUMY",
+      "sourcePath": "data/digests/Rcjd1TkZUMY.json",
+      "sourceSha256": "2ae873fcfecf8a6d66c73c702e44621cd9b38713d773fea83af710690836c915",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=Rcjd1TkZUMY",
+      "question": "How to spend anger positively as a treasure?",
+      "answerGist": "Anger signals misalignment with true self. Use natural anger for 15-second realignment, but if it extends beyond that, explore underlying beliefs without judgment. Complete the emotional circuit by stating 'I feel X because I choose to believe I must' to ground and neutralize negative vibrations.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "belief",
+        "physical"
+      ],
+      "answerModalityMarkers": [
+        "conditional",
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "Rcjd1TkZUMY"
+    },
+    {
+      "id": "qa-0htF1V0v6ec-000",
+      "videoId": "0htF1V0v6ec",
+      "sourceUrl": "https://www.youtube.com/watch?v=0htF1V0v6ec",
+      "sourcePath": "data/digests/0htF1V0v6ec.json",
+      "sourceSha256": "7da5f278a7d592cc5dd6449eaa5f6528a69ee2217353e1b7c9ed21c7c65baf86",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=0htF1V0v6ec",
+      "question": "How do I proceed with my highest excitement when blueprints run out at age 33?",
+      "answerGist": "Don't wait for grand plans; act on whatever contains even tiny more excitement than other options moment-to-moment. This builds momentum and synchronicity naturally.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "excitement"
+      ],
+      "answerThemes": [
+        "excitement",
+        "practice"
+      ],
+      "answerModalityMarkers": [
+        "imperative"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "0htF1V0v6ec"
+    },
+    {
+      "id": "qa-S3Xw09ZE2Dg-000",
+      "videoId": "S3Xw09ZE2Dg",
+      "sourceUrl": "https://www.youtube.com/watch?v=S3Xw09ZE2Dg",
+      "sourcePath": "data/digests/S3Xw09ZE2Dg.json",
+      "sourceSha256": "83b4a8e7db432b94a68ec887b3858c8c34ff3d60671348e89bf73a9cd558d547",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Why do you always bring up money as a barrier?",
+      "answerGist": "You have a belief system that you are unsupported by reality and that money is the only way abundance can manifest. This belief itself is the constraint.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": null,
+      "publisherName": "Path of Knowledge",
+      "format": "Q&A only",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "excitement"
+      ],
+      "answerThemes": [
+        "excitement",
+        "belief",
+        "consciousness"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "unresolved-name-bef435269213",
+      "sourceGroupId": "S3Xw09ZE2Dg"
+    },
+    {
+      "id": "qa-wCZ1Lib1_cQ-000",
+      "videoId": "wCZ1Lib1_cQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=wCZ1Lib1_cQ",
+      "sourcePath": "data/digests/wCZ1Lib1_cQ.json",
+      "sourceSha256": "ce72da40994e5bb361673a167f8f0aedd9dc911b8880df1e563bb30d9e874df8",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Can you perform an energy scan on me?",
+      "answerGist": "Bashar confirms he performs energy scans during all interactions. Upon scanning the questioner, he prescribes remaining in a writing flow state to maintain peak energy alignment with their authentic self.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "physical"
+      ],
+      "answerThemes": [
+        "physical"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "wCZ1Lib1_cQ"
+    },
+    {
+      "id": "qa-IKJzZ-KVPdQ-000",
+      "videoId": "IKJzZ-KVPdQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=IKJzZ-KVPdQ",
+      "sourcePath": "data/digests/IKJzZ-KVPdQ.json",
+      "sourceSha256": "2cde10feb8ce6e2565cdeabb27da144684915ba829cb9d96783c5b058ec94200",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=IKJzZ-KVPdQ",
+      "question": "How do you reach knowingness that manifestation is already done without insisting on outcomes?",
+      "answerGist": "Appreciate what already exists spiritually while remaining open to how it manifests. Focus on the internal function rather than external form, allowing synchronicity to reveal what's relevant to your life path.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "consciousness",
+        "practice"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "IKJzZ-KVPdQ"
+    },
+    {
+      "id": "qa-aZvcNhWthUA-000",
+      "videoId": "aZvcNhWthUA",
+      "sourceUrl": "https://www.youtube.com/watch?v=aZvcNhWthUA",
+      "sourcePath": "data/digests/aZvcNhWthUA.json",
+      "sourceSha256": "0d6954fbb0a81a89a7ccbbe3c0bf1f9f47e70f4288eabf111431cf907624bb2a",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How does consciousness evolution relate to technological advancement?",
+      "answerGist": "Advanced consciousness must precede access to higher technologies; historical tyrants would have destroyed Earth with modern weapons, so technology is gated by consciousness level.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": null,
+      "publisherName": "Soul Luma",
+      "format": "clip",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "consciousness",
+        "society"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "unresolved-name-cb1892d9f77f",
+      "sourceGroupId": "aZvcNhWthUA"
+    },
+    {
+      "id": "qa-hFC4F3JO33M-000",
+      "videoId": "hFC4F3JO33M",
+      "sourceUrl": "https://www.youtube.com/watch?v=hFC4F3JO33M",
+      "sourcePath": "data/digests/hFC4F3JO33M.json",
+      "sourceSha256": "3fcfc9640b9c8aacbec6d4a75fcd44a84de2c7ac5b541a7d60b93a2bede519d2",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=hFC4F3JO33M",
+      "question": "What's different between current disclosure and 2027 open contact?",
+      "answerGist": "Current phase involves public government acknowledgment and whistleblower testimony. 2027 will bring official announcements, evidence, and first physical introduction to hybrid beings living among us.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-982ddd02bd15",
+      "publisherName": "Wisdom From North Clips",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact",
+        "prediction"
+      ],
+      "answerThemes": [
+        "contact",
+        "prediction",
+        "society"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-982ddd02bd15",
+      "sourceGroupId": "hFC4F3JO33M"
+    },
+    {
+      "id": "qa-T5QtncJq1Jc-000",
+      "videoId": "T5QtncJq1Jc",
+      "sourceUrl": "https://www.youtube.com/watch?v=T5QtncJq1Jc",
+      "sourcePath": "data/digests/T5QtncJq1Jc.json",
+      "sourceSha256": "4aad006e4f38b6720e6ae426c9430018176e9325b7d60d6b86b7c249f2922177",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Why does the formula work perfectly but starving artists still struggle?",
+      "answerGist": "Not all artists truly act on their passions; life paths include varied lessons and challenges. Different people choose different life plans for different reasons, and expressions of artistic desire don't guarantee positive manifestation without aligned soul intentions.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "excitement",
+        "consciousness"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "T5QtncJq1Jc"
+    },
+    {
+      "id": "qa-Dw9XHTMrgBE-000",
+      "videoId": "Dw9XHTMrgBE",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dw9XHTMrgBE",
+      "sourcePath": "data/digests/Dw9XHTMrgBE.json",
+      "sourceSha256": "e90e8261c7587b100e009eff051c371b1a4523cf0b17f21d45db52b661d127bf",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=Dw9XHTMrgBE",
+      "question": "What do green pools and caves in dreams signify?",
+      "answerGist": "Dreams symbolize cryptic connection to nature and trees, opening doors to communicate with non-physical beings and receive information from natural realms through vibrational matching.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "consciousness",
+        "physical"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "Dw9XHTMrgBE"
+    },
+    {
+      "id": "qa-jQbxp4e6bfg-000",
+      "videoId": "jQbxp4e6bfg",
+      "sourceUrl": "https://www.youtube.com/watch?v=jQbxp4e6bfg",
+      "sourcePath": "data/digests/jQbxp4e6bfg.json",
+      "sourceSha256": "eb1547f94d9775678dd6c6b6fc3246c80f39c9e42a08136eb7bcf2c4d8c76e04",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=jQbxp4e6bfg",
+      "question": "How can we use darkness to bring forth more light?",
+      "answerGist": "Light shines brightest surrounded by darkness. Finding what you are not clarifies what you are. Use contrast positively to reinforce inner light.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "jQbxp4e6bfg"
+    },
+    {
+      "id": "qa-d--HZiDqgs0-000",
+      "videoId": "d--HZiDqgs0",
+      "sourceUrl": "https://www.youtube.com/watch?v=d--HZiDqgs0",
+      "sourcePath": "data/digests/d--HZiDqgs0.json",
+      "sourceSha256": "50f5179c0c3529a947f9b4c9f75a398863d174a78b66dddb824094f5f91378ff",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How can I avoid income gaps when working freelance?",
+      "answerGist": "Charge more, pursue diverse projects, find passion work between gigs. Support flows when acting on authentic passion; broaden your definition of support beyond money.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "excitement"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "d--HZiDqgs0"
+    },
+    {
+      "id": "qa-pfB4F7uAjwE-000",
+      "videoId": "pfB4F7uAjwE",
+      "sourceUrl": "https://www.youtube.com/watch?v=pfB4F7uAjwE",
+      "sourcePath": "data/digests/pfB4F7uAjwE.json",
+      "sourceSha256": "5c6f384fe161eaf03963592f9e277be7fcd7121cb38521c9d36364ce542dcea9",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=pfB4F7uAjwE",
+      "question": "How to work with instinctual drives and beliefs without disrupting automatic body functions?",
+      "answerGist": "Instincts need to remain stable for automatic functioning. Align them with your signature frequency rather than completely shifting them. Observe beliefs from multiple consciousness levels without requiring physical change.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-cd965930caaa",
+      "publisherName": "The Present Moment",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "belief"
+      ],
+      "answerThemes": [
+        "belief",
+        "consciousness",
+        "physical"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-cd965930caaa",
+      "sourceGroupId": "pfB4F7uAjwE"
+    },
+    {
+      "id": "qa-EHK_mwdk3kM-000",
+      "videoId": "EHK_mwdk3kM",
+      "sourceUrl": "https://www.youtube.com/watch?v=EHK_mwdk3kM",
+      "sourcePath": "data/digests/EHK_mwdk3kM.json",
+      "sourceSha256": "bdd2809bebe41454b48917fd1ccd91488af3efc4d5cc6ff474a3abb075629cac",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Will help be given to us when we ask for it?",
+      "answerGist": "Help is always available, but no one will erase lessons you chose to learn on your life path, as the challenge itself teaches what you need to know.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "Q&A only",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "EHK_mwdk3kM"
+    },
+    {
+      "id": "qa-mzcFoYUvbOE-000",
+      "videoId": "mzcFoYUvbOE",
+      "sourceUrl": "https://www.youtube.com/watch?v=mzcFoYUvbOE",
+      "sourcePath": "data/digests/mzcFoYUvbOE.json",
+      "sourceSha256": "e428f25cfe2185ba894a2755d6499a19db7e7c2aeeaba110811a9379e73bafd2",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Do E'sassani have class systems and wealth inequality?",
+      "answerGist": "No class systems exist. Society organizes through synchronicity where people naturally position themselves optimally for learning and growth.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-b1b6f9cd98cc",
+      "publisherName": "ETs and Erin",
+      "format": "Q&A only",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact",
+        "excitement"
+      ],
+      "answerThemes": [
+        "practice",
+        "society"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-b1b6f9cd98cc",
+      "sourceGroupId": "mzcFoYUvbOE"
+    },
+    {
+      "id": "qa-y0-_YOFU8eQ-000",
+      "videoId": "y0-_YOFU8eQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=y0-_YOFU8eQ",
+      "sourcePath": "data/digests/y0-_YOFU8eQ.json",
+      "sourceSha256": "58903489331f04f8a1d52d75513266c231a8d179f2fc307667c665ee5160ca4f",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Will Trump be in office when open contact happens?",
+      "answerGist": "Government will be very different by the time open contact occurs; prediction comes from Bashar, not Darryl, and there is some flexibility in timing.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-0b086d650484",
+      "publisherName": "Heart Coherence Collaborative",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact"
+      ],
+      "answerThemes": [
+        "contact",
+        "prediction",
+        "society"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-0b086d650484",
+      "sourceGroupId": "y0-_YOFU8eQ"
+    },
+    {
+      "id": "qa-4NGd9kqWM04-000",
+      "videoId": "4NGd9kqWM04",
+      "sourceUrl": "https://www.youtube.com/watch?v=4NGd9kqWM04",
+      "sourcePath": "data/digests/4NGd9kqWM04.json",
+      "sourceSha256": "0b4de71f63186e56b75909f09839721e559bf17cfb80891ddc3ec9453af98fbf",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How long have ETs been present on Earth?",
+      "answerGist": "Thousands of years or longer, but this is primarily new revelation for Western culture only; indigenous cultures have always known.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-982ddd02bd15",
+      "publisherName": "Wisdom From North Clips",
+      "format": "clip",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-982ddd02bd15",
+      "sourceGroupId": "4NGd9kqWM04"
+    },
+    {
+      "id": "qa-U-DHIk0lIQ4-000",
+      "videoId": "U-DHIk0lIQ4",
+      "sourceUrl": "https://www.youtube.com/watch?v=U-DHIk0lIQ4",
+      "sourcePath": "data/digests/U-DHIk0lIQ4.json",
+      "sourceSha256": "09c746cc37f874905b6404b895116bdb080f36afb3e94322144d776d04456b2a",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How did your family react when you started channeling Bashar?",
+      "answerGist": "Parents were supportive because they focused on whether he was happy and helping others, not on understanding what he was doing.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-46ef212496fb",
+      "publisherName": "Antoinette & Friends",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "belief",
+        "practice"
+      ],
+      "answerThemes": [],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-46ef212496fb",
+      "sourceGroupId": "U-DHIk0lIQ4"
+    },
+    {
+      "id": "qa-hTlU_M_R0eE-000",
+      "videoId": "hTlU_M_R0eE",
+      "sourceUrl": "https://www.youtube.com/watch?v=hTlU_M_R0eE",
+      "sourcePath": "data/digests/hTlU_M_R0eE.json",
+      "sourceSha256": "e705f125fbd595d9014ece2609d916827493c99b6cd1cb93a9bb89a1ad055156",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=hTlU_M_R0eE",
+      "question": "What specific work or jobs do spirits perform during sleep?",
+      "answerGist": "Spirits interact with guides, teach/learn from beings, visit dimensions, check parallel realities, review life blueprints, and recharge physical batteries. Spirits never sleep; physical incarnates reconnect to spirit realm nightly to maintain physical reality projection.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-532cdd1f327f",
+      "publisherName": "ozy bourne",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "consciousness"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-532cdd1f327f",
+      "sourceGroupId": "hTlU_M_R0eE"
+    },
+    {
+      "id": "qa-7WjydoNj7hE-000",
+      "videoId": "7WjydoNj7hE",
+      "sourceUrl": "https://www.youtube.com/watch?v=7WjydoNj7hE",
+      "sourcePath": "data/digests/7WjydoNj7hE.json",
+      "sourceSha256": "3d7cc631f68bf8508f487c3ab89cfe1e17b157312ecfffa1781afc1f0db696da",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How did you get James Woods to narrate the film?",
+      "answerGist": "Through synchronicity and his agent's connection; Woods believed all subjects deserve investigation and had good rapport with the project.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-7463234f1822",
+      "publisherName": "FADE TO BLACK Radio",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "belief",
+        "practice"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-7463234f1822",
+      "sourceGroupId": "7WjydoNj7hE"
+    },
+    {
+      "id": "qa-fOi0W9_JEWM-000",
+      "videoId": "fOi0W9_JEWM",
+      "sourceUrl": "https://www.youtube.com/watch?v=fOi0W9_JEWM",
+      "sourcePath": "data/digests/fOi0W9_JEWM.json",
+      "sourceSha256": "b3cf544a5b26286883c0cb9beac92932119b530e9814f8ee3e30a2701015c481",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=fOi0W9_JEWM",
+      "question": "Why should we attempt contact with the Interstellar Alliance?",
+      "answerGist": "There are no shoulds; contact is entirely optional. The benefit comes from expanding awareness through diverse perspectives and information from multiple civilizations, enriching one's life experience.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-68111d982206",
+      "publisherName": "Nflow",
+      "format": "clip",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact"
+      ],
+      "answerThemes": [
+        "contact",
+        "society"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-68111d982206",
+      "sourceGroupId": "fOi0W9_JEWM"
+    },
+    {
+      "id": "qa-kvU9mCJr-eo-000",
+      "videoId": "kvU9mCJr-eo",
+      "sourceUrl": "https://www.youtube.com/watch?v=kvU9mCJr-eo",
+      "sourcePath": "data/digests/kvU9mCJr-eo.json",
+      "sourceSha256": "22b873b1409a77932a05e49ffbceba27dd115b1ef93df1135e479cc4cce28f12",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How could open contact happen so quickly?",
+      "answerGist": "Behind-the-scenes contact has been ongoing for years; public introduction is merely the culmination of long-building engagement and mutual awareness.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-686918109464",
+      "publisherName": "ACID FOR SQUARES",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact"
+      ],
+      "answerThemes": [
+        "contact"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-686918109464",
+      "sourceGroupId": "kvU9mCJr-eo"
+    },
+    {
+      "id": "qa-94agFEADfyk-000",
+      "videoId": "94agFEADfyk",
+      "sourceUrl": "https://www.youtube.com/watch?v=94agFEADfyk",
+      "sourcePath": "data/digests/94agFEADfyk.json",
+      "sourceSha256": "301c31d9285329d61fbbeb4e9b6a276732712166cdb3b0bc019767a8e7d71549",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=94agFEADfyk",
+      "question": "Do souls have unique names?",
+      "answerGist": "Souls have unique vibrational resonances, not names as understood in physical reality. They recognize each other by vibration, though you may assign your soul a name if desired.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": null,
+      "publisherName": "Suthisa Sonphlaeng",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "consciousness",
+        "physical"
+      ],
+      "answerModalityMarkers": [
+        "conditional",
+        "possibility"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "unresolved-name-304f588da10a",
+      "sourceGroupId": "94agFEADfyk"
+    },
+    {
+      "id": "qa-9FrwPg8FYvM-000",
+      "videoId": "9FrwPg8FYvM",
+      "sourceUrl": "https://www.youtube.com/watch?v=9FrwPg8FYvM",
+      "sourcePath": "data/digests/9FrwPg8FYvM.json",
+      "sourceSha256": "500fad556043b9e04d8103a4e3ba9c93138af6dc63de63592bbc3a1f3435a48f",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=9FrwPg8FYvM",
+      "question": "Why do I let my ex-partner's actions make me feel worthless six months later?",
+      "answerGist": "You create your own feelings of unworthiness; she's mirroring an internal belief you hold. Choose to believe the signs of worth others show you instead.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "belief"
+      ],
+      "answerThemes": [
+        "belief"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "9FrwPg8FYvM"
+    },
+    {
+      "id": "qa-ETuHIzyRhyY-000",
+      "videoId": "ETuHIzyRhyY",
+      "sourceUrl": "https://www.youtube.com/watch?v=ETuHIzyRhyY",
+      "sourcePath": "data/digests/ETuHIzyRhyY.json",
+      "sourceSha256": "1db595b9e445d77eccc7856f03fe3b3283080025aefdc32df2c326578dc2bc6a",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How to align higher self amid everyday chaos and responsibilities?",
+      "answerGist": "Approach challenges with curiosity, creativity, and calmness. Understand chaos as transition between cycles; stay positive to ride the rapids efficiently toward new systems and expanded consciousness.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-7855f163ea48",
+      "publisherName": "Next Level Soul Podcast",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "consciousness"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-7855f163ea48",
+      "sourceGroupId": "ETuHIzyRhyY"
+    },
+    {
+      "id": "qa-E_cPno64Z-Q-000",
+      "videoId": "E_cPno64Z-Q",
+      "sourceUrl": "https://www.youtube.com/watch?v=E_cPno64Z-Q",
+      "sourcePath": "data/digests/E_cPno64Z-Q.json",
+      "sourceSha256": "e8377a5383a66fefbc052a025edb2f34bb536c2fca8f2d08df7e6392495df794",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "What is the proper ratio for stabilizing monatomic nickel with chromium?",
+      "answerGist": "75% nickel to 25% chromium, positioned in the energy field rather than ingested, for stabilizing the body's electromagnetic field.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-4a6e81f10f5f",
+      "publisherName": "Divine Light Vibes",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "physical"
+      ],
+      "answerModalityMarkers": [
+        "probability"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-4a6e81f10f5f",
+      "sourceGroupId": "E_cPno64Z-Q"
+    },
+    {
+      "id": "qa-HoYNcoMTk-4-000",
+      "videoId": "HoYNcoMTk-4",
+      "sourceUrl": "https://www.youtube.com/watch?v=HoYNcoMTk-4",
+      "sourcePath": "data/digests/HoYNcoMTk-4.json",
+      "sourceSha256": "b1574b12f861ad3e28dc442afab8718cb235fd246d961a07bce580d6a129cdaa",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "What has changed in the contact window since 2 years ago?",
+      "answerGist": "Disclosure is accelerating with congressional hearings, Pentagon releasing UFO footage, and information being released rapidly. UFO reports are becoming regular news segments like weather reports.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-a6ae05a7c756",
+      "publisherName": "Michael Sandler's Inspire Nation",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact"
+      ],
+      "answerThemes": [
+        "contact"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-a6ae05a7c756",
+      "sourceGroupId": "HoYNcoMTk-4"
+    },
+    {
+      "id": "qa-p8JC21bFf5M-000",
+      "videoId": "p8JC21bFf5M",
+      "sourceUrl": "https://www.youtube.com/watch?v=p8JC21bFf5M",
+      "sourcePath": "data/digests/p8JC21bFf5M.json",
+      "sourceSha256": "cf903b66fa59442d28026dc3e8114f9e06523f3ccdf66f88111b2df18236d4a2",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=p8JC21bFf5M",
+      "question": "How was the Kailasa temple complex created in India?",
+      "answerGist": "Built by humans with ancient extraterrestrial technology now lost to Earth. Much older than believed: thousands of years old, not 900 years.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "contact",
+        "belief",
+        "society"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "p8JC21bFf5M"
+    },
+    {
+      "id": "qa-2GVhU6BRVWY-000",
+      "videoId": "2GVhU6BRVWY",
+      "sourceUrl": "https://www.youtube.com/watch?v=2GVhU6BRVWY",
+      "sourcePath": "data/digests/2GVhU6BRVWY.json",
+      "sourceSha256": "d604e46d10704b965083261d4f82b060b9888048693ca87d48adeddaa06d8fe9",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Who must humanity become to adapt to open ET contact?",
+      "answerGist": "Humanity must release fear-based beliefs about aliens, reconnect to spirit and source, raise vibrations through passion, and understand we are already connected to other beings; contact is revelation of existing connection.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-88ebdbe8adbc",
+      "publisherName": "Emilio Ortiz",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact",
+        "society"
+      ],
+      "answerThemes": [
+        "contact",
+        "excitement",
+        "belief",
+        "consciousness",
+        "physical",
+        "society"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-88ebdbe8adbc",
+      "sourceGroupId": "2GVhU6BRVWY"
+    },
+    {
+      "id": "qa-98KsASkO8Cs-000",
+      "videoId": "98KsASkO8Cs",
+      "sourceUrl": "https://www.youtube.com/watch?v=98KsASkO8Cs",
+      "sourcePath": "data/digests/98KsASkO8Cs.json",
+      "sourceSha256": "5a63336782b967674fa805b2b3d0d509ffa6d5e78881f3bbf1da1380d3891824",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "What is the most astonishing message Bashar shared?",
+      "answerGist": "Darryl recalls a technological explanation about instantaneous interstellar travel based on manipulating location as a vibrational variable within objects rather than as a fixed spatial dimension.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-0b086d650484",
+      "publisherName": "Heart Coherence Collaborative",
+      "format": "clip",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "consciousness",
+        "physical"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-0b086d650484",
+      "sourceGroupId": "98KsASkO8Cs"
+    },
+    {
+      "id": "qa-ji9rMw37o2M-000",
+      "videoId": "ji9rMw37o2M",
+      "sourceUrl": "https://www.youtube.com/watch?v=ji9rMw37o2M",
+      "sourcePath": "data/digests/ji9rMw37o2M.json",
+      "sourceSha256": "0fefd670a9d027b9cebb9f01ecbbfdcdf80419b84a000367c5ea7c4c80404a09",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "When did Anunnaki create Homo Sapiens?",
+      "answerGist": "Around 350,000 years ago marked the beginning of the major genetic engineering program, with minor experiments before and after that timeframe.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-2b023595d9b3",
+      "publisherName": "Mammoth Awakening",
+      "format": "Q&A only",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact"
+      ],
+      "answerThemes": [
+        "prediction"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-2b023595d9b3",
+      "sourceGroupId": "ji9rMw37o2M"
+    },
+    {
+      "id": "qa-fZmY4xS_qXE-001",
+      "videoId": "fZmY4xS_qXE",
+      "sourceUrl": "https://www.youtube.com/watch?v=fZmY4xS_qXE",
+      "sourcePath": "data/digests/fZmY4xS_qXE.json",
+      "sourceSha256": "836e8c00949534629073c76a1f0c539582af376c754a6ddb330206d6c34e2d17",
+      "sourcePointer": "/qa_topics/1",
+      "digestSourceUrl": null,
+      "question": "Will disclosure require both positive and negative ET perspectives for open contact?",
+      "answerGist": "No separation needed. Positive ETs (99%) handle Earth contact while protecting humanity from the small negative fraction. Duality exists but doesn't require human exposure to harmful beings.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-73032cea690b",
+      "publisherName": "Bashar Channeled by Darryl Anka",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact"
+      ],
+      "answerThemes": [
+        "contact",
+        "society"
+      ],
+      "answerModalityMarkers": [
+        "probability"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-73032cea690b",
+      "sourceGroupId": "fZmY4xS_qXE"
+    }
+  ],
+  "test": [
+    {
+      "id": "qa-_UZ8EyuOuY8-000",
+      "videoId": "_UZ8EyuOuY8",
+      "sourceUrl": "https://www.youtube.com/watch?v=_UZ8EyuOuY8",
+      "sourcePath": "data/digests/_UZ8EyuOuY8.json",
+      "sourceSha256": "d48eab133f5a6d5e02dd92b2bc96a8242acd86b3eccd899ece904caf8188fb6b",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Does Bashar make societal predictions?",
+      "answerGist": "Rarely. He explains predictions reflect present energy momentum, not fixed futures. Predictions can become obsolete if consciousness shifts the underlying energy.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-37bcf1f3be52",
+      "publisherName": "Next Level Soul: Soul Bites",
+      "format": "clip",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "prediction"
+      ],
+      "answerThemes": [
+        "consciousness",
+        "physical",
+        "prediction"
+      ],
+      "answerModalityMarkers": [
+        "conditional"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-37bcf1f3be52",
+      "sourceGroupId": "_UZ8EyuOuY8"
+    },
+    {
+      "id": "qa-QBk2MQ1MVZo-000",
+      "videoId": "QBk2MQ1MVZo",
+      "sourceUrl": "https://www.youtube.com/watch?v=QBk2MQ1MVZo",
+      "sourcePath": "data/digests/QBk2MQ1MVZo.json",
+      "sourceSha256": "f2cce2c01bd9668bcbd2de1ff0162e1397103ab760d9a65b033e99952cc8739d",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "What are humans facing as a species right now?",
+      "answerGist": "A resetting and evolution of humanity over decades, with disclosure and ET contact helping push transformation forward. 2026 is disclosure year; 2027 brings official contact.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-b3460d3cbcb4",
+      "publisherName": "Dr. Mayim Bialik",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "contact",
+        "prediction",
+        "society"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-b3460d3cbcb4",
+      "sourceGroupId": "QBk2MQ1MVZo"
+    },
+    {
+      "id": "qa-ufzO0sbNICQ-000",
+      "videoId": "ufzO0sbNICQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=ufzO0sbNICQ",
+      "sourcePath": "data/digests/ufzO0sbNICQ.json",
+      "sourceSha256": "31a806c66e4eba76e96edf64ac1b16dd05397dd05b4cc2226ab0af05c832bbd3",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "How has the formula remained consistent over 40 years of channeling?",
+      "answerGist": "Core information unchanged; only expanded from four to five principles for clarity. The foundation and framework remain remarkably consistent.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-7866232b51f6",
+      "publisherName": "Aaron Lazar: Impossible Dreams",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "practice"
+      ],
+      "answerThemes": [],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-7866232b51f6",
+      "sourceGroupId": "ufzO0sbNICQ"
+    },
+    {
+      "id": "qa-DvWNnqnBAjc-000",
+      "videoId": "DvWNnqnBAjc",
+      "sourceUrl": "https://www.youtube.com/watch?v=DvWNnqnBAjc",
+      "sourcePath": "data/digests/DvWNnqnBAjc.json",
+      "sourceSha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": "https://youtubetotranscript.com/transcript?v=DvWNnqnBAjc",
+      "question": "How to discern true excitement from impulsive desire or escapism?",
+      "answerGist": "Honestly investigate your motivations. Ask why you're choosing something. Discern whether you act from excitement or fear/anxiety by examining whether you believe the alternative would be worse.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-ff85f37eb9b1",
+      "publisherName": "Divine Insights",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "excitement"
+      ],
+      "answerThemes": [
+        "excitement",
+        "belief"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-ff85f37eb9b1",
+      "sourceGroupId": "DvWNnqnBAjc"
+    },
+    {
+      "id": "qa-Fp1YFz-8d4Y-000",
+      "videoId": "Fp1YFz-8d4Y",
+      "sourceUrl": "https://www.youtube.com/watch?v=Fp1YFz-8d4Y",
+      "sourcePath": "data/digests/Fp1YFz-8d4Y.json",
+      "sourceSha256": "87e92031d73ef8a248aaffcdafce4324eee71e73373354642dff5009d4643502",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Have contact window timeframes changed since previously stated?",
+      "answerGist": "Timeline broadened to 2023–2033 with markers through 2040; 90% potential for major contact event end of 2026/early 2027.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-85c5db061798",
+      "publisherName": "Cosmic Soul",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "contact",
+        "prediction"
+      ],
+      "answerThemes": [
+        "contact",
+        "prediction"
+      ],
+      "answerModalityMarkers": [
+        "possibility",
+        "probability"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-85c5db061798",
+      "sourceGroupId": "Fp1YFz-8d4Y"
+    },
+    {
+      "id": "qa-IuO0mjva9ls-000",
+      "videoId": "IuO0mjva9ls",
+      "sourceUrl": "https://www.youtube.com/watch?v=IuO0mjva9ls",
+      "sourcePath": "data/digests/IuO0mjva9ls.json",
+      "sourceSha256": "702cc91af94269b7b34b756685d05d2b11b2b90964810929f57d95cc300a0730",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "What are the five universal laws?",
+      "answerGist": "Existence, simultaneity, oneness, reciprocal vibration, and universal change form the structural framework of reality that never alters.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-71be49e5f46b",
+      "publisherName": "Love Is The Way",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [],
+      "answerThemes": [
+        "consciousness",
+        "physical"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-71be49e5f46b",
+      "sourceGroupId": "IuO0mjva9ls"
+    },
+    {
+      "id": "qa-vrv3J-ri804-000",
+      "videoId": "vrv3J-ri804",
+      "sourceUrl": "https://www.youtube.com/watch?v=vrv3J-ri804",
+      "sourcePath": "data/digests/vrv3J-ri804.json",
+      "sourceSha256": "bca4110a8b3729c400439a7a066113d65632ff3e5b31d59c560047d9692f6bcb",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "What does Bashar say about reality that humans aren't ready to hear?",
+      "answerGist": "Physical reality is a projection of consciousness happening inside the soul; we never actually leave spirit. Our belief systems create our experience, and understanding this allows better navigation of physical reality.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-0b086d650484",
+      "publisherName": "Heart Coherence Collaborative",
+      "format": "interview with Darryl Anka",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "belief",
+        "consciousness"
+      ],
+      "answerModalityMarkers": [
+        "absolute"
+      ],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-0b086d650484",
+      "sourceGroupId": "vrv3J-ri804"
+    },
+    {
+      "id": "qa-yx5hg3wTESs-000",
+      "videoId": "yx5hg3wTESs",
+      "sourceUrl": "https://www.youtube.com/watch?v=yx5hg3wTESs",
+      "sourcePath": "data/digests/yx5hg3wTESs.json",
+      "sourceSha256": "c6514ea50c4c55977a54faa9f9ef4a251580e870c62da76a31fb1fcd7232c0ac",
+      "sourcePointer": "/qa_topics/0",
+      "digestSourceUrl": null,
+      "question": "Are old Buddhist definitions of reincarnation relevant now?",
+      "answerGist": "They describe how the experience appears, not the actual mechanism. Modern definitions are needed for 21st-century understanding of consciousness mechanics.",
+      "practitionerNames": [
+        "Darryl Anka"
+      ],
+      "contextEntityLabels": [
+        "Bashar"
+      ],
+      "publisherId": "ch-2b023595d9b3",
+      "publisherName": "Mammoth Awakening",
+      "format": "monologue+Q&A",
+      "evidenceType": "ai_digest_paraphrase",
+      "speakerVerified": false,
+      "timestampSeconds": null,
+      "entityIsSpeaker": null,
+      "originalSessionId": null,
+      "questionThemes": [
+        "consciousness"
+      ],
+      "answerThemes": [
+        "consciousness"
+      ],
+      "answerModalityMarkers": [],
+      "medicalOrPhysicalClaimVerified": false,
+      "attributionBasis": "Inherited Atlas practitioner/entity context; not turn-level attribution",
+      "humanReviewed": false,
+      "publisherGroupKey": "ch-2b023595d9b3",
+      "sourceGroupId": "yx5hg3wTESs"
+    }
+  ],
+  "controlRecords": [
+    {
+      "id": "control-studio-temperature",
+      "question": "What exact room temperature in Celsius was measured in the recording studio during this session?",
+      "answerGist": null,
+      "videoId": null,
+      "control": true
+    },
+    {
+      "id": "control-unpublished-hash",
+      "question": "What is the SHA-256 digest of the unpublished original audio master for this session?",
+      "answerGist": null,
+      "videoId": null,
+      "control": true
+    }
+  ],
+  "videoGroupMap": {
+    "0htF1V0v6ec": "0htF1V0v6ec",
+    "2GVhU6BRVWY": "2GVhU6BRVWY",
+    "4NGd9kqWM04": "4NGd9kqWM04",
+    "5Js8U9sJ5-8": "5Js8U9sJ5-8",
+    "5lOHuqDbpoc": "5lOHuqDbpoc",
+    "7WjydoNj7hE": "7WjydoNj7hE",
+    "94agFEADfyk": "94agFEADfyk",
+    "98KsASkO8Cs": "98KsASkO8Cs",
+    "9FrwPg8FYvM": "9FrwPg8FYvM",
+    "9Ij2AEoRwoM": "9Ij2AEoRwoM",
+    "BaN26a0SbLQ": "BaN26a0SbLQ",
+    "DvWNnqnBAjc": "DvWNnqnBAjc",
+    "Dw9XHTMrgBE": "Dw9XHTMrgBE",
+    "EHK_mwdk3kM": "EHK_mwdk3kM",
+    "ETuHIzyRhyY": "ETuHIzyRhyY",
+    "E_cPno64Z-Q": "E_cPno64Z-Q",
+    "Fp1YFz-8d4Y": "Fp1YFz-8d4Y",
+    "HoYNcoMTk-4": "HoYNcoMTk-4",
+    "IKJzZ-KVPdQ": "IKJzZ-KVPdQ",
+    "IKYfZdjv3aE": "IKYfZdjv3aE",
+    "IuO0mjva9ls": "IuO0mjva9ls",
+    "JSwqz_ZhH_I": "JSwqz_ZhH_I",
+    "OzkviF1GCFc": "OzkviF1GCFc",
+    "PjIvEohms5I": "7WjydoNj7hE",
+    "QBk2MQ1MVZo": "QBk2MQ1MVZo",
+    "Rcjd1TkZUMY": "Rcjd1TkZUMY",
+    "S3Xw09ZE2Dg": "S3Xw09ZE2Dg",
+    "SBRcXicYs0I": "IKJzZ-KVPdQ",
+    "T5QtncJq1Jc": "T5QtncJq1Jc",
+    "U-DHIk0lIQ4": "U-DHIk0lIQ4",
+    "WEVqgD-L5kc": "WEVqgD-L5kc",
+    "ZACIL5Hzb5c": "ZACIL5Hzb5c",
+    "_UZ8EyuOuY8": "_UZ8EyuOuY8",
+    "aZvcNhWthUA": "aZvcNhWthUA",
+    "d--HZiDqgs0": "d--HZiDqgs0",
+    "eCxOH-AK1rc": "eCxOH-AK1rc",
+    "egu6iDTj2ys": "0htF1V0v6ec",
+    "fOi0W9_JEWM": "fOi0W9_JEWM",
+    "fZmY4xS_qXE": "fZmY4xS_qXE",
+    "hFC4F3JO33M": "hFC4F3JO33M",
+    "hTlU_M_R0eE": "hTlU_M_R0eE",
+    "hmX3hlNJBjU": "hmX3hlNJBjU",
+    "jQbxp4e6bfg": "jQbxp4e6bfg",
+    "ja8BrsruFOo": "0htF1V0v6ec",
+    "jdzErS12DvU": "QBk2MQ1MVZo",
+    "ji9rMw37o2M": "ji9rMw37o2M",
+    "k0lWJ2B90-I": "k0lWJ2B90-I",
+    "kPWOUEtUx2Y": "kPWOUEtUx2Y",
+    "kvU9mCJr-eo": "kvU9mCJr-eo",
+    "lLFUTAVah30": "lLFUTAVah30",
+    "mgSgI0ElfTI": "7WjydoNj7hE",
+    "mk_yQrOQHJs": "DvWNnqnBAjc",
+    "mzcFoYUvbOE": "mzcFoYUvbOE",
+    "os4a7-7bnLw": "0htF1V0v6ec",
+    "ozHG5P7fY5I": "ozHG5P7fY5I",
+    "p8JC21bFf5M": "p8JC21bFf5M",
+    "pfB4F7uAjwE": "pfB4F7uAjwE",
+    "sFjR-VFy4tE": "Fp1YFz-8d4Y",
+    "tskKYl3w0J8": "DvWNnqnBAjc",
+    "ufzO0sbNICQ": "ufzO0sbNICQ",
+    "vrv3J-ri804": "vrv3J-ri804",
+    "wCZ1Lib1_cQ": "wCZ1Lib1_cQ",
+    "wwkC86EEu1s": "5lOHuqDbpoc",
+    "y0-_YOFU8eQ": "y0-_YOFU8eQ",
+    "ygzBrMyMAQA": "p8JC21bFf5M",
+    "yx5hg3wTESs": "yx5hg3wTESs",
+    "zOcZDBhRaOQ": "zOcZDBhRaOQ"
+  },
+  "ragCorpus": "training examples only; no heldout question or answer provided as RAG evidence"
+}

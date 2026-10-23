@@ -1,0 +1,13 @@
+{
+  "sourceRepository": "occult-kranti/bashar-index",
+  "sourceCommit": "151efb25824dd54768edef7b71ca2a22f1c6d1ac",
+  "destinationRepository": "occult-kranti/channels-ET",
+  "destinationBaselineCommit": "faefa36cbd2e55fdfb2f0508e5cb6b3bf5c54a5d",
+  "operation": "Additive copy, preserving both existing repositories and original releases",
+  "copied": [
+    "research/expansion",
+    "dist/expansion",
+    "data/digests"
+  ],
+  "notes": "Prior round7-9 artifacts retain historical nested paths/hashes. New portable builds and rounds10-12 belong to channels-ET."
+}

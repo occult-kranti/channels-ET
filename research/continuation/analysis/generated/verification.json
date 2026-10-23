@@ -1,0 +1,5311 @@
+{
+  "checks": 1322,
+  "passed": 1322,
+  "failed": [],
+  "resultsSha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+  "modelSplitAudit": {
+    "status": "PASS",
+    "splitSha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "trainExamples": 48,
+    "testQuestions": 8,
+    "sourceGroups": 55,
+    "trainGroups": 47,
+    "testGroups": 8,
+    "ragScope": "Train-only retrieval independently replayed for every actual applicable prediction in audit_benchmark.py; no held-out evidence IDs or quarantine groups supplied.",
+    "limits": [
+      "Grouping uses observed question similarities and cannot rule out unknown original-session or pretrained-model contamination.",
+      "One selected question per eight held-out groups is a tiny pilot, not reliable generalization or semantic validation."
+    ]
+  },
+  "status": "PASS",
+  "details": [
+    {
+      "check": "Pinned source metadataSha256",
+      "passed": true
+    },
+    {
+      "check": "Pinned source qaCandidatesSha256",
+      "passed": true
+    },
+    {
+      "check": "Pinned source captionEmbeddingsSha256",
+      "passed": true
+    },
+    {
+      "check": "Pinned source titleEmbeddingsSha256",
+      "passed": true
+    },
+    {
+      "check": "All distinct-upload pair count",
+      "passed": true
+    },
+    {
+      "check": "All and only question-neighbor pairs retained",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-000/qa-ja8BrsruFOo-000 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-000/qa-ja8BrsruFOo-000 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-003/qa-7WjydoNj7hE-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-003/qa-7WjydoNj7hE-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-003/qa-egu6iDTj2ys-016 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-003/qa-egu6iDTj2ys-016 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-003/qa-hTlU_M_R0eE-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-003/qa-hTlU_M_R0eE-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-003/qa-os4a7-7bnLw-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-003/qa-os4a7-7bnLw-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-004/qa-ja8BrsruFOo-005 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-004/qa-ja8BrsruFOo-005 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-004/qa-os4a7-7bnLw-004 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-004/qa-os4a7-7bnLw-004 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-006/qa-ja8BrsruFOo-012 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-006/qa-ja8BrsruFOo-012 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-007/qa-ja8BrsruFOo-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-007/qa-ja8BrsruFOo-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-008/qa-ja8BrsruFOo-008 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-008/qa-ja8BrsruFOo-008 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-009/qa-ja8BrsruFOo-010 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-009/qa-ja8BrsruFOo-010 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-009/qa-os4a7-7bnLw-016 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-009/qa-os4a7-7bnLw-016 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-012/qa-ja8BrsruFOo-016 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-012/qa-ja8BrsruFOo-016 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-013/qa-ja8BrsruFOo-009 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-013/qa-ja8BrsruFOo-009 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-013/qa-os4a7-7bnLw-015 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-013/qa-os4a7-7bnLw-015 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-017/qa-ja8BrsruFOo-018 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-017/qa-ja8BrsruFOo-018 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-018/qa-os4a7-7bnLw-012 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-0htF1V0v6ec-018/qa-os4a7-7bnLw-012 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-2GVhU6BRVWY-000/qa-IKYfZdjv3aE-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-2GVhU6BRVWY-000/qa-IKYfZdjv3aE-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-2GVhU6BRVWY-013/qa-jdzErS12DvU-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-2GVhU6BRVWY-013/qa-jdzErS12DvU-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-2GVhU6BRVWY-017/qa-HoYNcoMTk-4-010 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-2GVhU6BRVWY-017/qa-HoYNcoMTk-4-010 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-2GVhU6BRVWY-017/qa-IuO0mjva9ls-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-2GVhU6BRVWY-017/qa-IuO0mjva9ls-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-4NGd9kqWM04-009/qa-IKYfZdjv3aE-004 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-4NGd9kqWM04-009/qa-IKYfZdjv3aE-004 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-5Js8U9sJ5-8-009/qa-5lOHuqDbpoc-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-5Js8U9sJ5-8-009/qa-5lOHuqDbpoc-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-002/qa-jdzErS12DvU-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-002/qa-jdzErS12DvU-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-003/qa-p8JC21bFf5M-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-003/qa-p8JC21bFf5M-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-007/qa-ETuHIzyRhyY-008 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-007/qa-ETuHIzyRhyY-008 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-008/qa-wwkC86EEu1s-015 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-008/qa-wwkC86EEu1s-015 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-009/qa-y0-_YOFU8eQ-018 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-009/qa-y0-_YOFU8eQ-018 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-012/qa-eCxOH-AK1rc-014 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-012/qa-eCxOH-AK1rc-014 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-013/qa-QBk2MQ1MVZo-014 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-5lOHuqDbpoc-013/qa-QBk2MQ1MVZo-014 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-002/qa-DvWNnqnBAjc-003 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-002/qa-DvWNnqnBAjc-003 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-002/qa-QBk2MQ1MVZo-003 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-002/qa-QBk2MQ1MVZo-003 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-002/qa-mgSgI0ElfTI-004 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-002/qa-mgSgI0ElfTI-004 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-004/qa-mgSgI0ElfTI-009 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-004/qa-mgSgI0ElfTI-009 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-010/qa-IuO0mjva9ls-004 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-010/qa-IuO0mjva9ls-004 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-011/qa-PjIvEohms5I-010 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-011/qa-PjIvEohms5I-010 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-017/qa-mgSgI0ElfTI-015 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-7WjydoNj7hE-017/qa-mgSgI0ElfTI-015 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-94agFEADfyk-010/qa-p8JC21bFf5M-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-94agFEADfyk-010/qa-p8JC21bFf5M-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-94agFEADfyk-019/qa-zOcZDBhRaOQ-016 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-94agFEADfyk-019/qa-zOcZDBhRaOQ-016 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-9FrwPg8FYvM-004/qa-ufzO0sbNICQ-005 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-9FrwPg8FYvM-004/qa-ufzO0sbNICQ-005 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-9FrwPg8FYvM-010/qa-ja8BrsruFOo-012 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-9FrwPg8FYvM-010/qa-ja8BrsruFOo-012 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-9FrwPg8FYvM-014/qa-OzkviF1GCFc-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-9FrwPg8FYvM-014/qa-OzkviF1GCFc-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-9Ij2AEoRwoM-000/qa-ETuHIzyRhyY-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-9Ij2AEoRwoM-000/qa-ETuHIzyRhyY-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-000/qa-mk_yQrOQHJs-000 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-000/qa-mk_yQrOQHJs-000 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-000/qa-tskKYl3w0J8-000 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-000/qa-tskKYl3w0J8-000 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-001/qa-mk_yQrOQHJs-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-001/qa-mk_yQrOQHJs-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-001/qa-tskKYl3w0J8-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-001/qa-tskKYl3w0J8-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-002/qa-mk_yQrOQHJs-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-002/qa-mk_yQrOQHJs-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-002/qa-tskKYl3w0J8-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-002/qa-tskKYl3w0J8-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-003/qa-mk_yQrOQHJs-003 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-003/qa-mk_yQrOQHJs-003 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-003/qa-tskKYl3w0J8-003 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-003/qa-tskKYl3w0J8-003 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-006/qa-mk_yQrOQHJs-005 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-006/qa-mk_yQrOQHJs-005 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-007/qa-mk_yQrOQHJs-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-007/qa-mk_yQrOQHJs-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-010/qa-mk_yQrOQHJs-009 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-010/qa-mk_yQrOQHJs-009 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-010/qa-tskKYl3w0J8-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-010/qa-tskKYl3w0J8-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-012/qa-mk_yQrOQHJs-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-012/qa-mk_yQrOQHJs-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-012/qa-tskKYl3w0J8-008 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-012/qa-tskKYl3w0J8-008 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-016/qa-tskKYl3w0J8-018 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-DvWNnqnBAjc-016/qa-tskKYl3w0J8-018 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-E_cPno64Z-Q-007/qa-wwkC86EEu1s-021 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-E_cPno64Z-Q-007/qa-wwkC86EEu1s-021 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-E_cPno64Z-Q-011/qa-hmX3hlNJBjU-012 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-E_cPno64Z-Q-011/qa-hmX3hlNJBjU-012 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-Fp1YFz-8d4Y-002/qa-sFjR-VFy4tE-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-Fp1YFz-8d4Y-002/qa-sFjR-VFy4tE-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-Fp1YFz-8d4Y-003/qa-sFjR-VFy4tE-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-Fp1YFz-8d4Y-003/qa-sFjR-VFy4tE-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-Fp1YFz-8d4Y-007/qa-sFjR-VFy4tE-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-Fp1YFz-8d4Y-007/qa-sFjR-VFy4tE-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-HoYNcoMTk-4-010/qa-IuO0mjva9ls-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-HoYNcoMTk-4-010/qa-IuO0mjva9ls-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-HoYNcoMTk-4-010/qa-lLFUTAVah30-008 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-HoYNcoMTk-4-010/qa-lLFUTAVah30-008 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-000/qa-SBRcXicYs0I-000 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-000/qa-SBRcXicYs0I-000 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-001/qa-SBRcXicYs0I-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-001/qa-SBRcXicYs0I-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-003/qa-SBRcXicYs0I-004 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-003/qa-SBRcXicYs0I-004 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-005/qa-SBRcXicYs0I-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-005/qa-SBRcXicYs0I-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-012/qa-SBRcXicYs0I-009 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKJzZ-KVPdQ-012/qa-SBRcXicYs0I-009 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKYfZdjv3aE-003/qa-U-DHIk0lIQ4-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKYfZdjv3aE-003/qa-U-DHIk0lIQ4-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKYfZdjv3aE-006/qa-egu6iDTj2ys-016 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKYfZdjv3aE-006/qa-egu6iDTj2ys-016 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKYfZdjv3aE-006/qa-jdzErS12DvU-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKYfZdjv3aE-006/qa-jdzErS12DvU-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKYfZdjv3aE-006/qa-os4a7-7bnLw-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-IKYfZdjv3aE-006/qa-os4a7-7bnLw-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-OzkviF1GCFc-002/qa-p8JC21bFf5M-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-OzkviF1GCFc-002/qa-p8JC21bFf5M-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-OzkviF1GCFc-002/qa-ygzBrMyMAQA-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-OzkviF1GCFc-002/qa-ygzBrMyMAQA-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-PjIvEohms5I-014/qa-jdzErS12DvU-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-PjIvEohms5I-014/qa-jdzErS12DvU-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-PjIvEohms5I-019/qa-U-DHIk0lIQ4-017 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-PjIvEohms5I-019/qa-U-DHIk0lIQ4-017 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-QBk2MQ1MVZo-001/qa-tskKYl3w0J8-017 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-QBk2MQ1MVZo-001/qa-tskKYl3w0J8-017 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-QBk2MQ1MVZo-009/qa-jdzErS12DvU-015 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-QBk2MQ1MVZo-009/qa-jdzErS12DvU-015 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-QBk2MQ1MVZo-009/qa-vrv3J-ri804-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-QBk2MQ1MVZo-009/qa-vrv3J-ri804-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-QBk2MQ1MVZo-011/qa-vrv3J-ri804-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-QBk2MQ1MVZo-011/qa-vrv3J-ri804-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-Rcjd1TkZUMY-013/qa-sFjR-VFy4tE-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-Rcjd1TkZUMY-013/qa-sFjR-VFy4tE-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-U-DHIk0lIQ4-004/qa-jdzErS12DvU-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-U-DHIk0lIQ4-004/qa-jdzErS12DvU-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-WEVqgD-L5kc-008/qa-p8JC21bFf5M-018 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-WEVqgD-L5kc-008/qa-p8JC21bFf5M-018 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-eCxOH-AK1rc-004/qa-hFC4F3JO33M-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-eCxOH-AK1rc-004/qa-hFC4F3JO33M-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-eCxOH-AK1rc-004/qa-zOcZDBhRaOQ-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-eCxOH-AK1rc-004/qa-zOcZDBhRaOQ-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-egu6iDTj2ys-016/qa-hTlU_M_R0eE-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-egu6iDTj2ys-016/qa-hTlU_M_R0eE-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-egu6iDTj2ys-016/qa-jdzErS12DvU-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-egu6iDTj2ys-016/qa-jdzErS12DvU-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-egu6iDTj2ys-016/qa-os4a7-7bnLw-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-egu6iDTj2ys-016/qa-os4a7-7bnLw-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-fOi0W9_JEWM-000/qa-ji9rMw37o2M-008 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-fOi0W9_JEWM-000/qa-ji9rMw37o2M-008 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-fOi0W9_JEWM-000/qa-vrv3J-ri804-005 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-fOi0W9_JEWM-000/qa-vrv3J-ri804-005 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-hFC4F3JO33M-002/qa-zOcZDBhRaOQ-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-hFC4F3JO33M-002/qa-zOcZDBhRaOQ-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-hTlU_M_R0eE-002/qa-os4a7-7bnLw-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-hTlU_M_R0eE-002/qa-os4a7-7bnLw-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-jQbxp4e6bfg-015/qa-sFjR-VFy4tE-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-jQbxp4e6bfg-015/qa-sFjR-VFy4tE-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-ja8BrsruFOo-009/qa-os4a7-7bnLw-015 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-ja8BrsruFOo-009/qa-os4a7-7bnLw-015 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-ja8BrsruFOo-010/qa-os4a7-7bnLw-016 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-ja8BrsruFOo-010/qa-os4a7-7bnLw-016 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-ja8BrsruFOo-013/qa-os4a7-7bnLw-017 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-ja8BrsruFOo-013/qa-os4a7-7bnLw-017 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-ja8BrsruFOo-017/qa-os4a7-7bnLw-014 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-ja8BrsruFOo-017/qa-os4a7-7bnLw-014 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-jdzErS12DvU-007/qa-mk_yQrOQHJs-003 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-jdzErS12DvU-007/qa-mk_yQrOQHJs-003 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-jdzErS12DvU-007/qa-os4a7-7bnLw-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-jdzErS12DvU-007/qa-os4a7-7bnLw-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-jdzErS12DvU-007/qa-ufzO0sbNICQ-019 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-jdzErS12DvU-007/qa-ufzO0sbNICQ-019 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-jdzErS12DvU-015/qa-vrv3J-ri804-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-jdzErS12DvU-015/qa-vrv3J-ri804-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-kvU9mCJr-eo-000/qa-mgSgI0ElfTI-013 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-kvU9mCJr-eo-000/qa-mgSgI0ElfTI-013 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-lLFUTAVah30-005/qa-sFjR-VFy4tE-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-lLFUTAVah30-005/qa-sFjR-VFy4tE-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-000/qa-tskKYl3w0J8-000 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-000/qa-tskKYl3w0J8-000 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-001/qa-tskKYl3w0J8-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-001/qa-tskKYl3w0J8-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-002/qa-tskKYl3w0J8-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-002/qa-tskKYl3w0J8-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-003/qa-tskKYl3w0J8-003 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-003/qa-tskKYl3w0J8-003 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-009/qa-tskKYl3w0J8-006 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-009/qa-tskKYl3w0J8-006 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-010/qa-tskKYl3w0J8-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-010/qa-tskKYl3w0J8-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-011/qa-tskKYl3w0J8-008 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-011/qa-tskKYl3w0J8-008 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-012/qa-tskKYl3w0J8-009 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-012/qa-tskKYl3w0J8-009 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-015/qa-tskKYl3w0J8-012 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-015/qa-tskKYl3w0J8-012 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-017/qa-tskKYl3w0J8-014 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-017/qa-tskKYl3w0J8-014 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-018/qa-tskKYl3w0J8-015 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-mk_yQrOQHJs-018/qa-tskKYl3w0J8-015 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-001/qa-ygzBrMyMAQA-001 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-001/qa-ygzBrMyMAQA-001 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-002/qa-ygzBrMyMAQA-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-002/qa-ygzBrMyMAQA-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-003/qa-ygzBrMyMAQA-003 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-003/qa-ygzBrMyMAQA-003 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-004/qa-ygzBrMyMAQA-004 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-004/qa-ygzBrMyMAQA-004 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-005/qa-ygzBrMyMAQA-005 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-005/qa-ygzBrMyMAQA-005 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-007/qa-ygzBrMyMAQA-008 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-007/qa-ygzBrMyMAQA-008 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-009/qa-ygzBrMyMAQA-007 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-009/qa-ygzBrMyMAQA-007 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-012/qa-ygzBrMyMAQA-011 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-012/qa-ygzBrMyMAQA-011 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-013/qa-ygzBrMyMAQA-012 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-013/qa-ygzBrMyMAQA-012 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-016/qa-ygzBrMyMAQA-015 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-p8JC21bFf5M-016/qa-ygzBrMyMAQA-015 answer score",
+      "passed": true
+    },
+    {
+      "check": "qa-sFjR-VFy4tE-006/qa-zOcZDBhRaOQ-002 question score",
+      "passed": true
+    },
+    {
+      "check": "qa-sFjR-VFy4tE-006/qa-zOcZDBhRaOQ-002 answer score",
+      "passed": true
+    },
+    {
+      "check": "Graph edges/components 0.4",
+      "passed": true
+    },
+    {
+      "check": "Graph largest component 0.4",
+      "passed": true
+    },
+    {
+      "check": "Graph linked nodes 0.4",
+      "passed": true
+    },
+    {
+      "check": "Graph edges/components 0.5",
+      "passed": true
+    },
+    {
+      "check": "Graph largest component 0.5",
+      "passed": true
+    },
+    {
+      "check": "Graph linked nodes 0.5",
+      "passed": true
+    },
+    {
+      "check": "Graph edges/components 0.6",
+      "passed": true
+    },
+    {
+      "check": "Graph largest component 0.6",
+      "passed": true
+    },
+    {
+      "check": "Graph linked nodes 0.6",
+      "passed": true
+    },
+    {
+      "check": "Graph edges/components 0.7",
+      "passed": true
+    },
+    {
+      "check": "Graph largest component 0.7",
+      "passed": true
+    },
+    {
+      "check": "Graph linked nodes 0.7",
+      "passed": true
+    },
+    {
+      "check": "Graph edges/components 0.8",
+      "passed": true
+    },
+    {
+      "check": "Graph largest component 0.8",
+      "passed": true
+    },
+    {
+      "check": "Graph linked nodes 0.8",
+      "passed": true
+    },
+    {
+      "check": "Graph edges/components 0.9",
+      "passed": true
+    },
+    {
+      "check": "Graph largest component 0.9",
+      "passed": true
+    },
+    {
+      "check": "Graph linked nodes 0.9",
+      "passed": true
+    },
+    {
+      "check": "Quarantine group partition denominator",
+      "passed": true
+    },
+    {
+      "check": "Cross-quarantine neighbor count",
+      "passed": true
+    },
+    {
+      "check": "Cross-quarantine answer mean",
+      "passed": true
+    },
+    {
+      "check": "Original all-neighbor mean preserved",
+      "passed": true
+    },
+    {
+      "check": "Common-support bin source counts 0.40\u2013<0.50",
+      "passed": true
+    },
+    {
+      "check": "Common-support eligibility 0.40\u2013<0.50",
+      "passed": true
+    },
+    {
+      "check": "Common-support bin source counts 0.50\u2013<0.60",
+      "passed": true
+    },
+    {
+      "check": "Common-support eligibility 0.50\u2013<0.60",
+      "passed": true
+    },
+    {
+      "check": "Common-support bin source counts 0.60\u2013<0.70",
+      "passed": true
+    },
+    {
+      "check": "Common-support eligibility 0.60\u2013<0.70",
+      "passed": true
+    },
+    {
+      "check": "Common-support bin source counts 0.70\u2013<0.80",
+      "passed": true
+    },
+    {
+      "check": "Common-support eligibility 0.70\u2013<0.80",
+      "passed": true
+    },
+    {
+      "check": "Unsupported bin remains null 0.70\u2013<0.80",
+      "passed": true
+    },
+    {
+      "check": "Common-support bin source counts 0.80\u2013<0.90",
+      "passed": true
+    },
+    {
+      "check": "Common-support eligibility 0.80\u2013<0.90",
+      "passed": true
+    },
+    {
+      "check": "Unsupported bin remains null 0.80\u2013<0.90",
+      "passed": true
+    },
+    {
+      "check": "Common-support bin source counts 0.90\u20131.00",
+      "passed": true
+    },
+    {
+      "check": "Common-support eligibility 0.90\u20131.00",
+      "passed": true
+    },
+    {
+      "check": "Unsupported bin remains null 0.90\u20131.00",
+      "passed": true
+    },
+    {
+      "check": "Common-support shared pooled weight 0.40\u2013<0.50",
+      "passed": true
+    },
+    {
+      "check": "Common-support within mean 0.40\u2013<0.50",
+      "passed": true
+    },
+    {
+      "check": "Common-support cross mean 0.40\u2013<0.50",
+      "passed": true
+    },
+    {
+      "check": "Common-support shared pooled weight 0.50\u2013<0.60",
+      "passed": true
+    },
+    {
+      "check": "Common-support within mean 0.50\u2013<0.60",
+      "passed": true
+    },
+    {
+      "check": "Common-support cross mean 0.50\u2013<0.60",
+      "passed": true
+    },
+    {
+      "check": "Common-support shared pooled weight 0.60\u2013<0.70",
+      "passed": true
+    },
+    {
+      "check": "Common-support within mean 0.60\u2013<0.70",
+      "passed": true
+    },
+    {
+      "check": "Common-support cross mean 0.60\u2013<0.70",
+      "passed": true
+    },
+    {
+      "check": "Common-support retained/excluded denominator",
+      "passed": true
+    },
+    {
+      "check": "Common-support standardized within mean",
+      "passed": true
+    },
+    {
+      "check": "Common-support standardized cross mean",
+      "passed": true
+    },
+    {
+      "check": "Common-support contrast",
+      "passed": true
+    },
+    {
+      "check": "Common-support disconfirming direction reported",
+      "passed": true
+    },
+    {
+      "check": "Matched pair count",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/2v8rXyVBrQ4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/2v8rXyVBrQ4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/2v8rXyVBrQ4 duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/5Sq-dBoqu10 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/5Sq-dBoqu10 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/5Sq-dBoqu10 duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/8pG8QV-18xQ captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/8pG8QV-18xQ titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/8pG8QV-18xQ duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/9UPOe-GdVE4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/9UPOe-GdVE4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/9UPOe-GdVE4 duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/BRsg_krdt8s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/BRsg_krdt8s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/BRsg_krdt8s duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/C95Y9g135kg captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/C95Y9g135kg titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/C95Y9g135kg duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/CdeF5JtUB44 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/CdeF5JtUB44 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/CdeF5JtUB44 duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/MDdyY1WYmHY captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/MDdyY1WYmHY titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/MDdyY1WYmHY duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2WoeqiizPCQ/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/5Sq-dBoqu10 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/5Sq-dBoqu10 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/5Sq-dBoqu10 duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/8pG8QV-18xQ captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/8pG8QV-18xQ titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/8pG8QV-18xQ duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/9UPOe-GdVE4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/9UPOe-GdVE4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/9UPOe-GdVE4 duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/BRsg_krdt8s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/BRsg_krdt8s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/BRsg_krdt8s duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/C95Y9g135kg captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/C95Y9g135kg titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/C95Y9g135kg duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/CdeF5JtUB44 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/CdeF5JtUB44 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/CdeF5JtUB44 duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/MDdyY1WYmHY captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/MDdyY1WYmHY titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/MDdyY1WYmHY duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "2v8rXyVBrQ4/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/8pG8QV-18xQ captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/8pG8QV-18xQ titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/8pG8QV-18xQ duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/9UPOe-GdVE4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/9UPOe-GdVE4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/9UPOe-GdVE4 duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/BRsg_krdt8s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/BRsg_krdt8s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/BRsg_krdt8s duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/C95Y9g135kg captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/C95Y9g135kg titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/C95Y9g135kg duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/CdeF5JtUB44 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/CdeF5JtUB44 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/CdeF5JtUB44 duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/MDdyY1WYmHY captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/MDdyY1WYmHY titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/MDdyY1WYmHY duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "5Sq-dBoqu10/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/9UPOe-GdVE4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/9UPOe-GdVE4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/9UPOe-GdVE4 duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/BRsg_krdt8s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/BRsg_krdt8s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/BRsg_krdt8s duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/C95Y9g135kg captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/C95Y9g135kg titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/C95Y9g135kg duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/CdeF5JtUB44 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/CdeF5JtUB44 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/CdeF5JtUB44 duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/MDdyY1WYmHY captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/MDdyY1WYmHY titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/MDdyY1WYmHY duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "8pG8QV-18xQ/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/BRsg_krdt8s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/BRsg_krdt8s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/BRsg_krdt8s duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/C95Y9g135kg captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/C95Y9g135kg titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/C95Y9g135kg duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/CdeF5JtUB44 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/CdeF5JtUB44 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/CdeF5JtUB44 duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/MDdyY1WYmHY captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/MDdyY1WYmHY titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/MDdyY1WYmHY duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "9UPOe-GdVE4/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/C95Y9g135kg captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/C95Y9g135kg titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/C95Y9g135kg duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/CdeF5JtUB44 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/CdeF5JtUB44 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/CdeF5JtUB44 duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/MDdyY1WYmHY captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/MDdyY1WYmHY titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/MDdyY1WYmHY duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "BRsg_krdt8s/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/CdeF5JtUB44 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/CdeF5JtUB44 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/CdeF5JtUB44 duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/MDdyY1WYmHY captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/MDdyY1WYmHY titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/MDdyY1WYmHY duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "C95Y9g135kg/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/MDdyY1WYmHY captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/MDdyY1WYmHY titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/MDdyY1WYmHY duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "CdeF5JtUB44/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/NxYRldsuB3s captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/NxYRldsuB3s titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/NxYRldsuB3s duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "MDdyY1WYmHY/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/SPiLHHvhGeM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/SPiLHHvhGeM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/SPiLHHvhGeM duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "NxYRldsuB3s/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/T350BmG4zwM captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/T350BmG4zwM titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/T350BmG4zwM duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "SPiLHHvhGeM/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/T5QtncJq1Jc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/T5QtncJq1Jc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/T5QtncJq1Jc duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T350BmG4zwM/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/UMrZXFgMpdo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/UMrZXFgMpdo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/UMrZXFgMpdo duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "T5QtncJq1Jc/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dRbLEaSOP2k captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dRbLEaSOP2k titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dRbLEaSOP2k duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "UMrZXFgMpdo/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/dTKNeJ0hGMo captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/dTKNeJ0hGMo titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/dTKNeJ0hGMo duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dRbLEaSOP2k/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/dWPc8lU-OPc captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/dWPc8lU-OPc titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/dWPc8lU-OPc duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dTKNeJ0hGMo/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/fZmY4xS_qXE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/fZmY4xS_qXE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/fZmY4xS_qXE duration join",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "dWPc8lU-OPc/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/ierU5o3ffX4 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/ierU5o3ffX4 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/ierU5o3ffX4 duration join",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "fZmY4xS_qXE/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/qa9694ghfzE captionCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/qa9694ghfzE titleCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/qa9694ghfzE duration join",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "ierU5o3ffX4/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/rnZ_y4-kM1I captionCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/rnZ_y4-kM1I titleCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/rnZ_y4-kM1I duration join",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "qa9694ghfzE/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/svK99fsGskw captionCosine",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/svK99fsGskw titleCosine",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/svK99fsGskw duration join",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "rnZ_y4-kM1I/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/vvV4JcA5U7o captionCosine",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/vvV4JcA5U7o titleCosine",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/vvV4JcA5U7o duration join",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "svK99fsGskw/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "vvV4JcA5U7o/wTGFWgT7LOU captionCosine",
+      "passed": true
+    },
+    {
+      "check": "vvV4JcA5U7o/wTGFWgT7LOU titleCosine",
+      "passed": true
+    },
+    {
+      "check": "vvV4JcA5U7o/wTGFWgT7LOU duration join",
+      "passed": true
+    },
+    {
+      "check": "vvV4JcA5U7o/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "vvV4JcA5U7o/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "vvV4JcA5U7o/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "wTGFWgT7LOU/z5bKGZzwkt8 captionCosine",
+      "passed": true
+    },
+    {
+      "check": "wTGFWgT7LOU/z5bKGZzwkt8 titleCosine",
+      "passed": true
+    },
+    {
+      "check": "wTGFWgT7LOU/z5bKGZzwkt8 duration join",
+      "passed": true
+    },
+    {
+      "check": "Independent pseudoinverse partial rank",
+      "passed": true
+    },
+    {
+      "check": "Model train/test candidate disjoint",
+      "passed": true
+    },
+    {
+      "check": "Model train/test upload disjoint",
+      "passed": true
+    },
+    {
+      "check": "Independent quarantine groups disjoint across model split",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed model quarantine partition",
+      "passed": true
+    },
+    {
+      "check": "Model split source hash",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-fZmY4xS_qXE-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-IKYfZdjv3aE-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-9Ij2AEoRwoM-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-eCxOH-AK1rc-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-k0lWJ2B90-I-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-lLFUTAVah30-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-ZACIL5Hzb5c-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-zOcZDBhRaOQ-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-5Js8U9sJ5-8-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-JSwqz_ZhH_I-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-ozHG5P7fY5I-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-5lOHuqDbpoc-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-WEVqgD-L5kc-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-BaN26a0SbLQ-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-kPWOUEtUx2Y-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-OzkviF1GCFc-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-hmX3hlNJBjU-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-Rcjd1TkZUMY-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-0htF1V0v6ec-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-S3Xw09ZE2Dg-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-wCZ1Lib1_cQ-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-IKJzZ-KVPdQ-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-aZvcNhWthUA-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-hFC4F3JO33M-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-T5QtncJq1Jc-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-Dw9XHTMrgBE-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-jQbxp4e6bfg-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-d--HZiDqgs0-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-pfB4F7uAjwE-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-EHK_mwdk3kM-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-mzcFoYUvbOE-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-y0-_YOFU8eQ-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-4NGd9kqWM04-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-U-DHIk0lIQ4-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-hTlU_M_R0eE-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-7WjydoNj7hE-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-fOi0W9_JEWM-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-kvU9mCJr-eo-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-94agFEADfyk-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-9FrwPg8FYvM-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-ETuHIzyRhyY-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-E_cPno64Z-Q-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-HoYNcoMTk-4-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-p8JC21bFf5M-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-2GVhU6BRVWY-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-98KsASkO8Cs-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-ji9rMw37o2M-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-fZmY4xS_qXE-001",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-_UZ8EyuOuY8-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-QBk2MQ1MVZo-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-ufzO0sbNICQ-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-DvWNnqnBAjc-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-Fp1YFz-8d4Y-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-IuO0mjva9ls-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-vrv3J-ri804-000",
+      "passed": true
+    },
+    {
+      "check": "Model example source binding qa-yx5hg3wTESs-000",
+      "passed": true
+    },
+    {
+      "check": "Independent actual model audit passes",
+      "passed": true
+    },
+    {
+      "check": "Actual model audit input split.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model audit input predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model audit input benchmark-results.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model audit input training-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model audit input run_benchmark.py",
+      "passed": true
+    },
+    {
+      "check": "Actual model audit input adapter-package.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model audit input qwen-digest-lora-pilot.zip",
+      "passed": true
+    },
+    {
+      "check": "Independent model diagnostics audit passes",
+      "passed": true
+    },
+    {
+      "check": "Actual model diagnostic input predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model diagnostic input split.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model diagnostic input posthoc-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model diagnostic input content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model diagnostic input content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model diagnostic input content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Actual model diagnostic input run_round11_diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "Actual model diagnostic input run_content_labels.py",
+      "passed": true
+    },
+    {
+      "check": "Independent prompt and current-family audit passes",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input run_content_labels.py",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input option-order-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input option-order-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input option-order-results.json",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input conditional-lexicon-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input run_round12_order_probe.py",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input qwen35-content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input qwen35-content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input qwen35-content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input run_qwen35_content_labels.py",
+      "passed": true
+    },
+    {
+      "check": "Prompt/current-family input annotation-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "question-answer-alignment pdf present",
+      "passed": true
+    },
+    {
+      "check": "question-answer-alignment svg present",
+      "passed": true
+    },
+    {
+      "check": "question-answer-alignment png present",
+      "passed": true
+    },
+    {
+      "check": "lexical-graph-stability pdf present",
+      "passed": true
+    },
+    {
+      "check": "lexical-graph-stability svg present",
+      "passed": true
+    },
+    {
+      "check": "lexical-graph-stability png present",
+      "passed": true
+    },
+    {
+      "check": "caption-duration-controls pdf present",
+      "passed": true
+    },
+    {
+      "check": "caption-duration-controls svg present",
+      "passed": true
+    },
+    {
+      "check": "caption-duration-controls png present",
+      "passed": true
+    },
+    {
+      "check": "source-leakage-guard pdf present",
+      "passed": true
+    },
+    {
+      "check": "source-leakage-guard svg present",
+      "passed": true
+    },
+    {
+      "check": "source-leakage-guard png present",
+      "passed": true
+    },
+    {
+      "check": "model-reconstruction-controls pdf present",
+      "passed": true
+    },
+    {
+      "check": "model-reconstruction-controls svg present",
+      "passed": true
+    },
+    {
+      "check": "model-reconstruction-controls png present",
+      "passed": true
+    },
+    {
+      "check": "question-cosine-common-support pdf present",
+      "passed": true
+    },
+    {
+      "check": "question-cosine-common-support svg present",
+      "passed": true
+    },
+    {
+      "check": "question-cosine-common-support png present",
+      "passed": true
+    }
+  ]
+}

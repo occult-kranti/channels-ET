@@ -1,0 +1,21 @@
+{
+  "mode": "preflight",
+  "started_at": "2026-10-23T20:28:45.804739+00:00",
+  "records": [
+    {
+      "operation": "watch_metadata_preflight",
+      "url": "https://www.youtube.com/watch?v=fZmY4xS_qXE",
+      "retrieved_at": "2026-10-23T20:28:45.809468+00:00",
+      "status": "blocked",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "blocked": true,
+  "software": {
+    "yt-dlp": "2026.10.21",
+    "youtube-transcript-api": "1.2.4"
+  },
+  "finished_at": "2026-10-23T20:28:45.830261+00:00",
+  "successful_operations": 0
+}

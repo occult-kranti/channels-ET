@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "All retained digest Q&A entries represented exactly once",
+      "passed": true
+    },
+    {
+      "check": "Stable candidate IDs unique",
+      "passed": true
+    },
+    {
+      "check": "Every candidate resolves to exact source bytes and JSON pointer (949 rows)",
+      "passed": true
+    },
+    {
+      "check": "Digest provenance retained",
+      "passed": true
+    },
+    {
+      "check": "Unavailable timing and speaker evidence remain unavailable",
+      "passed": true
+    },
+    {
+      "check": "Q&A-bearing video denominator matches source files",
+      "passed": true
+    },
+    {
+      "check": "Practitioner coverage matches candidate attribution",
+      "passed": true
+    },
+    {
+      "check": "Cross-practitioner comparison availability reflects evidence",
+      "passed": true
+    },
+    {
+      "check": "Planned-query denominator reconciles",
+      "passed": true
+    },
+    {
+      "check": "Planned-account denominator reconciles",
+      "passed": true
+    },
+    {
+      "check": "Plan rows are not represented as executed results",
+      "passed": true
+    },
+    {
+      "check": "SQLite integrity check",
+      "passed": true
+    },
+    {
+      "check": "SQLite and JSON candidate counts agree",
+      "passed": true
+    },
+    {
+      "check": "Attributed upload denominator independently reconciled",
+      "passed": true
+    },
+    {
+      "check": "Top-ten concentration independently reproduced",
+      "passed": true
+    },
+    {
+      "check": "Analysis pinned to exact retained source snapshot",
+      "passed": true
+    },
+    {
+      "check": "Analysis upload denominator reconciles",
+      "passed": true
+    },
+    {
+      "check": "Manuscript inputs match current source/result bytes: no stale inputs",
+      "passed": true
+    },
+    {
+      "check": "Original reviewed manuscript PDF preserved",
+      "passed": true
+    },
+    {
+      "check": "Explorer paper download matches reviewed manuscript",
+      "passed": true
+    },
+    {
+      "check": "Explorer SQLite download matches source database",
+      "passed": true
+    }
+  ],
+  "checkCount": 21,
+  "candidateRowsResolved": 949,
+  "sourceMismatches": [],
+  "scope": "Source lineage and artifact consistency; not caption/audio accuracy, human validation or semantic agreement."
+}

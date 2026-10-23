@@ -1,0 +1,380 @@
+{
+  "status": "completed",
+  "device": "cpu",
+  "examples": 48,
+  "epochs": 1,
+  "microsteps": 48,
+  "optimizerSteps": 12,
+  "sequenceMaxTokens": 192,
+  "gradientAccumulation": 4,
+  "learningRate": 0.0002,
+  "seed": 42,
+  "loraRank": 4,
+  "loraAlpha": 8,
+  "targetModules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "trainableParameters": 270336,
+  "totalParameters": 494303104,
+  "trainingSeconds": 65.04,
+  "peakProcessRssKiB": 3362020,
+  "losses": [
+    {
+      "microstep": 1,
+      "candidateId": "qa-fZmY4xS_qXE-000",
+      "sourceGroupId": "fZmY4xS_qXE",
+      "tokens": 120,
+      "loss": 3.987397
+    },
+    {
+      "microstep": 2,
+      "candidateId": "qa-IKYfZdjv3aE-000",
+      "sourceGroupId": "IKYfZdjv3aE",
+      "tokens": 121,
+      "loss": 4.155783
+    },
+    {
+      "microstep": 3,
+      "candidateId": "qa-9Ij2AEoRwoM-000",
+      "sourceGroupId": "9Ij2AEoRwoM",
+      "tokens": 95,
+      "loss": 5.101136
+    },
+    {
+      "microstep": 4,
+      "candidateId": "qa-eCxOH-AK1rc-000",
+      "sourceGroupId": "eCxOH-AK1rc",
+      "tokens": 87,
+      "loss": 5.929271
+    },
+    {
+      "microstep": 5,
+      "candidateId": "qa-k0lWJ2B90-I-000",
+      "sourceGroupId": "k0lWJ2B90-I",
+      "tokens": 96,
+      "loss": 4.304993
+    },
+    {
+      "microstep": 6,
+      "candidateId": "qa-lLFUTAVah30-000",
+      "sourceGroupId": "lLFUTAVah30",
+      "tokens": 105,
+      "loss": 4.689304
+    },
+    {
+      "microstep": 7,
+      "candidateId": "qa-ZACIL5Hzb5c-000",
+      "sourceGroupId": "ZACIL5Hzb5c",
+      "tokens": 101,
+      "loss": 4.444869
+    },
+    {
+      "microstep": 8,
+      "candidateId": "qa-zOcZDBhRaOQ-000",
+      "sourceGroupId": "zOcZDBhRaOQ",
+      "tokens": 114,
+      "loss": 3.471393
+    },
+    {
+      "microstep": 9,
+      "candidateId": "qa-5Js8U9sJ5-8-000",
+      "sourceGroupId": "5Js8U9sJ5-8",
+      "tokens": 101,
+      "loss": 4.633739
+    },
+    {
+      "microstep": 10,
+      "candidateId": "qa-JSwqz_ZhH_I-000",
+      "sourceGroupId": "JSwqz_ZhH_I",
+      "tokens": 88,
+      "loss": 4.839997
+    },
+    {
+      "microstep": 11,
+      "candidateId": "qa-ozHG5P7fY5I-000",
+      "sourceGroupId": "ozHG5P7fY5I",
+      "tokens": 118,
+      "loss": 4.140118
+    },
+    {
+      "microstep": 12,
+      "candidateId": "qa-5lOHuqDbpoc-000",
+      "sourceGroupId": "5lOHuqDbpoc",
+      "tokens": 118,
+      "loss": 3.59927
+    },
+    {
+      "microstep": 13,
+      "candidateId": "qa-WEVqgD-L5kc-000",
+      "sourceGroupId": "WEVqgD-L5kc",
+      "tokens": 101,
+      "loss": 4.210792
+    },
+    {
+      "microstep": 14,
+      "candidateId": "qa-BaN26a0SbLQ-000",
+      "sourceGroupId": "BaN26a0SbLQ",
+      "tokens": 119,
+      "loss": 3.652688
+    },
+    {
+      "microstep": 15,
+      "candidateId": "qa-kPWOUEtUx2Y-000",
+      "sourceGroupId": "kPWOUEtUx2Y",
+      "tokens": 88,
+      "loss": 4.353545
+    },
+    {
+      "microstep": 16,
+      "candidateId": "qa-OzkviF1GCFc-000",
+      "sourceGroupId": "OzkviF1GCFc",
+      "tokens": 96,
+      "loss": 4.421309
+    },
+    {
+      "microstep": 17,
+      "candidateId": "qa-hmX3hlNJBjU-000",
+      "sourceGroupId": "hmX3hlNJBjU",
+      "tokens": 103,
+      "loss": 4.505721
+    },
+    {
+      "microstep": 18,
+      "candidateId": "qa-Rcjd1TkZUMY-000",
+      "sourceGroupId": "Rcjd1TkZUMY",
+      "tokens": 121,
+      "loss": 4.296681
+    },
+    {
+      "microstep": 19,
+      "candidateId": "qa-0htF1V0v6ec-000",
+      "sourceGroupId": "0htF1V0v6ec",
+      "tokens": 103,
+      "loss": 4.49647
+    },
+    {
+      "microstep": 20,
+      "candidateId": "qa-S3Xw09ZE2Dg-000",
+      "sourceGroupId": "S3Xw09ZE2Dg",
+      "tokens": 93,
+      "loss": 3.881777
+    },
+    {
+      "microstep": 21,
+      "candidateId": "qa-wCZ1Lib1_cQ-000",
+      "sourceGroupId": "wCZ1Lib1_cQ",
+      "tokens": 97,
+      "loss": 4.888841
+    },
+    {
+      "microstep": 22,
+      "candidateId": "qa-IKJzZ-KVPdQ-000",
+      "sourceGroupId": "IKJzZ-KVPdQ",
+      "tokens": 106,
+      "loss": 3.559685
+    },
+    {
+      "microstep": 23,
+      "candidateId": "qa-aZvcNhWthUA-000",
+      "sourceGroupId": "aZvcNhWthUA",
+      "tokens": 91,
+      "loss": 4.534629
+    },
+    {
+      "microstep": 24,
+      "candidateId": "qa-hFC4F3JO33M-000",
+      "sourceGroupId": "hFC4F3JO33M",
+      "tokens": 101,
+      "loss": 4.559571
+    },
+    {
+      "microstep": 25,
+      "candidateId": "qa-T5QtncJq1Jc-000",
+      "sourceGroupId": "T5QtncJq1Jc",
+      "tokens": 107,
+      "loss": 4.551638
+    },
+    {
+      "microstep": 26,
+      "candidateId": "qa-Dw9XHTMrgBE-000",
+      "sourceGroupId": "Dw9XHTMrgBE",
+      "tokens": 94,
+      "loss": 3.972525
+    },
+    {
+      "microstep": 27,
+      "candidateId": "qa-jQbxp4e6bfg-000",
+      "sourceGroupId": "jQbxp4e6bfg",
+      "tokens": 90,
+      "loss": 4.105883
+    },
+    {
+      "microstep": 28,
+      "candidateId": "qa-d--HZiDqgs0-000",
+      "sourceGroupId": "d--HZiDqgs0",
+      "tokens": 92,
+      "loss": 5.527016
+    },
+    {
+      "microstep": 29,
+      "candidateId": "qa-pfB4F7uAjwE-000",
+      "sourceGroupId": "pfB4F7uAjwE",
+      "tokens": 103,
+      "loss": 4.317337
+    },
+    {
+      "microstep": 30,
+      "candidateId": "qa-EHK_mwdk3kM-000",
+      "sourceGroupId": "EHK_mwdk3kM",
+      "tokens": 96,
+      "loss": 3.803677
+    },
+    {
+      "microstep": 31,
+      "candidateId": "qa-mzcFoYUvbOE-000",
+      "sourceGroupId": "mzcFoYUvbOE",
+      "tokens": 88,
+      "loss": 4.030744
+    },
+    {
+      "microstep": 32,
+      "candidateId": "qa-y0-_YOFU8eQ-000",
+      "sourceGroupId": "y0-_YOFU8eQ",
+      "tokens": 93,
+      "loss": 3.963983
+    },
+    {
+      "microstep": 33,
+      "candidateId": "qa-4NGd9kqWM04-000",
+      "sourceGroupId": "4NGd9kqWM04",
+      "tokens": 86,
+      "loss": 4.087461
+    },
+    {
+      "microstep": 34,
+      "candidateId": "qa-U-DHIk0lIQ4-000",
+      "sourceGroupId": "U-DHIk0lIQ4",
+      "tokens": 88,
+      "loss": 3.616456
+    },
+    {
+      "microstep": 35,
+      "candidateId": "qa-hTlU_M_R0eE-000",
+      "sourceGroupId": "hTlU_M_R0eE",
+      "tokens": 110,
+      "loss": 4.933744
+    },
+    {
+      "microstep": 36,
+      "candidateId": "qa-7WjydoNj7hE-000",
+      "sourceGroupId": "7WjydoNj7hE",
+      "tokens": 88,
+      "loss": 4.884829
+    },
+    {
+      "microstep": 37,
+      "candidateId": "qa-fOi0W9_JEWM-000",
+      "sourceGroupId": "fOi0W9_JEWM",
+      "tokens": 97,
+      "loss": 3.731565
+    },
+    {
+      "microstep": 38,
+      "candidateId": "qa-kvU9mCJr-eo-000",
+      "sourceGroupId": "kvU9mCJr-eo",
+      "tokens": 85,
+      "loss": 4.301555
+    },
+    {
+      "microstep": 39,
+      "candidateId": "qa-94agFEADfyk-000",
+      "sourceGroupId": "94agFEADfyk",
+      "tokens": 93,
+      "loss": 3.504808
+    },
+    {
+      "microstep": 40,
+      "candidateId": "qa-9FrwPg8FYvM-000",
+      "sourceGroupId": "9FrwPg8FYvM",
+      "tokens": 103,
+      "loss": 3.745277
+    },
+    {
+      "microstep": 41,
+      "candidateId": "qa-ETuHIzyRhyY-000",
+      "sourceGroupId": "ETuHIzyRhyY",
+      "tokens": 97,
+      "loss": 4.286063
+    },
+    {
+      "microstep": 42,
+      "candidateId": "qa-E_cPno64Z-Q-000",
+      "sourceGroupId": "E_cPno64Z-Q",
+      "tokens": 98,
+      "loss": 3.263262
+    },
+    {
+      "microstep": 43,
+      "candidateId": "qa-HoYNcoMTk-4-000",
+      "sourceGroupId": "HoYNcoMTk-4",
+      "tokens": 95,
+      "loss": 4.949896
+    },
+    {
+      "microstep": 44,
+      "candidateId": "qa-p8JC21bFf5M-000",
+      "sourceGroupId": "p8JC21bFf5M",
+      "tokens": 96,
+      "loss": 3.934283
+    },
+    {
+      "microstep": 45,
+      "candidateId": "qa-2GVhU6BRVWY-000",
+      "sourceGroupId": "2GVhU6BRVWY",
+      "tokens": 101,
+      "loss": 4.491056
+    },
+    {
+      "microstep": 46,
+      "candidateId": "qa-98KsASkO8Cs-000",
+      "sourceGroupId": "98KsASkO8Cs",
+      "tokens": 93,
+      "loss": 4.79339
+    },
+    {
+      "microstep": 47,
+      "candidateId": "qa-ji9rMw37o2M-000",
+      "sourceGroupId": "ji9rMw37o2M",
+      "tokens": 94,
+      "loss": 3.274574
+    },
+    {
+      "microstep": 48,
+      "candidateId": "qa-fZmY4xS_qXE-001",
+      "sourceGroupId": "fZmY4xS_qXE",
+      "tokens": 102,
+      "loss": 4.584746
+    }
+  ],
+  "adapterPath": "/workspace/channels-et-model-cache/lora-pilot",
+  "adapterFiles": [
+    {
+      "name": "README.md",
+      "bytes": 5121,
+      "sha256": "a77f1914a32c5c4d52ed4386ff528851fd54a2845ee5c3072d6ad4214e7299ab"
+    },
+    {
+      "name": "adapter_config.json",
+      "bytes": 800,
+      "sha256": "e1ccc222e2a39b5efa858dfb9d3310d6228cf4e28d80b5100b456b3b92465722"
+    },
+    {
+      "name": "adapter_model.safetensors",
+      "bytes": 1093728,
+      "sha256": "8d3afe9254008447ae3fbcad2f47ca199600ffe321f052210f332be3d25424a7"
+    }
+  ],
+  "gpuTraining": "not_available_no_CUDA_device",
+  "comparisonLimit": "No GPU vs CPU timing comparison was executed"
+}

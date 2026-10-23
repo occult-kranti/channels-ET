@@ -1,0 +1,64 @@
+{
+  "round": 8,
+  "role": "analytics cross-workstream reviewer",
+  "reviewedAt": "2026-10-23T20:38:52.845535+00:00",
+  "inputs": {
+    "rounds/round7/manifest.json": "b85a31ea897a0791434ef1129331cd360c61d7d0b7b820183eb1c29fedd89ce0",
+    "paper/channeling-atlas-expansion-paper.pdf": "b8df4a2ba9f4b9a09fda4ebe0959e9731fa84f769e3023f08910a4548b6cb12d",
+    "paper/body.tex": "ae3fa3f8edd7aa8651ddeee8b5b1eed692da7e8c3101193e615e28b3da2a2115",
+    "paper/generated/expansion-results.tex": "818d37e5926a295c1776787d9927f59a120f1564ab0a6ce853215eead2fdc4e7",
+    "qa/summary.json": "87e2f65639eb21d8dc9358ed429ca36614da0f66f701b019e8686474c2d9301e",
+    "qa/question-pairs.json": "ff7d57e878c4504839d9e8711b9863b255cef7b35be45335ff3683b50aeb0979",
+    "qa/close-reading.json": "3a42d6c9613bda1f6c109e4a2bdeabb0da6d9145fe359ffdc231824d76364aee",
+    "qa/pair-close-reading.json": "f45327d8b9da9a377b6eccd3f494b81e225a0f2b277cd877579c10d61c24f273",
+    "analysis/results.json": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216",
+    "analysis/generated/figures/negative-control.pdf": "fc49e2758e0d0f8d848d33a84e40f6c6a05c495f47c81c2c133ad0a6a76cdc76"
+  },
+  "numericVerifier": {
+    "status": "PASS",
+    "checks": 798,
+    "resultsSha256": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216"
+  },
+  "qaCrosslayerVerifier": {
+    "status": "PASS",
+    "checks": 2975,
+    "path": "analysis/generated/qa-crosslayer-verification.json"
+  },
+  "findings": [
+    {
+      "id": "A8-1",
+      "severity": "readability",
+      "evidence": "Rendered first candidate PDF page13: caption observed-value line crosses legend text in Figure6.",
+      "decision": "accepted_fixed",
+      "correction": "Moved both legends to explicit upper center with opaque white backing. Regenerated negative-control PDF/SVG/PNG only; visually inspected updated PNG. Paper worker notified to recopy updated figure before rebuilding."
+    },
+    {
+      "id": "A8-2",
+      "severity": "method_precision",
+      "evidence": "Paper section4.5 describes caption selection contrasts and descriptive resampling as fixed-seed procedures, although new selection uses deterministic quantiles and the random operation is publisher-label permutation.",
+      "decision": "accepted_sent_to_paper",
+      "correction": "Replace generic resampling language with exact executed procedure; historical balanced sampling remains a separately inherited sensitivity."
+    },
+    {
+      "id": "A8-3",
+      "severity": "evidence_completeness",
+      "evidence": "First generated results report pooled caption/title separations but omit existing account-balanced and omission sensitivities.",
+      "decision": "accepted_sent_to_paper",
+      "correction": "Add matched11within/289between pair counts,11eligible/3singleton publishers, equal-account .1533/.2286, caption omission .1214\u2013.1793 and representation-specific cross-layer contrast; do not call omission ranges confidence intervals."
+    },
+    {
+      "id": "A8-4",
+      "severity": "retrieval_scope",
+      "evidence": "127 question-pairs span71 upload pairs; top3 upload pairs supply30 matches. Threshold>=.40 lacks a displayed sensitivity; summary previews100 and explorer displays10.",
+      "decision": "accepted_followup_round9",
+      "correction": "QA owner preparing .4\u2013.9 threshold counts and upload-pair concentration after round8 freeze. Dashboard owner notified to label displayed subset. This is retrieval sensitivity, not precision/recall or agreement validation."
+    }
+  ],
+  "unsupportedClaimsFound": false,
+  "scopeLimits": [
+    "No raw-caption/audio review or human construct validation performed.",
+    "Pair source-pointer/hash checks verify released digests, not original speech.",
+    "Generated manuscript is changing during correction; receipt hashes identify inspected artifacts only."
+  ],
+  "status": "review_complete_corrections_assigned"
+}

@@ -1,0 +1,323 @@
+{
+  "status": "PASS",
+  "executionStatus": "completed",
+  "checks": 377,
+  "passed": 377,
+  "failed": [],
+  "inputs": {
+    "split.json": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "predictions.json": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+    "benchmark-results.json": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+    "training-receipt.json": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+    "run_benchmark.py": "d8f85398e578d564ecc7ffe7dc26caafad2cb212fc109d73498a2fb5539f95a3",
+    "adapter-package.json": "68ad350f487a36ca9108e9f791bda72d2415ccd668feb1bb45b04a897d25614c",
+    "qwen-digest-lora-pilot.zip": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+  },
+  "model": {
+    "id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "license": "apache-2.0",
+    "parameterScale": "0.5B family; bounded CPU baseline, not established state of the art"
+  },
+  "controlOutputs": [
+    {
+      "arm": "lexical_retrieval",
+      "id": "control-studio-temperature",
+      "output": "INSUFFICIENT_EVIDENCE",
+      "strictMarkerPresent": true
+    },
+    {
+      "arm": "lexical_retrieval",
+      "id": "control-unpublished-hash",
+      "output": "Ascended masters have accumulated over 1000 incarnations and access higher vibrational levels in spirit. All souls know what's relevant for their level; ascended masters simply operate on higher frequency planes with deeper knowledge. [D1]",
+      "strictMarkerPresent": false
+    },
+    {
+      "arm": "qwen_base_closed",
+      "id": "control-studio-temperature",
+      "output": "Insufficient evidence.",
+      "strictMarkerPresent": false
+    },
+    {
+      "arm": "qwen_base_closed",
+      "id": "control-unpublished-hash",
+      "output": "Insufficient evidence.",
+      "strictMarkerPresent": false
+    },
+    {
+      "arm": "qwen_base_rag",
+      "id": "control-studio-temperature",
+      "output": "INSUFFICIENT_EVIDENCE.",
+      "strictMarkerPresent": true
+    },
+    {
+      "arm": "qwen_base_rag",
+      "id": "control-unpublished-hash",
+      "output": "Insufficient evidence.",
+      "strictMarkerPresent": false
+    },
+    {
+      "arm": "qwen_lora_closed",
+      "id": "control-studio-temperature",
+      "output": "The exact recorded room temperature was 23\u00b0C (73\u00b0F).",
+      "strictMarkerPresent": false
+    },
+    {
+      "arm": "qwen_lora_closed",
+      "id": "control-unpublished-hash",
+      "output": "The SHA-256 digest of the unpublished original audio master for this session is not available.",
+      "strictMarkerPresent": false
+    },
+    {
+      "arm": "qwen_lora_rag",
+      "id": "control-studio-temperature",
+      "output": "INSUFFICIENT_EVIDENCE.",
+      "strictMarkerPresent": true
+    },
+    {
+      "arm": "qwen_lora_rag",
+      "id": "control-unpublished-hash",
+      "output": "The SHA-256 digest of the unpublished original audio master for this session is INSUFFICIENT_EVIDENCE.",
+      "strictMarkerPresent": true
+    }
+  ],
+  "arms": [
+    {
+      "id": "lexical_retrieval",
+      "questions": 8,
+      "controls": 2,
+      "meanTokenF1": 0.03499314330929773,
+      "controlStrictMarkerOutputs": 1,
+      "heldoutStrictMarkerOutputs": 3,
+      "validCitationOutputs": 5,
+      "meanResponseSeconds": 0.00042060000000000003,
+      "perQuestionTokenF1": [
+        {
+          "id": "qa-_UZ8EyuOuY8-000",
+          "score": 0.041666666666666664
+        },
+        {
+          "id": "qa-QBk2MQ1MVZo-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-ufzO0sbNICQ-000",
+          "score": 0.08888888888888889
+        },
+        {
+          "id": "qa-DvWNnqnBAjc-000",
+          "score": 0.07142857142857142
+        },
+        {
+          "id": "qa-Fp1YFz-8d4Y-000",
+          "score": 0.043478260869565216
+        },
+        {
+          "id": "qa-IuO0mjva9ls-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-vrv3J-ri804-000",
+          "score": 0.034482758620689655
+        },
+        {
+          "id": "qa-yx5hg3wTESs-000",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "qwen_base_closed",
+      "questions": 8,
+      "controls": 2,
+      "meanTokenF1": 0.06021237970448678,
+      "controlStrictMarkerOutputs": 0,
+      "heldoutStrictMarkerOutputs": 4,
+      "validCitationOutputs": null,
+      "meanResponseSeconds": 1.3961836,
+      "perQuestionTokenF1": [
+        {
+          "id": "qa-_UZ8EyuOuY8-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-QBk2MQ1MVZo-000",
+          "score": 0.047619047619047616
+        },
+        {
+          "id": "qa-ufzO0sbNICQ-000",
+          "score": 0.25806451612903225
+        },
+        {
+          "id": "qa-DvWNnqnBAjc-000",
+          "score": 0.09090909090909091
+        },
+        {
+          "id": "qa-Fp1YFz-8d4Y-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-IuO0mjva9ls-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-vrv3J-ri804-000",
+          "score": 0.0851063829787234
+        },
+        {
+          "id": "qa-yx5hg3wTESs-000",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "qwen_base_rag",
+      "questions": 8,
+      "controls": 2,
+      "meanTokenF1": 0.010638297872340425,
+      "controlStrictMarkerOutputs": 1,
+      "heldoutStrictMarkerOutputs": 5,
+      "validCitationOutputs": 0,
+      "meanResponseSeconds": 1.3260061,
+      "perQuestionTokenF1": [
+        {
+          "id": "qa-_UZ8EyuOuY8-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-QBk2MQ1MVZo-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-ufzO0sbNICQ-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-DvWNnqnBAjc-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-Fp1YFz-8d4Y-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-IuO0mjva9ls-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-vrv3J-ri804-000",
+          "score": 0.0851063829787234
+        },
+        {
+          "id": "qa-yx5hg3wTESs-000",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "qwen_lora_closed",
+      "questions": 8,
+      "controls": 2,
+      "meanTokenF1": 0.1453069539700216,
+      "controlStrictMarkerOutputs": 0,
+      "heldoutStrictMarkerOutputs": 1,
+      "validCitationOutputs": null,
+      "meanResponseSeconds": 3.2899252000000003,
+      "perQuestionTokenF1": [
+        {
+          "id": "qa-_UZ8EyuOuY8-000",
+          "score": 0.07142857142857142
+        },
+        {
+          "id": "qa-QBk2MQ1MVZo-000",
+          "score": 0.10526315789473684
+        },
+        {
+          "id": "qa-ufzO0sbNICQ-000",
+          "score": 0.15384615384615385
+        },
+        {
+          "id": "qa-DvWNnqnBAjc-000",
+          "score": 0.22580645161290322
+        },
+        {
+          "id": "qa-Fp1YFz-8d4Y-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-IuO0mjva9ls-000",
+          "score": 0.20408163265306123
+        },
+        {
+          "id": "qa-vrv3J-ri804-000",
+          "score": 0.16393442622950818
+        },
+        {
+          "id": "qa-yx5hg3wTESs-000",
+          "score": 0.23809523809523808
+        }
+      ]
+    },
+    {
+      "id": "qwen_lora_rag",
+      "questions": 8,
+      "controls": 2,
+      "meanTokenF1": 0.012239583333333333,
+      "controlStrictMarkerOutputs": 2,
+      "heldoutStrictMarkerOutputs": 3,
+      "validCitationOutputs": 0,
+      "meanResponseSeconds": 1.771506,
+      "perQuestionTokenF1": [
+        {
+          "id": "qa-_UZ8EyuOuY8-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-QBk2MQ1MVZo-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-ufzO0sbNICQ-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-DvWNnqnBAjc-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-Fp1YFz-8d4Y-000",
+          "score": 0.06666666666666667
+        },
+        {
+          "id": "qa-IuO0mjva9ls-000",
+          "score": 0.0
+        },
+        {
+          "id": "qa-vrv3J-ri804-000",
+          "score": 0.03125
+        },
+        {
+          "id": "qa-yx5hg3wTESs-000",
+          "score": 0.0
+        }
+      ]
+    }
+  ],
+  "training": {
+    "device": "cpu",
+    "examples": 48,
+    "optimizerSteps": 12,
+    "trainableParameters": 270336,
+    "trainingSeconds": 65.04
+  },
+  "interpretation": [
+    "These are eight held-out AI-digest reconstruction questions and two deliberately unsupported controls, not a model quality ranking.",
+    "Train-only RAG intentionally excludes the target source group and answer; this is sparse-source transfer, not an ordinary answer-present RAG comparison.",
+    "Token F1 measures lexical overlap. Supplied-label membership does not establish entailment or factual correctness.",
+    "Control counts require the literal INSUFFICIENT_EVIDENCE marker. A spaced refusal such as Insufficient evidence. scores zero; this is formatting compliance, not general refusal accuracy.",
+    "The 40-new-token generation cap and 192-token training cap can affect lexical scores; length and citation-normalized sensitivities remain separate checks.",
+    "Observed split quarantine does not rule out pretrained-model contamination or unknown source-session overlap.",
+    "One LoRA closed control output invents an exact studio temperature (23\u00b0C); this is a concrete unsupported response, not inferred from lexical scores."
+  ],
+  "adapterVerification": "Portable archive/member hashes verified; adapter weight bytes match the original training receipt. Package README/config normalization is described by its separate manifest. No external model cache is required for this audit."
+}

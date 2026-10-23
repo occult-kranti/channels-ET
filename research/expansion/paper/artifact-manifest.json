@@ -1,0 +1,11 @@
+{
+  "pdf_sha256": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1",
+  "source_zip_sha256": "0694f364dcc490ce416785ca31ef9b34c453aee421f9dd604a33076011c57b3f",
+  "packaged_files": 17,
+  "compile": "PDFLaTeX -> BibTeX -> PDFLaTeX twice",
+  "limitations": [
+    "Working draft; not submitted or accepted.",
+    "No human construct validation or raw-caption re-inference is claimed.",
+    "Source package compiles the paper; full data recomputation uses repository expansion scripts."
+  ]
+}

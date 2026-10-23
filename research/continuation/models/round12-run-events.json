@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "stage": "first reversed-order probe attempt",
+      "status": "stopped before completion after a bookkeeping bug was identified",
+      "issue": "An aggregate sum could receive None from unparsed original records",
+      "correction": "Convert the optional expression explicitly to bool before summing",
+      "partialOutputsPromoted": false,
+      "evidence": "Partial stdout retained as runtime-logs/round12-option-order-attempt1.log"
+    },
+    {
+      "stage": "corrected reversed-order probe",
+      "status": "completed",
+      "records": 12,
+      "originalOutputsChanged": false
+    },
+    {
+      "stage": "current-family same-item annotation",
+      "status": "completed",
+      "model": "Qwen/Qwen3.5-0.8B",
+      "records": 12,
+      "furtherNeuralRuns": "stopped after this final bounded experiment"
+    }
+  ]
+}

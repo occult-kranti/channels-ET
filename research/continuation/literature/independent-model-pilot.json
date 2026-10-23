@@ -1,0 +1,2788 @@
+{
+  "round": 11,
+  "status": "PASS",
+  "checks": 384,
+  "failures": [],
+  "network_or_inference_runs": 0,
+  "input_sha256": {
+    "predictions.json": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+    "split.json": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "benchmark-results.json": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+    "training-receipt.json": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+  },
+  "capHits": [
+    {
+      "arm": "qwen_lora_closed",
+      "id": "qa-_UZ8EyuOuY8-000"
+    },
+    {
+      "arm": "qwen_lora_closed",
+      "id": "qa-QBk2MQ1MVZo-000"
+    },
+    {
+      "arm": "qwen_lora_closed",
+      "id": "qa-DvWNnqnBAjc-000"
+    },
+    {
+      "arm": "qwen_lora_closed",
+      "id": "qa-IuO0mjva9ls-000"
+    },
+    {
+      "arm": "qwen_lora_closed",
+      "id": "qa-yx5hg3wTESs-000"
+    },
+    {
+      "arm": "qwen_lora_rag",
+      "id": "qa-vrv3J-ri804-000"
+    }
+  ],
+  "adapterSource": {
+    "route": "packaged_zip_member_fallback",
+    "requested_raw_path": "/workspace/channels-ET/research/continuation/models/adapter-export/adapter_model.safetensors",
+    "raw_path_exists": false,
+    "package": "research/continuation/models/qwen-digest-lora-pilot.zip",
+    "package_sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+    "member": "adapter_model.safetensors",
+    "member_sha256": "8d3afe9254008447ae3fbcad2f47ca199600ffe321f052210f332be3d25424a7",
+    "member_bytes": 1093728
+  },
+  "adapterBmatrices": [
+    {
+      "name": "base_model.model.model.layers.0.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.0.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.1.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.1.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.10.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.10.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.11.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.11.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.12.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.12.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.13.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.13.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.14.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.14.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.15.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.15.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.16.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.16.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.17.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.17.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.18.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.18.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.19.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.19.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.2.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.2.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.20.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.20.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.21.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.21.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.22.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.22.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.23.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.23.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.3.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.3.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.4.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.4.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.5.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.5.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.6.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.6.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.7.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.7.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.8.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.8.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.9.self_attn.q_proj.lora_B.weight",
+      "elements": 3584,
+      "nonzero": 3584,
+      "finite": true
+    },
+    {
+      "name": "base_model.model.model.layers.9.self_attn.v_proj.lora_B.weight",
+      "elements": 512,
+      "nonzero": 512,
+      "finite": true
+    }
+  ],
+  "limitations": [
+    "Saved-output verification does not establish heldoutsource answerability,semantic entailment,humanquality or trueclaims.",
+    "Group thresholds depend on question similarity; groups are sourceproxies,not verified recordingfamilies.",
+    "Lexical copiedanswers have no40token generationcap,so length/access confound comparisons.",
+    "Exactmarker and suppliedcitationID compliance are narrow operational measures.",
+    "Base pretraining contamination remains unknown."
+  ],
+  "all_checks": [
+    {
+      "check": "48 adaptation examples",
+      "passed": true,
+      "actual": 48,
+      "expected": 48
+    },
+    {
+      "check": "8 heldout questions",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "check": "5arms*10outputs",
+      "passed": true,
+      "actual": 50,
+      "expected": 50
+    },
+    {
+      "check": "candidate ID partitions disjoint",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "upload partitions disjoint",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "proxy-family partitions disjoint",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "normalized questions disjoint",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "proxy graph independently reconstructed",
+      "passed": true,
+      "actual": {
+        "0htF1V0v6ec": "0htF1V0v6ec",
+        "egu6iDTj2ys": "0htF1V0v6ec",
+        "ja8BrsruFOo": "0htF1V0v6ec",
+        "os4a7-7bnLw": "0htF1V0v6ec",
+        "2GVhU6BRVWY": "2GVhU6BRVWY",
+        "4NGd9kqWM04": "4NGd9kqWM04",
+        "5Js8U9sJ5-8": "5Js8U9sJ5-8",
+        "5lOHuqDbpoc": "5lOHuqDbpoc",
+        "wwkC86EEu1s": "5lOHuqDbpoc",
+        "7WjydoNj7hE": "7WjydoNj7hE",
+        "mgSgI0ElfTI": "7WjydoNj7hE",
+        "PjIvEohms5I": "7WjydoNj7hE",
+        "94agFEADfyk": "94agFEADfyk",
+        "98KsASkO8Cs": "98KsASkO8Cs",
+        "9FrwPg8FYvM": "9FrwPg8FYvM",
+        "9Ij2AEoRwoM": "9Ij2AEoRwoM",
+        "BaN26a0SbLQ": "BaN26a0SbLQ",
+        "tskKYl3w0J8": "DvWNnqnBAjc",
+        "DvWNnqnBAjc": "DvWNnqnBAjc",
+        "mk_yQrOQHJs": "DvWNnqnBAjc",
+        "Dw9XHTMrgBE": "Dw9XHTMrgBE",
+        "EHK_mwdk3kM": "EHK_mwdk3kM",
+        "ETuHIzyRhyY": "ETuHIzyRhyY",
+        "E_cPno64Z-Q": "E_cPno64Z-Q",
+        "Fp1YFz-8d4Y": "Fp1YFz-8d4Y",
+        "sFjR-VFy4tE": "Fp1YFz-8d4Y",
+        "HoYNcoMTk-4": "HoYNcoMTk-4",
+        "SBRcXicYs0I": "IKJzZ-KVPdQ",
+        "IKJzZ-KVPdQ": "IKJzZ-KVPdQ",
+        "IKYfZdjv3aE": "IKYfZdjv3aE",
+        "IuO0mjva9ls": "IuO0mjva9ls",
+        "JSwqz_ZhH_I": "JSwqz_ZhH_I",
+        "OzkviF1GCFc": "OzkviF1GCFc",
+        "QBk2MQ1MVZo": "QBk2MQ1MVZo",
+        "jdzErS12DvU": "QBk2MQ1MVZo",
+        "Rcjd1TkZUMY": "Rcjd1TkZUMY",
+        "S3Xw09ZE2Dg": "S3Xw09ZE2Dg",
+        "T5QtncJq1Jc": "T5QtncJq1Jc",
+        "U-DHIk0lIQ4": "U-DHIk0lIQ4",
+        "WEVqgD-L5kc": "WEVqgD-L5kc",
+        "ZACIL5Hzb5c": "ZACIL5Hzb5c",
+        "_UZ8EyuOuY8": "_UZ8EyuOuY8",
+        "aZvcNhWthUA": "aZvcNhWthUA",
+        "d--HZiDqgs0": "d--HZiDqgs0",
+        "eCxOH-AK1rc": "eCxOH-AK1rc",
+        "fOi0W9_JEWM": "fOi0W9_JEWM",
+        "fZmY4xS_qXE": "fZmY4xS_qXE",
+        "hFC4F3JO33M": "hFC4F3JO33M",
+        "hTlU_M_R0eE": "hTlU_M_R0eE",
+        "hmX3hlNJBjU": "hmX3hlNJBjU",
+        "jQbxp4e6bfg": "jQbxp4e6bfg",
+        "ji9rMw37o2M": "ji9rMw37o2M",
+        "k0lWJ2B90-I": "k0lWJ2B90-I",
+        "kPWOUEtUx2Y": "kPWOUEtUx2Y",
+        "kvU9mCJr-eo": "kvU9mCJr-eo",
+        "lLFUTAVah30": "lLFUTAVah30",
+        "mzcFoYUvbOE": "mzcFoYUvbOE",
+        "ozHG5P7fY5I": "ozHG5P7fY5I",
+        "ygzBrMyMAQA": "p8JC21bFf5M",
+        "p8JC21bFf5M": "p8JC21bFf5M",
+        "pfB4F7uAjwE": "pfB4F7uAjwE",
+        "ufzO0sbNICQ": "ufzO0sbNICQ",
+        "vrv3J-ri804": "vrv3J-ri804",
+        "wCZ1Lib1_cQ": "wCZ1Lib1_cQ",
+        "y0-_YOFU8eQ": "y0-_YOFU8eQ",
+        "yx5hg3wTESs": "yx5hg3wTESs",
+        "zOcZDBhRaOQ": "zOcZDBhRaOQ"
+      },
+      "expected": {
+        "0htF1V0v6ec": "0htF1V0v6ec",
+        "2GVhU6BRVWY": "2GVhU6BRVWY",
+        "4NGd9kqWM04": "4NGd9kqWM04",
+        "5Js8U9sJ5-8": "5Js8U9sJ5-8",
+        "5lOHuqDbpoc": "5lOHuqDbpoc",
+        "7WjydoNj7hE": "7WjydoNj7hE",
+        "94agFEADfyk": "94agFEADfyk",
+        "98KsASkO8Cs": "98KsASkO8Cs",
+        "9FrwPg8FYvM": "9FrwPg8FYvM",
+        "9Ij2AEoRwoM": "9Ij2AEoRwoM",
+        "BaN26a0SbLQ": "BaN26a0SbLQ",
+        "DvWNnqnBAjc": "DvWNnqnBAjc",
+        "Dw9XHTMrgBE": "Dw9XHTMrgBE",
+        "EHK_mwdk3kM": "EHK_mwdk3kM",
+        "ETuHIzyRhyY": "ETuHIzyRhyY",
+        "E_cPno64Z-Q": "E_cPno64Z-Q",
+        "Fp1YFz-8d4Y": "Fp1YFz-8d4Y",
+        "HoYNcoMTk-4": "HoYNcoMTk-4",
+        "IKJzZ-KVPdQ": "IKJzZ-KVPdQ",
+        "IKYfZdjv3aE": "IKYfZdjv3aE",
+        "IuO0mjva9ls": "IuO0mjva9ls",
+        "JSwqz_ZhH_I": "JSwqz_ZhH_I",
+        "OzkviF1GCFc": "OzkviF1GCFc",
+        "PjIvEohms5I": "7WjydoNj7hE",
+        "QBk2MQ1MVZo": "QBk2MQ1MVZo",
+        "Rcjd1TkZUMY": "Rcjd1TkZUMY",
+        "S3Xw09ZE2Dg": "S3Xw09ZE2Dg",
+        "SBRcXicYs0I": "IKJzZ-KVPdQ",
+        "T5QtncJq1Jc": "T5QtncJq1Jc",
+        "U-DHIk0lIQ4": "U-DHIk0lIQ4",
+        "WEVqgD-L5kc": "WEVqgD-L5kc",
+        "ZACIL5Hzb5c": "ZACIL5Hzb5c",
+        "_UZ8EyuOuY8": "_UZ8EyuOuY8",
+        "aZvcNhWthUA": "aZvcNhWthUA",
+        "d--HZiDqgs0": "d--HZiDqgs0",
+        "eCxOH-AK1rc": "eCxOH-AK1rc",
+        "egu6iDTj2ys": "0htF1V0v6ec",
+        "fOi0W9_JEWM": "fOi0W9_JEWM",
+        "fZmY4xS_qXE": "fZmY4xS_qXE",
+        "hFC4F3JO33M": "hFC4F3JO33M",
+        "hTlU_M_R0eE": "hTlU_M_R0eE",
+        "hmX3hlNJBjU": "hmX3hlNJBjU",
+        "jQbxp4e6bfg": "jQbxp4e6bfg",
+        "ja8BrsruFOo": "0htF1V0v6ec",
+        "jdzErS12DvU": "QBk2MQ1MVZo",
+        "ji9rMw37o2M": "ji9rMw37o2M",
+        "k0lWJ2B90-I": "k0lWJ2B90-I",
+        "kPWOUEtUx2Y": "kPWOUEtUx2Y",
+        "kvU9mCJr-eo": "kvU9mCJr-eo",
+        "lLFUTAVah30": "lLFUTAVah30",
+        "mgSgI0ElfTI": "7WjydoNj7hE",
+        "mk_yQrOQHJs": "DvWNnqnBAjc",
+        "mzcFoYUvbOE": "mzcFoYUvbOE",
+        "os4a7-7bnLw": "0htF1V0v6ec",
+        "ozHG5P7fY5I": "ozHG5P7fY5I",
+        "p8JC21bFf5M": "p8JC21bFf5M",
+        "pfB4F7uAjwE": "pfB4F7uAjwE",
+        "sFjR-VFy4tE": "Fp1YFz-8d4Y",
+        "tskKYl3w0J8": "DvWNnqnBAjc",
+        "ufzO0sbNICQ": "ufzO0sbNICQ",
+        "vrv3J-ri804": "vrv3J-ri804",
+        "wCZ1Lib1_cQ": "wCZ1Lib1_cQ",
+        "wwkC86EEu1s": "5lOHuqDbpoc",
+        "y0-_YOFU8eQ": "y0-_YOFU8eQ",
+        "ygzBrMyMAQA": "p8JC21bFf5M",
+        "yx5hg3wTESs": "yx5hg3wTESs",
+        "zOcZDBhRaOQ": "zOcZDBhRaOQ"
+      }
+    },
+    {
+      "check": "original sourcequestion qa-fZmY4xS_qXE-000",
+      "passed": true,
+      "actual": "Why do some people perceive ETs as good while others see them as negative or destructive?",
+      "expected": "Why do some people perceive ETs as good while others see them as negative or destructive?"
+    },
+    {
+      "check": "original referencegist qa-fZmY4xS_qXE-000",
+      "passed": true,
+      "actual": "Perception depends on ET orientation and human fear responses. 99% of ETs engaging Earth are positive; negative ones are rare and managed. Reptilians trigger mammalian fight-or-flight responses due to species differences, not necessarily hostile intent.",
+      "expected": "Perception depends on ET orientation and human fear responses. 99% of ETs engaging Earth are positive; negative ones are rare and managed. Reptilians trigger mammalian fight-or-flight responses due to species differences, not necessarily hostile intent."
+    },
+    {
+      "check": "original sourcequestion qa-IKYfZdjv3aE-000",
+      "passed": true,
+      "actual": "How did your close encounters in 1973 lead to channeling Bashar?",
+      "expected": "How did your close encounters in 1973 lead to channeling Bashar?"
+    },
+    {
+      "check": "original referencegist qa-IKYfZdjv3aE-000",
+      "passed": true,
+      "actual": "Two UFO sightings (150 and 70 feet away) triggered research into metaphysics. Ten years later, during a channeling class meditation, Anka received a telepathic connection from Bashar recalling a prior agreement to channel in this lifetime.",
+      "expected": "Two UFO sightings (150 and 70 feet away) triggered research into metaphysics. Ten years later, during a channeling class meditation, Anka received a telepathic connection from Bashar recalling a prior agreement to channel in this lifetime."
+    },
+    {
+      "check": "original sourcequestion qa-9Ij2AEoRwoM-000",
+      "passed": true,
+      "actual": "What is happening in 2027 regarding extraterrestrials?",
+      "expected": "What is happening in 2027 regarding extraterrestrials?"
+    },
+    {
+      "check": "original referencegist qa-9Ij2AEoRwoM-000",
+      "passed": true,
+      "actual": "Open contact will be revealed\u2014not new arrivals, but acknowledgment of decades-long secret collaboration already underway with governments, scientists, and officials.",
+      "expected": "Open contact will be revealed\u2014not new arrivals, but acknowledgment of decades-long secret collaboration already underway with governments, scientists, and officials."
+    },
+    {
+      "check": "original sourcequestion qa-eCxOH-AK1rc-000",
+      "passed": true,
+      "actual": "Is Area 51 storing aliens as Obama suggested?",
+      "expected": "Is Area 51 storing aliens as Obama suggested?"
+    },
+    {
+      "check": "original referencegist qa-eCxOH-AK1rc-000",
+      "passed": true,
+      "actual": "False; keepers of the secret operate above government protocols. Presidents often lack clearance due to need-to-know basis.",
+      "expected": "False; keepers of the secret operate above government protocols. Presidents often lack clearance due to need-to-know basis."
+    },
+    {
+      "check": "original sourcequestion qa-k0lWJ2B90-I-000",
+      "passed": true,
+      "actual": "How can I manifest another opportunity after turning down my dream job?",
+      "expected": "How can I manifest another opportunity after turning down my dream job?"
+    },
+    {
+      "check": "original referencegist qa-k0lWJ2B90-I-000",
+      "passed": true,
+      "actual": "Release regret and the belief you made a mistake. Apply the formula to attract similar opportunities that will be equally fulfilling, even if not identical in form.",
+      "expected": "Release regret and the belief you made a mistake. Apply the formula to attract similar opportunities that will be equally fulfilling, even if not identical in form."
+    },
+    {
+      "check": "original sourcequestion qa-lLFUTAVah30-000",
+      "passed": true,
+      "actual": "How do ascension symptoms like heart arrhythmia manifest during energy processing?",
+      "expected": "How do ascension symptoms like heart arrhythmia manifest during energy processing?"
+    },
+    {
+      "check": "original referencegist qa-lLFUTAVah30-000",
+      "passed": true,
+      "actual": "The body adapts to new energy frequencies. As you become less resistant and more superconductive neurologically, such symptoms taper off. Follow highest excitement with zero insistence on outcomes.",
+      "expected": "The body adapts to new energy frequencies. As you become less resistant and more superconductive neurologically, such symptoms taper off. Follow highest excitement with zero insistence on outcomes."
+    },
+    {
+      "check": "original sourcequestion qa-ZACIL5Hzb5c-000",
+      "passed": true,
+      "actual": "How can we consciously participate in extraterrestrial contact?",
+      "expected": "How can we consciously participate in extraterrestrial contact?"
+    },
+    {
+      "check": "original referencegist qa-ZACIL5Hzb5c-000",
+      "passed": true,
+      "actual": "Follow the five-step formula: act on passion, continue until excitement naturally wanes, assume nothing about outcomes, stay positive, and release fear-based beliefs that don't belong to you.",
+      "expected": "Follow the five-step formula: act on passion, continue until excitement naturally wanes, assume nothing about outcomes, stay positive, and release fear-based beliefs that don't belong to you."
+    },
+    {
+      "check": "original sourcequestion qa-zOcZDBhRaOQ-000",
+      "passed": true,
+      "actual": "What makes someone an ascended master and do they know more than other souls?",
+      "expected": "What makes someone an ascended master and do they know more than other souls?"
+    },
+    {
+      "check": "original referencegist qa-zOcZDBhRaOQ-000",
+      "passed": true,
+      "actual": "Ascended masters have accumulated over 1000 incarnations and access higher vibrational levels in spirit. All souls know what's relevant for their level; ascended masters simply operate on higher frequency planes with deeper knowledge.",
+      "expected": "Ascended masters have accumulated over 1000 incarnations and access higher vibrational levels in spirit. All souls know what's relevant for their level; ascended masters simply operate on higher frequency planes with deeper knowledge."
+    },
+    {
+      "check": "original sourcequestion qa-5Js8U9sJ5-8-000",
+      "passed": true,
+      "actual": "How does the vortex energy in Sedona/Insanus relate to consciousness acceleration?",
+      "expected": "How does the vortex energy in Sedona/Insanus relate to consciousness acceleration?"
+    },
+    {
+      "check": "original referencegist qa-5Js8U9sJ5-8-000",
+      "passed": true,
+      "actual": "Vortices are nodal points of different energies worldwide. The named area has quickening energy allowing faster experiences and alignment, attracting those seeking accelerated consciousness exploration.",
+      "expected": "Vortices are nodal points of different energies worldwide. The named area has quickening energy allowing faster experiences and alignment, attracting those seeking accelerated consciousness exploration."
+    },
+    {
+      "check": "original sourcequestion qa-JSwqz_ZhH_I-000",
+      "passed": true,
+      "actual": "How do you stay positive when unexpected or crazy things happen?",
+      "expected": "How do you stay positive when unexpected or crazy things happen?"
+    },
+    {
+      "check": "original referencegist qa-JSwqz_ZhH_I-000",
+      "passed": true,
+      "actual": "Assign positive meaning to neutral events through language and imagination; define surprises as opportunities rather than obstacles that will derail you.",
+      "expected": "Assign positive meaning to neutral events through language and imagination; define surprises as opportunities rather than obstacles that will derail you."
+    },
+    {
+      "check": "original sourcequestion qa-ozHG5P7fY5I-000",
+      "passed": true,
+      "actual": "How can someone who feels persistently low-energy and burnt out find inspiration to act on their passion?",
+      "expected": "How can someone who feels persistently low-energy and burnt out find inspiration to act on their passion?"
+    },
+    {
+      "check": "original referencegist qa-ozHG5P7fY5I-000",
+      "passed": true,
+      "actual": "True passion naturally generates energy when you act on it. Burnout signals you haven't found your unique path of least resistance; you must creatively discover your personal way rather than following inherited templates from society, family, or education.",
+      "expected": "True passion naturally generates energy when you act on it. Burnout signals you haven't found your unique path of least resistance; you must creatively discover your personal way rather than following inherited templates from society, family, or education."
+    },
+    {
+      "check": "original sourcequestion qa-5lOHuqDbpoc-000",
+      "passed": true,
+      "actual": "What are the biggest metaphysical misconceptions people hold?",
+      "expected": "What are the biggest metaphysical misconceptions people hold?"
+    },
+    {
+      "check": "original referencegist qa-5lOHuqDbpoc-000",
+      "passed": true,
+      "actual": "Outdated definitions confuse the experience with the mechanism. For example, telepathy isn't literally reading minds but matching vibrational frequencies so you think similar thoughts. Understanding the true mechanism (resonance, frequency, vibration) clarifies how metaphysical phenomena actually work.",
+      "expected": "Outdated definitions confuse the experience with the mechanism. For example, telepathy isn't literally reading minds but matching vibrational frequencies so you think similar thoughts. Understanding the true mechanism (resonance, frequency, vibration) clarifies how metaphysical phenomena actually work."
+    },
+    {
+      "check": "original sourcequestion qa-WEVqgD-L5kc-000",
+      "passed": true,
+      "actual": "How can I follow highest joy if the economy collapses?",
+      "expected": "How can I follow highest joy if the economy collapses?"
+    },
+    {
+      "check": "original referencegist qa-WEVqgD-L5kc-000",
+      "passed": true,
+      "actual": "Examine why you prefer the disempowering belief. Often fear of the unknown makes the familiar seem preferable, even if painful. Identify and release inherited beliefs that aren't truly yours.",
+      "expected": "Examine why you prefer the disempowering belief. Often fear of the unknown makes the familiar seem preferable, even if painful. Identify and release inherited beliefs that aren't truly yours."
+    },
+    {
+      "check": "original sourcequestion qa-BaN26a0SbLQ-000",
+      "passed": true,
+      "actual": "How can I better understand my spirit team communications and light language?",
+      "expected": "How can I better understand my spirit team communications and light language?"
+    },
+    {
+      "check": "original referencegist qa-BaN26a0SbLQ-000",
+      "passed": true,
+      "actual": "Light language is raw channeled energy not yet translated into earthly language. Practice grounding it through people asking questions, or use journaling for 15-20 minutes daily to train your brain to translate it into physical language over 2-3 weeks.",
+      "expected": "Light language is raw channeled energy not yet translated into earthly language. Practice grounding it through people asking questions, or use journaling for 15-20 minutes daily to train your brain to translate it into physical language over 2-3 weeks."
+    },
+    {
+      "check": "original sourcequestion qa-kPWOUEtUx2Y-000",
+      "passed": true,
+      "actual": "How can I spread joy and awakening to others?",
+      "expected": "How can I spread joy and awakening to others?"
+    },
+    {
+      "check": "original referencegist qa-kPWOUEtUx2Y-000",
+      "passed": true,
+      "actual": "Be an example of yourself; don't need others to believe or change. Share through talking and music without attachment to outcomes.",
+      "expected": "Be an example of yourself; don't need others to believe or change. Share through talking and music without attachment to outcomes."
+    },
+    {
+      "check": "original sourcequestion qa-OzkviF1GCFc-000",
+      "passed": true,
+      "actual": "Should we trust government ET disclosure documents?",
+      "expected": "Should we trust government ET disclosure documents?"
+    },
+    {
+      "check": "original referencegist qa-OzkviF1GCFc-000",
+      "passed": true,
+      "actual": "Regardless of how disclosed, the information reinforces collective focus on ET contact, which will eventually manifest it. Distrust specific outcomes but trust the process of focusing on the concept.",
+      "expected": "Regardless of how disclosed, the information reinforces collective focus on ET contact, which will eventually manifest it. Distrust specific outcomes but trust the process of focusing on the concept."
+    },
+    {
+      "check": "original sourcequestion qa-hmX3hlNJBjU-000",
+      "passed": true,
+      "actual": "How can scary monster movies for children serve as effective storytelling tools?",
+      "expected": "How can scary monster movies for children serve as effective storytelling tools?"
+    },
+    {
+      "check": "original referencegist qa-hmX3hlNJBjU-000",
+      "passed": true,
+      "actual": "When structured with proper story arc and catharsis, fear can be emotionally beneficial. Story structure is built into human psychology; hitting all the right chords creates resonance that lasts across generations.",
+      "expected": "When structured with proper story arc and catharsis, fear can be emotionally beneficial. Story structure is built into human psychology; hitting all the right chords creates resonance that lasts across generations."
+    },
+    {
+      "check": "original sourcequestion qa-Rcjd1TkZUMY-000",
+      "passed": true,
+      "actual": "How to spend anger positively as a treasure?",
+      "expected": "How to spend anger positively as a treasure?"
+    },
+    {
+      "check": "original referencegist qa-Rcjd1TkZUMY-000",
+      "passed": true,
+      "actual": "Anger signals misalignment with true self. Use natural anger for 15-second realignment, but if it extends beyond that, explore underlying beliefs without judgment. Complete the emotional circuit by stating 'I feel X because I choose to believe I must' to ground and neutralize negative vibrations.",
+      "expected": "Anger signals misalignment with true self. Use natural anger for 15-second realignment, but if it extends beyond that, explore underlying beliefs without judgment. Complete the emotional circuit by stating 'I feel X because I choose to believe I must' to ground and neutralize negative vibrations."
+    },
+    {
+      "check": "original sourcequestion qa-0htF1V0v6ec-000",
+      "passed": true,
+      "actual": "How do I proceed with my highest excitement when blueprints run out at age 33?",
+      "expected": "How do I proceed with my highest excitement when blueprints run out at age 33?"
+    },
+    {
+      "check": "original referencegist qa-0htF1V0v6ec-000",
+      "passed": true,
+      "actual": "Don't wait for grand plans; act on whatever contains even tiny more excitement than other options moment-to-moment. This builds momentum and synchronicity naturally.",
+      "expected": "Don't wait for grand plans; act on whatever contains even tiny more excitement than other options moment-to-moment. This builds momentum and synchronicity naturally."
+    },
+    {
+      "check": "original sourcequestion qa-S3Xw09ZE2Dg-000",
+      "passed": true,
+      "actual": "Why do you always bring up money as a barrier?",
+      "expected": "Why do you always bring up money as a barrier?"
+    },
+    {
+      "check": "original referencegist qa-S3Xw09ZE2Dg-000",
+      "passed": true,
+      "actual": "You have a belief system that you are unsupported by reality and that money is the only way abundance can manifest. This belief itself is the constraint.",
+      "expected": "You have a belief system that you are unsupported by reality and that money is the only way abundance can manifest. This belief itself is the constraint."
+    },
+    {
+      "check": "original sourcequestion qa-wCZ1Lib1_cQ-000",
+      "passed": true,
+      "actual": "Can you perform an energy scan on me?",
+      "expected": "Can you perform an energy scan on me?"
+    },
+    {
+      "check": "original referencegist qa-wCZ1Lib1_cQ-000",
+      "passed": true,
+      "actual": "Bashar confirms he performs energy scans during all interactions. Upon scanning the questioner, he prescribes remaining in a writing flow state to maintain peak energy alignment with their authentic self.",
+      "expected": "Bashar confirms he performs energy scans during all interactions. Upon scanning the questioner, he prescribes remaining in a writing flow state to maintain peak energy alignment with their authentic self."
+    },
+    {
+      "check": "original sourcequestion qa-IKJzZ-KVPdQ-000",
+      "passed": true,
+      "actual": "How do you reach knowingness that manifestation is already done without insisting on outcomes?",
+      "expected": "How do you reach knowingness that manifestation is already done without insisting on outcomes?"
+    },
+    {
+      "check": "original referencegist qa-IKJzZ-KVPdQ-000",
+      "passed": true,
+      "actual": "Appreciate what already exists spiritually while remaining open to how it manifests. Focus on the internal function rather than external form, allowing synchronicity to reveal what's relevant to your life path.",
+      "expected": "Appreciate what already exists spiritually while remaining open to how it manifests. Focus on the internal function rather than external form, allowing synchronicity to reveal what's relevant to your life path."
+    },
+    {
+      "check": "original sourcequestion qa-aZvcNhWthUA-000",
+      "passed": true,
+      "actual": "How does consciousness evolution relate to technological advancement?",
+      "expected": "How does consciousness evolution relate to technological advancement?"
+    },
+    {
+      "check": "original referencegist qa-aZvcNhWthUA-000",
+      "passed": true,
+      "actual": "Advanced consciousness must precede access to higher technologies; historical tyrants would have destroyed Earth with modern weapons, so technology is gated by consciousness level.",
+      "expected": "Advanced consciousness must precede access to higher technologies; historical tyrants would have destroyed Earth with modern weapons, so technology is gated by consciousness level."
+    },
+    {
+      "check": "original sourcequestion qa-hFC4F3JO33M-000",
+      "passed": true,
+      "actual": "What's different between current disclosure and 2027 open contact?",
+      "expected": "What's different between current disclosure and 2027 open contact?"
+    },
+    {
+      "check": "original referencegist qa-hFC4F3JO33M-000",
+      "passed": true,
+      "actual": "Current phase involves public government acknowledgment and whistleblower testimony. 2027 will bring official announcements, evidence, and first physical introduction to hybrid beings living among us.",
+      "expected": "Current phase involves public government acknowledgment and whistleblower testimony. 2027 will bring official announcements, evidence, and first physical introduction to hybrid beings living among us."
+    },
+    {
+      "check": "original sourcequestion qa-T5QtncJq1Jc-000",
+      "passed": true,
+      "actual": "Why does the formula work perfectly but starving artists still struggle?",
+      "expected": "Why does the formula work perfectly but starving artists still struggle?"
+    },
+    {
+      "check": "original referencegist qa-T5QtncJq1Jc-000",
+      "passed": true,
+      "actual": "Not all artists truly act on their passions; life paths include varied lessons and challenges. Different people choose different life plans for different reasons, and expressions of artistic desire don't guarantee positive manifestation without aligned soul intentions.",
+      "expected": "Not all artists truly act on their passions; life paths include varied lessons and challenges. Different people choose different life plans for different reasons, and expressions of artistic desire don't guarantee positive manifestation without aligned soul intentions."
+    },
+    {
+      "check": "original sourcequestion qa-Dw9XHTMrgBE-000",
+      "passed": true,
+      "actual": "What do green pools and caves in dreams signify?",
+      "expected": "What do green pools and caves in dreams signify?"
+    },
+    {
+      "check": "original referencegist qa-Dw9XHTMrgBE-000",
+      "passed": true,
+      "actual": "Dreams symbolize cryptic connection to nature and trees, opening doors to communicate with non-physical beings and receive information from natural realms through vibrational matching.",
+      "expected": "Dreams symbolize cryptic connection to nature and trees, opening doors to communicate with non-physical beings and receive information from natural realms through vibrational matching."
+    },
+    {
+      "check": "original sourcequestion qa-jQbxp4e6bfg-000",
+      "passed": true,
+      "actual": "How can we use darkness to bring forth more light?",
+      "expected": "How can we use darkness to bring forth more light?"
+    },
+    {
+      "check": "original referencegist qa-jQbxp4e6bfg-000",
+      "passed": true,
+      "actual": "Light shines brightest surrounded by darkness. Finding what you are not clarifies what you are. Use contrast positively to reinforce inner light.",
+      "expected": "Light shines brightest surrounded by darkness. Finding what you are not clarifies what you are. Use contrast positively to reinforce inner light."
+    },
+    {
+      "check": "original sourcequestion qa-d--HZiDqgs0-000",
+      "passed": true,
+      "actual": "How can I avoid income gaps when working freelance?",
+      "expected": "How can I avoid income gaps when working freelance?"
+    },
+    {
+      "check": "original referencegist qa-d--HZiDqgs0-000",
+      "passed": true,
+      "actual": "Charge more, pursue diverse projects, find passion work between gigs. Support flows when acting on authentic passion; broaden your definition of support beyond money.",
+      "expected": "Charge more, pursue diverse projects, find passion work between gigs. Support flows when acting on authentic passion; broaden your definition of support beyond money."
+    },
+    {
+      "check": "original sourcequestion qa-pfB4F7uAjwE-000",
+      "passed": true,
+      "actual": "How to work with instinctual drives and beliefs without disrupting automatic body functions?",
+      "expected": "How to work with instinctual drives and beliefs without disrupting automatic body functions?"
+    },
+    {
+      "check": "original referencegist qa-pfB4F7uAjwE-000",
+      "passed": true,
+      "actual": "Instincts need to remain stable for automatic functioning. Align them with your signature frequency rather than completely shifting them. Observe beliefs from multiple consciousness levels without requiring physical change.",
+      "expected": "Instincts need to remain stable for automatic functioning. Align them with your signature frequency rather than completely shifting them. Observe beliefs from multiple consciousness levels without requiring physical change."
+    },
+    {
+      "check": "original sourcequestion qa-EHK_mwdk3kM-000",
+      "passed": true,
+      "actual": "Will help be given to us when we ask for it?",
+      "expected": "Will help be given to us when we ask for it?"
+    },
+    {
+      "check": "original referencegist qa-EHK_mwdk3kM-000",
+      "passed": true,
+      "actual": "Help is always available, but no one will erase lessons you chose to learn on your life path, as the challenge itself teaches what you need to know.",
+      "expected": "Help is always available, but no one will erase lessons you chose to learn on your life path, as the challenge itself teaches what you need to know."
+    },
+    {
+      "check": "original sourcequestion qa-mzcFoYUvbOE-000",
+      "passed": true,
+      "actual": "Do E'sassani have class systems and wealth inequality?",
+      "expected": "Do E'sassani have class systems and wealth inequality?"
+    },
+    {
+      "check": "original referencegist qa-mzcFoYUvbOE-000",
+      "passed": true,
+      "actual": "No class systems exist. Society organizes through synchronicity where people naturally position themselves optimally for learning and growth.",
+      "expected": "No class systems exist. Society organizes through synchronicity where people naturally position themselves optimally for learning and growth."
+    },
+    {
+      "check": "original sourcequestion qa-y0-_YOFU8eQ-000",
+      "passed": true,
+      "actual": "Will Trump be in office when open contact happens?",
+      "expected": "Will Trump be in office when open contact happens?"
+    },
+    {
+      "check": "original referencegist qa-y0-_YOFU8eQ-000",
+      "passed": true,
+      "actual": "Government will be very different by the time open contact occurs; prediction comes from Bashar, not Darryl, and there is some flexibility in timing.",
+      "expected": "Government will be very different by the time open contact occurs; prediction comes from Bashar, not Darryl, and there is some flexibility in timing."
+    },
+    {
+      "check": "original sourcequestion qa-4NGd9kqWM04-000",
+      "passed": true,
+      "actual": "How long have ETs been present on Earth?",
+      "expected": "How long have ETs been present on Earth?"
+    },
+    {
+      "check": "original referencegist qa-4NGd9kqWM04-000",
+      "passed": true,
+      "actual": "Thousands of years or longer, but this is primarily new revelation for Western culture only; indigenous cultures have always known.",
+      "expected": "Thousands of years or longer, but this is primarily new revelation for Western culture only; indigenous cultures have always known."
+    },
+    {
+      "check": "original sourcequestion qa-U-DHIk0lIQ4-000",
+      "passed": true,
+      "actual": "How did your family react when you started channeling Bashar?",
+      "expected": "How did your family react when you started channeling Bashar?"
+    },
+    {
+      "check": "original referencegist qa-U-DHIk0lIQ4-000",
+      "passed": true,
+      "actual": "Parents were supportive because they focused on whether he was happy and helping others, not on understanding what he was doing.",
+      "expected": "Parents were supportive because they focused on whether he was happy and helping others, not on understanding what he was doing."
+    },
+    {
+      "check": "original sourcequestion qa-hTlU_M_R0eE-000",
+      "passed": true,
+      "actual": "What specific work or jobs do spirits perform during sleep?",
+      "expected": "What specific work or jobs do spirits perform during sleep?"
+    },
+    {
+      "check": "original referencegist qa-hTlU_M_R0eE-000",
+      "passed": true,
+      "actual": "Spirits interact with guides, teach/learn from beings, visit dimensions, check parallel realities, review life blueprints, and recharge physical batteries. Spirits never sleep; physical incarnates reconnect to spirit realm nightly to maintain physical reality projection.",
+      "expected": "Spirits interact with guides, teach/learn from beings, visit dimensions, check parallel realities, review life blueprints, and recharge physical batteries. Spirits never sleep; physical incarnates reconnect to spirit realm nightly to maintain physical reality projection."
+    },
+    {
+      "check": "original sourcequestion qa-7WjydoNj7hE-000",
+      "passed": true,
+      "actual": "How did you get James Woods to narrate the film?",
+      "expected": "How did you get James Woods to narrate the film?"
+    },
+    {
+      "check": "original referencegist qa-7WjydoNj7hE-000",
+      "passed": true,
+      "actual": "Through synchronicity and his agent's connection; Woods believed all subjects deserve investigation and had good rapport with the project.",
+      "expected": "Through synchronicity and his agent's connection; Woods believed all subjects deserve investigation and had good rapport with the project."
+    },
+    {
+      "check": "original sourcequestion qa-fOi0W9_JEWM-000",
+      "passed": true,
+      "actual": "Why should we attempt contact with the Interstellar Alliance?",
+      "expected": "Why should we attempt contact with the Interstellar Alliance?"
+    },
+    {
+      "check": "original referencegist qa-fOi0W9_JEWM-000",
+      "passed": true,
+      "actual": "There are no shoulds; contact is entirely optional. The benefit comes from expanding awareness through diverse perspectives and information from multiple civilizations, enriching one's life experience.",
+      "expected": "There are no shoulds; contact is entirely optional. The benefit comes from expanding awareness through diverse perspectives and information from multiple civilizations, enriching one's life experience."
+    },
+    {
+      "check": "original sourcequestion qa-kvU9mCJr-eo-000",
+      "passed": true,
+      "actual": "How could open contact happen so quickly?",
+      "expected": "How could open contact happen so quickly?"
+    },
+    {
+      "check": "original referencegist qa-kvU9mCJr-eo-000",
+      "passed": true,
+      "actual": "Behind-the-scenes contact has been ongoing for years; public introduction is merely the culmination of long-building engagement and mutual awareness.",
+      "expected": "Behind-the-scenes contact has been ongoing for years; public introduction is merely the culmination of long-building engagement and mutual awareness."
+    },
+    {
+      "check": "original sourcequestion qa-94agFEADfyk-000",
+      "passed": true,
+      "actual": "Do souls have unique names?",
+      "expected": "Do souls have unique names?"
+    },
+    {
+      "check": "original referencegist qa-94agFEADfyk-000",
+      "passed": true,
+      "actual": "Souls have unique vibrational resonances, not names as understood in physical reality. They recognize each other by vibration, though you may assign your soul a name if desired.",
+      "expected": "Souls have unique vibrational resonances, not names as understood in physical reality. They recognize each other by vibration, though you may assign your soul a name if desired."
+    },
+    {
+      "check": "original sourcequestion qa-9FrwPg8FYvM-000",
+      "passed": true,
+      "actual": "Why do I let my ex-partner's actions make me feel worthless six months later?",
+      "expected": "Why do I let my ex-partner's actions make me feel worthless six months later?"
+    },
+    {
+      "check": "original referencegist qa-9FrwPg8FYvM-000",
+      "passed": true,
+      "actual": "You create your own feelings of unworthiness; she's mirroring an internal belief you hold. Choose to believe the signs of worth others show you instead.",
+      "expected": "You create your own feelings of unworthiness; she's mirroring an internal belief you hold. Choose to believe the signs of worth others show you instead."
+    },
+    {
+      "check": "original sourcequestion qa-ETuHIzyRhyY-000",
+      "passed": true,
+      "actual": "How to align higher self amid everyday chaos and responsibilities?",
+      "expected": "How to align higher self amid everyday chaos and responsibilities?"
+    },
+    {
+      "check": "original referencegist qa-ETuHIzyRhyY-000",
+      "passed": true,
+      "actual": "Approach challenges with curiosity, creativity, and calmness. Understand chaos as transition between cycles; stay positive to ride the rapids efficiently toward new systems and expanded consciousness.",
+      "expected": "Approach challenges with curiosity, creativity, and calmness. Understand chaos as transition between cycles; stay positive to ride the rapids efficiently toward new systems and expanded consciousness."
+    },
+    {
+      "check": "original sourcequestion qa-E_cPno64Z-Q-000",
+      "passed": true,
+      "actual": "What is the proper ratio for stabilizing monatomic nickel with chromium?",
+      "expected": "What is the proper ratio for stabilizing monatomic nickel with chromium?"
+    },
+    {
+      "check": "original referencegist qa-E_cPno64Z-Q-000",
+      "passed": true,
+      "actual": "75% nickel to 25% chromium, positioned in the energy field rather than ingested, for stabilizing the body's electromagnetic field.",
+      "expected": "75% nickel to 25% chromium, positioned in the energy field rather than ingested, for stabilizing the body's electromagnetic field."
+    },
+    {
+      "check": "original sourcequestion qa-HoYNcoMTk-4-000",
+      "passed": true,
+      "actual": "What has changed in the contact window since 2 years ago?",
+      "expected": "What has changed in the contact window since 2 years ago?"
+    },
+    {
+      "check": "original referencegist qa-HoYNcoMTk-4-000",
+      "passed": true,
+      "actual": "Disclosure is accelerating with congressional hearings, Pentagon releasing UFO footage, and information being released rapidly. UFO reports are becoming regular news segments like weather reports.",
+      "expected": "Disclosure is accelerating with congressional hearings, Pentagon releasing UFO footage, and information being released rapidly. UFO reports are becoming regular news segments like weather reports."
+    },
+    {
+      "check": "original sourcequestion qa-p8JC21bFf5M-000",
+      "passed": true,
+      "actual": "How was the Kailasa temple complex created in India?",
+      "expected": "How was the Kailasa temple complex created in India?"
+    },
+    {
+      "check": "original referencegist qa-p8JC21bFf5M-000",
+      "passed": true,
+      "actual": "Built by humans with ancient extraterrestrial technology now lost to Earth. Much older than believed: thousands of years old, not 900 years.",
+      "expected": "Built by humans with ancient extraterrestrial technology now lost to Earth. Much older than believed: thousands of years old, not 900 years."
+    },
+    {
+      "check": "original sourcequestion qa-2GVhU6BRVWY-000",
+      "passed": true,
+      "actual": "Who must humanity become to adapt to open ET contact?",
+      "expected": "Who must humanity become to adapt to open ET contact?"
+    },
+    {
+      "check": "original referencegist qa-2GVhU6BRVWY-000",
+      "passed": true,
+      "actual": "Humanity must release fear-based beliefs about aliens, reconnect to spirit and source, raise vibrations through passion, and understand we are already connected to other beings; contact is revelation of existing connection.",
+      "expected": "Humanity must release fear-based beliefs about aliens, reconnect to spirit and source, raise vibrations through passion, and understand we are already connected to other beings; contact is revelation of existing connection."
+    },
+    {
+      "check": "original sourcequestion qa-98KsASkO8Cs-000",
+      "passed": true,
+      "actual": "What is the most astonishing message Bashar shared?",
+      "expected": "What is the most astonishing message Bashar shared?"
+    },
+    {
+      "check": "original referencegist qa-98KsASkO8Cs-000",
+      "passed": true,
+      "actual": "Darryl recalls a technological explanation about instantaneous interstellar travel based on manipulating location as a vibrational variable within objects rather than as a fixed spatial dimension.",
+      "expected": "Darryl recalls a technological explanation about instantaneous interstellar travel based on manipulating location as a vibrational variable within objects rather than as a fixed spatial dimension."
+    },
+    {
+      "check": "original sourcequestion qa-ji9rMw37o2M-000",
+      "passed": true,
+      "actual": "When did Anunnaki create Homo Sapiens?",
+      "expected": "When did Anunnaki create Homo Sapiens?"
+    },
+    {
+      "check": "original referencegist qa-ji9rMw37o2M-000",
+      "passed": true,
+      "actual": "Around 350,000 years ago marked the beginning of the major genetic engineering program, with minor experiments before and after that timeframe.",
+      "expected": "Around 350,000 years ago marked the beginning of the major genetic engineering program, with minor experiments before and after that timeframe."
+    },
+    {
+      "check": "original sourcequestion qa-fZmY4xS_qXE-001",
+      "passed": true,
+      "actual": "Will disclosure require both positive and negative ET perspectives for open contact?",
+      "expected": "Will disclosure require both positive and negative ET perspectives for open contact?"
+    },
+    {
+      "check": "original referencegist qa-fZmY4xS_qXE-001",
+      "passed": true,
+      "actual": "No separation needed. Positive ETs (99%) handle Earth contact while protecting humanity from the small negative fraction. Duality exists but doesn't require human exposure to harmful beings.",
+      "expected": "No separation needed. Positive ETs (99%) handle Earth contact while protecting humanity from the small negative fraction. Duality exists but doesn't require human exposure to harmful beings."
+    },
+    {
+      "check": "original sourcequestion qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": "Does Bashar make societal predictions?",
+      "expected": "Does Bashar make societal predictions?"
+    },
+    {
+      "check": "original referencegist qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": "Rarely. He explains predictions reflect present energy momentum, not fixed futures. Predictions can become obsolete if consciousness shifts the underlying energy.",
+      "expected": "Rarely. He explains predictions reflect present energy momentum, not fixed futures. Predictions can become obsolete if consciousness shifts the underlying energy."
+    },
+    {
+      "check": "original sourcequestion qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": "What are humans facing as a species right now?",
+      "expected": "What are humans facing as a species right now?"
+    },
+    {
+      "check": "original referencegist qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": "A resetting and evolution of humanity over decades, with disclosure and ET contact helping push transformation forward. 2026 is disclosure year; 2027 brings official contact.",
+      "expected": "A resetting and evolution of humanity over decades, with disclosure and ET contact helping push transformation forward. 2026 is disclosure year; 2027 brings official contact."
+    },
+    {
+      "check": "original sourcequestion qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": "How has the formula remained consistent over 40 years of channeling?",
+      "expected": "How has the formula remained consistent over 40 years of channeling?"
+    },
+    {
+      "check": "original referencegist qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": "Core information unchanged; only expanded from four to five principles for clarity. The foundation and framework remain remarkably consistent.",
+      "expected": "Core information unchanged; only expanded from four to five principles for clarity. The foundation and framework remain remarkably consistent."
+    },
+    {
+      "check": "original sourcequestion qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": "How to discern true excitement from impulsive desire or escapism?",
+      "expected": "How to discern true excitement from impulsive desire or escapism?"
+    },
+    {
+      "check": "original referencegist qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": "Honestly investigate your motivations. Ask why you're choosing something. Discern whether you act from excitement or fear/anxiety by examining whether you believe the alternative would be worse.",
+      "expected": "Honestly investigate your motivations. Ask why you're choosing something. Discern whether you act from excitement or fear/anxiety by examining whether you believe the alternative would be worse."
+    },
+    {
+      "check": "original sourcequestion qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": "Have contact window timeframes changed since previously stated?",
+      "expected": "Have contact window timeframes changed since previously stated?"
+    },
+    {
+      "check": "original referencegist qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": "Timeline broadened to 2023\u20132033 with markers through 2040; 90% potential for major contact event end of 2026/early 2027.",
+      "expected": "Timeline broadened to 2023\u20132033 with markers through 2040; 90% potential for major contact event end of 2026/early 2027."
+    },
+    {
+      "check": "original sourcequestion qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": "What are the five universal laws?",
+      "expected": "What are the five universal laws?"
+    },
+    {
+      "check": "original referencegist qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": "Existence, simultaneity, oneness, reciprocal vibration, and universal change form the structural framework of reality that never alters.",
+      "expected": "Existence, simultaneity, oneness, reciprocal vibration, and universal change form the structural framework of reality that never alters."
+    },
+    {
+      "check": "original sourcequestion qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": "What does Bashar say about reality that humans aren't ready to hear?",
+      "expected": "What does Bashar say about reality that humans aren't ready to hear?"
+    },
+    {
+      "check": "original referencegist qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": "Physical reality is a projection of consciousness happening inside the soul; we never actually leave spirit. Our belief systems create our experience, and understanding this allows better navigation of physical reality.",
+      "expected": "Physical reality is a projection of consciousness happening inside the soul; we never actually leave spirit. Our belief systems create our experience, and understanding this allows better navigation of physical reality."
+    },
+    {
+      "check": "original sourcequestion qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": "Are old Buddhist definitions of reincarnation relevant now?",
+      "expected": "Are old Buddhist definitions of reincarnation relevant now?"
+    },
+    {
+      "check": "original referencegist qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": "They describe how the experience appears, not the actual mechanism. Modern definitions are needed for 21st-century understanding of consciousness mechanics.",
+      "expected": "They describe how the experience appears, not the actual mechanism. Modern definitions are needed for 21st-century understanding of consciousness mechanics."
+    },
+    {
+      "check": "savedF1 lexical_retrieval qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": 0.041667,
+      "expected": 0.041666666666666664
+    },
+    {
+      "check": "strictmarker lexical_retrieval qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership lexical_retrieval qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 lexical_retrieval qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker lexical_retrieval qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership lexical_retrieval qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 lexical_retrieval qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": 0.088889,
+      "expected": 0.08888888888888889
+    },
+    {
+      "check": "strictmarker lexical_retrieval qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership lexical_retrieval qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 lexical_retrieval qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": 0.071429,
+      "expected": 0.07142857142857142
+    },
+    {
+      "check": "strictmarker lexical_retrieval qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership lexical_retrieval qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 lexical_retrieval qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": 0.043478,
+      "expected": 0.043478260869565216
+    },
+    {
+      "check": "strictmarker lexical_retrieval qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership lexical_retrieval qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 lexical_retrieval qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker lexical_retrieval qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership lexical_retrieval qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 lexical_retrieval qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": 0.034483,
+      "expected": 0.034482758620689655
+    },
+    {
+      "check": "strictmarker lexical_retrieval qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership lexical_retrieval qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 lexical_retrieval qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker lexical_retrieval qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership lexical_retrieval qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker lexical_retrieval control-studio-temperature",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership lexical_retrieval control-studio-temperature",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker lexical_retrieval control-unpublished-hash",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership lexical_retrieval control-unpublished-hash",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "trainonly retrieved IDs lexical_retrieval control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": 0.047619,
+      "expected": 0.047619047619047616
+    },
+    {
+      "check": "strictmarker qwen_base_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": 0.258065,
+      "expected": 0.25806451612903225
+    },
+    {
+      "check": "strictmarker qwen_base_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": 0.090909,
+      "expected": 0.09090909090909091
+    },
+    {
+      "check": "strictmarker qwen_base_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": 0.085106,
+      "expected": 0.0851063829787234
+    },
+    {
+      "check": "strictmarker qwen_base_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker qwen_base_closed control-studio-temperature",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_closed control-studio-temperature",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker qwen_base_closed control-unpublished-hash",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_closed control-unpublished-hash",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_closed control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_closed control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": 0.085106,
+      "expected": 0.0851063829787234
+    },
+    {
+      "check": "strictmarker qwen_base_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_base_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_base_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker qwen_base_rag control-studio-temperature",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_base_rag control-studio-temperature",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker qwen_base_rag control-unpublished-hash",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_base_rag control-unpublished-hash",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_base_rag control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_base_rag control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": 0.071429,
+      "expected": 0.07142857142857142
+    },
+    {
+      "check": "strictmarker qwen_lora_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": 0.105263,
+      "expected": 0.10526315789473684
+    },
+    {
+      "check": "strictmarker qwen_lora_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": 0.153846,
+      "expected": 0.15384615384615385
+    },
+    {
+      "check": "strictmarker qwen_lora_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": 0.225806,
+      "expected": 0.22580645161290322
+    },
+    {
+      "check": "strictmarker qwen_lora_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_lora_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_lora_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": 0.204082,
+      "expected": 0.20408163265306123
+    },
+    {
+      "check": "strictmarker qwen_lora_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": 0.163934,
+      "expected": 0.16393442622950818
+    },
+    {
+      "check": "strictmarker qwen_lora_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": 0.238095,
+      "expected": 0.23809523809523808
+    },
+    {
+      "check": "strictmarker qwen_lora_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker qwen_lora_closed control-studio-temperature",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed control-studio-temperature",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker qwen_lora_closed control-unpublished-hash",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_closed control-unpublished-hash",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_closed control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_closed control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_lora_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_lora_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag qa-_UZ8EyuOuY8-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_lora_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag qa-QBk2MQ1MVZo-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_lora_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag qa-ufzO0sbNICQ-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_lora_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_lora_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag qa-DvWNnqnBAjc-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": 0.066667,
+      "expected": 0.06666666666666667
+    },
+    {
+      "check": "strictmarker qwen_lora_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag qa-Fp1YFz-8d4Y-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_lora_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag qa-IuO0mjva9ls-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": 0.03125,
+      "expected": 0.03125
+    },
+    {
+      "check": "strictmarker qwen_lora_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "citationID membership qwen_lora_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag qa-vrv3J-ri804-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedF1 qwen_lora_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "strictmarker qwen_lora_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_lora_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag qa-yx5hg3wTESs-000",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker qwen_lora_rag control-studio-temperature",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_lora_rag control-studio-temperature",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag control-studio-temperature",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "strictmarker qwen_lora_rag control-unpublished-hash",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "citationID membership qwen_lora_rag control-unpublished-hash",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "trainonly retrieved IDs qwen_lora_rag control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "tokenlimits qwen_lora_rag control-unpublished-hash",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "armdenominator lexical_retrieval",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "check": "controldenominator lexical_retrieval",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "armmeanF1 lexical_retrieval",
+      "passed": true,
+      "actual": 0.034993,
+      "expected": 0.03499314330929773
+    },
+    {
+      "check": "armlatency lexical_retrieval",
+      "passed": true,
+      "actual": 0.000421,
+      "expected": 0.00042060000000000003
+    },
+    {
+      "check": "armstrictcontrol lexical_retrieval",
+      "passed": true,
+      "actual": 0.5,
+      "expected": 0.5
+    },
+    {
+      "check": "armdenominator qwen_base_closed",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "check": "controldenominator qwen_base_closed",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "armmeanF1 qwen_base_closed",
+      "passed": true,
+      "actual": 0.060212,
+      "expected": 0.06021237970448677
+    },
+    {
+      "check": "armlatency qwen_base_closed",
+      "passed": true,
+      "actual": 1.396184,
+      "expected": 1.3961836
+    },
+    {
+      "check": "armstrictcontrol qwen_base_closed",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "armdenominator qwen_base_rag",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "check": "controldenominator qwen_base_rag",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "armmeanF1 qwen_base_rag",
+      "passed": true,
+      "actual": 0.010638,
+      "expected": 0.010638297872340425
+    },
+    {
+      "check": "armlatency qwen_base_rag",
+      "passed": true,
+      "actual": 1.326006,
+      "expected": 1.3260061
+    },
+    {
+      "check": "armstrictcontrol qwen_base_rag",
+      "passed": true,
+      "actual": 0.5,
+      "expected": 0.5
+    },
+    {
+      "check": "armdenominator qwen_lora_closed",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "check": "controldenominator qwen_lora_closed",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "armmeanF1 qwen_lora_closed",
+      "passed": true,
+      "actual": 0.145307,
+      "expected": 0.1453069539700216
+    },
+    {
+      "check": "armlatency qwen_lora_closed",
+      "passed": true,
+      "actual": 3.289925,
+      "expected": 3.2899252
+    },
+    {
+      "check": "armstrictcontrol qwen_lora_closed",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "armdenominator qwen_lora_rag",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "check": "controldenominator qwen_lora_rag",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "armmeanF1 qwen_lora_rag",
+      "passed": true,
+      "actual": 0.01224,
+      "expected": 0.012239583333333333
+    },
+    {
+      "check": "armlatency qwen_lora_rag",
+      "passed": true,
+      "actual": 1.771506,
+      "expected": 1.771506
+    },
+    {
+      "check": "armstrictcontrol qwen_lora_rag",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "actualtraininglossrecords",
+      "passed": true,
+      "actual": 48,
+      "expected": 48
+    },
+    {
+      "check": "optimizerupdatecount",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "alltraininglossfinite",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "rank4qvtrainables",
+      "passed": true,
+      "actual": 270336,
+      "expected": 270336
+    },
+    {
+      "check": "trainablefraction",
+      "passed": true,
+      "actual": 0.0005469033024724846,
+      "expected": 0.0005469033024724846
+    },
+    {
+      "check": "adapter bytes equal packaged source manifest",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "adapter byte count matches packaged source manifest",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "adapter ZIP sha matches package manifest",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "savedLoRA Bmatrices nonzero finite (defaultzero-init adaptation evidence)",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    }
+  ]
+}

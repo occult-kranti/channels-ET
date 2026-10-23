@@ -1,0 +1,129 @@
+{
+  "round": 12,
+  "reviewedAt": "2026-10-23T21:57:23.216230+00:00",
+  "role": "Independent quantitative, source-bound model and manuscript review",
+  "status": "PASS_with_explicit_measurement_limits",
+  "resultsSha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+  "protocolSha256": "87048d01ce450d2d1058069ff838925a3ad43379f8362e40e72868ac09b20695",
+  "executedChecks": {
+    "core": {
+      "checks": 1322,
+      "passed": 1322
+    },
+    "benchmark-audit": {
+      "checks": 377,
+      "passed": 377,
+      "sha256": "c24ad9da5d731379406c6ab0720ce4eae45c7c909ce1517f4f21288d31cf3a21"
+    },
+    "model-diagnostics-audit": {
+      "checks": 122,
+      "passed": 122,
+      "sha256": "df3c23110be2ac69bb2ace0b98ffdc8093b31b8e30fae9443877d89ecca15105"
+    },
+    "prompt-sensitivity-audit": {
+      "checks": 1159,
+      "passed": 1159,
+      "sha256": "240563ad9fd6e40ee4056bd1c33b8405bf03005ed4ffed947419f506668cd4df"
+    },
+    "finalSourceConsistency": {
+      "checks": 96,
+      "passed": 96,
+      "sha256": "a3913cba63b486351f6f3b559120321abdcd9d11b021a99ecfc2fe23b2eb3291"
+    }
+  },
+  "numericalReproduction": {
+    "identicalFiles": 13,
+    "status": "PASS",
+    "currentResultsSha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+    "receiptSha256": "3e0965750f3d4aaf144f35f36542f0588558c6172168bac5e0ec0ee525462117",
+    "currentBindingVerified": true
+  },
+  "paper": {
+    "path": "research/continuation/paper/channels-et-paper.pdf",
+    "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+    "pages": 16,
+    "inputManifestSha256": "a92d91f85f0ce0d3e71c4f725556845517b64d427601bec9aab708c87852ecb5",
+    "sourceZipSha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+    "independentlyRenderedInspectedPages": [
+      9,
+      10
+    ],
+    "ownerFinalVerificationSha256": "f5b4929df680cbcfb398ef1cf84bf9938bf751a762fa43f9220ee159e0145c10",
+    "ownerRepeatabilitySha256": "75ba6e31468083fe4e116176e056708803ba2d208070ed4242b464c75c11309b"
+  },
+  "figures": [
+    {
+      "id": "question-answer-alignment",
+      "pdfSha256": "d13e58ebf43ce393231b245101730ddeea9c9973202a39bc21cf9a35e7db6196",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "lexical-graph-stability",
+      "pdfSha256": "1ada693fccdd12c830556cf475818e4a1d1da2f1a827192ee558fa4c6f57ab07",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "caption-duration-controls",
+      "pdfSha256": "2d81dbd4af11287b9e4bfee569c54767f91dd5e3b7070c3fc954610a1c746334",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "source-leakage-guard",
+      "pdfSha256": "a4dcd8f131f16cebb0536a1b6e16fbee0b14307380ebb8b4973ae5a37776c37a",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "model-reconstruction-controls",
+      "pdfSha256": "292e782c48d1b81b8452d5793b1abed1051cda9ec22ccb5fe867efcd3e02ca63",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "question-cosine-common-support",
+      "pdfSha256": "e6fed7efd8a1295978888c7a878b670ad956260f8f6babbd292a610f075d920b",
+      "unchangedSinceRound11": true
+    }
+  ],
+  "preservedPrimaryPredictions": {
+    "fiveArm50Sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+    "originalTwelveLabelProbeSha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+  },
+  "findings": [
+    {
+      "id": "A12-1",
+      "decision": "implemented",
+      "correction": "Generic reproduction receipt now binds all thirteen current numerical outputs, rather than the historical round10 result."
+    },
+    {
+      "id": "A12-2",
+      "decision": "independently_verified",
+      "correction": "Option reversal changes six themes among eight jointly parsed outputs; 0/9 reversed outputs choose the first option. Original outputs preserved; no annotation accuracy or broad positional effect claimed."
+    },
+    {
+      "id": "A12-3",
+      "decision": "independently_verified",
+      "correction": "Qwen3.5 has twelve parsed outputs, ten exact substrings, six short strings and five satisfying both. Five literal strings exceed the length rule; two are nonexact. Conditional agreement six of twelve equals always-yes baseline."
+    },
+    {
+      "id": "A12-4",
+      "decision": "independently_verified",
+      "correction": "Posthoc narrower conditional regex changes 60 to 58 of 949 gists; neither rule is a human reference, and original selection remains unchanged."
+    },
+    {
+      "id": "A12-5",
+      "decision": "implemented_and_verified",
+      "correction": "README records standalone environment paths, six unchanged figure families, actual current-family probe and current reproduction/final-source commands."
+    },
+    {
+      "id": "A12-6",
+      "decision": "independently_verified",
+      "correction": "Final 16-page manuscript binds all 33 current inputs, including new sensitivity outputs, and copies six analytics figures byte for byte. New model/table pages 9 and 10 inspected visually."
+    }
+  ],
+  "unrunOrUnresolved": [
+    "No human semantic or speaker validation, independent multi-practitioner answer corpus or physical-origin validation.",
+    "No newly acquired transcript inference implied by inherited digest/caption evidence.",
+    "No current-family finetuning, GPU comparison, longer-generation-budget benchmark or reliable model-quality ranking.",
+    "Source quarantine cannot eliminate unknown original-session or pretrained-model contamination; prompt support conditioning remains descriptive."
+  ],
+  "documentationSha256": "6d35c9c1d7001a573549918115066999221009efbfa0c34a510e6d595750bdab"
+}

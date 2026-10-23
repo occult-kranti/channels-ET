@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "license": "apache-2.0",
+  "n": 12,
+  "parsedRecords": 12,
+  "parseFailures": 0,
+  "sourceSpanExactAndShortCount": 5,
+  "sourceSpanEvaluableRecords": 12,
+  "conditionalMethodAgreementCount": 6,
+  "conditionalMethodAgreementDenominator": 12,
+  "conditionalMethodAgreementRate": 0.5,
+  "primaryThemeDictionaryConcordanceCount": 5,
+  "themeCounts": {
+    "personal_practice": 11,
+    "contact_forecast": 1
+  },
+  "conditionalLabelCounts": {
+    "yes": 12
+  },
+  "meanSeconds": 6.901981043000016,
+  "generationCapHits": 0,
+  "peakProcessRssKiB": 5612900,
+  "maxNewTokens": 96,
+  "enableThinking": false,
+  "device": "cpu",
+  "baselineComparison": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "parsedRecords": 9,
+    "sourceSpanExactAndShortCount": 0
+  },
+  "limitations": [
+    "Same-item parse/span compliance comparison, not human annotation accuracy or factual truth.",
+    "Different model architectures, tokenizers and required runtime versions prevent isolating parameter scale as the cause.",
+    "Twelve balanced purposive digest excerpts from one practitioner context cannot support a general model ranking.",
+    "Exact short substrings support traceability but do not validate the semantic label or the original speech.",
+    "No images, video, audio, GPU fine-tuning or Qwen3.5 fine-tuning was run."
+  ]
+}

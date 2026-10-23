@@ -1,0 +1,39 @@
+{
+  "status": "completed_on_digest_subset",
+  "reviewer": "AI extraction-panel role",
+  "accessDepth": "Existing AI-generated question and answer-gist fields; no raw transcript, audio or video inspected",
+  "selection": "First pair from 20 evenly spaced positions in filename-sorted digests containing at least one qa_topics entry: round(i*66/19), i=0..19",
+  "sampleUnit": "digest question/answer-gist pair",
+  "humanReview": false,
+  "independentGroundTruth": false,
+  "countsAreValidationScores": false,
+  "observations": [
+    "Question keywords alone miss answer mechanisms: a contact question can receive an excitement/formula answer.",
+    "Lexical similarity does not establish doctrinal agreement: shared subject matter can have different certainty, time windows, or attribution.",
+    "Interview and claimed-channeling contexts are mixed; assigning all answers to an entity would overstate speaker evidence.",
+    "Percentages and precise years in a digest are attributed assertions rather than measured probabilities or verified chronologies.",
+    "The physical-claims theme includes reported health assertions; these counts do not assess clinical validity."
+  ],
+  "records": [
+    {"candidateId":"qa-0htF1V0v6ec-000","interpretation":"Practical life-direction question is answered through incremental excitement and synchronicity.","caution":"The metaphor of a blueprint may evade simple question-theme matching; no actual behavior or outcome is measured."},
+    {"candidateId":"qa-5Js8U9sJ5-8-000","interpretation":"Place-based vortex language is linked to an asserted acceleration of consciousness.","caution":"This is a metaphysical mechanism claim, not a measured geographic or physical energy field."},
+    {"candidateId":"qa-98KsASkO8Cs-000","interpretation":"A clip recounts Darryl's recollection of a purported technological explanation attributed to Bashar.","caution":"Nested reported speech is not direct entity speech, and the proposed travel mechanism is not experimentally assessed."},
+    {"candidateId":"qa-BaN26a0SbLQ-000","interpretation":"A question about light language receives a journaling practice and a proposed translation-training timescale.","caution":"The specific 2–3 week claim cannot be treated as a validated learning outcome or brain mechanism."},
+    {"candidateId":"qa-ETuHIzyRhyY-000","interpretation":"An interview response reframes everyday difficulties as transition and encourages curiosity and calm.","caution":"The digest format identifies an interview, so the contextual entity label does not identify the responding speaker."},
+    {"candidateId":"qa-HoYNcoMTk-4-000","interpretation":"A contact-window question is answered with a narrative about public disclosure and institutional news.","caution":"Statements about frequency of reporting need an external news corpus; this answer does not provide one."},
+    {"candidateId":"qa-JSwqz_ZhH_I-000","interpretation":"Positive reinterpretation of events is proposed as a response to unexpected difficulties.","caution":"The answer describes advice; it does not demonstrate that events themselves are neutral or that the advice improves outcomes."},
+    {"candidateId":"qa-QBk2MQ1MVZo-000","interpretation":"The answer joins a broad human-transformation narrative to specific disclosure/contact years.","caution":"The 2026/2027 assertions are forecasts from an interview digest, not future historical events or verified outcomes."},
+    {"candidateId":"qa-T5QtncJq1Jc-000","interpretation":"A counterexample to the claimed formula is answered by introducing alignment and varied life-plan qualifications.","caution":"This is an interpretive conditionality example, not a calibrated measure of unfalsifiability, intention, or a speaker's belief."},
+    {"candidateId":"qa-ZACIL5Hzb5c-000","interpretation":"A question about ET contact receives a five-step passion/formula response.","caution":"Topic overlap in the question does not imply that the answer discusses contact logistics; question and answer themes must be separate."},
+    {"candidateId":"qa-eCxOH-AK1rc-000","interpretation":"An interview answer makes a claim about hidden information and presidential access.","caution":"The assertion is not evidence of an actual classification hierarchy, secret program, or the factual premise in the question."},
+    {"candidateId":"qa-fZmY4xS_qXE-000","interpretation":"Perceived ET threat is explained through orientation and human fear, with an asserted 99 percent share.","caution":"The numerical proportion is a reported claim without a sampling frame, not a population estimate."},
+    {"candidateId":"qa-jQbxp4e6bfg-000","interpretation":"Light and darkness serve as metaphors for contrast and personal interpretation.","caution":"Literal physical-light keyword analysis would misclassify this conceptual usage."},
+    {"candidateId":"qa-ji9rMw37o2M-000","interpretation":"A question on human origins receives an ancient genetic-engineering chronology.","caution":"The precise chronology is an attributed claim, not an archaeological finding established by this study."},
+    {"candidateId":"qa-lLFUTAVah30-000","interpretation":"A bodily symptom is interpreted through an energy/frequency explanatory frame.","caution":"The digest contains an unverified health claim. The database records discourse, not medical evidence or advice."},
+    {"candidateId":"qa-mzcFoYUvbOE-000","interpretation":"The answer depicts a claimed society without class divisions, organized through synchronicity.","caution":"A description of an attributed extraterrestrial society is not an observation of an independently established population."},
+    {"candidateId":"qa-pfB4F7uAjwE-000","interpretation":"Automatic bodily processes and instinct are linked to alignment and a signature frequency.","caution":"The terms are not operationalized physiological measurements; the analysis does not evaluate their mechanism."},
+    {"candidateId":"qa-ufzO0sbNICQ-000","interpretation":"An interview answer presents doctrinal continuity while acknowledging a four-to-five-principle expansion.","caution":"Self-reported continuity over 40 years is not a longitudinal audit. Overlap and expansion can coexist."},
+    {"candidateId":"qa-y0-_YOFU8eQ-000","interpretation":"A political timing question receives a flexible forecast attributed within the digest to Bashar rather than Darryl.","caution":"This nested attribution is an analytic cue, not independent verification of who spoke or what the original wording was."},
+    {"candidateId":"qa-zOcZDBhRaOQ-000","interpretation":"A spiritual-status question receives an account of incarnations, relevance and higher planes.","caution":"Numerical incarnations and hierarchical planes remain reported cosmology, not externally measured quantities."}
+  ]
+}

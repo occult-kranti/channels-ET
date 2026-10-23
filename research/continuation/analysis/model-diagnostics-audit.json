@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "checks": 122,
+  "passed": 122,
+  "failed": [],
+  "inputs": {
+    "predictions.json": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+    "split.json": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "posthoc-diagnostics.json": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+    "content-label-predictions.json": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+    "content-label-results.json": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+    "content-label-protocol.json": "496c4db531eaa4526be2ffec5179fcda2b8e10261d3b1236a9467134e9a83cf7",
+    "run_round11_diagnostics.py": "6ae6bab48352517a2ebae0ee9c2b3b3acdc9bb539b68c9b0186ef75921c07bf9",
+    "run_content_labels.py": "94abd2c9d66b22fcaaa0d99d4fa35a5bd825202d6ba8d032a1b259c4740f2913"
+  },
+  "metricSensitivity": [
+    {
+      "id": "lexical_retrieval",
+      "questions": 8,
+      "controls": 2,
+      "strictMarkerOutputs": 1,
+      "posthocRefusalPhraseOutputs": 1,
+      "rawTokenF1": 0.03499314330929773,
+      "citationStrippedTokenF1": 0.035715214858551926,
+      "generation40TokenCapHits": 0,
+      "anyRetrievedEvidenceQuestions": 5
+    },
+    {
+      "id": "qwen_base_closed",
+      "questions": 8,
+      "controls": 2,
+      "strictMarkerOutputs": 0,
+      "posthocRefusalPhraseOutputs": 2,
+      "rawTokenF1": 0.06021237970448678,
+      "citationStrippedTokenF1": 0.06021237970448678,
+      "generation40TokenCapHits": 0,
+      "anyRetrievedEvidenceQuestions": 0
+    },
+    {
+      "id": "qwen_base_rag",
+      "questions": 8,
+      "controls": 2,
+      "strictMarkerOutputs": 1,
+      "posthocRefusalPhraseOutputs": 2,
+      "rawTokenF1": 0.010638297872340425,
+      "citationStrippedTokenF1": 0.010638297872340425,
+      "generation40TokenCapHits": 0,
+      "anyRetrievedEvidenceQuestions": 5
+    },
+    {
+      "id": "qwen_lora_closed",
+      "questions": 8,
+      "controls": 2,
+      "strictMarkerOutputs": 0,
+      "posthocRefusalPhraseOutputs": 1,
+      "rawTokenF1": 0.1453069539700216,
+      "citationStrippedTokenF1": 0.1453069539700216,
+      "generation40TokenCapHits": 5,
+      "anyRetrievedEvidenceQuestions": 0
+    },
+    {
+      "id": "qwen_lora_rag",
+      "questions": 8,
+      "controls": 2,
+      "strictMarkerOutputs": 2,
+      "posthocRefusalPhraseOutputs": 2,
+      "rawTokenF1": 0.012239583333333333,
+      "citationStrippedTokenF1": 0.012239583333333333,
+      "generation40TokenCapHits": 1,
+      "anyRetrievedEvidenceQuestions": 5
+    }
+  ],
+  "citationPositiveControls": {
+    "outputs": 4,
+    "distinctTrainingQuestions": 2,
+    "sourceLabelsPresent": 0,
+    "heldoutEvaluation": false,
+    "rows": [
+      {
+        "arm": "base_rag_positive_control",
+        "candidateId": "qa-0htF1V0v6ec-000",
+        "labelPresent": false,
+        "contentTokenF1": 0.4117647058823529
+      },
+      {
+        "arm": "base_rag_positive_control",
+        "candidateId": "qa-2GVhU6BRVWY-000",
+        "labelPresent": false,
+        "contentTokenF1": 1.0
+      },
+      {
+        "arm": "lora_rag_positive_control",
+        "candidateId": "qa-0htF1V0v6ec-000",
+        "labelPresent": false,
+        "contentTokenF1": 0.10526315789473684
+      },
+      {
+        "arm": "lora_rag_positive_control",
+        "candidateId": "qa-2GVhU6BRVWY-000",
+        "labelPresent": false,
+        "contentTokenF1": 1.0
+      }
+    ]
+  },
+  "localTextLabels": {
+    "n": 12,
+    "parsed": 9,
+    "parseFailures": 3,
+    "conditionalMethodConcordance": 5,
+    "conditionalMethodDenominator": 9,
+    "themeDictionaryConcordance": 2,
+    "exactAnswerEvidenceSpans": 0,
+    "parsedThemeCounts": {
+      "contact_forecast": 9
+    },
+    "rows": [
+      {
+        "candidateId": "qa-jdzErS12DvU-002",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "yes",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-WEVqgD-L5kc-000",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "yes",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-ufzO0sbNICQ-014",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "yes",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-E_cPno64Z-Q-014",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "yes",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-IKJzZ-KVPdQ-017",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "yes",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-Rcjd1TkZUMY-000",
+        "parsed": false,
+        "modelTheme": null,
+        "dictionaryConditional": "yes",
+        "modelConditional": null,
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-Dw9XHTMrgBE-015",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "no",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-_UZ8EyuOuY8-004",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "no",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-ygzBrMyMAQA-010",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "no",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-pfB4F7uAjwE-012",
+        "parsed": false,
+        "modelTheme": null,
+        "dictionaryConditional": "no",
+        "modelConditional": null,
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-ETuHIzyRhyY-009",
+        "parsed": false,
+        "modelTheme": null,
+        "dictionaryConditional": "no",
+        "modelConditional": null,
+        "exactAnswerSpan": false
+      },
+      {
+        "candidateId": "qa-os4a7-7bnLw-012",
+        "parsed": true,
+        "modelTheme": "contact_forecast",
+        "dictionaryConditional": "no",
+        "modelConditional": "yes",
+        "exactAnswerSpan": false
+      }
+    ]
+  },
+  "limits": [
+    "The broader refusal pattern was defined after output inspection and is not human refusal or correctness annotation.",
+    "The positive-control source answers are intentionally supplied from training; their overlap/citation scores are not held-out generalization.",
+    "The twelve text-label examples are balanced on a dictionary heuristic; method concordance is not accuracy or corpus prevalence.",
+    "All nine parsed themes collapse to contact_forecast; do not use this failed probe as empirical theme distribution.",
+    "No exact answer evidence spans passed the specified source-substring rule.",
+    "Citation-stripped overlap preserves the original scores as separate metrics; no model parameters are optimized on this diagnostic.",
+    "Generation cap hits document censoring; no longer-budget generation experiment was executed."
+  ]
+}

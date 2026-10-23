@@ -1,0 +1,13 @@
+# Analytics panel — round 9 final verification
+
+Reviewed the changed round8 candidate and final revised artifact. Final paper: **25 pages**, SHA-256 `9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1`. The immutable analytics result hash remains `97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216`; final Q&A summary is `7cc9705a73bed33523397b0e4812bb47974dfc21a8a48c83d294c53948a46128`. Exact inputs, all six figure hashes and checks are in `analysis/generated/round3-final-review.json`.
+
+**Executed checks:** 798/798 independent analytics reconciliations; 2,994/2,994 independent cross-workstream Q&A checks; 30/30 final manuscript input, figure-copy and rendered-table checks. The Q&A audit imports neither producer, reconstructs the question representation from released fields, verifies every digest pointer and byte hash, and checks literal false versus unavailable CSV fields.
+
+The new retrieval sensitivity is numerically correct: at cutoffs .40/.50/.60/.70/.80/.90, candidate-pair counts are 127/73/47/34/24/18, spanning 71/34/19/11/11/9 upload pairs. Three upload pairs provide 30 of 127 matches (23.6%). These are retrieval concentration and threshold diagnostics, not representative agreement rates or identified repost counts. The 100-record summary preview is explicitly distinct from all 127 exported records.
+
+All six paper figure PDFs match authoritative analysis exports byte for byte. Final rendered pages13–14 were inspected: the negative-control legend collision is resolved, paired-count labels are legible, the full threshold table fits, and preview/model-reading limitations remain attached to their claims. Existing account-balanced and leave-one-publisher-out results are now present with eligibility and uncertainty semantics.
+
+One final-round CSV defect was detected and corrected: empty-string membership in the formula-prefix guard converted missing values into an apostrophe. The guard now requires a nonempty string; false booleans remain `false` and unavailable timestamps remain blank. A manuscript input manifest became stale after acquisition metadata changed; the paper was rebuilt and all final input hashes now match. No further analytical correction is required on this candidate.
+
+This pass certifies executed file/numerical consistency within the observed evidence. It does not certify new YouTube collection, transcript/audio accuracy, human annotation, question equivalence, cross-practitioner agreement or communication origin. No additional unrelated analyses were added. Three expansion loops now concern successive changed artifacts; historical review records remain separate.

@@ -1,0 +1,236 @@
+{
+  "round": 12,
+  "role": "Independent AI methods/literature panel; not human peer review",
+  "reviewedAt": "2026-10-23T22:00:11.454292+00:00",
+  "status": "PASS_WITH_EXPLICIT_LIMITS",
+  "candidate11ArchiveSha256": "dbfdc2e6c655c13124830e3db1a741fba7cf2270ecf140809e2f9e7be6a1410f",
+  "definitivePdfSha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+  "definitiveSourceZipSha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+  "pages": 16,
+  "publicCopiesByteIdentical": true,
+  "checks": [
+    {
+      "path": "research/continuation/literature/independent-model-pilot.json",
+      "sha256": "84a0f538eb6d838441a8e26c257f31d0da6d764b462a290a6f534e164015e4c3",
+      "status": "PASS",
+      "checks": 384
+    },
+    {
+      "path": "research/continuation/literature/independent-label-probes.json",
+      "sha256": "bc11f0b4a6081812e1025f339c6c612bf807f95f82da28f7fc76fac8359a84f7",
+      "status": "PASS",
+      "checks": 1655
+    },
+    {
+      "path": "research/continuation/literature/independent-alignment-control.json",
+      "sha256": "b498ac33dd4439ac09c14a6c05a9e07449dc476cb3fd6e2acb377c61c6ccef39",
+      "status": "PASS",
+      "checks": 420
+    },
+    {
+      "path": "research/continuation/literature/independent-collector-controls.json",
+      "sha256": "58230e90fc8319b18c778c81a3f5b4a705a5a98f610754fa4f29d96fa1e579e0",
+      "status": "PASS",
+      "checks": 11
+    },
+    {
+      "path": "research/continuation/literature/independent-release-bindings.json",
+      "sha256": "1b44264e019281281734d916e4095677a2c537d77d5194d6a2d026c037ee4c56",
+      "status": "PASS",
+      "checks": 169
+    }
+  ],
+  "findings": [
+    {
+      "id": "M12-01",
+      "status": "corrected_and_independently_verified",
+      "finding": "Ignored raw adapter dependency in independent verifier",
+      "acceptedChange": "ZIP-member fallback executed with actual default raw file temporarily unavailable; exact same bytes/matrices verified; restored raw file afterward."
+    },
+    {
+      "id": "M12-02",
+      "status": "corrected_and_independently_verified",
+      "finding": "Accepted ID alias not normalized for downstream consumers",
+      "acceptedChange": "Collector stores video_id=vid; ID-only/dedup/media-plan fixtures and prior adversarial fixtures pass."
+    },
+    {
+      "id": "M12-03",
+      "status": "claim_precision_accepted",
+      "finding": "Combined short-span failures must not all be called invented evidence",
+      "acceptedChange": "Paper separates10literal strings,5literal-overlength,5combined-successes and2nonliteral, and names constant-yes baseline."
+    },
+    {
+      "id": "M12-04",
+      "status": "claim_precision_accepted",
+      "finding": "Model-assisted reading claim needed concrete retained artifacts",
+      "acceptedChange": "Appendix A.4 names20single/12paired digest interpretations; allpairedagreement undetermined; selectedsourcepointers independently verified."
+    }
+  ],
+  "noChangeDecisions": [
+    "Original50response benchmark metrics/protocol/split remain unchanged; posthocdiagnostics remain separate.",
+    "Reverseoptionorder disconfirms only simplefirstoptioncopying while exposinglocalpromptsensitivity.",
+    "Narrowerregex60to58 flags is sensitivity,notgoldlabels; originalselection unchanged.",
+    "Questiondefinedsourcegroup and sharedsupport contrasts remain noncausal.",
+    "Novelty remains source-typed integration/resource/failureanalysis,notnewalgorithm/first-in-field/systematicreview.",
+    "No further retrieval or neuralexpansion needed for final boundedclaims."
+  ],
+  "sourceAccess": "Actual definitive PDF text/source/citations inspected; previously retrieved primarymethods passages rechecked at recorded depths. Saved modeloutputs and exactpackagedadapter audited; selected digestsourcepointers checked. No new network,inference,independent rendering/cleancompilation,humanannotation or audiovisual inspection by reviewer.",
+  "freshScholarlySources": 18,
+  "priorRegisterCount": 28,
+  "bibtexEntries": 37,
+  "citedKeys": 32,
+  "adapterFallbackEvidence": {
+    "route": "packaged_zip_member_fallback",
+    "requested_raw_path": "/workspace/channels-ET/research/continuation/models/adapter-export/adapter_model.safetensors",
+    "raw_path_exists": false,
+    "package": "research/continuation/models/qwen-digest-lora-pilot.zip",
+    "package_sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+    "member": "adapter_model.safetensors",
+    "member_sha256": "8d3afe9254008447ae3fbcad2f47ca199600ffe321f052210f332be3d25424a7",
+    "member_bytes": 1093728
+  },
+  "finalArtifacts": [
+    {
+      "path": "research/continuation/paper/channels-et-paper.pdf",
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    {
+      "path": "research/continuation/paper/channels-et-source.zip",
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    {
+      "path": "research/continuation/paper/body.tex",
+      "sha256": "d6ebcdfc58a3af3dd1179493173d96484d8b6aac9eb225b8f66c2ca4308fb153"
+    },
+    {
+      "path": "research/continuation/paper/appendices.tex",
+      "sha256": "b5459a2cc6b0be2f3503c8015a9c2d807ba05e643c5ea70f1a71526e9d243ce3"
+    },
+    {
+      "path": "research/continuation/paper/generated/results.tex",
+      "sha256": "288e23ad98cd87a03adcb6b093421821e746917bbe52fadcc057d529a29e0dce"
+    },
+    {
+      "path": "research/continuation/paper/generated/extended-results.tex",
+      "sha256": "ceb6672f1152094ea395ab7496228d4ea22461244a294a1922ff25f57ed2d851"
+    },
+    {
+      "path": "research/continuation/paper/references.bib",
+      "sha256": "16c62e3e8d759f34e6e62c6333ed1a1115936e9bab349faa9b09a669cb17af08"
+    },
+    {
+      "path": "research/continuation/paper/input-manifest.json",
+      "sha256": "a92d91f85f0ce0d3e71c4f725556845517b64d427601bec9aab708c87852ecb5"
+    },
+    {
+      "path": "research/continuation/paper/verification.json",
+      "sha256": "f5b4929df680cbcfb398ef1cf84bf9938bf751a762fa43f9220ee159e0145c10"
+    },
+    {
+      "path": "research/continuation/acquisition/channel_pipeline.py",
+      "sha256": "f315ce8fc47b06c67c232c665baf266c3782a12fb412dace18cc6fe55ce67202"
+    },
+    {
+      "path": "research/continuation/analysis/results.json",
+      "sha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd"
+    },
+    {
+      "path": "research/continuation/models/predictions.json",
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5"
+    },
+    {
+      "path": "research/continuation/models/benchmark-results.json",
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f"
+    },
+    {
+      "path": "research/continuation/models/split.json",
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e"
+    },
+    {
+      "path": "research/continuation/models/training-receipt.json",
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+    },
+    {
+      "path": "research/continuation/models/annotation-comparison.json",
+      "sha256": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2"
+    },
+    {
+      "path": "research/continuation/models/option-order-predictions.json",
+      "sha256": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+    },
+    {
+      "path": "research/continuation/models/option-order-results.json",
+      "sha256": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792"
+    },
+    {
+      "path": "research/continuation/models/qwen35-content-label-predictions.json",
+      "sha256": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+    },
+    {
+      "path": "research/continuation/models/qwen35-content-label-results.json",
+      "sha256": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2"
+    },
+    {
+      "path": "research/continuation/models/conditional-lexicon-sensitivity.json",
+      "sha256": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55"
+    },
+    {
+      "path": "dist/research/paper.pdf",
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    {
+      "path": "dist/research/source.zip",
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    {
+      "path": "dist/research/data.json",
+      "sha256": "b82fcbfdf8ca3e0714712a6c4f76afbfff07096aa469f67b590a72e254d313a5"
+    },
+    {
+      "path": "dist/research/app.js",
+      "sha256": "99cf214e0462c773a9fec57c527450db54cfcd37fe03d82e8bae81b551675486"
+    },
+    {
+      "path": "research/continuation/literature/source-register.json",
+      "sha256": "aa4ab9498ee605980804672cbbe95152a675902db22face8cd51d1887f736658"
+    },
+    {
+      "path": "research/continuation/literature/venue-check.json",
+      "sha256": "37896229a42494de61c9f5f0553bc2b6bdfb27bc6dd9670a48fd3a0d16f8d622"
+    },
+    {
+      "path": "research/continuation/literature/verify_model_pilot.py",
+      "sha256": "20817632f8faefbf0049652fffac243fc7eb3857a31b64518039c4ab1f32c965"
+    },
+    {
+      "path": "research/continuation/literature/verify_label_probes.py",
+      "sha256": "8d5be198fb03a5f8282f119f87bab590fa50b30bf280e42557882586dfc6d10c"
+    },
+    {
+      "path": "research/continuation/literature/verify_alignment_control.py",
+      "sha256": "75fbf217eac14eb3801b4e7d16f652b2f273625ff0d71f496e9a2508dbde6e3f"
+    },
+    {
+      "path": "research/continuation/literature/verify_collector_controls.py",
+      "sha256": "d81b657539307e9fb396081c2ab1b3430b3f2ad59dbc089fb4d99071a4fc3da2"
+    },
+    {
+      "path": "research/continuation/literature/verify_release_bindings.py",
+      "sha256": "d473909e84b8a69b67c9f57e2fe764b671274af92784ab38ab0d4d681f9cc50a"
+    },
+    {
+      "path": "research/continuation/reviews/methods-round12.md",
+      "sha256": "807ac51f7a1bbc79acb5e57268c4d30c7045a97a599168db4aa5c9ce71939f4e"
+    }
+  ],
+  "unresolvedLimits": [
+    "Purposive incomplete index; new continuation source requests denied; no new captions/media.",
+    "Onepractitioner AI-digestparaphrases, noverified speakers/turns/recordingtimestamps.",
+    "Sourceproxy groups do notverify originalsessions; unseenparaphrases/pretrainingcontamination unknown.",
+    "Tiny selected CPU experiments, unequalanswerbudgets, missingheldoutRAGanswers and differenttokenizer/runtime conditions prevent generalmodelrankings.",
+    "No humansemanticaccuracy,validatedagreement,sourceentailment,externaltruth or independentstudyreplication established.",
+    "Humanvalidation,rights/institutionaldetermination,authorship/contributoracceptance/submissionpending."
+  ],
+  "remainingIntegration": "Root final full-workflow rebuild and final archive/commit are separate integration tasks, outside this closed methods review.",
+  "materialTechnicalOrClaimBlockers": []
+}

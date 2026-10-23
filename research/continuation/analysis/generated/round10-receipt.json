@@ -1,0 +1,66 @@
+{
+  "round": 10,
+  "role": "Continuation quantitative analysis",
+  "resultsSha256": "b760388e04cf6b8158efd86a30b384f8c63db25bd09b71f02901bc168c30a878",
+  "protocolSha256": "d5458ca02de5d88d3d6529a6d91274615f8c32aa1fd59ba342d05233db8ce6d0",
+  "checks": 1265,
+  "passed": 1265,
+  "modelAuditChecks": 363,
+  "modelAuditPassed": 363,
+  "modelAuditInputs": {
+    "split.json": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "predictions.json": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+    "benchmark-results.json": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+    "training-receipt.json": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+    "run_benchmark.py": "d8f85398e578d564ecc7ffe7dc26caafad2cb212fc109d73498a2fb5539f95a3"
+  },
+  "reproductionFiles": 12,
+  "figures": [
+    {
+      "id": "question-answer-alignment",
+      "pdfSha256": "d13e58ebf43ce393231b245101730ddeea9c9973202a39bc21cf9a35e7db6196",
+      "pngInspected": true,
+      "legendPolicy": "Outside data marks where a legend could conceal observations"
+    },
+    {
+      "id": "lexical-graph-stability",
+      "pdfSha256": "1ada693fccdd12c830556cf475818e4a1d1da2f1a827192ee558fa4c6f57ab07",
+      "pngInspected": true,
+      "legendPolicy": "Outside data marks where a legend could conceal observations"
+    },
+    {
+      "id": "caption-duration-controls",
+      "pdfSha256": "2d81dbd4af11287b9e4bfee569c54767f91dd5e3b7070c3fc954610a1c746334",
+      "pngInspected": true,
+      "legendPolicy": "Outside data marks where a legend could conceal observations"
+    },
+    {
+      "id": "source-leakage-guard",
+      "pdfSha256": "a4dcd8f131f16cebb0536a1b6e16fbee0b14307380ebb8b4973ae5a37776c37a",
+      "pngInspected": true,
+      "legendPolicy": "Outside data marks where a legend could conceal observations"
+    },
+    {
+      "id": "model-reconstruction-controls",
+      "pdfSha256": "62333f8853b3b214981e182aca5b4d1fbc7388e22f19b402d9fbf46ad33ab8e0",
+      "pngInspected": true,
+      "legendPolicy": "Outside data marks where a legend could conceal observations"
+    }
+  ],
+  "modelSplitAudit": {
+    "status": "PASS",
+    "splitSha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "trainExamples": 48,
+    "testQuestions": 8,
+    "sourceGroups": 55,
+    "trainGroups": 47,
+    "testGroups": 8,
+    "ragScope": "Train-only retrieval independently replayed for every actual applicable prediction in audit_benchmark.py; no held-out evidence IDs or quarantine groups supplied.",
+    "limits": [
+      "Grouping uses observed question similarities and cannot rule out unknown original-session or pretrained-model contamination.",
+      "One selected question per eight held-out groups is a tiny pilot, not reliable generalization or semantic validation."
+    ]
+  },
+  "modelMetrics": "Actual completed five-arm CPU pilot audited; eight held-out digest questions and two unsupported controls per arm; no reliable model ranking.",
+  "status": "core_and_actual_model_analysis_implemented_and_verified"
+}

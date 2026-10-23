@@ -1,0 +1,884 @@
+{
+  "checked_at": "2026-10-23T21:45:05.545393+00:00",
+  "status": "PASS",
+  "checks": 218,
+  "failures": [],
+  "network_requests": 0,
+  "adapter_archive_sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+  "source_manifest_sha256": "61bc2ca0d59b85d8964c66562f9409b22013a4777318563f732c8963989876a7",
+  "basis": "Artifact bytes, declared licensing metadata and training-source bindings only; not quality, truth, human review or original speech rights validation.",
+  "all_checks": [
+    {
+      "check": "Actual adapter ZIP matches packaging receipt",
+      "passed": true
+    },
+    {
+      "check": "Uncompressed adapter archive below32MiB inspection budget",
+      "passed": true
+    },
+    {
+      "check": "Member bounded for local inspection:LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "Member SHA256:LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "Member bounded for local inspection:NOTICE.txt",
+      "passed": true
+    },
+    {
+      "check": "Member SHA256:NOTICE.txt",
+      "passed": true
+    },
+    {
+      "check": "Member bounded for local inspection:README.md",
+      "passed": true
+    },
+    {
+      "check": "Member SHA256:README.md",
+      "passed": true
+    },
+    {
+      "check": "Member bounded for local inspection:adapter_config.json",
+      "passed": true
+    },
+    {
+      "check": "Member SHA256:adapter_config.json",
+      "passed": true
+    },
+    {
+      "check": "Member bounded for local inspection:adapter_model.safetensors",
+      "passed": true
+    },
+    {
+      "check": "Member SHA256:adapter_model.safetensors",
+      "passed": true
+    },
+    {
+      "check": "Member bounded for local inspection:training-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Member SHA256:training-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Member bounded for local inspection:training-source-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Member SHA256:training-source-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "No unmanifested archive members",
+      "passed": true
+    },
+    {
+      "check": "Source/license notice and training bindings included",
+      "passed": true
+    },
+    {
+      "check": "Base identifier consistent across package/config/model manifest",
+      "passed": true
+    },
+    {
+      "check": "Exact base revision consistent across package/config/model manifest",
+      "passed": true
+    },
+    {
+      "check": "Bundled base Apache license bytes match verified model manifest",
+      "passed": true
+    },
+    {
+      "check": "Bundled training source manifest binds exact split",
+      "passed": true
+    },
+    {
+      "check": "Bundled training source manifest binds exact protocol",
+      "passed": true
+    },
+    {
+      "check": "Training source hash binds inherited candidate artifact",
+      "passed": true
+    },
+    {
+      "check": "Training candidate IDs/order match split",
+      "passed": true
+    },
+    {
+      "check": "Pilot training manifest contains48 rows",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-fZmY4xS_qXE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-fZmY4xS_qXE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-fZmY4xS_qXE-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-fZmY4xS_qXE-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-IKYfZdjv3aE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-IKYfZdjv3aE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-IKYfZdjv3aE-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-IKYfZdjv3aE-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-9Ij2AEoRwoM-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-9Ij2AEoRwoM-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-9Ij2AEoRwoM-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-9Ij2AEoRwoM-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-eCxOH-AK1rc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-eCxOH-AK1rc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-eCxOH-AK1rc-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-eCxOH-AK1rc-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-k0lWJ2B90-I-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-k0lWJ2B90-I-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-k0lWJ2B90-I-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-k0lWJ2B90-I-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-lLFUTAVah30-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-lLFUTAVah30-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-lLFUTAVah30-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-lLFUTAVah30-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-ZACIL5Hzb5c-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-ZACIL5Hzb5c-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-ZACIL5Hzb5c-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-ZACIL5Hzb5c-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-zOcZDBhRaOQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-zOcZDBhRaOQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-zOcZDBhRaOQ-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-zOcZDBhRaOQ-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-5Js8U9sJ5-8-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-5Js8U9sJ5-8-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-5Js8U9sJ5-8-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-5Js8U9sJ5-8-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-JSwqz_ZhH_I-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-JSwqz_ZhH_I-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-JSwqz_ZhH_I-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-JSwqz_ZhH_I-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-ozHG5P7fY5I-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-ozHG5P7fY5I-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-ozHG5P7fY5I-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-ozHG5P7fY5I-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-5lOHuqDbpoc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-5lOHuqDbpoc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-5lOHuqDbpoc-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-5lOHuqDbpoc-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-WEVqgD-L5kc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-WEVqgD-L5kc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-WEVqgD-L5kc-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-WEVqgD-L5kc-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-BaN26a0SbLQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-BaN26a0SbLQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-BaN26a0SbLQ-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-BaN26a0SbLQ-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-kPWOUEtUx2Y-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-kPWOUEtUx2Y-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-kPWOUEtUx2Y-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-kPWOUEtUx2Y-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-OzkviF1GCFc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-OzkviF1GCFc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-OzkviF1GCFc-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-OzkviF1GCFc-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-hmX3hlNJBjU-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-hmX3hlNJBjU-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-hmX3hlNJBjU-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-hmX3hlNJBjU-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-Rcjd1TkZUMY-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-Rcjd1TkZUMY-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-Rcjd1TkZUMY-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-Rcjd1TkZUMY-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-0htF1V0v6ec-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-0htF1V0v6ec-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-0htF1V0v6ec-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-0htF1V0v6ec-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-S3Xw09ZE2Dg-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-S3Xw09ZE2Dg-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-S3Xw09ZE2Dg-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-S3Xw09ZE2Dg-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-wCZ1Lib1_cQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-wCZ1Lib1_cQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-wCZ1Lib1_cQ-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-wCZ1Lib1_cQ-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-IKJzZ-KVPdQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-IKJzZ-KVPdQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-IKJzZ-KVPdQ-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-IKJzZ-KVPdQ-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-aZvcNhWthUA-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-aZvcNhWthUA-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-aZvcNhWthUA-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-aZvcNhWthUA-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-hFC4F3JO33M-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-hFC4F3JO33M-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-hFC4F3JO33M-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-hFC4F3JO33M-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-T5QtncJq1Jc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-T5QtncJq1Jc-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-T5QtncJq1Jc-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-T5QtncJq1Jc-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-Dw9XHTMrgBE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-Dw9XHTMrgBE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-Dw9XHTMrgBE-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-Dw9XHTMrgBE-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-jQbxp4e6bfg-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-jQbxp4e6bfg-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-jQbxp4e6bfg-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-jQbxp4e6bfg-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-d--HZiDqgs0-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-d--HZiDqgs0-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-d--HZiDqgs0-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-d--HZiDqgs0-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-pfB4F7uAjwE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-pfB4F7uAjwE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-pfB4F7uAjwE-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-pfB4F7uAjwE-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-EHK_mwdk3kM-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-EHK_mwdk3kM-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-EHK_mwdk3kM-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-EHK_mwdk3kM-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-mzcFoYUvbOE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-mzcFoYUvbOE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-mzcFoYUvbOE-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-mzcFoYUvbOE-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-y0-_YOFU8eQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-y0-_YOFU8eQ-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-y0-_YOFU8eQ-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-y0-_YOFU8eQ-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-4NGd9kqWM04-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-4NGd9kqWM04-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-4NGd9kqWM04-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-4NGd9kqWM04-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-U-DHIk0lIQ4-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-U-DHIk0lIQ4-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-U-DHIk0lIQ4-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-U-DHIk0lIQ4-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-hTlU_M_R0eE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-hTlU_M_R0eE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-hTlU_M_R0eE-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-hTlU_M_R0eE-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-7WjydoNj7hE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-7WjydoNj7hE-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-7WjydoNj7hE-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-7WjydoNj7hE-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-fOi0W9_JEWM-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-fOi0W9_JEWM-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-fOi0W9_JEWM-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-fOi0W9_JEWM-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-kvU9mCJr-eo-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-kvU9mCJr-eo-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-kvU9mCJr-eo-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-kvU9mCJr-eo-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-94agFEADfyk-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-94agFEADfyk-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-94agFEADfyk-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-94agFEADfyk-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-9FrwPg8FYvM-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-9FrwPg8FYvM-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-9FrwPg8FYvM-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-9FrwPg8FYvM-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-ETuHIzyRhyY-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-ETuHIzyRhyY-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-ETuHIzyRhyY-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-ETuHIzyRhyY-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-E_cPno64Z-Q-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-E_cPno64Z-Q-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-E_cPno64Z-Q-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-E_cPno64Z-Q-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-HoYNcoMTk-4-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-HoYNcoMTk-4-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-HoYNcoMTk-4-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-HoYNcoMTk-4-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-p8JC21bFf5M-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-p8JC21bFf5M-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-p8JC21bFf5M-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-p8JC21bFf5M-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-2GVhU6BRVWY-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-2GVhU6BRVWY-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-2GVhU6BRVWY-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-2GVhU6BRVWY-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-98KsASkO8Cs-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-98KsASkO8Cs-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-98KsASkO8Cs-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-98KsASkO8Cs-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-ji9rMw37o2M-000",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-ji9rMw37o2M-000",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-ji9rMw37o2M-000",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-ji9rMw37o2M-000",
+      "passed": true
+    },
+    {
+      "check": "Source path remains within repository:qa-fZmY4xS_qXE-001",
+      "passed": true
+    },
+    {
+      "check": "Digest source hash:qa-fZmY4xS_qXE-001",
+      "passed": true
+    },
+    {
+      "check": "Digest JSON pointer resolves:qa-fZmY4xS_qXE-001",
+      "passed": true
+    },
+    {
+      "check": "Metadata-only source row:qa-fZmY4xS_qXE-001",
+      "passed": true
+    }
+  ]
+}

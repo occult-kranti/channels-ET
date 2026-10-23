@@ -1,0 +1,121 @@
+{
+  "role": "AI implementation/browser reviewer, not human usability research",
+  "round": "9",
+  "checks": [
+    "925 retained upload IDs rendered",
+    "Collection block explicit in persistent status",
+    "No object strings on overview",
+    "No NaN on overview",
+    "No desktop horizontal page overflow on overview",
+    "No object strings on accounts",
+    "No NaN on accounts",
+    "No desktop horizontal page overflow on accounts",
+    "No object strings on collection",
+    "No NaN on collection",
+    "No desktop horizontal page overflow on collection",
+    "No object strings on questions",
+    "No NaN on questions",
+    "No desktop horizontal page overflow on questions",
+    "No object strings on methods",
+    "No NaN on methods",
+    "No desktop horizontal page overflow on methods",
+    "Account text filter changes table to one Calenara row",
+    "Account CSV preserves filtered population",
+    "Account empty state meaningful",
+    "Keyword plan filter returns actual planned rows",
+    "Planned queries not presented as results",
+    "Inherited candidate roster filters entity alias Bashar to practitioner context",
+    "949 digest candidates rendered",
+    "Unsupported cross-practitioner analysis explicit",
+    "67 source uploads with candidate Q&A rendered",
+    "QA resolved and unresolved publisher groups remain distinct",
+    "Pair preview discloses full127 qualifying pair population",
+    "Six retrieval-threshold sensitivity rows rendered from reviewed summary",
+    "Pair source details disclose unknown recording independence",
+    "QA keyword filter operates on actual candidates",
+    "QA filtered CSV preserves classification and selected rows",
+    "QA CSV preserves false review/speaker flags as false, not missing",
+    "QA empty state meaningful",
+    "No 390px horizontal page overflow on overview",
+    "No 390px horizontal page overflow on accounts",
+    "No 390px horizontal page overflow on collection",
+    "No 390px horizontal page overflow on questions",
+    "No 390px horizontal page overflow on methods",
+    "Keyboard can focus navigation/control",
+    "Keyboard search submission filters publishing account table",
+    "Keyboard Enter expands native source disclosure",
+    "No page overflow under 200% CSS zoom on overview",
+    "No page overflow under 200% CSS zoom on accounts",
+    "No page overflow under 200% CSS zoom on collection",
+    "No page overflow under 200% CSS zoom on questions",
+    "No page overflow under 200% CSS zoom on methods",
+    "Public artifact is served: paper.pdf",
+    "Public artifact is served: source.zip",
+    "Public artifact is served: qa-candidates.sqlite",
+    "Public artifact is served: qa-question-pairs.json",
+    "Public artifact is served: acquisition-status.json",
+    "No browser page errors",
+    "Public artifact bytes match reviewed source: paper.pdf",
+    "Public artifact bytes match reviewed source: source.zip",
+    "Public artifact bytes match reviewed source: qa-candidates.sqlite",
+    "Public artifact bytes match reviewed source: qa-summary.json"
+  ],
+  "errors": [],
+  "screenshots": [
+    "/workspace/bashar-index/channeling-atlas/research/expansion/dashboard/round9-overview.png",
+    "/workspace/bashar-index/channeling-atlas/research/expansion/dashboard/round9-questions-mobile.png",
+    "/workspace/bashar-index/channeling-atlas/research/expansion/dashboard/round9-questions-mobile-viewport.png"
+  ],
+  "artifacts": {
+    "index.html": {
+      "bytes": 2072,
+      "sha256": "745eb05cd91bf2fe198cafd9f0e1f355cc5a1ec34c0e5f6fe24b80eb5fcc97a6"
+    },
+    "app.js": {
+      "bytes": 34927,
+      "sha256": "18737c6377638d09ded0f1aca0cd17d910063a4759337c3b24cd1990cba77238"
+    },
+    "styles.css": {
+      "bytes": 9307,
+      "sha256": "ee3cde4b2c135ec84791a5525a26f63cc9871571c18b044beb2a266f813d49d1"
+    },
+    "evidence.json": {
+      "bytes": 1700175,
+      "sha256": "388785631fd23a0ab070cd6733e8d96dd17c0ff0377c5e2a9d3e8ea5eecef9bf"
+    },
+    "diagnostics.json": {
+      "bytes": 297579,
+      "sha256": "1a288dea2475eedc4b1acb2a5cf0a01196c2af1c5b15a41443e3b6a9a2eb2545"
+    },
+    "qa.json": {
+      "bytes": 848388,
+      "sha256": "10a87470d68a3dbeaa8ca2f624b4e054a7f9a0ac311dba7c7f2b747e1128800f"
+    },
+    "qa-summary.json": {
+      "bytes": 245639,
+      "sha256": "7cc9705a73bed33523397b0e4812bb47974dfc21a8a48c83d294c53948a46128"
+    },
+    "qa-candidates.sqlite": {
+      "bytes": 925696,
+      "sha256": "5c8e8eb8dc0d1a67461719ebfc5d35b18f03a30eed77a9acbe7a06101fa8321c"
+    },
+    "qa-question-pairs.json": {
+      "bytes": 86407,
+      "sha256": "17629517ea6d187d92aab30079be8d5b61f2fc581e54012410e5bf10a544a476"
+    },
+    "paper.pdf": {
+      "bytes": 459228,
+      "sha256": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1"
+    },
+    "source.zip": {
+      "bytes": 118072,
+      "sha256": "c0bf5184a71029fe7f1fbe38d5ca259d4a789866a69622b300665e3d6a5fa4d4"
+    },
+    "acquisition-status.json": {
+      "bytes": 2071,
+      "sha256": "07e87b9ee175c1ed1cf9946303671923fa5153fe0a196bd920bdfdbfe0243c75"
+    }
+  },
+  "status": "PASS",
+  "finishedAt": "2026-10-23T20:45:22.392Z"
+}

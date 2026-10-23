@@ -1,0 +1,155 @@
+{
+  "note": "Public URLs only; no cookies, credentials, rotating proxies or disabled TLS. Local cache not released. Retrieved is not equivalent to fully read.",
+  "sources": [
+    {
+      "id": "yt-dlp-readme",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/README.md",
+      "attempted_at": "2026-10-23T20:27:33.969049+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 179127,
+      "sha256": "6adba80a892aee34940550ee8d7085041afca6140b7ac56d6414f1e6eb484bfe"
+    },
+    {
+      "id": "yt-dlp-license",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/LICENSE",
+      "attempted_at": "2026-10-23T20:27:33.969783+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/LICENSE",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1211,
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+    },
+    {
+      "id": "transcript-api-readme",
+      "url": "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/README.md",
+      "attempted_at": "2026-10-23T20:27:33.970298+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 24281,
+      "sha256": "c32899451ba279771ccc8e73022a20f4a9c985ff0134c7deaee0bce4a967b8f0"
+    },
+    {
+      "id": "transcript-api-license",
+      "url": "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/LICENSE",
+      "attempted_at": "2026-10-23T20:27:33.971077+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/LICENSE",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1069,
+      "sha256": "e7608cc316ea65729d6ce63cd619fb185ae44d329740388d30099fe7e4b16a4d"
+    },
+    {
+      "id": "faster-whisper-readme",
+      "url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md",
+      "attempted_at": "2026-10-23T20:27:34.240758+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 15249,
+      "sha256": "43efe4a6eb9046d5ba4dcdcf2abcc27ad9e021f3edfc00bd6eb4913a9abe065b"
+    },
+    {
+      "id": "faster-whisper-license",
+      "url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/LICENSE",
+      "attempted_at": "2026-10-23T20:27:34.259238+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/LICENSE",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1064,
+      "sha256": "af6798135e729f8aa6c853936d037dfdea449734d26b8ea6a89805fca758c0d5"
+    },
+    {
+      "id": "bertopic-readme",
+      "url": "https://raw.githubusercontent.com/MaartenGr/BERTopic/master/README.md",
+      "attempted_at": "2026-10-23T20:27:34.265759+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/MaartenGr/BERTopic/master/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 19517,
+      "sha256": "b1e62568b51de3877f0d26239d5dd7480576dba9bece03a1995bb118b5a45f12"
+    },
+    {
+      "id": "bertopic-license",
+      "url": "https://raw.githubusercontent.com/MaartenGr/BERTopic/master/LICENSE",
+      "attempted_at": "2026-10-23T20:27:34.279289+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/MaartenGr/BERTopic/master/LICENSE",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1081,
+      "sha256": "d4f326a7d8073fecfd26e8d2f7d6027e5bd9eda689d275dda9cd72c7f2ed017c"
+    },
+    {
+      "id": "keybert-readme",
+      "url": "https://raw.githubusercontent.com/MaartenGr/KeyBERT/master/README.md",
+      "attempted_at": "2026-10-23T20:27:34.483843+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/MaartenGr/KeyBERT/master/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 12129,
+      "sha256": "ac66ff96062200bc6cacd2fcda01bf7e856ff906892e267eb14d8cc3182467e2"
+    },
+    {
+      "id": "keybert-license",
+      "url": "https://raw.githubusercontent.com/MaartenGr/KeyBERT/master/LICENSE",
+      "attempted_at": "2026-10-23T20:27:34.501291+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/MaartenGr/KeyBERT/master/LICENSE",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1081,
+      "sha256": "b328420872ab670997b600aee509039a391404fbe5080acaf0be0d425452837f"
+    },
+    {
+      "id": "youniverse-paper",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18125/17928",
+      "attempted_at": "2026-10-23T20:27:34.521421+00:00",
+      "status": "failed",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "tube2vec-paper",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/31450/33610/35506",
+      "attempted_at": "2026-10-23T20:27:34.529143+00:00",
+      "status": "failed",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "topic-twaddle",
+      "url": "https://aclanthology.org/2021.naacl-main.300/",
+      "attempted_at": "2026-10-23T20:27:34.533488+00:00",
+      "status": "failed",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "youtube-search-docs",
+      "url": "https://developers.google.com/youtube/v3/docs/search/list",
+      "attempted_at": "2026-10-23T20:27:34.538001+00:00",
+      "status": "failed",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "youtube-playlist-docs",
+      "url": "https://developers.google.com/youtube/v3/docs/playlistItems/list",
+      "attempted_at": "2026-10-23T20:27:34.544917+00:00",
+      "status": "failed",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

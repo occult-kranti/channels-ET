@@ -1,0 +1,43 @@
+The executed pilot uses \texttt{Qwen/Qwen2.5-0.5B-Instruct}, revision \texttt{7ae557604adf} (full revision in the run receipt), under its Apache-2.0 license. It uses 48 training examples from 47 source-proxy groups and 8 questions from 8 disjoint groups, plus 2 unsupported-input controls. The retrieval store contains only the training examples; held-out answers are deliberately absent. This is a sparse-source transfer stress test, not a conventional factual RAG benchmark with known answer-bearing documents.
+
+\begin{table*}[t]
+\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.34\textwidth}p{0.15\textwidth}p{0.22\textwidth}p{0.2\textwidth}}
+\toprule
+Arm & Token F1 & Seconds / response & Strict control marker \\ \midrule
+Lexical retrieval & 0.035 & 0.0004 & 1/2 \\
+Base closed-book & 0.060 & 1.3962 & 0/2 \\
+Base + retrieval & 0.011 & 1.3260 & 1/2 \\
+LoRA closed-book & 0.145 & 3.2899 & 0/2 \\
+LoRA + retrieval & 0.012 & 1.7715 & 2/2 \\
+\bottomrule
+\end{tabular}
+\caption{Eight held-out question gists and two controls per arm. F1 is lexical overlap with an AI-produced reference gist. Control column counts exact INSUFFICIENT\_EVIDENCE marker emission, not all semantic refusal. The extractive baseline copies a full gist; generators are capped at 40 new tokens. Latency excludes model loading and index fitting. No model-quality ranking is inferred.}
+\end{table*}
+
+LoRA executes 48 microsteps and 12 optimizer updates over one epoch in 65.04 seconds, adapting 270,336 of 494,303,104 parameters. Rank is 4 with alpha 8, learning rate 0.0002, gradient accumulation 4, and targets \texttt{q\_proj} and \texttt{v\_proj}. Peak process RSS is 3.21 GiB. This is a short adaptation smoke test on a shared CPU, not an optimized training study or CPU/GPU comparison.
+
+Closed-book reference overlap changes from 0.060 to 0.145 after adaptation, while retrieval-conditioned values are 0.011 and 0.012. The missing held-out answers in the retrieval store confound any algorithm ranking: low overlap may accompany appropriate refusal or evidence gaps. Both language-model retrieval arms emit no valid evidence-label citation on the held-out questions. Citation compliance is therefore an observed failure, separate from source entailment.
+
+The strict control score counts a literal marker. A base response saying ``Insufficient evidence. is a semantic refusal but does not match that marker; zero strict score must not be described as zero refusal. Conversely, the adapted closed-book output supplies a studio temperature of 23 degrees Celsius although no measurement evidence is provided. This concrete unsupported assertion is a substantive failure that token F1 cannot diagnose. The controls are diagnostic examples, not a representative hallucination rate.
+
+A separately disclosed post-hoc phrase diagnostic was defined after inspecting the responses; it does not replace the original metric. It matches refusal expressions such as ``insufficient evidence with spaces/underscores and ``not available. It is another lexical rule, not a human semantic-refusal annotation.
+
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.43\columnwidth}p{0.24\columnwidth}p{0.24\columnwidth}}
+\toprule
+Arm & Strict marker & Post-hoc phrase hits \\ \midrule
+Lexical retrieval & 1/2 & 1/2 \\
+Base closed-book & 0/2 & 2/2 \\
+Base + retrieval & 1/2 & 2/2 \\
+LoRA closed-book & 0/2 & 1/2 \\
+LoRA + retrieval & 2/2 & 2/2 \\
+\bottomrule
+\end{tabular}
+\caption{Control diagnostics on the same two unsupported inputs per arm. The post-hoc phrase rule was selected after viewing outputs and is not an independent validation set.}
+\end{table}
+
+Four additional answer-present positive controls supply an exact training-source question and gist, separately for base and adapted retrieval. They are not held-out tests and are excluded from the original five-arm table. Of 4 outputs, 2 exactly reproduce the supplied gist under token-overlap F1, yet 0 emit a valid evidence-label citation. Source availability therefore does not repair citation compliance in this diagnostic. Reproducing an attributed source assertion remains distinct from externally verifying it.
+
+Generation is greedy, float32, limited to 40 new tokens and a 512-token prompt. No prompt was truncated; 5 adapted closed-book and 1 adapted retrieval responses hit the generation cap. Length-limited outputs can lose qualifications and depress lexical overlap. Their full outputs and source evidence remain inspectable in the prediction archive.

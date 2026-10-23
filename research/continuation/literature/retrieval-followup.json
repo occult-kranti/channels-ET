@@ -1,0 +1,27 @@
+{
+  "reason": "Official Author Kit linked by current ICWSM page; single retry after transient HTTP503 on official ACL PDF.",
+  "sources": [
+    {
+      "id": "author-kit-page",
+      "url": "https://aaai.org/authorkit27/",
+      "attempted_at": "2026-10-23T21:12:15.005264+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aaai.org/wp-content/uploads/2026/10/AuthorKit27.zip",
+      "content_type": "application/zip",
+      "bytes": 5496654,
+      "sha256": "9406a545d5d213757245eb37118fe652b2fccf64f555aff28b49ebe2a780c960"
+    },
+    {
+      "id": "ft-retrieval-pdf-retry",
+      "url": "https://aclanthology.org/2024.emnlp-main.15.pdf",
+      "attempted_at": "2026-10-23T21:12:15.005764+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.emnlp-main.15.pdf",
+      "content_type": "application/pdf",
+      "bytes": 746110,
+      "sha256": "0346defe54dbe662623a9a45d0d24ff02e1ebc8272b00f54c173ea553e9e5d93"
+    }
+  ]
+}

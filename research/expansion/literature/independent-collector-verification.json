@@ -1,0 +1,164 @@
+{
+  "role": "Independent AI methods reviewer; mock controls, not successful source collection",
+  "collectorSha256": "59b69185b088c2b76bafc3f51c9f99a46f85dd9a36e6a84df344052116cc4fd4",
+  "checks": 38,
+  "failures": [],
+  "status": "PASS",
+  "network_requests": 0,
+  "mock_artifacts": "Temporary directory removed; mocked successes are not released evidence or collection counts.",
+  "scope": "Stop on block, failure statuses, safe resume, no overwrite, filters, raw outside Git, ID dedup, metadata-only command, exact date/version receipts. Does not establish network access, public rights, remote package correctness or source availability.",
+  "all_checks": [
+    {
+      "check": "blocked run returns nonzero",
+      "passed": true
+    },
+    {
+      "check": "block stops subsequent jobs",
+      "passed": true
+    },
+    {
+      "check": "current/history blocked flags",
+      "passed": true
+    },
+    {
+      "check": "blocked jobs distinct from zero-hit success",
+      "passed": true
+    },
+    {
+      "check": "input job provenance retained",
+      "passed": true
+    },
+    {
+      "check": "existing output refusal preserves bytes",
+      "passed": true
+    },
+    {
+      "check": "resume only unattempted jobs",
+      "passed": true
+    },
+    {
+      "check": "resume has no duplicate job IDs",
+      "passed": true
+    },
+    {
+      "check": "historical block not current success block",
+      "passed": true
+    },
+    {
+      "check": "per-run attempt history retained",
+      "passed": true
+    },
+    {
+      "check": "zero-result successful requests explicitly count operations",
+      "passed": true
+    },
+    {
+      "check": "completed resume is no-op without requests",
+      "passed": true
+    },
+    {
+      "check": "person filter targets explicit IDs",
+      "passed": true
+    },
+    {
+      "check": "round-robin avoids first-name saturation",
+      "passed": true
+    },
+    {
+      "check": "ordinary exception yields failed status/nonzero",
+      "passed": true
+    },
+    {
+      "check": "error credential-like text redacted",
+      "passed": true
+    },
+    {
+      "check": "preflight resume rejected",
+      "passed": true
+    },
+    {
+      "check": "cross-mode resume rejected",
+      "passed": true
+    },
+    {
+      "check": "raw transcripts refused inside Git checkout",
+      "passed": true
+    },
+    {
+      "check": "external raw below empty reserved.git accepted (mock outcome)",
+      "passed": true
+    },
+    {
+      "check": "linked worktree gitdir recognized",
+      "passed": true
+    },
+    {
+      "check": "empty reserved.git ignored",
+      "passed": true
+    },
+    {
+      "check": "repository HEAD marker recognized",
+      "passed": true
+    },
+    {
+      "check": "discovered metadata input ID validation/dedup",
+      "passed": true
+    },
+    {
+      "check": "flat discovery parses only valid IDs",
+      "passed": true
+    },
+    {
+      "check": "metadata-only deterministic downloader flags",
+      "passed": true
+    },
+    {
+      "check": "no cookie/proxy bypass options",
+      "passed": true
+    },
+    {
+      "check": "search exact target preserves cap/query",
+      "passed": true
+    },
+    {
+      "check": "recognize explicit block HTTP403 Forbidden",
+      "passed": true
+    },
+    {
+      "check": "recognize explicit block HTTP429 Too Many Requests",
+      "passed": true
+    },
+    {
+      "check": "recognize explicit block RequestBlocked",
+      "passed": true
+    },
+    {
+      "check": "recognize explicit block IpBlocked",
+      "passed": true
+    },
+    {
+      "check": "recognize explicit block Sign in to confirm you are not a bot",
+      "passed": true
+    },
+    {
+      "check": "disabled captions distinct from block",
+      "passed": true
+    },
+    {
+      "check": "actual acquisition new-success count0",
+      "passed": true
+    },
+    {
+      "check": "actual one blocked preflight",
+      "passed": true
+    },
+    {
+      "check": "actual executed version receipt",
+      "passed": true
+    },
+    {
+      "check": "actual acquisition cutoff date",
+      "passed": true
+    }
+  ]
+}

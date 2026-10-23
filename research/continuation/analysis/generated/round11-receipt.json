@@ -1,0 +1,140 @@
+{
+  "round": 11,
+  "reviewedAt": "2026-10-23T21:38:45.677935+00:00",
+  "role": "Independent quantitative and source-bound model diagnostics",
+  "resultsSha256": "a69b4224c97536cd309144221cf81791bfdf9b2884b9a7c9279423211b6aeed6",
+  "protocolSha256": "87048d01ce450d2d1058069ff838925a3ad43379f8362e40e72868ac09b20695",
+  "executedChecks": {
+    "core": {
+      "checks": 1309,
+      "passed": 1309
+    },
+    "actualBenchmark": {
+      "checks": 377,
+      "passed": 377
+    },
+    "modelDiagnostics": {
+      "checks": 122,
+      "passed": 122
+    }
+  },
+  "numericalReproduction": {
+    "identicalFiles": 13,
+    "status": "PASS"
+  },
+  "portableAdapter": {
+    "status": "PASS",
+    "execution": "Actual benchmark audit executed with Path.read_bytes rejecting every /workspace/channels-et-model-cache path; portable ZIP was used instead.",
+    "externalCacheReads": 0,
+    "checks": 377,
+    "passed": 377,
+    "archiveSha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+    "trainingWeightHashMatched": true
+  },
+  "figures": [
+    {
+      "id": "question-answer-alignment",
+      "pdfSha256": "d13e58ebf43ce393231b245101730ddeea9c9973202a39bc21cf9a35e7db6196",
+      "pngInspected": true
+    },
+    {
+      "id": "lexical-graph-stability",
+      "pdfSha256": "1ada693fccdd12c830556cf475818e4a1d1da2f1a827192ee558fa4c6f57ab07",
+      "pngInspected": true
+    },
+    {
+      "id": "caption-duration-controls",
+      "pdfSha256": "2d81dbd4af11287b9e4bfee569c54767f91dd5e3b7070c3fc954610a1c746334",
+      "pngInspected": true
+    },
+    {
+      "id": "source-leakage-guard",
+      "pdfSha256": "a4dcd8f131f16cebb0536a1b6e16fbee0b14307380ebb8b4973ae5a37776c37a",
+      "pngInspected": true
+    },
+    {
+      "id": "model-reconstruction-controls",
+      "pdfSha256": "292e782c48d1b81b8452d5793b1abed1051cda9ec22ccb5fe867efcd3e02ca63",
+      "pngInspected": true
+    },
+    {
+      "id": "question-cosine-common-support",
+      "pdfSha256": "e6fed7efd8a1295978888c7a878b670ad956260f8f6babbd292a610f075d920b",
+      "pngInspected": true
+    }
+  ],
+  "commonSupport": {
+    "commonSupportBins": 3,
+    "includedNeighborPairs": 93,
+    "excludedNeighborPairs": 34,
+    "withinIncludedPairs": 36,
+    "crossIncludedPairs": 57,
+    "originalWithinAnswerCosine": {
+      "n": 70,
+      "mean": 0.27413615465336055,
+      "median": 0.2685947226939041,
+      "q1": 0.14143211274513928,
+      "q3": 0.38271062036570835,
+      "min": 0.0,
+      "max": 0.7509096441862398
+    },
+    "originalCrossAnswerCosine": {
+      "n": 57,
+      "mean": 0.04401659012849231,
+      "median": 0.030264820434661215,
+      "q1": 0.009604608170603591,
+      "q3": 0.06524995623418575,
+      "min": 0.0,
+      "max": 0.28237842972558497
+    },
+    "unweightedSharedSupportWithinMean": 0.27750391833403126,
+    "unweightedSharedSupportCrossMean": 0.04401659012849231,
+    "standardizedWithinMean": 0.2971860832474713,
+    "standardizedCrossMean": 0.044209505929604036,
+    "standardizedWithinMinusCross": 0.25297657731786727,
+    "positiveAdvantageDisconfirmed": false,
+    "weightDefinition": "Within the bins containing both quarantine strata, weight each bin by its pooled neighbor-pair count, then apply the identical weights to the separate group means."
+  },
+  "modelDiagnosticInputs": {
+    "predictions.json": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+    "split.json": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+    "posthoc-diagnostics.json": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+    "content-label-predictions.json": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+    "content-label-results.json": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+    "content-label-protocol.json": "496c4db531eaa4526be2ffec5179fcda2b8e10261d3b1236a9467134e9a83cf7",
+    "run_round11_diagnostics.py": "6ae6bab48352517a2ebae0ee9c2b3b3acdc9bb539b68c9b0186ef75921c07bf9",
+    "run_content_labels.py": "94abd2c9d66b22fcaaa0d99d4fa35a5bd825202d6ba8d032a1b259c4740f2913"
+  },
+  "findings": [
+    {
+      "id": "A11-1",
+      "decision": "implemented",
+      "correction": "Common-support bin standardization exposes unsupported strata and preserves the original selected-pool summaries. Directional contrast remains positive but is not causal."
+    },
+    {
+      "id": "A11-2",
+      "decision": "implemented",
+      "correction": "Model plot now separates literal marker compliance from broader post-hoc phrase coding; neither is human refusal accuracy."
+    },
+    {
+      "id": "A11-3",
+      "decision": "verified",
+      "correction": "Exact training-source citation controls are separate from held-out questions; no required source labels were emitted."
+    },
+    {
+      "id": "A11-4",
+      "decision": "verified_negative_probe",
+      "correction": "Twelve local-text labels retain three parse failures, nine identical parsed themes and zero exact answer spans; no corpus theme inference."
+    },
+    {
+      "id": "A11-5",
+      "decision": "implemented",
+      "correction": "Portable adapter archive/member hashes match the package manifest and original training weight; cache-independent audit executed successfully."
+    }
+  ],
+  "unrun": [
+    "No longer-generation-budget evaluation; cap hits only.",
+    "No human validation, original audio/transcript reconstruction or factual model ranking."
+  ],
+  "status": "PASS_with_explicit_measurement_limits_ready_for_round11_freeze"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "packaged_actual_adapter",
+  "archive": "qwen-digest-lora-pilot.zip",
+  "bytes": 1018863,
+  "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+  "baseModel": "Qwen/Qwen2.5-0.5B-Instruct",
+  "baseRevision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "baseWeightsIncluded": false,
+  "rawCaptionsIncluded": false,
+  "files": [
+    {
+      "file": "LICENSE.txt",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "file": "NOTICE.txt",
+      "bytes": 806,
+      "sha256": "5f34118add5d08172cdd33658b93ba4321bada16367ccea7ebba1891ec481ba3"
+    },
+    {
+      "file": "README.md",
+      "bytes": 968,
+      "sha256": "19c9e3cbc10aa2beb83c209c46774a8c34e4267c07a9b1312ae6010cfb0a2edf"
+    },
+    {
+      "file": "adapter_config.json",
+      "bytes": 818,
+      "sha256": "dcac7d7097807963e2974f4adb0a8fb7a6285764b0a73f88f4cfe4bed76cdf03"
+    },
+    {
+      "file": "adapter_model.safetensors",
+      "bytes": 1093728,
+      "sha256": "8d3afe9254008447ae3fbcad2f47ca199600ffe321f052210f332be3d25424a7"
+    },
+    {
+      "file": "training-manifest.json",
+      "bytes": 8259,
+      "sha256": "b186bc52326081b2e873974010c3a033452f484fac15497509822d2006469434"
+    },
+    {
+      "file": "training-source-manifest.json",
+      "bytes": 11755,
+      "sha256": "61bc2ca0d59b85d8964c66562f9409b22013a4777318563f732c8963989876a7"
+    }
+  ]
+}

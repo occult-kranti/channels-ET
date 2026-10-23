@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "checks": 327,
+  "runSourceSha256": "d8f85398e578d564ecc7ffe7dc26caafad2cb212fc109d73498a2fb5539f95a3",
+  "predictionsSha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+  "benchmarkResultsSha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+  "trainingReceiptSha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+  "trainingAnswerTruncatedCount": 0,
+  "generationCapsByArm": {
+    "lexical_retrieval": {
+      "generationCapHits": 0,
+      "promptTruncations": 0
+    },
+    "qwen_base_closed": {
+      "generationCapHits": 0,
+      "promptTruncations": 0
+    },
+    "qwen_base_rag": {
+      "generationCapHits": 0,
+      "promptTruncations": 0
+    },
+    "qwen_lora_closed": {
+      "generationCapHits": 5,
+      "promptTruncations": 0
+    },
+    "qwen_lora_rag": {
+      "generationCapHits": 1,
+      "promptTruncations": 0
+    }
+  },
+  "factualAccuracyValidated": false,
+  "humanGroundTruth": false,
+  "tokenizerAudit": {
+    "state": "executed",
+    "records": 48,
+    "externalCacheRequired": true
+  },
+  "adapterVerification": "released ZIP/member hashes, source pointers and split/protocol hashes",
+  "neuralInferenceReplayed": false,
+  "modelWeightsRequiredForThisCheck": false
+}

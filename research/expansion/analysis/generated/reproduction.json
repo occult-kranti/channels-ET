@@ -1,0 +1,56 @@
+{
+  "method": "Independent output directory, same pinned source and existing environment; no new retrieval or model inference",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "results.json",
+      "sha256": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216",
+      "identical": true
+    },
+    {
+      "path": "generated/repeated-titles.csv",
+      "sha256": "e1003c9e7848a208f34510b10bfe4b0aa1d2b4bb2c65ff1a6ab2a5a29128db5b",
+      "identical": true
+    },
+    {
+      "path": "generated/keyword-duration.csv",
+      "sha256": "db3ef4c38d7ec4ad19eba7b4e8f63558fc5be585c57278b55f6a208417068dd2",
+      "identical": true
+    },
+    {
+      "path": "generated/missingness.csv",
+      "sha256": "be42b06880f576dba880fa739ee79e88a9e8ec7486905d24a13befd42b1ed595",
+      "identical": true
+    },
+    {
+      "path": "generated/matched-items.csv",
+      "sha256": "27fba8dbaff65499ba2a2ea108b4ca20799bdab70d31ee89a44b2da1052362b0",
+      "identical": true
+    },
+    {
+      "path": "generated/publisher-coverage.csv",
+      "sha256": "6a0cc96c5fe6f688edc0f1c32223aedc34de8a18635f49971d867fcf2e11d166",
+      "identical": true
+    },
+    {
+      "path": "generated/duration-bands.csv",
+      "sha256": "5c8cb258c3780ea57ad50f4963c62195e1664a6cd92c9175fbf3c211ce267042",
+      "identical": true
+    },
+    {
+      "path": "generated/publisher-concentration.csv",
+      "sha256": "dd8fee565a7bde2bd2ceebb25937a2e846c7d6483eba49c90120bd59a0a1c37b",
+      "identical": true
+    },
+    {
+      "path": "generated/matched-embedding-pairs.csv",
+      "sha256": "33256bfaeb56b24c01b62c877ae51dd6d556137584df6d53dc9303c4ebff8d44",
+      "identical": true
+    },
+    {
+      "path": "generated/figure-inputs.json",
+      "sha256": "233174c01aa7972fc5ff9271f526b4b7207edf21cec5351ade8211865c76d5f3",
+      "identical": true
+    }
+  ]
+}

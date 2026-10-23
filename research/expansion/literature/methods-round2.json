@@ -1,0 +1,126 @@
+{
+  "round": 8,
+  "role": "AI independent methods/literature reviewer; not human peer review",
+  "reviewed_at": "2026-10-23T20:37:01.620079+00:00",
+  "baseline_round7_archive_sha256": "22cd2e309b28c60dc5ebd4447b84b2658e92b983a963c9c5cd3c2be8dfa56bac",
+  "reviewed_files": [
+    {
+      "path": "research/expansion/rounds/round7/manifest.json",
+      "sha256": "b85a31ea897a0791434ef1129331cd360c61d7d0b7b820183eb1c29fedd89ce0"
+    },
+    {
+      "path": "research/expansion/paper/channeling-atlas-expansion-paper.pdf",
+      "sha256": "a5c771b59c07c3dd8277eb308660643336e4352468aff8dd077bf35da4a36f32"
+    },
+    {
+      "path": "research/expansion/paper/body.tex",
+      "sha256": "f22253c727464dc47da777c67622533eecd7cdc8b51471219cb3e1153288fb4f"
+    },
+    {
+      "path": "research/expansion/paper/appendices.tex",
+      "sha256": "3f67100242881a4c2ff686736d2ec05bc6ff16fe16f5ac8c4f42b5520d6f47a7"
+    },
+    {
+      "path": "research/expansion/analysis/analyze.py",
+      "sha256": "c71f4bc72855479df77696d7344908159ed50302c28b97b75e9d2781bbbb11e2"
+    },
+    {
+      "path": "research/expansion/analysis/results.json",
+      "sha256": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216"
+    },
+    {
+      "path": "research/expansion/qa/summary.json",
+      "sha256": "87e2f65639eb21d8dc9358ed429ca36614da0f66f701b019e8686474c2d9301e"
+    },
+    {
+      "path": "research/expansion/qa/build_qa.py",
+      "sha256": "7cc789d35618eb6c3e5aa32d93095571151446519861728f2b0bad8d50c71cb7"
+    },
+    {
+      "path": "research/expansion/literature/scholarly-register.json",
+      "sha256": "16e6cf8864fcf9275af086395aa93518da0c4a7f5dadc0576f25128cef4aef6d"
+    },
+    {
+      "path": "research/expansion/literature/independent-verification.json",
+      "sha256": "1349355f748a6abb0068a29406ba728390c05ce74924aa73515815c5379a3421"
+    },
+    {
+      "path": "research/expansion/literature/independent-qa-verification.json",
+      "sha256": "f2b231bda738b254936a749404921c99917830c62bb0bbf872754dccbbbc2622"
+    },
+    {
+      "path": "dist/expansion/app.js",
+      "sha256": "fd4e25910899d1ed32450d93ee5e64c99e1c94b3e1d1c1cac96b29dfabdb5451"
+    }
+  ],
+  "access": "Actual21-page PDF text extracted with pdftotext-layout and read, source and released JSON inspected; no audiovisual listening or fresh scholarly fulltext access. Dashboard source reviewed; rendered interaction delegated to design/browser workstream.",
+  "findings": [
+    {
+      "id": "M8-01",
+      "severity": "medium",
+      "path": "paper/body.tex",
+      "locator": "Methods4.1, PDFp5",
+      "finding": "Generic video/session query terms are described although the fixed plan implements channeling, questions answers, interview, and name/entity combinations.",
+      "decision": "accepted_correction_required",
+      "acceptance": "Describe the exact implemented templates; mark other query terms proposed only."
+    },
+    {
+      "id": "M8-02",
+      "severity": "medium",
+      "path": "paper/body.tex",
+      "locator": "Methods4.3, PDFp6",
+      "finding": "The TF-IDF cosine equation lacks the parameters that produce the reported127 candidate pairs.",
+      "decision": "accepted_correction_required",
+      "acceptance": "State word unigram/bigram, English stopword removal,min_df1,sublinearTF,smoothIDF,L2, independent question/answer fits, distinct-upload filter and0.40 cutoff."
+    },
+    {
+      "id": "M8-03",
+      "severity": "medium",
+      "path": "paper/body.tex",
+      "locator": "Results5.2, PDFp8",
+      "finding": "Prospective exploratory check can suggest stronger design status than the protocol supports after inspecting the schema and published summaries.",
+      "decision": "accepted_correction_required",
+      "acceptance": "Call this an exploratory direction check and state analysis-plan origin plus not preregistered."
+    },
+    {
+      "id": "M8-04",
+      "severity": "medium",
+      "path": "dist/expansion/app.js",
+      "locator": "methods(), Channel crawling/search/sampling disclosure",
+      "finding": "Claims language and format strata are recorded, but implemented caption plan is historical pilot followed by one deterministic nonpilot ID per publishing account.",
+      "decision": "accepted_correction_required",
+      "acceptance": "Describe actual selection policy; clearly mark future language/format stratification as proposed."
+    },
+    {
+      "id": "M8-05",
+      "severity": "low",
+      "path": "qa/build_qa.py",
+      "locator": "SQLite schema",
+      "finding": "CHECK constraints prohibit timestamps, verified speakers and human labels. This is a frozen digest-release schema rather than a future transcript database.",
+      "decision": "accepted_scope_limit",
+      "acceptance": "State versioned migration needed for later verified transcript-turn ingestion; no change required to frozen schema."
+    }
+  ],
+  "verified_claims": [
+    "949 candidate digest pairs from67uploads/75source digests;1practitioner context;no cross-practitioner answer findings",
+    "25uploads14publishers for upload-pair diagnostics, distinct from22videos11accounts centroid analysis",
+    "6paired keyword medians zero,2same direction,1true sign reversal",
+    "AI close-reading and panel review not presented as human annotation/peer review",
+    "Prior scholarly access depths retained;new documentation access not promoted to scientific validation",
+    "Proposed contribution scoped to integration/provenance;no algorithmic novelty claim"
+  ],
+  "executed_checks": [
+    {
+      "script": "literature/verify_expansion_independent.py",
+      "status": "PASS",
+      "checks": 377
+    },
+    {
+      "script": "literature/verify_qa_independent.py",
+      "status": "PASS",
+      "checks": 7146
+    }
+  ],
+  "status": "corrections_requested_before_round9",
+  "limitation": "No source audio/caption accuracy, human construct validity, source-rights or complete platform coverage established."
+}

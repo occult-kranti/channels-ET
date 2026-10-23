@@ -1,0 +1,200 @@
+{
+  "scope": "Targeted scholarly/software/venue primary sources, not systematic review. Fresh attempts after observed network-policy change. Retrieval not equivalent to reading. Raw documents outside checkout.",
+  "sources": [
+    {
+      "id": "youniverse-page",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/18125",
+      "attempted_at": "2026-10-23T21:10:17.440897+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/view/18125",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4423,
+      "sha256": "195ca3768ca934f4a57c0351a68deaa5eaf3f9c56b9a8c626d8d2d09fcd3dea8"
+    },
+    {
+      "id": "tube2vec-page",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/31450",
+      "attempted_at": "2026-10-23T21:10:17.441348+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/view/31450",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4345,
+      "sha256": "efd674992553bbf85902903536a2d35497c0203e1e24c24fa3bd53f5043b025b"
+    },
+    {
+      "id": "religious-youtube-page",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/42649",
+      "attempted_at": "2026-10-23T21:10:17.441649+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/view/42649",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4731,
+      "sha256": "4843e2b80a92b969133075a884809e5c3833604a419b7caf611d8d59e1e26e37"
+    },
+    {
+      "id": "japanese-pathways-page",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/35965",
+      "attempted_at": "2026-10-23T21:10:17.441919+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/view/35965",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4237,
+      "sha256": "c9677e0d8e7c4579343cbee3f84701d0924d0fdc384e872dca28ffe430fa7e4b"
+    },
+    {
+      "id": "channelers-answers-page",
+      "url": "https://journalofscientificexploration.org/index.php/jse/article/view/2907",
+      "attempted_at": "2026-10-23T21:10:19.039123+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://journalofscientificexploration.org/index.php/jse/article/view/2907",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 30759,
+      "sha256": "c7045ffa88a2996f534ceb22952cda7211d78575cfa473b0ea98b2cd9baa05d2"
+    },
+    {
+      "id": "channeled-qualitative-page",
+      "url": "https://noetic.org/publication/a-qualitative-exploratory-analysis-of-channeled-content/",
+      "attempted_at": "2026-10-23T21:10:19.039397+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://noetic.org/publication/a-qualitative-exploratory-analysis-of-channeled-content/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 92338,
+      "sha256": "6f82e2b7da3be783021de0e79fb84ef23dcd5dc9a60cc82a6f6bbe52fd0c9789"
+    },
+    {
+      "id": "et-semantic-page",
+      "url": "https://noetic.org/publication/semantic-structure-and-correspondence-in-prospective-trance-channeled-communications-attributed-to-extraterrestrial-intelligences/",
+      "attempted_at": "2026-10-23T21:10:19.069838+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://noetic.org/publication/semantic-structure-and-correspondence-in-prospective-trance-channeled-communications-attributed-to-extraterrestrial-intelligences/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 93528,
+      "sha256": "37a5a43a918577afa81ddbd7f2b82b6bae073129b4af849c91a5b2cc57172cc4"
+    },
+    {
+      "id": "et-qualitative-page",
+      "url": "https://noetic.org/publication/qualitative-structure-and-meaning-in-prospective-trance-channeled-communications-attributed-to-extraterrestrial-intelligences/",
+      "attempted_at": "2026-10-23T21:10:19.070042+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://noetic.org/publication/qualitative-structure-and-meaning-in-prospective-trance-channeled-communications-attributed-to-extraterrestrial-intelligences/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 93487,
+      "sha256": "831f56a2d5c3a00cb984947f2c0e13d9e6bf69df5526097fbcbe77d4965ca32a"
+    },
+    {
+      "id": "et-records-page",
+      "url": "https://journalofscientificexploration.org/index.php/jse/article/view/3817",
+      "attempted_at": "2026-10-23T21:10:19.812785+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://journalofscientificexploration.org/index.php/jse/article/view/3817",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 35894,
+      "sha256": "24f9a11f723f46ceade8a7bb9fe427c02d8e1fc3faafc53a1b6c1d803b4a8e7f"
+    },
+    {
+      "id": "rag-original-pdf",
+      "url": "https://arxiv.org/pdf/2005.11401",
+      "attempted_at": "2026-10-23T21:10:20.190617+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/pdf/2005.11401",
+      "content_type": "application/pdf",
+      "bytes": 885323,
+      "sha256": "23e3249e9a1e75418d82efecab0ea8c4d033b89c93742f63208d47ce01f21233"
+    },
+    {
+      "id": "realm-page",
+      "url": "https://proceedings.mlr.press/v119/guu20a.html",
+      "attempted_at": "2026-10-23T21:10:20.403035+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://proceedings.mlr.press/v119/guu20a.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 15856,
+      "sha256": "619c2d321b3f53d0cd47ef6ba335339b1da4f7dac38b296828a027af92065a27"
+    },
+    {
+      "id": "ragas-page",
+      "url": "https://aclanthology.org/2024.eacl-demo.16/",
+      "attempted_at": "2026-10-23T21:10:20.438272+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.eacl-demo.16/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41949,
+      "sha256": "a6b5605bea7e709e8b966f2981eadfe99e09c26af9057ef5109b859ea4d3d68a"
+    },
+    {
+      "id": "ares-page",
+      "url": "https://aclanthology.org/2024.naacl-long.20/",
+      "attempted_at": "2026-10-23T21:10:20.458361+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.naacl-long.20/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 42763,
+      "sha256": "dc51cea23b9fdd8b1035f69fb1f7b0138f5d958d85e414338947ca447b85e18c"
+    },
+    {
+      "id": "lost-middle-page",
+      "url": "https://aclanthology.org/2024.tacl-1.9/",
+      "attempted_at": "2026-10-23T21:10:21.025814+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.tacl-1.9/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 40867,
+      "sha256": "10735a120afd3c3440a2ccdfcafa504d19bf2b66cc4caa389517d42f69056408"
+    },
+    {
+      "id": "icwsm-2027",
+      "url": "https://www.icwsm.org/2027/",
+      "attempted_at": "2026-10-23T21:10:21.543571+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://www.icwsm.org/2027/",
+      "content_type": "text/html",
+      "bytes": 21380,
+      "sha256": "d185cc0b304a5d2a2c465eaf62c0d00497073198bdee9a972e74310148a142d9"
+    },
+    {
+      "id": "icwsm-2027-guidelines",
+      "url": "https://www.icwsm.org/2027/formatting-guidelines/",
+      "attempted_at": "2026-10-23T21:10:21.614162+00:00",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "crossref-ft-rag",
+      "url": "https://api.crossref.org/works?query.title=Fine-Tuning%20or%20Retrieval%20Comparing%20Knowledge%20Injection%20in%20LLMs&rows=5",
+      "attempted_at": "2026-10-23T21:10:21.629877+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works?query.title=Fine-Tuning%20or%20Retrieval%20Comparing%20Knowledge%20Injection%20in%20LLMs&rows=5",
+      "content_type": "application/json",
+      "bytes": 43936,
+      "sha256": "47dbcf1e9d88e62e933825c32c94c1e060e9d21a764600b63485e94718f37e1e"
+    },
+    {
+      "id": "crossref-domain-channel",
+      "url": "https://api.crossref.org/works?query.title=channeling%20content%20qualitative%20Wahbeh&rows=8",
+      "attempted_at": "2026-10-23T21:10:21.654179+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works?query.title=channeling%20content%20qualitative%20Wahbeh&rows=8",
+      "content_type": "application/json",
+      "bytes": 71762,
+      "sha256": "dd8259d57ddcad15fef74606000581106e5ce95e3fec2add03ce8ac5c9813d0a"
+    }
+  ]
+}

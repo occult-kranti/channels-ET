@@ -1,0 +1,170 @@
+{
+  "round": "11",
+  "checks": [
+    "Completed benchmark artifact present",
+    "Five actual benchmark arms",
+    "Fifty actual prediction outputs",
+    "Visible actual scope/method: Qwen/Qwen2.5-0.5B-Instruct",
+    "Visible actual scope/method: 65.04",
+    "Visible actual scope/method: 270,336",
+    "Visible actual scope/method: Strict marker emission on controls",
+    "Visible actual scope/method: plain-language refusal can score zero",
+    "Visible actual scope/method: not establish general superiority",
+    "Old ambiguous control heading removed",
+    "Control inspector compares all five output arms",
+    "Selected control question rendered",
+    "Actual LoRA control output is inspectable",
+    "Keyboard selects and submits prediction inspector",
+    "No desktop overflow in expanded experiment view",
+    "No390px overflow in actual experiment view",
+    "No390px artifact/hash overflow",
+    "No200%CSSzoom overflow in actual experiment view",
+    "ArtifactHTTP200 analysis-results.json",
+    "Displayed SHA matches analysis-results.json",
+    "Public bytes match source analysis-results.json",
+    "ArtifactHTTP200 model-results.json",
+    "Displayed SHA matches model-results.json",
+    "Public bytes match source model-results.json",
+    "ArtifactHTTP200 training-receipt.json",
+    "Displayed SHA matches training-receipt.json",
+    "Public bytes match source training-receipt.json",
+    "ArtifactHTTP200 predictions.json",
+    "Displayed SHA matches predictions.json",
+    "Public bytes match source predictions.json",
+    "ArtifactHTTP200 qwen-digest-lora-pilot.zip",
+    "Displayed SHA matches qwen-digest-lora-pilot.zip",
+    "Public bytes match source qwen-digest-lora-pilot.zip",
+    "ArtifactHTTP200 posthoc-diagnostics.json",
+    "Displayed SHA matches posthoc-diagnostics.json",
+    "Public bytes match source posthoc-diagnostics.json",
+    "ArtifactHTTP200 content-label-results.json",
+    "Displayed SHA matches content-label-results.json",
+    "Public bytes match source content-label-results.json",
+    "ArtifactHTTP200 content-label-predictions.json",
+    "Displayed SHA matches content-label-predictions.json",
+    "Public bytes match source content-label-predictions.json",
+    "ArtifactHTTP200 current-family-smoke.json",
+    "Displayed SHA matches current-family-smoke.json",
+    "Public bytes match source current-family-smoke.json",
+    "ArtifactHTTP200 length-audit.json",
+    "Displayed SHA matches length-audit.json",
+    "Public bytes match source length-audit.json",
+    "ArtifactHTTP200 hardware.json",
+    "Displayed SHA matches hardware.json",
+    "Public bytes match source hardware.json",
+    "ArtifactHTTP200 model-protocol.json",
+    "Displayed SHA matches model-protocol.json",
+    "Public bytes match source model-protocol.json",
+    "ArtifactHTTP200 model-split.json",
+    "Displayed SHA matches model-split.json",
+    "Public bytes match source model-split.json",
+    "ArtifactHTTP200 model-metadata.json",
+    "Displayed SHA matches model-metadata.json",
+    "Public bytes match source model-metadata.json",
+    "ArtifactHTTP200 acquisition-summary.json",
+    "Displayed SHA matches acquisition-summary.json",
+    "Public bytes match source acquisition-summary.json",
+    "ArtifactHTTP200 corpus-index.sqlite",
+    "Displayed SHA matches corpus-index.sqlite",
+    "Public bytes match source corpus-index.sqlite",
+    "ArtifactHTTP200 qa-candidates.sqlite",
+    "Displayed SHA matches qa-candidates.sqlite",
+    "Public bytes match source qa-candidates.sqlite",
+    "ArtifactHTTP200 qa-summary.json",
+    "Displayed SHA matches qa-summary.json",
+    "Public bytes match source qa-summary.json",
+    "ArtifactHTTP200 paper.pdf",
+    "Displayed SHA matches paper.pdf",
+    "Public bytes match source paper.pdf",
+    "ArtifactHTTP200 source.zip",
+    "Displayed SHA matches source.zip",
+    "Public bytes match source source.zip",
+    "No browser page errors"
+  ],
+  "errors": [],
+  "artifacts": {
+    "analysis-results.json": {
+      "sha256": "a69b4224c97536cd309144221cf81791bfdf9b2884b9a7c9279423211b6aeed6",
+      "bytes": 234479
+    },
+    "model-results.json": {
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+      "bytes": 6396
+    },
+    "training-receipt.json": {
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+      "bytes": 8809
+    },
+    "predictions.json": {
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+      "bytes": 66483
+    },
+    "qwen-digest-lora-pilot.zip": {
+      "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+      "bytes": 1018863
+    },
+    "posthoc-diagnostics.json": {
+      "sha256": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+      "bytes": 7475
+    },
+    "content-label-results.json": {
+      "sha256": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+      "bytes": 1695
+    },
+    "content-label-predictions.json": {
+      "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+      "bytes": 15071
+    },
+    "current-family-smoke.json": {
+      "sha256": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83",
+      "bytes": 2197
+    },
+    "length-audit.json": {
+      "sha256": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31",
+      "bytes": 9284
+    },
+    "hardware.json": {
+      "sha256": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38",
+      "bytes": 328
+    },
+    "model-protocol.json": {
+      "sha256": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f",
+      "bytes": 2537
+    },
+    "model-split.json": {
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+      "bytes": 88879
+    },
+    "model-metadata.json": {
+      "sha256": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a",
+      "bytes": 9557
+    },
+    "acquisition-summary.json": {
+      "sha256": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00",
+      "bytes": 83109
+    },
+    "corpus-index.sqlite": {
+      "sha256": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+      "bytes": 593920
+    },
+    "qa-candidates.sqlite": {
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5",
+      "bytes": 925696
+    },
+    "qa-summary.json": {
+      "sha256": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100",
+      "bytes": 245622
+    },
+    "paper.pdf": {
+      "sha256": "9b5d59e51430ae2429f36b5c3c3e293a2f655f814eb58403485e993203029b88",
+      "bytes": 393410
+    },
+    "source.zip": {
+      "sha256": "7795f5a1cfacb05aa831dcaf4b6dcf43858bde6927a3a5c3ecd745fc793a6165",
+      "bytes": 294059
+    }
+  },
+  "reviewer": "AI implementation role; focused check of changed model/paper bindings",
+  "status": "PASS",
+  "finishedAt": "2026-10-23T21:41:16.660Z"
+}

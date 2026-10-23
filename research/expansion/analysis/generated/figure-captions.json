@@ -1,0 +1,62 @@
+[
+  {
+    "id": "coverage",
+    "title": "Retained evidence coverage",
+    "caption": "Counts share the 925-upload index denominator. English caption pilot coverage is a selected analysis subset, not an estimated availability rate. Known duration means positive duration; date means exact indexed date.",
+    "paths": {
+      "pdf": "research/expansion/analysis/generated/figures/coverage.pdf",
+      "svg": "research/expansion/analysis/generated/figures/coverage.svg",
+      "png": "research/expansion/analysis/generated/figures/coverage.png"
+    }
+  },
+  {
+    "id": "concentration",
+    "title": "Concentration of indexed uploads",
+    "caption": "886 attributed uploads across 180 nonempty publishing-account groups; 39 unresolved uploads are excluded from this account concentration denominator and retained elsewhere. Empty account routes are excluded. This is index composition, not YouTube-wide concentration.",
+    "paths": {
+      "pdf": "research/expansion/analysis/generated/figures/concentration.pdf",
+      "svg": "research/expansion/analysis/generated/figures/concentration.svg",
+      "png": "research/expansion/analysis/generated/figures/concentration.png"
+    }
+  },
+  {
+    "id": "caption-selection",
+    "title": "Duration of the selected caption pilot",
+    "caption": "Positive-duration uploads only: caption pilot n=30, other uploads within pilot publishing accounts n=430, all other indexed uploads n=851. The two comparator sets overlap. Bars are empirical interquartile ranges, not confidence intervals. No selection mechanism or population inference is estimated.",
+    "paths": {
+      "pdf": "research/expansion/analysis/generated/figures/caption-selection.pdf",
+      "svg": "research/expansion/analysis/generated/figures/caption-selection.svg",
+      "png": "research/expansion/analysis/generated/figures/caption-selection.png"
+    }
+  },
+  {
+    "id": "keyword-duration",
+    "title": "Title keyword indicators by duration band",
+    "caption": "702 English-likely eligible titles with positive measured duration. Cells are title-level shares matching at least one transparent topic regex; categories overlap and are unvalidated. Length bands are not manually verified upload-format labels. Titles describe publishing language, not necessarily speech or answers.",
+    "paths": {
+      "pdf": "research/expansion/analysis/generated/figures/keyword-duration.pdf",
+      "svg": "research/expansion/analysis/generated/figures/keyword-duration.svg",
+      "png": "research/expansion/analysis/generated/figures/keyword-duration.png"
+    }
+  },
+  {
+    "id": "publisher-similarity",
+    "title": "Publisher association in matched text representations",
+    "caption": "Identical 25 uploads from 14 publishing accounts support both panels; 11 accounts have within-account pairs and three are singletons. Boxplots show empirical medians/IQRs and whiskers at 1.5 IQR, not confidence intervals. Pair scores share uploads and are dependent. Vectors are retained MiniLM derivatives; no new model execution or speech validation.",
+    "paths": {
+      "pdf": "research/expansion/analysis/generated/figures/publisher-similarity.pdf",
+      "svg": "research/expansion/analysis/generated/figures/publisher-similarity.svg",
+      "png": "research/expansion/analysis/generated/figures/publisher-similarity.png"
+    }
+  },
+  {
+    "id": "negative-control",
+    "title": "Publisher-label negative control",
+    "caption": "2,000 fixed-seed publisher-label permutations on the same 25 vectors preserve publisher group sizes and destroy their observed associations. The reference is a descriptive diagnostic, not a population p-value, semantic validity test, or experimental effect. Cosine scales differ between title and caption representations.",
+    "paths": {
+      "pdf": "research/expansion/analysis/generated/figures/negative-control.pdf",
+      "svg": "research/expansion/analysis/generated/figures/negative-control.svg",
+      "png": "research/expansion/analysis/generated/figures/negative-control.png"
+    }
+  }
+]

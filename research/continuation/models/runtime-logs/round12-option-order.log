@@ -1,0 +1,20 @@
+Sliding Window Attention is enabled but not implemented for `eager`; unexpected results may be encountered.
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{"id": "qa-jdzErS12DvU-002", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "extraterrestrials landing and revealing themselves"}, "changed": true}
+{"id": "qa-WEVqgD-L5kc-000", "parsed": {"theme": "contact_forecast", "conditional": "yes", "evidence": "follow_highestjoy_if_economy_collapses"}, "changed": false}
+{"id": "qa-ufzO0sbNICQ-014", "parsed": {"theme": "personal_practice", "conditional": "no", "evidence": "healing"}, "changed": true}
+{"id": "qa-E_cPno64Z-Q-014", "parsed": null, "changed": null}
+{"id": "qa-IKJzZ-KVPdQ-017", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "people feel they're 'going through the motions' with no passion because they have fear-based beliefs"}, "changed": true}
+{"id": "qa-Rcjd1TkZUMY-000", "parsed": null, "changed": null}
+{"id": "qa-Dw9XHTMrgBE-015", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "predictions"}, "changed": true}
+{"id": "qa-_UZ8EyuOuY8-004", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "humanoid_contact"}, "changed": true}
+{"id": "qa-ygzBrMyMAQA-010", "parsed": {"theme": "contact_forecast", "conditional": "yes", "evidence": "overconsumption"}, "changed": false}
+{"id": "qa-pfB4F7uAjwE-012", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "soul separates from body after death"}, "changed": null}
+{"id": "qa-ETuHIzyRhyY-009", "parsed": null, "changed": null}
+{"id": "qa-os4a7-7bnLw-012", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "I believe that there is a place for each person to live their life however they choose."}, "changed": true}
+{"status": "completed", "classification": "Prompt-order sensitivity, not annotation accuracy", "n": 12, "model": "Qwen/Qwen2.5-0.5B-Instruct", "revision": "7ae557604adf67be50417f59c2c2f167def9a775", "originalParsedRecords": 9, "reversedParsedRecords": 9, "reversedParseFailures": 3, "pairedParsedRecords": 8, "originalThemeCounts": {"contact_forecast": 9}, "reversedThemeCounts": {"personal_practice": 7, "contact_forecast": 2}, "pairedThemeChangedCount": 6, "originalFirstOptionCount": 9, "reversedFirstOptionCount": 0, "reversedEvidenceSpanValidCount": 0, "meanSeconds": 3.1432725559165724, "lexiconSensitivity": {"n": 949, "originalConditionalCount": 60, "stricterConditionalCount": 58, "changedCount": 2}, "limitations": ["Option-order effects are a local model/prompt diagnostic, not evidence of source-topic prevalence.", "Paired label changes exclude parse failures; both denominators and raw failures remain visible.", "The lexicon comparison is a separate post-hoc indicator sensitivity, not a corrected human reference.", "No factual truth, speech authenticity or human annotation accuracy is established."]}

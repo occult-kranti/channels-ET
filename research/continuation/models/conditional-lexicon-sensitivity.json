@@ -1,0 +1,35 @@
+{
+  "classification": "Post-hoc lexicon sensitivity after inspecting dependency false positive; not human validation",
+  "sourceQaSha256": "cdd36b99d8f8a58929ef3bd190521e614ffad3d2027533596abf2e40cdf0aab6",
+  "originalRegex": "\\b(?:if|unless|depend\\w*|provided|as long as)\\b",
+  "stricterRegex": "\\b(?:if|unless|depends?|depending|provided|as long as)\\b",
+  "n": 949,
+  "originalConditionalCount": 60,
+  "stricterConditionalCount": 58,
+  "changedCount": 2,
+  "changedRecords": [
+    {
+      "id": "qa-94agFEADfyk-004",
+      "sourceUrl": "https://www.youtube.com/watch?v=94agFEADfyk",
+      "sourceSha256": "301c31d9285329d61fbbeb4e9b6a276732712166cdb3b0bc019767a8e7d71549",
+      "sourcePointer": "/qa_topics/4",
+      "answerGist": "Redefine dependence as an opportunity for others to serve and grow. Soul chose these experiences for specific growth; viewing them positively transforms the experience from negative to constructive.",
+      "originalConditionalIndicator": true,
+      "stricterConditionalIndicator": false
+    },
+    {
+      "id": "qa-jdzErS12DvU-002",
+      "sourceUrl": "https://www.youtube.com/watch?v=jdzErS12DvU",
+      "sourceSha256": "6156eb603023217cb946cf487d41635ad6b057350fc182b9b41e3a7d3b9a11b3",
+      "sourcePointer": "/qa_topics/2",
+      "answerGist": "Their frequency is so high it could overwhelm human consciousness and cause psychic shock. They need humanity to raise its vibration first through self-empowerment rather than dependency.",
+      "originalConditionalIndicator": true,
+      "stricterConditionalIndicator": false
+    }
+  ],
+  "limitations": [
+    "The narrower rule excludes dependency/dependence forms but remains an unvalidated lexical indicator.",
+    "Words such as provided can be nonconditional; neither rule establishes actual uncertainty, intent or factual truth.",
+    "The original codebook, selection and benchmark labels remain unchanged."
+  ]
+}

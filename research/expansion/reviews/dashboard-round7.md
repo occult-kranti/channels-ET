@@ -1,0 +1,11 @@
+# Dashboard round 7 — baseline and first implementation
+
+Reviewer: AI design/implementation role. This is a reconstruction of the recorded baseline decisions and first implemented artifact, not a claim of human user research. Root snapshots bind the exact reviewed round-7 candidate.
+
+The inherited dashboard exposed 925 upload metadata, account length/title/embedding comparisons and the earlier paper. It had no dedicated Q&A candidate database interface or way to inspect the new unexecuted per-practitioner collection plan. The first revision created an evidence explorer in `dist/expansion/`, retaining the historical atlas and linking it deliberately.
+
+The first implementation added separate views for collection/material, publishing accounts, collection plan, Q&A candidates and methods. It separated retained metadata, model-generated digest paraphrases, candidate identity leads and unavailable new access. Source-linked records, account/Q&A/query filtering, CSV exports, native length/coverage/title plots, an eligible-title keyword-by-duration matrix and six scientific figure exports were implemented. All 949 Q&A candidates were marked as model digest paraphrases in one Darryl Anka context; unsupported cross-practitioner answer comparison stayed visibly unavailable.
+
+An initial desktop rendered check observed the expected 925 uploads, no page errors and no page overflow. A later comprehensive test reached working filters, downloads and meaningful empty states, then timed out because its own deliberate no-match QA filter was still active when asking for a nonempty screenshot. The test was corrected to reset the filter; this did not establish an application defect. The complete successful multi-view browser receipt follows in round 8.
+
+Known issues carried into round 8: historical/current paper links, directly browsable 106-candidate Q&A coverage, source-level pair independence caveats, preview/full-pair denominators, precise implemented collection selection policy, and a dated reusable access-status source. Each was implemented and checked in the next revision. Shared Data prebuilt resources were unavailable, so the extension retained the existing stack and recorded that contract limitation.

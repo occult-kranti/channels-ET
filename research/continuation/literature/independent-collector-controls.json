@@ -1,0 +1,88 @@
+{
+  "round": 11,
+  "collector_sha256": "f315ce8fc47b06c67c232c665baf266c3782a12fb412dace18cc6fe55ce67202",
+  "status": "PASS",
+  "checks": 11,
+  "failures": [],
+  "network_requests": 0,
+  "scope": "Mock outcomes are control tests, not actual source retrieval. Temporary artifacts deleted.",
+  "all_checks": [
+    {
+      "check": "ID aliases deduplicate into one upload",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "ID-only input normalized for caption/media consumers",
+      "passed": true,
+      "actual": "abcdefghijk",
+      "expected": "abcdefghijk"
+    },
+    {
+      "check": "normalized ID-only row supports no-network media planning",
+      "passed": true,
+      "actual": {
+        "video_id": "abcdefghijk",
+        "source_url": "https://www.youtube.com/watch?v=abcdefghijk",
+        "estimated_bytes": 25000,
+        "estimate_basis": "duration * 160kbit/s * 1.25 overhead; not observed size",
+        "eligible": true,
+        "reason": "within_planning_limits",
+        "actual_speaker_status": "unknown_not_audio_verified"
+      },
+      "expected": {
+        "eligible": true,
+        "estimated_bytes": 25000
+      }
+    },
+    {
+      "check": "full batch with unavailable slot must not mark end",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "resume cursor consumes all returned playlist slots",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "fast completed oversize download rejected by post-exit validation",
+      "passed": true,
+      "actual": "quota_stopped",
+      "expected": "not success"
+    },
+    {
+      "check": "guard rejects blocked",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "guard rejects wrong_type",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "guard rejects stale",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "guard accepts valid current fixture fields (not proof network access)",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "error sanitizer excludes userinfo/query/authorization fixture",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    }
+  ]
+}

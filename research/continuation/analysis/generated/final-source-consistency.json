@@ -1,0 +1,460 @@
+{
+  "round": 12,
+  "scope": "Independent current source bindings and numerical reproduction; no semantic, human or physical validation.",
+  "status": "PASS",
+  "checks": 96,
+  "passed": 96,
+  "failed": [],
+  "resultsSha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+  "coreVerification": {
+    "sha256": "009383af17c24b273b81998e5b9319c24ac694deb64df2a90940c9b352ab9995",
+    "checks": 1322,
+    "passed": 1322
+  },
+  "numericalReproduction": {
+    "sha256": "3e0965750f3d4aaf144f35f36542f0588558c6172168bac5e0ec0ee525462117",
+    "identicalFiles": 13,
+    "currentBindingVerified": true
+  },
+  "modelAudits": {
+    "benchmark-audit": {
+      "sha256": "c24ad9da5d731379406c6ab0720ce4eae45c7c909ce1517f4f21288d31cf3a21",
+      "checks": 377,
+      "passed": 377
+    },
+    "model-diagnostics-audit": {
+      "sha256": "df3c23110be2ac69bb2ace0b98ffdc8093b31b8e30fae9443877d89ecca15105",
+      "checks": 122,
+      "passed": 122
+    },
+    "prompt-sensitivity-audit": {
+      "sha256": "240563ad9fd6e40ee4056bd1c33b8405bf03005ed4ffed947419f506668cd4df",
+      "checks": 1159,
+      "passed": 1159
+    }
+  },
+  "paper": {
+    "path": "research/continuation/paper/channels-et-paper.pdf",
+    "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+    "pages": 16,
+    "inputManifestSha256": "a92d91f85f0ce0d3e71c4f725556845517b64d427601bec9aab708c87852ecb5"
+  },
+  "figures": [
+    {
+      "id": "question-answer-alignment",
+      "pdfSha256": "d13e58ebf43ce393231b245101730ddeea9c9973202a39bc21cf9a35e7db6196",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "lexical-graph-stability",
+      "pdfSha256": "1ada693fccdd12c830556cf475818e4a1d1da2f1a827192ee558fa4c6f57ab07",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "caption-duration-controls",
+      "pdfSha256": "2d81dbd4af11287b9e4bfee569c54767f91dd5e3b7070c3fc954610a1c746334",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "source-leakage-guard",
+      "pdfSha256": "a4dcd8f131f16cebb0536a1b6e16fbee0b14307380ebb8b4973ae5a37776c37a",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "model-reconstruction-controls",
+      "pdfSha256": "292e782c48d1b81b8452d5793b1abed1051cda9ec22ccb5fe867efcd3e02ca63",
+      "unchangedSinceRound11": true
+    },
+    {
+      "id": "question-cosine-common-support",
+      "pdfSha256": "e6fed7efd8a1295978888c7a878b670ad956260f8f6babbd292a610f075d920b",
+      "unchangedSinceRound11": true
+    }
+  ],
+  "details": [
+    {
+      "check": "Core numerical verification binds to current results",
+      "passed": true
+    },
+    {
+      "check": "Generic reproduction receipt binds to current results",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/lexical-graph-thresholds.csv",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/matched-representation-pairs.csv",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/question-answer-plot-pairs.json",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/question-cosine-common-support.csv",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/question-neighbor-pairs.csv",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/question-neighbor-pairs.json",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/source-family-map.csv",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/source-family-map.json",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/strict-source-family-sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/strict-source-family-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/upload-pair-mean-cosines.csv",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: generated/upload-pair-mean-cosines.json",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction binding: results.json",
+      "passed": true
+    },
+    {
+      "check": "benchmark-audit passes",
+      "passed": true
+    },
+    {
+      "check": "benchmark-audit current input: split.json",
+      "passed": true
+    },
+    {
+      "check": "benchmark-audit current input: predictions.json",
+      "passed": true
+    },
+    {
+      "check": "benchmark-audit current input: benchmark-results.json",
+      "passed": true
+    },
+    {
+      "check": "benchmark-audit current input: training-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "benchmark-audit current input: run_benchmark.py",
+      "passed": true
+    },
+    {
+      "check": "benchmark-audit current input: adapter-package.json",
+      "passed": true
+    },
+    {
+      "check": "benchmark-audit current input: qwen-digest-lora-pilot.zip",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit passes",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit current input: predictions.json",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit current input: split.json",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit current input: posthoc-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit current input: content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit current input: content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit current input: content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit current input: run_round11_diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "model-diagnostics-audit current input: run_content_labels.py",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit passes",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: run_content_labels.py",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: option-order-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: option-order-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: option-order-results.json",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: conditional-lexicon-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: run_round12_order_probe.py",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: qwen35-content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: qwen35-content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: qwen35-content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: run_qwen35_content_labels.py",
+      "passed": true
+    },
+    {
+      "check": "prompt-sensitivity-audit current input: annotation-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: dist/analysis/data.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/expansion/qa/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/expansion/analysis/results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/analysis/results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/acquisition/acquisition-status.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/paper/vendor/aaai2027.sty",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/paper/vendor/aaai2027.bst",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/benchmark-results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/training-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/split.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/model-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/hardware.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/length-audit.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/posthoc-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/current-family-smoke.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/qwen35-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/option-order-results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/option-order-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/option-order-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/conditional-lexicon-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/qwen35-content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/qwen35-content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/qwen35-content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/models/annotation-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/expansion/qa/close-reading.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/expansion/qa/pair-close-reading.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/literature/source-register.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/literature/additions.bib",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript input: research/continuation/literature/venue-check.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript manifest includes research/continuation/analysis/results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript manifest includes research/continuation/models/option-order-results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript manifest includes research/continuation/models/conditional-lexicon-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript manifest includes research/continuation/models/qwen35-content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript manifest includes research/continuation/models/annotation-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Figure unchanged since round 11: question-answer-alignment",
+      "passed": true
+    },
+    {
+      "check": "Manuscript figure exact source copy: question-answer-alignment",
+      "passed": true
+    },
+    {
+      "check": "Figure unchanged since round 11: lexical-graph-stability",
+      "passed": true
+    },
+    {
+      "check": "Manuscript figure exact source copy: lexical-graph-stability",
+      "passed": true
+    },
+    {
+      "check": "Figure unchanged since round 11: caption-duration-controls",
+      "passed": true
+    },
+    {
+      "check": "Manuscript figure exact source copy: caption-duration-controls",
+      "passed": true
+    },
+    {
+      "check": "Figure unchanged since round 11: source-leakage-guard",
+      "passed": true
+    },
+    {
+      "check": "Manuscript figure exact source copy: source-leakage-guard",
+      "passed": true
+    },
+    {
+      "check": "Figure unchanged since round 11: model-reconstruction-controls",
+      "passed": true
+    },
+    {
+      "check": "Manuscript figure exact source copy: model-reconstruction-controls",
+      "passed": true
+    },
+    {
+      "check": "Figure unchanged since round 11: question-cosine-common-support",
+      "passed": true
+    },
+    {
+      "check": "Manuscript figure exact source copy: question-cosine-common-support",
+      "passed": true
+    },
+    {
+      "check": "Final manuscript PDF has readable pages",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "adapterUsed": false,
+  "task": "Primary answer orientation and conditional wording from supplied digest text",
+  "primaryThemes": [
+    "contact_forecast",
+    "personal_practice",
+    "cosmology",
+    "other",
+    "unclear"
+  ],
+  "conditionalLabels": [
+    "yes",
+    "no",
+    "unclear"
+  ],
+  "selection": "Fixed seed42, six dictionary-conditional and six dictionary-nonconditional examples, all12 from distinct conservative source-proxy groups; purposive balanced method comparison",
+  "humanLabels": false,
+  "truthLabels": false,
+  "source": "AI-generated digest paraphrases only",
+  "n": 12,
+  "parsedRecords": 9,
+  "parseFailures": 3,
+  "conditionalMethodAgreementCount": 5,
+  "conditionalMethodAgreementDenominator": 9,
+  "conditionalMethodAgreementRate": 0.5555555555555556,
+  "primaryThemeDictionaryConcordanceCount": 2,
+  "sourceSpanExactAndShortCount": 0,
+  "meanSeconds": 2.7721690833333335,
+  "themeCounts": {
+    "contact_forecast": 9
+  },
+  "limitations": [
+    "Method concordance is not human annotation accuracy or factual correctness.",
+    "Balanced12-example selection is purposive, not representative corpus prevalence.",
+    "Primary-theme labels are forced single labels; dictionary categories overlap.",
+    "Invalid or unsupported evidence spans are retained as failures, not silently corrected.",
+    "No original speech, turn boundaries or entity authenticity were validated."
+  ],
+  "sourceSpanEvaluableRecords": 9,
+  "sourceSpanInvalidParsedCount": 9,
+  "conditionalLabelCounts": {
+    "yes": 9
+  },
+  "unknownConditionalCount": 0
+}

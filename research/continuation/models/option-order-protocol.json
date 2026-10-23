@@ -1,0 +1,47 @@
+{
+  "stage": "exploratory prompt sensitivity, specified before reversed-order generations",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "selectedIds": [
+    "qa-jdzErS12DvU-002",
+    "qa-WEVqgD-L5kc-000",
+    "qa-ufzO0sbNICQ-014",
+    "qa-E_cPno64Z-Q-014",
+    "qa-IKJzZ-KVPdQ-017",
+    "qa-Rcjd1TkZUMY-000",
+    "qa-Dw9XHTMrgBE-015",
+    "qa-_UZ8EyuOuY8-004",
+    "qa-ygzBrMyMAQA-010",
+    "qa-pfB4F7uAjwE-012",
+    "qa-ETuHIzyRhyY-009",
+    "qa-os4a7-7bnLw-012"
+  ],
+  "originalThemeOrder": [
+    "contact_forecast",
+    "personal_practice",
+    "cosmology",
+    "other",
+    "unclear"
+  ],
+  "reversedThemeOrder": [
+    "unclear",
+    "other",
+    "cosmology",
+    "personal_practice",
+    "contact_forecast"
+  ],
+  "originalSystemPrompt": "Read only the supplied digest excerpt. Classify the primary answer theme as contact_forecast, personal_practice, cosmology, other, or unclear. Classify conditional wording as yes, no, or unclear. Return JSON only with keys theme, conditional, evidence. Evidence must be an exact substring of the answer, at most eight words. These are reported claims, not verified facts.",
+  "reversedSystemPrompt": "Read only the supplied digest excerpt. Classify the primary answer theme as unclear, other, cosmology, personal_practice, or contact_forecast. Classify conditional wording as yes, no, or unclear. Return JSON only with keys theme, conditional, evidence. Evidence must be an exact substring of the answer, at most eight words. These are reported claims, not verified facts.",
+  "originalPredictionsSha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+  "onlyPromptDifference": "Theme option order; conditional options, labels, evidence request and all excerpts unchanged",
+  "hypothesis": "If the collapse follows the first offered label, reversal should favor unclear; persistence of contact_forecast would not support that simple position-only account.",
+  "generation": {
+    "maxNewTokens": 96,
+    "doSample": false,
+    "torchThreads": 2,
+    "seed": 42,
+    "dtype": "float32"
+  },
+  "humanGroundTruth": false,
+  "originalOutputsOverwritten": false
+}

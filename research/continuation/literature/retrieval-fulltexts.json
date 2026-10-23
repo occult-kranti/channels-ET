@@ -1,0 +1,182 @@
+{
+  "sources": [
+    {
+      "id": "youniverse-pdf",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18125/17928",
+      "attempted_at": "2026-10-23T21:11:11.830474+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18125/17928",
+      "content_type": "application/pdf",
+      "bytes": 435920,
+      "sha256": "d96b35c7d03ecd10597acfe67040751f2865db7710ba139ec72cec3799d739b3"
+    },
+    {
+      "id": "tube2vec-pdf",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/31450/33610",
+      "attempted_at": "2026-10-23T21:11:11.831143+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/31450/33610",
+      "content_type": "application/pdf",
+      "bytes": 134856,
+      "sha256": "ea5e6bfdef141fa02883de467a1873dddd1f78869a993d865afacb4760828557"
+    },
+    {
+      "id": "religious-youtube-pdf",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/42649/50209",
+      "attempted_at": "2026-10-23T21:11:11.831587+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/42649/50209",
+      "content_type": "application/pdf",
+      "bytes": 10128798,
+      "sha256": "d107a44b8cf65e86a6cbd6bac1c8e414279243a328d2551afebf071bc2758893"
+    },
+    {
+      "id": "japanese-pathways-pdf",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/35965/38119",
+      "attempted_at": "2026-10-23T21:11:11.831870+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/35965/38119",
+      "content_type": "application/pdf",
+      "bytes": 765024,
+      "sha256": "176613003c08d57e66ddf971817600628c32a21f5ddd51d4f20867557fa549c2"
+    },
+    {
+      "id": "channelers-answers-pdf",
+      "url": "https://journalofscientificexploration.org/index.php/jse/article/download/2907/1937",
+      "attempted_at": "2026-10-23T21:11:12.727154+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://journalofscientificexploration.org/index.php/jse/article/download/2907/1937",
+      "content_type": "application/pdf",
+      "bytes": 689290,
+      "sha256": "3353ea47c8f4bf65f684e7c787015e594d60c832a1d500f04488d261f877088a"
+    },
+    {
+      "id": "et-records-pdf",
+      "url": "https://journalofscientificexploration.org/index.php/jse/article/download/3817/2606",
+      "attempted_at": "2026-10-23T21:11:12.859399+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://journalofscientificexploration.org/index.php/jse/article/download/3817/2606",
+      "content_type": "application/pdf",
+      "bytes": 322485,
+      "sha256": "8051d7a0ff3dd9406aaa15e3955635b503f05426e5ded8f803309a2f3dafc0ce"
+    },
+    {
+      "id": "realm-pdf",
+      "url": "https://proceedings.mlr.press/v119/guu20a/guu20a.pdf",
+      "attempted_at": "2026-10-23T21:11:13.072489+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://proceedings.mlr.press/v119/guu20a/guu20a.pdf",
+      "content_type": "application/pdf",
+      "bytes": 494316,
+      "sha256": "653e9bf290eabefa71d08dc0b1170486336b7d9e31d832921e8305fd78f8d416"
+    },
+    {
+      "id": "ragas-pdf",
+      "url": "https://aclanthology.org/2024.eacl-demo.16.pdf",
+      "attempted_at": "2026-10-23T21:11:13.982119+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.eacl-demo.16.pdf",
+      "content_type": "application/pdf",
+      "bytes": 377888,
+      "sha256": "e2038b8cff7574bf5302e1ceb6bfbac6d2471c352073b27f21460910936febce"
+    },
+    {
+      "id": "ares-pdf",
+      "url": "https://aclanthology.org/2024.naacl-long.20.pdf",
+      "attempted_at": "2026-10-23T21:11:14.051140+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.naacl-long.20.pdf",
+      "content_type": "application/pdf",
+      "bytes": 717417,
+      "sha256": "5a585d88f7b63c06439a4ecb8fd3165615d637e2061f242bff3f6ec3a209bd34"
+    },
+    {
+      "id": "lost-middle-pdf",
+      "url": "https://aclanthology.org/2024.tacl-1.9.pdf",
+      "attempted_at": "2026-10-23T21:11:14.315150+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.tacl-1.9.pdf",
+      "content_type": "application/pdf",
+      "bytes": 2609413,
+      "sha256": "f37f6fabe0fe0d8c73b67579cd115dbf14e282cfb7b7af655ae8109638402c9b"
+    },
+    {
+      "id": "ft-retrieval-page",
+      "url": "https://aclanthology.org/2024.emnlp-main.15/",
+      "attempted_at": "2026-10-23T21:11:14.920102+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.emnlp-main.15/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41669,
+      "sha256": "44972592c53dbbdf77b74e9ffbba266017de663e0e776a7d117b8d86e827b062"
+    },
+    {
+      "id": "ft-retrieval-pdf",
+      "url": "https://aclanthology.org/2024.emnlp-main.15.pdf",
+      "attempted_at": "2026-10-23T21:11:15.610589+00:00",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "ft-hallucinations-page",
+      "url": "https://aclanthology.org/2024.emnlp-main.444/",
+      "attempted_at": "2026-10-23T21:11:15.861788+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.emnlp-main.444/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 44560,
+      "sha256": "f7799638ae379bdc8509d6eb701438e5001d30751bef2de2249d9d353c0f87d9"
+    },
+    {
+      "id": "ft-hallucinations-pdf",
+      "url": "https://aclanthology.org/2024.emnlp-main.444.pdf",
+      "attempted_at": "2026-10-23T21:11:15.995213+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2024.emnlp-main.444.pdf",
+      "content_type": "application/pdf",
+      "bytes": 5324878,
+      "sha256": "f082a7daff09271f1a1f2db0ecd721a56d6f0fbb83bdbcdc4032a0c40333fd1b"
+    },
+    {
+      "id": "icwsm-2027-submit",
+      "url": "https://www.icwsm.org/2027/submit/",
+      "attempted_at": "2026-10-23T21:11:16.210115+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://www.icwsm.org/2027/submit/",
+      "content_type": "text/html",
+      "bytes": 44910,
+      "sha256": "b19d00c07a9fcfeca5e3eb9d900e7c168ef9677134678a7400777249ce02d29e"
+    },
+    {
+      "id": "et-semantic-publisher",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02604027.2026.2656120",
+      "attempted_at": "2026-10-23T21:11:16.355444+00:00",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "et-qualitative-publisher",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02604027.2026.2656119",
+      "attempted_at": "2026-10-23T21:11:16.389711+00:00",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

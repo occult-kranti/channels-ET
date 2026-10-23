@@ -12,3 +12,8 @@ research/paper/vendor/AuthorKit27.zip
 .venv/
 local-data/
 models/
+
+# Keep executable research and measured model results; weights stay in external
+# caches or the explicitly ignored continuation checkpoint directories.
+!research/continuation/models/
+!research/continuation/models/**

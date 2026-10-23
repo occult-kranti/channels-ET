@@ -1,0 +1,299 @@
+{
+  "raw_artifacts": [
+    {
+      "id": "2024.emnlp-main.15-bib",
+      "sha256": "dbb5fb2720c3e6682ab437f38a4c82c5538f3a7b0e9fa3bd534bea1c1cbce4f4",
+      "bytes": 680,
+      "local_only": true
+    },
+    {
+      "id": "2024.emnlp-main.444-bib",
+      "sha256": "c2743003da039e778454f7e805aa7cba8f465ae857138ce3612e6ae3998bb2bf",
+      "bytes": 754,
+      "local_only": true
+    },
+    {
+      "id": "2024.naacl-long.20-bib",
+      "sha256": "99c29a6245f92e7ccbbd8b9929debd083b4934d15c6b4a8037ae071b36c649c6",
+      "bytes": 794,
+      "local_only": true
+    },
+    {
+      "id": "2024.eacl-demo.16-bib",
+      "sha256": "bfad9e1ff0c46684756f72af075e7a458f78350efcd269fc7cc06a0e2243500d",
+      "bytes": 707,
+      "local_only": true
+    },
+    {
+      "id": "2024.tacl-1.9-bib",
+      "sha256": "72b8f07384c631dc1b5754d1968968929ce1ebfdb2c8be2992d99db094b488c0",
+      "bytes": 579,
+      "local_only": true
+    },
+    {
+      "id": "2022.acl-long.577-bib",
+      "sha256": "2945340a00201495e3e063ae2001c8cae49bebba0587eb6092e60e308c6377a5",
+      "bytes": 801,
+      "local_only": true
+    },
+    {
+      "id": "rag-proceedings",
+      "sha256": "5a425ab1b904e69e8ec394bc5f3cf61cd84db96b72c6cfd2a6c1c139443a73e8",
+      "bytes": 10881,
+      "local_only": true
+    },
+    {
+      "id": "lora-page",
+      "sha256": "9d2cfdb42b2c5eea831fd21b091e4b9c974832a9e4a584a6add8fd07737829c3",
+      "bytes": 4789,
+      "local_only": true
+    },
+    {
+      "id": "dedup-page",
+      "sha256": "c3b733d157e764968ed1ca5617fa90a858c49a5a8026eb0d78200cb3785376be",
+      "bytes": 42876,
+      "local_only": true
+    },
+    {
+      "id": "dedup-pdf",
+      "sha256": "f282bf06ab3564b363a4df5ab184cebb729c23a3be3ecb9aa7c5edc0a9f5e045",
+      "bytes": 634490,
+      "local_only": true
+    },
+    {
+      "id": "et-semantic-supplement",
+      "sha256": "ab3cf615203cb196fb963e17131c1d4e7a71cf668bfe4a43bc18de1e636b93c2",
+      "bytes": 6212,
+      "local_only": true
+    },
+    {
+      "id": "et-records-supplement",
+      "sha256": "8400d7f6d3cf395cbd764a9a903fadc96f4b6d47acc3f46b28bb695e9d747f02",
+      "bytes": 3521,
+      "local_only": true
+    },
+    {
+      "id": "author-kit-page",
+      "sha256": "9406a545d5d213757245eb37118fe652b2fccf64f555aff28b49ebe2a780c960",
+      "bytes": 5496654,
+      "local_only": true
+    },
+    {
+      "id": "ft-retrieval-pdf-retry",
+      "sha256": "0346defe54dbe662623a9a45d0d24ff02e1ebc8272b00f54c173ea553e9e5d93",
+      "bytes": 746110,
+      "local_only": true
+    },
+    {
+      "id": "youniverse-pdf",
+      "sha256": "d96b35c7d03ecd10597acfe67040751f2865db7710ba139ec72cec3799d739b3",
+      "bytes": 435920,
+      "local_only": true
+    },
+    {
+      "id": "tube2vec-pdf",
+      "sha256": "ea5e6bfdef141fa02883de467a1873dddd1f78869a993d865afacb4760828557",
+      "bytes": 134856,
+      "local_only": true
+    },
+    {
+      "id": "religious-youtube-pdf",
+      "sha256": "d107a44b8cf65e86a6cbd6bac1c8e414279243a328d2551afebf071bc2758893",
+      "bytes": 10128798,
+      "local_only": true
+    },
+    {
+      "id": "japanese-pathways-pdf",
+      "sha256": "176613003c08d57e66ddf971817600628c32a21f5ddd51d4f20867557fa549c2",
+      "bytes": 765024,
+      "local_only": true
+    },
+    {
+      "id": "channelers-answers-pdf",
+      "sha256": "3353ea47c8f4bf65f684e7c787015e594d60c832a1d500f04488d261f877088a",
+      "bytes": 689290,
+      "local_only": true
+    },
+    {
+      "id": "et-records-pdf",
+      "sha256": "8051d7a0ff3dd9406aaa15e3955635b503f05426e5ded8f803309a2f3dafc0ce",
+      "bytes": 322485,
+      "local_only": true
+    },
+    {
+      "id": "realm-pdf",
+      "sha256": "653e9bf290eabefa71d08dc0b1170486336b7d9e31d832921e8305fd78f8d416",
+      "bytes": 494316,
+      "local_only": true
+    },
+    {
+      "id": "ragas-pdf",
+      "sha256": "e2038b8cff7574bf5302e1ceb6bfbac6d2471c352073b27f21460910936febce",
+      "bytes": 377888,
+      "local_only": true
+    },
+    {
+      "id": "ares-pdf",
+      "sha256": "5a585d88f7b63c06439a4ecb8fd3165615d637e2061f242bff3f6ec3a209bd34",
+      "bytes": 717417,
+      "local_only": true
+    },
+    {
+      "id": "lost-middle-pdf",
+      "sha256": "f37f6fabe0fe0d8c73b67579cd115dbf14e282cfb7b7af655ae8109638402c9b",
+      "bytes": 2609413,
+      "local_only": true
+    },
+    {
+      "id": "ft-retrieval-page",
+      "sha256": "44972592c53dbbdf77b74e9ffbba266017de663e0e776a7d117b8d86e827b062",
+      "bytes": 41669,
+      "local_only": true
+    },
+    {
+      "id": "ft-hallucinations-page",
+      "sha256": "f7799638ae379bdc8509d6eb701438e5001d30751bef2de2249d9d353c0f87d9",
+      "bytes": 44560,
+      "local_only": true
+    },
+    {
+      "id": "ft-hallucinations-pdf",
+      "sha256": "f082a7daff09271f1a1f2db0ecd721a56d6f0fbb83bdbcdc4032a0c40333fd1b",
+      "bytes": 5324878,
+      "local_only": true
+    },
+    {
+      "id": "icwsm-2027-submit",
+      "sha256": "b19d00c07a9fcfeca5e3eb9d900e7c168ef9677134678a7400777249ce02d29e",
+      "bytes": 44910,
+      "local_only": true
+    },
+    {
+      "id": "youniverse-page",
+      "sha256": "195ca3768ca934f4a57c0351a68deaa5eaf3f9c56b9a8c626d8d2d09fcd3dea8",
+      "bytes": 4423,
+      "local_only": true
+    },
+    {
+      "id": "tube2vec-page",
+      "sha256": "efd674992553bbf85902903536a2d35497c0203e1e24c24fa3bd53f5043b025b",
+      "bytes": 4345,
+      "local_only": true
+    },
+    {
+      "id": "religious-youtube-page",
+      "sha256": "4843e2b80a92b969133075a884809e5c3833604a419b7caf611d8d59e1e26e37",
+      "bytes": 4731,
+      "local_only": true
+    },
+    {
+      "id": "japanese-pathways-page",
+      "sha256": "c9677e0d8e7c4579343cbee3f84701d0924d0fdc384e872dca28ffe430fa7e4b",
+      "bytes": 4237,
+      "local_only": true
+    },
+    {
+      "id": "channelers-answers-page",
+      "sha256": "c7045ffa88a2996f534ceb22952cda7211d78575cfa473b0ea98b2cd9baa05d2",
+      "bytes": 30759,
+      "local_only": true
+    },
+    {
+      "id": "channeled-qualitative-page",
+      "sha256": "6f82e2b7da3be783021de0e79fb84ef23dcd5dc9a60cc82a6f6bbe52fd0c9789",
+      "bytes": 92338,
+      "local_only": true
+    },
+    {
+      "id": "et-semantic-page",
+      "sha256": "37a5a43a918577afa81ddbd7f2b82b6bae073129b4af849c91a5b2cc57172cc4",
+      "bytes": 93528,
+      "local_only": true
+    },
+    {
+      "id": "et-qualitative-page",
+      "sha256": "831f56a2d5c3a00cb984947f2c0e13d9e6bf69df5526097fbcbe77d4965ca32a",
+      "bytes": 93487,
+      "local_only": true
+    },
+    {
+      "id": "et-records-page",
+      "sha256": "24f9a11f723f46ceade8a7bb9fe427c02d8e1fc3faafc53a1b6c1d803b4a8e7f",
+      "bytes": 35894,
+      "local_only": true
+    },
+    {
+      "id": "rag-original-pdf",
+      "sha256": "23e3249e9a1e75418d82efecab0ea8c4d033b89c93742f63208d47ce01f21233",
+      "bytes": 885323,
+      "local_only": true
+    },
+    {
+      "id": "realm-page",
+      "sha256": "619c2d321b3f53d0cd47ef6ba335339b1da4f7dac38b296828a027af92065a27",
+      "bytes": 15856,
+      "local_only": true
+    },
+    {
+      "id": "ragas-page",
+      "sha256": "a6b5605bea7e709e8b966f2981eadfe99e09c26af9057ef5109b859ea4d3d68a",
+      "bytes": 41949,
+      "local_only": true
+    },
+    {
+      "id": "ares-page",
+      "sha256": "dc51cea23b9fdd8b1035f69fb1f7b0138f5d958d85e414338947ca447b85e18c",
+      "bytes": 42763,
+      "local_only": true
+    },
+    {
+      "id": "lost-middle-page",
+      "sha256": "10735a120afd3c3440a2ccdfcafa504d19bf2b66cc4caa389517d42f69056408",
+      "bytes": 40867,
+      "local_only": true
+    },
+    {
+      "id": "icwsm-2027",
+      "sha256": "d185cc0b304a5d2a2c465eaf62c0d00497073198bdee9a972e74310148a142d9",
+      "bytes": 21380,
+      "local_only": true
+    },
+    {
+      "id": "crossref-ft-rag",
+      "sha256": "47dbcf1e9d88e62e933825c32c94c1e060e9d21a764600b63485e94718f37e1e",
+      "bytes": 43936,
+      "local_only": true
+    },
+    {
+      "id": "crossref-domain-channel",
+      "sha256": "dd8259d57ddcad15fef74606000581106e5ce95e3fec2add03ce8ac5c9813d0a",
+      "bytes": 71762,
+      "local_only": true
+    },
+    {
+      "id": "lora-author-repository",
+      "sha256": "ce0b726fedd1198ebd841093b53ff5490672ffb2264479d8be044b5826a791c6",
+      "bytes": 14379,
+      "local_only": true
+    },
+    {
+      "id": "lora-author-pdf",
+      "sha256": "e9a0d3128767db616085dc0f4e6e455e672e89af823e8ed1282793682787395a",
+      "bytes": 1609513,
+      "local_only": true
+    },
+    {
+      "id": "et-semantic-supplement-code",
+      "sha256": "19fdd75b271d2ff9458f93be45702fd6c68c290bb177fba51a0c065e28f3f196",
+      "bytes": 14764,
+      "local_only": true
+    },
+    {
+      "id": "et-records-supplement-pdf",
+      "sha256": "4ec5630a102dd1ee4225e83f30d1878ea24ed32997464ce3719212def1a19d4a",
+      "bytes": 1834629,
+      "local_only": true
+    }
+  ],
+  "retention": "Local-only cache; hashes do not imply every fulltext read or reproduced."
+}

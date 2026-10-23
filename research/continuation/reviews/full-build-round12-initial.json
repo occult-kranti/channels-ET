@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "command": [
+    "/workspace/channels-et-analysis-venv/bin/python",
+    "research/continuation/build.py"
+  ],
+  "cwd": "/workspace/channels-ET",
+  "exitCode": 0,
+  "logSha256": "7e2fdde29721b052c307ff36a4abc0ecdee73eeaf6952dcf9ecc143614d1ae20",
+  "checkedAt": "2026-10-23T21:44:08.264687+00:00",
+  "scope": "Full retained-source build from a newly installed independent analysis environment; not neural inference, tokenizer replay, live collection, or hosted deployment.",
+  "baselineQaCandidates": 949,
+  "newScientificFigureFamilies": 6,
+  "paperPdfSha256": "9b5d59e51430ae2429f36b5c3c3e293a2f655f814eb58403485e993203029b88",
+  "paperSourceZipSha256": "7795f5a1cfacb05aa831dcaf4b6dcf43858bde6927a3a5c3ecd745fc793a6165",
+  "modelTokenizerAudit": "explicitly skipped in --offline mode; original retained receipt preserved",
+  "note": "This receipt binds the corrected round11 artifacts rebuilt during round12, before later prompt-sensitivity additions."
+}

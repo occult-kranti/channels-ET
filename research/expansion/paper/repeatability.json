@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "same_machine_same_path_two_builds_byte_identical": true,
+  "source_date_epoch": 1792713600,
+  "force_source_date": 1,
+  "hashes": {
+    "channeling-atlas-expansion-paper.pdf": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1",
+    "channeling-atlas-expansion-source.zip": "c0bf5184a71029fe7f1fbe38d5ca259d4a789866a69622b300665e3d6a5fa4d4"
+  },
+  "scope": "Fixed evidence-date PDF metadata and ZIP entry metadata. Does not establish identical PDF binaries across TeX versions/machines."
+}

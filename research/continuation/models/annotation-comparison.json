@@ -1,0 +1,104 @@
+{
+  "status": "completed_source_only_bookkeeping",
+  "conditions": [
+    {
+      "id": "qwen25_original",
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "themeOptionOrder": "original",
+      "maxNewTokens": 96,
+      "n": 12,
+      "parsedRecords": 9,
+      "parseFailures": 3,
+      "sourceSpanExactCount": 0,
+      "sourceSpanAtMostEightWordsCount": 9,
+      "sourceSpanExactAndShortCount": 0,
+      "sourceSpanExactButOverLengthCount": 0,
+      "sourceSpanNonexactCount": 9,
+      "conditionalYesCount": 9,
+      "conditionalMethodAgreementCount": 5,
+      "conditionalParsedDenominator": 9,
+      "conditionalAlwaysYesBaselineAgreementCount": 5,
+      "conditionalAlwaysYesBaselineRate": 0.5555555555555556,
+      "conditionalMethodAgreementRate": 0.5555555555555556,
+      "allParsedConditionalLabelsYes": true
+    },
+    {
+      "id": "qwen25_reversed",
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "themeOptionOrder": "reversed",
+      "maxNewTokens": 96,
+      "n": 12,
+      "parsedRecords": 9,
+      "parseFailures": 3,
+      "sourceSpanExactCount": 0,
+      "sourceSpanAtMostEightWordsCount": 7,
+      "sourceSpanExactAndShortCount": 0,
+      "sourceSpanExactButOverLengthCount": 0,
+      "sourceSpanNonexactCount": 9,
+      "conditionalYesCount": 8,
+      "conditionalMethodAgreementCount": 3,
+      "conditionalParsedDenominator": 9,
+      "conditionalAlwaysYesBaselineAgreementCount": 4,
+      "conditionalAlwaysYesBaselineRate": 0.4444444444444444,
+      "conditionalMethodAgreementRate": 0.3333333333333333,
+      "allParsedConditionalLabelsYes": false
+    },
+    {
+      "id": "qwen35_original",
+      "model": "Qwen/Qwen3.5-0.8B",
+      "themeOptionOrder": "original",
+      "maxNewTokens": 96,
+      "n": 12,
+      "parsedRecords": 12,
+      "parseFailures": 0,
+      "sourceSpanExactCount": 10,
+      "sourceSpanAtMostEightWordsCount": 6,
+      "sourceSpanExactAndShortCount": 5,
+      "sourceSpanExactButOverLengthCount": 5,
+      "sourceSpanNonexactCount": 2,
+      "conditionalYesCount": 12,
+      "conditionalMethodAgreementCount": 6,
+      "conditionalParsedDenominator": 12,
+      "conditionalAlwaysYesBaselineAgreementCount": 6,
+      "conditionalAlwaysYesBaselineRate": 0.5,
+      "conditionalMethodAgreementRate": 0.5,
+      "allParsedConditionalLabelsYes": true
+    }
+  ],
+  "sameSourceIds": [
+    "qa-jdzErS12DvU-002",
+    "qa-WEVqgD-L5kc-000",
+    "qa-ufzO0sbNICQ-014",
+    "qa-E_cPno64Z-Q-014",
+    "qa-IKJzZ-KVPdQ-017",
+    "qa-Rcjd1TkZUMY-000",
+    "qa-Dw9XHTMrgBE-015",
+    "qa-_UZ8EyuOuY8-004",
+    "qa-ygzBrMyMAQA-010",
+    "qa-pfB4F7uAjwE-012",
+    "qa-ETuHIzyRhyY-009",
+    "qa-os4a7-7bnLw-012"
+  ],
+  "sourceBindings": [
+    {
+      "file": "content-label-predictions.json",
+      "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+    },
+    {
+      "file": "option-order-predictions.json",
+      "sha256": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+    },
+    {
+      "file": "qwen35-content-label-predictions.json",
+      "sha256": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+    }
+  ],
+  "spanRule": "Nonempty case-sensitive contiguous substring of supplied answer gist; combined compliance additionally requires at most eight whitespace-separated words.",
+  "conditionalReference": "Inherited unvalidated regex indicator, not human truth. Always-yes baseline uses the same parsed-row denominator.",
+  "limitations": [
+    "Exact but overlength spans are length failures, not invented evidence.",
+    "The newer model and the original baseline both label every parsed conditional case yes; their concordance equals the always-yes baseline.",
+    "Different architectures/tokenizers/runtimes prevent a parameter-scale-only causal interpretation.",
+    "Parsing and source-span compliance do not validate semantic labels, original speech or factual truth."
+  ]
+}

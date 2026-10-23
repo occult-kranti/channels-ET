@@ -1,0 +1,143 @@
+{
+  "checks": 30,
+  "passed": 30,
+  "details": [
+    {
+      "check": "Paper input exact hash: research/expansion/analysis/results.json",
+      "passed": true
+    },
+    {
+      "check": "Paper input exact hash: research/expansion/qa/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Paper input exact hash: research/expansion/qa/question-pairs.json",
+      "passed": true
+    },
+    {
+      "check": "Paper input exact hash: research/expansion/qa/close-reading.json",
+      "passed": true
+    },
+    {
+      "check": "Paper input exact hash: research/expansion/qa/pair-close-reading.json",
+      "passed": true
+    },
+    {
+      "check": "Paper input exact hash: research/expansion/acquisition/acquisition-summary.json",
+      "passed": true
+    },
+    {
+      "check": "Paper input exact hash: dist/analysis/data.json",
+      "passed": true
+    },
+    {
+      "check": "Paper input exact hash: research/expansion/literature/scholarly-register.json",
+      "passed": true
+    },
+    {
+      "check": "Paper authoritative figure copy: coverage",
+      "passed": true
+    },
+    {
+      "check": "Paper authoritative figure copy: concentration",
+      "passed": true
+    },
+    {
+      "check": "Paper authoritative figure copy: caption-selection",
+      "passed": true
+    },
+    {
+      "check": "Paper authoritative figure copy: keyword-duration",
+      "passed": true
+    },
+    {
+      "check": "Paper authoritative figure copy: publisher-similarity",
+      "passed": true
+    },
+    {
+      "check": "Paper authoritative figure copy: negative-control",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF exact threshold row: 0.4",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF exact threshold row: 0.5",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF exact threshold row: 0.6",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF exact threshold row: 0.7",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF exact threshold row: 0.8",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF exact threshold row: 0.9",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Matched pair denominators",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Equal-account eligibility",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Caption omission range",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Influence range qualification",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Permutation scope",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Upload-pair concentration",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Preview/full denominator distinction",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Matched pooled separation",
+      "passed": true
+    },
+    {
+      "check": "Rendered PDF: Selection deterministic method",
+      "passed": true
+    },
+    {
+      "check": "Analytics numeric results unchanged since reviewed first candidate",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "analysis/results.json": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216",
+    "qa/summary.json": "7cc9705a73bed33523397b0e4812bb47974dfc21a8a48c83d294c53948a46128",
+    "qa/question-pairs.json": "17629517ea6d187d92aab30079be8d5b61f2fc581e54012410e5bf10a544a476",
+    "qa/qa-candidates.csv": "c5dc89e20181f7e97e7011c50db7c23e42d6aa2839608401bddc19bc8745d2a9",
+    "paper/channeling-atlas-expansion-paper.pdf": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1",
+    "paper/input-manifest.json": "af4e371c2136ccdcd8385b25b42c2e8ba7858af163fb1dcbd3dbb1aba04edd98"
+  },
+  "figurePdfHashes": {
+    "coverage": "635647ea8ffa7996653824fbdcff7019c6c62f4fcbffaf009cfa903ae9c319e4",
+    "concentration": "0520480b9192e4d7fd796eb954a4fdb31295904577c9546f6e0b308498b6d7ef",
+    "caption-selection": "c268c4278a880553c642d0db87b3ae6116a8f1514cfa6bfd63af5a3c8e9e6963",
+    "keyword-duration": "70b5b9608533cc5c55e3c54df0c087b40d349c31f3578990f72523179d6c0dd5",
+    "publisher-similarity": "40e4135a894d89d214d38199c264ab7c86ee12817aa51087fd506fa11fba04ab",
+    "negative-control": "fc49e2758e0d0f8d848d33a84e40f6c6a05c495f47c81c2c133ad0a6a76cdc76"
+  },
+  "status": "PASS"
+}

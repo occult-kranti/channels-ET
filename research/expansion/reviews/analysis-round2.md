@@ -1,0 +1,14 @@
+# Analytics cross-workstream panel — round 8 (second expansion loop)
+
+Reviewed the frozen first expansion candidate, the rewritten manuscript, generated results, all six figures, and the question-pair/summary/close-reading artifacts. Exact hashes are in `analysis/generated/round2-cross-review.json`; this receipt does not certify future paper builds.
+
+**Independent evidence.** The analytics verifier passes 798/798 checks on unchanged results SHA `97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216`. A separate cross-workstream verifier imports neither producer and passes 2,975/2,975 checks: all 949 Q&A source hashes/pointers, unresolved speech labels, the complete distinct-upload question-pair set, and recalculated TF–IDF scores. It confirms 127 candidate pairs, 71 upload pairs, and 30 matches contributed by the three largest upload pairs.
+
+**Findings and corrections.**
+
+1. The rendered manuscript's Figure 6 has an observed-value line crossing its legend text. This is a real presentation defect, not numerical clipping. Fixed the source plot with explicit upper-center white-backed legends, regenerated only its three exports, and visually checked the new PNG. The paper owner must recopy it into the revised manuscript.
+2. Section 4.5's broad `descriptive resampling` phrase overstates which new operations are randomized. Sent a correction: caption comparisons use deterministic empirical quantiles; the new random operation is the fixed-seed publisher-label reference. Historical balanced sampling belongs to the earlier sensitivity layer.
+3. The results need to expose already executed equal-account and publisher-omission diagnostics, including denominator and singleton rules. Requested 11 within/289 between pairs on 25 matched uploads; eleven eligible accounts and three singletons; equal-account caption/title separations 0.1533/0.2286; caption omission range 0.1214–0.1793 (not CI), and the representation-specific contrast.
+4. QA records preserve the one-practitioner and nonliteral-source limitation correctly. The retrieval cutoff can materially change candidate volume: 127 at .40, 73 at .50, 47 at .60, 34 at .70, 24 at .80 and 18 at .90. Requested this bounded sensitivity and upload-pair concentration from the QA owner for the next changed artifact after the round8 freeze. Requested an explicit top-ten preview label in the explorer; the complete export is distinct from the displayed subset.
+
+The paper does not present copied summaries as new transcripts, publisher groups as unique mediums, or lexical scores as answer agreement. No new causal, ontological or human-validation claim was found. The corpus remains blocked for new YouTube retrieval. This review is model-agent technical scrutiny of released source material, not human peer review or direct audiovisual observation.

@@ -1,0 +1,3203 @@
+{
+  "review": "Independent calculation reconciliation, not human construct validation",
+  "checks": 798,
+  "passed": 798,
+  "failed": [],
+  "snapshotSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "resultsSha256": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216",
+  "status": "PASS",
+  "details": [
+    {
+      "check": "Exact distinct upload denominator",
+      "passed": true
+    },
+    {
+      "check": "Snapshot byte hash",
+      "passed": true
+    },
+    {
+      "check": "Account totals plus unresolved reconcile",
+      "passed": true
+    },
+    {
+      "check": "ch-04d85eddf55c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-04d85eddf55c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-04d85eddf55c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-aaaebac2693b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-aaaebac2693b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-aaaebac2693b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-3ccbf336c582 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-3ccbf336c582 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-3ccbf336c582 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-6bcde5f1646b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-6bcde5f1646b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-6bcde5f1646b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0a31b1dbd853 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0a31b1dbd853 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0a31b1dbd853 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-cc61aed50366 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-cc61aed50366 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-cc61aed50366 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-e876f3f2375e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e876f3f2375e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e876f3f2375e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-396932860d9d source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-396932860d9d caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-396932860d9d empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-03c2e8beb4b3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-03c2e8beb4b3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-03c2e8beb4b3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-e7ffb2da4c80 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e7ffb2da4c80 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e7ffb2da4c80 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2b81ba751f66 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2b81ba751f66 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2b81ba751f66 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-d9ef9bb4b58f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-d9ef9bb4b58f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-d9ef9bb4b58f empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b54e2c58d507 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b54e2c58d507 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b54e2c58d507 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-4f327ca79023 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-4f327ca79023 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-4f327ca79023 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a8735b613582 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a8735b613582 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a8735b613582 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-ddad7c11a454 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ddad7c11a454 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ddad7c11a454 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-ff85f37eb9b1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ff85f37eb9b1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ff85f37eb9b1 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-033701dde894 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-033701dde894 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-033701dde894 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-4a6e81f10f5f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-4a6e81f10f5f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-4a6e81f10f5f empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-73032cea690b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-73032cea690b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-73032cea690b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-1ee49b2278ca source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-1ee49b2278ca caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-1ee49b2278ca empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-4deae3e4c229 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-4deae3e4c229 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-4deae3e4c229 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-64ee4cce5f14 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-64ee4cce5f14 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-64ee4cce5f14 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0b086d650484 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0b086d650484 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0b086d650484 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-ca0e9600bfe5 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ca0e9600bfe5 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ca0e9600bfe5 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-8b03bdae9bef source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-8b03bdae9bef caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-8b03bdae9bef empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-88ebdbe8adbc source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-88ebdbe8adbc caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-88ebdbe8adbc empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-85b36b52af16 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-85b36b52af16 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-85b36b52af16 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-f2eb64916168 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-f2eb64916168 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-f2eb64916168 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-5ce1734d5d9b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-5ce1734d5d9b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-5ce1734d5d9b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-e0290e036e6d source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e0290e036e6d caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e0290e036e6d empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-db4833fb1e9e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-db4833fb1e9e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-db4833fb1e9e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-ce0c47eeb60a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ce0c47eeb60a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ce0c47eeb60a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-e0a6590f69df source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e0a6590f69df caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e0a6590f69df empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-675e5d5d963f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-675e5d5d963f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-675e5d5d963f empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-33a2b37bcc60 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-33a2b37bcc60 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-33a2b37bcc60 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-7855f163ea48 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7855f163ea48 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7855f163ea48 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-37bcf1f3be52 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-37bcf1f3be52 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-37bcf1f3be52 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-cd965930caaa source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-cd965930caaa caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-cd965930caaa empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-982ddd02bd15 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-982ddd02bd15 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-982ddd02bd15 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b1f71e735cd9 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b1f71e735cd9 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b1f71e735cd9 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b1b6f9cd98cc source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b1b6f9cd98cc caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b1b6f9cd98cc empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-8e3976402a1b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-8e3976402a1b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-8e3976402a1b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-73b26f02d936 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-73b26f02d936 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-73b26f02d936 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-c0876db314ac source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c0876db314ac caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c0876db314ac empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0408640eaead source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0408640eaead caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0408640eaead empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-41dc8d9dd018 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-41dc8d9dd018 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-41dc8d9dd018 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-4265629f42de source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-4265629f42de caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-4265629f42de empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-02b49a2a7dcd source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-02b49a2a7dcd caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-02b49a2a7dcd empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-70fd128f50b8 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-70fd128f50b8 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-70fd128f50b8 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-27255ee3c506 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-27255ee3c506 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-27255ee3c506 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-4e1af7f79114 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-4e1af7f79114 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-4e1af7f79114 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-529abd043fc8 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-529abd043fc8 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-529abd043fc8 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-686918109464 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-686918109464 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-686918109464 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0eef0505b759 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0eef0505b759 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0eef0505b759 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-46ef212496fb source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-46ef212496fb caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-46ef212496fb empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-9e34508899d0 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-9e34508899d0 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-9e34508899d0 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-6fdaa7ce754a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-6fdaa7ce754a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-6fdaa7ce754a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0a572724045a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0a572724045a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0a572724045a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-1ee2b3abaf07 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-1ee2b3abaf07 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-1ee2b3abaf07 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-98d943e650e6 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-98d943e650e6 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-98d943e650e6 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-8c0627fb3d7e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-8c0627fb3d7e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-8c0627fb3d7e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-31740b8b6908 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-31740b8b6908 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-31740b8b6908 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2bc6ad91652d source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2bc6ad91652d caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2bc6ad91652d empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2971d417766f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2971d417766f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2971d417766f empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b0fae48aad92 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b0fae48aad92 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b0fae48aad92 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2b023595d9b3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2b023595d9b3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2b023595d9b3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-ae5ddcf8b3e5 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ae5ddcf8b3e5 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ae5ddcf8b3e5 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-e943df901d5e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e943df901d5e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e943df901d5e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b169f0456fcf source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b169f0456fcf caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b169f0456fcf empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-78280cdb55b0 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-78280cdb55b0 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-78280cdb55b0 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-18d202ba979f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-18d202ba979f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-18d202ba979f empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-46f22ef51215 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-46f22ef51215 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-46f22ef51215 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-8621c624902c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-8621c624902c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-8621c624902c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a888c6c7b2a2 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a888c6c7b2a2 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a888c6c7b2a2 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-d10741e9c9c4 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-d10741e9c9c4 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-d10741e9c9c4 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-7866232b51f6 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7866232b51f6 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7866232b51f6 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0b6141ca016b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0b6141ca016b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0b6141ca016b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-4a30793c2fa3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-4a30793c2fa3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-4a30793c2fa3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-291315be278e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-291315be278e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-291315be278e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-ac9c8617439a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ac9c8617439a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ac9c8617439a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-8557f1426bad source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-8557f1426bad caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-8557f1426bad empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-394794d26dab source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-394794d26dab caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-394794d26dab empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0b72b3d562a3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0b72b3d562a3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0b72b3d562a3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0ef3fadab61e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0ef3fadab61e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0ef3fadab61e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-97d2682dd64c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-97d2682dd64c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-97d2682dd64c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-331f459a0b40 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-331f459a0b40 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-331f459a0b40 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-c1dad4decd80 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c1dad4decd80 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c1dad4decd80 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-3b12a06c5f43 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-3b12a06c5f43 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-3b12a06c5f43 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-5e182517441f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-5e182517441f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-5e182517441f empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-897d1fd6c0d6 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-897d1fd6c0d6 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-897d1fd6c0d6 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-74ba3f60d15e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-74ba3f60d15e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-74ba3f60d15e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-7d51810e2f09 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7d51810e2f09 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7d51810e2f09 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-6c3a3712cbbd source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-6c3a3712cbbd caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-6c3a3712cbbd empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-33f969c2fdec source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-33f969c2fdec caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-33f969c2fdec empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-7d78f56e8225 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7d78f56e8225 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7d78f56e8225 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0d12f3b9efec source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0d12f3b9efec caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0d12f3b9efec empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a872f382cac0 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a872f382cac0 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a872f382cac0 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-befe6af41eb3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-befe6af41eb3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-befe6af41eb3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-bcc9c8afdb50 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-bcc9c8afdb50 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-bcc9c8afdb50 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-3103c706f516 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-3103c706f516 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-3103c706f516 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a753d4bb5bd0 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a753d4bb5bd0 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a753d4bb5bd0 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-5cdf46572ce0 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-5cdf46572ce0 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-5cdf46572ce0 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-85c5db061798 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-85c5db061798 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-85c5db061798 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2dcea7d8f68a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2dcea7d8f68a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2dcea7d8f68a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-f6bfcd8cf02e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-f6bfcd8cf02e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-f6bfcd8cf02e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-bf1b76f429b9 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-bf1b76f429b9 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0b78820813df source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0b78820813df caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0b78820813df empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-6d127415bb4c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-6d127415bb4c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-6d127415bb4c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-9ce6c6575089 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-9ce6c6575089 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-9ce6c6575089 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-559193a80c0c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-559193a80c0c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-559193a80c0c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a2d112ab28a9 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a2d112ab28a9 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a2d112ab28a9 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-fd2000790b4f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-fd2000790b4f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-fd2000790b4f empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-456b4ca825e8 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-456b4ca825e8 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-456b4ca825e8 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b3460d3cbcb4 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b3460d3cbcb4 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b3460d3cbcb4 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-aa363d4446d1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-aa363d4446d1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-aa363d4446d1 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2b09664881ad source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2b09664881ad caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2b09664881ad empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-7463234f1822 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7463234f1822 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7463234f1822 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-7b5abac5c5be source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7b5abac5c5be caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7b5abac5c5be empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-cec1c0e9492c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-cec1c0e9492c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-cec1c0e9492c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b6d7a8cb5baf source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b6d7a8cb5baf caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b6d7a8cb5baf empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a1bbe47bc7e7 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a1bbe47bc7e7 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a1bbe47bc7e7 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a2e505ed2649 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a2e505ed2649 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a2e505ed2649 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-8d8ca1a87519 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-8d8ca1a87519 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-8d8ca1a87519 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-8341a599036b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-8341a599036b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-8341a599036b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-12e5a04e850a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-12e5a04e850a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-12e5a04e850a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2ea3a2977054 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2ea3a2977054 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2ea3a2977054 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-d8a33512600c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-d8a33512600c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-d8a33512600c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a30a1b37858c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a30a1b37858c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a30a1b37858c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-81ded54025e1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-81ded54025e1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-81ded54025e1 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-c1d420bf3f00 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c1d420bf3f00 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c1d420bf3f00 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-d5536351e177 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-d5536351e177 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-d5536351e177 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-9dd8408e24c3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-9dd8408e24c3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-9dd8408e24c3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-fc2b4e96616d source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-fc2b4e96616d caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-fc2b4e96616d empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-e589bfac5b07 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e589bfac5b07 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e589bfac5b07 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-71be49e5f46b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-71be49e5f46b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-71be49e5f46b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-fbce4d3669af source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-fbce4d3669af caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-fbce4d3669af empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-d281918b2dc8 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-d281918b2dc8 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-d281918b2dc8 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-f037f2957fd3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-f037f2957fd3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-f037f2957fd3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a446fbd2b83e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a446fbd2b83e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a446fbd2b83e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-d2e72f9eb119 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-d2e72f9eb119 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-d2e72f9eb119 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-fd3a7a623b3e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-fd3a7a623b3e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-fd3a7a623b3e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a6ae05a7c756 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a6ae05a7c756 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a6ae05a7c756 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-a081ba64d8a6 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a081ba64d8a6 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a081ba64d8a6 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-28968bad5c0a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-28968bad5c0a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-28968bad5c0a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-9d7b69309eec source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-9d7b69309eec caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-9d7b69309eec empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-441409035867 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-441409035867 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-441409035867 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-257bebdf16ba source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-257bebdf16ba caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-257bebdf16ba empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-18f4dcd27b00 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-18f4dcd27b00 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-18f4dcd27b00 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-7682fcea437a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7682fcea437a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7682fcea437a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-68111d982206 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-68111d982206 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-68111d982206 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-53facdfd740f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-53facdfd740f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-53facdfd740f empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-c9822e29a6bd source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c9822e29a6bd caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c9822e29a6bd empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-057725034e2b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-057725034e2b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-057725034e2b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-532cdd1f327f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-532cdd1f327f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-720ad40a069e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-720ad40a069e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-720ad40a069e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b7881b1f23c1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b7881b1f23c1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b7881b1f23c1 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-27e9ed322c59 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-27e9ed322c59 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-27e9ed322c59 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-9e2e6f255dff source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-9e2e6f255dff caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-9e2e6f255dff empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-54fe55083c13 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-54fe55083c13 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-54fe55083c13 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-fdbd6de6b4c3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-fdbd6de6b4c3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-fdbd6de6b4c3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-fa65feb26349 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-fa65feb26349 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-fa65feb26349 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-eef1d26ac974 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-eef1d26ac974 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-eef1d26ac974 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-f2eac96c869b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-f2eac96c869b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-f2eac96c869b empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-ee16f00912d1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ee16f00912d1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ee16f00912d1 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-6866efc52080 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-6866efc52080 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-6866efc52080 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-c22157377631 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c22157377631 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c22157377631 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-299680119dd8 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-299680119dd8 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-299680119dd8 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0b1bde2e790c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0b1bde2e790c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0b1bde2e790c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-df5d65a2f105 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-df5d65a2f105 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-df5d65a2f105 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-b5c8e4aa4cc5 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b5c8e4aa4cc5 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b5c8e4aa4cc5 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-08f303f5a48e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-08f303f5a48e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-08f303f5a48e empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2db025782928 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2db025782928 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2db025782928 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-f32114955d2a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-f32114955d2a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-f32114955d2a empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-42ca4da91ba5 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-42ca4da91ba5 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-42ca4da91ba5 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-2c38124ed009 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-2c38124ed009 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-2c38124ed009 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-0391ee7d2ef5 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0391ee7d2ef5 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0391ee7d2ef5 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-afb067fcb55c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-afb067fcb55c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-afb067fcb55c empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-ce9e2d787db3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ce9e2d787db3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ce9e2d787db3 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-c42d1ef8b226 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c42d1ef8b226 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c42d1ef8b226 empirical duration median",
+      "passed": true
+    },
+    {
+      "check": "ch-944737c2b78a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-944737c2b78a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e63544d4ae55 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e63544d4ae55 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-6d24eebbad92 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-6d24eebbad92 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0f1bd9477ee9 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0f1bd9477ee9 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-1eb700cdb035 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-1eb700cdb035 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-3c278300a531 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-3c278300a531 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7c9ca442a8b3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7c9ca442a8b3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ee5c380db882 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ee5c380db882 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-3e8779f0f8b0 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-3e8779f0f8b0 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-71f2ff9fb66c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-71f2ff9fb66c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-71be5f1d97a9 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-71be5f1d97a9 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b22e34984a7b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b22e34984a7b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c4daf46ab3c1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c4daf46ab3c1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-69129729bcb3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-69129729bcb3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c670227cf6eb source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c670227cf6eb caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-634ff1098477 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-634ff1098477 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-57c71112f62b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-57c71112f62b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-3fb22f210710 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-3fb22f210710 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-edaffb2aef74 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-edaffb2aef74 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-6c593042ac4d source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-6c593042ac4d caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-0fd4c2948e0a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-0fd4c2948e0a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-9faf1d48677f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-9faf1d48677f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b8387c61b70e source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b8387c61b70e caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7c280a8093f5 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7c280a8093f5 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-c0744d20d8e1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-c0744d20d8e1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-8f04f9544376 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-8f04f9544376 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-68056e79b7e0 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-68056e79b7e0 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-686aab79fae5 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-686aab79fae5 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-35c92152757a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-35c92152757a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a451abc88fec source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a451abc88fec caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a24eb718bd62 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a24eb718bd62 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-f83cfd8c8163 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-f83cfd8c8163 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-5149308a7586 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-5149308a7586 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-edce307a63b3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-edce307a63b3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-59df32bf3a51 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-59df32bf3a51 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-35002b4d9337 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-35002b4d9337 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-1c9dfccbef1a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-1c9dfccbef1a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e1a53c8f8c21 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e1a53c8f8c21 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ec7d4c8e1f0c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ec7d4c8e1f0c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a46b911ad0af source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a46b911ad0af caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-04bef04ce348 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-04bef04ce348 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-49e5f0905a1a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-49e5f0905a1a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-76cd3fd81623 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-76cd3fd81623 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ba8cae443180 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ba8cae443180 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-08e1c73c9333 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-08e1c73c9333 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-679bc10533e3 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-679bc10533e3 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-42c67e40343f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-42c67e40343f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-868baf3e6d39 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-868baf3e6d39 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-1e0a31edfdf5 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-1e0a31edfdf5 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-24cdc70857d7 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-24cdc70857d7 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-437d8a552b05 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-437d8a552b05 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e48362dc491d source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e48362dc491d caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-fe4c83dd0a98 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-fe4c83dd0a98 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-380ccab730a0 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-380ccab730a0 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-49c26d8d15ca source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-49c26d8d15ca caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-a80163571084 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-a80163571084 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-26e1bb3286f8 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-26e1bb3286f8 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7d82adb0a13f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7d82adb0a13f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-091e0d7625b1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-091e0d7625b1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-f2c8f6ab4d17 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-f2c8f6ab4d17 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-85912e7c5784 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-85912e7c5784 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-1721e4ba2d41 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-1721e4ba2d41 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-48b8ed64096f source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-48b8ed64096f caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-516b32c9f8ce source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-516b32c9f8ce caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-5c66e89a81a1 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-5c66e89a81a1 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-b31223ea5b45 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-b31223ea5b45 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-f2ea5d83887c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-f2ea5d83887c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-e4c701662161 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-e4c701662161 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-74cca07006ab source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-74cca07006ab caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-47b4d7b4cdc8 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-47b4d7b4cdc8 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-720849dbb43b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-720849dbb43b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-645e39d4b823 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-645e39d4b823 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-aa043e9edd6b source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-aa043e9edd6b caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-ffec73e05e1a source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-ffec73e05e1a caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-766475a04c0c source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-766475a04c0c caption ID join",
+      "passed": true
+    },
+    {
+      "check": "ch-7903f5675ab9 source-derived counts",
+      "passed": true
+    },
+    {
+      "check": "ch-7903f5675ab9 caption ID join",
+      "passed": true
+    },
+    {
+      "check": "Publishing account resolved denominator",
+      "passed": true
+    },
+    {
+      "check": "Positive upload duration denominator",
+      "passed": true
+    },
+    {
+      "check": "Exact upload date denominator",
+      "passed": true
+    },
+    {
+      "check": "English-likely eligible title denominator",
+      "passed": true
+    },
+    {
+      "check": "Frozen English caption pilot denominator",
+      "passed": true
+    },
+    {
+      "check": "Positive-duration bands reconcile to measured uploads",
+      "passed": true
+    },
+    {
+      "check": "Caption selected rows reconcile across duration bands",
+      "passed": true
+    },
+    {
+      "check": "Top-ten share from raw account labels",
+      "passed": true
+    },
+    {
+      "check": "captionPilotKnownDuration median",
+      "passed": true
+    },
+    {
+      "check": "captionPilotKnownDuration count",
+      "passed": true
+    },
+    {
+      "check": "otherIndexedKnownDuration median",
+      "passed": true
+    },
+    {
+      "check": "otherIndexedKnownDuration count",
+      "passed": true
+    },
+    {
+      "check": "contact title band denominator",
+      "passed": true
+    },
+    {
+      "check": "contact regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "contact band share",
+      "passed": true
+    },
+    {
+      "check": "contact band share",
+      "passed": true
+    },
+    {
+      "check": "contact band share",
+      "passed": true
+    },
+    {
+      "check": "contact band share",
+      "passed": true
+    },
+    {
+      "check": "contact band share",
+      "passed": true
+    },
+    {
+      "check": "agency title band denominator",
+      "passed": true
+    },
+    {
+      "check": "agency regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "agency band share",
+      "passed": true
+    },
+    {
+      "check": "agency band share",
+      "passed": true
+    },
+    {
+      "check": "agency band share",
+      "passed": true
+    },
+    {
+      "check": "agency band share",
+      "passed": true
+    },
+    {
+      "check": "agency band share",
+      "passed": true
+    },
+    {
+      "check": "healing title band denominator",
+      "passed": true
+    },
+    {
+      "check": "healing regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "healing band share",
+      "passed": true
+    },
+    {
+      "check": "healing band share",
+      "passed": true
+    },
+    {
+      "check": "healing band share",
+      "passed": true
+    },
+    {
+      "check": "healing band share",
+      "passed": true
+    },
+    {
+      "check": "healing band share",
+      "passed": true
+    },
+    {
+      "check": "consciousness title band denominator",
+      "passed": true
+    },
+    {
+      "check": "consciousness regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "consciousness band share",
+      "passed": true
+    },
+    {
+      "check": "consciousness band share",
+      "passed": true
+    },
+    {
+      "check": "consciousness band share",
+      "passed": true
+    },
+    {
+      "check": "consciousness band share",
+      "passed": true
+    },
+    {
+      "check": "consciousness band share",
+      "passed": true
+    },
+    {
+      "check": "energy title band denominator",
+      "passed": true
+    },
+    {
+      "check": "energy regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "energy band share",
+      "passed": true
+    },
+    {
+      "check": "energy band share",
+      "passed": true
+    },
+    {
+      "check": "energy band share",
+      "passed": true
+    },
+    {
+      "check": "energy band share",
+      "passed": true
+    },
+    {
+      "check": "energy band share",
+      "passed": true
+    },
+    {
+      "check": "society title band denominator",
+      "passed": true
+    },
+    {
+      "check": "society regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "society band share",
+      "passed": true
+    },
+    {
+      "check": "society band share",
+      "passed": true
+    },
+    {
+      "check": "society band share",
+      "passed": true
+    },
+    {
+      "check": "society band share",
+      "passed": true
+    },
+    {
+      "check": "society band share",
+      "passed": true
+    },
+    {
+      "check": "relationships title band denominator",
+      "passed": true
+    },
+    {
+      "check": "relationships regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "relationships band share",
+      "passed": true
+    },
+    {
+      "check": "relationships band share",
+      "passed": true
+    },
+    {
+      "check": "relationships band share",
+      "passed": true
+    },
+    {
+      "check": "relationships band share",
+      "passed": true
+    },
+    {
+      "check": "relationships band share",
+      "passed": true
+    },
+    {
+      "check": "practice title band denominator",
+      "passed": true
+    },
+    {
+      "check": "practice regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "practice band share",
+      "passed": true
+    },
+    {
+      "check": "practice band share",
+      "passed": true
+    },
+    {
+      "check": "practice band share",
+      "passed": true
+    },
+    {
+      "check": "practice band share",
+      "passed": true
+    },
+    {
+      "check": "practice band share",
+      "passed": true
+    },
+    {
+      "check": "time title band denominator",
+      "passed": true
+    },
+    {
+      "check": "time regex hits reconcile",
+      "passed": true
+    },
+    {
+      "check": "time band share",
+      "passed": true
+    },
+    {
+      "check": "time band share",
+      "passed": true
+    },
+    {
+      "check": "time band share",
+      "passed": true
+    },
+    {
+      "check": "time band share",
+      "passed": true
+    },
+    {
+      "check": "time band share",
+      "passed": true
+    },
+    {
+      "check": "Matched document and publisher denominators",
+      "passed": true
+    },
+    {
+      "check": "matchedCaption independent pair counts",
+      "passed": true
+    },
+    {
+      "check": "matchedCaption direct normalized-dot separation",
+      "passed": true
+    },
+    {
+      "check": "matchedCaption eligible within publisher counts",
+      "passed": true
+    },
+    {
+      "check": "matchedCaption equal-account sensitivity",
+      "passed": true
+    },
+    {
+      "check": "matchedCaption exact negative-control draws",
+      "passed": true
+    },
+    {
+      "check": "matchedTitle independent pair counts",
+      "passed": true
+    },
+    {
+      "check": "matchedTitle direct normalized-dot separation",
+      "passed": true
+    },
+    {
+      "check": "matchedTitle eligible within publisher counts",
+      "passed": true
+    },
+    {
+      "check": "matchedTitle equal-account sensitivity",
+      "passed": true
+    },
+    {
+      "check": "matchedTitle exact negative-control draws",
+      "passed": true
+    },
+    {
+      "check": "Cross-layer sign and magnitude",
+      "passed": true
+    },
+    {
+      "check": "coverage pdf export present",
+      "passed": true
+    },
+    {
+      "check": "coverage svg export present",
+      "passed": true
+    },
+    {
+      "check": "coverage png export present",
+      "passed": true
+    },
+    {
+      "check": "concentration pdf export present",
+      "passed": true
+    },
+    {
+      "check": "concentration svg export present",
+      "passed": true
+    },
+    {
+      "check": "concentration png export present",
+      "passed": true
+    },
+    {
+      "check": "caption-selection pdf export present",
+      "passed": true
+    },
+    {
+      "check": "caption-selection svg export present",
+      "passed": true
+    },
+    {
+      "check": "caption-selection png export present",
+      "passed": true
+    },
+    {
+      "check": "keyword-duration pdf export present",
+      "passed": true
+    },
+    {
+      "check": "keyword-duration svg export present",
+      "passed": true
+    },
+    {
+      "check": "keyword-duration png export present",
+      "passed": true
+    },
+    {
+      "check": "publisher-similarity pdf export present",
+      "passed": true
+    },
+    {
+      "check": "publisher-similarity svg export present",
+      "passed": true
+    },
+    {
+      "check": "publisher-similarity png export present",
+      "passed": true
+    },
+    {
+      "check": "negative-control pdf export present",
+      "passed": true
+    },
+    {
+      "check": "negative-control svg export present",
+      "passed": true
+    },
+    {
+      "check": "negative-control png export present",
+      "passed": true
+    }
+  ]
+}

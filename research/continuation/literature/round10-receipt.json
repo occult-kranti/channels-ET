@@ -1,0 +1,114 @@
+{
+  "round": 10,
+  "role": "AI methods/literature panel; not human peer review",
+  "status": "METHODS_LAYER_IMPLEMENTED_PENDING_FROZEN_CANDIDATE_REVIEW",
+  "fresh_scholarly_records": 18,
+  "new_bibtex_entries": 9,
+  "prior_source_register_count": 28,
+  "checks": [
+    {
+      "check": "fresh register exactly18 distinct sources",
+      "passed": true
+    },
+    {
+      "check": "old28 register hash preserved",
+      "passed": true
+    },
+    {
+      "check": "all fresh rows identify access,reading location,nontransfer",
+      "passed": true
+    },
+    {
+      "check": "official author kit loaded unmodified with exacthash",
+      "passed": true
+    },
+    {
+      "check": "no raw PDFs in literature release",
+      "passed": true
+    },
+    {
+      "check": "nine newbibentries",
+      "passed": true
+    }
+  ],
+  "files": [
+    {
+      "path": "research/continuation/literature/ICWSM-STRUCTURE.md",
+      "sha256": "e7fabbef27e2f8a0057b6eec5646faf9cae1e6276e59d6718cbc9b03f9f85e00"
+    },
+    {
+      "path": "research/continuation/literature/MODEL-EVALUATION.md",
+      "sha256": "d02639cab763aeb1eb52d8485b75925162f46a9363c2d06b82f6620e38147c22"
+    },
+    {
+      "path": "research/continuation/literature/RELATED-WORK.md",
+      "sha256": "97b52bf5af15bee6e18c2f999633f69dbe618d9ea84ec052633d356a0501e8c2"
+    },
+    {
+      "path": "research/continuation/literature/additions.bib",
+      "sha256": "a97b6246cf72a714f875487760d631e8d933337ccb37bbb12601dcbf511712aa"
+    },
+    {
+      "path": "research/continuation/literature/artifact-evidence.json",
+      "sha256": "46f46e94985a234bbadf4a547ecf72eb62a9649bfb54c2efd9aa77853ade9053"
+    },
+    {
+      "path": "research/continuation/literature/build_register.py",
+      "sha256": "42cbaaca2bdb951f1d0643f896c32fbe41ad3891c7693d18dbc6850dc4570eea"
+    },
+    {
+      "path": "research/continuation/literature/related-work-additions.tex",
+      "sha256": "2ec2ef9630b2f6d1d84d271100be3d8838653ab63e31d3199b84d6f156d4211e"
+    },
+    {
+      "path": "research/continuation/literature/retrieval-bibliography.json",
+      "sha256": "f1434dee8da98609602b7c0e787ffb01b672448eca0f3a777f02c92667cfacc4"
+    },
+    {
+      "path": "research/continuation/literature/retrieval-design.json",
+      "sha256": "287e475510d9ce37f5277fe3f894fd724c237a2cdca2368a686a8734ba388005"
+    },
+    {
+      "path": "research/continuation/literature/retrieval-followup.json",
+      "sha256": "b54f5cc02693dac64ef3d1b88fba34eb39fd42ce6de22505ea234886941badc8"
+    },
+    {
+      "path": "research/continuation/literature/retrieval-fulltexts.json",
+      "sha256": "0aa90813f15f2464776fb6063201cc16b41f029c4b75fe4deaab6c92fd08a5e2"
+    },
+    {
+      "path": "research/continuation/literature/retrieval-initial.json",
+      "sha256": "fe69d55c55a46e6d14918d06d2fc5474f09aacbe9acc7a2190f3c19cd565e579"
+    },
+    {
+      "path": "research/continuation/literature/retrieval-lora-metadata.json",
+      "sha256": "5f26bac2ef91a6ce5f78e7c130639d159766353d5cf581805975bfc8b0cf6b65"
+    },
+    {
+      "path": "research/continuation/literature/retrieval-lora-repository.json",
+      "sha256": "38c34f07412cc08eabc713e49fbbd565c4593740b99ef97c385954c01b2df7bd"
+    },
+    {
+      "path": "research/continuation/literature/retrieval-supplements.json",
+      "sha256": "1b190d1c5810c166d7c455a7fd4ce9d3d12ded7ab84b1c72a5b6b2e895dbc9c6"
+    },
+    {
+      "path": "research/continuation/literature/retrieve.py",
+      "sha256": "1ee0a367f6557003ca901d6f297abf34b9bd564e61960faf49f6a5e136ef8901"
+    },
+    {
+      "path": "research/continuation/literature/source-register.json",
+      "sha256": "aa4ab9498ee605980804672cbbe95152a675902db22face8cd51d1887f736658"
+    },
+    {
+      "path": "research/continuation/literature/venue-check.json",
+      "sha256": "37896229a42494de61c9f5f0553bc2b6bdfb27bc6dd9670a48fd3a0d16f8d622"
+    }
+  ],
+  "limitations": [
+    "Targeted search,not systematic",
+    "Selected sections read,not every retrieved document",
+    "No source study reproduced",
+    "Human construct validation and source-origin truth not established"
+  ]
+}

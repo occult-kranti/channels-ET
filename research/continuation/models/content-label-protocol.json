@@ -1,0 +1,33 @@
+{
+  "task": "Primary answer orientation and conditional wording from supplied digest text",
+  "primaryThemes": [
+    "contact_forecast",
+    "personal_practice",
+    "cosmology",
+    "other",
+    "unclear"
+  ],
+  "conditionalLabels": [
+    "yes",
+    "no",
+    "unclear"
+  ],
+  "selection": "Fixed seed42, six dictionary-conditional and six dictionary-nonconditional examples, all12 from distinct conservative source-proxy groups; purposive balanced method comparison",
+  "humanLabels": false,
+  "truthLabels": false,
+  "source": "AI-generated digest paraphrases only",
+  "selectedIds": [
+    "qa-jdzErS12DvU-002",
+    "qa-WEVqgD-L5kc-000",
+    "qa-ufzO0sbNICQ-014",
+    "qa-E_cPno64Z-Q-014",
+    "qa-IKJzZ-KVPdQ-017",
+    "qa-Rcjd1TkZUMY-000",
+    "qa-Dw9XHTMrgBE-015",
+    "qa-_UZ8EyuOuY8-004",
+    "qa-ygzBrMyMAQA-010",
+    "qa-pfB4F7uAjwE-012",
+    "qa-ETuHIzyRhyY-009",
+    "qa-os4a7-7bnLw-012"
+  ]
+}

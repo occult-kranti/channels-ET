@@ -1,0 +1,175 @@
+{
+  "tools": [
+    {
+      "package": "yt-dlp",
+      "repository": "https://github.com/yt-dlp/yt-dlp",
+      "queried_version": "2026.10.21",
+      "version_status": "PyPI metadata observed; not proof installed or executed",
+      "license": "Unlicense for repository source; bundled distributions/dependencies can have different terms.",
+      "read_depth": "Selected official README sections and license inspected this phase",
+      "readme_receipt": {
+        "id": "yt-dlp-readme",
+        "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/README.md",
+        "attempted_at": "2026-10-23T20:27:33.969049+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/README.md",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 179127,
+        "sha256": "6adba80a892aee34940550ee8d7085041afca6140b7ac56d6414f1e6eb484bfe"
+      },
+      "license_receipt": {
+        "id": "yt-dlp-license",
+        "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/LICENSE",
+        "attempted_at": "2026-10-23T20:27:33.969783+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/LICENSE",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 1211,
+        "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+      },
+      "role": "metadata-only channel and ytsearch collection",
+      "reading_locators": "--flat-playlist; --skip-download; --dump-single-json; --playlist-end; --sleep-requests",
+      "limits": "Flat playlists have incomplete metadata. Approximate dates are not observed exact dates. Preserve failures; never count ignore-errors as successful collection.",
+      "execution_status": "documentation inspected; consult collection/software receipt for execution"
+    },
+    {
+      "package": "youtube-transcript-api",
+      "repository": "https://github.com/jdepoix/youtube-transcript-api",
+      "queried_version": "1.2.4",
+      "version_status": "PyPI metadata observed; not proof installed or executed",
+      "license": "MIT",
+      "read_depth": "Selected official README sections and license inspected this phase",
+      "readme_receipt": {
+        "id": "transcript-api-readme",
+        "url": "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/README.md",
+        "attempted_at": "2026-10-23T20:27:33.970298+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/README.md",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 24281,
+        "sha256": "c32899451ba279771ccc8e73022a20f4a9c985ff0134c7deaee0bce4a967b8f0"
+      },
+      "license_receipt": {
+        "id": "transcript-api-license",
+        "url": "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/LICENSE",
+        "attempted_at": "2026-10-23T20:27:33.971077+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/LICENSE",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 1069,
+        "sha256": "e7608cc316ea65729d6ce63cd619fb185ae44d329740388d30099fe7e4b16a4d"
+      },
+      "role": "offered caption listing and timestamped retrieval",
+      "reading_locators": "list(video_id); language_code; is_generated; segment start/duration",
+      "limits": "is_generated=False identifies an offered track type, not certified manual accuracy. Stop on RequestBlocked/IpBlocked; do not implement residential proxies recommended by upstream.",
+      "execution_status": "documentation inspected; consult collection/software receipt for execution"
+    },
+    {
+      "package": "faster-whisper",
+      "repository": "https://github.com/SYSTRAN/faster-whisper",
+      "queried_version": "1.2.1",
+      "version_status": "PyPI metadata observed; not proof installed or executed",
+      "license": "MIT; model weights separately licensed",
+      "read_depth": "Selected official README sections and license inspected this phase",
+      "readme_receipt": {
+        "id": "faster-whisper-readme",
+        "url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md",
+        "attempted_at": "2026-10-23T20:27:34.240758+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 15249,
+        "sha256": "43efe4a6eb9046d5ba4dcdcf2abcc27ad9e021f3edfc00bd6eb4913a9abe065b"
+      },
+      "license_receipt": {
+        "id": "faster-whisper-license",
+        "url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/LICENSE",
+        "attempted_at": "2026-10-23T20:27:34.259238+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/LICENSE",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 1064,
+        "sha256": "af6798135e729f8aa6c853936d037dfdea449734d26b8ea6a89805fca758c0d5"
+      },
+      "role": "optional local ASR for authorized audio",
+      "reading_locators": "CPU int8; word_timestamps; vad_filter; beam_size",
+      "limits": "VAD is silence filtering, not hallucination control or diarization. Record model revision; inspect audio-transcript alignment; no execution claim until actual audio inference.",
+      "execution_status": "documentation inspected; consult collection/software receipt for execution"
+    },
+    {
+      "package": "bertopic",
+      "repository": "https://github.com/MaartenGr/BERTopic",
+      "queried_version": "0.17.4",
+      "version_status": "PyPI metadata observed; not proof installed or executed",
+      "license": "MIT",
+      "read_depth": "Selected official README sections and license inspected this phase",
+      "readme_receipt": {
+        "id": "bertopic-readme",
+        "url": "https://raw.githubusercontent.com/MaartenGr/BERTopic/master/README.md",
+        "attempted_at": "2026-10-23T20:27:34.265759+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/MaartenGr/BERTopic/master/README.md",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 19517,
+        "sha256": "b1e62568b51de3877f0d26239d5dd7480576dba9bece03a1995bb118b5a45f12"
+      },
+      "license_receipt": {
+        "id": "bertopic-license",
+        "url": "https://raw.githubusercontent.com/MaartenGr/BERTopic/master/LICENSE",
+        "attempted_at": "2026-10-23T20:27:34.279289+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/MaartenGr/BERTopic/master/LICENSE",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 1081,
+        "sha256": "d4f326a7d8073fecfd26e8d2f7d6027e5bd9eda689d275dda9cd72c7f2ed017c"
+      },
+      "role": "optional exploratory fitted topic model",
+      "reading_locators": "sentence embeddings \u2192 UMAP \u2192 HDBSCAN \u2192 c-TF-IDF; modular alternatives",
+      "limits": "Small uneven corpus can create unstable clusters/outliers. Topic coherence and model labels do not establish meaning. Do not claim BERTopic when executing TF-IDF/NMF only.",
+      "execution_status": "documentation inspected; consult collection/software receipt for execution"
+    },
+    {
+      "package": "keybert",
+      "repository": "https://github.com/MaartenGr/KeyBERT",
+      "queried_version": "0.9.0",
+      "version_status": "PyPI metadata observed; not proof installed or executed",
+      "license": "MIT",
+      "read_depth": "Selected official README sections and license inspected this phase",
+      "readme_receipt": {
+        "id": "keybert-readme",
+        "url": "https://raw.githubusercontent.com/MaartenGr/KeyBERT/master/README.md",
+        "attempted_at": "2026-10-23T20:27:34.483843+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/MaartenGr/KeyBERT/master/README.md",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 12129,
+        "sha256": "ac66ff96062200bc6cacd2fcda01bf7e856ff906892e267eb14d8cc3182467e2"
+      },
+      "license_receipt": {
+        "id": "keybert-license",
+        "url": "https://raw.githubusercontent.com/MaartenGr/KeyBERT/master/LICENSE",
+        "attempted_at": "2026-10-23T20:27:34.501291+00:00",
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/MaartenGr/KeyBERT/master/LICENSE",
+        "content_type": "text/plain; charset=utf-8",
+        "bytes": 1081,
+        "sha256": "b328420872ab670997b600aee509039a391404fbe5080acaf0be0d425452837f"
+      },
+      "role": "optional embedding-ranked keyword phrases",
+      "reading_locators": "extract_keywords; keyphrase_ngram_range; document/candidate embedding cosine",
+      "limits": "High-ranked keywords identify topical resemblance, not factual propositions or answer agreement. Dictionary and TF-IDF outputs need their own method names.",
+      "execution_status": "documentation inspected; consult collection/software receipt for execution"
+    }
+  ],
+  "browser_extensions": "None installed or executed. No supported extension/browser environment was available to this workstream. Third-party export may be imported only with provenance and rights; never imply it was used."
+}

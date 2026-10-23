@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "results.json",
+      "sha256": "a69b4224c97536cd309144221cf81791bfdf9b2884b9a7c9279423211b6aeed6",
+      "identical": true
+    },
+    {
+      "path": "generated/source-family-map.csv",
+      "sha256": "a8aeb4c3238b13a1ce038f9aeb567c914089b61dc760d08d16520ccac98f154e",
+      "identical": true
+    },
+    {
+      "path": "generated/upload-pair-mean-cosines.csv",
+      "sha256": "b8f2bfe1b3dfecfe49243fb76a17bfd03f7909db119d0cb704272906b43844dc",
+      "identical": true
+    },
+    {
+      "path": "generated/question-cosine-common-support.csv",
+      "sha256": "6ad2269763859d4d7ed3650985630122818cba05282dd1721b405271b043a8b5",
+      "identical": true
+    },
+    {
+      "path": "generated/lexical-graph-thresholds.csv",
+      "sha256": "5bc534f0f6eab529a445b1e2e8a0f2b6c77e34043f022bdbbaff24d00993db1a",
+      "identical": true
+    },
+    {
+      "path": "generated/matched-representation-pairs.csv",
+      "sha256": "c03fe42f6769ffe76eba090ba6a930d193ae61ba7c6839796a456f1380837059",
+      "identical": true
+    },
+    {
+      "path": "generated/strict-source-family-sensitivity.csv",
+      "sha256": "e8ff2e8aaaad7f66bbe5235e8e7fd571e0c2532f45acfccca5518816bb06de02",
+      "identical": true
+    },
+    {
+      "path": "generated/question-neighbor-pairs.csv",
+      "sha256": "8c984ae2720bccbc7e025173009512459eab76698eab72ecf4303290a03124ee",
+      "identical": true
+    },
+    {
+      "path": "generated/question-neighbor-pairs.json",
+      "sha256": "5923733a153b2f04c4a9cb5d0e1f11ea20c1cbb495cd88443e3483b354171ee0",
+      "identical": true
+    },
+    {
+      "path": "generated/question-answer-plot-pairs.json",
+      "sha256": "aa99b54a8af8c95fca5762fd5b34c37cd49b13e1f50c142aac384a721539e9b2",
+      "identical": true
+    },
+    {
+      "path": "generated/upload-pair-mean-cosines.json",
+      "sha256": "8873f83af2266a28f33b5f017374fc89428fb6a69b66a036d590db8f04586bd9",
+      "identical": true
+    },
+    {
+      "path": "generated/source-family-map.json",
+      "sha256": "47e502e85f858b720eeac662b59bd57a8a2c1fdce397e0c70580965d1245485f",
+      "identical": true
+    },
+    {
+      "path": "generated/strict-source-family-sensitivity.json",
+      "sha256": "c928c91bc54bf9f0c7802a8b3c503019ad8f5d58236857c22e40ba4efd576da1",
+      "identical": true
+    }
+  ],
+  "scope": "Separate output directory; preserved source inputs and actual model receipts; no extra model inference or training."
+}

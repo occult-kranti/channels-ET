@@ -1,0 +1,29 @@
+{
+  "stage": "exploratory computational feasibility pilot",
+  "createdBeforeModelPredictions": true,
+  "confirmatoryOrPreregistered": false,
+  "source": "949 existing AI-generated digest Q&A paraphrases, Darryl Anka/Bashar context only",
+  "trainingExamples": 48,
+  "heldoutQuestions": 8,
+  "unsupportedControls": 2,
+  "groupRule": "Quarantine upload pairs connected by any identical normalized question, any question cosine >=0.80, or at least three question retrieval pairs at cosine >=0.40",
+  "seed": 42,
+  "groupCaveat": "Source-family proxies are not verified original-session identities and cannot rule out unknown repost or pretraining overlap",
+  "ragIndex": "Only the 48 selected training examples; heldout answer gists are never RAG evidence",
+  "ragRetrieval": {"method":"word unigram/bigram English-stop-word sublinear TF-IDF, smooth IDF, L2 normalization","topK":2,"minimumCosine":0.10},
+  "arms": ["lexical_retrieval","qwen_base_closed","qwen_base_rag","qwen_lora_closed","qwen_lora_rag"],
+  "baseModel": {"id":"Qwen/Qwen2.5-0.5B-Instruct","revision":"7ae557604adf67be50417f59c2c2f167def9a775","license":"Apache-2.0","interpretation":"Small feasible CPU baseline, not established current state of the art"},
+  "lora": {"device":"CPU","rank":4,"alpha":8,"dropout":0,"targetModules":["q_proj","v_proj"],"epochs":1,"learningRate":0.0002,"sequenceLength":192,"microbatch":1,"gradientAccumulation":4,"expectedOptimizerSteps":12},
+  "generation": {"maxNewTokens":40,"doSample":false,"promptMaxTokens":512,"torchThreads":2,"dtype":"float32"},
+  "metrics": {
+    "tokenOverlapF1":"Multiset lowercase alphanumeric token overlap with heldout AI-generated answer gist; no factual-correctness inference",
+    "citationMembership":"Output contains a supplied [D1]/[D2] label; syntactic membership only, not entailment",
+    "unsupportedControlAbstention":"Exact INSUFFICIENT_EVIDENCE marker on two questions requiring absent studio-temperature or unpublished audio-hash evidence",
+    "latency":"Wall-clock generation/response time on this shared CPU machine, not a hardware benchmark ranking"
+  },
+  "currentFamilyFeasibility": "Inspect official Qwen3/Qwen3.5 metadata and attempt a separate Qwen3.5-0.8B text-only smoke test after verified downloads; no global SOTA or image capability claim",
+  "gpuComparison": "Unsupported on this machine: no CUDA device exposed. Do not manufacture GPU throughput or GPU training metrics.",
+  "humanGroundTruth": false,
+  "sourceTruthValidation": false,
+  "speechTranscriptionPerformed": false
+}

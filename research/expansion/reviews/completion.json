@@ -1,0 +1,186 @@
+{
+  "status": "validated_local_revision_with_external_blockers",
+  "entireRequestedEmpiricalScopeComplete": false,
+  "branch": "research/atlas-expanded-qa",
+  "baselineCommit": "1d6eb36379ed7730dc0cb2e85d83b9e77205b07b",
+  "reviewType": "AI-agent implementation and methods review; not human peer review",
+  "rounds": [
+    {
+      "round": 7,
+      "manifest": "research/expansion/rounds/round7/manifest.json",
+      "manifestSha256": "b85a31ea897a0791434ef1129331cd360c61d7d0b7b820183eb1c29fedd89ce0",
+      "archiveSha256": "22cd2e309b28c60dc5ebd4447b84b2658e92b983a963c9c5cd3c2be8dfa56bac",
+      "status": "frozen_after_implementation_and_review"
+    },
+    {
+      "round": 8,
+      "manifest": "research/expansion/rounds/round8/manifest.json",
+      "manifestSha256": "bf5421b4d9fe81825e829ba9c6a7d465f61995f25350fdab3f6c56b68367edbc",
+      "archiveSha256": "03654cafae00e7fc15bdd1f30b60cfcc75fb1047b774036d931eb2bb79e64bc3",
+      "status": "frozen_after_implementation_and_review"
+    },
+    {
+      "round": 9,
+      "manifest": "research/expansion/rounds/round9/manifest.json",
+      "manifestSha256": "c2707f43a0d6812f12d42e8bb2d0fc93c18b370353773cd515f3dc8f5f09a23e",
+      "archiveSha256": "669c0eb1d9761a30fa5bb7dded338d0efed471cf34f666308f447b7edcb3e863",
+      "status": "frozen_after_implementation_and_review"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "research/expansion/paper/channeling-atlas-expansion-paper.pdf",
+      "sha256": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1",
+      "bytes": 459228
+    },
+    {
+      "path": "research/expansion/paper/channeling-atlas-expansion-source.zip",
+      "sha256": "c0bf5184a71029fe7f1fbe38d5ca259d4a789866a69622b300665e3d6a5fa4d4",
+      "bytes": 118072
+    },
+    {
+      "path": "research/expansion/qa/qa-candidates.sqlite",
+      "sha256": "5c8e8eb8dc0d1a67461719ebfc5d35b18f03a30eed77a9acbe7a06101fa8321c",
+      "bytes": 925696
+    },
+    {
+      "path": "research/expansion/qa/qa-candidates.json",
+      "sha256": "87034285066bea7c59f4b190977b6a7b9f1077d0291dae834c25c904e813043a",
+      "bytes": 1376137
+    },
+    {
+      "path": "research/expansion/qa/summary.json",
+      "sha256": "7cc9705a73bed33523397b0e4812bb47974dfc21a8a48c83d294c53948a46128",
+      "bytes": 245639
+    },
+    {
+      "path": "research/expansion/analysis/results.json",
+      "sha256": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216",
+      "bytes": 410014
+    },
+    {
+      "path": "dist/expansion/index.html",
+      "sha256": "745eb05cd91bf2fe198cafd9f0e1f355cc5a1ec34c0e5f6fe24b80eb5fcc97a6",
+      "bytes": 2072
+    },
+    {
+      "path": "dist/expansion/app.js",
+      "sha256": "18737c6377638d09ded0f1aca0cd17d910063a4759337c3b24cd1990cba77238",
+      "bytes": 34927
+    },
+    {
+      "path": "dist/expansion/styles.css",
+      "sha256": "ee3cde4b2c135ec84791a5525a26f63cc9871571c18b044beb2a266f813d49d1",
+      "bytes": 9307
+    }
+  ],
+  "receipts": [
+    {
+      "path": "research/expansion/reviews/methods-round3.md",
+      "sha256": "fffbd7e5314cad9232497ec1c268cf7c8838b238b3dfc22f5c3e576b765e26f0"
+    },
+    {
+      "path": "research/expansion/reviews/analysis-round3.md",
+      "sha256": "e70b4fc1a3dc31b8a1b5a3b4891e3273a7f42437e8e227424600b6e6c6bb137f"
+    },
+    {
+      "path": "research/expansion/reviews/acquisition-round3.md",
+      "sha256": "ff8c9c2561bd8b33abb6c400ccd127c33dcec33beffdb2e25a33d6b37c2d2d76"
+    },
+    {
+      "path": "research/expansion/reviews/qa-round9.md",
+      "sha256": "01defb71b9b46045186b05db44aa4e83d87a515f014f5fd0e3efc181762a7a80"
+    },
+    {
+      "path": "research/expansion/reviews/paper-round9.md",
+      "sha256": "f7954fab3076d24a42c5daa06475653a2d985f1616a7a34f1648581b9cefdc99"
+    },
+    {
+      "path": "research/expansion/reviews/dashboard-round9.md",
+      "sha256": "fd49feb6ae79d4bc272d684f0687970f18434ce13040b733c632e56259c0942d"
+    },
+    {
+      "path": "research/expansion/reviews/source-lineage-round9.json",
+      "sha256": "648f00779226fad1ed9982b07a92131164f22f123440561e86a8970bc7588e57"
+    },
+    {
+      "path": "research/expansion/dashboard/round9-browser.json",
+      "sha256": "946b855ca3b7d327649f39e10569b7e6c1c36e965ef0bd012d824526456f9453"
+    },
+    {
+      "path": "research/expansion/paper/verification.json",
+      "sha256": "966f048804bc7dbbec6ab91cc87dfdd60132a90017fbb41a436f373bc472c4c4"
+    },
+    {
+      "path": "research/expansion/paper/repeatability.json",
+      "sha256": "0aeaac24fb83290dc584d3a179b1a5263489444a615c66e88bb8c55cc98c3728"
+    }
+  ],
+  "verifiedCapabilities": {
+    "rewrittenPaperPages": 25,
+    "scientificFigures": 6,
+    "qaCandidates": 949,
+    "qaBearingUploads": 67,
+    "practitionerContextsWithQA": 1,
+    "browserChecks": 57,
+    "rootSourceAndArtifactChecks": 21,
+    "qaOwnChecks": 4156,
+    "analysisOwnChecks": 798,
+    "independentMethodChecks": {
+      "analysis": 769,
+      "qa": 7276,
+      "collectorMockControls": 38
+    },
+    "modelAssistedReading": {
+      "individualDigestCandidates": 20,
+      "candidatePairs": 12,
+      "humanValidation": false,
+      "audioOrVideoInspected": false
+    },
+    "repeatablePaperAndSourceZip": true,
+    "originalScientificDataAndPdfPreserved": true
+  },
+  "unresolved": [
+    {
+      "id": "live_youtube_collection",
+      "state": "blocked",
+      "evidence": "acquisition/preflight-initial.json",
+      "requiredAction": "Review/save requested network destinations in environment settings and publish/apply them, then retry a fresh ordinary preflight and resume the collector.",
+      "impact": "590 keyword searches, 157 account routes and 215 caption candidates remain planned; no new source collection succeeded."
+    },
+    {
+      "id": "multi_practitioner_answers",
+      "state": "not_available",
+      "impact": "The current 949 digest candidates concern one practitioner context; collect source captions, resolve identities and speaker windows, and validate question/answer coding before comparing different mediums."
+    },
+    {
+      "id": "direct_audio_video_and_human_validation",
+      "state": "not_performed",
+      "impact": "Model close readings inspect retained AI summaries only. Caption accuracy, answer agreement and human reliability remain unvalidated."
+    },
+    {
+      "id": "hosted_publication",
+      "state": "blocked_by_missing_capability",
+      "impact": "No Sites source/hosting identity or deployment tool was available. Local browser and artifact checks do not update the live Site."
+    },
+    {
+      "id": "shared_data_runtime",
+      "state": "unavailable",
+      "impact": "Shared runtime/reference inaccessible; the existing static stack was extended and tested instead."
+    }
+  ],
+  "configuration": {
+    "savedFields": [
+      "install_script",
+      "start_skill",
+      "network.allowed_domains"
+    ],
+    "runtimeApplied": false,
+    "publicationConfirmed": false
+  },
+  "notes": [
+    "Do not sum overlapping verification counts as independent observations.",
+    "Candidate archives preserve distinct revised artifacts; their review receipts certify only named files.",
+    "GitHub branch delivery is separate from hosted publication."
+  ]
+}

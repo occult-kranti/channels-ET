@@ -1,0 +1,49 @@
+\section{Evidence Types and Permitted Reading}
+\begin{longtable}{p{0.19\textwidth}p{0.34\textwidth}p{0.38\textwidth}}
+\toprule Evidence type & Supports & Does not establish \\ \midrule\endhead
+Watch metadata & Observed title, uploader, offered duration/date at retrieval & Full playback, original performance date, complete account history \\
+Title & Publisher framing and keyword/lexical features & Full spoken topic, answer agreement, speaker attribution \\
+Offered caption track & Available text with language and generation flags & Audio accuracy, complete speech, isolated practitioner voice \\
+Frozen embedding & Recalculation of numeric resemblance on the frozen items & Recovery of transcript wording, truth, source independence \\
+Digest Q\&A candidate & Source-linked paraphrase/gist retrieval & Literal turn, exact timestamp, human-verified answer speaker \\
+Keyword match & A documented extraction rule found a string & Exhaustive concept presence, position on a proposition, validated theme prevalence \\
+Model-assisted reading & A recorded interpretation with reasons and source pointers & Human agreement, ethnography, audio verification or clinical assessment \\
+Prepared search/crawl & Repeatable query selection and attempted-access evidence & Retrieved uploads, representative sampling or current platform completeness \\
+\bottomrule
+\end{longtable}
+
+\section{Update Procedure and Acceptance}
+Before expanding the corpus, preserve the source snapshots and define the unit, inclusion rule and access route. Execute a small pilot, retain successful and failed outcomes, then expand only when the pilot's success conditions are met. Record meaningful changes in code, dictionary, model, date interpretation, attribution or weighting. Recompute affected outputs and rewrite any dependent prose; old receipts certify only old artifacts.
+
+For the present extension the acceptance checks are: (1) source pointers resolve to hashed inputs; (2) numerical summaries reconcile at their own grains; (3) unavailable comparison states do not render as zero findings; (4) dictionary and retrieval output can be reproduced; (5) queries and blocked requests are not counted as collected data; (6) figures and tables expose units and denominators; (7) the paper compiles from its package; and (8) the final review record names exact artifact hashes and unresolved limitations. Any unavailable check is reported explicitly.
+
+\section{Practical Source Queries}
+The database makes the following questions inspectable without claiming their substantive answer in advance: Which retained questions match a keyword family? Which candidates share wording across different uploads? Do their answer gists also share wording? Which retrievals mix interview or clip formats? Which questions lack a verified speaker or timestamp? Which source digest revision generated a row? A query that finds no candidate means no match in the released candidate database, not that a practitioner never discussed a subject.
+
+\section{Proposed Analyses: Evidence, Falsifiers and Plot Designs}
+Every row below describes unexecuted research. Proposed plots are not synthetic empirical results. Human validation, suitable permissions and actual observations remain prerequisites where stated.
+\begingroup\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{p{0.14\textwidth}p{0.21\textwidth}p{0.24\textwidth}p{0.17\textwidth}p{0.17\textwidth}}
+\toprule Study and unit & Evidence required & Comparison and disconfirming result & Main confounds & Proposed plot \\ \midrule\endhead
+Matched common questions; one prompt--answer span per practitioner/session & Attributable full question/answer windows from multiple practitioners; blind prompt-equivalence labels & Compare within-prompt answers with topic- and length-matched different prompts. Proposed common-question advantage fails if held-out judgments or lexical baseline are not improved. & Formulaic prompts, duplicate performances, paraphrase normalization, unequal answer length & Matched-prompt answer-relation matrix with sample sizes and indeterminate cells \\
+Speaker/context windows; one labeled speech interval & Human-checked host, question, attributed message and promotion boundaries with timestamps & Compare whole uploads with the same recordings' message windows. Better substantive neighbor quality is disconfirmed if blinded relevance is unchanged or lower. & Recognition error, removed substantive context, selective segment availability & Paired before/after neighbor-change plot with annotated exclusions \\
+Original-session reuse; one source performance family & Explicit source links, dates and authorized audiovisual/text evidence for edit/repost families & Recompute associations after one unit per session family. Independent cross-account resemblance is weakened if it disappears on family collapse. & Unresolved edits, translation, incomplete original metadata & Upload-to-session bipartite graph and before/after effect dot plot \\
+Chronological drift; practitioner/account within original-session time & Sufficiently complete histories, original dates, format/speaker labels and stable codebook & Compare within-account intervals controlling format and session reuse. A drift claim fails when change vanishes after these controls or cannot exceed a predefined minimum. & Repost dates, archival sampling, platform title changes, composition & Time-indexed theme shares with denominators, missing intervals and uncertainty meaning \\
+Multilingual encoders; held-out human-labeled pair & Matched texts across languages; licensed pinned models; blinded relevance/answer labels & Compare lexical baseline, MiniLM and multilingual model on identical units. A new-model advantage fails without held-out improvement and acceptable language-specific performance. & Translated versus original speech, unequal prompt distributions, benchmark leakage & Per-language error/precision--recall panels and matched model-difference intervals \\
+Caption accuracy; one audio-reference segment & Rights-cleared audio, independently corrected reference and speaker labels & Estimate word/error rates by language, duration and speech type. A proposed accuracy threshold fails if uncertainty exceeds the threshold or systematic errors alter extracted claims. & Reference errors, subjective punctuation, hallucinated silence, technical vocabulary & Error-rate distributions and keyword/answer error audit by stratum \\
+Answer uncertainty and conditionality; one proposition within answer & Original question/answer spans; codebook for assertion, condition, possibility, time window, attribution and negation; human labels & Test marker retrieval against held-out proposition labels. A scalar certainty interpretation fails when lexical markers mostly reflect questions, quotations or negation. & Summary normalizing language, discourse particles, nested reported speech, outcome hindsight & Proposition-type confusion matrix and within-prompt conditionality distributions \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\section{Collection Alternatives and Boundaries}
+A supported API can replace public-page metadata collection when the appropriate capability and credential are available. Public author archives may supply licensed transcripts, and rights-cleared local audiovisual recordings may support speech recognition. Browser extensions can support a researcher's authorized local export when their data handling and license are reviewed. These are collection alternatives, not reasons to evade a denial. The present pipeline does not install opaque browser extensions, acquire private recordings or rotate identities to bypass a block. Any later integration must identify the exact software, version, source, permitted access and validation result.
+
+\section{Model-Assisted Digest Close-Reading Ledger}
+The following twenty entries reproduce the current model-assisted interpretation ledger, linked by stable candidate IDs to database source pointers. Selection takes the first Q\&A entry from twenty evenly spaced positions in the filename-sorted set of 67 Q\&A-bearing digests. The inspected material consists of inherited question paraphrases and answer gists. No transcript, audio or video was newly inspected for these readings. These interpretations illustrate context and coding limits; their number is not a validation score and the rows are not independent human annotations.
+\input{generated/close-reading-table.tex}
+
+\section{Purposive Paired-Reading Ledger}
+The following twelve paired readings were added during the second new review loop. They inspect the first twelve distinct left-question strings in descending lexical question-cosine order, with candidate-ID tie breaks. The selection emphasizes close lexical neighbors and is not a representative validation sample. Source URLs, hashes and JSON pointers for both sides remain in \texttt{qa/pair-close-reading.json}. All answer-agreement judgments remain undetermined and human validation is false.
+\input{generated/paired-reading-table.tex}

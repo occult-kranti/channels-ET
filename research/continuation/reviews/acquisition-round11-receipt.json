@@ -1,0 +1,44 @@
+{
+  "round": 11,
+  "reviewed_at": "2026-10-23T21:30:04.430548+00:00",
+  "reviewed_round10_archive_sha256": "5681c632f4b4f0fd857711d0d7ee2c6483bd39963cd2ff48c564d7710e7f2008",
+  "status": "PASS_COLLECTOR_CORRECTIONS_ADAPTER_PROVENANCE_FIX_REQUESTED",
+  "new_network_attempts_this_review": 0,
+  "failed_source_operations_carried": 2,
+  "candidate_specific_queue_attempts": 0,
+  "new_transcript_or_media_artifacts": 0,
+  "collector_tests": {
+    "checked_at": "2026-10-23T21:29:23.368259+00:00",
+    "tests": 10,
+    "failures": 0,
+    "errors": 0,
+    "status": "PASS",
+    "network_requests": 0,
+    "basis": "Mock collection controls and local metadata integrity only; not empirical source acquisition or media download."
+  },
+  "inspected_source_sha256": {
+    "acquisition/channel_pipeline.py": "da78fba58a27b04f0b1995f318ac8239bd442da73aed9cfd43f2eff594db0378",
+    "acquisition/verify_pipeline.py": "b290de310b504d9a4e71efe9725f5a3b5e088c33c4e15bd52cc81720480312b7",
+    "acquisition/pipeline-verification.json": "632dbfd81036d0fe033055118d14f17e41113c84d694922a64008e5bd5b79fa3",
+    "acquisition/acquisition-status.json": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00",
+    "acquisition/corpus-index.sqlite": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+    "acquisition/preflight-2026-10-23T2109.json": "da7c6d7b366f2cdf801f9fa610c5673a20378ea5d756279418ad270f3b8d4f7a",
+    "acquisition/author-preflight-2026-10-23.json": "db61d69bbd1eee4007c02f45366faff6109960c41bbe89a7ae5c436e6217546b",
+    "acquisition/README.md": "637fbc3afc2d9f580f47b08acdda98d174bc932e6f5d0a42f0dae2cbac07ec89",
+    "paper/body.tex": "1b86611fb3b4189e0b5703ac070a4aaed7344b691783a1abcb9f3c03c51c23a9",
+    "paper/channels-et-paper.pdf": "0ad9ae29da658a55c14acdbdced2abbdfda96b985a519745912f08230f1ec081",
+    "dashboard/app.js": "998257a8604cec135749e07c5c4eef85e550bf3641226dd50bc205d31e7085f9",
+    "models/adapter-package.json": "29229993f41a480874f8480b7e7d76e52b2b12cc0d6cc7a67ff5f029f57ec7db",
+    "models/model-manifest.json": "2ba8cc25cb68d5779eef6ed9bc663b1841c52f53e172a037ed681a462f9bcb2e",
+    "models/adapter-export/README.md": "19c9e3cbc10aa2beb83c209c46774a8c34e4267c07a9b1312ae6010cfb0a2edf",
+    "models/adapter-export/adapter_config.json": "dcac7d7097807963e2974f4adb0a8fb7a6285764b0a73f88f4cfe4bed76cdf03",
+    "models/adapter-export/LICENSE.txt": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "models/adapter-export/training-manifest.json": "b186bc52326081b2e873974010c3a033452f484fac15497509822d2006469434"
+  },
+  "remaining_adapter_issue": "Bundled training receipt lacks source/split/row bindings; requested metadata-only training-source manifest and clear license/provenance notice from model owner.",
+  "limitations": [
+    "Model review covers artifact provenance/license metadata, not quality.",
+    "Self-review of own collector changes is supplemented by independent methods reviewer.",
+    "No new empirical caption or media extraction occurred."
+  ]
+}

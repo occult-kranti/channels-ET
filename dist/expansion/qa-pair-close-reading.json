@@ -1,0 +1,311 @@
+{
+  "reviewer": "AI extraction-panel role",
+  "status": "exploratory_model_annotations",
+  "selection": "First 12 distinct left-question strings in descending question-cosine order, tie-broken by candidate IDs; purposive high-similarity examples, not representative validation",
+  "sourceDepth": "Released AI-generated question/answer gists only; no transcript or audio/video verification",
+  "scope": "Within Darryl Anka/Bashar context across uploads; not cross-practitioner answer comparison",
+  "humanReview": false,
+  "agreementMeasure": "No validated agreement score; the following readings are model interpretations",
+  "records": [
+    {
+      "leftId": "qa-0htF1V0v6ec-007",
+      "rightId": "qa-ja8BrsruFOo-007",
+      "reading": "Both gists frame being oneself as one stable purpose with changing expressions.",
+      "interpretation": "Compatible paraphrases in the digest text despite answer lexical cosine about0.346.",
+      "caution": "Possible shared original session; this is not independent doctrinal corroboration.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=0htF1V0v6ec",
+        "sourcePath": "data/digests/0htF1V0v6ec.json",
+        "sourceSha256": "7da5f278a7d592cc5dd6449eaa5f6528a69ee2217353e1b7c9ed21c7c65baf86",
+        "sourcePointer": "/qa_topics/7"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=ja8BrsruFOo",
+        "sourcePath": "data/digests/ja8BrsruFOo.json",
+        "sourceSha256": "a5aebf90fc217ddf12c4bfe7580dc012112c38f8d973ee673c38fba19ee8dce4",
+        "sourcePointer": "/qa_topics/7"
+      }
+    },
+    {
+      "leftId": "qa-0htF1V0v6ec-009",
+      "rightId": "qa-ja8BrsruFOo-010",
+      "reading": "Both gists frame other lives as simultaneous and karma as self-imposed realignment.",
+      "interpretation": "Similar propositions expressed with different vocabulary; lexical cosine about0.232 does not measure disagreement.",
+      "caution": "The animal topic appears in the question but not explicitly in either abbreviated gist.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=0htF1V0v6ec",
+        "sourcePath": "data/digests/0htF1V0v6ec.json",
+        "sourceSha256": "7da5f278a7d592cc5dd6449eaa5f6528a69ee2217353e1b7c9ed21c7c65baf86",
+        "sourcePointer": "/qa_topics/9"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=ja8BrsruFOo",
+        "sourcePath": "data/digests/ja8BrsruFOo.json",
+        "sourceSha256": "a5aebf90fc217ddf12c4bfe7580dc012112c38f8d973ee673c38fba19ee8dce4",
+        "sourcePointer": "/qa_topics/10"
+      }
+    },
+    {
+      "leftId": "qa-7WjydoNj7hE-011",
+      "rightId": "qa-PjIvEohms5I-010",
+      "reading": "One gist emphasizes mobile mothership cities; the other emphasizes a terraformed parallel-reality planet.",
+      "interpretation": "Different facets of a purported civilization; no direct contradiction is established by these summaries.",
+      "caution": "Time, source context and actual wording would be needed to assess whether the living arrangements conflict.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=7WjydoNj7hE",
+        "sourcePath": "data/digests/7WjydoNj7hE.json",
+        "sourceSha256": "3d7cc631f68bf8508f487c3ab89cfe1e17b157312ecfffa1781afc1f0db696da",
+        "sourcePointer": "/qa_topics/11"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=PjIvEohms5I",
+        "sourcePath": "data/digests/PjIvEohms5I.json",
+        "sourceSha256": "9a03e30a16a553db4f4fd380a47c2e854006a7c7e72570f04f78cdc9147d32dd",
+        "sourcePointer": "/qa_topics/10"
+      }
+    },
+    {
+      "leftId": "qa-DvWNnqnBAjc-000",
+      "rightId": "qa-mk_yQrOQHJs-000",
+      "reading": "Both advise examining motivation to distinguish excitement from anxiety or fear.",
+      "interpretation": "Compatible practical framing despite answer lexical cosine about0.241.",
+      "caution": "Recurrent question/answer sequence suggests a possible shared-source family, not necessarily repeated independent teaching.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=DvWNnqnBAjc",
+        "sourcePath": "data/digests/DvWNnqnBAjc.json",
+        "sourceSha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+        "sourcePointer": "/qa_topics/0"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=mk_yQrOQHJs",
+        "sourcePath": "data/digests/mk_yQrOQHJs.json",
+        "sourceSha256": "2bcce50c12b71dfd5ffefb7f746edcb695bb6488e523ae9825731684d8344477",
+        "sourcePointer": "/qa_topics/0"
+      }
+    },
+    {
+      "leftId": "qa-DvWNnqnBAjc-001",
+      "rightId": "qa-mk_yQrOQHJs-001",
+      "reading": "Both say positive interpretation allows learning even from non-aligned choices.",
+      "interpretation": "The second gist adds path alignment; that addition need not contradict the first.",
+      "caution": "Digest compression and reuse cannot be separated without the recordings.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=DvWNnqnBAjc",
+        "sourcePath": "data/digests/DvWNnqnBAjc.json",
+        "sourceSha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+        "sourcePointer": "/qa_topics/1"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=mk_yQrOQHJs",
+        "sourcePath": "data/digests/mk_yQrOQHJs.json",
+        "sourceSha256": "2bcce50c12b71dfd5ffefb7f746edcb695bb6488e523ae9825731684d8344477",
+        "sourcePointer": "/qa_topics/1"
+      }
+    },
+    {
+      "leftId": "qa-DvWNnqnBAjc-006",
+      "rightId": "qa-mk_yQrOQHJs-005",
+      "reading": "Both distinguish energy reading from a telepathic matching/translation account of channeling.",
+      "interpretation": "A shared definition with one analogy omitted in the second summary.",
+      "caution": "Shared language is not validation of a telepathic mechanism or proof of direct influence.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=DvWNnqnBAjc",
+        "sourcePath": "data/digests/DvWNnqnBAjc.json",
+        "sourceSha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+        "sourcePointer": "/qa_topics/6"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=mk_yQrOQHJs",
+        "sourcePath": "data/digests/mk_yQrOQHJs.json",
+        "sourceSha256": "2bcce50c12b71dfd5ffefb7f746edcb695bb6488e523ae9825731684d8344477",
+        "sourcePointer": "/qa_topics/5"
+      }
+    },
+    {
+      "leftId": "qa-DvWNnqnBAjc-012",
+      "rightId": "qa-tskKYl3w0J8-008",
+      "reading": "Both describe guardians and a general non-interference rule with rare exceptions.",
+      "interpretation": "Compatible cosmological claims in the derivative texts.",
+      "caution": "No independently observed guardians or interaction rules are established.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=DvWNnqnBAjc",
+        "sourcePath": "data/digests/DvWNnqnBAjc.json",
+        "sourceSha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+        "sourcePointer": "/qa_topics/12"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=tskKYl3w0J8",
+        "sourcePath": "data/digests/tskKYl3w0J8.json",
+        "sourceSha256": "9dcd4220b7ee5ab4ab15b8982caf696e0a42ecc929691c22c6434b7362d78112",
+        "sourcePointer": "/qa_topics/8"
+      }
+    },
+    {
+      "leftId": "qa-DvWNnqnBAjc-016",
+      "rightId": "qa-tskKYl3w0J8-018",
+      "reading": "Both describe historical information delivered by projected holographic imagery.",
+      "interpretation": "Close semantic paraphrase despite lexical cosine about0.217.",
+      "caution": "This illustrates paraphrase sensitivity and possible upload duplication, not prediction success.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=DvWNnqnBAjc",
+        "sourcePath": "data/digests/DvWNnqnBAjc.json",
+        "sourceSha256": "fd5f4a80fd759849037316b1ce41ce5c3a82315cee8b86ae4f124171fe0fbce9",
+        "sourcePointer": "/qa_topics/16"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=tskKYl3w0J8",
+        "sourcePath": "data/digests/tskKYl3w0J8.json",
+        "sourceSha256": "9dcd4220b7ee5ab4ab15b8982caf696e0a42ecc929691c22c6434b7362d78112",
+        "sourcePointer": "/qa_topics/18"
+      }
+    },
+    {
+      "leftId": "qa-IKJzZ-KVPdQ-003",
+      "rightId": "qa-SBRcXicYs0I-004",
+      "reading": "Both gists assert a theoretical bodily capacity and unavailable technology later supplied through ET contact.",
+      "interpretation": "Similar conditional health/technology narrative.",
+      "caution": "The study does not validate PFAS detoxification assertions; source wording and clinical evidence remain separate questions.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=IKJzZ-KVPdQ",
+        "sourcePath": "data/digests/IKJzZ-KVPdQ.json",
+        "sourceSha256": "2cde10feb8ce6e2565cdeabb27da144684915ba829cb9d96783c5b058ec94200",
+        "sourcePointer": "/qa_topics/3"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=SBRcXicYs0I",
+        "sourcePath": "data/digests/SBRcXicYs0I.json",
+        "sourceSha256": "f38ccacf597c036fb5242702124310bba0bf196d3aa50414dad19572efa92786",
+        "sourcePointer": "/qa_topics/4"
+      }
+    },
+    {
+      "leftId": "qa-QBk2MQ1MVZo-009",
+      "rightId": "qa-jdzErS12DvU-015",
+      "reading": "Both recommend passion/formula or personal-vibration preparation, while the second adds self-empowerment and mutuality.",
+      "interpretation": "Shared preparation theme despite answer lexical cosine about0.056.",
+      "caution": "There is no common calibrated outcome or matched original session from which to measure answer agreement.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=QBk2MQ1MVZo",
+        "sourcePath": "data/digests/QBk2MQ1MVZo.json",
+        "sourceSha256": "f2cce2c01bd9668bcbd2de1ff0162e1397103ab760d9a65b033e99952cc8739d",
+        "sourcePointer": "/qa_topics/9"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=jdzErS12DvU",
+        "sourcePath": "data/digests/jdzErS12DvU.json",
+        "sourceSha256": "6156eb603023217cb946cf487d41635ad6b057350fc182b9b41e3a7d3b9a11b3",
+        "sourcePointer": "/qa_topics/15"
+      }
+    },
+    {
+      "leftId": "qa-egu6iDTj2ys-016",
+      "rightId": "qa-os4a7-7bnLw-007",
+      "reading": "One gist forecasts contact in about two years; the other gives a2025–2033 window, no later than2050, conditional on collective frequency.",
+      "interpretation": "Different precision and conditionality with zero answer lexical overlap in the fitted feature space.",
+      "caution": "Without trustworthy recording dates and full context, the pair cannot establish drift, inconsistency, deception or a resolved forecast.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=egu6iDTj2ys",
+        "sourcePath": "data/digests/egu6iDTj2ys.json",
+        "sourceSha256": "8292cb81d5e8a4e72906864844cb5bc7b39100e35ebed216de9dd6ac405c29fd",
+        "sourcePointer": "/qa_topics/16"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=os4a7-7bnLw",
+        "sourcePath": "data/digests/os4a7-7bnLw.json",
+        "sourceSha256": "2fac64da12142cd1816274321cbb7d103e420c271cc2592ed1dcebf3f4836e51",
+        "sourcePointer": "/qa_topics/7"
+      }
+    },
+    {
+      "leftId": "qa-mk_yQrOQHJs-010",
+      "rightId": "qa-tskKYl3w0J8-007",
+      "reading": "Both use simultaneous television-screen imagery to describe higher-dimensional awareness.",
+      "interpretation": "Shared analogy with differing detail; model reading sees compatibility rather than demonstrated agreement.",
+      "caution": "Metaphorical dimensional language is not a measured physical dimensionality.",
+      "classification": {
+        "questionLexicalResemblance": "high_by_selection",
+        "possibleThematicRelation": true,
+        "answerAgreement": "undetermined",
+        "humanValidated": false
+      },
+      "leftSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=mk_yQrOQHJs",
+        "sourcePath": "data/digests/mk_yQrOQHJs.json",
+        "sourceSha256": "2bcce50c12b71dfd5ffefb7f746edcb695bb6488e523ae9825731684d8344477",
+        "sourcePointer": "/qa_topics/10"
+      },
+      "rightSource": {
+        "sourceUrl": "https://www.youtube.com/watch?v=tskKYl3w0J8",
+        "sourcePath": "data/digests/tskKYl3w0J8.json",
+        "sourceSha256": "9dcd4220b7ee5ab4ab15b8982caf696e0a42ecc929691c22c6434b7362d78112",
+        "sourcePointer": "/qa_topics/7"
+      }
+    }
+  ]
+}

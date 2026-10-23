@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-23T21:13:39.377453+00:00",
+  "dry_run": true,
+  "quota_bytes": 2147483648,
+  "reserve_free_bytes": 4294967296,
+  "per_file_cap_bytes": 134217728,
+  "current_raw_bytes": 0,
+  "filesystem_free_bytes": 30334615552,
+  "estimated_eligible_bytes": 51200000,
+  "records": [
+    {
+      "video_id": "-0w7wdn_t9I",
+      "source_url": "https://www.youtube.com/watch?v=-0w7wdn_t9I",
+      "estimated_bytes": 27950000,
+      "estimate_basis": "duration * 160kbit/s * 1.25 overhead; not observed size",
+      "eligible": true,
+      "reason": "within_planning_limits",
+      "actual_speaker_status": "unknown_not_audio_verified"
+    },
+    {
+      "video_id": "-14HKeztlR4",
+      "source_url": "https://www.youtube.com/watch?v=-14HKeztlR4",
+      "estimated_bytes": 22775000,
+      "estimate_basis": "duration * 160kbit/s * 1.25 overhead; not observed size",
+      "eligible": true,
+      "reason": "within_planning_limits",
+      "actual_speaker_status": "unknown_not_audio_verified"
+    },
+    {
+      "video_id": "-6d2Fl9LPiQ",
+      "source_url": "https://www.youtube.com/watch?v=-6d2Fl9LPiQ",
+      "estimated_bytes": 475000,
+      "estimate_basis": "duration * 160kbit/s * 1.25 overhead; not observed size",
+      "eligible": true,
+      "reason": "within_planning_limits",
+      "actual_speaker_status": "unknown_not_audio_verified"
+    }
+  ]
+}

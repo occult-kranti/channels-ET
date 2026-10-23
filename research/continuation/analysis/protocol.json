@@ -1,0 +1,71 @@
+{
+  "phase": "continuation-round10",
+  "recordedAt": "2026-10-23T21:12:13.645372+00:00",
+  "design": "Exploratory continuation; recorded after baseline/schema review and before new calculations, not preregistered. Prior expansion findings are known.",
+  "seed": 42,
+  "hypotheses": [
+    {
+      "id": "C1",
+      "question": "Does repeated question wording track repeated answer-gist wording within the available one-practitioner digest corpus?",
+      "calculation": "Independently normalized question/answer TF-IDF on all949candidates; all distinct-upload pairs and .40+question-neighbor subset; Spearman across upload-pair means to reduce unequal pair weighting; source-balanced and exact-question strata.",
+      "falsifier": "Prompt-neighbor answer similarity fails to exceed a fixed-seed size-matched cross-upload reference, or association disappears/reverses after removing pairs from conservative source families.",
+      "bounds": "Lexical co-resemblance in AI summaries; no question equivalence or answer agreement inference."
+    },
+    {
+      "id": "C2",
+      "question": "Could source-neighbor families contaminate an upload-level model split, and are lexical neighborhoods stable to threshold choices?",
+      "calculation": "Connected components of cross-upload question cosine edges at .40/.50/.60/.70/.80/.90; report isolated candidates and largest-component support. Group uploads conservatively when at least two question-pairs cosine>=.80 link them; sensitivity .70/.90. Exact repeated question strings audited separately.",
+      "falsifier": "No multi-upload components or conservative links; a model split passes leakage check if no strict>=.80family spans partitions.",
+      "bounds": "Grouping is a quarantine policy, not verified recording reuse, semantic communities or true contamination proof."
+    },
+    {
+      "id": "C3",
+      "question": "How much matched caption/title pair resemblance covaries with upload length and caption word-count differences?",
+      "calculation": "Identical25matcheduploads; compare raw Spearman and residual rank association after controlling absolute log duration ratio and caption-word-count ratio; within-minus-between residual separation and leave-one-publisher-out influence; report dependent pair units.",
+      "falsifier": "Residual title-caption rank association is negligible/opposite, or publisher separation disappears after nuisance controls; results remain descriptive.",
+      "bounds": "Conditioning is a diagnostic, not causal mediation, speaker separation or domain encoder validation."
+    },
+    {
+      "id": "C4",
+      "question": "Do actual closed-book, retrieval-augmented and LoRA runs improve held-out source-grounded response metrics without leakage?",
+      "calculation": "Audit executed model receipts, fixed grouped train/evaluation splits, source-family overlaps and retrieval scope; display actual measured metrics with their scoring definition only when runs complete.",
+      "falsifier": "No improvement, unchanged results, failed run, or source-family leakage invalidates a generalization claim.",
+      "bounds": "Source-digest reconstruction metrics are not truth, speaker, extraterrestrial-origin or human-preference validation."
+    }
+  ],
+  "sourceBoundaries": [
+    "Only new acquisition successes may enlarge the baseline; this stage numerical analysis initiallypins old925metadata/30captionvectors/949digestQAs.",
+    "No new learned semantic inference inC1\u2013C3; NMF/BERTopic methods are not added without a distinct measurement question.",
+    "No independent-pair confidence intervals or causal p-values.",
+    "Raw captions/audio absent; access and generation experiments have separate execution receipts."
+  ],
+  "implementationNote": {
+    "recordedAt": "2026-10-23T21:15:16.382002+00:00",
+    "benchmarkGuard": "The model worker independently specified a stronger quarantine rule before this worker executed it: any exact normalized question OR any pair cosine>=.80 OR at least three pairs>=.40. The planned two-link .70/.80/.90 rule remains a separate sensitivity. Neither is original-session truth.",
+    "source": "Direct model-worker task message; analysis independently reconstructed the rule and confirmed its 55 source groups.",
+    "thresholdInterpretation": "These thresholds are exploratory operational choices. No held-out semantic-performance optimum or preregistration is claimed."
+  },
+  "round11Amendment": {
+    "recordedAt": "2026-10-23T21:27:45.882177+00:00",
+    "reason": "The first changed candidate shows selected-pool contrast: quarantine is constructed from question similarity, so answer-similarity contrasts must expose prompt-similarity support.",
+    "commonSupportDesign": {
+      "minimumQuestionCosine": 0.4,
+      "binEdges": [
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.000001
+      ],
+      "binConvention": "Left closed, right open; final upper bound includes exact1.0.",
+      "eligibleBins": "Retain only bins containing at least one within-quarantine and one cross-quarantine neighbor pair. Empty strata remain null and are not assigned zero similarity.",
+      "weights": "Pooled number of neighbor pairs in each shared-support bin divided by total neighbor pairs in all shared-support bins; apply identical weights to within/cross means.",
+      "alternateDescription": "Also report original pooled means and the two unweighted common-support group means; these are different estimands and do not replace the original first-candidate numbers.",
+      "falsifier": "A positive same-quarantine lexical advantage is disconfirmed in this diagnostic if its standardized mean is no greater than the standardized cross-quarantine mean.",
+      "scope": "Coarse prompt-similarity standardization addresses one selected-pool composition issue, not causal source reuse, speaker identity or answer agreement. Pair dependency and remaining within-bin variation persist."
+    },
+    "modelMetricAudit": "Preserve raw tokenF1 and strict underscore-marker results. Inspect separate exact-train-query citation-positive controls and selected model-text annotations as different tasks. If actual outputs exist, compute a labelled sensitivity excluding supplied citation labels from both prediction and reference tokenization; do not optimize model or replace raw metric. Post-hoc refusal-pattern coding must remain distinct from human correctness labels."
+  }
+}

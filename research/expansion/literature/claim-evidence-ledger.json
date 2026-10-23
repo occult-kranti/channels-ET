@@ -1,0 +1,72 @@
+[
+  {
+    "id": "M01",
+    "source_key": "ribeiro2021youniverse",
+    "claim": "Report collection, eligibility, coverage and missingness before interpreting this curated YouTube sample.",
+    "primary_url": "https://ojs.aaai.org/index.php/ICWSM/article/view/18125",
+    "evidence_location": "Sampling/English filtering, bias analysis; Figures1\u20138.",
+    "access_depth": "Official9-page dataset paper read: collection, description, analysis, limitations and figure captions.",
+    "current_phase_access": "prior-release source register inspected; not new fulltext reading",
+    "limit": "Method adaptation, not replication. Do not borrow weights or population estimates."
+  },
+  {
+    "id": "M02",
+    "source_key": "boesinger2024tube2vec",
+    "claim": "Averaging MiniLM title/description embeddings by YouTube account is an established representation precedent.",
+    "primary_url": "https://ojs.aaai.org/index.php/ICWSM/article/view/31450",
+    "evidence_location": "Sections2\u20136, Tables1\u20134, Figure1; https://ojs.aaai.org/index.php/ICWSM/article/download/31450/33610/35506",
+    "access_depth": "Official7-page Poster Paper read: collection, representations, human tasks, tables, discussion/limitations; repository README inspected.",
+    "current_phase_access": "prior-release source register inspected; not new fulltext reading",
+    "limit": "Prior paper is an ICWSM Poster Paper; no Tube2Vec execution or human evaluation reproduced."
+  },
+  {
+    "id": "M03",
+    "source_key": "wahbeh2023answers",
+    "claim": "Elicited matched-question designs and naturalistic public-video Q&A use different observational units; theme overlap is not answer correspondence.",
+    "primary_url": "https://journalofscientificexploration.org/index.php/jse/article/view/2907",
+    "evidence_location": "Printed351\u2013356 and365\u2013366; Table2; reviews/corpus/primary_source_cards.json.",
+    "access_depth": "Full publisher PDF deeply read by corpus reviewer.",
+    "current_phase_access": "prior-release source register inspected; not new fulltext reading",
+    "limit": "Neither correspondence ratings nor our similarity scores establish truth."
+  },
+  {
+    "id": "M04",
+    "source_key": "doogan2021twaddle",
+    "claim": "Interpret topic labels against both terms and source documents.",
+    "primary_url": "https://aclanthology.org/2021.naacl-main.300/",
+    "evidence_location": "Section3 interpretation propositions; SME open labeling, Section4, discussion.",
+    "access_depth": "Official25-page PDF; methods, results and selected appendices read.",
+    "current_phase_access": "prior-release source register inspected; not new fulltext reading",
+    "limit": "Their domain-expert evaluation is not reproduced by AI-agent review."
+  },
+  {
+    "id": "M05",
+    "source_key": "chang2009reading",
+    "claim": "Automated topic metrics do not substitute for interpretation validation.",
+    "primary_url": "https://papers.nips.cc/paper_files/paper/2009/hash/f92586a25bb3145facd64ab20fd554ff-Abstract.html",
+    "evidence_location": "Word/topic intrusion tasks and comparison with statistical fit.",
+    "access_depth": "Primary abstract and metadata read; full text available/retrieved, but no deep full-paper review claimed in this phase.",
+    "current_phase_access": "prior-release source register inspected; not new fulltext reading",
+    "limit": "Human validation remains a proposed study, not completed work."
+  },
+  {
+    "id": "M06",
+    "source_key": "olteanu2019social",
+    "claim": "State selection, platform, access and survivorship biases.",
+    "primary_url": "https://doi.org/10.3389/fdata.2019.00013",
+    "evidence_location": "Social-data bias taxonomy and ethical boundaries.",
+    "access_depth": "Primary abstract and metadata read; full text available/retrieved, but no deep full-paper review claimed in this phase.",
+    "current_phase_access": "prior-release source register inspected; not new fulltext reading",
+    "limit": "This source frames limitations; it does not validate this dataset."
+  },
+  {
+    "id": "M07",
+    "source_key": "bender2018statements",
+    "claim": "Retain language, collection and use-context data statements.",
+    "primary_url": "https://aclanthology.org/Q18-1041/",
+    "evidence_location": "Data statement schema: curation, language, speaker/annotator characteristics and provenance.",
+    "access_depth": "Official18-page PDF retrieved; abstract and data-statement schema inspected.",
+    "current_phase_access": "prior-release source register inspected; not new fulltext reading",
+    "limit": "Our English eligibility heuristic is not human language verification."
+  }
+]

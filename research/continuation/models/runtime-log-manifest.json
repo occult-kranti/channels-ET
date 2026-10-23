@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "file": "runtime-logs/benchmark-run.log",
+      "bytes": 8726,
+      "sha256": "2629febc0a36f8a4955125e50ad0c750b11bafec3f03e34f88474d7d68ad5f4f"
+    },
+    {
+      "file": "runtime-logs/content-label-run.log",
+      "bytes": 4227,
+      "sha256": "82e29d16dba1c112b1453476e4fab0a56bfcc1b68731a68d3048c0574fcffbc5"
+    },
+    {
+      "file": "runtime-logs/round11-diagnostics-run.log",
+      "bytes": 4542,
+      "sha256": "f124b0eaf9d0ada1ff3c86ad4fdafba3b12bef35cea5efeb4fc87134652f0a06"
+    },
+    {
+      "file": "runtime-logs/qwen35-smoke.log",
+      "bytes": 3302,
+      "sha256": "54235f0fecbd91a4bb9fbfa8d2647b9bfca70d4243124d5a0a3b43dddae92a91"
+    },
+    {
+      "file": "runtime-logs/round12-option-order-attempt1.log",
+      "bytes": 2035,
+      "sha256": "1ed66856c59bd09fba8194ff29969c92a154a94ef789e33cb65270fb8379441e"
+    },
+    {
+      "file": "runtime-logs/round12-option-order.log",
+      "bytes": 3874,
+      "sha256": "dd729e2374646fa532c8c607ceeb4c43e386a428b6a5b5b0823e34855081b4bc"
+    },
+    {
+      "file": "runtime-logs/qwen35-content-label-run.log",
+      "bytes": 5218,
+      "sha256": "a6a9b6fb41933ce2e0ac505a63850cd1d1b61a03d5d4a9d258d2724e3835adf6"
+    },
+    {
+      "file": "runtime-logs/environment-repeatability.log",
+      "bytes": 17791,
+      "sha256": "be452953f0372f88c5d6453fde1186d14189f4ee9e981fde6012b39201cc6552"
+    }
+  ],
+  "scope": "Executed local model/package logs. Raw video/caption text and credentials are not included."
+}

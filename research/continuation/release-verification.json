@@ -1,0 +1,947 @@
+{
+  "status": "PASS",
+  "checks": 234,
+  "failures": [],
+  "pdfSha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+  "sourceZipSha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+  "dashboardDataSha256": "b82fcbfdf8ca3e0714712a6c4f76afbfff07096aa469f67b590a72e254d313a5",
+  "scope": "Source and byte consistency; does not replay inference, verify claim truth, certify human review or establish hosted deployment.",
+  "details": [
+    {
+      "check": "Paper source hash: dist/analysis/data.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/expansion/qa/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/expansion/analysis/results.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/analysis/results.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/acquisition/acquisition-status.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/paper/vendor/aaai2027.sty",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/paper/vendor/aaai2027.bst",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/benchmark-results.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/training-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/split.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/model-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/hardware.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/length-audit.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/posthoc-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/current-family-smoke.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/qwen35-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/option-order-results.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/option-order-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/option-order-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/conditional-lexicon-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/qwen35-content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/qwen35-content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/qwen35-content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/models/annotation-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/expansion/qa/close-reading.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/expansion/qa/pair-close-reading.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/literature/source-register.json",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/literature/additions.bib",
+      "passed": true
+    },
+    {
+      "check": "Paper source hash: research/continuation/literature/venue-check.json",
+      "passed": true
+    },
+    {
+      "check": "Paper artifact: channels-et-paper.pdf",
+      "passed": true
+    },
+    {
+      "check": "Paper artifact: channels-et-source.zip",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: README.md",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: appendices.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: body.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/coverage-table.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/extended-results.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/caption-duration-controls.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/evidence-flow.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/evidence-flow.png",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/lexical-graph-stability.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/model-reconstruction-controls.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/question-answer-alignment.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/question-cosine-common-support.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/retained-caption-selection.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/retained-concentration.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/retained-keyword-duration.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/figures/source-leakage-guard.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/model-results.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/new-related-work.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/results.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: generated/values.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: input-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: main.tex",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: references.bib",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: tex-dependencies.json",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: aaai2027.bst",
+      "passed": true
+    },
+    {
+      "check": "Manuscript ZIP member equals source: aaai2027.sty",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: analysis-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: analysis-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: model-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: model-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: training-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: training-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: qwen-digest-lora-pilot.zip",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: qwen-digest-lora-pilot.zip",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: posthoc-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: posthoc-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: current-family-smoke.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: current-family-smoke.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: length-audit.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: length-audit.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: option-order-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: option-order-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: option-order-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: option-order-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: option-order-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: option-order-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: annotation-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: annotation-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: conditional-lexicon-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: conditional-lexicon-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: qwen35-content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: qwen35-content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: qwen35-content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: qwen35-content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: qwen35-content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: qwen35-content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: hardware.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: hardware.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: model-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: model-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: model-split.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: model-split.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: model-metadata.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: model-metadata.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: acquisition-summary.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: acquisition-summary.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: corpus-index.sqlite",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: corpus-index.sqlite",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: qa-candidates.sqlite",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: qa-candidates.sqlite",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: qa-summary.json",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: qa-summary.json",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: paper.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: paper.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public download binding: source.zip",
+      "passed": true
+    },
+    {
+      "check": "Public download equals source: source.zip",
+      "passed": true
+    },
+    {
+      "check": "Public interface: index.html",
+      "passed": true
+    },
+    {
+      "check": "Public interface: app.js",
+      "passed": true
+    },
+    {
+      "check": "Public interface: styles.css",
+      "passed": true
+    },
+    {
+      "check": "Public figure: question-answer-alignment.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: question-answer-alignment.svg",
+      "passed": true
+    },
+    {
+      "check": "Public figure: question-answer-alignment.png",
+      "passed": true
+    },
+    {
+      "check": "Manuscript analysis figure: question-answer-alignment.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: lexical-graph-stability.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: lexical-graph-stability.svg",
+      "passed": true
+    },
+    {
+      "check": "Public figure: lexical-graph-stability.png",
+      "passed": true
+    },
+    {
+      "check": "Manuscript analysis figure: lexical-graph-stability.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: caption-duration-controls.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: caption-duration-controls.svg",
+      "passed": true
+    },
+    {
+      "check": "Public figure: caption-duration-controls.png",
+      "passed": true
+    },
+    {
+      "check": "Manuscript analysis figure: caption-duration-controls.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: source-leakage-guard.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: source-leakage-guard.svg",
+      "passed": true
+    },
+    {
+      "check": "Public figure: source-leakage-guard.png",
+      "passed": true
+    },
+    {
+      "check": "Manuscript analysis figure: source-leakage-guard.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: model-reconstruction-controls.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: model-reconstruction-controls.svg",
+      "passed": true
+    },
+    {
+      "check": "Public figure: model-reconstruction-controls.png",
+      "passed": true
+    },
+    {
+      "check": "Manuscript analysis figure: model-reconstruction-controls.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: question-cosine-common-support.pdf",
+      "passed": true
+    },
+    {
+      "check": "Public figure: question-cosine-common-support.svg",
+      "passed": true
+    },
+    {
+      "check": "Public figure: question-cosine-common-support.png",
+      "passed": true
+    },
+    {
+      "check": "Manuscript analysis figure: question-cosine-common-support.pdf",
+      "passed": true
+    },
+    {
+      "check": "Manuscript retained figure: concentration",
+      "passed": true
+    },
+    {
+      "check": "Manuscript retained figure: caption-selection",
+      "passed": true
+    },
+    {
+      "check": "Manuscript retained figure: keyword-duration",
+      "passed": true
+    },
+    {
+      "check": "Released adapter ZIP",
+      "passed": true
+    },
+    {
+      "check": "Released adapter member: LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "Released adapter member: NOTICE.txt",
+      "passed": true
+    },
+    {
+      "check": "Released adapter member: README.md",
+      "passed": true
+    },
+    {
+      "check": "Released adapter member: adapter_config.json",
+      "passed": true
+    },
+    {
+      "check": "Released adapter member: adapter_model.safetensors",
+      "passed": true
+    },
+    {
+      "check": "Released adapter member: training-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Released adapter member: training-source-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Adapter source binding: sourceQaSha256",
+      "passed": true
+    },
+    {
+      "check": "Adapter source binding: splitSha256",
+      "passed": true
+    },
+    {
+      "check": "Adapter source binding: protocolSha256",
+      "passed": true
+    },
+    {
+      "check": "Train/test quarantine groups disjoint",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-fZmY4xS_qXE-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-IKYfZdjv3aE-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-9Ij2AEoRwoM-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-eCxOH-AK1rc-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-k0lWJ2B90-I-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-lLFUTAVah30-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-ZACIL5Hzb5c-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-zOcZDBhRaOQ-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-5Js8U9sJ5-8-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-JSwqz_ZhH_I-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-ozHG5P7fY5I-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-5lOHuqDbpoc-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-WEVqgD-L5kc-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-BaN26a0SbLQ-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-kPWOUEtUx2Y-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-OzkviF1GCFc-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-hmX3hlNJBjU-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-Rcjd1TkZUMY-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-0htF1V0v6ec-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-S3Xw09ZE2Dg-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-wCZ1Lib1_cQ-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-IKJzZ-KVPdQ-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-aZvcNhWthUA-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-hFC4F3JO33M-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-T5QtncJq1Jc-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-Dw9XHTMrgBE-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-jQbxp4e6bfg-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-d--HZiDqgs0-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-pfB4F7uAjwE-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-EHK_mwdk3kM-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-mzcFoYUvbOE-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-y0-_YOFU8eQ-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-4NGd9kqWM04-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-U-DHIk0lIQ4-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-hTlU_M_R0eE-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-7WjydoNj7hE-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-fOi0W9_JEWM-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-kvU9mCJr-eo-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-94agFEADfyk-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-9FrwPg8FYvM-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-ETuHIzyRhyY-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-E_cPno64Z-Q-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-HoYNcoMTk-4-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-p8JC21bFf5M-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-2GVhU6BRVWY-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-98KsASkO8Cs-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-ji9rMw37o2M-000",
+      "passed": true
+    },
+    {
+      "check": "Adapter input digest: qa-fZmY4xS_qXE-001",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: analysis/results.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/posthoc-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/current-family-smoke.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/option-order-results.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/option-order-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/option-order-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/annotation-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/conditional-lexicon-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/qwen35-content-label-results.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/qwen35-content-label-predictions.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded dashboard result: models/qwen35-content-label-protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Current numerical reproduction receipt",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/lexical-graph-thresholds.csv",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/matched-representation-pairs.csv",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/question-answer-plot-pairs.json",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/question-cosine-common-support.csv",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/question-neighbor-pairs.csv",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/question-neighbor-pairs.json",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/source-family-map.csv",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/source-family-map.json",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/strict-source-family-sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/strict-source-family-sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/upload-pair-mean-cosines.csv",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: generated/upload-pair-mean-cosines.json",
+      "passed": true
+    },
+    {
+      "check": "Current reproduced output: results.json",
+      "passed": true
+    }
+  ]
+}

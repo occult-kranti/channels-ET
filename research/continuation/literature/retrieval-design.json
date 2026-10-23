@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "id": "lora-page",
+      "url": "https://openreview.net/forum?id=nZeVKeeFYf9",
+      "attempted_at": "2026-10-23T21:13:23.420369+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DnZeVKeeFYf9",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4789,
+      "sha256": "9d2cfdb42b2c5eea831fd21b091e4b9c974832a9e4a584a6add8fd07737829c3"
+    },
+    {
+      "id": "lora-pdf",
+      "url": "https://openreview.net/pdf?id=nZeVKeeFYf9",
+      "attempted_at": "2026-10-23T21:13:23.421015+00:00",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "dedup-page",
+      "url": "https://aclanthology.org/2022.acl-long.577/",
+      "attempted_at": "2026-10-23T21:13:23.421421+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2022.acl-long.577/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 42876,
+      "sha256": "c3b733d157e764968ed1ca5617fa90a858c49a5a8026eb0d78200cb3785376be"
+    },
+    {
+      "id": "dedup-pdf",
+      "url": "https://aclanthology.org/2022.acl-long.577.pdf",
+      "attempted_at": "2026-10-23T21:13:24.031617+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://aclanthology.org/2022.acl-long.577.pdf",
+      "content_type": "application/pdf",
+      "bytes": 634490,
+      "sha256": "f282bf06ab3564b363a4df5ab184cebb729c23a3be3ecb9aa7c5edc0a9f5e045"
+    },
+    {
+      "id": "et-semantic-supplement",
+      "url": "https://api.figshare.com/v2/articles/31100860",
+      "attempted_at": "2026-10-23T21:13:24.441855+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.figshare.com/v2/articles/31100860",
+      "content_type": "application/json",
+      "bytes": 6212,
+      "sha256": "ab3cf615203cb196fb963e17131c1d4e7a71cf668bfe4a43bc18de1e636b93c2"
+    },
+    {
+      "id": "et-records-supplement",
+      "url": "https://api.figshare.com/v2/articles/29912237",
+      "attempted_at": "2026-10-23T21:13:24.774792+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.figshare.com/v2/articles/29912237",
+      "content_type": "application/json",
+      "bytes": 3521,
+      "sha256": "8400d7f6d3cf395cbd764a9a903fadc96f4b6d47acc3f46b28bb695e9d747f02"
+    }
+  ]
+}

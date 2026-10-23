@@ -1,0 +1,38 @@
+{
+  "scope": "Public author manuscript and public supplementary code/prompt materials, not a publisher-block workaround. Access depths distinct.",
+  "sources": [
+    {
+      "id": "lora-author-pdf",
+      "url": "https://arxiv.org/pdf/2106.09685",
+      "attempted_at": "2026-10-23T21:14:26.331814+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/pdf/2106.09685",
+      "content_type": "application/pdf",
+      "bytes": 1609513,
+      "sha256": "e9a0d3128767db616085dc0f4e6e455e672e89af823e8ed1282793682787395a"
+    },
+    {
+      "id": "et-semantic-supplement-code",
+      "url": "https://ndownloader.figshare.com/files/61152403",
+      "attempted_at": "2026-10-23T21:14:26.332865+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/61152403/trancchann_eti_final_seman.py?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20261023/eu-west-1/s3/aws4_request&X-Amz-Date=20261023T211427Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=21705f17aa47357a6fe6bb3dc537e7868bca15ae3f59694c024a4dd89db793dc",
+      "content_type": "text/x-python",
+      "bytes": 14764,
+      "sha256": "19fdd75b271d2ff9458f93be45702fd6c68c290bb177fba51a0c065e28f3f196"
+    },
+    {
+      "id": "et-records-supplement-pdf",
+      "url": "https://ndownloader.figshare.com/files/57193115",
+      "attempted_at": "2026-10-23T21:14:26.333194+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/57193115/SupplementalData.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20261023/eu-west-1/s3/aws4_request&X-Amz-Date=20261023T211427Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=ab3bee85e5bdf30756222b72c69fb76e05291047117f6f8372f5d477c482fc62",
+      "content_type": "application/pdf",
+      "bytes": 1834629,
+      "sha256": "4ec5630a102dd1ee4225e83f30d1878ea24ed32997464ce3719212def1a19d4a"
+    }
+  ]
+}

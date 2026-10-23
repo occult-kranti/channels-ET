@@ -1,0 +1,16 @@
+{
+  "device": "cpu",
+  "torchThreads": 2,
+  "cudaAvailable": false,
+  "logicalCpus": 5,
+  "cpuQuota": "400000 100000",
+  "memoryLimit": "34359738368",
+  "versions": {
+    "torch": "2.6.0+cpu",
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "accelerate": "1.6.0",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "round": 9,
+  "role": "Independent AI methods/literature reviewer; no human peer review or source-truth validation",
+  "status": "PASS_WITH_DECLARED_EVIDENCE_LIMITS",
+  "reviewed_at": "2026-10-23T20:46:11.933194+00:00",
+  "round8_frozen_archive_sha256": "03654cafae00e7fc15bdd1f30b60cfcc75fb1047b774036d931eb2bb79e64bc3",
+  "final_pdf_sha256": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1",
+  "final_pdf_pages": 25,
+  "review_access": [
+    "Actual final PDF text extracted and inspected; final rendered page/clean-source build checks belong to paper/design workstreams",
+    "Paper source/citations and source-access registers inspected",
+    "All20 single-candidate readings and12 paired readings checked against actual retained digest fields; interpretations supported at digest level",
+    "Current dashboard methods/source-link code inspected; interaction verification delegated to dashboard workstream",
+    "Independent arithmetic/provenance/control scripts run with no live platform collection"
+  ],
+  "closed_findings": [
+    {
+      "id": "M8-01",
+      "status": "resolved",
+      "evidence": "Paper4.1 now lists exact name+channeling/questions answers/interview and name/entity templates; other spellings proposed."
+    },
+    {
+      "id": "M8-02",
+      "status": "resolved",
+      "evidence": "Paper4.3 and dashboard methods state separate question/answer unigram-bigram TF-IDF fits,English stopwords,sublinearTF,smoothIDF,L2 andcross-upload cutoff0.40;paper min_df1 explicit."
+    },
+    {
+      "id": "M8-03",
+      "status": "resolved",
+      "evidence": "Paper5.2 says exploratory direction check; plan follows schema/prior-summary inspection before new computations and is not preregistered."
+    },
+    {
+      "id": "M8-04",
+      "status": "resolved",
+      "evidence": "Dashboard exact historical-pilot then deterministic one-nonpilot-per-publisher selection; language/format strata proposed only."
+    },
+    {
+      "id": "M8-05",
+      "status": "resolved_as_declared_scope",
+      "evidence": "Paper4.3 andQAREADME identify v1digest schema; future verified transcript turns require separately versioned migration."
+    }
+  ],
+  "verified_outcomes": [
+    "769 independent analysis checks including allpublisher concentration,selection,keywords,titlefamilies,matchedcosines,labelpermutations,equalaccount rows,LOPO omissions,crosslayergap",
+    "7276 independent QA checks including949originaldigestjoins,127lexicalpairs,thresholdgrid,71uploadpairunits,top3share,CSVfalse/nulls,20+12declaredselections/sourcepointers,SQLiteintegrity",
+    "38 independent no-network collector controls including stop-on-block,resume,nooverwrite,IDdedup,externalraw acceptance underemptyreserved.git,trueHEAD/linkedgit rejection",
+    "25uploads14publishers pairpool distinguished from22videos11accounts oldcentroid pool;6zero keywordmedians notsignreversals",
+    "installed toolversions separated fromactualurllibwatchpreflight1;zero newsourcecollections;plannedqueries/crawls/captions notresults",
+    "28source prior scholarly access depths retained;no freshfulltext reading implied by10toolREADME/license downloads;noalgorithmicnoveltyclaim"
+  ],
+  "checks": [
+    {
+      "receipt": "research/expansion/literature/independent-verification.json",
+      "sha256": "a24b5a35d72f7f4c3d250aaf1bdd5d2ed4bbb358b0d42083756334fd8a2bdf4a",
+      "status": "PASS",
+      "checks": 769
+    },
+    {
+      "receipt": "research/expansion/literature/independent-qa-verification.json",
+      "sha256": "55da7e9f776392a4569857b82213d7503c4ca54f9c0f2330f26bf0fd8c9e26c0",
+      "status": "PASS",
+      "checks": 7276
+    },
+    {
+      "receipt": "research/expansion/literature/independent-collector-verification.json",
+      "sha256": "5737dcb76fa39299b7b715040062ebbdb7adeca7fbca1a57370c2f6a4278caad",
+      "status": "PASS",
+      "checks": 38
+    }
+  ],
+  "reviewed_artifacts": [
+    {
+      "path": "research/expansion/paper/channeling-atlas-expansion-paper.pdf",
+      "sha256": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1",
+      "bytes": 459228
+    },
+    {
+      "path": "research/expansion/paper/channeling-atlas-expansion-source.zip",
+      "sha256": "c0bf5184a71029fe7f1fbe38d5ca259d4a789866a69622b300665e3d6a5fa4d4",
+      "bytes": 118072
+    },
+    {
+      "path": "research/expansion/paper/body.tex",
+      "sha256": "ffd6e4a120986ae4c4199eff71c2a22cffdaf88f6a4f7ff6c73b1c745a94299f",
+      "bytes": 35465
+    },
+    {
+      "path": "research/expansion/paper/appendices.tex",
+      "sha256": "bac004370269283a77bf54ab1d22775e158c22ae01084c2cd30246d8d9493628",
+      "bytes": 9049
+    },
+    {
+      "path": "research/expansion/paper/input-manifest.json",
+      "sha256": "af4e371c2136ccdcd8385b25b42c2e8ba7858af163fb1dcbd3dbb1aba04edd98",
+      "bytes": 1164
+    },
+    {
+      "path": "research/expansion/analysis/analyze.py",
+      "sha256": "c71f4bc72855479df77696d7344908159ed50302c28b97b75e9d2781bbbb11e2",
+      "bytes": 17496
+    },
+    {
+      "path": "research/expansion/analysis/results.json",
+      "sha256": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216",
+      "bytes": 410014
+    },
+    {
+      "path": "research/expansion/qa/summary.json",
+      "sha256": "7cc9705a73bed33523397b0e4812bb47974dfc21a8a48c83d294c53948a46128",
+      "bytes": 245639
+    },
+    {
+      "path": "research/expansion/qa/qa-candidates.json",
+      "sha256": "87034285066bea7c59f4b190977b6a7b9f1077d0291dae834c25c904e813043a",
+      "bytes": 1376137
+    },
+    {
+      "path": "research/expansion/qa/qa-candidates.sqlite",
+      "sha256": "5c8e8eb8dc0d1a67461719ebfc5d35b18f03a30eed77a9acbe7a06101fa8321c",
+      "bytes": 925696
+    },
+    {
+      "path": "research/expansion/qa/qa-candidates.csv",
+      "sha256": "c5dc89e20181f7e97e7011c50db7c23e42d6aa2839608401bddc19bc8745d2a9",
+      "bytes": 673444
+    },
+    {
+      "path": "research/expansion/qa/question-pairs.json",
+      "sha256": "17629517ea6d187d92aab30079be8d5b61f2fc581e54012410e5bf10a544a476",
+      "bytes": 86407
+    },
+    {
+      "path": "research/expansion/qa/close-reading.json",
+      "sha256": "3a42d6c9613bda1f6c109e4a2bdeabb0da6d9145fe359ffdc231824d76364aee",
+      "bytes": 6787
+    },
+    {
+      "path": "research/expansion/qa/pair-close-reading.json",
+      "sha256": "f45327d8b9da9a377b6eccd3f494b81e225a0f2b277cd877579c10d61c24f273",
+      "bytes": 15227
+    },
+    {
+      "path": "research/expansion/acquisition/collect.py",
+      "sha256": "59b69185b088c2b76bafc3f51c9f99a46f85dd9a36e6a84df344052116cc4fd4",
+      "bytes": 20265
+    },
+    {
+      "path": "research/expansion/acquisition/acquisition-summary.json",
+      "sha256": "07e87b9ee175c1ed1cf9946303671923fa5153fe0a196bd920bdfdbfe0243c75",
+      "bytes": 2071
+    },
+    {
+      "path": "research/expansion/acquisition/preflight-initial.json",
+      "sha256": "1eecf7e7273ef6f2b3b9a2e0e5c9842001aa589280a7a0cc246edcd136a14b0a",
+      "bytes": 596
+    },
+    {
+      "path": "research/expansion/literature/scholarly-register.json",
+      "sha256": "16e6cf8864fcf9275af086395aa93518da0c4a7f5dadc0576f25128cef4aef6d",
+      "bytes": 45337
+    },
+    {
+      "path": "research/expansion/literature/software-register.json",
+      "sha256": "994998042b53d86ddeb2adee82fe1255664e83008480a60cf65cc0e035799d3b",
+      "bytes": 9694
+    },
+    {
+      "path": "dist/expansion/app.js",
+      "sha256": "18737c6377638d09ded0f1aca0cd17d910063a4759337c3b24cd1990cba77238",
+      "bytes": 34927
+    },
+    {
+      "path": "dist/expansion/evidence.json",
+      "sha256": "388785631fd23a0ab070cd6733e8d96dd17c0ff0377c5e2a9d3e8ea5eecef9bf",
+      "bytes": 1700175
+    },
+    {
+      "path": "dist/expansion/diagnostics.json",
+      "sha256": "1a288dea2475eedc4b1acb2a5cf0a01196c2af1c5b15a41443e3b6a9a2eb2545",
+      "bytes": 297579
+    },
+    {
+      "path": "dist/expansion/qa-summary.json",
+      "sha256": "7cc9705a73bed33523397b0e4812bb47974dfc21a8a48c83d294c53948a46128",
+      "bytes": 245639
+    }
+  ],
+  "unresolved_but_explicit_limits": [
+    "New YouTube crawling/search/caption collection remains externally blocked;105other inherited practitioner records have no usable Q&A text",
+    "Source speech accuracy,speaker identity,originalsession independence,keyword/answer construct validity and human annotation not established",
+    "Model-assisted interpretations are not ethnography,humaninterrateragreement,independentpeerreview or medical/physical evidence",
+    "No representative active-medium census,causalfinding,answeragreement verdict,ETorigin finding,submission compliance or release-rights certification",
+    "Final deployment/publication and browser interaction checks not performed by this reviewer"
+  ],
+  "blocking_methods_findings": [],
+  "closure": "This receipt binds only the hashes listed; later edits reopen affected checks."
+}

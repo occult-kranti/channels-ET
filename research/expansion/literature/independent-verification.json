@@ -1,0 +1,4696 @@
+{
+  "role": "independent AI methods reviewer; technical verification, not human construct validation",
+  "source_sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "result_sha256": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216",
+  "producer_sha256": "c71f4bc72855479df77696d7344908159ed50302c28b97b75e9d2781bbbb11e2",
+  "checks": 769,
+  "failures": [],
+  "status": "PASS",
+  "independence": "No producer import. Gini via pairwise absolute differences; summaries via stdlib; cosine via double-precision direct dot; exact publisher-label null regenerated.",
+  "decisive_results": {
+    "top10_share": 0.3803611738148984,
+    "gini": 0.6713318284424379,
+    "hhi": 0.024815413072168523,
+    "pilot_median_minutes": 8.608333333333334,
+    "other_median_minutes": 19.366666666666667,
+    "matched_documents": 25,
+    "matched_publishers": 14,
+    "keyword_direction_comparison": [
+      {
+        "id": "contact",
+        "pooled": 0.028210374911173702,
+        "paired_median": 0.0,
+        "same_direction": false
+      },
+      {
+        "id": "agency",
+        "pooled": 0.004306469978852923,
+        "paired_median": 0.0,
+        "same_direction": false
+      },
+      {
+        "id": "healing",
+        "pooled": -0.032593899024837114,
+        "paired_median": 0.0,
+        "same_direction": false
+      },
+      {
+        "id": "consciousness",
+        "pooled": -0.007405758512341501,
+        "paired_median": -0.045454545454545456,
+        "same_direction": true
+      },
+      {
+        "id": "energy",
+        "pooled": -0.056968690336555335,
+        "paired_median": -0.03333333333333333,
+        "same_direction": true
+      },
+      {
+        "id": "society",
+        "pooled": 0.04889512932252292,
+        "paired_median": -0.045454545454545456,
+        "same_direction": false
+      },
+      {
+        "id": "relationships",
+        "pooled": -0.012131745447384868,
+        "paired_median": 0.0,
+        "same_direction": false
+      },
+      {
+        "id": "practice",
+        "pooled": -0.011181411118055495,
+        "paired_median": 0.0,
+        "same_direction": false
+      },
+      {
+        "id": "time",
+        "pooled": 0.06502512820951875,
+        "paired_median": 0.0,
+        "same_direction": false
+      }
+    ]
+  },
+  "limitations": [
+    "Checks validate arithmetic and implemented definitions, not caption correctness, semantic validity, identity joins or representativeness.",
+    "Permutation reference is a diagnostic under hypothetical label exchangeability, not an inferential p-value.",
+    "Paired medians can be zero; pooled-versus-paired direction mismatch must not be called direction reversal."
+  ],
+  "all_checks": [
+    {
+      "check": "Unique source video IDs",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "snapshot hash",
+      "passed": true,
+      "actual": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+      "expected": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc"
+    },
+    {
+      "check": "protocol hash",
+      "passed": true,
+      "actual": "406091e5adb38b924da56af272fbddafb6b60de15d523a620580084668ad3268",
+      "expected": "406091e5adb38b924da56af272fbddafb6b60de15d523a620580084668ad3268"
+    },
+    {
+      "check": "upload denominator",
+      "passed": true,
+      "actual": 925,
+      "expected": 925
+    },
+    {
+      "check": "concentration.accountGroupsWithUploads",
+      "passed": true,
+      "actual": 180,
+      "expected": 180
+    },
+    {
+      "check": "concentration.attributedUploads",
+      "passed": true,
+      "actual": 886,
+      "expected": 886
+    },
+    {
+      "check": "concentration.unattributedUploads",
+      "passed": true,
+      "actual": 39,
+      "expected": 39
+    },
+    {
+      "check": "concentration.gini",
+      "passed": true,
+      "actual": 0.6713318284424379,
+      "expected": 0.6713318284424379
+    },
+    {
+      "check": "concentration.hhi",
+      "passed": true,
+      "actual": 0.02481541307216852,
+      "expected": 0.024815413072168523
+    },
+    {
+      "check": "concentration.effectiveEquallyRepresentedAccounts",
+      "passed": true,
+      "actual": 40.29753593429158,
+      "expected": 40.29753593429158
+    },
+    {
+      "check": "top1Share",
+      "passed": true,
+      "actual": 0.05756207674943566,
+      "expected": 0.05756207674943566
+    },
+    {
+      "check": "top5Share",
+      "passed": true,
+      "actual": 0.20880361173814896,
+      "expected": 0.208803611738149
+    },
+    {
+      "check": "top10Share",
+      "passed": true,
+      "actual": 0.3803611738148984,
+      "expected": 0.3803611738148984
+    },
+    {
+      "check": "top20Share",
+      "passed": true,
+      "actual": 0.6693002257336342,
+      "expected": 0.6693002257336343
+    },
+    {
+      "check": "selection.captionPilotKnownDuration.n",
+      "passed": true,
+      "actual": 30,
+      "expected": 30
+    },
+    {
+      "check": "selection.captionPilotKnownDuration.mean",
+      "passed": true,
+      "actual": 17.790555555555557,
+      "expected": 17.790555555555557
+    },
+    {
+      "check": "selection.captionPilotKnownDuration.median",
+      "passed": true,
+      "actual": 8.608333333333334,
+      "expected": 8.608333333333334
+    },
+    {
+      "check": "selection.captionPilotKnownDuration.q1",
+      "passed": true,
+      "actual": 4.708333333333333,
+      "expected": 4.708333333333333
+    },
+    {
+      "check": "selection.captionPilotKnownDuration.q3",
+      "passed": true,
+      "actual": 19.5375,
+      "expected": 19.5375
+    },
+    {
+      "check": "selection.captionPilotKnownDuration.min",
+      "passed": true,
+      "actual": 0.7333333333333333,
+      "expected": 0.7333333333333333
+    },
+    {
+      "check": "selection.captionPilotKnownDuration.max",
+      "passed": true,
+      "actual": 95.63333333333334,
+      "expected": 95.63333333333334
+    },
+    {
+      "check": "selection.otherIndexedKnownDuration.n",
+      "passed": true,
+      "actual": 851,
+      "expected": 851
+    },
+    {
+      "check": "selection.otherIndexedKnownDuration.mean",
+      "passed": true,
+      "actual": 34.77391304347826,
+      "expected": 34.77391304347826
+    },
+    {
+      "check": "selection.otherIndexedKnownDuration.median",
+      "passed": true,
+      "actual": 19.366666666666667,
+      "expected": 19.366666666666667
+    },
+    {
+      "check": "selection.otherIndexedKnownDuration.q1",
+      "passed": true,
+      "actual": 9.183333333333334,
+      "expected": 9.183333333333334
+    },
+    {
+      "check": "selection.otherIndexedKnownDuration.q3",
+      "passed": true,
+      "actual": 45.8,
+      "expected": 45.8
+    },
+    {
+      "check": "selection.otherIndexedKnownDuration.min",
+      "passed": true,
+      "actual": 0.16666666666666666,
+      "expected": 0.16666666666666666
+    },
+    {
+      "check": "selection.otherIndexedKnownDuration.max",
+      "passed": true,
+      "actual": 475.21666666666664,
+      "expected": 475.21666666666664
+    },
+    {
+      "check": "selection.otherUploadsInPilotAccountsKnownDuration.n",
+      "passed": true,
+      "actual": 430,
+      "expected": 430
+    },
+    {
+      "check": "selection.otherUploadsInPilotAccountsKnownDuration.mean",
+      "passed": true,
+      "actual": 19.674806201550386,
+      "expected": 19.67480620155039
+    },
+    {
+      "check": "selection.otherUploadsInPilotAccountsKnownDuration.median",
+      "passed": true,
+      "actual": 12.041666666666668,
+      "expected": 12.041666666666668
+    },
+    {
+      "check": "selection.otherUploadsInPilotAccountsKnownDuration.q1",
+      "passed": true,
+      "actual": 5.358333333333333,
+      "expected": 5.358333333333333
+    },
+    {
+      "check": "selection.otherUploadsInPilotAccountsKnownDuration.q3",
+      "passed": true,
+      "actual": 22.808333333333334,
+      "expected": 22.808333333333334
+    },
+    {
+      "check": "selection.otherUploadsInPilotAccountsKnownDuration.min",
+      "passed": true,
+      "actual": 0.16666666666666666,
+      "expected": 0.16666666666666666
+    },
+    {
+      "check": "selection.otherUploadsInPilotAccountsKnownDuration.max",
+      "passed": true,
+      "actual": 153.9,
+      "expected": 153.9
+    },
+    {
+      "check": "pilot accounts",
+      "passed": true,
+      "actual": 17,
+      "expected": 17
+    },
+    {
+      "check": "missingness Publishing account resolved",
+      "passed": true,
+      "actual": 886,
+      "expected": 886
+    },
+    {
+      "check": "missing count Publishing account resolved",
+      "passed": true,
+      "actual": 39,
+      "expected": 39
+    },
+    {
+      "check": "missingness Positive upload duration",
+      "passed": true,
+      "actual": 881,
+      "expected": 881
+    },
+    {
+      "check": "missing count Positive upload duration",
+      "passed": true,
+      "actual": 44,
+      "expected": 44
+    },
+    {
+      "check": "missingness Exact upload date",
+      "passed": true,
+      "actual": 880,
+      "expected": 880
+    },
+    {
+      "check": "missing count Exact upload date",
+      "passed": true,
+      "actual": 45,
+      "expected": 45
+    },
+    {
+      "check": "missingness English-likely eligible title",
+      "passed": true,
+      "actual": 742,
+      "expected": 742
+    },
+    {
+      "check": "missing count English-likely eligible title",
+      "passed": true,
+      "actual": 183,
+      "expected": 183
+    },
+    {
+      "check": "missingness Frozen English caption pilot",
+      "passed": true,
+      "actual": 30,
+      "expected": 30
+    },
+    {
+      "check": "missing count Frozen English caption pilot",
+      "passed": true,
+      "actual": 895,
+      "expected": 895
+    },
+    {
+      "check": "regex decoding contact",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits contact Under 5m",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "keyword denominator contact Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share contact Under 5m",
+      "passed": true,
+      "actual": 0.1590909090909091,
+      "expected": 0.1590909090909091
+    },
+    {
+      "check": "keyword hits contact 5\u201315m",
+      "passed": true,
+      "actual": 22,
+      "expected": 22
+    },
+    {
+      "check": "keyword denominator contact 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share contact 5\u201315m",
+      "passed": true,
+      "actual": 0.1286549707602339,
+      "expected": 0.1286549707602339
+    },
+    {
+      "check": "keyword hits contact 15\u201330m",
+      "passed": true,
+      "actual": 25,
+      "expected": 25
+    },
+    {
+      "check": "keyword denominator contact 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share contact 15\u201330m",
+      "passed": true,
+      "actual": 0.14534883720930233,
+      "expected": 0.14534883720930233
+    },
+    {
+      "check": "keyword hits contact 30\u201360m",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "keyword denominator contact 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share contact 30\u201360m",
+      "passed": true,
+      "actual": 0.10606060606060606,
+      "expected": 0.10606060606060606
+    },
+    {
+      "check": "keyword hits contact 60m+",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "check": "keyword denominator contact 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share contact 60m+",
+      "passed": true,
+      "actual": 0.2302158273381295,
+      "expected": 0.2302158273381295
+    },
+    {
+      "check": "pooled difference contact",
+      "passed": true,
+      "actual": 0.028210374911173702,
+      "expected": 0.028210374911173702
+    },
+    {
+      "check": "paired accounts contact",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary contact.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary contact.mean",
+      "passed": true,
+      "actual": 0.08059916622966477,
+      "expected": 0.08059916622966476
+    },
+    {
+      "check": "paired summary contact.median",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary contact.q1",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary contact.q3",
+      "passed": true,
+      "actual": 0.18763440860215053,
+      "expected": 0.18763440860215053
+    },
+    {
+      "check": "paired summary contact.min",
+      "passed": true,
+      "actual": -0.33333333333333337,
+      "expected": -0.33333333333333337
+    },
+    {
+      "check": "paired summary contact.max",
+      "passed": true,
+      "actual": 0.46153846153846156,
+      "expected": 0.46153846153846156
+    },
+    {
+      "check": "direction match contact",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "regex decoding agency",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits agency Under 5m",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "keyword denominator agency Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share agency Under 5m",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "keyword hits agency 5\u201315m",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "keyword denominator agency 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share agency 5\u201315m",
+      "passed": true,
+      "actual": 0.05847953216374269,
+      "expected": 0.05847953216374269
+    },
+    {
+      "check": "keyword hits agency 15\u201330m",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "keyword denominator agency 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share agency 15\u201330m",
+      "passed": true,
+      "actual": 0.06976744186046512,
+      "expected": 0.06976744186046512
+    },
+    {
+      "check": "keyword hits agency 30\u201360m",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "check": "keyword denominator agency 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share agency 30\u201360m",
+      "passed": true,
+      "actual": 0.06818181818181818,
+      "expected": 0.06818181818181818
+    },
+    {
+      "check": "keyword hits agency 60m+",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "check": "keyword denominator agency 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share agency 60m+",
+      "passed": true,
+      "actual": 0.04316546762589928,
+      "expected": 0.04316546762589928
+    },
+    {
+      "check": "pooled difference agency",
+      "passed": true,
+      "actual": 0.004306469978852923,
+      "expected": 0.004306469978852923
+    },
+    {
+      "check": "paired accounts agency",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary agency.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary agency.mean",
+      "passed": true,
+      "actual": -0.023028389010793706,
+      "expected": -0.023028389010793703
+    },
+    {
+      "check": "paired summary agency.median",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary agency.q1",
+      "passed": true,
+      "actual": -0.0393939393939394,
+      "expected": -0.0393939393939394
+    },
+    {
+      "check": "paired summary agency.q3",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary agency.min",
+      "passed": true,
+      "actual": -0.22580645161290322,
+      "expected": -0.22580645161290322
+    },
+    {
+      "check": "paired summary agency.max",
+      "passed": true,
+      "actual": 0.16666666666666666,
+      "expected": 0.16666666666666666
+    },
+    {
+      "check": "direction match agency",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "regex decoding healing",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits healing Under 5m",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "keyword denominator healing Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share healing Under 5m",
+      "passed": true,
+      "actual": 0.045454545454545456,
+      "expected": 0.045454545454545456
+    },
+    {
+      "check": "keyword hits healing 5\u201315m",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "check": "keyword denominator healing 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share healing 5\u201315m",
+      "passed": true,
+      "actual": 0.05263157894736842,
+      "expected": 0.05263157894736842
+    },
+    {
+      "check": "keyword hits healing 15\u201330m",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "check": "keyword denominator healing 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share healing 15\u201330m",
+      "passed": true,
+      "actual": 0.05232558139534884,
+      "expected": 0.05232558139534884
+    },
+    {
+      "check": "keyword hits healing 30\u201360m",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "keyword denominator healing 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share healing 30\u201360m",
+      "passed": true,
+      "actual": 0.030303030303030304,
+      "expected": 0.030303030303030304
+    },
+    {
+      "check": "keyword hits healing 60m+",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "keyword denominator healing 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share healing 60m+",
+      "passed": true,
+      "actual": 0.007194244604316547,
+      "expected": 0.007194244604316547
+    },
+    {
+      "check": "pooled difference healing",
+      "passed": true,
+      "actual": -0.032593899024837114,
+      "expected": -0.032593899024837114
+    },
+    {
+      "check": "paired accounts healing",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary healing.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary healing.mean",
+      "passed": true,
+      "actual": -0.06789952471770654,
+      "expected": -0.06789952471770654
+    },
+    {
+      "check": "paired summary healing.median",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary healing.q1",
+      "passed": true,
+      "actual": -0.11818181818181818,
+      "expected": -0.11818181818181818
+    },
+    {
+      "check": "paired summary healing.q3",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary healing.min",
+      "passed": true,
+      "actual": -0.3333333333333333,
+      "expected": -0.3333333333333333
+    },
+    {
+      "check": "paired summary healing.max",
+      "passed": true,
+      "actual": 0.09523809523809523,
+      "expected": 0.09523809523809523
+    },
+    {
+      "check": "direction match healing",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "regex decoding consciousness",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits consciousness Under 5m",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "keyword denominator consciousness Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share consciousness Under 5m",
+      "passed": true,
+      "actual": 0.125,
+      "expected": 0.125
+    },
+    {
+      "check": "keyword hits consciousness 5\u201315m",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "keyword denominator consciousness 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share consciousness 5\u201315m",
+      "passed": true,
+      "actual": 0.05847953216374269,
+      "expected": 0.05847953216374269
+    },
+    {
+      "check": "keyword hits consciousness 15\u201330m",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "keyword denominator consciousness 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share consciousness 15\u201330m",
+      "passed": true,
+      "actual": 0.08139534883720931,
+      "expected": 0.08139534883720931
+    },
+    {
+      "check": "keyword hits consciousness 30\u201360m",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "keyword denominator consciousness 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share consciousness 30\u201360m",
+      "passed": true,
+      "actual": 0.08333333333333333,
+      "expected": 0.08333333333333333
+    },
+    {
+      "check": "keyword hits consciousness 60m+",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "check": "keyword denominator consciousness 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share consciousness 60m+",
+      "passed": true,
+      "actual": 0.06474820143884892,
+      "expected": 0.06474820143884892
+    },
+    {
+      "check": "pooled difference consciousness",
+      "passed": true,
+      "actual": -0.007405758512341501,
+      "expected": -0.007405758512341501
+    },
+    {
+      "check": "paired accounts consciousness",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary consciousness.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary consciousness.mean",
+      "passed": true,
+      "actual": -0.08434860593951503,
+      "expected": -0.08434860593951503
+    },
+    {
+      "check": "paired summary consciousness.median",
+      "passed": true,
+      "actual": -0.045454545454545456,
+      "expected": -0.045454545454545456
+    },
+    {
+      "check": "paired summary consciousness.q1",
+      "passed": true,
+      "actual": -0.14407467532467533,
+      "expected": -0.14407467532467533
+    },
+    {
+      "check": "paired summary consciousness.q3",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary consciousness.min",
+      "passed": true,
+      "actual": -0.2692307692307692,
+      "expected": -0.2692307692307692
+    },
+    {
+      "check": "paired summary consciousness.max",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "direction match consciousness",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "regex decoding energy",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits energy Under 5m",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "check": "keyword denominator energy Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share energy Under 5m",
+      "passed": true,
+      "actual": 0.056818181818181816,
+      "expected": 0.056818181818181816
+    },
+    {
+      "check": "keyword hits energy 5\u201315m",
+      "passed": true,
+      "actual": 21,
+      "expected": 21
+    },
+    {
+      "check": "keyword denominator energy 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share energy 5\u201315m",
+      "passed": true,
+      "actual": 0.12280701754385964,
+      "expected": 0.12280701754385964
+    },
+    {
+      "check": "keyword hits energy 15\u201330m",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "keyword denominator energy 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share energy 15\u201330m",
+      "passed": true,
+      "actual": 0.13953488372093023,
+      "expected": 0.13953488372093023
+    },
+    {
+      "check": "keyword hits energy 30\u201360m",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "check": "keyword denominator energy 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share energy 30\u201360m",
+      "passed": true,
+      "actual": 0.045454545454545456,
+      "expected": 0.045454545454545456
+    },
+    {
+      "check": "keyword hits energy 60m+",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "keyword denominator energy 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share energy 60m+",
+      "passed": true,
+      "actual": 0.07194244604316546,
+      "expected": 0.07194244604316546
+    },
+    {
+      "check": "pooled difference energy",
+      "passed": true,
+      "actual": -0.056968690336555335,
+      "expected": -0.056968690336555335
+    },
+    {
+      "check": "paired accounts energy",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary energy.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary energy.mean",
+      "passed": true,
+      "actual": -0.08893607614282101,
+      "expected": -0.08893607614282101
+    },
+    {
+      "check": "paired summary energy.median",
+      "passed": true,
+      "actual": -0.03333333333333333,
+      "expected": -0.03333333333333333
+    },
+    {
+      "check": "paired summary energy.q1",
+      "passed": true,
+      "actual": -0.093841642228739,
+      "expected": -0.093841642228739
+    },
+    {
+      "check": "paired summary energy.q3",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary energy.min",
+      "passed": true,
+      "actual": -0.5,
+      "expected": -0.5
+    },
+    {
+      "check": "paired summary energy.max",
+      "passed": true,
+      "actual": 0.09523809523809523,
+      "expected": 0.09523809523809523
+    },
+    {
+      "check": "direction match energy",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "regex decoding society",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits society Under 5m",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "keyword denominator society Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share society Under 5m",
+      "passed": true,
+      "actual": 0.022727272727272728,
+      "expected": 0.022727272727272728
+    },
+    {
+      "check": "keyword hits society 5\u201315m",
+      "passed": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "check": "keyword denominator society 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share society 5\u201315m",
+      "passed": true,
+      "actual": 0.10526315789473684,
+      "expected": 0.10526315789473684
+    },
+    {
+      "check": "keyword hits society 15\u201330m",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "keyword denominator society 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share society 15\u201330m",
+      "passed": true,
+      "actual": 0.0755813953488372,
+      "expected": 0.0755813953488372
+    },
+    {
+      "check": "keyword hits society 30\u201360m",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "keyword denominator society 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share society 30\u201360m",
+      "passed": true,
+      "actual": 0.07575757575757576,
+      "expected": 0.07575757575757576
+    },
+    {
+      "check": "keyword hits society 60m+",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "keyword denominator society 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share society 60m+",
+      "passed": true,
+      "actual": 0.17266187050359713,
+      "expected": 0.17266187050359713
+    },
+    {
+      "check": "pooled difference society",
+      "passed": true,
+      "actual": 0.04889512932252292,
+      "expected": 0.04889512932252292
+    },
+    {
+      "check": "paired accounts society",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary society.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary society.mean",
+      "passed": true,
+      "actual": -0.03238986087226556,
+      "expected": -0.032389860872265565
+    },
+    {
+      "check": "paired summary society.median",
+      "passed": true,
+      "actual": -0.045454545454545456,
+      "expected": -0.045454545454545456
+    },
+    {
+      "check": "paired summary society.q1",
+      "passed": true,
+      "actual": -0.08184523809523808,
+      "expected": -0.08184523809523808
+    },
+    {
+      "check": "paired summary society.q3",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary society.min",
+      "passed": true,
+      "actual": -0.22580645161290322,
+      "expected": -0.22580645161290322
+    },
+    {
+      "check": "paired summary society.max",
+      "passed": true,
+      "actual": 0.1346153846153846,
+      "expected": 0.1346153846153846
+    },
+    {
+      "check": "direction match society",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "regex decoding relationships",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits relationships Under 5m",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "keyword denominator relationships Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share relationships Under 5m",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "keyword hits relationships 5\u201315m",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "check": "keyword denominator relationships 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share relationships 5\u201315m",
+      "passed": true,
+      "actual": 0.03508771929824561,
+      "expected": 0.03508771929824561
+    },
+    {
+      "check": "keyword hits relationships 15\u201330m",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "keyword denominator relationships 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share relationships 15\u201330m",
+      "passed": true,
+      "actual": 0.023255813953488372,
+      "expected": 0.023255813953488372
+    },
+    {
+      "check": "keyword hits relationships 30\u201360m",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "keyword denominator relationships 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share relationships 30\u201360m",
+      "passed": true,
+      "actual": 0.015151515151515152,
+      "expected": 0.015151515151515152
+    },
+    {
+      "check": "keyword hits relationships 60m+",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "keyword denominator relationships 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share relationships 60m+",
+      "passed": true,
+      "actual": 0.007194244604316547,
+      "expected": 0.007194244604316547
+    },
+    {
+      "check": "pooled difference relationships",
+      "passed": true,
+      "actual": -0.012131745447384868,
+      "expected": -0.012131745447384868
+    },
+    {
+      "check": "paired accounts relationships",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary relationships.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary relationships.mean",
+      "passed": true,
+      "actual": 0.004349816849816849,
+      "expected": 0.004349816849816849
+    },
+    {
+      "check": "paired summary relationships.median",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary relationships.q1",
+      "passed": true,
+      "actual": -0.019230769230769232,
+      "expected": -0.019230769230769232
+    },
+    {
+      "check": "paired summary relationships.q3",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary relationships.min",
+      "passed": true,
+      "actual": -0.13333333333333333,
+      "expected": -0.13333333333333333
+    },
+    {
+      "check": "paired summary relationships.max",
+      "passed": true,
+      "actual": 0.3,
+      "expected": 0.3
+    },
+    {
+      "check": "direction match relationships",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "regex decoding practice",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits practice Under 5m",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "keyword denominator practice Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share practice Under 5m",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "keyword hits practice 5\u201315m",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "keyword denominator practice 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share practice 5\u201315m",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "keyword hits practice 15\u201330m",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "check": "keyword denominator practice 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share practice 15\u201330m",
+      "passed": true,
+      "actual": 0.046511627906976744,
+      "expected": 0.046511627906976744
+    },
+    {
+      "check": "keyword hits practice 30\u201360m",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "keyword denominator practice 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share practice 30\u201360m",
+      "passed": true,
+      "actual": 0.007575757575757576,
+      "expected": 0.007575757575757576
+    },
+    {
+      "check": "keyword hits practice 60m+",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "keyword denominator practice 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share practice 60m+",
+      "passed": true,
+      "actual": 0.007194244604316547,
+      "expected": 0.007194244604316547
+    },
+    {
+      "check": "pooled difference practice",
+      "passed": true,
+      "actual": -0.011181411118055495,
+      "expected": -0.011181411118055495
+    },
+    {
+      "check": "paired accounts practice",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary practice.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary practice.mean",
+      "passed": true,
+      "actual": -0.009426057813154587,
+      "expected": -0.009426057813154587
+    },
+    {
+      "check": "paired summary practice.median",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary practice.q1",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary practice.q3",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary practice.min",
+      "passed": true,
+      "actual": -0.21428571428571427,
+      "expected": -0.21428571428571427
+    },
+    {
+      "check": "paired summary practice.max",
+      "passed": true,
+      "actual": 0.14285714285714285,
+      "expected": 0.14285714285714285
+    },
+    {
+      "check": "direction match practice",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "regex decoding time",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "keyword hits time Under 5m",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "check": "keyword denominator time Under 5m",
+      "passed": true,
+      "actual": 88,
+      "expected": 88
+    },
+    {
+      "check": "keyword share time Under 5m",
+      "passed": true,
+      "actual": 0.056818181818181816,
+      "expected": 0.056818181818181816
+    },
+    {
+      "check": "keyword hits time 5\u201315m",
+      "passed": true,
+      "actual": 17,
+      "expected": 17
+    },
+    {
+      "check": "keyword denominator time 5\u201315m",
+      "passed": true,
+      "actual": 171,
+      "expected": 171
+    },
+    {
+      "check": "keyword share time 5\u201315m",
+      "passed": true,
+      "actual": 0.09941520467836257,
+      "expected": 0.09941520467836257
+    },
+    {
+      "check": "keyword hits time 15\u201330m",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "keyword denominator time 15\u201330m",
+      "passed": true,
+      "actual": 172,
+      "expected": 172
+    },
+    {
+      "check": "keyword share time 15\u201330m",
+      "passed": true,
+      "actual": 0.06976744186046512,
+      "expected": 0.06976744186046512
+    },
+    {
+      "check": "keyword hits time 30\u201360m",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "keyword denominator time 30\u201360m",
+      "passed": true,
+      "actual": 132,
+      "expected": 132
+    },
+    {
+      "check": "keyword share time 30\u201360m",
+      "passed": true,
+      "actual": 0.17424242424242425,
+      "expected": 0.17424242424242425
+    },
+    {
+      "check": "keyword hits time 60m+",
+      "passed": true,
+      "actual": 16,
+      "expected": 16
+    },
+    {
+      "check": "keyword denominator time 60m+",
+      "passed": true,
+      "actual": 139,
+      "expected": 139
+    },
+    {
+      "check": "keyword share time 60m+",
+      "passed": true,
+      "actual": 0.11510791366906475,
+      "expected": 0.11510791366906475
+    },
+    {
+      "check": "pooled difference time",
+      "passed": true,
+      "actual": 0.06502512820951875,
+      "expected": 0.06502512820951875
+    },
+    {
+      "check": "paired accounts time",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary time.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "paired summary time.mean",
+      "passed": true,
+      "actual": 0.0450978273925488,
+      "expected": 0.0450978273925488
+    },
+    {
+      "check": "paired summary time.median",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "paired summary time.q1",
+      "passed": true,
+      "actual": -0.025744416873449125,
+      "expected": -0.025744416873449125
+    },
+    {
+      "check": "paired summary time.q3",
+      "passed": true,
+      "actual": 0.08806818181818182,
+      "expected": 0.08806818181818182
+    },
+    {
+      "check": "paired summary time.min",
+      "passed": true,
+      "actual": -0.09523809523809523,
+      "expected": -0.09523809523809523
+    },
+    {
+      "check": "paired summary time.max",
+      "passed": true,
+      "actual": 0.3,
+      "expected": 0.3
+    },
+    {
+      "check": "direction match time",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "baseline identity mask found",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "dedup normalized nonemptyEligibleTitleDocuments",
+      "passed": true,
+      "actual": 742,
+      "expected": 742
+    },
+    {
+      "check": "dedup normalized uniqueNormalizedStrings",
+      "passed": true,
+      "actual": 740,
+      "expected": 740
+    },
+    {
+      "check": "dedup normalized repeatedStringFamilies",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "dedup normalized documentsInRepeatedFamilies",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "dedup normalized crossPublisherRepeatedFamilies",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "dedup nameAndGenreMasked nonemptyEligibleTitleDocuments",
+      "passed": true,
+      "actual": 742,
+      "expected": 742
+    },
+    {
+      "check": "dedup nameAndGenreMasked uniqueNormalizedStrings",
+      "passed": true,
+      "actual": 740,
+      "expected": 740
+    },
+    {
+      "check": "dedup nameAndGenreMasked repeatedStringFamilies",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "dedup nameAndGenreMasked documentsInRepeatedFamilies",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "dedup nameAndGenreMasked crossPublisherRepeatedFamilies",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "embedding matchedCaption documents",
+      "passed": true,
+      "actual": 25,
+      "expected": 25
+    },
+    {
+      "check": "embedding matchedCaption publishers",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "matched publisher labels resolved matchedCaption",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "matchedCaption within.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedCaption within.mean",
+      "passed": true,
+      "actual": 0.551096956838261,
+      "expected": 0.5510969106809988
+    },
+    {
+      "check": "matchedCaption within.median",
+      "passed": true,
+      "actual": 0.6612252593040466,
+      "expected": 0.6612252832655153
+    },
+    {
+      "check": "matchedCaption within.q1",
+      "passed": true,
+      "actual": 0.3634485453367233,
+      "expected": 0.3634486147496503
+    },
+    {
+      "check": "matchedCaption within.q3",
+      "passed": true,
+      "actual": 0.7045114636421204,
+      "expected": 0.7045114619554457
+    },
+    {
+      "check": "matchedCaption within.min",
+      "passed": true,
+      "actual": 0.2670609951019287,
+      "expected": 0.26706095450002965
+    },
+    {
+      "check": "matchedCaption within.max",
+      "passed": true,
+      "actual": 0.8017016053199768,
+      "expected": 0.8017012142747343
+    },
+    {
+      "check": "matchedCaption between.n",
+      "passed": true,
+      "actual": 289,
+      "expected": 289
+    },
+    {
+      "check": "matchedCaption between.mean",
+      "passed": true,
+      "actual": 0.3970106644201444,
+      "expected": 0.3970106597994998
+    },
+    {
+      "check": "matchedCaption between.median",
+      "passed": true,
+      "actual": 0.41610661149024963,
+      "expected": 0.41610646478354646
+    },
+    {
+      "check": "matchedCaption between.q1",
+      "passed": true,
+      "actual": 0.27591317892074585,
+      "expected": 0.2759130998125876
+    },
+    {
+      "check": "matchedCaption between.q3",
+      "passed": true,
+      "actual": 0.5288081765174866,
+      "expected": 0.5288079974179175
+    },
+    {
+      "check": "matchedCaption between.min",
+      "passed": true,
+      "actual": -0.03232824057340622,
+      "expected": -0.032328260257244404
+    },
+    {
+      "check": "matchedCaption between.max",
+      "passed": true,
+      "actual": 0.7753959894180298,
+      "expected": 0.775395896975652
+    },
+    {
+      "check": "matchedCaption mean difference",
+      "passed": true,
+      "actual": 0.15408629179000854,
+      "expected": 0.15408625088149897
+    },
+    {
+      "check": "matchedCaption balanced documents ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.8017016053199768,
+      "expected": 0.8017012142747343
+    },
+    {
+      "check": "matchedCaption balanced between ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.48929446935653687,
+      "expected": 0.4892944644178601
+    },
+    {
+      "check": "matchedCaption balanced difference ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.31240713596343994,
+      "expected": 0.31240674985687417
+    },
+    {
+      "check": "matchedCaption balanced documents ch-cc61aed50366",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-cc61aed50366",
+      "passed": true,
+      "actual": 0.30612853169441223,
+      "expected": 0.3061287228869332
+    },
+    {
+      "check": "matchedCaption balanced between ch-cc61aed50366",
+      "passed": true,
+      "actual": 0.3975278437137604,
+      "expected": 0.39752784963116483
+    },
+    {
+      "check": "matchedCaption balanced difference ch-cc61aed50366",
+      "passed": true,
+      "actual": -0.09139931201934814,
+      "expected": -0.09139912674423162
+    },
+    {
+      "check": "matchedCaption balanced documents ch-4f327ca79023",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.2670609951019287,
+      "expected": 0.26706095450002965
+    },
+    {
+      "check": "matchedCaption balanced between ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.34762829542160034,
+      "expected": 0.34762833308966407
+    },
+    {
+      "check": "matchedCaption balanced difference ch-4f327ca79023",
+      "passed": true,
+      "actual": -0.08056730031967163,
+      "expected": -0.08056737858963442
+    },
+    {
+      "check": "matchedCaption balanced documents ch-4deae3e4c229",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.6612252593040466,
+      "expected": 0.6612252832655153
+    },
+    {
+      "check": "matchedCaption balanced between ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.4702656865119934,
+      "expected": 0.4702656276637222
+    },
+    {
+      "check": "matchedCaption balanced difference ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.19095957279205322,
+      "expected": 0.19095965560179312
+    },
+    {
+      "check": "matchedCaption balanced documents ch-e876f3f2375e",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.7511236071586609,
+      "expected": 0.7511231824987379
+    },
+    {
+      "check": "matchedCaption balanced between ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.4052533805370331,
+      "expected": 0.4052533559756315
+    },
+    {
+      "check": "matchedCaption balanced difference ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.3458702266216278,
+      "expected": 0.3458698265231064
+    },
+    {
+      "check": "matchedCaption balanced documents ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.3589435815811157,
+      "expected": 0.35894365982330867
+    },
+    {
+      "check": "matchedCaption balanced between ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.13021686673164368,
+      "expected": 0.13021686972921054
+    },
+    {
+      "check": "matchedCaption balanced difference ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.22872671484947205,
+      "expected": 0.22872679009409813
+    },
+    {
+      "check": "matchedCaption balanced documents ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.6714049577713013,
+      "expected": 0.6714050362370523
+    },
+    {
+      "check": "matchedCaption balanced between ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.4726446568965912,
+      "expected": 0.4726445968564265
+    },
+    {
+      "check": "matchedCaption balanced difference ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.19876030087471008,
+      "expected": 0.19876043938062576
+    },
+    {
+      "check": "matchedCaption balanced documents ch-aaaebac2693b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.733605682849884,
+      "expected": 0.73360569843949
+    },
+    {
+      "check": "matchedCaption balanced between ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.42535871267318726,
+      "expected": 0.42535862089452253
+    },
+    {
+      "check": "matchedCaption balanced difference ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.3082469701766968,
+      "expected": 0.30824707754496744
+    },
+    {
+      "check": "matchedCaption balanced documents ch-73032cea690b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-73032cea690b",
+      "passed": true,
+      "actual": 0.36795350909233093,
+      "expected": 0.36795356967599196
+    },
+    {
+      "check": "matchedCaption balanced between ch-73032cea690b",
+      "passed": true,
+      "actual": 0.3358306586742401,
+      "expected": 0.33583059601728515
+    },
+    {
+      "check": "matchedCaption balanced difference ch-73032cea690b",
+      "passed": true,
+      "actual": 0.03212285041809082,
+      "expected": 0.03212297365870681
+    },
+    {
+      "check": "matchedCaption balanced documents ch-396932860d9d",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-396932860d9d",
+      "passed": true,
+      "actual": 0.6754172444343567,
+      "expected": 0.6754172254714014
+    },
+    {
+      "check": "matchedCaption balanced between ch-396932860d9d",
+      "passed": true,
+      "actual": 0.4724842309951782,
+      "expected": 0.47248423024829594
+    },
+    {
+      "check": "matchedCaption balanced difference ch-396932860d9d",
+      "passed": true,
+      "actual": 0.20293301343917847,
+      "expected": 0.20293299522310543
+    },
+    {
+      "check": "matchedCaption balanced documents ch-3ccbf336c582",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedCaption balanced pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedCaption balanced within ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.46750155091285706,
+      "expected": 0.46750147041779166
+    },
+    {
+      "check": "matchedCaption balanced between ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.4294882118701935,
+      "expected": 0.42948818014781304
+    },
+    {
+      "check": "matchedCaption balanced difference ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.038013339042663574,
+      "expected": 0.03801329026997863
+    },
+    {
+      "check": "matchedCaption balanced publishers",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedCaption balanced separation",
+      "passed": true,
+      "actual": 0.15327941016717392,
+      "expected": 0.15327939025630816
+    },
+    {
+      "check": "matchedCaption non-singleton publishers",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedCaption singleton publishers",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "check": "matchedCaption omitted documents ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.14581891894340515,
+      "expected": 0.1458189015747443
+    },
+    {
+      "check": "matchedCaption omitted documents ch-cc61aed50366",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-cc61aed50366",
+      "passed": true,
+      "actual": 0.1793275773525238,
+      "expected": 0.17932746879503725
+    },
+    {
+      "check": "matchedCaption omitted documents ch-4f327ca79023",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.1743375062942505,
+      "expected": 0.17433747125154103
+    },
+    {
+      "check": "matchedCaption omitted documents ch-4deae3e4c229",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.1569214165210724,
+      "expected": 0.1569213469116602
+    },
+    {
+      "check": "matchedCaption omitted documents ch-e876f3f2375e",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.13647866249084473,
+      "expected": 0.13647864233792834
+    },
+    {
+      "check": "matchedCaption omitted documents ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 265,
+      "expected": 265
+    },
+    {
+      "check": "matchedCaption omitted difference ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 0.1395927369594574,
+      "expected": 0.1395926769209374
+    },
+    {
+      "check": "matchedCaption omitted documents ch-2b81ba751f66",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-2b81ba751f66",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-2b81ba751f66",
+      "passed": true,
+      "actual": 265,
+      "expected": 265
+    },
+    {
+      "check": "matchedCaption omitted difference ch-2b81ba751f66",
+      "passed": true,
+      "actual": 0.15861037373542786,
+      "expected": 0.15861031200742554
+    },
+    {
+      "check": "matchedCaption omitted documents ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.12143322825431824,
+      "expected": 0.12143313619169638
+    },
+    {
+      "check": "matchedCaption omitted documents ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.15715712308883667,
+      "expected": 0.15715705145181702
+    },
+    {
+      "check": "matchedCaption omitted documents ch-aaaebac2693b",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.14092737436294556,
+      "expected": 0.1409273017508766
+    },
+    {
+      "check": "matchedCaption omitted documents ch-73032cea690b",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-73032cea690b",
+      "passed": true,
+      "actual": 0.1613440215587616,
+      "expected": 0.16134396237725607
+    },
+    {
+      "check": "matchedCaption omitted documents ch-8557f1426bad",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-8557f1426bad",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-8557f1426bad",
+      "passed": true,
+      "actual": 265,
+      "expected": 265
+    },
+    {
+      "check": "matchedCaption omitted difference ch-8557f1426bad",
+      "passed": true,
+      "actual": 0.16071075201034546,
+      "expected": 0.16071068932174437
+    },
+    {
+      "check": "matchedCaption omitted documents ch-396932860d9d",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-396932860d9d",
+      "passed": true,
+      "actual": 0.15628457069396973,
+      "expected": 0.15628451667830845
+    },
+    {
+      "check": "matchedCaption omitted documents ch-3ccbf336c582",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedCaption omitted within-pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedCaption omitted between-pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedCaption omitted difference ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.16856691241264343,
+      "expected": 0.16856688101148015
+    },
+    {
+      "check": "matchedCaption omission summary.n",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "matchedCaption omission summary.mean",
+      "passed": true,
+      "actual": 0.15410794104848588,
+      "expected": 0.15410788275588952
+    },
+    {
+      "check": "matchedCaption omission summary.median",
+      "passed": true,
+      "actual": 0.15703926980495453,
+      "expected": 0.15703919918173861
+    },
+    {
+      "check": "matchedCaption omission summary.q1",
+      "passed": true,
+      "actual": 0.14215026050806046,
+      "expected": 0.1421502017068435
+    },
+    {
+      "check": "matchedCaption omission summary.q3",
+      "passed": true,
+      "actual": 0.16118570417165756,
+      "expected": 0.16118564411337816
+    },
+    {
+      "check": "matchedCaption omission summary.min",
+      "passed": true,
+      "actual": 0.12143322825431824,
+      "expected": 0.12143313619169638
+    },
+    {
+      "check": "matchedCaption omission summary.max",
+      "passed": true,
+      "actual": 0.1793275773525238,
+      "expected": 0.17932746879503725
+    },
+    {
+      "check": "matchedCaption permutation.n",
+      "passed": true,
+      "actual": 2000,
+      "expected": 2000
+    },
+    {
+      "check": "matchedCaption permutation.mean",
+      "passed": true,
+      "actual": 0.00010650742053985595,
+      "expected": 0.00010650683587032173
+    },
+    {
+      "check": "matchedCaption permutation.median",
+      "passed": true,
+      "actual": -0.0014497637748718262,
+      "expected": -0.001449758980417576
+    },
+    {
+      "check": "matchedCaption permutation.q1",
+      "passed": true,
+      "actual": -0.022457711398601532,
+      "expected": -0.02245774007794414
+    },
+    {
+      "check": "matchedCaption permutation.q3",
+      "passed": true,
+      "actual": 0.021158218383789062,
+      "expected": 0.021158218865462416
+    },
+    {
+      "check": "matchedCaption permutation.min",
+      "passed": true,
+      "actual": -0.0863378643989563,
+      "expected": -0.0863378458576774
+    },
+    {
+      "check": "matchedCaption permutation.max",
+      "passed": true,
+      "actual": 0.13776633143424988,
+      "expected": 0.13776632504779157
+    },
+    {
+      "check": "matchedCaption descriptive percentile",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "permutation count/seed matchedCaption",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "permutation interpretation matchedCaption",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "embedding matchedTitle documents",
+      "passed": true,
+      "actual": 25,
+      "expected": 25
+    },
+    {
+      "check": "embedding matchedTitle publishers",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "matched publisher labels resolved matchedTitle",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "matchedTitle within.n",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedTitle within.mean",
+      "passed": true,
+      "actual": 0.37216208659281785,
+      "expected": 0.37216212889117534
+    },
+    {
+      "check": "matchedTitle within.median",
+      "passed": true,
+      "actual": 0.31580665707588196,
+      "expected": 0.31580656594755196
+    },
+    {
+      "check": "matchedTitle within.q1",
+      "passed": true,
+      "actual": 0.2451370283961296,
+      "expected": 0.24513712038524238
+    },
+    {
+      "check": "matchedTitle within.q3",
+      "passed": true,
+      "actual": 0.5192778557538986,
+      "expected": 0.5192778302085715
+    },
+    {
+      "check": "matchedTitle within.min",
+      "passed": true,
+      "actual": -0.00542947044596076,
+      "expected": -0.005429468523181517
+    },
+    {
+      "check": "matchedTitle within.max",
+      "passed": true,
+      "actual": 0.7392086386680603,
+      "expected": 0.7392087914004802
+    },
+    {
+      "check": "matchedTitle between.n",
+      "passed": true,
+      "actual": 289,
+      "expected": 289
+    },
+    {
+      "check": "matchedTitle between.mean",
+      "passed": true,
+      "actual": 0.14305017248116955,
+      "expected": 0.14305016722215794
+    },
+    {
+      "check": "matchedTitle between.median",
+      "passed": true,
+      "actual": 0.14101643860340118,
+      "expected": 0.14101645201879276
+    },
+    {
+      "check": "matchedTitle between.q1",
+      "passed": true,
+      "actual": 0.07425003498792648,
+      "expected": 0.07425004996649545
+    },
+    {
+      "check": "matchedTitle between.q3",
+      "passed": true,
+      "actual": 0.20053111016750336,
+      "expected": 0.20053109936910601
+    },
+    {
+      "check": "matchedTitle between.min",
+      "passed": true,
+      "actual": -0.10324085503816605,
+      "expected": -0.10324092259281968
+    },
+    {
+      "check": "matchedTitle between.max",
+      "passed": true,
+      "actual": 0.44174373149871826,
+      "expected": 0.4417436677055877
+    },
+    {
+      "check": "matchedTitle mean difference",
+      "passed": true,
+      "actual": 0.22911196947097778,
+      "expected": 0.2291119616690174
+    },
+    {
+      "check": "matchedTitle balanced documents ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.4415748417377472,
+      "expected": 0.44157471997676456
+    },
+    {
+      "check": "matchedTitle balanced between ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.17154622077941895,
+      "expected": 0.1715462070876755
+    },
+    {
+      "check": "matchedTitle balanced difference ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.27002862095832825,
+      "expected": 0.270028512889089
+    },
+    {
+      "check": "matchedTitle balanced documents ch-cc61aed50366",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-cc61aed50366",
+      "passed": true,
+      "actual": -0.00542947044596076,
+      "expected": -0.005429468523181517
+    },
+    {
+      "check": "matchedTitle balanced between ch-cc61aed50366",
+      "passed": true,
+      "actual": 0.10374747961759567,
+      "expected": 0.1037474677552997
+    },
+    {
+      "check": "matchedTitle balanced difference ch-cc61aed50366",
+      "passed": true,
+      "actual": -0.10917695006355643,
+      "expected": -0.10917693627848121
+    },
+    {
+      "check": "matchedTitle balanced documents ch-4f327ca79023",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.29691869020462036,
+      "expected": 0.2969187557851724
+    },
+    {
+      "check": "matchedTitle balanced between ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.18801799416542053,
+      "expected": 0.1880179582827283
+    },
+    {
+      "check": "matchedTitle balanced difference ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.10890069603919983,
+      "expected": 0.10890079750244411
+    },
+    {
+      "check": "matchedTitle balanced documents ch-4deae3e4c229",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.31580665707588196,
+      "expected": 0.31580656594755196
+    },
+    {
+      "check": "matchedTitle balanced between ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.1515166014432907,
+      "expected": 0.15151659257708575
+    },
+    {
+      "check": "matchedTitle balanced difference ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.16429005563259125,
+      "expected": 0.16428997337046622
+    },
+    {
+      "check": "matchedTitle balanced documents ch-e876f3f2375e",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.59698086977005,
+      "expected": 0.5969809404403785
+    },
+    {
+      "check": "matchedTitle balanced between ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.1314738243818283,
+      "expected": 0.13147382627884596
+    },
+    {
+      "check": "matchedTitle balanced difference ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.46550704538822174,
+      "expected": 0.46550711416153256
+    },
+    {
+      "check": "matchedTitle balanced documents ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.37260642647743225,
+      "expected": 0.37260652563895524
+    },
+    {
+      "check": "matchedTitle balanced between ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.0927891805768013,
+      "expected": 0.09278918480507083
+    },
+    {
+      "check": "matchedTitle balanced difference ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.27981724590063095,
+      "expected": 0.27981734083388443
+    },
+    {
+      "check": "matchedTitle balanced documents ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.26547908782958984,
+      "expected": 0.2654791801558643
+    },
+    {
+      "check": "matchedTitle balanced between ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.11655206233263016,
+      "expected": 0.11655205505945937
+    },
+    {
+      "check": "matchedTitle balanced difference ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.1489270254969597,
+      "expected": 0.14892712509640493
+    },
+    {
+      "check": "matchedTitle balanced documents ch-aaaebac2693b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.22479496896266937,
+      "expected": 0.22479506061462043
+    },
+    {
+      "check": "matchedTitle balanced between ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.17767484486103058,
+      "expected": 0.1776748706251995
+    },
+    {
+      "check": "matchedTitle balanced difference ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.047120124101638794,
+      "expected": 0.04712018998942094
+    },
+    {
+      "check": "matchedTitle balanced documents ch-73032cea690b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-73032cea690b",
+      "passed": true,
+      "actual": 0.6435246467590332,
+      "expected": 0.6435247627564804
+    },
+    {
+      "check": "matchedTitle balanced between ch-73032cea690b",
+      "passed": true,
+      "actual": 0.1789761185646057,
+      "expected": 0.17897609524851177
+    },
+    {
+      "check": "matchedTitle balanced difference ch-73032cea690b",
+      "passed": true,
+      "actual": 0.4645485281944275,
+      "expected": 0.46454866750796864
+    },
+    {
+      "check": "matchedTitle balanced documents ch-396932860d9d",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-396932860d9d",
+      "passed": true,
+      "actual": 0.7392086386680603,
+      "expected": 0.7392087914004802
+    },
+    {
+      "check": "matchedTitle balanced between ch-396932860d9d",
+      "passed": true,
+      "actual": 0.10796137899160385,
+      "expected": 0.1079613656504286
+    },
+    {
+      "check": "matchedTitle balanced difference ch-396932860d9d",
+      "passed": true,
+      "actual": 0.6312472596764565,
+      "expected": 0.6312474257500517
+    },
+    {
+      "check": "matchedTitle balanced documents ch-3ccbf336c582",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "matchedTitle balanced pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "matchedTitle balanced within ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.20231759548187256,
+      "expected": 0.20231758360984214
+    },
+    {
+      "check": "matchedTitle balanced between ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.1583956927061081,
+      "expected": 0.15839568565611237
+    },
+    {
+      "check": "matchedTitle balanced difference ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.043921902775764465,
+      "expected": 0.04392189795372978
+    },
+    {
+      "check": "matchedTitle balanced publishers",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedTitle balanced separation",
+      "passed": true,
+      "actual": 0.22864832310006022,
+      "expected": 0.22864837352513737
+    },
+    {
+      "check": "matchedTitle non-singleton publishers",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedTitle singleton publishers",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "check": "matchedTitle omitted documents ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.22817713022232056,
+      "expected": 0.22817714449743356
+    },
+    {
+      "check": "matchedTitle omitted documents ch-cc61aed50366",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-cc61aed50366",
+      "passed": true,
+      "actual": 0.2593190670013428,
+      "expected": 0.25931910239895795
+    },
+    {
+      "check": "matchedTitle omitted documents ch-4f327ca79023",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.24474841356277466,
+      "expected": 0.24474844902425485
+    },
+    {
+      "check": "matchedTitle omitted documents ch-4deae3e4c229",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.23744122684001923,
+      "expected": 0.23744126340406516
+    },
+    {
+      "check": "matchedTitle omitted documents ch-e876f3f2375e",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.2052249312400818,
+      "expected": 0.20522492953157084
+    },
+    {
+      "check": "matchedTitle omitted documents ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 265,
+      "expected": 265
+    },
+    {
+      "check": "matchedTitle omitted difference ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 0.22470781207084656,
+      "expected": 0.22470782102696413
+    },
+    {
+      "check": "matchedTitle omitted documents ch-2b81ba751f66",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-2b81ba751f66",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-2b81ba751f66",
+      "passed": true,
+      "actual": 265,
+      "expected": 265
+    },
+    {
+      "check": "matchedTitle omitted difference ch-2b81ba751f66",
+      "passed": true,
+      "actual": 0.2340528964996338,
+      "expected": 0.23405289974574484
+    },
+    {
+      "check": "matchedTitle omitted documents ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.21928469836711884,
+      "expected": 0.21928470196238045
+    },
+    {
+      "check": "matchedTitle omitted documents ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.2359030842781067,
+      "expected": 0.23590305989186355
+    },
+    {
+      "check": "matchedTitle omitted documents ch-aaaebac2693b",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.2509254217147827,
+      "expected": 0.2509254440987338
+    },
+    {
+      "check": "matchedTitle omitted documents ch-73032cea690b",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-73032cea690b",
+      "passed": true,
+      "actual": 0.20957647264003754,
+      "expected": 0.2095764663737703
+    },
+    {
+      "check": "matchedTitle omitted documents ch-8557f1426bad",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-8557f1426bad",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-8557f1426bad",
+      "passed": true,
+      "actual": 265,
+      "expected": 265
+    },
+    {
+      "check": "matchedTitle omitted difference ch-8557f1426bad",
+      "passed": true,
+      "actual": 0.22319495677947998,
+      "expected": 0.22319494305608661
+    },
+    {
+      "check": "matchedTitle omitted documents ch-396932860d9d",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-396932860d9d",
+      "passed": true,
+      "actual": 0.1864212602376938,
+      "expected": 0.1864212531766579
+    },
+    {
+      "check": "matchedTitle omitted documents ch-3ccbf336c582",
+      "passed": true,
+      "actual": 23,
+      "expected": 23
+    },
+    {
+      "check": "matchedTitle omitted within-pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "matchedTitle omitted between-pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "check": "matchedTitle omitted difference ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.24907706677913666,
+      "expected": 0.24907708339142887
+    },
+    {
+      "check": "matchedTitle omission summary.n",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "matchedTitle omission summary.mean",
+      "passed": true,
+      "actual": 0.22914674558809825,
+      "expected": 0.2291467543985652
+    },
+    {
+      "check": "matchedTitle omission summary.median",
+      "passed": true,
+      "actual": 0.23111501336097717,
+      "expected": 0.2311150221215892
+    },
+    {
+      "check": "matchedTitle omission summary.q1",
+      "passed": true,
+      "actual": 0.22026226297020912,
+      "expected": 0.220262262235807
+    },
+    {
+      "check": "matchedTitle omission summary.q3",
+      "passed": true,
+      "actual": 0.2429216168820858,
+      "expected": 0.24292165261920742
+    },
+    {
+      "check": "matchedTitle omission summary.min",
+      "passed": true,
+      "actual": 0.1864212602376938,
+      "expected": 0.1864212531766579
+    },
+    {
+      "check": "matchedTitle omission summary.max",
+      "passed": true,
+      "actual": 0.2593190670013428,
+      "expected": 0.25931910239895795
+    },
+    {
+      "check": "matchedTitle permutation.n",
+      "passed": true,
+      "actual": 2000,
+      "expected": 2000
+    },
+    {
+      "check": "matchedTitle permutation.mean",
+      "passed": true,
+      "actual": 0.0005714531280100345,
+      "expected": 0.000571454259449377
+    },
+    {
+      "check": "matchedTitle permutation.median",
+      "passed": true,
+      "actual": -0.0025738999247550964,
+      "expected": -0.002573905137468052
+    },
+    {
+      "check": "matchedTitle permutation.q1",
+      "passed": true,
+      "actual": -0.022802341729402542,
+      "expected": -0.02280234218689068
+    },
+    {
+      "check": "matchedTitle permutation.q3",
+      "passed": true,
+      "actual": 0.02068350836634636,
+      "expected": 0.020683513859824046
+    },
+    {
+      "check": "matchedTitle permutation.min",
+      "passed": true,
+      "actual": -0.09420837461948395,
+      "expected": -0.09420838374604079
+    },
+    {
+      "check": "matchedTitle permutation.max",
+      "passed": true,
+      "actual": 0.116689532995224,
+      "expected": 0.11668951891102736
+    },
+    {
+      "check": "matchedTitle descriptive percentile",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "permutation count/seed matchedTitle",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "permutation interpretation matchedTitle",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "embedding allCaption documents",
+      "passed": true,
+      "actual": 30,
+      "expected": 30
+    },
+    {
+      "check": "embedding allCaption publishers",
+      "passed": true,
+      "actual": 17,
+      "expected": 17
+    },
+    {
+      "check": "matched publisher labels resolved allCaption",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "allCaption within.n",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "allCaption within.mean",
+      "passed": true,
+      "actual": 0.5441378561350015,
+      "expected": 0.544137804705589
+    },
+    {
+      "check": "allCaption within.median",
+      "passed": true,
+      "actual": 0.6612252593040466,
+      "expected": 0.6612252832655153
+    },
+    {
+      "check": "allCaption within.q1",
+      "passed": true,
+      "actual": 0.3589435815811157,
+      "expected": 0.35894365982330867
+    },
+    {
+      "check": "allCaption within.q3",
+      "passed": true,
+      "actual": 0.733605682849884,
+      "expected": 0.73360569843949
+    },
+    {
+      "check": "allCaption within.min",
+      "passed": true,
+      "actual": 0.238308846950531,
+      "expected": 0.2383087945171446
+    },
+    {
+      "check": "allCaption within.max",
+      "passed": true,
+      "actual": 0.8017016053199768,
+      "expected": 0.8017012142747343
+    },
+    {
+      "check": "allCaption between.n",
+      "passed": true,
+      "actual": 422,
+      "expected": 422
+    },
+    {
+      "check": "allCaption between.mean",
+      "passed": true,
+      "actual": 0.4189106158082378,
+      "expected": 0.4189106052246677
+    },
+    {
+      "check": "allCaption between.median",
+      "passed": true,
+      "actual": 0.4308980852365494,
+      "expected": 0.43089807802764923
+    },
+    {
+      "check": "allCaption between.q1",
+      "passed": true,
+      "actual": 0.30752652883529663,
+      "expected": 0.30752658534277494
+    },
+    {
+      "check": "allCaption between.q3",
+      "passed": true,
+      "actual": 0.5484932959079742,
+      "expected": 0.5484930400990513
+    },
+    {
+      "check": "allCaption between.min",
+      "passed": true,
+      "actual": -0.03234719857573509,
+      "expected": -0.0323472241123866
+    },
+    {
+      "check": "allCaption between.max",
+      "passed": true,
+      "actual": 0.8154097199440002,
+      "expected": 0.8154095200642862
+    },
+    {
+      "check": "allCaption mean difference",
+      "passed": true,
+      "actual": 0.12522727251052856,
+      "expected": 0.12522719948092131
+    },
+    {
+      "check": "allCaption balanced documents ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.8017016053199768,
+      "expected": 0.8017012142747343
+    },
+    {
+      "check": "allCaption balanced between ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.5098572969436646,
+      "expected": 0.5098573200035792
+    },
+    {
+      "check": "allCaption balanced difference ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.29184430837631226,
+      "expected": 0.2918438942711551
+    },
+    {
+      "check": "allCaption balanced documents ch-cc61aed50366",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-cc61aed50366",
+      "passed": true,
+      "actual": 0.30612853169441223,
+      "expected": 0.3061287228869332
+    },
+    {
+      "check": "allCaption balanced between ch-cc61aed50366",
+      "passed": true,
+      "actual": 0.41524675488471985,
+      "expected": 0.41524674054066907
+    },
+    {
+      "check": "allCaption balanced difference ch-cc61aed50366",
+      "passed": true,
+      "actual": -0.10911822319030762,
+      "expected": -0.10911801765373585
+    },
+    {
+      "check": "allCaption balanced documents ch-4f327ca79023",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.2670609951019287,
+      "expected": 0.26706095450002965
+    },
+    {
+      "check": "allCaption balanced between ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.36333736777305603,
+      "expected": 0.3633373816312572
+    },
+    {
+      "check": "allCaption balanced difference ch-4f327ca79023",
+      "passed": true,
+      "actual": -0.09627637267112732,
+      "expected": -0.09627642713122753
+    },
+    {
+      "check": "allCaption balanced documents ch-4deae3e4c229",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.6612252593040466,
+      "expected": 0.6612252832655153
+    },
+    {
+      "check": "allCaption balanced between ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.48911529779434204,
+      "expected": 0.48911529355049277
+    },
+    {
+      "check": "allCaption balanced difference ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.1721099615097046,
+      "expected": 0.17210998971502256
+    },
+    {
+      "check": "allCaption balanced documents ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 0.238308846950531,
+      "expected": 0.2383087945171446
+    },
+    {
+      "check": "allCaption balanced between ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 0.3302173316478729,
+      "expected": 0.3302172938905261
+    },
+    {
+      "check": "allCaption balanced difference ch-0a31b1dbd853",
+      "passed": true,
+      "actual": -0.09190848469734192,
+      "expected": -0.09190849937338152
+    },
+    {
+      "check": "allCaption balanced documents ch-e876f3f2375e",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.7511236071586609,
+      "expected": 0.7511231824987379
+    },
+    {
+      "check": "allCaption balanced between ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.4194139838218689,
+      "expected": 0.41941397735864205
+    },
+    {
+      "check": "allCaption balanced difference ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.331709623336792,
+      "expected": 0.33170920514009583
+    },
+    {
+      "check": "allCaption balanced documents ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.3589435815811157,
+      "expected": 0.35894365982330867
+    },
+    {
+      "check": "allCaption balanced between ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.12272773683071136,
+      "expected": 0.12272773328052765
+    },
+    {
+      "check": "allCaption balanced difference ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.23621584475040436,
+      "expected": 0.236215926542781
+    },
+    {
+      "check": "allCaption balanced documents ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.6714049577713013,
+      "expected": 0.6714050362370523
+    },
+    {
+      "check": "allCaption balanced between ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.5048366785049438,
+      "expected": 0.5048366551942419
+    },
+    {
+      "check": "allCaption balanced difference ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.16656827926635742,
+      "expected": 0.16656838104281035
+    },
+    {
+      "check": "allCaption balanced documents ch-aaaebac2693b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.733605682849884,
+      "expected": 0.73360569843949
+    },
+    {
+      "check": "allCaption balanced between ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.44438907504081726,
+      "expected": 0.4443890576158783
+    },
+    {
+      "check": "allCaption balanced difference ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.2892166078090668,
+      "expected": 0.28921664082361165
+    },
+    {
+      "check": "allCaption balanced documents ch-73032cea690b",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-73032cea690b",
+      "passed": true,
+      "actual": 0.36795350909233093,
+      "expected": 0.36795356967599196
+    },
+    {
+      "check": "allCaption balanced between ch-73032cea690b",
+      "passed": true,
+      "actual": 0.3421580493450165,
+      "expected": 0.342158020890978
+    },
+    {
+      "check": "allCaption balanced difference ch-73032cea690b",
+      "passed": true,
+      "actual": 0.025795459747314453,
+      "expected": 0.025795548785013944
+    },
+    {
+      "check": "allCaption balanced documents ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 0.7734167575836182,
+      "expected": 0.7734166491645269
+    },
+    {
+      "check": "allCaption balanced between ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 0.5397887825965881,
+      "expected": 0.5397887619392931
+    },
+    {
+      "check": "allCaption balanced difference ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 0.23362797498703003,
+      "expected": 0.23362788722523375
+    },
+    {
+      "check": "allCaption balanced documents ch-396932860d9d",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-396932860d9d",
+      "passed": true,
+      "actual": 0.6754172444343567,
+      "expected": 0.6754172254714014
+    },
+    {
+      "check": "allCaption balanced between ch-396932860d9d",
+      "passed": true,
+      "actual": 0.5065685510635376,
+      "expected": 0.5065685208970518
+    },
+    {
+      "check": "allCaption balanced difference ch-396932860d9d",
+      "passed": true,
+      "actual": 0.1688486933708191,
+      "expected": 0.16884870457434953
+    },
+    {
+      "check": "allCaption balanced documents ch-3ccbf336c582",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "allCaption balanced pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "allCaption balanced within ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.46750155091285706,
+      "expected": 0.46750147041779166
+    },
+    {
+      "check": "allCaption balanced between ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.45178931951522827,
+      "expected": 0.45178930620383495
+    },
+    {
+      "check": "allCaption balanced difference ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.015712231397628784,
+      "expected": 0.015712164213956714
+    },
+    {
+      "check": "allCaption balanced publishers",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "allCaption balanced separation",
+      "passed": true,
+      "actual": 0.12571891569174254,
+      "expected": 0.12571887678274504
+    },
+    {
+      "check": "allCaption non-singleton publishers",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "allCaption singleton publishers",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "allCaption omitted documents ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-e7ffb2da4c80",
+      "passed": true,
+      "actual": 0.11642169952392578,
+      "expected": 0.1164217191698449
+    },
+    {
+      "check": "allCaption omitted documents ch-cc61aed50366",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-cc61aed50366",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-cc61aed50366",
+      "passed": true,
+      "actual": 0.14431196451187134,
+      "expected": 0.1443118952051316
+    },
+    {
+      "check": "allCaption omitted documents ch-4f327ca79023",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-4f327ca79023",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-4f327ca79023",
+      "passed": true,
+      "actual": 0.13957831263542175,
+      "expected": 0.13957830498828194
+    },
+    {
+      "check": "allCaption omitted documents ch-b54e2c58d507",
+      "passed": true,
+      "actual": 29,
+      "expected": 29
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-b54e2c58d507",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-b54e2c58d507",
+      "passed": true,
+      "actual": 393,
+      "expected": 393
+    },
+    {
+      "check": "allCaption omitted difference ch-b54e2c58d507",
+      "passed": true,
+      "actual": 0.13431230187416077,
+      "expected": 0.13431217010573204
+    },
+    {
+      "check": "allCaption omitted documents ch-4deae3e4c229",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-4deae3e4c229",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-4deae3e4c229",
+      "passed": true,
+      "actual": 0.1256333589553833,
+      "expected": 0.12563331002370942
+    },
+    {
+      "check": "allCaption omitted documents ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-0a31b1dbd853",
+      "passed": true,
+      "actual": 0.13723978400230408,
+      "expected": 0.1372397587199315
+    },
+    {
+      "check": "allCaption omitted documents ch-e876f3f2375e",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-e876f3f2375e",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-e876f3f2375e",
+      "passed": true,
+      "actual": 0.10791215300559998,
+      "expected": 0.10791215040172902
+    },
+    {
+      "check": "allCaption omitted documents ch-2b81ba751f66",
+      "passed": true,
+      "actual": 29,
+      "expected": 29
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-2b81ba751f66",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-2b81ba751f66",
+      "passed": true,
+      "actual": 393,
+      "expected": 393
+    },
+    {
+      "check": "allCaption omitted difference ch-2b81ba751f66",
+      "passed": true,
+      "actual": 0.12779051065444946,
+      "expected": 0.12779042296120885
+    },
+    {
+      "check": "allCaption omitted documents ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-d9ef9bb4b58f",
+      "passed": true,
+      "actual": 0.09497281908988953,
+      "expected": 0.09497279991042595
+    },
+    {
+      "check": "allCaption omitted documents ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-6bcde5f1646b",
+      "passed": true,
+      "actual": 0.1269911825656891,
+      "expected": 0.126991126676679
+    },
+    {
+      "check": "allCaption omitted documents ch-aaaebac2693b",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-aaaebac2693b",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-aaaebac2693b",
+      "passed": true,
+      "actual": 0.11172652244567871,
+      "expected": 0.11172647446900102
+    },
+    {
+      "check": "allCaption omitted documents ch-73032cea690b",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-73032cea690b",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-73032cea690b",
+      "passed": true,
+      "actual": 0.12838611006736755,
+      "expected": 0.12838597270740693
+    },
+    {
+      "check": "allCaption omitted documents ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-03c2e8beb4b3",
+      "passed": true,
+      "actual": 0.12375828623771667,
+      "expected": 0.12375821166435574
+    },
+    {
+      "check": "allCaption omitted documents ch-8557f1426bad",
+      "passed": true,
+      "actual": 29,
+      "expected": 29
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-8557f1426bad",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-8557f1426bad",
+      "passed": true,
+      "actual": 393,
+      "expected": 393
+    },
+    {
+      "check": "allCaption omitted difference ch-8557f1426bad",
+      "passed": true,
+      "actual": 0.12903660535812378,
+      "expected": 0.12903649630879666
+    },
+    {
+      "check": "allCaption omitted documents ch-396932860d9d",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-396932860d9d",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-396932860d9d",
+      "passed": true,
+      "actual": 0.12632068991661072,
+      "expected": 0.12632062549252315
+    },
+    {
+      "check": "allCaption omitted documents ch-3ccbf336c582",
+      "passed": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-3ccbf336c582",
+      "passed": true,
+      "actual": 366,
+      "expected": 366
+    },
+    {
+      "check": "allCaption omitted difference ch-3ccbf336c582",
+      "passed": true,
+      "actual": 0.13546064496040344,
+      "expected": 0.13546049830285478
+    },
+    {
+      "check": "allCaption omitted documents ch-ddad7c11a454",
+      "passed": true,
+      "actual": 29,
+      "expected": 29
+    },
+    {
+      "check": "allCaption omitted within-pairs ch-ddad7c11a454",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "allCaption omitted between-pairs ch-ddad7c11a454",
+      "passed": true,
+      "actual": 393,
+      "expected": 393
+    },
+    {
+      "check": "allCaption omitted difference ch-ddad7c11a454",
+      "passed": true,
+      "actual": 0.11837565898895264,
+      "expected": 0.11837559368880679
+    },
+    {
+      "check": "allCaption omission summary.n",
+      "passed": true,
+      "actual": 17,
+      "expected": 17
+    },
+    {
+      "check": "allCaption omission summary.mean",
+      "passed": true,
+      "actual": 0.12518991792903228,
+      "expected": 0.12518985475273053
+    },
+    {
+      "check": "allCaption omission summary.median",
+      "passed": true,
+      "actual": 0.1269911825656891,
+      "expected": 0.126991126676679
+    },
+    {
+      "check": "allCaption omission summary.q1",
+      "passed": true,
+      "actual": 0.11837565898895264,
+      "expected": 0.11837559368880679
+    },
+    {
+      "check": "allCaption omission summary.q3",
+      "passed": true,
+      "actual": 0.13431230187416077,
+      "expected": 0.13431217010573204
+    },
+    {
+      "check": "allCaption omission summary.min",
+      "passed": true,
+      "actual": 0.09497281908988953,
+      "expected": 0.09497279991042595
+    },
+    {
+      "check": "allCaption omission summary.max",
+      "passed": true,
+      "actual": 0.14431196451187134,
+      "expected": 0.1443118952051316
+    },
+    {
+      "check": "allCaption permutation.n",
+      "passed": true,
+      "actual": 2000,
+      "expected": 2000
+    },
+    {
+      "check": "allCaption permutation.mean",
+      "passed": true,
+      "actual": 0.0006092385649681091,
+      "expected": 0.0006092273958960171
+    },
+    {
+      "check": "allCaption permutation.median",
+      "passed": true,
+      "actual": -0.0003353506326675415,
+      "expected": -0.00033538347205999686
+    },
+    {
+      "check": "allCaption permutation.q1",
+      "passed": true,
+      "actual": -0.019087165594100952,
+      "expected": -0.019087161370035688
+    },
+    {
+      "check": "allCaption permutation.q3",
+      "passed": true,
+      "actual": 0.019952289760112762,
+      "expected": 0.019952318333974553
+    },
+    {
+      "check": "allCaption permutation.min",
+      "passed": true,
+      "actual": -0.08724671602249146,
+      "expected": -0.0872466761313736
+    },
+    {
+      "check": "allCaption permutation.max",
+      "passed": true,
+      "actual": 0.10891711711883545,
+      "expected": 0.10891694023400195
+    },
+    {
+      "check": "allCaption descriptive percentile",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "permutation count/seed allCaption",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "permutation interpretation allCaption",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "crosslayer matched documents",
+      "passed": true,
+      "actual": 25,
+      "expected": 25
+    },
+    {
+      "check": "crosslayer matched publishers",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "crosslayer pooled gap",
+      "passed": true,
+      "actual": -0.07502567768096924,
+      "expected": -0.07502567768096924
+    },
+    {
+      "check": "crosslayer account gap",
+      "passed": true,
+      "actual": -0.0753689129328863,
+      "expected": -0.0753689129328863
+    },
+    {
+      "check": "captionEmbeddingsSha256",
+      "passed": true,
+      "actual": "95e3c1a4651bfa9ffb9301bb687db2eaa7c9c5ecfb24c979b5890ff9fc730725",
+      "expected": "95e3c1a4651bfa9ffb9301bb687db2eaa7c9c5ecfb24c979b5890ff9fc730725"
+    },
+    {
+      "check": "titleEmbeddingsSha256",
+      "passed": true,
+      "actual": "df0ebf2bf6a12659e58da37031b039600c2294e18505c3fdd17374fa57a4d7d1",
+      "expected": "df0ebf2bf6a12659e58da37031b039600c2294e18505c3fdd17374fa57a4d7d1"
+    }
+  ]
+}

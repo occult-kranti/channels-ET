@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": 102,
+  "contentRecords": 12,
+  "parsed": 9,
+  "parseFailures": 3,
+  "contentSpanValidCount": 0,
+  "positiveCitationControlRecords": 4,
+  "positiveControlValidCitationCount": 0,
+  "primaryPredictionsUnchanged": true,
+  "neuralInferenceReplayed": false,
+  "humanAccuracyValidated": false,
+  "contentResultsSha256": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+  "diagnosticsSha256": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619"
+}

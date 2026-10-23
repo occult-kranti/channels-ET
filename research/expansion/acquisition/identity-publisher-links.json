@@ -1,0 +1,1416 @@
+{
+  "schema_version": 1,
+  "source_sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "normalization": "Remove www., normalize URL host/path case, strip terminal slash; do not join by names. Existing explicit aliases retained.",
+  "records": [
+    {
+      "practitioner_id": "person-0cbeb6b1757e",
+      "name": "Abbey Normal",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-0b6141ca016b",
+          "inherited_account_url": "https://www.youtube.com/@abbeynormalswisdomquest",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-ebb8ac5fbbdb",
+      "name": "Ais Esther",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-c4daf46ab3c1",
+          "inherited_account_url": "https://www.youtube.com/channel/UCZwwdOD5wuoFLykj9ez56Cw",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-bf1b76f429b9",
+          "inherited_account_url": "https://www.youtube.com/@darkstarchanneling",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-d87cdb68d220",
+      "name": "Alexander Quinn",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-0eef0505b759",
+          "inherited_account_url": "https://www.youtube.com/@alexanderquinn1",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-b2ef6c1b22b5",
+      "name": "Alexandra Tabaczynska",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-0d12f3b9efec",
+          "inherited_account_url": "https://www.youtube.com/@channelingarcturians",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-e21a9129596e",
+      "name": "Alice A. Bailey",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-49e5f0905a1a",
+          "inherited_account_url": "https://www.youtube.com/user/LucisTrust",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-82697f0e0f82",
+      "name": "Amara Alquimia",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-db4833fb1e9e",
+          "inherited_account_url": "https://www.youtube.com/channel/UCOqdvHYNMPoTnZqU4cUcFvg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-bf16e04cbbf3",
+      "name": "Anayana",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-8e3976402a1b",
+          "inherited_account_url": "https://www.youtube.com/@extrememysteries",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-c10873196eb1",
+      "name": "Andrew",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-b1f71e735cd9",
+          "inherited_account_url": "https://www.youtube.com/@elaninteractions",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-a62b2ebc59f6",
+      "name": "Anja Jungjohann",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-0ef3fadab61e",
+          "inherited_account_url": "https://www.youtube.com/@channeled-lightcodes",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-5fa52dc61e3c",
+      "name": "Anne Tucker",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-0f1bd9477ee9",
+          "inherited_account_url": "https://www.youtube.com/channel/UCa2TtIEHppzbAWa3kdcv7Yg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-a4a4e6fbfa47",
+      "name": "Annie Bossingham",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-dfc9250c04ea",
+      "name": "Anthony (KALASK Channeling)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-42c67e40343f",
+          "inherited_account_url": "https://www.youtube.com/@kalaskchanneling",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-91318665993a",
+      "name": "April Crawford",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-5ab8c80d0212",
+      "name": "Arkayla",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-9e34508899d0",
+          "inherited_account_url": "https://www.youtube.com/@arkaylalove",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-9e34508899d0",
+          "inherited_account_url": "https://www.youtube.com/channel/UCztMyD_EcSK7JxeH2cMTcdg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-a1b16ffc5f3a",
+      "name": "Athina Król",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-4deae3e4c229",
+          "inherited_account_url": "https://www.youtube.com/@athinakrol",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-31548d171999",
+      "name": "Barbara Hand Clow",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-26a906b06618",
+      "name": "Barbara Marciniak",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-5e182517441f",
+          "inherited_account_url": "https://www.youtube.com/channel/UCSffF5wKtHDCezvV5tUm68w",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-f5256221aa5c",
+      "name": "Betsy-Morgan Coffman",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-7d51810e2f09",
+          "inherited_account_url": "https://www.youtube.com/@betsymorganthepsychicteacher",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-cffa3ab7e461",
+      "name": "Blossom Goodchild",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-396932860d9d",
+          "inherited_account_url": "https://www.youtube.com/channel/UCtYNUevWytubYiElIY44pbg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-44531395cdcc",
+      "name": "Brad Johnson",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-a888c6c7b2a2",
+          "inherited_account_url": "https://www.youtube.com/channel/UCQeHcVNo6CPWpgJaqEObrqA",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-74cca07006ab",
+          "inherited_account_url": "https://www.youtube.com/@thewisdomnexusnetwork",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-04b00f7a11f5",
+      "name": "Caroline (Calenara; surname unresolved)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-04d85eddf55c",
+          "inherited_account_url": "https://www.youtube.com/@calenara",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-e1ba8f288f8b",
+      "name": "Chellea Wilder",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-70fd128f50b8",
+          "inherited_account_url": "https://www.youtube.com/channel/UC9oszg-_xoIrWyQhWCafhWA",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-c668f2257c0c",
+      "name": "Christine Day",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-71f2ff9fb66c",
+          "inherited_account_url": "https://www.youtube.com/c/ChristineDayOnline",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-3d89966851ec",
+      "name": "Christine Nowinski",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-3103c706f516",
+          "inherited_account_url": "https://www.youtube.com/@comingoutcosmic",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-a87782f077fd",
+      "name": "Cindy Riggs",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-71be5f1d97a9",
+          "inherited_account_url": "https://www.youtube.com/@cindyriggs",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-68056e79b7e0",
+          "inherited_account_url": "https://www.youtube.com/c/jeffmarapodcast",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-9acd8d0e6ac6",
+      "name": "Cullen Baird Smith",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-e48362dc491d",
+          "inherited_account_url": "https://www.youtube.com/user/laarkmaa",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-77078b6a1c6d",
+      "name": "Daniel Scranton",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-aaaebac2693b",
+          "inherited_account_url": "https://www.youtube.com/@danielscranton",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-d83c6f0d5577",
+      "name": "Darryl Anka",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-6d24eebbad92",
+          "inherited_account_url": "https://www.youtube.com/@akiraiwase38",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-73032cea690b",
+          "inherited_account_url": "https://www.youtube.com/@basharchanneledbydarrylanka",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-7c9ca442a8b3",
+          "inherited_account_url": "https://www.youtube.com/channel/UCPvbIxYNi98uEpSDuJs9G6A",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-897d1fd6c0d6",
+          "inherited_account_url": "https://www.youtube.com/@basharchannelingdaily",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-033701dde894",
+          "inherited_account_url": "https://www.youtube.com/@basharchannelingpodcast",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-74ba3f60d15e",
+          "inherited_account_url": "https://www.youtube.com/@basharhighermind99",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-ee5c380db882",
+          "inherited_account_url": "https://www.youtube.com/@bluesoulearth",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-ca0e9600bfe5",
+          "inherited_account_url": "https://www.youtube.com/@consciouslivingtoday",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-a753d4bb5bd0",
+          "inherited_account_url": "https://www.youtube.com/@cosmicalignmentfrequency",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-1ee2b3abaf07",
+          "inherited_account_url": "https://www.youtube.com/channel/UCA2wguwtXnLln3Fhg_nihnQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-69129729bcb3",
+          "inherited_account_url": "https://www.youtube.com/@darrenchetana",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-0b78820813df",
+          "inherited_account_url": "https://www.youtube.com/@skproduccciones",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-a2d112ab28a9",
+          "inherited_account_url": "https://www.youtube.com/@decodethenow",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-ff85f37eb9b1",
+          "inherited_account_url": "https://www.youtube.com/@divine_insights_official",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-ff85f37eb9b1",
+          "inherited_account_url": "https://www.youtube.com/channel/UCKy61LU_IToA4CJBggQQvYg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-4a6e81f10f5f",
+          "inherited_account_url": "https://www.youtube.com/channel/UCugr4dreXep1lI_6JIDhU8g",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-aa363d4446d1",
+          "inherited_account_url": "https://www.youtube.com/channel/UCsi1jSc7BubaE_Ns9NHQmOg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-cec1c0e9492c",
+          "inherited_account_url": "https://www.youtube.com/@freevibration323",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-b6d7a8cb5baf",
+          "inherited_account_url": "https://www.youtube.com/channel/UCuieszRDT9Fwb1Tah4SmTGg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-0b086d650484",
+          "inherited_account_url": "https://www.youtube.com/@heartcoherencecollaborative",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-71be49e5f46b",
+          "inherited_account_url": "https://www.youtube.com/@loveistheway233",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-2b023595d9b3",
+          "inherited_account_url": "https://www.youtube.com/channel/UCb8t5aLTCNtk1Erg3ck0UYQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-532cdd1f327f",
+          "inherited_account_url": "https://www.youtube.com/user/arap35",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-b7881b1f23c1",
+          "inherited_account_url": "https://www.youtube.com/@quantumhealingpath",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-cd965930caaa",
+          "inherited_account_url": "https://www.youtube.com/channel/UCK_n-uNTnb1KUxBD-w-MWhw",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-7903f5675ab9",
+          "inherited_account_url": "https://www.youtube.com/c/thePlanetfromNebula_Bashar",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-b1b6f9cd98cc",
+          "inherited_account_url": "https://www.youtube.com/channel/UCCmKn0GHKtd1Y3_P2-JPdOQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-662fd592e9d9",
+      "name": "Dave Akira",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-765a41ba65f7",
+      "name": "David Clements",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-982ddd02bd15",
+          "inherited_account_url": "https://www.youtube.com/@wisdomfromnorthclips",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-a21309c9e1e3",
+      "name": "David Lotherington",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-6d127415bb4c",
+          "inherited_account_url": "https://www.youtube.com/channel/UCCyTfxoK_OYkjLykfA1WO6w",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-7b5c147fcb19",
+      "name": "David Nicholas",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-0fd4c2948e0a",
+          "inherited_account_url": "https://www.youtube.com/@gflstation",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-9171a52c63b6",
+      "name": "Debbie Phelan",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-0f3664b848f8",
+      "name": "Debbie Solaris",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-c670227cf6eb",
+          "inherited_account_url": "https://www.youtube.com/user/sydkat7",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-762b6a6c6bb0",
+      "name": "Diana Cooper",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-456b4ca825e8",
+          "inherited_account_url": "https://www.youtube.com/@dianacooper",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-9093b240fc34",
+      "name": "Elizabeth April",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-57c71112f62b",
+          "inherited_account_url": "https://www.youtube.com/@elizabethapril",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-20f4717aa957",
+      "name": "Esther Hicks",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-e63544d4ae55",
+          "inherited_account_url": "https://www.youtube.com/user/AbrahamHicks",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-76438c550320",
+      "name": "Filipa (Hylah channeler)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-fe4c83dd0a98",
+          "inherited_account_url": "https://www.youtube.com/channel/UC_hBKvSgkH2m6yMbTR1n7rQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-380ccab730a0",
+          "inherited_account_url": "https://www.youtube.com/channel/UCeLi2bPzuXJIeOVj80V24hQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-7bcf5277b95d",
+      "name": "George W. Van Tassel (archive)",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-1254685da6c4",
+      "name": "IvET-ka",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-e0a6590f69df",
+          "inherited_account_url": "https://www.youtube.com/channel/UCAF2kODnoBDKm5KuSpb7UeQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-797c6313d42c",
+      "name": "Ivan Teller",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-8b03bdae9bef",
+          "inherited_account_url": "https://www.youtube.com/channel/UC3QuoqlYLakumu4bc0a9pOA",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-8b03bdae9bef",
+          "inherited_account_url": "https://www.youtube.com/@ivanteller",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-5eaf6a7516c8",
+      "name": "Ivet (surname unresolved)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-e0a6590f69df",
+          "inherited_account_url": "https://www.youtube.com/@ivkahandshayla",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-4e09d7cc2db3",
+      "name": "Jake (Daniel channeler; surname unresolved)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-9e2e6f255dff",
+          "inherited_account_url": "https://www.youtube.com/channel/UC2AYbVmy4GSxya5YbaHkhHQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-cd6c952ab236",
+      "name": "Jane Roberts (Seth archive)",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-1b8d72854a8a",
+      "name": "Jim Charles",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-b8387c61b70e",
+          "inherited_account_url": "https://www.youtube.com/channel/UCgrfR7gORGqK0CETQhU8Btw",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-31740b8b6908",
+          "inherited_account_url": "https://www.youtube.com/channel/UCv6LD97F1PeORufDih-aOMA",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-7c280a8093f5",
+          "inherited_account_url": "https://www.youtube.com/c/HumancolonyOrg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-ce0c47eeb60a",
+          "inherited_account_url": "https://www.youtube.com/@hucolo",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-c0744d20d8e1",
+          "inherited_account_url": "https://www.youtube.com/user/HumanColonies",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-ce0c47eeb60a",
+          "inherited_account_url": "https://www.youtube.com/channel/UCj5wGWloHE8hKHPd5kqWsJQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-24203e3c8906",
+      "name": "Jonathan Trinity Martin",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-686aab79fae5",
+          "inherited_account_url": "https://www.youtube.com/c/JonathanCMartin333",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-f2eb64916168",
+          "inherited_account_url": "https://www.youtube.com/channel/UC4m2GWzVejzwVj_Xn4aBM6A",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-f2eb64916168",
+          "inherited_account_url": "https://www.youtube.com/@jonathantrinitymartin",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-140e26e59ce6",
+      "name": "Karen Neumann",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-caae1425a8fc",
+      "name": "Kim Louise",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-0fb9cb693440",
+      "name": "Kliselle (public name)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-c1d420bf3f00",
+          "inherited_account_url": "https://www.youtube.com/@kliselle",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-e8e79d08881e",
+      "name": "Krista Raisa",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-a451abc88fec",
+          "inherited_account_url": "https://www.youtube.com/user/staycurly",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-8af19006fd3e",
+      "name": "L/L Research (Ra, Q’uo and Hatonn lineages)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-edce307a63b3",
+          "inherited_account_url": "https://www.youtube.com/c/LLResearch",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-a46b911ad0af",
+          "inherited_account_url": "https://www.youtube.com/channel/UCOF76IZZcGV6iiKiqmkNgLw",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-10066e82fdb2",
+      "name": "Lee Carroll",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-a24eb718bd62",
+          "inherited_account_url": "https://www.youtube.com/channel/UCnqGBcYUGgzV_6jbEgQ8lfA",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-f83cfd8c8163",
+          "inherited_account_url": "https://www.youtube.com/channel/UCbzZmC-cvS57cWbeBe7XPoA",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-2bc6ad91652d",
+          "inherited_account_url": "https://www.youtube.com/channel/UCMiuw8FLujKn06dnlxpbWGQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-5149308a7586",
+          "inherited_account_url": "https://www.youtube.com/channel/UCpCvZr6ixNz628JUouxbBXQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-565c4851a07d",
+      "name": "Lee Harris",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-59df32bf3a51",
+          "inherited_account_url": "https://www.youtube.com/user/LeeHarrisEnergy",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-bd640e63fc2d",
+      "name": "Leo (Calenara; surname unresolved)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-04d85eddf55c",
+          "inherited_account_url": "https://www.youtube.com/@calenara",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-44139baaaf24",
+      "name": "Lia Lohmann",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-9dd8408e24c3",
+          "inherited_account_url": "https://www.youtube.com/@ozean-licht",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-1c9dfccbef1a",
+          "inherited_account_url": "https://www.youtube.com/@lialohmannglobal",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-4bee3103f738",
+      "name": "Linus Kordes",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-b1b6f9cd98cc",
+          "inherited_account_url": "https://www.youtube.com/channel/UCCmKn0GHKtd1Y3_P2-JPdOQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-a7c458b3eba5",
+      "name": "Lisa Richmond",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-6c3a3712cbbd",
+          "inherited_account_url": "https://www.youtube.com/@lisarichmondmedium",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-d617f12932aa",
+      "name": "Livia Devi",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-ec7d4c8e1f0c",
+          "inherited_account_url": "https://www.youtube.com/channel/UCq_QBIMKKa_ouphZM0s5nfQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-b0daef290f1a",
+      "name": "Lyssa Royal Holt",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-cc61aed50366",
+          "inherited_account_url": "https://www.youtube.com/channel/UCeuLbnOjJBUfqqm2KEqkpLA",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-817b88429571",
+      "name": "Magenta Pixie",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-fbce4d3669af",
+          "inherited_account_url": "https://www.youtube.com/@magentapixie",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-c7f6c59d7eec",
+      "name": "Maibritt Agesen",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-adac87f5ab19",
+      "name": "Makeo Lim",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-49c26d8d15ca",
+          "inherited_account_url": "https://www.youtube.com/channel/UCK1XrVoogCGeDSRs2p6iUlQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-edbb8e2f3059",
+      "name": "Marilyn Raffaele",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-76cd3fd81623",
+          "inherited_account_url": "https://www.youtube.com/channel/UCzQf4Rxn3LzdoWC4BkWm-CQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-6329b641bebd",
+      "name": "Marina Jacobi",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-f2ea5d83887c",
+          "inherited_account_url": "https://www.youtube.com/@theharmonicreactor",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-59cf8983470a",
+      "name": "Martin (Hriss LaSun channeler; surname unresolved)",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-c064394d898c",
+      "name": "Matiss (Latvian channeler; surname unresolved)",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-ae5ddcf8b3e5",
+          "inherited_account_url": "https://www.youtube.com/channel/UC8gEwJIn8vqj_-6Sv63H2mw",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-fbb09ac0c2e6",
+      "name": "Max (Hucolo; surname unresolved)",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-6c5802a37f23",
+      "name": "Melanie Beckler",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-f037f2957fd3",
+          "inherited_account_url": "https://www.youtube.com/@askangels",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-c3be853c9568",
+      "name": "Mike Quinsey",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-15775f3468c5",
+      "name": "Monica Pederzoli",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-28968bad5c0a",
+          "inherited_account_url": "https://www.youtube.com/@arcadiluce",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-4615efe92582",
+      "name": "Nalinee Diosara",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-74b20736c290",
+      "name": "Natalie Glasson",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-c9822e29a6bd",
+          "inherited_account_url": "https://www.youtube.com/channel/UCki3n6iD5mejV8C6DtEOUvw",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-6b3662f78f4d",
+      "name": "Nick James",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-3e04050f047b",
+      "name": "Nora Herold",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-679bc10533e3",
+          "inherited_account_url": "https://www.youtube.com/user/noraherold",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-7c647ba32e48",
+      "name": "Pamela Aaralyn",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-d9ef9bb4b58f",
+          "inherited_account_url": "https://www.youtube.com/@pamelaaaralyn",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-a3b6f3ee40b5",
+      "name": "Paul & Holly",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-c7db7a099727",
+      "name": "Paul Hamden",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-24cdc70857d7",
+          "inherited_account_url": "https://www.youtube.com/user/Paulham33",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-47b4d7b4cdc8",
+          "inherited_account_url": "https://www.youtube.com/@the-zeta-connection",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-ab05ac6324df",
+      "name": "Paul Selig",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-868baf3e6d39",
+          "inherited_account_url": "https://www.youtube.com/user/paulseligvideos",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-bddc1c716b1b",
+      "name": "Pia Orleane",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-e48362dc491d",
+          "inherited_account_url": "https://www.youtube.com/user/laarkmaa",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-e4bb3f6fac8f",
+      "name": "Rachel Chamness",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-f3a97cf5ef7f",
+      "name": "Rob Gauthier",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-8e3976402a1b",
+          "inherited_account_url": "https://www.youtube.com/@extrememysteries",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-5ce1734d5d9b",
+          "inherited_account_url": "https://www.youtube.com/@e.t.whisperer",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-a80163571084",
+          "inherited_account_url": "https://www.youtube.com/user/TReBoryitNE",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-091e0d7625b1",
+          "inherited_account_url": "https://www.youtube.com/c/TheETWhispererRobGauthier",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-05fde1a08a4e",
+      "name": "Roxanne Swainhart",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-4265629f42de",
+          "inherited_account_url": "https://www.youtube.com/channel/UCoxINFqPqOU6W8OOTi1nqeQ",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-9ad98a77de28",
+      "name": "Sal Rachele",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-b54effb9f67f",
+      "name": "Sam the Illusionist",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-02b49a2a7dcd",
+          "inherited_account_url": "https://www.youtube.com/@samtheillusionist",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-385c43576c4a",
+      "name": "Sarah Evans",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-c0876db314ac",
+          "inherited_account_url": "https://www.youtube.com/@intothebluechanneling",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-ae050c636ee1",
+      "name": "Sarah Shook",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-85912e7c5784",
+          "inherited_account_url": "https://www.youtube.com/@iamsarahshook",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-120ad4460326",
+      "name": "Sarah Starr",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-1721e4ba2d41",
+          "inherited_account_url": "https://www.youtube.com/@sarahstarr.official",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-39bc75d8e0aa",
+      "name": "Sephira",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-97e1b9263fa1",
+      "name": "Shaun Swanson",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-6bcde5f1646b",
+          "inherited_account_url": "https://www.youtube.com/@shaunswanson",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-8621c624902c",
+          "inherited_account_url": "https://www.youtube.com/channel/UCeaxf_xQYP0gai9tE7iok-A",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-213ea4cab62e",
+      "name": "Sheldan Nidle",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-0c41aaf64b75",
+      "name": "Sil Goedhart",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-27255ee3c506",
+          "inherited_account_url": "https://www.youtube.com/@we-see-you-2547",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-39f62f151dc7",
+      "name": "Simon Gerve",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-7c2b4ca4f12a",
+      "name": "Solara An-Ra",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-48b8ed64096f",
+          "inherited_account_url": "https://www.youtube.com/channel/UC3wjMuxPWEXqeg1-uAgXuFg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-7bb4d2fd9ff2",
+      "name": "Steve Rother",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-edaffb2aef74",
+          "inherited_account_url": "https://www.youtube.com/c/espavo",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-23d7d5f8c309",
+      "name": "Suzanne (Suzy) Ward",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-b31223ea5b45",
+          "inherited_account_url": "https://www.youtube.com/channel/UC8bAT0Ys7PC2AybDvR_Q78Q",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-4dcd4fc20b10",
+      "name": "Suzanne Giesemann",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-78280cdb55b0",
+          "inherited_account_url": "https://www.youtube.com/@suzannegiesemann",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-4f1ce45d14c1",
+      "name": "Suzanne Lie",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-5c66e89a81a1",
+          "inherited_account_url": "https://www.youtube.com/user/suzannelie",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-ed2cc7f8bfba",
+      "name": "Syann Hamden",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-24cdc70857d7",
+          "inherited_account_url": "https://www.youtube.com/user/Paulham33",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-47b4d7b4cdc8",
+          "inherited_account_url": "https://www.youtube.com/@the-zeta-connection",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-5ee12d4e4252",
+      "name": "Thomas Sander Pettersen",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-6988f357c14f",
+      "name": "Toni Ghazi",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-720849dbb43b",
+          "inherited_account_url": "https://www.youtube.com/@theantareanheart",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-3d0cdece504f",
+      "name": "Tyler Ellison",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-3ccbf336c582",
+          "inherited_account_url": "https://www.youtube.com/channel/UCLw58p9pkhoNAXd9PpjMxdg",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-3ccbf336c582",
+          "inherited_account_url": "https://www.youtube.com/@thegalacticguide111",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-4c07b81a9acb",
+      "name": "Valerie Donner",
+      "publisher_matches": [],
+      "match_status": "no_retained_exact_route_match"
+    },
+    {
+      "practitioner_id": "person-ed988f7440ec",
+      "name": "Vanessa Lisle Widergren",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-720ad40a069e",
+          "inherited_account_url": "https://www.youtube.com/@psychicvanessawidergren",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-720ad40a069e",
+          "inherited_account_url": "https://www.youtube.com/channel/UC_Ukem8U0VgRyg8uFTbqv4g",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-dabef8b17914",
+      "name": "Viviane Chauvet",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-88ebdbe8adbc",
+          "inherited_account_url": "https://www.youtube.com/@emilioortiz",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-ffec73e05e1a",
+          "inherited_account_url": "https://www.youtube.com/@vivianechauvetgalactichealer",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-b84b40adb8b1",
+      "name": "Wendy Kennedy",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-982ddd02bd15",
+          "inherited_account_url": "https://www.youtube.com/@wisdomfromnorthclips",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-0a31b1dbd853",
+          "inherited_account_url": "https://www.youtube.com/@hgrfrequencies",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    },
+    {
+      "practitioner_id": "person-f770029c66d9",
+      "name": "Wieteke Koolhof",
+      "publisher_matches": [
+        {
+          "publisher_group_id": "ch-766475a04c0c",
+          "inherited_account_url": "https://www.youtube.com/user/Design4awareness",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        },
+        {
+          "publisher_group_id": "ch-1ee49b2278ca",
+          "inherited_account_url": "https://www.youtube.com/@design4awareness",
+          "join_basis": "exact normalized URL matches retained channel URL/explicit alias; snapshot attribution, not independent person verification"
+        }
+      ],
+      "match_status": "inherited_explicit_route_match"
+    }
+  ]
+}

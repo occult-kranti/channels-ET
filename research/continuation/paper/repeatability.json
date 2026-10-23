@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "command": "bash research/continuation/paper/build.sh",
+  "comparison": "Two consecutive final-source builds at the same absolute path in the prepared environment",
+  "first": {
+    "channels-et-paper.pdf": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+    "channels-et-source.zip": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+    "input-manifest.json": "a92d91f85f0ce0d3e71c4f725556845517b64d427601bec9aab708c87852ecb5"
+  },
+  "second": {
+    "channels-et-paper.pdf": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+    "channels-et-source.zip": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+    "input-manifest.json": "a92d91f85f0ce0d3e71c4f725556845517b64d427601bec9aab708c87852ecb5"
+  },
+  "byte_identical": true,
+  "source_date_epoch": 1792713600,
+  "scope": "PDF, source ZIP and input manifest repeat exactly in this environment; no cross-platform binary guarantee."
+}

@@ -1,0 +1,14 @@
+Sliding Window Attention is enabled but not implemented for `eager`; unexpected results may be encountered.
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/workspace/channels-et-model-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{"id": "qa-jdzErS12DvU-002", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "extraterrestrials landing and revealing themselves"}, "changed": true}
+{"id": "qa-WEVqgD-L5kc-000", "parsed": {"theme": "contact_forecast", "conditional": "yes", "evidence": "follow_highestjoy_if_economy_collapses"}, "changed": false}
+{"id": "qa-ufzO0sbNICQ-014", "parsed": {"theme": "personal_practice", "conditional": "no", "evidence": "healing"}, "changed": true}
+{"id": "qa-E_cPno64Z-Q-014", "parsed": null, "changed": null}
+{"id": "qa-IKJzZ-KVPdQ-017", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "people feel they're 'going through the motions' with no passion because they have fear-based beliefs"}, "changed": true}
+{"id": "qa-Rcjd1TkZUMY-000", "parsed": null, "changed": null}
+{"id": "qa-Dw9XHTMrgBE-015", "parsed": {"theme": "personal_practice", "conditional": "yes", "evidence": "predictions"}, "changed": true}

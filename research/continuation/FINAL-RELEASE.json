@@ -1,0 +1,144 @@
+{
+  "status": "reviewed_release_with_explicit_data_and_access_limits",
+  "createdAt": "2026-10-23T22:02:04.075332+00:00",
+  "repository": "https://github.com/occult-kranti/channels-ET",
+  "repositoryBaselineCommit": "faefa36cbd2e55fdfb2f0508e5cb6b3bf5c54a5d",
+  "preservedBasharCommit": "151efb25824dd54768edef7b71ca2a22f1c6d1ac",
+  "reviewType": "Three further AI-agent technical-panel rounds; not human peer review",
+  "rounds": [
+    {
+      "round": 10,
+      "archive": "research/continuation/rounds/round10/candidate.zip",
+      "sha256": "5681c632f4b4f0fd857711d0d7ee2c6483bd39963cd2ff48c564d7710e7f2008",
+      "memberFilesVerified": 190
+    },
+    {
+      "round": 11,
+      "archive": "research/continuation/rounds/round11/candidate.zip",
+      "sha256": "dbfdc2e6c655c13124830e3db1a741fba7cf2270ecf140809e2f9e7be6a1410f",
+      "memberFilesVerified": 261
+    },
+    {
+      "round": 12,
+      "archive": "research/continuation/rounds/round12/candidate.zip",
+      "sha256": "5afee57436d357cb7db7463cd9fecffa51fcd9a3ce7ec62af944769a11818a53",
+      "memberFilesVerified": 327
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "research/continuation/paper/channels-et-paper.pdf",
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda",
+      "bytes": 397048
+    },
+    {
+      "path": "research/continuation/paper/channels-et-source.zip",
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326",
+      "bytes": 296455
+    },
+    {
+      "path": "research/continuation/analysis/results.json",
+      "sha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd",
+      "bytes": 244716
+    },
+    {
+      "path": "research/continuation/models/qwen-digest-lora-pilot.zip",
+      "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+      "bytes": 1018863
+    },
+    {
+      "path": "research/continuation/acquisition/corpus-index.sqlite",
+      "sha256": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+      "bytes": 593920
+    },
+    {
+      "path": "research/expansion/qa/qa-candidates.sqlite",
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5",
+      "bytes": 925696
+    },
+    {
+      "path": "research/expansion/qa/qa-candidates.json",
+      "sha256": "cdd36b99d8f8a58929ef3bd190521e614ffad3d2027533596abf2e40cdf0aab6",
+      "bytes": 1376120
+    },
+    {
+      "path": "dist/research/data.json",
+      "sha256": "b82fcbfdf8ca3e0714712a6c4f76afbfff07096aa469f67b590a72e254d313a5",
+      "bytes": 956161
+    },
+    {
+      "path": "dist/research/app.js",
+      "sha256": "99cf214e0462c773a9fec57c527450db54cfcd37fe03d82e8bae81b551675486",
+      "bytes": 48174
+    },
+    {
+      "path": "dist/research/styles.css",
+      "sha256": "a13e46bd4572e0f66b2a71355eec352b261ec9062c0b1467709c347ff26e509d",
+      "bytes": 9357
+    },
+    {
+      "path": "research/continuation/release-verification.json",
+      "sha256": "773db499075281ab851c4fea531f46e8b74c34de276ec32a1a5d8b45e72a5f60",
+      "bytes": 25209
+    },
+    {
+      "path": "research/continuation/reviews/root-round12.json",
+      "sha256": "0c02b38e61b99c905cfe462cc8bf3d2a401adc177f6b15f51d823ea77a2ae599",
+      "bytes": 3497
+    }
+  ],
+  "paperPages": 16,
+  "literatureFreshCheckedSources": 18,
+  "scientificFigureFamilies": 6,
+  "numericalOutputsReproduced": 13,
+  "qaCandidates": 949,
+  "qaPractitionerContexts": 1,
+  "qaEvidenceType": "AI-generated digest paraphrases/gists, not verified transcript turns",
+  "actualNeuralExperiments": [
+    "Qwen2.5 CPU five-arm heldout/RAG/LoRA pilot,50 outputs",
+    "Qwen2.5 fixed12 original-order annotation outputs",
+    "Qwen2.5 same12 reversed-option-order annotation outputs",
+    "Qwen3.5 CPU text-only provenance-schema smoke",
+    "Qwen3.5 same12 original-order annotation outputs"
+  ],
+  "training": {
+    "examples": 48,
+    "optimizerSteps": 12,
+    "trainableLoraParameters": 270336,
+    "device": "cpu"
+  },
+  "compute": {
+    "cpuQuotaCores": 4,
+    "memoryLimitGiB": 32,
+    "cudaGpuDetected": false
+  },
+  "successfulNewRawTranscripts": 0,
+  "successfulNewMediaDownloads": 0,
+  "accessOutcome": "One YouTube proxy CONNECT403;one independent author transcriptHTTP403;desirednetwork unrestricted,observedenforcementunknown",
+  "humanAnnotationAccuracyValidated": false,
+  "stateOfTheArtEstablished": false,
+  "hostedDeploymentVerified": false,
+  "overleafProjectCreated": false,
+  "tbd": [
+    "Attributable multi-practitioner answer corpus and equivalent prompts",
+    "Human speaker,prompt-equivalence,source-entailment and answer-relation validation",
+    "Complete channel acquisition and performance-family resolution",
+    "Equal-evidence/length,larger grouped model evaluation",
+    "Human authorship,rights review,institutional determination and submission decisions"
+  ],
+  "scope": "All deliverables and local builds are concrete and reviewable; unavailable source acquisition and scientific validation are not represented as completed.",
+  "postFreezeCosmeticEdits": [
+    {
+      "path": "research/continuation/analysis/analyze.py",
+      "frozenCandidateSha256": "dbcd73dd1732ca1d663f2ec51759e57a6ddfb31b52dcf82c3f7d524951414064",
+      "releaseSha256": "efc4a2fab2f293b8fd927216bfd64dbef4dc5d2b00974f690063c9e2f4739b3d",
+      "change": "Remove spaces on blank lines; independently compared Python AST is identical. No scientific input/output changed."
+    },
+    {
+      "path": "research/continuation/analysis/figures.py",
+      "frozenCandidateSha256": "8276550b599f43610d3598363721f6b7db779b8c47107e65397e71e1fa710e76",
+      "releaseSha256": "2f248765e6b3bf418d29ad780223727a504dce693bd68db61b99b37873e67722",
+      "change": "Remove spaces on blank lines; independently compared Python AST is identical. No scientific input/output changed."
+    }
+  ]
+}

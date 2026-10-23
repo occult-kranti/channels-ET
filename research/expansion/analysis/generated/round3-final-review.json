@@ -1,0 +1,89 @@
+{
+  "round": 9,
+  "role": "Analytics cross-workstream final technical reviewer",
+  "reviewedAt": "2026-10-23T20:45:58.087049+00:00",
+  "priorCandidateArchiveSha256": "03654cafae00e7fc15bdd1f30b60cfcc75fb1047b774036d931eb2bb79e64bc3",
+  "finalPaper": {
+    "path": "research/expansion/paper/channeling-atlas-expansion-paper.pdf",
+    "sha256": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1",
+    "pages": 25
+  },
+  "finalInputs": {
+    "analysis/results.json": "97e4afb15e07cbaf8bca90cd8f1b125af41197c284fa613b0250aead6a4bc216",
+    "qa/summary.json": "7cc9705a73bed33523397b0e4812bb47974dfc21a8a48c83d294c53948a46128",
+    "qa/question-pairs.json": "17629517ea6d187d92aab30079be8d5b61f2fc581e54012410e5bf10a544a476",
+    "qa/qa-candidates.csv": "c5dc89e20181f7e97e7011c50db7c23e42d6aa2839608401bddc19bc8745d2a9",
+    "paper/channeling-atlas-expansion-paper.pdf": "9eb942301eab65212b1c1f0aaae9c938e7f86b01d6e7ca7c9e6e90e7a8bd64e1",
+    "paper/input-manifest.json": "af4e371c2136ccdcd8385b25b42c2e8ba7858af163fb1dcbd3dbb1aba04edd98"
+  },
+  "figurePdfHashes": {
+    "coverage": "635647ea8ffa7996653824fbdcff7019c6c62f4fcbffaf009cfa903ae9c319e4",
+    "concentration": "0520480b9192e4d7fd796eb954a4fdb31295904577c9546f6e0b308498b6d7ef",
+    "caption-selection": "c268c4278a880553c642d0db87b3ae6116a8f1514cfa6bfd63af5a3c8e9e6963",
+    "keyword-duration": "70b5b9608533cc5c55e3c54df0c087b40d349c31f3578990f72523179d6c0dd5",
+    "publisher-similarity": "40e4135a894d89d214d38199c264ab7c86ee12817aa51087fd506fa11fba04ab",
+    "negative-control": "fc49e2758e0d0f8d848d33a84e40f6c6a05c495f47c81c2c133ad0a6a76cdc76"
+  },
+  "executedChecks": {
+    "analyticsIndependent": {
+      "checks": 798,
+      "passed": 798,
+      "status": "PASS"
+    },
+    "qaCrossWorkstream": {
+      "checks": 2994,
+      "passed": 2994,
+      "status": "PASS"
+    },
+    "paperSourceConsistency": {
+      "checks": 30,
+      "passed": 30,
+      "status": "PASS"
+    }
+  },
+  "visualInspection": {
+    "renderedFinalPdfPages": [
+      13,
+      14
+    ],
+    "observations": [
+      "Figure6 observed-value legends no longer collide with observed lines.",
+      "Matched-pair count labels 11/289 remain legible.",
+      "Threshold table rows0.40\u20130.90 and all three columns are readable without clipping.",
+      "Preview 100 of 127 and model-reading limitations are retained near their claims."
+    ]
+  },
+  "resolvedFindings": [
+    {
+      "id": "A8-1",
+      "resolution": "Corrected negative-control PDF/SVG/PNG; authoritative and paper copies byte-identical."
+    },
+    {
+      "id": "A8-2",
+      "resolution": "Rendered method now separates deterministic caption quantiles from fixed-seed publisher-label reference."
+    },
+    {
+      "id": "A8-3",
+      "resolution": "Rendered paper includes account-balanced eligibility, singleton role, omission influence ranges and representation-specific cross-layer contrast."
+    },
+    {
+      "id": "A8-4",
+      "resolution": "Independent raw-matrix checks confirm 127/73/47/34/24/18 candidate pairs, 71/34/19/11/11/9 upload pairs; top three upload pairs contribute 30/127; preview 100 of 127 is explicit."
+    },
+    {
+      "id": "A9-1",
+      "resolution": "CSV false booleans literal and absent timestamps empty; formula guard corrected for empty values."
+    },
+    {
+      "id": "A9-2",
+      "resolution": "Paper regenerated after final acquisition metadata: all recorded input hashes match current files."
+    }
+  ],
+  "remainingLimits": [
+    "No new raw caption, audio, speaker or human construct validation.",
+    "The Q&A database remains 949 AI digest paraphrase candidates within one practitioner context.",
+    "New YouTube collection remains blocked in the acquisition workstream; planned queries are not findings.",
+    "Threshold sensitivity evaluates retrieval volume, not calibrated precision/recall or answer equivalence."
+  ],
+  "status": "PASS_for_executed_analysis_and_final_artifact_consistency"
+}

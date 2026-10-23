@@ -1,0 +1,183 @@
+{
+  "round": "11",
+  "reviewer": "AI implementation/browser role, not human participant research",
+  "checks": [
+    "Final benchmark artifact present",
+    "Final paper artifact present",
+    "Retained925uploadIDs rendered",
+    "Digest949candidate scope rendered",
+    "No invalid values on overview",
+    "No desktop page overflow on overview",
+    "No invalid values on experiments",
+    "No desktop page overflow on experiments",
+    "No invalid values on collection",
+    "No desktop page overflow on collection",
+    "No invalid values on methods",
+    "No desktop page overflow on methods",
+    "Actual model identifier rendered",
+    "Quality proxy is not labeled factual accuracy",
+    "Actual model arm rows rendered with hardware/split context",
+    "Sourcecandidate roster contains106records",
+    "Entity alias filter joins only inherited candidate IDs",
+    "Coverage CSV uses the filtered candidate population",
+    "CSV preserves per-candidate unattempted state instead of inferred403failure",
+    "Collection no-match state meaningful",
+    "Keyboard form submission filters source records",
+    "Keyboard opens native source/method disclosure",
+    "No390pxpage overflow on overview",
+    "No390pxpage overflow on experiments",
+    "No390pxpage overflow on collection",
+    "No390pxpage overflow on methods",
+    "No200%CSSzoom page overflow on overview",
+    "No200%CSSzoom page overflow on experiments",
+    "No200%CSSzoom page overflow on collection",
+    "No200%CSSzoom page overflow on methods",
+    "Public artifact serves analysis-results.json",
+    "Displayed artifact hash matches analysis-results.json",
+    "Public artifact serves model-results.json",
+    "Displayed artifact hash matches model-results.json",
+    "Public artifact serves training-receipt.json",
+    "Displayed artifact hash matches training-receipt.json",
+    "Public artifact serves predictions.json",
+    "Displayed artifact hash matches predictions.json",
+    "Public artifact serves qwen-digest-lora-pilot.zip",
+    "Displayed artifact hash matches qwen-digest-lora-pilot.zip",
+    "Public artifact serves posthoc-diagnostics.json",
+    "Displayed artifact hash matches posthoc-diagnostics.json",
+    "Public artifact serves content-label-results.json",
+    "Displayed artifact hash matches content-label-results.json",
+    "Public artifact serves content-label-predictions.json",
+    "Displayed artifact hash matches content-label-predictions.json",
+    "Public artifact serves current-family-smoke.json",
+    "Displayed artifact hash matches current-family-smoke.json",
+    "Public artifact serves length-audit.json",
+    "Displayed artifact hash matches length-audit.json",
+    "Public artifact serves hardware.json",
+    "Displayed artifact hash matches hardware.json",
+    "Public artifact serves model-protocol.json",
+    "Displayed artifact hash matches model-protocol.json",
+    "Public artifact serves model-split.json",
+    "Displayed artifact hash matches model-split.json",
+    "Public artifact serves model-metadata.json",
+    "Displayed artifact hash matches model-metadata.json",
+    "Public artifact serves acquisition-summary.json",
+    "Displayed artifact hash matches acquisition-summary.json",
+    "Public artifact serves corpus-index.sqlite",
+    "Displayed artifact hash matches corpus-index.sqlite",
+    "Public artifact serves qa-candidates.sqlite",
+    "Displayed artifact hash matches qa-candidates.sqlite",
+    "Public artifact serves qa-summary.json",
+    "Displayed artifact hash matches qa-summary.json",
+    "Public artifact serves paper.pdf",
+    "Displayed artifact hash matches paper.pdf",
+    "Public artifact serves source.zip",
+    "Displayed artifact hash matches source.zip",
+    "No browser page errors"
+  ],
+  "errors": [],
+  "screenshots": [
+    "/workspace/channels-ET/research/continuation/dashboard/round11-overview.png",
+    "/workspace/channels-ET/research/continuation/dashboard/round11-experiments-mobile.png",
+    "/workspace/channels-ET/research/continuation/dashboard/round11-experiments-mobile-viewport.png"
+  ],
+  "artifacts": {
+    "analysis-results.json": {
+      "sha256": "a69b4224c97536cd309144221cf81791bfdf9b2884b9a7c9279423211b6aeed6",
+      "bytes": 234479
+    },
+    "model-results.json": {
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f",
+      "bytes": 6396
+    },
+    "training-receipt.json": {
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e",
+      "bytes": 8809
+    },
+    "predictions.json": {
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5",
+      "bytes": 66483
+    },
+    "qwen-digest-lora-pilot.zip": {
+      "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+      "bytes": 1018863
+    },
+    "posthoc-diagnostics.json": {
+      "sha256": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619",
+      "bytes": 7475
+    },
+    "content-label-results.json": {
+      "sha256": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27",
+      "bytes": 1695
+    },
+    "content-label-predictions.json": {
+      "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+      "bytes": 15071
+    },
+    "current-family-smoke.json": {
+      "sha256": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83",
+      "bytes": 2197
+    },
+    "length-audit.json": {
+      "sha256": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31",
+      "bytes": 9284
+    },
+    "hardware.json": {
+      "sha256": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38",
+      "bytes": 328
+    },
+    "model-protocol.json": {
+      "sha256": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f",
+      "bytes": 2537
+    },
+    "model-split.json": {
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e",
+      "bytes": 88879
+    },
+    "model-metadata.json": {
+      "sha256": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a",
+      "bytes": 9557
+    },
+    "acquisition-summary.json": {
+      "sha256": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00",
+      "bytes": 83109
+    },
+    "corpus-index.sqlite": {
+      "sha256": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e",
+      "bytes": 593920
+    },
+    "qa-candidates.sqlite": {
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5",
+      "bytes": 925696
+    },
+    "qa-summary.json": {
+      "sha256": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100",
+      "bytes": 245622
+    },
+    "paper.pdf": {
+      "sha256": "9b5d59e51430ae2429f36b5c3c3e293a2f655f814eb58403485e993203029b88",
+      "bytes": 393410
+    },
+    "source.zip": {
+      "sha256": "7795f5a1cfacb05aa831dcaf4b6dcf43858bde6927a3a5c3ecd745fc793a6165",
+      "bytes": 294059
+    },
+    "index.html": {
+      "bytes": 1683,
+      "sha256": "75f9bbf90472c6e8aa623c4f9f2713476b31022fe6cac3aa0d541e9c79434d36"
+    },
+    "app.js": {
+      "bytes": 39194,
+      "sha256": "858983b0481ed4c552c5498750af3e4f61526da8e42c09543664222411d53c37"
+    },
+    "styles.css": {
+      "bytes": 9232,
+      "sha256": "232dd84c1fd59776d501d4e6a27ade5d1cd680d358c1c0fbe47ae941bdc18baf"
+    },
+    "data.json": {
+      "bytes": 908069,
+      "sha256": "c78946a92d0095afe46ea09b959e447e0c8dea71e5b46399950d759d028c00b0"
+    }
+  },
+  "status": "PASS",
+  "finishedAt": "2026-10-23T21:41:11.679Z"
+}

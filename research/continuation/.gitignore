@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+paper/build/
+models/checkpoints/
+models/cache/
+models/*.safetensors
+models/*.bin
+models/*.gguf
+models/adapter-export/

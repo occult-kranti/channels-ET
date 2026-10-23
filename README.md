@@ -2,6 +2,47 @@
 
 Channeling Atlas is the cross-channel ET channeling research project. **Continue this analysis in `occult-kranti/channels-ET`.** The original [Bashar Index](https://github.com/occult-kranti/bashar-index) remains preserved and focused on Bashar. The existing copy of the Atlas in that repository is retained as history.
 
+## Living study: source-aware analysis and local models
+
+The current continuation is organized entirely in this repository. Open the
+[living research dashboard](dist/research/index.html),
+[complete LaTeX paper PDF](research/continuation/paper/channels-et-paper.pdf), and
+[Overleaf-compatible source ZIP](research/continuation/paper/channels-et-source.zip).
+The [continuation protocol](research/continuation/PROTOCOL.md) separates executed
+work, further hypotheses and explicit TBD decisions. New panel rounds 10–12
+extend the historical rounds below; these are AI-agent technical reviews.
+The [updated handoff](research/continuation/HANDOFF.md) and
+[panel decision ledger](research/continuation/reviews/DECISIONS.md) explain
+reproduction, implemented critiques and remaining research gaps.
+
+The expansion from Bashar Index commit `151efb2` was copied additively, with its
+source digests and portable builds, while the Bashar checkout was left unchanged.
+The [earlier evidence explorer](dist/expansion/index.html),
+[949-candidate Q&A database](research/expansion/qa/qa-candidates.sqlite), prior
+figures and review snapshots remain available here. Q&A covers one practitioner
+context and is derived from AI digests, not literal transcript turns.
+
+The local-model pilot actually runs Qwen on CPU, with a source-group split,
+closed-book and retrieval-augmented generation, and a small LoRA adaptation.
+Read the [measured model results](research/continuation/models/benchmark-results.json)
+and [training receipt](research/continuation/models/training-receipt.json).
+The adapter is a reproducibility pilot, not a validated cross-medium model.
+Current-family feasibility, token budgets, evidence coverage, strict-marker versus
+refusal interpretation, and unresolved human validation are reported separately.
+Qwen3.5-0.8B also ran locally on the same twelve digest-labeling excerpts. Its
+twelve parsed outputs and five compliant source quotes are inspectable alongside
+the older model's failures and label-order sensitivity; these are not human
+annotation-accuracy results. No CUDA GPU was detected.
+
+The [collection pipeline](research/continuation/acquisition/README.md) supports
+resumable channel listings, offered captions and quota-controlled media downloads.
+Current ordinary YouTube and author-transcript requests failed; no new video or
+transcript corpus is claimed. An unrestricted desired environment policy alone
+does not establish access. Public scholarly PDFs and model artifacts were
+retrieved successfully. Raw third-party captions/media and base-model weights
+stay outside Git; source metadata, derived tables and the small pilot adapter are
+organized in this repository.
+
 ## Current analytical release — 23 October 2026
 
 The analysis merges the original atlas with the supplied Claude archive: **925 unique uploads**, **881 usable durations**, **178 publishing groups with measured lengths**, and a **30-document English-caption pilot**. These are convenience-sample records, not counts of unique or currently active human mediums. The historical discovery and service-audit layers described below remain available.

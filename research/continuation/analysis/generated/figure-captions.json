@@ -1,0 +1,62 @@
+[
+  {
+    "id": "question-answer-alignment",
+    "title": "Question and answer lexical resemblance",
+    "caption": "127 cross-upload question neighbors at cosine≥.40 among 949 digest candidates. Independent question and answer TF–IDF vocabularies; neither score measures answer agreement. Quarantine groups use conservative lexical-source links, not verified original sessions. Pair entries share candidates/uploads and are dependent; the source-derived question wording can itself be normalized by the digest generator.",
+    "paths": {
+      "pdf": "research/continuation/analysis/generated/figures/question-answer-alignment.pdf",
+      "svg": "research/continuation/analysis/generated/figures/question-answer-alignment.svg",
+      "png": "research/continuation/analysis/generated/figures/question-answer-alignment.png"
+    }
+  },
+  {
+    "id": "lexical-graph-stability",
+    "title": "Lexical-neighbor connectivity depends on the cutoff",
+    "caption": "Graph vertices are 949 digest question candidates; edges connect different uploads meeting each lexical cosine threshold. Isolated candidates remain in the denominator. At .40, 178 candidates participate in non-singleton components and the largest contains 15 candidates; components are lexical neighborhoods, not validated semantic topics or independent source families.",
+    "paths": {
+      "pdf": "research/continuation/analysis/generated/figures/lexical-graph-stability.pdf",
+      "svg": "research/continuation/analysis/generated/figures/lexical-graph-stability.svg",
+      "png": "research/continuation/analysis/generated/figures/lexical-graph-stability.png"
+    }
+  },
+  {
+    "id": "caption-duration-controls",
+    "title": "Representation association after length conditioning",
+    "caption": "Identical 25 uploads from 14 publishers yield 300 dependent pairs (11 within, 289 between). Right: title/caption rank residuals after separate linear projection on ranked absolute log duration ratio, mean log duration and absolute log caption word-count ratio. Their Pearson correlation defines the reported partial rank association. This is descriptive conditioning, not causal mediation; publisher-omission partial correlations range −.026 to .207, not a confidence interval.",
+    "paths": {
+      "pdf": "research/continuation/analysis/generated/figures/caption-duration-controls.pdf",
+      "svg": "research/continuation/analysis/generated/figures/caption-duration-controls.svg",
+      "png": "research/continuation/analysis/generated/figures/caption-duration-controls.png"
+    }
+  },
+  {
+    "id": "source-leakage-guard",
+    "title": "Conservative source grouping changes the compared pairs",
+    "caption": "67 Q&A-bearing uploads form 55 conservative quarantine groups. Links use any exact normalized question, any question cosine≥.80, or at least three cross-upload question pairs≥.40. These are leakage guards, not established recording identities. Among 127 question-neighbor pairs, 70 are within a quarantine group and 57 cross groups. Boxplots are empirical distributions with dependent pairs, not confidence intervals or measured agreement.",
+    "paths": {
+      "pdf": "research/continuation/analysis/generated/figures/source-leakage-guard.pdf",
+      "svg": "research/continuation/analysis/generated/figures/source-leakage-guard.svg",
+      "png": "research/continuation/analysis/generated/figures/source-leakage-guard.png"
+    }
+  },
+  {
+    "id": "model-reconstruction-controls",
+    "title": "Lexical reconstruction and strict control-marker compliance",
+    "caption": "Actual Qwen2.5-0.5B CPU pilot: eight held-out digest questions and two deliberately unsupported controls per arm. Left dots are individual token-F1 values, diamonds are arithmetic means; no uncertainty interval or reliable ranking is implied. Gold counts literal INSUFFICIENT_EVIDENCE; when blue bars are present, they count a broader post-hoc refusal phrase rule defined after inspecting outputs. Spaced refusals score zero under the gold rule. Neither rule is human refusal accuracy. Train-only RAG excludes held-out source groups and target answers; low overlap is sparse-source transfer, not a test of ordinary answer-present RAG quality. LoRA training used 48 examples, 12 optimizer steps and 270,336 trainable parameters; no GPU comparison was executed.",
+    "paths": {
+      "pdf": "research/continuation/analysis/generated/figures/model-reconstruction-controls.pdf",
+      "svg": "research/continuation/analysis/generated/figures/model-reconstruction-controls.svg",
+      "png": "research/continuation/analysis/generated/figures/model-reconstruction-controls.png"
+    }
+  },
+  {
+    "id": "question-cosine-common-support",
+    "title": "Prompt-similarity support and standardized lexical contrast",
+    "caption": "127 question-neighbor pairs: 70 within and 57 across quarantine groups. Only the .40–<.70 bins have both strata, retaining 93 pairs (36 within, 57 cross);34 higher-similarity within-group pairs are excluded. Standardized means apply identical pooled-bin weights .5806/.2796/.1398 to the separate group means. The remaining .2972 versus .0442 contrast is descriptive; quarantine construction, within-bin topic/length differences and pair dependence prevent a causal reuse or answer-agreement interpretation. Grey bins have no cross-stratum support; missing means are null, not zero.",
+    "paths": {
+      "pdf": "research/continuation/analysis/generated/figures/question-cosine-common-support.pdf",
+      "svg": "research/continuation/analysis/generated/figures/question-cosine-common-support.svg",
+      "png": "research/continuation/analysis/generated/figures/question-cosine-common-support.png"
+    }
+  }
+]

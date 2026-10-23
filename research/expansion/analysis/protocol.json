@@ -1,0 +1,46 @@
+{
+  "phase": "expansion-round1",
+  "recordedAt": "2026-10-23T20:29:05.521493+00:00",
+  "design": "Exploratory analysis plan recorded after inspecting schema and previously published summaries, before executing new expansion calculations; not preregistered.",
+  "unit": "Indexed upload, publishing account, title text, retained caption derivative; none is a confirmed individual medium or entity voice.",
+  "seed": 42,
+  "hypotheses": [
+    {
+      "id": "E1",
+      "question": "Is the purposive caption pilot skewed toward longer indexed uploads?",
+      "test": "Compare known-duration empirical median and IQR, overall and within matched publishing accounts.",
+      "falsifier": "Pilot median is no larger than the comparator median; descriptive sample difference only."
+    },
+    {
+      "id": "E2",
+      "question": "Does a small set of publishing accounts dominate the indexed uploads?",
+      "test": "Top-k cumulative shares, Gini and HHI among account groups with uploads; unresolved account association shown separately.",
+      "falsifier": "Top ten account groups contain no more than half of attributed uploads. Threshold is an exploration aid, not a general concentration standard."
+    },
+    {
+      "id": "E3",
+      "question": "Do title keyword indicators differ across upload-duration bands?",
+      "test": "Nine transparent overlapping regex indicators across five duration bands among English-likely eligible titles; per-account long-versus-short contrasts where at least 3 titles in each stratum.",
+      "falsifier": "The paired per-account median difference for each indicator is zero or opposite in direction to the pooled long-minus-short difference. This does not confirm a format mechanism."
+    },
+    {
+      "id": "E4",
+      "question": "Is same-publisher caption similarity above different-publisher similarity on this pilot, and how does matched title similarity compare?",
+      "test": "Pairwise cosine mean difference on identical title/caption upload IDs; 2000 seeded publisher-label permutations preserve group sizes and act as a descriptive negative control; no independent-pair confidence interval or population p-value.",
+      "falsifier": "Observed difference is no larger than the median shuffled-label difference; nearest-neighbor attribution and semantic validity remain untested."
+    },
+    {
+      "id": "E5",
+      "question": "How much exact title repetition is present?",
+      "test": "NFKD/casefold punctuation-normalized title families with and without the documented name-and-genre mask; compare published masked-title deduplication sensitivity.",
+      "falsifier": "No repeated normalized strings. Shared title text is not proof of the same original recording."
+    }
+  ],
+  "boundaries": [
+    "No newly retrieved video/caption material is claimed by these frozen-snapshot calculations.",
+    "No entity-origin, truth, clinical, causal, global prevalence or answer-agreement inference.",
+    "Keyword categories overlap and are unvalidated; titles are packaging, not full content.",
+    "Language eligibility is inherited heuristic output.",
+    "Permutation labels intentionally destroy real publisher association; exchangeability is hypothetical, so the reference distribution is diagnostic only."
+  ]
+}

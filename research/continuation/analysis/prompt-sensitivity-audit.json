@@ -1,0 +1,291 @@
+{
+  "status": "PASS",
+  "checks": 1159,
+  "passed": 1159,
+  "failed": [],
+  "inputs": {
+    "content-label-predictions.json": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9",
+    "run_content_labels.py": "94abd2c9d66b22fcaaa0d99d4fa35a5bd825202d6ba8d032a1b259c4740f2913",
+    "option-order-protocol.json": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292",
+    "option-order-predictions.json": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417",
+    "option-order-results.json": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792",
+    "conditional-lexicon-sensitivity.json": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55",
+    "run_round12_order_probe.py": "79330ec500e57e888a86026579cfec0ca8785feab031e187b59d6a3998756aa6",
+    "qwen35-content-label-protocol.json": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba",
+    "qwen35-content-label-predictions.json": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0",
+    "qwen35-content-label-results.json": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2",
+    "run_qwen35_content_labels.py": "3d0b1bdb94447302af9f80909206de45dda24d9cfdde72cae0a31f2fcc3b186e",
+    "annotation-comparison.json": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2"
+  },
+  "optionOrder": {
+    "items": 12,
+    "originalParsed": 9,
+    "reversedParsed": 9,
+    "pairedParsed": 8,
+    "pairedThemeChanges": 6,
+    "originalThemeCounts": {
+      "contact_forecast": 9
+    },
+    "reversedThemeCounts": {
+      "personal_practice": 7,
+      "contact_forecast": 2
+    },
+    "reversedFirstOptionOutputs": 0,
+    "reversedExactAnswerSpans": 0,
+    "rows": [
+      {
+        "id": "qa-jdzErS12DvU-002",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": "personal_practice",
+        "pairedThemeChanged": true
+      },
+      {
+        "id": "qa-WEVqgD-L5kc-000",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": "contact_forecast",
+        "pairedThemeChanged": false
+      },
+      {
+        "id": "qa-ufzO0sbNICQ-014",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": "personal_practice",
+        "pairedThemeChanged": true
+      },
+      {
+        "id": "qa-E_cPno64Z-Q-014",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": null,
+        "pairedThemeChanged": null
+      },
+      {
+        "id": "qa-IKJzZ-KVPdQ-017",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": "personal_practice",
+        "pairedThemeChanged": true
+      },
+      {
+        "id": "qa-Rcjd1TkZUMY-000",
+        "originalTheme": null,
+        "reversedTheme": null,
+        "pairedThemeChanged": null
+      },
+      {
+        "id": "qa-Dw9XHTMrgBE-015",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": "personal_practice",
+        "pairedThemeChanged": true
+      },
+      {
+        "id": "qa-_UZ8EyuOuY8-004",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": "personal_practice",
+        "pairedThemeChanged": true
+      },
+      {
+        "id": "qa-ygzBrMyMAQA-010",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": "contact_forecast",
+        "pairedThemeChanged": false
+      },
+      {
+        "id": "qa-pfB4F7uAjwE-012",
+        "originalTheme": null,
+        "reversedTheme": "personal_practice",
+        "pairedThemeChanged": null
+      },
+      {
+        "id": "qa-ETuHIzyRhyY-009",
+        "originalTheme": null,
+        "reversedTheme": null,
+        "pairedThemeChanged": null
+      },
+      {
+        "id": "qa-os4a7-7bnLw-012",
+        "originalTheme": "contact_forecast",
+        "reversedTheme": "personal_practice",
+        "pairedThemeChanged": true
+      }
+    ],
+    "interpretation": "Observed prompt sensitivity; no reversed valid output selects the new first option, so a simple deterministic first-option-copy account does not fit this probe. No annotation accuracy is established."
+  },
+  "lexiconSensitivity": {
+    "candidates": 949,
+    "originalConditional": 60,
+    "stricterConditional": 58,
+    "changedIds": [
+      "qa-94agFEADfyk-004",
+      "qa-jdzErS12DvU-002"
+    ],
+    "originalLabelsChanged": false,
+    "humanValidated": false
+  },
+  "currentFamily": {
+    "model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "items": 12,
+    "parsed": 12,
+    "parseFailures": 0,
+    "exactShortAnswerSpans": 5,
+    "spanEvaluable": 12,
+    "dictionaryConditionalConcordance": 6,
+    "dictionaryConditionalDenominator": 12,
+    "themeCounts": {
+      "personal_practice": 11,
+      "contact_forecast": 1
+    },
+    "conditionalCounts": {
+      "yes": 12
+    },
+    "generationCapHits": 0,
+    "nominalMaxNewTokens": 96,
+    "textOnly": true,
+    "rows": [
+      {
+        "id": "qa-jdzErS12DvU-002",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "id": "qa-WEVqgD-L5kc-000",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "id": "qa-ufzO0sbNICQ-014",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": true
+      },
+      {
+        "id": "qa-E_cPno64Z-Q-014",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "id": "qa-IKJzZ-KVPdQ-017",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "id": "qa-Rcjd1TkZUMY-000",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": true
+      },
+      {
+        "id": "qa-Dw9XHTMrgBE-015",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": true
+      },
+      {
+        "id": "qa-_UZ8EyuOuY8-004",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "id": "qa-ygzBrMyMAQA-010",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": true
+      },
+      {
+        "id": "qa-pfB4F7uAjwE-012",
+        "parsed": true,
+        "theme": "contact_forecast",
+        "conditional": "yes",
+        "exactAnswerSpan": false
+      },
+      {
+        "id": "qa-ETuHIzyRhyY-009",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": true
+      },
+      {
+        "id": "qa-os4a7-7bnLw-012",
+        "parsed": true,
+        "theme": "personal_practice",
+        "conditional": "yes",
+        "exactAnswerSpan": false
+      }
+    ],
+    "interpretation": "Same-item schema and quotation-compliance comparison across different architectures/tokenizers/runtimes; not semantic-label accuracy, parameter-scale causality, held-out QA improvement or general model ranking.",
+    "exactLiteralAnswerSubstrings": 10,
+    "withinEightWordLimit": 6,
+    "conditionalAlwaysYesBaselineCount": 6
+  },
+  "limits": [
+    "Original outputs, original dictionary labels and the five-arm held-out pilot remain preserved.",
+    "Paired option changes use only items parsed under both prompts; all parse failures remain visible.",
+    "The stricter conditional pattern is a post-hoc lexical sensitivity, not a corrected human reference.",
+    "All models can collapse to one conditional label; dictionary concordance is not annotation accuracy.",
+    "The current-family model receives text only. No image, video, speech, GPU or current-family fine-tuning experiment is implied.",
+    "A shared96-token cap is not an identical word/context budget across tokenizers."
+  ],
+  "annotationComplianceComparison": [
+    {
+      "id": "qwen25_original",
+      "n": 12,
+      "parsedRecords": 9,
+      "parseFailures": 3,
+      "sourceSpanExactCount": 0,
+      "sourceSpanAtMostEightWordsCount": 9,
+      "sourceSpanExactAndShortCount": 0,
+      "sourceSpanExactButOverLengthCount": 0,
+      "sourceSpanNonexactCount": 9,
+      "conditionalYesCount": 9,
+      "conditionalMethodAgreementCount": 5,
+      "conditionalParsedDenominator": 9,
+      "conditionalAlwaysYesBaselineAgreementCount": 5,
+      "allParsedConditionalLabelsYes": true
+    },
+    {
+      "id": "qwen25_reversed",
+      "n": 12,
+      "parsedRecords": 9,
+      "parseFailures": 3,
+      "sourceSpanExactCount": 0,
+      "sourceSpanAtMostEightWordsCount": 7,
+      "sourceSpanExactAndShortCount": 0,
+      "sourceSpanExactButOverLengthCount": 0,
+      "sourceSpanNonexactCount": 9,
+      "conditionalYesCount": 8,
+      "conditionalMethodAgreementCount": 3,
+      "conditionalParsedDenominator": 9,
+      "conditionalAlwaysYesBaselineAgreementCount": 4,
+      "allParsedConditionalLabelsYes": false
+    },
+    {
+      "id": "qwen35_original",
+      "n": 12,
+      "parsedRecords": 12,
+      "parseFailures": 0,
+      "sourceSpanExactCount": 10,
+      "sourceSpanAtMostEightWordsCount": 6,
+      "sourceSpanExactAndShortCount": 5,
+      "sourceSpanExactButOverLengthCount": 5,
+      "sourceSpanNonexactCount": 2,
+      "conditionalYesCount": 12,
+      "conditionalMethodAgreementCount": 6,
+      "conditionalParsedDenominator": 12,
+      "conditionalAlwaysYesBaselineAgreementCount": 6,
+      "allParsedConditionalLabelsYes": true
+    }
+  ]
+}

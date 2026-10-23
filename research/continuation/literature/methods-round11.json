@@ -1,0 +1,123 @@
+{
+  "round": 11,
+  "role": "Independent AI methods/literature panel; not human peer review",
+  "candidate10ArchiveSha256": "5681c632f4b4f0fd857711d0d7ee2c6483bd39963cd2ff48c564d7710e7f2008",
+  "baselinePaperSha256": "0ad9ae29da658a55c14acdbdced2abbdfda96b985a519745912f08230f1ec081",
+  "reviewedAt": "2026-10-23T21:32:46.895977+00:00",
+  "status": "SUBSTANTIVE_CORRECTIONS_IMPLEMENTED_FINAL_ARTIFACT_REVIEW_PENDING",
+  "findings": [
+    {
+      "id": "M11-01",
+      "severity": "high",
+      "path": "acquisition/channel_pipeline.py:enumerate_channels",
+      "finding": "Filtered-away unavailable slots corrupted resume cursor and prematurely asserted end-of-listing.",
+      "status": "corrected_and_independently_verified",
+      "acceptance": "Full3-slot mock [valid,None,valid] remains incomplete and next_start4; preserve rawcount independently from usable rows."
+    },
+    {
+      "id": "M11-02",
+      "severity": "high",
+      "path": "acquisition/channel_pipeline.py:media",
+      "finding": "Fast exit0 could bypass poll-loop quota detection and be marked success with oversize artifact.",
+      "status": "corrected_and_independently_verified",
+      "acceptance": "Already-completed oversizedfile produces quota_stopped and no successfulartifact; monitor plus postvalidation scope stated."
+    },
+    {
+      "id": "M11-03",
+      "severity": "medium",
+      "path": "paper/body.tex; analysis/analyze.py",
+      "finding": "Quarantine membership is defined using question similarity and linkdensity, confounding .171all-neighbor versus .044crossgroup interpretation as source-reuse evidence.",
+      "status": "analysis_correction_verified_paper_recheck_pending",
+      "acceptance": "New93pair/3bin sharedsupport diagnostic .297within/.044cross,34excluded;coarsebin residualconfounds and differentpool explicit."
+    },
+    {
+      "id": "M11-04",
+      "severity": "medium",
+      "path": "paper/body.tex and dashboard model table",
+      "finding": "Lexical copies are unbounded fullgists while generators have40newtoken cap; response-budget difference needs adjacent disclosure.",
+      "status": "requested_pending_revised_candidate",
+      "acceptance": "Table/nearby text states uncappedcopy baseline vs40tokengeneration andnoalgorithmranking."
+    }
+  ],
+  "checks": [
+    {
+      "path": "research/continuation/literature/independent-model-pilot.json",
+      "sha256": "d72e33c28773f8524b3224ea6d4f92d0d31e5d9334a0a6ae6c5b84d1378467d2",
+      "status": "PASS",
+      "checks": 381
+    },
+    {
+      "path": "research/continuation/literature/independent-alignment-control.json",
+      "sha256": "4e5bb7be6f4dddc1cf80397d8a0135625a15f61131aa9a6d195068b332e22627",
+      "status": "PASS",
+      "checks": 420
+    },
+    {
+      "path": "research/continuation/literature/independent-collector-controls.json",
+      "sha256": "820b996f2c4d4b27dae94a05ef26db3baac222fc99caca6676a59a42f3e5e2c3",
+      "status": "PASS",
+      "checks": 8
+    }
+  ],
+  "reviewedCurrentArtifacts": [
+    {
+      "path": "models/predictions.json",
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5"
+    },
+    {
+      "path": "models/benchmark-results.json",
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f"
+    },
+    {
+      "path": "models/split.json",
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e"
+    },
+    {
+      "path": "models/training-receipt.json",
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+    },
+    {
+      "path": "models/adapter-export/adapter_model.safetensors",
+      "sha256": "8d3afe9254008447ae3fbcad2f47ca199600ffe321f052210f332be3d25424a7"
+    },
+    {
+      "path": "analysis/results.json",
+      "sha256": "a7874258186c055ff6232ebc51a443401c34f62aedfa82c1f264fcb09770a9f4"
+    },
+    {
+      "path": "analysis/generated/question-neighbor-pairs.json",
+      "sha256": "5923733a153b2f04c4a9cb5d0e1f11ea20c1cbb495cd88443e3483b354171ee0"
+    },
+    {
+      "path": "acquisition/channel_pipeline.py",
+      "sha256": "da78fba58a27b04f0b1995f318ac8239bd442da73aed9cfd43f2eff594db0378"
+    },
+    {
+      "path": "paper/channels-et-paper.pdf",
+      "sha256": "0ad9ae29da658a55c14acdbdced2abbdfda96b985a519745912f08230f1ec081"
+    },
+    {
+      "path": "paper/body.tex",
+      "sha256": "3ff26664e51da4f9b8d27b6b74ff7b0a094151f6d586763b3b02b3fc03657237"
+    },
+    {
+      "path": "paper/vendor/aaai2027.sty",
+      "sha256": "01990f8d3716f8e39c5b28a7478f3ac6e28630d1161de6105a7217f5e7f60e43"
+    }
+  ],
+  "sourceAccess": "Actual14pagePDFtext/source/citations inspected; freshregister used. No audiovisual listening,humanannotation or newmodelinference performed by reviewer.",
+  "verifiedClaims": [
+    "ActualLoRA Bmatrices finite/nonzero;rank4q/v270336trainables,48microsteps12updates",
+    "5arms50outputs8heldoutquestions+2controls;trainonlyevidenceIDs,sourceproxy groups independently rebuilt",
+    "Strict underscoremarker distinct fromplainrefusal;5adaptedclosed+1adaptedRAG outputs hit40tokencap",
+    "No retrievedcitationlabel onheldoutLMRAG outputs is actualcompliancefailure,not semanticentailment verdict",
+    "TrainonlyRAG maylackheldoutanswers;F1 is digestoverlapnotqualityranking;pretraining/sessionduplicationunknown"
+  ],
+  "limits": [
+    "SinglepractitionerAIparaphrase corpus",
+    "Small CPU feasibility run,notrepresentative modelbenchmark",
+    "Question-definedgroupselection remainsnoncausal despitecoarsebins",
+    "Scholarlysources inspected atstateddepth,notreplicated",
+    "Root finalrender/deployment andnextcandidate reviewoutstanding"
+  ]
+}

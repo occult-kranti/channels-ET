@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "execution": "Actual benchmark audit executed with Path.read_bytes rejecting every /workspace/channels-et-model-cache path; portable ZIP was used instead.",
+  "externalCacheReads": 0,
+  "checks": 377,
+  "passed": 377,
+  "archiveSha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+  "trainingWeightHashMatched": true
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": 129,
+  "verificationMode": "released-source-only; no neural inference replay",
+  "primary50Unchanged": true,
+  "original12AnnotationBytesUnchanged": true,
+  "reversedPairedParsedN": 8,
+  "reversedPairedChanged": 6,
+  "currentFamilyParseN": 12,
+  "currentFamilyExactSpans": 10,
+  "currentFamilyExactShortSpans": 5,
+  "alwaysYesConditionalConcordanceCount": 6,
+  "modelRevision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "adapterZipSha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c",
+  "humanAccuracyValidated": false,
+  "stateOfTheArtEstablished": false,
+  "bindings": {
+    "option-order-results.json": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792",
+    "conditional-lexicon-sensitivity.json": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55",
+    "qwen35-content-label-results.json": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2",
+    "annotation-comparison.json": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2",
+    "current-family-smoke.json": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "Scratch-local verified standard dependencies; official style unchanged",
+  "archives": [
+    {
+      "name": "newtx.zip",
+      "url": "https://mirrors.ctan.org/fonts/newtx.zip",
+      "sha256": "bbe07d4ad91ade9f61326e59f2f3bf389b4ace1c0c1ef2e8c85377e4e2535f4e",
+      "bytes": 9704591
+    },
+    {
+      "name": "mweights.zip",
+      "url": "https://mirrors.ctan.org/macros/latex/contrib/mweights.zip",
+      "sha256": "635a099afeb4d8db63d073fd4d06c0a6cefcdb90cc2379a5e7211cf4cab7e831",
+      "bytes": 2112
+    },
+    {
+      "name": "kastrup.zip",
+      "url": "https://mirrors.ctan.org/macros/generic/kastrup.zip",
+      "sha256": "c3ec4e73ca69bc2f8e813c01618b670a936e24a465228ccf06b8c6ae28f7220e",
+      "bytes": 147569
+    },
+    {
+      "name": "tex-gyre.zip",
+      "url": "https://mirrors.ctan.org/fonts/tex-gyre.zip",
+      "sha256": "1773c470f9e388e087b68e3426e115af2cd236845a7e05ceb25b2a503409a7a3",
+      "bytes": 21661540
+    }
+  ],
+  "texmfhome": "/workspace/channels-et-tex/texmf",
+  "texmfvar": "/workspace/channels-et-tex/var",
+  "texmfconfig": "/workspace/channels-et-tex/config",
+  "maps": [
+    "newtx.map",
+    "qtm.map"
+  ],
+  "style_sha256": "01990f8d3716f8e39c5b28a7478f3ac6e28630d1161de6105a7217f5e7f60e43",
+  "prior_style_identical": false,
+  "style_source": "Fresh official AuthorKit27.zip; source URL/hash verified by continuation/literature/venue-check.json",
+  "style_note": "Historical release style remains unchanged; only this new continuation uses fresh official bytes."
+}
