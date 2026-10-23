@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-10-23T22:18:45.308587+00:00",
+  "repository": "occult-kranti/channels-ET",
+  "authentication": "Existing injected gh authentication used; secret values not inspected or saved",
+  "pages": {
+    "url": "https://api.github.com/repos/occult-kranti/channels-ET/pages",
+    "status": null,
+    "cname": null,
+    "custom_404": false,
+    "html_url": "https://occult-kranti.github.io/channels-ET/",
+    "build_type": "workflow",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "public": true,
+    "protected_domain_state": null,
+    "pending_domain_unverified_at": null,
+    "https_enforced": true
+  },
+  "workflows_before_install": {
+    "total_count": 0,
+    "workflows": []
+  },
+  "action_pins": [
+    {
+      "repository": "actions/checkout",
+      "version": "v7.0.1",
+      "commit": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "official_ref_url": "https://api.github.com/repos/actions/checkout/git/refs/tags/v7.0.1"
+    },
+    {
+      "repository": "actions/configure-pages",
+      "version": "v6.0.0",
+      "commit": "45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "official_ref_url": "https://api.github.com/repos/actions/configure-pages/git/refs/tags/v6.0.0"
+    },
+    {
+      "repository": "actions/upload-pages-artifact",
+      "version": "v5.0.0",
+      "commit": "fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "official_ref_url": "https://api.github.com/repos/actions/upload-pages-artifact/git/refs/tags/v5.0.0"
+    },
+    {
+      "repository": "actions/deploy-pages",
+      "version": "v5.0.1",
+      "commit": "368f82528645a54fb793d4d04e342629a3f51346",
+      "official_ref_url": "https://api.github.com/repos/actions/deploy-pages/git/refs/tags/v5.0.1"
+    }
+  ],
+  "scope_note": "Actions-permissions administration endpoint returned403; Pages/read and workflow/read work. Actual deployment tested separately after coordinated push."
+}
