@@ -1,0 +1,79 @@
+{
+  "round": 4,
+  "pdf": "/workspace/sites/channeling-atlas/research/paper/rounds/round4/main.pdf",
+  "sha256": "a395941231d063d3faab18f0ea90766438ed9c1135a612102b92f1edb6ee9bc1",
+  "pagesVisuallyInspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "renderLocation": "/workspace/scratch/9ec421627a96/paper_review/round4/page-01.png through page-10.png",
+  "pdfinfo": "Title:           Titles, Captions, and Publishing Accounts\nSubject:         Exploratory working draft; not submitted\nCreator:         TeX\nProducer:        pdfTeX-1.40.25\nCreationDate:    Fri Oct 23 15:58:27 2026 EDT\nModDate:         Fri Oct 23 15:58:27 2026 EDT\nCustom Metadata: yes\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           10\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       342826 bytes\nOptimized:       no\nPDF version:     1.5\n",
+  "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEGDGST+TeXGyreTermesX-Bold           Type 1            Custom           yes yes yes      4  0\nONGYZV+TeXGyreTermesX-Regular        Type 1            Custom           yes yes yes      5  0\nAQFSBY+CMMI9                         Type 1            Builtin          yes yes yes      6  0\nBKVVQG+CMR9                          Type 1            Builtin          yes yes yes      7  0\nPFQPHP+TeXGyreTermes-Regular         Type 1            Custom           yes yes yes      8  0\nAFVKOD+TeXGyreTermesX-Italic         Type 1            Custom           yes yes yes     14  0\nNQTGFX+CMR10                         Type 1            Builtin          yes yes yes     15  0\nKXWPFE+CMSY10                        Type 1            Builtin          yes yes yes     16  0\nQAQSYT+CMMI10                        Type 1            Builtin          yes yes yes     21  0\nEVOUYK+NimbusMonL-Regu               Type 1            Custom           yes yes yes     22  0\nGUEVMD+CMMI7                         Type 1            Builtin          yes yes yes     23  0\nVLGZPZ+CMEX10                        Type 1            Builtin          yes yes yes     24  0\nRLKTTI+CMSY7                         Type 1            Builtin          yes yes yes     25  0\nVXPTHB+CMMI5                         Type 1            Builtin          yes yes yes     26  0\nESZWAJ+CMR7                          Type 1            Builtin          yes yes yes     30  0\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     32  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     33  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     56  0\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     70  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     71  0\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     90  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     91  0\n",
+  "result": "needs round5 corrections",
+  "findings": [
+    {
+      "id": "R4-D1",
+      "page": 6,
+      "figure": 2,
+      "severity": "medium",
+      "issue": "Legend intersects the Divine Insights quartile span.",
+      "resolution": "Move legend into upper-right empty region."
+    },
+    {
+      "id": "R4-D2",
+      "page": 7,
+      "figure": 3,
+      "severity": "major",
+      "issue": "PanelA x-axis begins at0 while source pairs include negative matched-title values.",
+      "resolution": "Include every observed cosine in axis bounds."
+    },
+    {
+      "id": "R4-D3",
+      "page": 8,
+      "figure": 4,
+      "severity": "medium",
+      "issue": "0.969 annotation collides with the horizontal axis; publisher/pair labels omit spaces.",
+      "resolution": "Offset annotations within plot and space labels."
+    },
+    {
+      "id": "R4-D4",
+      "page": 9,
+      "severity": "medium",
+      "issue": "References flow directly into AppendixA; no ICWSM35-question checklist is included.",
+      "resolution": "Insert unchanged questions/allTBD workinganswers afterreferences beforeappendix; do not imply compliance."
+    },
+    {
+      "id": "R4-D5",
+      "pages": [
+        3,
+        5
+      ],
+      "severity": "low",
+      "issue": "Figures are not explicitly referenced near related methods/results prose.",
+      "resolution": "Add figurecrossreferences for coverage, duration, matchedpair comparison, andsensitivity."
+    }
+  ],
+  "positiveChecks": [
+    "All10renderedpagesinspected",
+    "Titleandworkingdraftstatusclear",
+    "USLettertwo-columnlayout",
+    "Noobservedtextclippingintablesorbody",
+    "Allfourfigureslegibleatfullwidth",
+    "Figure3captionnowcoversbothpanelswithdependenceandbaseline",
+    "Referenceandappendixheadingsreadable",
+    "No need to alter official style, margins, or fonts"
+  ],
+  "limitations": [
+    "Not a scientific validity endorsement or submission-readiness assessment",
+    "Author and ethicsTBD remains",
+    "Full source or caption rights need human review"
+  ]
+}

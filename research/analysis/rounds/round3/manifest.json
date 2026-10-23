@@ -1,0 +1,130 @@
+[
+  {
+    "path": "dist/analysis/data.json",
+    "sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc"
+  },
+  {
+    "path": "research/analysis/build_analysis.py",
+    "sha256": "426e2605f9a7a7255615707ddd69c4fb113e4db20d203a9a2584a5ce45036b4f"
+  },
+  {
+    "path": "research/analysis/semantic_analysis.py",
+    "sha256": "e6c523d417921e6076e046cec12f1627fb4a0ccffe1f515accdddea07886e16f"
+  },
+  {
+    "path": "research/analysis/inputs/corpus-selection.json",
+    "sha256": "6776869e199097c9cdd24c9cf4091c620a8151aca76393ad196598816be0cf2f"
+  },
+  {
+    "path": "research/analysis/inputs/derived_text_features.json",
+    "sha256": "6fac26a9f188ff0633d3176369b8f7f6c3408e8f53acce53d6f152d203503383"
+  },
+  {
+    "path": "research/analysis/inputs/claude_accounts.json",
+    "sha256": "79275ab1704e1900a8cbde35625ed2c0a6a459fba2a5bd015d39751cd0869ec7"
+  },
+  {
+    "path": "research/analysis/inputs/fresh_metadata.json",
+    "sha256": "223f4212cd027ae5d190c2ec164a1b1b5b00312117070af3ffcfd36ff1c32ad0"
+  },
+  {
+    "path": "research/analysis/inputs/language_cache.json",
+    "sha256": "fec6ae02283a4609f62ff19d980086bd0253a66b23bc85c84f541d43fc4d2492"
+  },
+  {
+    "path": "research/analysis/inputs/model_manifest.json",
+    "sha256": "d0f8d11ff7245f95a2cfe4ba667efb801613dc55ce65ae7899a2a602fff0e3e4"
+  },
+  {
+    "path": "research/analysis/inputs/corpus-coverage.json",
+    "sha256": "cf1306361a9864a11ad7f80a1f480b7032661e6e0ffcce655b5a6ad3e10a6997"
+  },
+  {
+    "path": "research/analysis/inputs/claude_audit.json",
+    "sha256": "f3c81ba4ef43d2e190ebe040e9192b39e05c2aa1cbab4fc3298c4408aefc4d07"
+  },
+  {
+    "path": "research/analysis/inputs/corpus-corpus_manifest.json",
+    "sha256": "b5bf16b875dc4edb5ae95ec372ab6fee4c471cd9ca784436d2a43207c74d1edc"
+  },
+  {
+    "path": "research/analysis/inputs/claude_videos.json",
+    "sha256": "737317d019af79afb9ad16645d0c826740916d1d33aa179fbd5cfff47ade0103"
+  },
+  {
+    "path": "research/analysis/inputs/claude-source-manifest.json",
+    "sha256": "ff57a91074af8ffb5c21ce62d4fc4cbb3c1d3642c24230a74b7c3df0e54800d9"
+  },
+  {
+    "path": "dist/analysis/figures/caption-within-between.svg",
+    "sha256": "fdff47547bf8bef6abb92d7983283db5f15bdfd12e390297dd329f1fd97c8fe7"
+  },
+  {
+    "path": "dist/analysis/figures/title-topics.svg",
+    "sha256": "8edc86eb1faec40c646feca2b95ff1877aaaf52a76c7c96a5e20fb23774dc400"
+  },
+  {
+    "path": "dist/analysis/figures/title-caption-indicators.png",
+    "sha256": "5c408d29620eff76d4bc6dc18e490f3e3af25bf505f073d5f8821c0d891a519d"
+  },
+  {
+    "path": "dist/analysis/figures/title-caption-indicators.svg",
+    "sha256": "0f77604b6658931d433d1b4f9389347fc6c7c9557eb1eb1c4ea61f7169a6f915"
+  },
+  {
+    "path": "dist/analysis/figures/lexical-similarity.svg",
+    "sha256": "1463861076567533a64f3fd2d74dd5d661ce05529f5a4e305c52ddf5f455b7fe"
+  },
+  {
+    "path": "dist/analysis/figures/caption-topics.svg",
+    "sha256": "eeb153c8330758356fc5fee6909982ba2744e615b3c0c4e274646aff0a8fde5f"
+  },
+  {
+    "path": "dist/analysis/figures/caption-similarity.png",
+    "sha256": "7ce71005d80f7f4a623a216a6acc88770c47ffd2d818edfeb44abed1913b4f8e"
+  },
+  {
+    "path": "dist/analysis/figures/caption-within-between.png",
+    "sha256": "c77f8cd59736469271356a6f26468f63f8b3a078670979b4406b8ec40f77a368"
+  },
+  {
+    "path": "dist/analysis/figures/duration.png",
+    "sha256": "f1e1d8000abdb0d30cd0b986a416451030674bca96fe7676e8df286b0da075b1"
+  },
+  {
+    "path": "dist/analysis/figures/duration-format.png",
+    "sha256": "88c30e1041f1f6689ea2e6737cd952e08944dedb908ccffca30bcff1cef897a9"
+  },
+  {
+    "path": "dist/analysis/figures/coverage.png",
+    "sha256": "7c4b6371c83eabf8feb507e5821c44539a90138241754187adeadd369a54daa0"
+  },
+  {
+    "path": "dist/analysis/figures/title-topics.png",
+    "sha256": "34fbf1cd789160b95ab76d19dcde606779b82c305788db606b939f2a39165e7b"
+  },
+  {
+    "path": "dist/analysis/figures/coverage.svg",
+    "sha256": "d506817dc6fcbab73452d8ff74ce1ce4ed6401180ad9ceeb2f14bda457e17779"
+  },
+  {
+    "path": "dist/analysis/figures/duration.svg",
+    "sha256": "d25ccdebcf9800721181b9dc1e0990da05a2c91313179d918859291483dc236a"
+  },
+  {
+    "path": "dist/analysis/figures/caption-topics.png",
+    "sha256": "b3dd306e3cb0d3a5ef33c9ba51cb601a54128cfb17d004ef30aabfef935d3a33"
+  },
+  {
+    "path": "dist/analysis/figures/lexical-similarity.png",
+    "sha256": "50ffd8c11af0d25b210702873dd0e3a1425c6e27e76fd319f7192b05b4017bc9"
+  },
+  {
+    "path": "dist/analysis/figures/caption-similarity.svg",
+    "sha256": "2e245aab1aaefb8a01fabd74a6c1986efddab9500e3f843eea8b1f194796ed07"
+  },
+  {
+    "path": "dist/analysis/figures/duration-format.svg",
+    "sha256": "2521152c31c65a04c73f546ebc289d28dfaca53e8bebac2b3869c317a24a40df"
+  }
+]

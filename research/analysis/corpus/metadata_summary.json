@@ -1,0 +1,32 @@
+{
+  "frozen_at": "2026-10-23T19:37:52.190727+00:00",
+  "input_union_video_ids": 925,
+  "existing_atlas_ids": 482,
+  "claude_zip_valid_ids": 457,
+  "overlap_ids": 14,
+  "metadata_success": 878,
+  "metadata_failures": 47,
+  "positive_durations": 877,
+  "zero_duration": 1,
+  "distinct_successful_publisher_ids": 178,
+  "exact_published_timestamps": 878,
+  "failure_reasons": {
+    "Matching videoDetails unavailable: LOGIN_REQUIRED": 10,
+    "Matching videoDetails unavailable: ERROR": 37
+  },
+  "request_start_range_utc": [
+    "2026-10-23T19:24:24.900490+00:00",
+    "2026-10-23T19:36:49.426737+00:00"
+  ],
+  "metadata_sha256": "845262d5e255a253fccec86c75f1d980d454791616dcb5cccf63dc80441cc380",
+  "metadata_bytes": 729122,
+  "collection_script_sha256": "0cb6a4f694a842be0ff15e0cf76494857edaa309b6e64fdc5007f934177b2bba",
+  "snapshot_has_full_transcript_text": false,
+  "protocol": "Ordinary unauthenticated public YouTube watch pages; no cookies, credentials, proxies, or bypass; five concurrent requests; no retry; stop on HTTP403/429. Metadata only; no media downloads.",
+  "warnings": [
+    "Metadata success does not imply video playback or caption access.",
+    "Exact upload timestamp is not the underlying original session date.",
+    "One zero-length item is unusable as observed duration.",
+    "No whole-channel upload enumeration was performed; statistics describe indexed samples."
+  ]
+}

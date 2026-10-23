@@ -1,0 +1,27 @@
+{
+  "reviewer": "/root/method_panel",
+  "input_sha256": "f5b96cd04d9fb9ccf5db34e0fc0b056f0dc3d7a53579b86361f90d9861dc5024",
+  "checks": 762,
+  "issues": [],
+  "summary": [
+    {
+      "name": "titles",
+      "documents": 682,
+      "accounts_compared": 24,
+      "dims": 384
+    },
+    {
+      "name": "captions",
+      "documents": 30,
+      "accounts_compared": 13,
+      "dims": 384
+    },
+    {
+      "name": "trimmed_captions",
+      "documents": 30,
+      "accounts_compared": 13,
+      "dims": 384
+    }
+  ],
+  "status": "PASS"
+}

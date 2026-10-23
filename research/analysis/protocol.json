@@ -1,0 +1,80 @@
+{
+  "asOf": "2026-10-23",
+  "stage": "published",
+  "question": "How do sampled YouTube accounts differ in video length, title themes and text similarity, and what can available transcripts support?",
+  "units": [
+    "account route",
+    "video ID",
+    "title document",
+    "transcript document",
+    "research summary"
+  ],
+  "scope": "Uploaded Claude draft plus existing atlas; English-dominant convenience sample; historical and current records; no total-active-medium estimate",
+  "rounds": [
+    {
+      "round": 1,
+      "purpose": "Audit inputs, acquire permitted text, build first descriptive dashboard",
+      "state": "completed"
+    },
+    {
+      "round": 2,
+      "purpose": "Independent review, fix bias/measurement problems, add sensitivity analyses",
+      "state": "completed"
+    },
+    {
+      "round": 3,
+      "purpose": "Reproduce calculations, caption audit, final regression and publication",
+      "state": "completed"
+    }
+  ],
+  "capabilityReceipt": {
+    "workers": [
+      "zip_audit",
+      "corpus",
+      "literature",
+      "method_panel",
+      "analysis_pipeline",
+      "dashboard_ui"
+    ],
+    "concurrency": 7,
+    "successfulReads": [
+      "ZIP member inventory",
+      "Sites get_site and source helper",
+      "GitHub repository main tree"
+    ],
+    "writeScope": "/workspace/sites/channeling-atlas",
+    "limitations": [
+      "Manual browser owned only by root",
+      "No claim of human expert or human-annotation panel"
+    ]
+  },
+  "inputPins": {
+    "zipSha256": "cb8dbc877d8435df316f322408f4e6f060afae6684d91ada89163cb626a325e5",
+    "siteCommit": "851ab6d2c0ea8de749cd163389f71035180c6bdc",
+    "basharCommit": "457dc2f2da10399bda2786573b7a77ec3fe34f62"
+  },
+  "publication": {
+    "site": "preserve existing private audience",
+    "github": "append isolated channeling-atlas research directory to user-specified occult-kranti/bashar-index; retain existing content",
+    "phase1SiteCommit": "0639c825fce92df7fb7827f6a915aac00411d7e8",
+    "phase1GithubCommit": "10706f45bdda84ba29e91f8d8923306ec38d56ec"
+  },
+  "doneWhen": [
+    "input audit and provenance preserved",
+    "per-channel duration table and coverage",
+    "title topics and actual embedding analysis or documented execution failure",
+    "transcript feasibility results with exact access level",
+    "three real build-review-correct rounds recorded",
+    "figure captions reviewed",
+    "reproducible data/code/report exported",
+    "existing dashboard regression checked",
+    "source pushed to GitHub and site deployed"
+  ],
+  "analysisSnapshotSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "nextPhase": {
+    "state": "completed",
+    "scope": "LaTeX research manuscript, further peer-reviewed literature and three further panel rounds",
+    "startsAfter": "Analysis dashboard, report, bundle and GitHub publication complete",
+    "completionLedger": "research/paper/reviews/coordinator-completion.json"
+  }
+}

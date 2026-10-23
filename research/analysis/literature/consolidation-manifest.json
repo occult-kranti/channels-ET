@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-23",
+  "scope": "Checked bibliography, review notes and source-file metadata only. No third-party transcript text or complete external paper/supplement files copied.",
+  "files": [
+    {
+      "file": "bibliography.json",
+      "sha256": "e71861e0f97f64192468f97454510d7fb827c5b3d3f7f7ef18e71f24b16834ec"
+    },
+    {
+      "file": "bibliography.csv",
+      "sha256": "82f81065334cada3f16ca147e85c40bf2f7c842c0def5e763fb69cd986897fee"
+    },
+    {
+      "file": "literature-review.md",
+      "sha256": "cff1049b3275a9171d6a8f62091e94ef31583372ccd50e961bb46e478bdd6cf8"
+    },
+    {
+      "file": "build_bibliography.py",
+      "sha256": "5441653bca661b770c474e5bebfe9d737ef64d892dc95ce351e33531bfb70b4a"
+    },
+    {
+      "file": "round1-methods.md",
+      "sha256": "ee559afd6ce3f59851bd8f8f0876f0fe8851c142b40f3be50b799c8b25347b8f"
+    },
+    {
+      "file": "skills-applicability.json",
+      "sha256": "ea656f39c3d680bac7a6d9ca837b1e8fd548be2457608b441e86719ac99db274"
+    },
+    {
+      "file": "search-log.json",
+      "sha256": "4948c6c0dcc619f21444ae964e953069dd567b8f26d83377760b4948327899cd"
+    },
+    {
+      "file": "round2-review.md",
+      "sha256": "077af97acf459a7afc6f725efd9542d92aa4f39443e492a0f741a2debf0bdae3"
+    },
+    {
+      "file": "round2-input-snapshot.json",
+      "sha256": "345accf24ae14b52f39ec83479476d31c71333360998699b71ea2ce837586113"
+    },
+    {
+      "file": "round2-keyword-sensitivity.json",
+      "sha256": "265ee5148586b565ca21914c7f49ef9cae198b8ee75fae3cbb85a64ed4f1b301"
+    },
+    {
+      "file": "round2-executed-review.md",
+      "sha256": "12f1b28b534dd2f709f5ceb2385234ce1a25685e6be48ef8968661c09a5451b4"
+    },
+    {
+      "file": "round2-executed-input-snapshot.json",
+      "sha256": "4e9ba3213a8319703926ecbccbbd2b5e06dbe37c056dba7adf420171a0fb5dfc"
+    },
+    {
+      "file": "round2-caption-sensitivity-check.json",
+      "sha256": "52f68ab61e52774cf770836412cb07f9b0ead841011d93df784d0894e0f714ad"
+    },
+    {
+      "file": "figshare-31100860-manifest.json",
+      "sha256": "7dbd72db725af30afc38c7c5391f486e00bfe2bb8da0423507bc0b9cf6c5f5e0"
+    }
+  ]
+}

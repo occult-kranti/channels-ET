@@ -1,0 +1,31 @@
+{
+  "channelCount": 13,
+  "pairCount": 78,
+  "spearmanFullVsTrim": 0.969498855574805,
+  "medianAbsoluteCosineChange": 0.022080500000000003,
+  "maxAbsoluteCosineChange": 0.098984,
+  "nearestNeighborChangeCount": 4,
+  "nearestNeighborChanges": [
+    {
+      "channel": "Athina Kr\u00f3l",
+      "fullNeighbor": "elsa farrus rusi\u00f1ol",
+      "trimNeighbor": "Ishuwa Yahyel: First ET Contact"
+    },
+    {
+      "channel": "Daniel Scranton",
+      "fullNeighbor": "Blossom Goodchild",
+      "trimNeighbor": "Ishuwa Yahyel: First ET Contact"
+    },
+    {
+      "channel": "hgrfrequencies / Wendy Kennedy",
+      "fullNeighbor": "elsa farrus rusi\u00f1ol",
+      "trimNeighbor": "Athina Kr\u00f3l"
+    },
+    {
+      "channel": "Pamela Aaralyn Channeling",
+      "fullNeighbor": "elsa farrus rusi\u00f1ol",
+      "trimNeighbor": "Lorie Ladd"
+    }
+  ],
+  "note": "Independent recalculation from frozen round2 matrices; perturbation stability only, not accuracy or independent validation."
+}

@@ -1,0 +1,14 @@
+% Optional methods fragment; requires amsmath.
+Let $\mathbf e_{vc}$ denote the unit-normalized mean-pooled embedding of chunk $c$ in video $v$. The published pilot uses
+\begin{align}
+\mathbf z_v &= \operatorname{norm}\!\left(C_v^{-1}\sum_{c=1}^{C_v}\mathbf e_{vc}\right), &
+\mathbf z_g &= \operatorname{norm}\!\left(n_g^{-1}\sum_{v\in g}\mathbf z_v\right),\\
+S^{(T)}_{gh} &= (\mathbf z_g^{(T)})^\top\mathbf z_h^{(T)}, &
+S^{(C)}_{gh} &= (\mathbf z_g^{(C)})^\top\mathbf z_h^{(C)}.
+\end{align}
+Here $T$ and $C$ identify matched titles and captions, and $g,h$ identify uploader groups. Spearman correlation is computed over the shared off-diagonal pairs $g<h$. For publisher $j$, the omission diagnostic removes every pair with $g=j$ or $h=j$ and recomputes the correlation over the remaining 45 pairs. The minimum and maximum of these 11 values are a deterministic sensitivity range, not an inferential interval.
+The alternative pooling diagnostic retains exactly the same chunks and changes only their video-level weights:
+\begin{equation}
+\widetilde{\mathbf z}_v=\operatorname{norm}\!\left(\frac{\sum_{c=1}^{C_v}m_{vc}\mathbf e_{vc}}{\sum_{c=1}^{C_v}m_{vc}}\right).
+\end{equation}
+Here $m_{vc}$ is the number of content WordPiece tokens in chunk $c$, excluding the special classification and separator tokens. Chunks have at most 240 content tokens. Publisher centroids still give each video equal weight. This changes the influence of a short terminal chunk; it does not change the tokenizer, model, input text or speaker composition.

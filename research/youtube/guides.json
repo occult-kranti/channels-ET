@@ -1,0 +1,682 @@
+{
+  "accounts": [
+    {
+      "id": "yt-g-a-kryon",
+      "title": "Kryon Lee Carroll",
+      "url": "https://www.youtube.com/channel/UCMiuw8FLujKn06dnlxpbWGQ",
+      "profileIds": [
+        "lk-lee"
+      ],
+      "entityLabels": [
+        "Kryon"
+      ],
+      "relationship": "official",
+      "verification": "Official Kryon authorization directory lists this account; individual video metadata also names Kryon Lee Carroll as uploader.",
+      "sourceIds": [
+        "yt-g-s-kryon-auth",
+        "yt-g-s-kryon-energy",
+        "yt-g-s-kryon-world"
+      ]
+    },
+    {
+      "id": "yt-g-a-kryon-es",
+      "title": "Kryon Lee Carroll Espa\u00f1ol",
+      "url": "https://www.youtube.com/channel/UCpCvZr6ixNz628JUouxbBXQ",
+      "profileIds": [
+        "lk-lee"
+      ],
+      "entityLabels": [
+        "Kryon"
+      ],
+      "relationship": "organization/archive",
+      "verification": "Listed by Kryon Writings as an authorized distribution channel; language translation/archive role, not another medium.",
+      "sourceIds": [
+        "yt-g-s-kryon-auth"
+      ]
+    },
+    {
+      "id": "yt-g-a-kryon-channelling",
+      "title": "KRYON CHANNELLING",
+      "url": "https://www.youtube.com/channel/UCbzZmC-cvS57cWbeBe7XPoA",
+      "profileIds": [
+        "lk-lee"
+      ],
+      "entityLabels": [
+        "Kryon"
+      ],
+      "relationship": "organization/archive",
+      "verification": "Listed as an authorized channel for Kryon freeaudio material; authorization does not establish original uploader status.",
+      "sourceIds": [
+        "yt-g-s-kryon-auth"
+      ]
+    },
+    {
+      "id": "yt-g-a-kryon-archive",
+      "title": "KRYON Archives",
+      "url": "https://www.youtube.com/channel/UCnqGBcYUGgzV_6jbEgQ8lfA",
+      "profileIds": [
+        "lk-lee"
+      ],
+      "entityLabels": [
+        "Kryon"
+      ],
+      "relationship": "organization/archive",
+      "verification": "Listed in the official authorized-channel directory.",
+      "sourceIds": [
+        "yt-g-s-kryon-auth"
+      ]
+    },
+    {
+      "id": "yt-g-a-abraham",
+      "title": "Abraham-Hicks Publications",
+      "url": "https://www.youtube.com/user/AbrahamHicks",
+      "profileIds": [
+        "lk-esther"
+      ],
+      "entityLabels": [
+        "Abraham"
+      ],
+      "relationship": "official",
+      "verification": "Abraham NOW's official link page explicitly labels and links the official Abraham-Hicks YouTube channel.",
+      "sourceIds": [
+        "yt-g-s-abraham-links"
+      ]
+    },
+    {
+      "id": "yt-g-a-paul",
+      "title": "Paul Selig",
+      "url": "https://www.youtube.com/user/paulseligvideos",
+      "profileIds": [
+        "lk-paul"
+      ],
+      "entityLabels": [
+        "The Guides"
+      ],
+      "relationship": "official",
+      "verification": "Linked in the official site's navigation; individual Alignment to Prayer metadata names Paul Selig as uploader.",
+      "sourceIds": [
+        "yt-g-s-paul-catalog",
+        "yt-g-s-paul-prayer"
+      ]
+    },
+    {
+      "id": "yt-g-a-suzanne",
+      "title": "Suzanne Giesemann - Messages of Hope",
+      "url": "https://www.youtube.com/@SuzanneGiesemann",
+      "profileIds": [
+        "lk-suzanne"
+      ],
+      "entityLabels": [
+        "Sanaya"
+      ],
+      "relationship": "official",
+      "verification": "Official channeling archive links this account; Channeling for Charity metadata names this uploader.",
+      "sourceIds": [
+        "yt-g-s-suzanne-catalog",
+        "yt-g-s-suzanne-charity"
+      ]
+    },
+    {
+      "id": "yt-g-a-elan",
+      "title": "Elan Interactions",
+      "url": "https://www.youtube.com/@ElanInteractions",
+      "profileIds": [
+        "em-elan"
+      ],
+      "entityLabels": [
+        "Elan"
+      ],
+      "relationship": "organization/archive",
+      "verification": "Homepage explicitly identifies the official YouTube channel and explains chronological re-release of historical sessions. Account is an official archive, not proof of a currently performing medium.",
+      "sourceIds": [
+        "yt-g-s-elan-home",
+        "yt-g-s-elan-about"
+      ]
+    },
+    {
+      "id": "yt-g-a-roxanne",
+      "title": "Odyssey of Ascension",
+      "url": "https://www.youtube.com/channel/UCoxINFqPqOU6W8OOTi1nqeQ",
+      "profileIds": [
+        "em-roxanne"
+      ],
+      "entityLabels": [
+        "Ocyphius",
+        "Sylvester"
+      ],
+      "relationship": "official",
+      "verification": "Official biography links this YouTube Channel; current home-site Teachings link also resolves to @OdysseyofAscension.",
+      "sourceIds": [
+        "yt-g-s-roxanne-about"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "yt-g-v-kryon-energy",
+      "title": "KRYON - THE ENERGY OF 2026",
+      "url": "https://www.youtube.com/watch?v=cI0Doainsl4",
+      "accountId": "yt-g-a-kryon",
+      "profileIds": [
+        "lk-lee"
+      ],
+      "entityLabels": [
+        "Kryon"
+      ],
+      "format": "channeling session",
+      "publishedAt": "2026-01-08",
+      "dateBasis": "Exact Published field in retrieved YouTube metadata.",
+      "contentBasis": "YouTube title and description identify a Kryon message; no audiovisual review.",
+      "notes": "Kryon is presented as an angelic being; this video is indexed without assigning an ET species.",
+      "sourceIds": [
+        "yt-g-s-kryon-auth",
+        "yt-g-s-kryon-energy"
+      ]
+    },
+    {
+      "id": "yt-g-v-kryon-world",
+      "title": "KRYON - Is the World Changing?",
+      "url": "https://www.youtube.com/watch?v=etn4MOj8ED4",
+      "accountId": "yt-g-a-kryon",
+      "profileIds": [
+        "lk-lee"
+      ],
+      "entityLabels": [
+        "Kryon"
+      ],
+      "format": "channeling session",
+      "publishedAt": "2026-08-11",
+      "dateBasis": "Exact Published field in retrieved YouTube metadata.",
+      "contentBasis": "YouTube title and description identify a Kryon message; no audiovisual review.",
+      "notes": "Upload date does not independently establish the original performance date.",
+      "sourceIds": [
+        "yt-g-s-kryon-auth",
+        "yt-g-s-kryon-world"
+      ]
+    },
+    {
+      "id": "yt-g-v-abraham-nov2020",
+      "title": "Abraham NOW excerpt from November 28, 2020",
+      "url": "https://www.youtube.com/watch?v=BhyLEfpJjis",
+      "accountId": null,
+      "profileIds": [
+        "lk-esther"
+      ],
+      "entityLabels": [
+        "Abraham"
+      ],
+      "format": "channeling clip",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Official-site embedded excerpt. November 28, 2020 labels the session, not verified upload date. Individual uploader unconfirmed, despite official account separately verified.",
+      "sourceIds": [
+        "yt-g-s-abraham-videos",
+        "yt-g-s-abraham-links"
+      ]
+    },
+    {
+      "id": "yt-g-v-abraham-sep2020",
+      "title": "Abraham NOW excerpt from September 19, 2020",
+      "url": "https://www.youtube.com/watch?v=XaoQWcg0QhI",
+      "accountId": null,
+      "profileIds": [
+        "lk-esther"
+      ],
+      "entityLabels": [
+        "Abraham"
+      ],
+      "format": "channeling clip",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Official-site embedded excerpt. September 19, 2020 labels the session, not verified upload date. Abraham is a nonphysical collective; no ET species inferred. Individual uploader unconfirmed.",
+      "sourceIds": [
+        "yt-g-s-abraham-videos",
+        "yt-g-s-abraham-links"
+      ]
+    },
+    {
+      "id": "yt-g-v-paul-prayer",
+      "title": "Alignment to Prayer",
+      "url": "https://www.youtube.com/watch?v=lx6OlRIMy_k",
+      "accountId": "yt-g-a-paul",
+      "profileIds": [
+        "lk-paul"
+      ],
+      "entityLabels": [
+        "The Guides"
+      ],
+      "format": "channeling session",
+      "publishedAt": "2021-02-23",
+      "dateBasis": "Exact Published field in retrieved YouTube metadata.",
+      "contentBasis": "Retrieved YouTube title and description describe a lecture attributed to the Guides; no audiovisual review.",
+      "notes": "Historical lecture; guide collective is not assigned an ET species.",
+      "sourceIds": [
+        "yt-g-s-paul-prayer",
+        "yt-g-s-paul-catalog"
+      ]
+    },
+    {
+      "id": "yt-g-v-paul-self",
+      "title": "The Expression of the True Self: Paul Selig",
+      "url": "https://www.youtube.com/watch?v=D-w_ZvovsRE",
+      "accountId": null,
+      "profileIds": [
+        "lk-paul"
+      ],
+      "entityLabels": [
+        "The Guides"
+      ],
+      "format": "archival recording",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Official site dates the Birmingham workshop July 15, 2017. This is a performance date, not the upload date. Explicit platform uploader line unavailable.",
+      "sourceIds": [
+        "yt-g-s-paul-self",
+        "yt-g-s-paul-birmingham"
+      ]
+    },
+    {
+      "id": "yt-g-v-suzanne-omega",
+      "title": "July 20, 2025 \u2014 Sanaya at Omega Institute",
+      "url": "https://www.youtube.com/watch?v=cLqUaedBbDw",
+      "accountId": null,
+      "profileIds": [
+        "lk-suzanne"
+      ],
+      "entityLabels": [
+        "Sanaya"
+      ],
+      "format": "channeling session",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Editorial title follows official catalog. July 20, 2025 is session date. Individual uploader, exact platform title and upload date not independently retrieved.",
+      "sourceIds": [
+        "yt-g-s-suzanne-omega",
+        "yt-g-s-suzanne-catalog"
+      ]
+    },
+    {
+      "id": "yt-g-v-suzanne-charity",
+      "title": "Channeling for Charity - Suzanne channels her guides, Sanaya",
+      "url": "https://www.youtube.com/watch?v=0RkKX4FMakI",
+      "accountId": "yt-g-a-suzanne",
+      "profileIds": [
+        "lk-suzanne"
+      ],
+      "entityLabels": [
+        "Sanaya"
+      ],
+      "format": "channeling session",
+      "publishedAt": "2021-09-01",
+      "dateBasis": "Exact Published field in retrieved YouTube metadata.",
+      "contentBasis": "YouTube description identifies a charity channeling session attributed to Sanaya; no audiovisual review.",
+      "notes": "Spirit guides described from an angelic perspective; no biological ET identity inferred.",
+      "sourceIds": [
+        "yt-g-s-suzanne-charity",
+        "yt-g-s-suzanne-catalog"
+      ]
+    },
+    {
+      "id": "yt-g-v-elan-birthday",
+      "title": "Session 59 \u2014 Happy Birthday",
+      "url": "https://www.youtube.com/watch?v=bm9MygD9wcM",
+      "accountId": null,
+      "profileIds": [
+        "em-elan"
+      ],
+      "entityLabels": [
+        "Elan"
+      ],
+      "format": "archival recording",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Official archive links this session and calls it Elan's first solo session. Historical recording re-release; not evidence of a new live session. Platform uploader/date metadata unavailable.",
+      "sourceIds": [
+        "yt-g-s-elan-home",
+        "yt-g-s-elan-about"
+      ]
+    },
+    {
+      "id": "yt-g-v-elan-referential",
+      "title": "The Referential Preferential You",
+      "url": "https://www.youtube.com/watch?v=coKPClEavZ8",
+      "accountId": null,
+      "profileIds": [
+        "em-elan"
+      ],
+      "entityLabels": [
+        "Elan"
+      ],
+      "format": "archival recording",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Directly linked by official archive among chronologically re-released historical sessions. AI illustration is presentation artwork, not footage of Elan. Platform uploader/date metadata unavailable.",
+      "sourceIds": [
+        "yt-g-s-elan-home"
+      ]
+    },
+    {
+      "id": "yt-g-v-roxanne-lack",
+      "title": "Sylvester on Lack",
+      "url": "https://www.youtube.com/watch?v=WdydsnsKYFE",
+      "accountId": null,
+      "profileIds": [
+        "em-roxanne"
+      ],
+      "entityLabels": [
+        "Sylvester"
+      ],
+      "format": "channeling clip",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Official biography labels the linked starter video Sylvester on Lack. Exact platform title, uploader and whether excerpt or full session were not independently retrieved; clip classification follows catalog presentation.",
+      "sourceIds": [
+        "yt-g-s-roxanne-about"
+      ]
+    },
+    {
+      "id": "yt-g-v-roxanne-god",
+      "title": "Sylvester - Because You Are God",
+      "url": "https://www.youtube.com/watch?v=B8cikXMy_r8",
+      "accountId": null,
+      "profileIds": [
+        "em-roxanne"
+      ],
+      "entityLabels": [
+        "Sylvester"
+      ],
+      "format": "channeling clip",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Official biography supplies title and entity attribution. No Ocyphius attribution inferred for this video. Exact platform uploader/date and length unavailable.",
+      "sourceIds": [
+        "yt-g-s-roxanne-about"
+      ]
+    },
+    {
+      "id": "yt-g-v-april-who",
+      "title": "#1 Who & What Is VERONICA?, 7 Big Spiritual Questions",
+      "url": "https://www.youtube.com/watch?v=v4QvgOgeDjw",
+      "accountId": null,
+      "profileIds": [
+        "em-april"
+      ],
+      "entityLabels": [
+        "VERONICA"
+      ],
+      "format": "interview with channeling",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Official catalog describes live-recorded interviews with VERONICA. Specific YouTube uploader account is unresolved. Nonphysical guide classification retained.",
+      "sourceIds": [
+        "yt-g-s-april-catalog",
+        "yt-g-s-april-home"
+      ]
+    },
+    {
+      "id": "yt-g-v-april-et",
+      "title": "#9 The Afterlife, Extraterrestrial Lifeforms, Parallel Lives",
+      "url": "https://www.youtube.com/watch?v=jR2T-94_SRA",
+      "accountId": null,
+      "profileIds": [
+        "em-april"
+      ],
+      "entityLabels": [
+        "VERONICA"
+      ],
+      "format": "interview with channeling",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed; left unknown.",
+      "contentBasis": "Official catalog title and description only; audiovisual content and full transcript not reviewed.",
+      "notes": "Extraterrestrial lifeforms are a listed discussion topic; this does not classify VERONICA as an ET. Specific uploader account and exact upload date unresolved.",
+      "sourceIds": [
+        "yt-g-s-april-catalog",
+        "yt-g-s-april-home"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "yt-g-s-kryon-auth",
+      "title": "Authorized Kryon Channels",
+      "url": "https://menus.kryon.com/u-tube-authorized",
+      "publisher": "Kryon Writings",
+      "kind": "official account directory",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Lists Kryon Lee Carroll and three additional authorized channels. Authorization to redistribute freeaudio recordings does not identify each channel as the original performer."
+    },
+    {
+      "id": "yt-g-s-kryon-energy",
+      "title": "KRYON - THE ENERGY OF 2026",
+      "url": "https://www.youtube.com/watch?v=cI0Doainsl4",
+      "publisher": "Kryon Lee Carroll / YouTube",
+      "kind": "platform video metadata",
+      "date": "2026-01-08",
+      "accessed": "2026-10-22",
+      "notes": "Search retrieval exposed uploader and exact publication date. Description identifies a Kryon message concerning the claimed 2026 energetic shift; audiovisual content was not reviewed."
+    },
+    {
+      "id": "yt-g-s-kryon-world",
+      "title": "KRYON - Is the World Changing?",
+      "url": "https://www.youtube.com/watch?v=etn4MOj8ED4",
+      "publisher": "Kryon Lee Carroll / YouTube",
+      "kind": "platform video metadata",
+      "date": "2026-08-11",
+      "accessed": "2026-10-22",
+      "notes": "Search retrieval exposed uploader and exact publication date. Description labels the message Kryon and discusses claimed cycles of consciousness; audiovisual content was not reviewed."
+    },
+    {
+      "id": "yt-g-s-abraham-links",
+      "title": "Abraham NOW Links",
+      "url": "https://www.abrahamnow.com/links",
+      "publisher": "Abraham-Hicks Publications",
+      "kind": "official link directory",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Explicitly links the official Abraham-Hicks YouTube channel."
+    },
+    {
+      "id": "yt-g-s-abraham-videos",
+      "title": "Video Clips",
+      "url": "https://abraham-hicks.com/video/",
+      "publisher": "Abraham-Hicks Publications",
+      "kind": "official video catalog",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Lists and embeds the November 28 and September 19, 2020 Abraham NOW excerpts. These dates label the sessions; exact upload dates and individual uploader metadata were not exposed."
+    },
+    {
+      "id": "yt-g-s-paul-catalog",
+      "title": "Channeled Lectures",
+      "url": "https://paulselig.com/channeled-texts-online/",
+      "publisher": "Paul Selig",
+      "kind": "official video catalog",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Official navigation links the Paul Selig YouTube account. Catalog describes lectures attributed to the Guides, including Alignment to Prayer and the Birmingham workshop."
+    },
+    {
+      "id": "yt-g-s-paul-prayer",
+      "title": "Alignment to Prayer",
+      "url": "https://www.youtube.com/watch?v=lx6OlRIMy_k",
+      "publisher": "Paul Selig / YouTube",
+      "kind": "platform video metadata",
+      "date": "2021-02-23",
+      "accessed": "2026-10-22",
+      "notes": "Retrieval exposes Paul Selig as uploader and February 23, 2021 publication. Description identifies a lecture attributed to the Guides about prayer and the True Self. No audiovisual review."
+    },
+    {
+      "id": "yt-g-s-paul-self",
+      "title": "The Expression of the True Self: Paul Selig",
+      "url": "https://www.youtube.com/watch?v=D-w_ZvovsRE",
+      "publisher": "YouTube",
+      "kind": "platform video metadata",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Search returned this individual video and a description directing viewers to Paul's YouTube channel. Exact upload date and explicit uploader line were not exposed."
+    },
+    {
+      "id": "yt-g-s-paul-birmingham",
+      "title": "Free video and transcript: Paul Selig in Birmingham, U.K.",
+      "url": "https://paulselig.com/video-transcript-birmingham-2017/",
+      "publisher": "Paul Selig",
+      "kind": "official session catalog",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Identifies The Expression of the True Self as a channeled lecture performed in Birmingham, England, July 15, 2017. Session date is separate from upload date."
+    },
+    {
+      "id": "yt-g-s-suzanne-catalog",
+      "title": "Channeling Sessions",
+      "url": "https://suzannegiesemann.com/gifts/channeling-sessions/",
+      "publisher": "Suzanne Giesemann",
+      "kind": "official video catalog",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Official archive describes Sanaya as Suzanne's spirit guides and links Suzanne Giesemann - Messages of Hope on YouTube."
+    },
+    {
+      "id": "yt-g-s-suzanne-omega",
+      "title": "July 20, 2025",
+      "url": "https://suzannegiesemann.com/july-20-2025/",
+      "publisher": "Suzanne Giesemann",
+      "kind": "official session catalog",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Links the individual video cLqUaedBbDw and describes Sanaya at Omega Institute. July 20, 2025 is the session/catalog date; platform title, uploader and upload date were not independently retrieved."
+    },
+    {
+      "id": "yt-g-s-suzanne-charity",
+      "title": "Channeling for Charity - Suzanne channels her guides, Sanaya",
+      "url": "https://www.youtube.com/watch?v=0RkKX4FMakI",
+      "publisher": "Suzanne Giesemann - Messages of Hope / YouTube",
+      "kind": "platform video metadata",
+      "date": "2021-09-01",
+      "accessed": "2026-10-22",
+      "notes": "Retrieval exposes official uploader and September 1, 2021 publication. Description identifies a Sanaya channeling session for charity; no audiovisual or medical-claim validation performed."
+    },
+    {
+      "id": "yt-g-s-elan-home",
+      "title": "Elan Interactions \u2014 Home",
+      "url": "https://www.elaninteractions.com/",
+      "publisher": "Elan Interactions",
+      "kind": "official archive catalog",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Identifies the official YouTube channel and links Happy Birthday and The Referential Preferential You. Explains that original sessions are being remastered and re-released in chronological order with AI-created illustrative artwork. This establishes archive publishing, not a dated new live performance."
+    },
+    {
+      "id": "yt-g-s-elan-about",
+      "title": "About",
+      "url": "https://www.elaninteractions.com/about.html",
+      "publisher": "Elan Interactions",
+      "kind": "official biography",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Names Andrew as Elan's channel. First-name-only attribution retained."
+    },
+    {
+      "id": "yt-g-s-roxanne-about",
+      "title": "Roxanne Swainhart \u2014 Conscious Channel and Teacher",
+      "url": "https://www.odysseyofascension.com/about.html",
+      "publisher": "Odyssey of Ascension",
+      "kind": "official biography and video catalog",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Links the official channel and starter videos Sylvester on Lack and Sylvester - Because You Are God. Labels these as channeling material. Exact platform publication dates and individual uploader metadata were unavailable."
+    },
+    {
+      "id": "yt-g-s-april-catalog",
+      "title": "The Inner Whispers Interviews",
+      "url": "https://www.aprilcrawfordreadings.com/new-page-3",
+      "publisher": "April Crawford",
+      "kind": "official media catalog",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Links numbered interviews with VERONICA, described as a Causal Plane entity. Episode 1 discusses VERONICA and episode 9 includes extraterrestrial lifeforms as a topic. Dates and uploader account were not exposed."
+    },
+    {
+      "id": "yt-g-s-april-home",
+      "title": "AprilCrawford.com and AprilCrawfordReadings.com",
+      "url": "https://www.aprilcrawfordreadings.com/",
+      "publisher": "April Crawford",
+      "kind": "official website",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Describes VERONICA as a Causal Plane nonphysical entity and guide speaking through April Crawford. Refers users to YouTube searches for April Crawford or Inner Whispers without identifying a specific account."
+    },
+    {
+      "id": "yt-g-s-elan-jan2026",
+      "title": "Navigating Current Events \u2014 A Message from Elan \u2014 2026",
+      "url": "https://www.elaninteractions.com/navigating-currents-events---2026.html",
+      "publisher": "Elan Interactions",
+      "kind": "official dated message",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Official page explicitly identifies the text as an excerpt from a recent exchange with Elan in January 2026. Month-level exchange date supports original-content activity within the rolling year; exact day, webpage publication date and session recording were not exposed."
+    }
+  ],
+  "gaps": [
+    {
+      "profileId": "lk-esther",
+      "reason": "Two official-site embedded videos identified; individual platform uploader and exact upload dates not independently exposed."
+    },
+    {
+      "profileId": "lk-paul",
+      "reason": "Birmingham recording's exact upload date and explicit uploader line unavailable; official source provides performance date only."
+    },
+    {
+      "profileId": "lk-suzanne",
+      "reason": "Omega recording's individual platform uploader and upload date unavailable; catalog session date retained only in notes."
+    },
+    {
+      "profileId": "em-elan",
+      "reason": "Two indexed YouTube sessions are archival; original performance and exact upload dates unavailable. Separate official text dates a recent exchange to January 2026, supporting annual original-content activity at month precision; exact day and associated recording unavailable."
+    },
+    {
+      "profileId": "em-roxanne",
+      "reason": "Official account and entity-specific video links identified, but individual uploader and dates unavailable."
+    },
+    {
+      "profileId": "em-april",
+      "reason": "Official site links individual Inner Whispers interviews but no specific YouTube account identity was verified. Uploader remains unresolved."
+    }
+  ],
+  "activity": [
+    {
+      "profileId": "em-elan",
+      "etAssociated": true,
+      "status": "confirmed",
+      "publishedAt": null,
+      "datePrecision": "month",
+      "dateBasis": "Official page explicitly dates the exchange January 2026. This is a message/session month, not an exact YouTube upload or webpage publication date.",
+      "evidenceTitle": "Navigating Current Events \u2014 A Message from Elan \u2014 January 2026",
+      "evidenceUrl": "https://www.elaninteractions.com/navigating-currents-events---2026.html",
+      "notes": "Confirmed as a dated original-content claim on the official site within 2025-10-22 through 2026-10-22. The page attributes an exchange to Elan in January 2026; it does not expose a recording, an exact day or independently establish supernatural origin. This differs from the two indexed historical YouTube archive releases. Andrew remains first-name-only; exact channeler attribution for this particular text is not restated on the page.",
+      "sourceIds": [
+        "yt-g-s-elan-jan2026",
+        "yt-g-s-elan-home",
+        "yt-g-s-elan-about"
+      ],
+      "evidenceDate": "2026-01"
+    }
+  ],
+  "findings": [
+    "Nine account records include six primary official account/archive identities plus three additional authorized Kryon distribution accounts; April's uploader account remains unresolved.",
+    "Fourteen individual videos cover seven assigned profiles. Four exact upload dates come from exposed YouTube Published metadata; remaining dates are null.",
+    "Account identity verification and individual-video uploader verification are separate. Null accountId means the individual uploader was not independently exposed, even when an official site supplied the video.",
+    "Abraham, the Guides, Sanaya and VERONICA are indexed as nonphysical/spirit-guide claims, not converted into extraterrestrial species. Kryon is described as angelic.",
+    "Andrew is attributed by first name only. The two indexed Elan YouTube recordings remain archive releases. Separately, official text dates an exchange with Elan to January 2026 and supports annual original-content activity at month precision.",
+    "Metadata and official catalog descriptions were inspected; no claim is made to have watched full recordings, reviewed full transcripts or verified supernatural claims."
+  ]
+}

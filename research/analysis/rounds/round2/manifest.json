@@ -1,0 +1,34 @@
+[
+  {
+    "path": "research/analysis/build_analysis.py",
+    "sha256": "6c793740c811a699e6937abe14d845f20b27553d58eb320076f27d651e55780b"
+  },
+  {
+    "path": "research/analysis/semantic_analysis.py",
+    "sha256": "f40df47403fb3c7d32d41fd9b6da8811be3ca6cdb4780c1e8b79119c3b6d4612"
+  },
+  {
+    "path": "dist/analysis/data.json",
+    "sha256": "f5b96cd04d9fb9ccf5db34e0fc0b056f0dc3d7a53579b86361f90d9861dc5024"
+  },
+  {
+    "path": "dist/analysis/figures/title-topics.svg",
+    "sha256": "4b502b9e3dc2476e9e2c1459aa95913f8e5dbc038b50055a6dd0fc782ecac194"
+  },
+  {
+    "path": "dist/analysis/figures/lexical-similarity.svg",
+    "sha256": "84d8a0f2a0889155c5ca5f02088cff1dc839c1554b49da4127b670f826b37b61"
+  },
+  {
+    "path": "dist/analysis/figures/coverage.svg",
+    "sha256": "73bdcd36397477c6c6e99dbb06b9d2fc5e7211fad211f99e10aa0d3558c874dc"
+  },
+  {
+    "path": "dist/analysis/figures/duration.svg",
+    "sha256": "39b6f72f9446c32a52b2ed0b18d84bd9ec79a60ec7dd3e7cf5de9d3cb78fabcc"
+  },
+  {
+    "path": "research/analysis/rounds/round2/fresh_metadata.json",
+    "sha256": "5c14d05ecbd9ac47e901aa304d25b488a736b5f25b6a13958309a6990d610d01"
+  }
+]

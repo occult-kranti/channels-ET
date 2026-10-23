@@ -1,0 +1,238 @@
+{
+  "video_id": "Z3tuGeaqYzg",
+  "source_url": "https://www.youtube.com/watch?v=Z3tuGeaqYzg",
+  "boundary_segment_index": 138,
+  "boundary_end_seconds": 654.76,
+  "boundary_basis": "Caption closing phrase at650.56s ends the attributed message; matched to author-published written closing. Boundary selected from captions, not audio playback; automatic-caption error remains. Includes all opening material beforeclosing.",
+  "method": "Same predefined keyword regexes and alphabetic-word denominator as main pipeline; this is one additional illustrative video, excluded from balanced caption pilot. No population inference.",
+  "windows": {
+    "whole_upload": {
+      "words": 1268
+    },
+    "opening_through_message_closing": {
+      "words": 606
+    },
+    "after_message_closing": {
+      "words": 662
+    }
+  },
+  "topic_rates": [
+    {
+      "window": "whole_upload",
+      "topic": "contact",
+      "label": "ET contact & disclosure",
+      "word_count": 1268,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "whole_upload",
+      "topic": "agency",
+      "label": "Choice, beliefs & manifestation",
+      "word_count": 1268,
+      "matches": 2,
+      "matches_per_1000_words": 1.5772870662460567
+    },
+    {
+      "window": "whole_upload",
+      "topic": "healing",
+      "label": "Healing & wellbeing",
+      "word_count": 1268,
+      "matches": 3,
+      "matches_per_1000_words": 2.365930599369085
+    },
+    {
+      "window": "whole_upload",
+      "topic": "consciousness",
+      "label": "Consciousness & awakening",
+      "word_count": 1268,
+      "matches": 5,
+      "matches_per_1000_words": 3.943217665615142
+    },
+    {
+      "window": "whole_upload",
+      "topic": "energy",
+      "label": "Energy & frequency",
+      "word_count": 1268,
+      "matches": 18,
+      "matches_per_1000_words": 14.195583596214512
+    },
+    {
+      "window": "whole_upload",
+      "topic": "society",
+      "label": "Collective & world events",
+      "word_count": 1268,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "whole_upload",
+      "topic": "relationships",
+      "label": "Love & relationships",
+      "word_count": 1268,
+      "matches": 3,
+      "matches_per_1000_words": 2.365930599369085
+    },
+    {
+      "window": "whole_upload",
+      "topic": "practice",
+      "label": "Meditation & practice",
+      "word_count": 1268,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "whole_upload",
+      "topic": "time",
+      "label": "Time, dimensions & realities",
+      "word_count": 1268,
+      "matches": 6,
+      "matches_per_1000_words": 4.73186119873817
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "contact",
+      "label": "ET contact & disclosure",
+      "word_count": 606,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "agency",
+      "label": "Choice, beliefs & manifestation",
+      "word_count": 606,
+      "matches": 1,
+      "matches_per_1000_words": 1.6501650165016502
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "healing",
+      "label": "Healing & wellbeing",
+      "word_count": 606,
+      "matches": 3,
+      "matches_per_1000_words": 4.9504950495049505
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "consciousness",
+      "label": "Consciousness & awakening",
+      "word_count": 606,
+      "matches": 2,
+      "matches_per_1000_words": 3.3003300330033003
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "energy",
+      "label": "Energy & frequency",
+      "word_count": 606,
+      "matches": 12,
+      "matches_per_1000_words": 19.801980198019802
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "society",
+      "label": "Collective & world events",
+      "word_count": 606,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "relationships",
+      "label": "Love & relationships",
+      "word_count": 606,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "practice",
+      "label": "Meditation & practice",
+      "word_count": 606,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "opening_through_message_closing",
+      "topic": "time",
+      "label": "Time, dimensions & realities",
+      "word_count": 606,
+      "matches": 3,
+      "matches_per_1000_words": 4.9504950495049505
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "contact",
+      "label": "ET contact & disclosure",
+      "word_count": 662,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "agency",
+      "label": "Choice, beliefs & manifestation",
+      "word_count": 662,
+      "matches": 1,
+      "matches_per_1000_words": 1.5105740181268883
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "healing",
+      "label": "Healing & wellbeing",
+      "word_count": 662,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "consciousness",
+      "label": "Consciousness & awakening",
+      "word_count": 662,
+      "matches": 3,
+      "matches_per_1000_words": 4.531722054380665
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "energy",
+      "label": "Energy & frequency",
+      "word_count": 662,
+      "matches": 6,
+      "matches_per_1000_words": 9.06344410876133
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "society",
+      "label": "Collective & world events",
+      "word_count": 662,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "relationships",
+      "label": "Love & relationships",
+      "word_count": 662,
+      "matches": 3,
+      "matches_per_1000_words": 4.531722054380665
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "practice",
+      "label": "Meditation & practice",
+      "word_count": 662,
+      "matches": 0,
+      "matches_per_1000_words": 0.0
+    },
+    {
+      "window": "after_message_closing",
+      "topic": "time",
+      "label": "Time, dimensions & realities",
+      "word_count": 662,
+      "matches": 3,
+      "matches_per_1000_words": 4.531722054380665
+    }
+  ],
+  "raw_text_exported": false
+}

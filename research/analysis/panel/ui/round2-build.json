@@ -1,0 +1,17 @@
+{
+  "round": 2,
+  "files": {
+    "app.js": "4c702657b6cdcea1442b5e2cce966f84df908e79f14774694911859ddcdf9248",
+    "styles.css": "e198e5e749acb1306d042f81a09e4ea98dfa9779f0eab0b177710189b9c39ce5",
+    "index.html": "0df8872473ab6b00da0ab92f3e9dc4badc0eb16d568a31a47af4b4e7a56d49e9"
+  },
+  "checks": [
+    "node --check dist/app.js",
+    "check-render.cjs all views and states PASS"
+  ],
+  "reviewers": [
+    "root browser observations",
+    "method_panel independent data-binding review",
+    "dashboard_ui source/renderer checks"
+  ]
+}

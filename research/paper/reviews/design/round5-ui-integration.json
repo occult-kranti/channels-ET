@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-23",
+  "changes": [
+    "Working paper PDF and Overleaf ZIP links in header and resources",
+    "Name-and-genre wording in rendered similarity captions and methods",
+    "Raw snapshot metadata retained and legacy label explained",
+    "Matched cohort derives eligible25/contributing22/accounts11/pairs55 from unchanged data"
+  ],
+  "checks": [
+    "JavaScript parse",
+    "Four existing renderer views and per-account CSV",
+    "Header/resource paths",
+    "Matched cohort denominator bindings",
+    "Frozen data hash unchanged"
+  ],
+  "dataSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "appSha256": "65d901ce77e6ab046de8e0338726aca830720f57f9deb9c05ef5c9036310d6c2",
+  "limitations": [
+    "Paper/PDF ZIP targets will be supplied by root packaging",
+    "Final browser QA belongs to root"
+  ],
+  "finalBannerCorrection": "Of 881 usable durations, 877 refreshed and four labeled inherited; all881 have channelId; sum of channel durationCounts881."
+}

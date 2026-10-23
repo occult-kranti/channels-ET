@@ -1,0 +1,82 @@
+{
+  "frozen_date": "2026-10-23",
+  "status": "collection_complete;analysis_review_separate",
+  "metadata_records_source": "../inputs/fresh_metadata.json",
+  "metadata_records_sha256_sorted_json": "ced2752b2dc988de49a0f27775a6ef0102deebacabca7f3125f6c50288d560c5",
+  "metadata_wrapper_sha256": "845262d5e255a253fccec86c75f1d980d454791616dcb5cccf63dc80441cc380",
+  "full_metadata_wrapper_duplicated": false,
+  "raw_captions_included": false,
+  "raw_web_text_included": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2892,
+      "sha256": "cddea574249a0145a7cf50d1f15de7a294ec4e2394d5b1d2402b45c6fb08ccdf"
+    },
+    {
+      "path": "acquire_youtube.py",
+      "bytes": 7241,
+      "sha256": "2189c0ef6b91a03bc386afab787e87d74c1291448dce331f0cf4142937678456"
+    },
+    {
+      "path": "acquisition-requirements.txt",
+      "bytes": 137,
+      "sha256": "07425f21ed4979b5d5e38a2b247e2ea8839d5df475cf7e42e95cc571c8d78338"
+    },
+    {
+      "path": "capture_metadata_2026-10-23.py",
+      "bytes": 3364,
+      "sha256": "0cb6a4f694a842be0ff15e0cf76494857edaa309b6e64fdc5007f934177b2bba"
+    },
+    {
+      "path": "collection_methods.md",
+      "bytes": 3618,
+      "sha256": "801237854e010fc6d95947688d5e39f5568f9bdf05d79ebb2f3c75fafe3c29ff"
+    },
+    {
+      "path": "corpus_manifest.json",
+      "bytes": 80150,
+      "sha256": "b5bf16b875dc4edb5ae95ec372ab6fee4c471cd9ca784436d2a43207c74d1edc"
+    },
+    {
+      "path": "coverage.json",
+      "bytes": 2986,
+      "sha256": "cf1306361a9864a11ad7f80a1f480b7032661e6e0ffcce655b5a6ad3e10a6997"
+    },
+    {
+      "path": "language_selection_corrections.json",
+      "bytes": 248,
+      "sha256": "4cc6b4bcfbc03f9b31ea1a96d186b0eeefed085fd2114928ea72044bb31948b4"
+    },
+    {
+      "path": "metadata_ids.json",
+      "bytes": 36077,
+      "sha256": "7c8a12eee536d488719ef7393a20feebf25a6947f1a2abf52624a34672f786e7"
+    },
+    {
+      "path": "metadata_summary.json",
+      "bytes": 1400,
+      "sha256": "272a7b4ecc7b2677c140583a599f6556c8da94224c728af601764edf8602cc48"
+    },
+    {
+      "path": "round3_collection_review.md",
+      "bytes": 2405,
+      "sha256": "0e0bd71eb852ae09b6ca7e478fb9ac39d23d711c110e88e83dd4079af6a57e11"
+    },
+    {
+      "path": "scranton_concordance.json",
+      "bytes": 827,
+      "sha256": "b307929ada263260fd72b1a5eb4a8e13c72749b1496072f41fa5e2400180b903"
+    },
+    {
+      "path": "scranton_window_sensitivity.csv",
+      "bytes": 2112,
+      "sha256": "afb5eb0e90075e738da1662250be91f3d2e349503056ffd4ec684c86f951bfc9"
+    },
+    {
+      "path": "scranton_window_sensitivity.json",
+      "bytes": 6634,
+      "sha256": "ec5da478ec56ca8061a8bf60ef761c93c952e6e8427806971bee6f8653081d27"
+    }
+  ]
+}

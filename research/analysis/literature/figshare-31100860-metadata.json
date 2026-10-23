@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "id": 61152403,
+      "name": "trancchann_eti_final_seman.py",
+      "size": 14764,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61152403",
+      "supplied_md5": "a351dc1a9d73cbdfceb4585d1badffd9",
+      "computed_md5": "a351dc1a9d73cbdfceb4585d1badffd9",
+      "mimetype": "text/x-script.python"
+    },
+    {
+      "id": 61152406,
+      "name": "Supplemental Structured Interview Questions by Domain.docx",
+      "size": 1686065,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61152406",
+      "supplied_md5": "4c0e85a670bb1831d1c3381060b387ca",
+      "computed_md5": "4c0e85a670bb1831d1c3381060b387ca",
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "id": 61152409,
+      "name": "Supplemental Across ETI Semantic Model Values 12_16_25.xlsx",
+      "size": 195346,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61152409",
+      "supplied_md5": "725c27ebc8c845c1f8d2aafdea248a26",
+      "computed_md5": "725c27ebc8c845c1f8d2aafdea248a26",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": 61152412,
+      "name": "Supplemental Within Channeler Models 1_13_26.csv",
+      "size": 337,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61152412",
+      "supplied_md5": "a7366888922d35d01d5eb5ff8464b3dd",
+      "computed_md5": "a7366888922d35d01d5eb5ff8464b3dd",
+      "mimetype": "text/csv"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 4689211,
+      "full_name": "Helane Wahbeh",
+      "first_name": "Helane",
+      "last_name": "Wahbeh",
+      "is_active": true,
+      "url_name": "Helane_Wahbeh",
+      "orcid_id": "0000-0003-3650-4633"
+    },
+    {
+      "id": 22340440,
+      "full_name": "Beth Glick",
+      "first_name": "Beth",
+      "last_name": "Glick",
+      "is_active": true,
+      "url_name": "Beth_Glick",
+      "orcid_id": "0009-0006-2635-6429"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/journal_contribution/Supplemental_Materials_for_Semantic_Structure_and_Correspondence_in_Prospective_Trance-Channeled_Communications_Attributed_to_Extraterrestrial_Intelligences_manuscript_submission/31100860",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">This supplemental package contains four files supporting the analyses reported in the manuscript and is intended to facilitate transparency, reproducibility, and secondary analysis.</p><p dir=\"ltr\">The first file contains the full structured interview protocol used in the study, organized by conceptual domain. It includes all standardized prompts administered to channelers for each purported ETI target and reflects the exact wording and domain structure used during data collection.</p><p dir=\"ltr\">The second file provides the across ETI semantic correspondence data. This file reports domain-level semantic similarity values computed across channelers for each ETI target using transformer-based sentence embedding models. Values are presented in tabular form and correspond directly to the analyses summarized in Table 1 of the manuscript.</p><p dir=\"ltr\">The third file contains the within channeler semantic correspondence data. This dataset reports semantic similarity values computed within individual channelers across different purported ETI targets, organized by domain. These values support the analyses examining internal consistency and differentiation of channeled content within channelers.</p><p dir=\"ltr\">The fourth file includes the complete Google Colaboratory notebook used for text preprocessing, embedding generation, and semantic similarity computation. The notebook contains all executable code required to reproduce the reported analyses, including data loading, model specification, similarity calculations, and summary statistics.</p><p dir=\"ltr\">Together, these materials provide full methodological transparency for the structured interview design and semantic modeling procedures used in this study.</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 1896512,
+  "created_date": "2026-01-20T20:59:38Z",
+  "modified_date": "2026-01-20T20:59:38Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "extraterrestrial intelligence",
+    "trance channeling"
+  ],
+  "keywords": [
+    "extraterrestrial intelligence",
+    "trance channeling"
+  ],
+  "categories": [
+    {
+      "id": 30418,
+      "title": "Other psychology not elsewhere classified",
+      "parent_id": 30415,
+      "path": "/30292/30415/30418",
+      "source_id": "529999",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Wahbeh, Helane; Glick, Beth (2026). Supplemental Materials for \"Semantic Structure and Correspondence in Prospective Trance-Channeled Communications Attributed to Extraterrestrial Intelligences\" manuscript submission. figshare. Journal contribution. https://doi.org/10.6084/m9.figshare.31100860.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 31100860,
+  "title": "Supplemental Materials for \"Semantic Structure and Correspondence in Prospective Trance-Channeled Communications Attributed to Extraterrestrial Intelligences\" manuscript submission",
+  "doi": "10.6084/m9.figshare.31100860.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/31100860",
+  "published_date": "2026-01-20T20:59:38Z",
+  "thumb": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-previews/61152406/thumb.png",
+  "defined_type": 6,
+  "defined_type_name": "journal contribution",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/31100860",
+  "url_public_api": "https://api.figshare.com/v2/articles/31100860",
+  "url_private_html": "https://figshare.com/account/articles/31100860",
+  "url_public_html": "https://figshare.com/articles/journal_contribution/Supplemental_Materials_for_Semantic_Structure_and_Correspondence_in_Prospective_Trance-Channeled_Communications_Attributed_to_Extraterrestrial_Intelligences_manuscript_submission/31100860",
+  "timeline": {
+    "posted": "2026-01-20T20:59:38",
+    "firstOnline": "2026-01-20"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

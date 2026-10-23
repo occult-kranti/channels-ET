@@ -1,0 +1,201 @@
+{
+  "round": 6,
+  "stage": "final-frozen-manuscript-method-gate",
+  "reviewer": "/root/method_panel",
+  "reviewedAtUtc": "2026-10-23T20:13:47.516416+00:00",
+  "inputs": {
+    "research/paper/rounds/round6/main.pdf": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716",
+    "research/paper/rounds/round6/main.tex": "eebe43aa864156e909cebc434cdc9494a8251e8c75f3b942f2683dd4e2cf8543",
+    "research/paper/rounds/round6/body.tex": "b1d4d9628029c2f113a63051354d4ece525081c8121fedb464c067c1b21f6c21",
+    "research/paper/rounds/round6/references.bib": "7846562805561563d2f73cc8359f95a2065902763df90226a014c5dd39f044da",
+    "research/paper/rounds/round6/generated/paper-results.json": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604",
+    "research/paper/rounds/round6/generated/chunk-weighting.json": "8170ec9c1b47e5b65d57edd52475e1f4cf77b4d2bbd34807a3400fc4d1be5a67",
+    "research/paper/rounds/round6/generated/chunk-weighted-embeddings.npz": "01c493575502e61635cd69fff9661c2dcb895db8a416844713c81ac21c9845ca",
+    "dist/analysis/data.json": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc"
+  },
+  "visuallyReviewedFinalPages": [
+    4,
+    10
+  ],
+  "visualEvidence": {
+    "/workspace/scratch/9ec421627a96/paper_review/method_round6/final-04.png": "858a463649fdedb62121c0bda48113a571f21c44c7fd0772f706741a7e2a01ad",
+    "/workspace/scratch/9ec421627a96/paper_review/method_round6/final-10.png": "9818cd2323c047226c71c9e798f3a56bbb809d76bd3c5c7e07cdd14ed59b2844"
+  },
+  "priorVisualReview": "Round-5 pages 4\u20139 and all four figures; final generated figures are byte-identical and PDF text outside pages 4/10 is unchanged.",
+  "checks": [
+    {
+      "check": "Expected final PDF SHA",
+      "pass": true
+    },
+    {
+      "check": "Expected final body SHA",
+      "pass": true
+    },
+    {
+      "check": "Only Aluna listing attribution changed in body",
+      "pass": true
+    },
+    {
+      "check": "Only Rystrom command grouping changed in bibliography",
+      "pass": true
+    },
+    {
+      "check": "Main TeX byte-identical",
+      "pass": true
+    },
+    {
+      "check": "Generated file inventory identical",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: POOLING-REPRODUCTION.md",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: additional-results.tex",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: artifact-manifest.json",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: caption-length-table.tex",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: caption-lengths.csv",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: chunk-weighted-embeddings.npz",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: chunk-weighting-documents.csv",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: chunk-weighting-pairs.csv",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: chunk-weighting.json",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: coverage-table.tex",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: duration-table.tex",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figure-captions.json",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figures/coverage.pdf",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figures/coverage.png",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figures/duration.pdf",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figures/duration.png",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figures/matched-similarity.pdf",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figures/matched-similarity.png",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figures/sensitivity.pdf",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: figures/sensitivity.png",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: focal-durations.csv",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: formulas.tex",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: leave-one-publisher-out.csv",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: lopo-table.tex",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: macro-index.json",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: matched-pair-cosines.csv",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: paper-results.json",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: results.tex",
+      "pass": true
+    },
+    {
+      "check": "Generated artifact byte-identical: sensitivity-table.tex",
+      "pass": true
+    },
+    {
+      "check": "Both PDFs contain 12 pages",
+      "pass": true
+    },
+    {
+      "check": "Only expected PDF pages have textual changes",
+      "pass": true
+    }
+  ],
+  "checkCount": 37,
+  "failures": 0,
+  "verdict": "PASS \u2014 final methods and numerical/claim invariance gate closed; no open blocking finding.",
+  "verificationScope": "All 29 generated files compared byte-for-byte with independently checked round-5 artifacts. No redundant encoder inference or new analysis run.",
+  "reviewSequence": [
+    {
+      "round": 4,
+      "pdfSha256": "a395941231d063d3faab18f0ea90766438ed9c1135a612102b92f1edb6ee9bc1",
+      "outcome": "Required figure and methods corrections."
+    },
+    {
+      "round": 5,
+      "pdfSha256": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0",
+      "outcome": "Corrections closed; 231 independent derivative checks passed."
+    },
+    {
+      "round": 6,
+      "pdfSha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716",
+      "outcome": "Final freeze and actual changed pages checked; numerical and substantive result claims invariant."
+    }
+  ],
+  "limitationsRetained": [
+    "Exploratory purposive sample; no global count or population inference.",
+    "No independent raw-text inference replay by this reviewer; derived vectors and statistics independently verified.",
+    "No human validation, authorship approval, venue acceptance or submission is claimed."
+  ]
+}

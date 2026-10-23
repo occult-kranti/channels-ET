@@ -1,0 +1,30 @@
+{
+  "dataPath": "/workspace/sites/channeling-atlas/research/analysis/rounds/round2/data.json",
+  "dataSha256": "f5b96cd04d9fb9ccf5db34e0fc0b056f0dc3d7a53579b86361f90d9861dc5024",
+  "meta": {
+    "version": "round2",
+    "checkedAt": "2026-10-23",
+    "scope": "Merged purposive research index; account routes, not a census of mediums.",
+    "durationDefinition": "Arithmetic mean of available eligible video durations in the indexed sample.",
+    "frequencyDefinition": "Counts of indexed videos with exact reported upload dates; not a channel posting rate.",
+    "textMethod": "Transparent keyword indicators plus identity-masked TF-IDF titles.",
+    "transcriptStatus": "Separate bounded caption pilot; see transcripts section.",
+    "titleLanguagePolicy": "langdetect1.0.9 seed42: English probability\u22650.80 and\u22654alphabetic words. Statistical heuristic; short titles may be excluded. Current watch-page titles supersede supplied translations, with variants retained.",
+    "sourceSnapshotSha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+  },
+  "coverage": {
+    "videoCount": 925,
+    "channelCount": 227,
+    "attributedVideoCount": 787,
+    "unattributedVideoCount": 138,
+    "durationCount": 758,
+    "dateCount": 364,
+    "titleCount": 807,
+    "transcriptCount": 34,
+    "englishPilotCount": 30
+  },
+  "inspectedSourceHashes": {
+    "/workspace/sites/channeling-atlas/research/analysis/semantic_analysis.py": "f40df47403fb3c7d32d41fd9b6da8811be3ca6cdb4780c1e8b79119c3b6d4612",
+    "/workspace/sites/channeling-atlas/research/analysis/build_analysis.py": "6c793740c811a699e6937abe14d845f20b27553d58eb320076f27d651e55780b"
+  }
+}

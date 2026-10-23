@@ -1,0 +1,82 @@
+{
+  "matchedTitleVsCaption": {
+    "pairCount": 55,
+    "spearmanRankCorrelation": 0.20562770562770566,
+    "medianAbsoluteCosineChange": 0.32430799305438995
+  },
+  "rawVsMaskedTitles": {
+    "pairCount": 253,
+    "spearmanRankCorrelation": 0.6258012214876303,
+    "medianAbsoluteCosineChange": 0.08027499999999999
+  },
+  "captionFullVsTrimmed": {
+    "pairCount": 78,
+    "spearmanRankCorrelation": 0.969498855574805,
+    "medianAbsoluteCosineChange": 0.022080500000000003
+  },
+  "deduplicatedVsAllTitles": {
+    "pairCount": 253,
+    "spearmanRankCorrelation": 0.9923883032407511,
+    "medianAbsoluteCosineChange": 1.7017364517535327e-08
+  },
+  "matchedCorpus": {
+    "videos": 25,
+    "eligiblePublishers": 11,
+    "publisherCounts": {
+      "ch-e7ffb2da4c80": 2,
+      "ch-cc61aed50366": 2,
+      "ch-4f327ca79023": 2,
+      "ch-4deae3e4c229": 2,
+      "ch-e876f3f2375e": 2,
+      "ch-0a31b1dbd853": 1,
+      "ch-2b81ba751f66": 1,
+      "ch-d9ef9bb4b58f": 2,
+      "ch-6bcde5f1646b": 2,
+      "ch-aaaebac2693b": 2,
+      "ch-73032cea690b": 2,
+      "ch-8557f1426bad": 1,
+      "ch-396932860d9d": 2,
+      "ch-3ccbf336c582": 2
+    },
+    "centroidsIndependentlyRecomputed": true,
+    "videoIds": [
+      "2WoeqiizPCQ",
+      "2v8rXyVBrQ4",
+      "5Sq-dBoqu10",
+      "8pG8QV-18xQ",
+      "9UPOe-GdVE4",
+      "BRsg_krdt8s",
+      "C95Y9g135kg",
+      "CdeF5JtUB44",
+      "MDdyY1WYmHY",
+      "NxYRldsuB3s",
+      "SPiLHHvhGeM",
+      "T350BmG4zwM",
+      "T5QtncJq1Jc",
+      "UMrZXFgMpdo",
+      "dRbLEaSOP2k",
+      "dTKNeJ0hGMo",
+      "dWPc8lU-OPc",
+      "fZmY4xS_qXE",
+      "ierU5o3ffX4",
+      "qa9694ghfzE",
+      "rnZ_y4-kM1I",
+      "svK99fsGskw",
+      "vvV4JcA5U7o",
+      "wTGFWgT7LOU",
+      "z5bKGZzwkt8"
+    ]
+  },
+  "captionNearestNeighborChanges": {
+    "n": 4,
+    "denominator": 13,
+    "channelIds": [
+      "ch-4deae3e4c229",
+      "ch-aaaebac2693b",
+      "ch-0a31b1dbd853",
+      "ch-d9ef9bb4b58f"
+    ]
+  },
+  "inputSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "scope": "Independent reconstruction from frozen public numeric artifacts; no new embedding inference, caption transcription or audio verification."
+}

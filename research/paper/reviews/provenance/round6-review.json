@@ -1,0 +1,144 @@
+{
+  "round": 6,
+  "reviewer": "zip_audit provenance workstream",
+  "mode": "Final frozen source/claim-invariance review against previously read round5 source, with actual changed paragraph and bibliography inspected. PDF hash binds the build; visual PDF review is delegated.",
+  "status": "pass within provenance scope; global six-workstream round6 completion must be closed by coordinator after all receipts exist",
+  "reviewedFiles": [
+    {
+      "path": "rounds/round6/main.tex",
+      "sha256": "eebe43aa864156e909cebc434cdc9494a8251e8c75f3b942f2683dd4e2cf8543"
+    },
+    {
+      "path": "rounds/round6/body.tex",
+      "sha256": "b1d4d9628029c2f113a63051354d4ece525081c8121fedb464c067c1b21f6c21"
+    },
+    {
+      "path": "rounds/round6/main.pdf",
+      "sha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716"
+    },
+    {
+      "path": "rounds/round6/references.bib",
+      "sha256": "7846562805561563d2f73cc8359f95a2065902763df90226a014c5dd39f044da"
+    },
+    {
+      "path": "rounds/round6/generated/paper-results.json",
+      "sha256": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604"
+    },
+    {
+      "path": "rounds/round6/generated/additional-results.tex",
+      "sha256": "2bc8a643355c7df1c0a68933c3d00e0469fa5c3ba90983a4bc933f69ca42c424"
+    },
+    {
+      "path": "rounds/round6/generated/POOLING-REPRODUCTION.md",
+      "sha256": "8161c1950b609bb74a70b7d75ce31d13669c07c3c674a6e8f2405e00e2e2ea0b"
+    },
+    {
+      "path": "rounds/round6/icwsm-checklist-working.tex",
+      "sha256": "0de3a2c580e3bda943354f86a5ed6d977ff25258719dc496920539d4b33c3388"
+    }
+  ],
+  "sourceChangesFromRound5": [
+    {
+      "location": "body.tex caption pilot",
+      "change": "Aluna Ash supplied only one entry -> The Aluna Ash listing contained only one entry",
+      "assessment": "Supported. The inherited listing is the source; no practitioner participation or direct data provision is implied."
+    },
+    {
+      "location": "references.bib enevoldsen2025mmteb author field",
+      "change": "Rystr\u00f8m TeX spacing correction",
+      "assessment": "Typographic only; no substantive source claim changed."
+    }
+  ],
+  "generatedArtifactsByteEqualRound5": true,
+  "numericAndProvenanceChecks": {
+    "path": "round6-source-checks.json",
+    "sha256": "92ef5c78f34a3e107e8cdc177ef0284244b0bfd137ab166691845f45e2118b5f",
+    "pass": true,
+    "count": 50
+  },
+  "priorReceiptVerification": [
+    {
+      "round": 4,
+      "receiptPath": "reviews/provenance/round4-review.json",
+      "receiptSha256": "14c389d6bf79486145815d573fb2440579801168da7e50cb62c9f25792b69b21",
+      "filesMatch": true,
+      "files": [
+        {
+          "path": "rounds/round4/main.tex",
+          "pass": true
+        },
+        {
+          "path": "rounds/round4/body.tex",
+          "pass": true
+        },
+        {
+          "path": "rounds/round4/generated/paper-results.json",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "receiptPath": "reviews/provenance/round5-review.json",
+      "receiptSha256": "54939f5469fb10f97738a185e88a14beb7def2a07a4f06151a00df9eeaf068ab",
+      "filesMatch": true,
+      "files": [
+        {
+          "path": "rounds/round5/main.tex",
+          "pass": true
+        },
+        {
+          "path": "rounds/round5/body.tex",
+          "pass": true
+        },
+        {
+          "path": "rounds/round5/main.pdf",
+          "pass": true
+        },
+        {
+          "path": "rounds/round5/references.bib",
+          "pass": true
+        },
+        {
+          "path": "rounds/round5/generated/paper-results.json",
+          "pass": true
+        },
+        {
+          "path": "rounds/round5/generated/additional-results.tex",
+          "pass": true
+        },
+        {
+          "path": "rounds/round5/generated/POOLING-REPRODUCTION.md",
+          "pass": true
+        },
+        {
+          "path": "rounds/round5/icwsm-checklist-working.tex",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "priorIssues": {
+    "R4-P1": "closed in5; unchanged in6",
+    "R4-P2": "closed in5; unchanged in6",
+    "R4-P3": "closed in5; unchanged in6",
+    "R4-P4": "closed in5; unchanged in6",
+    "R4-P5": "closed in5; unchanged in6",
+    "R4-P6": "This provenance workstream now has actual rounds4/5/6. Global completion remains coordinator-gated until all other five round6 workstream receipts exist."
+  },
+  "claimReview": {
+    "ledger": "planned-claim-ledger.json",
+    "count": 17,
+    "status": "all supported with stated scope; human validation remains pending",
+    "boundaries": [
+      "No global active-medium count or complete channel history claim.",
+      "Per-account means remain available-upload sample summaries.",
+      "Fresh and inherited values remain distinct.",
+      "Account, speaker, session and attributed entity remain different units.",
+      "Similarity and prior publication do not establish ET origins, true thematic agreement, external peer review, or human endorsement.",
+      "Public derivative reproducibility remains distinct from raw-caption inference replay."
+    ]
+  },
+  "newCorrectionRequests": [],
+  "completionBoundary": "This receipt completes only this workstream's final review. The coordinator must wait for all other final review receipts before closing the completed-tense three-round disclosure."
+}

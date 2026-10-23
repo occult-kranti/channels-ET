@@ -1,0 +1,121 @@
+{
+  "archiveSha256": "cb8dbc877d8435df316f322408f4e6f060afae6684d91ada89163cb626a325e5",
+  "reviewDate": "2026-10-23",
+  "sourceReadLevel": "All structured CSV/JSON parsed; selected notes inspected; both supplied PNG figures visually inspected. Underlying website sources not rechecked in this task.",
+  "files": 29,
+  "csvRows": {
+    "youtube_links_harvest.csv": 136,
+    "youtube_playlists.csv": 12,
+    "timeline_draft.csv": 530,
+    "bashar_videos_in_repo_by_channel.csv": 75,
+    "entities_catalogue_raw.csv": 73,
+    "youtube_channels.csv": 92,
+    "youtube_videos.csv": 466,
+    "youtube_entity_rollup.csv": 55,
+    "people_directory.csv": 127
+  },
+  "videoRows": 466,
+  "validDistinctVideoIds": 457,
+  "unlinkedVideoRows": 9,
+  "duplicateValidVideoIds": 0,
+  "durationRowsSupplied": 450,
+  "durationRowsPrimary": 449,
+  "durationAccountsPrimary": 16,
+  "exactDateRows": 3,
+  "exactDateRowsWithValidVideoId": 1,
+  "relativeDateRows": 453,
+  "channelDirectoryRows": 92,
+  "nonemptyDistinctChannelRoutes": 53,
+  "sourceStatusCounts": {
+    "metadata-only": 38,
+    "ok": 16,
+    "no_youtube": 31,
+    "not_found": 7
+  },
+  "overlapExistingVideoIds": 14,
+  "newVideoIdsRelativeToExisting": 443,
+  "overlapExistingAccountRoutes": 14,
+  "newAccountRoutesBeforeIdentityReview": 39,
+  "validDistinctPlaylists": 10,
+  "standaloneTranscriptFiles": 0,
+  "issues": [
+    {
+      "id": "Z01",
+      "severity": "high",
+      "finding": "Supplied draft is unreviewed; provider-read statuses cannot be promoted to fresh source verification.",
+      "action": "Retain supplied-summary access and reported acquisition method."
+    },
+    {
+      "id": "Z02",
+      "severity": "high",
+      "finding": "92 channel-directory entries contain only 53 actual channel URLs; 31 no_youtube and 6 of 7 not_found cases reflect exhausted credits rather than completed absence searches.",
+      "action": "Show unresolved/no acquisition, never absence or zero videos."
+    },
+    {
+      "id": "Z03",
+      "severity": "high",
+      "finding": "Nine video rows lack IDs and URLs.",
+      "action": "Keep research leads separate from linked-video totals; do not deduplicate all blank IDs into a supposed video."
+    },
+    {
+      "id": "Z04",
+      "severity": "high",
+      "finding": "Athina 53:26 is explicitly copied from schema example/notes.",
+      "action": "Exclude from primary duration estimates until independently checked; preserve as supplied value."
+    },
+    {
+      "id": "Z05",
+      "severity": "high",
+      "finding": "Samples are capped at 30 recent uploads and mix clips, full sessions, promotion, teaching and non-ET context.",
+      "action": "Label means as sampled-upload means; show n, coverage and median; do not infer all-channel mean, publishing rate or total spoken-topic prevalence."
+    },
+    {
+      "id": "Z06",
+      "severity": "high",
+      "finding": "Relative age labels are heavily coarsened, with only three exact dates (two belong to unlinked videos).",
+      "action": "Keep date precision; use ranges or relative-age buckets and avoid precise upload-frequency inference."
+    },
+    {
+      "id": "Z07",
+      "severity": "medium",
+      "finding": "Entity field sometimes reflects channel framing or content described by notes rather than literal title occurrence.",
+      "action": "Call these reported entity labels; separate title lexical counts from entity attribution."
+    },
+    {
+      "id": "Z08",
+      "severity": "medium",
+      "finding": "No full transcript files are included; notes contain excerpts/paraphrases and links to third-party transcripts.",
+      "action": "Do not run those notes as a spoken transcript corpus or treat metadata topics as semantic speech results."
+    },
+    {
+      "id": "Z09",
+      "severity": "medium",
+      "finding": "Audience figure is a supplied snapshot; Aluna row refers to a 1-video 1.58K backup account, not the 84.2K main account described in notes.",
+      "action": "Label actual account title/handle and mark unverified counters; no combined person audience."
+    },
+    {
+      "id": "Z10",
+      "severity": "medium",
+      "finding": "Timeline contains mixed precision, scheduled future events, claimed predictions and lightly deduplicated historical events.",
+      "action": "Keep draft chronology separately until event type, dates and source claims are reviewed."
+    },
+    {
+      "id": "Z11",
+      "severity": "medium",
+      "finding": "Original entity plot ranks counts across unequal samples and labels every row as latest uploads, though the source rollup also includes notes-only examples.",
+      "action": "Recompute plot from explicit eligibility rules; show numerator and denominator and distinguish context entities."
+    }
+  ],
+  "skills": [
+    {
+      "skill": "investigative-evidence-research",
+      "status": "APPLIED",
+      "use": "Source/claim separation, supplied-summary access, comparison coverage, independent-review contract; no wrongdoing framing imported."
+    },
+    {
+      "skill": "trace-temporal-evidence-v1",
+      "status": "APPLIED",
+      "use": "Exact versus relative date preservation, unknowns separate from absence, source-family deduplication, future/prediction chronology caution."
+    }
+  ]
+}

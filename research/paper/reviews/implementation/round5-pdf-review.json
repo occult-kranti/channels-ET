@@ -1,0 +1,41 @@
+{
+  "reviewType": "Implementation integration and actual rendered-PDF review by producer; independent quantitative checks belong to method panel",
+  "reviewedPdf": "research/paper/rounds/round5/main.pdf",
+  "pdfSha256": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0",
+  "reviewedBodySha256": "ba9a08bab6c8a2864ebc920180a566468b43ef8f3308a7142b8e1fcd5999e387",
+  "paperResultsSha256": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604",
+  "checks": {
+    "actual_pdf_hash_matches_parent": true,
+    "pdf_has_12_pages": true,
+    "pooling_rho_integrated": true,
+    "wordpiece_and_chunk_counts_integrated": true,
+    "correct_pooling_denom_26_documents": true,
+    "correct_matched_pool_25_vs_22": true,
+    "eight_focal_duration_rows_integrated": true,
+    "round5_generated_source_snapshot_identical": true,
+    "weighting_comparison_13publishers_78pairs": true,
+    "no_generation_needed_for_review": true,
+    "chunk_weighting_formula_present": true
+  },
+  "visualPages": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visualFindings": [
+    "Figure 2 duration legend occupies blank upper-right region; no quartile overlap.",
+    "Figure 3 retains negative title-cosine observations in its left panel; publisher-omission labels and dashed baseline remain readable.",
+    "Figure 4 includes all four plotted perturbations, exact name-and-genre label, 0.984 pooling result, and no annotation touching the lower axis.",
+    "Table 2 includes eight focal publishers and explicit measured/indexed counts; table 3 includes five distinct comparisons with correct denominators.",
+    "Equation (3) uses content WordPiece weights; following sentence preserves equal-video account pooling.",
+    "The pooling paragraph reports 30 processed documents separately from 26 matrix-contributing documents."
+  ],
+  "blockingFindings": [],
+  "limitations": [
+    "Review confirms implementation and figure integration, not independent validation of thematic constructs or raw caption transcription.",
+    "No human authorship, ethics or submission-readiness claim is established."
+  ],
+  "writes": "Only this review receipt; generated artifacts remain frozen."
+}

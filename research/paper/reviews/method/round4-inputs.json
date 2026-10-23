@@ -1,0 +1,18 @@
+{
+  "round": 4,
+  "phase": "manuscript design",
+  "reviewer": "/root/method_panel",
+  "sourceDataSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "sourceDefinitionRead": "research/analysis/README.md",
+  "phase1CorrectionReceipt": "research/analysis/rounds/round3/caption-correction-check.json",
+  "draftProtocolStatus": "Not yet present at initial review; requirements below supplied to manuscript author.",
+  "role": "Independent methods and interpretation reviewer, actual model agent; not human peer review",
+  "ownedPath": "research/paper/reviews/method",
+  "inputsRead": [
+    "dist/analysis/data.json",
+    "research/analysis/README.md",
+    "research/analysis/protocol.json",
+    "research/analysis/rounds/round3/caption-correction-check.json"
+  ],
+  "status": "design_review_complete_awaiting_actual_draft_and_figures"
+}

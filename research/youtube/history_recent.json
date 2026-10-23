@@ -1,0 +1,778 @@
+{
+  "accounts": [
+    {
+      "id": "yt-h-a-ll",
+      "title": "L/L Research",
+      "url": "https://www.youtube.com/c/LLResearch",
+      "profileIds": [
+        "hr-ra",
+        "hr-quo",
+        "hr-hatonn"
+      ],
+      "entityLabels": [
+        "Ra",
+        "Q’uo",
+        "Hatonn"
+      ],
+      "relationship": "organization/archive",
+      "verification": "Shared organizational archive. Original Ra and Q’uo audio uploads are linked by organizational sources; the account is not a unique human channeler.",
+      "sourceIds": [
+        "yt-h-s-ll-account",
+        "yt-h-s-ra-project",
+        "yt-h-s-quo-announcement",
+        "yt-h-s-ll-conscious"
+      ]
+    },
+    {
+      "id": "yt-h-a-living",
+      "title": "Living Love & Light",
+      "url": "https://www.youtube.com/channel/UCOF76IZZcGV6iiKiqmkNgLw/videos",
+      "profileIds": [
+        "hr-hatonn"
+      ],
+      "entityLabels": [
+        "Hatonn",
+        "Latwii"
+      ],
+      "relationship": "community/reupload",
+      "verification": "Channel index lists L/L Research meditation material. Affiliation and whether the examples use original voices were not independently established.",
+      "sourceIds": [
+        "yt-h-s-living-account"
+      ]
+    },
+    {
+      "id": "yt-h-a-lucis",
+      "title": "Lucis Trust",
+      "url": "https://www.youtube.com/user/LucisTrust",
+      "profileIds": [
+        "hr-bailey-profile"
+      ],
+      "entityLabels": [
+        "Djwhal Khul"
+      ],
+      "relationship": "organization/archive",
+      "verification": "Official account directly linked by Lucis Trust. An institutional successor account does not make Alice Bailey currently active.",
+      "sourceIds": [
+        "yt-h-s-lucis-official"
+      ]
+    },
+    {
+      "id": "yt-h-a-christine",
+      "title": "Christine Day",
+      "url": "https://www.youtube.com/c/ChristineDayOnline/videos",
+      "profileIds": [
+        "ac-christine"
+      ],
+      "entityLabels": [
+        "Pleiadians"
+      ],
+      "relationship": "official",
+      "verification": "Indexed @ChristineDayOnline account carries the Pleiadian Broadcast series, corroborated by official website and legacy official social announcements.",
+      "sourceIds": [
+        "yt-h-s-christine-account",
+        "yt-h-s-christine-broadcasts",
+        "yt-h-s-christine-oct2016"
+      ]
+    },
+    {
+      "id": "yt-h-a-alexandra",
+      "title": "Channeling Arcturians: Talking with ET",
+      "url": "https://www.youtube.com/@channelingarcturians",
+      "profileIds": [
+        "ac-alexandra"
+      ],
+      "entityLabels": [
+        "Erica",
+        "Sassani",
+        "Arcturians",
+        "Pleiadians"
+      ],
+      "relationship": "official",
+      "verification": "Official channelingarcturians.com HTML links this handle, and its session post links an individual channeling conversation.",
+      "sourceIds": [
+        "yt-h-s-alex-sassani",
+        "yt-h-s-alex-account",
+        "yt-h-s-alex-video"
+      ]
+    },
+    {
+      "id": "yt-h-a-marilyn-unresolved",
+      "title": "Marilyn Raffaele (unverified name match)",
+      "url": "https://www.youtube.com/channel/UCzQf4Rxn3LzdoWC4BkWm-CQ",
+      "profileIds": [
+        "ac-marilyn"
+      ],
+      "entityLabels": [
+        "Arcturian Group"
+      ],
+      "relationship": "unresolved",
+      "verification": "Name match only. No official-site endorsement was established; do not use this account as proof of Marilyn's YouTube activity.",
+      "sourceIds": [
+        "yt-h-s-marilyn-namesake"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "yt-h-v-ra-1",
+      "title": "The Ra Contact — Original audio recording — Session 1",
+      "url": "https://youtu.be/JKCulCwEQJw",
+      "accountId": "yt-h-a-ll",
+      "profileIds": [
+        "hr-ra"
+      ],
+      "entityLabels": [
+        "Ra"
+      ],
+      "format": "archival recording",
+      "publishedAt": null,
+      "dateBasis": "Original session is historical; official project announced in 2019. Exact upload date not verified.",
+      "contentBasis": "Official L/L announcement explicitly describes original audio paired with transcript and links this Session 1.",
+      "notes": "Archive of Carla Rueckert's channeling; playback not watched. No recent activity inference.",
+      "sourceIds": [
+        "yt-h-s-ra-project"
+      ]
+    },
+    {
+      "id": "yt-h-v-quo-1",
+      "title": "Q’uo - December 31, 1989, Higher Self (Part 1)",
+      "url": "https://www.youtube.com/watch?v=JRMitlqOqN4",
+      "accountId": "yt-h-a-ll",
+      "profileIds": [
+        "hr-quo"
+      ],
+      "entityLabels": [
+        "Q’uo"
+      ],
+      "format": "archival recording",
+      "publishedAt": null,
+      "dateBasis": "Session dated 1989-12-31; organizational post announced the video on 2014-01-16. Upload date not independently verified.",
+      "contentBasis": "L/L/Bring4th moderator explicitly identifies this as audio of Carla channeling Q’uo, with accompanying text.",
+      "notes": "Original channeling audio according to organizational provenance; not a contemporary Q’uo session. Playback not watched.",
+      "sourceIds": [
+        "yt-h-s-quo-announcement"
+      ]
+    },
+    {
+      "id": "yt-h-v-quo-2",
+      "title": "Q’uo - December 31, 1989, Higher Self (Part 2)",
+      "url": "https://youtu.be/rcFRdmk93_c",
+      "accountId": "yt-h-a-ll",
+      "profileIds": [
+        "hr-quo"
+      ],
+      "entityLabels": [
+        "Q’uo"
+      ],
+      "format": "archival recording",
+      "publishedAt": null,
+      "dateBasis": "Session dated 1989-12-31; Part 2 announced on 2014-01-28. Upload date not independently verified.",
+      "contentBasis": "Same organizational thread links Part 2; YouTube destination returns the matching Part 2 title.",
+      "notes": "Part of the same original audio session as Part 1, not an additional human channeler or session.",
+      "sourceIds": [
+        "yt-h-s-quo-announcement"
+      ]
+    },
+    {
+      "id": "yt-h-v-seth-1",
+      "title": "Jane Roberts - Seth - The Interview - Part 1/3",
+      "url": "https://www.youtube.com/watch?v=3O7pvuUCawI",
+      "accountId": null,
+      "profileIds": [
+        "hr-seth"
+      ],
+      "entityLabels": [
+        "Seth"
+      ],
+      "format": "archival recording",
+      "publishedAt": null,
+      "dateBasis": "Library guide says taped 1974-06-04. YouTube upload date unknown.",
+      "contentBasis": "Public library guide identifies this archival Jane Roberts/Seth interview and supplies the exact video link.",
+      "notes": "Uploader not verified. Interview archive; the guide alone does not establish which portion contains Seth speaking. Playback not watched.",
+      "sourceIds": [
+        "yt-h-s-seth-library"
+      ]
+    },
+    {
+      "id": "yt-h-v-seth-2",
+      "title": "Jane Roberts - The Seth Video - Part 2/3",
+      "url": "https://www.youtube.com/watch?t=11s&v=ZRG-IR3aqec",
+      "accountId": null,
+      "profileIds": [
+        "hr-seth"
+      ],
+      "entityLabels": [
+        "Seth"
+      ],
+      "format": "archival recording",
+      "publishedAt": null,
+      "dateBasis": "Library guide says taped 1974-06-04. YouTube upload date unknown.",
+      "contentBasis": "Public library guide lists this second archival video and provides the exact destination.",
+      "notes": "Uploader and individual channeling segment not independently verified; playback fetch was throttled.",
+      "sourceIds": [
+        "yt-h-s-seth-library"
+      ]
+    },
+    {
+      "id": "yt-h-v-vantassel-1964",
+      "title": "Time Travel & UFOs: Rare 1964 Interview with George Van Tassel",
+      "url": "https://youtu.be/g1PAfKstw6A?si=w4PhpzBY0veqZf_K",
+      "accountId": null,
+      "profileIds": [
+        "hr-ashtar"
+      ],
+      "entityLabels": [],
+      "format": "interview",
+      "publishedAt": null,
+      "dateBasis": "Source describes an interview aired 1964-06-18. Republishing page dated 2025-06-19; neither is verified upload date.",
+      "contentBasis": "Republishing page describes Webster Reports / KVOS archival footage of Van Tassel.",
+      "notes": "Relevant first-person historical interview; no Ashtar-channeling performance established. Uploader and playback unverified.",
+      "sourceIds": [
+        "yt-h-s-vantassel-1964"
+      ]
+    },
+    {
+      "id": "yt-h-v-christine-2016",
+      "title": "Pleiadian Broadcast October 2016",
+      "url": "https://youtu.be/-i0dfXWr9Vk",
+      "accountId": "yt-h-a-christine",
+      "profileIds": [
+        "ac-christine"
+      ],
+      "entityLabels": [
+        "Pleiadians"
+      ],
+      "format": "channeling session",
+      "publishedAt": null,
+      "dateBasis": "Broadcast month appears in title; exact upload date unknown.",
+      "contentBasis": "Legacy official ChristineDayOnline Facebook announcement links this broadcast; official resource page describes the series as channeled Pleiadian information and transmissions.",
+      "notes": "Series attribution and link verified through indexed sources; playback not watched.",
+      "sourceIds": [
+        "yt-h-s-christine-oct2016",
+        "yt-h-s-christine-broadcasts",
+        "yt-h-s-christine-account"
+      ]
+    },
+    {
+      "id": "yt-h-v-christine-2022",
+      "title": "Pleiadian Broadcast November 2022",
+      "url": "https://youtu.be/wGw53rzdkw8",
+      "accountId": "yt-h-a-christine",
+      "profileIds": [
+        "ac-christine"
+      ],
+      "entityLabels": [
+        "Pleiadians"
+      ],
+      "format": "channeling session",
+      "publishedAt": null,
+      "dateBasis": "Broadcast month appears in title; exact upload date unknown.",
+      "contentBasis": "Title appears in official channel indexing; an indexed community post exposes the exact video link. Official website describes the broadcast format.",
+      "notes": "Weaker individual-link provenance than the October 2016 example; YouTube playback metadata could not be fetched.",
+      "sourceIds": [
+        "yt-h-s-christine-nov2022",
+        "yt-h-s-christine-account",
+        "yt-h-s-christine-broadcasts"
+      ]
+    },
+    {
+      "id": "yt-h-v-alex-erica-20260905",
+      "title": "An Open Conversation & Channeling Q&A with Erica & Ryan",
+      "url": "https://www.youtube.com/watch?v=lPsyNqcJK-g&feature=youtu.be",
+      "accountId": "yt-h-a-alexandra",
+      "profileIds": [
+        "ac-alexandra"
+      ],
+      "entityLabels": [
+        "Erica",
+        "Sassani"
+      ],
+      "format": "channeling session",
+      "publishedAt": null,
+      "dateBasis": "Official page says recorded 2026-09-05 and was published 2026-09-07. Exact YouTube upload date unknown.",
+      "contentBasis": "Official session post credits Alexandra's channeling, quotes the Erica/Ryan exchange, and links this full conversation; returned YouTube title corroborates it.",
+      "notes": "Session date is distinct from article and upload dates. Playback not watched.",
+      "sourceIds": [
+        "yt-h-s-alex-sassani",
+        "yt-h-s-alex-video",
+        "yt-h-s-alex-account"
+      ]
+    },
+    {
+      "id": "yt-h-v-marilyn-hypnotism",
+      "title": "It is Hypnotism ~ The Arcturian Group ~ Marilyn Raffaele",
+      "url": "https://youtu.be/zHszkJMhHBA",
+      "accountId": null,
+      "profileIds": [
+        "ac-marilyn"
+      ],
+      "entityLabels": [
+        "Arcturian Group"
+      ],
+      "format": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Message dated 2025-06-01; republication page dated 2025-06-14. YouTube upload date unknown.",
+      "contentBasis": "Universal Lighthouse explicitly links this video and attributes the underlying written message to Marilyn Raffaele.",
+      "notes": "Community presentation of a written channeling. Original Marilyn voice, on-camera channeling and exact uploader account not verified; do not classify as her official live session.",
+      "sourceIds": [
+        "yt-h-s-marilyn-hypnotism"
+      ]
+    },
+    {
+      "id": "yt-h-v-marilyn-newtime",
+      "title": "The World has Entered a New Time ~ The Arcturian Group ~ Marilyn Raffaele",
+      "url": "https://www.youtube.com/watch?v=GOuoaSdSK2M",
+      "accountId": null,
+      "profileIds": [
+        "ac-marilyn"
+      ],
+      "entityLabels": [
+        "Arcturian Group"
+      ],
+      "format": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Underlying message dated 2025-04-27; republication page dated 2025-05-12. YouTube upload date unknown.",
+      "contentBasis": "Community publisher credits Marilyn's text and exposes this exact video destination.",
+      "notes": "Secondary presentation; no proof Marilyn herself speaks in this upload. Not attached to the unverified namesake account.",
+      "sourceIds": [
+        "yt-h-s-marilyn-newtime"
+      ]
+    },
+    {
+      "id": "yt-h-v-valerie-mira",
+      "title": "(Focused Only On Success) - Mira of the Pleiadian High Council",
+      "url": "https://music.youtube.com/podcast/dOVGTG3YXfQ",
+      "accountId": null,
+      "profileIds": [
+        "ac-valerie"
+      ],
+      "entityLabels": [
+        "Mira",
+        "Pleiadian High Council"
+      ],
+      "format": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Indexed description gives message date 08-11-2017; format is ambiguous and is not treated as an upload date.",
+      "contentBasis": "Indexed YouTube Music metadata explicitly attributes the underlying channeling text to Valerie Donner.",
+      "notes": "Likely secondary presentation of an attributed message. Narrator, uploader, and whether Valerie's own voice is present are unverified. Direct playback page was inaccessible.",
+      "sourceIds": [
+        "yt-h-s-valerie-video"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "yt-h-s-ll-account",
+      "title": "L/L Research YouTube channel",
+      "url": "https://www.youtube.com/c/LLResearch",
+      "publisher": "L/L Research",
+      "kind": "YouTube channel",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Indexed account metadata identifies L/L Research; shared organizational archive, not three separate human channelers."
+    },
+    {
+      "id": "yt-h-s-ra-project",
+      "title": "Ra Contact YouTube Project",
+      "url": "https://www.llresearch.org/news/2019/ra-contact-youtube-project",
+      "publisher": "L/L Research",
+      "kind": "official archive announcement",
+      "date": "2019-05-15",
+      "accessed": "2026-10-22",
+      "notes": "Indexed official text explicitly links Session 1 and describes original audio combined with transcribed words. Direct fetch returned 403."
+    },
+    {
+      "id": "yt-h-s-quo-announcement",
+      "title": "Q’uo on Youtube",
+      "url": "https://www.bring4th.org/forums/showthread.php?pid=143296&tid=8618",
+      "publisher": "Bring4th / L/L Research",
+      "kind": "organizational forum announcement",
+      "date": "2014-01-16",
+      "accessed": "2026-10-22",
+      "notes": "Moderator Bring4th_Austin links the first two original Q’uo audio videos; Part 2 announced January 28, 2014. Announcement dates are not treated as upload dates."
+    },
+    {
+      "id": "yt-h-s-ll-conscious",
+      "title": "Channeling Library",
+      "url": "https://www.llresearch.org/channeling",
+      "publisher": "L/L Research",
+      "kind": "official archive",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Indexed archive identifies Q’uo, Hatonn and Latwii within the L/L conscious-channeling lineage."
+    },
+    {
+      "id": "yt-h-s-living-account",
+      "title": "Living Love & Light",
+      "url": "https://www.youtube.com/channel/UCOF76IZZcGV6iiKiqmkNgLw/videos",
+      "publisher": "Living Love & Light",
+      "kind": "YouTube channel",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Indexed channel lists L/L Research meditation sessions attributed to Hatonn and Latwii. No official organizational affiliation established."
+    },
+    {
+      "id": "yt-h-s-christine-account",
+      "title": "Christine Day",
+      "url": "https://www.youtube.com/c/ChristineDayOnline/videos",
+      "publisher": "Christine Day",
+      "kind": "YouTube channel",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Indexed channel metadata identifies @ChristineDayOnline and its Pleiadian Broadcast series."
+    },
+    {
+      "id": "yt-h-s-christine-broadcasts",
+      "title": "Pleiadian Broadcasts",
+      "url": "https://www.christinedayonline.com/free-resources/pleiadian-broadcasts/",
+      "publisher": "Christine Day",
+      "kind": "official resource page",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Official page describes free periodic broadcasts of channeled Pleiadian information and energetic transmissions."
+    },
+    {
+      "id": "yt-h-s-christine-oct2016",
+      "title": "Christine Day official Facebook broadcast announcement",
+      "url": "https://www.facebook.com/ChristineDayOnline/posts/the-pleiadian-message-for-october-has-been-posted-online-with-the-edge-magazine-/1705343044291331/",
+      "publisher": "Christine Day Online",
+      "kind": "official social post",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Search indexing exposes the October 2016 Pleiadian Broadcast and its exact YouTube short link. Post could not be fully fetched."
+    },
+    {
+      "id": "yt-h-s-christine-nov2022",
+      "title": "Pleiadian Broadcast November 2022 shared link",
+      "url": "https://www.ashtarcommandcrew.net/forum/topics/an-activity-of-light-from-cosmic-beings-by-patricia-cota-robles-a",
+      "publisher": "Ashtar Command Crew community",
+      "kind": "community link",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Indexed discussion exposes the exact YouTube short link; title separately appears in the ChristineDayOnline channel index. This is corroboration, not proof of the upload date."
+    },
+    {
+      "id": "yt-h-s-alex-sassani",
+      "title": "The Sassani Perspective: Ascension, Contact & the Future of Earth",
+      "url": "https://channelingarcturians.com/2026/09/07/the-sassani-perspective-ascension-contact-the-future-of-earth/",
+      "publisher": "Alexandra Tabaczynska / Channeling Arcturians",
+      "kind": "official session page",
+      "date": "2026-09-07",
+      "accessed": "2026-10-22",
+      "notes": "Official text credits Alexandra and links the full Erica/Ryan conversation recorded September 5, 2026. Page HTML also links the @channelingarcturians account."
+    },
+    {
+      "id": "yt-h-s-alex-video",
+      "title": "An Open Conversation & Channeling Q&A with Erica & Ryan",
+      "url": "https://www.youtube.com/watch?v=lPsyNqcJK-g&feature=youtu.be",
+      "publisher": "Channeling Arcturians",
+      "kind": "YouTube video",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Exact destination and video title returned from the official site's YouTube link; playback not viewed."
+    },
+    {
+      "id": "yt-h-s-alex-account",
+      "title": "Channeling Arcturians: Talking with ET",
+      "url": "https://www.youtube.com/channel/UCO-NLR7buQ40JlsJshf130Q",
+      "publisher": "Channeling Arcturians",
+      "kind": "YouTube channel",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Indexed account title; official website HTML independently links the channel's @channelingarcturians handle."
+    },
+    {
+      "id": "yt-h-s-marilyn-namesake",
+      "title": "Marilyn Raffaele YouTube name match",
+      "url": "https://www.youtube.com/channel/UCzQf4Rxn3LzdoWC4BkWm-CQ",
+      "publisher": "Marilyn Raffaele (unverified account)",
+      "kind": "YouTube channel",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Name and handle @marilynraffaele4987 match; connection to onenessofall.com not established. Do not treat as an official account."
+    },
+    {
+      "id": "yt-h-s-marilyn-hypnotism",
+      "title": "It is Hypnotism ~ The Arcturian Group ~ Marilyn Raffaele",
+      "url": "https://www.universallighthouse.com/post/it-is-hypnotism-~-the-arcturian-group-~-marilyn-raffaele",
+      "publisher": "Universal Lighthouse / Chellea",
+      "kind": "community republication",
+      "date": "2025-06-14",
+      "accessed": "2026-10-22",
+      "notes": "Page explicitly links the video and credits Marilyn's June 1, 2025 written message. Publisher describes sharing other authors' channeled messages; original Marilyn voice or on-camera channeling not established."
+    },
+    {
+      "id": "yt-h-s-marilyn-newtime",
+      "title": "The World has Entered a New Time ~ The Arcturian Group ~ Marilyn Raffaele",
+      "url": "https://www.universallighthouse.com/post/the-world-has-entered-a-new-time-~-the-arcturian-group-~-marilyn-raffaele",
+      "publisher": "Universal Lighthouse / Chellea",
+      "kind": "community republication",
+      "date": "2025-05-12",
+      "accessed": "2026-10-22",
+      "notes": "Indexed page exposes exact video URL and credits a Marilyn message dated April 27, 2025. Page date is not the upload date; original voice not verified."
+    },
+    {
+      "id": "yt-h-s-valerie-video",
+      "title": "(Focused Only On Success) - Mira of the Pleiadian High Council",
+      "url": "https://music.youtube.com/podcast/dOVGTG3YXfQ",
+      "publisher": "YouTube Music / uploader unresolved",
+      "kind": "indexed video metadata",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Indexed description credits a message channeled by Valerie Donner and gives 08-11-2017. That ambiguous message date is not an upload date; narrator and account not established."
+    },
+    {
+      "id": "yt-h-s-vantassel-1964",
+      "title": "Time Travel & UFOs: Rare 1964 Interview with George Van Tassel",
+      "url": "https://www.vibewire.com.au/?p=237905",
+      "publisher": "Vibewire",
+      "kind": "archival-video republication",
+      "date": "2025-06-19",
+      "accessed": "2026-10-22",
+      "notes": "Page exposes exact YouTube short link and describes a Webster Reports / KVOS interview aired June 18, 1964. This is an interview, not a verified Ashtar channeling segment."
+    },
+    {
+      "id": "yt-h-s-seth-library",
+      "title": "ESP, Jane Roberts and Seth",
+      "url": "https://guides.sspl.org/janeandseth",
+      "publisher": "Saratoga Springs Public Library",
+      "kind": "library research guide",
+      "date": "2024-12-11",
+      "accessed": "2026-10-22",
+      "notes": "Library guide links three Jane Roberts/Seth video parts and dates the filming June 4, 1974. This date is not the YouTube upload date; playback not viewed."
+    },
+    {
+      "id": "yt-h-s-lucis-official",
+      "title": "Programs on YouTube",
+      "url": "https://www.lucistrust.org/productions/programs_on_youtube",
+      "publisher": "Lucis Trust",
+      "kind": "official account directory",
+      "date": null,
+      "accessed": "2026-10-22",
+      "notes": "Official institutional page directly links its YouTube account. Embedded invocation programs do not establish archival Bailey dictation or channeling footage."
+    },
+    {
+      "id": "yt-h-s-marilyn-20261018",
+      "title": "Newest Message — October 18, 2026",
+      "url": "https://www.onenessofall.com/newest/",
+      "publisher": "Marilyn Raffaele / Oneness Of All",
+      "kind": "official channeled-message page",
+      "date": "2026-10-18",
+      "accessed": "2026-10-22",
+      "notes": "Dated text on the official site. Dynamic newest-message URL; records publication activity, not a verified recent YouTube upload."
+    },
+    {
+      "id": "yt-h-s-christine-20261011",
+      "title": "Pleiadian Message October 2026",
+      "url": "https://www.christinedayonline.com/2026/10/11/pleiadian-message-october-2026/",
+      "publisher": "Christine Day",
+      "kind": "official channeled-message page",
+      "date": "2026-10-11",
+      "accessed": "2026-10-22",
+      "notes": "Official indexed page is dated October 11 and signed The Pleiadians. Direct fetch failed; publication activity is supported by indexed primary-source text."
+    },
+    {
+      "id": "yt-h-s-valerie-20261001",
+      "title": "Straight from the Heart October 1, 2026",
+      "url": "https://thegroundcrew.com/straight-from-the-heart-october-1-2026/",
+      "publisher": "Valerie Donner / The Ground Crew",
+      "kind": "official newsletter / channeled message",
+      "date": "2026-10-01",
+      "accessed": "2026-10-22",
+      "notes": "Official page dated October 1 includes a Mira message explicitly attributed to Valerie Donner."
+    },
+    {
+      "id": "yt-h-s-alex-20261019",
+      "title": "Conversation with Erica — October 17, 2026",
+      "url": "https://channelingarcturians.com/2026/10/19/conversation-with-erica-october-17-2026/",
+      "publisher": "Alexandra Tabaczynska / Channeling Arcturians",
+      "kind": "official session publication",
+      "date": "2026-10-19",
+      "accessed": "2026-10-22",
+      "notes": "Primary site index dates this publication October 19; title identifies the session as October 17. Count uses publication date, not the session date."
+    }
+  ],
+  "gaps": [
+    {
+      "profileId": "hr-hatonn",
+      "reason": "Shared L/L and community archive accounts located, but no exact individual L/L-lineage Hatonn video URL with sufficiently verified content was secured. Phoenix Journals Hatonn material was not merged."
+    },
+    {
+      "profileId": "hr-ashtar",
+      "reason": "Archival first-person Van Tassel interview located; an actual recording of Van Tassel channeling Ashtar was not established. No active official personal account inferred."
+    },
+    {
+      "profileId": "hr-seth",
+      "reason": "Library-linked archival videos located, but uploader accounts and exact portions in which Seth speaks remain unverified. No currently active Jane Roberts personal account inferred."
+    },
+    {
+      "profileId": "hr-bailey-profile",
+      "reason": "Lucis Trust's institutional account verified; no original audio/video of Alice Bailey receiving or dictating Djwhal Khul material was established. Modern invocations and lectures were not mislabeled as her channeling."
+    },
+    {
+      "profileId": "ac-marilyn",
+      "reason": "No official YouTube account endorsed by onenessofall.com was established. The namesake account is unresolved; linked community videos may be narrated republications rather than Marilyn speaking."
+    },
+    {
+      "profileId": "ac-valerie",
+      "reason": "No official Valerie Donner YouTube account or first-person channeling video securely established; the indexed Mira example is a secondary attributed-text presentation."
+    },
+    {
+      "profileId": "ac-christine",
+      "reason": "Official broadcast channel and historical examples located; no exact recent YouTube upload date verified. October 2026 activity proof is from the official website."
+    },
+    {
+      "profileId": "ac-alexandra",
+      "reason": "Official account and one full channeling conversation linked; exact YouTube upload date not exposed. October 2026 activity is independently established through official website posts."
+    }
+  ],
+  "findings": [
+    "All four newly assigned human profiles have official-site publication evidence in October 2026; this is broader than a verified recent-YouTube-upload count.",
+    "L/L Research is one shared organizational account covering Ra, Q’uo and Hatonn; entity names are not extra unique human mediums.",
+    "Historical session, filming, article, announcement and upload dates are kept distinct. No relative YouTube age labels were converted into dates.",
+    "All indexed material describes claimed channeling or spiritual traditions; account provenance and recording identity do not independently validate the claimed source of messages.",
+    "Direct video playback was not watched. Content classifications rely on explicit official descriptions, organizational announcements, library cataloguing or indexed metadata. Secondary presentations are marked unresolved."
+  ],
+  "activity": [
+    {
+      "profileId": "ac-marilyn",
+      "etAssociated": true,
+      "status": "confirmed",
+      "publishedAt": "2026-10-18",
+      "datePrecision": "day",
+      "dateBasis": "Displayed date on official newest-message page.",
+      "evidenceTitle": "Newest Message — October 18, 2026",
+      "evidenceUrl": "https://www.onenessofall.com/newest/",
+      "notes": "Official-site publication within both the last-month and 2025-10-22–2026-10-22 year windows; this does not verify a recent YouTube upload.",
+      "sourceIds": [
+        "yt-h-s-marilyn-20261018"
+      ]
+    },
+    {
+      "profileId": "ac-christine",
+      "etAssociated": true,
+      "status": "confirmed",
+      "publishedAt": "2026-10-11",
+      "datePrecision": "day",
+      "dateBasis": "Dated official post and permalink.",
+      "evidenceTitle": "Pleiadian Message October 2026",
+      "evidenceUrl": "https://www.christinedayonline.com/2026/10/11/pleiadian-message-october-2026/",
+      "notes": "Official-site channeled-message publication within both windows; recent YouTube upload not established.",
+      "sourceIds": [
+        "yt-h-s-christine-20261011"
+      ]
+    },
+    {
+      "profileId": "ac-valerie",
+      "etAssociated": true,
+      "status": "confirmed",
+      "publishedAt": "2026-10-01",
+      "datePrecision": "day",
+      "dateBasis": "Official page publication date and dated Mira section.",
+      "evidenceTitle": "Straight from the Heart October 1, 2026",
+      "evidenceUrl": "https://thegroundcrew.com/straight-from-the-heart-october-1-2026/",
+      "notes": "Contains a Mira message attributed to Valerie; qualifies for publication activity within both windows, independent of YouTube.",
+      "sourceIds": [
+        "yt-h-s-valerie-20261001"
+      ]
+    },
+    {
+      "profileId": "ac-alexandra",
+      "etAssociated": true,
+      "status": "confirmed",
+      "publishedAt": "2026-10-19",
+      "datePrecision": "day",
+      "dateBasis": "Official site's post date; session itself is October 17.",
+      "evidenceTitle": "Conversation with Erica — October 17, 2026",
+      "evidenceUrl": "https://channelingarcturians.com/2026/10/19/conversation-with-erica-october-17-2026/",
+      "notes": "Publication date within both windows. Session and website publication dates are distinguished; exact YouTube upload date unknown.",
+      "sourceIds": [
+        "yt-h-s-alex-20261019"
+      ]
+    },
+    {
+      "profileId": "hr-ra",
+      "etAssociated": true,
+      "status": "historical",
+      "publishedAt": null,
+      "datePrecision": null,
+      "dateBasis": "Historical or entity/archive profile; excluded from unique living-medium activity count.",
+      "evidenceTitle": "Ra Contact YouTube Project",
+      "evidenceUrl": "https://www.llresearch.org/news/2019/ra-contact-youtube-project",
+      "notes": "Historical Carla Rueckert/Ra archive; a modern upload of old recordings is not current human channeling activity.",
+      "sourceIds": [
+        "yt-h-s-ra-project"
+      ]
+    },
+    {
+      "profileId": "hr-quo",
+      "etAssociated": true,
+      "status": "historical",
+      "publishedAt": null,
+      "datePrecision": null,
+      "dateBasis": "Historical or entity/archive profile; excluded from unique living-medium activity count.",
+      "evidenceTitle": "Q’uo on Youtube",
+      "evidenceUrl": "https://www.bring4th.org/forums/showthread.php?pid=143296&tid=8618",
+      "notes": "Entity/organizational lineage, not an extra unique human. Shared L/L archive account is indexed.",
+      "sourceIds": [
+        "yt-h-s-quo-announcement"
+      ]
+    },
+    {
+      "profileId": "hr-hatonn",
+      "etAssociated": true,
+      "status": "historical",
+      "publishedAt": null,
+      "datePrecision": null,
+      "dateBasis": "Historical or entity/archive profile; excluded from unique living-medium activity count.",
+      "evidenceTitle": "Channeling Library",
+      "evidenceUrl": "https://www.llresearch.org/channeling",
+      "notes": "Entity/organizational lineage. Hatonn is not a separate human; L/L archive uploads must not be counted as an extra active medium.",
+      "sourceIds": [
+        "yt-h-s-ll-conscious"
+      ]
+    },
+    {
+      "profileId": "hr-ashtar",
+      "etAssociated": true,
+      "status": "historical",
+      "publishedAt": null,
+      "datePrecision": null,
+      "dateBasis": "Historical or entity/archive profile; excluded from unique living-medium activity count.",
+      "evidenceTitle": "Time Travel & UFOs: Rare 1964 Interview with George Van Tassel",
+      "evidenceUrl": "https://www.vibewire.com.au/?p=237905",
+      "notes": "Historical George Van Tassel profile. Archival interview republication does not establish currently active channeling.",
+      "sourceIds": [
+        "yt-h-s-vantassel-1964"
+      ]
+    },
+    {
+      "profileId": "hr-seth",
+      "etAssociated": false,
+      "status": "historical",
+      "publishedAt": null,
+      "datePrecision": null,
+      "dateBasis": "Historical or entity/archive profile; excluded from unique living-medium activity count.",
+      "evidenceTitle": "ESP, Jane Roberts and Seth",
+      "evidenceUrl": "https://guides.sspl.org/janeandseth",
+      "notes": "Historical Jane Roberts/Seth profile; Seth is usually presented as a nonphysical teacher rather than an ET species. Archival footage is not current-medium activity.",
+      "sourceIds": [
+        "yt-h-s-seth-library"
+      ]
+    },
+    {
+      "profileId": "hr-bailey-profile",
+      "etAssociated": false,
+      "status": "historical",
+      "publishedAt": null,
+      "datePrecision": null,
+      "dateBasis": "Historical or entity/archive profile; excluded from unique living-medium activity count.",
+      "evidenceTitle": "Programs on YouTube",
+      "evidenceUrl": "https://www.lucistrust.org/productions/programs_on_youtube",
+      "notes": "Historical Alice Bailey/Djwhal Khul tradition; modern institutional programs are not current activity by Bailey and do not establish an ET-specific medium.",
+      "sourceIds": [
+        "yt-h-s-lucis-official"
+      ]
+    }
+  ]
+}

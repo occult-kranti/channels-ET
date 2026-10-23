@@ -1,0 +1,3223 @@
+{
+  "workstream": "bashar_repository_audit",
+  "queries": [
+    {
+      "query": "Audit supplied repository tree and listed media metadata files",
+      "method": "repository",
+      "url": "https://github.com/occult-kranti/bashar-index/tree/457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "checkedAt": "2026-10-23",
+      "notes": "Initial pass fetched videos.json, recordings.csv, official_channels.md, Divine Light Vibes data, README and license."
+    },
+    {
+      "query": "Enrich repository-derived uploader and playlist leads; inspect podcast and catalog schemas",
+      "method": "repository",
+      "url": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+      "checkedAt": "2026-10-23",
+      "notes": "Second pass fetched podcasts.json and catalog_sessions.json; compared date meanings and deduplicated IDs."
+    }
+  ],
+  "people": [
+    {
+      "id": "darryl-anka",
+      "name": "Darryl Anka",
+      "entities": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "website": "https://www.bashar.org/",
+      "notes": "One human channeler; third-party distribution channels and interview publishers are not additional mediums. Repository metadata is historical, not fresh YouTube availability verification.",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/official_channels.md",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "kind": "video",
+      "title": "Bashar :: Breaking News - May 26, 2026",
+      "url": "https://www.youtube.com/watch?v=0htF1V0v6ec",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=False); year basis: title date (unreliable).",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Title claims 'May 26, 2026' but transcript content (Darryl announcing the 'First Contact' documentary's first theatrical release 'late June', Syrian/European migration crisis question, 'contact likely 2025-2033') strongly suggests this is a re-upload of a much older session (circa 2016). Treat the title date as unreliable uploader labeling.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "title date (unreliable)",
+      "repositorySessionDate": "Title says May 26, 2026; content mentions upcoming Bashar events in Los Angeles, Oakland, Las Vegas and the 'First Contact' documentary release (late June)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Permission Slips",
+      "url": "https://www.youtube.com/watch?v=1x7Z68os7HE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "巴夏听闻录",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload channel (巴夏听闻录, a Chinese-language Bashar fan channel), not official. Classic 'Permission Slips' monologue excerpt.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "BASHAR'S NEWEST Warning: The Global STORM Before Our \"Graduation\" EVENT | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=2GVhU6BRVWY",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Emilio Ortiz",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: podcast episode date. Repository podcast date 2026 (exact date not verified); not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2026 (exact date not verified); original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar on Open Contact in 2026: These Are the ETs We'll Connect With | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=4NGd9kqWM04",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Wisdom From North Clips",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: podcast episode date. Repository podcast date 2026 (exact date not verified); not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2026 (exact date not verified); original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Clip (~3,200 words) from the Wisdom From North interview, not the full episode. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: The Deconstruction of the Physical Mind",
+      "url": "https://www.youtube.com/watch?v=5Js8U9sJ5-8",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). No session date stated in title or transcript. Mentions of 'C5 protocol ET contact attempt October 2011' and 'abduction 2008' suggest this may be an older session re-uploaded with a '2025' label. Questioner references vortex energy in a California location.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "It Has ALREADY Begun! Bashar's STUNNING Message You Need To LISTEN to TODAY! | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=5lOHuqDbpoc",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Next Level Soul Podcast",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2023 (reliable=True); year basis: podcast episode date. Repository podcast date 2023-05-06; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2023-05-06; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Note: the nextlevelsoul.com page for Ep. 244 also mentions ET contact predicted for 2026-2027, which this digest did not surface. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2023,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Believing is Seeing PM Session - Highlights",
+      "url": "https://www.youtube.com/watch?v=66D69G8uQ50",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip; very short excerpt (~280 words) about AI predictions, so key_terms and quotes are below spec minimums.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Ep. 801 FADE to BLACK Jimmy Church w/ Darryl Anka : First Contact : Bashar V2 : LIVE",
+      "url": "https://www.youtube.com/watch?v=7WjydoNj7hE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "FADE TO BLACK Radio",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2018 (reliable=True); year basis: podcast episode date. Repository podcast date 2018-02-06; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2025-08-27; original YouTube upload timestamp not exposed. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2018-02-06; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2018,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": "February 6, 2018 | Downtown Burbank, California"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Darryl Anka :: Knocking on Heaven's Door - April 27, 2026",
+      "url": "https://www.youtube.com/watch?v=94agFEADfyk",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Suthisa Sonphlaeng",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Uploader 'Suthisa Sonphlaeng' is a personal account, not an official channel. Transmission title 'Knocking on Heaven's Door' is stated in the content. Session date in title (April 27, 2026) not independently verified.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "April 27, 2026"
+    },
+    {
+      "kind": "video",
+      "title": "The BASHAR MESSAGE That Left Darryl Anka SPEECHLESS",
+      "url": "https://www.youtube.com/watch?v=98KsASkO8Cs",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Heart Coherence Collaborative",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Very short clip (~680 words). Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased. Key-terms and quotes lists are shorter than spec because the clip is short.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Sedona's Echo - September 14, 2025 | Bashar & DarrylAnka Full Episode",
+      "url": "https://www.youtube.com/watch?v=9FrwPg8FYvM",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: session_date.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Uploader label 'Sedona's Echo - September 14, 2025' almost certainly corresponds to the official Bashar Communications event 'Echoes of Sedona' (November 23, 2024): the content is 'step 8' of the Interstellar Alliance Social Experiment (steps 1-6 ran Feb-Aug 2024), it revisits reactions to a preceding Sedona transmission on masculine/feminine energies, and it ends with the 'Oracle' transmission. Treat as a late-2024 session.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "session_date",
+      "repositorySessionDate": "Title: September 14, 2025; content = 'Echoes of Sedona' / Interstellar Alliance Social Experiment Step 8 (official date November 23, 2024)"
+    },
+    {
+      "kind": "video",
+      "title": "The Secret That May Finally Be Revealed in 2027 | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=9Ij2AEoRwoM",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Next Level Soul Clips",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2027 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Short clip (~1,850 words), not a full interview. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Key-terms list is shorter than spec because the clip is short.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": 2027,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "Refers to 2027 as 'a couple years from now' (so recorded c. 2025)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: The Silent Season - Highlights",
+      "url": "https://www.youtube.com/watch?v=BaN26a0SbLQ",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip. The summarizer's key_terms tail (permission slip, parallel reality, hybrid children, etc. at 'low') may be echoing the prompt examples rather than transcript usage; treat those low-freq entries with caution. Topic percentages normalized to sum to 100 (summarizer output summed to 136).",
+      "contentType": "Official highlight clip",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "Late 2025 (transition into 2026, 'the year of disclosure')"
+    },
+    {
+      "kind": "video",
+      "title": "BASHAR - What is the HIGHER SELF - HIGHER MIND?",
+      "url": "https://www.youtube.com/watch?v=CJb6grCrMhY",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "QUANTUM HEALING PATH",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload/clip channel (QUANTUM HEALING PATH), not official. Classic higher mind / physical mind teaching monologue (~4.2k words); includes the 'diver and boat' and 'mountaintop' metaphors and the 'conceive/receive/perceive' formulation.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Darryl Anka | ECHOES OF SEDONA THE CELESTIAL REVELATION THAT WILL CHANGE HUMANITY FOREVER",
+      "url": "https://www.youtube.com/watch?v=D8El0NsIF04",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2024 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Short clip (~3,200 words) consisting of the opening monologue of the official 'Echoes of Sedona' event (November 23, 2024). The full session of the same event is digested under 9FrwPg8FYvM (uploaded as 'Sedona's Echo - September 14, 2025'). Useful as a clean statement of the late-2026/early-2027 contact timing.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": 2024,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "Echoes of Sedona (official event date November 23, 2024; not stated in transcript)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Emersion Conference - May 26, 2026",
+      "url": "https://www.youtube.com/watch?v=DvWNnqnBAjc",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). ",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "May 26, 2026 (Emersion Conference)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar:: Levels of Mastery -September 24, 2025 | Bashar- Darryl Anka 2025 Full Episode",
+      "url": "https://www.youtube.com/watch?v=Dw9XHTMrgBE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: session_date.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Title date 'September 24, 2025' is almost certainly an uploader label. Content (Willa channeling the winter spirit 'Kerinos', 'fall 2016 marked major change' discussed as recent, Ustream and 90-day postcard-to-the-president references) points to a session from around late 2016 (winter solstice period). 'Levels of Mastery' (cryptic/nocturnal/shape shifter/sage/wraith) is a genuine Bashar teaching from that era.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "session_date",
+      "repositorySessionDate": "Title: September 24, 2025 (unreliable); content indicates a winter-solstice-period workshop ('last morning' of a series) circa late 2016"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Dark Skies and Shining Stars - Highlights",
+      "url": "https://www.youtube.com/watch?v=EHK_mwdk3kM",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip; very short excerpt (~280 words), so key_terms list is below the 25-40 spec range.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "BASHAR'S URGENT Prediction: In 2027, HUMANITY SOUL Will Change FOREVER! | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=ETuHIzyRhyY",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Next Level Soul Podcast",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: podcast episode date. Repository podcast date 2025-01-11; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2025-01-11; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Reveals The Complete History of Atlantis & Lemuria (Channeled by Darryl Anka)",
+      "url": "https://www.youtube.com/watch?v=E_cPno64Z-Q",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes",
+      "accountUrl": "https://www.youtube.com/@DivineLightVibes",
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Re-upload/compilation channel (Divine Light Vibes), not official. Very long transcript (~18.5k words) — appears to be a full session or multi-session compilation, mixing general Q&A with the Atlantis/Lemuria material. Auto-transcript name spellings ('Lazarus', 'Matias D'Alphano') likely correspond to Lazaris and Matias De Stefano. Topic percentages normalized to sum to 100 (summarizer output summed to 118).",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Darryl Anka: The Hybrid Children Are ALREADY HERE – and They're Learning to Live Among Us!",
+      "url": "https://www.youtube.com/watch?v=Fp1YFz-8d4Y",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Cosmic Soul",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Re-upload/clip channel (Cosmic Soul), not official. Long Q&A (~8.5k words), likely an online Q&A session (viewer questions). Contains the most explicit contact-timeline statements in this batch (2023-2033 window, ~90% for late 2026/early 2027, markers to 2040). 'Virginia Brazil' is almost certainly the Varginha (1996) incident. Topic percentages normalized to sum to 100 (summarizer output summed to 123).",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Declares: CONTACT Is IMMINENT & ETs Are ALREADY Here! (Darryl Anka)",
+      "url": "https://www.youtube.com/watch?v=HoYNcoMTk-4",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Michael Sandler Inspire Nation",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: podcast episode date. Repository podcast date 2025-2026 (exact date not verified); not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2025-2026 (exact date not verified); original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Darryl Anka :: A Step Along The Way - May 30, 2026",
+      "url": "https://www.youtube.com/watch?v=IKJzZ-KVPdQ",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). ",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "May 30, 2026"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar & First Contact with Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=IKYfZdjv3aE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "New Thinking Allowed with Jeffrey Mishlove",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: podcast episode date. Repository podcast date 2025-02-06; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2025-02-06; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": "Video published 2025-01-20 (per newthinkingallowed.org); interview references the 2024 election and 'Echoes of Sedona' session"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - The 5 Universal Laws (Darryl Anka)",
+      "url": "https://www.youtube.com/watch?v=IuO0mjva9ls",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Love Is The Way",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload/clip channel (Love Is The Way), not official. Core 'Five Laws' teaching plus parallel-reality/timeline mechanics and the Mandela Effect.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: The Five Hybrid Races - Highlights",
+      "url": "https://www.youtube.com/watch?v=JSwqz_ZhH_I",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip. Despite the title, the excerpt is mostly about definitions/neutral props rather than the hybrid races themselves. Topic percentages normalized to sum to 100 (summarizer output summed to 104).",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar: 2027 The Year Everything Changes For Humanity Collective Manifestation | Bashar Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=OzkviF1GCFc",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Despite the '2027 The Year Everything Changes' title, the transcript identifies the event as the 2026 Conscious Life Expo (Los Angeles, typically February). ~11,500 words: a shorter expo talk with Q&A rather than a full-day event. Distinct from the May 24, 2025 '2027 The Year Everything Changes' session.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "2026 Conscious Life Expo (Los Angeles)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar, ET Contact, and the Future of Humanity | Darryl Anka Interview",
+      "url": "https://www.youtube.com/watch?v=PjIvEohms5I",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Antoinette & Friends",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: podcast episode date. Repository podcast date date not verified (c. 2025); not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date date not verified (c. 2025); original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: The Two Paths To AI (Artificial Intelligence) - Highlights",
+      "url": "https://www.youtube.com/watch?v=Q9X_NGyYN3M",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip; very short (~450 words), so key_terms and quotes are below spec minimums.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Aliens Are Making Contact 3,000 Years Ahead, Warning We're Making BIG Mistakes. Darryl Anka | Bashar",
+      "url": "https://www.youtube.com/watch?v=QBk2MQ1MVZo",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Dr. Mayim Bialik",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: podcast episode date. Repository podcast date 2026-03-24; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2026-03-24; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: 1-3-5-7-11-Refresher - October 1st, 2025",
+      "url": "https://www.youtube.com/watch?v=Rcjd1TkZUMY",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=False); year basis: title date (unreliable).",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Title date 'October 1st, 2025' is an uploader label. The very long transcript (~68k words) with dolphin/cetacean meditation, Lemurian and Andara-stone questions, the squared-spiral and three-infinity-loop exercises, and the hybrid child 'Violet' reads like a compilation of older (circa 2010-2014) workshop/dolphin-retreat sessions rather than a single 2025 event. The same uploader also posted '1-3-5-7-11-Refresher - December 25, 2025' (HJMBdkKnJ1E), probably the same material. Search result had shown this ID only as 'Bashar - Darryl Anka 2025 Full Episode'.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "title date (unreliable)",
+      "repositorySessionDate": "Title: October 1st, 2025 (unreliable); content appears to be a compilation of older sessions including a dolphin/cetacean-themed workshop"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Reveals Why Money is NOT REAL & How to Attract It Effortlessly! (Channeled by Darryl Anka)",
+      "url": "https://www.youtube.com/watch?v=S3Xw09ZE2Dg",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Path of Knowledge",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload/clip channel (Path of Knowledge), not official. Single extended Q&A exchange on money/abundance.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Darryl Anka :: The Precursors - June 6, 2026",
+      "url": "https://www.youtube.com/watch?v=SBRcXicYs0I",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: session_date.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). DUPLICATE SESSION. The transcript is the same session as IKJzZ-KVPdQ ('A Step Along The Way - May 30, 2026'): identical Q&A (Madagascar questioner, PFAS/Teflon, tarot origins, repeated car accidents, Earth angel at grocery store). Bashar himself names the transmission 'Signs of the Times', which matches the official Bashar Communications livestream 'Signs of The Times' of August 23, 2025. The uploader (Divine Insights) appears to re-upload one session under multiple invented titles and dates. Treat the title 'The Precursors - June 6, 2026' as an uploader label, not a real session name/date.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "session_date",
+      "repositorySessionDate": "Title says June 6, 2026; transmission is named 'Signs of the Times' by Bashar (official livestream Aug 23, 2025)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: 2027 The Year Everything Changes - Highlights",
+      "url": "https://www.youtube.com/watch?v=T5QtncJq1Jc",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip. Quotes are as rendered by the summarizer over an auto-transcript; treat as near-verbatim.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "BASHAR (Darryl Anka) Part 3 is finally here ! A surprise guest joins the conversation:)",
+      "url": "https://www.youtube.com/watch?v=U-DHIk0lIQ4",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Antoinette & Friends",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Darryl Anka | Bashar explains that the economic collapse breaks all limits.",
+      "url": "https://www.youtube.com/watch?v=WEVqgD-L5kc",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Known example from the task brief. ~8,500 words, so a long excerpt or partial session rather than a full event; no session date is given in title or transcript. Content (economic collapse fears, Council of Nine question) is consistent with a session from the 2010s.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "BASHAR: Raise Your Vibration & Prepare for Contact | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=ZACIL5Hzb5c",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Gaia",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: podcast episode date. Repository podcast date 2025 (exact date not verified); not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2025 (exact date not verified); original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": "September 26th (fifth annual conference, Messages for Conscious Contact)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar's SECRET MESSAGE for 2026 — Are You Ready? | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=_UZ8EyuOuY8",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Next Level Soul Clips",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2024 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Short clip (~1,850 words), not a full interview. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Key-terms list is shorter than spec because the clip is short.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": 2024,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "Mentions an upcoming September Sedona transmission (likely 'Echoes of Sedona', Sept 2024), so recorded mid-2024"
+    },
+    {
+      "kind": "video",
+      "title": "The Way ETs See You Will Change Everything | Darryl Anka & Bashar",
+      "url": "https://www.youtube.com/watch?v=aZvcNhWthUA",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Soul Luma (third-party clip channel)",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Short third-party clip (~2,100 words) of Darryl Anka speaking (not in trance). Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased. Key-terms list is shorter than spec because the clip is short.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar: Shifting Through Parallel Realities",
+      "url": "https://www.youtube.com/watch?v=alW2lHKFy2k",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Free Vibrations",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload/clip channel (Free Vibrations), not official. Very short clip (~180 words) — a compact statement of the parallel-reality/self-definition teaching; key_terms and quotes below spec minimums due to length.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: The 40 Year Cycles of Human Evolution - Highlights",
+      "url": "https://www.youtube.com/watch?v=d--HZiDqgs0",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip. Summarizer labelled format 'monologue only' but the content is a brief intro plus one Q&A exchange, so format set to monologue+Q&A.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "BASHAR: Buckle Up! We're Being PREPPED For Open Contact Right Now! What to Look For | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=eCxOH-AK1rc",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Higher Journeys Podcast",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: podcast episode date. Repository podcast date 2026 (exact date not verified); not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2026 (exact date not verified); original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Some named entities (e.g. 'Helen Latrell', 'Rachel's Eyes') are as rendered by auto-captions and may be misspelled. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar: A Message for All of Humanity (Darryl Anka)",
+      "url": "https://www.youtube.com/watch?v=egu6iDTj2ys",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Align Podcast",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: podcast episode date. Repository podcast date 2025-09-21; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2025-09-21; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Mapping to Align #561 is inferred from channel, content ('about two years' to contact) and 2025 timing; the YouTube title differs from the podcast title. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar: Interstellar Alliance Social Experiment: Step 1",
+      "url": "https://www.youtube.com/watch?v=fOi0W9_JEWM",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Nflow",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2024 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Short clip (~1,200 words), not a full session. Excerpt from the official event 'The Interstellar Alliance Social Experiment Step 1' (February 17, 2024). Uploader 'Nflow' is not an official channel.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": 2024,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "2024 (start of new cycle after 40 years of transmission); official event Feb 17, 2024"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: 2026 The Year of Disclosure - Highlights",
+      "url": "https://www.youtube.com/watch?v=fZmY4xS_qXE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip from the 2026 New Year transmission.",
+      "contentType": "Official highlight clip",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "2026 (New Year transmission)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Reveals What Happens After Full Disclosure | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=hFC4F3JO33M",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Wisdom From North Clips",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Not a channeling session: a ~2,800-word interview clip with Darryl Anka (not Bashar) from 'Wisdom From North Clips'. Darryl says Bashar has been transmitting for '42 years', which places the interview around 2025-2026 (transmissions began 1984). Known example from the task brief.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Sedona Interdimensional Citys - July 01, 2026",
+      "url": "https://www.youtube.com/watch?v=hTlU_M_R0eE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "ozy bourne",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=False); year basis: title date (unreliable).",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Uploader 'ozy bourne' labels this 'July 01, 2026' but the content (Sedona vortex opening, AAA formula, hybrid-children DNA, tic-tac craft) matches the Bashar Sedona event 'Welcome to Sedona, The Interdimensional City', which other channels upload as a 2025 'Full Episode' (VD4ytVd_z-0, ewuIgAS763s, JAWsKZtTiYk). The date in the title should be treated as unreliable. Long transcript (~47k words) suggests a multi-session event compilation.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "title date (unreliable)",
+      "repositorySessionDate": "Sedona (title says July 01, 2026; probable re-upload of 'Welcome to Sedona, The Interdimensional City')"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: The Story Tree - August 4, 2025",
+      "url": "https://www.youtube.com/watch?v=hmX3hlNJBjU",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: session_date.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Title date 'August 4, 2025' is an uploader label. Internal evidence (Prince's recent passing, 'everything will change by fall 2016', upcoming September Sedona event, Oakland/Las Vegas events) places this session in mid-2016. 'The Story Tree' is a genuine Bashar session title from 2016. Digest years in the model output that say '2025' for upcoming events are the transcript's relative dates and likely refer to 2016.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "session_date",
+      "repositorySessionDate": "Weekend event, second day (title says August 4, 2025; content indicates circa summer 2016)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Knocking on Heaven's Door- Highlights",
+      "url": "https://www.youtube.com/watch?v=iq2QpcqHlmw",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip; very short (~280 words). Topic percentages re-balanced from the summarizer's output (which put 60% on parallel realities) to reflect that the clip is about interdimensional craft/dimensions.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar ::The 33rd Parallel - August 21, 2025",
+      "url": "https://www.youtube.com/watch?v=jQbxp4e6bfg",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: session_date.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). 'The 33rd Parallel' refers to Phoenix, Arizona (which lies on the 33rd parallel); the content is a 'Phoenix frequency' transmission with holotope meditation. The same uploader (Divine Insights) also posted 'The 33rd Parallel - August 19, 2025' (IvkZ-mb0YwA), likely the same session under a second date.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "session_date",
+      "repositorySessionDate": "August 21, 2025 (per title); Phoenix/Sedona region event (holotope meditation and vortex discussion)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Breaking News - March 15, 2026",
+      "url": "https://www.youtube.com/watch?v=ja8BrsruFOo",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Eternal Inspiration",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=False); year basis: title date (unreliable).",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). DUPLICATE SESSION. Third copy of the 'Breaking News' session (also 0htF1V0v6ec 'May 26, 2026' and os4a7-7bnLw 'September 21, 2025', both Divine Insights); this copy is from uploader 'Eternal Inspiration' labelled 'March 15, 2026'. Content (First Contact documentary premiering late June, Syrian migration to Europe, flat/hollow Earth, Anunnaki, 2025-2033 contact window) dates the original session to circa 2016. Three channels, three fake dates, one session.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "title date (unreliable)",
+      "repositorySessionDate": "Title: March 15, 2026 (unreliable); content circa 2016 with upcoming LA/Oakland/Las Vegas events and 'First Contact' documentary premiere"
+    },
+    {
+      "kind": "video",
+      "title": "Straight Talk with Darryl Anka, Alan Steinfeld on the new book Making Contact",
+      "url": "https://www.youtube.com/watch?v=jdzErS12DvU",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "NewRealities",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2021 (reliable=True); year basis: podcast episode date. Repository podcast date 2021-04-23; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2021-04-23; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Several personal names are as rendered by auto-captions and may be misspelled. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2021,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": "April 23, 2021 (broadcast date; 'Making Contact' book release May 4, 2021)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Explains ANUNNAKI'S Role in Human Evolution and Space Travel | Channeled by Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=ji9rMw37o2M",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Mammoth Awakening",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload/clip channel (Mammoth Awakening), not official. Topic percentages lightly adjusted to sum to 100 (summarizer's original summed to ~105).",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Explorations with Bashar - Highlights",
+      "url": "https://www.youtube.com/watch?v=k0lWJ2B90-I",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip; very short (~240 words), so key_terms and quotes are below spec minimums.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Reveals the Truth About Family Karma & Unconditional Love | Channeled by Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=kPWOUEtUx2Y",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Cosmic Bridge",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Re-upload/clip channel (Cosmic Bridge), not official. Long Q&A excerpt (~8.5k words) — likely most of a session's Q&A portion. Topic percentages normalized to sum to 100 (summarizer output summed to 120).",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Aliens Are Now Contacting Humanity According to Bashar",
+      "url": "https://www.youtube.com/watch?v=kvU9mCJr-eo",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "ACID FOR SQUARES",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2024 (reliable=True); year basis: podcast episode date. Repository podcast date 2024-10-14; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2024-10-14; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Segment (~4,200 words), shorter than the full ~1h43m episode. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2024,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Cybo",
+      "url": "https://www.youtube.com/watch?v=lLFUTAVah30",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2016 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Uploader labels this '2025', but content dates it to spring 2016: Bashar references 'fall 2016' as an upcoming nexus and announces June 17-19 Los Angeles sessions (Masks, The Story Tree, State of the Union). Cybo (the 12-sided-die synchronicity game) was introduced by Bashar in 2016. Same session also uploaded as nYQqKqGy0gU and 0Z3jG0gnj8s ('Cybo - April 1, 2025'). Moderator 'Rashelle' = April Rochelle of Bashar Communications.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2016,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "Las Vegas (Cybo session); content indicates spring 2016 (June 17-19 Los Angeles sessions announced as upcoming)"
+    },
+    {
+      "kind": "video",
+      "title": "Darryl Anka on Channeling Bashar | Interview with Extra Dimensionals",
+      "url": "https://www.youtube.com/watch?v=mgSgI0ElfTI",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Extreme Mysteries",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Not a channeling session — a long-form interview (~28.5k words) with Darryl Anka by Reuben Langdon ('Interview with Extra Dimensionals' series), re-uploaded by Extreme Mysteries. Digest includes both Bashar quotes relayed by Anka and Anka's own statements. The summarizer's named_entities included prompt-example names (Orion, Sirius, Pleiadians, Anunnaki, Yahyel, Contact Fulcrum) that could not be verified in context and were removed. Topic percentages normalized to sum to 100.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Emersion Conference - August 3, 2025 | Bashar - Darryl Anka 2025 Ful Episode",
+      "url": "https://www.youtube.com/watch?v=mk_yQrOQHJs",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). DUPLICATE SESSION. Same Emersion Conference session as DvWNnqnBAjc ('Emersion Conference - May 26, 2026'): identical Q&A sequence (excitement vs escapism, light babies, Anqa/phoenix name question, Holly Cotton, Anima the social engineer, gamma-then-theta hypnotherapy, reptilians). Divine Insights re-uploads one session under multiple dates. The Emersion conference itself is a real Bashar/Willa event; the exact date is unverified but 2025 is plausible ('within 5 years' contact statement).",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "Emersion Conference (title date August 3, 2025)"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Describes Life and Death on E'sassani",
+      "url": "https://www.youtube.com/watch?v=mzcFoYUvbOE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "ETs and Erin",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload/clip channel (ETs and Erin), not official. Topic percentages normalized to sum to 100 (summarizer's original summed to ~140).",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Breaking News - September 21, 2025",
+      "url": "https://www.youtube.com/watch?v=os4a7-7bnLw",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=False); year basis: title date (unreliable).",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). DUPLICATE SESSION. Identical content to 0htF1V0v6ec ('Breaking News - May 26, 2026'): same opening (Darryl announcing LA/Oakland/Las Vegas events and the 'First Contact' documentary release) and same Q&A (blueprints run out at 33, Syrian migration, flat Earth, Anunnaki/Sasquatch, dolphins/Sirius, heaven and hell, Inca stonework). Internal evidence dates the original session to circa 2016 (First Contact documentary premiere). Both 'September 21, 2025' and 'May 26, 2026' are uploader labels from Divine Insights.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "title date (unreliable)",
+      "repositorySessionDate": "Title: September 21, 2025 (unreliable); content circa 2016 with upcoming LA/Oakland/Las Vegas events and 'First Contact' documentary premiere"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Signs of The Times - Highlights",
+      "url": "https://www.youtube.com/watch?v=ozHG5P7fY5I",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip (short excerpt of a longer session). Digest produced by WebFetch summarizer over auto-transcript; key_terms list is shorter than spec's 25-40 because the clip is short.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Darryl Anka :: Reflections - May 28, 2026",
+      "url": "https://www.youtube.com/watch?v=p8JC21bFf5M",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: session_date.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Uploader title is 'Reflections - May 28, 2026' but Bashar names the transmission 'Seeing is Believing' in the content. The same uploader (Divine Insights) also posted 'Reflections - May 24, 2026' (ygzBrMyMAQA), probably the same session. Title/date are uploader labels; Bashar does reference 'your year of 2026' in the transcript, so the session is plausibly from 2026.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "session_date",
+      "repositorySessionDate": "May 28, 2026 (per title); transmission titled 'Seeing is Believing'; Bashar references 'your year of 2026'"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Reveals The Secret Mission of Orion Souls on Earth (Darryl Anka Channeling)",
+      "url": "https://www.youtube.com/watch?v=pfB4F7uAjwE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "The Present Moment",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Known example from the task brief. Despite the clickbait title ('Secret Mission of Orion Souls'), the transcript is a general full-length Q&A session (body consciousness, autoimmune healing, QHHT regressions, DNA as interface). No session date is given; the QHHT/'gamma level' framing suggests a 2010s session. Same title also uploaded as HgD7Xs_Gd3w.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Darryl Anka :: The Silent Season - December 20, 2025",
+      "url": "https://www.youtube.com/watch?v=sFjR-VFy4tE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Content matches the official Bashar Communications event 'The Silent Season' (December 20, 2025). Also uploaded as YNxzICUcLfA by another channel.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "December 20, 2025"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar: What Happens After Death? | Darryl Anka | Channeled Message",
+      "url": "https://www.youtube.com/watch?v=tYAnYpeyWTc",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Free Vibration",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload/clip channel (Free Vibration), not official. Short clip (~520 words) on death, close calls and parallel-reality continuation; key_terms/quotes below spec minimums due to length.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: Emersion Conference - August 31, 2025 | Bashar - DarrylAnka 2025 Ful Episode",
+      "url": "https://www.youtube.com/watch?v=tskKYl3w0J8",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Insights",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). DUPLICATE SESSION. Third Divine Insights upload of the same Emersion Conference session (also DvWNnqnBAjc 'May 26, 2026' and mk_yQrOQHJs 'August 3, 2025'): identical opening (Darryl's tarot-to-channeling origin story) and identical Q&A. The three title dates are uploader labels; the real Emersion event date is unverified.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "Emersion Conference (title date August 31, 2025)"
+    },
+    {
+      "kind": "video",
+      "title": "Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21",
+      "url": "https://www.youtube.com/watch?v=ufzO0sbNICQ",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Aaron Lazar: Impossible Dreams",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: podcast episode date. Repository podcast date 2026-03-10; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2026-03-10; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Predicts Open Contact in Just 2 Years — Parallel Earths, Atlantis & Humanity's Reset",
+      "url": "https://www.youtube.com/watch?v=vrv3J-ri804",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Heart Coherence Collaborative",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: podcast episode date. Repository podcast date 2025 (exact date not verified); not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2025 (exact date not verified); original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar :: \"The Triad Mind\" - Highlights",
+      "url": "https://www.youtube.com/watch?v=wCZ1Lib1_cQ",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Official highlight clip. Official-channel highlights clip. 'physical headline' in the summary is likely an auto-transcript error for 'physical head/mind'.",
+      "contentType": "Official highlight clip",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar: This is Coming In 2026... (Darryl Anka)",
+      "url": "https://www.youtube.com/watch?v=wwkC86EEu1s",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Align Podcast",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: podcast episode date. Repository podcast date 2026-02-04; not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2026-02-04; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "BASHAR PREDICTION: Government Will Be VERY DIFFERENT When Open Contact Happens | Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=y0-_YOFU8eQ",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Heart Coherence Collaborative",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2025 (reliable=True); year basis: podcast episode date. Repository podcast date 2025 (exact date not verified); not treated as a YouTube upload date. Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2025 (exact date not verified); original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json",
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Interview with Darryl Anka. Digest produced by WebFetch summarization model over youtubetotranscript.com auto-transcript; quotes may be lightly paraphrased by the auto-captioning. Some names as rendered by auto-captions may be misspelled. Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "Interview with Darryl Anka",
+      "recordingYear": 2025,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "podcast episode date",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Darryl Anka :: Reflections - May 24, 2026",
+      "url": "https://www.youtube.com/watch?v=ygzBrMyMAQA",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "my daily life",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: session_date.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). DUPLICATE SESSION. Same 'Seeing is Believing' transmission as p8JC21bFf5M ('Reflections - May 28, 2026', Divine Insights); this copy is from uploader 'my daily life' with a May 24, 2026 label. Identical Q&A (Kailasa temple, praying mantis, number 37, Planck frame rate, hall of mirrors, hospice 'crossing guard'). Bashar references 'between now and 2027' and 'your year of 2026' so a 2026 origin is plausible, but the exact date is an uploader label.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "session_date",
+      "repositorySessionDate": "May 24, 2026 (per title); transmission titled 'Seeing is Believing'"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Explains REINCARNATION: A Deeper Understanding | Channeled by Daryl Anka",
+      "url": "https://www.youtube.com/watch?v=yx5hg3wTESs",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Mammoth Awakening",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Clip / excerpt. Re-upload/clip channel (Mammoth Awakening), not official. Topic percentages normalized to sum to 100 (summarizer's original summed to ~130). Some quotes read as paraphrase-compressed by the summarizer rather than strictly verbatim.",
+      "contentType": "Clip / excerpt",
+      "recordingYear": null,
+      "recordingYearReliable": false,
+      "repositoryYearBasis": "unknown",
+      "repositorySessionDate": null
+    },
+    {
+      "kind": "video",
+      "title": "Bashar - Darryl Anka :: 2026: The Year of Disclosure - January 24, 2026",
+      "url": "https://www.youtube.com/watch?v=zOcZDBhRaOQ",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Hibbs Teachings Hub",
+      "accountUrl": null,
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository year 2026 (reliable=True); year basis: stated in session.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository content label: Full session (re-upload). Title and content are consistent with the official Bashar Communications event '2026: The Year of Disclosure' (January 24, 2026). Uploader is 'Hibbs Teachings Hub', not an official channel.",
+      "contentType": "Full session (re-upload)",
+      "recordingYear": 2026,
+      "recordingYearReliable": true,
+      "repositoryYearBasis": "stated in session",
+      "repositorySessionDate": "January 24, 2026"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- The Hidden Power That Transforms Worlds and Reaches the Stars",
+      "url": "https://www.youtube.com/watch?v=nyj_SuIkL0c",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (repository attribution)",
+      "accountUrl": "https://www.youtube.com/@DivineLightVibes",
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Transcript confirmed uploader = Divine Light Vibes; ~2,100 words (clip). Repository reports uploader confirmation through an older transcript page.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Discover Your Infinite Self Through Cosmic Reflection",
+      "url": "https://www.youtube.com/watch?v=DEOwYYMluR0",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Transcript page returned 400. Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Cosmic Service Unleashes Your Vibrational Power",
+      "url": "https://www.youtube.com/watch?v=jgPcsz7h_GM",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Cosmic Choices Unveil Your Soul's True Path",
+      "url": "https://www.youtube.com/watch?v=H8DCPxxUthg",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Unlock Infinite Realities With Bashar's Cosmic Wisdom",
+      "url": "https://www.youtube.com/watch?v=IySQbvsZ6eU",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Master Your Cosmic Destiny With AI And Soul Wisdom",
+      "url": "https://www.youtube.com/watch?v=DEmfBrWCIWE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Transform Your Reality With Cosmic Soul Wisdom",
+      "url": "https://www.youtube.com/watch?v=KMqjCQyRUsU",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- The power of your soul's vibration and access your true potential?",
+      "url": "https://www.youtube.com/watch?v=XOV4wIjZ2Ug",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Unlock Cosmic Wisdom For A Transformed Life",
+      "url": "https://www.youtube.com/watch?v=k3IrW5F4Rsk",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Master Your Cosmic Shift | 2027 The Year Everything Changes ( Darryl Anka )",
+      "url": "https://www.youtube.com/watch?v=qyncBc3Kcoo",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Excerpt from the May 24, 2025 '2027 The Year Everything Changes' session (inferred from title). Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Your Imagination is the Key to ...",
+      "url": "https://www.youtube.com/watch?v=huRO09ynIGI",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- THE 2025 BREAKTHROUGH: HOW TO STOP LIVING IN FEAR AND EMBRACE YOUR POWER!",
+      "url": "https://www.youtube.com/watch?v=peYzBqu1KWM",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Explains Elemental Spirits Using Nature's Network To Alter Reality",
+      "url": "https://www.youtube.com/watch?v=Nd68QyVXQK8",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame --Bashar Reveals Fear Is The Doorway To Freedom | Bashar Channeling( Darryl Anka )",
+      "url": "https://www.youtube.com/watch?v=Vx6hwyFB6uA",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame --Bashar Explains Earth's Literal Crack Splitting Worlds For Your Ascension",
+      "url": "https://www.youtube.com/watch?v=6YQjIQNHr8k",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Teaches The Love Mirror Secret To Transform Relationships Instantly",
+      "url": "https://www.youtube.com/watch?v=fghm9FNfzQM",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Revealing The 13th Step That Erases All Trauma ( Darryl Anka )",
+      "url": "https://www.youtube.com/watch?v=CIgBUx-7-oY",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- The Shocking Truth About Letting Go ...",
+      "url": "https://www.youtube.com/watch?v=CmTwzKTUZ9I",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Explains Simultaneous Lives Behind the Blue Avian Mystery( Darryl Anka )",
+      "url": "https://www.youtube.com/watch?v=90nv8gQtphg",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Teaches Telepathic Connection Unlocking Your Cosmic Potential",
+      "url": "https://www.youtube.com/watch?v=SgPnXmPiujY",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Darryl Anka Decodes The 2026 Major Contact Event Beyond Physical Meeting",
+      "url": "https://www.youtube.com/watch?v=cRBGNTt6pMY",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Transcript page returned 400. Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Unveils Open Contact Frequency For Humanity's Reality Shift(Darryl Anka)",
+      "url": "https://www.youtube.com/watch?v=X6FhbsA4pE4",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame --Darryl Anka Channels The Nine Powers To Bend Reality Now | Bashar Channeling",
+      "url": "https://www.youtube.com/watch?v=cdoX8cLdlY0",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Exposes The Hidden UFO Truth Behind First Contact ( Darryl Anka )",
+      "url": "https://www.youtube.com/watch?v=o-RbeRm1Yhg",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Teaches Law of Attraction Through Fear And Confusion ( Darryl Anka )",
+      "url": "https://www.youtube.com/watch?v=bXUgqkm10aw",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Bashar Reveals Ancient Earth Timelines For Limitless Growth ( Darryl Anka )",
+      "url": "https://www.youtube.com/watch?v=iYUYs_jZwIE",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Bashar Twin Flame -- Darryl Anka Reveals the Quantum Key to Manifesting Through ET Contact",
+      "url": "https://www.youtube.com/watch?v=rrgyA-3oWOM",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes (tentative repository attribution)",
+      "accountUrl": null,
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked.  Repository warns uploader association mostly follows the Bashar Twin Flame title pattern; it may be a sister channel. Do not treat this association as verified.",
+      "contentType": "channeling clip / attributed repost"
+    },
+    {
+      "kind": "video",
+      "title": "Darryl Anka (Ep. 233)",
+      "url": "https://www.youtube.com/watch?v=qCtvgJG1I5A",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Danica Patrick Pretty Intense Podcast",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2024-03-07; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "interview",
+      "episodeDate": "2024-03-07"
+    },
+    {
+      "kind": "video",
+      "title": "What is Reality and What We Need to Know with Bashar / Darryl Anka",
+      "url": "https://www.youtube.com/watch?v=fpGnkAZ0CfU",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Gateways to Awakening",
+      "accountUrl": null,
+      "relationship": "interview/publisher",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted. Repository episode date 2024-09-26; original YouTube upload timestamp not exposed.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository interview/podcast record; a conversation about channeling is not proof a live channeling performance occurs.",
+      "contentType": "interview",
+      "episodeDate": "2024-09-26"
+    },
+    {
+      "kind": "account",
+      "title": "Bashar Channeled by Darryl Anka",
+      "url": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka",
+      "accountUrl": "https://www.youtube.com/@BasharChanneledbyDarrylAnka",
+      "relationship": "official",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/official_channels.md"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Repository ledger identifies official site linkage and this exact channel ID. Historical repository verification, not a fresh check.",
+      "urlAliases": [
+        "https://www.youtube.com/BasharChanneledbyDarrylAnka",
+        "https://www.youtube.com/@BasharChanneledbyDarrylAnka/videos"
+      ],
+      "channelId": "UCiDZy_rfSodwFaVL_imGWgQ"
+    },
+    {
+      "kind": "account",
+      "title": "Divine Light Vibes",
+      "url": "https://www.youtube.com/@DivineLightVibes",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes",
+      "accountUrl": "https://www.youtube.com/@DivineLightVibes",
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Nonofficial Bashar clip distributor in repository; partial list only. Video-to-account attribution for most listed clips remains tentative.",
+      "channelId": "UCugr4dreXep1lI_6JIDhU8g",
+      "urlAliases": [
+        "https://www.youtube.com/channel/UCugr4dreXep1lI_6JIDhU8g"
+      ]
+    },
+    {
+      "kind": "account",
+      "title": "Bashar Channeled by Darryl Anka 2025 (look-alike)",
+      "url": "https://www.youtube.com/channel/UCPvbIxYNi98uEpSDuJs9G6A",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Bashar Channeled by Darryl Anka 2025 (look-alike)",
+      "accountUrl": "https://www.youtube.com/channel/UCPvbIxYNi98uEpSDuJs9G6A",
+      "relationship": "unresolved",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/official_channels.md"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. Historical ledger says this differs from the official channel ID and is not linked by bashar.org. Affiliation, availability and relation to Divine Insights unverified.",
+      "channelId": "UCPvbIxYNi98uEpSDuJs9G6A"
+    },
+    {
+      "kind": "playlist",
+      "title": "Bashar Channeling Playlist 2026",
+      "url": "https://www.youtube.com/playlist?list=FLugr4dreXep1lI_6JIDhU8g",
+      "personNames": [
+        "Darryl Anka"
+      ],
+      "entityLabels": [
+        "Bashar"
+      ],
+      "civilizations": [
+        "Essassani"
+      ],
+      "publisher": "Divine Light Vibes",
+      "accountUrl": "https://www.youtube.com/@DivineLightVibes",
+      "relationship": "community/reupload",
+      "publishedAt": null,
+      "dateBasis": "Exact YouTube upload date not exposed by this repository metadata; no title/session/podcast date is substituted.",
+      "accessDepth": "repository_metadata",
+      "discoveryQuery": "Audit of occult-kranti/bashar-index at 457dc2f2da10399bda2786573b7a77ec3fe34f62",
+      "sourceUrls": [
+        "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+      ],
+      "notes": "Imported link metadata from the user-specified repository; YouTube availability, present uploader and media contents not freshly checked. FL-prefixed id = the channel's 'favorites/liked' list; individual entries not retrievable via WebFetch. Search snippet also labelled it 'Best Of Bashar'. Repository reported 326 entries historically; list was not enumerated and current count/availability is unverified. This number is not added to indexed video counts.",
+      "playlistId": "FLugr4dreXep1lI_6JIDhU8g"
+    }
+  ],
+  "gaps": [
+    "All imported records carry repository_metadata access depth; exact upload dates are left null.",
+    "Full catalog has 684 records but none contains YouTube URLs, so catalog session count does not inflate YouTube video count.",
+    "The 48 podcast records contain 20 exact YouTube links; date fields are episode dates rather than verified YouTube timestamps.",
+    "The 27 Divine Light Vibes candidates are not a complete channel inventory; all except nyj_SuIkL0c lack repository-level direct uploader confirmation.",
+    "38 uploader labels appear in the 75-video corpus, but most do not have exact account URLs in the retrieved files. They remain publisher names rather than invented channel links.",
+    "75-record CSV duplicates videos.json and does not contribute new videos.",
+    "Official channel handle, custom route and /videos route are merged as aliases; Divine Light Vibes numeric and handle routes are merged as aliases.",
+    "Repository metadata may describe removed or unavailable videos. No availability assertion is made."
+  ],
+  "summary": "Imported 108 deduplicated link records: 104 videos, 3 account identities and 1 exact playlist, drawn from 9 pinned repository files. All actual YouTube URLs in these files are preserved directly or as known account aliases.",
+  "uploaderLabelsWithoutResolvedAccountUrl": [
+    "ACID FOR SQUARES",
+    "Aaron Lazar: Impossible Dreams",
+    "Align Podcast",
+    "Antoinette & Friends",
+    "Cosmic Bridge",
+    "Cosmic Soul",
+    "Divine Insights",
+    "Dr. Mayim Bialik",
+    "ETs and Erin",
+    "Emilio Ortiz",
+    "Eternal Inspiration",
+    "Extreme Mysteries",
+    "FADE TO BLACK Radio",
+    "Free Vibration",
+    "Free Vibrations",
+    "Gaia",
+    "Heart Coherence Collaborative",
+    "Hibbs Teachings Hub",
+    "Higher Journeys Podcast",
+    "Love Is The Way",
+    "Mammoth Awakening",
+    "Michael Sandler Inspire Nation",
+    "New Thinking Allowed with Jeffrey Mishlove",
+    "NewRealities",
+    "Next Level Soul Clips",
+    "Next Level Soul Podcast",
+    "Nflow",
+    "Path of Knowledge",
+    "QUANTUM HEALING PATH",
+    "Soul Luma (third-party clip channel)",
+    "Suthisa Sonphlaeng",
+    "The Present Moment",
+    "Wisdom From North Clips",
+    "my daily life",
+    "ozy bourne",
+    "巴夏听闻录"
+  ]
+}

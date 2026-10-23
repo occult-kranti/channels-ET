@@ -1,0 +1,204 @@
+[
+  {
+    "name": "paired-physics-research",
+    "package": "e1/skill-6aa703b7e6f48191a700951cb36ce6a2",
+    "status": "General workflow transfer only",
+    "evidence": "Adaptive rounds, frozen tests and scoped conclusions; no physics claims.",
+    "read": true,
+    "evidenceFile": "panel/literature-skills-applicability.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6aa703b7e6f48191a700951cb36ce6a2/SKILL.md"
+  },
+  {
+    "name": "historical-physics-panel",
+    "package": "e1/skill-6ab1f0bc6b14819183a4ad9f42da820c",
+    "status": "Applied",
+    "evidence": "Panel framing and primary-source reading depth; lenses-and-evidence.md also read.",
+    "read": true,
+    "evidenceFile": "panel/literature-skills-applicability.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ab1f0bc6b14819183a4ad9f42da820c/SKILL.md"
+  },
+  {
+    "name": "newton-analysis-synthesis",
+    "package": "e1/skill-6ab167744cd481919333118f9f25a3dc",
+    "status": "General critique transfer only",
+    "evidence": "Observable similarity does not identify a hidden cause; no physics or theorem claims.",
+    "read": true,
+    "evidenceFile": "panel/literature-skills-applicability.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ab167744cd481919333118f9f25a3dc/SKILL.md"
+  },
+  {
+    "name": "tesla-mechanism-resonance",
+    "package": "e1/skill-6ab167e59d648191af3a345b31efd208",
+    "status": "Not applicable as physical method",
+    "evidence": "Text similarity supplies no phase, energy, resonance or mechanism evidence.",
+    "read": true,
+    "evidenceFile": "panel/literature-skills-applicability.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ab167e59d648191af3a345b31efd208/SKILL.md"
+  },
+  {
+    "name": "cross-sector-connection-audit",
+    "package": "e1/skill-6acff1cdaaa48191ac1476c702bfedd6",
+    "status": "APPLIED_TRANSFER",
+    "applies": "Conservative account/person identity joins; typed publisher/speaker/derived-similarity edges; preserve assertion provenance, source-family dependence and rejected joins.",
+    "not_applicable": "Financial flows, corporate wrongdoing and jurisdiction analysis.",
+    "evidenceFile": "panel/method/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6acff1cdaaa48191ac1476c702bfedd6/SKILL.md"
+  },
+  {
+    "name": "gateway-copper-experiments",
+    "package": "e1/skill-6ad9af11a2708191a7cb78f067a53bf9",
+    "status": "APPLIED_TRANSFER",
+    "applies": "Pinned artifacts; model output versus measurement separation; three adaptive rounds, each with observed objections, repairs and rechecks; numerical tests.",
+    "not_applicable": "Copper, acoustic and electromagnetic mechanisms; no physical claim or causal coupling inferred from text.",
+    "evidenceFile": "panel/method/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ad9af11a2708191a7cb78f067a53bf9/SKILL.md"
+  },
+  {
+    "name": "resonance-research-advisor",
+    "package": "e1/skill-6ab848296eb48191b758a0999ac9ec22",
+    "status": "APPLIED_TRANSFER",
+    "applies": "Panel contract and round log; separate source assertions, tested calculations and extraordinary interpretations; deterministic plots; actual agent provenance.",
+    "not_applicable": "Resonance/energy mechanics and human healing claims.",
+    "evidenceFile": "panel/method/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ab848296eb48191b758a0999ac9ec22/SKILL.md"
+  },
+  {
+    "name": "research-duel-questions",
+    "package": "e1/skill-6aa4766b40ac8191a5a973ed768c1d41",
+    "status": "REVIEWED_PARTIAL_TRANSFER",
+    "applies": "Stable fact families; source-depth labels; no empirical validation claimed from editorial classification; distinct real evidence rounds.",
+    "not_applicable": "Question packs, four-choice semantics, competitive fairness and human competitive release gates.",
+    "evidenceFile": "panel/method/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6aa4766b40ac8191a5a973ed768c1d41/SKILL.md"
+  },
+  {
+    "name": "trivia-duel-review",
+    "package": "e1/skill-6aa466dc361c8191b9b4409669166efc",
+    "status": "REVIEWED_PARTIAL_TRANSFER",
+    "applies": "Explicit inspect/repair/verify iterations; small and empty pools visible; keyboard accessibility; no certification implied by panel.",
+    "not_applicable": "Game settlement, wagers, multiplayer timing and opponent simulation.",
+    "evidenceFile": "panel/method/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6aa466dc361c8191b9b4409669166efc/SKILL.md"
+  },
+  {
+    "name": "investigative-evidence-research",
+    "package": "e1/skill-6acff19b52b08191aa90c8e4a3864634",
+    "read": true,
+    "referencesRead": [
+      "references/evidence-contract.md"
+    ],
+    "status": "APPLIED",
+    "relevantControls": [
+      "supplied-summary versus original source access",
+      "provenance hashes and locators",
+      "comparison denominators and missingness",
+      "fresh-context reviewer reconstructs facts from raw records"
+    ],
+    "notApplied": "Financial/legal/misconduct machinery is outside this media analysis.",
+    "evidence": [
+      "audit.json",
+      "source_manifest.json",
+      "round2_metadata_spotchecks.json"
+    ],
+    "evidenceFile": "panel/zip/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6acff19b52b08191aa90c8e4a3864634/SKILL.md"
+  },
+  {
+    "name": "trace-temporal-evidence-v1",
+    "package": "e1/skill-6ad2a6fdcf3881919b1aa831a01f2255",
+    "read": true,
+    "referencesRead": [
+      "references/temporal-contract.md"
+    ],
+    "status": "APPLIED",
+    "relevantControls": [
+      "relative date precision retained",
+      "publication versus podcast/event date distinction",
+      "unknown and failed acquisition not absence",
+      "separate extracted facts and accepted claims"
+    ],
+    "notApplied": "Financial stages and corporate-network allegations are outside scope.",
+    "evidence": [
+      "normalized_videos.json",
+      "audit.json",
+      "round2_metadata_spotchecks.json"
+    ],
+    "evidenceFile": "panel/zip/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ad2a6fdcf3881919b1aa831a01f2255/SKILL.md"
+  },
+  {
+    "name": "impeccable",
+    "package": "e1/skill-6ab867997e94819180fec1ec17ca3766",
+    "status": "APPLIED_WITH_PACKAGE_LIMIT",
+    "read": "SKILL.md",
+    "application": "Preserved incumbent ivory/moss design for a new Compare/Read analysis surface; bounded review passes driven by observed defects.",
+    "limitation": "Installed package lacks scripts/impeccable and linked new-work/craft-floor references. Context launcher returned127; fallback source/context inspection was announced and used. No context/craft tool execution claimed.",
+    "evidenceFile": "panel/ui/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ab867997e94819180fec1ec17ca3766/SKILL.md"
+  },
+  {
+    "name": "panel-led-product-redesign",
+    "package": "e1/skill-6aa73b7da6fc8191b7f577f4499916fc",
+    "status": "APPLIED",
+    "read": "SKILL.md",
+    "application": "Round1 baseline+implementedroute; round2 actual-data and rootbrowser/independentmethodreview drove pagination, missingness/dateprovenance corrections; round3 integrates actualneural/captionpilot and verification. Findings and filehashes saved per round.",
+    "limitation": "AI-agent review, not external human user research or academic peer review.",
+    "evidenceFile": "panel/ui/skills-fragment.json",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6aa73b7da6fc8191b7f577f4499916fc/SKILL.md"
+  },
+  {
+    "name": "design-partner",
+    "package": "c26/design",
+    "type": "plugin",
+    "status": "APPLIED",
+    "read": "SKILL.md; references/foundations.md; references/modes.md; references/accessibility.md; references/verification.md",
+    "application": "Stable comparison table, captions with source-layer denominators, accessible chart tables, native selectors/buttons, empty/error/loading states, responsive stacking and local table scroll.",
+    "limitation": "UIworker runs source/dynamicrender checks; root owns actualbrowser QA. No screen-reader validation claimed.",
+    "evidenceFile": "panel/ui/skills-fragment.json"
+  },
+  {
+    "name": "uap-evidence-research",
+    "package": "e1/skill-6aa5b2ba8dd4819197c2ba2b566c5052",
+    "status": "APPLIED_TRANSFER",
+    "read": true,
+    "application": "Source provenance, observable text versus claimed origin, scoped hypotheses, review gates.",
+    "notApplied": "No ET-origin adjudication or physical sensor analysis.",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6aa5b2ba8dd4819197c2ba2b566c5052/SKILL.md"
+  },
+  {
+    "name": "lead-evidence-teams-v2",
+    "package": "e1/skill-6ad257e647d081918bc8993136920ce4",
+    "status": "APPLIED_TRANSFER",
+    "read": true,
+    "application": "Bounded roles, pinned inputs, queue/contract ledger and independent reconstructive reviews.",
+    "notApplied": "No invented human expert panel.",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ad257e647d081918bc8993136920ce4/SKILL.md"
+  },
+  {
+    "name": "review-led-game-design",
+    "package": "e1/skill-6aa5b5b0155081918c2e5e1efd5b26ec",
+    "status": "APPLIED_TRANSFER",
+    "read": true,
+    "application": "Trace evidence to design decisions, implementation and verification; describe purposive samples.",
+    "notApplied": "Gameplay, progression and economy rules inapplicable.",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6aa5b5b0155081918c2e5e1efd5b26ec/SKILL.md"
+  },
+  {
+    "name": "opensync-audio-research",
+    "package": "e1/skill-6aa707da45288191869f13c114ad38d9",
+    "status": "APPLIED_TRANSFER",
+    "read": true,
+    "application": "Reproducible caption acquisition, signal-versus-interpretation separation and bounded probes.",
+    "notApplied": "No audio experiment or perceptual validation executed.",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6aa707da45288191869f13c114ad38d9/SKILL.md"
+  },
+  {
+    "name": "gateway-evidence-audit",
+    "package": "e1/skill-6ad97178dff48191830dac4cb3b89446",
+    "status": "APPLIED_TRANSFER",
+    "read": true,
+    "application": "Separate supplied summaries from retrieved evidence; access and provenance logs.",
+    "notApplied": "Gateway mechanism and efficacy claims inapplicable.",
+    "skillSource": "skill://flora-user-skills/root/.codex/skills/remote-skills/skill-6ad97178dff48191830dac4cb3b89446/SKILL.md"
+  }
+]

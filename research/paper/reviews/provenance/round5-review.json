@@ -1,0 +1,108 @@
+{
+  "round": 5,
+  "reviewer": "zip_audit provenance workstream",
+  "mode": "Actual frozen manuscript source and generated-text review; PDF hash recorded for binding, no visual PDF inspection by this workstream.",
+  "status": "pass within provenance scope; final review-completion claim reserved for round6",
+  "reviewedFiles": [
+    {
+      "path": "rounds/round5/main.tex",
+      "sha256": "eebe43aa864156e909cebc434cdc9494a8251e8c75f3b942f2683dd4e2cf8543"
+    },
+    {
+      "path": "rounds/round5/body.tex",
+      "sha256": "ba9a08bab6c8a2864ebc920180a566468b43ef8f3308a7142b8e1fcd5999e387"
+    },
+    {
+      "path": "rounds/round5/main.pdf",
+      "sha256": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0"
+    },
+    {
+      "path": "rounds/round5/references.bib",
+      "sha256": "dffcb13ce693ff4f94f03122f5fe3703dc494c85b08da0022243f10de5cd4d07"
+    },
+    {
+      "path": "rounds/round5/generated/paper-results.json",
+      "sha256": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604"
+    },
+    {
+      "path": "rounds/round5/generated/additional-results.tex",
+      "sha256": "2bc8a643355c7df1c0a68933c3d00e0469fa5c3ba90983a4bc933f69ca42c424"
+    },
+    {
+      "path": "rounds/round5/generated/POOLING-REPRODUCTION.md",
+      "sha256": "8161c1950b609bb74a70b7d75ce31d13669c07c3c674a6e8f2405e00e2e2ea0b"
+    },
+    {
+      "path": "rounds/round5/icwsm-checklist-working.tex",
+      "sha256": "0de3a2c580e3bda943354f86a5ed6d977ff25258719dc496920539d4b33c3388"
+    }
+  ],
+  "priorFindings": [
+    {
+      "id": "R4-P1",
+      "status": "closed",
+      "evidence": "Background: timeline is now anchored in a Ra-contact focus, with earlier precursors."
+    },
+    {
+      "id": "R4-P2",
+      "status": "closed",
+      "evidence": "Abstract and RQ1 explicitly combine refreshed/current and labeled inherited metadata; RQ1 states four inherited durations and two inherited dates."
+    },
+    {
+      "id": "R4-P3",
+      "status": "closed",
+      "evidence": "Data uses 47 unsuccessful retrieval outcomes rather than 47 unavailable outcomes."
+    },
+    {
+      "id": "R4-P4",
+      "status": "closed",
+      "evidence": "Discovery paragraph explicitly includes adjacent non-ET spiritual/contextual uploads and avoids classifying every record as an ET-channeling performance."
+    },
+    {
+      "id": "R4-P5",
+      "status": "closed",
+      "evidence": "Publication timestamps can date reposts rather than sessions and do not establish recent practitioner activity."
+    },
+    {
+      "id": "R4-P6",
+      "status": "pending-round6",
+      "evidence": "Three manuscript rounds remain stated in completed tense. Final round6 must exist with actual review receipts before final release. This round5 receipt does not certify round6 completion."
+    }
+  ],
+  "checks": {
+    "path": "round5-source-checks.json",
+    "sha256": "8119377a4e6cacd2473fc817911768d937a1f0698f622ae992eeebb66026e4ea",
+    "pass": true,
+    "count": 50
+  },
+  "newClaimsReviewed": [
+    {
+      "claim": "Names and genre/packaging terms are jointly masked",
+      "result": "supported; updated claim-ledger language to avoid a names-only ablation claim",
+      "source": "Analysis mask vocabulary and actual manuscript methods; method workstream also reviews implementation."
+    },
+    {
+      "claim": "Caption pooling alternative compares the same documents and frozen model while changing chunk weights",
+      "result": "supported with scope; 30 document identities, 320 chunks, 73170 content WordPieces and two changed neighbor labels reconcile to the recorded derivative. Model inference was not independently re-executed by this workstream.",
+      "source": "round5/generated/paper-results.json chunkWeighting and POOLING-REPRODUCTION.md"
+    },
+    {
+      "claim": "New literature has qualified access and inference boundaries",
+      "result": "supported against source register and confirmation from literature reviewer. UFODex is AI-mediated matched answers; Tube2Vec is a precedent, not validation transferred to this corpus; two anthropology sources remain abstract-only.",
+      "source": "research/paper/literature/source-register.json"
+    },
+    {
+      "claim": "Checklist and submission/ethics status remain unfinished",
+      "result": "supported; checklist entries all TBD, human authorship and institutional determination pending; no independent human peer review claimed",
+      "source": "body.tex and icwsm-checklist-working.tex"
+    }
+  ],
+  "remainingLimitations": [
+    "Source-linked account groups are not distinct human mediums.",
+    "Means summarize indexed uploads, not complete account histories.",
+    "Current metadata acquisition and prior inherited values remain distinct.",
+    "Same source collection is reused across reviews; reviewer separation does not create independent source corroboration.",
+    "No systematic human validation, transcription error estimate or domain embedding benchmark is supplied."
+  ],
+  "newCorrectionRequests": []
+}

@@ -1,0 +1,42 @@
+{
+  "round": 4,
+  "stage": "actual-frozen-pdf-review",
+  "reviewer": "/root/method_panel",
+  "reviewedAtUtc": "2026-10-23T20:01:41.074991+00:00",
+  "pdf": "research/paper/rounds/round4/main.pdf",
+  "pdfSha256": "a395941231d063d3faab18f0ea90766438ed9c1135a612102b92f1edb6ee9bc1",
+  "pageCount": 10,
+  "visuallyReviewedPages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "textInspectedScope": "Manuscript source and page map; this receipt does not claim visual inspection of all 10 pages.",
+  "verdict": "Round 4 review complete; corrections required in round 5 before final release.",
+  "openFindings": [
+    "P4-F1",
+    "P4-F2",
+    "P4-F3",
+    "P4-F4",
+    "P4-M1",
+    "P4-M2",
+    "P4-M3"
+  ],
+  "resolvedFindings": [
+    "P4-M4"
+  ],
+  "accepted": [
+    "Equations (1) and (2) render clearly and describe per-video rates, equal-chunk pooling and equal-video account means.",
+    "Coverage distinguishes 25 eligible matched videos from 22 contributing videos in 11 publisher groups.",
+    "Caption matrix denominator is 26 contributing videos in 13 groups; the broader pilot is 30 videos in 17 groups.",
+    "Figure 1 has legible full-width panels and separate scale explanation.",
+    "Figure 3 caption describes the actual scatter and leave-one-publisher-out panels, dependent pairs and denominators.",
+    "LOPO range crosses zero and is presented as descriptive influence, not a confidence interval.",
+    "Human authorship remains to be determined; no human validation or peer review is invented."
+  ],
+  "numericalReviewReference": "round4-lopo-independent.json",
+  "newAnalysesDuringPdfReview": false
+}

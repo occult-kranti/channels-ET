@@ -1,0 +1,17 @@
+{
+  "round": 6,
+  "mode": "Internal managed preview at http://terminal.local:4173/; not a production browser inspection.",
+  "checks": {
+    "analysisPaperLinksVisible": true,
+    "coverageBanner877Fresh4Inherited": true,
+    "reportReferences": 28,
+    "newReportImagesLoaded": 2,
+    "matchedCohortText": "25 eligible / 22 contributing / 11 accounts / 55 pairs",
+    "applicationJsSyntax": "pass"
+  },
+  "console": "Inspected recent errors; returned entries belong to browser extension metadata messaging, not application JS.",
+  "files": {
+    "dist/app.js": "65d901ce77e6ab046de8e0338726aca830720f57f9deb9c05ef5c9036310d6c2",
+    "dist/analysis/report.html": "5b329c653bc4c6b2ff2e61bec8c67e1083d6e7374e7863e1c02312609728760b"
+  }
+}

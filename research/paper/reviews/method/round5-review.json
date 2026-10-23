@@ -1,0 +1,46 @@
+{
+  "round": 5,
+  "stage": "frozen-PDF-and-independent-derived-vector-review",
+  "reviewer": "/root/method_panel",
+  "reviewedAtUtc": "2026-10-23T20:10:52.595454+00:00",
+  "inputs": {
+    "research/paper/rounds/round5/main.pdf": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0",
+    "research/paper/rounds/round5/body.tex": "ba9a08bab6c8a2864ebc920180a566468b43ef8f3308a7142b8e1fcd5999e387",
+    "research/paper/rounds/round5/generated/paper-results.json": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604",
+    "research/paper/rounds/round5/generated/chunk-weighting.json": "8170ec9c1b47e5b65d57edd52475e1f4cf77b4d2bbd34807a3400fc4d1be5a67",
+    "research/paper/rounds/round5/generated/chunk-weighted-embeddings.npz": "01c493575502e61635cd69fff9661c2dcb895db8a416844713c81ac21c9845ca",
+    "dist/analysis/data.json": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+    "dist/analysis/caption-embeddings.npz": "95e3c1a4651bfa9ffb9301bb687db2eaa7c9c5ecfb24c979b5890ff9fc730725"
+  },
+  "pageCount": 12,
+  "visuallyReviewedPages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "verdict": "Pass for methods, revised figures, and downstream numerical agreement; final round-6 freeze still requires review.",
+  "resolvedPriorFindings": [
+    "P4-F1",
+    "P4-F2",
+    "P4-F3",
+    "P4-F4",
+    "P4-M1",
+    "P4-M2",
+    "P4-M3",
+    "P4-M4"
+  ],
+  "newBlockingFindings": [],
+  "numericCheckCount": 231,
+  "numericFailures": 0,
+  "independentScope": "Independent arithmetic and centroids from stored video vectors, custom average-tie ranks on six-decimal pair cosines, direct nearest-neighbor reconstruction. No pipeline code imported. No raw-caption neural rerun.",
+  "preservedLimitations": [
+    "The raw-caption encoder inference was not independently repeated in this review. Stored float32 baseline vectors match exactly; the 7.4095e-9 pre-serialization replay difference is supported by the pipeline receipt and source inspection.",
+    "No human coding or external methodological peer review is claimed.",
+    "Pairwise results are dependent and purposively sampled; no population estimate or inferential interval follows.",
+    "The 13-group comparison uses 26 contributing documents, while chunk token totals describe the full 30-document pilot."
+  ],
+  "nextGate": "Review the actual final round-6 PDF and confirm the derivative freeze, claim wording, and all corrected figure extents remain intact."
+}

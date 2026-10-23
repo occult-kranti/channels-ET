@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "asOf": "2026-10-23",
+  "rounds": [
+    {
+      "round": 4,
+      "summary": "Full draft, expanded literature and generated diagnostics; source/method/corpus/provenance/design reviews identified corrections.",
+      "pdfSha256": "a395941231d063d3faab18f0ea90766438ed9c1135a612102b92f1edb6ee9bc1"
+    },
+    {
+      "round": 5,
+      "summary": "Corrected figures, precise methods and literature; actual pooling experiment; six workstream reviews; two minor fixes queued.",
+      "pdfSha256": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0"
+    },
+    {
+      "round": 6,
+      "summary": "Two final prose/bibliography fixes, frozen PDF, six completed workstream checks, isolated offline and package compilation checks.",
+      "pdfSha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716"
+    }
+  ],
+  "finalReceipts": [
+    {
+      "path": "reviews/corpus/round6-review.json",
+      "sha256": "539e8d47b088d7b443aff1920cec04e964228502da716b024d461534252363d1"
+    },
+    {
+      "path": "reviews/design/round6-final.json",
+      "sha256": "42f333555432351f89b655510fbc333450fbf8de98296546b88c386e46a2fb37"
+    },
+    {
+      "path": "reviews/method/round6-final-receipt.json",
+      "sha256": "5035064c4b2c3038c8b351d85ddc1974058df5c00ddd4bacd8393af82f1d961c"
+    },
+    {
+      "path": "reviews/provenance/round6-review.json",
+      "sha256": "73c515cb9f01181d59966170b194c80d894998ad1b6531dd7cc778f4780b7ec8"
+    },
+    {
+      "path": "reviews/implementation/round6-pdf-review.json",
+      "sha256": "d08f4d693f3a867b7549add65dd0f687e48c092cf445afc1d172f87c4905e21f"
+    },
+    {
+      "path": "literature/round6-review-receipt.json",
+      "sha256": "bf8269895480e04af0a2ae02d32a037d6a3914029a085a9d7db4a9db34c47bef"
+    }
+  ],
+  "allSnapshotFileHashesVerified": true,
+  "additionalChecks": [
+    "reviews/implementation/round6-offline-reproduction.json",
+    "reviews/overleaf-build-check.json",
+    "reviews/browser-integration.json"
+  ],
+  "disclosure": "Differentiated model-agent reviews; not independent human expert review or human construct validation.",
+  "provenanceP16Closure": "Coordinator verified all six actual final receipts against the delivered PDF hash; completed-tense manuscript review disclosure is now supported."
+}

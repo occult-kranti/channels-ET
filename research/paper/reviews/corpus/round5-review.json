@@ -1,0 +1,69 @@
+{
+  "round": 5,
+  "reviewer": "corpus model-agent; not independent human peer review",
+  "review_date": "2026-10-23",
+  "status": "pass_with_one_minor_wording_note",
+  "scope": "Frozen manuscript source, rendered PDF pages2–4, acquisition provenance and caption-cohort bindings. Model inference and overall layout are outside this review.",
+  "files": [
+    {
+      "path": "research/paper/rounds/round5/body.tex",
+      "sha256": "ba9a08bab6c8a2864ebc920180a566468b43ef8f3308a7142b8e1fcd5999e387"
+    },
+    {
+      "path": "research/paper/rounds/round5/main.pdf",
+      "sha256": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0"
+    },
+    {
+      "path": "research/paper/rounds/round5/generated/chunk-weighting.json",
+      "sha256": "8170ec9c1b47e5b65d57edd52475e1f4cf77b4d2bbd34807a3400fc4d1be5a67"
+    }
+  ],
+  "prior_findings": [
+    {
+      "id": "C4-1",
+      "status": "resolved",
+      "evidence": "Section 3.3 states first-two selection, title exclusions, supplied-order incompleteness,36 uploads / 18 groups and supplementary case."
+    },
+    {
+      "id": "C4-2",
+      "status": "resolved",
+      "evidence": "Section 3.2 states unauthenticated requests,five workers,no cookies/proxies/media/retries,stopconditions,exact UTC request-start range and receipt time; Section 3.3 records day-only caption precision."
+    },
+    {
+      "id": "C4-3",
+      "status": "resolved",
+      "evidence": "Section 2.1 now distinguishes scientist-supplied scientific/metaphysical questions, US quantitative seven vs total qualitative fifteen, and US fixed order/unequal timing."
+    },
+    {
+      "id": "C4-4",
+      "status": "resolved",
+      "evidence": "Captions describe the actual figure panels/marks and dependent-pair/uncertainty limitations."
+    }
+  ],
+  "additional_passes": [
+    "The manual-track label is explicitly non-automatic, not proof of human transcription/verification.",
+    "Main30caption cohort is correctly28automatic+2manual, distinct from full34=32automatic+2manual.",
+    "Fresh877durations plus4inherited and fresh878dates plus2inherited remain separate.",
+    "Published upload dates are explicitly not source-session dates or proof of recent practitioner activity.",
+    "Public raw-caption redistribution is excluded; full raw-text inference replay is not claimed from the released package alone."
+  ],
+  "pooling_provenance_check": {
+    "same30video_ids_as_phase1": true,
+    "raw_local_corpus_hash_matches_logged_hash": true,
+    "summed_content_wordpieces": 73170,
+    "summed_chunks": 320,
+    "all_chunk_sizes_sum_to_doc_tokens": true,
+    "inference_rerun_by_this_reviewer": false
+  },
+  "findings": [
+    {
+      "id": "C5-1",
+      "severity": "minor",
+      "location": "Section3.3, PDFpage4",
+      "problem": "“Aluna Ash supplied only one entry” may imply direct participation by the practitioner. The entry came from the supplied research archive.",
+      "requested_change": "Use “The Aluna Ash listing contained only one entry.”",
+      "blocks_scientific_counts": false
+    }
+  ],
+  "next_round": "Round6 remains pending; no all-round pass claimed."
+}

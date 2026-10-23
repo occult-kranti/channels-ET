@@ -1,0 +1,35 @@
+{
+  "reviewer": "/root/method_panel",
+  "review_mode": "independent_model_agent_recomputation_and_visual_inspection",
+  "data_sha256": "8615040031871018dd25607f659d2294a3624a41074f11ab0bbcfad31f520920",
+  "report_sha256": "c439ef2b91b9b45523b960a41d4888f9424783bdbc87814e58d1c0fd437a770f",
+  "status": "PASS_WITH_STATED_LIMITATIONS",
+  "checks": {
+    "numeric": 4068,
+    "vectors": 785,
+    "caption_topics_and_hashes": 630,
+    "robustness": 43,
+    "report_data_hash": 1,
+    "focal_ryok_table": 1
+  },
+  "blocking_issues": [],
+  "not_validated": [
+    "Population representativeness",
+    "Ontological source of channeling",
+    "ASR transcription accuracy by human/audio review",
+    "Topic labels by blinded human coding",
+    "Model generalization beyond sampled English texts",
+    "Whole-channel publishing frequency"
+  ],
+  "figure_visual_review": [
+    "duration",
+    "coverage",
+    "title-topics",
+    "lexical-similarity",
+    "caption-topics",
+    "caption-similarity",
+    "title-caption-indicators",
+    "caption-within-between",
+    "duration-format"
+  ]
+}

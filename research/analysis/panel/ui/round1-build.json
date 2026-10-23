@@ -1,0 +1,17 @@
+{
+  "round": 1,
+  "state": "implemented, awaiting real-data/browser review",
+  "files": {
+    "app.js": "0a0f6e2249d98e9825964382a97212f4faf86ac4b76a0fdd6eb31b36aae8fff2",
+    "styles.css": "94f7b5c3e2ad2679aa9ff4a07fb7e72446c89170dad5171375f8f367b23f992d",
+    "index.html": "0df8872473ab6b00da0ab92f3e9dc4badc0eb16d568a31a47af4b4e7a56d49e9"
+  },
+  "checks": [
+    "node --check dist/app.js passed"
+  ],
+  "limitations": [
+    "No browser inspection by UI worker",
+    "Real pipeline data not yet generated",
+    "Impeccable context/playbook/craft references absent from package"
+  ]
+}

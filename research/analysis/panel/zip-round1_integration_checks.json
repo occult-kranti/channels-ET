@@ -1,0 +1,84 @@
+{
+  "round": 1,
+  "mode": "fresh-context source-to-build review",
+  "input": "/workspace/sites/channeling-atlas/research/analysis/rounds/round1/data.json",
+  "checks": [
+    {
+      "name": "Linked ZIP video inclusion",
+      "passed": true,
+      "evidence": {
+        "validZipIds": 457,
+        "found": 457
+      }
+    },
+    {
+      "name": "No unlinked draft placeholders counted",
+      "passed": true,
+      "evidence": {
+        "unionRows": 925
+      }
+    },
+    {
+      "name": "Unique video IDs",
+      "passed": true,
+      "evidence": {
+        "unique": 925,
+        "rows": 925
+      }
+    },
+    {
+      "name": "Round1 duration eligibility exactly matches source rule",
+      "passed": true,
+      "evidence": {
+        "expectedN": 449,
+        "actualN": 449,
+        "mismatchIds": []
+      }
+    },
+    {
+      "name": "Schema-derived Athina duration excluded before fresh verification",
+      "passed": true,
+      "evidence": {
+        "durationSeconds": null
+      }
+    },
+    {
+      "name": "Editorial descriptions excluded unless replaced from another source",
+      "passed": true,
+      "evidence": {
+        "ids": [
+          "fZmY4xS_qXE",
+          "T5QtncJq1Jc",
+          "KtvDmi4JWyc"
+        ],
+        "flags": [
+          true,
+          true,
+          false
+        ],
+        "titleSources": [
+          "prior_atlas_metadata",
+          "prior_atlas_metadata",
+          "claude_supplied"
+        ]
+      }
+    },
+    {
+      "name": "Duration rows bind to supplied account route",
+      "passed": true,
+      "evidence": {
+        "examined": 449,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Available-case mean/median/n and missingness",
+      "passed": true,
+      "evidence": {
+        "measuredChannels": 16,
+        "mismatches": []
+      }
+    }
+  ],
+  "passed": true
+}

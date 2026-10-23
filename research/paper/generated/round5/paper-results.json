@@ -1,0 +1,2434 @@
+{
+  "source": {
+    "path": "dist/analysis/data.json",
+    "sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+    "checkedAt": "2026-10-23",
+    "phase": "paper-round5",
+    "software": {
+      "numpy": "2.3.5"
+    }
+  },
+  "coverage": {
+    "indexedVideos": 925,
+    "watchMetadataSuccesses": 878,
+    "durationKnown": 881,
+    "durationFresh": 877,
+    "durationInherited": 4,
+    "dateKnown": 880,
+    "attributedVideos": 886,
+    "routeGroups": 256,
+    "groupsWithVideos": 180,
+    "groupsWithDurations": 178,
+    "englishLikelyTitles": 742,
+    "embeddedTitles": 706,
+    "titleGroupsMinFive": 23,
+    "captionAttempted": 36,
+    "captionAvailable": 34,
+    "captionEnglish": 31,
+    "captionPilot": 30,
+    "captionPublishers": 17,
+    "captionComparisonPublishers": 13,
+    "captionComparisonDocuments": 26,
+    "matchedEligibleDocuments": 25,
+    "matchedContributingDocuments": 22,
+    "matchedPublishers": 11,
+    "matchedPairs": 55
+  },
+  "focalDurations": [
+    {
+      "id": "ch-73032cea690b",
+      "name": "Bashar Channeled by Darryl Anka",
+      "url": "https://www.youtube.com/@basharchanneledbydarrylanka",
+      "videoCount": 16,
+      "durationCount": 16,
+      "meanMinutes": 3.3666666666666667,
+      "medianMinutes": 3.058333333333333,
+      "q1Minutes": 1.9625,
+      "q3Minutes": 4.6625,
+      "longFormatShare": 0.0,
+      "durationSourceSummary": {
+        "fresh_watch_metadata": 16
+      },
+      "displayName": "Bashar (official)"
+    },
+    {
+      "id": "ch-4deae3e4c229",
+      "name": "Athina Król",
+      "url": "https://www.youtube.com/@athinakrol",
+      "videoCount": 9,
+      "durationCount": 9,
+      "meanMinutes": 40.581481481481475,
+      "medianMinutes": 47.21666666666667,
+      "q1Minutes": 24.466666666666665,
+      "q3Minutes": 53.43333333333333,
+      "longFormatShare": 0.6666666666666666,
+      "durationSourceSummary": {
+        "fresh_watch_metadata": 9
+      },
+      "displayName": "Athina Król"
+    },
+    {
+      "id": "ch-3ccbf336c582",
+      "name": "The Galactic Guide",
+      "url": "https://www.youtube.com/@thegalacticguide111",
+      "videoCount": 34,
+      "durationCount": 34,
+      "meanMinutes": 16.624019607843135,
+      "medianMinutes": 16.983333333333334,
+      "q1Minutes": 14.65,
+      "q3Minutes": 19.46666666666667,
+      "longFormatShare": 0.0,
+      "durationSourceSummary": {
+        "fresh_watch_metadata": 34
+      },
+      "displayName": "The Galactic Guide"
+    },
+    {
+      "id": "ch-4f327ca79023",
+      "name": "Psychic Medium & Trance Channel RIZ & Lady O",
+      "url": "https://www.youtube.com/channel/UCxySqZJLubIeMuaS6fvJQZg",
+      "videoCount": 30,
+      "durationCount": 30,
+      "meanMinutes": 20.601666666666667,
+      "medianMinutes": 5.975,
+      "q1Minutes": 3.5833333333333335,
+      "q3Minutes": 16.2,
+      "longFormatShare": 0.23333333333333334,
+      "durationSourceSummary": {
+        "fresh_watch_metadata": 30
+      },
+      "displayName": "RIZ & Lady O"
+    },
+    {
+      "id": "ch-e7ffb2da4c80",
+      "name": "Lorie Ladd",
+      "url": "https://www.youtube.com/@lorieladd",
+      "videoCount": 30,
+      "durationCount": 30,
+      "meanMinutes": 42.368333333333325,
+      "medianMinutes": 33.233333333333334,
+      "q1Minutes": 13.770833333333334,
+      "q3Minutes": 73.67916666666667,
+      "longFormatShare": 0.5333333333333333,
+      "durationSourceSummary": {
+        "fresh_watch_metadata": 30
+      },
+      "displayName": "Lorie Ladd"
+    },
+    {
+      "id": "ch-ff85f37eb9b1",
+      "name": "Divine Insights",
+      "url": "https://www.youtube.com/@divine_insights_official",
+      "videoCount": 22,
+      "durationCount": 22,
+      "meanMinutes": 170.25378787878788,
+      "medianMinutes": 134.025,
+      "q1Minutes": 118.4875,
+      "q3Minutes": 248.35,
+      "longFormatShare": 0.8636363636363636,
+      "durationSourceSummary": {
+        "fresh_watch_metadata": 22
+      },
+      "displayName": "Divine Insights"
+    },
+    {
+      "id": "ch-033701dde894",
+      "name": "Bashar Channeling Podcast",
+      "url": "https://www.youtube.com/@basharchannelingpodcast",
+      "videoCount": 21,
+      "durationCount": 20,
+      "meanMinutes": 103.45083333333335,
+      "medianMinutes": 87.96666666666667,
+      "q1Minutes": 73.5625,
+      "q3Minutes": 148.19583333333333,
+      "longFormatShare": 1.0,
+      "durationSourceSummary": {
+        "fresh_watch_metadata": 20
+      },
+      "displayName": "Bashar Channeling Podcast"
+    },
+    {
+      "id": "ch-aaaebac2693b",
+      "name": "Daniel Scranton",
+      "url": "https://www.youtube.com/@danielscranton",
+      "videoCount": 35,
+      "durationCount": 35,
+      "meanMinutes": 19.80761904761905,
+      "medianMinutes": 15.55,
+      "q1Minutes": 14.25,
+      "q3Minutes": 18.858333333333334,
+      "longFormatShare": 0.11428571428571428,
+      "durationSourceSummary": {
+        "fresh_watch_metadata": 34,
+        "claude_provider_metadata_unverified": 1
+      },
+      "displayName": "Daniel Scranton"
+    }
+  ],
+  "sensitivity": [
+    {
+      "comparison": "Raw vs name-and-genre-masked titles",
+      "cohort": "Title publishers",
+      "publishers": 23,
+      "pairs": 253,
+      "rho": 0.6258012214876303
+    },
+    {
+      "comparison": "All vs deduplicated titles",
+      "cohort": "Title publishers",
+      "publishers": 23,
+      "pairs": 253,
+      "rho": 0.9923883032407511
+    },
+    {
+      "comparison": "Full vs positionally trimmed captions",
+      "cohort": "Caption publishers",
+      "publishers": 13,
+      "pairs": 78,
+      "rho": 0.969498855574805
+    },
+    {
+      "comparison": "Matched titles vs matched captions",
+      "cohort": "Matched publishers",
+      "publishers": 11,
+      "pairs": 55,
+      "rho": 0.20562770562770566
+    }
+  ],
+  "matched": {
+    "nPairs": 55,
+    "rho": 0.20562770562770566,
+    "pairs": [
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-3ccbf336c582",
+        "titleCosine": 0.238214,
+        "captionCosine": 0.640446
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-4deae3e4c229",
+        "titleCosine": 0.064233,
+        "captionCosine": 0.678182
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-4f327ca79023",
+        "titleCosine": 0.12336,
+        "captionCosine": 0.580214
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-6bcde5f1646b",
+        "titleCosine": 0.327058,
+        "captionCosine": 0.759203
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-73032cea690b",
+        "titleCosine": 0.16911,
+        "captionCosine": 0.475409
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-aaaebac2693b",
+        "titleCosine": 0.147257,
+        "captionCosine": 0.63065
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-cc61aed50366",
+        "titleCosine": 0.109571,
+        "captionCosine": 0.70287
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-d9ef9bb4b58f",
+        "titleCosine": -0.039503,
+        "captionCosine": 0.153803
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.142147,
+        "captionCosine": 0.667373
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.238572,
+        "captionCosine": 0.616367
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-4deae3e4c229",
+        "titleCosine": 0.355913,
+        "captionCosine": 0.67872
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-4f327ca79023",
+        "titleCosine": 0.355485,
+        "captionCosine": 0.562739
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-6bcde5f1646b",
+        "titleCosine": 0.215732,
+        "captionCosine": 0.707108
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-73032cea690b",
+        "titleCosine": 0.18979,
+        "captionCosine": 0.514098
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-aaaebac2693b",
+        "titleCosine": 0.318876,
+        "captionCosine": 0.546223
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-cc61aed50366",
+        "titleCosine": 0.140111,
+        "captionCosine": 0.611315
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-d9ef9bb4b58f",
+        "titleCosine": 0.078552,
+        "captionCosine": 0.145843
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.366371,
+        "captionCosine": 0.714662
+      },
+      {
+        "a": "ch-3ccbf336c582",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.212154,
+        "captionCosine": 0.518061
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-4f327ca79023",
+        "titleCosine": 0.316397,
+        "captionCosine": 0.474258
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-6bcde5f1646b",
+        "titleCosine": 0.347887,
+        "captionCosine": 0.739706
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-73032cea690b",
+        "titleCosine": 0.187293,
+        "captionCosine": 0.664181
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-aaaebac2693b",
+        "titleCosine": 0.38773,
+        "captionCosine": 0.545171
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-cc61aed50366",
+        "titleCosine": 0.244274,
+        "captionCosine": 0.661437
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-d9ef9bb4b58f",
+        "titleCosine": 0.03106,
+        "captionCosine": 0.157264
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.364799,
+        "captionCosine": 0.745828
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.204986,
+        "captionCosine": 0.505126
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-6bcde5f1646b",
+        "titleCosine": 0.197476,
+        "captionCosine": 0.554733
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-73032cea690b",
+        "titleCosine": 0.387875,
+        "captionCosine": 0.378604
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-aaaebac2693b",
+        "titleCosine": 0.384227,
+        "captionCosine": 0.617014
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-cc61aed50366",
+        "titleCosine": 0.195976,
+        "captionCosine": 0.570583
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-d9ef9bb4b58f",
+        "titleCosine": 0.321356,
+        "captionCosine": 0.151718
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.323991,
+        "captionCosine": 0.540413
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.154765,
+        "captionCosine": 0.652888
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-73032cea690b",
+        "titleCosine": 0.049604,
+        "captionCosine": 0.599686
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-aaaebac2693b",
+        "titleCosine": 0.413032,
+        "captionCosine": 0.604624
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-cc61aed50366",
+        "titleCosine": 0.198613,
+        "captionCosine": 0.6263
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-d9ef9bb4b58f",
+        "titleCosine": -0.044604,
+        "captionCosine": 0.154331
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.200262,
+        "captionCosine": 0.695576
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.09448,
+        "captionCosine": 0.540496
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-aaaebac2693b",
+        "titleCosine": 0.237164,
+        "captionCosine": 0.44066
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-cc61aed50366",
+        "titleCosine": 0.201819,
+        "captionCosine": 0.484176
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-d9ef9bb4b58f",
+        "titleCosine": 0.495772,
+        "captionCosine": 0.138391
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.253585,
+        "captionCosine": 0.495507
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.357071,
+        "captionCosine": 0.450445
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-cc61aed50366",
+        "titleCosine": 0.27897,
+        "captionCosine": 0.542025
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-d9ef9bb4b58f",
+        "titleCosine": 0.077577,
+        "captionCosine": 0.107562
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.413452,
+        "captionCosine": 0.575815
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.209855,
+        "captionCosine": 0.544479
+      },
+      {
+        "a": "ch-cc61aed50366",
+        "b": "ch-d9ef9bb4b58f",
+        "titleCosine": 0.030362,
+        "captionCosine": 0.149816
+      },
+      {
+        "a": "ch-cc61aed50366",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.229119,
+        "captionCosine": 0.646812
+      },
+      {
+        "a": "ch-cc61aed50366",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.118884,
+        "captionCosine": 0.61707
+      },
+      {
+        "a": "ch-d9ef9bb4b58f",
+        "b": "ch-e7ffb2da4c80",
+        "titleCosine": 0.1591,
+        "captionCosine": 0.232587
+      },
+      {
+        "a": "ch-d9ef9bb4b58f",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.15837,
+        "captionCosine": 0.161743
+      },
+      {
+        "a": "ch-e7ffb2da4c80",
+        "b": "ch-e876f3f2375e",
+        "titleCosine": 0.144001,
+        "captionCosine": 0.469743
+      }
+    ]
+  },
+  "leaveOnePublisherOut": {
+    "method": "For each publisher, remove every channel-pair comparison containing that publisher, then recompute Spearman rank correlation across retained off-diagonal cosine pairs. No resampling; no independence assumption or inferential interval.",
+    "rangeMeaning": "Minimum and maximum across these deterministic omissions; descriptive sensitivity range, not a confidence interval.",
+    "minRho": -0.04334650856389986,
+    "maxRho": 0.37865612648221336,
+    "rows": [
+      {
+        "omittedChannelId": "ch-4deae3e4c229",
+        "omittedPublisher": "Athina Król",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.15191040843214756
+      },
+      {
+        "omittedChannelId": "ch-e876f3f2375e",
+        "omittedPublisher": "Aurora Ray",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.22384716732542817
+      },
+      {
+        "omittedChannelId": "ch-73032cea690b",
+        "omittedPublisher": "Bashar Channeled by Darryl Anka",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.37865612648221336
+      },
+      {
+        "omittedChannelId": "ch-396932860d9d",
+        "omittedPublisher": "Blossom Goodchild",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.2636363636363636
+      },
+      {
+        "omittedChannelId": "ch-aaaebac2693b",
+        "omittedPublisher": "Daniel Scranton",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.23214756258234515
+      },
+      {
+        "omittedChannelId": "ch-6bcde5f1646b",
+        "omittedPublisher": "Ishuwa Yahyel: First ET Contact",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.1272727272727273
+      },
+      {
+        "omittedChannelId": "ch-e7ffb2da4c80",
+        "omittedPublisher": "Lorie Ladd",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.16324110671936756
+      },
+      {
+        "omittedChannelId": "ch-d9ef9bb4b58f",
+        "omittedPublisher": "Pamela Aaralyn Channeling",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": -0.04334650856389986
+      },
+      {
+        "omittedChannelId": "ch-4f327ca79023",
+        "omittedPublisher": "Psychic Medium & Trance Channel RIZ & Lady O",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.3454545454545454
+      },
+      {
+        "omittedChannelId": "ch-cc61aed50366",
+        "omittedPublisher": "SOLi School | Lyssa Royal Holt",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.2462450592885375
+      },
+      {
+        "omittedChannelId": "ch-3ccbf336c582",
+        "omittedPublisher": "The Galactic Guide",
+        "retainedPublishers": 10,
+        "retainedPairs": 45,
+        "rho": 0.12608695652173912
+      }
+    ]
+  },
+  "captionLengths": {
+    "unit": "Tokens matching [A-Za-z]+(?:'[A-Za-z]+)?; contractions count once",
+    "n": 30,
+    "sum": 59110,
+    "mean": 1970.3333333333333,
+    "median": 1097.5,
+    "q1": 579.0,
+    "q3": 2546.25,
+    "min": 87,
+    "max": 8588,
+    "longest": {
+      "videoId": "2WoeqiizPCQ",
+      "publisher": "Lorie Ladd",
+      "words": 8588
+    },
+    "shortest": {
+      "videoId": "BRsg_krdt8s",
+      "publisher": "hgrfrequencies",
+      "words": 87
+    },
+    "rows": [
+      {
+        "videoId": "fZmY4xS_qXE",
+        "channelId": "ch-73032cea690b",
+        "publisher": "Bashar Channeled by Darryl Anka",
+        "words": 869,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "T5QtncJq1Jc",
+        "channelId": "ch-73032cea690b",
+        "publisher": "Bashar Channeled by Darryl Anka",
+        "words": 502,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "MDdyY1WYmHY",
+        "channelId": "ch-4deae3e4c229",
+        "publisher": "Athina Król",
+        "words": 6657,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "8pG8QV-18xQ",
+        "channelId": "ch-4deae3e4c229",
+        "publisher": "Athina Król",
+        "words": 3060,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "svK99fsGskw",
+        "channelId": "ch-3ccbf336c582",
+        "publisher": "The Galactic Guide",
+        "words": 2133,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "wTGFWgT7LOU",
+        "channelId": "ch-3ccbf336c582",
+        "publisher": "The Galactic Guide",
+        "words": 588,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "UMrZXFgMpdo",
+        "channelId": "ch-cc61aed50366",
+        "publisher": "SOLi School | Lyssa Royal Holt",
+        "words": 539,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "2v8rXyVBrQ4",
+        "channelId": "ch-cc61aed50366",
+        "publisher": "SOLi School | Lyssa Royal Holt",
+        "words": 272,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "vvV4JcA5U7o",
+        "channelId": "ch-396932860d9d",
+        "publisher": "Blossom Goodchild",
+        "words": 662,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "ierU5o3ffX4",
+        "channelId": "ch-396932860d9d",
+        "publisher": "Blossom Goodchild",
+        "words": 1759,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "9F_9Ed-yWX4",
+        "channelId": "ch-0a31b1dbd853",
+        "publisher": "hgrfrequencies",
+        "words": 286,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "BRsg_krdt8s",
+        "channelId": "ch-0a31b1dbd853",
+        "publisher": "hgrfrequencies",
+        "words": 87,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "SPiLHHvhGeM",
+        "channelId": "ch-6bcde5f1646b",
+        "publisher": "Ishuwa Yahyel: First ET Contact",
+        "words": 6503,
+        "automaticCaptions": false
+      },
+      {
+        "videoId": "qa9694ghfzE",
+        "channelId": "ch-6bcde5f1646b",
+        "publisher": "Ishuwa Yahyel: First ET Contact",
+        "words": 1045,
+        "automaticCaptions": false
+      },
+      {
+        "videoId": "dTKNeJ0hGMo",
+        "channelId": "ch-aaaebac2693b",
+        "publisher": "Daniel Scranton",
+        "words": 1311,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "T350BmG4zwM",
+        "channelId": "ch-aaaebac2693b",
+        "publisher": "Daniel Scranton",
+        "words": 1281,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "NxYRldsuB3s",
+        "channelId": "ch-d9ef9bb4b58f",
+        "publisher": "Pamela Aaralyn Channeling",
+        "words": 576,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "dRbLEaSOP2k",
+        "channelId": "ch-d9ef9bb4b58f",
+        "publisher": "Pamela Aaralyn Channeling",
+        "words": 971,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "5Sq-dBoqu10",
+        "channelId": "ch-4f327ca79023",
+        "publisher": "Psychic Medium & Trance Channel RIZ & Lady O",
+        "words": 424,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "rnZ_y4-kM1I",
+        "channelId": "ch-4f327ca79023",
+        "publisher": "Psychic Medium & Trance Channel RIZ & Lady O",
+        "words": 670,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "9UPOe-GdVE4",
+        "channelId": "ch-e876f3f2375e",
+        "publisher": "Aurora Ray",
+        "words": 2684,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "CdeF5JtUB44",
+        "channelId": "ch-e876f3f2375e",
+        "publisher": "Aurora Ray",
+        "words": 3803,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "dWPc8lU-OPc",
+        "channelId": "ch-8557f1426bad",
+        "publisher": "Aluna Ash 9D",
+        "words": 1375,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "z5bKGZzwkt8",
+        "channelId": "ch-e7ffb2da4c80",
+        "publisher": "Lorie Ladd",
+        "words": 2794,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "2WoeqiizPCQ",
+        "channelId": "ch-e7ffb2da4c80",
+        "publisher": "Lorie Ladd",
+        "words": 8588,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "C95Y9g135kg",
+        "channelId": "ch-2b81ba751f66",
+        "publisher": "Megan Rose",
+        "words": 1836,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "7wrxKKVLcBA",
+        "channelId": "ch-b54e2c58d507",
+        "publisher": "Pavlina Klemm",
+        "words": 5282,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "csxHi8oghhY",
+        "channelId": "ch-03c2e8beb4b3",
+        "publisher": "elsa farrus rusiñol",
+        "words": 878,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "g88RqksSChM",
+        "channelId": "ch-03c2e8beb4b3",
+        "publisher": "elsa farrus rusiñol",
+        "words": 1150,
+        "automaticCaptions": true
+      },
+      {
+        "videoId": "xxbzklPyRtg",
+        "channelId": "ch-ddad7c11a454",
+        "publisher": "Mônica de Medeiros - Casa do Consolador",
+        "words": 525,
+        "automaticCaptions": true
+      }
+    ]
+  },
+  "captionTrimNearestNeighborChanges": {
+    "changed": 4,
+    "eligiblePublishers": 13
+  },
+  "withinBetween": {
+    "within": {
+      "nPairs": 13,
+      "median": 0.6612252593040466,
+      "q1": 0.3589435815811157,
+      "q3": 0.733605682849884
+    },
+    "between": {
+      "nPairs": 422,
+      "median": 0.4308980852365494,
+      "q1": 0.30752652883529663,
+      "q3": 0.5484932959079742
+    }
+  },
+  "limitations": [
+    "Purposive, incomplete upload samples. No channel-population mean, census or posting rate is estimated.",
+    "Uploader accounts and human practitioners are distinct. Route groups can include unresolved aliases.",
+    "The 55 pairwise observations share 11 publishers and are not independent; no p-values or confidence intervals are reported.",
+    "Twenty-five videos have eligible matched text; only 22 in publishers with at least two videos support the matched channel-matrix comparison.",
+    "Language detection and caption-track language labels are not manual content verification.",
+    "The chunk-weighting diagnostic changes only the relative contribution of a short final chunk. It supplies no human-judgment validation and does not isolate speaker composition."
+  ],
+  "chunkWeighting": {
+    "sourceSnapshotSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+    "localCaptionCorpusSha256": "c0d302197de675667bbe18e43b8ed66a8d72a194d2f8939729a2dad1a551bbf3",
+    "modelRevision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "method": "Same masked English caption text, tokenizer, 240-content-wordpiece chunks, token-level attention-mask mean pooling and chunk L2 normalization. Alternative video vector weights each chunk by its number of content wordpieces, excluding CLS/SEP; publisher vectors still weight videos equally. No new retrieval, training, translation or speaker segmentation.",
+    "equalChunkReplayMaxAbsoluteCoordinateDelta": 7.409544477976482e-09,
+    "documents": 30,
+    "publishersCompared": 13,
+    "pairsCompared": 78,
+    "totalContentWordpieces": 73170,
+    "totalChunks": 320,
+    "singleChunkDocuments": 1,
+    "minChunks": 1,
+    "maxChunks": 46,
+    "rankCorrelation": 0.984395351483959,
+    "meanAbsoluteCosineChange": 0.014165756410256414,
+    "maxAbsoluteCosineChange": 0.06332700000000001,
+    "nearestNeighborChanges": 2,
+    "nearestNeighbors": [
+      {
+        "channelId": "ch-4deae3e4c229",
+        "publisher": "Athina Król",
+        "equalChunkNeighbor": "ch-03c2e8beb4b3",
+        "tokenWeightedNeighbor": "ch-03c2e8beb4b3",
+        "changed": false
+      },
+      {
+        "channelId": "ch-e876f3f2375e",
+        "publisher": "Aurora Ray",
+        "equalChunkNeighbor": "ch-4f327ca79023",
+        "tokenWeightedNeighbor": "ch-4f327ca79023",
+        "changed": false
+      },
+      {
+        "channelId": "ch-73032cea690b",
+        "publisher": "Bashar Channeled by Darryl Anka",
+        "equalChunkNeighbor": "ch-4deae3e4c229",
+        "tokenWeightedNeighbor": "ch-4deae3e4c229",
+        "changed": false
+      },
+      {
+        "channelId": "ch-396932860d9d",
+        "publisher": "Blossom Goodchild",
+        "equalChunkNeighbor": "ch-03c2e8beb4b3",
+        "tokenWeightedNeighbor": "ch-03c2e8beb4b3",
+        "changed": false
+      },
+      {
+        "channelId": "ch-aaaebac2693b",
+        "publisher": "Daniel Scranton",
+        "equalChunkNeighbor": "ch-396932860d9d",
+        "tokenWeightedNeighbor": "ch-4f327ca79023",
+        "changed": true
+      },
+      {
+        "channelId": "ch-03c2e8beb4b3",
+        "publisher": "elsa farrus rusiñol",
+        "equalChunkNeighbor": "ch-6bcde5f1646b",
+        "tokenWeightedNeighbor": "ch-6bcde5f1646b",
+        "changed": false
+      },
+      {
+        "channelId": "ch-0a31b1dbd853",
+        "publisher": "hgrfrequencies",
+        "equalChunkNeighbor": "ch-03c2e8beb4b3",
+        "tokenWeightedNeighbor": "ch-03c2e8beb4b3",
+        "changed": false
+      },
+      {
+        "channelId": "ch-6bcde5f1646b",
+        "publisher": "Ishuwa Yahyel: First ET Contact",
+        "equalChunkNeighbor": "ch-03c2e8beb4b3",
+        "tokenWeightedNeighbor": "ch-03c2e8beb4b3",
+        "changed": false
+      },
+      {
+        "channelId": "ch-e7ffb2da4c80",
+        "publisher": "Lorie Ladd",
+        "equalChunkNeighbor": "ch-03c2e8beb4b3",
+        "tokenWeightedNeighbor": "ch-03c2e8beb4b3",
+        "changed": false
+      },
+      {
+        "channelId": "ch-d9ef9bb4b58f",
+        "publisher": "Pamela Aaralyn Channeling",
+        "equalChunkNeighbor": "ch-03c2e8beb4b3",
+        "tokenWeightedNeighbor": "ch-e7ffb2da4c80",
+        "changed": true
+      },
+      {
+        "channelId": "ch-4f327ca79023",
+        "publisher": "Psychic Medium & Trance Channel RIZ & Lady O",
+        "equalChunkNeighbor": "ch-e876f3f2375e",
+        "tokenWeightedNeighbor": "ch-e876f3f2375e",
+        "changed": false
+      },
+      {
+        "channelId": "ch-cc61aed50366",
+        "publisher": "SOLi School | Lyssa Royal Holt",
+        "equalChunkNeighbor": "ch-396932860d9d",
+        "tokenWeightedNeighbor": "ch-396932860d9d",
+        "changed": false
+      },
+      {
+        "channelId": "ch-3ccbf336c582",
+        "publisher": "The Galactic Guide",
+        "equalChunkNeighbor": "ch-e7ffb2da4c80",
+        "tokenWeightedNeighbor": "ch-e7ffb2da4c80",
+        "changed": false
+      }
+    ],
+    "documentsDetail": [
+      {
+        "videoId": "fZmY4xS_qXE",
+        "channelId": "ch-73032cea690b",
+        "wordCount": 869,
+        "contentWordpieces": 1087,
+        "chunks": 5,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          127
+        ],
+        "tailContentWordpieces": 127,
+        "tailEqualWeight": 0.2,
+        "tailTokenWeight": 0.11683532658693652
+      },
+      {
+        "videoId": "T5QtncJq1Jc",
+        "channelId": "ch-73032cea690b",
+        "wordCount": 502,
+        "contentWordpieces": 559,
+        "chunks": 3,
+        "chunkSizes": [
+          240,
+          240,
+          79
+        ],
+        "tailContentWordpieces": 79,
+        "tailEqualWeight": 0.3333333333333333,
+        "tailTokenWeight": 0.1413237924865832
+      },
+      {
+        "videoId": "MDdyY1WYmHY",
+        "channelId": "ch-4deae3e4c229",
+        "wordCount": 6657,
+        "contentWordpieces": 7552,
+        "chunks": 32,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          112
+        ],
+        "tailContentWordpieces": 112,
+        "tailEqualWeight": 0.03125,
+        "tailTokenWeight": 0.014830508474576272
+      },
+      {
+        "videoId": "8pG8QV-18xQ",
+        "channelId": "ch-4deae3e4c229",
+        "wordCount": 3060,
+        "contentWordpieces": 3708,
+        "chunks": 16,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          108
+        ],
+        "tailContentWordpieces": 108,
+        "tailEqualWeight": 0.0625,
+        "tailTokenWeight": 0.02912621359223301
+      },
+      {
+        "videoId": "svK99fsGskw",
+        "channelId": "ch-3ccbf336c582",
+        "wordCount": 2133,
+        "contentWordpieces": 2549,
+        "chunks": 11,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          149
+        ],
+        "tailContentWordpieces": 149,
+        "tailEqualWeight": 0.09090909090909091,
+        "tailTokenWeight": 0.0584542958022754
+      },
+      {
+        "videoId": "wTGFWgT7LOU",
+        "channelId": "ch-3ccbf336c582",
+        "wordCount": 588,
+        "contentWordpieces": 793,
+        "chunks": 4,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          73
+        ],
+        "tailContentWordpieces": 73,
+        "tailEqualWeight": 0.25,
+        "tailTokenWeight": 0.09205548549810845
+      },
+      {
+        "videoId": "UMrZXFgMpdo",
+        "channelId": "ch-cc61aed50366",
+        "wordCount": 539,
+        "contentWordpieces": 724,
+        "chunks": 4,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          4
+        ],
+        "tailContentWordpieces": 4,
+        "tailEqualWeight": 0.25,
+        "tailTokenWeight": 0.0055248618784530384
+      },
+      {
+        "videoId": "2v8rXyVBrQ4",
+        "channelId": "ch-cc61aed50366",
+        "wordCount": 272,
+        "contentWordpieces": 309,
+        "chunks": 2,
+        "chunkSizes": [
+          240,
+          69
+        ],
+        "tailContentWordpieces": 69,
+        "tailEqualWeight": 0.5,
+        "tailTokenWeight": 0.22330097087378642
+      },
+      {
+        "videoId": "vvV4JcA5U7o",
+        "channelId": "ch-396932860d9d",
+        "wordCount": 662,
+        "contentWordpieces": 910,
+        "chunks": 4,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          190
+        ],
+        "tailContentWordpieces": 190,
+        "tailEqualWeight": 0.25,
+        "tailTokenWeight": 0.2087912087912088
+      },
+      {
+        "videoId": "ierU5o3ffX4",
+        "channelId": "ch-396932860d9d",
+        "wordCount": 1759,
+        "contentWordpieces": 2182,
+        "chunks": 10,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          22
+        ],
+        "tailContentWordpieces": 22,
+        "tailEqualWeight": 0.1,
+        "tailTokenWeight": 0.01008249312557287
+      },
+      {
+        "videoId": "9F_9Ed-yWX4",
+        "channelId": "ch-0a31b1dbd853",
+        "wordCount": 286,
+        "contentWordpieces": 361,
+        "chunks": 2,
+        "chunkSizes": [
+          240,
+          121
+        ],
+        "tailContentWordpieces": 121,
+        "tailEqualWeight": 0.5,
+        "tailTokenWeight": 0.33518005540166207
+      },
+      {
+        "videoId": "BRsg_krdt8s",
+        "channelId": "ch-0a31b1dbd853",
+        "wordCount": 87,
+        "contentWordpieces": 105,
+        "chunks": 1,
+        "chunkSizes": [
+          105
+        ],
+        "tailContentWordpieces": 105,
+        "tailEqualWeight": 1.0,
+        "tailTokenWeight": 1.0
+      },
+      {
+        "videoId": "SPiLHHvhGeM",
+        "channelId": "ch-6bcde5f1646b",
+        "wordCount": 6503,
+        "contentWordpieces": 7876,
+        "chunks": 33,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          196
+        ],
+        "tailContentWordpieces": 196,
+        "tailEqualWeight": 0.030303030303030304,
+        "tailTokenWeight": 0.02488572879634332
+      },
+      {
+        "videoId": "qa9694ghfzE",
+        "channelId": "ch-6bcde5f1646b",
+        "wordCount": 1045,
+        "contentWordpieces": 1374,
+        "chunks": 6,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          174
+        ],
+        "tailContentWordpieces": 174,
+        "tailEqualWeight": 0.16666666666666666,
+        "tailTokenWeight": 0.12663755458515283
+      },
+      {
+        "videoId": "dTKNeJ0hGMo",
+        "channelId": "ch-aaaebac2693b",
+        "wordCount": 1311,
+        "contentWordpieces": 1603,
+        "chunks": 7,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          163
+        ],
+        "tailContentWordpieces": 163,
+        "tailEqualWeight": 0.14285714285714285,
+        "tailTokenWeight": 0.10168434185901434
+      },
+      {
+        "videoId": "T350BmG4zwM",
+        "channelId": "ch-aaaebac2693b",
+        "wordCount": 1281,
+        "contentWordpieces": 1845,
+        "chunks": 8,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          165
+        ],
+        "tailContentWordpieces": 165,
+        "tailEqualWeight": 0.125,
+        "tailTokenWeight": 0.08943089430894309
+      },
+      {
+        "videoId": "NxYRldsuB3s",
+        "channelId": "ch-d9ef9bb4b58f",
+        "wordCount": 576,
+        "contentWordpieces": 745,
+        "chunks": 4,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          25
+        ],
+        "tailContentWordpieces": 25,
+        "tailEqualWeight": 0.25,
+        "tailTokenWeight": 0.03355704697986577
+      },
+      {
+        "videoId": "dRbLEaSOP2k",
+        "channelId": "ch-d9ef9bb4b58f",
+        "wordCount": 971,
+        "contentWordpieces": 1222,
+        "chunks": 6,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          22
+        ],
+        "tailContentWordpieces": 22,
+        "tailEqualWeight": 0.16666666666666666,
+        "tailTokenWeight": 0.01800327332242226
+      },
+      {
+        "videoId": "5Sq-dBoqu10",
+        "channelId": "ch-4f327ca79023",
+        "wordCount": 424,
+        "contentWordpieces": 507,
+        "chunks": 3,
+        "chunkSizes": [
+          240,
+          240,
+          27
+        ],
+        "tailContentWordpieces": 27,
+        "tailEqualWeight": 0.3333333333333333,
+        "tailTokenWeight": 0.05325443786982249
+      },
+      {
+        "videoId": "rnZ_y4-kM1I",
+        "channelId": "ch-4f327ca79023",
+        "wordCount": 670,
+        "contentWordpieces": 954,
+        "chunks": 4,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          234
+        ],
+        "tailContentWordpieces": 234,
+        "tailEqualWeight": 0.25,
+        "tailTokenWeight": 0.24528301886792453
+      },
+      {
+        "videoId": "9UPOe-GdVE4",
+        "channelId": "ch-e876f3f2375e",
+        "wordCount": 2684,
+        "contentWordpieces": 3590,
+        "chunks": 15,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          230
+        ],
+        "tailContentWordpieces": 230,
+        "tailEqualWeight": 0.06666666666666667,
+        "tailTokenWeight": 0.06406685236768803
+      },
+      {
+        "videoId": "CdeF5JtUB44",
+        "channelId": "ch-e876f3f2375e",
+        "wordCount": 3803,
+        "contentWordpieces": 4846,
+        "chunks": 21,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          46
+        ],
+        "tailContentWordpieces": 46,
+        "tailEqualWeight": 0.047619047619047616,
+        "tailTokenWeight": 0.009492364836978951
+      },
+      {
+        "videoId": "dWPc8lU-OPc",
+        "channelId": "ch-8557f1426bad",
+        "wordCount": 1375,
+        "contentWordpieces": 1563,
+        "chunks": 7,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          123
+        ],
+        "tailContentWordpieces": 123,
+        "tailEqualWeight": 0.14285714285714285,
+        "tailTokenWeight": 0.07869481765834933
+      },
+      {
+        "videoId": "z5bKGZzwkt8",
+        "channelId": "ch-e7ffb2da4c80",
+        "wordCount": 2794,
+        "contentWordpieces": 3540,
+        "chunks": 15,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          180
+        ],
+        "tailContentWordpieces": 180,
+        "tailEqualWeight": 0.06666666666666667,
+        "tailTokenWeight": 0.05084745762711865
+      },
+      {
+        "videoId": "2WoeqiizPCQ",
+        "channelId": "ch-e7ffb2da4c80",
+        "wordCount": 8588,
+        "contentWordpieces": 10845,
+        "chunks": 46,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          45
+        ],
+        "tailContentWordpieces": 45,
+        "tailEqualWeight": 0.021739130434782608,
+        "tailTokenWeight": 0.004149377593360996
+      },
+      {
+        "videoId": "C95Y9g135kg",
+        "channelId": "ch-2b81ba751f66",
+        "wordCount": 1836,
+        "contentWordpieces": 2602,
+        "chunks": 11,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          202
+        ],
+        "tailContentWordpieces": 202,
+        "tailEqualWeight": 0.09090909090909091,
+        "tailTokenWeight": 0.07763259031514219
+      },
+      {
+        "videoId": "7wrxKKVLcBA",
+        "channelId": "ch-b54e2c58d507",
+        "wordCount": 5282,
+        "contentWordpieces": 6181,
+        "chunks": 26,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          181
+        ],
+        "tailContentWordpieces": 181,
+        "tailEqualWeight": 0.038461538461538464,
+        "tailTokenWeight": 0.02928328749393302
+      },
+      {
+        "videoId": "csxHi8oghhY",
+        "channelId": "ch-03c2e8beb4b3",
+        "wordCount": 878,
+        "contentWordpieces": 1007,
+        "chunks": 5,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          47
+        ],
+        "tailContentWordpieces": 47,
+        "tailEqualWeight": 0.2,
+        "tailTokenWeight": 0.04667328699106256
+      },
+      {
+        "videoId": "g88RqksSChM",
+        "channelId": "ch-03c2e8beb4b3",
+        "wordCount": 1150,
+        "contentWordpieces": 1399,
+        "chunks": 6,
+        "chunkSizes": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          199
+        ],
+        "tailContentWordpieces": 199,
+        "tailEqualWeight": 0.16666666666666666,
+        "tailTokenWeight": 0.14224446032880628
+      },
+      {
+        "videoId": "xxbzklPyRtg",
+        "channelId": "ch-ddad7c11a454",
+        "wordCount": 525,
+        "contentWordpieces": 632,
+        "chunks": 3,
+        "chunkSizes": [
+          240,
+          240,
+          152
+        ],
+        "tailContentWordpieces": 152,
+        "tailEqualWeight": 0.3333333333333333,
+        "tailTokenWeight": 0.24050632911392406
+      }
+    ],
+    "pairs": [
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-e876f3f2375e",
+        "equalChunkCosine": 0.505127,
+        "tokenWeightedCosine": 0.500444,
+        "delta": -0.004682999999999993
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-73032cea690b",
+        "equalChunkCosine": 0.664181,
+        "tokenWeightedCosine": 0.646469,
+        "delta": -0.01771200000000006
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-396932860d9d",
+        "equalChunkCosine": 0.678182,
+        "tokenWeightedCosine": 0.680449,
+        "delta": 0.002267000000000019
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-aaaebac2693b",
+        "equalChunkCosine": 0.545171,
+        "tokenWeightedCosine": 0.556391,
+        "delta": 0.011220000000000008
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-03c2e8beb4b3",
+        "equalChunkCosine": 0.778779,
+        "tokenWeightedCosine": 0.782672,
+        "delta": 0.0038930000000000353
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-0a31b1dbd853",
+        "equalChunkCosine": 0.55065,
+        "tokenWeightedCosine": 0.550154,
+        "delta": -0.0004959999999999409
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-6bcde5f1646b",
+        "equalChunkCosine": 0.739706,
+        "tokenWeightedCosine": 0.73972,
+        "delta": 1.4000000000069512e-05
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-e7ffb2da4c80",
+        "equalChunkCosine": 0.745828,
+        "tokenWeightedCosine": 0.74321,
+        "delta": -0.002618000000000009
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.157264,
+        "tokenWeightedCosine": 0.143196,
+        "delta": -0.014067999999999997
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.474258,
+        "tokenWeightedCosine": 0.52962,
+        "delta": 0.05536199999999997
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.661436,
+        "tokenWeightedCosine": 0.629947,
+        "delta": -0.03148899999999999
+      },
+      {
+        "a": "ch-4deae3e4c229",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.67872,
+        "tokenWeightedCosine": 0.672378,
+        "delta": -0.006341999999999959
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-73032cea690b",
+        "equalChunkCosine": 0.450445,
+        "tokenWeightedCosine": 0.448563,
+        "delta": -0.0018819999999999948
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-396932860d9d",
+        "equalChunkCosine": 0.616367,
+        "tokenWeightedCosine": 0.606072,
+        "delta": -0.010294999999999943
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-aaaebac2693b",
+        "equalChunkCosine": 0.544479,
+        "tokenWeightedCosine": 0.545092,
+        "delta": 0.0006129999999999747
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-03c2e8beb4b3",
+        "equalChunkCosine": 0.570137,
+        "tokenWeightedCosine": 0.575022,
+        "delta": 0.004885000000000028
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-0a31b1dbd853",
+        "equalChunkCosine": 0.475964,
+        "tokenWeightedCosine": 0.48919,
+        "delta": 0.013226000000000016
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-6bcde5f1646b",
+        "equalChunkCosine": 0.540496,
+        "tokenWeightedCosine": 0.533878,
+        "delta": -0.006618000000000013
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-e7ffb2da4c80",
+        "equalChunkCosine": 0.469743,
+        "tokenWeightedCosine": 0.462766,
+        "delta": -0.006977000000000011
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.161743,
+        "tokenWeightedCosine": 0.151535,
+        "delta": -0.010207999999999995
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.652888,
+        "tokenWeightedCosine": 0.645135,
+        "delta": -0.00775300000000001
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.61707,
+        "tokenWeightedCosine": 0.628016,
+        "delta": 0.010946000000000011
+      },
+      {
+        "a": "ch-e876f3f2375e",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.518061,
+        "tokenWeightedCosine": 0.509946,
+        "delta": -0.008114999999999983
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-396932860d9d",
+        "equalChunkCosine": 0.475409,
+        "tokenWeightedCosine": 0.481821,
+        "delta": 0.006411999999999973
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-aaaebac2693b",
+        "equalChunkCosine": 0.44066,
+        "tokenWeightedCosine": 0.462483,
+        "delta": 0.02182299999999998
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-03c2e8beb4b3",
+        "equalChunkCosine": 0.579788,
+        "tokenWeightedCosine": 0.586051,
+        "delta": 0.0062630000000000186
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-0a31b1dbd853",
+        "equalChunkCosine": 0.418931,
+        "tokenWeightedCosine": 0.40801,
+        "delta": -0.010921000000000014
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-6bcde5f1646b",
+        "equalChunkCosine": 0.599686,
+        "tokenWeightedCosine": 0.596164,
+        "delta": -0.003522000000000025
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-e7ffb2da4c80",
+        "equalChunkCosine": 0.495507,
+        "tokenWeightedCosine": 0.486492,
+        "delta": -0.009014999999999995
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.138391,
+        "tokenWeightedCosine": 0.159037,
+        "delta": 0.020646000000000025
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.378604,
+        "tokenWeightedCosine": 0.428778,
+        "delta": 0.050173999999999996
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.484176,
+        "tokenWeightedCosine": 0.48135,
+        "delta": -0.002825999999999995
+      },
+      {
+        "a": "ch-73032cea690b",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.514098,
+        "tokenWeightedCosine": 0.50228,
+        "delta": -0.011818000000000106
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-aaaebac2693b",
+        "equalChunkCosine": 0.63065,
+        "tokenWeightedCosine": 0.626005,
+        "delta": -0.00464500000000001
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-03c2e8beb4b3",
+        "equalChunkCosine": 0.77805,
+        "tokenWeightedCosine": 0.789257,
+        "delta": 0.011206999999999967
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-0a31b1dbd853",
+        "equalChunkCosine": 0.540702,
+        "tokenWeightedCosine": 0.54901,
+        "delta": 0.008307999999999982
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-6bcde5f1646b",
+        "equalChunkCosine": 0.759202,
+        "tokenWeightedCosine": 0.757864,
+        "delta": -0.0013380000000000614
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-e7ffb2da4c80",
+        "equalChunkCosine": 0.667373,
+        "tokenWeightedCosine": 0.674681,
+        "delta": 0.007307999999999981
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.153803,
+        "tokenWeightedCosine": 0.155575,
+        "delta": 0.0017719999999999958
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.580214,
+        "tokenWeightedCosine": 0.617501,
+        "delta": 0.03728699999999996
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.70287,
+        "tokenWeightedCosine": 0.680951,
+        "delta": -0.021919000000000022
+      },
+      {
+        "a": "ch-396932860d9d",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.640446,
+        "tokenWeightedCosine": 0.62912,
+        "delta": -0.011325999999999947
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-03c2e8beb4b3",
+        "equalChunkCosine": 0.543811,
+        "tokenWeightedCosine": 0.542889,
+        "delta": -0.0009220000000000894
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-0a31b1dbd853",
+        "equalChunkCosine": 0.465492,
+        "tokenWeightedCosine": 0.481726,
+        "delta": 0.01623399999999997
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-6bcde5f1646b",
+        "equalChunkCosine": 0.604624,
+        "tokenWeightedCosine": 0.610319,
+        "delta": 0.005694999999999895
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-e7ffb2da4c80",
+        "equalChunkCosine": 0.575815,
+        "tokenWeightedCosine": 0.579873,
+        "delta": 0.004058000000000006
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.107562,
+        "tokenWeightedCosine": 0.106453,
+        "delta": -0.0011089999999999989
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.617014,
+        "tokenWeightedCosine": 0.626064,
+        "delta": 0.009050000000000002
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.542025,
+        "tokenWeightedCosine": 0.52109,
+        "delta": -0.020934999999999926
+      },
+      {
+        "a": "ch-aaaebac2693b",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.546223,
+        "tokenWeightedCosine": 0.541281,
+        "delta": -0.004942000000000002
+      },
+      {
+        "a": "ch-03c2e8beb4b3",
+        "b": "ch-0a31b1dbd853",
+        "equalChunkCosine": 0.566642,
+        "tokenWeightedCosine": 0.566769,
+        "delta": 0.00012699999999998823
+      },
+      {
+        "a": "ch-03c2e8beb4b3",
+        "b": "ch-6bcde5f1646b",
+        "equalChunkCosine": 0.81692,
+        "tokenWeightedCosine": 0.816461,
+        "delta": -0.0004589999999999872
+      },
+      {
+        "a": "ch-03c2e8beb4b3",
+        "b": "ch-e7ffb2da4c80",
+        "equalChunkCosine": 0.769307,
+        "tokenWeightedCosine": 0.770175,
+        "delta": 0.0008680000000000909
+      },
+      {
+        "a": "ch-03c2e8beb4b3",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.242329,
+        "tokenWeightedCosine": 0.227619,
+        "delta": -0.01471
+      },
+      {
+        "a": "ch-03c2e8beb4b3",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.593895,
+        "tokenWeightedCosine": 0.641909,
+        "delta": 0.048014
+      },
+      {
+        "a": "ch-03c2e8beb4b3",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.702742,
+        "tokenWeightedCosine": 0.663895,
+        "delta": -0.038846999999999965
+      },
+      {
+        "a": "ch-03c2e8beb4b3",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.709576,
+        "tokenWeightedCosine": 0.701274,
+        "delta": -0.008302000000000032
+      },
+      {
+        "a": "ch-0a31b1dbd853",
+        "b": "ch-6bcde5f1646b",
+        "equalChunkCosine": 0.54328,
+        "tokenWeightedCosine": 0.550193,
+        "delta": 0.006913000000000058
+      },
+      {
+        "a": "ch-0a31b1dbd853",
+        "b": "ch-e7ffb2da4c80",
+        "equalChunkCosine": 0.522032,
+        "tokenWeightedCosine": 0.52883,
+        "delta": 0.006797999999999971
+      },
+      {
+        "a": "ch-0a31b1dbd853",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.124235,
+        "tokenWeightedCosine": 0.110751,
+        "delta": -0.013483999999999996
+      },
+      {
+        "a": "ch-0a31b1dbd853",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.39955,
+        "tokenWeightedCosine": 0.425885,
+        "delta": 0.026334999999999997
+      },
+      {
+        "a": "ch-0a31b1dbd853",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.565851,
+        "tokenWeightedCosine": 0.544607,
+        "delta": -0.02124400000000004
+      },
+      {
+        "a": "ch-0a31b1dbd853",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.505762,
+        "tokenWeightedCosine": 0.500628,
+        "delta": -0.005134000000000083
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-e7ffb2da4c80",
+        "equalChunkCosine": 0.695576,
+        "tokenWeightedCosine": 0.69487,
+        "delta": -0.0007059999999999844
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.154331,
+        "tokenWeightedCosine": 0.162882,
+        "delta": 0.008551000000000003
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.554733,
+        "tokenWeightedCosine": 0.601938,
+        "delta": 0.04720499999999994
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.6263,
+        "tokenWeightedCosine": 0.600022,
+        "delta": -0.026277999999999913
+      },
+      {
+        "a": "ch-6bcde5f1646b",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.707108,
+        "tokenWeightedCosine": 0.70384,
+        "delta": -0.0032679999999999376
+      },
+      {
+        "a": "ch-e7ffb2da4c80",
+        "b": "ch-d9ef9bb4b58f",
+        "equalChunkCosine": 0.232587,
+        "tokenWeightedCosine": 0.230873,
+        "delta": -0.0017139999999999933
+      },
+      {
+        "a": "ch-e7ffb2da4c80",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.540413,
+        "tokenWeightedCosine": 0.588231,
+        "delta": 0.047817999999999916
+      },
+      {
+        "a": "ch-e7ffb2da4c80",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.646811,
+        "tokenWeightedCosine": 0.602558,
+        "delta": -0.04425299999999999
+      },
+      {
+        "a": "ch-e7ffb2da4c80",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.714662,
+        "tokenWeightedCosine": 0.712548,
+        "delta": -0.0021140000000000603
+      },
+      {
+        "a": "ch-d9ef9bb4b58f",
+        "b": "ch-4f327ca79023",
+        "equalChunkCosine": 0.151718,
+        "tokenWeightedCosine": 0.173718,
+        "delta": 0.02200000000000002
+      },
+      {
+        "a": "ch-d9ef9bb4b58f",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.149816,
+        "tokenWeightedCosine": 0.086489,
+        "delta": -0.06332700000000001
+      },
+      {
+        "a": "ch-d9ef9bb4b58f",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.145842,
+        "tokenWeightedCosine": 0.13584,
+        "delta": -0.010002000000000011
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-cc61aed50366",
+        "equalChunkCosine": 0.570583,
+        "tokenWeightedCosine": 0.596894,
+        "delta": 0.026311000000000084
+      },
+      {
+        "a": "ch-4f327ca79023",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.562739,
+        "tokenWeightedCosine": 0.595861,
+        "delta": 0.033121999999999985
+      },
+      {
+        "a": "ch-cc61aed50366",
+        "b": "ch-3ccbf336c582",
+        "equalChunkCosine": 0.611315,
+        "tokenWeightedCosine": 0.577447,
+        "delta": -0.03386800000000001
+      }
+    ],
+    "channelIds": [
+      "ch-4deae3e4c229",
+      "ch-e876f3f2375e",
+      "ch-73032cea690b",
+      "ch-396932860d9d",
+      "ch-aaaebac2693b",
+      "ch-03c2e8beb4b3",
+      "ch-0a31b1dbd853",
+      "ch-6bcde5f1646b",
+      "ch-e7ffb2da4c80",
+      "ch-d9ef9bb4b58f",
+      "ch-4f327ca79023",
+      "ch-cc61aed50366",
+      "ch-3ccbf336c582"
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.500444,
+        0.646469,
+        0.680449,
+        0.556391,
+        0.782672,
+        0.550154,
+        0.73972,
+        0.74321,
+        0.143196,
+        0.52962,
+        0.629947,
+        0.672378
+      ],
+      [
+        0.500444,
+        1.0,
+        0.448563,
+        0.606072,
+        0.545092,
+        0.575022,
+        0.48919,
+        0.533878,
+        0.462766,
+        0.151535,
+        0.645135,
+        0.628016,
+        0.509946
+      ],
+      [
+        0.646469,
+        0.448563,
+        1.0,
+        0.481821,
+        0.462483,
+        0.586051,
+        0.40801,
+        0.596164,
+        0.486492,
+        0.159037,
+        0.428778,
+        0.48135,
+        0.50228
+      ],
+      [
+        0.680449,
+        0.606072,
+        0.481821,
+        1.0,
+        0.626005,
+        0.789257,
+        0.54901,
+        0.757864,
+        0.674681,
+        0.155575,
+        0.617501,
+        0.680951,
+        0.62912
+      ],
+      [
+        0.556391,
+        0.545092,
+        0.462483,
+        0.626005,
+        1.0,
+        0.542889,
+        0.481726,
+        0.610319,
+        0.579873,
+        0.106453,
+        0.626064,
+        0.52109,
+        0.541281
+      ],
+      [
+        0.782672,
+        0.575022,
+        0.586051,
+        0.789257,
+        0.542889,
+        1.0,
+        0.566769,
+        0.816461,
+        0.770175,
+        0.227619,
+        0.641909,
+        0.663895,
+        0.701274
+      ],
+      [
+        0.550154,
+        0.48919,
+        0.40801,
+        0.54901,
+        0.481726,
+        0.566769,
+        1.0,
+        0.550193,
+        0.52883,
+        0.110751,
+        0.425885,
+        0.544607,
+        0.500628
+      ],
+      [
+        0.73972,
+        0.533878,
+        0.596164,
+        0.757864,
+        0.610319,
+        0.816461,
+        0.550193,
+        1.0,
+        0.69487,
+        0.162882,
+        0.601938,
+        0.600022,
+        0.70384
+      ],
+      [
+        0.74321,
+        0.462766,
+        0.486492,
+        0.674681,
+        0.579873,
+        0.770175,
+        0.52883,
+        0.69487,
+        1.0,
+        0.230873,
+        0.588231,
+        0.602558,
+        0.712548
+      ],
+      [
+        0.143196,
+        0.151535,
+        0.159037,
+        0.155575,
+        0.106453,
+        0.227619,
+        0.110751,
+        0.162882,
+        0.230873,
+        1.0,
+        0.173718,
+        0.086489,
+        0.13584
+      ],
+      [
+        0.52962,
+        0.645135,
+        0.428778,
+        0.617501,
+        0.626064,
+        0.641909,
+        0.425885,
+        0.601938,
+        0.588231,
+        0.173718,
+        1.0,
+        0.596894,
+        0.595861
+      ],
+      [
+        0.629947,
+        0.628016,
+        0.48135,
+        0.680951,
+        0.52109,
+        0.663895,
+        0.544607,
+        0.600022,
+        0.602558,
+        0.086489,
+        0.596894,
+        1.0,
+        0.577447
+      ],
+      [
+        0.672378,
+        0.509946,
+        0.50228,
+        0.62912,
+        0.541281,
+        0.701274,
+        0.500628,
+        0.70384,
+        0.712548,
+        0.13584,
+        0.595861,
+        0.577447,
+        1.0
+      ]
+    ],
+    "interpretation": "This isolates one pooling choice on the same selected documents. Agreement is a sensitivity result, not validation against truth, human topic judgments or a representative population."
+  }
+}

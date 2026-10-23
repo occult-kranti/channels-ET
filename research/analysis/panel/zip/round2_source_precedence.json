@@ -1,0 +1,25 @@
+{
+  "round": "round2",
+  "reviewMode": "fresh-context metadata-to-build audit",
+  "reviewedDataSha256": "f5b96cd04d9fb9ccf5db34e0fc0b056f0dc3d7a53579b86361f90d9861dc5024",
+  "reviewedInputSha256": "5c14d05ecbd9ac47e901aa304d25b488a736b5f25b6a13958309a6990d610d01",
+  "rawVideoCsvSha256": "4e3aef52ac061081f851ba7ced52e55248a7c8e8cea4ad3e86e642e5f8c6f9f0",
+  "rawAccountCsvSha256": "1b44f71042be62d518dafefe32bd3e8e49538742007a0a795971959c9aefaae0",
+  "metadataInputRecords": 384,
+  "checks": {
+    "freshDurations": 340,
+    "freshDates": 341,
+    "freshTitles": 341,
+    "freshAccountBindings": 341,
+    "inheritedDurations": 418
+  },
+  "errors": [],
+  "passed": true,
+  "staleFallbackNames": [
+    "ch-3ccbf336c582",
+    "ch-6d127415bb4c",
+    "ch-8621c624902c",
+    "ch-9e2e6f255dff"
+  ],
+  "boundary": "Same source acquisition reviewed by another worker; no claim of independent corroborating source. Durations marked unverified remain unverified."
+}

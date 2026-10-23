@@ -1,0 +1,105 @@
+{
+  "round": 6,
+  "pdf": "rounds/round6/main.pdf",
+  "pdfSha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716",
+  "bodySha256": "b1d4d9628029c2f113a63051354d4ece525081c8121fedb464c067c1b21f6c21",
+  "pagesVisuallyInspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "renderEvidence": "paper_review/round6/page-01..12.png, except page04 rerendered directly as design-rerender-04.png after provided PNG failed decoding",
+  "status": "PASS for final visual/layout/hash review of this working draft",
+  "sourceDeltaCheck": {
+    "body": "Only Aluna listing attribution sentence changed; asserted exact replacement equals final source",
+    "bibliography": "Rystr\u00f8m spacing corrected; verified in rendered p10 and extracted PDF text",
+    "allBodyNumericTokensUnchanged": true,
+    "figures": [
+      {
+        "file": "generated/figures/coverage.pdf",
+        "sha256": "b4ae57e6910541d5007bd6d24644ff35dc3b22542801bbcf5671185bd672361c",
+        "sameAsRound5": true
+      },
+      {
+        "file": "generated/figures/coverage.png",
+        "sha256": "48e57b26296e805c0eef139e699f68bf3a4068ab9a864321423bd37de7cfaadc",
+        "sameAsRound5": true
+      },
+      {
+        "file": "generated/figures/duration.pdf",
+        "sha256": "14785ed6468ec4515cfd84714eca3d384208b2ab3da22ac6819523030dce5d9e",
+        "sameAsRound5": true
+      },
+      {
+        "file": "generated/figures/duration.png",
+        "sha256": "fb0c60415090689d0b421c36ca7e83efb143c943aeb59e9da9088bf96373d038",
+        "sameAsRound5": true
+      },
+      {
+        "file": "generated/figures/matched-similarity.pdf",
+        "sha256": "23f7dcf36f851eaf711dd648261f734e1d1995da47613ea874007acb2a1142f7",
+        "sameAsRound5": true
+      },
+      {
+        "file": "generated/figures/matched-similarity.png",
+        "sha256": "15d955af3888c6cb77d7e1314962555a733708262541ec2fdd7f7d06bf2b30c1",
+        "sameAsRound5": true
+      },
+      {
+        "file": "generated/figures/sensitivity.pdf",
+        "sha256": "af2d0d677b1443ce0a9edc0c13f285c43861bb306fd2e7cd73f0441c5d2c48f3",
+        "sameAsRound5": true
+      },
+      {
+        "file": "generated/figures/sensitivity.png",
+        "sha256": "d7a740b1aa672eb9c9fa82e377797bd7d7ff2f70295fc94c04585bd3f7f26750",
+        "sameAsRound5": true
+      }
+    ]
+  },
+  "layout": {
+    "physicalPages": 12,
+    "mainAndReferencesEndPage": 11,
+    "checklistStartsPage": 11,
+    "checklistEndsPage": 12,
+    "appendicesStartPage": 12,
+    "markers": {
+      "References": [
+        9
+      ],
+      "Paper Checklist": [
+        11
+      ],
+      "Living Research Agenda": [
+        12
+      ]
+    },
+    "findings": [],
+    "previousPlotCorrectionsStillPresent": true
+  },
+  "fonts": {
+    "entries": 22,
+    "allEmbedded": true,
+    "type3Count": 0,
+    "listing": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEGDGST+TeXGyreTermesX-Bold           Type 1            Custom           yes yes yes      4  0\nXYVKZI+TeXGyreTermesX-Regular        Type 1            Custom           yes yes yes      5  0\nAQFSBY+CMMI9                         Type 1            Builtin          yes yes yes      6  0\nBKVVQG+CMR9                          Type 1            Builtin          yes yes yes      7  0\nPFQPHP+TeXGyreTermes-Regular         Type 1            Custom           yes yes yes      8  0\nEDGZNS+TeXGyreTermesX-Italic         Type 1            Custom           yes yes yes     14  0\nNQTGFX+CMR10                         Type 1            Builtin          yes yes yes     18  0\nBXQGVP+CMSY10                        Type 1            Builtin          yes yes yes     19  0\nAVMTKO+CMMI10                        Type 1            Builtin          yes yes yes     20  0\nEVOUYK+NimbusMonL-Regu               Type 1            Custom           yes yes yes     21  0\nGUEVMD+CMMI7                         Type 1            Builtin          yes yes yes     26  0\nVVTXKH+CMEX10                        Type 1            Builtin          yes yes yes     27  0\nLJBFKB+CMSY7                         Type 1            Builtin          yes yes yes     28  0\nVXPTHB+CMMI5                         Type 1            Builtin          yes yes yes     29  0\nPWAWJI+CMR7                          Type 1            Builtin          yes yes yes     30  0\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     36  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     37  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     55  0\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     69  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     70  0\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     93  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     94  0\n"
+  },
+  "deliveryPDF": {
+    "path": "/workspace/sites/channeling-atlas/dist/analysis/channeling-atlas-paper.pdf",
+    "sha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716",
+    "matchesReviewedPDF": true
+  },
+  "limits": [
+    "Working draft, not submitted or accepted",
+    "Human authorship, institutional determination, release-rights review, and all35 checklist answers remainTBD",
+    "Root owns Overleaf clean compilation and browser/deployment checks"
+  ]
+}

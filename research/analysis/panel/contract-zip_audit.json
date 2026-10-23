@@ -1,0 +1,47 @@
+{
+  "task_id": "zip_audit",
+  "dedup_key": "channeling-atlas-analysis:2026-10-23:zip_audit",
+  "case": "channeling-atlas-analysis",
+  "question": "Audit Claude structured data and source reliability",
+  "jurisdiction": "public web and supplied research",
+  "time_window": "all supplied years; snapshot 2026-10-23",
+  "as_of": "2026-10-23",
+  "allowed_actions": [
+    "public source reading",
+    "assigned file edits",
+    "read-only review"
+  ],
+  "prohibited_actions": [
+    "private group entry",
+    "purchases",
+    "posting messages",
+    "unlicensed transcript redistribution"
+  ],
+  "input_pins": [
+    {
+      "path": "/workspace/scratch/9ec421627a96/upload/et-channelers-draft.zip",
+      "sha256": "cb8dbc877d8435df316f322408f4e6f060afae6684d91ada89163cb626a325e5"
+    }
+  ],
+  "output_directory": "analysis_work/zip_audit",
+  "source_families": [
+    "supplied ZIP",
+    "atlas",
+    "primary public pages"
+  ],
+  "alternative_hypotheses": [
+    "Shared genre and editorial templates explain linguistic similarities"
+  ],
+  "disconfirmation_test": "Mask identity terms and compare title with transcript results",
+  "done_when": "Three assigned build/review rounds documented and final deliverable passed or limitation recorded",
+  "review_policy": "Independent source and numeric review",
+  "dependencies": [],
+  "capability_receipt": {
+    "runtime": "native subagent",
+    "task_name": "/root/zip_audit",
+    "read_verified": true,
+    "evidence": "Worker returned inspected input findings in native collaboration message, 2026-10-23",
+    "observed_at": "2026-10-23"
+  },
+  "budget_checkpoint": "Report after each bounded round"
+}

@@ -1,0 +1,57 @@
+{
+  "round": 4,
+  "reviewer": "corpus model-agent; not independent human peer review",
+  "reviewed_file": "research/paper/rounds/round4/body.tex",
+  "reviewed_sha256": "2b869f26ced9efabf00eb7eeaba513228cc77a8ff5812e456d6879e7e60d22f7",
+  "review_date": "2026-10-23",
+  "status": "corrections_requested",
+  "checks_passed": [
+    "The 925-ID union equals 482 + 457 − 14; 47 metadata failures, 878 fresh metadata records, 877 fresh positive durations and 881 total durations including four inherited values are correctly distinguished.",
+    "Caption funnel: 36 attempted → 34 available → 30 main English documents; 17 groups with 13 paired and four singletons is correct.",
+    "The draft makes no source/voice authenticity conclusion and discloses raw-caption exclusion and lack of diarization.",
+    "Scranton concordance percentages and distinct tokenizers are described correctly."
+  ],
+  "findings": [
+    {
+      "id": "C4-1",
+      "severity": "medium",
+      "location": "Data and Provenance / Titles and the caption pilot",
+      "problem": "The actual selection rule is omitted. Merely saying selected purposively across multiple groups hides reliance on supplied recent-video order, title exclusions, single Aluna Ash row and extra Scranton case.",
+      "requested_change": "Add concise selection rule and say the supplied recent order was not independently verified as complete. Add language labels29 en / 2 en-US / 2 ja / 1 cs or put in reproducibility appendix.",
+      "evidence": "research/analysis/corpus/coverage.json; research/analysis/inputs/corpus-selection.json",
+      "round4_frozen_status": "open; selection rule remains absent"
+    },
+    {
+      "id": "C4-2",
+      "severity": "medium",
+      "location": "Data and Provenance / Units and source precedence; reproducibility appendix",
+      "problem": "Collection timestamp precision and public request method are not given. Metadata is precise request-start time, captions only day precision.",
+      "requested_change": "Add ordinary unauthenticated request method,five workers, no retries, no credentials; UTC request range and day-only caption precision. Cite acquisition receipt. Distinguish925 metadata request attempts from 36 caption attempts.",
+      "evidence": "research/paper/reviews/corpus/acquisition_receipt.json",
+      "round4_frozen_status": "open; request protocol and precision remain absent"
+    },
+    {
+      "id": "C4-3",
+      "severity": "medium",
+      "location": "Background and Related Work / Channeling as a research object",
+      "problem": "The 2023 description says 15 participants but does not clarify that quantitative correspondence ratings use US seven only. Some questions were philosophical/metaphysical, so ten scientific questions overstates their scope.",
+      "requested_change": "Say ten scientist-supplied scientific/metaphysical questions; quantitative US n=7, qualitative total n=15. If drawing a state comparison, mention fixed order andfive versus ten minutes answering time.",
+      "evidence": "Publisher PDF 10.31275/20232907, printed pp.352–356; primary_source_cards.json",
+      "round4_frozen_status": "partially resolved; US quantitative seven and qualitative fifteen now explicit, fixed order/unequal time mentioned; still says ten scientific questions and should restrict the condition timing description to US"
+    },
+    {
+      "id": "C4-4",
+      "severity": "minor",
+      "location": "Figure captions",
+      "problem": "Matched caption has conditional “diagonal, if displayed” wording although plots are now produced; duration caption says dots, means, quartile marks without clear mark mapping.",
+      "requested_change": "Replace with exact generated caption descriptions after visual review. Note matched figure includes leave-one-publisher-out panel.",
+      "evidence": "research/paper/generated/figure-captions.json",
+      "round4_frozen_status": "resolved in frozen round4; actual marks and both matched-figure panels described"
+    }
+  ],
+  "initial_draft_reviewed_sha256": "7f43d78446234db6973c5c5a9841da8eafe49a86ad1e406c232ac9f5fe1e97f4",
+  "frozen_pdf_path": "research/paper/rounds/round4/main.pdf",
+  "frozen_pdf_sha256": "a395941231d063d3faab18f0ea90766438ed9c1135a612102b92f1edb6ee9bc1",
+  "review_scope": "Source-text and acquisition-method check of frozen round4 body; PDF layout is reviewed by design/method agents.",
+  "round5_requested_addendum": "Define manual as a non-auto-generated track label rather than human transcription/validation; add counts28automatic+2manual in main30-English cohort if room."
+}

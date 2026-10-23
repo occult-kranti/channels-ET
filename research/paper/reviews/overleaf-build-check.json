@@ -1,0 +1,15 @@
+{
+  "round": 6,
+  "test": "Extract Overleaf ZIP into a clean directory; compile using PDFLaTeX/BibTeX with standard dependencies, no project source tree in TeX paths.",
+  "checks": {
+    "extractedTextIdentical": true,
+    "pages": 12,
+    "undefinedReferences": false,
+    "overfullBoxes": false,
+    "bibtexWarning": false,
+    "packageHashesValid": true
+  },
+  "pdfSha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716",
+  "overleafSha256": "f35108542cfad5e4ff5d6f9984d3334885875c180c07a3d23019eee132e6ac98",
+  "note": "PDF binary IDs and build timestamps can differ; all extracted page text matches."
+}

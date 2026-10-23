@@ -1,0 +1,39 @@
+{
+  "selected": 36,
+  "caption_success": 34,
+  "caption_failures": [
+    {
+      "video_id": "OooAhzBX5T8",
+      "person": "Megan Rose",
+      "error": {
+        "type": "TranscriptsDisabled",
+        "message": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=OooAhzBX5T8! This is most likely caused by:\n\nSubtitles are disabled for this video\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+      }
+    },
+    {
+      "video_id": "t_OYRnFXEHQ",
+      "person": "Mônica de Medeiros",
+      "error": {
+        "type": "VideoUnplayable",
+        "message": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=t_OYRnFXEHQ! This is most likely caused by:\n\nThe video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+      }
+    }
+  ],
+  "languages": {
+    "en": 29,
+    "en-US": 2,
+    "cs": 1,
+    "ja": 2
+  },
+  "caption_types": {
+    "automatic": 32,
+    "manual": 2
+  },
+  "total_whitespace_words": 64683,
+  "channels_selected": 18,
+  "roles": "Publisher accounts sampled, not all speakers or proof of channeling. ZIP may assign a practitioner to a brand channel. Captions may include introductions, host speech, promotional material, music captions, and content unrelated to ET claims.",
+  "selection": "First two supplied recent-video entries for each status-ok ZIP channel plus Darryl Anka and Athina Król, excluding donation/register/all-day-event titles; Aluna Ash had only one supplied entry. One extra Scranton text-concordance video kept separately.",
+  "content_access": "YouTube caption text downloaded with youtube-transcript-api1.2.4. Not audio-listened or human-corrected. Public watch metadata independently fetched.",
+  "rights": "Raw transcripts remain scratch-only; source manifests and derived metrics may be integrated. Do not publish fulltext or extensive quotations.",
+  "repository_digest_corpus": "75 structured researcher digests in bashar-index data/videos.json; no transcript files found in207-entry pinned tree. Digest word_count/percentages/clusters are inherited and cannot substitute for direct transcript analysis."
+}

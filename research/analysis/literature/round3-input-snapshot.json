@@ -1,0 +1,22 @@
+{
+  "reviewedAt": "2026-10-23T19:45:53.813854+00:00",
+  "phase": "Phase 1, executed Round 3",
+  "files": {
+    "dist/analysis/data.json": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+    "dist/analysis/report.html": "cfae30b7c0ec49e2291f6246f147559bafe8ea5dee358ad5ef47cbf1222cb766",
+    "research/analysis/build_report.py": "ed88777ea304d83e77b2338ea1389162414505a26e32a134f11be7b6a9a5c21e",
+    "research/analysis/build_analysis.py": "426e2605f9a7a7255615707ddd69c4fb113e4db20d203a9a2584a5ce45036b4f",
+    "research/analysis/semantic_analysis.py": "e6c523d417921e6076e046cec12f1627fb4a0ccffe1f515accdddea07886e16f",
+    "research/analysis/corpus/scranton_concordance.json": "b307929ada263260fd72b1a5eb4a8e13c72749b1496072f41fa5e2400180b903",
+    "research/analysis/corpus/scranton_window_sensitivity.json": "ec5da478ec56ca8061a8bf60ef761c93c952e6e8427806971bee6f8653081d27",
+    "dist/analysis/figures/caption-similarity.png": "7ce71005d80f7f4a623a216a6acc88770c47ffd2d818edfeb44abed1913b4f8e",
+    "dist/analysis/figures/caption-topics.png": "b3dd306e3cb0d3a5ef33c9ba51cb601a54128cfb17d004ef30aabfef935d3a33",
+    "dist/analysis/figures/caption-within-between.png": "c77f8cd59736469271356a6f26468f63f8b3a078670979b4406b8ec40f77a368",
+    "dist/analysis/figures/coverage.png": "7c4b6371c83eabf8feb507e5821c44539a90138241754187adeadd369a54daa0",
+    "dist/analysis/figures/duration-format.png": "88c30e1041f1f6689ea2e6737cd952e08944dedb908ccffca30bcff1cef897a9",
+    "dist/analysis/figures/duration.png": "f1e1d8000abdb0d30cd0b986a416451030674bca96fe7676e8df286b0da075b1",
+    "dist/analysis/figures/lexical-similarity.png": "50ffd8c11af0d25b210702873dd0e3a1425c6e27e76fd319f7192b05b4017bc9",
+    "dist/analysis/figures/title-caption-indicators.png": "5c408d29620eff76d4bc6dc18e490f3e3af25bf505f073d5f8821c0d891a519d",
+    "dist/analysis/figures/title-topics.png": "34fbf1cd789160b95ab76d19dcde606779b82c305788db606b939f2a39165e7b"
+  }
+}

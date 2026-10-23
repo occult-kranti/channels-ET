@@ -1,0 +1,56 @@
+{
+  "round": 6,
+  "reviewed_on": "2026-10-23",
+  "reviewer": "literature model-agent workstream",
+  "scope": "Final frozen source/citation invariance and bibliography correction in extracted frozen PDF text; no independent human or page-layout review claimed.",
+  "sha256": {
+    "main.pdf": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716",
+    "body.tex": "b1d4d9628029c2f113a63051354d4ece525081c8121fedb464c067c1b21f6c21",
+    "references.bib": "7846562805561563d2f73cc8359f95a2065902763df90226a014c5dd39f044da",
+    "manifest.json": "ff237ed108eb1091d8a216fa7ceaab0294b4c1db2c8509c279fb63485c36a55b"
+  },
+  "bibliography_entries": 28,
+  "cited_references": 23,
+  "missing_keys": [],
+  "cited_keys": [
+    "anastasia2020qualitative",
+    "bloem2019consistency",
+    "boesinger2024tube2vec",
+    "chang2009reading",
+    "chen2026digital",
+    "claisse2023faith",
+    "doogan2021twaddle",
+    "enevoldsen2025mmteb",
+    "grimmer2013text",
+    "hoyle2021incoherence",
+    "klinoron2014channel",
+    "li2025haystack",
+    "muennighoff2023mteb",
+    "ota2025pathways",
+    "reimers2019sentencebert",
+    "ribeiro2021youniverse",
+    "schroeder2025reliability",
+    "starbird2018ecosystem",
+    "tomlinson2019medium",
+    "wahbeh2023answers",
+    "wahbeh2026qualitative",
+    "wahbeh2026records",
+    "wahbeh2026semantic"
+  ],
+  "uncited_keys": [
+    "bender2018statements",
+    "olteanu2019social",
+    "stammbach2023revisiting",
+    "wang2020minilm",
+    "yang2025tealeaves"
+  ],
+  "changes_from_round5": [
+    "Aluna wording now attributes the single entry to the supplied listing, not to the practitioner.",
+    "MMTEB author escape renders Rystrøm without an internal space."
+  ],
+  "round5_findings_closed": [
+    "L5-01"
+  ],
+  "new_findings": [],
+  "disposition": "Literature and citation workstream passes for release as a working research draft; remaining human validation, authorship, rights and ethics TBDs remain unchanged."
+}

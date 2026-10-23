@@ -1,0 +1,48 @@
+{
+  "checkedOn": "2026-10-23",
+  "repository": "occult-kranti/bashar-index",
+  "layout": {
+    "githubProjectRoot": "channeling-atlas/",
+    "sitesProjectRoot": ".",
+    "note": "Separate repositories and commit histories; preserve both roots and the Site identity."
+  },
+  "baseline": {
+    "githubCommit": "bbe4801a09c28f07eeea6f0fe7e9f0d61e4d791f",
+    "githubTree": "dcf7fb03fde223ad6480fee696771406b6e5625a",
+    "sitesScientificCommit": "ce54cb5a91c6d622e2b9772ab45dbd6606fcca1f",
+    "dataSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+    "paperSha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716"
+  },
+  "branches": [
+    {
+      "name": "main",
+      "role": "reviewed integration",
+      "updatePolicy": "ordinary commits; reread head before pushing"
+    },
+    {
+      "name": "release/channeling-atlas-2026-10-23",
+      "role": "frozen scientific release",
+      "pinnedCommit": "bbe4801a09c28f07eeea6f0fe7e9f0d61e4d791f",
+      "updatePolicy": "keep fixed; create a new dated release branch"
+    },
+    {
+      "name": "research/channeling-atlas-next",
+      "role": "continuation including README handoff",
+      "createdFrom": "bbe4801a09c28f07eeea6f0fe7e9f0d61e4d791f",
+      "updatePolicy": "fast-forward to handoff commit, then bounded reviewed tasks"
+    },
+    {
+      "name": "experiment-frequency-of-place",
+      "role": "separate existing experiment",
+      "observedCommit": "e628974ba018c775da41de304bd55afafd16b426",
+      "comparisonBase": "bbe4801a09c28f07eeea6f0fe7e9f0d61e4d791f",
+      "aheadAtAudit": 1,
+      "behindAtAudit": 3,
+      "openPullRequestsAtAudit": 0,
+      "updatePolicy": "preserved; integration requires its own code/domain review"
+    }
+  ],
+  "protection": "No server-side branch-protection changes made; release pin is a convention.",
+  "publication": "Sync reviewed project paths into the Sites source separately. Do not replace original repository-root content with the nested Atlas project.",
+  "outstandingWork": "README.md#roadmap-next-research-phase"
+}

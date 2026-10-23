@@ -1,0 +1,396 @@
+{
+  "round": 5,
+  "scope": "Independent arithmetic and provenance checks of frozen paper against retained observation rows; no fresh collection, no caption text, no independent re-execution of model inference.",
+  "files": [
+    {
+      "path": "dist/analysis/data.json",
+      "sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc"
+    },
+    {
+      "path": "research/analysis/inputs/fresh_metadata.json",
+      "sha256": "223f4212cd027ae5d190c2ec164a1b1b5b00312117070af3ffcfd36ff1c32ad0"
+    },
+    {
+      "path": "research/paper/rounds/round5/body.tex",
+      "sha256": "ba9a08bab6c8a2864ebc920180a566468b43ef8f3308a7142b8e1fcd5999e387"
+    },
+    {
+      "path": "research/paper/rounds/round5/main.pdf",
+      "sha256": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0"
+    },
+    {
+      "path": "research/paper/rounds/round5/generated/paper-results.json",
+      "sha256": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604"
+    }
+  ],
+  "checks": [
+    {
+      "name": "source snapshot hash",
+      "observed": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+      "reported": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+      "pass": true
+    },
+    {
+      "name": "indexedVideos",
+      "observed": 925,
+      "reported": 925,
+      "pass": true
+    },
+    {
+      "name": "watchMetadataSuccesses",
+      "observed": 878,
+      "reported": 878,
+      "pass": true
+    },
+    {
+      "name": "durationKnown",
+      "observed": 881,
+      "reported": 881,
+      "pass": true
+    },
+    {
+      "name": "durationFresh",
+      "observed": 877,
+      "reported": 877,
+      "pass": true
+    },
+    {
+      "name": "durationInherited",
+      "observed": 4,
+      "reported": 4,
+      "pass": true
+    },
+    {
+      "name": "dateKnown",
+      "observed": 880,
+      "reported": 880,
+      "pass": true
+    },
+    {
+      "name": "attributedVideos",
+      "observed": 886,
+      "reported": 886,
+      "pass": true
+    },
+    {
+      "name": "routeGroups",
+      "observed": 256,
+      "reported": 256,
+      "pass": true
+    },
+    {
+      "name": "groupsWithVideos",
+      "observed": 180,
+      "reported": 180,
+      "pass": true
+    },
+    {
+      "name": "groupsWithDurations",
+      "observed": 178,
+      "reported": 178,
+      "pass": true
+    },
+    {
+      "name": "englishLikelyTitles",
+      "observed": 742,
+      "reported": 742,
+      "pass": true
+    },
+    {
+      "name": "embeddedTitles",
+      "observed": 706,
+      "reported": 706,
+      "pass": true
+    },
+    {
+      "name": "captionPilot",
+      "observed": 30,
+      "reported": 30,
+      "pass": true
+    },
+    {
+      "name": "captionPublishers",
+      "observed": 17,
+      "reported": 17,
+      "pass": true
+    },
+    {
+      "name": "captionComparisonPublishers",
+      "observed": 13,
+      "reported": 13,
+      "pass": true
+    },
+    {
+      "name": "captionComparisonDocuments",
+      "observed": 26,
+      "reported": 26,
+      "pass": true
+    },
+    {
+      "name": "matchedEligibleDocuments",
+      "observed": 25,
+      "reported": 25,
+      "pass": true
+    },
+    {
+      "name": "matchedContributingDocuments",
+      "observed": 22,
+      "reported": 22,
+      "pass": true
+    },
+    {
+      "name": "matchedPublishers",
+      "observed": 11,
+      "reported": 11,
+      "pass": true
+    },
+    {
+      "name": "matchedPairs",
+      "observed": 55,
+      "reported": 55,
+      "pass": true
+    },
+    {
+      "name": "duration n: ch-73032cea690b",
+      "observed": 16,
+      "reported": 16,
+      "pass": true
+    },
+    {
+      "name": "duration mean: ch-73032cea690b",
+      "observed": 3.366666667,
+      "reported": 3.366666667,
+      "pass": true
+    },
+    {
+      "name": "duration median: ch-73032cea690b",
+      "observed": 3.058333333,
+      "reported": 3.058333333,
+      "pass": true
+    },
+    {
+      "name": "duration n: ch-4deae3e4c229",
+      "observed": 9,
+      "reported": 9,
+      "pass": true
+    },
+    {
+      "name": "duration mean: ch-4deae3e4c229",
+      "observed": 40.581481481,
+      "reported": 40.581481481,
+      "pass": true
+    },
+    {
+      "name": "duration median: ch-4deae3e4c229",
+      "observed": 47.216666667,
+      "reported": 47.216666667,
+      "pass": true
+    },
+    {
+      "name": "duration n: ch-3ccbf336c582",
+      "observed": 34,
+      "reported": 34,
+      "pass": true
+    },
+    {
+      "name": "duration mean: ch-3ccbf336c582",
+      "observed": 16.624019608,
+      "reported": 16.624019608,
+      "pass": true
+    },
+    {
+      "name": "duration median: ch-3ccbf336c582",
+      "observed": 16.983333333,
+      "reported": 16.983333333,
+      "pass": true
+    },
+    {
+      "name": "duration n: ch-4f327ca79023",
+      "observed": 30,
+      "reported": 30,
+      "pass": true
+    },
+    {
+      "name": "duration mean: ch-4f327ca79023",
+      "observed": 20.601666667,
+      "reported": 20.601666667,
+      "pass": true
+    },
+    {
+      "name": "duration median: ch-4f327ca79023",
+      "observed": 5.975,
+      "reported": 5.975,
+      "pass": true
+    },
+    {
+      "name": "duration n: ch-e7ffb2da4c80",
+      "observed": 30,
+      "reported": 30,
+      "pass": true
+    },
+    {
+      "name": "duration mean: ch-e7ffb2da4c80",
+      "observed": 42.368333333,
+      "reported": 42.368333333,
+      "pass": true
+    },
+    {
+      "name": "duration median: ch-e7ffb2da4c80",
+      "observed": 33.233333333,
+      "reported": 33.233333333,
+      "pass": true
+    },
+    {
+      "name": "duration n: ch-ff85f37eb9b1",
+      "observed": 22,
+      "reported": 22,
+      "pass": true
+    },
+    {
+      "name": "duration mean: ch-ff85f37eb9b1",
+      "observed": 170.253787879,
+      "reported": 170.253787879,
+      "pass": true
+    },
+    {
+      "name": "duration median: ch-ff85f37eb9b1",
+      "observed": 134.025,
+      "reported": 134.025,
+      "pass": true
+    },
+    {
+      "name": "duration n: ch-033701dde894",
+      "observed": 20,
+      "reported": 20,
+      "pass": true
+    },
+    {
+      "name": "duration mean: ch-033701dde894",
+      "observed": 103.450833333,
+      "reported": 103.450833333,
+      "pass": true
+    },
+    {
+      "name": "duration median: ch-033701dde894",
+      "observed": 87.966666667,
+      "reported": 87.966666667,
+      "pass": true
+    },
+    {
+      "name": "duration n: ch-aaaebac2693b",
+      "observed": 35,
+      "reported": 35,
+      "pass": true
+    },
+    {
+      "name": "duration mean: ch-aaaebac2693b",
+      "observed": 19.807619048,
+      "reported": 19.807619048,
+      "pass": true
+    },
+    {
+      "name": "duration median: ch-aaaebac2693b",
+      "observed": 15.55,
+      "reported": 15.55,
+      "pass": true
+    },
+    {
+      "name": "pooling source",
+      "observed": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+      "reported": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+      "pass": true
+    },
+    {
+      "name": "pooling document identities",
+      "observed": [
+        "2WoeqiizPCQ",
+        "2v8rXyVBrQ4",
+        "5Sq-dBoqu10",
+        "7wrxKKVLcBA",
+        "8pG8QV-18xQ",
+        "9F_9Ed-yWX4",
+        "9UPOe-GdVE4",
+        "BRsg_krdt8s",
+        "C95Y9g135kg",
+        "CdeF5JtUB44",
+        "MDdyY1WYmHY",
+        "NxYRldsuB3s",
+        "SPiLHHvhGeM",
+        "T350BmG4zwM",
+        "T5QtncJq1Jc",
+        "UMrZXFgMpdo",
+        "csxHi8oghhY",
+        "dRbLEaSOP2k",
+        "dTKNeJ0hGMo",
+        "dWPc8lU-OPc",
+        "fZmY4xS_qXE",
+        "g88RqksSChM",
+        "ierU5o3ffX4",
+        "qa9694ghfzE",
+        "rnZ_y4-kM1I",
+        "svK99fsGskw",
+        "vvV4JcA5U7o",
+        "wTGFWgT7LOU",
+        "xxbzklPyRtg",
+        "z5bKGZzwkt8"
+      ],
+      "reported": [
+        "2WoeqiizPCQ",
+        "2v8rXyVBrQ4",
+        "5Sq-dBoqu10",
+        "7wrxKKVLcBA",
+        "8pG8QV-18xQ",
+        "9F_9Ed-yWX4",
+        "9UPOe-GdVE4",
+        "BRsg_krdt8s",
+        "C95Y9g135kg",
+        "CdeF5JtUB44",
+        "MDdyY1WYmHY",
+        "NxYRldsuB3s",
+        "SPiLHHvhGeM",
+        "T350BmG4zwM",
+        "T5QtncJq1Jc",
+        "UMrZXFgMpdo",
+        "csxHi8oghhY",
+        "dRbLEaSOP2k",
+        "dTKNeJ0hGMo",
+        "dWPc8lU-OPc",
+        "fZmY4xS_qXE",
+        "g88RqksSChM",
+        "ierU5o3ffX4",
+        "qa9694ghfzE",
+        "rnZ_y4-kM1I",
+        "svK99fsGskw",
+        "vvV4JcA5U7o",
+        "wTGFWgT7LOU",
+        "xxbzklPyRtg",
+        "z5bKGZzwkt8"
+      ],
+      "pass": true
+    },
+    {
+      "name": "pooling chunks",
+      "observed": 320,
+      "reported": 320,
+      "pass": true
+    },
+    {
+      "name": "pooling content WordPieces",
+      "observed": 73170,
+      "reported": 73170,
+      "pass": true
+    },
+    {
+      "name": "pooling neighbors changed",
+      "observed": 2,
+      "reported": 2,
+      "pass": true
+    }
+  ],
+  "requestStartRangeUtc": [
+    "2026-10-23T19:24:24.900490+00:00",
+    "2026-10-23T19:36:49.426737+00:00"
+  ],
+  "failedRetrievals": 47,
+  "pass": true
+}

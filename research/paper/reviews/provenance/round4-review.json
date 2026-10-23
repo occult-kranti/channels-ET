@@ -1,0 +1,110 @@
+{
+  "round": 4,
+  "reviewer": "zip_audit provenance workstream",
+  "reviewedFiles": [
+    {
+      "path": "rounds/round4/main.tex",
+      "sha256": "eebe43aa864156e909cebc434cdc9494a8251e8c75f3b942f2683dd4e2cf8543"
+    },
+    {
+      "path": "rounds/round4/body.tex",
+      "sha256": "2b869f26ced9efabf00eb7eeaba513228cc77a8ff5812e456d6879e7e60d22f7"
+    },
+    {
+      "path": "rounds/round4/generated/paper-results.json",
+      "sha256": "caa1cba1666dcc9c2ee6fab7aa4663245b3bab6c20b2e53e8447b48688101c16"
+    }
+  ],
+  "mode": "actual frozen round4 manuscript source review; PDF visual inspection delegated to presentation workstream",
+  "status": "corrections requested; core data claims supported with stated scope",
+  "findings": [
+    {
+      "id": "R4-P1",
+      "severity": "medium",
+      "location": "body.tex:23",
+      "status": "correction-requested",
+      "observed": "The atlas maintains a separate historical timeline beginning with its Ra-session focus.",
+      "source": "dist/data.json events[0:12]",
+      "finding": "The actual atlas begins with 1848 and contains multiple pre-Ra events.",
+      "recommended": "The atlas maintains a separate historical timeline anchored in its Ra-contact focus and including earlier precursors."
+    },
+    {
+      "id": "R4-P2",
+      "severity": "medium",
+      "location": "body.tex:97",
+      "status": "correction-requested",
+      "observed": "The refresh supplies measured duration for 95.2%...and an exact date for 95.1%.",
+      "source": "dist/analysis/data.json coverage",
+      "finding": "Those totals combine 877 fresh + 4 inherited durations and 878 fresh + 2 inherited dates. The refresh alone did not produce all 881/880 values.",
+      "recommended": "Combined current and explicitly labeled inherited metadata provides duration for 95.2% and an exact date for 95.1% of the index."
+    },
+    {
+      "id": "R4-P3",
+      "severity": "medium",
+      "location": "body.tex:48",
+      "status": "correction-requested",
+      "observed": "47 unavailable outcomes",
+      "source": "research/analysis/inputs/fresh_metadata.json status field",
+      "finding": "Acquisition status failed does not establish that a source itself is unavailable or absent.",
+      "recommended": "47 unsuccessful retrieval outcomes"
+    },
+    {
+      "id": "R4-P4",
+      "severity": "low",
+      "location": "body.tex:23 and Data and Provenance",
+      "status": "clarification-recommended",
+      "finding": "The corpus includes non-ET adjacent spiritual/context material as well as interviews, reposts, promotion and attributed channeling. No validated all-video channeling-session classifier is present.",
+      "source": "supplied CSV roles;pilot titles for Lorie Ladd and other context content",
+      "recommended": "Explicitly say that the ET-focused discovery index retains adjacent spiritual/mediumship content and does not classify every included upload as an ET-channeling session."
+    },
+    {
+      "id": "R4-P5",
+      "severity": "low",
+      "location": "body.tex:48",
+      "status": "clarification-recommended",
+      "finding": "Publication dates are correctly distinguished from relative ages, but recording/session time is not explicitly separated in the methods paragraph.",
+      "recommended": "Add that upload publication time need not equal recording/session time, and a recent repost does not establish practitioner activity."
+    },
+    {
+      "id": "R4-P6",
+      "severity": "medium",
+      "location": "body.tex:174",
+      "status": "verify-at-round6",
+      "finding": "The draft states that three further manuscript rounds are recorded before rounds 5/6 have actually occurred. It can become true by final release; no completion is inferred now.",
+      "recommended": "Use planned/current status until round 6, then verify records and hashes before retaining completed tense."
+    }
+  ],
+  "verified": [
+    "925-ID union arithmetic482+457-14",
+    "256 account groups versus180 with observations and178 with duration",
+    "881 total durations versus877 fresh+4 inherited",
+    "880 exact dates versus878 fresh+2 inherited",
+    "742 English-likely titles versus706 attributed/embedded",
+    "34 retrieved caption tracks versus30 analyzed English documents",
+    "17 pilot publisher groups versus13 meetingtwo-document threshold",
+    "25 matched eligibility records versus22 contributing videos,11 publishers and55 pairs",
+    "Internal AI review explicitly distinguished from human peer review,authorship and institutional ethics approval",
+    "No claim of ET-source validation or state-of-the-art domain performance"
+  ],
+  "initialReviewedFiles": [
+    {
+      "path": "main.tex",
+      "sha256": "eebe43aa864156e909cebc434cdc9494a8251e8c75f3b942f2683dd4e2cf8543"
+    },
+    {
+      "path": "body.tex",
+      "sha256": "53e6f55e74955b292e2adb04c9a041586536f3139f4c6eff315efb7b4cafb407"
+    },
+    {
+      "path": "generated/paper-results.json",
+      "sha256": "caa1cba1666dcc9c2ee6fab7aa4663245b3bab6c20b2e53e8447b48688101c16"
+    }
+  ],
+  "artifactContext": {
+    "pdfPath": "rounds/round4/main.pdf",
+    "pdfSha256": "a395941231d063d3faab18f0ea90766438ed9c1135a612102b92f1edb6ee9bc1",
+    "pdfVisualReviewPerformed": false,
+    "explanation": "Source provenance review rebound to actual frozen round4 source after the PDF build. Presentation review belongs to another workstream."
+  },
+  "snapshotRecheck": "Read the entire frozen round4 body.tex. All six findings and all verified source claims remain unchanged."
+}

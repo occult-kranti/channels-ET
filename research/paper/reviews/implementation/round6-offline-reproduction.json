@@ -1,0 +1,180 @@
+{
+  "mode": "Offline downstream replay in fresh isolated directory; no model inference or network use",
+  "scratchRoot": "/workspace/scratch/9ec421627a96/paper_reproduce_round6",
+  "sourceSnapshotSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "copiedInputPaths": [
+    "dist/analysis/data.json",
+    "research/analysis/inputs/fresh_metadata.json",
+    "research/paper/scripts/analyze_paper.py",
+    "research/paper/scripts/generate_results.py",
+    "research/paper/generated/chunk-weighting.json"
+  ],
+  "commands": [
+    {
+      "cmd": [
+        "python3",
+        "research/paper/scripts/analyze_paper.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{\"coverage\": {\"indexedVideos\": 925, \"watchMetadataSuccesses\": 878, \"durationKnown\": 881, \"durationFresh\": 877, \"durationInherited\": 4, \"dateKnown\": 880, \"attributedVideos\": 886, \"routeGroups\": 256, \"groupsWithVideos\": 180, \"groupsWithDurations\": 178, \"englishLikelyTitles\": 742, \"embeddedTitles\": 706, \"titleGroupsMinFive\": 23, \"captionAttempted\": 36, \"captionAvailable\": 34, \"captionEnglish\": 31, \"captionPilot\": 30, \"captionPublishers\": 17, \"captionComparisonPublishers\": 13, \"captionComparisonDocuments\": 26, \"matchedEligibleDocuments\": 25, \"matchedContributingDocuments\": 22, \"matchedPublishers\": 11, \"matchedPairs\": 55}, \"matchedRho\": 0.20562770562770566, \"lopoRange\": [-0.04334650856389986, 0.37865612648221336], \"captionLengths\": {\"n\": 30, \"sum\": 59110, \"mean\": 1970.3333333333333, \"median\": 1097.5, \"q1\": 579.0, \"q3\": 2546.25, \"min\": 87, \"max\": 8588, \"longest\": {\"videoId\": \"2WoeqiizPCQ\", \"publisher\": \"Lorie Ladd\", \"words\": 8588}, \"shortest\": {\"videoId\": \"BRsg_krdt8s\", \"publisher\": \"hgrfrequencies\", \"words\": 87}}}\n",
+      "stderr": ""
+    },
+    {
+      "cmd": [
+        "python3",
+        "research/paper/scripts/generate_results.py"
+      ],
+      "exitCode": 0,
+      "stdout": "Generated macros 45 tables5, figures4(PDF/PNG)\n",
+      "stderr": ""
+    }
+  ],
+  "comparedOutputs": [
+    {
+      "relativePath": "paper-results.json",
+      "frozenSha256": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604",
+      "reproducedSha256": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "results.tex",
+      "frozenSha256": "ede8150b7d072906119cb053fd50526e6f55a7540b2f22551a49d6056d704332",
+      "reproducedSha256": "ede8150b7d072906119cb053fd50526e6f55a7540b2f22551a49d6056d704332",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "macro-index.json",
+      "frozenSha256": "2f2250cce467b40d3ae330a09036729f35c4438f9cadd627448c9637ed39b195",
+      "reproducedSha256": "2f2250cce467b40d3ae330a09036729f35c4438f9cadd627448c9637ed39b195",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "coverage-table.tex",
+      "frozenSha256": "95a05656b51e9ad8ec8b03734742f2dd799eb7d41df536f678128af3c38e7c18",
+      "reproducedSha256": "95a05656b51e9ad8ec8b03734742f2dd799eb7d41df536f678128af3c38e7c18",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "duration-table.tex",
+      "frozenSha256": "c1b4c99a284c175842c864f3526a4c3929d4a7b1a011707ae76cdb31d045b400",
+      "reproducedSha256": "c1b4c99a284c175842c864f3526a4c3929d4a7b1a011707ae76cdb31d045b400",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "sensitivity-table.tex",
+      "frozenSha256": "be1da1b582f1cb476d17f2c0b999a22b1c371d1d1ff312f4883a6ec2c3c39f62",
+      "reproducedSha256": "be1da1b582f1cb476d17f2c0b999a22b1c371d1d1ff312f4883a6ec2c3c39f62",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "lopo-table.tex",
+      "frozenSha256": "8bbccf10ca386c74b6284acc7b3dd4db0ad03268f9ec9dc7b4fed8ce699005a7",
+      "reproducedSha256": "8bbccf10ca386c74b6284acc7b3dd4db0ad03268f9ec9dc7b4fed8ce699005a7",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "caption-length-table.tex",
+      "frozenSha256": "3e11aca251dcbd15d133baaa88a37d57d468232f3672366d71dc5c564d968960",
+      "reproducedSha256": "3e11aca251dcbd15d133baaa88a37d57d468232f3672366d71dc5c564d968960",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "additional-results.tex",
+      "frozenSha256": "2bc8a643355c7df1c0a68933c3d00e0469fa5c3ba90983a4bc933f69ca42c424",
+      "reproducedSha256": "2bc8a643355c7df1c0a68933c3d00e0469fa5c3ba90983a4bc933f69ca42c424",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "formulas.tex",
+      "frozenSha256": "2e4bc9a235a04295dfffe96ee60dfa325a17c97a3390339ce93aeacb19548f8c",
+      "reproducedSha256": "2e4bc9a235a04295dfffe96ee60dfa325a17c97a3390339ce93aeacb19548f8c",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figure-captions.json",
+      "frozenSha256": "f774b5d9f1d5da4d4240b2efaf833d2e1815ebf21beca294ef35cf600b2df749",
+      "reproducedSha256": "f774b5d9f1d5da4d4240b2efaf833d2e1815ebf21beca294ef35cf600b2df749",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "leave-one-publisher-out.csv",
+      "frozenSha256": "21636b8c020af6b1596f9e4d8ecede62cba8da801a9d6f0b4f49606bbc13bbb7",
+      "reproducedSha256": "21636b8c020af6b1596f9e4d8ecede62cba8da801a9d6f0b4f49606bbc13bbb7",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "matched-pair-cosines.csv",
+      "frozenSha256": "c707431bb5db012afa4aab51f6cde6cf7bb257745ae86fcaab0c67d3403f0161",
+      "reproducedSha256": "c707431bb5db012afa4aab51f6cde6cf7bb257745ae86fcaab0c67d3403f0161",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "caption-lengths.csv",
+      "frozenSha256": "1107980cf16922b6509ead194b2c71f8813273a5de760e9594366ad2019ad669",
+      "reproducedSha256": "1107980cf16922b6509ead194b2c71f8813273a5de760e9594366ad2019ad669",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "focal-durations.csv",
+      "frozenSha256": "b3f9e56ab042fa2971b7203ef1d6e9b38bfb806cec3423202eef169c686be275",
+      "reproducedSha256": "b3f9e56ab042fa2971b7203ef1d6e9b38bfb806cec3423202eef169c686be275",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figures/coverage.png",
+      "frozenSha256": "48e57b26296e805c0eef139e699f68bf3a4068ab9a864321423bd37de7cfaadc",
+      "reproducedSha256": "48e57b26296e805c0eef139e699f68bf3a4068ab9a864321423bd37de7cfaadc",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figures/coverage.pdf",
+      "frozenSha256": "b4ae57e6910541d5007bd6d24644ff35dc3b22542801bbcf5671185bd672361c",
+      "reproducedSha256": "b4ae57e6910541d5007bd6d24644ff35dc3b22542801bbcf5671185bd672361c",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figures/duration.png",
+      "frozenSha256": "fb0c60415090689d0b421c36ca7e83efb143c943aeb59e9da9088bf96373d038",
+      "reproducedSha256": "fb0c60415090689d0b421c36ca7e83efb143c943aeb59e9da9088bf96373d038",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figures/duration.pdf",
+      "frozenSha256": "14785ed6468ec4515cfd84714eca3d384208b2ab3da22ac6819523030dce5d9e",
+      "reproducedSha256": "14785ed6468ec4515cfd84714eca3d384208b2ab3da22ac6819523030dce5d9e",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figures/matched-similarity.png",
+      "frozenSha256": "15d955af3888c6cb77d7e1314962555a733708262541ec2fdd7f7d06bf2b30c1",
+      "reproducedSha256": "15d955af3888c6cb77d7e1314962555a733708262541ec2fdd7f7d06bf2b30c1",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figures/matched-similarity.pdf",
+      "frozenSha256": "23f7dcf36f851eaf711dd648261f734e1d1995da47613ea874007acb2a1142f7",
+      "reproducedSha256": "23f7dcf36f851eaf711dd648261f734e1d1995da47613ea874007acb2a1142f7",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figures/sensitivity.png",
+      "frozenSha256": "d7a740b1aa672eb9c9fa82e377797bd7d7ff2f70295fc94c04585bd3f7f26750",
+      "reproducedSha256": "d7a740b1aa672eb9c9fa82e377797bd7d7ff2f70295fc94c04585bd3f7f26750",
+      "byteIdentical": true
+    },
+    {
+      "relativePath": "figures/sensitivity.pdf",
+      "frozenSha256": "af2d0d677b1443ce0a9edc0c13f285c43861bb306fd2e7cd73f0441c5d2c48f3",
+      "reproducedSha256": "af2d0d677b1443ce0a9edc0c13f285c43861bb306fd2e7cd73f0441c5d2c48f3",
+      "byteIdentical": true
+    }
+  ],
+  "allByteIdentical": true,
+  "count": 23,
+  "limitations": [
+    "Cached chunk-weighting.json is an input; this test does not replay raw caption acquisition, tokenizer or model inference.",
+    "Saved token-weighted vectors are not regenerated by the offline command. Independent method-panel checks separately reconstruct their publisher centroids and pairwise scores.",
+    "Artifact inventory manifests differ because this isolated build deliberately omits ancillary source files. All scientific tables, macros, numeric JSON, figure metadata, figure PDFs and PNGs were compared explicitly."
+  ],
+  "liveGeneratedMutated": false
+}

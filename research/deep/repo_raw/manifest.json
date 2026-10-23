@@ -1,0 +1,95 @@
+{
+  "repository": "occult-kranti/bashar-index",
+  "requestedCommit": "457dc2f2da10399bda2786573b7a77ec3fe34f62",
+  "retrievedAt": "2026-10-23",
+  "access": "GitHub connector fetch_file with explicit commit ref; local bytes match returned Git blob SHA",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1429,
+      "sha256": "84abe1fbaac811fee292219181d0d5521b8d4d128246d01d226b2ec6b20ffbd4",
+      "gitBlobSha": "9e01a36bb132fb618029e37c6a3cf4785ceb6d1b",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2191,
+      "sha256": "9fda85ae8e144ff81f4724ce40e0a091cb90e819fb1c04f2ed6dcd68bc2ea2bf",
+      "gitBlobSha": "de19d52110402ea26d0b97bff70d13fab804cd3e",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/README.md"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1525,
+      "sha256": "b851adea67cfc5824e98181753f0102edf42457fe33e5b34180927fcfa6de2b7",
+      "gitBlobSha": "7c54c28e3e9f23ec869ea3bf71cedd82d5a3b52b",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/README.md"
+    },
+    {
+      "path": "data/catalog_sessions.json",
+      "bytes": 479354,
+      "sha256": "618bb5667a883803fb108a9e3cd37c5d444ceaf73ec450a9cf23fa620b626c8d",
+      "gitBlobSha": "9e7e93d43cf390bb208a9904b43d81cd9e9c4838",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/catalog_sessions.json"
+    },
+    {
+      "path": "data/divine_light_vibes_channel.json",
+      "bytes": 11971,
+      "sha256": "ddd29f84a8eb08b4993e2019fa3650f2ff1386a9b1654550254c499bbe8cb199",
+      "gitBlobSha": "905c858846087c30ca92284ce98f8669ae911eb9",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/divine_light_vibes_channel.json"
+    },
+    {
+      "path": "data/official_channels.md",
+      "bytes": 6551,
+      "sha256": "f0cd7b5c8ae95c6067135444a1bb4fd762ad6b77746e731fcceff74cfac4c7e2",
+      "gitBlobSha": "235d8d7354044622b6de49e505c1f6f19fb36ff9",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/official_channels.md"
+    },
+    {
+      "path": "data/podcasts.json",
+      "bytes": 36390,
+      "sha256": "05c309ddf88be58f735038fbc678be21a4bd0986723d01c185a6b18915e3d191",
+      "gitBlobSha": "f2924e4aaafaf21767f68e0e23680cced77ab955",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/podcasts.json"
+    },
+    {
+      "path": "data/recordings.csv",
+      "bytes": 15973,
+      "sha256": "f42dd8f2e14bd7086d5d45031963bbb5f7ac30864a73a4520d3b86016ab1e93f",
+      "gitBlobSha": "f52c12427d64b74345a2dbe0505de21ec19134d0",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/recordings.csv"
+    },
+    {
+      "path": "data/videos.json",
+      "bytes": 755688,
+      "sha256": "fbd3610ead8a53448cd6b4058ac5a13fb285f9eda65266f0ff21884694d275b5",
+      "gitBlobSha": "631133d801b00932f50798bd4fbd1ae81d7e71ec",
+      "sourceUrl": "https://github.com/occult-kranti/bashar-index/blob/457dc2f2da10399bda2786573b7a77ec3fe34f62/data/videos.json"
+    }
+  ],
+  "counts": {
+    "videoDigestRows": 75,
+    "videoUploaderLabels": 38,
+    "divineLightCandidateVideos": 27,
+    "playlistRows": 1,
+    "podcastRows": 48,
+    "podcastRowsWithYouTube": 21,
+    "catalogRows": 684,
+    "uniqueVideoRecords": 104,
+    "uniqueAccountIdentities": 3,
+    "uniquePlaylistRecords": 1,
+    "uniqueExactYouTubeUrlsBeforeAliasMerge": 111,
+    "recordOccurrencesBeforeDeduplication": 127,
+    "finalRecords": 108
+  },
+  "license": "MIT covers derived repository metadata/code; original Bashar media is not licensed or reproduced. Preserve LICENSE when redistributing these derived metadata.",
+  "schemaNotes": {
+    "videos.json": "75 digest-derived metadata rows; year/year_reliable are historical content/year labels and are not exposed exact YouTube upload timestamps.",
+    "recordings.csv": "Same 75 videos; no added unique URLs.",
+    "divine_light_vibes_channel.json": "27 candidate clips, 2 equivalent account routes, 1 favorites playlist; most uploader associations tentative.",
+    "podcasts.json": "48 interview appearances, 20 with exact YouTube link; dates are episode dates.",
+    "catalog_sessions.json": "684 catalog entries with official/store/archive sources; no exact YouTube links."
+  },
+  "deduplication": "Exact YouTube video IDs; official handle/custom route and Divine Light numeric/handle routes merged as declared aliases; no session-title dedupe across distinct video IDs."
+}

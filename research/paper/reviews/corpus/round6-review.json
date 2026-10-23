@@ -1,0 +1,71 @@
+{
+  "round": 6,
+  "reviewer": "corpus model-agent; not independent human peer review",
+  "review_date": "2026-10-23",
+  "status": "pass",
+  "scope": "Final source and corpus provenance closure. Round5 visual inspection of relevant pages is supplemented by round6 PDF text verification; overall final layout reviewed separately.",
+  "files": [
+    {
+      "path": "research/paper/rounds/round6/body.tex",
+      "sha256": "b1d4d9628029c2f113a63051354d4ece525081c8121fedb464c067c1b21f6c21"
+    },
+    {
+      "path": "research/paper/rounds/round6/main.pdf",
+      "sha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716"
+    },
+    {
+      "path": "research/paper/rounds/round6/references.bib",
+      "sha256": "7846562805561563d2f73cc8359f95a2065902763df90226a014c5dd39f044da"
+    },
+    {
+      "path": "research/paper/rounds/round6/generated/paper-results.json",
+      "sha256": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604"
+    },
+    {
+      "path": "research/paper/rounds/round6/generated/chunk-weighting.json",
+      "sha256": "8170ec9c1b47e5b65d57edd52475e1f4cf77b4d2bbd34807a3400fc4d1be5a67"
+    }
+  ],
+  "round5_body_diff": "Only change: Aluna Ash supplied only one entry → The Aluna Ash listing contained only one entry.",
+  "c5_1": "Resolved in frozen source and PDFpage4; supplied-archive provenance no longer implies direct participation.",
+  "prior_c4_findings": "All remain resolved; relevant acquisition, timestamp precision, language/ASR counts, source-study US subset and limitations unchanged.",
+  "generated_results_identical_to_round5": true,
+  "canonical_source_input_hash_checks": [
+    {
+      "path": "dist/data.json",
+      "unchanged": true
+    },
+    {
+      "path": "research/analysis/inputs/fresh_metadata.json",
+      "unchanged": true
+    },
+    {
+      "path": "research/analysis/inputs/claude-source-manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "research/analysis/corpus/corpus_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "research/analysis/corpus/metadata_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "research/analysis/corpus/capture_metadata_2026-10-23.py",
+      "unchanged": true
+    },
+    {
+      "path": "research/deep/repo_raw/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "research/analysis/inputs/model_manifest.json",
+      "unchanged": true
+    }
+  ],
+  "all_canonical_source_inputs_unchanged": true,
+  "bibliography_delta": "Rystrøm author-key spacing only; the 2020/2023 primary study bibliography records are unchanged.",
+  "new_findings": [],
+  "residual_limits": "No human/audio validation or speaker diarization; raw captions absent from release; purposive sample cannot establish a population count or origin/truth of claims. These limits are disclosed, not resolved by agent review."
+}

@@ -1,0 +1,44 @@
+{
+  "round": 4,
+  "stage": "manuscript-source-review",
+  "reviewer": "/root/method_panel",
+  "bodySha256AtReceipt": "53e6f55e74955b292e2adb04c9a041586536f3139f4c6eff315efb7b4cafb407",
+  "protocolSha256": "b4ee112fcf8c86ded3f73c59f6acd8ba155c1c073db236bc743260ce1455adbe",
+  "findings": [
+    {
+      "id": "P4-M1",
+      "severity": "interpretation",
+      "evidence": "research/analysis/build_analysis.py: IDENTITY includes names and channel/transmission/message(s)/official/galactic/council",
+      "issue": "Mask intervention does not isolate names or identity effects",
+      "requiredRepair": "Call it a predefined name-and-genre mask and acknowledge no separate ablation."
+    },
+    {
+      "id": "P4-M2",
+      "severity": "reproducibility",
+      "evidence": "research/analysis/semantic_analysis.py trimming uses whitespace split and floor10percent",
+      "issue": "Trimming and keyword rates use different token definitions",
+      "requiredRepair": "Name whitespace tokens for trimming separately from regex word tokens for topic rates."
+    },
+    {
+      "id": "P4-M3",
+      "severity": "coverage-wording",
+      "issue": "95.2percent duration coverage includes four inherited durations, not all fresh measurements",
+      "requiredRepair": "Use usable duration coverage, including inherited observations."
+    },
+    {
+      "id": "P4-M4",
+      "severity": "figure-caption",
+      "issue": "Matched plot has scatter and LOPO panels but draft caption describes only scatter/hypothetical diagonal",
+      "requiredRepair": "Describe both actual panels and denominator/range; use legible full-width layout."
+    }
+  ],
+  "accepted": [
+    "Retrospective exploratory framing",
+    "No population/ontological claims",
+    "Explicit25eligible versus22contributing distinction",
+    "Source-precedence and copyright/data-access boundaries",
+    "Correct equal-chunk/equal-video pooling equations",
+    "Dependent-pair inference restrictions"
+  ],
+  "pending": "Actual PDF visual review; source-review findings are supplied to author before rendered-round gate."
+}

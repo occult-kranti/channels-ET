@@ -1,0 +1,67 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "9ffc8e742957cf4bcddb857637d95be79824f9d52879c38930e40e0ea211746d",
+    "bytes": 1594
+  },
+  {
+    "path": "audit.md",
+    "sha256": "06314bb88b0d286e0eaaae1d84b68421e2824cd54d8d580cce645d392b605678",
+    "bytes": 3995
+  },
+  {
+    "path": "audit.json",
+    "sha256": "f3c81ba4ef43d2e190ebe040e9192b39e05c2aa1cbab4fc3298c4408aefc4d07",
+    "bytes": 5237
+  },
+  {
+    "path": "round1_integration_checks.json",
+    "sha256": "92d0e232108a479f9d468ec9c78cd2e6008f23cb3a019a50926d0638e20f1476",
+    "bytes": 1840
+  },
+  {
+    "path": "round2_source_precedence.json",
+    "sha256": "6dda346d18c1775fb891cf53d9082751fe95185e154c4237599e42acff679c73",
+    "bytes": 955
+  },
+  {
+    "path": "round3_source_precedence.json",
+    "sha256": "406b6f5e5d7933416a992cad578b12c30e99f76fa83da1180901f2283534ba43",
+    "bytes": 859
+  },
+  {
+    "path": "round3_full_source_reconciliation.json",
+    "sha256": "f25fd2f757fa3b00a9049f6af9896aaee51257ead15c4170c0d2d6565435f007",
+    "bytes": 2598
+  },
+  {
+    "path": "round3-review.md",
+    "sha256": "3cee712f31418c43ea57fd57664615fe85dfac0670057467bcba741a0b44e84f",
+    "bytes": 3041
+  },
+  {
+    "path": "check_source_precedence.py",
+    "sha256": "c8273bcce159b77446ee60b39c25c767c055e7881c4b96ca53be69dd9df84cf6",
+    "bytes": 5741
+  },
+  {
+    "path": "check_round1_integration.py",
+    "sha256": "5d28919fc13f7c585e69d06e831f92189fd58ce736f676e01d74b6e0521bf188",
+    "bytes": 4095
+  },
+  {
+    "path": "skills-fragment.json",
+    "sha256": "4931393af0b5d28a3b54306a663b5b27cf88b7b09b8e7a2b8a54586388491058",
+    "bytes": 1353
+  },
+  {
+    "path": "raw-metadata/youtube_videos.csv",
+    "sha256": "4e3aef52ac061081f851ba7ced52e55248a7c8e8cea4ad3e86e642e5f8c6f9f0",
+    "bytes": 118655
+  },
+  {
+    "path": "raw-metadata/youtube_channels.csv",
+    "sha256": "1b44f71042be62d518dafefe32bd3e8e49538742007a0a795971959c9aefaae0",
+    "bytes": 32422
+  }
+]

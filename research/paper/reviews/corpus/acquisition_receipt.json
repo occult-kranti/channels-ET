@@ -1,0 +1,105 @@
+{
+  "review_date": "2026-10-23",
+  "source_of_counts": "Recomputed from canonical input records and frozen derived cohort; no new acquisition.",
+  "metadata": {
+    "selected": 925,
+    "success": 878,
+    "positive_duration": 877,
+    "timestamp_field": "retrieved_at",
+    "timestamp_semantics": "request start, UTC offset stored; not response completion",
+    "range_utc": [
+      "2026-10-23T19:24:24.900490+00:00",
+      "2026-10-23T19:36:49.426737+00:00"
+    ],
+    "collection_receipt_created_at": "2026-10-23T19:37:52.190727+00:00"
+  },
+  "captions": {
+    "selected": 36,
+    "success": 34,
+    "recorded_dates": [
+      "2026-10-23"
+    ],
+    "precision": "day only; no per-caption time-of-day recorded",
+    "success_language": {
+      "en": 29,
+      "en-US": 2,
+      "cs": 1,
+      "ja": 2
+    },
+    "success_type": {
+      "automatic": 32,
+      "manual": 2
+    },
+    "english_main_n": 30,
+    "english_main_languages": {
+      "en": 28,
+      "en-US": 2
+    },
+    "english_main_type": {
+      "automatic": 28,
+      "manual": 2
+    },
+    "english_main_group_sizes": {
+      "Darryl Anka": 2,
+      "Athina Król": 2,
+      "Tyler Ellison": 2,
+      "Lyssa Royal Holt": 2,
+      "Blossom Goodchild": 2,
+      "Wendy Kennedy": 2,
+      "Shaun Swanson": 2,
+      "Daniel Scranton": 2,
+      "Pamela Aaralyn": 2,
+      "Riz Mirza": 2,
+      "Aurora Ray": 2,
+      "Aluna Ash": 1,
+      "Lorie Ladd": 2,
+      "Megan Rose": 1,
+      "Pavlina Klemm": 1,
+      "Elsa Farrús Rusiñol": 2,
+      "Mônica de Medeiros": 1
+    }
+  },
+  "source_versions": {
+    "claude_archive_sha256": "cb8dbc877d8435df316f322408f4e6f060afae6684d91ada89163cb626a325e5",
+    "claude_archive_acquisition_time": "Not recorded in archive manifest; archive member mtimes are not used as collection timestamps.",
+    "bashar_index_commit": "457dc2f2da10399bda2786573b7a77ec3fe34f62",
+    "bashar_index_retrieved_at": "2026-10-23 (day only, per repository manifest)",
+    "existing_atlas_time": "Mixed inherited discovery sources; the frozen file hash identifies the input version, not one common original-source retrieval time.",
+    "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "model_acquisition_time": "Not stored in model manifest; revision/file hashes identify version."
+  },
+  "files": [
+    {
+      "path": "dist/data.json",
+      "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+    },
+    {
+      "path": "research/analysis/inputs/fresh_metadata.json",
+      "sha256": "223f4212cd027ae5d190c2ec164a1b1b5b00312117070af3ffcfd36ff1c32ad0"
+    },
+    {
+      "path": "research/analysis/inputs/claude-source-manifest.json",
+      "sha256": "ff57a91074af8ffb5c21ce62d4fc4cbb3c1d3642c24230a74b7c3df0e54800d9"
+    },
+    {
+      "path": "research/analysis/corpus/corpus_manifest.json",
+      "sha256": "b5bf16b875dc4edb5ae95ec372ab6fee4c471cd9ca784436d2a43207c74d1edc"
+    },
+    {
+      "path": "research/analysis/corpus/metadata_summary.json",
+      "sha256": "272a7b4ecc7b2677c140583a599f6556c8da94224c728af601764edf8602cc48"
+    },
+    {
+      "path": "research/analysis/corpus/capture_metadata_2026-10-23.py",
+      "sha256": "0cb6a4f694a842be0ff15e0cf76494857edaa309b6e64fdc5007f934177b2bba"
+    },
+    {
+      "path": "research/deep/repo_raw/manifest.json",
+      "sha256": "fa75fe2512e29dc8cf4937a64f3834bce91ba160245b6fb70a517083fb21c196"
+    },
+    {
+      "path": "research/analysis/inputs/model_manifest.json",
+      "sha256": "d0f8d11ff7245f95a2cfe4ba667efb801613dc55ce65ae7899a2a602fff0e3e4"
+    }
+  ]
+}

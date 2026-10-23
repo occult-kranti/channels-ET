@@ -1,0 +1,46 @@
+{
+  "round": 2,
+  "reviewedDataSha256": "f5b96cd04d9fb9ccf5db34e0fc0b056f0dc3d7a53579b86361f90d9861dc5024",
+  "reviewMode": "fresh-context raw-record-to-build verification",
+  "counts": {
+    "freshDurations": 340,
+    "freshDates": 341,
+    "freshTitles": 341,
+    "freshAccountBindings": 341,
+    "inheritedDurations": 418
+  },
+  "errors": [],
+  "blockingErrors": 0,
+  "nonblockingNameCorrections": [
+    {
+      "channelId": "ch-6d127415bb4c",
+      "currentName": "Related account — David Lotherington",
+      "freshPublishers": [
+        "David Lotherington"
+      ]
+    },
+    {
+      "channelId": "ch-9e2e6f255dff",
+      "currentName": "Related account — Jake (Daniel channeler; surname unresolved)",
+      "freshPublishers": [
+        "Running With Spirit - Jake"
+      ]
+    },
+    {
+      "channelId": "ch-8621c624902c",
+      "currentName": "Related account — Shaun Swanson",
+      "freshPublishers": [
+        "The Moore Show"
+      ]
+    },
+    {
+      "channelId": "ch-3ccbf336c582",
+      "currentName": "Related account — Tyler Ellison",
+      "freshPublishers": [
+        "The Galactic Guide"
+      ]
+    }
+  ],
+  "sourceQualification": "The metadata source acquisition is shared with the corpus worker; supplied duration rows remain explicitly unverified.",
+  "dateNote": "Seven inherited-versus-fresh date differences are exactly one day and can reflect UTC normalization; keep timestamp and source date rather than describing these as substantive event contradictions."
+}

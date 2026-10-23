@@ -1,0 +1,78 @@
+{
+  "inputSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+  "reviewer": "/root/method_panel",
+  "method": "Independently rank exported rounded pair scores with average ties; remove each publisher and incident pairs, then correlate matched title/caption ranks. Descriptive influence only.",
+  "originalAccounts": 11,
+  "originalPairs": 55,
+  "originalRho": 0.20562770562770566,
+  "minLopoRho": -0.04334650856389986,
+  "maxLopoRho": 0.37865612648221336,
+  "rows": [
+    {
+      "leftOutChannelId": "ch-396932860d9d",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.2636363636363636
+    },
+    {
+      "leftOutChannelId": "ch-3ccbf336c582",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.12608695652173912
+    },
+    {
+      "leftOutChannelId": "ch-4deae3e4c229",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.15191040843214756
+    },
+    {
+      "leftOutChannelId": "ch-4f327ca79023",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.3454545454545454
+    },
+    {
+      "leftOutChannelId": "ch-6bcde5f1646b",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.1272727272727273
+    },
+    {
+      "leftOutChannelId": "ch-73032cea690b",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.37865612648221336
+    },
+    {
+      "leftOutChannelId": "ch-aaaebac2693b",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.23214756258234515
+    },
+    {
+      "leftOutChannelId": "ch-cc61aed50366",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.2462450592885375
+    },
+    {
+      "leftOutChannelId": "ch-d9ef9bb4b58f",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": -0.04334650856389986
+    },
+    {
+      "leftOutChannelId": "ch-e7ffb2da4c80",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.16324110671936756
+    },
+    {
+      "leftOutChannelId": "ch-e876f3f2375e",
+      "remainingAccounts": 10,
+      "pairCount": 45,
+      "spearmanRankCorrelation": 0.22384716732542817
+    }
+  ]
+}

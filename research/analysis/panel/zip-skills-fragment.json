@@ -1,0 +1,44 @@
+[
+  {
+    "name": "investigative-evidence-research",
+    "package": "e1/skill-6acff19b52b08191aa90c8e4a3864634",
+    "read": true,
+    "referencesRead": [
+      "references/evidence-contract.md"
+    ],
+    "status": "APPLIED",
+    "relevantControls": [
+      "supplied-summary versus original source access",
+      "provenance hashes and locators",
+      "comparison denominators and missingness",
+      "fresh-context reviewer reconstructs facts from raw records"
+    ],
+    "notApplied": "Financial/legal/misconduct machinery is outside this media analysis.",
+    "evidence": [
+      "audit.json",
+      "source_manifest.json",
+      "round2_metadata_spotchecks.json"
+    ]
+  },
+  {
+    "name": "trace-temporal-evidence-v1",
+    "package": "e1/skill-6ad2a6fdcf3881919b1aa831a01f2255",
+    "read": true,
+    "referencesRead": [
+      "references/temporal-contract.md"
+    ],
+    "status": "APPLIED",
+    "relevantControls": [
+      "relative date precision retained",
+      "publication versus podcast/event date distinction",
+      "unknown and failed acquisition not absence",
+      "separate extracted facts and accepted claims"
+    ],
+    "notApplied": "Financial stages and corporate-network allegations are outside scope.",
+    "evidence": [
+      "normalized_videos.json",
+      "audit.json",
+      "round2_metadata_spotchecks.json"
+    ]
+  }
+]

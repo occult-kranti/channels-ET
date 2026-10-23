@@ -1,0 +1,378 @@
+{
+  "checkedAt": "2026-10-23",
+  "scope": "Targeted primary-source review, not a systematic review or global state-of-the-art ranking",
+  "papers": [
+    {
+      "id": "L01",
+      "title": "Semantic Structure and Correspondence in Prospective Trance-Channeled Communications Attributed to Extraterrestrial Intelligences",
+      "authors": "Helané Wahbeh; Beth Glick",
+      "date": "2026-04-12",
+      "url": "https://doi.org/10.1080/02604027.2026.2656120",
+      "kind": "domain empirical paper",
+      "readingDepth": "Author institution abstract; selected publisher methods accessible in search index; public Figshare v1 code/results/protocol inspected; live publisher full text returned 403",
+      "summary": "Three experienced channelers answered standardized interviews across 28 topical areas. The authors report transformer-embedding correspondence of 0.65–0.79 across channelers for the same purported ETI and 0.75–0.88 within channeler across ETIs after residualization.",
+      "application": "Close comparator for structured same-question corpus design. Use matched questions and separate within-person from between-person comparisons.",
+      "limitations": "Three-person sample, not the YouTube population. Similarity does not establish truth or an ET source. Supplement lacks participant answer inputs and the supplied code export lacks explicit global-text chunking and within-channeler residualization; full results were not replicated.",
+      "webRefs": [
+        "turn288view0",
+        "turn286view0",
+        "turn298search0",
+        "turn300search13"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied",
+      "primaryAccessUrl": "https://noetic.org/publication/semantic-structure-and-correspondence-in-prospective-trance-channeled-communications-attributed-to-extraterrestrial-intelligences/",
+      "supplementUrl": "https://doi.org/10.6084/m9.figshare.31100860.v1"
+    },
+    {
+      "id": "L02",
+      "title": "Qualitative Structure and Meaning in Prospective Trance-Channeled Communications Attributed to Extraterrestrial Intelligences",
+      "authors": "Helané Wahbeh; Beth Glick",
+      "date": "2026-04-15",
+      "url": "https://doi.org/10.1080/02604027.2026.2656119",
+      "kind": "domain empirical paper",
+      "readingDepth": "Author institution abstract; publisher full text returned 403",
+      "summary": "The authors analyze prospectively collected interviews with reflexive thematic analysis, reporting recurring narrative frames and conceptual metaphors. They explicitly avoid ontological conclusions.",
+      "application": "Pair quantitative similarities with close reading, contextual notes, contrasting examples and stated alternative interpretations.",
+      "limitations": "Shares authors and the prospective research program with L01; do not count it as an independent replication. This review does not verify an unobserved entity or communication mechanism.",
+      "webRefs": [
+        "turn284view0",
+        "turn286view1"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied",
+      "primaryAccessUrl": "https://noetic.org/publication/qualitative-structure-and-meaning-in-prospective-trance-channeled-communications-attributed-to-extraterrestrial-intelligences/"
+    },
+    {
+      "id": "L03",
+      "title": "Channelers’ Answers to Questions from Scientists: An Exploratory Study",
+      "authors": "Helané Wahbeh; Paolo Speirn; Luciano Pederzoli; Patrizio Tressoldi",
+      "date": "2023-10-19",
+      "url": "https://journalofscientificexploration.org/index.php/jse/article/view/2907",
+      "kind": "domain empirical paper",
+      "readingDepth": "Publisher abstract and metadata",
+      "summary": "Fifteen channelers answered ten scientific questions in channeled and non-channeled states. Three judges found low within-person cross-state correspondence and virtually no correspondence across channelers, while qualitative themes overlapped for some questions.",
+      "application": "Retain disconfirming findings and distinguish thematic overlap from response agreement. Compare equivalent question types and answer lengths.",
+      "limitations": "Different participants, prompts and measures from L01; the results cannot be pooled directly or treated as a clean contradiction.",
+      "webRefs": [
+        "turn286view2"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied",
+      "doi": "10.31275/20232907"
+    },
+    {
+      "id": "L04",
+      "title": "A qualitative exploratory analysis of channeled content",
+      "authors": "J. Anastasia; H. Wahbeh; A. Delorme; J. Okonsky",
+      "date": "2020",
+      "url": "https://doi.org/10.1016/j.explore.2020.02.008",
+      "kind": "domain empirical paper",
+      "readingDepth": "Author institution abstract and citation",
+      "summary": "Thirteen adult trance channels answered a research-oriented prompt; analysis identified seven themes across scientific-methodology, channeling-process and open-ended-information categories.",
+      "application": "Demonstrates a small-corpus thematic analysis with an explicit eliciting question. Preserve prompt context when interpreting frequencies.",
+      "limitations": "Prompt-driven and not an ET-channel census. The author institution page lists August 1; journal issue is July–August, so only year is normalized.",
+      "webRefs": [
+        "turn294view0"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied",
+      "primaryAccessUrl": "https://noetic.org/publication/a-qualitative-exploratory-analysis-of-channeled-content/"
+    },
+    {
+      "id": "L05",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "authors": "Nils Reimers; Iryna Gurevych",
+      "date": "2019-11",
+      "url": "https://aclanthology.org/D19-1410/",
+      "kind": "established method",
+      "readingDepth": "Publisher abstract and metadata",
+      "summary": "Introduces sentence encoders whose representations can be compared with cosine similarity, avoiding joint inference for every sentence pair.",
+      "application": "Use a frozen documented encoder on matched text units; preserve model identifier, revision, language, truncation and normalization settings.",
+      "limitations": "Cosine similarity depends on model and corpus. It does not measure factual correctness or independent origins. This paper does not validate every later Sentence Transformers model.",
+      "webRefs": [
+        "turn288view2"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L06",
+      "title": "BERTopic: Neural topic modeling with a class-based TF-IDF procedure",
+      "authors": "Maarten Grootendorst",
+      "date": "2022-03-11",
+      "url": "https://arxiv.org/abs/2203.05794v1",
+      "kind": "method preprint and software",
+      "readingDepth": "arXiv abstract and repository README sections",
+      "summary": "Combines document embeddings, clustering and class-based TF-IDF topic representations.",
+      "application": "Candidate for sufficiently rich transcript chunks; show representative source passages, outliers and robustness across parameters.",
+      "limitations": "Clustering sparse titles can produce unstable or entity-name-driven topics. BERTopic has not been executed merely because it is cited.",
+      "webRefs": [
+        "turn284view2",
+        "turn290view0"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L07",
+      "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+      "authors": "Kenneth Enevoldsen et al.",
+      "date": "2025-11-13",
+      "url": "https://arxiv.org/abs/2502.13595v4",
+      "kind": "benchmark paper",
+      "readingDepth": "arXiv abstract, version history and ICLR acceptance metadata",
+      "summary": "Extends embedding evaluation across hundreds of tasks and languages, including long-document and instruction-related tasks.",
+      "application": "Choose candidate encoders by the task and languages actually present; reserve an in-domain evaluation set.",
+      "limitations": "Reported rankings belong to the paper’s evaluation snapshot and do not establish the best model for this domain or today.",
+      "webRefs": [
+        "turn284view3"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L08",
+      "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
+      "authors": "Yanzhao Zhang et al.",
+      "date": "2025-06-11",
+      "url": "https://arxiv.org/abs/2506.05176v3",
+      "kind": "contemporary candidate preprint",
+      "readingDepth": "arXiv abstract, version history and official repository usage",
+      "summary": "Offers 0.6B, 4B and 8B embedding/reranking models and reports strong multilingual benchmark results.",
+      "application": "Candidate for a future multilingual comparison against a small baseline, with identical documents and local validation.",
+      "limitations": "No Qwen inference or benchmark was run by this literature workstream. Its state-of-the-art claim is historical and benchmark-specific.",
+      "webRefs": [
+        "turn288view4",
+        "turn291view3"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L09",
+      "title": "jina-embeddings-v5-text: Task-Targeted Embedding Distillation",
+      "authors": "Mohammad Kalim Akram et al.",
+      "date": "2026-04-28",
+      "url": "https://arxiv.org/abs/2602.15547v2",
+      "kind": "contemporary candidate preprint",
+      "readingDepth": "arXiv abstract and version history",
+      "summary": "Presents compact task-targeted models and reports competitive same-size performance, multilingual support and long-context inputs.",
+      "application": "Current alternative worth testing for clustering versus retrieval tasks after checking the selected model card and license.",
+      "limitations": "Abstract review only; no weights downloaded or scores reproduced. A 32k-token capacity does not eliminate length and genre confounding.",
+      "webRefs": [
+        "turn294view1"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L10",
+      "title": "Large Language Models Struggle to Describe the Haystack without Human Help: A Social Science-Inspired Evaluation of Topic Models",
+      "authors": "Zongxia Li et al.",
+      "date": "2025-07",
+      "url": "https://aclanthology.org/2025.acl-long.375/",
+      "kind": "method evaluation paper",
+      "readingDepth": "Publisher abstract and metadata",
+      "summary": "A user study on two datasets finds readable LLM topic labels can be too generic for domain-specific exploration; human supervision improves usefulness at an effort cost.",
+      "application": "Require specific labels, traceable examples, counterexamples and review of whether a label teaches anything about the corpus.",
+      "limitations": "This supports human validation, not a universal ranking of topic methods. A model-agent panel is not equivalent to the study’s human participants.",
+      "webRefs": [
+        "turn284view1"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L11",
+      "title": "LLM Reading Tea Leaves: Automatically Evaluating Topic Models with Large Language Models",
+      "authors": "Xiaohao Yang; He Zhao; Dinh Phung; Wray Buntine; Lan Du",
+      "date": "2025",
+      "url": "https://aclanthology.org/2025.tacl-1.17/",
+      "kind": "method evaluation paper",
+      "readingDepth": "Publisher abstract and metadata",
+      "summary": "Proposes WALM, a joint evaluation of document and topic semantic quality, and reports agreement with human judgments in its experiments.",
+      "application": "Optional complementary diagnostic beside traceable lexical baselines and manual review; record judge/model identity.",
+      "limitations": "An LLM judge can share biases with a generator; it must not replace direct source inspection or be labeled independent human review.",
+      "webRefs": [
+        "turn288view5"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied",
+      "codeUrl": "https://github.com/Xiaohao-Yang/Topic_Model_Evaluation"
+    },
+    {
+      "id": "L12",
+      "title": "Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts",
+      "authors": "Justin Grimmer; Brandon M. Stewart",
+      "date": "2013",
+      "url": "https://web.stanford.edu/~jgrimmer/tad2.pdf",
+      "kind": "established methodological review",
+      "readingDepth": "Author-hosted paper abstract and introduction",
+      "summary": "Argues that automatic content analysis requires problem-specific validation and close reading.",
+      "application": "Treat units, sample construction and validity checks as part of the analysis; keep model outputs distinguishable from substantive claims.",
+      "limitations": "Political-text examples transfer as methodology, not as findings about channeling. Only the introduction was read in detail.",
+      "webRefs": [
+        "turn291view1"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied",
+      "doi": "10.1093/pan/mps028"
+    },
+    {
+      "id": "L13",
+      "title": "Evaluating the Consistency of Word Embeddings from Small Data",
+      "authors": "Jelke Bloem; Antske Fokkens; Aurélie Herbelot",
+      "date": "2019-09",
+      "url": "https://aclanthology.org/R19-1016/",
+      "kind": "small-domain empirical methods paper",
+      "readingDepth": "Publisher abstract and metadata",
+      "summary": "Studies embeddings from small philosophical corpora and shows consistency depends on data, model and term frequency.",
+      "application": "Use split-sample and leave-one-document-out stability checks; flag low-sample channels instead of overinterpreting their nearest neighbors.",
+      "limitations": "The original method concerns word embeddings, so applying its stability principle to sentence-level channel centroids is our adaptation.",
+      "webRefs": [
+        "turn294view3"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L14",
+      "title": "On the Robustness of Multilingual Text Embedding Rankings Across Learning Tasks, Languages, and Benchmark Datasets",
+      "authors": "Ana Gjorgjevikj; Barbara Koroušić Seljak; Tome Eftimov",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31142v1",
+      "kind": "contemporary benchmark-analysis preprint",
+      "readingDepth": "arXiv abstract and metadata",
+      "summary": "Studies how multilingual model rankings change with dataset composition and aggregation choices.",
+      "application": "Report sensitivity to language mix and channel weighting rather than advertising one universal best embedding model.",
+      "limitations": "Preprint and abstract-level review; not independently replicated here.",
+      "webRefs": [
+        "turn294view2"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L15",
+      "title": "Reading Tea Leaves: How Humans Interpret Topic Models",
+      "authors": "Jonathan Chang; Sean Gerrish; Chong Wang; Jordan L. Boyd-Graber; David M. Blei",
+      "date": "2009",
+      "url": "https://papers.nips.cc/paper_files/paper/2009/hash/f92586a25bb3145facd64ab20fd554ff-Abstract.html",
+      "kind": "established topic-evaluation paper",
+      "readingDepth": "Publisher abstract",
+      "summary": "Shows held-out likelihood and human semantic interpretability can diverge.",
+      "application": "Add topic/document intrusion-style review and check examples, not only numeric model scores.",
+      "limitations": "Human review tasks are recommendations; this agent panel does not constitute a blinded human study.",
+      "webRefs": [
+        "turn288view3"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    },
+    {
+      "id": "L16",
+      "title": "MTEB: Massive Text Embedding Benchmark",
+      "authors": "Niklas Muennighoff; Nouamane Tazi; Loïc Magne; Nils Reimers",
+      "date": "2023",
+      "url": "https://aclanthology.org/2023.eacl-main.148/",
+      "kind": "benchmark paper",
+      "readingDepth": "Publisher search-index abstract; arXiv abstract",
+      "summary": "Benchmarks embeddings over diverse tasks and finds no universal best method in its tested set.",
+      "application": "Use retrieval, clustering and semantic-similarity evaluations aligned with intended use.",
+      "limitations": "Older benchmark snapshot; not a current leaderboard claim.",
+      "webRefs": [
+        "turn292search27",
+        "turn283academia41"
+      ],
+      "accessed": "2026-10-23",
+      "executionStatus": "Literature reviewed; no implementation implied"
+    }
+  ],
+  "repositories": [
+    {
+      "id": "R01",
+      "name": "Sentence Transformers",
+      "url": "https://github.com/huggingface/sentence-transformers",
+      "license": "See repository and selected model license; not audited here",
+      "use": "Dense sentence/document embeddings; documented MiniLM example emits 384-dimensional vectors.",
+      "readingDepth": "README embedding usage",
+      "webRefs": [
+        "turn290view1"
+      ],
+      "executionStatus": "Reviewed, not run by literature agent"
+    },
+    {
+      "id": "R02",
+      "name": "BERTopic",
+      "url": "https://github.com/MaartenGr/BERTopic",
+      "license": "MIT",
+      "use": "Topic clustering with embeddings and c-TF-IDF; supports dynamic and class-based variants.",
+      "readingDepth": "README overview and license marker",
+      "webRefs": [
+        "turn290view0"
+      ],
+      "executionStatus": "Reviewed candidate"
+    },
+    {
+      "id": "R03",
+      "name": "MTEB",
+      "url": "https://github.com/embeddings-benchmark/mteb",
+      "license": "Apache-2.0",
+      "use": "Task-specific embedding evaluation; not a substitute for channeling-domain labels.",
+      "readingDepth": "README installation and example usage",
+      "webRefs": [
+        "turn290view2"
+      ],
+      "executionStatus": "Reviewed evaluation tool"
+    },
+    {
+      "id": "R04",
+      "name": "Qwen3-Embedding",
+      "url": "https://github.com/QwenLM/Qwen3-Embedding",
+      "license": "Models Apache-2.0 per paper; verify chosen artifact",
+      "use": "Documented Sentence Transformers inference for Qwen3-Embedding-0.6B; model-specific query prompts.",
+      "readingDepth": "Official README inference section",
+      "webRefs": [
+        "turn291view3"
+      ],
+      "executionStatus": "Reviewed candidate"
+    },
+    {
+      "id": "R05",
+      "name": "youtube-transcript-api",
+      "url": "https://github.com/jdepoix/youtube-transcript-api",
+      "license": "MIT for code; not a transcript-content license",
+      "use": "Fetch available captions and retain language/generated/manual flags. Availability and blocks vary.",
+      "readingDepth": "README fetch/list/manual/generated sections",
+      "webRefs": [
+        "turn290view4",
+        "turn291view5"
+      ],
+      "executionStatus": "Feasibility to be established by corpus workstream"
+    },
+    {
+      "id": "R06",
+      "name": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "license": "Check repository license and bundled dependencies; source access does not grant video-content rights",
+      "use": "Metadata-only extraction supports numeric duration seconds and upload date; no video download required for this analysis.",
+      "readingDepth": "README --skip-download and duration fields",
+      "webRefs": [
+        "turn290view5",
+        "turn291view6"
+      ],
+      "executionStatus": "Feasibility to be established by corpus workstream"
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02604027.2026.2656120",
+      "result": "403 Forbidden; used author institution abstract"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02604027.2026.2656119",
+      "result": "403 Forbidden; used author institution abstract"
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="692.937368pt" height="629.493998pt" viewBox="0 0 692.937368 629.493998" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Channeling Atlas analysis pipeline</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 629.493998 
+L 692.937368 629.493998 
+L 692.937368 0 
+L -0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 162.126563 482.346775 
+L 596.590563 482.346775 
+L 596.590563 47.882775 
+L 162.126563 47.882775 
+z
+" style="fill: #fffef9"/>
+   </g>
+   <g clip-path="url(#pc09124b587)">
+    <image xlink:href="data:image/png;base64,
+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" id="image86fb529125" transform="scale(1 -1) translate(0 -434.88)" x="162.126563" y="-47.466775" width="434.88" height="434.88"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m0ef392f810" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0ef392f810" x="174.195007" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(150.020507 531.897924) rotate(-60)">Calenara</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m0ef392f810" x="198.331896" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(156.604271 562.300828) rotate(-60)">Daniel Scranton</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m0ef392f810" x="222.468785" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(153.805223 608.955241) rotate(-60)">Ishuwa Yahyel: First ET C…</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m0ef392f810" x="246.605674" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(197.405393 575.243849) rotate(-60)">The Galactic Guide</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m0ef392f810" x="270.742563" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(241.256344 541.098091) rotate(-60)">Aurora Ray</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m0ef392f810" x="294.879451" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(267.011983 538.294334) rotate(-60)">Lorie Ladd</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m0ef392f810" x="319.01634" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(286.838716 545.759743) rotate(-60)">Megan Rose</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m0ef392f810" x="343.153229" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(272.539667 612.33274) rotate(-60)">Pamela Aaralyn Channeling</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m0ef392f810" x="367.290118" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(297.038818 611.309972) rotate(-60)">SOLi School | Lyssa Royal…</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m0ef392f810" x="391.427007" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(352.040007 558.246747) rotate(-60)">hgrfrequencies</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m0ef392f810" x="415.563896" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(340.044865 620.829261) rotate(-60)">Psychic Medium &amp; Trance C…</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m0ef392f810" x="439.700785" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(390.255191 575.668742) rotate(-60)">Blossom Goodchild</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m0ef392f810" x="463.837674" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(393.766299 611.393643) rotate(-60)">Bashar Channeling Podcast</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m0ef392f810" x="487.974563" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(449.206313 557.175041) rotate(-60)">Divine Insights</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m0ef392f810" x="512.111451" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(465.268983 571.159998) rotate(-60)">Divine Light Vibes</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m0ef392f810" x="536.24834" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(460.483997 621.254155) rotate(-60)">Bashar Channeled by Darry…</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m0ef392f810" x="560.385229" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(518.345886 562.840741) rotate(-60)">Wieteke Koolhof</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m0ef392f810" x="584.522118" y="482.346775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(555.378087 540.505405) rotate(-60)">Athina Król</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_19">
+      <defs>
+       <path id="me5ed511058" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="59.951219" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="63.750438" transform="rotate(-0 155.126563 63.750438)">Calenara</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="84.088108" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="87.887327" transform="rotate(-0 155.126563 87.887327)">Daniel Scranton</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="108.224997" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="112.024216" transform="rotate(-0 155.126563 112.024216)">Ishuwa Yahyel: First ET C…</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="132.361886" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="136.161105" transform="rotate(-0 155.126563 136.161105)">The Galactic Guide</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="156.498775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="160.297994" transform="rotate(-0 155.126563 160.297994)">Aurora Ray</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="180.635664" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="184.434882" transform="rotate(-0 155.126563 184.434882)">Lorie Ladd</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="204.772553" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="208.571771" transform="rotate(-0 155.126563 208.571771)">Megan Rose</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="228.909441" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="232.70866" transform="rotate(-0 155.126563 232.70866)">Pamela Aaralyn Channeling</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="253.04633" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="256.867424" transform="rotate(-0 155.126563 256.867424)">SOLi School | Lyssa Royal…</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="277.183219" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="280.982438" transform="rotate(-0 155.126563 280.982438)">hgrfrequencies</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="301.320108" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="305.119327" transform="rotate(-0 155.126563 305.119327)">Psychic Medium &amp; Trance C…</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="325.456997" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="329.256216" transform="rotate(-0 155.126563 329.256216)">Blossom Goodchild</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="349.593886" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="353.393105" transform="rotate(-0 155.126563 353.393105)">Bashar Channeling Podcast</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="373.730775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="377.529994" transform="rotate(-0 155.126563 377.529994)">Divine Insights</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="397.867664" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="401.666882" transform="rotate(-0 155.126563 401.666882)">Divine Light Vibes</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="422.004553" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="425.803771" transform="rotate(-0 155.126563 425.803771)">Bashar Channeled by Darry…</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="446.141441" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="449.94066" transform="rotate(-0 155.126563 449.94066)">Wieteke Koolhof</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#me5ed511058" x="162.126563" y="470.27833" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="155.126563" y="474.077549" transform="rotate(-0 155.126563 474.077549)">Athina Król</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 162.126563 482.346775 
+L 162.126563 47.882775 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 162.126563 482.346775 
+L 596.590563 482.346775 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #233c34" x="379.358563" y="41.882775" transform="rotate(-0 379.358563 41.882775)">Shared title vocabulary after identity masking</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 623.744563 519.230331 
+L 649.156118 519.230331 
+L 649.156118 10.999219 
+L 623.744563 10.999219 
+z
+" style="fill: #fffef9"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAACQAAALCCAYAAAC2gnEuAAAEeUlEQVR4nO2dwXHEMAzElMz232XasPJOHsbz8AAqwIjk8mRnnK97f+4R8f1pgf/ohHaOqmK+E9IJ7Z7n0w5/8J1QTQ3ohHZq6nd0Qk0ZoRPavZXslXKI0AmVQ4ROqJIROqFuHURNTeiE2vaETqgpI3RCu5XsHZ1QwUjsdJV+RyfU6iB0Qt06CJ1QU0a0XAmdUE1N6IS6dRA6oYKRKIcInVBNTeiEWh2ETqjHMUQ5ROiE2vaETqjVQeiECkaiHCJ0QuUQoROa7Bes74R0Qk0Z0V+cEzqhmprQCc1VMOEJ6YQKRqIcInRC5RChEyqHCJ1Qj2OIrtKETqhtT+iEKhmhEyoYiZqa0AlVMkIn1K2D0Al1tyd0Qk0Z0eogdELlEKETKocInVDBSJRDhE6oHCJ0QuUQoROarGLCE6qpAZ1QJSN0Qr3rIHRCTRmxR9bVuhPSCXVRJHRCXRQJnVDBSJRDhE6opiZ0Qv2EJXRCXRSJcojQCZVDhE5oj6tivhPSCTVlRFdpQic01+eQhCekE2rKCJ1QJSPKIUInVFMTOqE9/YR9RyfUAytCJ1QwEuUQoRMqhwidUA+sCJ1QL1+IcojQCbXtCZ1QP2EJnVB/8kW0XAmdUDlE6IR6kk/ohJoyotVB6ITKIUInVA4ROqGCkegvPQmdUA/OCZ1QOUTohApGohwidEI1NaETanUQOqEuikRPPwidUDlE6ITKIUIn1A80oj/XIXRC5RChEyqHCJ1QwUjohApGohwidEJdFAmdUE/yCZ1QwUiUQ4ROqBwidELlEKETKhiJ7mWETqg3ioROqBwidEIFI1FTEzqhSkbohMohQifUlBG9wCN0Qj39IHRCrQ5CJ9TqIDohQidUyQidUK+nCJ1QU0Z0QoROqI+MEjqhpozQCVUyohMidEL9hCV0Qk0ZoROqZIROqJIRPTgndEK9niJ0Qr0EJnRCBSPRciV0QpWM0AlVMkIn1OogampCJ9TrKUIntCOrme6EdEKtDmJX9vhDd0I6oZqa0Am17QmdUFNGtDoInVBNTeiEKhmhE2rbEzU1oRNq2xM6oaaM0AlVMqITInRCu7LvjulOSCfUlBE6oV5PETU1oROqZIROqG1P6ISaMqITInRClYzQCfWMkdAJNWWETqjXU0RNTeiEKhmhE2rbEzqhVgdRDhE6obkKJjwhnVA5ROiECkaipiZ0QjU1oRPqcz+ETqhgJMohQifUrYPQCZVDhE6oYCRqakInVFMTOqGmjNAJVTKiHCJ0QpP9ba7vhHRC5RChEyoYiZqa0AnV1IROqCkjdEKVjCiHCJ1Q7zoInVA5ROiE+go8oRNqyoi2PaETqqkJndBk/0/Nd0I6oT73Q9TUhE6opiZ0Qk0ZoRNqyogd2Xty3QnphMohQidUDhE6oaaMqKkJnVBNTeiEmjJCJ9SUETU1oROqqQmdUHd7QidUMBLlEKETqqkJnVBTRuiEmjKipiZ0QpWM0AmVQ4ROqCkjdmQf09OdkE6opiZ0Qq0OQifUlBE6oaaMqKkJndAvln8sDUStMZIAAAAASUVORK5CYII=" id="image95939b2228" transform="scale(1 -1) translate(0 -508.32)" x="623.52" y="-10.8" width="25.92" height="508.32"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_19">
+     <g id="line2d_37">
+      <defs>
+       <path id="m78f06a5e03" d="M 0 0 
+L 3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m78f06a5e03" x="649.156118" y="519.230331" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="656.156118" y="523.02955" transform="rotate(-0 656.156118 523.02955)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m78f06a5e03" x="649.156118" y="417.584108" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="656.156118" y="421.383327" transform="rotate(-0 656.156118 421.383327)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m78f06a5e03" x="649.156118" y="315.937886" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="656.156118" y="319.737105" transform="rotate(-0 656.156118 319.737105)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m78f06a5e03" x="649.156118" y="214.291664" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="656.156118" y="218.090882" transform="rotate(-0 656.156118 218.090882)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m78f06a5e03" x="649.156118" y="112.645441" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="656.156118" y="116.44466" transform="rotate(-0 656.156118 116.44466)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m78f06a5e03" x="649.156118" y="10.999219" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_43">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="656.156118" y="14.798437" transform="rotate(-0 656.156118 14.798437)">1.0</text>
+     </g>
+    </g>
+    <g id="text_44">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #233c34" x="683.657681" y="265.114775" transform="rotate(-90 683.657681 265.114775)">Cosine similarity</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_6">
+    <path d="M 623.744563 519.230331 
+L 636.45034 519.230331 
+L 649.156118 519.230331 
+L 649.156118 10.999219 
+L 636.45034 10.999219 
+L 623.744563 10.999219 
+L 623.744563 519.230331 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc09124b587">
+   <rect x="162.126563" y="47.882775" width="434.464" height="434.464"/>
+  </clipPath>
+ </defs>
+</svg>

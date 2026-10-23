@@ -1,0 +1,75 @@
+{
+  "round": 5,
+  "reviewed_on": "2026-10-23",
+  "reviewer": "literature model-agent workstream",
+  "scope": [
+    "frozen LaTeX prose and citations",
+    "extracted text of frozen PDF including rendered bibliography strings",
+    "frozen bibliography metadata against primary-source register"
+  ],
+  "not_claimed": [
+    "independent human peer review",
+    "rendered page layout audit",
+    "complete reading of every cited article"
+  ],
+  "sha256": {
+    "main.pdf": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0",
+    "body.tex": "ba9a08bab6c8a2864ebc920180a566468b43ef8f3308a7142b8e1fcd5999e387",
+    "references.bib": "dffcb13ce693ff4f94f03122f5fe3703dc494c85b08da0022243f10de5cd4d07",
+    "manifest.json": "c13f2b5bc504f44a95858aa0ec9c333626ce6c8b020e3f3c6123f468382251ca"
+  },
+  "registered_references": 28,
+  "frozen_bibliography_entries": 28,
+  "cited_references": 23,
+  "cited_keys": [
+    "anastasia2020qualitative",
+    "bloem2019consistency",
+    "boesinger2024tube2vec",
+    "chang2009reading",
+    "chen2026digital",
+    "claisse2023faith",
+    "doogan2021twaddle",
+    "enevoldsen2025mmteb",
+    "grimmer2013text",
+    "hoyle2021incoherence",
+    "klinoron2014channel",
+    "li2025haystack",
+    "muennighoff2023mteb",
+    "ota2025pathways",
+    "reimers2019sentencebert",
+    "ribeiro2021youniverse",
+    "schroeder2025reliability",
+    "starbird2018ecosystem",
+    "tomlinson2019medium",
+    "wahbeh2023answers",
+    "wahbeh2026qualitative",
+    "wahbeh2026records",
+    "wahbeh2026semantic"
+  ],
+  "uncited_keys": [
+    "bender2018statements",
+    "olteanu2019social",
+    "stammbach2023revisiting",
+    "wang2020minilm",
+    "yang2025tealeaves"
+  ],
+  "missing_citation_keys": [],
+  "findings": [
+    {
+      "id": "L5-01",
+      "severity": "minor typography",
+      "item": "MMTEB author Rystrø m has an internal space from publisher BibTeX escape.",
+      "suggestion": "Normalize Rystr\\o m to Rystr{\\o}m in the live bibliography before round6.",
+      "status": "Reported; no source edit by reviewer."
+    }
+  ],
+  "closed_round4_issues": [
+    "2023 scientific/metaphysical prompt wording",
+    "US-specific fixed condition order and unequal response time",
+    "closest platform embedding precedent cited",
+    "UFODex AI-mediated comparison units kept explicit",
+    "SBERT pagination corrected to3982–3992",
+    "month macros normalized"
+  ],
+  "disposition": "Substantive claims and access boundaries pass this literature review. Minor bibliography typography suggested for final build."
+}

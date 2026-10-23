@@ -1,0 +1,966 @@
+{
+  "round": 5,
+  "reviewer": "/root/method_panel",
+  "inputs": {
+    "research/paper/rounds/round5/main.pdf": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0",
+    "research/paper/rounds/round5/body.tex": "ba9a08bab6c8a2864ebc920180a566468b43ef8f3308a7142b8e1fcd5999e387",
+    "research/paper/rounds/round5/generated/paper-results.json": "45175aa2e4422828b70ca68fe878ca275217887f9fb925ff8ab7c5a576ff8604",
+    "research/paper/rounds/round5/generated/chunk-weighting.json": "8170ec9c1b47e5b65d57edd52475e1f4cf77b4d2bbd34807a3400fc4d1be5a67",
+    "research/paper/rounds/round5/generated/chunk-weighted-embeddings.npz": "01c493575502e61635cd69fff9661c2dcb895db8a416844713c81ac21c9845ca",
+    "dist/analysis/data.json": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+    "dist/analysis/caption-embeddings.npz": "95e3c1a4651bfa9ffb9301bb687db2eaa7c9c5ecfb24c979b5890ff9fc730725"
+  },
+  "method": "Independent arithmetic and centroids from stored video vectors, custom average-tie ranks on six-decimal pair cosines, direct nearest-neighbor reconstruction. No pipeline code imported. No raw-caption neural rerun.",
+  "results": {
+    "documents": 30,
+    "contributingDocuments": 26,
+    "publishers": 13,
+    "pairs": 78,
+    "rankCorrelation": 0.984395351483959,
+    "equalReplayFloat32MaxCoordinateDelta": 0.0,
+    "equalReplayPreSerializationDeltaReportedByPipeline": 7.409544477976482e-09,
+    "meanAbsoluteCosineChange": 0.01416575641025641,
+    "maxAbsoluteCosineChange": 0.06332700000000001,
+    "nearestNeighborChanges": [
+      {
+        "channelId": "ch-aaaebac2693b",
+        "equalChunkNeighbor": "ch-396932860d9d",
+        "tokenWeightedNeighbor": "ch-4f327ca79023"
+      },
+      {
+        "channelId": "ch-d9ef9bb4b58f",
+        "equalChunkNeighbor": "ch-03c2e8beb4b3",
+        "tokenWeightedNeighbor": "ch-e7ffb2da4c80"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check": "30 unique video IDs",
+      "pass": true
+    },
+    {
+      "check": "same videos as published caption vectors",
+      "pass": true
+    },
+    {
+      "check": "equal-chunk replay agrees with published float32 archive",
+      "pass": true
+    },
+    {
+      "check": "both archives are finite 30x384 matrices",
+      "pass": true
+    },
+    {
+      "check": "both vector sets have unit norm within float32 tolerance",
+      "pass": true
+    },
+    {
+      "check": "13 groups and 26 contributing documents",
+      "pass": true
+    },
+    {
+      "check": "78 unordered pairs",
+      "pass": true
+    },
+    {
+      "check": "rho matches supplied value",
+      "pass": true
+    },
+    {
+      "check": "CSV contains same complete pair set",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-0a31b1dbd853",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-0a31b1dbd853",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-396932860d9d",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-396932860d9d",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-3ccbf336c582",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-3ccbf336c582",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-4deae3e4c229",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-4deae3e4c229",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-03c2e8beb4b3/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-03c2e8beb4b3/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-396932860d9d",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-396932860d9d",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-3ccbf336c582",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-3ccbf336c582",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-4deae3e4c229",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-4deae3e4c229",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-0a31b1dbd853/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-0a31b1dbd853/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-3ccbf336c582",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-3ccbf336c582",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-4deae3e4c229",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-4deae3e4c229",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-396932860d9d/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-396932860d9d/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-4deae3e4c229",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-4deae3e4c229",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-3ccbf336c582/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-3ccbf336c582/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4deae3e4c229/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4deae3e4c229/ch-4f327ca79023",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4deae3e4c229/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4deae3e4c229/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4deae3e4c229/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4deae3e4c229/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4deae3e4c229/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4deae3e4c229/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4deae3e4c229/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4deae3e4c229/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4deae3e4c229/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4deae3e4c229/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4deae3e4c229/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4deae3e4c229/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4deae3e4c229/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4deae3e4c229/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4f327ca79023/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4f327ca79023/ch-6bcde5f1646b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4f327ca79023/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4f327ca79023/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4f327ca79023/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4f327ca79023/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4f327ca79023/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4f327ca79023/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4f327ca79023/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4f327ca79023/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4f327ca79023/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4f327ca79023/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-4f327ca79023/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-4f327ca79023/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-6bcde5f1646b/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-6bcde5f1646b/ch-73032cea690b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-6bcde5f1646b/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-6bcde5f1646b/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-6bcde5f1646b/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-6bcde5f1646b/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-6bcde5f1646b/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-6bcde5f1646b/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-6bcde5f1646b/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-6bcde5f1646b/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-6bcde5f1646b/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-6bcde5f1646b/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-73032cea690b/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-73032cea690b/ch-aaaebac2693b",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-73032cea690b/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-73032cea690b/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-73032cea690b/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-73032cea690b/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-73032cea690b/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-73032cea690b/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-73032cea690b/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-73032cea690b/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-aaaebac2693b/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-aaaebac2693b/ch-cc61aed50366",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-aaaebac2693b/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-aaaebac2693b/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-aaaebac2693b/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-aaaebac2693b/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-aaaebac2693b/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-aaaebac2693b/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-cc61aed50366/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-cc61aed50366/ch-d9ef9bb4b58f",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-cc61aed50366/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-cc61aed50366/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-cc61aed50366/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-cc61aed50366/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-d9ef9bb4b58f/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-d9ef9bb4b58f/ch-e7ffb2da4c80",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-d9ef9bb4b58f/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-d9ef9bb4b58f/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair baseline ch-e7ffb2da4c80/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "pair weighted ch-e7ffb2da4c80/ch-e876f3f2375e",
+      "pass": true
+    },
+    {
+      "check": "two neighbor changes",
+      "pass": true
+    },
+    {
+      "check": "changed neighbor identities match",
+      "pass": true
+    },
+    {
+      "check": "chunk records cover all 30 IDs",
+      "pass": true
+    },
+    {
+      "check": "fZmY4xS_qXE chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "fZmY4xS_qXE terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "T5QtncJq1Jc chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "T5QtncJq1Jc terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "MDdyY1WYmHY chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "MDdyY1WYmHY terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "8pG8QV-18xQ chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "8pG8QV-18xQ terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "svK99fsGskw chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "svK99fsGskw terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "wTGFWgT7LOU chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "wTGFWgT7LOU terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "UMrZXFgMpdo chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "UMrZXFgMpdo terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "2v8rXyVBrQ4 chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "2v8rXyVBrQ4 terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "vvV4JcA5U7o chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "vvV4JcA5U7o terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "ierU5o3ffX4 chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "ierU5o3ffX4 terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "9F_9Ed-yWX4 chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "9F_9Ed-yWX4 terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "BRsg_krdt8s chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "BRsg_krdt8s terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "SPiLHHvhGeM chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "SPiLHHvhGeM terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "qa9694ghfzE chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "qa9694ghfzE terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "dTKNeJ0hGMo chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "dTKNeJ0hGMo terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "T350BmG4zwM chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "T350BmG4zwM terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "NxYRldsuB3s chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "NxYRldsuB3s terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "dRbLEaSOP2k chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "dRbLEaSOP2k terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "5Sq-dBoqu10 chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "5Sq-dBoqu10 terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "rnZ_y4-kM1I chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "rnZ_y4-kM1I terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "9UPOe-GdVE4 chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "9UPOe-GdVE4 terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "CdeF5JtUB44 chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "CdeF5JtUB44 terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "dWPc8lU-OPc chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "dWPc8lU-OPc terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "z5bKGZzwkt8 chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "z5bKGZzwkt8 terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "2WoeqiizPCQ chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "2WoeqiizPCQ terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "C95Y9g135kg chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "C95Y9g135kg terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "7wrxKKVLcBA chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "7wrxKKVLcBA terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "csxHi8oghhY chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "csxHi8oghhY terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "g88RqksSChM chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "g88RqksSChM terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "xxbzklPyRtg chunk-count and length arithmetic",
+      "pass": true
+    },
+    {
+      "check": "xxbzklPyRtg terminal chunk weights",
+      "pass": true
+    },
+    {
+      "check": "320 chunks and 73170 content wordpieces",
+      "pass": true
+    },
+    {
+      "check": "one single chunk record; 1 to 46 chunks",
+      "pass": true
+    },
+    {
+      "check": "mean and max absolute cosine changes match",
+      "pass": true
+    }
+  ],
+  "checkCount": 231,
+  "failures": 0,
+  "limitation": "The stored float32 replay comparison establishes numerical equivalence of derivative archives; the more precise 7.4095e-9 pre-serialization delta is a pipeline replay receipt, not independently re-derived from raw text here."
+}

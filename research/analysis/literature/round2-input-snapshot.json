@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-23",
+  "sourceFile": "/workspace/sites/channeling-atlas/dist/analysis/data.json",
+  "dataSha256": "12519511fc622c87e0049d5737ad2016cf1f17d78956cb4f4cb8aa3c8522762a",
+  "scriptSha256": "f345ce3ee16a0d70bf952a4ae7ee45d61cdbe9f4f5d8c77cdf0f18cd4bc18a9b",
+  "version": "round1",
+  "coverage": {
+    "videoCount": 925,
+    "channelCount": 189,
+    "attributedVideoCount": 665,
+    "unattributedVideoCount": 260,
+    "durationCount": 449,
+    "dateCount": 58,
+    "titleCount": 902,
+    "transcriptCount": 0
+  },
+  "figures": [
+    {
+      "id": "duration",
+      "caption": "Each row uses available duration metadata for unique indexed video IDs. Labels show measured/indexed counts. Dots are medians; whiskers are the 25th\u201375th percentiles, not confidence intervals; diamonds are means. Only channels with at least five durations are plotted. These are convenience samples, often capped by source listings, not channel-wide averages."
+    },
+    {
+      "id": "coverage",
+      "caption": "Counts refer to the merged research index. The pale portion includes videos without usable duration metadata. Channel order reflects sample size, not popularity, activity or the size of the entire account."
+    },
+    {
+      "id": "title-topics",
+      "caption": "A cell is the fraction of eligible sampled titles matching at least one predefined English keyword in that topic. Topics overlap and are not validated semantic classes. This measures headline vocabulary, not the contents of a session; multilingual and short titles can be missed. The 20 largest eligible title samples are shown."
+    },
+    {
+      "id": "lexical-similarity",
+      "caption": "Cosines compare equal-video-weight TF-IDF centroids after masking common channeling identity terms. Values are descriptive similarity scores, not probabilities or evidence of shared origins. Each account has at least five eligible titles. The 18 largest samples are plotted; exact matrices are exported."
+    }
+  ]
+}

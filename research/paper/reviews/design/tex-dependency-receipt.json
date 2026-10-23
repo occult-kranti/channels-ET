@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-23",
+  "purpose": "Provide missing dependencies of unchanged official aaai2027.sty for a working-draft build",
+  "root": "/workspace/scratch/9ec421627a96/paper_tex",
+  "environment": {
+    "TEXMFHOME": "/workspace/scratch/9ec421627a96/paper_tex/texmf",
+    "TEXMFVAR": "/workspace/scratch/9ec421627a96/paper_tex/var",
+    "TEXMFCONFIG": "/workspace/scratch/9ec421627a96/paper_tex/config",
+    "TEXINPUTS": "vendor/AuthorKit27//:",
+    "BSTINPUTS": "vendor/AuthorKit27//:"
+  },
+  "scope": "Only scratch-local TeX tree, font maps, and configuration; no global/system configuration overwritten.",
+  "archives": [
+    {
+      "name": "newtx.zip",
+      "url": "https://mirrors.ctan.org/fonts/newtx.zip",
+      "sha256": "bbe07d4ad91ade9f61326e59f2f3bf389b4ace1c0c1ef2e8c85377e4e2535f4e",
+      "bytes": 9704591,
+      "license": "LPPL1.3 CTAN catalogue; preserve package-specific font notices"
+    },
+    {
+      "name": "mweights.zip",
+      "url": "https://mirrors.ctan.org/macros/latex/contrib/mweights.zip",
+      "sha256": "635a099afeb4d8db63d073fd4d06c0a6cefcdb90cc2379a5e7211cf4cab7e831",
+      "bytes": 2112,
+      "license": "LPPL"
+    },
+    {
+      "name": "kastrup.zip",
+      "url": "https://mirrors.ctan.org/macros/generic/kastrup.zip",
+      "sha256": "c3ec4e73ca69bc2f8e813c01618b670a936e24a465228ccf06b8c6ae28f7220e",
+      "bytes": 147569,
+      "license": "Free license, see binhex.dtx copyright and permission text"
+    },
+    {
+      "name": "tex-gyre.zip",
+      "url": "https://mirrors.ctan.org/fonts/tex-gyre.zip",
+      "sha256": "1773c470f9e388e087b68e3426e115af2cd236845a7e05ceb25b2a503409a7a3",
+      "bytes": 21661540,
+      "license": "GUST Font License"
+    }
+  ],
+  "mapsEnabled": [
+    "newtx.map",
+    "qtm.map"
+  ],
+  "binhex": "Generated binhex.tex with tex -interaction=nonstopmode binhex.ins from official CTAN kastrup source, not handwritten.",
+  "probe": {
+    "path": "/workspace/scratch/9ec421627a96/paper_tex/probe.tex",
+    "sha256": "0fcd39ceb8f51a76e5906971671b797baf4078c3b090f62369d6254a2e0f13d1",
+    "status": "pdflatex exit0; actual official preprint style, text, accented name, math, and itemize bullet",
+    "pdfSha256": "20b093c740ea6058d9e975a9178e7b1a1fc49e0864fe7f1f2801985681ae6eb2",
+    "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nVROHRA+TeXGyreTermesX-Bold           Type 1            Custom           yes yes yes      4  0\nFAHHDN+TeXGyreTermesX-Regular        Type 1            Custom           yes yes yes      5  0\nPFQPHP+TeXGyreTermes-Regular         Type 1            Custom           yes yes yes      6  0\nTJJZZN+CMMI10                        Type 1            Builtin          yes yes yes      7  0\nVLXLSI+CMR10                         Type 1            Builtin          yes yes yes      8  0\n",
+    "limitation": "Probe does not replace full manuscript compile and visual review."
+  }
+}

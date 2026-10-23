@@ -1,0 +1,46 @@
+{
+  "round": 4,
+  "reviewer": "/root/method_panel",
+  "artifacts": {
+    "generated/paper-results.json": "3d64ffe41907be051ffeb55205da9f5ab07adc38d09266e5dbe2b50eac2452ba",
+    "generated/formulas.tex": "4f20b0d92c517a06a01c6ee30cec95d1b272f098015c20efd9a0e5a9b8d7373d",
+    "generated/figure-captions.json": "14e3695656e736099804fe759f877d9352f36fdd1ae0dedcba67caaf57954a2a",
+    "generated/figures/coverage.png": "48e57b26296e805c0eef139e699f68bf3a4068ab9a864321423bd37de7cfaadc",
+    "generated/figures/duration.png": "47150c9ad0c07de87f01bee31df40746a1d35b4d7ea1e56406161ecfeb4bcb81",
+    "generated/figures/matched-similarity.png": "4c503ec60acda085c0c63b367c60113dede1e63a57fb24053088e30cab1892ae",
+    "generated/figures/sensitivity.png": "fdc1d5352485eeed7cb636210bf484463664a7a7d3f8d9fbd526fd2edded1561"
+  },
+  "pdf_status": "not_yet_available_at_figure_review",
+  "findings": [
+    {
+      "id": "P4-F1",
+      "severity": "blocking",
+      "finding": "Matched-similarity scatter uses xlim starting0 although input title cosines include negative values; clipped observations misrepresent plotted sample.",
+      "repair": "Include actual negative range."
+    },
+    {
+      "id": "P4-F2",
+      "severity": "layout",
+      "finding": "Duration legend overlaps Divine Insights median/IQR row.",
+      "repair": "Move legend to unused area or outside plotting region."
+    },
+    {
+      "id": "P4-F3",
+      "severity": "layout",
+      "finding": "Sensitivity label0.969 crosses lower x-axis.",
+      "repair": "Reposition annotations consistently inside figure."
+    },
+    {
+      "id": "P4-F4",
+      "severity": "clarity",
+      "finding": "Generated prose concatenates numbers/words in captions and formula explanatory text.",
+      "repair": "Restore normal spaces."
+    }
+  ],
+  "accepted": [
+    "Equations represent equal-chunk/equal-video pooling correctly",
+    "LOPO independently reproduces range[-0.0433465,0.3786561] with45pairs per omission",
+    "Coverage figure distinguishes25eligible matched documents from22contributing documents/11groups",
+    "IQR identified as descriptive, not inferential"
+  ]
+}

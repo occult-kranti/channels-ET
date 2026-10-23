@@ -1,0 +1,52 @@
+{
+  "title": "Titles, Captions, and Publishing Accounts: An Exploratory Study of ET Channeling on YouTube",
+  "status": "reviewed_working_manuscript",
+  "asOf": "2026-10-23",
+  "phase1": {
+    "siteCommit": "0639c825fce92df7fb7827f6a915aac00411d7e8",
+    "githubCommit": "10706f45bdda84ba29e91f8d8923306ec38d56ec",
+    "dataSha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
+    "publishedBeforePaperWork": true
+  },
+  "design": "Retrospective exploratory measurement study of a bounded convenience sample; no preregistration or population estimate claimed.",
+  "rounds": [
+    {
+      "round": 4,
+      "purpose": "Expand primary literature, build full manuscript and matched-cohort robustness figures, review actual compiled draft",
+      "state": "completed",
+      "pdfSha256": "a395941231d063d3faab18f0ea90766438ed9c1135a612102b92f1edb6ee9bc1"
+    },
+    {
+      "round": 5,
+      "purpose": "Correct scientific argument, denominators, literature and figure problems; rebuild and independently review",
+      "state": "completed",
+      "pdfSha256": "b009dbb772b562494d27251239334c42a70934424ac74bc2c5230f06f7bc2be0"
+    },
+    {
+      "round": 6,
+      "purpose": "Final reproducibility, claim/citation and visual audit, close corrections, package and publish",
+      "state": "completed",
+      "pdfSha256": "c9e7b736f1604b1801b3dfe48919a7e4604343c92a7a29fde79c9574b7ac9716"
+    }
+  ],
+  "panel": [
+    "literature",
+    "analysis_pipeline",
+    "method_panel",
+    "corpus",
+    "zip_audit",
+    "dashboard_ui"
+  ],
+  "authorship": "TBD by user; model agents are not authors or human reviewers.",
+  "submission": "Not submitted; official venue rules are reviewed for format guidance, not certification of readiness.",
+  "updatePolicy": "Keep frozen releases and generated tables tied to data hashes. Distinguish future analyses from completed results. Do not overwrite earlier numerical evidence when expanding the corpus.",
+  "completionLedger": "reviews/coordinator-completion.json",
+  "delivery": {
+    "paper": "dist/analysis/channeling-atlas-paper.pdf",
+    "overleaf": "dist/analysis/channeling-atlas-overleaf.zip",
+    "sourceRegisterEntries": 28,
+    "citedReferences": 23,
+    "physicalPages": 12,
+    "referencesEndPage": 11
+  }
+}
