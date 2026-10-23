@@ -1,0 +1,209 @@
+{
+  "checked_at_utc": "2026-10-23T23:03:37.090630+00:00",
+  "status": "passed",
+  "live_http": {
+    "base_url": "https://occult-kranti.github.io/channels-ET/",
+    "source_commit": "ad6b96e4075cf47b908a37f6cdf3b2d3c629b08d",
+    "static_inputs_dirty": false,
+    "routes": [
+      {
+        "route": "",
+        "status": 200,
+        "bytes": 600,
+        "sha256": "96972bef4ea9e62ae4099ef5a4215cc2d25cdb70a020e076ed5fca1cb7fe6d77"
+      },
+      {
+        "route": "dist/",
+        "status": 200,
+        "bytes": 2276,
+        "sha256": "0df8872473ab6b00da0ab92f3e9dc4badc0eb16d568a31a47af4b4e7a56d49e9"
+      },
+      {
+        "route": "dist/expansion/",
+        "status": 200,
+        "bytes": 2072,
+        "sha256": "745eb05cd91bf2fe198cafd9f0e1f355cc5a1ec34c0e5f6fe24b80eb5fcc97a6"
+      },
+      {
+        "route": "dist/research/",
+        "status": 200,
+        "bytes": 1809,
+        "sha256": "fe31d89cdee97257f47f7419d51814eb66ee4138edea7299cfb60505649281c9"
+      },
+      {
+        "route": "dist/research/app.js",
+        "status": 200,
+        "bytes": 50695,
+        "sha256": "8e5da01e9d45e1b7a3ef533a493a8f58c4707015585b1183bb1c0924fcb65267"
+      },
+      {
+        "route": "dist/research/data.json",
+        "status": 200,
+        "bytes": 3143169,
+        "sha256": "ec7722c8639fd76470b02b426375cead16d4e51e67f1fa191005b980d6fb9eaa"
+      },
+      {
+        "route": "dist/research/paper.pdf",
+        "status": 200,
+        "bytes": 397048,
+        "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+      },
+      {
+        "route": "dist/research/source.zip",
+        "status": 200,
+        "bytes": 296455,
+        "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+      },
+      {
+        "route": "dist/research/qwen-digest-lora-pilot.zip",
+        "status": 200,
+        "bytes": 1018863,
+        "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+      },
+      {
+        "route": "dist/research/qa-candidates.sqlite",
+        "status": 200,
+        "bytes": 925696,
+        "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+      },
+      {
+        "route": "dist/research/harvest.js",
+        "status": 200,
+        "bytes": 30968,
+        "sha256": "6471c91dc4bc4dc02fcde5703cc0e67519aeeddd48f2b1ca529b210dcb066d9e"
+      },
+      {
+        "route": "dist/research/harvest-acquisition-report.md",
+        "status": 200,
+        "bytes": 9872,
+        "sha256": "4eb8014f633cdd85aad7fd36a094dd610f408e7e40f5f15ee6318d331a5e3400"
+      },
+      {
+        "route": "dist/research/harvest-artifacts.json",
+        "status": 200,
+        "bytes": 43,
+        "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+      },
+      {
+        "route": "dist/research/harvest-asr-summary.json",
+        "status": 200,
+        "bytes": 80379,
+        "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba"
+      },
+      {
+        "route": "dist/research/harvest-attempts.json",
+        "status": 200,
+        "bytes": 43,
+        "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+      },
+      {
+        "route": "dist/research/harvest-channel-routes.json",
+        "status": 200,
+        "bytes": 775403,
+        "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee"
+      },
+      {
+        "route": "dist/research/harvest-inventory-summary.json",
+        "status": 200,
+        "bytes": 5312,
+        "sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916"
+      },
+      {
+        "route": "dist/research/harvest-inventory.sqlite",
+        "status": 200,
+        "bytes": 7462912,
+        "sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2"
+      },
+      {
+        "route": "dist/research/harvest-jobs.json",
+        "status": 200,
+        "bytes": 8282097,
+        "sha256": "f5c11198878978b1e1819d0fa76871cce1ccd5da721ade7e688154962ba9d47e"
+      },
+      {
+        "route": "dist/research/harvest-publisher-audio.json",
+        "status": 200,
+        "bytes": 106794,
+        "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+      },
+      {
+        "route": "dist/research/harvest-query-inventory.jsonl",
+        "status": 200,
+        "bytes": 240925,
+        "sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71"
+      },
+      {
+        "route": "dist/research/harvest-root-access-probe.json",
+        "status": 200,
+        "bytes": 771,
+        "sha256": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff"
+      },
+      {
+        "route": "dist/research/harvest-source-edges.jsonl",
+        "status": 200,
+        "bytes": 1342069,
+        "sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383"
+      },
+      {
+        "route": "dist/research/harvest-summary.json",
+        "status": 200,
+        "bytes": 2128,
+        "sha256": "ed47dafb60e785f2e7bf89e8990bd806600cb36f575c7ab547797f7f06a61016"
+      },
+      {
+        "route": "dist/research/harvest-video-inventory.jsonl",
+        "status": 200,
+        "bytes": 2599443,
+        "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d"
+      }
+    ],
+    "acquisition_checks": {
+      "status": "passed",
+      "scope": "Published metadata/receipt reconciliation; no audio or transcript text fetched",
+      "download_artifact_bindings": 14,
+      "inventory_videos": 942,
+      "channel_routes": 362,
+      "playlists": 169,
+      "worker_jobs": 3357,
+      "worker_counts_by_kind": {
+        "captions": 942,
+        "channel": 362,
+        "metadata": 942,
+        "playlist": 169,
+        "video": 942
+      },
+      "worker_attempts": 0,
+      "worker_states": {
+        "captions": {
+          "queued": 942
+        },
+        "channel": {
+          "queued": 362
+        },
+        "metadata": {
+          "queued": 942
+        },
+        "playlist": {
+          "queued": 169
+        },
+        "video": {
+          "queued": 942
+        }
+      },
+      "inventory_sqlite_counts": {
+        "videos": 942,
+        "channel_routes": 362,
+        "queries": 597,
+        "edges": 3654,
+        "playlists": 169
+      },
+      "publisher_completed_audio_files": 19,
+      "publisher_completed_audio_bytes": 1664529703,
+      "asr_full_transcripts": 19,
+      "asr_source_joins": 19,
+      "asr_words": 222699,
+      "asr_transcript_bytes_private": 7157662
+    }
+  },
+  "source_commit": "ad6b96e4075cf47b908a37f6cdf3b2d3c629b08d"
+}
