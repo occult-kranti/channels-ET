@@ -1,0 +1,47 @@
+{
+  "checked_at_utc": "2026-10-24T00:25:26.331316+00:00",
+  "repository": "occult-kranti/channels-ET",
+  "run": {
+    "id": 40044827256,
+    "name": "Deploy research site to Pages",
+    "head_sha": "5567bafea76717dccc226c37a3d2ef0c03117470",
+    "html_url": "https://github.com/occult-kranti/channels-ET/actions/runs/40044827256",
+    "run_number": 3,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-24T00:24:34Z",
+    "updated_at": "2026-10-24T00:25:07Z"
+  },
+  "jobs": [
+    {
+      "id": 120724039921,
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-10-24T00:24:37Z",
+      "completed_at": "2026-10-24T00:24:51Z",
+      "html_url": "https://github.com/occult-kranti/channels-ET/actions/runs/40044827256/job/120724039921"
+    },
+    {
+      "id": 120724110607,
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-10-24T00:24:54Z",
+      "completed_at": "2026-10-24T00:25:06Z",
+      "html_url": "https://github.com/occult-kranti/channels-ET/actions/runs/40044827256/job/120724110607"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 12541300219,
+      "name": "github-pages",
+      "size_in_bytes": 19257620,
+      "digest": "sha256:e4fdd8525b93c54d4d53f769003d17f509302fb745e5d395f102c5cd84e35e7e",
+      "expired": false,
+      "created_at": "2026-10-24T00:24:48Z"
+    }
+  ],
+  "scope": "Actual hosted static build, retained access-repair metadata reconciliation, and Pages deployment; no source collection, inference, or external-media fetches in Actions. Live HTTP receipt checks public site artifacts only."
+}
