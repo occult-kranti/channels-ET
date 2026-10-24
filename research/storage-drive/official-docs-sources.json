@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://rclone.org/drive/",
+    "retrieved_at": "2026-10-24T00:33:18.259567+00:00",
+    "http_status": 200,
+    "bytes": 136156,
+    "sha256": "a71334396acec9b9a5dddb8ce588b321afe399222466db11d2cf48f89a25e484",
+    "tls_verification": true,
+    "proxy": "inherited_session_configuration",
+    "reading_depth": "Full HTML fetched; relevant CLI behavior, scope, quota, checksum and privacy-related sections inspected. Not a claim of reading all linked pages."
+  },
+  {
+    "url": "https://rclone.org/commands/rclone_copyto/",
+    "retrieved_at": "2026-10-24T00:33:19.315256+00:00",
+    "http_status": 200,
+    "bytes": 50041,
+    "sha256": "9be5775f97491cf236cebd69ff6edd7751defd9219ba33c187bdbdd170e48e5e",
+    "tls_verification": true,
+    "proxy": "inherited_session_configuration",
+    "reading_depth": "Full HTML fetched; relevant CLI behavior, scope, quota, checksum and privacy-related sections inspected. Not a claim of reading all linked pages."
+  },
+  {
+    "url": "https://rclone.org/commands/rclone_lsjson/",
+    "retrieved_at": "2026-10-24T00:33:19.630147+00:00",
+    "http_status": 200,
+    "bytes": 47226,
+    "sha256": "c4c6ded57c6e877c01c2c3911262e70db5ed12a255345d8cd0977abacd10887f",
+    "tls_verification": true,
+    "proxy": "inherited_session_configuration",
+    "reading_depth": "Full HTML fetched; relevant CLI behavior, scope, quota, checksum and privacy-related sections inspected. Not a claim of reading all linked pages."
+  },
+  {
+    "url": "https://rclone.org/commands/rclone_about/",
+    "retrieved_at": "2026-10-24T00:33:19.908392+00:00",
+    "http_status": 200,
+    "bytes": 36553,
+    "sha256": "6631968346c8694a2240b16605ae6940ec95dee8a0958c80e2e4b90cab0bfa64",
+    "tls_verification": true,
+    "proxy": "inherited_session_configuration",
+    "reading_depth": "Full HTML fetched; relevant CLI behavior, scope, quota, checksum and privacy-related sections inspected. Not a claim of reading all linked pages."
+  }
+]

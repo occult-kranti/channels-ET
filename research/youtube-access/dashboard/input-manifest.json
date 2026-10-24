@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "release_state": "reviewed_final",
+  "inputs": [
+    {
+      "key": "braveWatch",
+      "source": "research/youtube-access/brave/watch-receipt.json",
+      "target": "youtube-access-brave-watch.json",
+      "sha256": "759a53066ac2fa52a627d6bd9cf243edfb0111a10f0317da986842995157532d",
+      "label": "One Brave YouTube watch diagnostic",
+      "kind": "Safe browser diagnostic metadata; private profile and raw NetLog excluded"
+    },
+    {
+      "key": "braveControl",
+      "source": "research/youtube-access/brave/control-receipt.json",
+      "target": "youtube-access-brave-control.json",
+      "sha256": "97da6142ab1d7146dbe101b2d3530c506b6424f734e814b4d57de6400d2f240d",
+      "label": "Brave allowed HTTPS control",
+      "kind": "Safe browser diagnostic metadata; private profile and raw NetLog excluded"
+    },
+    {
+      "key": "braveRuntime",
+      "source": "research/youtube-access/brave/runtime-receipt.json",
+      "target": "youtube-access-brave-runtime.json",
+      "sha256": "e7c6c8cc9b6313b0f792c5c67e4f69d07f2620cb86bbbc33c4f0cfb4510c8723",
+      "label": "Official Brave package verification",
+      "kind": "Safe browser diagnostic metadata; private profile and raw NetLog excluded"
+    },
+    {
+      "key": "braveTrust",
+      "source": "research/youtube-access/brave/trust-store-receipt.json",
+      "target": "youtube-access-brave-trust.json",
+      "sha256": "f6d848e1914d97e0318e6ab020c0e30f26e3ed769ce413181b8b1ffe87a6bbfd",
+      "label": "Brave managed-CA trust readback",
+      "kind": "Safe browser diagnostic metadata; private profile and raw NetLog excluded"
+    },
+    {
+      "key": "policy",
+      "source": "research/collection-policy/summary.json",
+      "target": "youtube-access-policy-summary.json",
+      "sha256": "72e195c29f5032af4addfa03ad98bb7640536fdd4c549c885a8fbae9ba84882c",
+      "label": "Collection policy counts and scope",
+      "kind": "Inherited metadata and planned decisions; not executed downloads"
+    },
+    {
+      "key": "policyDefinition",
+      "source": "research/collection-policy/policy.json",
+      "target": "youtube-access-policy-definition.json",
+      "sha256": "1ec0f1aa1b206dbc2d34ca2c002b1ba7a2ce6ab8fb0da8e23c06738af74ae3aa",
+      "label": "Video-cap and eligibility policy",
+      "kind": "Inherited metadata and planned decisions; not executed downloads"
+    },
+    {
+      "key": null,
+      "source": "research/collection-policy/selection.csv",
+      "target": "youtube-access-selection.csv",
+      "sha256": "44552d6fbf8c915688b22d0eb1bce4cf7786ab38460f2601984e9644749f9abf",
+      "label": "All indexed IDs and policy decisions",
+      "kind": "Inherited metadata and planned decisions; not executed downloads"
+    },
+    {
+      "key": null,
+      "source": "research/collection-policy/selection.jsonl",
+      "target": "youtube-access-selection.jsonl",
+      "sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9",
+      "label": "Complete source-linked policy decisions",
+      "kind": "Inherited metadata and planned decisions; not executed downloads"
+    },
+    {
+      "key": null,
+      "source": "research/collection-policy/selected-default.jsonl",
+      "target": "youtube-access-selected-default.jsonl",
+      "sha256": "aa59bd4cf15779e080f0a24e52120aa3aa77b9d46c4ab6985c1ae5f5a7d7da8a",
+      "label": "Default selected YouTube IDs",
+      "kind": "Inherited metadata and planned decisions; not executed downloads"
+    },
+    {
+      "key": null,
+      "source": "research/collection-policy/selected-conservative-all-materials.jsonl",
+      "target": "youtube-access-selected-conservative.jsonl",
+      "sha256": "b682a9fab6eb917d0eeb7e095571894bf59e8e00b86dce7c7ebc1bb7cbd44aca",
+      "label": "Optional all-material-reserve selection",
+      "kind": "Inherited metadata and planned decisions; not executed downloads"
+    },
+    {
+      "key": null,
+      "source": "research/collection-policy/bashar-routes.csv",
+      "target": "youtube-access-bashar-routes.csv",
+      "sha256": "e503b918228ec50eef3348ee9a1b08b2817b0203dd502b90af8a63b1f55380a1",
+      "label": "Bashar literal-route metadata",
+      "kind": "Inherited metadata and planned decisions; not executed downloads"
+    },
+    {
+      "key": null,
+      "source": "research/collection-policy/bashar-routes.json",
+      "target": "youtube-access-bashar-routes.json",
+      "sha256": "54a36521f0d5608636c87ca59b5382a8e0ae82899836e87a31d9e2eeaff9734c",
+      "label": "Bashar route source edges",
+      "kind": "Inherited metadata and planned decisions; not executed downloads"
+    },
+    {
+      "key": "drive",
+      "source": "research/storage-drive/storage-state.json",
+      "target": "youtube-access-drive-state.json",
+      "sha256": "5a774d7bc68ff384e397f42fd2e6f28ab6272ba5369d278b2ba3267f87b6afe5",
+      "label": "Drive connection and archive state",
+      "kind": "Local workflow metadata; no authenticated remote or completed upload implied"
+    },
+    {
+      "key": null,
+      "source": "research/storage-drive/archive-plan.json",
+      "target": "youtube-access-drive-plan.json",
+      "sha256": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3",
+      "label": "Planned canonical private archive manifest",
+      "kind": "Local workflow metadata; no authenticated remote or completed upload implied"
+    },
+    {
+      "key": null,
+      "source": "research/storage-drive/verification.json",
+      "target": "youtube-access-drive-verification.json",
+      "sha256": "1e7a0f27f28ca869dc8f1a0d4a677adc7a9245ea071a06d6370e05b7ea27ee67",
+      "label": "Offline archive workflow verification",
+      "kind": "Local workflow metadata; no authenticated remote or completed upload implied"
+    },
+    {
+      "key": null,
+      "source": "research/storage-drive/README.md",
+      "target": "youtube-access-drive-workflow.md",
+      "sha256": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd",
+      "label": "Drive connection and archive instructions",
+      "kind": "Local workflow metadata; no authenticated remote or completed upload implied"
+    },
+    {
+      "key": null,
+      "source": "research/youtube-access/REPORT.md",
+      "target": "youtube-access-report.md",
+      "sha256": "2a70d783f6b64e897518ed3cf779906dc4c1a14cbc90edfee2ea6a21072ebb03",
+      "label": "Current collection supplement report",
+      "kind": "Source-bound methodology, selection, access and storage status; scientific snapshot preserved"
+    },
+    {
+      "key": "runnerSummary",
+      "source": "research/collection-runner/plan-summary.json",
+      "target": "youtube-access-runner-summary.json",
+      "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269",
+      "label": "Policy-aware runner plan and actual counters",
+      "kind": "Planned operations and blocked execution evidence; zero source collection"
+    },
+    {
+      "key": "runnerDryRun",
+      "source": "research/collection-runner/dry-run.json",
+      "target": "youtube-access-runner-dry-run.json",
+      "sha256": "b999ff7709160a9610aa05cb06a2cdbc5c48f3d0d0504b61c608336c0e3d5b81",
+      "label": "Offline runner access-gate state",
+      "kind": "Planned operations and blocked execution evidence; zero source collection"
+    },
+    {
+      "key": "runnerBlocked",
+      "source": "research/collection-runner/blocked-bounded-run.json",
+      "target": "youtube-access-runner-blocked.json",
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424",
+      "label": "Bounded controller blocked-before-claim receipt",
+      "kind": "Planned operations and blocked execution evidence; zero source collection"
+    },
+    {
+      "key": null,
+      "source": "research/collection-runner/plan.jsonl",
+      "target": "youtube-access-runner-plan.jsonl",
+      "sha256": "53578b48d0f4cbd336992839183e2f26b032f0e0b15994bb2a52ed528f8df144",
+      "label": "Complete planned runner jobs",
+      "kind": "Planned operations and blocked execution evidence; zero source collection"
+    },
+    {
+      "key": null,
+      "source": "research/collection-runner/verification.json",
+      "target": "youtube-access-runner-verification.json",
+      "sha256": "98b71c2fba17dde2ed50a05b37b18d18ac1224037c59a1dcea7dd66e7f55bc69",
+      "label": "Runner offline guard verification",
+      "kind": "Planned operations and blocked execution evidence; zero source collection"
+    },
+    {
+      "key": null,
+      "source": "research/collection-runner/README.md",
+      "target": "youtube-access-runner-workflow.md",
+      "sha256": "d6c20454286180d4eaecb0bb15cf10e083708048fe74dae56cae7d940ff47538",
+      "label": "Policy-aware runner workflow",
+      "kind": "Planned operations and blocked execution evidence; zero source collection"
+    },
+    {
+      "key": null,
+      "source": "research/youtube-access/reviews/runner-review.json",
+      "target": "youtube-access-runner-review.json",
+      "sha256": "1229a5265920b194e9d91c5f75547c1428a54174e3cfeed8e32e5825311c045c",
+      "label": "Independent AI-agent runner review",
+      "kind": "Twenty offline checks; no human review or successful source collection implied"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "checked_at": "2026-10-24T00:40:24.834821+00:00",
+  "status": "PASS_WITH_EXPLICIT_LIMITS",
+  "checks_passed": 49,
+  "checks_total": 49,
+  "failures": [],
+  "review_script_sha256": "c7ed3f2b0384a84b0a582f29aa0d3898f0c6a134ed6bdf94c184577449322b6b",
+  "brave_source_manifest_sha256": "4f5430d49073992fb5760a1b72e6e52bd15cc99708ee2886bfccdc77fef35a03",
+  "brave_watch_receipt_sha256": "759a53066ac2fa52a627d6bd9cf243edfb0111a10f0317da986842995157532d",
+  "private_netlog_sha256": "9b013c8c3974ff4461132a8f64986da9a9d3500770488ff3f6999510a3191a10",
+  "source_register_sha256": "811b7e9a6da60b382e90b819e6a4ef6b5093929d0e3a3df9e38d2c60c8e69cf3",
+  "source_document_operations": 10,
+  "new_youtube_operations_by_reviewer": 0,
+  "new_browser_runs_by_reviewer": 0,
+  "new_media_downloads_by_reviewer": 0,
+  "conclusion": "Official Brave genuinely ran and its allowed TLS control succeeded; one exact target CONNECT received Envoy403 and no origin response. The underlying proxy refusal/fault cause remains unknown; no video/audio/caption acquisition or verified community repair is claimed.",
+  "limits": [
+    "Only the explicitly identified document sections and selected issue bodies were reviewed; comments and linked repairs were not fetched.",
+    "A closed GitHub issue is not verified resolution; Reddit and Substack yielded no usable post/article.",
+    "Source hashes identify retrieved snapshots; current-branch documentation is not an exact installed-code revision.",
+    "Ten documentation operations include one syntax-corrected API query; no denied destination request was repeated."
+  ],
+  "all_checks": [
+    {
+      "check": "ten bounded source operations, one attempt each",
+      "passed": true
+    },
+    {
+      "check": "yt-dlp-readme retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "yt-dlp-faq retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "brave-shields retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "github-tunnel-issues retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "chromium-network-errors retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "reddit-youtubedl-search retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "rfc9110-connect retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "github-tunnel-issues-corrected retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "brave-official-release retained private response hash/size",
+      "passed": true
+    },
+    {
+      "check": "yt-dlp-readme selected exact excerpt verified",
+      "passed": true
+    },
+    {
+      "check": "yt-dlp-faq selected exact excerpt verified",
+      "passed": true
+    },
+    {
+      "check": "brave-shields selected exact excerpt verified",
+      "passed": true
+    },
+    {
+      "check": "chromium-network-errors selected exact excerpt verified",
+      "passed": true
+    },
+    {
+      "check": "rfc9110-connect selected exact excerpt verified",
+      "passed": true
+    },
+    {
+      "check": "GitHub query returned three of fifteen matching reports",
+      "passed": true
+    },
+    {
+      "check": "GitHub issue 8276 excerpt verified",
+      "passed": true
+    },
+    {
+      "check": "GitHub issue 11185 excerpt verified",
+      "passed": true
+    },
+    {
+      "check": "ten curated evidence entries maximum",
+      "passed": true
+    },
+    {
+      "check": "Brave source owner holds thirteen-file manifest",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt README.md",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt baseline-control-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt control-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt initialize-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt prepare-runtime.py",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt probe.cjs",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt profile_ca.py",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt runtime-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt schema-source-review.json",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt summarize-netlog.cjs",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt trust-store-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt verification.json",
+      "passed": true
+    },
+    {
+      "check": "held Brave source/receipt watch-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "runtime expected checksum/size independently match official release API",
+      "passed": true
+    },
+    {
+      "check": "actual retained Brave package exact upstream checksum",
+      "passed": true
+    },
+    {
+      "check": "official release identity/date/state",
+      "passed": true
+    },
+    {
+      "check": "fresh-profile certificate error retained separately",
+      "passed": true
+    },
+    {
+      "check": "recorded allowed control renders with TLS verification",
+      "passed": true
+    },
+    {
+      "check": "recorded Pages HTTP200/TLS1.3",
+      "passed": true
+    },
+    {
+      "check": "one recorded watch document operation and no origin response",
+      "passed": true
+    },
+    {
+      "check": "watch navigation is explicitly failed, not a source-access success",
+      "passed": true
+    },
+    {
+      "check": "watch retains inherited proxy and TLS checking",
+      "passed": true
+    },
+    {
+      "check": "actual recorded engine exact revision",
+      "passed": true
+    },
+    {
+      "check": "actual private NetLog one exact target CONNECT",
+      "passed": true
+    },
+    {
+      "check": "one same-network-source tunnel response",
+      "passed": true
+    },
+    {
+      "check": "private target-bound response really is Envoy403",
+      "passed": true
+    },
+    {
+      "check": "private one-navigation guard binds actual attempt",
+      "passed": true
+    },
+    {
+      "check": "actual Brave profile trusts exactly configured public CA",
+      "passed": true
+    },
+    {
+      "check": "source has no TLS bypass and keeps target/retry guards",
+      "passed": true
+    }
+  ]
+}

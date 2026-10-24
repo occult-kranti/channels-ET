@@ -1,0 +1,625 @@
+{
+  "checkedAt": "2026-10-24T00:58:15.193Z",
+  "scope": "Local current-supplement UI acceptance; no external source, OAuth or upload operation",
+  "checks": [
+    "Project-prefix root preserves acquisition route",
+    "Policy states actual source/selection constraint: 733 YouTube IDs selected",
+    "Policy states actual source/selection constraint: Shorts",
+    "Policy states actual source/selection constraint: 300 seconds",
+    "Policy states actual source/selection constraint: fresh source checks",
+    "Policy states actual source/selection constraint: 15 Bashar cap-held",
+    "Policy states actual source/selection constraint: 0.",
+    "Quantitative figure source value/limit visible: 942 indexed IDs",
+    "Quantitative figure source value/limit visible: 748 eligible",
+    "Quantitative figure source value/limit visible: 123",
+    "Quantitative figure source value/limit visible: 61",
+    "Quantitative figure source value/limit visible: 10",
+    "Quantitative figure source value/limit visible: 115 Bashar-labeled",
+    "Quantitative figure source value/limit visible: 633 other",
+    "Quantitative figure source value/limit visible: 733 planned",
+    "Quantitative figure source value/limit visible: 100 Bashar",
+    "Quantitative figure source value/limit visible: not added again",
+    "Quantitative figure source value/limit visible: downloads: 0",
+    "Selection figure has three aligned942-ID stages",
+    "Every selection stage uses the same942-ID total 0",
+    "Every selection stage uses the same942-ID total 1",
+    "Every selection stage uses the same942-ID total 2",
+    "Policy scope inspector keyboard operable",
+    "Indexed/lifetime scope distinction: 733",
+    "Indexed/lifetime scope distinction: 714",
+    "Indexed/lifetime scope distinction: 173",
+    "Indexed/lifetime scope distinction: 68",
+    "Indexed/lifetime scope distinction: unknown",
+    "Indexed/lifetime scope distinction: overlapping inherited",
+    "Brave outcome distinction: one diagnostic",
+    "Brave outcome distinction: 403",
+    "Brave outcome distinction: cause remains unknown",
+    "Brave outcome distinction: TLS verification",
+    "Brave outcome distinction: No origin page response",
+    "Drive readiness distinction: connection pending",
+    "Drive readiness distinction: choice is not authentication",
+    "Drive readiness distinction: 0 / 0",
+    "Drive readiness distinction: 0 / 0 / 0",
+    "Drive readiness distinction: user-reported / not verified",
+    "Drive readiness distinction: 200 planned uploads",
+    "Drive readiness distinction: not an uploaded-file count",
+    "Runner planned/actual distinction: 2,408 planned jobs",
+    "Runner planned/actual distinction: 942 indexed items",
+    "Runner planned/actual distinction: Worker job attempts: 0",
+    "Runner planned/actual distinction: slots used: 0",
+    "Runner planned/actual distinction: artifacts: 0",
+    "Runner planned/actual distinction: ready: no",
+    "Runner planned/actual distinction: blocked_before_claim_or_network",
+    "Runner planned/actual distinction: share the same upload-ID cap",
+    "Current supplement renders without invalid values",
+    "Independent20publisheraudio files stay separate",
+    "Every current metadata artifact discoverable in supplement",
+    "Actual clickable default-selection download returns exact reviewed bytes",
+    "Current supplement fits desktop page width",
+    "Expanded policy/source metadata fits390px page width",
+    "Expanded current supplement fits200percent CSSzoom",
+    "Download HTTP200: access-repair-watch-probe.json",
+    "Downloaded bytes/hash equal displayed provenance: access-repair-watch-probe.json",
+    "Download equals current retained source: access-repair-watch-probe.json",
+    "Download HTTP200: access-repair-proxy-response.json",
+    "Downloaded bytes/hash equal displayed provenance: access-repair-proxy-response.json",
+    "Download equals current retained source: access-repair-proxy-response.json",
+    "Download HTTP200: access-repair-browser-verification.json",
+    "Downloaded bytes/hash equal displayed provenance: access-repair-browser-verification.json",
+    "Download equals current retained source: access-repair-browser-verification.json",
+    "Download HTTP200: access-repair-primary-sources.json",
+    "Downloaded bytes/hash equal displayed provenance: access-repair-primary-sources.json",
+    "Download equals current retained source: access-repair-primary-sources.json",
+    "Download HTTP200: access-repair-athina-audio.json",
+    "Downloaded bytes/hash equal displayed provenance: access-repair-athina-audio.json",
+    "Download equals current retained source: access-repair-athina-audio.json",
+    "Download HTTP200: access-repair-athina-asr-execution.json",
+    "Downloaded bytes/hash equal displayed provenance: access-repair-athina-asr-execution.json",
+    "Download equals current retained source: access-repair-athina-asr-execution.json",
+    "Download HTTP200: access-repair-athina-asr.json",
+    "Downloaded bytes/hash equal displayed provenance: access-repair-athina-asr.json",
+    "Download equals current retained source: access-repair-athina-asr.json",
+    "Download HTTP200: harvest-summary.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-summary.json",
+    "Download equals current retained source: harvest-summary.json",
+    "Download HTTP200: harvest-jobs.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-jobs.json",
+    "Download equals current retained source: harvest-jobs.json",
+    "Download HTTP200: harvest-attempts.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-attempts.json",
+    "Download equals current retained source: harvest-attempts.json",
+    "Download HTTP200: harvest-artifacts.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-artifacts.json",
+    "Download equals current retained source: harvest-artifacts.json",
+    "Download HTTP200: harvest-inventory-summary.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-inventory-summary.json",
+    "Download equals current retained source: harvest-inventory-summary.json",
+    "Download HTTP200: harvest-video-inventory.jsonl",
+    "Downloaded bytes/hash equal displayed provenance: harvest-video-inventory.jsonl",
+    "Download equals current retained source: harvest-video-inventory.jsonl",
+    "Download HTTP200: harvest-channel-routes.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-channel-routes.json",
+    "Download equals current retained source: harvest-channel-routes.json",
+    "Download HTTP200: harvest-source-edges.jsonl",
+    "Downloaded bytes/hash equal displayed provenance: harvest-source-edges.jsonl",
+    "Download equals current retained source: harvest-source-edges.jsonl",
+    "Download HTTP200: harvest-query-inventory.jsonl",
+    "Downloaded bytes/hash equal displayed provenance: harvest-query-inventory.jsonl",
+    "Download equals current retained source: harvest-query-inventory.jsonl",
+    "Download HTTP200: harvest-inventory.sqlite",
+    "Downloaded bytes/hash equal displayed provenance: harvest-inventory.sqlite",
+    "Download equals current retained source: harvest-inventory.sqlite",
+    "Download HTTP200: harvest-root-access-probe.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-root-access-probe.json",
+    "Download equals current retained source: harvest-root-access-probe.json",
+    "Download HTTP200: harvest-publisher-audio.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-publisher-audio.json",
+    "Download equals current retained source: harvest-publisher-audio.json",
+    "Download HTTP200: harvest-asr-summary.json",
+    "Downloaded bytes/hash equal displayed provenance: harvest-asr-summary.json",
+    "Download equals current retained source: harvest-asr-summary.json",
+    "Download HTTP200: harvest-acquisition-report.md",
+    "Downloaded bytes/hash equal displayed provenance: harvest-acquisition-report.md",
+    "Download equals current retained source: harvest-acquisition-report.md",
+    "Download HTTP200: analysis-results.json",
+    "Downloaded bytes/hash equal displayed provenance: analysis-results.json",
+    "Download equals current retained source: analysis-results.json",
+    "Download HTTP200: model-results.json",
+    "Downloaded bytes/hash equal displayed provenance: model-results.json",
+    "Download equals current retained source: model-results.json",
+    "Download HTTP200: training-receipt.json",
+    "Downloaded bytes/hash equal displayed provenance: training-receipt.json",
+    "Download equals current retained source: training-receipt.json",
+    "Download HTTP200: predictions.json",
+    "Downloaded bytes/hash equal displayed provenance: predictions.json",
+    "Download equals current retained source: predictions.json",
+    "Download HTTP200: qwen-digest-lora-pilot.zip",
+    "Downloaded bytes/hash equal displayed provenance: qwen-digest-lora-pilot.zip",
+    "Download equals current retained source: qwen-digest-lora-pilot.zip",
+    "Download HTTP200: posthoc-diagnostics.json",
+    "Downloaded bytes/hash equal displayed provenance: posthoc-diagnostics.json",
+    "Download equals current retained source: posthoc-diagnostics.json",
+    "Download HTTP200: content-label-results.json",
+    "Downloaded bytes/hash equal displayed provenance: content-label-results.json",
+    "Download equals current retained source: content-label-results.json",
+    "Download HTTP200: content-label-predictions.json",
+    "Downloaded bytes/hash equal displayed provenance: content-label-predictions.json",
+    "Download equals current retained source: content-label-predictions.json",
+    "Download HTTP200: current-family-smoke.json",
+    "Downloaded bytes/hash equal displayed provenance: current-family-smoke.json",
+    "Download equals current retained source: current-family-smoke.json",
+    "Download HTTP200: length-audit.json",
+    "Downloaded bytes/hash equal displayed provenance: length-audit.json",
+    "Download equals current retained source: length-audit.json",
+    "Download HTTP200: option-order-results.json",
+    "Downloaded bytes/hash equal displayed provenance: option-order-results.json",
+    "Download equals current retained source: option-order-results.json",
+    "Download HTTP200: option-order-protocol.json",
+    "Downloaded bytes/hash equal displayed provenance: option-order-protocol.json",
+    "Download equals current retained source: option-order-protocol.json",
+    "Download HTTP200: option-order-predictions.json",
+    "Downloaded bytes/hash equal displayed provenance: option-order-predictions.json",
+    "Download equals current retained source: option-order-predictions.json",
+    "Download HTTP200: annotation-comparison.json",
+    "Downloaded bytes/hash equal displayed provenance: annotation-comparison.json",
+    "Download equals current retained source: annotation-comparison.json",
+    "Download HTTP200: conditional-lexicon-sensitivity.json",
+    "Downloaded bytes/hash equal displayed provenance: conditional-lexicon-sensitivity.json",
+    "Download equals current retained source: conditional-lexicon-sensitivity.json",
+    "Download HTTP200: qwen35-content-label-results.json",
+    "Downloaded bytes/hash equal displayed provenance: qwen35-content-label-results.json",
+    "Download equals current retained source: qwen35-content-label-results.json",
+    "Download HTTP200: qwen35-content-label-predictions.json",
+    "Downloaded bytes/hash equal displayed provenance: qwen35-content-label-predictions.json",
+    "Download equals current retained source: qwen35-content-label-predictions.json",
+    "Download HTTP200: qwen35-content-label-protocol.json",
+    "Downloaded bytes/hash equal displayed provenance: qwen35-content-label-protocol.json",
+    "Download equals current retained source: qwen35-content-label-protocol.json",
+    "Download HTTP200: hardware.json",
+    "Downloaded bytes/hash equal displayed provenance: hardware.json",
+    "Download equals current retained source: hardware.json",
+    "Download HTTP200: model-protocol.json",
+    "Downloaded bytes/hash equal displayed provenance: model-protocol.json",
+    "Download equals current retained source: model-protocol.json",
+    "Download HTTP200: model-split.json",
+    "Downloaded bytes/hash equal displayed provenance: model-split.json",
+    "Download equals current retained source: model-split.json",
+    "Download HTTP200: model-metadata.json",
+    "Downloaded bytes/hash equal displayed provenance: model-metadata.json",
+    "Download equals current retained source: model-metadata.json",
+    "Download HTTP200: acquisition-summary.json",
+    "Downloaded bytes/hash equal displayed provenance: acquisition-summary.json",
+    "Download equals current retained source: acquisition-summary.json",
+    "Download HTTP200: corpus-index.sqlite",
+    "Downloaded bytes/hash equal displayed provenance: corpus-index.sqlite",
+    "Download equals current retained source: corpus-index.sqlite",
+    "Download HTTP200: qa-candidates.sqlite",
+    "Downloaded bytes/hash equal displayed provenance: qa-candidates.sqlite",
+    "Download equals current retained source: qa-candidates.sqlite",
+    "Download HTTP200: qa-summary.json",
+    "Downloaded bytes/hash equal displayed provenance: qa-summary.json",
+    "Download equals current retained source: qa-summary.json",
+    "Download HTTP200: paper.pdf",
+    "Downloaded bytes/hash equal displayed provenance: paper.pdf",
+    "Download equals current retained source: paper.pdf",
+    "Download HTTP200: source.zip",
+    "Downloaded bytes/hash equal displayed provenance: source.zip",
+    "Download equals current retained source: source.zip",
+    "Download HTTP200: youtube-access-brave-watch.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-brave-watch.json",
+    "Download equals current retained source: youtube-access-brave-watch.json",
+    "Download HTTP200: youtube-access-brave-control.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-brave-control.json",
+    "Download equals current retained source: youtube-access-brave-control.json",
+    "Download HTTP200: youtube-access-brave-runtime.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-brave-runtime.json",
+    "Download equals current retained source: youtube-access-brave-runtime.json",
+    "Download HTTP200: youtube-access-brave-trust.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-brave-trust.json",
+    "Download equals current retained source: youtube-access-brave-trust.json",
+    "Download HTTP200: youtube-access-policy-summary.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-policy-summary.json",
+    "Download equals current retained source: youtube-access-policy-summary.json",
+    "Download HTTP200: youtube-access-policy-definition.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-policy-definition.json",
+    "Download equals current retained source: youtube-access-policy-definition.json",
+    "Download HTTP200: youtube-access-selection.csv",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-selection.csv",
+    "Download equals current retained source: youtube-access-selection.csv",
+    "Download HTTP200: youtube-access-selection.jsonl",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-selection.jsonl",
+    "Download equals current retained source: youtube-access-selection.jsonl",
+    "Download HTTP200: youtube-access-selected-default.jsonl",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-selected-default.jsonl",
+    "Download equals current retained source: youtube-access-selected-default.jsonl",
+    "Download HTTP200: youtube-access-selected-conservative.jsonl",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-selected-conservative.jsonl",
+    "Download equals current retained source: youtube-access-selected-conservative.jsonl",
+    "Download HTTP200: youtube-access-bashar-routes.csv",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-bashar-routes.csv",
+    "Download equals current retained source: youtube-access-bashar-routes.csv",
+    "Download HTTP200: youtube-access-bashar-routes.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-bashar-routes.json",
+    "Download equals current retained source: youtube-access-bashar-routes.json",
+    "Download HTTP200: youtube-access-drive-state.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-drive-state.json",
+    "Download equals current retained source: youtube-access-drive-state.json",
+    "Download HTTP200: youtube-access-drive-plan.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-drive-plan.json",
+    "Download equals current retained source: youtube-access-drive-plan.json",
+    "Download HTTP200: youtube-access-drive-verification.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-drive-verification.json",
+    "Download equals current retained source: youtube-access-drive-verification.json",
+    "Download HTTP200: youtube-access-drive-workflow.md",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-drive-workflow.md",
+    "Download equals current retained source: youtube-access-drive-workflow.md",
+    "Download HTTP200: youtube-access-report.md",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-report.md",
+    "Download equals current retained source: youtube-access-report.md",
+    "Download HTTP200: youtube-access-runner-summary.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-runner-summary.json",
+    "Download equals current retained source: youtube-access-runner-summary.json",
+    "Download HTTP200: youtube-access-runner-dry-run.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-runner-dry-run.json",
+    "Download equals current retained source: youtube-access-runner-dry-run.json",
+    "Download HTTP200: youtube-access-runner-blocked.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-runner-blocked.json",
+    "Download equals current retained source: youtube-access-runner-blocked.json",
+    "Download HTTP200: youtube-access-runner-plan.jsonl",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-runner-plan.jsonl",
+    "Download equals current retained source: youtube-access-runner-plan.jsonl",
+    "Download HTTP200: youtube-access-runner-verification.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-runner-verification.json",
+    "Download equals current retained source: youtube-access-runner-verification.json",
+    "Download HTTP200: youtube-access-runner-workflow.md",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-runner-workflow.md",
+    "Download equals current retained source: youtube-access-runner-workflow.md",
+    "Download HTTP200: youtube-access-runner-review.json",
+    "Downloaded bytes/hash equal displayed provenance: youtube-access-runner-review.json",
+    "Download equals current retained source: youtube-access-runner-review.json",
+    "Current asset HTTP200: data.json",
+    "Current asset served bytes match build: data.json",
+    "Current asset HTTP200: youtube-access.js",
+    "Current asset served bytes match build: youtube-access.js",
+    "Current asset HTTP200: youtube-access.css",
+    "Current asset served bytes match build: youtube-access.css",
+    "Current asset HTTP200: harvest.js",
+    "Current asset served bytes match build: harvest.js",
+    "Current asset HTTP200: app.js",
+    "Current asset served bytes match build: app.js",
+    "Current asset HTTP200: index.html",
+    "Current asset served bytes match build: index.html",
+    "Current asset HTTP200: styles.css",
+    "Current asset served bytes match build: styles.css",
+    "Preserved view renders without invalid values: overview",
+    "Preserved view renders without invalid values: experiments",
+    "Preserved view renders without invalid values: methods",
+    "No browser runtime errors"
+  ],
+  "errors": [],
+  "artifacts": {
+    "access-repair-watch-probe.json": {
+      "bytes": 696,
+      "sha256": "d024596a34bc6cd83d920c74149e90cf44d62079f56d285c2a794047d630ea7d"
+    },
+    "access-repair-proxy-response.json": {
+      "bytes": 808,
+      "sha256": "81922e2c4c05ca3d3f7c037cb8ca7b2e2b97ca911f00b5f83ce9a91848fa0a5f"
+    },
+    "access-repair-browser-verification.json": {
+      "bytes": 2721,
+      "sha256": "ee0086bf1cc2ce616114cf352f126950caff97b4ca9ae38b99b3c66ec4c448b1"
+    },
+    "access-repair-primary-sources.json": {
+      "bytes": 23167,
+      "sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca"
+    },
+    "access-repair-athina-audio.json": {
+      "bytes": 6348,
+      "sha256": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370"
+    },
+    "access-repair-athina-asr-execution.json": {
+      "bytes": 1242,
+      "sha256": "a44512198d700ff515b41a452c1dba71403e247da42a5740a37054cf36197b63"
+    },
+    "access-repair-athina-asr.json": {
+      "bytes": 3576,
+      "sha256": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7"
+    },
+    "harvest-summary.json": {
+      "bytes": 2128,
+      "sha256": "ed47dafb60e785f2e7bf89e8990bd806600cb36f575c7ab547797f7f06a61016"
+    },
+    "harvest-jobs.json": {
+      "bytes": 8282097,
+      "sha256": "f5c11198878978b1e1819d0fa76871cce1ccd5da721ade7e688154962ba9d47e"
+    },
+    "harvest-attempts.json": {
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    "harvest-artifacts.json": {
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    "harvest-inventory-summary.json": {
+      "bytes": 5312,
+      "sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916"
+    },
+    "harvest-video-inventory.jsonl": {
+      "bytes": 2599443,
+      "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d"
+    },
+    "harvest-channel-routes.json": {
+      "bytes": 775403,
+      "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee"
+    },
+    "harvest-source-edges.jsonl": {
+      "bytes": 1342069,
+      "sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383"
+    },
+    "harvest-query-inventory.jsonl": {
+      "bytes": 240925,
+      "sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71"
+    },
+    "harvest-inventory.sqlite": {
+      "bytes": 7462912,
+      "sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2"
+    },
+    "harvest-root-access-probe.json": {
+      "bytes": 771,
+      "sha256": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff"
+    },
+    "harvest-publisher-audio.json": {
+      "bytes": 106794,
+      "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+    },
+    "harvest-asr-summary.json": {
+      "bytes": 80379,
+      "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba"
+    },
+    "harvest-acquisition-report.md": {
+      "bytes": 9872,
+      "sha256": "4eb8014f633cdd85aad7fd36a094dd610f408e7e40f5f15ee6318d331a5e3400"
+    },
+    "analysis-results.json": {
+      "bytes": 244716,
+      "sha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd"
+    },
+    "model-results.json": {
+      "bytes": 6396,
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f"
+    },
+    "training-receipt.json": {
+      "bytes": 8809,
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+    },
+    "predictions.json": {
+      "bytes": 66483,
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5"
+    },
+    "qwen-digest-lora-pilot.zip": {
+      "bytes": 1018863,
+      "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+    },
+    "posthoc-diagnostics.json": {
+      "bytes": 7475,
+      "sha256": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619"
+    },
+    "content-label-results.json": {
+      "bytes": 1695,
+      "sha256": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27"
+    },
+    "content-label-predictions.json": {
+      "bytes": 15071,
+      "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+    },
+    "current-family-smoke.json": {
+      "bytes": 2197,
+      "sha256": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83"
+    },
+    "length-audit.json": {
+      "bytes": 9284,
+      "sha256": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31"
+    },
+    "option-order-results.json": {
+      "bytes": 1217,
+      "sha256": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792"
+    },
+    "option-order-protocol.json": {
+      "bytes": 2182,
+      "sha256": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292"
+    },
+    "option-order-predictions.json": {
+      "bytes": 15529,
+      "sha256": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+    },
+    "annotation-comparison.json": {
+      "bytes": 3889,
+      "sha256": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2"
+    },
+    "conditional-lexicon-sensitivity.json": {
+      "bytes": 1915,
+      "sha256": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55"
+    },
+    "qwen35-content-label-results.json": {
+      "bytes": 1437,
+      "sha256": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2"
+    },
+    "qwen35-content-label-predictions.json": {
+      "bytes": 16946,
+      "sha256": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+    },
+    "qwen35-content-label-protocol.json": {
+      "bytes": 1924,
+      "sha256": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba"
+    },
+    "hardware.json": {
+      "bytes": 328,
+      "sha256": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38"
+    },
+    "model-protocol.json": {
+      "bytes": 2537,
+      "sha256": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f"
+    },
+    "model-split.json": {
+      "bytes": 88879,
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e"
+    },
+    "model-metadata.json": {
+      "bytes": 9557,
+      "sha256": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a"
+    },
+    "acquisition-summary.json": {
+      "bytes": 83109,
+      "sha256": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00"
+    },
+    "corpus-index.sqlite": {
+      "bytes": 593920,
+      "sha256": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e"
+    },
+    "qa-candidates.sqlite": {
+      "bytes": 925696,
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+    },
+    "qa-summary.json": {
+      "bytes": 245622,
+      "sha256": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100"
+    },
+    "paper.pdf": {
+      "bytes": 397048,
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    "source.zip": {
+      "bytes": 296455,
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    "youtube-access-brave-watch.json": {
+      "bytes": 2734,
+      "sha256": "759a53066ac2fa52a627d6bd9cf243edfb0111a10f0317da986842995157532d"
+    },
+    "youtube-access-brave-control.json": {
+      "bytes": 2758,
+      "sha256": "97da6142ab1d7146dbe101b2d3530c506b6424f734e814b4d57de6400d2f240d"
+    },
+    "youtube-access-brave-runtime.json": {
+      "bytes": 1600,
+      "sha256": "e7c6c8cc9b6313b0f792c5c67e4f69d07f2620cb86bbbc33c4f0cfb4510c8723"
+    },
+    "youtube-access-brave-trust.json": {
+      "bytes": 733,
+      "sha256": "f6d848e1914d97e0318e6ab020c0e30f26e3ed769ce413181b8b1ffe87a6bbfd"
+    },
+    "youtube-access-policy-summary.json": {
+      "bytes": 2817,
+      "sha256": "72e195c29f5032af4addfa03ad98bb7640536fdd4c549c885a8fbae9ba84882c"
+    },
+    "youtube-access-policy-definition.json": {
+      "bytes": 2057,
+      "sha256": "1ec0f1aa1b206dbc2d34ca2c002b1ba7a2ce6ab8fb0da8e23c06738af74ae3aa"
+    },
+    "youtube-access-selection.csv": {
+      "bytes": 376002,
+      "sha256": "44552d6fbf8c915688b22d0eb1bce4cf7786ab38460f2601984e9644749f9abf"
+    },
+    "youtube-access-selection.jsonl": {
+      "bytes": 3474515,
+      "sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9"
+    },
+    "youtube-access-selected-default.jsonl": {
+      "bytes": 2508837,
+      "sha256": "aa59bd4cf15779e080f0a24e52120aa3aa77b9d46c4ab6985c1ae5f5a7d7da8a"
+    },
+    "youtube-access-selected-conservative.jsonl": {
+      "bytes": 2335298,
+      "sha256": "b682a9fab6eb917d0eeb7e095571894bf59e8e00b86dce7c7ebc1bb7cbd44aca"
+    },
+    "youtube-access-bashar-routes.csv": {
+      "bytes": 13525,
+      "sha256": "e503b918228ec50eef3348ee9a1b08b2817b0203dd502b90af8a63b1f55380a1"
+    },
+    "youtube-access-bashar-routes.json": {
+      "bytes": 229665,
+      "sha256": "54a36521f0d5608636c87ca59b5382a8e0ae82899836e87a31d9e2eeaff9734c"
+    },
+    "youtube-access-drive-state.json": {
+      "bytes": 2507,
+      "sha256": "5a774d7bc68ff384e397f42fd2e6f28ab6272ba5369d278b2ba3267f87b6afe5"
+    },
+    "youtube-access-drive-plan.json": {
+      "bytes": 112830,
+      "sha256": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3"
+    },
+    "youtube-access-drive-verification.json": {
+      "bytes": 6106,
+      "sha256": "1e7a0f27f28ca869dc8f1a0d4a677adc7a9245ea071a06d6370e05b7ea27ee67"
+    },
+    "youtube-access-drive-workflow.md": {
+      "bytes": 11220,
+      "sha256": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd"
+    },
+    "youtube-access-report.md": {
+      "bytes": 9939,
+      "sha256": "2a70d783f6b64e897518ed3cf779906dc4c1a14cbc90edfee2ea6a21072ebb03"
+    },
+    "youtube-access-runner-summary.json": {
+      "bytes": 565,
+      "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269"
+    },
+    "youtube-access-runner-dry-run.json": {
+      "bytes": 901,
+      "sha256": "b999ff7709160a9610aa05cb06a2cdbc5c48f3d0d0504b61c608336c0e3d5b81"
+    },
+    "youtube-access-runner-blocked.json": {
+      "bytes": 300,
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424"
+    },
+    "youtube-access-runner-plan.jsonl": {
+      "bytes": 771432,
+      "sha256": "53578b48d0f4cbd336992839183e2f26b032f0e0b15994bb2a52ed528f8df144"
+    },
+    "youtube-access-runner-verification.json": {
+      "bytes": 2632,
+      "sha256": "98b71c2fba17dde2ed50a05b37b18d18ac1224037c59a1dcea7dd66e7f55bc69"
+    },
+    "youtube-access-runner-workflow.md": {
+      "bytes": 10501,
+      "sha256": "d6c20454286180d4eaecb0bb15cf10e083708048fe74dae56cae7d940ff47538"
+    },
+    "youtube-access-runner-review.json": {
+      "bytes": 6202,
+      "sha256": "1229a5265920b194e9d91c5f75547c1428a54174e3cfeed8e32e5825311c045c"
+    },
+    "data.json": {
+      "bytes": 3200189,
+      "sha256": "54e6613f86b8fb82fef8cec0136df33ac8a2c4850f7a5b7b2740ed644af7c7a5"
+    },
+    "youtube-access.js": {
+      "bytes": 14497,
+      "sha256": "d1ca1b38157b56afdf139300b463366eb3b038cc362e569e43f2fcaeb1ca8871"
+    },
+    "youtube-access.css": {
+      "bytes": 1595,
+      "sha256": "9d4787dba8c1e88f8a0502cef0ebe2426090e6cf40e459b5d8b8f4517b8e6307"
+    },
+    "harvest.js": {
+      "bytes": 38082,
+      "sha256": "cd515392e0b8dbbb230bf1d276c620f5a3e3bf835e15317d6711642c75049ab1"
+    },
+    "app.js": {
+      "bytes": 50695,
+      "sha256": "8e5da01e9d45e1b7a3ef533a493a8f58c4707015585b1183bb1c0924fcb65267"
+    },
+    "index.html": {
+      "bytes": 1899,
+      "sha256": "fc1b49ad44117f9c4203cc87a3554bf322d7591f5632774bb8e236b4a345d00c"
+    },
+    "styles.css": {
+      "bytes": 9850,
+      "sha256": "40b13762e962284c7988700d59e8ec5d9fe5d8c79493b10851cb9455cabd6bba"
+    }
+  },
+  "externalRequestsBlocked": 0,
+  "status": "PASS",
+  "completedAt": "2026-10-24T00:58:17.357Z"
+}

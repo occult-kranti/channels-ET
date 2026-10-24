@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "meaning": "Diagnostic executed and evidence reconciled; YouTube source access failed",
+  "checks": [
+    "Official package checksum verified",
+    "Official package size and dynamic dependencies verified",
+    "Fresh-profile trust failure retained",
+    "Allowed HTTPS control passes with TLS verification",
+    "Brave built-in trusted-CA readback passes",
+    "Actual published dashboard rendered",
+    "Closed private profile CA store readback verified",
+    "Exactly one ordinary watch navigation and page document request",
+    "Exactly one target-bound CONNECT in private NetLog",
+    "Target-bound tunnel response is Envoy403",
+    "No origin page response; browser reports tunnel failure",
+    "Watch retained TLS verification and inherited proxy",
+    "No attempted alternative page URL",
+    "Private one-navigation guard retained",
+    "Deployed dashboard data unchanged",
+    "Deployed dashboard code unchanged"
+  ],
+  "originalYouTubeWatchRequests": 1,
+  "youtubeArtifactsSaved": 0,
+  "unknown": "Underlying reason for proxy403",
+  "privateRuntimeProfileNetLogIncluded": false
+}

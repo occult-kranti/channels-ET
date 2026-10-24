@@ -1,0 +1,19 @@
+#harvest-current-supplement .selection-figure{margin:24px 0;padding:20px;background:#edf0e7;border:1px solid #cdd5c9}
+#harvest-current-supplement .selection-figure figcaption{font-weight:650;margin-bottom:18px}
+#harvest-current-supplement .selection-step{margin:18px 0}
+#harvest-current-supplement .selection-step p{margin:0 0 8px}
+#harvest-current-supplement .selection-track{height:24px;display:flex;background:#d8ded5;overflow:hidden;border:1px solid #a8b4a5}
+#harvest-current-supplement .selection-track span{min-width:0;display:block}
+#harvest-current-supplement .selection-key{display:flex;flex-wrap:wrap;gap:7px 16px;margin:8px 0 0;padding:0;list-style:none;font-size:12px}
+#harvest-current-supplement .selection-key i{display:inline-block;width:10px;height:10px;margin-right:6px;border:1px solid #667360}
+#harvest-current-supplement .screen-eligible{background:#45684d}
+#harvest-current-supplement .source-bashar{background:#365a3c}
+#harvest-current-supplement .source-other{background:#678884}
+#harvest-current-supplement .held-short{background:#a79376}
+#harvest-current-supplement .held-unknown{background:#bfa864}
+#harvest-current-supplement .held-conflict{background:#775b5b}
+#harvest-current-supplement .held-cap{background:#bb965a}
+#harvest-current-supplement .held-screen{background:#d8ded5}
+#harvest-current-supplement h3{margin-top:22px}
+#harvest-current-supplement .two-columns>section{min-width:0;overflow-wrap:anywhere}
+@media(max-width:600px){#harvest-current-supplement .selection-figure{margin:18px 0;padding:14px}#harvest-current-supplement .selection-key{gap:7px 10px}}

@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "changed": false,
+  "browserVersion": "Brave Browser 156.1.98.60 unknown",
+  "mechanism": "Brave per-profile ServerCertificate trusted CA",
+  "profileOutsideRepository": true,
+  "caSha256": "c71b4d1e9d7775c538c688ab10cea9ce417d7312e89838f9d15ff73256cd7fc3",
+  "trustMetadataHex": "0a020803",
+  "certificateRows": 1,
+  "databaseSchemaVersion": 1,
+  "systemTrustModified": false,
+  "certificateDetails": "subject=C=US, ST=California, L=San Francisco, O=OpenAI, LLC, CN=openai.com\nissuer=C=US, ST=California, L=San Francisco, O=OpenAI, LLC, CN=openai.com\nnotBefore=Dec  3 21:46:23 2024 GMT\nnotAfter=Dec  1 21:46:23 2034 GMT\nX509v3 Basic Constraints: critical\n    CA:TRUE\nCertificate will not expire"
+}

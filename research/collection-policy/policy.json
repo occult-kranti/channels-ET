@@ -1,0 +1,28 @@
+{
+  "already_retained_bashar_podcast_audio_reservation": 19,
+  "ambiguous_bashar_policy": "hold_pending_identity_metadata_verification",
+  "bashar_youtube_upload_cap": 100,
+  "conservative_bashar_total_material_cap": 100,
+  "cap_scope": "all_Bashar_associated_uploaders_repost_accounts_and_routes_combined",
+  "cap_unit": "unique_youtube_upload_id_across_video_audio_and_caption_assets",
+  "conflicting_duration_policy": "hold_pending_metadata_verification",
+  "conservative_cap_unit": "unique_source_material_id_including_retained_podcast_audio",
+  "conservative_new_bashar_youtube_limit": 81,
+  "default_new_bashar_youtube_limit": 100,
+  "metadata_discovery_limit": null,
+  "minimum_duration_seconds": 300,
+  "notes": [
+    "The user cap applies to 100 unique Bashar YouTube upload IDs across every account and repost route. A video, its extracted audio, and its captions consume one YouTube slot together.",
+    "The 19 already retained independent publisher RSS recordings are a separate source type and do not consume the default YouTube-upload cap.",
+    "The optional conservative all-material scenario reserves 19 retained RSS materials and allows 81 new Bashar YouTube IDs. Validation-warning audio still consumes this conservative budget.",
+    "Original-session identity across distinct uploads and podcast recordings is unresolved; upload-ID deduplication is not original-session deduplication.",
+    "The roughly 1000 requested videos are a target; this inherited snapshot contains 942 distinct YouTube IDs."
+  ],
+  "other_practitioner_limit": null,
+  "policy_id": "long-form-inclusive-bashar-global-cap-v2",
+  "release_state": "HOLD_METADATA_ONLY_NO_DOWNLOADS",
+  "sampling": "deterministic_round_robin_inherited_publisher_groups_then_route_alias_components_then_unresolved_upload_id",
+  "schema_version": 1,
+  "shorts_policy": "Exclude inherited Shorts URLs or explicit format flags and conservatively hold title markers; do not infer platform format from duration alone.",
+  "unknown_duration_policy": "hold_pending_metadata_verification"
+}

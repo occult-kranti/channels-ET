@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "reviewed_at": "2026-10-24T00:45:25.755862+00:00",
+  "reviewer": "root coordinator; independent from policy author",
+  "tests_run": 11,
+  "author_receipt_files_rehashed": 19,
+  "all_original_upload_ids_joined": 942,
+  "default_cap_interpretation": "100 distinct Bashar YouTube upload IDs; independent RSS recordings separate",
+  "fixes_applied_before_hold": [
+    "Finite/non-boolean duration validation",
+    "Default video-cap semantics corrected from conservative all-material reservation"
+  ],
+  "whole_channel_lifetime_count_known": false,
+  "network_requests": 0,
+  "source_pins": {
+    "build_policy.py": "1c29b576a3b935fd1f70f23c8f3e6eb3da15f28ddaddd2c1a98370fbef749656",
+    "policy.json": "1ec0f1aa1b206dbc2d34ca2c002b1ba7a2ce6ab8fb0da8e23c06738af74ae3aa",
+    "selection.jsonl": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9",
+    "summary.json": "72e195c29f5032af4addfa03ad98bb7640536fdd4c549c885a8fbae9ba84882c",
+    "verification.json": "48497988f533b784e90eba7d2e5a24bc797abb94cf8da96a2eada22c850469bf"
+  }
+}

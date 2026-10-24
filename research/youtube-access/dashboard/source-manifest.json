@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "status": "HOLD",
+  "repeatBuildByteIdentical": true,
+  "files": {
+    "dist/research/app.js": {
+      "bytes": 50695,
+      "sha256": "8e5da01e9d45e1b7a3ef533a493a8f58c4707015585b1183bb1c0924fcb65267"
+    },
+    "dist/research/data.json": {
+      "bytes": 3200189,
+      "sha256": "54e6613f86b8fb82fef8cec0136df33ac8a2c4850f7a5b7b2740ed644af7c7a5"
+    },
+    "dist/research/harvest.js": {
+      "bytes": 38082,
+      "sha256": "cd515392e0b8dbbb230bf1d276c620f5a3e3bf835e15317d6711642c75049ab1"
+    },
+    "dist/research/index.html": {
+      "bytes": 1899,
+      "sha256": "fc1b49ad44117f9c4203cc87a3554bf322d7591f5632774bb8e236b4a345d00c"
+    },
+    "dist/research/paper.pdf": {
+      "bytes": 397048,
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    "dist/research/source.zip": {
+      "bytes": 296455,
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    "dist/research/styles.css": {
+      "bytes": 9850,
+      "sha256": "40b13762e962284c7988700d59e8ec5d9fe5d8c79493b10851cb9455cabd6bba"
+    },
+    "dist/research/youtube-access.css": {
+      "bytes": 1595,
+      "sha256": "9d4787dba8c1e88f8a0502cef0ebe2426090e6cf40e459b5d8b8f4517b8e6307"
+    },
+    "dist/research/youtube-access.js": {
+      "bytes": 14497,
+      "sha256": "d1ca1b38157b56afdf139300b463366eb3b038cc362e569e43f2fcaeb1ca8871"
+    },
+    "research/youtube-access/dashboard/README.md": {
+      "bytes": 3480,
+      "sha256": "f11f1166f88d449a6697b51705bb438739f558825ac264eafcd1f4772434e1b7"
+    },
+    "research/youtube-access/dashboard/browser-verification.json": {
+      "bytes": 32188,
+      "sha256": "733d83baeb71f884cc7e7cf0ba9a4789bc68d70a6e2a82b12c899b900fb6fab7"
+    },
+    "research/youtube-access/dashboard/build_dashboard.py": {
+      "bytes": 2457,
+      "sha256": "66e4e8c3b5c3a2e956b39ff7e31111b1aee876fba39b30a8aa20ec8377f5f47b"
+    },
+    "research/youtube-access/dashboard/check-browser.cjs": {
+      "bytes": 7907,
+      "sha256": "46b43d968327563db8188c467b73a4163906b265b21b3b4ca088a79085b52cfa"
+    },
+    "research/youtube-access/dashboard/drive-mobile.png": {
+      "bytes": 71062,
+      "sha256": "d45c6b61e09dd907f2ca5a5717d20513561080acd7e1fa787bda90becc898ad1"
+    },
+    "research/youtube-access/dashboard/execution-desktop.png": {
+      "bytes": 207572,
+      "sha256": "c547b682d9f8db188b22ae0cdf368d92086f00db911e32aec214e5bed76835e0"
+    },
+    "research/youtube-access/dashboard/input-manifest.json": {
+      "bytes": 9168,
+      "sha256": "4f8e5c2b04de3964edbfa1e4f6d7c619b1d92bed45b84b148cfa3aaec8bb5785"
+    },
+    "research/youtube-access/dashboard/selection-desktop.png": {
+      "bytes": 46127,
+      "sha256": "27daab80c59f1fd985a25ab2506962326694dc366ea77553c9d1903d8a9a6074"
+    },
+    "research/youtube-access/dashboard/selection-mobile.png": {
+      "bytes": 43487,
+      "sha256": "499528e48a5ac2480f31b609bbfc1fdf9b83e40f88b36ce8130e5ec553655dd8"
+    },
+    "research/youtube-access/dashboard/source-verification.json": {
+      "bytes": 6343,
+      "sha256": "5ebdfeafb2f64570088ac81e0a8c77aaf0009637a24d2ebaf83b6acfc8b2e1a6"
+    },
+    "research/youtube-access/dashboard/verify_sources.py": {
+      "bytes": 7026,
+      "sha256": "518a7b2fe39dbd66958683cdc5dd59bcc154b038c4760bb8f2b63bc8113e5f0c"
+    },
+    "research/youtube-access/dashboard/youtube-access.css": {
+      "bytes": 1595,
+      "sha256": "9d4787dba8c1e88f8a0502cef0ebe2426090e6cf40e459b5d8b8f4517b8e6307"
+    },
+    "research/youtube-access/dashboard/youtube-access.js": {
+      "bytes": 14497,
+      "sha256": "d1ca1b38157b56afdf139300b463366eb3b038cc362e569e43f2fcaeb1ca8871"
+    }
+  }
+}

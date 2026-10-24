@@ -1,0 +1,12 @@
+{
+  "yt_dlp_version": "2026.10.21",
+  "extractor_source_sha256": "16d82a3c39a41cfa2b42ad9c1ff631f6f6eb2d49f6a8762aeffb9adc1b8681df",
+  "media_type_implementation_line": 4199,
+  "media_type_basis": "livestream if isLiveContent; short if microformat isShortsEligible; otherwise video (extractor classification, not manual format validation)",
+  "is_short_boolean_emitted_by_source": false,
+  "load_info_json_option_parsed": true,
+  "explicit_proxy_option_parsed": true,
+  "certificate_verification_enabled": true,
+  "compat_system_ca_no_certifi": true,
+  "network_requests": 0
+}

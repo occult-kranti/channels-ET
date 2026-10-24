@@ -1,0 +1,145 @@
+{
+  "actual_plan": {
+    "attempts": 0,
+    "bashar_slots_used": 0,
+    "captions": 733,
+    "default_selected_bashar_unique_youtube_ids": 100,
+    "default_selected_other_ids": 633,
+    "metadata": 942,
+    "quarantine_artifacts": 0,
+    "rss_recordings_consuming_default_youtube_slots": 0,
+    "total": 2408,
+    "video": 733
+  },
+  "errors": [],
+  "failures": [],
+  "fixture_scope": "Synthetic isolated temporary ledgers and mocked HTTP responses; fixtures are never presented as real access evidence and never touch the production queue.",
+  "limitations": [
+    "No successful live YouTube access or actual media acquisition is established by this review.",
+    "The global cap assumes cooperative use of the preserved single-authority ledger; deliberate source-code or database edits are outside its guard model.",
+    "The byte monitor and final quarantine checks are application guards, not operating-system filesystem quotas; a subprocess can overshoot before its next polling check.",
+    "Metadata association and extractor format evidence do not verify actual speakers, transcript accuracy, or unique original sessions."
+  ],
+  "media_downloads": 0,
+  "network_requests": 0,
+  "owner_receipts_modified": false,
+  "passed": true,
+  "release_state": "HOLD_NO_NETWORK_OR_COLLECTION",
+  "resolved_findings": [
+    {
+      "finding": "Watch success must parse a playable exact-ID player response and enforce canonical HTTPS redirects.",
+      "id": "R1",
+      "status": "fixed_and_independently_verified"
+    },
+    {
+      "finding": "Fresh positive Shorts evidence must remain held despite a review attempting a non-Shorts override.",
+      "id": "R2",
+      "status": "fixed_and_independently_verified"
+    },
+    {
+      "finding": "Changed metadata must invalidate a prior metadata-hash-bound duration or format review.",
+      "id": "R3",
+      "status": "fixed_and_independently_verified"
+    },
+    {
+      "finding": "Completed outputs and finalization must recheck byte reservations, shared quota and free space after a fast child exit.",
+      "id": "R4",
+      "status": "fixed_and_independently_verified"
+    },
+    {
+      "finding": "An extraction failure must pause the current configuration before later queued claims consume attempts.",
+      "id": "R5",
+      "status": "fixed_and_independently_verified"
+    },
+    {
+      "finding": "The mutable database must remain within the private raw quota root.",
+      "id": "R6",
+      "status": "fixed_and_independently_verified"
+    },
+    {
+      "finding": "A supplied metadata object must match its actual private hashed JSON file.",
+      "id": "R7",
+      "status": "fixed_and_independently_verified"
+    },
+    {
+      "finding": "The access gate must bind typed current cloud runtime revision/mode/state; package-install JSON is invalid and timestamp/formatting/equivalent policy ordering must not create new configuration identity.",
+      "id": "R8",
+      "status": "fixed_and_independently_verified"
+    }
+  ],
+  "review_helper_sha256": "c4f171c16f00cda803f608f44a49c4549d08c399a02df398876d4ffd2fcc57ba",
+  "review_type": "independent_executable_offline_adversarial_and_static_review",
+  "reviewed_owner_files": [
+    {
+      "path": "research/collection-runner/runner.py",
+      "sha256": "b4fe6d8cd2543765a07b586d9a61271d0f226828d504b604aaec9f0daf527d46"
+    },
+    {
+      "path": "research/collection-runner/test_guards.py",
+      "sha256": "d6f02e44e9f22e28008d6765855afd1c1f1d1dcc4633ef43cc3e51277adac6fb"
+    },
+    {
+      "path": "research/collection-runner/README.md",
+      "sha256": "d6c20454286180d4eaecb0bb15cf10e083708048fe74dae56cae7d940ff47538"
+    },
+    {
+      "path": "research/collection-runner/verification.json",
+      "sha256": "98b71c2fba17dde2ed50a05b37b18d18ac1224037c59a1dcea7dd66e7f55bc69"
+    },
+    {
+      "path": "research/collection-runner/toolchain-inspection.json",
+      "sha256": "58a38f544d9122b108a94eb9250ebf3498577016e8e04929524ea0bc95776a96"
+    },
+    {
+      "path": "research/collection-runner/plan-summary.json",
+      "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269"
+    },
+    {
+      "path": "research/collection-runner/plan.jsonl",
+      "sha256": "53578b48d0f4cbd336992839183e2f26b032f0e0b15994bb2a52ed528f8df144"
+    },
+    {
+      "path": "research/collection-runner/blocked-run-one.json",
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424"
+    },
+    {
+      "path": "research/collection-runner/blocked-bounded-run.json",
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424"
+    },
+    {
+      "path": "research/collection-runner/runtime-binding-migration.json",
+      "sha256": "bc3d91cc8480bbf434b89629eedf2e5c73735c7cbfb2526e0bbc7e043f62e426"
+    }
+  ],
+  "reviewed_runtime_receipt": {
+    "path": "research/access-repair/diagnostics/runtime-revision6.json",
+    "semantics": {
+      "mode": "unrestricted",
+      "revision": "6",
+      "state": "unknown"
+    },
+    "sha256": "e77ad53cf281a1f58a67458a1aefa014cf6638d382c7390deb8ff2d181db4b88"
+  },
+  "runner_path": "research/collection-runner/runner.py",
+  "runner_sha256_after": "b4fe6d8cd2543765a07b586d9a61271d0f226828d504b604aaec9f0daf527d46",
+  "runner_sha256_before": "b4fe6d8cd2543765a07b586d9a61271d0f226828d504b604aaec9f0daf527d46",
+  "runner_stable_during_review": true,
+  "schema_version": 1,
+  "static_audit": {
+    "blocking_findings_remaining_in_reviewed_authorized_paths": 0,
+    "current_actual_plan_bound_to_cloud_revision6": true,
+    "current_configuration_proxy_tls_runtime_gate": true,
+    "ffprobe_and_webvtt_validation_present": true,
+    "future_discovery_only_creates_metadata_jobs": true,
+    "metadata_source_hash_and_exact_id_binding": true,
+    "metadata_then_asset_bounded_two_worker_schedule": true,
+    "no_automatic_retries": true,
+    "private_quarantine_only_verified_artifacts": true,
+    "shared_old_new_collection_lock": true,
+    "source_id_shared_by_video_audio_and_captions": true,
+    "sqlite_atomic_claim_and_global_cap": true,
+    "timestamp_and_serialization_independent_configuration_identity": true,
+    "typed_real_cloud_runtime_required": true
+  },
+  "tests_run": 20
+}

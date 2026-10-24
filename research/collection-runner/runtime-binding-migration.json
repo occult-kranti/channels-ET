@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-24T00:55:00.668647+00:00",
+  "status": "corrected_without_network_or_erasure",
+  "runtime_receipt": "research/access-repair/diagnostics/runtime-revision6.json",
+  "runtime_receipt_sha256": "e77ad53cf281a1f58a67458a1aefa014cf6638d382c7390deb8ff2d181db4b88",
+  "runtime_semantics": {
+    "revision": "6",
+    "mode": "unrestricted",
+    "state": "unknown"
+  },
+  "current_fingerprint": "c6c22f17e6b0475522d9a8ded9b057584bcf6ab5d404f711cc82e1864a33b2c2",
+  "retained_probe_rows": 3,
+  "all_retained_probe_rows_blocked": true,
+  "legacy_package_fingerprint": "070cd29303346c9601245c12b144fdf75aaf85852d0bdf4012a57fdedf0fb342",
+  "old_binding_preserved_in_private_events": true,
+  "actual_job_attempts": 0,
+  "network_collection_requests": 0
+}

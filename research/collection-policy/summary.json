@@ -1,0 +1,78 @@
+{
+  "all_upload_ids": {
+    "conflicting_duration": 10,
+    "eligible": 748,
+    "indexed": 942,
+    "shorts_historical_evidence": 1,
+    "under_minimum": 123,
+    "unknown_duration": 61
+  },
+  "ambiguous_bashar_context": {
+    "conflicting_duration": 0,
+    "eligible": 0,
+    "indexed": 15,
+    "shorts_historical_evidence": 0,
+    "under_minimum": 0,
+    "unknown_duration": 15
+  },
+  "bashar_branded_routes_with_zero_indexed_videos": 6,
+  "bashar_extra_route_edges_beyond_unique_routed_ids": 85,
+  "bashar_ids_with_any_route": 162,
+  "bashar_ids_without_publisher_group": 23,
+  "bashar_ids_without_route": 11,
+  "bashar_inherited_publisher_groups": 52,
+  "bashar_multi_route_upload_ids": 70,
+  "bashar_relevant_literal_routes": 68,
+  "bashar_video_route_edges": 247,
+  "conservative_all_materials_alternative": {
+    "eligible_bashar_held_by_cap": 34,
+    "includes_existing_podcast_reservation": true,
+    "new_bashar_selected": 81,
+    "new_bashar_youtube_limit": 81,
+    "other_selected": 633,
+    "reserved_existing_bashar_podcast_materials": 19,
+    "total_new_youtube_ids_selected": 714
+  },
+  "default": {
+    "eligible_bashar_held_by_cap": 15,
+    "independent_retained_podcasts_separate_source_type": 19,
+    "new_bashar_selected": 100,
+    "new_bashar_youtube_limit": 100,
+    "other_selected": 633,
+    "podcasts_consume_youtube_cap": false,
+    "total_new_youtube_ids_selected": 733
+  },
+  "downloads_performed_by_this_layer": 0,
+  "explicit_bashar_association": {
+    "conflicting_duration": 10,
+    "eligible": 115,
+    "indexed": 173,
+    "shorts_historical_evidence": 1,
+    "under_minimum": 22,
+    "unknown_duration": 26
+  },
+  "explicit_or_ambiguous_bashar_context_ids": 188,
+  "inventory_capture_time": "2026-10-23T22:20:16.156862+00:00",
+  "lifetime_count_status": "unknown_live_enumeration_blocked_in_parent_acquisition_environment_not_estimated_here",
+  "literal_routes_total": 362,
+  "original_session_dates": "unknown_not_inferred_from_upload_dates_or_titles",
+  "original_session_deduplication": "unresolved_upload_IDs_only",
+  "other_not_bashar_labeled": {
+    "conflicting_duration": 0,
+    "eligible": 633,
+    "indexed": 754,
+    "shorts_historical_evidence": 0,
+    "under_minimum": 101,
+    "unknown_duration": 20
+  },
+  "playlists_total": 169,
+  "policy_id": "long-form-inclusive-bashar-global-cap-v2",
+  "release_state": "HOLD_METADATA_ONLY_NO_DOWNLOADS",
+  "requested_approximate_video_target": 1000,
+  "routes_with_explicit_bashar_indexed_videos": 62,
+  "schema_version": 1,
+  "scope": "offline_inherited_metadata_selection_no_downloads",
+  "shorts_count_overlap_warning": "Historical Shorts evidence overlaps duration categories; do not add these counts.",
+  "whole_channel_lifetime_all_practitioner_upload_count": null,
+  "whole_channel_lifetime_bashar_upload_count": null
+}

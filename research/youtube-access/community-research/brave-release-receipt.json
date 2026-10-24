@@ -1,0 +1,28 @@
+{
+  "collector_sha256": "b0c34ee47e3ae1af7f6a9f8f5a8102886a2cd79bf42ea183f57da5c6b2e06683",
+  "shared_fetcher_sha256": "81654fc6b03b91ccbfdae1c9b8186118a57c6e25d9ccb659754dd266f92dfe53",
+  "new_operations": 1,
+  "cumulative_source_operations": 10,
+  "youtube_operations": 0,
+  "record": {
+    "id": "brave-official-release",
+    "kind": "official_release_metadata",
+    "requested_url": "https://api.github.com/repos/brave/brave-browser/releases/tags/v1.98.60",
+    "started_at": "2026-10-24T00:38:42.817226+00:00",
+    "attempts": 1,
+    "retry": false,
+    "proxy": "inherited_session_configuration",
+    "tls_verification_enabled": true,
+    "body_cap_bytes": 4194304,
+    "status": "retrieved",
+    "http_status": 200,
+    "final_url": "https://api.github.com/repos/brave/brave-browser/releases/tags/v1.98.60",
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": "Thu, 22 Oct 2026 11:54:23 GMT",
+    "etag": "\"8ce5bb3095693e81b7a0822feb4bfc7f9a7f427302bbf4cdc9928a6e36fe0266\"",
+    "private_body_path": "/workspace/channels-et-private/community-research/brave-official-release.body",
+    "bytes": 335277,
+    "sha256": "fbe0bef6070b90ee2ea0f1bc3fe172dbb6a813ae8143a60cedcecc02ee24c6f7",
+    "finished_at": "2026-10-24T00:38:43.394238+00:00"
+  }
+}

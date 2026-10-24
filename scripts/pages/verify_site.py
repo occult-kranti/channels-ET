@@ -228,6 +228,85 @@ def verify_access_repair(payloads: dict[str, bytes], file_manifest: dict) -> dic
     }
 
 
+def verify_current_collection(payloads: dict[str, bytes], file_manifest: dict) -> dict:
+    """Reconcile the current plan and diagnostics without contacting source services."""
+    root = Path(__file__).resolve().parents[2]
+    bindings = json.loads((root / "research/youtube-access/dashboard/input-manifest.json").read_text())["inputs"]
+    def body(name: str) -> bytes:
+        return payloads["dist/research/" + name]
+    def load(name: str):
+        return json.loads(body(name))
+    bundle = load("data.json")
+    sources = bundle["harvest"]["currentSupplement"]["sources"]
+    artifacts = {a["path"]: a for a in bundle["artifacts"]}
+    for row in bindings:
+        name = row["target"]
+        assert name.startswith("youtube-access-") and "/" not in name, "Unsafe supplement filename"
+        actual = file_manifest["dist/research/" + name]
+        assert digest(body(name)) == row["sha256"] == actual["sha256"] == artifacts[name]["sha256"], name
+        assert len(body(name)) == actual["bytes"] == artifacts[name]["bytes"], name
+        if row.get("key"):
+            assert sources[row["key"]] == load(name), f"Dashboard/source mismatch: {name}"
+    selection = [json.loads(line) for line in body("youtube-access-selection.jsonl").splitlines() if line.strip()]
+    selected = [json.loads(line) for line in body("youtube-access-selected-default.jsonl").splitlines() if line.strip()]
+    policy = sources["policy"]
+    definition = sources["policyDefinition"]
+    counts = policy["all_upload_ids"]
+    assert len(selection) == len({r["video_id"] for r in selection}) == counts["indexed"]
+    assert counts["indexed"] == sum(counts[k] for k in ("eligible", "under_minimum", "unknown_duration", "conflicting_duration"))
+    assert len(selected) == len({r["video_id"] for r in selected})
+    assert {r["video_id"] for r in selected} == {r["video_id"] for r in selection if r["selected_default"]}
+    assert all(r["eligible_on_inherited_metadata"] and r["duration_seconds"] >= 300 and not r["shorts_evidence"]
+               and r["metadata_refresh_required"] is True for r in selected)
+    bashar_selected = sum(r["classification"] == "explicit_bashar_association" for r in selected)
+    assert bashar_selected <= 100 and definition["minimum_duration_seconds"] == 300
+    assert definition["bashar_youtube_upload_cap"] == 100 and definition["other_practitioner_limit"] is None
+    assert sum(r["eligible_on_inherited_metadata"] for r in selection) == counts["eligible"]
+    assert sum(r["classification"] == "explicit_bashar_association" for r in selection) == policy["explicit_bashar_association"]["indexed"]
+    assert all(not r["selected_default"] for r in selection if r["classification"] == "ambiguous_bashar_context")
+    assert policy["downloads_performed_by_this_layer"] == 0
+    assert policy["whole_channel_lifetime_bashar_upload_count"] is None
+    routes = load("youtube-access-bashar-routes.json")["records"]
+    assert len(routes) == policy["bashar_relevant_literal_routes"]
+    assert sum(r["indexed_bashar_count"] for r in routes) == policy["bashar_video_route_edges"]
+    assert len(set().union(*(set(r["known_bashar_video_ids"]) for r in routes))) == policy["bashar_ids_with_any_route"]
+    watch, control = sources["braveWatch"], sources["braveControl"]
+    assert watch["ordinaryWatchNavigations"] == watch["targetConnectRequestsObserved"] == 1
+    assert watch["proxyConnectStatus"] == 403 and watch["responses"] == []
+    assert watch["ignoreHTTPSErrors"] is False and watch["proxyConfigurationPreserved"] is True
+    assert control["passed"] is True and control["ignoreHTTPSErrors"] is False
+    drive = sources["drive"]
+    assert drive["actual_drive_uploaded_files"] == drive["actual_drive_upload_attempts"] == 0
+    assert drive["actual_drive_folder_created"] is False and drive["actual_quota_checked"] is False
+    archive = load("youtube-access-drive-plan.json")
+    assert archive["canonical_file_count"] == len(archive["files"]) == drive["plan"]["canonical_file_count"]
+    assert archive["canonical_bytes"] == sum(r["bytes"] for r in archive["files"]) == drive["plan"]["canonical_bytes"]
+    assert Counter(r["kind"] for r in archive["files"]) == archive["kinds"]
+    assert archive["uploaded_files"] == 0 and archive["drive_folder_created"] is False
+    runner, dry_run = sources["runnerSummary"], sources["runnerDryRun"]
+    runner_plan_name = next(r["target"] for r in bindings if r["source"] == "research/collection-runner/plan.jsonl")
+    jobs = [json.loads(line) for line in body(runner_plan_name).splitlines() if line.strip()]
+    assert runner["items"] == len(selection) and runner["jobs"] == len(jobs)
+    assert dict(Counter(j["kind"] for j in jobs)) == runner["by_kind"]
+    assert len({j["job_id"] for j in jobs}) == len(jobs)
+    source_sets = {kind: {j["source_id"] for j in jobs if j["kind"] == kind} for kind in runner["by_kind"]}
+    assert source_sets["metadata"] == {r["source_id"] for r in selection}
+    assert source_sets["video"] == source_sets["captions"] == {r["source_id"] for r in selected}
+    assert all(j["attempts"] == 0 and j["status"] == "queued" for j in jobs)
+    assert runner["attempts"] == runner["verified_quarantine_artifacts"] == runner["bashar_unique_youtube_slots_used"] == 0
+    assert runner["policy"]["bashar_limit"] == 100 and runner["policy"]["selection_key"] == "selected_default"
+    assert dry_run["plan"] == runner and dry_run["gate"]["ready"] is False and dry_run["network_collection_requests"] == 0
+    return {"status": "passed", "scope": "Source-bound metadata only; no YouTube or Drive requests",
+            "download_artifact_bindings": len(bindings), "indexed_ids": len(selection),
+            "default_selected_ids": len(selected), "bashar_selected_ids": bashar_selected,
+            "other_selected_ids": len(selected) - bashar_selected,
+            "bashar_relevant_overlapping_routes": len(routes), "complete_lifetime_count_known": False,
+            "brave_target_connects": watch["targetConnectRequestsObserved"], "brave_connect_status": watch["proxyConnectStatus"],
+            "planned_private_archive_files": len(archive["files"]), "drive_uploaded_files": 0,
+            "policy_runner_jobs": len(jobs), "policy_runner_kind_counts": runner["by_kind"],
+            "policy_runner_attempts": 0, "policy_runner_access_gate_ready": False}
+
+
 def http_verify(base: str, expected: dict | None = None) -> dict:
     base = base.rstrip("/") + "/"
     def get(relative: str) -> tuple[bytes, int]:
@@ -254,6 +333,11 @@ def http_verify(base: str, expected: dict | None = None) -> dict:
         for path in hashes:
             if path.startswith("dist/research/access-repair-"):
                 routes[path] = None
+    has_current_collection = "dist/research/youtube-access.js" in hashes
+    if has_current_collection:
+        for path in hashes:
+            if path.startswith("dist/research/youtube-access"):
+                routes[path] = None
     for route, marker in routes.items():
         body, status = get(route)
         path = route + "index.html" if not route or route.endswith("/") else route
@@ -268,6 +352,8 @@ def http_verify(base: str, expected: dict | None = None) -> dict:
         report["acquisition_checks"] = verify_harvest(payloads, hashes)
     if has_access_repair:
         report["access_repair_checks"] = verify_access_repair(payloads, hashes)
+    if has_current_collection:
+        report["current_collection_checks"] = verify_current_collection(payloads, hashes)
     return report
 
 

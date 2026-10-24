@@ -1,0 +1,29 @@
+{
+  "reason": "Initial 422 requires explicit is:issue or is:pull-request; corrected validation syntax only.",
+  "collector_sha256": "061e63e14c3ce0233654ed58c37abbd90983acc98d9742351f154555fbfe3abf",
+  "shared_fetcher_sha256": "81654fc6b03b91ccbfdae1c9b8186118a57c6e25d9ccb659754dd266f92dfe53",
+  "new_operations": 1,
+  "cumulative_source_operations": 9,
+  "youtube_operations": 0,
+  "record": {
+    "id": "github-tunnel-issues-corrected",
+    "kind": "public_issue_reports_not_verified_fixes",
+    "requested_url": "https://api.github.com/search/issues?q=repo%3Ayt-dlp%2Fyt-dlp+is%3Aissue+%22Tunnel+connection+failed%22&sort=updated&order=desc&per_page=3",
+    "started_at": "2026-10-24T00:37:14.620082+00:00",
+    "attempts": 1,
+    "retry": false,
+    "proxy": "inherited_session_configuration",
+    "tls_verification_enabled": true,
+    "body_cap_bytes": 4194304,
+    "status": "retrieved",
+    "http_status": 200,
+    "final_url": "https://api.github.com/search/issues?q=repo%3Ayt-dlp%2Fyt-dlp+is%3Aissue+%22Tunnel+connection+failed%22&sort=updated&order=desc&per_page=3",
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "etag": null,
+    "private_body_path": "/workspace/channels-et-private/community-research/github-tunnel-issues-corrected.body",
+    "bytes": 35651,
+    "sha256": "fdf9ed859bb0c7aeaa19c3f8a7de8d894abde9056b319dc21aaee845498786f5",
+    "finished_at": "2026-10-24T00:37:15.162557+00:00"
+  }
+}

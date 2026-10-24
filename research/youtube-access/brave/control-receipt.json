@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-24T00:31:59.717Z",
+  "mode": "control",
+  "browserVersion": "Brave Browser 156.1.98.60 unknown",
+  "runtimeObservation": {
+    "specRevision": "6",
+    "mode": "unrestricted",
+    "state": "unknown",
+    "observationsCurrent": true,
+    "observationBasis": "cloud_environment.environment_status read during this bounded setup; not a destination-access guarantee"
+  },
+  "proxy": "same inherited HTTPS_PROXY/HTTP_PROXY",
+  "proxyConfigurationPreserved": true,
+  "ignoreHTTPSErrors": false,
+  "browserArgs": [
+    "--no-sandbox"
+  ],
+  "profileOutsideRepository": true,
+  "pageRequests": [
+    {
+      "url": "https://occult-kranti.github.io/channels-ET/dist/research/",
+      "method": "GET",
+      "resourceType": "document",
+      "navigation": true
+    },
+    {
+      "url": "https://occult-kranti.github.io/channels-ET/dist/research/styles.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "navigation": false
+    },
+    {
+      "url": "https://occult-kranti.github.io/channels-ET/dist/research/harvest.js",
+      "method": "GET",
+      "resourceType": "script",
+      "navigation": false
+    },
+    {
+      "url": "https://occult-kranti.github.io/channels-ET/dist/research/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "navigation": false
+    },
+    {
+      "url": "https://occult-kranti.github.io/channels-ET/dist/research/data.json",
+      "method": "GET",
+      "resourceType": "fetch",
+      "navigation": false
+    }
+  ],
+  "blockedPageRequests": [],
+  "responses": [
+    {
+      "url": "https://occult-kranti.github.io/channels-ET/dist/research/",
+      "status": 200,
+      "tls": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "occult-kranti.github.io",
+        "validFrom": 1792800429,
+        "validTo": 1824336489
+      },
+      "headers": {
+        "server": "envoy",
+        "contentType": "text/html; charset=utf-8"
+      }
+    }
+  ],
+  "failedRequests": [],
+  "cdpFailures": [],
+  "ordinaryWatchNavigations": 0,
+  "engine": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.48",
+    "revision": "@52db4b25c0aa3038e9a1c6021428b136cc3cb5f",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.19"
+  },
+  "managedCaVisibleInTrustedCategory": true,
+  "requestedUrl": "https://occult-kranti.github.io/channels-ET/dist/research/#harvest",
+  "finalUrl": "https://occult-kranti.github.io/channels-ET/dist/research/#harvest",
+  "pageTitle": "Acquisition & downloads — Channels ET",
+  "actualAcquisitionDashboardRendered": true,
+  "passed": true,
+  "completedAt": "2026-10-24T00:32:01.370Z"
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "status": "HOLD",
+  "files": {
+    "README.md": {
+      "bytes": 5032,
+      "sha256": "cea4ab9c96524137e1576d78ebc2712d64cfeb49c9b46ac0b217a1a3b4de1899"
+    },
+    "baseline-control-receipt.json": {
+      "bytes": 1744,
+      "sha256": "b084dc0315f9691a8ad1ec18370e083153fc8d205e1dca8b5f1cf6df98c57d71"
+    },
+    "control-receipt.json": {
+      "bytes": 2758,
+      "sha256": "97da6142ab1d7146dbe101b2d3530c506b6424f734e814b4d57de6400d2f240d"
+    },
+    "initialize-receipt.json": {
+      "bytes": 1049,
+      "sha256": "9327369eda09ef57897e4fa8ac62f6a0c004cc1e94aea615fc0dc027123a0604"
+    },
+    "prepare-runtime.py": {
+      "bytes": 3148,
+      "sha256": "306f584f161e046c6bd0e3d0c4648245b087e6cad40e351cbf2ab02e700f9b72"
+    },
+    "probe.cjs": {
+      "bytes": 6390,
+      "sha256": "cefda0230600540d7cdf6eb160d420e5f2f34d6af0abe3869f34354f5770f3b8"
+    },
+    "profile_ca.py": {
+      "bytes": 5363,
+      "sha256": "5cef527033be1284e92d8be39e25b49da2f75d1f49e053518ccce1f48e1874cd"
+    },
+    "runtime-receipt.json": {
+      "bytes": 1600,
+      "sha256": "e7c6c8cc9b6313b0f792c5c67e4f69d07f2620cb86bbbc33c4f0cfb4510c8723"
+    },
+    "schema-source-review.json": {
+      "bytes": 1371,
+      "sha256": "d54573fa7c9f75bdb0ab69e665ac5d09bca95ede8a3e375f45401c7f173f30ff"
+    },
+    "summarize-netlog.cjs": {
+      "bytes": 1936,
+      "sha256": "0435e327844e6f129ed525e7b87eeef55eff864ec16d7bf0506a09e569d6c84b"
+    },
+    "trust-store-receipt.json": {
+      "bytes": 733,
+      "sha256": "f6d848e1914d97e0318e6ab020c0e30f26e3ed769ce413181b8b1ffe87a6bbfd"
+    },
+    "verification.json": {
+      "bytes": 1138,
+      "sha256": "ddebbb9c95977dd2181c2357db11f9e2f7601f2eec2d3371b3d7a611f524be7e"
+    },
+    "watch-receipt.json": {
+      "bytes": 2734,
+      "sha256": "759a53066ac2fa52a627d6bd9cf243edfb0111a10f0317da986842995157532d"
+    }
+  },
+  "privateRuntimeIncluded": false,
+  "privateProfileIncluded": false,
+  "rawNetLogIncluded": false
+}

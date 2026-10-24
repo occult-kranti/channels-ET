@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "bashar_limit": 100,
+    "policy_sha256": "1ec0f1aa1b206dbc2d34ca2c002b1ba7a2ce6ab8fb0da8e23c06738af74ae3aa",
+    "selection_key": "selected_default",
+    "selection_sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9"
+  },
+  "items": 942,
+  "jobs": 2408,
+  "by_kind": {
+    "captions": 733,
+    "metadata": 942,
+    "video": 733
+  },
+  "by_status": {
+    "queued": 2408
+  },
+  "attempts": 0,
+  "bashar_unique_youtube_slots_used": 0,
+  "verified_quarantine_artifacts": 0,
+  "automatic_retries": 0
+}

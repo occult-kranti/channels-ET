@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-24T00:45:55.341805+00:00",
+  "scope": "New isolated schema-validator environment installed from pinned requirements; previously executed three-environment setup retained",
+  "new_environment": "/workspace/channels-et-collection-venv",
+  "installed_versions": {
+    "attrs": "26.1.0",
+    "jsonschema": "4.26.0",
+    "jsonschema-specifications": "2025.9.1",
+    "referencing": "0.37.0",
+    "rpds-py": "2026.6.3",
+    "typing_extensions": "4.16.0"
+  },
+  "pip_check": "PASS",
+  "policy_tests_executed": 11,
+  "source_collection_or_inference_launched": false,
+  "fresh_task_restoration_tested": false,
+  "pins": {
+    "environment-freeze.txt": "8908b8dde5f6a9d0cfb025ef464134e3b40197e4a2757ac573917e4ec7643a2c",
+    "setup_environment.sh": "ffc894d19f53f8601f36d76346e8279a0553fbd75c31b2c72082476bb2ea5fd5"
+  },
+  "prior_setup_receipt": "research/harvest/setup-verification.json"
+}

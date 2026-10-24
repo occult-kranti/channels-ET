@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-24T00:49:29.814473+00:00",
+  "offline_tests": {
+    "status": "passed",
+    "tests": 58,
+    "real_drive_requests": 0,
+    "command": "python -m unittest discover -s research/storage-drive -p test_*.py -v"
+  },
+  "local_source_rehash": {
+    "status": "passed_after_local_output_guard_fix",
+    "canonical_files": 99,
+    "bytes": 1703635307,
+    "plan_sha256": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3",
+    "source_bytes_unchanged": true,
+    "source_hash_ledger_sha256": "45d58387840ee7ae6363e41ba358e8434fff8535aaf159514d4bef686073a64f"
+  },
+  "local_metadata_staging": {
+    "status": "completed_outside_git",
+    "metadata_files": 101,
+    "metadata_bytes": 243961,
+    "media_copied_to_staging": 0,
+    "planned_total_upload_files": 200,
+    "actual_remote_uploads": 0,
+    "metadata_matches_prior_plan": true
+  },
+  "rclone": {
+    "version": "rclone v1.60.1-DEV",
+    "configured_remotes": 0,
+    "flags": [
+      {
+        "flag": "--drive-root-folder-id=root",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-team-drive=",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-service-account-file=",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-service-account-credentials=",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-import-formats=",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-allow-import-name-change=false",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-shared-with-me=false",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-trashed-only=false",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-skip-shortcuts",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--drive-auth-owner-only",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--retries=1",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--low-level-retries=1",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--contimeout=20s",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--timeout=5m",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--immutable",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--checksum",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--no-update-modtime",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--transfers=1",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--checkers=1",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--hash",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--hash-type=MD5",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--no-modtime",
+        "present_in_installed_help": true
+      },
+      {
+        "flag": "--no-mimetype",
+        "present_in_installed_help": true
+      }
+    ],
+    "credential_files_read": false,
+    "interactive_login_started": false
+  },
+  "independent_agent_review": {
+    "performed": true,
+    "human_review": false,
+    "focus": [
+      "source_boundaries_and_symlinks",
+      "byte_deduplication",
+      "remote_collision_and_checksums",
+      "privacy_claims",
+      "ambiguous_failure_receipts",
+      "local_output_ownership_and_atomic_updates"
+    ],
+    "fixes_applied": [
+      "exclusive_no_follow_staging",
+      "fixed_private_raw_root",
+      "loaded_plan_revalidation",
+      "Drive_conversion_and_filters_disabled",
+      "source_alias_rehash",
+      "write_attempts_and_unknown_remote_state_receipts",
+      "exclusive_plan_and_receipt_output_creation",
+      "output_checks_before_remote_preflight",
+      "raw_source_stage_receipt_overlap_guards",
+      "owned_inode_bound_atomic_receipt_updates"
+    ]
+  },
+  "actual_drive_folder_created": false,
+  "actual_drive_uploaded_files": 0,
+  "source_pins": {
+    "archive.py": "24b71670627a5fc64ac2bcb19d4173f9475fe4c5b357f360a9cfc3c8053694c0",
+    "test_archive.py": "e814b3bbe7593aa1ed9a09c8f1dcc46288f3b3103cb82e48ca0559567fa48454",
+    "README.md": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd",
+    "archive-plan.json": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3",
+    "official-docs-sources.json": "26853543410cc737f51f568aa63ce5c201c0b99f6f026f49a35954f56b6cc6cf"
+  },
+  "previous_verification_sha256": "66727c2301d1efd6443598130cd564f1df43ebc45100bb663239a1aa1aec7365",
+  "local_output_safety": {
+    "status": "fixed_and_regression_tested",
+    "additional_regression_tests": 20,
+    "exclusive_initial_output_creation": true,
+    "owned_inode_bound_atomic_receipt_updates": true,
+    "rejects_existing_files_symlinks_hardlinks_and_symlink_parents": true,
+    "checks_before_any_rclone_command": true,
+    "plan_output_raw_tree_prohibited": true,
+    "receipt_raw_tree_exception": "drive-receipts only",
+    "stage_raw_tree_exception": "drive-staging only",
+    "source_staging_receipt_overlap_rejected": true,
+    "real_network_requests_for_fix": 0,
+    "source_files_opened_for_write": 0,
+    "regression_issue": "A caller-selected receipt or plan output could previously replace existing source/unrelated bytes; fixed before any actual Drive upload."
+  },
+  "independent_output_guard_review": {
+    "status": "accepted_by_independent_agent",
+    "reviewer": "paper",
+    "human_review": false,
+    "reviewed_archive_py_sha256": "24b71670627a5fc64ac2bcb19d4173f9475fe4c5b357f360a9cfc3c8053694c0",
+    "independent_collision_fixtures": 4,
+    "fixtures": [
+      "receipt_equals_source",
+      "receipt_symlink",
+      "plan_equals_source",
+      "plan_symlink"
+    ],
+    "result": "All reject before mocked rclone calls and preserve original bytes",
+    "real_network_requests": 0
+  }
+}

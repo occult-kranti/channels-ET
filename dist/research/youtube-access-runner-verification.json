@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-24T00:55:01.798885+00:00",
+  "status": "pass",
+  "offline_guard_tests": 17,
+  "test_exit_code": 0,
+  "network_collection_requests": 0,
+  "real_successful_youtube_probe_executed": false,
+  "fixture_gate_tests": "synthetic isolated temporary databases; synthetic runtime cannot authorize real probes or collection",
+  "planned_metadata_jobs": 942,
+  "planned_caption_jobs": 733,
+  "planned_video_jobs": 733,
+  "actual_job_attempts": 0,
+  "actual_quarantine_artifacts": 0,
+  "default_bashar_unique_youtube_cap": 100,
+  "original_podcast_items_consuming_default_youtube_cap": 0,
+  "runtime_receipt": "research/access-repair/diagnostics/runtime-revision6.json",
+  "runtime_receipt_sha256": "e77ad53cf281a1f58a67458a1aefa014cf6638d382c7390deb8ff2d181db4b88",
+  "files": [
+    {
+      "path": "research/collection-runner/runner.py",
+      "sha256": "b4fe6d8cd2543765a07b586d9a61271d0f226828d504b604aaec9f0daf527d46",
+      "bytes": 43639
+    },
+    {
+      "path": "research/collection-runner/test_guards.py",
+      "sha256": "d6f02e44e9f22e28008d6765855afd1c1f1d1dcc4633ef43cc3e51277adac6fb",
+      "bytes": 12800
+    },
+    {
+      "path": "research/collection-runner/toolchain-inspection.json",
+      "sha256": "58a38f544d9122b108a94eb9250ebf3498577016e8e04929524ea0bc95776a96",
+      "bytes": 577
+    },
+    {
+      "path": "research/collection-runner/plan-summary.json",
+      "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269",
+      "bytes": 565
+    },
+    {
+      "path": "research/collection-runner/plan.jsonl",
+      "sha256": "53578b48d0f4cbd336992839183e2f26b032f0e0b15994bb2a52ed528f8df144",
+      "bytes": 771432
+    },
+    {
+      "path": "research/collection-runner/dry-run.json",
+      "sha256": "b999ff7709160a9610aa05cb06a2cdbc5c48f3d0d0504b61c608336c0e3d5b81",
+      "bytes": 901
+    },
+    {
+      "path": "research/collection-runner/blocked-run-one.json",
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424",
+      "bytes": 300
+    },
+    {
+      "path": "research/collection-runner/blocked-bounded-run.json",
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424",
+      "bytes": 300
+    },
+    {
+      "path": "research/collection-runner/archive-additional-artifacts.json",
+      "sha256": "696fb997ee1c552b02e4466bd86ea345ea7fdb4ea69e973542fabecab8bf4c2f",
+      "bytes": 204
+    },
+    {
+      "path": "research/collection-runner/runtime-binding-migration.json",
+      "sha256": "bc3d91cc8480bbf434b89629eedf2e5c73735c7cbfb2526e0bbc7e043f62e426",
+      "bytes": 789
+    }
+  ]
+}

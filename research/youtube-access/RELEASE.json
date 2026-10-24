@@ -1,0 +1,619 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-10-24T01:01:45.878654+00:00",
+  "scope": "Reviewed collection/Brave/storage preparation supplement; next transcript-study work excluded",
+  "base_commit": "c764a4739822f3aea983b442d3568e54f05853b1",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 25219,
+      "sha256": "3f1c01d89444b6484c418cf62dbfcd1be2b400c5b5e0d874a78871f82e2748a7"
+    },
+    {
+      "path": "dist/research/data.json",
+      "bytes": 3200189,
+      "sha256": "54e6613f86b8fb82fef8cec0136df33ac8a2c4850f7a5b7b2740ed644af7c7a5"
+    },
+    {
+      "path": "dist/research/index.html",
+      "bytes": 1899,
+      "sha256": "fc1b49ad44117f9c4203cc87a3554bf322d7591f5632774bb8e236b4a345d00c"
+    },
+    {
+      "path": "dist/research/youtube-access-bashar-routes.csv",
+      "bytes": 13525,
+      "sha256": "e503b918228ec50eef3348ee9a1b08b2817b0203dd502b90af8a63b1f55380a1"
+    },
+    {
+      "path": "dist/research/youtube-access-bashar-routes.json",
+      "bytes": 229665,
+      "sha256": "54a36521f0d5608636c87ca59b5382a8e0ae82899836e87a31d9e2eeaff9734c"
+    },
+    {
+      "path": "dist/research/youtube-access-brave-control.json",
+      "bytes": 2758,
+      "sha256": "97da6142ab1d7146dbe101b2d3530c506b6424f734e814b4d57de6400d2f240d"
+    },
+    {
+      "path": "dist/research/youtube-access-brave-runtime.json",
+      "bytes": 1600,
+      "sha256": "e7c6c8cc9b6313b0f792c5c67e4f69d07f2620cb86bbbc33c4f0cfb4510c8723"
+    },
+    {
+      "path": "dist/research/youtube-access-brave-trust.json",
+      "bytes": 733,
+      "sha256": "f6d848e1914d97e0318e6ab020c0e30f26e3ed769ce413181b8b1ffe87a6bbfd"
+    },
+    {
+      "path": "dist/research/youtube-access-brave-watch.json",
+      "bytes": 2734,
+      "sha256": "759a53066ac2fa52a627d6bd9cf243edfb0111a10f0317da986842995157532d"
+    },
+    {
+      "path": "dist/research/youtube-access-drive-plan.json",
+      "bytes": 112830,
+      "sha256": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3"
+    },
+    {
+      "path": "dist/research/youtube-access-drive-state.json",
+      "bytes": 2507,
+      "sha256": "5a774d7bc68ff384e397f42fd2e6f28ab6272ba5369d278b2ba3267f87b6afe5"
+    },
+    {
+      "path": "dist/research/youtube-access-drive-verification.json",
+      "bytes": 6106,
+      "sha256": "1e7a0f27f28ca869dc8f1a0d4a677adc7a9245ea071a06d6370e05b7ea27ee67"
+    },
+    {
+      "path": "dist/research/youtube-access-drive-workflow.md",
+      "bytes": 11220,
+      "sha256": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd"
+    },
+    {
+      "path": "dist/research/youtube-access-policy-definition.json",
+      "bytes": 2057,
+      "sha256": "1ec0f1aa1b206dbc2d34ca2c002b1ba7a2ce6ab8fb0da8e23c06738af74ae3aa"
+    },
+    {
+      "path": "dist/research/youtube-access-policy-summary.json",
+      "bytes": 2817,
+      "sha256": "72e195c29f5032af4addfa03ad98bb7640536fdd4c549c885a8fbae9ba84882c"
+    },
+    {
+      "path": "dist/research/youtube-access-report.md",
+      "bytes": 9939,
+      "sha256": "2a70d783f6b64e897518ed3cf779906dc4c1a14cbc90edfee2ea6a21072ebb03"
+    },
+    {
+      "path": "dist/research/youtube-access-runner-blocked.json",
+      "bytes": 300,
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424"
+    },
+    {
+      "path": "dist/research/youtube-access-runner-dry-run.json",
+      "bytes": 901,
+      "sha256": "b999ff7709160a9610aa05cb06a2cdbc5c48f3d0d0504b61c608336c0e3d5b81"
+    },
+    {
+      "path": "dist/research/youtube-access-runner-plan.jsonl",
+      "bytes": 771432,
+      "sha256": "53578b48d0f4cbd336992839183e2f26b032f0e0b15994bb2a52ed528f8df144"
+    },
+    {
+      "path": "dist/research/youtube-access-runner-review.json",
+      "bytes": 6202,
+      "sha256": "1229a5265920b194e9d91c5f75547c1428a54174e3cfeed8e32e5825311c045c"
+    },
+    {
+      "path": "dist/research/youtube-access-runner-summary.json",
+      "bytes": 565,
+      "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269"
+    },
+    {
+      "path": "dist/research/youtube-access-runner-verification.json",
+      "bytes": 2632,
+      "sha256": "98b71c2fba17dde2ed50a05b37b18d18ac1224037c59a1dcea7dd66e7f55bc69"
+    },
+    {
+      "path": "dist/research/youtube-access-runner-workflow.md",
+      "bytes": 10501,
+      "sha256": "d6c20454286180d4eaecb0bb15cf10e083708048fe74dae56cae7d940ff47538"
+    },
+    {
+      "path": "dist/research/youtube-access-selected-conservative.jsonl",
+      "bytes": 2335298,
+      "sha256": "b682a9fab6eb917d0eeb7e095571894bf59e8e00b86dce7c7ebc1bb7cbd44aca"
+    },
+    {
+      "path": "dist/research/youtube-access-selected-default.jsonl",
+      "bytes": 2508837,
+      "sha256": "aa59bd4cf15779e080f0a24e52120aa3aa77b9d46c4ab6985c1ae5f5a7d7da8a"
+    },
+    {
+      "path": "dist/research/youtube-access-selection.csv",
+      "bytes": 376002,
+      "sha256": "44552d6fbf8c915688b22d0eb1bce4cf7786ab38460f2601984e9644749f9abf"
+    },
+    {
+      "path": "dist/research/youtube-access-selection.jsonl",
+      "bytes": 3474515,
+      "sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9"
+    },
+    {
+      "path": "dist/research/youtube-access.css",
+      "bytes": 1595,
+      "sha256": "9d4787dba8c1e88f8a0502cef0ebe2426090e6cf40e459b5d8b8f4517b8e6307"
+    },
+    {
+      "path": "dist/research/youtube-access.js",
+      "bytes": 14497,
+      "sha256": "d1ca1b38157b56afdf139300b463366eb3b038cc362e569e43f2fcaeb1ca8871"
+    },
+    {
+      "path": "research/collection-policy/.gitignore",
+      "bytes": 24,
+      "sha256": "a9450497f0df7a334ffdd61dd3a02e52333fb1c756e2f19fe4f9fbac00ac30b1"
+    },
+    {
+      "path": "research/collection-policy/README.md",
+      "bytes": 10047,
+      "sha256": "b94e448ed117089b8119bc92cbf9eb857df46a39aea0dbd5826b15994158b2a7"
+    },
+    {
+      "path": "research/collection-policy/bashar-publishers.csv",
+      "bytes": 8556,
+      "sha256": "187d048e2b10d444b054966793f3720733d3e748ce36c36056025e9b1ebff165"
+    },
+    {
+      "path": "research/collection-policy/bashar-publishers.json",
+      "bytes": 45547,
+      "sha256": "553cee3aea75cd49ced194634251ce5a84d65b42d4290f879cc32a9db90be5c6"
+    },
+    {
+      "path": "research/collection-policy/bashar-routes.csv",
+      "bytes": 13525,
+      "sha256": "e503b918228ec50eef3348ee9a1b08b2817b0203dd502b90af8a63b1f55380a1"
+    },
+    {
+      "path": "research/collection-policy/bashar-routes.json",
+      "bytes": 229665,
+      "sha256": "54a36521f0d5608636c87ca59b5382a8e0ae82899836e87a31d9e2eeaff9734c"
+    },
+    {
+      "path": "research/collection-policy/build_policy.py",
+      "bytes": 25018,
+      "sha256": "1c29b576a3b935fd1f70f23c8f3e6eb3da15f28ddaddd2c1a98370fbef749656"
+    },
+    {
+      "path": "research/collection-policy/input-manifest.json",
+      "bytes": 45084,
+      "sha256": "e29ca8808470abebe7b054a72f8d25e7735f84d2487117bca87f441a0a5cb6fc"
+    },
+    {
+      "path": "research/collection-policy/policy.json",
+      "bytes": 2057,
+      "sha256": "1ec0f1aa1b206dbc2d34ca2c002b1ba7a2ce6ab8fb0da8e23c06738af74ae3aa"
+    },
+    {
+      "path": "research/collection-policy/retained-bashar-reservation.json",
+      "bytes": 20165,
+      "sha256": "f9b0d57f182a415c04ee2880b1dceb49a8e19b60b75ab44b3a92ae2416be6689"
+    },
+    {
+      "path": "research/collection-policy/route-inventory.csv",
+      "bytes": 69917,
+      "sha256": "4d1b697507ffedb1dbafacd3e7a7916a3fb777138556461c3f652554681dd411"
+    },
+    {
+      "path": "research/collection-policy/route-inventory.json",
+      "bytes": 1051258,
+      "sha256": "130963bf181f121030b126b1d5aef72aa14ab06b5eb5848b4bf4fcd2e586aa06"
+    },
+    {
+      "path": "research/collection-policy/schema.json",
+      "bytes": 4334,
+      "sha256": "d641e5c4748cf8900a5aad546cc03fe037766dfe1ee858c174abf0a5dc08103d"
+    },
+    {
+      "path": "research/collection-policy/selected-conservative-all-materials.jsonl",
+      "bytes": 2335298,
+      "sha256": "b682a9fab6eb917d0eeb7e095571894bf59e8e00b86dce7c7ebc1bb7cbd44aca"
+    },
+    {
+      "path": "research/collection-policy/selected-default.jsonl",
+      "bytes": 2508837,
+      "sha256": "aa59bd4cf15779e080f0a24e52120aa3aa77b9d46c4ab6985c1ae5f5a7d7da8a"
+    },
+    {
+      "path": "research/collection-policy/selection.csv",
+      "bytes": 376002,
+      "sha256": "44552d6fbf8c915688b22d0eb1bce4cf7786ab38460f2601984e9644749f9abf"
+    },
+    {
+      "path": "research/collection-policy/selection.jsonl",
+      "bytes": 3474515,
+      "sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9"
+    },
+    {
+      "path": "research/collection-policy/summary.json",
+      "bytes": 2817,
+      "sha256": "72e195c29f5032af4addfa03ad98bb7640536fdd4c549c885a8fbae9ba84882c"
+    },
+    {
+      "path": "research/collection-policy/verification.json",
+      "bytes": 3427,
+      "sha256": "48497988f533b784e90eba7d2e5a24bc797abb94cf8da96a2eada22c850469bf"
+    },
+    {
+      "path": "research/collection-policy/verify_policy.py",
+      "bytes": 9748,
+      "sha256": "85aecefba3e6d0c9b22741e26a92db6e6d2fc2cd6a22a9499b9f5be8928f6f69"
+    },
+    {
+      "path": "research/collection-runner/README.md",
+      "bytes": 10501,
+      "sha256": "d6c20454286180d4eaecb0bb15cf10e083708048fe74dae56cae7d940ff47538"
+    },
+    {
+      "path": "research/collection-runner/archive-additional-artifacts.json",
+      "bytes": 204,
+      "sha256": "696fb997ee1c552b02e4466bd86ea345ea7fdb4ea69e973542fabecab8bf4c2f"
+    },
+    {
+      "path": "research/collection-runner/blocked-bounded-run.json",
+      "bytes": 300,
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424"
+    },
+    {
+      "path": "research/collection-runner/blocked-run-one.json",
+      "bytes": 300,
+      "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424"
+    },
+    {
+      "path": "research/collection-runner/dry-run.json",
+      "bytes": 901,
+      "sha256": "b999ff7709160a9610aa05cb06a2cdbc5c48f3d0d0504b61c608336c0e3d5b81"
+    },
+    {
+      "path": "research/collection-runner/initialization.json",
+      "bytes": 565,
+      "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269"
+    },
+    {
+      "path": "research/collection-runner/legacy-package-bound-dry-run.json",
+      "bytes": 901,
+      "sha256": "5afd10d227ce9697722a441632067e081d12595794ac5e7637d698499d41748e"
+    },
+    {
+      "path": "research/collection-runner/plan-summary.json",
+      "bytes": 565,
+      "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269"
+    },
+    {
+      "path": "research/collection-runner/plan.jsonl",
+      "bytes": 771432,
+      "sha256": "53578b48d0f4cbd336992839183e2f26b032f0e0b15994bb2a52ed528f8df144"
+    },
+    {
+      "path": "research/collection-runner/runner.py",
+      "bytes": 43639,
+      "sha256": "b4fe6d8cd2543765a07b586d9a61271d0f226828d504b604aaec9f0daf527d46"
+    },
+    {
+      "path": "research/collection-runner/runtime-binding-migration.json",
+      "bytes": 789,
+      "sha256": "bc3d91cc8480bbf434b89629eedf2e5c73735c7cbfb2526e0bbc7e043f62e426"
+    },
+    {
+      "path": "research/collection-runner/test-output.txt",
+      "bytes": 2405,
+      "sha256": "d2377190189c92295df697135ba9995afc799f9acd76a8cb106fdccc2d50b1a6"
+    },
+    {
+      "path": "research/collection-runner/test_guards.py",
+      "bytes": 12800,
+      "sha256": "d6f02e44e9f22e28008d6765855afd1c1f1d1dcc4633ef43cc3e51277adac6fb"
+    },
+    {
+      "path": "research/collection-runner/toolchain-inspection.json",
+      "bytes": 577,
+      "sha256": "58a38f544d9122b108a94eb9250ebf3498577016e8e04929524ea0bc95776a96"
+    },
+    {
+      "path": "research/collection-runner/verification.json",
+      "bytes": 2632,
+      "sha256": "98b71c2fba17dde2ed50a05b37b18d18ac1224037c59a1dcea7dd66e7f55bc69"
+    },
+    {
+      "path": "research/storage-drive/.gitignore",
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "path": "research/storage-drive/README.md",
+      "bytes": 11220,
+      "sha256": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd"
+    },
+    {
+      "path": "research/storage-drive/archive-plan.json",
+      "bytes": 112830,
+      "sha256": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3"
+    },
+    {
+      "path": "research/storage-drive/archive.py",
+      "bytes": 36378,
+      "sha256": "24b71670627a5fc64ac2bcb19d4173f9475fe4c5b357f360a9cfc3c8053694c0"
+    },
+    {
+      "path": "research/storage-drive/official-docs-sources.json",
+      "bytes": 1966,
+      "sha256": "26853543410cc737f51f568aa63ce5c201c0b99f6f026f49a35954f56b6cc6cf"
+    },
+    {
+      "path": "research/storage-drive/storage-state.json",
+      "bytes": 2507,
+      "sha256": "5a774d7bc68ff384e397f42fd2e6f28ab6272ba5369d278b2ba3267f87b6afe5"
+    },
+    {
+      "path": "research/storage-drive/test_archive.py",
+      "bytes": 28810,
+      "sha256": "e814b3bbe7593aa1ed9a09c8f1dcc46288f3b3103cb82e48ca0559567fa48454"
+    },
+    {
+      "path": "research/storage-drive/verification.json",
+      "bytes": 6106,
+      "sha256": "1e7a0f27f28ca869dc8f1a0d4a677adc7a9245ea071a06d6370e05b7ea27ee67"
+    },
+    {
+      "path": "research/youtube-access/REPORT.md",
+      "bytes": 9939,
+      "sha256": "2a70d783f6b64e897518ed3cf779906dc4c1a14cbc90edfee2ea6a21072ebb03"
+    },
+    {
+      "path": "research/youtube-access/brave/README.md",
+      "bytes": 5032,
+      "sha256": "cea4ab9c96524137e1576d78ebc2712d64cfeb49c9b46ac0b217a1a3b4de1899"
+    },
+    {
+      "path": "research/youtube-access/brave/baseline-control-receipt.json",
+      "bytes": 1744,
+      "sha256": "b084dc0315f9691a8ad1ec18370e083153fc8d205e1dca8b5f1cf6df98c57d71"
+    },
+    {
+      "path": "research/youtube-access/brave/control-receipt.json",
+      "bytes": 2758,
+      "sha256": "97da6142ab1d7146dbe101b2d3530c506b6424f734e814b4d57de6400d2f240d"
+    },
+    {
+      "path": "research/youtube-access/brave/initialize-receipt.json",
+      "bytes": 1049,
+      "sha256": "9327369eda09ef57897e4fa8ac62f6a0c004cc1e94aea615fc0dc027123a0604"
+    },
+    {
+      "path": "research/youtube-access/brave/prepare-runtime.py",
+      "bytes": 3148,
+      "sha256": "306f584f161e046c6bd0e3d0c4648245b087e6cad40e351cbf2ab02e700f9b72"
+    },
+    {
+      "path": "research/youtube-access/brave/probe.cjs",
+      "bytes": 6390,
+      "sha256": "cefda0230600540d7cdf6eb160d420e5f2f34d6af0abe3869f34354f5770f3b8"
+    },
+    {
+      "path": "research/youtube-access/brave/profile_ca.py",
+      "bytes": 5363,
+      "sha256": "5cef527033be1284e92d8be39e25b49da2f75d1f49e053518ccce1f48e1874cd"
+    },
+    {
+      "path": "research/youtube-access/brave/runtime-receipt.json",
+      "bytes": 1600,
+      "sha256": "e7c6c8cc9b6313b0f792c5c67e4f69d07f2620cb86bbbc33c4f0cfb4510c8723"
+    },
+    {
+      "path": "research/youtube-access/brave/schema-source-review.json",
+      "bytes": 1371,
+      "sha256": "d54573fa7c9f75bdb0ab69e665ac5d09bca95ede8a3e375f45401c7f173f30ff"
+    },
+    {
+      "path": "research/youtube-access/brave/source-manifest.json",
+      "bytes": 1979,
+      "sha256": "4f5430d49073992fb5760a1b72e6e52bd15cc99708ee2886bfccdc77fef35a03"
+    },
+    {
+      "path": "research/youtube-access/brave/summarize-netlog.cjs",
+      "bytes": 1936,
+      "sha256": "0435e327844e6f129ed525e7b87eeef55eff864ec16d7bf0506a09e569d6c84b"
+    },
+    {
+      "path": "research/youtube-access/brave/trust-store-receipt.json",
+      "bytes": 733,
+      "sha256": "f6d848e1914d97e0318e6ab020c0e30f26e3ed769ce413181b8b1ffe87a6bbfd"
+    },
+    {
+      "path": "research/youtube-access/brave/verification.json",
+      "bytes": 1138,
+      "sha256": "ddebbb9c95977dd2181c2357db11f9e2f7601f2eec2d3371b3d7a611f524be7e"
+    },
+    {
+      "path": "research/youtube-access/brave/watch-receipt.json",
+      "bytes": 2734,
+      "sha256": "759a53066ac2fa52a627d6bd9cf243edfb0111a10f0317da986842995157532d"
+    },
+    {
+      "path": "research/youtube-access/community-research/README.md",
+      "bytes": 6409,
+      "sha256": "e811c542f24acf8c717c01f52f73e14497ce5b428f435077bc93c958a467571b"
+    },
+    {
+      "path": "research/youtube-access/community-research/brave-release-receipt.json",
+      "bytes": 1277,
+      "sha256": "3db805746ec87bb737f213b0a0f9bb78c1e06ed3f95aa3a9a3ca8b741fff8358"
+    },
+    {
+      "path": "research/youtube-access/community-research/fetch-receipts.json",
+      "bytes": 7615,
+      "sha256": "e57b9643939dbecefc65da72ef5a50f1c356911fbd6278dca0ab99cd250b04d0"
+    },
+    {
+      "path": "research/youtube-access/community-research/fetch_issue_reports.py",
+      "bytes": 1508,
+      "sha256": "061e63e14c3ce0233654ed58c37abbd90983acc98d9742351f154555fbfe3abf"
+    },
+    {
+      "path": "research/youtube-access/community-research/fetch_release_metadata.py",
+      "bytes": 936,
+      "sha256": "b0c34ee47e3ae1af7f6a9f8f5a8102886a2cd79bf42ea183f57da5c6b2e06683"
+    },
+    {
+      "path": "research/youtube-access/community-research/fetch_sources.py",
+      "bytes": 5406,
+      "sha256": "81654fc6b03b91ccbfdae1c9b8186118a57c6e25d9ccb659754dd266f92dfe53"
+    },
+    {
+      "path": "research/youtube-access/community-research/github-issue-receipt.json",
+      "bytes": 1454,
+      "sha256": "656c2c705b260eb13f299ea6a7f8a43683478ce63046d2ad971d80c0fdb09772"
+    },
+    {
+      "path": "research/youtube-access/community-research/independent-brave-review.json",
+      "bytes": 6579,
+      "sha256": "f24ca51ef0bbb81ce2e508b5c862be321a2864bbe7f03d98840e62375c7009c0"
+    },
+    {
+      "path": "research/youtube-access/community-research/review_sources.py",
+      "bytes": 15861,
+      "sha256": "c7ed3f2b0384a84b0a582f29aa0d3898f0c6a134ed6bdf94c184577449322b6b"
+    },
+    {
+      "path": "research/youtube-access/community-research/source-manifest.json",
+      "bytes": 1796,
+      "sha256": "0e130109465570fc38cceba6aae28607292da6235afbf1294875856ca7321a92"
+    },
+    {
+      "path": "research/youtube-access/community-research/source-register.json",
+      "bytes": 10266,
+      "sha256": "811b7e9a6da60b382e90b819e6a4ef6b5093929d0e3a3df9e38d2c60c8e69cf3"
+    },
+    {
+      "path": "research/youtube-access/dashboard/README.md",
+      "bytes": 3480,
+      "sha256": "f11f1166f88d449a6697b51705bb438739f558825ac264eafcd1f4772434e1b7"
+    },
+    {
+      "path": "research/youtube-access/dashboard/browser-verification.json",
+      "bytes": 32188,
+      "sha256": "733d83baeb71f884cc7e7cf0ba9a4789bc68d70a6e2a82b12c899b900fb6fab7"
+    },
+    {
+      "path": "research/youtube-access/dashboard/build_dashboard.py",
+      "bytes": 2457,
+      "sha256": "66e4e8c3b5c3a2e956b39ff7e31111b1aee876fba39b30a8aa20ec8377f5f47b"
+    },
+    {
+      "path": "research/youtube-access/dashboard/check-browser.cjs",
+      "bytes": 7907,
+      "sha256": "46b43d968327563db8188c467b73a4163906b265b21b3b4ca088a79085b52cfa"
+    },
+    {
+      "path": "research/youtube-access/dashboard/drive-mobile.png",
+      "bytes": 71062,
+      "sha256": "d45c6b61e09dd907f2ca5a5717d20513561080acd7e1fa787bda90becc898ad1"
+    },
+    {
+      "path": "research/youtube-access/dashboard/execution-desktop.png",
+      "bytes": 207572,
+      "sha256": "c547b682d9f8db188b22ae0cdf368d92086f00db911e32aec214e5bed76835e0"
+    },
+    {
+      "path": "research/youtube-access/dashboard/input-manifest.json",
+      "bytes": 9168,
+      "sha256": "4f8e5c2b04de3964edbfa1e4f6d7c619b1d92bed45b84b148cfa3aaec8bb5785"
+    },
+    {
+      "path": "research/youtube-access/dashboard/selection-desktop.png",
+      "bytes": 46127,
+      "sha256": "27daab80c59f1fd985a25ab2506962326694dc366ea77553c9d1903d8a9a6074"
+    },
+    {
+      "path": "research/youtube-access/dashboard/selection-mobile.png",
+      "bytes": 43487,
+      "sha256": "499528e48a5ac2480f31b609bbfc1fdf9b83e40f88b36ce8130e5ec553655dd8"
+    },
+    {
+      "path": "research/youtube-access/dashboard/source-manifest.json",
+      "bytes": 3686,
+      "sha256": "104eea5a53bc2227f9be0d0b350c3d84627443427dd3d8fd5d8d3729324e692e"
+    },
+    {
+      "path": "research/youtube-access/dashboard/source-verification.json",
+      "bytes": 6343,
+      "sha256": "5ebdfeafb2f64570088ac81e0a8c77aaf0009637a24d2ebaf83b6acfc8b2e1a6"
+    },
+    {
+      "path": "research/youtube-access/dashboard/verify_sources.py",
+      "bytes": 7026,
+      "sha256": "518a7b2fe39dbd66958683cdc5dd59bcc154b038c4760bb8f2b63bc8113e5f0c"
+    },
+    {
+      "path": "research/youtube-access/dashboard/youtube-access.css",
+      "bytes": 1595,
+      "sha256": "9d4787dba8c1e88f8a0502cef0ebe2426090e6cf40e459b5d8b8f4517b8e6307"
+    },
+    {
+      "path": "research/youtube-access/dashboard/youtube-access.js",
+      "bytes": 14497,
+      "sha256": "d1ca1b38157b56afdf139300b463366eb3b038cc362e569e43f2fcaeb1ca8871"
+    },
+    {
+      "path": "research/youtube-access/environment-freeze.txt",
+      "bytes": 133,
+      "sha256": "8908b8dde5f6a9d0cfb025ef464134e3b40197e4a2757ac573917e4ec7643a2c"
+    },
+    {
+      "path": "research/youtube-access/reviews/policy-review.json",
+      "bytes": 1068,
+      "sha256": "b7b270087ea441b6bdc7dbdd567081ccce3c7c39b3491efd5892b9e59001baba"
+    },
+    {
+      "path": "research/youtube-access/reviews/rounds.json",
+      "bytes": 2535,
+      "sha256": "8d5b84dba3c87dd523b49ce2081b790c199877ee5a627f130872cbfa1281ac41"
+    },
+    {
+      "path": "research/youtube-access/reviews/runner-review.json",
+      "bytes": 6202,
+      "sha256": "1229a5265920b194e9d91c5f75547c1428a54174e3cfeed8e32e5825311c045c"
+    },
+    {
+      "path": "research/youtube-access/reviews/runner_review_checks.py",
+      "bytes": 23296,
+      "sha256": "c4f171c16f00cda803f608f44a49c4549d08c399a02df398876d4ffd2fcc57ba"
+    },
+    {
+      "path": "research/youtube-access/reviews/storage-review.json",
+      "bytes": 6982,
+      "sha256": "c9282c87eb8f2106c1b05fa0c13cad25a0add9ba2c23b96acc9aa815ff4e94e2"
+    },
+    {
+      "path": "research/youtube-access/setup-verification.json",
+      "bytes": 927,
+      "sha256": "b6668f5e7b2c0c36189b7bb53612a62eb8111f20a7de187e8c6dadb44c478eab"
+    },
+    {
+      "path": "research/youtube-access/setup_environment.sh",
+      "bytes": 1912,
+      "sha256": "ffc894d19f53f8601f36d76346e8279a0553fbd75c31b2c72082476bb2ea5fd5"
+    },
+    {
+      "path": "scripts/pages/verify_site.py",
+      "bytes": 27496,
+      "sha256": "666cf30583bb43217f3f5abcdd12fff43f99a989d8c7ac0fb60c9ef3ee7433a6"
+    }
+  ],
+  "file_count": 121,
+  "bytes": 25046430,
+  "youtube_downloads": 0,
+  "drive_uploads": 0,
+  "new_transcript_study_in_progress_separate": true,
+  "excluded_self": "Avoid a hash cycle; future deployment receipts are separate"
+}

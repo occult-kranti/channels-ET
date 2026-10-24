@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-24T00:51:07.850216+00:00",
+  "status": "PASS_WITH_CONNECTION_PENDING",
+  "scope": "Independent local storage/source/code review. No Drive, browser, source-network or neural operation; no owner proof files overwritten.",
+  "owned_artifact": "research/youtube-access/reviews/storage-review.json",
+  "final_storage_file_sha256": {
+    "research/storage-drive/archive.py": "24b71670627a5fc64ac2bcb19d4173f9475fe4c5b357f360a9cfc3c8053694c0",
+    "research/storage-drive/test_archive.py": "e814b3bbe7593aa1ed9a09c8f1dcc46288f3b3103cb82e48ca0559567fa48454",
+    "research/storage-drive/README.md": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd",
+    "research/storage-drive/verification.json": "1e7a0f27f28ca869dc8f1a0d4a677adc7a9245ea071a06d6370e05b7ea27ee67",
+    "research/storage-drive/storage-state.json": "5a774d7bc68ff384e397f42fd2e6f28ab6272ba5369d278b2ba3267f87b6afe5",
+    "research/storage-drive/archive-plan.json": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3",
+    "research/storage-drive/official-docs-sources.json": "26853543410cc737f51f568aa63ce5c201c0b99f6f026f49a35954f56b6cc6cf"
+  },
+  "reviewed_code_functions": [
+    "regular_source",
+    "hash_source",
+    "artifact_path",
+    "collect_existing",
+    "build_plan",
+    "validate_plan",
+    "output_path",
+    "OwnedJsonOutput",
+    "stage_destination",
+    "safe_stage_write",
+    "stage_manifests",
+    "existing_drive_remote",
+    "remote_status",
+    "remote_listing",
+    "remote_file",
+    "transfer_one",
+    "upload",
+    "main"
+  ],
+  "executed_offline_tests": {
+    "suite_command": "python -B -m unittest discover -s research/storage-drive -p 'test_*.py' -v",
+    "suite_tests_passed": 58,
+    "suite_failures": 0,
+    "independent_collision_fixtures_passed": 4,
+    "independent_cases": [
+      "receipt path equals source",
+      "receipt symlink points to source",
+      "plan output equals source",
+      "plan output symlink points to source"
+    ],
+    "each_independent_case_preserved_source_bytes": true,
+    "each_independent_case_rclone_calls": 0,
+    "fixtures_used_only_temporary_directories": true
+  },
+  "concrete_finding_and_resolution": {
+    "finding": "An existing source file passed as receipt_path was overwritten by initial JSON bookkeeping before transfer failed its source hash check.",
+    "affected_code_sha256": "9058697f54174fc12f284daee706cd06a3cae674956ca4bc12c95ae79638d63a",
+    "reproduced_in": "Synthetic isolated temporary audio fixture; no actual research source altered.",
+    "status": "fixed_and_independently_retested",
+    "repair": "New output paths are validated before rclone requests; existing files/links/directories and source/staging overlap are rejected. Receipt creation uses exclusive no-follow parent descriptors; atomic updates require its owned inode. Plan creation is exclusive; dedicated raw receipt/staging directories are enforced."
+  },
+  "actual_source_verification": {
+    "receipt_joined_private_source_files": 99,
+    "private_source_bytes_rehashed": 1703635307,
+    "audio_files": 20,
+    "asr_output_files": 60,
+    "primary_publication_text_feed_files": 19,
+    "canonical_objects": 99,
+    "byte_identical_aliases": 0,
+    "source_sha256_md5_size_validation": "passed for all99 actual source files",
+    "private_metadata_staged_files": 101,
+    "private_metadata_staged_bytes": 243961,
+    "sidecars_equal_plan": 99,
+    "sha256sum_entries_verified": 199,
+    "raw_media_copied_to_staging": 0,
+    "planned_remote_transfer_files": 200,
+    "actual_remote_uploads": 0,
+    "source_receipt_sha256": {
+      "research/harvest/publisher_sources/publisher-summary.json": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3",
+      "research/access-repair/athina/publisher_sources/publisher-summary.json": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370",
+      "research/harvest/asr/summary.json": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba",
+      "research/access-repair/athina/asr/310c6d538a438cee6ba4-receipt.json": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7",
+      "research/access-repair/primary-sources/expanded-metadata.json": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca"
+    }
+  },
+  "rclone_runtime_checks": {
+    "installed_version": "rclone v1.60.1-DEV",
+    "selected_flags_confirmed_in_installed_help": 23,
+    "help_commands_run_locally": [
+      "rclone help flags",
+      "rclone help backend drive",
+      "rclone lsjson --help",
+      "rclone copyto --help",
+      "rclone about --help"
+    ],
+    "local_remote_count_observed": 0,
+    "callable_drive_tools_observed_by_reviewer": 0,
+    "credential_values_inspected": false,
+    "oauth_login_started": false,
+    "drive_api_requests": 0
+  },
+  "remote_safety_review": {
+    "explicit_existing_direct_drive_remote_required": true,
+    "aliases_connection_strings_and_path_remote_selectors_rejected": true,
+    "ambient_google_adc_or_sdk_lookup_in_workflow": false,
+    "service_account_overrides_cleared_by_flags": true,
+    "account_identity_still_requires_actual_authorized_remote_binding": true,
+    "my_drive_root_forced": true,
+    "quota_must_be_authenticated_known_and_sufficient": true,
+    "raw_google_docs_import_disabled": true,
+    "copy_uses_immutable_checksum_and_sequential_transfers": true,
+    "existing_destination_requires_exact_size_and_md5": true,
+    "postcopy_size_md5_and_local_source_rehash_required": true,
+    "duplicate_drive_names_rejected": true,
+    "remote_sharing_sync_delete_move_commands": false,
+    "tls_ignore_flags_or_proxy_bypass_added": false,
+    "effective_acl_not_independently_audited": true,
+    "no_resume_merge_or_cleanup_disclosed": true,
+    "uncertain_remote_state_retained_after_failed_write": true
+  },
+  "remaining_limits": [
+    "No authorized Drive tool/remote, authenticated quota read, effective-permission inspection, Drive folder or upload exists in these receipts.",
+    "The5TB allowance is user-reported. An Apps connection choice is not OAuth completion or a selected-account identity receipt.",
+    "The account/destination confirmation flag records operator configuration, not a new user-authorization requirement. User identity and effective ACLs remain unverified.",
+    "Mocked rclone tests and valid installed flags do not establish live Drive API behavior, transfer success, OAuth-client health or privacy.",
+    "Current99 source artifacts are independent publisher/audio/ASR/text material, not YouTube downloads. Archiving adds no human speech, speaker, entity-origin or edition validation.",
+    "No resume/merge/cleanup exists. A failed future upload may retain partial remote objects and a fresh plan may duplicate bytes."
+  ],
+  "reviewer_new_network_requests": 0,
+  "reviewer_new_drive_requests": 0,
+  "reviewer_new_browser_runs": 0,
+  "reviewer_new_neural_runs": 0,
+  "blocking_findings_remaining": []
+}

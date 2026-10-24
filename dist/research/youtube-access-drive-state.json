@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-24T00:49:29.814721+00:00",
+  "status": "workflow_prepared_connection_pending",
+  "apps_connection_choice_received": true,
+  "oauth_completion_observed": false,
+  "callable_drive_tool_count": 0,
+  "configured_rclone_remotes": 0,
+  "authorized_drive_identity_observed": false,
+  "user_reported_storage_allowance_tb": 5,
+  "actual_quota_checked": false,
+  "actual_quota": null,
+  "actual_drive_folder_created": false,
+  "actual_drive_folder_count": 0,
+  "actual_drive_upload_attempts": 0,
+  "actual_drive_uploaded_files": 0,
+  "effective_drive_acl_verified": false,
+  "plan": {
+    "path": "research/storage-drive/archive-plan.json",
+    "source_artifact_count": 99,
+    "canonical_file_count": 99,
+    "byte_identical_alias_count": 0,
+    "canonical_bytes": 1703635307,
+    "kinds": {
+      "audio": 20,
+      "transcript": 60,
+      "source-document": 1,
+      "source-metadata": 2,
+      "primary-text": 16
+    },
+    "youtube_artifacts": 0,
+    "local_metadata_sidecar_and_manifest_files": 101,
+    "planned_total_upload_files": 200
+  },
+  "verification_path": "research/storage-drive/verification.json",
+  "source_docs_path": "research/storage-drive/official-docs-sources.json",
+  "workflow_path": "research/storage-drive/README.md",
+  "blocked_step": "Bind an actual user-authorized Drive tool or explicit existing direct Drive remote and inspect the selected account/privacy settings. The Apps choice alone does not establish connection.",
+  "no_credentials_read_or_login_started": true,
+  "no_public_sharing_or_git_media": true,
+  "limits": [
+    "Offline tests and local manifests are not a successful Drive upload.",
+    "5 TB is user-reported until an actual authenticated quota read.",
+    "My Drive default permissions are not an independent ACL audit.",
+    "No resume/merge/cleanup; failed transfers may leave remote partial objects."
+  ],
+  "output_safety_guard_verified": true,
+  "local_source_bytes_rehashed_after_output_fix": true,
+  "offline_test_count": 58,
+  "source_pins": {
+    "archive.py": "24b71670627a5fc64ac2bcb19d4173f9475fe4c5b357f360a9cfc3c8053694c0",
+    "test_archive.py": "e814b3bbe7593aa1ed9a09c8f1dcc46288f3b3103cb82e48ca0559567fa48454",
+    "README.md": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd",
+    "archive-plan.json": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3",
+    "official-docs-sources.json": "26853543410cc737f51f568aa63ce5c201c0b99f6f026f49a35954f56b6cc6cf"
+  }
+}

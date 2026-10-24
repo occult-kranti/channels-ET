@@ -1,0 +1,109 @@
+{
+  "downloads": 0,
+  "errors": 0,
+  "failures": 0,
+  "network_requests": 0,
+  "passed": true,
+  "release_state": "HOLD_METADATA_ONLY_NO_DOWNLOADS",
+  "schema_version": 1,
+  "scope": "metadata schema, source hashes, accounting, cap invariants, threshold boundaries, explicit Shorts evidence, route overlap, ambiguity, sampling determinism, and byte-identical offline rebuild",
+  "tests_run": 11,
+  "validator": "jsonschema.Draft202012Validator plus unittest assertions",
+  "verified_files": [
+    {
+      "bytes": 24,
+      "path": ".gitignore",
+      "sha256": "a9450497f0df7a334ffdd61dd3a02e52333fb1c756e2f19fe4f9fbac00ac30b1"
+    },
+    {
+      "bytes": 10047,
+      "path": "README.md",
+      "sha256": "b94e448ed117089b8119bc92cbf9eb857df46a39aea0dbd5826b15994158b2a7"
+    },
+    {
+      "bytes": 8556,
+      "path": "bashar-publishers.csv",
+      "sha256": "187d048e2b10d444b054966793f3720733d3e748ce36c36056025e9b1ebff165"
+    },
+    {
+      "bytes": 45547,
+      "path": "bashar-publishers.json",
+      "sha256": "553cee3aea75cd49ced194634251ce5a84d65b42d4290f879cc32a9db90be5c6"
+    },
+    {
+      "bytes": 13525,
+      "path": "bashar-routes.csv",
+      "sha256": "e503b918228ec50eef3348ee9a1b08b2817b0203dd502b90af8a63b1f55380a1"
+    },
+    {
+      "bytes": 229665,
+      "path": "bashar-routes.json",
+      "sha256": "54a36521f0d5608636c87ca59b5382a8e0ae82899836e87a31d9e2eeaff9734c"
+    },
+    {
+      "bytes": 25018,
+      "path": "build_policy.py",
+      "sha256": "1c29b576a3b935fd1f70f23c8f3e6eb3da15f28ddaddd2c1a98370fbef749656"
+    },
+    {
+      "bytes": 45084,
+      "path": "input-manifest.json",
+      "sha256": "e29ca8808470abebe7b054a72f8d25e7735f84d2487117bca87f441a0a5cb6fc"
+    },
+    {
+      "bytes": 2057,
+      "path": "policy.json",
+      "sha256": "1ec0f1aa1b206dbc2d34ca2c002b1ba7a2ce6ab8fb0da8e23c06738af74ae3aa"
+    },
+    {
+      "bytes": 20165,
+      "path": "retained-bashar-reservation.json",
+      "sha256": "f9b0d57f182a415c04ee2880b1dceb49a8e19b60b75ab44b3a92ae2416be6689"
+    },
+    {
+      "bytes": 69917,
+      "path": "route-inventory.csv",
+      "sha256": "4d1b697507ffedb1dbafacd3e7a7916a3fb777138556461c3f652554681dd411"
+    },
+    {
+      "bytes": 1051258,
+      "path": "route-inventory.json",
+      "sha256": "130963bf181f121030b126b1d5aef72aa14ab06b5eb5848b4bf4fcd2e586aa06"
+    },
+    {
+      "bytes": 4334,
+      "path": "schema.json",
+      "sha256": "d641e5c4748cf8900a5aad546cc03fe037766dfe1ee858c174abf0a5dc08103d"
+    },
+    {
+      "bytes": 2335298,
+      "path": "selected-conservative-all-materials.jsonl",
+      "sha256": "b682a9fab6eb917d0eeb7e095571894bf59e8e00b86dce7c7ebc1bb7cbd44aca"
+    },
+    {
+      "bytes": 2508837,
+      "path": "selected-default.jsonl",
+      "sha256": "aa59bd4cf15779e080f0a24e52120aa3aa77b9d46c4ab6985c1ae5f5a7d7da8a"
+    },
+    {
+      "bytes": 376002,
+      "path": "selection.csv",
+      "sha256": "44552d6fbf8c915688b22d0eb1bce4cf7786ab38460f2601984e9644749f9abf"
+    },
+    {
+      "bytes": 3474515,
+      "path": "selection.jsonl",
+      "sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9"
+    },
+    {
+      "bytes": 2817,
+      "path": "summary.json",
+      "sha256": "72e195c29f5032af4addfa03ad98bb7640536fdd4c549c885a8fbae9ba84882c"
+    },
+    {
+      "bytes": 9748,
+      "path": "verify_policy.py",
+      "sha256": "85aecefba3e6d0c9b22741e26a92db6e6d2fc2cd6a22a9499b9f5be8928f6f69"
+    }
+  ]
+}

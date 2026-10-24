@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "engine": "Chromium 156.0.8078.48",
+  "reviewedOn": "2026-10-24",
+  "method": "Independent model-agent read of official exact-version source through inherited proxy with TLS verification; no profile mutations or YouTube requests",
+  "sources": [
+    {
+      "url": "https://chromium.googlesource.com/chromium/src/+/156.0.8078.48/components/server_certificate_database/server_certificate_database.cc",
+      "decodedSourceSha256": "320a27feda83e9ca59f0b7445373fdc6ca1c49d028aec0e4b83aede01a229fae",
+      "findings": "Schema version1; CreateTable defines certificates(sha256hash_hex TEXT PRIMARY KEY, der_cert BLOB NOT NULL, trust_settings BLOB NOT NULL); InsertOrUpdateCerts stores serialized metadata."
+    },
+    {
+      "url": "https://chromium.googlesource.com/chromium/src/+/156.0.8078.48/components/server_certificate_database/server_certificate_database.proto",
+      "decodedSourceSha256": "378c2e7874da4cebec7d46e9d30ee561cd10eb6cec7bbb0783d22818dcf9dff1",
+      "findings": "CertificateMetadata.trust field1; CertificateTrust.trust_type field1; TRUSTED enum3. Unconstrained trusted metadata bytes0a020803."
+    }
+  ],
+  "browserCreatedSchemaMatched": true,
+  "publicCaFingerprintSha256": "c71b4d1e9d7775c538c688ab10cea9ce417d7312e89838f9d15ff73256cd7fc3",
+  "scope": "Single configured public proxy CA in private Brave profile only"
+}

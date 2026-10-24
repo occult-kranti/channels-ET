@@ -31,6 +31,41 @@ posts and a four-page Paul Selig publisher transcript. These remain distinct
 source types and cohorts. The ordinary YouTube route still receives a proxy
 CONNECT 403; browser trust repair does not establish video access.
 
+## Current video collection plan — 24 October 2026
+
+The [latest acquisition report](research/youtube-access/REPORT.md) and dashboard
+show **733 selected YouTube IDs: 100 Bashar-associated uploads across all accounts
+combined, plus 633 other uploads**. The minimum is five minutes; Shorts and
+unresolved duration/identity records remain excluded or held. These are planned
+IDs, with zero new YouTube downloads. The complete lifetime count across Bashar
+repost accounts is unknown; the inherited index identifies 173 explicit Bashar
+IDs and 68 overlapping account routes.
+
+1. Restore ordinary YouTube access through the configured cloud connection and
+   verify one canonical watch response. Official Brave reproduced the same
+   Envoy CONNECT 403, whose underlying cause remains unknown.
+2. Use the [isolated collection runner](research/collection-runner/README.md) for
+   a bounded metadata/caption pilot, then bounded parallel batches. Its 2,408
+   jobs comprise 942 metadata, 733 caption and 733 video tasks. Fresh metadata,
+   the global Bashar cap, duration/Shorts checks, hashes and storage reservations
+   apply before assets; new discovery enters as metadata only.
+3. Keep originals and full transcripts in private storage. The
+   [archive workflow](research/storage-drive/README.md) has a source-bound plan
+   for 99 existing artifacts and 101 metadata files. Drive access must be
+   observed in this session before any Drive folder/upload can be claimed.
+   The user's newly authorized fallback is an organized archive in the managed
+   cloud workspace; its actual copy/verification receipt will be published
+   separately from Drive status. Environment retention is distinct from Git.
+4. Report indexed, selected, attempted and completed counts separately for each
+   account and source context. Independent publisher audio remains distinct
+   from YouTube videos, even when the titles or interview guests overlap.
+
+The next transcript-study update is in progress: source-pinned TF-IDF, topics,
+clustering, networks, channel overlays, detailed AI-assisted readings and
+question/answer candidates. Its 20 ASR documents and separate 16 authored-text
+comparison documents require explicit coverage and source-attribution limits;
+planned analyses are not yet reported as completed findings.
+
 ## Living study: source-aware analysis and local models
 
 The current continuation is organized entirely in this repository. Open the

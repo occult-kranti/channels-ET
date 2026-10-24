@@ -1,0 +1,60 @@
+{
+  "status": "HOLD",
+  "frozen_at": "2026-10-24T00:41:34.849589+00:00",
+  "source_operations": 10,
+  "review_checks_passed": 49,
+  "new_youtube_operations_by_reviewer": 0,
+  "private_source_responses_included": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6409,
+      "sha256": "e811c542f24acf8c717c01f52f73e14497ce5b428f435077bc93c958a467571b"
+    },
+    {
+      "path": "brave-release-receipt.json",
+      "bytes": 1277,
+      "sha256": "3db805746ec87bb737f213b0a0f9bb78c1e06ed3f95aa3a9a3ca8b741fff8358"
+    },
+    {
+      "path": "fetch-receipts.json",
+      "bytes": 7615,
+      "sha256": "e57b9643939dbecefc65da72ef5a50f1c356911fbd6278dca0ab99cd250b04d0"
+    },
+    {
+      "path": "fetch_issue_reports.py",
+      "bytes": 1508,
+      "sha256": "061e63e14c3ce0233654ed58c37abbd90983acc98d9742351f154555fbfe3abf"
+    },
+    {
+      "path": "fetch_release_metadata.py",
+      "bytes": 936,
+      "sha256": "b0c34ee47e3ae1af7f6a9f8f5a8102886a2cd79bf42ea183f57da5c6b2e06683"
+    },
+    {
+      "path": "fetch_sources.py",
+      "bytes": 5406,
+      "sha256": "81654fc6b03b91ccbfdae1c9b8186118a57c6e25d9ccb659754dd266f92dfe53"
+    },
+    {
+      "path": "github-issue-receipt.json",
+      "bytes": 1454,
+      "sha256": "656c2c705b260eb13f299ea6a7f8a43683478ce63046d2ad971d80c0fdb09772"
+    },
+    {
+      "path": "independent-brave-review.json",
+      "bytes": 6579,
+      "sha256": "f24ca51ef0bbb81ce2e508b5c862be321a2864bbe7f03d98840e62375c7009c0"
+    },
+    {
+      "path": "review_sources.py",
+      "bytes": 15861,
+      "sha256": "c7ed3f2b0384a84b0a582f29aa0d3898f0c6a134ed6bdf94c184577449322b6b"
+    },
+    {
+      "path": "source-register.json",
+      "bytes": 10266,
+      "sha256": "811b7e9a6da60b382e90b819e6a4ef6b5093929d0e3a3df9e38d2c60c8e69cf3"
+    }
+  ]
+}

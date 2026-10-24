@@ -1,0 +1,73 @@
+{
+  "kind": "Three successive AI-agent technical collection reviews; not human peer review",
+  "rounds": [
+    {
+      "round": 1,
+      "scope": "Evidence frame, cap interpretation and provenance",
+      "roles": [
+        "coordinator",
+        "collection policy",
+        "browser/source reviewer"
+      ],
+      "implemented": [
+        "Default100 unique Bashar YouTube IDs across all accounts;19independentpodcasts separate",
+        "Finite duration threshold and Shorts overlap accounting",
+        "173explicitIDs/68overlappingroutes/lifetimecountunknown retained"
+      ],
+      "proofs": [
+        "research/youtube-access/reviews/policy-review.json",
+        "research/youtube-access/community-research/independent-brave-review.json"
+      ]
+    },
+    {
+      "round": 2,
+      "scope": "Executable collection and private storage controls",
+      "roles": [
+        "collection runner author",
+        "independent policy reviewer",
+        "storage author",
+        "independent storage reviewer",
+        "coordinator"
+      ],
+      "implemented": [
+        "Strict canonicalHTTPS/playeridentity probe",
+        "Atomicglobalcap/freshmetadatareclassification/sharedquota",
+        "Typedsemanticruntimefingerprint excludes status timestamps",
+        "Receipt/source collision and symlink overwrite fixes"
+      ],
+      "proofs": [
+        "research/youtube-access/reviews/runner-review.json",
+        "research/youtube-access/reviews/storage-review.json"
+      ],
+      "runner_owner_tests": 17,
+      "runner_independent_checks": 20,
+      "storage_owner_tests": 58,
+      "storage_additional_independent_regressions": 4
+    },
+    {
+      "round": 3,
+      "scope": "Source-bound dashboard and publication readiness",
+      "roles": [
+        "dashboard author",
+        "coordinator independent static verifier"
+      ],
+      "implemented": [
+        "942\u2192748\u2192733 aligned selection figure",
+        "Planned/actual/media/source/storage counts distinct",
+        "200percent zoom overflow corrected"
+      ],
+      "source_checks": 92,
+      "browser_checks": 293,
+      "download_bindings": 73,
+      "staged_static_files_checked": 320,
+      "project_prefix_routes_checked": 58,
+      "proofs": [
+        "research/youtube-access/dashboard/source-verification.json",
+        "research/youtube-access/dashboard/browser-verification.json"
+      ],
+      "deployment": "Separate actual Action/live verification follows the source freeze"
+    }
+  ],
+  "no_new_youtube_media": true,
+  "drive_uploads": 0
+}
