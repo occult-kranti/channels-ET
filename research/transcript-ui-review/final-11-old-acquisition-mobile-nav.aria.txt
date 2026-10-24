@@ -1,0 +1,894 @@
+- link "Skip to research":
+  - /url: "#content"
+- banner:
+  - link "Channels ET Living research":
+    - /url: "#overview"
+  - navigation "Project":
+    - link "Transcript study":
+      - /url: ../transcripts/
+    - link "Evidence explorer":
+      - /url: ../expansion/
+    - link "Historical atlas":
+      - /url: ../#/discovery
+    - link "Repository ↗":
+      - /url: https://github.com/occult-kranti/channels-ET
+- complementary:
+  - navigation "Research views":
+    - link "Research overview":
+      - /url: "#overview"
+    - link "Acquisition & downloads":
+      - /url: "#harvest"
+    - link "Local model experiments":
+      - /url: "#experiments"
+    - link "Collection & coverage":
+      - /url: "#collection"
+    - link "Methods & artifacts":
+      - /url: "#methods"
+- main:
+  - paragraph: Source acquisition · recorded operations
+  - heading "Acquisition & downloads" [level=1]
+  - paragraph: Track channel enumeration, attempted requests and files actually saved. Indexed URLs, planned jobs and complete downloads are separate counts.
+  - strong: Snapshot date
+  - text: "Run: 2026-10-23 22:54:45 UTC. Inventory: 2026-10-23 22:20:16 UTC. This is the published state, not a live collector connection."
+  - paragraph:
+    - button "Reload published snapshot"
+  - status
+  - strong: "Access gate: Access blocked"
+  - text: The ordinary watch-page probe was denied while establishing the proxy tunnel (HTTP 403).
+  - paragraph: YouTube jobs remain queued and unattempted. The collector can resume after an ordinary access probe succeeds; each later request retains its own outcome.
+  - strong: "942"
+  - text: Unique indexed YouTube video IDs
+  - strong: "0"
+  - text: Saved YouTube video files
+  - strong: "19"
+  - text: Saved publisher audio · 23 Oct cohort
+  - strong: "0"
+  - text: Saved YouTube caption tracks
+  - heading "Current collection policy and execution" [level=2]
+  - paragraph:
+    - text: Selections describe the bounded collection plan. They do not establish downloads, complete channel coverage or authorized cloud storage.
+    - link "Read the current supplement report ↓":
+      - /url: youtube-access-report.md
+  - heading "733 YouTube IDs selected; downloads remain zero" [level=3]
+  - paragraph: The default plan selects 100 Bashar-associated YouTube upload IDs across all indexed publishers and repost routes, plus 633 other eligible IDs. The 19 retained publisher podcasts are a separate source type and do not consume the YouTube-video cap.
+  - paragraph: Exclude Shorts and videos shorter than 300 seconds. Unknown or conflicting duration metadata is held for verification. Selections use inherited metadata and still require fresh source checks before collection.
+  - paragraph: "Inventory capture: 2026-10-23 22:20:16 UTC. Association labels come from retained metadata, not verified speaker identity."
+  - figure "Inherited metadata → planned YouTube selection":
+    - text: Inherited metadata → planned YouTube selection
+    - paragraph:
+      - strong: 942 indexed IDs → 748 eligible
+    - list:
+      - listitem: Eligible 748
+      - listitem: Under 300 seconds 123
+      - listitem: Unknown duration 61
+      - listitem: Conflicting duration 10
+    - paragraph:
+      - strong: 748 eligible = 115 Bashar-labeled + 633 other
+    - list:
+      - listitem: Bashar-labeled eligible 115
+      - listitem: Other eligible 633
+      - listitem: Screened out / held 194
+    - paragraph:
+      - strong: 733 planned = 100 Bashar + 633 other; 15 Bashar cap-held
+    - list:
+      - listitem: Bashar selected 100
+      - listitem: Other selected 633
+      - listitem: Bashar cap-held 15
+      - listitem: Screened out / held 194
+    - paragraph: "Every bar uses the same 942-ID scale. This is an inherited-metadata screening and planning figure, not a completed crawl. The one historical Shorts flag overlaps the under-300-second group and is not added again. Actual YouTube downloads: 0."
+  - group: Inspect the cap scenario and indexed channel scope
+  - paragraph:
+    - link "Policy counts and scope ↓":
+      - /url: youtube-access-policy-summary.json
+    - text: ·
+    - link "All default selected IDs ↓":
+      - /url: youtube-access-selected-default.jsonl
+    - text: ·
+    - link "Every indexed ID and decision ↓":
+      - /url: youtube-access-selection.csv
+    - text: ·
+    - link "Bashar route metadata ↓":
+      - /url: youtube-access-bashar-routes.csv
+  - 'heading "Policy-aware runner: blocked before collection" [level=3]'
+  - table:
+    - rowgroup:
+      - row "Planned operation Jobs Execution evidence":
+        - columnheader "Planned operation"
+        - columnheader "Jobs"
+        - columnheader "Execution evidence"
+    - rowgroup:
+      - row "Caption retrieval 733 Queued; not attempted":
+        - rowheader "Caption retrieval"
+        - cell "733"
+        - cell "Queued; not attempted"
+      - row "Metadata refresh 942 Queued; not attempted":
+        - rowheader "Metadata refresh"
+        - cell "942"
+        - cell "Queued; not attempted"
+      - row "Video retrieval 733 Queued; not attempted":
+        - rowheader "Video retrieval"
+        - cell "733"
+        - cell "Queued; not attempted"
+  - paragraph:
+    - text: "2,408 planned jobs over 942 indexed items. Worker job attempts:"
+    - strong: "0"
+    - text: "; Bashar video slots used:"
+    - strong: "0"
+    - text: "; verified quarantine artifacts:"
+    - strong: "0"
+    - text: ". Network collection requests in the dry run: 0."
+  - paragraph:
+    - text: "Access gate ready: no. Bounded-controller outcome:"
+    - code: blocked_before_claim_or_network
+    - text: . A successful ordinary watch probe for the same current runtime is required before any job claim or source request.
+  - paragraph: The 733 planned video jobs and their caption jobs share the same upload-ID cap; they are not twice as many videos. The older worker ledger below preserves its earlier inventory-wide queue. Neither queue is an attempted- or completed-download count.
+  - paragraph:
+    - link "Exact runner plan and counters ↓":
+      - /url: youtube-access-runner-summary.json
+    - text: ·
+    - link "Offline access-gate state ↓":
+      - /url: youtube-access-runner-dry-run.json
+    - text: ·
+    - link "Blocked controller receipt ↓":
+      - /url: youtube-access-runner-blocked.json
+    - text: ·
+    - link "Runner workflow ↓":
+      - /url: youtube-access-runner-workflow.md
+  - 'heading "Official Brave: the tunnel still returns 403" [level=3]'
+  - paragraph:
+    - text: "One ordinary watch navigation, recorded 2026-10-24 00:32:17 UTC:"
+    - link "Original watch URL ↗":
+      - /url: https://www.youtube.com/watch?v=fZmY4xS_qXE
+    - text: ". page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.youtube.com/watch?v=fZmY4xS_qXE."
+  - paragraph:
+    - text: Brave’s target-bound network log records 1 CONNECT to
+    - code: www.youtube.com:443
+    - text: ", HTTP 403 from envoy. No origin page response, video, audio or caption was obtained. The 403’s underlying cause remains unknown."
+  - paragraph: Brave Browser 156.1.98.60 unknown · Chrome/156.0.8078.48. Official package checksum verified. The allowed Pages control passed with HTTP 200 and TLS verification; the inherited proxy and certificate verification stayed enabled. This is one diagnostic, not 942 item attempts.
+  - group: Inspect the official Brave package
+  - paragraph:
+    - link "Exact Brave source outcome ↓":
+      - /url: youtube-access-brave-watch.json
+    - text: ·
+    - link "Verified HTTPS control ↓":
+      - /url: youtube-access-brave-control.json
+    - text: ·
+    - link "Official package and dependency receipt ↓":
+      - /url: youtube-access-brave-runtime.json
+  - heading "Drive workflow prepared; connection pending" [level=3]
+  - paragraph: "Recorded 2026-10-24 00:49:29 UTC. Apps connection choice received: yes. OAuth completion observed: no. A connection choice is not authentication."
+  - table:
+    - rowgroup:
+      - row "Callable Drive tools / configured remotes 0 / 0":
+        - rowheader "Callable Drive tools / configured remotes"
+        - cell "0 / 0"
+      - row "Actual Drive folders / upload attempts / uploaded files 0 / 0 / 0":
+        - rowheader "Actual Drive folders / upload attempts / uploaded files"
+        - cell "0 / 0 / 0"
+      - row "Reported allowance / actual quota check 5 TB, user-reported / not verified":
+        - rowheader "Reported allowance / actual quota check"
+        - cell "5 TB, user-reported / not verified"
+  - paragraph: "Local archive plan: 99 canonical source files (1,703,635,307 bytes), plus 101 local metadata sidecars/manifests: 200 planned uploads. This is not an uploaded-file count."
+  - paragraph: Bind an actual user-authorized Drive tool or explicit existing direct Drive remote and inspect the selected account/privacy settings. The Apps choice alone does not establish connection. No authenticated account, remote quota or effective sharing permissions are established by the offline workflow tests.
+  - paragraph:
+    - link "Exact storage state ↓":
+      - /url: youtube-access-drive-state.json
+    - text: ·
+    - link "Local archive manifest ↓":
+      - /url: youtube-access-drive-plan.json
+    - text: ·
+    - link "Connection and archive workflow ↓":
+      - /url: youtube-access-drive-workflow.md
+  - paragraph:
+    - strong: "Independent publisher material remains separate:"
+    - text: 20 saved audio files across the original 19-episode cohort and the separate 1 Athina episode; 20 full-audio machine-ASR passes. These are not YouTube video downloads or validated transcript accuracy. Source hashes and dated receipts remain in the preserved sections below.
+  - group: Download current policy, runner, Brave and storage metadata
+  - 'heading "24 October follow-up: access repair and primary sources" [level=2]'
+  - paragraph: Primary-source metadata recorded 2026-10-24 00:07:22 UTC. These new source branches are separate from the frozen 19-episode audio/ASR cohort below and from the earlier paper and model experiments.
+  - heading "YouTube tunnel remains denied" [level=3]
+  - paragraph: "Revision 6 ordinary watch-page probe: 2026-10-23 23:59:23 UTC. <urlopen error Tunnel connection failed: 403 Forbidden>"
+  - paragraph: "Proxy diagnostic: HTTP 403 · envoy. Origin TLS started: no."
+  - paragraph: This is a dated access probe and a separate response-detail diagnostic, not per-item worker attempts or successful YouTube acquisition. The YouTube queue below retains zero worker attempts.
+  - heading "Browser trust repaired for allowed HTTPS" [level=3]
+  - paragraph: "Checked 2026-10-24 00:09:25 UTC. Managed proxy CA visible in Chromium: yes. Certificate verification enabled: yes."
+  - list:
+    - listitem: "Published dashboard: HTTP 200 · TLS 1.3 · verified response."
+    - listitem: "Independent publisher RSS: HTTP 200 · TLS 1.3 · verified response."
+  - paragraph: "Unrelated self-signed certificate rejected: yes, in a separate local-only test context. This trust repair does not change the YouTube tunnel outcome. Browser profile, cookies and keys remain private."
+  - table:
+    - rowgroup:
+      - row "New source branch Observed material Scope and verification":
+        - columnheader "New source branch"
+        - columnheader "Observed material"
+        - columnheader "Scope and verification"
+    - rowgroup:
+      - row "Daniel Scranton · publisher RSS 15 posts · 10,998 rendered words Titles, attributed messages, promotions and footers are included. These are publisher posts, not video transcripts or verified entity speech.":
+        - rowheader "Daniel Scranton · publisher RSS"
+        - cell "15 posts · 10,998 rendered words"
+        - cell "Titles, attributed messages, promotions and footers are included. These are publisher posts, not video transcripts or verified entity speech."
+      - row "Paul Selig · publisher PDF 4 pages · 2,577 extracted words Spiritual Guides comparison source; not biological ET. Publisher transcript has not been checked against a recording.":
+        - rowheader "Paul Selig · publisher PDF"
+        - cell "4 pages · 2,577 extracted words"
+        - cell "Spiritual Guides comparison source; not biological ET. Publisher transcript has not been checked against a recording."
+      - row "Athina Król · separate creator audio 1 audio file · 26,928,318 bytes · 1,683 seconds 3,394 ASR words · 259 segments Creator-described channeling episode. Actual speakers and claimed entity turns are unsegmented and unverified. Full-audio machine ASR is not human-validated.":
+        - rowheader "Athina Król · separate creator audio"
+        - cell "1 audio file · 26,928,318 bytes · 1,683 seconds 3,394 ASR words · 259 segments"
+        - cell "Creator-described channeling episode. Actual speakers and claimed entity turns are unsegmented and unverified. Full-audio machine ASR is not human-validated."
+  - group: Inspect the 15 Daniel publisher posts
+  - group: The Expression of the True Self · Paul publisher transcript
+  - group: Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades · separate Athina audio and ASR
+  - paragraph:
+    - link "Download the dated follow-up metadata and receipts ↓":
+      - /url: "#harvest-downloads"
+  - heading "Saved original publisher audio" [level=2]
+  - paragraph: "Publisher export: 2026-10-23 22:45:11 UTC. Independent RSS enclosures are a separate source branch, not saved YouTube videos or verified equivalent editions."
+  - table:
+    - rowgroup:
+      - row "Planned publisher audio targets 19":
+        - rowheader "Planned publisher audio targets"
+        - cell "19"
+      - row "In-flight publisher operations 0":
+        - rowheader "In-flight publisher operations"
+        - cell "0"
+      - row "Completed publisher audio files 19":
+        - rowheader "Completed publisher audio files"
+        - cell "19"
+      - row "Completed with RSS validation warnings 4":
+        - rowheader "Completed with RSS validation warnings"
+        - cell "4"
+      - row "Completed audio bytes 1.6 GiB":
+        - rowheader "Completed audio bytes"
+        - cell "1.6 GiB"
+      - row "Completed audio duration 1,333.5 minutes":
+        - rowheader "Completed audio duration"
+        - cell "1,333.5 minutes"
+  - group: "Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561 · completed · RSS metadata warning"
+  - group: "224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs · completed"
+  - group: "#248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human · completed"
+  - group: "Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21 · completed"
+  - group: "Darryl Anka: Channeling Bashar · completed · Publisher promotional interview"
+  - group: "Bashar: This is Coming In 2026... (Darryl Anka) · completed"
+  - group: Darryl Anka · completed
+  - group: Darryl Anka · completed
+  - group: "#10 Darryl Anka: Channeling Bashar and First Contact with Aliens · completed"
+  - group: Time is Moving Through You with Darryl Anka (BASHAR) · completed
+  - group: "#68 Darryl Anka: Bashar’s Guide For The End Of The World · completed"
+  - group: "Bashar's NEW Predictions: The Great Shift + How Life Will Change Forever! · completed"
+  - group: The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104 · completed
+  - group: "Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka · completed · RSS metadata warning"
+  - group: "Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka · completed · RSS metadata warning"
+  - group: "E54: Preparing for Alien Contact with Darryl Anka aka Bashar · completed"
+  - group: "Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition · completed · RSS metadata warning · Skeptical commentary"
+  - group: "E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar · completed"
+  - group: What is Reality and What We Need to Know with Bashar / Darryl Anka · completed
+  - paragraph: Original audio files remain local. The public manifest supplies source provenance, retained-byte hashes and acquisition status. Automatic speech-recognition status, when available, is recorded separately.
+  - heading "Automatic audio transcription" [level=2]
+  - paragraph: Recorded 2026-10-23 22:54:21 UTC. Machine ASR of independently saved publisher audio; this is a separate source layer from offered YouTube captions.
+  - strong: "19"
+  - text: Completed full-audio machine transcripts
+  - strong: "0"
+  - text: Diagnostic clips; not full transcripts
+  - strong: 20,938
+  - text: Recorded ASR segments
+  - strong: 222,699
+  - text: Recorded machine-transcript words
+  - paragraph: 1,333.5 minutes of recorded ASR input; 6.8 MiB of local transcript output.
+  - group: The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104 · completed
+  - group: "#248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human · completed"
+  - group: "E54: Preparing for Alien Contact with Darryl Anka aka Bashar · completed"
+  - group: "Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561 · completed"
+  - group: "Bashar: This is Coming In 2026... (Darryl Anka) · completed"
+  - group: Time is Moving Through You with Darryl Anka (BASHAR) · completed
+  - group: "Bashar's NEW Predictions: The Great Shift + How Life Will Change Forever! · completed"
+  - group: "Darryl Anka: Channeling Bashar · completed"
+  - group: "E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar · completed"
+  - group: "#68 Darryl Anka: Bashar’s Guide For The End Of The World · completed"
+  - group: "224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs · completed"
+  - group: Darryl Anka · completed
+  - group: "Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka · completed"
+  - group: "#10 Darryl Anka: Channeling Bashar and First Contact with Aliens · completed"
+  - group: What is Reality and What We Need to Know with Bashar / Darryl Anka · completed
+  - group: "Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21 · completed"
+  - group: Darryl Anka · completed
+  - group: "Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition · completed"
+  - group: "Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka · completed"
+  - strong: Machine transcription is an unvalidated derivative
+  - text: ASR can omit or substitute words and invent text in difficult audio. Neither completed processing nor segment/word counts validate the transcript, speaker identity, interpretation or any extraordinary claim. Full raw transcripts stay local; the public download contains receipt metadata.
+  - heading "Indexed source material" [level=2]
+  - paragraph: The inventory is extracted from retained repository sources. Its default state is indexed, not checked or downloaded. Storage scenarios are estimates, not saved file bytes.
+  - table:
+    - rowgroup:
+      - row "Inventory state Offline inventory; platform crawl not performed":
+        - rowheader "Inventory state"
+        - cell "Offline inventory; platform crawl not performed"
+      - row "Unique video IDs 942":
+        - rowheader "Unique video IDs"
+        - cell "942"
+      - row "Literal channel / account routes 362":
+        - rowheader "Literal channel / account routes"
+        - cell "362"
+      - row "Distinct recorded query references 597":
+        - rowheader "Distinct recorded query references"
+        - cell "597"
+      - row "Playlist references 169":
+        - rowheader "Playlist references"
+        - cell "169"
+      - row "Indexed IDs beyond the retained analysis 17":
+        - rowheader "Indexed IDs beyond the retained analysis"
+        - cell "17"
+      - row "Measured duration available 881 IDs; 502.1 hours":
+        - rowheader "Measured duration available"
+        - cell "881 IDs; 502.1 hours"
+      - row "Missing duration 61 IDs":
+        - rowheader "Missing duration"
+        - cell "61 IDs"
+  - group: Inspect inventory scope and extraction limits
+  - group: Inspect hypothetical storage needs for the known indexed duration
+  - group: Inspect the separate root watch-page access probe
+  - heading "Attempted operations and queue state" [level=2]
+  - paragraph: Counts are YouTube worker jobs, grouped by operation kind. A job can have several operation attempts. These are worker leases, not individual HTTP requests; each operation can issue zero or several requests.
+  - table:
+    - rowgroup:
+      - row "Operation Queued Running Succeeded Partial Unavailable Access blocked Retryable failure Waiting for disk space Failed":
+        - columnheader "Operation"
+        - columnheader "Queued"
+        - columnheader "Running"
+        - columnheader "Succeeded"
+        - columnheader "Partial"
+        - columnheader "Unavailable"
+        - columnheader "Access blocked"
+        - columnheader "Retryable failure"
+        - columnheader "Waiting for disk space"
+        - columnheader "Failed"
+    - rowgroup:
+      - row "captions 942 0 0 0 0 0 0 0 0":
+        - cell "captions"
+        - cell "942"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "channel 362 0 0 0 0 0 0 0 0":
+        - cell "channel"
+        - cell "362"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "metadata 942 0 0 0 0 0 0 0 0":
+        - cell "metadata"
+        - cell "942"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "playlist 169 0 0 0 0 0 0 0 0":
+        - cell "playlist"
+        - cell "169"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "video 942 0 0 0 0 0 0 0 0":
+        - cell "video"
+        - cell "942"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+  - heading "Recorded run" [level=3]
+  - table:
+    - rowgroup:
+      - row "Run state not executed access gate":
+        - rowheader "Run state"
+        - cell "not executed access gate"
+      - row "Worker-seeded video IDs 942":
+        - rowheader "Worker-seeded video IDs"
+        - cell "942"
+      - row "Worker channel jobs 362":
+        - rowheader "Worker channel jobs"
+        - cell "362"
+      - row "Worker playlist jobs 169":
+        - rowheader "Worker playlist jobs"
+        - cell "169"
+      - row "Worker operation attempts 0":
+        - rowheader "Worker operation attempts"
+        - cell "0"
+      - row "Accounted raw-tree bytes, all branches 1.6 GiB":
+        - rowheader "Accounted raw-tree bytes, all branches"
+        - cell "1.6 GiB"
+  - heading "Storage and quota" [level=3]
+  - table:
+    - rowgroup:
+      - row "Raw-tree quota, all branches 20 GiB":
+        - rowheader "Raw-tree quota, all branches"
+        - cell "20 GiB"
+      - row "Free filesystem space 27.6 GiB":
+        - rowheader "Free filesystem space"
+        - cell "27.6 GiB"
+      - row "Minimum free-space reserve 6 GiB":
+        - rowheader "Minimum free-space reserve"
+        - cell "6 GiB"
+  - text: Saved raw bytes / quota
+  - meter: 1.6 GiB / 20 GiB
+  - paragraph: Quota and free-space reserve are collector limits. They do not imply that quota-sized media have been downloaded.
+  - heading "Channel and account-route inventory" [level=2]
+  - paragraph: Literal routes retain their source provenance. Enumeration progress is displayed only when the collector records it.
+  - text: Channel route, explicit alias or source ID
+  - searchbox "Channel route, explicit alias or source ID"
+  - button "Filter routes"
+  - paragraph: 362 matching literal routes / 362 retained · page 1 of 25
+  - table:
+    - rowgroup:
+      - row "Literal route / explicit aliases Explicitly linked video IDs Enumeration status / scope Video-download jobs Caption-download jobs":
+        - columnheader "Literal route / explicit aliases"
+        - columnheader "Explicitly linked video IDs"
+        - columnheader "Enumeration status / scope"
+        - columnheader "Video-download jobs"
+        - columnheader "Caption-download jobs"
+    - rowgroup:
+      - 'row "Source ↗ https://www.youtube.com/@CosmicAlignmentfrequency 0 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@CosmicAlignmentfrequency":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@CosmicAlignmentfrequency
+          - text: https://www.youtube.com/@CosmicAlignmentfrequency
+        - cell "0"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/channel/UCSffF5wKtHDCezvV5tUm68w 1 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/channel/UCSffF5wKtHDCezvV5tUm68w":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/channel/UCSffF5wKtHDCezvV5tUm68w
+          - text: https://www.youtube.com/channel/UCSffF5wKtHDCezvV5tUm68w
+        - cell "1"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@samtheillusionist route-0f8c2a3e0e8cd7d1 3 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@samtheillusionist route-0f8c2a3e0e8cd7d1":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@samtheillusionist
+          - text: https://www.youtube.com/@samtheillusionist route-0f8c2a3e0e8cd7d1
+        - cell "3"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@basharchannelingpodcast route-7edfe03edca9fd1f, route-966c3fc742df9af8 21 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 21 queued; 21 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 21 queued; 21 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@basharchannelingpodcast route-7edfe03edca9fd1f, route-966c3fc742df9af8":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@basharchannelingpodcast
+          - text: https://www.youtube.com/@basharchannelingpodcast route-7edfe03edca9fd1f, route-966c3fc742df9af8
+        - cell "21"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 21 queued; 21 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 21 queued; 21 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@wisdomfromnorth 1 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@wisdomfromnorth":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@wisdomfromnorth
+          - text: https://www.youtube.com/@wisdomfromnorth
+        - cell "1"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/channel/UCzgKzmZcMPsMaUh7Zl57Tgg 30 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 30 queued; 30 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 30 queued; 30 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/channel/UCzgKzmZcMPsMaUh7Zl57Tgg":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/channel/UCzgKzmZcMPsMaUh7Zl57Tgg
+          - text: https://www.youtube.com/channel/UCzgKzmZcMPsMaUh7Zl57Tgg
+        - cell "30"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 30 queued; 30 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 30 queued; 30 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@korneliastephanie 3 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@korneliastephanie":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@korneliastephanie
+          - text: https://www.youtube.com/@korneliastephanie
+        - cell "3"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@louisekay 0 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@louisekay":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@louisekay
+          - text: https://www.youtube.com/@louisekay
+        - cell "0"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@calenara route-3b8fdcea4d087f7d 51 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 51 queued; 51 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 51 queued; 51 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@calenara route-3b8fdcea4d087f7d":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@calenara
+          - text: https://www.youtube.com/@calenara route-3b8fdcea4d087f7d
+        - cell "51"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 51 queued; 51 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 51 queued; 51 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@aerotro 1 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@aerotro":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@aerotro
+          - text: https://www.youtube.com/@aerotro
+        - cell "1"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@laurengaley 0 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@laurengaley":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@laurengaley
+          - text: https://www.youtube.com/@laurengaley
+        - cell "0"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 0 queued; 0 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/@channelingextraterrestrial3623 1 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/@channelingextraterrestrial3623":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/@channelingextraterrestrial3623
+          - text: https://www.youtube.com/@channelingextraterrestrial3623
+        - cell "1"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 1 queued; 1 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/c/TheETWhispererRobGauthier 3 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/c/TheETWhispererRobGauthier":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/c/TheETWhispererRobGauthier
+          - text: https://www.youtube.com/c/TheETWhispererRobGauthier
+        - cell "3"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 3 queued; 3 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/channel/UCLQruf49jF7P5fIZoe6lM1g 32 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 32 queued; 32 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 32 queued; 32 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/channel/UCLQruf49jF7P5fIZoe6lM1g":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/channel/UCLQruf49jF7P5fIZoe6lM1g
+          - text: https://www.youtube.com/channel/UCLQruf49jF7P5fIZoe6lM1g
+        - cell "32"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 32 queued; 32 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 32 queued; 32 jobs recorded"
+      - 'row "Source ↗ https://www.youtube.com/channel/UCj5wGWloHE8hKHPd5kqWsJQ 4 Queued Start: 1; end: 0 Returned public listing exhausted: no 0 attempted 0 IDs saved · 0 failed / unavailable 4 queued; 4 jobs recorded 0 attempted 0 IDs saved · 0 failed / unavailable 4 queued; 4 jobs recorded"':
+        - cell "Source ↗ https://www.youtube.com/channel/UCj5wGWloHE8hKHPd5kqWsJQ":
+          - link "Source ↗":
+            - /url: https://www.youtube.com/channel/UCj5wGWloHE8hKHPd5kqWsJQ
+          - text: https://www.youtube.com/channel/UCj5wGWloHE8hKHPd5kqWsJQ
+        - cell "4"
+        - 'cell "Queued Start: 1; end: 0 Returned public listing exhausted: no"'
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 4 queued; 4 jobs recorded"
+        - cell "0 attempted 0 IDs saved · 0 failed / unavailable 4 queued; 4 jobs recorded"
+  - text: Counts use explicit many-to-many source edges, not full-channel totals. Do not sum route counts as unique uploads. Audio-only files do not fulfill a video-download claim.
+  - button "Previous" [disabled]
+  - button "Next"
+  - heading "Inspect download and enumeration jobs" [level=2]
+  - paragraph: Filter the exported job ledger. A queued target has no implied success or failure.
+  - text: Video, channel, URL or error
+  - searchbox "Video, channel, URL or error"
+  - text: Operation
+  - combobox "Operation":
+    - option "All operations" [selected]
+    - option "captions"
+    - option "channel"
+    - option "metadata"
+    - option "playlist"
+    - option "video"
+  - text: State
+  - combobox "State":
+    - option "All states" [selected]
+    - option "Queued"
+  - button "Apply filters"
+  - button "Export filtered jobs CSV"
+  - paragraph: 3,357 matching jobs · page 1 of 168
+  - table:
+    - rowgroup:
+      - row "Operation / target State Operation attempts Last recorded update Recorded error / action":
+        - columnheader "Operation / target"
+        - columnheader "State"
+        - columnheader "Operation attempts"
+        - columnheader "Last recorded update"
+        - columnheader "Recorded error / action"
+    - rowgroup:
+      - row "captions Judgment, Hidden Energy Centers & ET Contact Through Dreams | RYOKAH Channeled by Tyler Ellison -0w7wdn_t9I Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Judgment, Hidden Energy Centers & ET Contact Through Dreams | RYOKAH Channeled by Tyler Ellison -0w7wdn_t9I Source ↗":
+          - text: captions Judgment, Hidden Energy Centers & ET Contact Through Dreams | RYOKAH Channeled by Tyler Ellison -0w7wdn_t9I
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-0w7wdn_t9I
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions 50代、60代から使命に目覚める人の共通点 チャネリングメッセージ付 -14HKeztlR4 Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions 50代、60代から使命に目覚める人の共通点 チャネリングメッセージ付 -14HKeztlR4 Source ↗":
+          - text: captions 50代、60代から使命に目覚める人の共通点 チャネリングメッセージ付 -14HKeztlR4
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-14HKeztlR4
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Accessing the Akashic Realm! -6d2Fl9LPiQ Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Accessing the Akashic Realm! -6d2Fl9LPiQ Source ↗":
+          - text: captions Accessing the Akashic Realm! -6d2Fl9LPiQ
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-6d2Fl9LPiQ
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - 'row "captions YOUR GIFT HAS A PRICE: The August 28 Eclipse Ends What Starseeds Have Carried Since Childhood -8k6d9StYig Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded"':
+        - 'cell "captions YOUR GIFT HAS A PRICE: The August 28 Eclipse Ends What Starseeds Have Carried Since Childhood -8k6d9StYig Source ↗"':
+          - text: "captions YOUR GIFT HAS A PRICE: The August 28 Eclipse Ends What Starseeds Have Carried Since Childhood -8k6d9StYig"
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-8k6d9StYig
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions [🪐アルクトゥルス人]🌟細胞治療💫あなたを先端医療に招待します🙌光の細胞を統合する「アルクトゥルス細胞治療」を共有します🌈アルクトゥルス人からのメッセージ -8qARcAChbo Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions [🪐アルクトゥルス人]🌟細胞治療💫あなたを先端医療に招待します🙌光の細胞を統合する「アルクトゥルス細胞治療」を共有します🌈アルクトゥルス人からのメッセージ -8qARcAChbo Source ↗":
+          - text: captions [🪐アルクトゥルス人]🌟細胞治療💫あなたを先端医療に招待します🙌光の細胞を統合する「アルクトゥルス細胞治療」を共有します🌈アルクトゥルス人からのメッセージ -8qARcAChbo
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-8qARcAChbo
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Pleiadian Perspective on Current Events - June 2020 -D60ajIZaWg Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Pleiadian Perspective on Current Events - June 2020 -D60ajIZaWg Source ↗":
+          - text: captions Pleiadian Perspective on Current Events - June 2020 -D60ajIZaWg
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-D60ajIZaWg
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Um, You Might Wanna Watch This Video Right Away.. Prepare Now! - Galactic Federation -JmMDcVVvuo Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Um, You Might Wanna Watch This Video Right Away.. Prepare Now! - Galactic Federation -JmMDcVVvuo Source ↗":
+          - text: captions Um, You Might Wanna Watch This Video Right Away.. Prepare Now! - Galactic Federation -JmMDcVVvuo
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-JmMDcVVvuo
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Anbindung an die Christus-Energie, Dankbarkeit & Heilung durch Orella -KVKPRLFte4 Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Anbindung an die Christus-Energie, Dankbarkeit & Heilung durch Orella -KVKPRLFte4 Source ↗":
+          - text: captions Anbindung an die Christus-Energie, Dankbarkeit & Heilung durch Orella -KVKPRLFte4
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-KVKPRLFte4
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Bashar Reveals Why Aliens Altered the Moon's Orbit | Bashar Channeling -OfYNfd8oJ4 Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Bashar Reveals Why Aliens Altered the Moon's Orbit | Bashar Channeling -OfYNfd8oJ4 Source ↗":
+          - text: captions Bashar Reveals Why Aliens Altered the Moon's Orbit | Bashar Channeling -OfYNfd8oJ4
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-OfYNfd8oJ4
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Are the Yahyel ETs Our Closest Relatives? - Ishuwa on Human-ET DNA -ZkOuLa0nPc Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Are the Yahyel ETs Our Closest Relatives? - Ishuwa on Human-ET DNA -ZkOuLa0nPc Source ↗":
+          - text: captions Are the Yahyel ETs Our Closest Relatives? - Ishuwa on Human-ET DNA -ZkOuLa0nPc
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-ZkOuLa0nPc
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions TEMPEROS PRA VIDA - VÔ EZEQUIAS E VÓ MARIA BENTA -cV0c32Fuyo Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions TEMPEROS PRA VIDA - VÔ EZEQUIAS E VÓ MARIA BENTA -cV0c32Fuyo Source ↗":
+          - text: captions TEMPEROS PRA VIDA - VÔ EZEQUIAS E VÓ MARIA BENTA -cV0c32Fuyo
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-cV0c32Fuyo
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Pleiadian Broadcast August 2016 -i0dfXWr9Vk Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Pleiadian Broadcast August 2016 -i0dfXWr9Vk Source ↗":
+          - text: captions Pleiadian Broadcast August 2016 -i0dfXWr9Vk
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-i0dfXWr9Vk
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions The Heart Is the Doorway to True Connection | Ryokah -ib3Kk5dnOY Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions The Heart Is the Doorway to True Connection | Ryokah -ib3Kk5dnOY Source ↗":
+          - text: captions The Heart Is the Doorway to True Connection | Ryokah -ib3Kk5dnOY
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-ib3Kk5dnOY
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - 'row "captions Channeling :: Yahyel from the ship and Almatok. via Kim Louise. Feb 25, 2016 -lUWpREIm5k Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded"':
+        - 'cell "captions Channeling :: Yahyel from the ship and Almatok. via Kim Louise. Feb 25, 2016 -lUWpREIm5k Source ↗"':
+          - text: "captions Channeling :: Yahyel from the ship and Almatok. via Kim Louise. Feb 25, 2016 -lUWpREIm5k"
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-lUWpREIm5k
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - 'row "captions ET & Human DNA Origins: The Yahyel Reveal a Shared Galactic Lineage -leIq8XP15k Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded"':
+        - 'cell "captions ET & Human DNA Origins: The Yahyel Reveal a Shared Galactic Lineage -leIq8XP15k Source ↗"':
+          - text: "captions ET & Human DNA Origins: The Yahyel Reveal a Shared Galactic Lineage -leIq8XP15k"
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-leIq8XP15k
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - 'row "captions LIVE : Bashar Warns: The Countdown to Alien Contact Has Begun — Are You Ready? | Bashar Channeling -nqEL-y6dtU Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded"':
+        - 'cell "captions LIVE : Bashar Warns: The Countdown to Alien Contact Has Begun — Are You Ready? | Bashar Channeling -nqEL-y6dtU Source ↗"':
+          - text: "captions LIVE : Bashar Warns: The Countdown to Alien Contact Has Begun — Are You Ready? | Bashar Channeling -nqEL-y6dtU"
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-nqEL-y6dtU
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Navigating the Ascension Process — Ashtar, Ra and the Translucids Channeling -o4q27DpxaA Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Navigating the Ascension Process — Ashtar, Ra and the Translucids Channeling -o4q27DpxaA Source ↗":
+          - text: captions Navigating the Ascension Process — Ashtar, Ra and the Translucids Channeling -o4q27DpxaA
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-o4q27DpxaA
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions An Energy gives their responce when asked about Tartaria -rdfCWf8WnA Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions An Energy gives their responce when asked about Tartaria -rdfCWf8WnA Source ↗":
+          - text: captions An Energy gives their responce when asked about Tartaria -rdfCWf8WnA
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=-rdfCWf8WnA
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Bashar Reveals Billions Will \"Disappear\" As Earth Splits | Bashar Channeling 2027 02o0B_f9EOM Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Bashar Reveals Billions Will \"Disappear\" As Earth Splits | Bashar Channeling 2027 02o0B_f9EOM Source ↗":
+          - text: captions Bashar Reveals Billions Will "Disappear" As Earth Splits | Bashar Channeling 2027 02o0B_f9EOM
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=02o0B_f9EOM
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+      - row "captions Barbara Marciniak - Staying Conscious 0DoOerBuWaQ Source ↗ Queued 0 2026-10-23 22:22:41 UTC None recorded":
+        - cell "captions Barbara Marciniak - Staying Conscious 0DoOerBuWaQ Source ↗":
+          - text: captions Barbara Marciniak - Staying Conscious 0DoOerBuWaQ
+          - link "Source ↗":
+            - /url: https://www.youtube.com/watch?v=0DoOerBuWaQ
+        - cell "Queued"
+        - cell "0"
+        - cell "2026-10-23 22:22:41 UTC"
+        - cell "None recorded"
+  - text: Rows 1–20 of 3,357
+  - button "Previous" [disabled]
+  - button "Next"
+  - heading "YouTube worker artifact ledger" [level=2]
+  - paragraph: No saved YouTube video, audio or caption artifacts are recorded in this worker ledger. Independently saved publisher audio is recorded separately above. Metadata and frozen caption vectors are not saved media or transcript files.
+  - heading "YouTube worker failures and next actions" [level=2]
+  - paragraph: No failed-attempt rows are included in this export. This does not imply that queued jobs have succeeded.
+  - heading "Download the inventory and operation manifests" [level=2]
+  - paragraph: These downloads contain metadata and recorded operation states. Full media and raw captions stay in the collector's local storage; source files are not silently bundled into Pages.
+  - list:
+    - listitem:
+      - link "Revision 6 ordinary watch-page probe ↓":
+        - /url: access-repair-watch-probe.json
+      - text: 696 bytes · One dated source probe; proxy tunnel denied before origin TLS SHA-256 d024596a34bc6cd83d920c74149e90cf44d62079f56d285c2a794047d630ea7d
+    - listitem:
+      - link "Revision 6 proxy response diagnostic ↓":
+        - /url: access-repair-proxy-response.json
+      - text: 808 bytes · Sanitized CONNECT status and response metadata; no alternate route SHA-256 81922e2c4c05ca3d3f7c037cb8ca7b2e2b97ca911f00b5f83ce9a91848fa0a5f
+    - listitem:
+      - link "Verified browser trust-repair controls ↓":
+        - /url: access-repair-browser-verification.json
+      - text: 2,721 bytes · Allowed HTTPS controls and unrelated-certificate rejection; no browser profile SHA-256 ee0086bf1cc2ce616114cf352f126950caff97b4ca9ae38b99b3c66ec4c448b1
+    - listitem:
+      - link "Primary publisher text-source metadata ↓":
+        - /url: access-repair-primary-sources.json
+      - text: 23,167 bytes · Daniel RSS items and Paul publisher PDF metadata; full text stays local SHA-256 402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca
+    - listitem:
+      - link "Separate Athina creator-audio receipt ↓":
+        - /url: access-repair-athina-audio.json
+      - text: 6,348 bytes · One original creator RSS audio file; metadata and retained-byte hash only SHA-256 97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370
+    - listitem:
+      - link "Separate Athina ASR execution receipt ↓":
+        - /url: access-repair-athina-asr-execution.json
+      - text: 1,242 bytes · Isolated follow-up branch; original 19-episode cohort unchanged SHA-256 a44512198d700ff515b41a452c1dba71403e247da42a5740a37054cf36197b63
+    - listitem:
+      - link "Separate Athina full-audio ASR receipt ↓":
+        - /url: access-repair-athina-asr.json
+      - text: 3,576 bytes · Machine transcript hashes and counts; no raw speech or transcript text SHA-256 3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7
+    - listitem:
+      - link "Latest exported harvest run ↓":
+        - /url: harvest-summary.json
+      - text: 2,128 bytes · Dated operation states, saved bytes and access outcomes SHA-256 ed47dafb60e785f2e7bf89e8990bd806600cb36f575c7ab547797f7f06a61016
+    - listitem:
+      - link "Harvest job ledger ↓":
+        - /url: harvest-jobs.json
+      - text: 8,282,097 bytes · Recorded queues, attempts and terminal job states SHA-256 f5c11198878978b1e1819d0fa76871cce1ccd5da721ade7e688154962ba9d47e
+    - listitem:
+      - link "Harvest operation attempts ↓":
+        - /url: harvest-attempts.json
+      - text: 43 bytes · Worker leases; each operation can issue zero or several HTTP requests SHA-256 246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209
+    - listitem:
+      - link "Saved raw-file manifest ↓":
+        - /url: harvest-artifacts.json
+      - text: 43 bytes · Hashes and local-only paths; excludes raw media and captions SHA-256 246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209
+    - listitem:
+      - link "Indexed source inventory summary ↓":
+        - /url: harvest-inventory-summary.json
+      - text: 5,312 bytes · Offline extraction; does not establish source availability SHA-256 54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916
+    - listitem:
+      - link "Complete indexed video inventory ↓":
+        - /url: harvest-video-inventory.jsonl
+      - text: 2,599,443 bytes · Source-linked metadata; indexed does not mean downloaded SHA-256 527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d
+    - listitem:
+      - link "Complete literal account-route inventory ↓":
+        - /url: harvest-channel-routes.json
+      - text: 775,403 bytes · Explicit route provenance and known source edges SHA-256 dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee
+    - listitem:
+      - link "Inventory source edges ↓":
+        - /url: harvest-source-edges.jsonl
+      - text: 1,342,069 bytes · Explicit source membership; no display-name identity merges SHA-256 8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383
+    - listitem:
+      - link "Distinct source search queries ↓":
+        - /url: harvest-query-inventory.jsonl
+      - text: 240,925 bytes · Recorded query references; not executed search results SHA-256 85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71
+    - listitem:
+      - link "Source inventory database ↓":
+        - /url: harvest-inventory.sqlite
+      - text: 7,462,912 bytes · Metadata, provenance and explicit edges; SQLite SHA-256 0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2
+    - listitem:
+      - link "Dated root watch-page access probe ↓":
+        - /url: harvest-root-access-probe.json
+      - text: 771 bytes · One ordinary watch-page request; not all-video collection attempts SHA-256 b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff
+    - listitem:
+      - link "Independent publisher audio inventory ↓":
+        - /url: harvest-publisher-audio.json
+      - text: 106,794 bytes · Original RSS enclosures; YouTube edition equivalence not established SHA-256 a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3
+    - listitem:
+      - link "Automatic publisher-audio transcription receipts ↓":
+        - /url: harvest-asr-summary.json
+      - text: 80,379 bytes · Machine ASR metadata; no raw transcript text or human validation SHA-256 d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba
+    - listitem:
+      - link "Acquisition supplement report ↓":
+        - /url: harvest-acquisition-report.md
+      - text: 9,872 bytes · Dated source-acquisition report; retained manuscript remains separate SHA-256 4eb8014f633cdd85aad7fd36a094dd610f408e7e40f5f15ee6318d331a5e3400
+  - paragraph: Practitioners, publishing accounts, literal account routes, uploads and original sessions are different units. A route queue does not establish full channel enumeration. A saved artifact is counted from the artifact ledger, not from a successful metadata request.
+- contentinfo:
+  - text: Research continues in
+  - strong: occult-kranti/channels-ET
+  - text: . Earlier releases remain preserved; raw captions and base-model weights are excluded from the public build.

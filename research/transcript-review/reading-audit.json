@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "method": "Independent source reconstruction for all windows and QA anchors, overlap-deduplicated coverage, DB/CSV/source joins; no author helper imports",
+  "checks": 1371,
+  "pins": {
+    "research/transcript-reading/documents.json": "f9161c6455b89355c6c16f91dabd5fa3990ea0900c18c580cbcd9c9b361d30f7",
+    "research/transcript-reading/reading-windows.json": "4aabe23633446de290290d225de2552b59ef07978013bac7d19373eb92fdf83a",
+    "research/transcript-reading/qa-candidates.json": "1401391a2b0ff69ca1e4c2f4705431686770469dbb6db5f3a9e04ff2c3ba93c6",
+    "research/transcript-reading/qualitative-codes.json": "546867131e1910f1d3f016cb90896c418c46ae815274ecc5be71fcf243836738",
+    "research/transcript-reading/prompt-family-comparisons.json": "3838dd62603d0bf20993fd2cec3ab111852c13db2d40d49f5784623c86f974b8",
+    "research/transcript-reading/summary.json": "a1d4ddd156bb77b3fdaa1d13cf2cd185cfa51b49d5b7f2876927fc6a6656abff",
+    "research/transcript-reading/qa-candidates.sqlite": "119ebd2357a086bf54455194874412944075c7ced0eac30abe89cb1e2132c274",
+    "research/transcript-reading/qa-candidates.csv": "c72edfeb2c09181f5801121d74b4e05f445afa241bafc63f264c7f0be8723836",
+    "research/transcript-reading/codebook.json": "b97e1c792fe2ac2d841b100b9901bf98eb3b8981b8198a421cbaa751a382b2cd"
+  },
+  "sources": 36,
+  "windows": 105,
+  "qa_candidates": 37,
+  "qa_kinds": {
+    "interview_prompt_candidate": 14,
+    "fragmentary_interview_prompt_candidate": 1,
+    "rhetorical_coaching_prompt_candidate": 2,
+    "autobiographical_self_question_candidate": 2,
+    "secondary_reported_question_candidate": 1,
+    "authored_comparison_prompt": 16,
+    "rhetorical_guidance_question_candidate": 1
+  },
+  "unique_asr_words_inspected": 11992,
+  "unique_asr_segments_inspected": 1112,
+  "unique_authored_words_inspected": 6319,
+  "overlapping_packet_words": 19603,
+  "asr_word_coverage": 0.05304012065831317,
+  "authored_word_coverage": 0.4627270064440539,
+  "fully_covered_asr_sources": [
+    "athina-ashtar-20230206-5d144c22"
+  ],
+  "family_source_duplicates": [],
+  "semantic_support_review": "Purposeful qualitative subset is reviewed separately; locator validity does not validate paraphrase meaning",
+  "network_requests": 0,
+  "new_llm_or_asr_inference": false,
+  "raw_text_published": false
+}

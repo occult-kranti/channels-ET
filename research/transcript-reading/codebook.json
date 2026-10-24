@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "codingUnit": "inspected source window; overlapping codes aggregated to source-document presence",
+  "codes": [
+    {
+      "codeId": "contact_disclosure",
+      "label": "Contact and disclosure",
+      "definition": "Forecasts, readiness or conditions concerning alleged contact/disclosure; not verified events."
+    },
+    {
+      "codeId": "belief_reality_agency",
+      "label": "Beliefs, interpretation and agency",
+      "definition": "How beliefs, interpretations and personal action are said to shape experience; qualifications and dissent remain visible."
+    },
+    {
+      "codeId": "emotion_fear_selfworth",
+      "label": "Fear, feeling and self-worth",
+      "definition": "Fear, emotional interpretation, confidence or felt empowerment; no clinical efficacy inference."
+    },
+    {
+      "codeId": "practice_enthusiasm_alignment",
+      "label": "Practice and alignment",
+      "definition": "Suggested reflection, attention, enthusiasm, meditation or symbolic spiritual practice."
+    },
+    {
+      "codeId": "ontology_consciousness_dimensions",
+      "label": "Consciousness and ontology",
+      "definition": "Source accounts of reality, dimensions, incarnation, divine identity or consciousness; no physical validation."
+    },
+    {
+      "codeId": "claimed_entity_identity",
+      "label": "Claimed beings and identity",
+      "definition": "Named or described beings, lineage, origin or alleged communication roles; source attribution only."
+    },
+    {
+      "codeId": "epistemic_validation_skepticism",
+      "label": "Validation, qualification and criticism",
+      "definition": "How an experience is interpreted, uncertainty expressed, evidence invoked, or a claim criticized."
+    },
+    {
+      "codeId": "health_healing_claims",
+      "label": "Bodily or health-related claims",
+      "definition": "Subjective bodily experiences or health-related interpretation; advertisements and interview discussion must remain distinguishable."
+    },
+    {
+      "codeId": "relationships_collective_ethics",
+      "label": "Relationships and collective ethics",
+      "definition": "Relationships, shared needs, social responsibility or claims about collective development."
+    },
+    {
+      "codeId": "publisher_promotion",
+      "label": "Publisher framing and promotion",
+      "definition": "Advertising, subscriptions, programs or media calls to action. This code alone does not establish monetization."
+    }
+  ],
+  "annotationMethod": "AI-agent semantic close reading; no external model inference or human annotation",
+  "sampling": "Fixed beginning/middle/ending30second targets and one60second question-marker/topic-keyword enriched target per ASR; segment boundaries can extend targets; first250whitespace words per Daniel item; full Paul PDF extraction; three post-hoc NMF-term windows, deliberate full reading plus a bounded purpose-guidance window in the single Athina comparison source, and four post-hoc entity-spelling contexts",
+  "wordCountMethod": "Python str.split whitespace tokens for both numerator and denominator; differs from regex counts in some inherited primary metadata",
+  "quotePolicy": "No raw source text or verbatim quotations in public reading/Q&A artifacts; full windows remain private",
+  "qaMeaning": "AI paraphrase candidates. Interview, fragmentary, rhetorical/self-question, secondary-report and analyst-constructed authored prompts are separate kinds.",
+  "comparisonMeaning": "Prompt-family membership is an AI analytic grouping, not validated question equivalence, answer agreement, entity identity, or independent evidence."
+}

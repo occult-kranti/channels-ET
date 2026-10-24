@@ -1,0 +1,74 @@
+{
+  "inputs": [
+    {
+      "key": "videos",
+      "path": "research/harvest/inventory/videos.jsonl",
+      "bytes": 2599443,
+      "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d"
+    },
+    {
+      "key": "routes",
+      "path": "research/harvest/inventory/channel-routes.json",
+      "bytes": 775403,
+      "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee"
+    },
+    {
+      "key": "practitioners",
+      "path": "research/harvest/inventory/practitioner-candidates.json",
+      "bytes": 211887,
+      "sha256": "119c5390c7a803b7cfd7c8a8982385cc5952b596f8810dbec5bbabb0b6829895"
+    },
+    {
+      "key": "selection",
+      "path": "research/collection-policy/selection.jsonl",
+      "bytes": 3474515,
+      "sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9"
+    },
+    {
+      "key": "policy",
+      "path": "research/collection-policy/summary.json",
+      "bytes": 2817,
+      "sha256": "72e195c29f5032af4addfa03ad98bb7640536fdd4c549c885a8fbae9ba84882c"
+    },
+    {
+      "key": "originalAudio",
+      "path": "research/harvest/publisher_sources/publisher-summary.json",
+      "bytes": 106794,
+      "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+    },
+    {
+      "key": "athinaAudio",
+      "path": "research/access-repair/athina/publisher_sources/publisher-summary.json",
+      "bytes": 6348,
+      "sha256": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370"
+    },
+    {
+      "key": "archivePlan",
+      "path": "research/storage-drive/archive-plan.json",
+      "bytes": 112830,
+      "sha256": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3"
+    },
+    {
+      "key": "oldArtifacts",
+      "path": "research/harvest/artifacts.json",
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    {
+      "key": "runner",
+      "path": "research/collection-runner/plan-summary.json",
+      "bytes": 565,
+      "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269"
+    },
+    {
+      "key": "actualArchive",
+      "path": "research/cloud-archive/archive-state.json",
+      "bytes": 1786,
+      "sha256": "4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4"
+    }
+  ],
+  "builderSha256": "be52298385072b410c53cab06b375c401a43752f630ab65fc6ae559e41e33ea3",
+  "outputSha256": "9c331398dcddeb36180257fe2b902138fd1a39dc618a16657176f708473bf375",
+  "networkRequests": 0,
+  "rawSourceTextPublished": false
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "analysis_sha256": "14ccb929d1613b72fbb437ba995e5c7b5a8b17cd6cbffe1f2a126f5d7b81ea14",
+  "protocol_sha256": "6beb40a604b599d96783a21cbed37bc803db526898737a0b18eb284605f55707",
+  "method": "Private source bytes -> independent normalization/counters/manual smoothed sublinear TF-IDF/L2/cosine/silhouette; independent selected NMF refit; no author helper imports",
+  "checks": 1465,
+  "failed_checks": [],
+  "manual_tfidf_max_residual": {
+    "audio": 1.3100631690576847e-14,
+    "authored": 3.3306690738754696e-15
+  },
+  "cross_modality_projection_max_residual": 8.604228440844963e-16,
+  "selected_nmf_weight_max_residual": 8.326672684688674e-15,
+  "selected_cluster_sizes": {
+    "1": 19,
+    "0": 1
+  },
+  "singleton_source_ids": [
+    "athina-ashtar-20230206-5d144c22"
+  ],
+  "selected_cluster_silhouette": 0.238345224500294,
+  "authored_selected_cluster_k": 6,
+  "authored_selected_cluster_sizes": {
+    "2": 3,
+    "4": 4,
+    "1": 4,
+    "0": 3,
+    "5": 1,
+    "3": 1
+  },
+  "authored_selected_cluster_silhouette": 0.057380407893476135,
+  "same_space_overlay_max_residual": 5.134781488891349e-16,
+  "negation_feature_diagnostics": {
+    "audio": {
+      "no": {
+        "included_in_final_vocabulary": false,
+        "document_frequency": 20
+      },
+      "not": {
+        "included_in_final_vocabulary": false,
+        "document_frequency": 20
+      },
+      "nor": {
+        "included_in_final_vocabulary": false,
+        "document_frequency": 1
+      },
+      "never": {
+        "included_in_final_vocabulary": false,
+        "document_frequency": 20
+      }
+    },
+    "authored": {
+      "no": {
+        "included_in_final_vocabulary": true,
+        "document_frequency": 10
+      },
+      "not": {
+        "included_in_final_vocabulary": true,
+        "document_frequency": 15
+      },
+      "nor": {
+        "included_in_final_vocabulary": false,
+        "document_frequency": 1
+      },
+      "never": {
+        "included_in_final_vocabulary": true,
+        "document_frequency": 5
+      }
+    }
+  },
+  "within_dictionary_duplicate_exact_spans": [],
+  "zero_token_time_bins": 0,
+  "synthetic_construct_controls": [
+    {
+      "name": "astronomy_is_not_verified_civilization",
+      "themeCounts": {
+        "contact_disclosure": 1,
+        "belief_reality_agency": 0,
+        "emotion_fear_selfworth": 0,
+        "practice_enthusiasm_alignment": 0,
+        "ontology_consciousness_dimensions": 0,
+        "claimed_entity_identity": 0,
+        "epistemic_validation_skepticism": 0,
+        "health_healing_claims": 0,
+        "relationships_collective_ethics": 0,
+        "commercial_promotion": 0
+      },
+      "civilizationCounts": {
+        "Arcturian / Arcturus": 0,
+        "Pleiadian / Pleiades": 0,
+        "Sirian / Sirius": 0,
+        "Essassani / Sassani": 0,
+        "Andromedan / Andromeda": 0,
+        "Orion": 1,
+        "Yahyel": 0
+      },
+      "scope": "synthetic construct control, not corpus prevalence or annotated accuracy"
+    },
+    {
+      "name": "negated_claim_still_has_mentions",
+      "themeCounts": {
+        "contact_disclosure": 3,
+        "belief_reality_agency": 0,
+        "emotion_fear_selfworth": 0,
+        "practice_enthusiasm_alignment": 0,
+        "ontology_consciousness_dimensions": 0,
+        "claimed_entity_identity": 0,
+        "epistemic_validation_skepticism": 1,
+        "health_healing_claims": 0,
+        "relationships_collective_ethics": 0,
+        "commercial_promotion": 0
+      },
+      "civilizationCounts": {
+        "Arcturian / Arcturus": 0,
+        "Pleiadian / Pleiades": 0,
+        "Sirian / Sirius": 0,
+        "Essassani / Sassani": 0,
+        "Andromedan / Andromeda": 0,
+        "Orion": 0,
+        "Yahyel": 0
+      },
+      "scope": "synthetic construct control, not corpus prevalence or annotated accuracy"
+    }
+  ],
+  "synthetic_negation_pairs": [
+    {
+      "affirmative_synthetic_text": "Aliens made contact.",
+      "negated_synthetic_text": "Aliens never made contact.",
+      "cosine_in_actual_audio_fitted_space": 1.0,
+      "identical_feature_vectors": true,
+      "scope": "Fixed synthetic contrast; no corpus prevalence, model accuracy or claim-stance validation"
+    },
+    {
+      "affirmative_synthetic_text": "I believe aliens made contact.",
+      "negated_synthetic_text": "I do not believe aliens made contact.",
+      "cosine_in_actual_audio_fitted_space": 0.9999999999999999,
+      "identical_feature_vectors": true,
+      "scope": "Fixed synthetic contrast; no corpus prevalence, model accuracy or claim-stance validation"
+    },
+    {
+      "affirmative_synthetic_text": "Contact is real.",
+      "negated_synthetic_text": "Contact is not real.",
+      "cosine_in_actual_audio_fitted_space": 0.5158070450005887,
+      "identical_feature_vectors": false,
+      "scope": "Fixed synthetic contrast; no corpus prevalence, model accuracy or claim-stance validation"
+    }
+  ],
+  "raw_text_published": false,
+  "network_requests": 0,
+  "new_llm_or_asr_inference": false
+}

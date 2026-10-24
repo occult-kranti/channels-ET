@@ -244,6 +244,8 @@ def verify_current_collection(payloads: dict[str, bytes], file_manifest: dict) -
         assert name.startswith("youtube-access-") and "/" not in name, "Unsafe supplement filename"
         actual = file_manifest["dist/research/" + name]
         assert digest(body(name)) == row["sha256"] == actual["sha256"] == artifacts[name]["sha256"], name
+        source = (root / row["source"]).resolve()
+        assert source.is_relative_to(root) and digest(source.read_bytes()) == row["sha256"], f"Current source differs from published binding: {row['source']}"
         assert len(body(name)) == actual["bytes"] == artifacts[name]["bytes"], name
         if row.get("key"):
             assert sources[row["key"]] == load(name), f"Dashboard/source mismatch: {name}"
@@ -307,6 +309,86 @@ def verify_current_collection(payloads: dict[str, bytes], file_manifest: dict) -
             "policy_runner_attempts": 0, "policy_runner_access_gate_ready": False}
 
 
+def verify_transcript_study(payloads: dict[str, bytes], file_manifest: dict) -> dict:
+    """Verify the published study without fetching its private corpus or audio."""
+    root = Path(__file__).resolve().parents[2]
+    inputs = json.loads((root / "research/transcript-dashboard/inputs.json").read_text())["inputs"]
+    def body(name: str) -> bytes:
+        return payloads["dist/transcripts/" + name]
+    bundle = json.loads(body("data.json"))
+    artifacts = {a["path"]: a for a in bundle["artifacts"]}
+    for row in inputs:
+        target = row["target"]
+        assert not target.startswith("/") and ".." not in Path(target).parts, "Unsafe study artifact path"
+        actual = file_manifest["dist/transcripts/" + target]
+        assert digest(body(target)) == row["sha256"] == actual["sha256"] == artifacts[target]["sha256"], target
+        source = (root / row["source"]).resolve()
+        assert source.is_relative_to(root) and digest(source.read_bytes()) == row["sha256"], f"Current study source differs from published binding: {row['source']}"
+        assert len(body(target)) == actual["bytes"] == artifacts[target]["bytes"], target
+        if row.get("key"):
+            embedded = bundle
+            for key in row["key"].split("."):
+                embedded = embedded[key]
+            assert embedded == json.loads(body(target)), f"Interactive study/source mismatch: {target}"
+    analysis, reading = bundle["analysis"], bundle["reading"]
+    sources = {r["sourceId"]: r for r in analysis["sources"]}
+    documents = {r["sourceId"]: r for r in reading["documents"]["documents"]}
+    assert len(sources) == len(analysis["sources"]) == len(documents) == 36 and set(sources) == set(documents)
+    assert Counter(r["modality"] for r in sources.values()) == {"audio_asr": 20, "publisher_text": 16}
+    for source_id, row in sources.items():
+        assert row["transcriptSha256"] == documents[source_id]["transcriptSha256"]
+        assert row["speakerVerified"] is False and row["youtubeEditionVerified"] is False
+    for fit_name, modality in (("audio", "audio_asr"), ("authored", "publisher_text")):
+        fit = analysis["tfidf"][fit_name]
+        ids = fit["sourceIds"]
+        assert set(ids) == {r["sourceId"] for r in sources.values() if r["modality"] == modality}
+        assert len(ids) == len(fit["cosine"]) and all(len(row) == len(ids) for row in fit["cosine"])
+        for i, values in enumerate(fit["cosine"]):
+            assert math.isclose(values[i], 1, abs_tol=1e-9)
+            for k, value in enumerate(values):
+                assert math.isfinite(value) and -1e-9 <= value <= 1 + 1e-9
+                assert math.isclose(value, fit["cosine"][k][i], abs_tol=1e-9)
+    summary = reading["summary"]
+    assert summary["documents"] == 36 and summary["inspectedWindows"] == len(reading["windows"]["windows"]) == 105
+    windows = {r["windowId"]: r for r in reading["windows"]["windows"]}
+    candidates = reading["qa"]["records"]
+    assert len(candidates) == summary["qaCandidateRecords"] == 37
+    assert Counter(r["candidateKind"] for r in candidates) == summary["qaCandidateKinds"]
+    for row in candidates:
+        assert row["sourceId"] in sources and row["supportWindowId"] in windows
+        assert windows[row["supportWindowId"]]["sourceId"] == row["sourceId"]
+        assert row["sourceTranscriptSha256"] == sources[row["sourceId"]]["transcriptSha256"]
+        assert row["humanValidated"] is False and row["exactQuotePublished"] is False
+    assert math.isclose(summary["asrWordCoverageFraction"], summary["uniqueAsrWordsRead"] / summary["asrWordsTotal"])
+    assert math.isclose(summary["publisherTextWordCoverageFraction"], summary["uniquePublisherTextWordsRead"] / summary["publisherTextWordsTotal"])
+    sqlite_target = next(r["target"] for r in inputs if r["source"] == "research/transcript-reading/qa-candidates.sqlite")
+    with tempfile.TemporaryDirectory(prefix="transcript-qa-deployment-check-") as temp:
+        path = Path(temp) / "qa.sqlite"
+        path.write_bytes(body(sqlite_target))
+        with sqlite3.connect(path.as_uri() + "?mode=ro", uri=True) as connection:
+            assert connection.execute("PRAGMA quick_check").fetchone()[0] == "ok"
+            for table, count in (("documents", 36), ("windows", 105), ("codes", 10), ("document_codes", 142), ("qa_candidates", 37)):
+                assert connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] == count, table
+    distributions = bundle["distributions"]
+    archive = bundle["archive"]["state"]
+    assert distributions["localArchive"] == archive
+    assert archive["actual_local_archive_completed"] is True and archive["hash_verified"] is True
+    assert archive["actual_local_files"] == 200 and archive["actual_local_bytes"] == 1703879268
+    assert archive["actual_drive_uploaded_files"] == 0 and archive["chat_attachment_created"] is False
+    assert distributions["summary"]["actualYouTubeVideos"] == analysis["summary"]["newYoutubeVideoDownloads"] == 0
+    for name, rows in distributions["youtube"].items():
+        assigned = set().union(*(set(r["video_ids"]) for r in rows))
+        coverage = distributions["attributionCoverage"][name]
+        assert coverage["indexedDenominator"] == 942 and coverage["assignedUniqueIds"] == len(assigned)
+        assert coverage["unassignedUniqueIds"] == 942 - len(assigned)
+        assert coverage["groupMemberships"] == sum(r["indexed_ids"] for r in rows)
+    return {"status": "passed", "scope": "Published derived data/source joins and artifact bytes; no private source/media request",
+            "source_bound_artifacts": len(inputs), "source_documents": len(sources),
+            "asr_documents": 20, "authored_documents": 16, "inspected_windows": 105,
+            "typed_qa_candidates": 37, "actual_local_archive_files": 200,
+            "actual_local_archive_bytes": 1703879268, "drive_uploaded_files": 0, "youtube_downloaded_videos": 0}
+
+
 def http_verify(base: str, expected: dict | None = None) -> dict:
     base = base.rstrip("/") + "/"
     def get(relative: str) -> tuple[bytes, int]:
@@ -338,6 +420,13 @@ def http_verify(base: str, expected: dict | None = None) -> dict:
         for path in hashes:
             if path.startswith("dist/research/youtube-access"):
                 routes[path] = None
+    has_transcript_study = "dist/transcripts/data.json" in hashes
+    if has_transcript_study:
+        routes[""] = b"./dist/transcripts/"
+        routes["dist/transcripts/"] = b"<html"
+        for path in hashes:
+            if path.startswith("dist/transcripts/"):
+                routes[path] = None
     for route, marker in routes.items():
         body, status = get(route)
         path = route + "index.html" if not route or route.endswith("/") else route
@@ -354,6 +443,8 @@ def http_verify(base: str, expected: dict | None = None) -> dict:
         report["access_repair_checks"] = verify_access_repair(payloads, hashes)
     if has_current_collection:
         report["current_collection_checks"] = verify_current_collection(payloads, hashes)
+    if has_transcript_study:
+        report["transcript_study_checks"] = verify_transcript_study(payloads, hashes)
     return report
 
 

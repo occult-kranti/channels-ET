@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "status": "executed_provisional_AI_reading_and_candidate_extraction",
+  "documents": 36,
+  "audioAsrDocuments": 20,
+  "publisherTextDocuments": 16,
+  "fixedSampleWindows": 96,
+  "adaptiveNmfWindows": 3,
+  "additionalFullComparisonAndLocatorWindows": 2,
+  "adaptiveEntitySpellingWindows": 4,
+  "inspectedWindows": 105,
+  "packetWordsRead": 19603,
+  "packetWordCountIncludesOverlappingWindows": true,
+  "packetWordsByModality": {
+    "audio_asr": 13284,
+    "publisher_text": 6319
+  },
+  "uniqueAsrSegmentsRead": 1112,
+  "asrSegmentsTotal": 21197,
+  "uniqueAsrWordsRead": 11992,
+  "asrWordsTotal": 226093,
+  "uniquePublisherTextWordsRead": 6319,
+  "publisherTextWordsTotal": 13656,
+  "sampledAsrIntervalSeconds": 4787.85,
+  "audioDurationSeconds": 81691.621533,
+  "qaCandidateRecords": 37,
+  "qaCandidateKinds": {
+    "interview_prompt_candidate": 14,
+    "fragmentary_interview_prompt_candidate": 1,
+    "rhetorical_coaching_prompt_candidate": 2,
+    "autobiographical_self_question_candidate": 2,
+    "secondary_reported_question_candidate": 1,
+    "authored_comparison_prompt": 16,
+    "rhetorical_guidance_question_candidate": 1
+  },
+  "promptFamilies": 10,
+  "manualCodebookCodes": 10,
+  "documentCodeAssignments": 142,
+  "codePresenceByModality": {
+    "audio_asr": {
+      "belief_reality_agency": 6,
+      "emotion_fear_selfworth": 7,
+      "publisher_promotion": 15,
+      "claimed_entity_identity": 12,
+      "contact_disclosure": 7,
+      "ontology_consciousness_dimensions": 8,
+      "relationships_collective_ethics": 6,
+      "epistemic_validation_skepticism": 7,
+      "practice_enthusiasm_alignment": 6,
+      "health_healing_claims": 4
+    },
+    "publisher_text": {
+      "emotion_fear_selfworth": 10,
+      "ontology_consciousness_dimensions": 8,
+      "publisher_promotion": 15,
+      "relationships_collective_ethics": 10,
+      "claimed_entity_identity": 2,
+      "practice_enthusiasm_alignment": 9,
+      "contact_disclosure": 2,
+      "belief_reality_agency": 8
+    }
+  },
+  "humanValidated": false,
+  "speakerDiarizationPerformed": false,
+  "videoEditionVerified": false,
+  "newYoutubeVideos": 0,
+  "newExternalModelInferenceRuns": 0,
+  "publicRawTranscriptText": false,
+  "methods": {
+    "annotationMethod": "AI-agent semantic close reading; no external model inference or human annotation",
+    "sampling": "Fixed beginning/middle/ending30second targets and one60second question-marker/topic-keyword enriched target per ASR; segment boundaries can extend targets; first250whitespace words per Daniel item; full Paul PDF extraction; three post-hoc NMF-term windows, deliberate full reading plus a bounded purpose-guidance window in the single Athina comparison source, and four post-hoc entity-spelling contexts",
+    "wordCountMethod": "Python str.split whitespace tokens for both numerator and denominator; differs from regex counts in some inherited primary metadata",
+    "quotePolicy": "No raw source text or verbatim quotations in public reading/Q&A artifacts; full windows remain private",
+    "qaMeaning": "AI paraphrase candidates. Interview, fragmentary, rhetorical/self-question, secondary-report and analyst-constructed authored prompts are separate kinds.",
+    "comparisonMeaning": "Prompt-family membership is an AI analytic grouping, not validated question equivalence, answer agreement, entity identity, or independent evidence."
+  },
+  "limits": [
+    "Nineteen audio records are Bashar-related publisher contexts; the twentieth is a single Ashtar-attributed creator episode, not balanced ET groups.",
+    "The15Daniel posts are one publisher/practitioner and multiple source-attributed groups; Paul is a spiritual comparison source.",
+    "Sample selection is purposeful and query-enriched, so code percentages are not full-corpus theme prevalence.",
+    "Paraphrases, question boundaries, entity names, speaker attribution and answer equivalence require human validation.",
+    "Advertisements, publisher framing, skeptical reported speech and ASR errors can drive lexical similarity."
+  ],
+  "asrWordCoverageFraction": 0.05304012065831317,
+  "publisherTextWordCoverageFraction": 0.4627270064440539
+}

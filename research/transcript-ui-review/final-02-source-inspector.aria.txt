@@ -1,0 +1,306 @@
+- link "Skip to study":
+  - /url: "#content"
+- banner:
+  - link "Channels ET Transcript study":
+    - /url: "#overview"
+  - text: 23 October 2026 America/New_York
+  - navigation "Project":
+    - link "Acquisition ledger":
+      - /url: ../research/#harvest
+    - link "Earlier research":
+      - /url: ../research/
+    - link "Repository ↗":
+      - /url: https://github.com/occult-kranti/channels-ET
+- navigation "Study views":
+  - link "Study overview":
+    - /url: "#overview"
+  - link "Lexical maps":
+    - /url: "#maps"
+  - link "Readings & Q&A":
+    - /url: "#reading"
+  - link "Contexts & storage":
+    - /url: "#storage"
+  - link "Sources & methods":
+    - /url: "#methods"
+- region "Transcript document filters":
+  - text: Fitted corpus
+  - combobox "Fitted corpus":
+    - option "Audio ASR · 20 documents" [selected]
+    - option "Publisher text · 16 documents"
+  - text: Publisher
+  - combobox "Publisher":
+    - option "All publishers" [selected]
+    - option "ACID FOR SQUARES"
+    - option "Align Podcast"
+    - option "Danica Patrick Pretty Intense Podcast"
+    - option "Gaia Consciousness"
+    - option "Gateways to Awakening with Yasmeen Turayhi"
+    - option "Healing + Human Potential"
+    - option "Impossible Dreams"
+    - option "Just Tap In with Emilio Ortiz"
+    - option "Mayim Bialik's Breakdown"
+    - option "Next Level Soul Podcast with Alex Ferrari"
+    - option "Oh No, Ross and Carrie"
+    - option "SoulTalk with Kute Blackson"
+    - option "Spirit Channel with Athina Król"
+    - option "Virtual Campfire hosted by Krystal Kelley"
+  - text: Practitioner context
+  - combobox "Practitioner context":
+    - option "All source contexts" [selected]
+    - option "Athina Król"
+    - option "Darryl Anka / Bashar context"
+  - text: Source title, publisher or ID
+  - searchbox "Source title, publisher or ID"
+  - button "Apply source filters"
+  - paragraph:
+    - strong: 20 / 20 ASR documents
+    - text: in this view. The full ASR frame is 19 Bashar-context recordings and one Ashtar-attributed creator episode; not 20 mediums. Filtering selects retained vectors; it does not refit the model.
+- main:
+  - paragraph: Retained text · exploratory analysis
+  - heading "A source-aware transcript study" [level=1]
+  - paragraph: Explore full-audio machine-ASR outputs and publisher-authored comparisons through lexical maps, sampled AI readings and inspectable source metadata. No source here establishes an extraterrestrial origin.
+  - paragraph:
+    - link "New transcript-study paper PDF ↓":
+      - /url: paper.pdf
+    - text: ·
+    - link "Portable manuscript source ZIP ↓":
+      - /url: source.zip
+  - strong: "20"
+  - text: Audio ASR documents selected
+  - strong: 226,138
+  - text: Common analytical tokens
+  - strong: "22.69"
+  - text: Recorded audio hours
+  - strong: "0"
+  - text: Saved YouTube videos
+  - heading "Source contexts in the selection" [level=2]
+  - text: Bashar-context 19 Ashtar-attributed creator episode 1
+  - paragraph: Counts are publication documents with catalog context labels. Hosts, guests, advertising and claimed-entity turns are not diarized.
+  - heading "Three exploratory topic components" [level=2]
+  - text: "T1: reality / physical / idea 0.52 T2: workers / jumps / sole 0.1 T3: bashar / channeling / information 0.38"
+  - paragraph: Equal-document mean NMF share, fixed 0–1 scale. K=3 was a predeclared display choice, not an estimated true topic count. Labels are top terms, including possible transcription artifacts.
+  - link "Inspect document-level topics and lexical maps →":
+    - /url: "#maps"
+  - strong: Separate sources, separate models
+  - text: Audio ASR and authored publisher text use separate TF-IDF, topic and clustering fits. Topic numbers have meaning only within their fitted corpus. Source labels and text mentions do not verify speakers, civilizations or origins.
+  - heading "What is measured" [level=2]
+  - paragraph: All views preserve provenance and modality. Analytical token counts are distinct from historical acquisition receipt word counts.
+  - table:
+    - rowgroup:
+      - row "Evidence layer Available material Interpretation":
+        - columnheader "Evidence layer"
+        - columnheader "Available material"
+        - columnheader "Interpretation"
+    - rowgroup:
+      - row "Complete retained text 20 full-audio ASR documents; 16 publisher texts Convenience sample; ASR is unverified and authored content includes promotion and footers.":
+        - cell "Complete retained text"
+        - cell "20 full-audio ASR documents; 16 publisher texts"
+        - cell "Convenience sample; ASR is unverified and authored content includes promotion and footers."
+      - row "Lexical models Separate TF-IDF fits, NMF topic shares and exploratory clusters Reproducible text representation, not semantic agreement or a speaker taxonomy.":
+        - cell "Lexical models"
+        - cell "Separate TF-IDF fits, NMF topic shares and exploratory clusters"
+        - cell "Reproducible text representation, not semantic agreement or a speaker taxonomy."
+      - row "AI source readings Sampled-window review metadata available Paraphrases and candidate Q&A require source-window provenance; no human accuracy claim.":
+        - cell "AI source readings"
+        - cell "Sampled-window review metadata available"
+        - cell "Paraphrases and candidate Q&A require source-window provenance; no human accuracy claim."
+      - row "Storage and collection Independent publisher audio and local derived files Saved publisher audio is not a YouTube download; local storage is distinct from Drive.":
+        - cell "Storage and collection"
+        - cell "Independent publisher audio and local derived files"
+        - cell "Saved publisher audio is not a YouTube download; local storage is distinct from Drive."
+  - heading "Inspect the source selection" [level=2]
+  - table:
+    - rowgroup:
+      - row "Source / publisher Source context / format Common tokens Audio duration":
+        - columnheader "Source / publisher"
+        - columnheader "Source context / format"
+        - columnheader "Common tokens"
+        - columnheader "Audio duration"
+    - rowgroup:
+      - 'row "A01 · #10 Darryl Anka: Channeling Bashar and First Contact with Aliens ACID FOR SQUARES Bashar-context interview 16,682 101.9 min"':
+        - 'cell "A01 · #10 Darryl Anka: Channeling Bashar and First Contact with Aliens ACID FOR SQUARES"':
+          - 'button "A01 · #10 Darryl Anka: Channeling Bashar and First Contact with Aliens"'
+          - text: ACID FOR SQUARES
+        - cell "Bashar-context interview"
+        - cell "16,682"
+        - cell "101.9 min"
+      - 'row "A02 · #68 Darryl Anka: Bashar’s Guide For The End Of The World ACID FOR SQUARES Bashar-context interview 16,548 101.1 min"':
+        - 'cell "A02 · #68 Darryl Anka: Bashar’s Guide For The End Of The World ACID FOR SQUARES"':
+          - 'button "A02 · #68 Darryl Anka: Bashar’s Guide For The End Of The World"'
+          - text: ACID FOR SQUARES
+        - cell "Bashar-context interview"
+        - cell "16,548"
+        - cell "101.1 min"
+      - 'row "A03 · Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561 Align Podcast Bashar-context interview 13,654 85 min"':
+        - 'cell "A03 · Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561 Align Podcast"':
+          - 'button "A03 · Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561"'
+          - text: Align Podcast
+        - cell "Bashar-context interview"
+        - cell "13,654"
+        - cell "85 min"
+      - 'row "A04 · Bashar: This is Coming In 2026... (Darryl Anka) Align Podcast Bashar-context interview 11,126 69.1 min"':
+        - 'cell "A04 · Bashar: This is Coming In 2026... (Darryl Anka) Align Podcast"':
+          - 'button "A04 · Bashar: This is Coming In 2026... (Darryl Anka)"'
+          - text: Align Podcast
+        - cell "Bashar-context interview"
+        - cell "11,126"
+        - cell "69.1 min"
+      - row "A05 · Darryl Anka Danica Patrick Pretty Intense Podcast Bashar-context interview 11,291 67.2 min":
+        - cell "A05 · Darryl Anka Danica Patrick Pretty Intense Podcast":
+          - button "A05 · Darryl Anka"
+          - text: Danica Patrick Pretty Intense Podcast
+        - cell "Bashar-context interview"
+        - cell "11,291"
+        - cell "67.2 min"
+      - row "A06 · Darryl Anka Danica Patrick Pretty Intense Podcast Bashar-context interview 12,920 78.6 min":
+        - cell "A06 · Darryl Anka Danica Patrick Pretty Intense Podcast":
+          - button "A06 · Darryl Anka"
+          - text: Danica Patrick Pretty Intense Podcast
+        - cell "Bashar-context interview"
+        - cell "12,920"
+        - cell "78.6 min"
+      - 'row "A07 · Darryl Anka: Channeling Bashar Gaia Consciousness Bashar-context publisher promotional interview 5,172 32.6 min"':
+        - 'cell "A07 · Darryl Anka: Channeling Bashar Gaia Consciousness"':
+          - 'button "A07 · Darryl Anka: Channeling Bashar"'
+          - text: Gaia Consciousness
+        - cell "Bashar-context publisher promotional interview"
+        - cell "5,172"
+        - cell "32.6 min"
+      - row "A08 · What is Reality and What We Need to Know with Bashar / Darryl Anka Gateways to Awakening with Yasmeen Turayhi Bashar-context interview 10,924 68.4 min":
+        - cell "A08 · What is Reality and What We Need to Know with Bashar / Darryl Anka Gateways to Awakening with Yasmeen Turayhi":
+          - button "A08 · What is Reality and What We Need to Know with Bashar / Darryl Anka"
+          - text: Gateways to Awakening with Yasmeen Turayhi
+        - cell "Bashar-context interview"
+        - cell "10,924"
+        - cell "68.4 min"
+      - row "A09 · The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104 Healing + Human Potential Bashar-context interview 12,695 65.1 min":
+        - cell "A09 · The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104 Healing + Human Potential":
+          - button "A09 · The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104"
+          - text: Healing + Human Potential
+        - cell "Bashar-context interview"
+        - cell "12,695"
+        - cell "65.1 min"
+      - 'row "A10 · Bashar''s NEW Predictions: The Great Shift + How Life Will Change Forever! Healing + Human Potential Bashar-context interview 10,674 61 min"':
+        - 'cell "A10 · Bashar''s NEW Predictions: The Great Shift + How Life Will Change Forever! Healing + Human Potential"':
+          - 'button "A10 · Bashar''s NEW Predictions: The Great Shift + How Life Will Change Forever!"'
+          - text: Healing + Human Potential
+        - cell "Bashar-context interview"
+        - cell "10,674"
+        - cell "61 min"
+      - 'row "A11 · Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21 Impossible Dreams Bashar-context interview 10,701 64.7 min"':
+        - 'cell "A11 · Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21 Impossible Dreams"':
+          - 'button "A11 · Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21"'
+          - text: Impossible Dreams
+        - cell "Bashar-context interview"
+        - cell "10,701"
+        - cell "64.7 min"
+      - 'row "A12 · #248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human Just Tap In with Emilio Ortiz Bashar-context interview 13,169 85.8 min"':
+        - 'cell "A12 · #248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human Just Tap In with Emilio Ortiz"':
+          - 'button "A12 · #248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human"'
+          - text: Just Tap In with Emilio Ortiz
+        - cell "Bashar-context interview"
+        - cell "13,169"
+        - cell "85.8 min"
+      - 'row "A13 · Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka Mayim Bialik''s Breakdown Bashar-context interview 10,574 61.6 min"':
+        - 'cell "A13 · Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka Mayim Bialik''s Breakdown"':
+          - 'button "A13 · Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka"'
+          - text: Mayim Bialik's Breakdown
+        - cell "Bashar-context interview"
+        - cell "10,574"
+        - cell "61.6 min"
+      - 'row "A14 · Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka Mayim Bialik''s Breakdown Bashar-context interview 7,456 41.9 min"':
+        - 'cell "A14 · Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka Mayim Bialik''s Breakdown"':
+          - 'button "A14 · Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka"'
+          - text: Mayim Bialik's Breakdown
+        - cell "Bashar-context interview"
+        - cell "7,456"
+        - cell "41.9 min"
+      - row "A15 · Time is Moving Through You with Darryl Anka (BASHAR) Next Level Soul Podcast with Alex Ferrari Bashar-context interview 14,315 89.2 min":
+        - cell "A15 · Time is Moving Through You with Darryl Anka (BASHAR) Next Level Soul Podcast with Alex Ferrari":
+          - button "A15 · Time is Moving Through You with Darryl Anka (BASHAR)"
+          - text: Next Level Soul Podcast with Alex Ferrari
+        - cell "Bashar-context interview"
+        - cell "14,315"
+        - cell "89.2 min"
+      - 'row "A16 · Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition Oh No, Ross and Carrie Bashar-context skeptical commentary 19,853 109.9 min"':
+        - 'cell "A16 · Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition Oh No, Ross and Carrie"':
+          - 'button "A16 · Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition"'
+          - text: Oh No, Ross and Carrie
+        - cell "Bashar-context skeptical commentary"
+        - cell "19,853"
+        - cell "109.9 min"
+      - 'row "A17 · 224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs SoulTalk with Kute Blackson Bashar-context interview 11,196 64.6 min"':
+        - 'cell "A17 · 224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs SoulTalk with Kute Blackson"':
+          - 'button "A17 · 224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs"'
+          - text: SoulTalk with Kute Blackson
+        - cell "Bashar-context interview"
+        - cell "11,196"
+        - cell "64.6 min"
+      - row "A18 · Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades Spirit Channel with Athina Król Ashtar-attributed creator episode creator trance channeling episode as described by publisher 3,389 28 min":
+        - cell "A18 · Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades Spirit Channel with Athina Król":
+          - button "A18 · Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades"
+          - text: Spirit Channel with Athina Król
+        - cell "Ashtar-attributed creator episode creator trance channeling episode as described by publisher"
+        - cell "3,389"
+        - cell "28 min"
+      - 'row "A19 · E54: Preparing for Alien Contact with Darryl Anka aka Bashar Virtual Campfire hosted by Krystal Kelley Bashar-context interview 5,892 35.8 min"':
+        - 'cell "A19 · E54: Preparing for Alien Contact with Darryl Anka aka Bashar Virtual Campfire hosted by Krystal Kelley"':
+          - 'button "A19 · E54: Preparing for Alien Contact with Darryl Anka aka Bashar"'
+          - text: Virtual Campfire hosted by Krystal Kelley
+        - cell "Bashar-context interview"
+        - cell "5,892"
+        - cell "35.8 min"
+      - 'row "A20 · E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar Virtual Campfire hosted by Krystal Kelley Bashar-context interview 7,907 50.1 min"':
+        - 'cell "A20 · E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar Virtual Campfire hosted by Krystal Kelley"':
+          - 'button "A20 · E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar"'
+          - text: Virtual Campfire hosted by Krystal Kelley
+        - cell "Bashar-context interview"
+        - cell "7,907"
+        - cell "50.1 min"
+  - button "Export these source metadata rows"
+- status: Study overview. 20 selected documents.
+- 'dialog "#10 Darryl Anka: Channeling Bashar and First Contact with Aliens"':
+  - 'heading "#10 Darryl Anka: Channeling Bashar and First Contact with Aliens" [level=2]'
+  - button "Close source inspection": Close ×
+  - paragraph:
+    - link "Original publisher source ↗":
+      - /url: https://pdst.fm/e/tracking.swap.fm/track/JhoQDAATtO1l0y8tdKNa/pscrb.fm/rss/p/traffic.megaphone.fm/ADL1940277313.mp3?updated=1728919442
+  - term: Source ID / short ID
+  - definition: rss-1763048673-1cf4301536f2 / A01
+  - term: Modality / source format
+  - definition: audio asr / interview
+  - term: Publisher
+  - definition: ACID FOR SQUARES
+  - term: Practitioner context
+  - definition: Darryl Anka / Bashar context
+  - term: Source-attributed label
+  - definition: Bashar-context
+  - term: Common analysis tokens
+  - definition: 16,682 · fixed shared regex tokenizer
+  - term: Whitespace words
+  - definition: 16,635
+  - term: Acquisition receipt count
+  - definition: 16,635 · ASR collector whitespace words
+  - term: Audio duration
+  - definition: 101.86 minutes
+  - term: Original audio bytes
+  - definition: 70.09 MiB
+  - term: Source-text SHA-256
+  - definition: 56813453fefaea1efa7656990d60e800b3427ad57f8729aeae8a56de54879c12
+  - term: Source-audio SHA-256
+  - definition: bdb957be64aaf123e461fc4dd4a81fd9e3815b62a3c0522d1e21cacff934acc8
+  - term: Speaker identity verified
+  - definition: "No"
+  - term: YouTube edition verified
+  - definition: "No"
+  - term: Exploratory cluster
+  - definition: 2 within the audio fit
+  - term: NMF topic shares
+  - definition: T1 52.2% · T2 4.9% · T3 42.9%
+  - paragraph: A source context or publisher attribution does not identify who is speaking in an undiarized recording. Full source text and audio are not rehosted in this explorer.
+  - link "Exact source acquisition/ASR metadata ↓":
+    - /url: source-receipts/original19-asr.json
+- contentinfo:
+  - paragraph: Documents and source claims are the units of this study. Lexical resemblance does not establish agreement, independent transmission, speaker identity or an extraterrestrial origin.
+  - link "Inspect actual collection and access receipts":
+    - /url: ../research/#harvest

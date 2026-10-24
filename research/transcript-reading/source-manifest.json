@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "scope": "all20ASR outputs and16authoredtextfilesverified before sampling",
+  "receiptPins": {
+    "research/harvest/asr/summary.json": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba",
+    "research/access-repair/athina/asr/310c6d538a438cee6ba4-receipt.json": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7",
+    "research/harvest/publisher_sources/publisher-summary.json": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3",
+    "research/access-repair/athina/publisher_sources/publisher-summary.json": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370",
+    "research/access-repair/primary-sources/expanded-metadata.json": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca"
+  },
+  "privateFiles": [
+    {
+      "path": "/workspace/channels-et-raw/transcripts/03f822593bfc4923ce66/segments.jsonl",
+      "sha256": "b7f1f48f48564be8ddcbb3b2fd1e8ca8748a32479175f736e44d3ed03e2155ff",
+      "bytes": 218309
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/03f822593bfc4923ce66/transcript.txt",
+      "sha256": "c3e8b6bda1baba6237240d8be8d0e7abb51ae924828cb738efb643c978b41482",
+      "bytes": 69101
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/03f822593bfc4923ce66/transcript.srt",
+      "sha256": "3b2d21fb687f9a09bbccad4a24993455ed7b42096d8f0ad49a204ec37b45098b",
+      "bytes": 108709
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/0c4726b7b991841f24e7/segments.jsonl",
+      "sha256": "195a7775235e149d2e785b289d33609a0518b39d54c29778b22b56cdd58f1dd3",
+      "bytes": 212569
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/0c4726b7b991841f24e7/transcript.txt",
+      "sha256": "6f9c0afe736aa5a381141dbe13f59c508bc6525f20cc5cd352528428f5c5dffe",
+      "bytes": 72910
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/0c4726b7b991841f24e7/transcript.srt",
+      "sha256": "9cfb70b240c881ed06a9e48ef0ee7308c9ea16f17f75cd2b90c4724b5bc40db8",
+      "bytes": 109854
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/23bb107055b158ebe4dc/segments.jsonl",
+      "sha256": "14551a839d6d7e84980e68330a284e4647304ac07d2aa5fd87f03eb41d381eca",
+      "bytes": 103024
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/23bb107055b158ebe4dc/transcript.txt",
+      "sha256": "9339ac4f9d1052d8fe4ebc64db5c6d157b8047c1c2cb7be70b1bccd4e7cf135e",
+      "bytes": 32427
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/23bb107055b158ebe4dc/transcript.srt",
+      "sha256": "31fa5f30aad126f2f657340db638ce37dffd448684f0371508c5caf0a40396b4",
+      "bytes": 51148
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/2faf0b5e0de8be739cbd/segments.jsonl",
+      "sha256": "9c9a9c548c994b1e7d4d5caaf5fa2db93f8df685653753ffda02587f20272a7c",
+      "bytes": 244565
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/2faf0b5e0de8be739cbd/transcript.txt",
+      "sha256": "41263f39b8c6ee68c3f3a57ccadcca7b9a16b150cf006995dbf18000343bfafb",
+      "bytes": 76021
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/2faf0b5e0de8be739cbd/transcript.srt",
+      "sha256": "49c698b16fe501a19d2cd6bb5c85653284a66505b926969376486cc0e7b41231",
+      "bytes": 120777
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/3e4d7c6d1c98f9f32e12/segments.jsonl",
+      "sha256": "b25ceb5ad749f10103370ecd6802e0563d9c417ea600a6071edc899a1764052c",
+      "bytes": 186010
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/3e4d7c6d1c98f9f32e12/transcript.txt",
+      "sha256": "85b9ced07a2ec02f544f37b30307238871071eb3eb7beec7dbe7af16d0cb382f",
+      "bytes": 61382
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/3e4d7c6d1c98f9f32e12/transcript.srt",
+      "sha256": "91aedef6414d1d36ac7406fff55abfcdc7d84b0f065a95e640827c25eef24e12",
+      "bytes": 94313
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/3e5ee24b12aacc9a0d0d/segments.jsonl",
+      "sha256": "594b7ba44427c6cc3b46bad6e064c611c08f4ba54cdb68b7996e49cf48a0cb8b",
+      "bytes": 240986
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/3e5ee24b12aacc9a0d0d/transcript.txt",
+      "sha256": "efee3c23981deba2d5c3a3b1bd0e419e2e07ee15cabfc89a180c7fbb26b0f905",
+      "bytes": 77810
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/3e5ee24b12aacc9a0d0d/transcript.srt",
+      "sha256": "35a67428a71678de5d3581dd9606facafab856c3b9f494daf95265a8ab8f16ef",
+      "bytes": 121198
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/414890acbef167a9abc2/segments.jsonl",
+      "sha256": "398a81bf826cdd2c2087d2776a8f7295306bee191dec544b7e563f85cc6859ea",
+      "bytes": 170423
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/414890acbef167a9abc2/transcript.txt",
+      "sha256": "1e135dcd1827bd5a656f5e7548e7fc598d44ede92c24e1c25850906f7a0e0b56",
+      "bytes": 58540
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/414890acbef167a9abc2/transcript.srt",
+      "sha256": "2547a37b7c8b759e8dedb9788c031467becd33f43ffa519fc7d51570b7d3d587",
+      "bytes": 88111
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/61cba21c5f343f9692cc/segments.jsonl",
+      "sha256": "37880c0d45162f9840d524606a3a626ca86043c8545e0e27c99352d7e947d9c5",
+      "bytes": 87650
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/61cba21c5f343f9692cc/transcript.txt",
+      "sha256": "8db1143062bba657057a20225243a0a2bca7f7bd634fc363bb91693a189ff9c2",
+      "bytes": 28551
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/61cba21c5f343f9692cc/transcript.srt",
+      "sha256": "d82eec1b19092e574d725d5144d97d87983e91240b96dd6e9cfdd02b16d49dc3",
+      "bytes": 44227
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/7a9dae8f6f6daba48d44/segments.jsonl",
+      "sha256": "52cd23afc7dc6294c47f7e143240f98b2314c82871d0df8b385c4d483b303cdf",
+      "bytes": 145123
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/7a9dae8f6f6daba48d44/transcript.txt",
+      "sha256": "5cccc5ede5738377fc271a1b9301c19034f72ba1528633b02dd4b150380937ff",
+      "bytes": 43404
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/7a9dae8f6f6daba48d44/transcript.srt",
+      "sha256": "74ed12317e790fcd38bdee2fa1648973569301e7470445ddd685dca75839617c",
+      "bytes": 70455
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/8010e1ec2242d9a758e9/segments.jsonl",
+      "sha256": "6ed243da94bde66bfa81e2f08e4f3fe19423352372b98578d272ac30215761e7",
+      "bytes": 300357
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/8010e1ec2242d9a758e9/transcript.txt",
+      "sha256": "9f583429f5eba0e419e8e015570937631c68881384396c220e3b0955fc084fcc",
+      "bytes": 91004
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/8010e1ec2242d9a758e9/transcript.srt",
+      "sha256": "8fe9f23afb82f0b94f4ea002e11f2549b3f6e75e8b756c4b4aba96f06ea609cd",
+      "bytes": 146956
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/95bdecb70384bdf16fa8/segments.jsonl",
+      "sha256": "f81d2a8d30ce0eacd8cbba6b82698259e20cba51c76b07a06093e1dd763c893d",
+      "bytes": 213617
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/95bdecb70384bdf16fa8/transcript.txt",
+      "sha256": "7827656cbd1ec203e96ab6178161df3a1ddf25b3b8b2ed7011cc2a5457f1000a",
+      "bytes": 61399
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/95bdecb70384bdf16fa8/transcript.srt",
+      "sha256": "9569db3a7512e01489e851ee07870c012ad6f9673e2a5c5451b0cdb575d32bb7",
+      "bytes": 101871
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/9cb96cce288bf552fca5/segments.jsonl",
+      "sha256": "556fa896f109c21786815eb538901a363d21148f93eb509c8c0230f1df2190ef",
+      "bytes": 216818
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/9cb96cce288bf552fca5/transcript.txt",
+      "sha256": "cb802495429a1f687a7f31add40a51bcc5c29dfde943c7fbfcf416b132f9fb58",
+      "bytes": 70530
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/9cb96cce288bf552fca5/transcript.srt",
+      "sha256": "51708ad76325b73b63ed7020cee64e1126f9683ada1ba3a4d397329a876c03f4",
+      "bytes": 109346
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/b8de61ae962b10ac1e90/segments.jsonl",
+      "sha256": "4da6bf9dc61a8bc5d622c21930a63e3b62991e625f5d432307d1aebde31cf661",
+      "bytes": 133096
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/b8de61ae962b10ac1e90/transcript.txt",
+      "sha256": "598784da5940b67b4cf1fe4bfba0e171fd34952f381e398a98bfebf7c925dce1",
+      "bytes": 40965
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/b8de61ae962b10ac1e90/transcript.srt",
+      "sha256": "70fd1d215373b48a1f12c72d1574295e5eadc4db84a0f5ce1e3d3a32323e524c",
+      "bytes": 65391
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/bdb957be64aaf123e461/segments.jsonl",
+      "sha256": "247e640fd2ec4f30f42dc6725266560b049d6977bb78ec73189db518ebd2cf91",
+      "bytes": 318503
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/bdb957be64aaf123e461/transcript.txt",
+      "sha256": "56813453fefaea1efa7656990d60e800b3427ad57f8729aeae8a56de54879c12",
+      "bytes": 92420
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/bdb957be64aaf123e461/transcript.srt",
+      "sha256": "ad897a2a536bed6f36c0c2d52df4c4934c7ea88b4ff53139a61b813933a5bddb",
+      "bytes": 152944
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/c37ddc75240366c4df1a/segments.jsonl",
+      "sha256": "ab1df8eb56112e8259f3deaf1cccdc12142d5b43725b0dcb1acf1f411e91178f",
+      "bytes": 183893
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/c37ddc75240366c4df1a/transcript.txt",
+      "sha256": "af9d4084f08f40215c836395678b2636bed1b4905f647f144c866294af8c0849",
+      "bytes": 60607
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/c37ddc75240366c4df1a/transcript.srt",
+      "sha256": "6d886c33bf5ed2beffb6cae468e4953bcebb62600dd0b1d3050e736720e06982",
+      "bytes": 93223
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/cede2923d24725dd8f17/segments.jsonl",
+      "sha256": "f7aeffc4b2469f0666b0a568a67a0b56241f8cc793507c28c83f7cb28a7f9ce1",
+      "bytes": 186160
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/cede2923d24725dd8f17/transcript.txt",
+      "sha256": "0910a1f72633bb9c9af6abd52a54b156752154c7f23c46782aa26111a86533be",
+      "bytes": 57630
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/cede2923d24725dd8f17/transcript.srt",
+      "sha256": "e8baa705486e79aa73744e75981e3432e612d164a9b84f7069bedf3f65a65fe5",
+      "bytes": 91681
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/e5d364fe1559f7153da4/segments.jsonl",
+      "sha256": "7c5f42bb7aa40d872b06dddee2d798eed72db7e476d4dc8a0ff1047f49fac322",
+      "bytes": 203766
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/e5d364fe1559f7153da4/transcript.txt",
+      "sha256": "c41118f8a5823c658de1ffbe78e9ce9347fe73fb1bb4d4784d37235331575d08",
+      "bytes": 61926
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/e5d364fe1559f7153da4/transcript.srt",
+      "sha256": "ae5baa592be39f51dd3fe3dd4d1121f2ffe8b3e430d3b6b665a593c244842f58",
+      "bytes": 99446
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/f0a4b75d81fc2cead2a9/segments.jsonl",
+      "sha256": "2685fe336a52ffcc1410a8db93860f051284fce4f51bf67e9e3f12c80ae44be8",
+      "bytes": 429599
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/f0a4b75d81fc2cead2a9/transcript.txt",
+      "sha256": "ccdd6aa33b9d23f97e229a41dee2bc6a35459e66ce3e27482bfc2bedc59dea47",
+      "bytes": 105644
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/f0a4b75d81fc2cead2a9/transcript.srt",
+      "sha256": "8be91b39510b79c826009f12f549333572f0b82818bf632049bd4ffdc83bacc8",
+      "bytes": 192520
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/f3b7cc1ba691e1ee5532/segments.jsonl",
+      "sha256": "7ad7e0c626553869622b90454d8202806fb6fec7b9f9a62cbb762ad36fa27226",
+      "bytes": 188457
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/f3b7cc1ba691e1ee5532/transcript.txt",
+      "sha256": "0aa3d95d722c10dfd03ff0449b6a51e2540615c22b2d02b4bf560733f0168ac6",
+      "bytes": 57825
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/f3b7cc1ba691e1ee5532/transcript.srt",
+      "sha256": "d17f3e4139d1e935f8f50b3ca8c1e2edb6245836498e9d90020a7e8bf2539761",
+      "bytes": 92471
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/310c6d538a438cee6ba4/segments.jsonl",
+      "sha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+      "bytes": 51915
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/310c6d538a438cee6ba4/transcript.txt",
+      "sha256": "5eeb4c90838c9c55b38725264f71577052fd2ad9755f89409364effa1e06c805",
+      "bytes": 18166
+    },
+    {
+      "path": "/workspace/channels-et-raw/transcripts/310c6d538a438cee6ba4/transcript.srt",
+      "sha256": "63ebaf7dfd2444214fadba1e8c918481a2cca46c42fa0f92a31ff8077b8e8843",
+      "bytes": 27122
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-00-6d905431e942.txt",
+      "sha256": "d2080abfb40262e61793f406052147856239827177cced572e1f6d58cab6256c",
+      "bytes": 4639
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-01-09486489dc4e.txt",
+      "sha256": "e180fd9da8391c7c691c0e194bf8f07d9c0fd1566d615cbb0dd190b6d94d6de6",
+      "bytes": 4348
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-02-d79c82e2b460.txt",
+      "sha256": "dc4717335705cd1c5bb049a0e2bd76d2f3373053f3099c866ec74b5eeabd3a92",
+      "bytes": 2844
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-03-31e5807bfb7d.txt",
+      "sha256": "1a7308ed9c3bba711224f82f19b3413e08692536b929182caae1b788503a41d5",
+      "bytes": 4196
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-04-3bf6a6a27c67.txt",
+      "sha256": "8a8e8f25b95186edf68d35a844295db1fb3c9cdad13b34a476ffeba69b83a3fc",
+      "bytes": 3694
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-05-3d64eaf560ab.txt",
+      "sha256": "18a8e384519c78f7775c5e1c354be05af4c344cef406a4bfc4e1b96b40a6279a",
+      "bytes": 3639
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-06-cbe2fafc4c6e.txt",
+      "sha256": "6bd6c6fe0ef94410749136ec17f3d71aaa2fa317c74a8b9049dc5780a1fbb85d",
+      "bytes": 3826
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-07-34647f360bc5.txt",
+      "sha256": "7ee067304a54316c149c6a62408b022126a3d338636d25f77d29572dac9133a9",
+      "bytes": 4538
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-08-5d2085fdbbc9.txt",
+      "sha256": "e5e78dd109f7745e8d7749796b893cc1a69f2a5776bc5910d5b29bd975318134",
+      "bytes": 4087
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-09-dc91eca0526f.txt",
+      "sha256": "292ec729c36a7c954398b46b01ec2ada854f2cb263a5232b73dc4b1d713b21f3",
+      "bytes": 3620
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-10-a98c0a45d394.txt",
+      "sha256": "43f992d12bd6254a9cf2df8d8f81d8216778891fe724d4b8935951d0a9e88a1c",
+      "bytes": 4320
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-11-069735dca2c7.txt",
+      "sha256": "2a130dea4ee8f2faf9c1543ff6cca6d55a186520d4e18d22a2b5d567e5ef80e2",
+      "bytes": 3959
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-12-e15a4821702a.txt",
+      "sha256": "3b548634d06c7f4a859da5dfea8e0dbe1738bf6e0216b20eb395e22cf0e5f3c1",
+      "bytes": 4098
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-13-97c65efd6db3.txt",
+      "sha256": "b5b033f8f009b0ec5f0bdad142d34f794944aabc6b0dc3cbbb1e4963b4749aa1",
+      "bytes": 4098
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/daniel-item-14-64785217c9eb.txt",
+      "sha256": "5c278b3a38018c34a28c1d8523eabe71d5ac663884844ec1403bf1de8c0ec957",
+      "bytes": 4169
+    },
+    {
+      "path": "/workspace/channels-et-raw/primary-publications/paul-birmingham-pdf.txt",
+      "sha256": "1793544f91f91033f4cddcedca0c9068771465f453a037aa6a477271486bb696",
+      "bytes": 13720
+    }
+  ],
+  "preparedAt": "2026-10-24T01:26:33.158163+00:00"
+}

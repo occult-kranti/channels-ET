@@ -1,0 +1,933 @@
+{
+  "checked_at_utc": "2026-10-24T02:03:52.725724+00:00",
+  "status": "passed",
+  "local_files_verified": 396,
+  "prefix_http": {
+    "base_url": "http://127.0.0.1:38661/channels-ET/",
+    "source_commit": "0a20688c500ec6b0761f28340590c6beee58941e",
+    "static_inputs_dirty": true,
+    "routes": [
+      {
+        "route": "",
+        "status": 200,
+        "bytes": 852,
+        "sha256": "8af52b207606622e3d805158173e86c24f364cbf0cfd4f48dfcd865c43a75ad6"
+      },
+      {
+        "route": "dist/",
+        "status": 200,
+        "bytes": 2276,
+        "sha256": "0df8872473ab6b00da0ab92f3e9dc4badc0eb16d568a31a47af4b4e7a56d49e9"
+      },
+      {
+        "route": "dist/expansion/",
+        "status": 200,
+        "bytes": 2072,
+        "sha256": "745eb05cd91bf2fe198cafd9f0e1f355cc5a1ec34c0e5f6fe24b80eb5fcc97a6"
+      },
+      {
+        "route": "dist/research/",
+        "status": 200,
+        "bytes": 1945,
+        "sha256": "9a8a8679645ab680ab6e4ddf60319430d5b9fa5daf93a60218c59bcb96c1c6b3"
+      },
+      {
+        "route": "dist/research/app.js",
+        "status": 200,
+        "bytes": 50695,
+        "sha256": "8e5da01e9d45e1b7a3ef533a493a8f58c4707015585b1183bb1c0924fcb65267"
+      },
+      {
+        "route": "dist/research/data.json",
+        "status": 200,
+        "bytes": 3200189,
+        "sha256": "54e6613f86b8fb82fef8cec0136df33ac8a2c4850f7a5b7b2740ed644af7c7a5"
+      },
+      {
+        "route": "dist/research/paper.pdf",
+        "status": 200,
+        "bytes": 397048,
+        "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+      },
+      {
+        "route": "dist/research/source.zip",
+        "status": 200,
+        "bytes": 296455,
+        "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+      },
+      {
+        "route": "dist/research/qwen-digest-lora-pilot.zip",
+        "status": 200,
+        "bytes": 1018863,
+        "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+      },
+      {
+        "route": "dist/research/qa-candidates.sqlite",
+        "status": 200,
+        "bytes": 925696,
+        "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+      },
+      {
+        "route": "dist/research/harvest.js",
+        "status": 200,
+        "bytes": 38082,
+        "sha256": "cd515392e0b8dbbb230bf1d276c620f5a3e3bf835e15317d6711642c75049ab1"
+      },
+      {
+        "route": "dist/research/harvest-acquisition-report.md",
+        "status": 200,
+        "bytes": 9872,
+        "sha256": "4eb8014f633cdd85aad7fd36a094dd610f408e7e40f5f15ee6318d331a5e3400"
+      },
+      {
+        "route": "dist/research/harvest-artifacts.json",
+        "status": 200,
+        "bytes": 43,
+        "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+      },
+      {
+        "route": "dist/research/harvest-asr-summary.json",
+        "status": 200,
+        "bytes": 80379,
+        "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba"
+      },
+      {
+        "route": "dist/research/harvest-attempts.json",
+        "status": 200,
+        "bytes": 43,
+        "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+      },
+      {
+        "route": "dist/research/harvest-channel-routes.json",
+        "status": 200,
+        "bytes": 775403,
+        "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee"
+      },
+      {
+        "route": "dist/research/harvest-inventory-summary.json",
+        "status": 200,
+        "bytes": 5312,
+        "sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916"
+      },
+      {
+        "route": "dist/research/harvest-inventory.sqlite",
+        "status": 200,
+        "bytes": 7462912,
+        "sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2"
+      },
+      {
+        "route": "dist/research/harvest-jobs.json",
+        "status": 200,
+        "bytes": 8282097,
+        "sha256": "f5c11198878978b1e1819d0fa76871cce1ccd5da721ade7e688154962ba9d47e"
+      },
+      {
+        "route": "dist/research/harvest-publisher-audio.json",
+        "status": 200,
+        "bytes": 106794,
+        "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+      },
+      {
+        "route": "dist/research/harvest-query-inventory.jsonl",
+        "status": 200,
+        "bytes": 240925,
+        "sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71"
+      },
+      {
+        "route": "dist/research/harvest-root-access-probe.json",
+        "status": 200,
+        "bytes": 771,
+        "sha256": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff"
+      },
+      {
+        "route": "dist/research/harvest-source-edges.jsonl",
+        "status": 200,
+        "bytes": 1342069,
+        "sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383"
+      },
+      {
+        "route": "dist/research/harvest-summary.json",
+        "status": 200,
+        "bytes": 2128,
+        "sha256": "ed47dafb60e785f2e7bf89e8990bd806600cb36f575c7ab547797f7f06a61016"
+      },
+      {
+        "route": "dist/research/harvest-video-inventory.jsonl",
+        "status": 200,
+        "bytes": 2599443,
+        "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d"
+      },
+      {
+        "route": "dist/research/access-repair-athina-asr-execution.json",
+        "status": 200,
+        "bytes": 1242,
+        "sha256": "a44512198d700ff515b41a452c1dba71403e247da42a5740a37054cf36197b63"
+      },
+      {
+        "route": "dist/research/access-repair-athina-asr.json",
+        "status": 200,
+        "bytes": 3576,
+        "sha256": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7"
+      },
+      {
+        "route": "dist/research/access-repair-athina-audio.json",
+        "status": 200,
+        "bytes": 6348,
+        "sha256": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370"
+      },
+      {
+        "route": "dist/research/access-repair-browser-verification.json",
+        "status": 200,
+        "bytes": 2721,
+        "sha256": "ee0086bf1cc2ce616114cf352f126950caff97b4ca9ae38b99b3c66ec4c448b1"
+      },
+      {
+        "route": "dist/research/access-repair-primary-sources.json",
+        "status": 200,
+        "bytes": 23167,
+        "sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca"
+      },
+      {
+        "route": "dist/research/access-repair-proxy-response.json",
+        "status": 200,
+        "bytes": 808,
+        "sha256": "81922e2c4c05ca3d3f7c037cb8ca7b2e2b97ca911f00b5f83ce9a91848fa0a5f"
+      },
+      {
+        "route": "dist/research/access-repair-watch-probe.json",
+        "status": 200,
+        "bytes": 696,
+        "sha256": "d024596a34bc6cd83d920c74149e90cf44d62079f56d285c2a794047d630ea7d"
+      },
+      {
+        "route": "dist/research/youtube-access-bashar-routes.csv",
+        "status": 200,
+        "bytes": 13525,
+        "sha256": "e503b918228ec50eef3348ee9a1b08b2817b0203dd502b90af8a63b1f55380a1"
+      },
+      {
+        "route": "dist/research/youtube-access-bashar-routes.json",
+        "status": 200,
+        "bytes": 229665,
+        "sha256": "54a36521f0d5608636c87ca59b5382a8e0ae82899836e87a31d9e2eeaff9734c"
+      },
+      {
+        "route": "dist/research/youtube-access-brave-control.json",
+        "status": 200,
+        "bytes": 2758,
+        "sha256": "97da6142ab1d7146dbe101b2d3530c506b6424f734e814b4d57de6400d2f240d"
+      },
+      {
+        "route": "dist/research/youtube-access-brave-runtime.json",
+        "status": 200,
+        "bytes": 1600,
+        "sha256": "e7c6c8cc9b6313b0f792c5c67e4f69d07f2620cb86bbbc33c4f0cfb4510c8723"
+      },
+      {
+        "route": "dist/research/youtube-access-brave-trust.json",
+        "status": 200,
+        "bytes": 733,
+        "sha256": "f6d848e1914d97e0318e6ab020c0e30f26e3ed769ce413181b8b1ffe87a6bbfd"
+      },
+      {
+        "route": "dist/research/youtube-access-brave-watch.json",
+        "status": 200,
+        "bytes": 2734,
+        "sha256": "759a53066ac2fa52a627d6bd9cf243edfb0111a10f0317da986842995157532d"
+      },
+      {
+        "route": "dist/research/youtube-access-drive-plan.json",
+        "status": 200,
+        "bytes": 112830,
+        "sha256": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3"
+      },
+      {
+        "route": "dist/research/youtube-access-drive-state.json",
+        "status": 200,
+        "bytes": 2507,
+        "sha256": "5a774d7bc68ff384e397f42fd2e6f28ab6272ba5369d278b2ba3267f87b6afe5"
+      },
+      {
+        "route": "dist/research/youtube-access-drive-verification.json",
+        "status": 200,
+        "bytes": 6106,
+        "sha256": "1e7a0f27f28ca869dc8f1a0d4a677adc7a9245ea071a06d6370e05b7ea27ee67"
+      },
+      {
+        "route": "dist/research/youtube-access-drive-workflow.md",
+        "status": 200,
+        "bytes": 11220,
+        "sha256": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd"
+      },
+      {
+        "route": "dist/research/youtube-access-policy-definition.json",
+        "status": 200,
+        "bytes": 2057,
+        "sha256": "1ec0f1aa1b206dbc2d34ca2c002b1ba7a2ce6ab8fb0da8e23c06738af74ae3aa"
+      },
+      {
+        "route": "dist/research/youtube-access-policy-summary.json",
+        "status": 200,
+        "bytes": 2817,
+        "sha256": "72e195c29f5032af4addfa03ad98bb7640536fdd4c549c885a8fbae9ba84882c"
+      },
+      {
+        "route": "dist/research/youtube-access-report.md",
+        "status": 200,
+        "bytes": 9939,
+        "sha256": "2a70d783f6b64e897518ed3cf779906dc4c1a14cbc90edfee2ea6a21072ebb03"
+      },
+      {
+        "route": "dist/research/youtube-access-runner-blocked.json",
+        "status": 200,
+        "bytes": 300,
+        "sha256": "93a561199aa3c57d169126bfbd85037e70e9def2a7b17067eac99fbdc35a5424"
+      },
+      {
+        "route": "dist/research/youtube-access-runner-dry-run.json",
+        "status": 200,
+        "bytes": 901,
+        "sha256": "b999ff7709160a9610aa05cb06a2cdbc5c48f3d0d0504b61c608336c0e3d5b81"
+      },
+      {
+        "route": "dist/research/youtube-access-runner-plan.jsonl",
+        "status": 200,
+        "bytes": 771432,
+        "sha256": "53578b48d0f4cbd336992839183e2f26b032f0e0b15994bb2a52ed528f8df144"
+      },
+      {
+        "route": "dist/research/youtube-access-runner-review.json",
+        "status": 200,
+        "bytes": 6202,
+        "sha256": "1229a5265920b194e9d91c5f75547c1428a54174e3cfeed8e32e5825311c045c"
+      },
+      {
+        "route": "dist/research/youtube-access-runner-summary.json",
+        "status": 200,
+        "bytes": 565,
+        "sha256": "3870213b7ba55f17cb09b2cbf94f4dc490b1cdca4da015e0e2c64c3f09d25269"
+      },
+      {
+        "route": "dist/research/youtube-access-runner-verification.json",
+        "status": 200,
+        "bytes": 2632,
+        "sha256": "98b71c2fba17dde2ed50a05b37b18d18ac1224037c59a1dcea7dd66e7f55bc69"
+      },
+      {
+        "route": "dist/research/youtube-access-runner-workflow.md",
+        "status": 200,
+        "bytes": 10501,
+        "sha256": "d6c20454286180d4eaecb0bb15cf10e083708048fe74dae56cae7d940ff47538"
+      },
+      {
+        "route": "dist/research/youtube-access-selected-conservative.jsonl",
+        "status": 200,
+        "bytes": 2335298,
+        "sha256": "b682a9fab6eb917d0eeb7e095571894bf59e8e00b86dce7c7ebc1bb7cbd44aca"
+      },
+      {
+        "route": "dist/research/youtube-access-selected-default.jsonl",
+        "status": 200,
+        "bytes": 2508837,
+        "sha256": "aa59bd4cf15779e080f0a24e52120aa3aa77b9d46c4ab6985c1ae5f5a7d7da8a"
+      },
+      {
+        "route": "dist/research/youtube-access-selection.csv",
+        "status": 200,
+        "bytes": 376002,
+        "sha256": "44552d6fbf8c915688b22d0eb1bce4cf7786ab38460f2601984e9644749f9abf"
+      },
+      {
+        "route": "dist/research/youtube-access-selection.jsonl",
+        "status": 200,
+        "bytes": 3474515,
+        "sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9"
+      },
+      {
+        "route": "dist/research/youtube-access.css",
+        "status": 200,
+        "bytes": 1595,
+        "sha256": "9d4787dba8c1e88f8a0502cef0ebe2426090e6cf40e459b5d8b8f4517b8e6307"
+      },
+      {
+        "route": "dist/research/youtube-access.js",
+        "status": 200,
+        "bytes": 14497,
+        "sha256": "d1ca1b38157b56afdf139300b463366eb3b038cc362e569e43f2fcaeb1ca8871"
+      },
+      {
+        "route": "dist/transcripts/",
+        "status": 200,
+        "bytes": 1940,
+        "sha256": "a5877df13e911c443ae70bed59b6f7db7b520081a3d6587ea88bb66f439bf416"
+      },
+      {
+        "route": "dist/transcripts/analysis-README.md",
+        "status": 200,
+        "bytes": 10785,
+        "sha256": "c0fe67860c1df7dd7513e78925a52aad7e5f770f56385f4de1df2736cf92fcf0"
+      },
+      {
+        "route": "dist/transcripts/analysis-protocol.json",
+        "status": 200,
+        "bytes": 5938,
+        "sha256": "6beb40a604b599d96783a21cbed37bc803db526898737a0b18eb284605f55707"
+      },
+      {
+        "route": "dist/transcripts/analysis-verification.json",
+        "status": 200,
+        "bytes": 7555,
+        "sha256": "7dd189c096ae8373eebbb4abe90a77eedb06bd6ea69d569d4ace99bc73b885dd"
+      },
+      {
+        "route": "dist/transcripts/analysis.json",
+        "status": 200,
+        "bytes": 631758,
+        "sha256": "14ccb929d1613b72fbb437ba995e5c7b5a8b17cd6cbffe1f2a126f5d7b81ea14"
+      },
+      {
+        "route": "dist/transcripts/app.js",
+        "status": 200,
+        "bytes": 43214,
+        "sha256": "fb97bc5443f190ad1cfe9a4762ac63e3c61813a1f8cd6e00de91a797e89f15c5"
+      },
+      {
+        "route": "dist/transcripts/archive-receipt.json",
+        "status": 200,
+        "bytes": 116589,
+        "sha256": "58ce8d8cfcba0034ffa8a91d1aa3200f50a036fe535e9623aa4d48fcb1c7701f"
+      },
+      {
+        "route": "dist/transcripts/archive-state.json",
+        "status": 200,
+        "bytes": 1786,
+        "sha256": "4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4"
+      },
+      {
+        "route": "dist/transcripts/charts.js",
+        "status": 200,
+        "bytes": 8236,
+        "sha256": "747e6f239e7397d7c8935566371d43c301b9c718aa6c11729d75c2ca63248c61"
+      },
+      {
+        "route": "dist/transcripts/data.json",
+        "status": 200,
+        "bytes": 1279654,
+        "sha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139"
+      },
+      {
+        "route": "dist/transcripts/distributions/attribution-coverage.csv",
+        "status": 200,
+        "bytes": 24652,
+        "sha256": "2c122ad47f9295d4ebbdb6e3e0a6c6a59482bf4af3af1beebd99168c0413b0ce"
+      },
+      {
+        "route": "dist/transcripts/distributions/byEntityLabel.csv",
+        "status": 200,
+        "bytes": 28713,
+        "sha256": "299abbfeb1740401a2ec66b1175fdb26b7db037ee1003e2d18e2352c6c944c02"
+      },
+      {
+        "route": "dist/transcripts/distributions/byPractitionerAssociation.csv",
+        "status": 200,
+        "bytes": 18997,
+        "sha256": "9765f574c4a0f531a8f29901294cceb648f1bf655e90e7c79740160bd12931df"
+      },
+      {
+        "route": "dist/transcripts/distributions/byPublisherDeclaredCivilization.csv",
+        "status": 200,
+        "bytes": 32125,
+        "sha256": "317d5abf0e430a14ad35082ef4042b2c7bf9cc4150db7683df7f410447ffc602"
+      },
+      {
+        "route": "dist/transcripts/distributions/byPublisherGroup.csv",
+        "status": 200,
+        "bytes": 46883,
+        "sha256": "5858b2fab678bfa2383f5dfa5661e8355190188d7ea26e91ffe24413a203c512"
+      },
+      {
+        "route": "dist/transcripts/distributions/byRoute.csv",
+        "status": 200,
+        "bytes": 94275,
+        "sha256": "9219f94e4719c48f8953588c9a5eed851c28ac2b57d8523a7e52788ab4247a8a"
+      },
+      {
+        "route": "dist/transcripts/distributions/storage-byPractitionerContext.csv",
+        "status": 200,
+        "bytes": 1733,
+        "sha256": "aa69b32a01627efcad620d6929a068fb8a4edfa0342b71ee6d50513623ded186"
+      },
+      {
+        "route": "dist/transcripts/distributions/storage-byProvider.csv",
+        "status": 200,
+        "bytes": 1499,
+        "sha256": "46285cf931e2049d3c4bee4bcbe13860c24b27766a2f156947c1581bf5780bb7"
+      },
+      {
+        "route": "dist/transcripts/distributions/storage-byPublisher.csv",
+        "status": 200,
+        "bytes": 3515,
+        "sha256": "c2c1d870933bca73cc4a62b51e201a125ef63a2eb682a297d76af6a68311a714"
+      },
+      {
+        "route": "dist/transcripts/distributions/storage-bySourceContext.csv",
+        "status": 200,
+        "bytes": 2091,
+        "sha256": "a2f01e6a84bd0ee941c5992a6a10ef67d41bea1d79500d9279fd81c21fbeffca"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-cosine.pdf",
+        "status": 200,
+        "bytes": 30243,
+        "sha256": "741f4358bcd47a8d3e1df3a1acf20d2c693c30061bd9e3da1f0fafa3cdeb75aa"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-cosine.png",
+        "status": 200,
+        "bytes": 76953,
+        "sha256": "bf77729b8d533cbe5b97ad1a90902169716fed231f9c3cc2410211a73779543e"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-cosine.svg",
+        "status": 200,
+        "bytes": 70268,
+        "sha256": "898577e389c448398d3311c475698a6e169242a7a5c6a2dd9a6fa687a9e72bd4"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-time-profiles.pdf",
+        "status": 200,
+        "bytes": 23171,
+        "sha256": "cffb278f5c1e8e0d584cc5473e99dac9f14ca59f1b09db730e6b100eb3cdaa6b"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-time-profiles.png",
+        "status": 200,
+        "bytes": 122125,
+        "sha256": "fccad914862d6d8345f6ca5c2ad3f2168772abef84bcc4f1b4c2fe4f26e070ad"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-time-profiles.svg",
+        "status": 200,
+        "bytes": 75888,
+        "sha256": "d0d6313ce0a5c6c0802aecce750dc9b7af5203e9769a223ce90e4776a2b39710"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-topics.pdf",
+        "status": 200,
+        "bytes": 21611,
+        "sha256": "ff295a2ddaf021ed9563d4b62a15bae95a702b9b0b4f3048111eefc7ad98dd10"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-topics.png",
+        "status": 200,
+        "bytes": 77382,
+        "sha256": "8a927018e0a2a244b8211c1b3f8d54fbc38e164775243bca5ba659bc25b2b731"
+      },
+      {
+        "route": "dist/transcripts/figures/audio-topics.svg",
+        "status": 200,
+        "bytes": 65731,
+        "sha256": "d102fddf4a23fdec1bca4f6abe82c1a4411b66c05429b94dee1c8751bc65a5e2"
+      },
+      {
+        "route": "dist/transcripts/figures/civilization-mentions.pdf",
+        "status": 200,
+        "bytes": 20444,
+        "sha256": "6233668719efa7d34fe6f10ca6296d8314a91cdf8cde786a467f9fec81be433e"
+      },
+      {
+        "route": "dist/transcripts/figures/civilization-mentions.png",
+        "status": 200,
+        "bytes": 83804,
+        "sha256": "a2c9117a27240240eeff558a842ddb3a8053f059601198cf4d9676d97f5eb016"
+      },
+      {
+        "route": "dist/transcripts/figures/civilization-mentions.svg",
+        "status": 200,
+        "bytes": 44512,
+        "sha256": "40ad26c160261c2b8979ce49df352c43cbfd9e75b84561cedd27dc94c1e1d914"
+      },
+      {
+        "route": "dist/transcripts/figures/document-network.pdf",
+        "status": 200,
+        "bytes": 18931,
+        "sha256": "a45b4bd2496a31b4db421ed2619d5cb0858938bb77b8f8b141eb65b0195cf5c5"
+      },
+      {
+        "route": "dist/transcripts/figures/document-network.png",
+        "status": 200,
+        "bytes": 297164,
+        "sha256": "6411590ec0ae4a803544bd5d90bcb835252d8505fdcff80000fcd00633320db8"
+      },
+      {
+        "route": "dist/transcripts/figures/document-network.svg",
+        "status": 200,
+        "bytes": 46429,
+        "sha256": "c43afcd86a0c7ed761cbf0d8b5cb7baf670590f557902dfcf27fa76d1a3af627"
+      },
+      {
+        "route": "dist/transcripts/figures/model-diagnostics.pdf",
+        "status": 200,
+        "bytes": 12506,
+        "sha256": "640b34034ce39ca18591ac0c52217f4f45eb4cff141e862396c5d2957a9ba3a1"
+      },
+      {
+        "route": "dist/transcripts/figures/model-diagnostics.png",
+        "status": 200,
+        "bytes": 104309,
+        "sha256": "2b7fe0b64e54d3d4c29e007a122d71249a6225f299c2836e0443a3e6a487fd9c"
+      },
+      {
+        "route": "dist/transcripts/figures/model-diagnostics.svg",
+        "status": 200,
+        "bytes": 49075,
+        "sha256": "bd507752207fb10907893d194d864cf491a4510294e8c5505f3556b0f3fc2a04"
+      },
+      {
+        "route": "dist/transcripts/figures/source-coverage.pdf",
+        "status": 200,
+        "bytes": 21245,
+        "sha256": "d5a90dbfab138bf4641db7f8c3b24411350c79f0c438f38737d2f8a8dce0bad8"
+      },
+      {
+        "route": "dist/transcripts/figures/source-coverage.png",
+        "status": 200,
+        "bytes": 92611,
+        "sha256": "e11a1975c46c97552a59113a2c8e9a10cb1f63121bd33f39654bf7bc911715b7"
+      },
+      {
+        "route": "dist/transcripts/figures/source-coverage.svg",
+        "status": 200,
+        "bytes": 61551,
+        "sha256": "4ffb8da2783e25e0ff8b13dd66c69932e929e23e5f2da2d115dda448cefbf9bd"
+      },
+      {
+        "route": "dist/transcripts/figures/source-overlay.pdf",
+        "status": 200,
+        "bytes": 28507,
+        "sha256": "6ad6bff844a98ec5d0807a8d4d8942536b948fc220e4047a2c9948a5587b58ff"
+      },
+      {
+        "route": "dist/transcripts/figures/source-overlay.png",
+        "status": 200,
+        "bytes": 148216,
+        "sha256": "286624ce6b71aebb520a989fa69b9eebedfb238979253821936117af3b5c325f"
+      },
+      {
+        "route": "dist/transcripts/figures/source-overlay.svg",
+        "status": 200,
+        "bytes": 92425,
+        "sha256": "88c2f32e926a1fa790d0c0895acf39189f6ffb1ec0befc13ef4ed78289123288"
+      },
+      {
+        "route": "dist/transcripts/figures/theme-overlay.pdf",
+        "status": 200,
+        "bytes": 45378,
+        "sha256": "4ab18c2ccd63c5fb81b46b55dfe2bb63df0785b5062749f3b4b87ca5552e20dd"
+      },
+      {
+        "route": "dist/transcripts/figures/theme-overlay.png",
+        "status": 200,
+        "bytes": 232345,
+        "sha256": "b3ebd5f16b7f44240900f192a9152b63ebf64af9913592d41b4d6af5228d8c92"
+      },
+      {
+        "route": "dist/transcripts/figures/theme-overlay.svg",
+        "status": 200,
+        "bytes": 129361,
+        "sha256": "998280d66e60841af619438b77aab7786565998738920211b882b0e3a6f2e356"
+      },
+      {
+        "route": "dist/transcripts/index.html",
+        "status": 200,
+        "bytes": 1940,
+        "sha256": "a5877df13e911c443ae70bed59b6f7db7b520081a3d6587ea88bb66f439bf416"
+      },
+      {
+        "route": "dist/transcripts/lib.js",
+        "status": 200,
+        "bytes": 7879,
+        "sha256": "9c98e5c037156d66176f87f2f437fbafc00672d786c742b2edfd9506c970c867"
+      },
+      {
+        "route": "dist/transcripts/paper.pdf",
+        "status": 200,
+        "bytes": 325223,
+        "sha256": "57102be0b866a80f7b49b9de89e6d0823d962fe8cd3f71fb229ede8d68bb700f"
+      },
+      {
+        "route": "dist/transcripts/reading-README.md",
+        "status": 200,
+        "bytes": 10018,
+        "sha256": "b363beb0a06f3302935438df071558efc111563b71100bcb628e793ac0c977bb"
+      },
+      {
+        "route": "dist/transcripts/reading-codebook.json",
+        "status": 200,
+        "bytes": 3624,
+        "sha256": "b97e1c792fe2ac2d841b100b9901bf98eb3b8981b8198a421cbaa751a382b2cd"
+      },
+      {
+        "route": "dist/transcripts/reading-documents.json",
+        "status": 200,
+        "bytes": 42018,
+        "sha256": "f9161c6455b89355c6c16f91dabd5fa3990ea0900c18c580cbcd9c9b361d30f7"
+      },
+      {
+        "route": "dist/transcripts/reading-interpretive-findings.json",
+        "status": 200,
+        "bytes": 5486,
+        "sha256": "3917d9bb5b69186667c07ffa6331db2375b82e64e3698ef5af5c261ea6c62e9a"
+      },
+      {
+        "route": "dist/transcripts/reading-posthoc-entity-spelling-review.json",
+        "status": 200,
+        "bytes": 10775,
+        "sha256": "07818e5f60d9ea4396c884322670928ac687c00d4ba0ae123fb8e0ed1c6bd071"
+      },
+      {
+        "route": "dist/transcripts/reading-qa-candidates.json",
+        "status": 200,
+        "bytes": 73424,
+        "sha256": "1401391a2b0ff69ca1e4c2f4705431686770469dbb6db5f3a9e04ff2c3ba93c6"
+      },
+      {
+        "route": "dist/transcripts/reading-qa-candidates.sqlite",
+        "status": 200,
+        "bytes": 331776,
+        "sha256": "119ebd2357a086bf54455194874412944075c7ced0eac30abe89cb1e2132c274"
+      },
+      {
+        "route": "dist/transcripts/reading-qualitative-codes.json",
+        "status": 200,
+        "bytes": 58965,
+        "sha256": "546867131e1910f1d3f016cb90896c418c46ae815274ecc5be71fcf243836738"
+      },
+      {
+        "route": "dist/transcripts/reading-reading-windows.json",
+        "status": 200,
+        "bytes": 82541,
+        "sha256": "4aabe23633446de290290d225de2552b59ef07978013bac7d19373eb92fdf83a"
+      },
+      {
+        "route": "dist/transcripts/reading-summary.json",
+        "status": 200,
+        "bytes": 4172,
+        "sha256": "a1d4ddd156bb77b3fdaa1d13cf2cd185cfa51b49d5b7f2876927fc6a6656abff"
+      },
+      {
+        "route": "dist/transcripts/reading-verification.json",
+        "status": 200,
+        "bytes": 3953,
+        "sha256": "6a7c0e407300311ab237def885afcac498f45f3f3ebcb17b37004dcf76758cd7"
+      },
+      {
+        "route": "dist/transcripts/source-receipts/athina-asr.json",
+        "status": 200,
+        "bytes": 3576,
+        "sha256": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7"
+      },
+      {
+        "route": "dist/transcripts/source-receipts/original19-asr.json",
+        "status": 200,
+        "bytes": 80379,
+        "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba"
+      },
+      {
+        "route": "dist/transcripts/source-receipts/primary-source-metadata.json",
+        "status": 200,
+        "bytes": 23167,
+        "sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca"
+      },
+      {
+        "route": "dist/transcripts/source.zip",
+        "status": 200,
+        "bytes": 199413,
+        "sha256": "604ab5db35595e2cd5cb5cdc8540671ac1e702b0333e7fb79c2cb354648b3bd2"
+      },
+      {
+        "route": "dist/transcripts/sources.json",
+        "status": 200,
+        "bytes": 38391,
+        "sha256": "41857e4235b4eef861c68cfde234d3fd47b5cb56b264f996b068e8ea1ce798e1"
+      },
+      {
+        "route": "dist/transcripts/storage-distributions.json",
+        "status": 200,
+        "bytes": 763960,
+        "sha256": "9c331398dcddeb36180257fe2b902138fd1a39dc618a16657176f708473bf375"
+      },
+      {
+        "route": "dist/transcripts/styles.css",
+        "status": 200,
+        "bytes": 11610,
+        "sha256": "562a519540c7f1822ca16106ec5fe68d5cbdfe6b147f1a189fc3e9b245b4037e"
+      },
+      {
+        "route": "dist/transcripts/tables/audio-cosine-pairs.csv",
+        "status": 200,
+        "bytes": 14495,
+        "sha256": "3509a31ae47a7281f052b5169df1f0ed42fbd28d30d831619d71e5c1fa94f5a9"
+      },
+      {
+        "route": "dist/transcripts/tables/civilization-mentions.csv",
+        "status": 200,
+        "bytes": 1664,
+        "sha256": "97a8f14c01d9c8400b8078589039a7e2b11846471b1194e18b1d4da23814920e"
+      },
+      {
+        "route": "dist/transcripts/tables/cluster-candidates.csv",
+        "status": 200,
+        "bytes": 538,
+        "sha256": "ac1fb54fb97adcc0d4c16eb0151379afe928a85dcc6a2c60f6597021c5ad1c1f"
+      },
+      {
+        "route": "dist/transcripts/tables/leave-one-publisher-out.csv",
+        "status": 200,
+        "bytes": 825,
+        "sha256": "3e5cffd06438efb3eaf9a9416e69aab0f507b92fda5f4acb2fe844181790bbdc"
+      },
+      {
+        "route": "dist/transcripts/tables/nmf-candidates.csv",
+        "status": 200,
+        "bytes": 518,
+        "sha256": "eb3c2e41247b69e11872d6d38cd4e4127183baef9f840c397bbc9300a86b9876"
+      },
+      {
+        "route": "dist/transcripts/tables/sources.csv",
+        "status": 200,
+        "bytes": 21253,
+        "sha256": "71601be05dd1d30dc332e5d66b5cbd024454532717f5486e6c26ca10df7366b6"
+      },
+      {
+        "route": "dist/transcripts/tables/theme-rates.csv",
+        "status": 200,
+        "bytes": 6737,
+        "sha256": "ea436f8d16c5b97ab1452b4be15cd9406d3c0a2dbe212e19833f6772708e0292"
+      },
+      {
+        "route": "dist/transcripts/tables/topic-weights.csv",
+        "status": 200,
+        "bytes": 1439,
+        "sha256": "04dd7202248715dfa0d79aefc620603603ba2ca12d900b43096a9d818c015a57"
+      },
+      {
+        "route": "dist/transcripts/verification.json",
+        "status": 200,
+        "bytes": 2896,
+        "sha256": "ed1b7a944eb3386cb974757b00895b98b3f589b87a2550e0fa72df63d9cd9637"
+      }
+    ],
+    "acquisition_checks": {
+      "status": "passed",
+      "scope": "Published metadata/receipt reconciliation; no audio or transcript text fetched",
+      "download_artifact_bindings": 14,
+      "inventory_videos": 942,
+      "channel_routes": 362,
+      "playlists": 169,
+      "worker_jobs": 3357,
+      "worker_counts_by_kind": {
+        "captions": 942,
+        "channel": 362,
+        "metadata": 942,
+        "playlist": 169,
+        "video": 942
+      },
+      "worker_attempts": 0,
+      "worker_states": {
+        "captions": {
+          "queued": 942
+        },
+        "channel": {
+          "queued": 362
+        },
+        "metadata": {
+          "queued": 942
+        },
+        "playlist": {
+          "queued": 169
+        },
+        "video": {
+          "queued": 942
+        }
+      },
+      "inventory_sqlite_counts": {
+        "videos": 942,
+        "channel_routes": 362,
+        "queries": 597,
+        "edges": 3654,
+        "playlists": 169
+      },
+      "publisher_completed_audio_files": 19,
+      "publisher_completed_audio_bytes": 1664529703,
+      "asr_full_transcripts": 19,
+      "asr_source_joins": 19,
+      "asr_words": 222699,
+      "asr_transcript_bytes_private": 7157662
+    },
+    "access_repair_checks": {
+      "status": "passed",
+      "scope": "Public supplement metadata and retained probe receipts; no live media/access probe rerun",
+      "download_artifact_bindings": 7,
+      "network_probe_revision": "6",
+      "recorded_proxy_connect_status": 403,
+      "recorded_origin_tls_started": false,
+      "browser_recorded_https_controls": 2,
+      "browser_unrelated_certificate_rejection": true,
+      "browser_recorded_explicit_youtube_operations": 0,
+      "daniel_rss_items": 15,
+      "daniel_reported_rendered_words": 10998,
+      "paul_reported_pdf_pages": 4,
+      "paul_reported_words": 2577,
+      "paul_scope": "Spiritual mediumship comparison source, not biological ET; publisher transcript has not been checked against the recording",
+      "athina_audio_files": 1,
+      "athina_audio_bytes": 26928318,
+      "athina_audio_seconds": 1682.99102,
+      "athina_asr_words": 3394,
+      "athina_asr_segments": 259,
+      "athina_source_join": "athina-ashtar-20230206-5d144c22",
+      "original_cohort_public_metadata_hashes_preserved": [
+        "dist/research/harvest-publisher-audio.json",
+        "dist/research/harvest-asr-summary.json"
+      ]
+    },
+    "current_collection_checks": {
+      "status": "passed",
+      "scope": "Source-bound metadata only; no YouTube or Drive requests",
+      "download_artifact_bindings": 24,
+      "indexed_ids": 942,
+      "default_selected_ids": 733,
+      "bashar_selected_ids": 100,
+      "other_selected_ids": 633,
+      "bashar_relevant_overlapping_routes": 68,
+      "complete_lifetime_count_known": false,
+      "brave_target_connects": 1,
+      "brave_connect_status": 403,
+      "planned_private_archive_files": 99,
+      "drive_uploaded_files": 0,
+      "policy_runner_jobs": 2408,
+      "policy_runner_kind_counts": {
+        "captions": 733,
+        "metadata": 942,
+        "video": 733
+      },
+      "policy_runner_attempts": 0,
+      "policy_runner_access_gate_ready": false
+    },
+    "transcript_study_checks": {
+      "status": "passed",
+      "scope": "Published derived data/source joins and artifact bytes; no private source/media request",
+      "source_bound_artifacts": 70,
+      "source_documents": 36,
+      "asr_documents": 20,
+      "authored_documents": 16,
+      "inspected_windows": 105,
+      "typed_qa_candidates": 37,
+      "actual_local_archive_files": 200,
+      "actual_local_archive_bytes": 1703879268,
+      "drive_uploaded_files": 0,
+      "youtube_downloaded_videos": 0
+    }
+  },
+  "source_commit": "0a20688c500ec6b0761f28340590c6beee58941e"
+}

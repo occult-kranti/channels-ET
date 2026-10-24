@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "bounded_support_observed_in_reviewed_cases",
+  "qa_source_path": "research/transcript-reading/qa-candidates.json",
+  "qa_source_sha256": "1401391a2b0ff69ca1e4c2f4705431686770469dbb6db5f3a9e04ff2c3ba93c6",
+  "method": "Purposeful AI-assisted reading of the first candidate in each of seven declared candidate kinds, plus the Paul Selig comparison. Each private support window was reconstructed from its exact source. Eight cases are a construct spot check, not a random validation sample or accuracy estimate.",
+  "audio_checked": false,
+  "human_validation": false,
+  "source_speaker_verified": false,
+  "source_raw_text_published": false,
+  "cases": [
+    {"candidate_id":"reading-qa-76f6f058ba5b","kind":"interview_prompt_candidate","assessment":"supports_bounded_paraphrase","rationale":"The adjacent reply distinguishes generating an experience from denying the existence of other people. The paraphrase preserves this explicit qualification, which a lexical similarity score cannot establish."},
+    {"candidate_id":"reading-qa-8004add71fee","kind":"fragmentary_interview_prompt_candidate","assessment":"supports_fragmentary_candidate_with_scope_limit","rationale":"The source begins mid-question. The paraphrase preserves the conditional framing of a 2027 contact scenario and its proposed attention/momentum mechanism; it does not turn that passage into an unconditional verified forecast."},
+    {"candidate_id":"reading-qa-1d0576884ad2","kind":"rhetorical_coaching_prompt_candidate","assessment":"supports_bounded_paraphrase","rationale":"The passage conditions a timing interpretation on first examining restrictive beliefs, then suggests an available alternative action. The answer retains that sequence rather than promising a guaranteed outcome."},
+    {"candidate_id":"reading-qa-4a844bebfee1","kind":"autobiographical_self_question_candidate","assessment":"supports_retrospective_narrative_label","rationale":"The self-question is followed by the narrator's retrospective account of others' reactions and early study sessions. It is appropriately separated from an interview question, independent corroboration or verified entity speech."},
+    {"candidate_id":"reading-qa-d9e0d83f20d8","kind":"secondary_reported_question_candidate","assessment":"supports_secondary_report_and_dissent_label","rationale":"Hosts summarize reported belief/reality advice and criticize it. This is an actual counterexample to treating shared vocabulary as endorsement: the paraphrase keeps both the report and the dissent."},
+    {"candidate_id":"reading-qa-2c383aa1ca3e","kind":"authored_comparison_prompt","assessment":"supports_analyst_constructed_comparison_only","rationale":"The inspected 250-word RSS opening discusses perceived separation and connection. The candidate is an analyst's organizing question, not an observed question–answer turn or a verified audiovisual transcript."},
+    {"candidate_id":"reading-qa-ashtar-purpose-stages","kind":"rhetorical_guidance_question_candidate","assessment":"supports_bounded_stages_paraphrase","rationale":"The located passage distinguishes accepting, identifying and enacting a purpose and discusses assistance and learning. The answer describes source teachings without validating their efficacy or assigning a verified entity speaker."},
+    {"candidate_id":"reading-qa-3d381a7eb6eb","kind":"authored_comparison_prompt","assessment":"supports_spiritual_comparison_scope","rationale":"The full retained Paul Selig text connects inherited fear, divine identity, inclusion and an embodied gesture. Its publisher transcription visibly marks sound losses. The candidate correctly avoids a physiological or biological ET conclusion."}
+  ],
+  "remaining_limits": [
+    "Twenty ASR documents were analyzed computationally in full, but qualitative coverage is 5.304% of their whitespace words.",
+    "Only the single Ashtar comparison ASR document was deliberately read in full; the other nineteen have selected windows.",
+    "Locator integrity and these eight support checks do not validate all paraphrases, candidate boundaries, speaker identities or transcription accuracy."
+  ]
+}

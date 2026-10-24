@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "pdf_sha256": "57102be0b866a80f7b49b9de89e6d0823d962fe8cd3f71fb229ede8d68bb700f",
+  "source_zip_sha256": "604ab5db35595e2cd5cb5cdc8540671ac1e702b0333e7fb79c2cb354648b3bd2",
+  "pages": 22,
+  "input_hashes_checked": 48,
+  "checks": 142,
+  "failed_checks": [],
+  "independent_clean_compilation": [
+    {
+      "command": [
+        "pdflatex",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "bibtex",
+        "main"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "pdflatex",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "pdflatex",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "compiled_pdf_sha256": "0eda47a1abd0efb6c4e9dc937f520541f0f932f18144509a9d61cc6a3286bac3",
+  "compiled_text_exact": true,
+  "byte_identical_pdf_required": false,
+  "scope": "Independent direct source/input/PDF-text/font/clean-ZIP checks; selected rendered pages and UI review are recorded separately",
+  "prepared_fontmaps_read_only": "/workspace/channels-et-tex/var/fonts/map; temporary TeX writable caches",
+  "network_requests": 0,
+  "new_llm_or_asr_inference": false
+}

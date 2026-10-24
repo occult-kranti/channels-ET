@@ -1,0 +1,1592 @@
+{
+  "schemaVersion": 1,
+  "methods": {
+    "annotationMethod": "AI-agent semantic close reading; no external model inference or human annotation",
+    "sampling": "Fixed beginning/middle/ending30second targets and one60second question-marker/topic-keyword enriched target per ASR; segment boundaries can extend targets; first250whitespace words per Daniel item; full Paul PDF extraction; three post-hoc NMF-term windows, deliberate full reading plus a bounded purpose-guidance window in the single Athina comparison source, and four post-hoc entity-spelling contexts",
+    "wordCountMethod": "Python str.split whitespace tokens for both numerator and denominator; differs from regex counts in some inherited primary metadata",
+    "quotePolicy": "No raw source text or verbatim quotations in public reading/Q&A artifacts; full windows remain private",
+    "qaMeaning": "AI paraphrase candidates. Interview, fragmentary, rhetorical/self-question, secondary-report and analyst-constructed authored prompts are separate kinds.",
+    "comparisonMeaning": "Prompt-family membership is an AI analytic grouping, not validated question equivalence, answer agreement, entity identity, or independent evidence."
+  },
+  "records": [
+    {
+      "sourceId": "rss-1705626495-6f489902be87",
+      "modality": "audio_asr",
+      "codes": [
+        "belief_reality_agency",
+        "emotion_fear_selfworth",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "rss-1705626495-6f489902be87:beginning",
+            "rss-1705626495-6f489902be87:query_rich"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "rss-1705626495-6f489902be87:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1705626495-6f489902be87:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The sampled conversation frames experience as mediated by beliefs and personal interpretations. Its rejection of a purely solipsistic reading is a useful qualification; the closing passage is a publisher call to action.",
+      "narrativePosition": "interview context; individual speaking turns unverified",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "c3e8b6bda1baba6237240d8be8d0e7abb51ae924828cb738efb643c978b41482"
+    },
+    {
+      "sourceId": "rss-1611118279-afab067a712d",
+      "modality": "audio_asr",
+      "codes": [
+        "belief_reality_agency",
+        "claimed_entity_identity",
+        "contact_disclosure",
+        "ontology_consciousness_dimensions"
+      ],
+      "support": [
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "rss-1611118279-afab067a712d:beginning",
+            "rss-1611118279-afab067a712d:query_rich"
+          ]
+        },
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "rss-1611118279-afab067a712d:query_rich"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "rss-1611118279-afab067a712d:query_rich"
+          ]
+        },
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1611118279-afab067a712d:entity_spelling_esasani"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "A future-contact narrative is presented as conditional on collective orientation, rather than as an unconditional calendar prediction. The middle window explicitly redirects interest from spectacle and forecasts toward everyday conduct.",
+      "narrativePosition": "interview context; claims attributed conversationally to Bashar",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "6f9c0afe736aa5a381141dbe13f59c508bc6525f20cc5cd352528428f5c5dffe"
+    },
+    {
+      "sourceId": "rss-1556820026-35f9fd91f5ab",
+      "modality": "audio_asr",
+      "codes": [
+        "contact_disclosure",
+        "emotion_fear_selfworth",
+        "ontology_consciousness_dimensions"
+      ],
+      "support": [
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "rss-1556820026-35f9fd91f5ab:query_rich"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "rss-1556820026-35f9fd91f5ab:query_rich"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "rss-1556820026-35f9fd91f5ab:middle",
+            "rss-1556820026-35f9fd91f5ab:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "Disclosure is discussed through alternate-reality possibilities and self-preparation. A separate middle passage makes an unverified physiological claim about exposure to higher-frequency beings.",
+      "narrativePosition": "interview context; hosts and guest not diarized",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "9339ac4f9d1052d8fe4ebc64db5c6d157b8047c1c2cb7be70b1bccd4e7cf135e"
+    },
+    {
+      "sourceId": "rss-988576741-1ecc5cb023cf",
+      "modality": "audio_asr",
+      "codes": [
+        "belief_reality_agency",
+        "emotion_fear_selfworth",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "rss-988576741-1ecc5cb023cf:query_rich"
+          ]
+        },
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "rss-988576741-1ecc5cb023cf:query_rich"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "rss-988576741-1ecc5cb023cf:beginning"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-988576741-1ecc5cb023cf:middle",
+            "rss-988576741-1ecc5cb023cf:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The query passage explains recurring fear through persistent belief patterns. The temporal middle sample abruptly contains retail advertising, demonstrating why document-level themes can reflect ad insertion rather than the interview topic.",
+      "narrativePosition": "interview context with advertisement contamination",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "41263f39b8c6ee68c3f3a57ccadcca7b9a16b150cf006995dbf18000343bfafb"
+    },
+    {
+      "sourceId": "rss-988576741-f283904d1eb7",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-988576741-f283904d1eb7:beginning",
+            "rss-988576741-f283904d1eb7:query_rich"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "rss-988576741-f283904d1eb7:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-988576741-f283904d1eb7:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The selected question concerns alleged beings and personal contact, while the middle passage concerns changing relational roles across incarnations. Entity names are visibly unstable in the automatic transcription.",
+      "narrativePosition": "interview context; ambiguous entity-name recognition",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "85b9ced07a2ec02f544f37b30307238871071eb3eb7beec7dbe7af16d0cb382f"
+    },
+    {
+      "sourceId": "rss-1560904383-7f4e01fae0ff",
+      "modality": "audio_asr",
+      "codes": [
+        "contact_disclosure",
+        "epistemic_validation_skepticism",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "rss-1560904383-7f4e01fae0ff:query_rich"
+          ]
+        },
+        {
+          "codeId": "epistemic_validation_skepticism",
+          "windowIds": [
+            "rss-1560904383-7f4e01fae0ff:query_rich"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "rss-1560904383-7f4e01fae0ff:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1560904383-7f4e01fae0ff:beginning",
+            "rss-1560904383-7f4e01fae0ff:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The query response cautions against assuming a settled forecast and declines to paraphrase a specifically worded earlier transmission. Opening and closing passages promote the publisher's media products.",
+      "narrativePosition": "interview context; explicit caution about paraphrase and forecast certainty",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "efee3c23981deba2d5c3a3b1bd0e419e2e07ee15cabfc89a180c7fbb26b0f905"
+    },
+    {
+      "sourceId": "rss-1705626495-ae84c9540581",
+      "modality": "audio_asr",
+      "codes": [
+        "contact_disclosure",
+        "emotion_fear_selfworth",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "rss-1705626495-ae84c9540581:beginning"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "rss-1705626495-ae84c9540581:beginning",
+            "rss-1705626495-ae84c9540581:query_rich"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "rss-1705626495-ae84c9540581:query_rich"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "rss-1705626495-ae84c9540581:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1705626495-ae84c9540581:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The opening links anticipated contact to passion-based preparation. The query passage contrasts inner resistance with a possibly unsuitable time for action; the middle sample discusses effects on other people in a sensitive life-and-death context.",
+      "narrativePosition": "interview/coaching context; sensitive health-related discussion elsewhere in sample",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "1e135dcd1827bd5a656f5e7548e7fc598d44ede92c24e1c25850906f7a0e0b56"
+    },
+    {
+      "sourceId": "rss-1620917042-0d435eadc49d",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "epistemic_validation_skepticism",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1620917042-0d435eadc49d:beginning",
+            "rss-1620917042-0d435eadc49d:query_rich"
+          ]
+        },
+        {
+          "codeId": "epistemic_validation_skepticism",
+          "windowIds": [
+            "rss-1620917042-0d435eadc49d:query_rich"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "rss-1620917042-0d435eadc49d:middle",
+            "rss-1620917042-0d435eadc49d:ending"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1620917042-0d435eadc49d:beginning"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The creator recounts a channeling-origin story and interprets apparent social corroboration as a reason to continue exploring. The available window reports the person's interpretation; it does not independently verify the event.",
+      "narrativePosition": "publisher promotional/autobiographical monologue",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "8db1143062bba657057a20225243a0a2bca7f7bd634fc363bb91693a189ff9c2"
+    },
+    {
+      "sourceId": "rss-1556820026-decefb87233c",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "contact_disclosure",
+        "practice_enthusiasm_alignment",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "rss-1556820026-decefb87233c:query_rich"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "rss-1556820026-decefb87233c:query_rich"
+          ]
+        },
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1556820026-decefb87233c:middle"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "rss-1556820026-decefb87233c:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The selected practical question is answered by referring back to a general life-guidance formula. The middle window instead narrates a separate claimed perceptual experience, illustrating within-episode topic shifts.",
+      "narrativePosition": "interview context; multiple narrators unsegmented",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "5cccc5ede5738377fc271a1b9301c19034f72ba1528633b02dd4b150380937ff"
+    },
+    {
+      "sourceId": "rss-1763048673-32a6fb8cd623",
+      "modality": "audio_asr",
+      "codes": [
+        "contact_disclosure",
+        "emotion_fear_selfworth",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "rss-1763048673-32a6fb8cd623:query_rich"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "rss-1763048673-32a6fb8cd623:query_rich"
+          ]
+        },
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "rss-1763048673-32a6fb8cd623:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1763048673-32a6fb8cd623:beginning",
+            "rss-1763048673-32a6fb8cd623:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The coaching passage advocates investigating shared needs beneath conflict. Unrelated health-service and workplace-software advertisements bracket the episode and would distort untreated lexical topic estimates.",
+      "narrativePosition": "interview/coaching context with advertisement contamination",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "9f583429f5eba0e419e8e015570937631c68881384396c220e3b0955fc084fcc"
+    },
+    {
+      "sourceId": "soul-talk-224-20220316",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "epistemic_validation_skepticism",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "soul-talk-224-20220316:query_rich"
+          ]
+        },
+        {
+          "codeId": "epistemic_validation_skepticism",
+          "windowIds": [
+            "soul-talk-224-20220316:query_rich"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "soul-talk-224-20220316:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "soul-talk-224-20220316:beginning",
+            "soul-talk-224-20220316:ending"
+          ]
+        },
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "soul-talk-224-20220316:entity_spelling_esasani"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "A recalled unusual-sighting story appears alongside guidance about evaluating fading enthusiasm. Publisher introductions and event promotion occupy both temporal boundaries.",
+      "narrativePosition": "interview context; retrospective anomalous-experience narrative",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "7827656cbd1ec203e96ab6178161df3a1ddf25b3b8b2ed7011cc2a5457f1000a"
+    },
+    {
+      "sourceId": "rss-1465014169-8dd4267008f8",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "epistemic_validation_skepticism",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1465014169-8dd4267008f8:beginning",
+            "rss-1465014169-8dd4267008f8:middle"
+          ]
+        },
+        {
+          "codeId": "epistemic_validation_skepticism",
+          "windowIds": [
+            "rss-1465014169-8dd4267008f8:query_rich"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1465014169-8dd4267008f8:beginning",
+            "rss-1465014169-8dd4267008f8:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The query passage recounts channeling onset and initial doubt, while the source introduction explicitly frames Bashar as a physical future-associated being. These are claims within an interview, not identified entity speech.",
+      "narrativePosition": "interview context; historical self-report",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "cb802495429a1f687a7f31add40a51bcc5c29dfde943c7fbfcf416b132f9fb58"
+    },
+    {
+      "sourceId": "rss-1546456269-b82d79f0d2c0",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "health_healing_claims",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "rss-1546456269-b82d79f0d2c0:query_rich"
+          ]
+        },
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1546456269-b82d79f0d2c0:middle"
+          ]
+        },
+        {
+          "codeId": "health_healing_claims",
+          "windowIds": [
+            "rss-1546456269-b82d79f0d2c0:query_rich"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1546456269-b82d79f0d2c0:beginning"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The selected response contrasts earlier exhaustion with later energization during channeling and describes a changed sense of elapsed time. An opening automobile advertisement is unrelated to those claims.",
+      "narrativePosition": "interview context; subjective bodily and temporal experience",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "598784da5940b67b4cf1fe4bfba0e171fd34952f381e398a98bfebf7c925dce1"
+    },
+    {
+      "sourceId": "rss-1763048673-1cf4301536f2",
+      "modality": "audio_asr",
+      "codes": [
+        "belief_reality_agency",
+        "claimed_entity_identity",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1763048673-1cf4301536f2:query_rich"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "rss-1763048673-1cf4301536f2:query_rich",
+            "rss-1763048673-1cf4301536f2:middle"
+          ]
+        },
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "rss-1763048673-1cf4301536f2:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1763048673-1cf4301536f2:beginning",
+            "rss-1763048673-1cf4301536f2:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The query passage argues that a person-mediated message could convey context and personality beyond a narrow technical signal. The document also contains health-service and software advertisements unrelated to the interview.",
+      "narrativePosition": "interview context; explanatory argument about a claimed communication mechanism",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "56813453fefaea1efa7656990d60e800b3427ad57f8729aeae8a56de54879c12"
+    },
+    {
+      "sourceId": "rss-1529629262-6e621316510d",
+      "modality": "audio_asr",
+      "codes": [
+        "belief_reality_agency",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "rss-1529629262-6e621316510d:query_rich"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "rss-1529629262-6e621316510d:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1529629262-6e621316510d:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The answer qualifies personal change as broad but constrained by an earthly-life framework. A television-frequency analogy appears in the middle, while the ending advertises the publisher's coaching materials.",
+      "narrativePosition": "interview context; qualified agency claim",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "af9d4084f08f40215c836395678b2636bed1b4905f647f144c866294af8c0849"
+    },
+    {
+      "sourceId": "impossible-dreams-21-20260310",
+      "modality": "audio_asr",
+      "codes": [
+        "emotion_fear_selfworth",
+        "health_healing_claims",
+        "practice_enthusiasm_alignment"
+      ],
+      "support": [
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "impossible-dreams-21-20260310:middle",
+            "impossible-dreams-21-20260310:query_rich"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "impossible-dreams-21-20260310:query_rich"
+          ]
+        },
+        {
+          "codeId": "health_healing_claims",
+          "windowIds": [
+            "impossible-dreams-21-20260310:beginning",
+            "impossible-dreams-21-20260310:query_rich"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The interview places a general life-guidance formula alongside the host's experience of serious illness. The sample supports analysis of how guidance is narrated in that context, not a treatment-efficacy conclusion.",
+      "narrativePosition": "interview context; serious-illness self-disclosure and spiritual guidance",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "0910a1f72633bb9c9af6abd52a54b156752154c7f23c46782aa26111a86533be"
+    },
+    {
+      "sourceId": "rss-1465014169-7a91901169c6",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "epistemic_validation_skepticism",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1465014169-7a91901169c6:beginning",
+            "rss-1465014169-7a91901169c6:middle",
+            "rss-1465014169-7a91901169c6:query_rich"
+          ]
+        },
+        {
+          "codeId": "epistemic_validation_skepticism",
+          "windowIds": [
+            "rss-1465014169-7a91901169c6:query_rich"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1465014169-7a91901169c6:ending"
+          ]
+        },
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1465014169-7a91901169c6:entity_spelling_sasani"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The sampled material distinguishes Earth-origin humans from humanoid beings and develops genetic-relatedness and origin narratives. These source assertions should not be treated as biological evidence.",
+      "narrativePosition": "interview context; speculative lineage narratives",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "c41118f8a5823c658de1ffbe78e9ce9347fe73fb1bb4d4784d37235331575d08"
+    },
+    {
+      "sourceId": "rss-425328515-addbc47ecbd7",
+      "modality": "audio_asr",
+      "codes": [
+        "belief_reality_agency",
+        "claimed_entity_identity",
+        "epistemic_validation_skepticism",
+        "health_healing_claims"
+      ],
+      "support": [
+        {
+          "codeId": "epistemic_validation_skepticism",
+          "windowIds": [
+            "rss-425328515-addbc47ecbd7:beginning",
+            "rss-425328515-addbc47ecbd7:middle",
+            "rss-425328515-addbc47ecbd7:query_rich"
+          ]
+        },
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "rss-425328515-addbc47ecbd7:query_rich"
+          ]
+        },
+        {
+          "codeId": "health_healing_claims",
+          "windowIds": [
+            "rss-425328515-addbc47ecbd7:ending",
+            "rss-425328515-addbc47ecbd7:query_rich"
+          ]
+        },
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-425328515-addbc47ecbd7:entity_spelling_esasani"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The hosts critically recount an event and challenge the repetitiveness and ambiguity of its guidance. The same belief/reality vocabulary appears here as criticism, so lexical proximity cannot be equated with endorsement.",
+      "narrativePosition": "skeptical secondary commentary and reported event speech",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "ccdd6aa33b9d23f97e229a41dee2bc6a35459e66ce3e27482bfc2bedc59dea47"
+    },
+    {
+      "sourceId": "rss-1546456269-353036e21117",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "contact_disclosure",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "rss-1546456269-353036e21117:middle",
+            "rss-1546456269-353036e21117:query_rich"
+          ]
+        },
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "rss-1546456269-353036e21117:query_rich"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "rss-1546456269-353036e21117:middle"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "rss-1546456269-353036e21117:beginning",
+            "rss-1546456269-353036e21117:query_rich",
+            "rss-1546456269-353036e21117:ending"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "An organizational-role question receives a short reply before an unrelated podcast advertisement interrupts the selected window. The middle passage supplies a source-claimed location in a parallel-reality framing.",
+      "narrativePosition": "interview context with mid-answer advertisement interruption",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "0aa3d95d722c10dfd03ff0449b6a51e2540615c22b2d02b4bf560733f0168ac6"
+    },
+    {
+      "sourceId": "athina-ashtar-20230206-5d144c22",
+      "modality": "audio_asr",
+      "codes": [
+        "claimed_entity_identity",
+        "emotion_fear_selfworth",
+        "epistemic_validation_skepticism",
+        "health_healing_claims",
+        "ontology_consciousness_dimensions",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:beginning",
+            "athina-ashtar-20230206-5d144c22:query_rich"
+          ]
+        },
+        {
+          "codeId": "epistemic_validation_skepticism",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:query_rich"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:middle"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:ending"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:query_rich"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:nmf_jumps_context",
+            "athina-ashtar-20230206-5d144c22:nmf_sole_context"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:purpose_stages_context"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "codeId": "health_healing_claims",
+          "windowIds": [
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The complete ASR separates a creator origin-story introduction, an announced source-attributed address, and closing reflection. Its central account combines spiritual teams and lightworkers, claimed timeline changes, and three stages of recognizing and enacting a life purpose. The announced voice transition is a source framing, not verified speaker identification.",
+      "narrativePosition": "creator autobiographical monologue and publisher-attributed channeling context",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "5eeb4c90838c9c55b38725264f71577052fd2ad9755f89409364effa1e06c805"
+    },
+    {
+      "sourceId": "daniel-item-00",
+      "modality": "publisher_text",
+      "codes": [
+        "emotion_fear_selfworth",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "daniel-item-00:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-00:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-00:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-00:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The sampled authored opening treats separation as a temporary experience within an ultimately connected existence and makes felt warmth or connection a practical orientation cue.",
+      "narrativePosition": "publisher-attributed Creators address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "d2080abfb40262e61793f406052147856239827177cced572e1f6d58cab6256c"
+    },
+    {
+      "sourceId": "daniel-item-01",
+      "modality": "publisher_text",
+      "codes": [
+        "claimed_entity_identity",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "daniel-item-01:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "daniel-item-01:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-01:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-01:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The attributed Arcturian collective recommends nature and animal contact, balancing solitude with social growth. A further practice is introduced at the sample boundary but not developed within it.",
+      "narrativePosition": "publisher-attributed Arcturian Council address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "e180fd9da8391c7c691c0e194bf8f07d9c0fd1566d615cbb0dd190b6d94d6de6"
+    },
+    {
+      "sourceId": "daniel-item-02",
+      "modality": "publisher_text",
+      "codes": [
+        "claimed_entity_identity",
+        "contact_disclosure",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "daniel-item-02:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "claimed_entity_identity",
+          "windowIds": [
+            "daniel-item-02:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-02:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-02:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The Ashanti-attributed address identifies a Sassani affiliation and frames reduced fear, environmental dissatisfaction and a wish for help as conditions of contact readiness.",
+      "narrativePosition": "publisher-attributed Ashanti / Sassani address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "dc4717335705cd1c5bb049a0e2bd76d2f3373053f3099c866ec74b5eeabd3a92"
+    },
+    {
+      "sourceId": "daniel-item-03",
+      "modality": "publisher_text",
+      "codes": [
+        "belief_reality_agency",
+        "emotion_fear_selfworth",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "daniel-item-03:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-03:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-03:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-03:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The message contrasts personal empowerment through spiritual alignment with dependence on powerful institutions or public figures. It frames some disempowerment as habitual and partly unconscious.",
+      "narrativePosition": "publisher-attributed Creators address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "1a7308ed9c3bba711224f82f19b3413e08692536b929182caae1b788503a41d5"
+    },
+    {
+      "sourceId": "daniel-item-04",
+      "modality": "publisher_text",
+      "codes": [
+        "emotion_fear_selfworth",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-04:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-04:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "daniel-item-04:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-04:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The St. Germain-attributed opening recommends example-setting while permitting others to develop at different speeds. Lack of agreement from close relationships is framed as a difficulty of leading change.",
+      "narrativePosition": "publisher-attributed St. Germain address; spiritual comparison, not necessarily biological ET",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "8a8e8f25b95186edf68d35a844295db1fb3c9cdad13b34a476ffeba69b83a3fc"
+    },
+    {
+      "sourceId": "daniel-item-05",
+      "modality": "publisher_text",
+      "codes": [
+        "belief_reality_agency",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "daniel-item-05:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "daniel-item-05:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-05:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The opening recasts everyday duties as opportunities for play and subjective engagement. Its example concerns ordinary work rather than extraterrestrial identity or contact.",
+      "narrativePosition": "publisher-attributed Creators address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "18a8e384519c78f7775c5e1c354be05af4c344cef406a4bfc4e1b96b40a6279a"
+    },
+    {
+      "sourceId": "daniel-item-06",
+      "modality": "publisher_text",
+      "codes": [
+        "belief_reality_agency",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "daniel-item-06:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "daniel-item-06:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-06:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-06:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The opening contrasts religious beliefs and frames them as possible chosen experiences. It discourages a need to prove one spiritual relationship superior to another's.",
+      "narrativePosition": "publisher-attributed St. Germain address; spiritual comparison",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "6bd6c6fe0ef94410749136ec17f3d71aaa2fa317c74a8b9049dc5780a1fbb85d"
+    },
+    {
+      "sourceId": "daniel-item-07",
+      "modality": "publisher_text",
+      "codes": [
+        "contact_disclosure",
+        "emotion_fear_selfworth",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "contact_disclosure",
+          "windowIds": [
+            "daniel-item-07:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-07:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-07:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-07:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "This Arcturian-attributed opening distinguishes an individual's wish for immediate contact from a claimed collective lack of readiness, then calls for personal and social preparation.",
+      "narrativePosition": "publisher-attributed Arcturian Council address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "7ee067304a54316c149c6a62408b022126a3d338636d25f77d29572dac9133a9"
+    },
+    {
+      "sourceId": "daniel-item-08",
+      "modality": "publisher_text",
+      "codes": [
+        "emotion_fear_selfworth",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "daniel-item-08:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-08:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-08:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-08:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The address describes ordinary experience as contributing to a larger collective and reassures readers who feel that they have little visible impact. Its use of information-sharing is metaphysical rather than a digital-privacy report.",
+      "narrativePosition": "publisher-attributed Creators address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "e5e78dd109f7745e8d7749796b893cc1a69f2a5776bc5910d5b29bd975318134"
+    },
+    {
+      "sourceId": "daniel-item-09",
+      "modality": "publisher_text",
+      "codes": [
+        "belief_reality_agency",
+        "ontology_consciousness_dimensions",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "daniel-item-09:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "daniel-item-09:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "daniel-item-09:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-09:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The Thymus-attributed opening treats mundane skills and spiritual mastery as connected through attention and practice. It does not make a biological extraterrestrial identification.",
+      "narrativePosition": "publisher-attributed ascended-masters address; spiritual comparison",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "292ec729c36a7c954398b46b01ec2ada854f2cb263a5232b73dc4b1d713b21f3"
+    },
+    {
+      "sourceId": "daniel-item-10",
+      "modality": "publisher_text",
+      "codes": [
+        "belief_reality_agency",
+        "emotion_fear_selfworth",
+        "ontology_consciousness_dimensions",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "daniel-item-10:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "daniel-item-10:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-10:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-10:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The Arcturian-attributed opening combines multiple-Earth language with a recommendation to change one's response to unwanted circumstances. Acceptance and release are framed as compatible with wishing for change.",
+      "narrativePosition": "publisher-attributed Arcturian Council address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "43f992d12bd6254a9cf2df8d8f81d8216778891fe724d4b8935951d0a9e88a1c"
+    },
+    {
+      "sourceId": "daniel-item-11",
+      "modality": "publisher_text",
+      "codes": [
+        "emotion_fear_selfworth",
+        "ontology_consciousness_dimensions",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "daniel-item-11:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "daniel-item-11:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-11:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-11:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The St. Germain-attributed opening emphasizes an underlying spiritual identity and presents a violet-flame practice as a way to uncover it. This symbolic/spiritual mechanism is not independently tested here.",
+      "narrativePosition": "publisher-attributed St. Germain address; spiritual comparison",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "2a130dea4ee8f2faf9c1543ff6cca6d55a186520d4e18d22a2b5d567e5ef80e2"
+    },
+    {
+      "sourceId": "daniel-item-12",
+      "modality": "publisher_text",
+      "codes": [
+        "belief_reality_agency",
+        "ontology_consciousness_dimensions",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "daniel-item-12:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "daniel-item-12:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "daniel-item-12:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-12:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The opening invites quiet receptivity and observation of felt changes during the message, then extends that receptive stance to everyday events. The claimed energetic component remains source-attributed.",
+      "narrativePosition": "publisher-attributed Creators address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "3b548634d06c7f4a859da5dfea8e0dbe1738bf6e0216b20eb395e22cf0e5f3c1"
+    },
+    {
+      "sourceId": "daniel-item-13",
+      "modality": "publisher_text",
+      "codes": [
+        "belief_reality_agency",
+        "emotion_fear_selfworth",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion"
+      ],
+      "support": [
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "daniel-item-13:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-13:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "daniel-item-13:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-13:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The St. Germain-attributed opening explicitly asks readers to inspect habitual interpretations and change their relationship to the world. This resembles a broad agency theme without establishing equivalent doctrine or shared authorship.",
+      "narrativePosition": "publisher-attributed St. Germain address; spiritual comparison",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "b5b033f8f009b0ec5f0bdad142d34f794944aabc6b0dc3cbbb1e4963b4749aa1"
+    },
+    {
+      "sourceId": "daniel-item-14",
+      "modality": "publisher_text",
+      "codes": [
+        "emotion_fear_selfworth",
+        "practice_enthusiasm_alignment",
+        "publisher_promotion",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "daniel-item-14:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "daniel-item-14:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "daniel-item-14:opening_250_words"
+          ]
+        },
+        {
+          "codeId": "publisher_promotion",
+          "windowIds": [
+            "daniel-item-14:opening_250_words"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The Creators-attributed opening frames calmness amid collective distress as potentially useful and discourages guilt about being relatively safe. It links personal orientation to a wish to help others.",
+      "narrativePosition": "publisher-attributed Creators address",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "5c278b3a38018c34a28c1d8523eabe71d5ac663884844ec1403bf1de8c0ec957"
+    },
+    {
+      "sourceId": "paul-birmingham-pdf",
+      "modality": "publisher_text",
+      "codes": [
+        "belief_reality_agency",
+        "emotion_fear_selfworth",
+        "ontology_consciousness_dimensions",
+        "practice_enthusiasm_alignment",
+        "relationships_collective_ethics"
+      ],
+      "support": [
+        {
+          "codeId": "ontology_consciousness_dimensions",
+          "windowIds": [
+            "paul-birmingham-pdf:full_text"
+          ]
+        },
+        {
+          "codeId": "belief_reality_agency",
+          "windowIds": [
+            "paul-birmingham-pdf:full_text"
+          ]
+        },
+        {
+          "codeId": "emotion_fear_selfworth",
+          "windowIds": [
+            "paul-birmingham-pdf:full_text"
+          ]
+        },
+        {
+          "codeId": "relationships_collective_ethics",
+          "windowIds": [
+            "paul-birmingham-pdf:full_text"
+          ]
+        },
+        {
+          "codeId": "practice_enthusiasm_alignment",
+          "windowIds": [
+            "paul-birmingham-pdf:full_text"
+          ]
+        }
+      ],
+      "synthesisParaphrase": "The complete four-page extraction develops a divine-identity account, a distinction between inherited convention and enduring truth, and a bodily gesture tied to spiritual alignment. It includes publisher-marked sound losses and uses rhetorical questions rather than a separate interview exchange.",
+      "narrativePosition": "publisher spiritual-Guides transcript; comparison source, not biological ET testimony",
+      "annotationMethod": "AI-agent semantic reading of sampled passages",
+      "reviewStatus": "provisional_human_validation_TBD",
+      "humanValidated": false,
+      "speakerAttribution": "unknown_unsegmented",
+      "sourceTranscriptSha256": "1793544f91f91033f4cddcedca0c9068771465f453a037aa6a477271486bb696"
+    }
+  ]
+}

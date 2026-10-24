@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "selectionStage": "Post-hoc NMF-term inspection and deliberate full reading of the single Ashtar comparison document; not part of the fixed temporal/question sample",
+  "windows": [
+    {"sourceId":"athina-ashtar-20230206-5d144c22","kind":"nmf_workers_context","firstSegmentId":25,"lastSegmentId":28,"reason":"Inspect whether the NMF term workers refers to labor economics or the spiritual compound lightworkers"},
+    {"sourceId":"athina-ashtar-20230206-5d144c22","kind":"nmf_jumps_context","firstSegmentId":92,"lastSegmentId":95,"reason":"Inspect the context of jumps and the source's narrative transition; do not infer physical transitions from a topic term"},
+    {"sourceId":"athina-ashtar-20230206-5d144c22","kind":"nmf_sole_context","firstSegmentId":148,"lastSegmentId":151,"reason":"Inspect sole versus soul as a possible ASR recognition artifact rather than a separate semantic theme"},
+    {"sourceId":"athina-ashtar-20230206-5d144c22","kind":"full_ashtar_comparison","firstSegmentId":1,"lastSegmentId":259,"selectionMethod":"Deliberate full reading of the only non-Bashar audio comparison source; oversampling is explicit, not balanced sampling","reason":"Understand the central guidance and narrative transition beyond an enriched origin-story question window"},
+    {"sourceId":"athina-ashtar-20230206-5d144c22","kind":"purpose_stages_context","firstSegmentId":176,"lastSegmentId":223,"selectionMethod":"Post-hoc source window selected after the full Ashtar comparison reading","reason":"Provide a bounded support locator for the rhetorical purpose question and its three-stage guidance"},
+    {"sourceId":"rss-1611118279-afab067a712d","kind":"entity_spelling_esasani","firstSegmentId":1009,"lastSegmentId":1011,"selectionMethod":"Post-hoc spelling sensitivity requested after strict lexical zeros were observed","reason":"Inspect an ASR spelling in a species-identity discussion without treating it as an audio-verified alias"},
+    {"sourceId":"soul-talk-224-20220316","kind":"entity_spelling_esasani","firstSegmentId":230,"lastSegmentId":232,"selectionMethod":"Post-hoc spelling sensitivity requested after strict lexical zeros were observed","reason":"Inspect an ASR spelling in a civilization-name discussion without treating it as an audio-verified alias"},
+    {"sourceId":"rss-1465014169-7a91901169c6","kind":"entity_spelling_sasani","firstSegmentId":931,"lastSegmentId":933,"selectionMethod":"Post-hoc spelling sensitivity requested after strict lexical zeros were observed","reason":"Inspect the distinction between a world name and a people-name in the recognition output"},
+    {"sourceId":"rss-425328515-addbc47ecbd7","kind":"entity_spelling_esasani","firstSegmentId":380,"lastSegmentId":382,"selectionMethod":"Post-hoc spelling sensitivity requested after strict lexical zeros were observed","reason":"Inspect a civilization-name mention within skeptical secondary commentary; mention is not endorsement"}
+  ]
+}

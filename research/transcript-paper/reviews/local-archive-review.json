@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-24T01:21:37.951991+00:00",
+  "status": "PASS_WITH_LOCAL_RETENTION_LIMIT",
+  "scope": "Bounded read-only manifest/all-file-stat/source-inode/permissions plus four independent representative copied-file hash checks; owner full200-file cryptographic audit not repeated.",
+  "files": 200,
+  "bytes": 1703879268,
+  "sourceArtifacts": 99,
+  "metadataArtifacts": 101,
+  "allSourceTargetJoinsAndIndependentSingleLinkInodesChecked": true,
+  "allFilesAndDirectoriesOwnerOnly": true,
+  "independentSampledHashes": 4,
+  "networkRequests": 0,
+  "copyOperations": 0,
+  "sourceHashes": {
+    "research/cloud-archive/archive_local.py": "130242f76156365eb43f3273f03da69fc2707ed5c36f7fdc647f3a49fe9658dc",
+    "research/cloud-archive/archive-receipt.json": "58ce8d8cfcba0034ffa8a91d1aa3200f50a036fe535e9623aa4d48fcb1c7701f",
+    "research/cloud-archive/archive-state.json": "4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4",
+    "research/cloud-archive/verification.json": "ed1b7a944eb3386cb974757b00895b98b3f589b87a2550e0fa72df63d9cd9637"
+  },
+  "driveUploads": 0,
+  "externalRetentionGuaranteed": false,
+  "chatAttachmentCreated": false
+}

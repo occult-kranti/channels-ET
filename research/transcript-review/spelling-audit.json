@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "scope": "Post-hoc exact string retrieval sensitivity prompted by observed ASR spellings; no changes to strict preregistered dictionaries",
+  "variant_identity_equivalence_verified": false,
+  "audio_accuracy_checked": false,
+  "speaker_identity_verified": false,
+  "rows": [
+    {
+      "family": "Essassani_Sassani_strict",
+      "exact_string": "essassani",
+      "pattern": "\\bessassani\\b",
+      "occurrences": 0,
+      "document_count": 0,
+      "sourceIds": [],
+      "segment_anchors": []
+    },
+    {
+      "family": "Essassani_Sassani_strict",
+      "exact_string": "sassani",
+      "pattern": "\\bsassani\\b",
+      "occurrences": 0,
+      "document_count": 0,
+      "sourceIds": [],
+      "segment_anchors": []
+    },
+    {
+      "family": "Essassani_Sassani_strict",
+      "exact_string": "essassanis",
+      "pattern": "\\bessassanis\\b",
+      "occurrences": 0,
+      "document_count": 0,
+      "sourceIds": [],
+      "segment_anchors": []
+    },
+    {
+      "family": "Essassani_Sassani_posthoc_strings",
+      "exact_string": "esasani",
+      "pattern": "\\besasani\\b",
+      "occurrences": 3,
+      "document_count": 3,
+      "sourceIds": [
+        "rss-1611118279-afab067a712d",
+        "soul-talk-224-20220316",
+        "rss-425328515-addbc47ecbd7"
+      ],
+      "segment_anchors": [
+        {
+          "sourceId": "rss-1611118279-afab067a712d",
+          "segmentId": 1010,
+          "startSeconds": 4835.44,
+          "endSeconds": 4837.6,
+          "occurrences": 1,
+          "segmentTextSha256": "c8d453f3e0685ed914d0556c33a7693a1ff732728b36b8b3f26bc17b84e1357a"
+        },
+        {
+          "sourceId": "soul-talk-224-20220316",
+          "segmentId": 231,
+          "startSeconds": 750.9,
+          "endSeconds": 753.42,
+          "occurrences": 1,
+          "segmentTextSha256": "86ee42b974d4aa8f890e4b840efcd505541bbcbb9b89a49bd704fbd89c80bd5a"
+        },
+        {
+          "sourceId": "rss-425328515-addbc47ecbd7",
+          "segmentId": 381,
+          "startSeconds": 929.05,
+          "endSeconds": 934.65,
+          "occurrences": 1,
+          "segmentTextSha256": "af2bdaa50fb1b398c4faff2a7313664bbd947516138b3815db1005ae2a591f6d"
+        }
+      ]
+    },
+    {
+      "family": "Essassani_Sassani_posthoc_strings",
+      "exact_string": "sasani",
+      "pattern": "\\bsasani\\b",
+      "occurrences": 1,
+      "document_count": 1,
+      "sourceIds": [
+        "rss-1465014169-7a91901169c6"
+      ],
+      "segment_anchors": [
+        {
+          "sourceId": "rss-1465014169-7a91901169c6",
+          "segmentId": 932,
+          "startSeconds": 3552.85,
+          "endSeconds": 3555.17,
+          "occurrences": 1,
+          "segmentTextSha256": "0833f810bf379290c8a51f3453ae607cc98216cd45a860b3ae574a7585ed4782"
+        }
+      ]
+    },
+    {
+      "family": "Ashtar_strict",
+      "exact_string": "ashtar",
+      "pattern": "\\bashtar\\b",
+      "occurrences": 3,
+      "document_count": 1,
+      "sourceIds": [
+        "athina-ashtar-20230206-5d144c22"
+      ],
+      "segment_anchors": [
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 21,
+          "startSeconds": 97.5,
+          "endSeconds": 103.98,
+          "occurrences": 1,
+          "segmentTextSha256": "b7f062d7c6bdb8a0cff0c31008f708d7f1639cfb7e42523103cad16cb535d7cc"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 68,
+          "startSeconds": 256.34,
+          "endSeconds": 259.94,
+          "occurrences": 1,
+          "segmentTextSha256": "497cc93bd96090876910850fcc930465adad97f969914f54daed0afb359feb22"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 71,
+          "startSeconds": 267.84,
+          "endSeconds": 275.04,
+          "occurrences": 1,
+          "segmentTextSha256": "aedcc19d583642b87a0d24c402734cbfdbd2e4e6161320ce32c5034d1f8246a4"
+        }
+      ]
+    },
+    {
+      "family": "Ashtar_posthoc_strings",
+      "exact_string": "ashta",
+      "pattern": "\\bashta\\b",
+      "occurrences": 9,
+      "document_count": 1,
+      "sourceIds": [
+        "athina-ashtar-20230206-5d144c22"
+      ],
+      "segment_anchors": [
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 22,
+          "startSeconds": 103.98,
+          "endSeconds": 107.7,
+          "occurrences": 1,
+          "segmentTextSha256": "847920ef9096567f4bd28407dadec9de917cf03f05df6975725e609830b2039a"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 23,
+          "startSeconds": 107.7,
+          "endSeconds": 112.7,
+          "occurrences": 1,
+          "segmentTextSha256": "b66dbe1f5c57b52947b6076b327674aad9ff4160afe4471e4dcc6869ddcd6c12"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 25,
+          "startSeconds": 113.7,
+          "endSeconds": 119.82,
+          "occurrences": 1,
+          "segmentTextSha256": "2bd8e9493e0b59ef06d1ce11610301df2c0a84c5e953a14c76ee20df40109571"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 27,
+          "startSeconds": 126.98,
+          "endSeconds": 133.5,
+          "occurrences": 1,
+          "segmentTextSha256": "13e3c2027065737d9e6afe67e3e134d4ace87bc8ead86270aee28efd8035fc02"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 59,
+          "startSeconds": 223.56,
+          "endSeconds": 225.52,
+          "occurrences": 3,
+          "segmentTextSha256": "bdc4c8b60f277a8ffc57b485c2cbd969e28bbbf4673604432c115a8ffad4649a"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 88,
+          "startSeconds": 327.84,
+          "endSeconds": 333.72,
+          "occurrences": 1,
+          "segmentTextSha256": "8a24a37adf919348116fb3a954bcac06a128976610ba3c99544a8845ba3952e7"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 92,
+          "startSeconds": 348.88,
+          "endSeconds": 354.4,
+          "occurrences": 1,
+          "segmentTextSha256": "4d9b34fc0c84ffed0b92c8cfe97ccd079020c9018a8d116211c0a500729cb245"
+        }
+      ]
+    },
+    {
+      "family": "Ashtar_posthoc_strings",
+      "exact_string": "ashtalt",
+      "pattern": "\\bashtalt\\b",
+      "occurrences": 2,
+      "document_count": 1,
+      "sourceIds": [
+        "athina-ashtar-20230206-5d144c22"
+      ],
+      "segment_anchors": [
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 83,
+          "startSeconds": 301.04,
+          "endSeconds": 308.96,
+          "occurrences": 1,
+          "segmentTextSha256": "9ea418c7c4d509270fb106216a09c33b6dd01700178e1f9f31781614d942efb2"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 85,
+          "startSeconds": 310.88,
+          "endSeconds": 316.08,
+          "occurrences": 1,
+          "segmentTextSha256": "6280a559f17a63caa31463d138577ffe08894fb2e400632c745ff2ac264f74a4"
+        }
+      ]
+    },
+    {
+      "family": "Ashtar_posthoc_strings",
+      "exact_string": "ashtara",
+      "pattern": "\\bashtara\\b",
+      "occurrences": 2,
+      "document_count": 1,
+      "sourceIds": [
+        "athina-ashtar-20230206-5d144c22"
+      ],
+      "segment_anchors": [
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 255,
+          "startSeconds": 1662.74,
+          "endSeconds": 1666.66,
+          "occurrences": 1,
+          "segmentTextSha256": "0da3ac1a07abcaea46cbe5bdc780a67b61c55efff8173bc62c020793d5e9a841"
+        },
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 256,
+          "startSeconds": 1666.66,
+          "endSeconds": 1671.46,
+          "occurrences": 1,
+          "segmentTextSha256": "05d3a8aa3aed9d309260053cf3e49ed7a929bd4534cddec3ab6458484afacd67"
+        }
+      ]
+    },
+    {
+      "family": "Ashtar_posthoc_strings",
+      "exact_string": "ashtah",
+      "pattern": "\\bashtah\\b",
+      "occurrences": 1,
+      "document_count": 1,
+      "sourceIds": [
+        "athina-ashtar-20230206-5d144c22"
+      ],
+      "segment_anchors": [
+        {
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 75,
+          "startSeconds": 284.22,
+          "endSeconds": 287.44,
+          "occurrences": 1,
+          "segmentTextSha256": "8abd6827078c0aa75b8a706a3e7458ddf79de549a549beb51185403b799d79b7"
+        }
+      ]
+    }
+  ],
+  "new_network_requests": 0,
+  "new_llm_or_asr_inference": false,
+  "raw_source_text_published": false
+}

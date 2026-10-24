@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "status": "executed_and_verified",
+  "checkedAt": "2026-10-24T01:30:26.031131+00:00",
+  "pythonVersion": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "codeSha256": "dc8e97614d1e934d5dbb6b66390dc35612bd088d638a12aa9a491df6f3ac1ff5",
+  "protocolSha256": "6beb40a604b599d96783a21cbed37bc803db526898737a0b18eb284605f55707",
+  "analysisSha256": "14ccb929d1613b72fbb437ba995e5c7b5a8b17cd6cbffe1f2a126f5d7b81ea14",
+  "summary": {
+    "audioDocuments": 20,
+    "authoredDocuments": 16,
+    "basharContextAudioDocuments": 19,
+    "ashtarContextAudioDocuments": 1,
+    "audioPublishers": 14,
+    "audioReceiptWords": 226093,
+    "audioCommonTokens": 226138,
+    "authoredReceiptWords": 13575,
+    "authoredCommonTokens": 13556,
+    "audioDurationSeconds": 81691.621533,
+    "audioBytes": 1691458021,
+    "timeBins": 200,
+    "nonoverlappingSegmentChunks": 457,
+    "newYoutubeVideoDownloads": 0,
+    "speakerIdentityVerified": false,
+    "rawTextPublished": false
+  },
+  "sourceNetworkRequests": 0,
+  "mediaAcquisitionRuns": 0,
+  "neuralInferenceRuns": 0,
+  "figureFamilies": 9,
+  "figureFormats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "authorVerificationTests": 8,
+  "privateNumericCache": "/workspace/channels-et-raw/transcript-analysis/numeric-feature-matrices.npz",
+  "sourceTextPubliclyRehosted": false
+}

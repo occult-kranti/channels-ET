@@ -7,9 +7,41 @@ published by the [Pages Action](.github/workflows/pages.yml). Open **Acquisition
 in the research dashboard for the latest download inventory, actual files,
 source failures and machine-transcription counts. The
 [acquisition handoff](research/harvest/ACQUISITION-REPORT.md) explains this newer
-collection layer; the paper and model experiments below retain their reviewed
+collection layer; earlier papers and model experiments retain their reviewed
 scientific snapshot. Independently published podcast audio and its automatic
 transcripts are separate from YouTube videos and platform caption tracks.
+
+## Transcript study — 23 October 2026, America/New_York
+
+Open the [interactive transcript study](https://occult-kranti.github.io/channels-ET/dist/transcripts/),
+[complete research paper](research/transcript-paper/channels-et-transcript-paper.pdf)
+and [Overleaf-compatible source](research/transcript-paper/channels-et-transcript-source.zip).
+The study executes TF-IDF, separate topic and cluster fits, document and
+claimed-label networks, channel/context overlays, temporal profiles and
+sensitivity analyses. Nine figure families are available as PDF, SVG and PNG.
+
+The material comprises **20 full-audio machine transcripts (22.69 hours)** and
+**16 separately published texts**. Nineteen audio records are Bashar-related
+publisher contexts and one is the Athina/Ashtar creator episode. The
+[reading layer](research/transcript-reading/README.md) adds 37 typed Q&A reading
+aids, six source-linked interpretive comparisons and explicit reading coverage:
+5.304% of ASR whitespace words and 46.273% of publisher-text whitespace words.
+Question kinds, source attribution, ASR spellings, negation loss and the 19-to-1
+cluster split remain inspectable. These are exploratory, AI-assisted results.
+The [new Q&A database](research/transcript-reading/qa-candidates.sqlite) preserves
+21 ASR-derived candidates and 16 constructed publisher-text comparison prompts;
+it remains separate from the older 949 AI-digest candidates.
+
+The [organized private cloud archive](research/cloud-archive/README.md) contains
+**200 independently copied files, 1,703,879,268 bytes**, verified with SHA-256,
+MD5 and sizes: 99 source artifacts plus 101 provenance/manifest files. It lives
+under `/workspace/channels-et-raw/cloud-archive/`. The
+[distribution exports](research/storage-distributions/README.md) distinguish
+actual publisher-audio bytes from indexed/selected YouTube records and expose
+missing practitioner/entity attribution. Drive uploads remain zero; managed
+environment retention is separate from Git, Drive and permanent chat attachments.
+The [review records](research/transcript-review/) retain independent numerical,
+source, reading, storage, manuscript and interface checks.
 
 The expanded queue imports **942 YouTube IDs, 362 literal channel routes and
 169 playlists** from the preserved Bashar index and Atlas sources. It supports
@@ -17,7 +49,7 @@ bounded parallel collection, resumable files, hashes and storage accounting.
 The ordinary YouTube watch probe returned a proxy CONNECT 403 before TLS, so
 the queue has zero YouTube item attempts or downloads.
 
-Independent publisher feeds supplied **19 Bashar-related podcast recordings
+The original publisher-feed cohort supplied **19 Bashar-related podcast recordings
 (22.22 hours)** across 13 shows. All 19 received local automatic transcription;
 the ASR text is unverified and does not establish speaker or video-edition identity.
 Raw recordings and full machine transcripts live in
@@ -31,7 +63,7 @@ posts and a four-page Paul Selig publisher transcript. These remain distinct
 source types and cohorts. The ordinary YouTube route still receives a proxy
 CONNECT 403; browser trust repair does not establish video access.
 
-## Current video collection plan — 24 October 2026
+## Current video collection plan — 24 October 2026 UTC
 
 The [latest acquisition report](research/youtube-access/REPORT.md) and dashboard
 show **733 selected YouTube IDs: 100 Bashar-associated uploads across all accounts
@@ -50,23 +82,17 @@ IDs and 68 overlapping account routes.
    the global Bashar cap, duration/Shorts checks, hashes and storage reservations
    apply before assets; new discovery enters as metadata only.
 3. Keep originals and full transcripts in private storage. The
-   [archive workflow](research/storage-drive/README.md) has a source-bound plan
-   for 99 existing artifacts and 101 metadata files. Drive access must be
-   observed in this session before any Drive folder/upload can be claimed.
-   The user's newly authorized fallback is an organized archive in the managed
-   cloud workspace; its actual copy/verification receipt will be published
-   separately from Drive status. Environment retention is distinct from Git.
+   [Drive workflow](research/storage-drive/README.md) has a source-bound plan
+   for 99 source artifacts and 101 metadata files. The authorized managed-cloud
+   fallback has actually copied and verified all 200 files; its
+   [receipt](research/cloud-archive/archive-receipt.json) is separate from Drive
+   status. A Drive write connection and authenticated quota check are required
+   before transferring there; the reported five-terabyte allowance is unverified.
 4. Report indexed, selected, attempted and completed counts separately for each
    account and source context. Independent publisher audio remains distinct
    from YouTube videos, even when the titles or interview guests overlap.
 
-The next transcript-study update is in progress: source-pinned TF-IDF, topics,
-clustering, networks, channel overlays, detailed AI-assisted readings and
-question/answer candidates. Its 20 ASR documents and separate 16 authored-text
-comparison documents require explicit coverage and source-attribution limits;
-planned analyses are not yet reported as completed findings.
-
-## Living study: source-aware analysis and local models
+## Retained continuation: source-aware analysis and local models
 
 The current continuation is organized entirely in this repository. Open the
 [living research dashboard](dist/research/index.html),

@@ -1,0 +1,388 @@
+- link "Skip to study":
+  - /url: "#content"
+- banner:
+  - link "Channels ET Transcript study":
+    - /url: "#overview"
+  - text: 23 October 2026 America/New_York
+  - navigation "Project":
+    - link "Acquisition ledger":
+      - /url: ../research/#harvest
+    - link "Earlier research":
+      - /url: ../research/
+    - link "Repository ↗":
+      - /url: https://github.com/occult-kranti/channels-ET
+- navigation "Study views":
+  - link "Study overview":
+    - /url: "#overview"
+  - link "Lexical maps":
+    - /url: "#maps"
+  - link "Readings & Q&A":
+    - /url: "#reading"
+  - link "Contexts & storage":
+    - /url: "#storage"
+  - link "Sources & methods":
+    - /url: "#methods"
+- region "Transcript document filters":
+  - text: Fitted corpus
+  - combobox "Fitted corpus":
+    - option "Audio ASR · 20 documents" [selected]
+    - option "Publisher text · 16 documents"
+  - text: Publisher
+  - combobox "Publisher":
+    - option "All publishers" [selected]
+    - option "ACID FOR SQUARES"
+    - option "Align Podcast"
+    - option "Danica Patrick Pretty Intense Podcast"
+    - option "Gaia Consciousness"
+    - option "Gateways to Awakening with Yasmeen Turayhi"
+    - option "Healing + Human Potential"
+    - option "Impossible Dreams"
+    - option "Just Tap In with Emilio Ortiz"
+    - option "Mayim Bialik's Breakdown"
+    - option "Next Level Soul Podcast with Alex Ferrari"
+    - option "Oh No, Ross and Carrie"
+    - option "SoulTalk with Kute Blackson"
+    - option "Spirit Channel with Athina Król"
+    - option "Virtual Campfire hosted by Krystal Kelley"
+  - text: Practitioner context
+  - combobox "Practitioner context":
+    - option "All source contexts" [selected]
+    - option "Athina Król"
+    - option "Darryl Anka / Bashar context"
+  - text: Source title, publisher or ID
+  - searchbox "Source title, publisher or ID"
+  - button "Apply source filters"
+  - paragraph:
+    - strong: 20 / 20 ASR documents
+    - text: in this view. The full ASR frame is 19 Bashar-context recordings and one Ashtar-attributed creator episode; not 20 mediums. Filtering selects retained vectors; it does not refit the model.
+- main:
+  - paragraph: AI sampled-window reading · not human validation
+  - heading "Readings and candidate questions" [level=1]
+  - paragraph: Source-linked paraphrases preserve the difference between interview prompts, rhetorical questions, secondary reports and analyst-constructed comparison prompts. Evidence windows are not verified question/answer turn boundaries.
+  - strong: "105"
+  - text: Whole-study inspected windows
+  - strong: 19,603
+  - text: Packet words, including overlapping windows
+  - strong: "37"
+  - text: Whole-study Q&A / comparison candidates
+  - strong: "0"
+  - text: Human-validated annotations
+  - strong: Review coverage is sampled
+  - text: The reviewer inspected selected source windows. Full-text computational processing is distinct from human or AI close reading of every word. No speaker identity or human coding accuracy is established.
+  - table:
+    - rowgroup:
+      - row "Whole-study sampled coverage Unique whitespace words read / source total Coverage":
+        - columnheader "Whole-study sampled coverage"
+        - columnheader "Unique whitespace words read / source total"
+        - columnheader "Coverage"
+    - rowgroup:
+      - row "Audio ASR 11,992 / 226,093 5.3%":
+        - cell "Audio ASR"
+        - cell "11,992 / 226,093"
+        - cell "5.3%"
+      - row "Publisher texts 6,319 / 13,656 46.3%":
+        - cell "Publisher texts"
+        - cell "6,319 / 13,656"
+        - cell "46.3%"
+  - paragraph: Coverage above describes the whole reading workstream, not the filtered source subset. Python str.split whitespace tokens for both numerator and denominator; differs from regex counts in some inherited primary metadata Sampling is purposeful and keyword-enriched; code presence is not full-corpus theme prevalence.
+  - group: Inspect exact reading coverage metadata
+  - heading "Six source-bound interpretive leads" [level=2]
+  - paragraph: Whole-study comparisons retain both modalities and are not changed by the source filters above. Source filters apply to the syntheses and Q&A below. These are provisional AI interpretations, not human-validated findings or population estimates.
+  - article:
+    - heading "Shared words can accompany explicit disagreement" [level=3]
+    - paragraph: The skeptical source restates belief/reality guidance while criticizing its repetition and ambiguity. A similarity edge to an interview therefore cannot be interpreted as agreement.
+    - paragraph:
+      - button "A16 · Oh No, Ross and Carrie"
+    - group: Inspect source windows and interpretation status
+  - article:
+    - heading "Advertising and publisher framing are present in sampled source bodies" [level=3]
+    - paragraph: Retail advertising occurs in the temporal middle of one interview; health-service and software promotions bracket two others, and a podcast advertisement interrupts a brief organizational-role answer. Untreated document topics can therefore describe publishing infrastructure.
+    - paragraph:
+      - button "A13 · Mayim Bialik's Breakdown"
+      - text: ·
+      - button "A01 · ACID FOR SQUARES"
+      - text: ·
+      - button "A02 · ACID FOR SQUARES"
+      - text: ·
+      - button "A03 · Align Podcast"
+    - group: Inspect source windows and interpretation status
+  - article:
+    - heading "Broad agency and future-contact themes include qualifications" [level=3]
+    - paragraph: One source limits changes to an earthly-life framework, another refuses to treat rapid developments as a settled forecast, and another portrays a contact forecast as conditional and potentially influenced by attention to it. These distinctions would disappear in a simple shared-keyword count.
+    - paragraph:
+      - button "A08 · Gateways to Awakening with Yasmeen Turayhi"
+      - text: ·
+      - button "A15 · Next Level Soul Podcast with Alex Ferrari"
+      - text: ·
+      - button "A12 · Just Tap In with Emilio Ortiz"
+    - group: Inspect source windows and interpretation status
+  - article:
+    - heading "A singleton component needs source-level interpretation" [level=3]
+    - paragraph: In the Ashtar-attributed recording, workers belongs to the spiritual compound lightworkers, jumps describes claimed timeline/vibration changes, and sole occurs where surrounding text suggests a possible recognition error involving soul. These observations explain how a component can combine genuine source-specific vocabulary and transcription noise.
+    - paragraph:
+      - button "A18 · Spirit Channel with Athina Król"
+    - group: Inspect source windows and interpretation status
+  - article:
+    - heading "A broad question family does not make answers equivalent" [level=3]
+    - paragraph: "Contact-readiness passages address different subjects: an individual preparing for an encounter, a collective described as unready, and a selected audience described as already prepared. Their shared theme is not enough to establish agreement or contradiction."
+    - paragraph:
+      - button "T03 · Daniel Scranton"
+      - text: ·
+      - button "T08 · Daniel Scranton"
+      - text: ·
+      - button "A20 · Virtual Campfire hosted by Krystal Kelley"
+    - group: Inspect source windows and interpretation status
+  - article:
+    - heading "Practical guidance has different forms across the available sources" [level=3]
+    - paragraph: The Bashar-context exchange clarifies a general action-and-belief formula, while the complete single Ashtar comparison presents accepting, identifying and embodying a life purpose. Paul Selig and the Daniel posts offer additional spiritual framings, but these source types are not balanced evidence about separate civilizations.
+    - paragraph:
+      - button "A18 · Spirit Channel with Athina Król"
+      - text: ·
+      - button "T10 · Daniel Scranton"
+      - text: ·
+      - button "A11 · Impossible Dreams"
+      - text: ·
+      - button "T16 · Paul Selig"
+    - group: Inspect source windows and interpretation status
+  - heading "Source syntheses" [level=2]
+  - paragraph: AI interpretations below are bound to sampled support windows and should be read with each source's format and perspective.
+  - table:
+    - rowgroup:
+      - row "Source / context AI synthesis paraphrase Codes / source perspective":
+        - columnheader "Source / context"
+        - columnheader "AI synthesis paraphrase"
+        - columnheader "Codes / source perspective"
+    - rowgroup:
+      - row "A09 · Healing + Human Potential The sampled conversation frames experience as mediated by beliefs and personal interpretations. Its rejection of a purely solipsistic reading is a useful qualification; the closing passage is a publisher call to action. belief_reality_agency · emotion_fear_selfworth · publisher_promotion interview context; individual speaking turns unverified":
+        - cell "A09 · Healing + Human Potential":
+          - button "A09 · Healing + Human Potential"
+        - cell "The sampled conversation frames experience as mediated by beliefs and personal interpretations. Its rejection of a purely solipsistic reading is a useful qualification; the closing passage is a publisher call to action."
+        - cell "belief_reality_agency · emotion_fear_selfworth · publisher_promotion interview context; individual speaking turns unverified"
+      - row "A12 · Just Tap In with Emilio Ortiz A future-contact narrative is presented as conditional on collective orientation, rather than as an unconditional calendar prediction. The middle window explicitly redirects interest from spectacle and forecasts toward everyday conduct. belief_reality_agency · claimed_entity_identity · contact_disclosure · ontology_consciousness_dimensions interview context; claims attributed conversationally to Bashar":
+        - cell "A12 · Just Tap In with Emilio Ortiz":
+          - button "A12 · Just Tap In with Emilio Ortiz"
+        - cell "A future-contact narrative is presented as conditional on collective orientation, rather than as an unconditional calendar prediction. The middle window explicitly redirects interest from spectacle and forecasts toward everyday conduct."
+        - cell "belief_reality_agency · claimed_entity_identity · contact_disclosure · ontology_consciousness_dimensions interview context; claims attributed conversationally to Bashar"
+      - row "A19 · Virtual Campfire hosted by Krystal Kelley Disclosure is discussed through alternate-reality possibilities and self-preparation. A separate middle passage makes an unverified physiological claim about exposure to higher-frequency beings. contact_disclosure · emotion_fear_selfworth · ontology_consciousness_dimensions interview context; hosts and guest not diarized":
+        - cell "A19 · Virtual Campfire hosted by Krystal Kelley":
+          - button "A19 · Virtual Campfire hosted by Krystal Kelley"
+        - cell "Disclosure is discussed through alternate-reality possibilities and self-preparation. A separate middle passage makes an unverified physiological claim about exposure to higher-frequency beings."
+        - cell "contact_disclosure · emotion_fear_selfworth · ontology_consciousness_dimensions interview context; hosts and guest not diarized"
+      - row "A03 · Align Podcast The query passage explains recurring fear through persistent belief patterns. The temporal middle sample abruptly contains retail advertising, demonstrating why document-level themes can reflect ad insertion rather than the interview topic. belief_reality_agency · emotion_fear_selfworth · ontology_consciousness_dimensions · publisher_promotion interview context with advertisement contamination":
+        - cell "A03 · Align Podcast":
+          - button "A03 · Align Podcast"
+        - cell "The query passage explains recurring fear through persistent belief patterns. The temporal middle sample abruptly contains retail advertising, demonstrating why document-level themes can reflect ad insertion rather than the interview topic."
+        - cell "belief_reality_agency · emotion_fear_selfworth · ontology_consciousness_dimensions · publisher_promotion interview context with advertisement contamination"
+      - row "A04 · Align Podcast The selected question concerns alleged beings and personal contact, while the middle passage concerns changing relational roles across incarnations. Entity names are visibly unstable in the automatic transcription. claimed_entity_identity · publisher_promotion · relationships_collective_ethics interview context; ambiguous entity-name recognition":
+        - cell "A04 · Align Podcast":
+          - button "A04 · Align Podcast"
+        - cell "The selected question concerns alleged beings and personal contact, while the middle passage concerns changing relational roles across incarnations. Entity names are visibly unstable in the automatic transcription."
+        - cell "claimed_entity_identity · publisher_promotion · relationships_collective_ethics interview context; ambiguous entity-name recognition"
+      - row "A15 · Next Level Soul Podcast with Alex Ferrari The query response cautions against assuming a settled forecast and declines to paraphrase a specifically worded earlier transmission. Opening and closing passages promote the publisher's media products. contact_disclosure · epistemic_validation_skepticism · publisher_promotion · relationships_collective_ethics interview context; explicit caution about paraphrase and forecast certainty":
+        - cell "A15 · Next Level Soul Podcast with Alex Ferrari":
+          - button "A15 · Next Level Soul Podcast with Alex Ferrari"
+        - cell "The query response cautions against assuming a settled forecast and declines to paraphrase a specifically worded earlier transmission. Opening and closing passages promote the publisher's media products."
+        - cell "contact_disclosure · epistemic_validation_skepticism · publisher_promotion · relationships_collective_ethics interview context; explicit caution about paraphrase and forecast certainty"
+      - row "A10 · Healing + Human Potential The opening links anticipated contact to passion-based preparation. The query passage contrasts inner resistance with a possibly unsuitable time for action; the middle sample discusses effects on other people in a sensitive life-and-death context. contact_disclosure · emotion_fear_selfworth · practice_enthusiasm_alignment · publisher_promotion · relationships_collective_ethics interview/coaching context; sensitive health-related discussion elsewhere in sample":
+        - cell "A10 · Healing + Human Potential":
+          - button "A10 · Healing + Human Potential"
+        - cell "The opening links anticipated contact to passion-based preparation. The query passage contrasts inner resistance with a possibly unsuitable time for action; the middle sample discusses effects on other people in a sensitive life-and-death context."
+        - cell "contact_disclosure · emotion_fear_selfworth · practice_enthusiasm_alignment · publisher_promotion · relationships_collective_ethics interview/coaching context; sensitive health-related discussion elsewhere in sample"
+      - row "A07 · Gaia Consciousness The creator recounts a channeling-origin story and interprets apparent social corroboration as a reason to continue exploring. The available window reports the person's interpretation; it does not independently verify the event. claimed_entity_identity · epistemic_validation_skepticism · practice_enthusiasm_alignment · publisher_promotion publisher promotional/autobiographical monologue":
+        - cell "A07 · Gaia Consciousness":
+          - button "A07 · Gaia Consciousness"
+        - cell "The creator recounts a channeling-origin story and interprets apparent social corroboration as a reason to continue exploring. The available window reports the person's interpretation; it does not independently verify the event."
+        - cell "claimed_entity_identity · epistemic_validation_skepticism · practice_enthusiasm_alignment · publisher_promotion publisher promotional/autobiographical monologue"
+      - row "A20 · Virtual Campfire hosted by Krystal Kelley The selected practical question is answered by referring back to a general life-guidance formula. The middle window instead narrates a separate claimed perceptual experience, illustrating within-episode topic shifts. claimed_entity_identity · contact_disclosure · practice_enthusiasm_alignment · relationships_collective_ethics interview context; multiple narrators unsegmented":
+        - cell "A20 · Virtual Campfire hosted by Krystal Kelley":
+          - button "A20 · Virtual Campfire hosted by Krystal Kelley"
+        - cell "The selected practical question is answered by referring back to a general life-guidance formula. The middle window instead narrates a separate claimed perceptual experience, illustrating within-episode topic shifts."
+        - cell "claimed_entity_identity · contact_disclosure · practice_enthusiasm_alignment · relationships_collective_ethics interview context; multiple narrators unsegmented"
+      - row "A02 · ACID FOR SQUARES The coaching passage advocates investigating shared needs beneath conflict. Unrelated health-service and workplace-software advertisements bracket the episode and would distort untreated lexical topic estimates. contact_disclosure · emotion_fear_selfworth · publisher_promotion · relationships_collective_ethics interview/coaching context with advertisement contamination":
+        - cell "A02 · ACID FOR SQUARES":
+          - button "A02 · ACID FOR SQUARES"
+        - cell "The coaching passage advocates investigating shared needs beneath conflict. Unrelated health-service and workplace-software advertisements bracket the episode and would distort untreated lexical topic estimates."
+        - cell "contact_disclosure · emotion_fear_selfworth · publisher_promotion · relationships_collective_ethics interview/coaching context with advertisement contamination"
+      - row "A17 · SoulTalk with Kute Blackson A recalled unusual-sighting story appears alongside guidance about evaluating fading enthusiasm. Publisher introductions and event promotion occupy both temporal boundaries. claimed_entity_identity · epistemic_validation_skepticism · practice_enthusiasm_alignment · publisher_promotion interview context; retrospective anomalous-experience narrative":
+        - cell "A17 · SoulTalk with Kute Blackson":
+          - button "A17 · SoulTalk with Kute Blackson"
+        - cell "A recalled unusual-sighting story appears alongside guidance about evaluating fading enthusiasm. Publisher introductions and event promotion occupy both temporal boundaries."
+        - cell "claimed_entity_identity · epistemic_validation_skepticism · practice_enthusiasm_alignment · publisher_promotion interview context; retrospective anomalous-experience narrative"
+      - row "A06 · Danica Patrick Pretty Intense Podcast The query passage recounts channeling onset and initial doubt, while the source introduction explicitly frames Bashar as a physical future-associated being. These are claims within an interview, not identified entity speech. claimed_entity_identity · epistemic_validation_skepticism · publisher_promotion interview context; historical self-report":
+        - cell "A06 · Danica Patrick Pretty Intense Podcast":
+          - button "A06 · Danica Patrick Pretty Intense Podcast"
+        - cell "The query passage recounts channeling onset and initial doubt, while the source introduction explicitly frames Bashar as a physical future-associated being. These are claims within an interview, not identified entity speech."
+        - cell "claimed_entity_identity · epistemic_validation_skepticism · publisher_promotion interview context; historical self-report"
+      - row "A14 · Mayim Bialik's Breakdown The selected response contrasts earlier exhaustion with later energization during channeling and describes a changed sense of elapsed time. An opening automobile advertisement is unrelated to those claims. claimed_entity_identity · health_healing_claims · ontology_consciousness_dimensions · publisher_promotion interview context; subjective bodily and temporal experience":
+        - cell "A14 · Mayim Bialik's Breakdown":
+          - button "A14 · Mayim Bialik's Breakdown"
+        - cell "The selected response contrasts earlier exhaustion with later energization during channeling and describes a changed sense of elapsed time. An opening automobile advertisement is unrelated to those claims."
+        - cell "claimed_entity_identity · health_healing_claims · ontology_consciousness_dimensions · publisher_promotion interview context; subjective bodily and temporal experience"
+      - row "A01 · ACID FOR SQUARES The query passage argues that a person-mediated message could convey context and personality beyond a narrow technical signal. The document also contains health-service and software advertisements unrelated to the interview. belief_reality_agency · claimed_entity_identity · ontology_consciousness_dimensions · publisher_promotion interview context; explanatory argument about a claimed communication mechanism":
+        - cell "A01 · ACID FOR SQUARES":
+          - button "A01 · ACID FOR SQUARES"
+        - cell "The query passage argues that a person-mediated message could convey context and personality beyond a narrow technical signal. The document also contains health-service and software advertisements unrelated to the interview."
+        - cell "belief_reality_agency · claimed_entity_identity · ontology_consciousness_dimensions · publisher_promotion interview context; explanatory argument about a claimed communication mechanism"
+      - row "A08 · Gateways to Awakening with Yasmeen Turayhi The answer qualifies personal change as broad but constrained by an earthly-life framework. A television-frequency analogy appears in the middle, while the ending advertises the publisher's coaching materials. belief_reality_agency · ontology_consciousness_dimensions · publisher_promotion interview context; qualified agency claim":
+        - cell "A08 · Gateways to Awakening with Yasmeen Turayhi":
+          - button "A08 · Gateways to Awakening with Yasmeen Turayhi"
+        - cell "The answer qualifies personal change as broad but constrained by an earthly-life framework. A television-frequency analogy appears in the middle, while the ending advertises the publisher's coaching materials."
+        - cell "belief_reality_agency · ontology_consciousness_dimensions · publisher_promotion interview context; qualified agency claim"
+      - row "A11 · Impossible Dreams The interview places a general life-guidance formula alongside the host's experience of serious illness. The sample supports analysis of how guidance is narrated in that context, not a treatment-efficacy conclusion. emotion_fear_selfworth · health_healing_claims · practice_enthusiasm_alignment interview context; serious-illness self-disclosure and spiritual guidance":
+        - cell "A11 · Impossible Dreams":
+          - button "A11 · Impossible Dreams"
+        - cell "The interview places a general life-guidance formula alongside the host's experience of serious illness. The sample supports analysis of how guidance is narrated in that context, not a treatment-efficacy conclusion."
+        - cell "emotion_fear_selfworth · health_healing_claims · practice_enthusiasm_alignment interview context; serious-illness self-disclosure and spiritual guidance"
+      - row "A05 · Danica Patrick Pretty Intense Podcast The sampled material distinguishes Earth-origin humans from humanoid beings and develops genetic-relatedness and origin narratives. These source assertions should not be treated as biological evidence. claimed_entity_identity · epistemic_validation_skepticism · publisher_promotion interview context; speculative lineage narratives":
+        - cell "A05 · Danica Patrick Pretty Intense Podcast":
+          - button "A05 · Danica Patrick Pretty Intense Podcast"
+        - cell "The sampled material distinguishes Earth-origin humans from humanoid beings and develops genetic-relatedness and origin narratives. These source assertions should not be treated as biological evidence."
+        - cell "claimed_entity_identity · epistemic_validation_skepticism · publisher_promotion interview context; speculative lineage narratives"
+      - row "A16 · Oh No, Ross and Carrie The hosts critically recount an event and challenge the repetitiveness and ambiguity of its guidance. The same belief/reality vocabulary appears here as criticism, so lexical proximity cannot be equated with endorsement. belief_reality_agency · claimed_entity_identity · epistemic_validation_skepticism · health_healing_claims skeptical secondary commentary and reported event speech":
+        - cell "A16 · Oh No, Ross and Carrie":
+          - button "A16 · Oh No, Ross and Carrie"
+        - cell "The hosts critically recount an event and challenge the repetitiveness and ambiguity of its guidance. The same belief/reality vocabulary appears here as criticism, so lexical proximity cannot be equated with endorsement."
+        - cell "belief_reality_agency · claimed_entity_identity · epistemic_validation_skepticism · health_healing_claims skeptical secondary commentary and reported event speech"
+      - row "A13 · Mayim Bialik's Breakdown An organizational-role question receives a short reply before an unrelated podcast advertisement interrupts the selected window. The middle passage supplies a source-claimed location in a parallel-reality framing. claimed_entity_identity · contact_disclosure · ontology_consciousness_dimensions · publisher_promotion interview context with mid-answer advertisement interruption":
+        - cell "A13 · Mayim Bialik's Breakdown":
+          - button "A13 · Mayim Bialik's Breakdown"
+        - cell "An organizational-role question receives a short reply before an unrelated podcast advertisement interrupts the selected window. The middle passage supplies a source-claimed location in a parallel-reality framing."
+        - cell "claimed_entity_identity · contact_disclosure · ontology_consciousness_dimensions · publisher_promotion interview context with mid-answer advertisement interruption"
+      - row "A18 · Spirit Channel with Athina Król The complete ASR separates a creator origin-story introduction, an announced source-attributed address, and closing reflection. Its central account combines spiritual teams and lightworkers, claimed timeline changes, and three stages of recognizing and enacting a life purpose. The announced voice transition is a source framing, not verified speaker identification. claimed_entity_identity · emotion_fear_selfworth · epistemic_validation_skepticism · health_healing_claims · ontology_consciousness_dimensions · practice_enthusiasm_alignment · publisher_promotion · relationships_collective_ethics creator autobiographical monologue and publisher-attributed channeling context":
+        - cell "A18 · Spirit Channel with Athina Król":
+          - button "A18 · Spirit Channel with Athina Król"
+        - cell "The complete ASR separates a creator origin-story introduction, an announced source-attributed address, and closing reflection. Its central account combines spiritual teams and lightworkers, claimed timeline changes, and three stages of recognizing and enacting a life purpose. The announced voice transition is a source framing, not verified speaker identification."
+        - cell "claimed_entity_identity · emotion_fear_selfworth · epistemic_validation_skepticism · health_healing_claims · ontology_consciousness_dimensions · practice_enthusiasm_alignment · publisher_promotion · relationships_collective_ethics creator autobiographical monologue and publisher-attributed channeling context"
+  - heading "Candidate questions and answers" [level=2]
+  - text: Candidate kind
+  - combobox "Candidate kind":
+    - option "All kinds within this corpus" [selected]
+    - option "authored comparison prompt"
+    - option "autobiographical self question candidate"
+    - option "fragmentary interview prompt candidate"
+    - option "interview prompt candidate"
+    - option "rhetorical coaching prompt candidate"
+    - option "rhetorical guidance question candidate"
+    - option "secondary reported question candidate"
+  - text: AI prompt family
+  - combobox "AI prompt family":
+    - option "All families" [selected]
+    - option "channeling origin and validation"
+    - option "channeling process"
+    - option "contact readiness"
+    - option "cooperation and ethics"
+    - option "entity identity and contact"
+    - option "fear and beliefs"
+    - option "meaning and identity"
+    - option "practical guidance"
+    - option "prediction and uncertainty"
+    - option "reality and agency"
+  - text: Search derived paraphrases
+  - searchbox "Search derived paraphrases"
+  - button "Filter candidates"
+  - button "Export filtered candidate metadata"
+  - paragraph: 21 matching candidates in 20 selected source documents; 37 candidates in the full reading artifact. Question and answer wording is paraphrased, not a literal transcript quote.
+  - article:
+    - text: interview prompt candidate
+    - heading "What major misunderstanding do people have about how they experience reality?" [level=3]
+    - paragraph: The reply presents experience as produced through the experiencer, while expressly maintaining that other people exist. A screen-mediated conversation illustrates the difference between another person and one's representation of that person.
+    - paragraph:
+      - button "A09 · Healing + Human Potential"
+      - text: "Support window rss-1705626495-6f489902be87:query_rich · 00:48:43–00:49:48 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: fragmentary interview prompt candidate
+    - heading "What role might human consciousness play in the contact future being discussed?" [level=3]
+    - paragraph: The adjacent reply invokes already-existing alternate Earth versions and describes attention to a 2027 scenario as both a forecast and a contribution to the momentum toward that scenario. Its conditions matter for any later prediction audit.
+    - paragraph:
+      - button "A12 · Just Tap In with Emilio Ortiz"
+      - text: "Support window rss-1611118279-afab067a712d:query_rich · 00:04:53–00:05:59 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: interview prompt candidate
+    - heading "Could disclosure already have occurred in another reality, and what would that involve?" [level=3]
+    - paragraph: The reply allows many hypothetical versions with and without disclosure, then recommends examining fear-based beliefs and choosing actions and attitudes thought conducive to contact.
+    - paragraph:
+      - button "A19 · Virtual Campfire hosted by Krystal Kelley"
+      - text: "Support window rss-1556820026-35f9fd91f5ab:query_rich · 00:05:28–00:06:29 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: interview prompt candidate
+    - heading "How is persistent fear interpreted in this account of beliefs and experience?" [level=3]
+    - paragraph: The reply characterizes repeated challenges as maintained by unexamined beliefs and describes change as identifying and transforming those beliefs. This is the source's explanatory account, not a validated clinical finding.
+    - paragraph:
+      - button "A03 · Align Podcast"
+      - text: "Support window rss-988576741-1ecc5cb023cf:query_rich · 00:10:49–00:11:50 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: interview prompt candidate
+    - heading "Does the speaker personally interact with the group being discussed, and how are those beings differentiated?" [level=3]
+    - paragraph: The reply denies known personal contact with that group, while describing dream-associated interactions with other claimed beings or hybrids. It then begins a broader origin story that the sampled window does not finish.
+    - paragraph:
+      - button "A04 · Align Podcast"
+      - text: "Support window rss-988576741-f283904d1eb7:query_rich · 00:12:06–00:13:11 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: interview prompt candidate
+    - heading "What developments do the guest and the source attributed to Bashar anticipate?" [level=3]
+    - paragraph: The reply emphasizes rapid change and uncertainty, then refers listeners to a particular prior transmission instead of restating its wording. The window therefore provides a qualification and source referral rather than a complete forecast.
+    - paragraph:
+      - button "A15 · Next Level Soul Podcast with Alex Ferrari"
+      - text: "Support window rss-1560904383-7f4e01fae0ff:query_rich · 00:04:32–00:05:34 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: rhetorical coaching prompt candidate
+    - heading "How might someone distinguish a fear-based obstacle from a signal that an action is poorly timed?" [level=3]
+    - paragraph: The guidance proposes examining restrictive beliefs first, then accepting timing if no such belief is found and acting on an available alternative that feels meaningful. It stresses the reflective process rather than a guaranteed external result.
+    - paragraph:
+      - button "A10 · Healing + Human Potential"
+      - text: "Support window rss-1705626495-ae84c9540581:query_rich · 00:19:41–00:20:46 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: autobiographical self question candidate
+    - heading "Was an unusual experience merely a consequence of meditation?" [level=3]
+    - paragraph: The narrator recalls another participant's response and a drawing as reasons to regard the experience as more than imagination, followed by early informal study sessions. These are retrospective narrative claims with unverified recognition and attribution.
+    - paragraph:
+      - button "A07 · Gaia Consciousness"
+      - text: "Support window rss-1620917042-0d435eadc49d:query_rich · 00:04:35–00:05:36 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: interview prompt candidate
+    - heading "What could a person do regularly to invite contact?" [level=3]
+    - paragraph: The reply presents the source's general formula as sufficient guidance and suggests that relevant encounters will follow in an appropriate sequence. It gives no independently tested procedure or assured contact outcome.
+    - paragraph:
+      - button "A20 · Virtual Campfire hosted by Krystal Kelley"
+      - text: "Support window rss-1556820026-decefb87233c:query_rich · 00:44:36–00:45:37 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: rhetorical coaching prompt candidate
+    - heading "Can underlying needs be met through alternatives to fear-driven conflict?" [level=3]
+    - paragraph: The passage recommends discussion and constructive exploration of multiple ways to meet shared needs, while treating surface divisions as potentially different from deeper common desires.
+    - paragraph:
+      - button "A02 · ACID FOR SQUARES"
+      - text: "Support window rss-1763048673-32a6fb8cd623:query_rich · 01:29:26–01:30:28 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: interview prompt candidate
+    - heading "How did the person react during the unusual sighting being described?" [level=3]
+    - paragraph: The response recounts initial uncertainty about an ordinary aircraft, followed by a more surprising interpretation and an attempt to follow a later sighting. The account alone cannot establish what was observed.
+    - paragraph:
+      - button "A17 · SoulTalk with Kute Blackson"
+      - text: "Support window soul-talk-224-20220316:query_rich · 00:03:21–00:04:22 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - article:
+    - text: interview prompt candidate
+    - heading "When did channeling begin, and how did the initial experience feel?" [level=3]
+    - paragraph: The speaker gives an approximately forty-year history and describes early uncertainty about hallucination or meditation effects, followed by responses from others that were interpreted as corroborating the experience.
+    - paragraph:
+      - button "A06 · Danica Patrick Pretty Intense Podcast"
+      - text: "Support window rss-1465014169-8dd4267008f8:query_rich · 00:03:21–00:04:24 Speaker attribution: unknown_unsegmented. question answer turns unsegmented."
+    - group: Inspect provenance and candidate limits
+  - text: Page 1 / 2
+  - button "Previous" [disabled]
+  - button "Next"
+- status: Readings & Q&A. 20 selected documents.
+- contentinfo:
+  - paragraph: Documents and source claims are the units of this study. Lexical resemblance does not establish agreement, independent transmission, speaker identity or an extraterrestrial origin.
+  - link "Inspect actual collection and access receipts":
+    - /url: ../research/#harvest

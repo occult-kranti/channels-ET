@@ -1,0 +1,18 @@
+'use strict';
+const fs=require('fs'),path=require('path'),assert=require('assert'),crypto=require('crypto');
+const {chromium}=require('/opt/codex/cua_node/lib/node_modules/playwright');
+const base=process.env.TRANSCRIPT_REVIEW_URL||'http://127.0.0.1:8015/channels-ET/dist/transcripts/';
+const origin=new URL(base);assert(origin.protocol==='http:'&&origin.hostname==='127.0.0.1');
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+let browser;
+(async()=>{browser=await chromium.launch({headless:true,executablePath:'/usr/bin/chromium',args:['--no-sandbox','--disable-background-networking','--disable-component-update','--no-first-run']});
+const context=await browser.newContext({viewport:{width:390,height:844},serviceWorkers:'block'});let blocked=0;
+await context.route('**/*',route=>new URL(route.request().url()).origin===origin.origin?route.continue():(blocked++,route.abort()));
+const page=await context.newPage();await page.goto(base);await page.waitForSelector('h1');const data=await page.evaluate(()=>TX.data);
+await page.locator('body').ariaSnapshot();const source=page.locator('#app [data-source]').first(),id=await source.getAttribute('data-source');await source.focus();await page.keyboard.press('Enter');
+const dialog=page.locator('#source-dialog');assert(await dialog.evaluate(x=>x.open));assert(await dialog.evaluate(x=>x.scrollWidth<=x.clientWidth+1));assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+assert((await page.locator('#source-detail').innerText()).includes(data.analysis.sources.find(x=>x.sourceId===id).transcriptSha256));
+fs.writeFileSync(path.join(__dirname,'final-10-source-mobile.aria.txt'),await page.locator('body').ariaSnapshot());await page.screenshot({path:path.join(__dirname,'final-10-source-mobile.png')});
+await page.keyboard.press('Escape');assert(!await dialog.evaluate(x=>x.open));assert(await source.evaluate(x=>x===document.activeElement));
+const checks={schemaVersion:1,checkedAt:new Date().toISOString(),status:'PASS',viewport:{width:390,height:844},sourceId:id,checks:['Mobileprovenance dialog opensbykeyboard','Dialogandpage fit390pxwithout horizontaloverflow','Exactsource-textSHAvisible','Escapeclosesdialog','Keyboardfocusreturnstotrigger'],externalRequestsBlocked:blocked,dataSha256:sha(await(await context.request.get(base+'data.json',{maxRedirects:0})).body()),screenshot:'final-10-source-mobile.png'};
+fs.writeFileSync(path.join(__dirname,'mobile-dialog-review.json'),JSON.stringify(checks,null,2)+'\n');console.log(JSON.stringify(checks));await browser.close()})().catch(async e=>{console.error(e);if(browser)await browser.close();process.exitCode=1});

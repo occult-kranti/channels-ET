@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "review_scope": "Independent AI-assisted technical review of the new actual-transcript study; no human speech validation or peer-review claim",
+  "source_restrictions": "Local source bytes and saved artifacts only; independent statistical recalculation/refits allowed; no new network requests, browser access or LLM/ASR inference without root coordination",
+  "authored_output_boundary": "research/transcript-review/ only; collection-runner and source-owner files remain held",
+  "rounds": [
+    {"round": 1, "status": "method_review_complete", "artifact": "round-1-methods.md", "focus": "sampling unit, corpus boundaries, model/threshold choices, instability and alternative explanations"},
+    {"round": 2, "status": "source_numeric_construct_review_complete", "artifact": "round-2-findings.md", "focus": "Independent source/numerical/QA-pointer/construct/storage recalculation and disconfirmation"},
+    {"round": 3, "status": "final_rendered_and_binding_review_complete", "artifact": "round-3-findings.md", "focus": "Rendered paper/dashboard and export bindings against reviewed source hashes"}
+  ],
+  "critical_limits": [
+    "20 ASR recordings contain nineteen Bashar-related publisher episodes and one separate Ashtar creator episode",
+    "16 authored publications are a separate corpus with different source format and author distribution",
+    "Source recording/publication is the sampling unit; segments, output formats, publishers and entity mentions are not automatically independent samples",
+    "ASR output is unverified and host/guest/advertising/claimed-entity speech remains unsegmented",
+    "Lexical similarity, topics and co-mentions do not measure agreement or ET origin"
+  ]
+}

@@ -1,0 +1,210 @@
+- link "Skip to study":
+  - /url: "#content"
+- banner:
+  - link "Channels ET Transcript study":
+    - /url: "#overview"
+  - text: 23 October 2026 America/New_York
+  - navigation "Project":
+    - link "Acquisition ledger":
+      - /url: ../research/#harvest
+    - link "Earlier research":
+      - /url: ../research/
+    - link "Repository ↗":
+      - /url: https://github.com/occult-kranti/channels-ET
+- navigation "Study views":
+  - link "Study overview":
+    - /url: "#overview"
+  - link "Lexical maps":
+    - /url: "#maps"
+  - link "Readings & Q&A":
+    - /url: "#reading"
+  - link "Contexts & storage":
+    - /url: "#storage"
+  - link "Sources & methods":
+    - /url: "#methods"
+- main:
+  - strong: Local review candidate
+  - text: This source-backed candidate is being reviewed before publication. It does not replace the preserved scientific release.
+  - paragraph: Accounting frames · source labels are not verified voices
+  - heading "Contexts, downloads and storage" [level=1]
+  - paragraph: Inspect inherited channel associations separately from actual saved source files. Publisher RSS bytes are never assigned to a YouTube route without verified edition equivalence.
+  - heading "Actual managed local archive" [level=2]
+  - paragraph:
+    - text: "Completed and hash-verified:"
+    - strong: 200 files
+    - text: · 1.59 GiB. These are independent managed-workspace copies, not merely a transfer plan.
+  - paragraph: "Drive uploads by this workflow: 0. A Drive connection is not visible in this environment despite the user-reported connection. Environment retention guaranteed: no. Not a chat attachment or a durable Drive backup. Raw local paths are not browser download links."
+  - link "Exact local archive state ↓":
+    - /url: archive-state.json
+  - heading "YouTube collection remains separate" [level=2]
+  - paragraph:
+    - strong: 0 saved YouTube videos, audio or captions
+    - text: in the recorded worker outputs. Indexed IDs and policy selections describe metadata scope, not completed downloads.
+  - paragraph: Full channel lifetime counts and all reposter coverage remain unknown. Literal routes can be aliases; practitioner/entity/civilization associations overlap.
+  - link "Open the access, selection and runner ledger →":
+    - /url: ../research/#harvest
+  - text: Accounting frame
+  - combobox "Accounting frame":
+    - option "Inherited YouTube metadata" [selected]
+    - option "Actual canonical source files"
+  - text: Group by
+  - combobox "Group by":
+    - option "Inherited publisher groups" [selected]
+    - option "Literal channel/account routes"
+    - option "Practitioner associations"
+    - option "Inherited entity labels"
+    - option "Publisher-declared civilization labels"
+  - text: Measure
+  - combobox "Measure":
+    - option "Planned selected upload IDs" [selected]
+    - option "Indexed upload IDs"
+    - option "Metadata-eligible upload IDs"
+    - option "Actual YouTube video files"
+    - option "Actual YouTube caption files"
+    - option "Actual YouTube bytes"
+  - text: Group label / route search
+  - searchbox "Group label / route search"
+  - button "Apply accounting filters"
+  - button "Export matching group metadata"
+  - strong: Full inventory attribution coverage
+  - text: 886 / 942 IDs have an inherited association; 56 are unassigned. 886 memberships include 0 extra overlapping assignments. Missing attribution does not mean no identity; this coverage describes the full frame, before label search.
+  - paragraph: 180 matching inventory association rows. Group memberships overlap; do not sum rows as unique videos. Publisher-declared civilizations are inherited labels, distinct from dictionary mentions in transcript text.
+  - text: "Calenara 51 The Galactic Guide / The Galactic Guide / YouTube 34 Daniel Scranton / YouTube 33 Megan Rose 30 チャネラー純子 宇宙語・ライトランゲージ 30 Lorie Ladd 30 Aurora Ray 30 Blossom Goodchild 28 Ishuwa Yahyel: First ET Contact 25 elsa farrus rusiñol 24 Pamela Aaralyn Channeling 21 Pavlina Klemm 20 Psychic Medium & Trance Channel RIZ & Lady O 18 Mônica de Medeiros - Casa do Consolador 18 SOLi School | Lyssa Royal Holt 17"
+  - paragraph: "Ranking measure: selected ids. Plot shows the top 15 matching rows; table/export retain the full matching population."
+  - table:
+    - rowgroup:
+      - row "Source association Indexed IDs Eligible IDs Selected IDs Actual YouTube files / bytes":
+        - columnheader "Source association"
+        - columnheader "Indexed IDs"
+        - columnheader "Eligible IDs"
+        - columnheader "Selected IDs"
+        - columnheader "Actual YouTube files / bytes"
+    - rowgroup:
+      - row "Calenara 51 51 51 0 / 0":
+        - cell "Calenara"
+        - cell "51"
+        - cell "51"
+        - cell "51"
+        - cell "0 / 0"
+      - row "The Galactic Guide / The Galactic Guide / YouTube 34 34 34 0 / 0":
+        - cell "The Galactic Guide / The Galactic Guide / YouTube"
+        - cell "34"
+        - cell "34"
+        - cell "34"
+        - cell "0 / 0"
+      - row "Daniel Scranton / YouTube 35 33 33 0 / 0":
+        - cell "Daniel Scranton / YouTube"
+        - cell "35"
+        - cell "33"
+        - cell "33"
+        - cell "0 / 0"
+      - row "Megan Rose 30 30 30 0 / 0":
+        - cell "Megan Rose"
+        - cell "30"
+        - cell "30"
+        - cell "30"
+        - cell "0 / 0"
+      - row "チャネラー純子 宇宙語・ライトランゲージ 30 30 30 0 / 0":
+        - cell "チャネラー純子 宇宙語・ライトランゲージ"
+        - cell "30"
+        - cell "30"
+        - cell "30"
+        - cell "0 / 0"
+      - row "Lorie Ladd 30 30 30 0 / 0":
+        - cell "Lorie Ladd"
+        - cell "30"
+        - cell "30"
+        - cell "30"
+        - cell "0 / 0"
+      - row "Aurora Ray 30 30 30 0 / 0":
+        - cell "Aurora Ray"
+        - cell "30"
+        - cell "30"
+        - cell "30"
+        - cell "0 / 0"
+      - row "Blossom Goodchild 30 28 28 0 / 0":
+        - cell "Blossom Goodchild"
+        - cell "30"
+        - cell "28"
+        - cell "28"
+        - cell "0 / 0"
+      - 'row "Ishuwa Yahyel: First ET Contact 33 25 25 0 / 0"':
+        - 'cell "Ishuwa Yahyel: First ET Contact"'
+        - cell "33"
+        - cell "25"
+        - cell "25"
+        - cell "0 / 0"
+      - row "elsa farrus rusiñol 30 24 24 0 / 0":
+        - cell "elsa farrus rusiñol"
+        - cell "30"
+        - cell "24"
+        - cell "24"
+        - cell "0 / 0"
+      - row "Pamela Aaralyn Channeling 30 21 21 0 / 0":
+        - cell "Pamela Aaralyn Channeling"
+        - cell "30"
+        - cell "21"
+        - cell "21"
+        - cell "0 / 0"
+      - row "Pavlina Klemm 30 20 20 0 / 0":
+        - cell "Pavlina Klemm"
+        - cell "30"
+        - cell "20"
+        - cell "20"
+        - cell "0 / 0"
+      - row "Psychic Medium & Trance Channel RIZ & Lady O 30 18 18 0 / 0":
+        - cell "Psychic Medium & Trance Channel RIZ & Lady O"
+        - cell "30"
+        - cell "18"
+        - cell "18"
+        - cell "0 / 0"
+      - row "Mônica de Medeiros - Casa do Consolador 28 18 18 0 / 0":
+        - cell "Mônica de Medeiros - Casa do Consolador"
+        - cell "28"
+        - cell "18"
+        - cell "18"
+        - cell "0 / 0"
+      - row "SOLi School | Lyssa Royal Holt 32 17 17 0 / 0":
+        - cell "SOLi School | Lyssa Royal Holt"
+        - cell "32"
+        - cell "17"
+        - cell "17"
+        - cell "0 / 0"
+      - row "Bashar Channeling Podcast 21 20 16 0 / 0":
+        - cell "Bashar Channeling Podcast"
+        - cell "21"
+        - cell "20"
+        - cell "16"
+        - cell "0 / 0"
+      - row "Divine Light Vibes / Divine Light Vibes (repository attribution) 19 19 15 0 / 0":
+        - cell "Divine Light Vibes / Divine Light Vibes (repository attribution)"
+        - cell "19"
+        - cell "19"
+        - cell "15"
+        - cell "0 / 0"
+      - row "Divine Insights 22 22 15 0 / 0":
+        - cell "Divine Insights"
+        - cell "22"
+        - cell "22"
+        - cell "15"
+        - cell "0 / 0"
+      - row "YouTube / hgrfrequencies 32 11 11 0 / 0":
+        - cell "YouTube / hgrfrequencies"
+        - cell "32"
+        - cell "11"
+        - cell "11"
+        - cell "0 / 0"
+      - row "Wieteke Koolhof 10 10 10 0 / 0":
+        - cell "Wieteke Koolhof"
+        - cell "10"
+        - cell "10"
+        - cell "10"
+        - cell "0 / 0"
+  - text: Page 1 / 9
+  - button "Previous" [disabled]
+  - button "Next"
+- status: Contexts & storage. Source accounting and methods use their own stated populations.
+- contentinfo:
+  - paragraph: Documents and source claims are the units of this study. Lexical resemblance does not establish agreement, independent transmission, speaker identity or an extraterrestrial origin.
+  - link "Inspect actual collection and access receipts":
+    - /url: ../research/#harvest

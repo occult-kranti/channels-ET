@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-24T02:04:37.256Z",
+  "status": "PASS",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "sourceId": "rss-1763048673-1cf4301536f2",
+  "checks": [
+    "Mobileprovenance dialog opensbykeyboard",
+    "Dialogandpage fit390pxwithout horizontaloverflow",
+    "Exactsource-textSHAvisible",
+    "Escapeclosesdialog",
+    "Keyboardfocusreturnstotrigger"
+  ],
+  "externalRequestsBlocked": 0,
+  "dataSha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139",
+  "screenshot": "final-10-source-mobile.png"
+}

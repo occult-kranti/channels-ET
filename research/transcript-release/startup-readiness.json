@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "port": 8001,
+  "functional_routes": [
+    {
+      "path": "/",
+      "http_status": 200,
+      "bytes": 852,
+      "sha256": "8af52b207606622e3d805158173e86c24f364cbf0cfd4f48dfcd865c43a75ad6"
+    },
+    {
+      "path": "/dist/transcripts/",
+      "http_status": 200,
+      "bytes": 1940,
+      "sha256": "a5877df13e911c443ae70bed59b6f7db7b520081a3d6587ea88bb66f439bf416"
+    },
+    {
+      "path": "/dist/transcripts/data.json",
+      "http_status": 200,
+      "bytes": 1279654,
+      "sha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139"
+    },
+    {
+      "path": "/dist/research/",
+      "http_status": 200,
+      "bytes": 1945,
+      "sha256": "9a8a8679645ab680ab6e4ddf60319430d5b9fa5daf93a60218c59bcb96c1c6b3"
+    },
+    {
+      "path": "/dist/transcripts/reading-qa-candidates.sqlite",
+      "http_status": 200,
+      "bytes": 331776,
+      "sha256": "119ebd2357a086bf54455194874412944075c7ced0eac30abe89cb1e2132c274"
+    },
+    {
+      "path": "/dist/transcripts/paper.pdf",
+      "http_status": 200,
+      "bytes": 325223,
+      "sha256": "57102be0b866a80f7b49b9de89e6d0823d962fe8cd3f71fb229ede8d68bb700f"
+    },
+    {
+      "path": "/dist/transcripts/source.zip",
+      "http_status": 200,
+      "bytes": 199413,
+      "sha256": "604ab5db35595e2cd5cb5cdc8540671ac1e702b0333e7fb79c2cb354648b3bd2"
+    }
+  ],
+  "fresh_task_restoration_tested": false
+}

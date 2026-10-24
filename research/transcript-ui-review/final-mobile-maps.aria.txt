@@ -1,0 +1,197 @@
+- link "Skip to study":
+  - /url: "#content"
+- banner:
+  - link "Channels ET Transcript study":
+    - /url: "#overview"
+  - navigation "Project":
+    - link "Acquisition ledger":
+      - /url: ../research/#harvest
+    - link "Earlier research":
+      - /url: ../research/
+    - link "Repository ↗":
+      - /url: https://github.com/occult-kranti/channels-ET
+- navigation "Study views":
+  - link "Study overview":
+    - /url: "#overview"
+  - link "Lexical maps":
+    - /url: "#maps"
+  - link "Readings & Q&A":
+    - /url: "#reading"
+  - link "Contexts & storage":
+    - /url: "#storage"
+  - link "Sources & methods":
+    - /url: "#methods"
+- region "Transcript document filters":
+  - text: Fitted corpus
+  - combobox "Fitted corpus":
+    - option "Audio ASR · 20 documents"
+    - option "Publisher text · 16 documents" [selected]
+  - text: Publisher
+  - combobox "Publisher":
+    - option "All publishers" [selected]
+    - option "Daniel Scranton"
+    - option "Paul Selig"
+  - text: Practitioner context
+  - combobox "Practitioner context":
+    - option "All source contexts" [selected]
+    - option "Daniel Scranton"
+    - option "Paul Selig"
+  - text: Source title, publisher or ID
+  - searchbox "Source title, publisher or ID"
+  - button "Apply source filters"
+  - paragraph:
+    - strong: 16 / 16 publisher texts
+    - text: in this view. Fifteen Daniel Scranton RSS posts and one Paul Selig publisher transcript. Authored and ASR models are fitted separately. Filtering selects retained vectors; it does not refit the model.
+- main:
+  - paragraph: Fixed lexical fits · interactive source selection
+  - heading "Text relationships you can inspect" [level=1]
+  - paragraph: Similarity, topic and clustering views describe retained text. They do not compare the truth of claims or independently identify mediums or civilizations.
+  - button "Similarity network"
+  - button "Clusters & projection"
+  - button "Topics & keywords"
+  - button "TF-IDF terms"
+  - button "Claimed-label mentions"
+  - button "Time profiles" [pressed]
+  - text: Keyword family
+  - combobox "Keyword family":
+    - option "contact disclosure" [selected]
+    - option "belief reality agency"
+    - option "emotion fear selfworth"
+    - option "practice enthusiasm alignment"
+    - option "ontology consciousness dimensions"
+    - option "claimed entity identity"
+    - option "epistemic validation skepticism"
+    - option "health healing claims"
+    - option "relationships collective ethics"
+    - option "commercial promotion"
+  - paragraph:
+    - strong: "Active model: 16-document authored-text fit."
+    - text: 16 source documents selected. Topic IDs, cluster labels and cosine values remain scoped to this fit.
+  - paragraph: Decoded-audio time profiles apply only to the ASR corpus. Switch to Audio ASR to inspect ten-bin trajectories; authored texts have no verified audiovisual timeline.
+  - heading "Documents behind this view" [level=2]
+  - table:
+    - rowgroup:
+      - row "Source / publisher Source context / format Common tokens Audio duration":
+        - columnheader "Source / publisher"
+        - columnheader "Source context / format"
+        - columnheader "Common tokens"
+        - columnheader "Audio duration"
+    - rowgroup:
+      - row "T01 · Are You Ever Going to Go Home? ∞The Creators Daniel Scranton The Creators (source label) authored RSS with promotions and footer 856 Authored text":
+        - cell "T01 · Are You Ever Going to Go Home? ∞The Creators Daniel Scranton":
+          - button "T01 · Are You Ever Going to Go Home? ∞The Creators"
+          - text: Daniel Scranton
+        - cell "The Creators (source label) authored RSS with promotions and footer"
+        - cell "856"
+        - cell "Authored text"
+      - row "T02 · Ancient Arcturian Practices ∞The 9D Arcturian Council Daniel Scranton Arcturian Council (source label) authored RSS with promotions and footer 761 Authored text":
+        - cell "T02 · Ancient Arcturian Practices ∞The 9D Arcturian Council Daniel Scranton":
+          - button "T02 · Ancient Arcturian Practices ∞The 9D Arcturian Council"
+          - text: Daniel Scranton
+        - cell "Arcturian Council (source label) authored RSS with promotions and footer"
+        - cell "761"
+        - cell "Authored text"
+      - 'row "T03 · Buckle Up…You Are the Humans We’ve Been Waiting For ∞Ashanti: The ET/Human Hybrid Daniel Scranton Ashanti (source label) authored RSS with promotions and footer 523 Authored text"':
+        - 'cell "T03 · Buckle Up…You Are the Humans We’ve Been Waiting For ∞Ashanti: The ET/Human Hybrid Daniel Scranton"':
+          - 'button "T03 · Buckle Up…You Are the Humans We’ve Been Waiting For ∞Ashanti: The ET/Human Hybrid"'
+          - text: Daniel Scranton
+        - cell "Ashanti (source label) authored RSS with promotions and footer"
+        - cell "523"
+        - cell "Authored text"
+      - row "T04 · We Will Keep Telling You this Until You Get It ∞The Creators Daniel Scranton The Creators (source label) authored RSS with promotions and footer 756 Authored text":
+        - cell "T04 · We Will Keep Telling You this Until You Get It ∞The Creators Daniel Scranton":
+          - button "T04 · We Will Keep Telling You this Until You Get It ∞The Creators"
+          - text: Daniel Scranton
+        - cell "The Creators (source label) authored RSS with promotions and footer"
+        - cell "756"
+        - cell "Authored text"
+      - row "T05 · This Has Never Been Seen Before on Earth ∞St. Germain Daniel Scranton Saint Germain (source label) authored RSS with promotions and footer 691 Authored text":
+        - cell "T05 · This Has Never Been Seen Before on Earth ∞St. Germain Daniel Scranton":
+          - button "T05 · This Has Never Been Seen Before on Earth ∞St. Germain"
+          - text: Daniel Scranton
+        - cell "Saint Germain (source label) authored RSS with promotions and footer"
+        - cell "691"
+        - cell "Authored text"
+      - row "T06 · Receive These Downloads & Our Guarantee ∞The 12D Creators Daniel Scranton The Creators (source label) authored RSS with promotions and footer 678 Authored text":
+        - cell "T06 · Receive These Downloads & Our Guarantee ∞The 12D Creators Daniel Scranton":
+          - button "T06 · Receive These Downloads & Our Guarantee ∞The 12D Creators"
+          - text: Daniel Scranton
+        - cell "The Creators (source label) authored RSS with promotions and footer"
+        - cell "678"
+        - cell "Authored text"
+      - row "T07 · This is So Important ∞Saint Germain Daniel Scranton Saint Germain (source label) authored RSS with promotions and footer 705 Authored text":
+        - cell "T07 · This is So Important ∞Saint Germain Daniel Scranton":
+          - button "T07 · This is So Important ∞Saint Germain"
+          - text: Daniel Scranton
+        - cell "Saint Germain (source label) authored RSS with promotions and footer"
+        - cell "705"
+        - cell "Authored text"
+      - row "T08 · A Call Coming from Arcturus ∞The 9th Dimensional Arcturian Council Daniel Scranton Arcturian Council (source label) authored RSS with promotions and footer 814 Authored text":
+        - cell "T08 · A Call Coming from Arcturus ∞The 9th Dimensional Arcturian Council Daniel Scranton":
+          - button "T08 · A Call Coming from Arcturus ∞The 9th Dimensional Arcturian Council"
+          - text: Daniel Scranton
+        - cell "Arcturian Council (source label) authored RSS with promotions and footer"
+        - cell "814"
+        - cell "Authored text"
+      - row "T09 · Is All of Your Data Being Shared? ∞The 12D Creators Daniel Scranton The Creators (source label) authored RSS with promotions and footer 734 Authored text":
+        - cell "T09 · Is All of Your Data Being Shared? ∞The 12D Creators Daniel Scranton":
+          - button "T09 · Is All of Your Data Being Shared? ∞The 12D Creators"
+          - text: Daniel Scranton
+        - cell "The Creators (source label) authored RSS with promotions and footer"
+        - cell "734"
+        - cell "Authored text"
+      - 'row "T10 · The Ascended Masters Invite You ∞Thymus: The Collective of Ascended Masters Daniel Scranton Thymus (source label) authored RSS with promotions and footer 646 Authored text"':
+        - 'cell "T10 · The Ascended Masters Invite You ∞Thymus: The Collective of Ascended Masters Daniel Scranton"':
+          - 'button "T10 · The Ascended Masters Invite You ∞Thymus: The Collective of Ascended Masters"'
+          - text: Daniel Scranton
+        - cell "Thymus (source label) authored RSS with promotions and footer"
+        - cell "646"
+        - cell "Authored text"
+      - row "T11 · Claim the New Earth ∞The 9th Dimensional Arcturian Council Daniel Scranton Arcturian Council (source label) authored RSS with promotions and footer 803 Authored text":
+        - cell "T11 · Claim the New Earth ∞The 9th Dimensional Arcturian Council Daniel Scranton":
+          - button "T11 · Claim the New Earth ∞The 9th Dimensional Arcturian Council"
+          - text: Daniel Scranton
+        - cell "Arcturian Council (source label) authored RSS with promotions and footer"
+        - cell "803"
+        - cell "Authored text"
+      - row "T12 · Welcome Back, Humans ∞Saint Germain Daniel Scranton Saint Germain (source label) authored RSS with promotions and footer 756 Authored text":
+        - cell "T12 · Welcome Back, Humans ∞Saint Germain Daniel Scranton":
+          - button "T12 · Welcome Back, Humans ∞Saint Germain"
+          - text: Daniel Scranton
+        - cell "Saint Germain (source label) authored RSS with promotions and footer"
+        - cell "756"
+        - cell "Authored text"
+      - row "T13 · A Guarantee from The Creators ∞The 12D Creators Daniel Scranton The Creators (source label) authored RSS with promotions and footer 754 Authored text":
+        - cell "T13 · A Guarantee from The Creators ∞The 12D Creators Daniel Scranton":
+          - button "T13 · A Guarantee from The Creators ∞The 12D Creators"
+          - text: Daniel Scranton
+        - cell "The Creators (source label) authored RSS with promotions and footer"
+        - cell "754"
+        - cell "Authored text"
+      - row "T14 · St. Germain Invites Us to Do This ∞Saint Germain Daniel Scranton Saint Germain (source label) authored RSS with promotions and footer 747 Authored text":
+        - cell "T14 · St. Germain Invites Us to Do This ∞Saint Germain Daniel Scranton":
+          - button "T14 · St. Germain Invites Us to Do This ∞Saint Germain"
+          - text: Daniel Scranton
+        - cell "Saint Germain (source label) authored RSS with promotions and footer"
+        - cell "747"
+        - cell "Authored text"
+      - row "T15 · Live on a Very Different Planet Earth ∞The 12D Creators Daniel Scranton The Creators (source label) authored RSS with promotions and footer 763 Authored text":
+        - cell "T15 · Live on a Very Different Planet Earth ∞The 12D Creators Daniel Scranton":
+          - button "T15 · Live on a Very Different Planet Earth ∞The 12D Creators"
+          - text: Daniel Scranton
+        - cell "The Creators (source label) authored RSS with promotions and footer"
+        - cell "763"
+        - cell "Authored text"
+      - row "T16 · The Expression of the True Self Paul Selig Spiritual Guides (comparison) publisher issued Guides transcript 2,569 Authored text":
+        - cell "T16 · The Expression of the True Self Paul Selig":
+          - button "T16 · The Expression of the True Self"
+          - text: Paul Selig
+        - cell "Spiritual Guides (comparison) publisher issued Guides transcript"
+        - cell "2,569"
+        - cell "Authored text"
+  - button "Export the shown core/reference source metadata"
+- status: Lexical maps. 16 selected documents.
+- contentinfo:
+  - paragraph: Documents and source claims are the units of this study. Lexical resemblance does not establish agreement, independent transmission, speaker identity or an extraterrestrial origin.
+  - link "Inspect actual collection and access receipts":
+    - /url: ../research/#harvest

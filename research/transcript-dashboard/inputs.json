@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 1,
+  "releaseState": "final_owner_holds_and_reviewed",
+  "inputs": [
+    {
+      "source": "research/transcript-analysis/analysis.json",
+      "target": "analysis.json",
+      "key": "analysis",
+      "sha256": "14ccb929d1613b72fbb437ba995e5c7b5a8b17cd6cbffe1f2a126f5d7b81ea14",
+      "label": "Complete transcript-analysis results",
+      "kind": "Derived numerical models, dictionary counts and source metadata"
+    },
+    {
+      "source": "research/transcript-analysis/protocol.json",
+      "target": "analysis-protocol.json",
+      "key": "protocol",
+      "sha256": "6beb40a604b599d96783a21cbed37bc803db526898737a0b18eb284605f55707",
+      "label": "Transcript-analysis protocol",
+      "kind": "Tokenization, separate fit definitions and interpretive limits"
+    },
+    {
+      "source": "research/transcript-analysis/sources.json",
+      "target": "sources.json",
+      "key": null,
+      "sha256": "41857e4235b4eef861c68cfde234d3fd47b5cb56b264f996b068e8ea1ce798e1",
+      "label": "All36analytical source documents",
+      "kind": "Source IDs, modalities, token counts and retained hashes"
+    },
+    {
+      "source": "research/transcript-analysis/figures/source-coverage.pdf",
+      "target": "figures/source-coverage.pdf",
+      "key": null,
+      "sha256": "d5a90dbfab138bf4641db7f8c3b24411350c79f0c438f38737d2f8a8dce0bad8",
+      "label": "source coverage \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/source-coverage.svg",
+      "target": "figures/source-coverage.svg",
+      "key": null,
+      "sha256": "4ffb8da2783e25e0ff8b13dd66c69932e929e23e5f2da2d115dda448cefbf9bd",
+      "label": "source coverage \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/source-coverage.png",
+      "target": "figures/source-coverage.png",
+      "key": null,
+      "sha256": "e11a1975c46c97552a59113a2c8e9a10cb1f63121bd33f39654bf7bc911715b7",
+      "label": "source coverage \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-cosine.pdf",
+      "target": "figures/audio-cosine.pdf",
+      "key": null,
+      "sha256": "741f4358bcd47a8d3e1df3a1acf20d2c693c30061bd9e3da1f0fafa3cdeb75aa",
+      "label": "audio cosine \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-cosine.svg",
+      "target": "figures/audio-cosine.svg",
+      "key": null,
+      "sha256": "898577e389c448398d3311c475698a6e169242a7a5c6a2dd9a6fa687a9e72bd4",
+      "label": "audio cosine \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-cosine.png",
+      "target": "figures/audio-cosine.png",
+      "key": null,
+      "sha256": "bf77729b8d533cbe5b97ad1a90902169716fed231f9c3cc2410211a73779543e",
+      "label": "audio cosine \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/source-overlay.pdf",
+      "target": "figures/source-overlay.pdf",
+      "key": null,
+      "sha256": "6ad6bff844a98ec5d0807a8d4d8942536b948fc220e4047a2c9948a5587b58ff",
+      "label": "source overlay \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/source-overlay.svg",
+      "target": "figures/source-overlay.svg",
+      "key": null,
+      "sha256": "88c2f32e926a1fa790d0c0895acf39189f6ffb1ec0befc13ef4ed78289123288",
+      "label": "source overlay \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/source-overlay.png",
+      "target": "figures/source-overlay.png",
+      "key": null,
+      "sha256": "286624ce6b71aebb520a989fa69b9eebedfb238979253821936117af3b5c325f",
+      "label": "source overlay \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-topics.pdf",
+      "target": "figures/audio-topics.pdf",
+      "key": null,
+      "sha256": "ff295a2ddaf021ed9563d4b62a15bae95a702b9b0b4f3048111eefc7ad98dd10",
+      "label": "audio topics \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-topics.svg",
+      "target": "figures/audio-topics.svg",
+      "key": null,
+      "sha256": "d102fddf4a23fdec1bca4f6abe82c1a4411b66c05429b94dee1c8751bc65a5e2",
+      "label": "audio topics \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-topics.png",
+      "target": "figures/audio-topics.png",
+      "key": null,
+      "sha256": "8a927018e0a2a244b8211c1b3f8d54fbc38e164775243bca5ba659bc25b2b731",
+      "label": "audio topics \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/theme-overlay.pdf",
+      "target": "figures/theme-overlay.pdf",
+      "key": null,
+      "sha256": "4ab18c2ccd63c5fb81b46b55dfe2bb63df0785b5062749f3b4b87ca5552e20dd",
+      "label": "theme overlay \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/theme-overlay.svg",
+      "target": "figures/theme-overlay.svg",
+      "key": null,
+      "sha256": "998280d66e60841af619438b77aab7786565998738920211b882b0e3a6f2e356",
+      "label": "theme overlay \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/theme-overlay.png",
+      "target": "figures/theme-overlay.png",
+      "key": null,
+      "sha256": "b3ebd5f16b7f44240900f192a9152b63ebf64af9913592d41b4d6af5228d8c92",
+      "label": "theme overlay \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/document-network.pdf",
+      "target": "figures/document-network.pdf",
+      "key": null,
+      "sha256": "a45b4bd2496a31b4db421ed2619d5cb0858938bb77b8f8b141eb65b0195cf5c5",
+      "label": "document network \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/document-network.svg",
+      "target": "figures/document-network.svg",
+      "key": null,
+      "sha256": "c43afcd86a0c7ed761cbf0d8b5cb7baf670590f557902dfcf27fa76d1a3af627",
+      "label": "document network \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/document-network.png",
+      "target": "figures/document-network.png",
+      "key": null,
+      "sha256": "6411590ec0ae4a803544bd5d90bcb835252d8505fdcff80000fcd00633320db8",
+      "label": "document network \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/civilization-mentions.pdf",
+      "target": "figures/civilization-mentions.pdf",
+      "key": null,
+      "sha256": "6233668719efa7d34fe6f10ca6296d8314a91cdf8cde786a467f9fec81be433e",
+      "label": "civilization mentions \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/civilization-mentions.svg",
+      "target": "figures/civilization-mentions.svg",
+      "key": null,
+      "sha256": "40ad26c160261c2b8979ce49df352c43cbfd9e75b84561cedd27dc94c1e1d914",
+      "label": "civilization mentions \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/civilization-mentions.png",
+      "target": "figures/civilization-mentions.png",
+      "key": null,
+      "sha256": "a2c9117a27240240eeff558a842ddb3a8053f059601198cf4d9676d97f5eb016",
+      "label": "civilization mentions \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/model-diagnostics.pdf",
+      "target": "figures/model-diagnostics.pdf",
+      "key": null,
+      "sha256": "640b34034ce39ca18591ac0c52217f4f45eb4cff141e862396c5d2957a9ba3a1",
+      "label": "model diagnostics \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/model-diagnostics.svg",
+      "target": "figures/model-diagnostics.svg",
+      "key": null,
+      "sha256": "bd507752207fb10907893d194d864cf491a4510294e8c5505f3556b0f3fc2a04",
+      "label": "model diagnostics \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/model-diagnostics.png",
+      "target": "figures/model-diagnostics.png",
+      "key": null,
+      "sha256": "2b7fe0b64e54d3d4c29e007a122d71249a6225f299c2836e0443a3e6a487fd9c",
+      "label": "model diagnostics \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-time-profiles.pdf",
+      "target": "figures/audio-time-profiles.pdf",
+      "key": null,
+      "sha256": "cffb278f5c1e8e0d584cc5473e99dac9f14ca59f1b09db730e6b100eb3cdaa6b",
+      "label": "audio time profiles \u00b7 PDF",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-time-profiles.svg",
+      "target": "figures/audio-time-profiles.svg",
+      "key": null,
+      "sha256": "d0d6313ce0a5c6c0802aecce750dc9b7af5203e9769a223ce90e4776a2b39710",
+      "label": "audio time profiles \u00b7 SVG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-analysis/figures/audio-time-profiles.png",
+      "target": "figures/audio-time-profiles.png",
+      "key": null,
+      "sha256": "fccad914862d6d8345f6ca5c2ad3f2168772abef84bcc4f1b4c2fe4f26e070ad",
+      "label": "audio time profiles \u00b7 PNG",
+      "kind": "Full-fit standalone figure; not dynamically filtered"
+    },
+    {
+      "source": "research/transcript-reading/documents.json",
+      "target": "reading-documents.json",
+      "key": "reading.documents",
+      "sha256": "f9161c6455b89355c6c16f91dabd5fa3990ea0900c18c580cbcd9c9b361d30f7",
+      "label": "Reader source metadata",
+      "kind": "AI source-reading metadata and paraphrases; no verbatim source text"
+    },
+    {
+      "source": "research/transcript-reading/summary.json",
+      "target": "reading-summary.json",
+      "key": "reading.summary",
+      "sha256": "a1d4ddd156bb77b3fdaa1d13cf2cd185cfa51b49d5b7f2876927fc6a6656abff",
+      "label": "AI sampled-reading coverage",
+      "kind": "AI source-reading metadata and paraphrases; no verbatim source text"
+    },
+    {
+      "source": "research/transcript-reading/qualitative-codes.json",
+      "target": "reading-qualitative-codes.json",
+      "key": "reading.codes",
+      "sha256": "546867131e1910f1d3f016cb90896c418c46ae815274ecc5be71fcf243836738",
+      "label": "Source-level AI synthesis and codes",
+      "kind": "AI source-reading metadata and paraphrases; no verbatim source text"
+    },
+    {
+      "source": "research/transcript-reading/qa-candidates.json",
+      "target": "reading-qa-candidates.json",
+      "key": "reading.qa",
+      "sha256": "1401391a2b0ff69ca1e4c2f4705431686770469dbb6db5f3a9e04ff2c3ba93c6",
+      "label": "Paraphrased source-question candidates",
+      "kind": "AI source-reading metadata and paraphrases; no verbatim source text"
+    },
+    {
+      "source": "research/transcript-reading/qa-candidates.sqlite",
+      "target": "reading-qa-candidates.sqlite",
+      "key": null,
+      "sha256": "119ebd2357a086bf54455194874412944075c7ced0eac30abe89cb1e2132c274",
+      "label": "Separate actual-source Q&A database",
+      "kind": "AI source-reading metadata and paraphrases; no verbatim source text"
+    },
+    {
+      "source": "research/transcript-reading/codebook.json",
+      "target": "reading-codebook.json",
+      "key": "reading.codebook",
+      "sha256": "b97e1c792fe2ac2d841b100b9901bf98eb3b8981b8198a421cbaa751a382b2cd",
+      "label": "AI qualitative codebook",
+      "kind": "AI source-reading metadata and paraphrases; no verbatim source text"
+    },
+    {
+      "source": "research/transcript-reading/reading-windows.json",
+      "target": "reading-reading-windows.json",
+      "key": "reading.windows",
+      "sha256": "4aabe23633446de290290d225de2552b59ef07978013bac7d19373eb92fdf83a",
+      "label": "Sampled support-window locators",
+      "kind": "AI source-reading metadata and paraphrases; no verbatim source text"
+    },
+    {
+      "source": "research/storage-distributions/distributions.json",
+      "target": "storage-distributions.json",
+      "key": "distributions",
+      "sha256": "9c331398dcddeb36180257fe2b902138fd1a39dc618a16657176f708473bf375",
+      "label": "Channel, context and source-storage distributions",
+      "kind": "Inherited overlapping associations and assigned canonical-file partitions"
+    },
+    {
+      "source": "research/storage-distributions/attribution-coverage.csv",
+      "target": "distributions/attribution-coverage.csv",
+      "key": null,
+      "sha256": "2c122ad47f9295d4ebbdb6e3e0a6c6a59482bf4af3af1beebd99168c0413b0ce",
+      "label": "attribution coverage distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/byEntityLabel.csv",
+      "target": "distributions/byEntityLabel.csv",
+      "key": null,
+      "sha256": "299abbfeb1740401a2ec66b1175fdb26b7db037ee1003e2d18e2352c6c944c02",
+      "label": "byEntityLabel distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/byPractitionerAssociation.csv",
+      "target": "distributions/byPractitionerAssociation.csv",
+      "key": null,
+      "sha256": "9765f574c4a0f531a8f29901294cceb648f1bf655e90e7c79740160bd12931df",
+      "label": "byPractitionerAssociation distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/byPublisherDeclaredCivilization.csv",
+      "target": "distributions/byPublisherDeclaredCivilization.csv",
+      "key": null,
+      "sha256": "317d5abf0e430a14ad35082ef4042b2c7bf9cc4150db7683df7f410447ffc602",
+      "label": "byPublisherDeclaredCivilization distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/byPublisherGroup.csv",
+      "target": "distributions/byPublisherGroup.csv",
+      "key": null,
+      "sha256": "5858b2fab678bfa2383f5dfa5661e8355190188d7ea26e91ffe24413a203c512",
+      "label": "byPublisherGroup distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/byRoute.csv",
+      "target": "distributions/byRoute.csv",
+      "key": null,
+      "sha256": "9219f94e4719c48f8953588c9a5eed851c28ac2b57d8523a7e52788ab4247a8a",
+      "label": "byRoute distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/storage-byPractitionerContext.csv",
+      "target": "distributions/storage-byPractitionerContext.csv",
+      "key": null,
+      "sha256": "aa69b32a01627efcad620d6929a068fb8a4edfa0342b71ee6d50513623ded186",
+      "label": "storage byPractitionerContext distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/storage-byProvider.csv",
+      "target": "distributions/storage-byProvider.csv",
+      "key": null,
+      "sha256": "46285cf931e2049d3c4bee4bcbe13860c24b27766a2f156947c1581bf5780bb7",
+      "label": "storage byProvider distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/storage-byPublisher.csv",
+      "target": "distributions/storage-byPublisher.csv",
+      "key": null,
+      "sha256": "c2c1d870933bca73cc4a62b51e201a125ef63a2eb682a297d76af6a68311a714",
+      "label": "storage byPublisher distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/storage-distributions/storage-bySourceContext.csv",
+      "target": "distributions/storage-bySourceContext.csv",
+      "key": null,
+      "sha256": "a2f01e6a84bd0ee941c5992a6a10ef67d41bea1d79500d9279fd81c21fbeffca",
+      "label": "storage bySourceContext distribution",
+      "kind": "Source-bound accounting CSV; overlapping labels remain explicit"
+    },
+    {
+      "source": "research/cloud-archive/archive-state.json",
+      "target": "archive-state.json",
+      "key": "archive.state",
+      "sha256": "4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4",
+      "label": "Actual managed local archive state",
+      "kind": "Managed-local copies; not a Drive upload or durable attachment"
+    },
+    {
+      "source": "research/cloud-archive/archive-receipt.json",
+      "target": "archive-receipt.json",
+      "key": "archive.receipt",
+      "sha256": "58ce8d8cfcba0034ffa8a91d1aa3200f50a036fe535e9623aa4d48fcb1c7701f",
+      "label": "Verified local archive file checksums",
+      "kind": "Managed-local copies; not a Drive upload or durable attachment"
+    },
+    {
+      "source": "research/cloud-archive/verification.json",
+      "target": "verification.json",
+      "key": null,
+      "sha256": "ed1b7a944eb3386cb974757b00895b98b3f589b87a2550e0fa72df63d9cd9637",
+      "label": "Local archive verification",
+      "kind": "Managed-local copies; not a Drive upload or durable attachment"
+    },
+    {
+      "source": "research/harvest/asr/summary.json",
+      "target": "source-receipts/original19-asr.json",
+      "key": null,
+      "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba",
+      "label": "original19 asr",
+      "kind": "Original dated metadata receipt; no raw source audio/text"
+    },
+    {
+      "source": "research/access-repair/athina/asr/310c6d538a438cee6ba4-receipt.json",
+      "target": "source-receipts/athina-asr.json",
+      "key": null,
+      "sha256": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7",
+      "label": "athina asr",
+      "kind": "Original dated metadata receipt; no raw source audio/text"
+    },
+    {
+      "source": "research/access-repair/primary-sources/expanded-metadata.json",
+      "target": "source-receipts/primary-source-metadata.json",
+      "key": null,
+      "sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca",
+      "label": "primary source metadata",
+      "kind": "Original dated metadata receipt; no raw source audio/text"
+    },
+    {
+      "source": "research/transcript-reading/interpretive-findings.json",
+      "target": "reading-interpretive-findings.json",
+      "key": "reading.findings",
+      "sha256": "3917d9bb5b69186667c07ffa6331db2375b82e64e3698ef5af5c261ea6c62e9a",
+      "label": "Six source-bound AI interpretive leads",
+      "kind": "AI paraphrase/context review; no audio-verified alias or semantic validation"
+    },
+    {
+      "source": "research/transcript-reading/posthoc-entity-spelling-review.json",
+      "target": "reading-posthoc-entity-spelling-review.json",
+      "key": "reading.spelling",
+      "sha256": "07818e5f60d9ea4396c884322670928ac687c00d4ba0ae123fb8e0ed1c6bd071",
+      "label": "Post-hoc entity-spelling sensitivity review",
+      "kind": "AI paraphrase/context review; no audio-verified alias or semantic validation"
+    },
+    {
+      "source": "research/transcript-analysis/README.md",
+      "target": "analysis-README.md",
+      "key": null,
+      "sha256": "c0fe67860c1df7dd7513e78925a52aad7e5f770f56385f4de1df2736cf92fcf0",
+      "label": "Transcript analysis methods and reproduction",
+      "kind": "Reproducible numerical methods and checks; no raw source text"
+    },
+    {
+      "source": "research/transcript-analysis/verification.json",
+      "target": "analysis-verification.json",
+      "key": null,
+      "sha256": "7dd189c096ae8373eebbb4abe90a77eedb06bd6ea69d569d4ace99bc73b885dd",
+      "label": "Transcript analysis numerical verification",
+      "kind": "Reproducible numerical methods and checks; no raw source text"
+    },
+    {
+      "source": "research/transcript-analysis/tables/audio-cosine-pairs.csv",
+      "target": "tables/audio-cosine-pairs.csv",
+      "key": null,
+      "sha256": "3509a31ae47a7281f052b5169df1f0ed42fbd28d30d831619d71e5c1fa94f5a9",
+      "label": "audio cosine pairs numerical table",
+      "kind": "Derived source-bound CSV; fitted corpus and denominators retained"
+    },
+    {
+      "source": "research/transcript-analysis/tables/nmf-candidates.csv",
+      "target": "tables/nmf-candidates.csv",
+      "key": null,
+      "sha256": "eb3c2e41247b69e11872d6d38cd4e4127183baef9f840c397bbc9300a86b9876",
+      "label": "nmf candidates numerical table",
+      "kind": "Derived source-bound CSV; fitted corpus and denominators retained"
+    },
+    {
+      "source": "research/transcript-analysis/tables/cluster-candidates.csv",
+      "target": "tables/cluster-candidates.csv",
+      "key": null,
+      "sha256": "ac1fb54fb97adcc0d4c16eb0151379afe928a85dcc6a2c60f6597021c5ad1c1f",
+      "label": "cluster candidates numerical table",
+      "kind": "Derived source-bound CSV; fitted corpus and denominators retained"
+    },
+    {
+      "source": "research/transcript-analysis/tables/leave-one-publisher-out.csv",
+      "target": "tables/leave-one-publisher-out.csv",
+      "key": null,
+      "sha256": "3e5cffd06438efb3eaf9a9416e69aab0f507b92fda5f4acb2fe844181790bbdc",
+      "label": "leave one publisher out numerical table",
+      "kind": "Derived source-bound CSV; fitted corpus and denominators retained"
+    },
+    {
+      "source": "research/transcript-analysis/tables/sources.csv",
+      "target": "tables/sources.csv",
+      "key": null,
+      "sha256": "71601be05dd1d30dc332e5d66b5cbd024454532717f5486e6c26ca10df7366b6",
+      "label": "sources numerical table",
+      "kind": "Derived source-bound CSV; fitted corpus and denominators retained"
+    },
+    {
+      "source": "research/transcript-analysis/tables/theme-rates.csv",
+      "target": "tables/theme-rates.csv",
+      "key": null,
+      "sha256": "ea436f8d16c5b97ab1452b4be15cd9406d3c0a2dbe212e19833f6772708e0292",
+      "label": "theme rates numerical table",
+      "kind": "Derived source-bound CSV; fitted corpus and denominators retained"
+    },
+    {
+      "source": "research/transcript-analysis/tables/civilization-mentions.csv",
+      "target": "tables/civilization-mentions.csv",
+      "key": null,
+      "sha256": "97a8f14c01d9c8400b8078589039a7e2b11846471b1194e18b1d4da23814920e",
+      "label": "civilization mentions numerical table",
+      "kind": "Derived source-bound CSV; fitted corpus and denominators retained"
+    },
+    {
+      "source": "research/transcript-analysis/tables/topic-weights.csv",
+      "target": "tables/topic-weights.csv",
+      "key": null,
+      "sha256": "04dd7202248715dfa0d79aefc620603603ba2ca12d900b43096a9d818c015a57",
+      "label": "topic weights numerical table",
+      "kind": "Derived source-bound CSV; fitted corpus and denominators retained"
+    },
+    {
+      "source": "research/transcript-reading/README.md",
+      "target": "reading-README.md",
+      "key": null,
+      "sha256": "b363beb0a06f3302935438df071558efc111563b71100bcb628e793ac0c977bb",
+      "label": "AI reading methods and coverage",
+      "kind": "AI sampled-window methods and metadata consistency; not human validation"
+    },
+    {
+      "source": "research/transcript-reading/verification.json",
+      "target": "reading-verification.json",
+      "key": null,
+      "sha256": "6a7c0e407300311ab237def885afcac498f45f3f3ebcb17b37004dcf76758cd7",
+      "label": "Source-reading and Q&A verification",
+      "kind": "AI sampled-window methods and metadata consistency; not human validation"
+    },
+    {
+      "source": "research/transcript-paper/channels-et-transcript-paper.pdf",
+      "target": "paper.pdf",
+      "key": null,
+      "sha256": "57102be0b866a80f7b49b9de89e6d0823d962fe8cd3f71fb229ede8d68bb700f",
+      "label": "New actual-transcript study paper PDF",
+      "kind": "Separate22-page transcript study; historical paper unchanged"
+    },
+    {
+      "source": "research/transcript-paper/channels-et-transcript-source.zip",
+      "target": "source.zip",
+      "key": null,
+      "sha256": "604ab5db35595e2cd5cb5cdc8540671ac1e702b0333e7fb79c2cb354648b3bd2",
+      "label": "Portable transcript-study manuscript source ZIP",
+      "kind": "Separate22-page transcript study; historical paper unchanged"
+    }
+  ]
+}

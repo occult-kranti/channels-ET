@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "stage": "exploratory_source_bound_lexical_analysis",
+  "primaryUnit": "one independently published complete audio recording, represented by its unverified automatic transcript",
+  "primaryCohort": {
+    "documents": 20,
+    "basharContext": 19,
+    "athinaAshtarContext": 1
+  },
+  "comparisonCohort": {
+    "documents": 16,
+    "danielAuthoredRss": 15,
+    "paulPublisherTranscript": 1
+  },
+  "speakerOrExtraterrestrialIdentityVerified": false,
+  "newYoutubeVideoDownloads": 0,
+  "tokenizer": "Unicode NFKC, curly apostrophe normalization, lowercase ASCII alphabetic words with optional internal apostrophe; lexical-rate denominator includes one-letter tokens; TF-IDF excludes one-letter tokens",
+  "receiptWordCounts": "Preserved separately from common analysis-token counts; ASR receipt uses whitespace words, authored receipt uses its original extractor definition",
+  "tfidf": {
+    "ngramRange": [
+      1,
+      2
+    ],
+    "sublinearTf": true,
+    "smoothIdf": true,
+    "norm": "l2",
+    "minDf": 2,
+    "maxDf": 0.95,
+    "maxFeatures": 3000,
+    "stopWords": "sklearn English stoplist excluding no/not/nor/never, plus predeclared spoken filler list in build.py",
+    "fits": "20 ASR documents and 16 publisher texts fitted separately",
+    "crossModality": "Publisher texts transformed in the ASR-fitted vocabulary/IDF only for labeled lexical projection; no pooled topic or cluster fit"
+  },
+  "topics": {
+    "algorithm": "NMF",
+    "selectedDisplayK": 3,
+    "selection": "Predeclared interpretability display choice, not an estimated true number of topics",
+    "candidateK": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seeds": [
+      11,
+      23,
+      47,
+      71,
+      97
+    ],
+    "init": "random",
+    "solver": "cd",
+    "maxIter": 1500,
+    "rowNormalization": "Nonnegative document-topic weights normalized to sum1",
+    "stability": "Hungarian matched mean cosine of L2-normalized topic-term rows relative to seed11 at each K; diagnostic, not validity",
+    "fits": "Separate20audio and16publisher-text fits; topic IDs and weights are never pooled"
+  },
+  "clusters": {
+    "algorithm": "KMeans on document TF-IDF",
+    "candidateK": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "nInit": 30,
+    "seeds": [
+      11,
+      23,
+      47,
+      71,
+      97
+    ],
+    "displaySelection": "Highest cosine silhouette among seed11 candidate fits; all candidates retained",
+    "stability": "Adjusted Rand index against seed11 labels across seeds",
+    "projection": "Two-component TruncatedSVD fitted only to ASR TF-IDF; publisher comparison points are projections through the same fitted vocabulary and SVD",
+    "fits": "Separate20audio and16publisher-text fits; source/genre/singleton effects exposed"
+  },
+  "themes": "Overlapping predeclared lexical dictionaries aligned to provisional qualitative-reading code labels; counts are mentions, not validated semantic labels",
+  "claimedCivilizations": "Explicit word-pattern families only; separate from practitioner/entity names and source-attributed groups. Orion and star-system names may be astronomical/fictional mentions. No disambiguated identity or civilization ontology is claimed.",
+  "rates": "Pattern occurrences per1000 common analysis tokens; equal-document group means are primary; pooled-word group rates retained as a length sensitivity",
+  "networks": {
+    "documentEdges": "Undirected union of each document's two nearest lexical neighbors with cosine>=0.20",
+    "thresholdSensitivity": [
+      0.15,
+      0.25,
+      0.35,
+      0.45,
+      0.55,
+      0.65,
+      0.75
+    ],
+    "civilizationEdges": "Documents containing both dictionary families, counted once per document, separately by modality",
+    "channelTopicEdges": "Equal-document average normalized NMF topic weight within each publisher; publisher is not a medium"
+  },
+  "sensitivities": [
+    "Exclude explicit practitioner/entity/host-name tokens",
+    "Predeclared commercial vocabulary exclusion",
+    "Central80percent of decoded audio time, as an imperfect intro/outro control",
+    "Leave one publisher group out with fixed ASR vocabulary/IDF and Hungarian topic matching",
+    "Equal-document versus pooled-word theme rates",
+    "K, random-seed and cosine-threshold diagnostics"
+  ],
+  "timeProfiles": "Ten equal decoded-audio-time bins; each ASR segment assigned by midpoint; lexical rates use bin-token denominators; chunks/bins are not independent samples",
+  "privacy": "Full transcript, segment and publisher text bodies and fitted sparse feature matrices stay outside Git. Public outputs contain numeric summaries, bounded top terms, source hashes and no source quotations.",
+  "inferenceLimits": [
+    "Convenience sample;19:1 ASR context imbalance",
+    "ASR errors and undiarized hosts/guests/ads",
+    "Modality, author, publication date and source-format confounding",
+    "Unresolved original-session/repost dependence",
+    "Source-claimed labels do not verify speakers or ET origins",
+    "Lexical similarity does not measure agreement, truth, independent transmission or shared physical origin",
+    "No human annotation accuracy, causal estimates, significance tests or population prevalence are claimed"
+  ],
+  "negationMeasurementCaveat": "Stoplist retention does not override document-frequency filtering: no/not/never are in all20ASR documents and removed by maxDf; nor is removed by minDf. Actual retained bigrams and synthetic contrast controls are exported.",
+  "posthocAsrSpellingSensitivity": {
+    "status": "post_hoc_unvalidated_candidate_only_primary_counts_unchanged",
+    "Essassani_Sassani": [
+      "esasani",
+      "sasani"
+    ],
+    "Ashtar_entity_name_not_civilization": [
+      "ashta",
+      "ashtalt",
+      "ashtara",
+      "ashtah"
+    ],
+    "audioValidationPerformed": false
+  },
+  "figureFonts": "PDF/PSfonttype42; all9PDFs inspected with pdffonts and have noType3"
+}

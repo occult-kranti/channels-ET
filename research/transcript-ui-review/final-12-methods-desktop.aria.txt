@@ -1,0 +1,446 @@
+- link "Skip to study":
+  - /url: "#content"
+- banner:
+  - link "Channels ET Transcript study":
+    - /url: "#overview"
+  - text: 23 October 2026 America/New_York
+  - navigation "Project":
+    - link "Acquisition ledger":
+      - /url: ../research/#harvest
+    - link "Earlier research":
+      - /url: ../research/
+    - link "Repository ↗":
+      - /url: https://github.com/occult-kranti/channels-ET
+- navigation "Study views":
+  - link "Study overview":
+    - /url: "#overview"
+  - link "Lexical maps":
+    - /url: "#maps"
+  - link "Readings & Q&A":
+    - /url: "#reading"
+  - link "Contexts & storage":
+    - /url: "#storage"
+  - link "Sources & methods":
+    - /url: "#methods"
+- main:
+  - paragraph: Reproducible derived evidence
+  - heading "Sources and methods" [level=1]
+  - paragraph: Download source-bound numerical results, candidate paraphrases and manuscript artifacts. Raw full transcripts and recordings remain outside public Git and Pages.
+  - heading "Definitions that shape the plots" [level=2]
+  - table:
+    - rowgroup:
+      - row "Measure Definition":
+        - columnheader "Measure"
+        - columnheader "Definition"
+    - rowgroup:
+      - row "Common analytical tokens Unicode NFKC, curly apostrophe normalization, lowercase ASCII alphabetic words with optional internal apostrophe; lexical-rate denominator includes one-letter tokens; TF-IDF excludes one-letter tokens":
+        - cell "Common analytical tokens"
+        - cell "Unicode NFKC, curly apostrophe normalization, lowercase ASCII alphabetic words with optional internal apostrophe; lexical-rate denominator includes one-letter tokens; TF-IDF excludes one-letter tokens"
+      - 'row "TF-IDF {\"ngramRange\":[1,2],\"sublinearTf\":true,\"smoothIdf\":true,\"norm\":\"l2\",\"minDf\":2,\"maxDf\":0.95,\"maxFeatures\":3000,\"stopWords\":\"sklearn English stoplist excluding no/not/nor/never, plus predeclared spoken filler list in build.py\",\"fits\":\"20 ASR documents and 16 publisher texts fitted separately\",\"crossModality\":\"Publisher texts transformed in the ASR-fitted vocabulary/IDF only for labeled lexical projection; no pooled topic or cluster fit\"}"':
+        - cell "TF-IDF"
+        - 'cell "{\"ngramRange\":[1,2],\"sublinearTf\":true,\"smoothIdf\":true,\"norm\":\"l2\",\"minDf\":2,\"maxDf\":0.95,\"maxFeatures\":3000,\"stopWords\":\"sklearn English stoplist excluding no/not/nor/never, plus predeclared spoken filler list in build.py\",\"fits\":\"20 ASR documents and 16 publisher texts fitted separately\",\"crossModality\":\"Publisher texts transformed in the ASR-fitted vocabulary/IDF only for labeled lexical projection; no pooled topic or cluster fit\"}"'
+      - 'row "Topics {\"algorithm\":\"NMF\",\"selectedDisplayK\":3,\"selection\":\"Predeclared interpretability display choice, not an estimated true number of topics\",\"candidateK\":[2,3,4,5,6],\"seeds\":[11,23,47,71,97],\"init\":\"random\",\"solver\":\"cd\",\"maxIter\":1500,\"rowNormalization\":\"Nonnegative document-topic weights normalized to sum1\",\"stability\":\"Hungarian matched mean cosine of L2-normalized topic-term rows relative to seed11 at each K; diagnostic, not validity\",\"fits\":\"Separate20audio and16publisher-text fits; topic IDs and weights are never pooled\"}"':
+        - cell "Topics"
+        - 'cell "{\"algorithm\":\"NMF\",\"selectedDisplayK\":3,\"selection\":\"Predeclared interpretability display choice, not an estimated true number of topics\",\"candidateK\":[2,3,4,5,6],\"seeds\":[11,23,47,71,97],\"init\":\"random\",\"solver\":\"cd\",\"maxIter\":1500,\"rowNormalization\":\"Nonnegative document-topic weights normalized to sum1\",\"stability\":\"Hungarian matched mean cosine of L2-normalized topic-term rows relative to seed11 at each K; diagnostic, not validity\",\"fits\":\"Separate20audio and16publisher-text fits; topic IDs and weights are never pooled\"}"'
+      - 'row "Networks {\"documentEdges\":\"Undirected union of each document''s two nearest lexical neighbors with cosine>=0.20\",\"thresholdSensitivity\":[0.15,0.25,0.35,0.45,0.55,0.65,0.75],\"civilizationEdges\":\"Documents containing both dictionary families, counted once per document, separately by modality\",\"channelTopicEdges\":\"Equal-document average normalized NMF topic weight within each publisher; publisher is not a medium\"}"':
+        - cell "Networks"
+        - 'cell "{\"documentEdges\":\"Undirected union of each document''s two nearest lexical neighbors with cosine>=0.20\",\"thresholdSensitivity\":[0.15,0.25,0.35,0.45,0.55,0.65,0.75],\"civilizationEdges\":\"Documents containing both dictionary families, counted once per document, separately by modality\",\"channelTopicEdges\":\"Equal-document average normalized NMF topic weight within each publisher; publisher is not a medium\"}"'
+      - row "Rates Pattern occurrences per1000 common analysis tokens; equal-document group means are primary; pooled-word group rates retained as a length sensitivity":
+        - cell "Rates"
+        - cell "Pattern occurrences per1000 common analysis tokens; equal-document group means are primary; pooled-word group rates retained as a length sensitivity"
+      - row "Qualitative reading AI interpretations of sampled support windows; public question and answer wording is paraphrased. No human-coded accuracy or verified question/answer turn segmentation.":
+        - cell "Qualitative reading"
+        - cell "AI interpretations of sampled support windows; public question and answer wording is paraphrased. No human-coded accuracy or verified question/answer turn segmentation."
+  - heading "Interpretive limits" [level=3]
+  - list:
+    - listitem: Convenience sample;19:1 ASR context imbalance
+    - listitem: ASR errors and undiarized hosts/guests/ads
+    - listitem: Modality, author, publication date and source-format confounding
+    - listitem: Unresolved original-session/repost dependence
+    - listitem: Source-claimed labels do not verify speakers or ET origins
+    - listitem: Lexical similarity does not measure agreement, truth, independent transmission or shared physical origin
+    - listitem: No human annotation accuracy, causal estimates, significance tests or population prevalence are claimed
+  - heading "Sensitivity diagnostics" [level=2]
+  - table:
+    - rowgroup:
+      - row "Diagnostic Observed lexical result / scope":
+        - columnheader "Diagnostic"
+        - columnheader "Observed lexical result / scope"
+    - rowgroup:
+      - 'row "proper names excluded {\"featureCount\":3000,\"cosinePairRankCorrelation\":0.9979285036325544,\"nearestNeighborPreservedFraction\":0.95,\"matchedTopicCosineSharedVocabulary\":0.9996732387776478,\"sharedFeatures\":2823,\"cohort\":\"audio_asr\"}"':
+        - cell "proper names excluded"
+        - 'cell "{\"featureCount\":3000,\"cosinePairRankCorrelation\":0.9979285036325544,\"nearestNeighborPreservedFraction\":0.95,\"matchedTopicCosineSharedVocabulary\":0.9996732387776478,\"sharedFeatures\":2823,\"cohort\":\"audio_asr\"}"'
+      - 'row "commercial vocabulary excluded {\"featureCount\":3000,\"cosinePairRankCorrelation\":0.9980229806628265,\"nearestNeighborPreservedFraction\":0.9,\"matchedTopicCosineSharedVocabulary\":0.9999350168985398,\"sharedFeatures\":2828,\"cohort\":\"audio_asr\"}"':
+        - cell "commercial vocabulary excluded"
+        - 'cell "{\"featureCount\":3000,\"cosinePairRankCorrelation\":0.9980229806628265,\"nearestNeighborPreservedFraction\":0.9,\"matchedTopicCosineSharedVocabulary\":0.9999350168985398,\"sharedFeatures\":2828,\"cohort\":\"audio_asr\"}"'
+      - 'row "central80percent audio time {\"cosinePairRankCorrelation\":0.9446924466489086,\"nearestNeighborPreservedFraction\":0.8,\"retainedAnalysisTokens\":182320,\"baselineAnalysisTokens\":226138,\"interpretation\":\"Time-window proxy only; does not establish advertisement or host removal\",\"cohort\":\"audio_asr\"}"':
+        - cell "central80percent audio time"
+        - 'cell "{\"cosinePairRankCorrelation\":0.9446924466489086,\"nearestNeighborPreservedFraction\":0.8,\"retainedAnalysisTokens\":182320,\"baselineAnalysisTokens\":226138,\"interpretation\":\"Time-window proxy only; does not establish advertisement or host removal\",\"cohort\":\"audio_asr\"}"'
+      - 'row "leave one publisher out nmf fixed vocabulary {\"minimumMatchedCosine\":0.6773803523808798,\"meanMatchedCosine\":0.7892104282968769,\"interpretation\":\"Fixed original ASR vocabulary/IDF, not an independently refitted preprocessing pipeline\",\"cohort\":\"audio_asr\"}"':
+        - cell "leave one publisher out nmf fixed vocabulary"
+        - 'cell "{\"minimumMatchedCosine\":0.6773803523808798,\"meanMatchedCosine\":0.7892104282968769,\"interpretation\":\"Fixed original ASR vocabulary/IDF, not an independently refitted preprocessing pipeline\",\"cohort\":\"audio_asr\"}"'
+      - 'row "commercial vocabulary excluded {\"cohort\":\"publisher_text\",\"cosinePairRankCorrelation\":1,\"nearestNeighborPreservedFraction\":1,\"interpretation\":\"Vocabulary exclusion only; does not remove or identify all promotional sections\"}"':
+        - cell "commercial vocabulary excluded"
+        - 'cell "{\"cohort\":\"publisher_text\",\"cosinePairRankCorrelation\":1,\"nearestNeighborPreservedFraction\":1,\"interpretation\":\"Vocabulary exclusion only; does not remove or identify all promotional sections\"}"'
+  - group: Inspect ASR KMeans candidates
+  - heading "Standalone research figures" [level=2]
+  - paragraph: These are full-fit exported figures. Source filters in the explorer do not alter them. Download vector/PDF versions for inspection.
+  - figure "Thirty-six source documents are two distinct modalities. Nineteen of20audio recordings have Bashar context; the one Ashtar-attributed creator episode is a singleton. This is not a balanced sample of mediums or civilizations. Token counts use the common analytical tokenizer, not acquisition receipt word definitions. PDF ↓ · SVG ↓":
+    - img "source-coverage"
+    - text: Thirty-six source documents are two distinct modalities. Nineteen of20audio recordings have Bashar context; the one Ashtar-attributed creator episode is a singleton. This is not a balanced sample of mediums or civilizations. Token counts use the common analytical tokenizer, not acquisition receipt word definitions.
+    - link "PDF ↓":
+      - /url: figures/source-coverage.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/source-coverage.svg
+  - figure "Cosine resemblance of20complete unverified ASR documents in a shared audio-only TF-IDF fit, ordered by the exploratory KMeans labels. Diagonal values are self-similarity. Short IDs join sources.json; resemblance is not semantic agreement, independent origin or a speaker comparison. PDF ↓ · SVG ↓":
+    - img "audio-cosine"
+    - text: Cosine resemblance of20complete unverified ASR documents in a shared audio-only TF-IDF fit, ordered by the exploratory KMeans labels. Diagonal values are self-similarity. Short IDs join sources.json; resemblance is not semantic agreement, independent origin or a speaker comparison.
+    - link "PDF ↓":
+      - /url: figures/audio-cosine.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/audio-cosine.svg
+  - figure "Two-component TruncatedSVD is fitted only to20audio-source TF-IDF rows. The16publisher texts are projected using that same vocabulary/IDF and SVD. Marker shape indicates modality; colors denote source context/claimed labels. Label callouts reduce overlap without changing point positions. Author, format, length and modality confounding prohibit civilization-level separation claims. PDF ↓ · SVG ↓":
+    - img "source-overlay"
+    - text: Two-component TruncatedSVD is fitted only to20audio-source TF-IDF rows. The16publisher texts are projected using that same vocabulary/IDF and SVD. Marker shape indicates modality; colors denote source context/claimed labels. Label callouts reduce overlap without changing point positions. Author, format, length and modality confounding prohibit civilization-level separation claims.
+    - link "PDF ↓":
+      - /url: figures/source-overlay.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/source-overlay.svg
+  - figure "NMF is fit to the20audio document vectors. Three display topics were selected prospectively for readable exploration; candidates2–6and seed-matched stability remain available. Weights sum to1per document. Top-term labels describe model components, not validated themes or distinct belief systems. PDF ↓ · SVG ↓":
+    - img "audio-topics"
+    - text: NMF is fit to the20audio document vectors. Three display topics were selected prospectively for readable exploration; candidates2–6and seed-matched stability remain available. Weights sum to1per document. Top-term labels describe model components, not validated themes or distinct belief systems.
+    - link "PDF ↓":
+      - /url: figures/audio-topics.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/audio-topics.svg
+  - figure "Overlapping predeclared keyword-family rates per1000common tokens, averaged equally across source documents within each labeled context. Counts are dictionary matches, not validated semantic coding. Source-attributed labels and modality are visible; singleton rows have no group-level uncertainty estimate. Promotion/footers and ASR error remain possible contributors. PDF ↓ · SVG ↓":
+    - img "theme-overlay"
+    - text: Overlapping predeclared keyword-family rates per1000common tokens, averaged equally across source documents within each labeled context. Counts are dictionary matches, not validated semantic coding. Source-attributed labels and modality are visible; singleton rows have no group-level uncertainty estimate. Promotion/footers and ASR error remain possible contributors.
+    - link "PDF ↓":
+      - /url: figures/theme-overlay.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/theme-overlay.svg
+  - figure "Undirected union of each audio document’s two nearest TF-IDF neighbors with cosine≥0.20. Nodes are publication documents, sized by analytical token count; circular positions are purely schematic. Edges encode lexical resemblance, not social relations or independently shared ET knowledge. Threshold sensitivity is exported. PDF ↓ · SVG ↓":
+    - img "document-network"
+    - text: Undirected union of each audio document’s two nearest TF-IDF neighbors with cosine≥0.20. Nodes are publication documents, sized by analytical token count; circular positions are purely schematic. Edges encode lexical resemblance, not social relations or independently shared ET knowledge. Threshold sensitivity is exported.
+    - link "PDF ↓":
+      - /url: figures/document-network.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/document-network.svg
+  - figure "Nodes are explicit claimed-civilization/star-system dictionary families and labels give documents with at least one match. Edge labels give documents mentioning both families once per pair; audio and publisher-text panels remain separate. Zero-hit families are omitted from the drawing and retained in the complete count table. Positions are schematic. Star-system/Orion mentions can concern astronomy or fiction; ASR variants are not fuzzy-corrected. Bashar and Ashtar entity names are recorded separately and are not silently mapped to a civilization. PDF ↓ · SVG ↓":
+    - img "civilization-mentions"
+    - text: Nodes are explicit claimed-civilization/star-system dictionary families and labels give documents with at least one match. Edge labels give documents mentioning both families once per pair; audio and publisher-text panels remain separate. Zero-hit families are omitted from the drawing and retained in the complete count table. Positions are schematic. Star-system/Orion mentions can concern astronomy or fiction; ASR variants are not fuzzy-corrected. Bashar and Ashtar entity names are recorded separately and are not silently mapped to a civilization.
+    - link "PDF ↓":
+      - /url: figures/civilization-mentions.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/civilization-mentions.svg
+  - figure "NMF reconstruction decreases with model complexity and is not evidence that additional topics are substantively real. Topic stability is seed-matched term-vector cosine; KMeans selection exposes all candidate silhouettes. Neither stability nor a selected partition validates a medium or civilization ontology. PDF ↓ · SVG ↓":
+    - img "model-diagnostics"
+    - text: NMF reconstruction decreases with model complexity and is not evidence that additional topics are substantively real. Topic stability is seed-matched term-vector cosine; KMeans selection exposes all candidate silhouettes. Neither stability nor a selected partition validates a medium or civilization ontology.
+    - link "PDF ↓":
+      - /url: figures/model-diagnostics.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/model-diagnostics.svg
+  - figure "Segments are assigned by their midpoint to ten equal decoded-audio-time bins. Each bin’s keyword occurrences are divided by its own common-token denominator; curves are equal-document means. The Ashtar curve represents one recording, not an estimated population trajectory. Bins are dependent and not independent observations; source intro/outro/advertising remains unsegmented. PDF ↓ · SVG ↓":
+    - img "audio-time-profiles"
+    - text: Segments are assigned by their midpoint to ten equal decoded-audio-time bins. Each bin’s keyword occurrences are divided by its own common-token denominator; curves are equal-document means. The Ashtar curve represents one recording, not an estimated population trajectory. Bins are dependent and not independent observations; source intro/outro/advertising remains unsegmented.
+    - link "PDF ↓":
+      - /url: figures/audio-time-profiles.pdf
+    - text: ·
+    - link "SVG ↓":
+      - /url: figures/audio-time-profiles.svg
+  - heading "Source metadata and downloads" [level=2]
+  - list:
+    - listitem:
+      - link "Complete transcript-analysis results ↓":
+        - /url: analysis.json
+      - text: 631,758 bytes · Derived numerical models, dictionary counts and source metadata SHA-256 14ccb929d1613b72fbb437ba995e5c7b5a8b17cd6cbffe1f2a126f5d7b81ea14
+    - listitem:
+      - link "Transcript-analysis protocol ↓":
+        - /url: analysis-protocol.json
+      - text: 5,938 bytes · Tokenization, separate fit definitions and interpretive limits SHA-256 6beb40a604b599d96783a21cbed37bc803db526898737a0b18eb284605f55707
+    - listitem:
+      - link "All36analytical source documents ↓":
+        - /url: sources.json
+      - text: 38,391 bytes · Source IDs, modalities, token counts and retained hashes SHA-256 41857e4235b4eef861c68cfde234d3fd47b5cb56b264f996b068e8ea1ce798e1
+    - listitem:
+      - link "source coverage · PDF ↓":
+        - /url: figures/source-coverage.pdf
+      - text: 21,245 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 d5a90dbfab138bf4641db7f8c3b24411350c79f0c438f38737d2f8a8dce0bad8
+    - listitem:
+      - link "source coverage · SVG ↓":
+        - /url: figures/source-coverage.svg
+      - text: 61,551 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 4ffb8da2783e25e0ff8b13dd66c69932e929e23e5f2da2d115dda448cefbf9bd
+    - listitem:
+      - link "source coverage · PNG ↓":
+        - /url: figures/source-coverage.png
+      - text: 92,611 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 e11a1975c46c97552a59113a2c8e9a10cb1f63121bd33f39654bf7bc911715b7
+    - listitem:
+      - link "audio cosine · PDF ↓":
+        - /url: figures/audio-cosine.pdf
+      - text: 30,243 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 741f4358bcd47a8d3e1df3a1acf20d2c693c30061bd9e3da1f0fafa3cdeb75aa
+    - listitem:
+      - link "audio cosine · SVG ↓":
+        - /url: figures/audio-cosine.svg
+      - text: 70,268 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 898577e389c448398d3311c475698a6e169242a7a5c6a2dd9a6fa687a9e72bd4
+    - listitem:
+      - link "audio cosine · PNG ↓":
+        - /url: figures/audio-cosine.png
+      - text: 76,953 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 bf77729b8d533cbe5b97ad1a90902169716fed231f9c3cc2410211a73779543e
+    - listitem:
+      - link "source overlay · PDF ↓":
+        - /url: figures/source-overlay.pdf
+      - text: 28,507 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 6ad6bff844a98ec5d0807a8d4d8942536b948fc220e4047a2c9948a5587b58ff
+    - listitem:
+      - link "source overlay · SVG ↓":
+        - /url: figures/source-overlay.svg
+      - text: 92,425 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 88c2f32e926a1fa790d0c0895acf39189f6ffb1ec0befc13ef4ed78289123288
+    - listitem:
+      - link "source overlay · PNG ↓":
+        - /url: figures/source-overlay.png
+      - text: 148,216 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 286624ce6b71aebb520a989fa69b9eebedfb238979253821936117af3b5c325f
+    - listitem:
+      - link "audio topics · PDF ↓":
+        - /url: figures/audio-topics.pdf
+      - text: 21,611 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 ff295a2ddaf021ed9563d4b62a15bae95a702b9b0b4f3048111eefc7ad98dd10
+    - listitem:
+      - link "audio topics · SVG ↓":
+        - /url: figures/audio-topics.svg
+      - text: 65,731 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 d102fddf4a23fdec1bca4f6abe82c1a4411b66c05429b94dee1c8751bc65a5e2
+    - listitem:
+      - link "audio topics · PNG ↓":
+        - /url: figures/audio-topics.png
+      - text: 77,382 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 8a927018e0a2a244b8211c1b3f8d54fbc38e164775243bca5ba659bc25b2b731
+    - listitem:
+      - link "theme overlay · PDF ↓":
+        - /url: figures/theme-overlay.pdf
+      - text: 45,378 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 4ab18c2ccd63c5fb81b46b55dfe2bb63df0785b5062749f3b4b87ca5552e20dd
+    - listitem:
+      - link "theme overlay · SVG ↓":
+        - /url: figures/theme-overlay.svg
+      - text: 129,361 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 998280d66e60841af619438b77aab7786565998738920211b882b0e3a6f2e356
+    - listitem:
+      - link "theme overlay · PNG ↓":
+        - /url: figures/theme-overlay.png
+      - text: 232,345 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 b3ebd5f16b7f44240900f192a9152b63ebf64af9913592d41b4d6af5228d8c92
+    - listitem:
+      - link "document network · PDF ↓":
+        - /url: figures/document-network.pdf
+      - text: 18,931 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 a45b4bd2496a31b4db421ed2619d5cb0858938bb77b8f8b141eb65b0195cf5c5
+    - listitem:
+      - link "document network · SVG ↓":
+        - /url: figures/document-network.svg
+      - text: 46,429 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 c43afcd86a0c7ed761cbf0d8b5cb7baf670590f557902dfcf27fa76d1a3af627
+    - listitem:
+      - link "document network · PNG ↓":
+        - /url: figures/document-network.png
+      - text: 297,164 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 6411590ec0ae4a803544bd5d90bcb835252d8505fdcff80000fcd00633320db8
+    - listitem:
+      - link "civilization mentions · PDF ↓":
+        - /url: figures/civilization-mentions.pdf
+      - text: 20,444 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 6233668719efa7d34fe6f10ca6296d8314a91cdf8cde786a467f9fec81be433e
+    - listitem:
+      - link "civilization mentions · SVG ↓":
+        - /url: figures/civilization-mentions.svg
+      - text: 44,512 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 40ad26c160261c2b8979ce49df352c43cbfd9e75b84561cedd27dc94c1e1d914
+    - listitem:
+      - link "civilization mentions · PNG ↓":
+        - /url: figures/civilization-mentions.png
+      - text: 83,804 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 a2c9117a27240240eeff558a842ddb3a8053f059601198cf4d9676d97f5eb016
+    - listitem:
+      - link "model diagnostics · PDF ↓":
+        - /url: figures/model-diagnostics.pdf
+      - text: 12,506 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 640b34034ce39ca18591ac0c52217f4f45eb4cff141e862396c5d2957a9ba3a1
+    - listitem:
+      - link "model diagnostics · SVG ↓":
+        - /url: figures/model-diagnostics.svg
+      - text: 49,075 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 bd507752207fb10907893d194d864cf491a4510294e8c5505f3556b0f3fc2a04
+    - listitem:
+      - link "model diagnostics · PNG ↓":
+        - /url: figures/model-diagnostics.png
+      - text: 104,309 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 2b7fe0b64e54d3d4c29e007a122d71249a6225f299c2836e0443a3e6a487fd9c
+    - listitem:
+      - link "audio time profiles · PDF ↓":
+        - /url: figures/audio-time-profiles.pdf
+      - text: 23,171 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 cffb278f5c1e8e0d584cc5473e99dac9f14ca59f1b09db730e6b100eb3cdaa6b
+    - listitem:
+      - link "audio time profiles · SVG ↓":
+        - /url: figures/audio-time-profiles.svg
+      - text: 75,888 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 d0d6313ce0a5c6c0802aecce750dc9b7af5203e9769a223ce90e4776a2b39710
+    - listitem:
+      - link "audio time profiles · PNG ↓":
+        - /url: figures/audio-time-profiles.png
+      - text: 122,125 bytes · Full-fit standalone figure; not dynamically filtered SHA-256 fccad914862d6d8345f6ca5c2ad3f2168772abef84bcc4f1b4c2fe4f26e070ad
+    - listitem:
+      - link "Reader source metadata ↓":
+        - /url: reading-documents.json
+      - text: 42,018 bytes · AI source-reading metadata and paraphrases; no verbatim source text SHA-256 f9161c6455b89355c6c16f91dabd5fa3990ea0900c18c580cbcd9c9b361d30f7
+    - listitem:
+      - link "AI sampled-reading coverage ↓":
+        - /url: reading-summary.json
+      - text: 4,172 bytes · AI source-reading metadata and paraphrases; no verbatim source text SHA-256 a1d4ddd156bb77b3fdaa1d13cf2cd185cfa51b49d5b7f2876927fc6a6656abff
+    - listitem:
+      - link "Source-level AI synthesis and codes ↓":
+        - /url: reading-qualitative-codes.json
+      - text: 58,965 bytes · AI source-reading metadata and paraphrases; no verbatim source text SHA-256 546867131e1910f1d3f016cb90896c418c46ae815274ecc5be71fcf243836738
+    - listitem:
+      - link "Paraphrased source-question candidates ↓":
+        - /url: reading-qa-candidates.json
+      - text: 73,424 bytes · AI source-reading metadata and paraphrases; no verbatim source text SHA-256 1401391a2b0ff69ca1e4c2f4705431686770469dbb6db5f3a9e04ff2c3ba93c6
+    - listitem:
+      - link "Separate actual-source Q&A database ↓":
+        - /url: reading-qa-candidates.sqlite
+      - text: 331,776 bytes · AI source-reading metadata and paraphrases; no verbatim source text SHA-256 119ebd2357a086bf54455194874412944075c7ced0eac30abe89cb1e2132c274
+    - listitem:
+      - link "AI qualitative codebook ↓":
+        - /url: reading-codebook.json
+      - text: 3,624 bytes · AI source-reading metadata and paraphrases; no verbatim source text SHA-256 b97e1c792fe2ac2d841b100b9901bf98eb3b8981b8198a421cbaa751a382b2cd
+    - listitem:
+      - link "Sampled support-window locators ↓":
+        - /url: reading-reading-windows.json
+      - text: 82,541 bytes · AI source-reading metadata and paraphrases; no verbatim source text SHA-256 4aabe23633446de290290d225de2552b59ef07978013bac7d19373eb92fdf83a
+    - listitem:
+      - link "Channel, context and source-storage distributions ↓":
+        - /url: storage-distributions.json
+      - text: 763,960 bytes · Inherited overlapping associations and assigned canonical-file partitions SHA-256 9c331398dcddeb36180257fe2b902138fd1a39dc618a16657176f708473bf375
+    - listitem:
+      - link "attribution coverage distribution ↓":
+        - /url: distributions/attribution-coverage.csv
+      - text: 24,652 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 2c122ad47f9295d4ebbdb6e3e0a6c6a59482bf4af3af1beebd99168c0413b0ce
+    - listitem:
+      - link "byEntityLabel distribution ↓":
+        - /url: distributions/byEntityLabel.csv
+      - text: 28,713 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 299abbfeb1740401a2ec66b1175fdb26b7db037ee1003e2d18e2352c6c944c02
+    - listitem:
+      - link "byPractitionerAssociation distribution ↓":
+        - /url: distributions/byPractitionerAssociation.csv
+      - text: 18,997 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 9765f574c4a0f531a8f29901294cceb648f1bf655e90e7c79740160bd12931df
+    - listitem:
+      - link "byPublisherDeclaredCivilization distribution ↓":
+        - /url: distributions/byPublisherDeclaredCivilization.csv
+      - text: 32,125 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 317d5abf0e430a14ad35082ef4042b2c7bf9cc4150db7683df7f410447ffc602
+    - listitem:
+      - link "byPublisherGroup distribution ↓":
+        - /url: distributions/byPublisherGroup.csv
+      - text: 46,883 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 5858b2fab678bfa2383f5dfa5661e8355190188d7ea26e91ffe24413a203c512
+    - listitem:
+      - link "byRoute distribution ↓":
+        - /url: distributions/byRoute.csv
+      - text: 94,275 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 9219f94e4719c48f8953588c9a5eed851c28ac2b57d8523a7e52788ab4247a8a
+    - listitem:
+      - link "storage byPractitionerContext distribution ↓":
+        - /url: distributions/storage-byPractitionerContext.csv
+      - text: 1,733 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 aa69b32a01627efcad620d6929a068fb8a4edfa0342b71ee6d50513623ded186
+    - listitem:
+      - link "storage byProvider distribution ↓":
+        - /url: distributions/storage-byProvider.csv
+      - text: 1,499 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 46285cf931e2049d3c4bee4bcbe13860c24b27766a2f156947c1581bf5780bb7
+    - listitem:
+      - link "storage byPublisher distribution ↓":
+        - /url: distributions/storage-byPublisher.csv
+      - text: 3,515 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 c2c1d870933bca73cc4a62b51e201a125ef63a2eb682a297d76af6a68311a714
+    - listitem:
+      - link "storage bySourceContext distribution ↓":
+        - /url: distributions/storage-bySourceContext.csv
+      - text: 2,091 bytes · Source-bound accounting CSV; overlapping labels remain explicit SHA-256 a2f01e6a84bd0ee941c5992a6a10ef67d41bea1d79500d9279fd81c21fbeffca
+    - listitem:
+      - link "Actual managed local archive state ↓":
+        - /url: archive-state.json
+      - text: 1,786 bytes · Managed-local copies; not a Drive upload or durable attachment SHA-256 4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4
+    - listitem:
+      - link "Verified local archive file checksums ↓":
+        - /url: archive-receipt.json
+      - text: 116,589 bytes · Managed-local copies; not a Drive upload or durable attachment SHA-256 58ce8d8cfcba0034ffa8a91d1aa3200f50a036fe535e9623aa4d48fcb1c7701f
+    - listitem:
+      - link "Local archive verification ↓":
+        - /url: verification.json
+      - text: 2,896 bytes · Managed-local copies; not a Drive upload or durable attachment SHA-256 ed1b7a944eb3386cb974757b00895b98b3f589b87a2550e0fa72df63d9cd9637
+    - listitem:
+      - link "original19 asr ↓":
+        - /url: source-receipts/original19-asr.json
+      - text: 80,379 bytes · Original dated metadata receipt; no raw source audio/text SHA-256 d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba
+    - listitem:
+      - link "athina asr ↓":
+        - /url: source-receipts/athina-asr.json
+      - text: 3,576 bytes · Original dated metadata receipt; no raw source audio/text SHA-256 3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7
+    - listitem:
+      - link "primary source metadata ↓":
+        - /url: source-receipts/primary-source-metadata.json
+      - text: 23,167 bytes · Original dated metadata receipt; no raw source audio/text SHA-256 402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca
+    - listitem:
+      - link "Six source-bound AI interpretive leads ↓":
+        - /url: reading-interpretive-findings.json
+      - text: 5,486 bytes · AI paraphrase/context review; no audio-verified alias or semantic validation SHA-256 3917d9bb5b69186667c07ffa6331db2375b82e64e3698ef5af5c261ea6c62e9a
+    - listitem:
+      - link "Post-hoc entity-spelling sensitivity review ↓":
+        - /url: reading-posthoc-entity-spelling-review.json
+      - text: 10,775 bytes · AI paraphrase/context review; no audio-verified alias or semantic validation SHA-256 07818e5f60d9ea4396c884322670928ac687c00d4ba0ae123fb8e0ed1c6bd071
+    - listitem:
+      - link "Transcript analysis methods and reproduction ↓":
+        - /url: analysis-README.md
+      - text: 10,785 bytes · Reproducible numerical methods and checks; no raw source text SHA-256 c0fe67860c1df7dd7513e78925a52aad7e5f770f56385f4de1df2736cf92fcf0
+    - listitem:
+      - link "Transcript analysis numerical verification ↓":
+        - /url: analysis-verification.json
+      - text: 7,555 bytes · Reproducible numerical methods and checks; no raw source text SHA-256 7dd189c096ae8373eebbb4abe90a77eedb06bd6ea69d569d4ace99bc73b885dd
+    - listitem:
+      - link "audio cosine pairs numerical table ↓":
+        - /url: tables/audio-cosine-pairs.csv
+      - text: 14,495 bytes · Derived source-bound CSV; fitted corpus and denominators retained SHA-256 3509a31ae47a7281f052b5169df1f0ed42fbd28d30d831619d71e5c1fa94f5a9
+    - listitem:
+      - link "nmf candidates numerical table ↓":
+        - /url: tables/nmf-candidates.csv
+      - text: 518 bytes · Derived source-bound CSV; fitted corpus and denominators retained SHA-256 eb3c2e41247b69e11872d6d38cd4e4127183baef9f840c397bbc9300a86b9876
+    - listitem:
+      - link "cluster candidates numerical table ↓":
+        - /url: tables/cluster-candidates.csv
+      - text: 538 bytes · Derived source-bound CSV; fitted corpus and denominators retained SHA-256 ac1fb54fb97adcc0d4c16eb0151379afe928a85dcc6a2c60f6597021c5ad1c1f
+    - listitem:
+      - link "leave one publisher out numerical table ↓":
+        - /url: tables/leave-one-publisher-out.csv
+      - text: 825 bytes · Derived source-bound CSV; fitted corpus and denominators retained SHA-256 3e5cffd06438efb3eaf9a9416e69aab0f507b92fda5f4acb2fe844181790bbdc
+    - listitem:
+      - link "sources numerical table ↓":
+        - /url: tables/sources.csv
+      - text: 21,253 bytes · Derived source-bound CSV; fitted corpus and denominators retained SHA-256 71601be05dd1d30dc332e5d66b5cbd024454532717f5486e6c26ca10df7366b6
+    - listitem:
+      - link "theme rates numerical table ↓":
+        - /url: tables/theme-rates.csv
+      - text: 6,737 bytes · Derived source-bound CSV; fitted corpus and denominators retained SHA-256 ea436f8d16c5b97ab1452b4be15cd9406d3c0a2dbe212e19833f6772708e0292
+    - listitem:
+      - link "civilization mentions numerical table ↓":
+        - /url: tables/civilization-mentions.csv
+      - text: 1,664 bytes · Derived source-bound CSV; fitted corpus and denominators retained SHA-256 97a8f14c01d9c8400b8078589039a7e2b11846471b1194e18b1d4da23814920e
+    - listitem:
+      - link "topic weights numerical table ↓":
+        - /url: tables/topic-weights.csv
+      - text: 1,439 bytes · Derived source-bound CSV; fitted corpus and denominators retained SHA-256 04dd7202248715dfa0d79aefc620603603ba2ca12d900b43096a9d818c015a57
+    - listitem:
+      - link "AI reading methods and coverage ↓":
+        - /url: reading-README.md
+      - text: 10,018 bytes · AI sampled-window methods and metadata consistency; not human validation SHA-256 b363beb0a06f3302935438df071558efc111563b71100bcb628e793ac0c977bb
+    - listitem:
+      - link "Source-reading and Q&A verification ↓":
+        - /url: reading-verification.json
+      - text: 3,953 bytes · AI sampled-window methods and metadata consistency; not human validation SHA-256 6a7c0e407300311ab237def885afcac498f45f3f3ebcb17b37004dcf76758cd7
+    - listitem:
+      - link "New actual-transcript study paper PDF ↓":
+        - /url: paper.pdf
+      - text: 325,223 bytes · Separate22-page transcript study; historical paper unchanged SHA-256 57102be0b866a80f7b49b9de89e6d0823d962fe8cd3f71fb229ede8d68bb700f
+    - listitem:
+      - link "Portable transcript-study manuscript source ZIP ↓":
+        - /url: source.zip
+      - text: 199,413 bytes · Separate22-page transcript study; historical paper unchanged SHA-256 604ab5db35595e2cd5cb5cdc8540671ac1e702b0333e7fb79c2cb354648b3bd2
+- status: Sources & methods. Source accounting and methods use their own stated populations.
+- contentinfo:
+  - paragraph: Documents and source claims are the units of this study. Lexical resemblance does not establish agreement, independent transmission, speaker identity or an extraterrestrial origin.
+  - link "Inspect actual collection and access receipts":
+    - /url: ../research/#harvest

@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "method": "Post-hoc exact case-insensitive token counts in the20source-hashedASRtexts, followed by AI reading of timestamped contexts; no audio inspection",
+  "scope": "Audio-ASR only; metadata labels and authored publications excluded from these counts",
+  "predeclaredStrictLexiconChanged": false,
+  "families": [
+    {
+      "candidateFamily": "Essassani/Sassani lexical family",
+      "canonicalTerms": [
+        "essassani",
+        "sassani"
+      ],
+      "posthocCandidateVariants": [
+        "esasani",
+        "sasani"
+      ],
+      "exactTokenCounts": {
+        "essassani": {
+          "occurrences": 0,
+          "documents": 0
+        },
+        "sassani": {
+          "occurrences": 0,
+          "documents": 0
+        },
+        "esasani": {
+          "occurrences": 3,
+          "documents": 3
+        },
+        "sasani": {
+          "occurrences": 1,
+          "documents": 1
+        }
+      },
+      "variantDocumentCount": 4,
+      "variantOccurrenceCount": 4,
+      "variantHits": [
+        {
+          "variant": "esasani",
+          "sourceId": "rss-1611118279-afab067a712d",
+          "segmentId": 1010,
+          "startSeconds": 4835.44,
+          "endSeconds": 4837.6,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "195a7775235e149d2e785b289d33609a0518b39d54c29778b22b56cdd58f1dd3",
+          "inspectedSupportWindowIds": [
+            "rss-1611118279-afab067a712d:entity_spelling_esasani"
+          ]
+        },
+        {
+          "variant": "esasani",
+          "sourceId": "soul-talk-224-20220316",
+          "segmentId": 231,
+          "startSeconds": 750.9,
+          "endSeconds": 753.42,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "f81d2a8d30ce0eacd8cbba6b82698259e20cba51c76b07a06093e1dd763c893d",
+          "inspectedSupportWindowIds": [
+            "soul-talk-224-20220316:entity_spelling_esasani"
+          ]
+        },
+        {
+          "variant": "esasani",
+          "sourceId": "rss-425328515-addbc47ecbd7",
+          "segmentId": 381,
+          "startSeconds": 929.05,
+          "endSeconds": 934.65,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "2685fe336a52ffcc1410a8db93860f051284fce4f51bf67e9e3f12c80ae44be8",
+          "inspectedSupportWindowIds": [
+            "rss-425328515-addbc47ecbd7:entity_spelling_esasani"
+          ]
+        },
+        {
+          "variant": "sasani",
+          "sourceId": "rss-1465014169-7a91901169c6",
+          "segmentId": 932,
+          "startSeconds": 3552.85,
+          "endSeconds": 3555.17,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "7c5f42bb7aa40d872b06dddee2d798eed72db7e476d4dc8a0ff1047f49fac322",
+          "inspectedSupportWindowIds": [
+            "rss-1465014169-7a91901169c6:entity_spelling_sasani"
+          ]
+        }
+      ],
+      "allVariantHitSegmentsCoveredByInspectedWindows": true,
+      "manualTextContextAssessment": "Contexts describe a claimed being, civilization, species, people or world. This makes the spellings plausible text-recognition candidates; it does not verify pronunciation, canonical identity or a speaker.",
+      "audioChecked": false,
+      "humanValidatedAlias": false,
+      "mergedIntoPredeclaredCounts": false
+    },
+    {
+      "candidateFamily": "Ashtar lexical family",
+      "canonicalTerms": [
+        "ashtar"
+      ],
+      "posthocCandidateVariants": [
+        "ashta",
+        "ashtalt",
+        "ashtara",
+        "ashtah"
+      ],
+      "exactTokenCounts": {
+        "ashtar": {
+          "occurrences": 3,
+          "documents": 1
+        },
+        "ashta": {
+          "occurrences": 9,
+          "documents": 1
+        },
+        "ashtalt": {
+          "occurrences": 2,
+          "documents": 1
+        },
+        "ashtara": {
+          "occurrences": 2,
+          "documents": 1
+        },
+        "ashtah": {
+          "occurrences": 1,
+          "documents": 1
+        }
+      },
+      "variantDocumentCount": 1,
+      "variantOccurrenceCount": 14,
+      "variantHits": [
+        {
+          "variant": "ashta",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 22,
+          "startSeconds": 103.98,
+          "endSeconds": 107.7,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashta",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 23,
+          "startSeconds": 107.7,
+          "endSeconds": 112.7,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashta",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 25,
+          "startSeconds": 113.7,
+          "endSeconds": 119.82,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:nmf_workers_context",
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashta",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 27,
+          "startSeconds": 126.98,
+          "endSeconds": 133.5,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:nmf_workers_context",
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashta",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 59,
+          "startSeconds": 223.56,
+          "endSeconds": 225.52,
+          "occurrences": 3,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:query_rich",
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashta",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 88,
+          "startSeconds": 327.84,
+          "endSeconds": 333.72,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashta",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 92,
+          "startSeconds": 348.88,
+          "endSeconds": 354.4,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:nmf_jumps_context",
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashtalt",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 83,
+          "startSeconds": 301.04,
+          "endSeconds": 308.96,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashtalt",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 85,
+          "startSeconds": 310.88,
+          "endSeconds": 316.08,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashtara",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 255,
+          "startSeconds": 1662.74,
+          "endSeconds": 1666.66,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:ending",
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashtara",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 256,
+          "startSeconds": 1666.66,
+          "endSeconds": 1671.46,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:ending",
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        },
+        {
+          "variant": "ashtah",
+          "sourceId": "athina-ashtar-20230206-5d144c22",
+          "segmentId": 75,
+          "startSeconds": 284.22,
+          "endSeconds": 287.44,
+          "occurrences": 1,
+          "sourceSegmentsSha256": "217c3363d6cc4251bb83e58cea55d7850ad722b492d1bb73e2ff120c303ecbf2",
+          "inspectedSupportWindowIds": [
+            "athina-ashtar-20230206-5d144c22:full_ashtar_comparison"
+          ]
+        }
+      ],
+      "allVariantHitSegmentsCoveredByInspectedWindows": true,
+      "manualTextContextAssessment": "Contexts describe a claimed being, civilization, species, people or world. This makes the spellings plausible text-recognition candidates; it does not verify pronunciation, canonical identity or a speaker.",
+      "audioChecked": false,
+      "humanValidatedAlias": false,
+      "mergedIntoPredeclaredCounts": false
+    }
+  ],
+  "limits": [
+    "Candidate variants were selected after strict lexical zeros, so these are sensitivity diagnostics rather than a new primary estimate.",
+    "All Ashtar-family hits are in a single creator recording; more occurrences do not create more independent sources.",
+    "The Essassani-family candidate contexts include skeptical secondary reporting; a mention does not imply endorsement.",
+    "Unlisted ASR variants may remain; zero exact tokens does not establish absence of the subject."
+  ]
+}

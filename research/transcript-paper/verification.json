@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "57102be0b866a80f7b49b9de89e6d0823d962fe8cd3f71fb229ede8d68bb700f",
+  "source_zip_sha256": "604ab5db35595e2cd5cb5cdc8540671ac1e702b0333e7fb79c2cb354648b3bd2",
+  "pages": 22,
+  "input_hashes_verified": 48,
+  "clean_source_compilation": {
+    "directory": "/workspace/transcript-paper-clean-61a2yxe0",
+    "commands": [
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      [
+        "bibtex",
+        "main"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ]
+    ],
+    "all_exit_zero": true,
+    "extracted_page_text_identical": true
+  },
+  "latex": {
+    "overfull_boxes": 0,
+    "undefined_citations_or_references": 0
+  },
+  "fonts": {
+    "all_embedded": true,
+    "no_type3": true,
+    "report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nVKPUJQ+TeXGyreTermesX-Bold           Type 1            Custom           yes yes yes      4  0\nWKZJTM+TeXGyreTermesX-Regular        Type 1            Custom           yes yes yes      5  0\nPFQPHP+TeXGyreTermes-Regular         Type 1            Custom           yes yes yes      6  0\nCRMEJI+NimbusMonL-Regu               Type 1            Custom           yes yes yes     16  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     21  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     52  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     63  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     77  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     92  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    103  0\nPDTLUH+CMSY10                        Type 1            Builtin          yes yes yes    117  0\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    120  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    121  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    138  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    146  0\nGBHWCX+TeXGyreTermesX-Italic         Type 1            Custom           yes yes yes    165  0\n"
+  },
+  "render": {
+    "directory": "/workspace/transcript-paper-clean-61a2yxe0/render",
+    "pages_rendered": 22,
+    "visual_inspection": {
+      "status": "PASS_WITH_STATED_SCOPE",
+      "reviewer": "paper implementation agent; model-assisted visual inspection, not human review",
+      "method": [
+        "Rendered all 22 exact-final pages at 1400-pixel long dimension.",
+        "All 22 preceding-candidate page layouts were inspected in six contact sheets, plus full-size pages 11 and 20.",
+        "Compared every final page PNG with that inspected predecessor; 21 are byte-identical, and only page 11 changed.",
+        "Inspected exact-final page 11 at full size: the A04 annotation is above-left of its point and clear of the bottom axis.",
+        "Measured actual embedded text sizes and page-bound containment with PyMuPDF."
+      ],
+      "contact_sheet_pages": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          17,
+          18,
+          19,
+          20
+        ],
+        [
+          21,
+          22
+        ]
+      ],
+      "exact_final_full_size_pages": [
+        11
+      ],
+      "minimum_embedded_figure_text_pt": 8.885299682617188,
+      "minimum_all_embedded_text_pt": 8.885299682617188,
+      "figure_page_minimum_text_pt": {
+        "4": 9.108719825744629,
+        "8": 9.108719825744629,
+        "9": 9.108719825744629,
+        "10": 9.094589233398438,
+        "11": 9.587699890136719,
+        "12": 9.127619743347168,
+        "13": 8.885299682617188,
+        "14": 9.349649429321289
+      },
+      "text_spans_outside_page": [],
+      "finding": "The A04 annotation/axis contact identified by root is corrected. No materially cropped or unreadable figure/table was identified in the inspected render. Short figure keys join complete source tables; appendix tables follow introductory section headings as LaTeX floats.",
+      "limitations": [
+        "Contact-sheet inspection checks overall layout and is not line-by-line visual proofreading of every word.",
+        "A rendering or font check is not semantic, speaker, ASR or scientific validation."
+      ],
+      "unchanged_page_inspections_reused_by_png_equality": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "predecessor_pdf_sha256": "369f70a4bbdb7a5f5c39d2b235c61ddcc8394ba5d355b33b1fe6a3b685a27efb",
+      "render_comparison_receipt": {
+        "path": "research/transcript-paper/reviews/callout-correction-render-comparison.json",
+        "sha256": "e59c34fbdedab87f886dd409036b34fd1e1ee709d40b0f1fdd6c230d8822da8b"
+      }
+    }
+  },
+  "scope": "Local artifact verification, not human review or venue-compliance certification."
+}

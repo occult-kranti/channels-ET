@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "completed_rounds": [
+    1,
+    2
+  ],
+  "round3_status": "awaiting_final_rendered_candidate",
+  "artifacts": [
+    {
+      "path": "research/transcript-review/round-1-methods.md",
+      "sha256": "901244cdcee224158aa07d573fb0a2e04bfd544d381c7c593954aaee783c84d7"
+    },
+    {
+      "path": "research/transcript-review/round-2-findings.md",
+      "sha256": "2b044d179ce847203df59eaaa0201ad6e630839e16c173ed7977c7b8993cd4c4"
+    },
+    {
+      "path": "research/transcript-review/source-baseline.json",
+      "sha256": "8ce5ad3c513c5829c51037cd2cdb9fa95b6b60242ebad85646ea90746e34f3ff"
+    },
+    {
+      "path": "research/transcript-review/numeric-audit.json",
+      "sha256": "da765da02026b754981b7cac87d036dd7ddc97f884bd523e2be41c38995d673d"
+    },
+    {
+      "path": "research/transcript-review/reading-audit.json",
+      "sha256": "70c23fc33c02787eb6655188940234878761f859fcc2fd2aeeededb8cdf0a906"
+    },
+    {
+      "path": "research/transcript-review/storage-audit.json",
+      "sha256": "3911b8a06dd441a332689b5010282820205ef282c24666fadd7159784d85ea75"
+    },
+    {
+      "path": "research/transcript-review/storage-binding-audit.json",
+      "sha256": "da8f1553b5869cba734bc0e1404083cbe2dcbf0fe3779a5ebd8467ace8589845"
+    },
+    {
+      "path": "research/transcript-review/spelling-audit.json",
+      "sha256": "421f94d2536e0bc159e5fc806a65bdc7bd8b7adb0e5aeea6af2c0460869367c3"
+    },
+    {
+      "path": "research/transcript-review/qualitative-spot-checks.json",
+      "sha256": "3dddfa4e7e1b04295dc683148f395a3d40b12f7f84b952c12169d5dae2edb9c4"
+    }
+  ]
+}

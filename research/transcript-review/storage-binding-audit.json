@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "checks": 39,
+  "final_distribution_sha256": "9c331398dcddeb36180257fe2b902138fd1a39dc618a16657176f708473bf375",
+  "reused_full_raw_audit_path": "research/transcript-review/storage-audit.json",
+  "reused_full_raw_audit_sha256": "3911b8a06dd441a332689b5010282820205ef282c24666fadd7159784d85ea75",
+  "reuse_reason": "All nine non-output input hashes and source totals are unchanged; prior99source+200archive byte hashes are preserved, not claimed freshly repeated",
+  "coverage": [
+    {
+      "view": "byRoute",
+      "indexedDenominator": 942,
+      "assignedUniqueIds": 898,
+      "unassignedUniqueIds": 44,
+      "groupMemberships": 1271,
+      "extraOverlappingMemberships": 373
+    },
+    {
+      "view": "byPublisherGroup",
+      "indexedDenominator": 942,
+      "assignedUniqueIds": 886,
+      "unassignedUniqueIds": 56,
+      "groupMemberships": 886,
+      "extraOverlappingMemberships": 0
+    },
+    {
+      "view": "byPractitionerAssociation",
+      "indexedDenominator": 942,
+      "assignedUniqueIds": 454,
+      "unassignedUniqueIds": 488,
+      "groupMemberships": 517,
+      "extraOverlappingMemberships": 63
+    },
+    {
+      "view": "byEntityLabel",
+      "indexedDenominator": 942,
+      "assignedUniqueIds": 642,
+      "unassignedUniqueIds": 300,
+      "groupMemberships": 696,
+      "extraOverlappingMemberships": 54
+    },
+    {
+      "view": "byPublisherDeclaredCivilization",
+      "indexedDenominator": 942,
+      "assignedUniqueIds": 428,
+      "unassignedUniqueIds": 514,
+      "groupMemberships": 1626,
+      "extraOverlappingMemberships": 1198
+    }
+  ],
+  "network_requests": 0,
+  "raw_text_published": false
+}

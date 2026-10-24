@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-24T02:03:10.647Z",
+  "base": "http://127.0.0.1:8016/channels-ET/dist/transcripts/",
+  "scope": "Independent rendered transcript-study acceptance; local candidate only",
+  "checks": [
+    "Actual source corpus contains20ASR and16authored documents",
+    "Separate fitted TF-IDF source matrices20/16",
+    "Bound reading artifact contains37typed candidates",
+    "Actual managed-local archive200files/1,703,879,268bytes",
+    "Drive0 and local-retention uncertainty preserved",
+    "Overview ASR denominator20/20 visible",
+    "Zero YouTube result has explicit unit",
+    "Desktop overview has no page-level horizontal overflow",
+    "Source inspector opens by keyboard",
+    "Source inspector exposes exact textSHA256",
+    "Source inspector denies unverified speaker identity",
+    "Escape closes native source dialog",
+    "Source dialog returns keyboard focus to trigger",
+    "One main heading: #maps",
+    "Network displays20actual source nodes",
+    "ASRcluster2is19plus1source partition, notETgroupdiscovery",
+    "Topiccolorlegend identifies fittedT1",
+    "Topiccolorlegend identifies fittedT2",
+    "Topiccolorlegend identifies fittedT3",
+    "Contextcolorlegend identifies Darryl Anka / Bashar context",
+    "Contextcolorlegend identifies Athina Król",
+    "Default top2union/.20 edge count matches independent matrix calculation",
+    "Actual filtered pair download equals independently calculated edge set",
+    "Threshold keyboardEnd selects1.00",
+    "Threshold-empty graph preserves20source nodes and0edges",
+    "Empty-edge explanation visible",
+    "Missing source search creates0nodes",
+    "Missing source search has explicit recovery text",
+    "Map control selected: Clusters & projection",
+    "Dominanttopicfilter selects retainedASRvectors withoutrefitting",
+    "ASR projection overlays16distinct authored references",
+    "Visible-sourceexport includesall16authoredreferencepoints and20ASRpoints",
+    "Referenceoverlayexport preservesdisplayrule andsourceartifactSHA",
+    "Keyboard-selected authored reference has working source inspector",
+    "Authored reference provenance dialog binds correct source",
+    "Corpus selector retained: authored",
+    "Authored denominator16/16 visible",
+    "Authored projection uses16document separate fit",
+    "Authored fit does not offer reverse pooled-model overlay",
+    "Map control selected: Topics & keywords",
+    "Authored topic heatmap has16source rows",
+    "Authored topic grouping shows2publisher means",
+    "Map control selected: TF-IDF terms",
+    "Authored TF-IDF export retains fixed40-term display vocabulary",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: not",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: earth",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: experience",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: way",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: time",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: feel",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: don't",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: life",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: book",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: new book",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: creators",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: planet",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: want",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: help",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: source",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: need",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: physical",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: people",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: collective",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: planet earth",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: germain",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: make",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: different",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: love",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: live",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: human",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: change",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: create",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: arcturian",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: recognize",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: moment",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: feeling",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: consciousness",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: doing",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: order",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: lives",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: living",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: arcturian council",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: council",
+    "Authored displayed TF-IDF equals exact fixed-fit mean: work",
+    "Map control selected: Claimed-label mentions",
+    "Civilization dictionary has ambiguity caveat",
+    "Named entity/civilization dictionaries kept distinct",
+    "Map control selected: Time profiles",
+    "Authored time profile unavailable state preserves modality",
+    "Corpus selector retained: audio",
+    "ASR ten-bin time profile renders",
+    "One main heading: #reading",
+    "21audioquestion-like candidates separate from16authored",
+    "Exactsampled-readingcoverageunit visible: 11992",
+    "Exactsampled-readingcoverageunit visible: 226093",
+    "Exactsampled-readingcoverageunit visible: 6319",
+    "Exactsampled-readingcoverageunit visible: 13656",
+    "Exactsampled-readingcoverageunit visible: 105",
+    "SeparateASR5.3percent/authored46.3percentreadingcoverage visible",
+    "Default reading scope shows21audio candidates",
+    "Unchanged QAfilter preserves21results",
+    "Question-family filter is an actual labeled control",
+    "Typed interview filter shows14provisional prompts",
+    "Missing QAsearch preserves interpretation/recovery",
+    "Actual QAexport obeys selected ASR corpus",
+    "Corpus selector retained: authored",
+    "Authored reading exposes16analyst comparison prompts",
+    "Authored questions explicitly typed as constructed comparison",
+    "One main heading: #storage",
+    "200localfiles separate from0YTvideo/audio/captions",
+    "Actual attribution coverage visible for byRoute: 898/44",
+    "Overlapcoverage retained for byRoute",
+    "Actual attribution coverage visible for byPublisherGroup: 886/56",
+    "Overlapcoverage retained for byPublisherGroup",
+    "Actual attribution coverage visible for byPractitionerAssociation: 454/488",
+    "Overlapcoverage retained for byPractitionerAssociation",
+    "Actual attribution coverage visible for byEntityLabel: 642/300",
+    "Overlapcoverage retained for byEntityLabel",
+    "Actual attribution coverage visible for byPublisherDeclaredCivilization: 428/514",
+    "Overlapcoverage retained for byPublisherDeclaredCivilization",
+    "Rawlocalpaths are not false browser download links",
+    "ActualYTzero measure renders explicitzero state",
+    "Canonicalsource bytes use own accounting frame",
+    "Sourcepublisher export has16canonical groups",
+    "Canonicalpublisher artifact accounting sums99withoutarchivecopydoublecount",
+    "Canonicalpublisher bytes sumexactsource receipts",
+    "One main heading: #methods",
+    "Standalonefigures labeledfullfit notfiltered",
+    "Commercialsensitivity retains2separatecohortrecords",
+    "ASRcommercialsensitivityusesaudio0.998rank/90percentneighbors",
+    "Authoredcommercialsensitivity1/100percentnotassignedtoASR",
+    "ArtifactHTTP200: analysis.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: analysis.json",
+    "Artifact equals finalretainedsource: analysis.json",
+    "ArtifactHTTP200: analysis-protocol.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: analysis-protocol.json",
+    "Artifact equals finalretainedsource: analysis-protocol.json",
+    "ArtifactHTTP200: sources.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: sources.json",
+    "Artifact equals finalretainedsource: sources.json",
+    "ArtifactHTTP200: figures/source-coverage.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/source-coverage.pdf",
+    "Artifact equals finalretainedsource: figures/source-coverage.pdf",
+    "ArtifactHTTP200: figures/source-coverage.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/source-coverage.svg",
+    "Artifact equals finalretainedsource: figures/source-coverage.svg",
+    "ArtifactHTTP200: figures/source-coverage.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/source-coverage.png",
+    "Artifact equals finalretainedsource: figures/source-coverage.png",
+    "ArtifactHTTP200: figures/audio-cosine.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-cosine.pdf",
+    "Artifact equals finalretainedsource: figures/audio-cosine.pdf",
+    "ArtifactHTTP200: figures/audio-cosine.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-cosine.svg",
+    "Artifact equals finalretainedsource: figures/audio-cosine.svg",
+    "ArtifactHTTP200: figures/audio-cosine.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-cosine.png",
+    "Artifact equals finalretainedsource: figures/audio-cosine.png",
+    "ArtifactHTTP200: figures/source-overlay.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/source-overlay.pdf",
+    "Artifact equals finalretainedsource: figures/source-overlay.pdf",
+    "ArtifactHTTP200: figures/source-overlay.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/source-overlay.svg",
+    "Artifact equals finalretainedsource: figures/source-overlay.svg",
+    "ArtifactHTTP200: figures/source-overlay.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/source-overlay.png",
+    "Artifact equals finalretainedsource: figures/source-overlay.png",
+    "ArtifactHTTP200: figures/audio-topics.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-topics.pdf",
+    "Artifact equals finalretainedsource: figures/audio-topics.pdf",
+    "ArtifactHTTP200: figures/audio-topics.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-topics.svg",
+    "Artifact equals finalretainedsource: figures/audio-topics.svg",
+    "ArtifactHTTP200: figures/audio-topics.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-topics.png",
+    "Artifact equals finalretainedsource: figures/audio-topics.png",
+    "ArtifactHTTP200: figures/theme-overlay.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/theme-overlay.pdf",
+    "Artifact equals finalretainedsource: figures/theme-overlay.pdf",
+    "ArtifactHTTP200: figures/theme-overlay.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/theme-overlay.svg",
+    "Artifact equals finalretainedsource: figures/theme-overlay.svg",
+    "ArtifactHTTP200: figures/theme-overlay.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/theme-overlay.png",
+    "Artifact equals finalretainedsource: figures/theme-overlay.png",
+    "ArtifactHTTP200: figures/document-network.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/document-network.pdf",
+    "Artifact equals finalretainedsource: figures/document-network.pdf",
+    "ArtifactHTTP200: figures/document-network.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/document-network.svg",
+    "Artifact equals finalretainedsource: figures/document-network.svg",
+    "ArtifactHTTP200: figures/document-network.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/document-network.png",
+    "Artifact equals finalretainedsource: figures/document-network.png",
+    "ArtifactHTTP200: figures/civilization-mentions.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/civilization-mentions.pdf",
+    "Artifact equals finalretainedsource: figures/civilization-mentions.pdf",
+    "ArtifactHTTP200: figures/civilization-mentions.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/civilization-mentions.svg",
+    "Artifact equals finalretainedsource: figures/civilization-mentions.svg",
+    "ArtifactHTTP200: figures/civilization-mentions.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/civilization-mentions.png",
+    "Artifact equals finalretainedsource: figures/civilization-mentions.png",
+    "ArtifactHTTP200: figures/model-diagnostics.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/model-diagnostics.pdf",
+    "Artifact equals finalretainedsource: figures/model-diagnostics.pdf",
+    "ArtifactHTTP200: figures/model-diagnostics.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/model-diagnostics.svg",
+    "Artifact equals finalretainedsource: figures/model-diagnostics.svg",
+    "ArtifactHTTP200: figures/model-diagnostics.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/model-diagnostics.png",
+    "Artifact equals finalretainedsource: figures/model-diagnostics.png",
+    "ArtifactHTTP200: figures/audio-time-profiles.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-time-profiles.pdf",
+    "Artifact equals finalretainedsource: figures/audio-time-profiles.pdf",
+    "ArtifactHTTP200: figures/audio-time-profiles.svg",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-time-profiles.svg",
+    "Artifact equals finalretainedsource: figures/audio-time-profiles.svg",
+    "ArtifactHTTP200: figures/audio-time-profiles.png",
+    "Servedartifact bytes/SHA equaldeclared provenance: figures/audio-time-profiles.png",
+    "Artifact equals finalretainedsource: figures/audio-time-profiles.png",
+    "ArtifactHTTP200: reading-documents.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-documents.json",
+    "Artifact equals finalretainedsource: reading-documents.json",
+    "ArtifactHTTP200: reading-summary.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-summary.json",
+    "Artifact equals finalretainedsource: reading-summary.json",
+    "ArtifactHTTP200: reading-qualitative-codes.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-qualitative-codes.json",
+    "Artifact equals finalretainedsource: reading-qualitative-codes.json",
+    "ArtifactHTTP200: reading-qa-candidates.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-qa-candidates.json",
+    "Artifact equals finalretainedsource: reading-qa-candidates.json",
+    "ArtifactHTTP200: reading-qa-candidates.sqlite",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-qa-candidates.sqlite",
+    "Artifact equals finalretainedsource: reading-qa-candidates.sqlite",
+    "ArtifactHTTP200: reading-codebook.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-codebook.json",
+    "Artifact equals finalretainedsource: reading-codebook.json",
+    "ArtifactHTTP200: reading-reading-windows.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-reading-windows.json",
+    "Artifact equals finalretainedsource: reading-reading-windows.json",
+    "ArtifactHTTP200: storage-distributions.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: storage-distributions.json",
+    "Artifact equals finalretainedsource: storage-distributions.json",
+    "ArtifactHTTP200: distributions/attribution-coverage.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/attribution-coverage.csv",
+    "Artifact equals finalretainedsource: distributions/attribution-coverage.csv",
+    "ArtifactHTTP200: distributions/byEntityLabel.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/byEntityLabel.csv",
+    "Artifact equals finalretainedsource: distributions/byEntityLabel.csv",
+    "ArtifactHTTP200: distributions/byPractitionerAssociation.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/byPractitionerAssociation.csv",
+    "Artifact equals finalretainedsource: distributions/byPractitionerAssociation.csv",
+    "ArtifactHTTP200: distributions/byPublisherDeclaredCivilization.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/byPublisherDeclaredCivilization.csv",
+    "Artifact equals finalretainedsource: distributions/byPublisherDeclaredCivilization.csv",
+    "ArtifactHTTP200: distributions/byPublisherGroup.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/byPublisherGroup.csv",
+    "Artifact equals finalretainedsource: distributions/byPublisherGroup.csv",
+    "ArtifactHTTP200: distributions/byRoute.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/byRoute.csv",
+    "Artifact equals finalretainedsource: distributions/byRoute.csv",
+    "ArtifactHTTP200: distributions/storage-byPractitionerContext.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/storage-byPractitionerContext.csv",
+    "Artifact equals finalretainedsource: distributions/storage-byPractitionerContext.csv",
+    "ArtifactHTTP200: distributions/storage-byProvider.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/storage-byProvider.csv",
+    "Artifact equals finalretainedsource: distributions/storage-byProvider.csv",
+    "ArtifactHTTP200: distributions/storage-byPublisher.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/storage-byPublisher.csv",
+    "Artifact equals finalretainedsource: distributions/storage-byPublisher.csv",
+    "ArtifactHTTP200: distributions/storage-bySourceContext.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: distributions/storage-bySourceContext.csv",
+    "Artifact equals finalretainedsource: distributions/storage-bySourceContext.csv",
+    "ArtifactHTTP200: archive-state.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: archive-state.json",
+    "Artifact equals finalretainedsource: archive-state.json",
+    "ArtifactHTTP200: archive-receipt.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: archive-receipt.json",
+    "Artifact equals finalretainedsource: archive-receipt.json",
+    "ArtifactHTTP200: verification.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: verification.json",
+    "Artifact equals finalretainedsource: verification.json",
+    "ArtifactHTTP200: source-receipts/original19-asr.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: source-receipts/original19-asr.json",
+    "Artifact equals finalretainedsource: source-receipts/original19-asr.json",
+    "ArtifactHTTP200: source-receipts/athina-asr.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: source-receipts/athina-asr.json",
+    "Artifact equals finalretainedsource: source-receipts/athina-asr.json",
+    "ArtifactHTTP200: source-receipts/primary-source-metadata.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: source-receipts/primary-source-metadata.json",
+    "Artifact equals finalretainedsource: source-receipts/primary-source-metadata.json",
+    "ArtifactHTTP200: reading-interpretive-findings.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-interpretive-findings.json",
+    "Artifact equals finalretainedsource: reading-interpretive-findings.json",
+    "ArtifactHTTP200: reading-posthoc-entity-spelling-review.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-posthoc-entity-spelling-review.json",
+    "Artifact equals finalretainedsource: reading-posthoc-entity-spelling-review.json",
+    "ArtifactHTTP200: analysis-README.md",
+    "Servedartifact bytes/SHA equaldeclared provenance: analysis-README.md",
+    "Artifact equals finalretainedsource: analysis-README.md",
+    "ArtifactHTTP200: analysis-verification.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: analysis-verification.json",
+    "Artifact equals finalretainedsource: analysis-verification.json",
+    "ArtifactHTTP200: tables/audio-cosine-pairs.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: tables/audio-cosine-pairs.csv",
+    "Artifact equals finalretainedsource: tables/audio-cosine-pairs.csv",
+    "ArtifactHTTP200: tables/nmf-candidates.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: tables/nmf-candidates.csv",
+    "Artifact equals finalretainedsource: tables/nmf-candidates.csv",
+    "ArtifactHTTP200: tables/cluster-candidates.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: tables/cluster-candidates.csv",
+    "Artifact equals finalretainedsource: tables/cluster-candidates.csv",
+    "ArtifactHTTP200: tables/leave-one-publisher-out.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: tables/leave-one-publisher-out.csv",
+    "Artifact equals finalretainedsource: tables/leave-one-publisher-out.csv",
+    "ArtifactHTTP200: tables/sources.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: tables/sources.csv",
+    "Artifact equals finalretainedsource: tables/sources.csv",
+    "ArtifactHTTP200: tables/theme-rates.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: tables/theme-rates.csv",
+    "Artifact equals finalretainedsource: tables/theme-rates.csv",
+    "ArtifactHTTP200: tables/civilization-mentions.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: tables/civilization-mentions.csv",
+    "Artifact equals finalretainedsource: tables/civilization-mentions.csv",
+    "ArtifactHTTP200: tables/topic-weights.csv",
+    "Servedartifact bytes/SHA equaldeclared provenance: tables/topic-weights.csv",
+    "Artifact equals finalretainedsource: tables/topic-weights.csv",
+    "ArtifactHTTP200: reading-README.md",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-README.md",
+    "Artifact equals finalretainedsource: reading-README.md",
+    "ArtifactHTTP200: reading-verification.json",
+    "Servedartifact bytes/SHA equaldeclared provenance: reading-verification.json",
+    "Artifact equals finalretainedsource: reading-verification.json",
+    "ArtifactHTTP200: paper.pdf",
+    "Servedartifact bytes/SHA equaldeclared provenance: paper.pdf",
+    "Artifact equals finalretainedsource: paper.pdf",
+    "ArtifactHTTP200: source.zip",
+    "Servedartifact bytes/SHA equaldeclared provenance: source.zip",
+    "Artifact equals finalretainedsource: source.zip",
+    "Desktop methods has no page-level horizontal overflow",
+    "One main heading: #overview",
+    "390px #overview has no page-level horizontal overflow",
+    "Mobilecurrent navigation state: #overview",
+    "200percent-equivalentreflow uses720CSSpixels/1440devicepixels",
+    "200percent-equivalentreflow #overview has no page-level horizontal overflow",
+    "One main heading: #maps",
+    "390px #maps has no page-level horizontal overflow",
+    "Mobilecurrent navigation state: #maps",
+    "200percent-equivalentreflow uses720CSSpixels/1440devicepixels",
+    "200percent-equivalentreflow #maps has no page-level horizontal overflow",
+    "One main heading: #reading",
+    "390px #reading has no page-level horizontal overflow",
+    "Mobilecurrent navigation state: #reading",
+    "200percent-equivalentreflow uses720CSSpixels/1440devicepixels",
+    "200percent-equivalentreflow #reading has no page-level horizontal overflow",
+    "One main heading: #storage",
+    "390px #storage has no page-level horizontal overflow",
+    "Mobilecurrent navigation state: #storage",
+    "200percent-equivalentreflow uses720CSSpixels/1440devicepixels",
+    "200percent-equivalentreflow #storage has no page-level horizontal overflow",
+    "One main heading: #methods",
+    "390px #methods has no page-level horizontal overflow",
+    "Mobilecurrent navigation state: #methods",
+    "200percent-equivalentreflow uses720CSSpixels/1440devicepixels",
+    "200percent-equivalentreflow #methods has no page-level horizontal overflow",
+    "One main heading: #overview",
+    "Corpus selector retained: audio",
+    "200percent-equivalentreflow uses720CSSpixels/1440devicepixels",
+    "One main heading: #maps",
+    "Map control selected: Similarity network",
+    "390pxnetworkhitareas meet24CSSpixelminimumbounds",
+    "No invalid numeric/object placeholder rendering",
+    "Skiplink is firstkeyboardtarget",
+    "Skiplink moveskeyboardfocus to mainstudy",
+    "No browser runtimeerrors",
+    "ServedfinalUIasset equalsretainedsource: index.html",
+    "ServedfinalUIasset equalsretainedsource: styles.css",
+    "ServedfinalUIasset equalsretainedsource: lib.js",
+    "ServedfinalUIasset equalsretainedsource: charts.js",
+    "ServedfinalUIasset equalsretainedsource: app.js",
+    "ActuallyloadedUIasset stablethroughrenderedtest: index.html",
+    "ActuallyloadedUIasset stablethroughrenderedtest: styles.css",
+    "ActuallyloadedUIasset stablethroughrenderedtest: lib.js",
+    "ActuallyloadedUIasset stablethroughrenderedtest: charts.js",
+    "ActuallyloadedUIasset stablethroughrenderedtest: app.js",
+    "ActuallyloadedUIasset stablethroughrenderedtest: data.json",
+    "Candidate data stablethroughrenderedtest",
+    "390pxoldAcquisitionnavigation has no page-level horizontal overflow",
+    "OldAcquisitionentry openscorrectproject-prefixedTranscriptstudy",
+    "Latestrootentry preservesquery/hash androutes default→/channels-ET/dist/transcripts/",
+    "Latestrootentry preservesquery/hash androutes #harvest→/channels-ET/dist/research/",
+    "Latestrootentry preservesquery/hash androutes #/discovery→/channels-ET/dist/",
+    "No runtimeerrors acrossreviewednewandstagedoldentryflows"
+  ],
+  "errors": [],
+  "externalRequestsBlocked": 0,
+  "downloads": {
+    "analysis.json": {
+      "bytes": 631758,
+      "sha256": "14ccb929d1613b72fbb437ba995e5c7b5a8b17cd6cbffe1f2a126f5d7b81ea14",
+      "source": "research/transcript-analysis/analysis.json"
+    },
+    "analysis-protocol.json": {
+      "bytes": 5938,
+      "sha256": "6beb40a604b599d96783a21cbed37bc803db526898737a0b18eb284605f55707",
+      "source": "research/transcript-analysis/protocol.json"
+    },
+    "sources.json": {
+      "bytes": 38391,
+      "sha256": "41857e4235b4eef861c68cfde234d3fd47b5cb56b264f996b068e8ea1ce798e1",
+      "source": "research/transcript-analysis/sources.json"
+    },
+    "figures/source-coverage.pdf": {
+      "bytes": 21245,
+      "sha256": "d5a90dbfab138bf4641db7f8c3b24411350c79f0c438f38737d2f8a8dce0bad8",
+      "source": "research/transcript-analysis/figures/source-coverage.pdf"
+    },
+    "figures/source-coverage.svg": {
+      "bytes": 61551,
+      "sha256": "4ffb8da2783e25e0ff8b13dd66c69932e929e23e5f2da2d115dda448cefbf9bd",
+      "source": "research/transcript-analysis/figures/source-coverage.svg"
+    },
+    "figures/source-coverage.png": {
+      "bytes": 92611,
+      "sha256": "e11a1975c46c97552a59113a2c8e9a10cb1f63121bd33f39654bf7bc911715b7",
+      "source": "research/transcript-analysis/figures/source-coverage.png"
+    },
+    "figures/audio-cosine.pdf": {
+      "bytes": 30243,
+      "sha256": "741f4358bcd47a8d3e1df3a1acf20d2c693c30061bd9e3da1f0fafa3cdeb75aa",
+      "source": "research/transcript-analysis/figures/audio-cosine.pdf"
+    },
+    "figures/audio-cosine.svg": {
+      "bytes": 70268,
+      "sha256": "898577e389c448398d3311c475698a6e169242a7a5c6a2dd9a6fa687a9e72bd4",
+      "source": "research/transcript-analysis/figures/audio-cosine.svg"
+    },
+    "figures/audio-cosine.png": {
+      "bytes": 76953,
+      "sha256": "bf77729b8d533cbe5b97ad1a90902169716fed231f9c3cc2410211a73779543e",
+      "source": "research/transcript-analysis/figures/audio-cosine.png"
+    },
+    "figures/source-overlay.pdf": {
+      "bytes": 28507,
+      "sha256": "6ad6bff844a98ec5d0807a8d4d8942536b948fc220e4047a2c9948a5587b58ff",
+      "source": "research/transcript-analysis/figures/source-overlay.pdf"
+    },
+    "figures/source-overlay.svg": {
+      "bytes": 92425,
+      "sha256": "88c2f32e926a1fa790d0c0895acf39189f6ffb1ec0befc13ef4ed78289123288",
+      "source": "research/transcript-analysis/figures/source-overlay.svg"
+    },
+    "figures/source-overlay.png": {
+      "bytes": 148216,
+      "sha256": "286624ce6b71aebb520a989fa69b9eebedfb238979253821936117af3b5c325f",
+      "source": "research/transcript-analysis/figures/source-overlay.png"
+    },
+    "figures/audio-topics.pdf": {
+      "bytes": 21611,
+      "sha256": "ff295a2ddaf021ed9563d4b62a15bae95a702b9b0b4f3048111eefc7ad98dd10",
+      "source": "research/transcript-analysis/figures/audio-topics.pdf"
+    },
+    "figures/audio-topics.svg": {
+      "bytes": 65731,
+      "sha256": "d102fddf4a23fdec1bca4f6abe82c1a4411b66c05429b94dee1c8751bc65a5e2",
+      "source": "research/transcript-analysis/figures/audio-topics.svg"
+    },
+    "figures/audio-topics.png": {
+      "bytes": 77382,
+      "sha256": "8a927018e0a2a244b8211c1b3f8d54fbc38e164775243bca5ba659bc25b2b731",
+      "source": "research/transcript-analysis/figures/audio-topics.png"
+    },
+    "figures/theme-overlay.pdf": {
+      "bytes": 45378,
+      "sha256": "4ab18c2ccd63c5fb81b46b55dfe2bb63df0785b5062749f3b4b87ca5552e20dd",
+      "source": "research/transcript-analysis/figures/theme-overlay.pdf"
+    },
+    "figures/theme-overlay.svg": {
+      "bytes": 129361,
+      "sha256": "998280d66e60841af619438b77aab7786565998738920211b882b0e3a6f2e356",
+      "source": "research/transcript-analysis/figures/theme-overlay.svg"
+    },
+    "figures/theme-overlay.png": {
+      "bytes": 232345,
+      "sha256": "b3ebd5f16b7f44240900f192a9152b63ebf64af9913592d41b4d6af5228d8c92",
+      "source": "research/transcript-analysis/figures/theme-overlay.png"
+    },
+    "figures/document-network.pdf": {
+      "bytes": 18931,
+      "sha256": "a45b4bd2496a31b4db421ed2619d5cb0858938bb77b8f8b141eb65b0195cf5c5",
+      "source": "research/transcript-analysis/figures/document-network.pdf"
+    },
+    "figures/document-network.svg": {
+      "bytes": 46429,
+      "sha256": "c43afcd86a0c7ed761cbf0d8b5cb7baf670590f557902dfcf27fa76d1a3af627",
+      "source": "research/transcript-analysis/figures/document-network.svg"
+    },
+    "figures/document-network.png": {
+      "bytes": 297164,
+      "sha256": "6411590ec0ae4a803544bd5d90bcb835252d8505fdcff80000fcd00633320db8",
+      "source": "research/transcript-analysis/figures/document-network.png"
+    },
+    "figures/civilization-mentions.pdf": {
+      "bytes": 20444,
+      "sha256": "6233668719efa7d34fe6f10ca6296d8314a91cdf8cde786a467f9fec81be433e",
+      "source": "research/transcript-analysis/figures/civilization-mentions.pdf"
+    },
+    "figures/civilization-mentions.svg": {
+      "bytes": 44512,
+      "sha256": "40ad26c160261c2b8979ce49df352c43cbfd9e75b84561cedd27dc94c1e1d914",
+      "source": "research/transcript-analysis/figures/civilization-mentions.svg"
+    },
+    "figures/civilization-mentions.png": {
+      "bytes": 83804,
+      "sha256": "a2c9117a27240240eeff558a842ddb3a8053f059601198cf4d9676d97f5eb016",
+      "source": "research/transcript-analysis/figures/civilization-mentions.png"
+    },
+    "figures/model-diagnostics.pdf": {
+      "bytes": 12506,
+      "sha256": "640b34034ce39ca18591ac0c52217f4f45eb4cff141e862396c5d2957a9ba3a1",
+      "source": "research/transcript-analysis/figures/model-diagnostics.pdf"
+    },
+    "figures/model-diagnostics.svg": {
+      "bytes": 49075,
+      "sha256": "bd507752207fb10907893d194d864cf491a4510294e8c5505f3556b0f3fc2a04",
+      "source": "research/transcript-analysis/figures/model-diagnostics.svg"
+    },
+    "figures/model-diagnostics.png": {
+      "bytes": 104309,
+      "sha256": "2b7fe0b64e54d3d4c29e007a122d71249a6225f299c2836e0443a3e6a487fd9c",
+      "source": "research/transcript-analysis/figures/model-diagnostics.png"
+    },
+    "figures/audio-time-profiles.pdf": {
+      "bytes": 23171,
+      "sha256": "cffb278f5c1e8e0d584cc5473e99dac9f14ca59f1b09db730e6b100eb3cdaa6b",
+      "source": "research/transcript-analysis/figures/audio-time-profiles.pdf"
+    },
+    "figures/audio-time-profiles.svg": {
+      "bytes": 75888,
+      "sha256": "d0d6313ce0a5c6c0802aecce750dc9b7af5203e9769a223ce90e4776a2b39710",
+      "source": "research/transcript-analysis/figures/audio-time-profiles.svg"
+    },
+    "figures/audio-time-profiles.png": {
+      "bytes": 122125,
+      "sha256": "fccad914862d6d8345f6ca5c2ad3f2168772abef84bcc4f1b4c2fe4f26e070ad",
+      "source": "research/transcript-analysis/figures/audio-time-profiles.png"
+    },
+    "reading-documents.json": {
+      "bytes": 42018,
+      "sha256": "f9161c6455b89355c6c16f91dabd5fa3990ea0900c18c580cbcd9c9b361d30f7",
+      "source": "research/transcript-reading/documents.json"
+    },
+    "reading-summary.json": {
+      "bytes": 4172,
+      "sha256": "a1d4ddd156bb77b3fdaa1d13cf2cd185cfa51b49d5b7f2876927fc6a6656abff",
+      "source": "research/transcript-reading/summary.json"
+    },
+    "reading-qualitative-codes.json": {
+      "bytes": 58965,
+      "sha256": "546867131e1910f1d3f016cb90896c418c46ae815274ecc5be71fcf243836738",
+      "source": "research/transcript-reading/qualitative-codes.json"
+    },
+    "reading-qa-candidates.json": {
+      "bytes": 73424,
+      "sha256": "1401391a2b0ff69ca1e4c2f4705431686770469dbb6db5f3a9e04ff2c3ba93c6",
+      "source": "research/transcript-reading/qa-candidates.json"
+    },
+    "reading-qa-candidates.sqlite": {
+      "bytes": 331776,
+      "sha256": "119ebd2357a086bf54455194874412944075c7ced0eac30abe89cb1e2132c274",
+      "source": "research/transcript-reading/qa-candidates.sqlite"
+    },
+    "reading-codebook.json": {
+      "bytes": 3624,
+      "sha256": "b97e1c792fe2ac2d841b100b9901bf98eb3b8981b8198a421cbaa751a382b2cd",
+      "source": "research/transcript-reading/codebook.json"
+    },
+    "reading-reading-windows.json": {
+      "bytes": 82541,
+      "sha256": "4aabe23633446de290290d225de2552b59ef07978013bac7d19373eb92fdf83a",
+      "source": "research/transcript-reading/reading-windows.json"
+    },
+    "storage-distributions.json": {
+      "bytes": 763960,
+      "sha256": "9c331398dcddeb36180257fe2b902138fd1a39dc618a16657176f708473bf375",
+      "source": "research/storage-distributions/distributions.json"
+    },
+    "distributions/attribution-coverage.csv": {
+      "bytes": 24652,
+      "sha256": "2c122ad47f9295d4ebbdb6e3e0a6c6a59482bf4af3af1beebd99168c0413b0ce",
+      "source": "research/storage-distributions/attribution-coverage.csv"
+    },
+    "distributions/byEntityLabel.csv": {
+      "bytes": 28713,
+      "sha256": "299abbfeb1740401a2ec66b1175fdb26b7db037ee1003e2d18e2352c6c944c02",
+      "source": "research/storage-distributions/byEntityLabel.csv"
+    },
+    "distributions/byPractitionerAssociation.csv": {
+      "bytes": 18997,
+      "sha256": "9765f574c4a0f531a8f29901294cceb648f1bf655e90e7c79740160bd12931df",
+      "source": "research/storage-distributions/byPractitionerAssociation.csv"
+    },
+    "distributions/byPublisherDeclaredCivilization.csv": {
+      "bytes": 32125,
+      "sha256": "317d5abf0e430a14ad35082ef4042b2c7bf9cc4150db7683df7f410447ffc602",
+      "source": "research/storage-distributions/byPublisherDeclaredCivilization.csv"
+    },
+    "distributions/byPublisherGroup.csv": {
+      "bytes": 46883,
+      "sha256": "5858b2fab678bfa2383f5dfa5661e8355190188d7ea26e91ffe24413a203c512",
+      "source": "research/storage-distributions/byPublisherGroup.csv"
+    },
+    "distributions/byRoute.csv": {
+      "bytes": 94275,
+      "sha256": "9219f94e4719c48f8953588c9a5eed851c28ac2b57d8523a7e52788ab4247a8a",
+      "source": "research/storage-distributions/byRoute.csv"
+    },
+    "distributions/storage-byPractitionerContext.csv": {
+      "bytes": 1733,
+      "sha256": "aa69b32a01627efcad620d6929a068fb8a4edfa0342b71ee6d50513623ded186",
+      "source": "research/storage-distributions/storage-byPractitionerContext.csv"
+    },
+    "distributions/storage-byProvider.csv": {
+      "bytes": 1499,
+      "sha256": "46285cf931e2049d3c4bee4bcbe13860c24b27766a2f156947c1581bf5780bb7",
+      "source": "research/storage-distributions/storage-byProvider.csv"
+    },
+    "distributions/storage-byPublisher.csv": {
+      "bytes": 3515,
+      "sha256": "c2c1d870933bca73cc4a62b51e201a125ef63a2eb682a297d76af6a68311a714",
+      "source": "research/storage-distributions/storage-byPublisher.csv"
+    },
+    "distributions/storage-bySourceContext.csv": {
+      "bytes": 2091,
+      "sha256": "a2f01e6a84bd0ee941c5992a6a10ef67d41bea1d79500d9279fd81c21fbeffca",
+      "source": "research/storage-distributions/storage-bySourceContext.csv"
+    },
+    "archive-state.json": {
+      "bytes": 1786,
+      "sha256": "4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4",
+      "source": "research/cloud-archive/archive-state.json"
+    },
+    "archive-receipt.json": {
+      "bytes": 116589,
+      "sha256": "58ce8d8cfcba0034ffa8a91d1aa3200f50a036fe535e9623aa4d48fcb1c7701f",
+      "source": "research/cloud-archive/archive-receipt.json"
+    },
+    "verification.json": {
+      "bytes": 2896,
+      "sha256": "ed1b7a944eb3386cb974757b00895b98b3f589b87a2550e0fa72df63d9cd9637",
+      "source": "research/cloud-archive/verification.json"
+    },
+    "source-receipts/original19-asr.json": {
+      "bytes": 80379,
+      "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba",
+      "source": "research/harvest/asr/summary.json"
+    },
+    "source-receipts/athina-asr.json": {
+      "bytes": 3576,
+      "sha256": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7",
+      "source": "research/access-repair/athina/asr/310c6d538a438cee6ba4-receipt.json"
+    },
+    "source-receipts/primary-source-metadata.json": {
+      "bytes": 23167,
+      "sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca",
+      "source": "research/access-repair/primary-sources/expanded-metadata.json"
+    },
+    "reading-interpretive-findings.json": {
+      "bytes": 5486,
+      "sha256": "3917d9bb5b69186667c07ffa6331db2375b82e64e3698ef5af5c261ea6c62e9a",
+      "source": "research/transcript-reading/interpretive-findings.json"
+    },
+    "reading-posthoc-entity-spelling-review.json": {
+      "bytes": 10775,
+      "sha256": "07818e5f60d9ea4396c884322670928ac687c00d4ba0ae123fb8e0ed1c6bd071",
+      "source": "research/transcript-reading/posthoc-entity-spelling-review.json"
+    },
+    "analysis-README.md": {
+      "bytes": 10785,
+      "sha256": "c0fe67860c1df7dd7513e78925a52aad7e5f770f56385f4de1df2736cf92fcf0",
+      "source": "research/transcript-analysis/README.md"
+    },
+    "analysis-verification.json": {
+      "bytes": 7555,
+      "sha256": "7dd189c096ae8373eebbb4abe90a77eedb06bd6ea69d569d4ace99bc73b885dd",
+      "source": "research/transcript-analysis/verification.json"
+    },
+    "tables/audio-cosine-pairs.csv": {
+      "bytes": 14495,
+      "sha256": "3509a31ae47a7281f052b5169df1f0ed42fbd28d30d831619d71e5c1fa94f5a9",
+      "source": "research/transcript-analysis/tables/audio-cosine-pairs.csv"
+    },
+    "tables/nmf-candidates.csv": {
+      "bytes": 518,
+      "sha256": "eb3c2e41247b69e11872d6d38cd4e4127183baef9f840c397bbc9300a86b9876",
+      "source": "research/transcript-analysis/tables/nmf-candidates.csv"
+    },
+    "tables/cluster-candidates.csv": {
+      "bytes": 538,
+      "sha256": "ac1fb54fb97adcc0d4c16eb0151379afe928a85dcc6a2c60f6597021c5ad1c1f",
+      "source": "research/transcript-analysis/tables/cluster-candidates.csv"
+    },
+    "tables/leave-one-publisher-out.csv": {
+      "bytes": 825,
+      "sha256": "3e5cffd06438efb3eaf9a9416e69aab0f507b92fda5f4acb2fe844181790bbdc",
+      "source": "research/transcript-analysis/tables/leave-one-publisher-out.csv"
+    },
+    "tables/sources.csv": {
+      "bytes": 21253,
+      "sha256": "71601be05dd1d30dc332e5d66b5cbd024454532717f5486e6c26ca10df7366b6",
+      "source": "research/transcript-analysis/tables/sources.csv"
+    },
+    "tables/theme-rates.csv": {
+      "bytes": 6737,
+      "sha256": "ea436f8d16c5b97ab1452b4be15cd9406d3c0a2dbe212e19833f6772708e0292",
+      "source": "research/transcript-analysis/tables/theme-rates.csv"
+    },
+    "tables/civilization-mentions.csv": {
+      "bytes": 1664,
+      "sha256": "97a8f14c01d9c8400b8078589039a7e2b11846471b1194e18b1d4da23814920e",
+      "source": "research/transcript-analysis/tables/civilization-mentions.csv"
+    },
+    "tables/topic-weights.csv": {
+      "bytes": 1439,
+      "sha256": "04dd7202248715dfa0d79aefc620603603ba2ca12d900b43096a9d818c015a57",
+      "source": "research/transcript-analysis/tables/topic-weights.csv"
+    },
+    "reading-README.md": {
+      "bytes": 10018,
+      "sha256": "b363beb0a06f3302935438df071558efc111563b71100bcb628e793ac0c977bb",
+      "source": "research/transcript-reading/README.md"
+    },
+    "reading-verification.json": {
+      "bytes": 3953,
+      "sha256": "6a7c0e407300311ab237def885afcac498f45f3f3ebcb17b37004dcf76758cd7",
+      "source": "research/transcript-reading/verification.json"
+    },
+    "paper.pdf": {
+      "bytes": 325223,
+      "sha256": "57102be0b866a80f7b49b9de89e6d0823d962fe8cd3f71fb229ede8d68bb700f",
+      "source": "research/transcript-paper/channels-et-transcript-paper.pdf"
+    },
+    "source.zip": {
+      "bytes": 199413,
+      "sha256": "604ab5db35595e2cd5cb5cdc8540671ac1e702b0333e7fb79c2cb354648b3bd2",
+      "source": "research/transcript-paper/channels-et-transcript-source.zip"
+    },
+    "index.html": {
+      "bytes": 1940,
+      "sha256": "a5877df13e911c443ae70bed59b6f7db7b520081a3d6587ea88bb66f439bf416"
+    },
+    "styles.css": {
+      "bytes": 11610,
+      "sha256": "562a519540c7f1822ca16106ec5fe68d5cbdfe6b147f1a189fc3e9b245b4037e"
+    },
+    "lib.js": {
+      "bytes": 7879,
+      "sha256": "9c98e5c037156d66176f87f2f437fbafc00672d786c742b2edfd9506c970c867"
+    },
+    "charts.js": {
+      "bytes": 8236,
+      "sha256": "747e6f239e7397d7c8935566371d43c301b9c718aa6c11729d75c2ca63248c61"
+    },
+    "app.js": {
+      "bytes": 43214,
+      "sha256": "fb97bc5443f190ad1cfe9a4762ac63e3c61813a1f8cd6e00de91a797e89f15c5"
+    },
+    "data.json": {
+      "bytes": 1279654,
+      "sha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139"
+    }
+  },
+  "screenshots": [
+    "final-01-overview-desktop.png",
+    "final-02-source-inspector.png",
+    "final-03-threshold-empty-desktop.png",
+    "final-04-reference-projection.png",
+    "final-05-reading-desktop.png",
+    "final-06-storage-desktop.png",
+    "final-mobile-maps.png",
+    "final-mobile-storage.png",
+    "final-07-overview-mobile.png",
+    "final-mobile-overview-content.png",
+    "final-08-overview-200percent.png",
+    "final-09-network-mobile.png",
+    "final-11-old-acquisition-mobile-nav.png"
+  ],
+  "finalSourceBinding": true,
+  "dataSha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139",
+  "mobileNodeHitMinimumCssPixels": 24.8177490234375,
+  "loadedAssets": {
+    "index.html": {
+      "bytes": 1940,
+      "sha256": "a5877df13e911c443ae70bed59b6f7db7b520081a3d6587ea88bb66f439bf416"
+    },
+    "styles.css": {
+      "bytes": 11610,
+      "sha256": "562a519540c7f1822ca16106ec5fe68d5cbdfe6b147f1a189fc3e9b245b4037e"
+    },
+    "lib.js": {
+      "bytes": 7879,
+      "sha256": "9c98e5c037156d66176f87f2f437fbafc00672d786c742b2edfd9506c970c867"
+    },
+    "charts.js": {
+      "bytes": 8236,
+      "sha256": "747e6f239e7397d7c8935566371d43c301b9c718aa6c11729d75c2ca63248c61"
+    },
+    "app.js": {
+      "bytes": 43214,
+      "sha256": "fb97bc5443f190ad1cfe9a4762ac63e3c61813a1f8cd6e00de91a797e89f15c5"
+    },
+    "data.json": {
+      "bytes": 1279654,
+      "sha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139"
+    }
+  },
+  "oldAcquisitionNavigation": {
+    "status": "PASS",
+    "href": "../transcripts/"
+  },
+  "rootEntrypoint": {
+    "status": "PASS",
+    "previewSha256": "8af52b207606622e3d805158173e86c24f364cbf0cfd4f48dfcd865c43a75ad6",
+    "retainedSha256": "8af52b207606622e3d805158173e86c24f364cbf0cfd4f48dfcd865c43a75ad6",
+    "cases": [
+      {
+        "start": "http://127.0.0.1:8016/channels-ET/?audit=1",
+        "resolved": "http://127.0.0.1:8016/channels-ET/dist/transcripts/?audit=1"
+      },
+      {
+        "start": "http://127.0.0.1:8016/channels-ET/?audit=1#harvest",
+        "resolved": "http://127.0.0.1:8016/channels-ET/dist/research/?audit=1#harvest"
+      },
+      {
+        "start": "http://127.0.0.1:8016/channels-ET/?audit=1#/discovery",
+        "resolved": "http://127.0.0.1:8016/channels-ET/dist/?audit=1#/discovery"
+      }
+    ]
+  },
+  "status": "PASS",
+  "finishedAt": "2026-10-24T02:03:17.585Z"
+}

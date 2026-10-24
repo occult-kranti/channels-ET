@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "status": "provisional_AI_reading_findings",
+  "records": [
+    {
+      "findingId": "stance_not_similarity",
+      "label": "Shared words can accompany explicit disagreement",
+      "paraphrase": "The skeptical source restates belief/reality guidance while criticizing its repetition and ambiguity. A similarity edge to an interview therefore cannot be interpreted as agreement.",
+      "supportWindowIds": [
+        "rss-425328515-addbc47ecbd7:query_rich"
+      ],
+      "type": "AI interpretive counterexample",
+      "sourceIds": [
+        "rss-425328515-addbc47ecbd7"
+      ],
+      "humanValidated": false,
+      "exactQuotesPublished": false
+    },
+    {
+      "findingId": "ads_not_entity_topics",
+      "label": "Advertising and publisher framing are present in sampled source bodies",
+      "paraphrase": "Retail advertising occurs in the temporal middle of one interview; health-service and software promotions bracket two others, and a podcast advertisement interrupts a brief organizational-role answer. Untreated document topics can therefore describe publishing infrastructure.",
+      "supportWindowIds": [
+        "rss-988576741-1ecc5cb023cf:middle",
+        "rss-1763048673-1cf4301536f2:beginning",
+        "rss-1763048673-32a6fb8cd623:ending",
+        "rss-1546456269-353036e21117:query_rich"
+      ],
+      "type": "AI interpretive counterexample",
+      "sourceIds": [
+        "rss-1546456269-353036e21117",
+        "rss-1763048673-1cf4301536f2",
+        "rss-1763048673-32a6fb8cd623",
+        "rss-988576741-1ecc5cb023cf"
+      ],
+      "humanValidated": false,
+      "exactQuotesPublished": false
+    },
+    {
+      "findingId": "qualification_matters",
+      "label": "Broad agency and future-contact themes include qualifications",
+      "paraphrase": "One source limits changes to an earthly-life framework, another refuses to treat rapid developments as a settled forecast, and another portrays a contact forecast as conditional and potentially influenced by attention to it. These distinctions would disappear in a simple shared-keyword count.",
+      "supportWindowIds": [
+        "rss-1529629262-6e621316510d:query_rich",
+        "rss-1560904383-7f4e01fae0ff:query_rich",
+        "rss-1611118279-afab067a712d:query_rich"
+      ],
+      "type": "AI interpretive comparison",
+      "sourceIds": [
+        "rss-1529629262-6e621316510d",
+        "rss-1560904383-7f4e01fae0ff",
+        "rss-1611118279-afab067a712d"
+      ],
+      "humanValidated": false,
+      "exactQuotesPublished": false
+    },
+    {
+      "findingId": "singleton_topic_context",
+      "label": "A singleton component needs source-level interpretation",
+      "paraphrase": "In the Ashtar-attributed recording, workers belongs to the spiritual compound lightworkers, jumps describes claimed timeline/vibration changes, and sole occurs where surrounding text suggests a possible recognition error involving soul. These observations explain how a component can combine genuine source-specific vocabulary and transcription noise.",
+      "supportWindowIds": [
+        "athina-ashtar-20230206-5d144c22:nmf_workers_context",
+        "athina-ashtar-20230206-5d144c22:nmf_jumps_context",
+        "athina-ashtar-20230206-5d144c22:nmf_sole_context"
+      ],
+      "type": "Post-hoc AI term-context inspection",
+      "sourceIds": [
+        "athina-ashtar-20230206-5d144c22"
+      ],
+      "humanValidated": false,
+      "exactQuotesPublished": false
+    },
+    {
+      "findingId": "same_family_not_same_question",
+      "label": "A broad question family does not make answers equivalent",
+      "paraphrase": "Contact-readiness passages address different subjects: an individual preparing for an encounter, a collective described as unready, and a selected audience described as already prepared. Their shared theme is not enough to establish agreement or contradiction.",
+      "supportWindowIds": [
+        "rss-1556820026-decefb87233c:query_rich",
+        "daniel-item-07:opening_250_words",
+        "daniel-item-02:opening_250_words"
+      ],
+      "type": "AI comparison; human equivalence validation pending",
+      "sourceIds": [
+        "daniel-item-02",
+        "daniel-item-07",
+        "rss-1556820026-decefb87233c"
+      ],
+      "humanValidated": false,
+      "exactQuotesPublished": false
+    },
+    {
+      "findingId": "purpose_process_comparison",
+      "label": "Practical guidance has different forms across the available sources",
+      "paraphrase": "The Bashar-context exchange clarifies a general action-and-belief formula, while the complete single Ashtar comparison presents accepting, identifying and embodying a life purpose. Paul Selig and the Daniel posts offer additional spiritual framings, but these source types are not balanced evidence about separate civilizations.",
+      "supportWindowIds": [
+        "impossible-dreams-21-20260310:query_rich",
+        "athina-ashtar-20230206-5d144c22:purpose_stages_context",
+        "paul-birmingham-pdf:full_text",
+        "daniel-item-09:opening_250_words"
+      ],
+      "type": "AI interpretive comparison",
+      "sourceIds": [
+        "athina-ashtar-20230206-5d144c22",
+        "daniel-item-09",
+        "impossible-dreams-21-20260310",
+        "paul-birmingham-pdf"
+      ],
+      "humanValidated": false,
+      "exactQuotesPublished": false
+    }
+  ],
+  "meaning": "Counterexamples and comparison leads grounded in inspected windows; not population estimates or physical-origin findings"
+}

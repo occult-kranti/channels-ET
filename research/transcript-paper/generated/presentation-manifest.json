@@ -1,0 +1,55 @@
+{
+  "source_analysis_sha256": "14ccb929d1613b72fbb437ba995e5c7b5a8b17cd6cbffe1f2a126f5d7b81ea14",
+  "presentation_script_sha256": "e8138cf3213c5299e7da3bc43608ca14cbceefbdcc9c1ca2a0ff6c2e85694d79",
+  "new_numerical_analysis": false,
+  "figures": [
+    {
+      "id": "source-coverage",
+      "paper_pdf_sha256": "58ee4de8ea1a0474390e3b11356f97c5a87cf8f63e52ce355aa125e78aa33937",
+      "presentation_changes": "Wrapped context labels, paper-width axes and larger text; identical source/token arrays.",
+      "new_numerical_analysis": false
+    },
+    {
+      "id": "audio-cosine",
+      "paper_pdf_sha256": "068d8396ddadc3e3d649f98362891f7ba40bd6b8c04b89ef5a06c2121d9a5196",
+      "presentation_changes": "Same matrix/order; paper-sized ID labels and colorbar.",
+      "new_numerical_analysis": false
+    },
+    {
+      "id": "source-overlay",
+      "paper_pdf_sha256": "c53acc311ffceacdbd340833c179a007cf7afe023202f6498ffbe839089cc5a6",
+      "presentation_changes": "Identical source coordinates/colors; compact context key, shapes and three highlighted outlier/retail IDs replace crowded all-point text. All coordinates remain in source JSON.",
+      "new_numerical_analysis": false
+    },
+    {
+      "id": "audio-topics",
+      "paper_pdf_sha256": "2983f39fb2c70bc1367e923577c5214361c0b5d878edf6cc2c673c09ea864122",
+      "presentation_changes": "Same20x3 weights; short topic key refers to adjacent top-term table, removing a width-expanding legend.",
+      "new_numerical_analysis": false
+    },
+    {
+      "id": "theme-overlay",
+      "paper_pdf_sha256": "5a9a3c0de6622ebbc1e0ecfc93862dac87acb06927ce0769481e34e42422799e",
+      "presentation_changes": "Same8x10 rates/order; short context/theme keys and9pt cell values, with full definitions in manuscript.",
+      "new_numerical_analysis": false
+    },
+    {
+      "id": "civilization-mentions",
+      "paper_pdf_sha256": "358e653175bb99cecc4c75da7d78fc26e65f02f93c8e719ac80a034d73a672af",
+      "presentation_changes": "Same nonzero nodes/edges/counts; compact schematic positions, shortened family names and10pt count labels. No zero-hit node or unvalidated spelling is added.",
+      "new_numerical_analysis": false
+    },
+    {
+      "id": "model-diagnostics",
+      "paper_pdf_sha256": "be5bc91ec873bc9b586e78e0cf6a59d556b9523b1bb2238bb2271de0c9999678",
+      "presentation_changes": "Same candidate scalar metrics; compact titles replace long vertical labels and paper-width fonts are enlarged.",
+      "new_numerical_analysis": false
+    },
+    {
+      "id": "audio-time-profiles",
+      "paper_pdf_sha256": "cb076b4be21b564233be95d61210f92b8c02d8edaba9f98cd43638c074213abb",
+      "presentation_changes": "Same midpoint-bin equal-document profiles; short titles, three x ticks and a shared readable legend.",
+      "new_numerical_analysis": false
+    }
+  ]
+}

@@ -4,11 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>channels-ET · Living research</title>
-<meta http-equiv="refresh" content="0;url=./dist/research/">
+<meta http-equiv="refresh" content="0;url=./dist/transcripts/">
 <script>
-const destination = window.location.hash.startsWith('#/') ? './dist/' : './dist/research/';
+const legacyResearch = new Set(['#overview', '#harvest', '#experiments', '#collection', '#methods']);
+const destination = window.location.hash.startsWith('#/') ? './dist/'
+  : legacyResearch.has(window.location.hash) ? './dist/research/' : './dist/transcripts/';
 window.location.replace(destination + window.location.search + window.location.hash);
 </script>
 </head>
-<body><p><a href="./dist/research/">Open the living research dashboard</a></p><p><a href="./dist/">Open the earlier Channeling Atlas</a></p></body>
+<body><p><a href="./dist/transcripts/">Open the transcript study</a></p><p><a href="./dist/research/">Open acquisition, models and retained research</a></p><p><a href="./dist/">Open the earlier Channeling Atlas</a></p></body>
 </html>

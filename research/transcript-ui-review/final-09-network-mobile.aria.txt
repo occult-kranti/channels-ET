@@ -1,0 +1,276 @@
+- link "Skip to study":
+  - /url: "#content"
+- banner:
+  - link "Channels ET Transcript study":
+    - /url: "#overview"
+  - navigation "Project":
+    - link "Acquisition ledger":
+      - /url: ../research/#harvest
+    - link "Earlier research":
+      - /url: ../research/
+    - link "Repository ↗":
+      - /url: https://github.com/occult-kranti/channels-ET
+- navigation "Study views":
+  - link "Study overview":
+    - /url: "#overview"
+  - link "Lexical maps":
+    - /url: "#maps"
+  - link "Readings & Q&A":
+    - /url: "#reading"
+  - link "Contexts & storage":
+    - /url: "#storage"
+  - link "Sources & methods":
+    - /url: "#methods"
+- region "Transcript document filters":
+  - text: Fitted corpus
+  - combobox "Fitted corpus":
+    - option "Audio ASR · 20 documents" [selected]
+    - option "Publisher text · 16 documents"
+  - text: Publisher
+  - combobox "Publisher":
+    - option "All publishers" [selected]
+    - option "ACID FOR SQUARES"
+    - option "Align Podcast"
+    - option "Danica Patrick Pretty Intense Podcast"
+    - option "Gaia Consciousness"
+    - option "Gateways to Awakening with Yasmeen Turayhi"
+    - option "Healing + Human Potential"
+    - option "Impossible Dreams"
+    - option "Just Tap In with Emilio Ortiz"
+    - option "Mayim Bialik's Breakdown"
+    - option "Next Level Soul Podcast with Alex Ferrari"
+    - option "Oh No, Ross and Carrie"
+    - option "SoulTalk with Kute Blackson"
+    - option "Spirit Channel with Athina Król"
+    - option "Virtual Campfire hosted by Krystal Kelley"
+  - text: Practitioner context
+  - combobox "Practitioner context":
+    - option "All source contexts" [selected]
+    - option "Athina Król"
+    - option "Darryl Anka / Bashar context"
+  - text: Source title, publisher or ID
+  - searchbox "Source title, publisher or ID"
+  - button "Apply source filters"
+  - paragraph:
+    - strong: 20 / 20 ASR documents
+    - text: in this view. The full ASR frame is 19 Bashar-context recordings and one Ashtar-attributed creator episode; not 20 mediums. Filtering selects retained vectors; it does not refit the model.
+- main:
+  - paragraph: Fixed lexical fits · interactive source selection
+  - heading "Text relationships you can inspect" [level=1]
+  - paragraph: Similarity, topic and clustering views describe retained text. They do not compare the truth of claims or independently identify mediums or civilizations.
+  - button "Similarity network" [pressed]
+  - button "Clusters & projection"
+  - button "Topics & keywords"
+  - button "TF-IDF terms"
+  - button "Claimed-label mentions"
+  - button "Time profiles"
+  - text: Node color
+  - combobox "Node color":
+    - option "Exploratory cluster" [selected]
+    - option "Dominant fitted topic"
+    - option "Practitioner context"
+  - text: Topic membership filter
+  - combobox "Topic membership filter":
+    - option "All fitted components" [selected]
+    - 'option "Dominant T1: reality / physical / idea"'
+    - 'option "Dominant T2: workers / jumps / sole"'
+    - 'option "Dominant T3: bashar / channeling / information"'
+  - checkbox "Show source IDs" [checked]
+  - text: Show source IDs Edge rule
+  - combobox "Edge rule":
+    - option "Union of two nearest selected neighbors" [selected]
+    - option "All selected pairs above threshold"
+  - text: Minimum cosine
+  - status "Minimum cosine 0.2": "0.20"
+  - slider: "0.2"
+  - paragraph:
+    - strong: "Active model: 20-document ASR fit."
+    - text: 20 source documents selected. Topic IDs, cluster labels and cosine values remain scoped to this fit.
+  - text: 20 documents · 32 displayed edges
+  - button "Zoom map out": −
+  - button "Zoom map in": +
+  - button "Reset"
+  - group "Document lexical similarity network Circular schematic layout. Edges are TF-IDF cosine associations under the displayed rule and threshold. Keyboard node buttons and exact source/pair tables follow.":
+    - 'button "Inspect A01: #10 Darryl Anka: Channeling Bashar and First Contact with Aliens"': A01
+    - 'button "Inspect A02: #68 Darryl Anka: Bashar’s Guide For The End Of The World"': A02
+    - 'button "Inspect A03: Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561"': A03
+    - 'button "Inspect A04: Bashar: This is Coming In 2026... (Darryl Anka)"': A04
+    - 'button "Inspect A05: Darryl Anka"': A05
+    - 'button "Inspect A06: Darryl Anka"': A06
+    - 'button "Inspect A07: Darryl Anka: Channeling Bashar"': A07
+    - 'button "Inspect A08: What is Reality and What We Need to Know with Bashar / Darryl Anka"': A08
+    - 'button "Inspect A09: The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104"': A09
+    - 'button "Inspect A10: Bashar''s NEW Predictions: The Great Shift + How Life Will Change Forever!"': A10
+    - 'button "Inspect A11: Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21"': A11
+    - 'button "Inspect A12: #248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human"': A12
+    - 'button "Inspect A13: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka"': A13
+    - 'button "Inspect A14: Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka"': A14
+    - 'button "Inspect A15: Time is Moving Through You with Darryl Anka (BASHAR)"': A15
+    - 'button "Inspect A16: Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition"': A16
+    - 'button "Inspect A17: 224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs"': A17
+    - 'button "Inspect A18: Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades"': A18
+    - 'button "Inspect A19: E54: Preparing for Alien Contact with Darryl Anka aka Bashar"': A19
+    - 'button "Inspect A20: E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar"': A20
+  - complementary:
+    - heading "Inspect a document" [level=3]
+    - paragraph: Select a labeled node with a pointer or keyboard, or use the source table below.
+    - paragraph: Every node is one publication document. Narrow-screen node hit areas are enlarged; use source tables for overlapping projected points. Neither an edge nor a cluster identifies a speaking entity or validates a claim.
+  - text: Cluster 1 · 1 selected documents Cluster 2 · 19 selected documents
+  - paragraph: Circular positions are schematic; equal node sizes mean one source document. Each selected document contributes up to two nearest selected neighbors above the threshold. Cosine ≥ 0.20. An edge is lexical resemblance, not agreement, social connection or independent transmission.
+  - paragraph: "KMeans display: k=2, selected by the highest candidate cosine silhouette. The selected2cluster result is a19-versus1 source-context/singleton partition. Stable ARI does not validate practitioner or ET separation. The 19:1 source-context imbalance and singleton episode can dominate this partition."
+  - group: Inspect exact displayed pair data
+  - heading "Documents behind this view" [level=2]
+  - table:
+    - rowgroup:
+      - row "Source / publisher Source context / format Common tokens Audio duration":
+        - columnheader "Source / publisher"
+        - columnheader "Source context / format"
+        - columnheader "Common tokens"
+        - columnheader "Audio duration"
+    - rowgroup:
+      - 'row "A01 · #10 Darryl Anka: Channeling Bashar and First Contact with Aliens ACID FOR SQUARES Bashar-context interview 16,682 101.9 min"':
+        - 'cell "A01 · #10 Darryl Anka: Channeling Bashar and First Contact with Aliens ACID FOR SQUARES"':
+          - 'button "A01 · #10 Darryl Anka: Channeling Bashar and First Contact with Aliens"'
+          - text: ACID FOR SQUARES
+        - cell "Bashar-context interview"
+        - cell "16,682"
+        - cell "101.9 min"
+      - 'row "A02 · #68 Darryl Anka: Bashar’s Guide For The End Of The World ACID FOR SQUARES Bashar-context interview 16,548 101.1 min"':
+        - 'cell "A02 · #68 Darryl Anka: Bashar’s Guide For The End Of The World ACID FOR SQUARES"':
+          - 'button "A02 · #68 Darryl Anka: Bashar’s Guide For The End Of The World"'
+          - text: ACID FOR SQUARES
+        - cell "Bashar-context interview"
+        - cell "16,548"
+        - cell "101.1 min"
+      - 'row "A03 · Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561 Align Podcast Bashar-context interview 13,654 85 min"':
+        - 'cell "A03 · Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561 Align Podcast"':
+          - 'button "A03 · Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561"'
+          - text: Align Podcast
+        - cell "Bashar-context interview"
+        - cell "13,654"
+        - cell "85 min"
+      - 'row "A04 · Bashar: This is Coming In 2026... (Darryl Anka) Align Podcast Bashar-context interview 11,126 69.1 min"':
+        - 'cell "A04 · Bashar: This is Coming In 2026... (Darryl Anka) Align Podcast"':
+          - 'button "A04 · Bashar: This is Coming In 2026... (Darryl Anka)"'
+          - text: Align Podcast
+        - cell "Bashar-context interview"
+        - cell "11,126"
+        - cell "69.1 min"
+      - row "A05 · Darryl Anka Danica Patrick Pretty Intense Podcast Bashar-context interview 11,291 67.2 min":
+        - cell "A05 · Darryl Anka Danica Patrick Pretty Intense Podcast":
+          - button "A05 · Darryl Anka"
+          - text: Danica Patrick Pretty Intense Podcast
+        - cell "Bashar-context interview"
+        - cell "11,291"
+        - cell "67.2 min"
+      - row "A06 · Darryl Anka Danica Patrick Pretty Intense Podcast Bashar-context interview 12,920 78.6 min":
+        - cell "A06 · Darryl Anka Danica Patrick Pretty Intense Podcast":
+          - button "A06 · Darryl Anka"
+          - text: Danica Patrick Pretty Intense Podcast
+        - cell "Bashar-context interview"
+        - cell "12,920"
+        - cell "78.6 min"
+      - 'row "A07 · Darryl Anka: Channeling Bashar Gaia Consciousness Bashar-context publisher promotional interview 5,172 32.6 min"':
+        - 'cell "A07 · Darryl Anka: Channeling Bashar Gaia Consciousness"':
+          - 'button "A07 · Darryl Anka: Channeling Bashar"'
+          - text: Gaia Consciousness
+        - cell "Bashar-context publisher promotional interview"
+        - cell "5,172"
+        - cell "32.6 min"
+      - row "A08 · What is Reality and What We Need to Know with Bashar / Darryl Anka Gateways to Awakening with Yasmeen Turayhi Bashar-context interview 10,924 68.4 min":
+        - cell "A08 · What is Reality and What We Need to Know with Bashar / Darryl Anka Gateways to Awakening with Yasmeen Turayhi":
+          - button "A08 · What is Reality and What We Need to Know with Bashar / Darryl Anka"
+          - text: Gateways to Awakening with Yasmeen Turayhi
+        - cell "Bashar-context interview"
+        - cell "10,924"
+        - cell "68.4 min"
+      - row "A09 · The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104 Healing + Human Potential Bashar-context interview 12,695 65.1 min":
+        - cell "A09 · The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104 Healing + Human Potential":
+          - button "A09 · The Proven 5 Steps To Live Passionately + Attract Abundance Now | Darryl Anka (BASHAR) | EP 104"
+          - text: Healing + Human Potential
+        - cell "Bashar-context interview"
+        - cell "12,695"
+        - cell "65.1 min"
+      - 'row "A10 · Bashar''s NEW Predictions: The Great Shift + How Life Will Change Forever! Healing + Human Potential Bashar-context interview 10,674 61 min"':
+        - 'cell "A10 · Bashar''s NEW Predictions: The Great Shift + How Life Will Change Forever! Healing + Human Potential"':
+          - 'button "A10 · Bashar''s NEW Predictions: The Great Shift + How Life Will Change Forever!"'
+          - text: Healing + Human Potential
+        - cell "Bashar-context interview"
+        - cell "10,674"
+        - cell "61 min"
+      - 'row "A11 · Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21 Impossible Dreams Bashar-context interview 10,701 64.7 min"':
+        - 'cell "A11 · Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21 Impossible Dreams"':
+          - 'button "A11 · Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21"'
+          - text: Impossible Dreams
+        - cell "Bashar-context interview"
+        - cell "10,701"
+        - cell "64.7 min"
+      - 'row "A12 · #248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human Just Tap In with Emilio Ortiz Bashar-context interview 13,169 85.8 min"':
+        - 'cell "A12 · #248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human Just Tap In with Emilio Ortiz"':
+          - 'button "A12 · #248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human"'
+          - text: Just Tap In with Emilio Ortiz
+        - cell "Bashar-context interview"
+        - cell "13,169"
+        - cell "85.8 min"
+      - 'row "A13 · Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka Mayim Bialik''s Breakdown Bashar-context interview 10,574 61.6 min"':
+        - 'cell "A13 · Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka Mayim Bialik''s Breakdown"':
+          - 'button "A13 · Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka"'
+          - text: Mayim Bialik's Breakdown
+        - cell "Bashar-context interview"
+        - cell "10,574"
+        - cell "61.6 min"
+      - 'row "A14 · Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka Mayim Bialik''s Breakdown Bashar-context interview 7,456 41.9 min"':
+        - 'cell "A14 · Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka Mayim Bialik''s Breakdown"':
+          - 'button "A14 · Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka"'
+          - text: Mayim Bialik's Breakdown
+        - cell "Bashar-context interview"
+        - cell "7,456"
+        - cell "41.9 min"
+      - row "A15 · Time is Moving Through You with Darryl Anka (BASHAR) Next Level Soul Podcast with Alex Ferrari Bashar-context interview 14,315 89.2 min":
+        - cell "A15 · Time is Moving Through You with Darryl Anka (BASHAR) Next Level Soul Podcast with Alex Ferrari":
+          - button "A15 · Time is Moving Through You with Darryl Anka (BASHAR)"
+          - text: Next Level Soul Podcast with Alex Ferrari
+        - cell "Bashar-context interview"
+        - cell "14,315"
+        - cell "89.2 min"
+      - 'row "A16 · Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition Oh No, Ross and Carrie Bashar-context skeptical commentary 19,853 109.9 min"':
+        - 'cell "A16 · Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition Oh No, Ross and Carrie"':
+          - 'button "A16 · Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition"'
+          - text: Oh No, Ross and Carrie
+        - cell "Bashar-context skeptical commentary"
+        - cell "19,853"
+        - cell "109.9 min"
+      - 'row "A17 · 224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs SoulTalk with Kute Blackson Bashar-context interview 11,196 64.6 min"':
+        - 'cell "A17 · 224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs SoulTalk with Kute Blackson"':
+          - 'button "A17 · 224: Darryl Anka/Bashar - How To Outgrow Your Fear-based Beliefs"'
+          - text: SoulTalk with Kute Blackson
+        - cell "Bashar-context interview"
+        - cell "11,196"
+        - cell "64.6 min"
+      - row "A18 · Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades Spirit Channel with Athina Król Ashtar-attributed creator episode creator trance channeling episode as described by publisher 3,389 28 min":
+        - cell "A18 · Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades Spirit Channel with Athina Król":
+          - button "A18 · Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades"
+          - text: Spirit Channel with Athina Król
+        - cell "Ashtar-attributed creator episode creator trance channeling episode as described by publisher"
+        - cell "3,389"
+        - cell "28 min"
+      - 'row "A19 · E54: Preparing for Alien Contact with Darryl Anka aka Bashar Virtual Campfire hosted by Krystal Kelley Bashar-context interview 5,892 35.8 min"':
+        - 'cell "A19 · E54: Preparing for Alien Contact with Darryl Anka aka Bashar Virtual Campfire hosted by Krystal Kelley"':
+          - 'button "A19 · E54: Preparing for Alien Contact with Darryl Anka aka Bashar"'
+          - text: Virtual Campfire hosted by Krystal Kelley
+        - cell "Bashar-context interview"
+        - cell "5,892"
+        - cell "35.8 min"
+      - 'row "A20 · E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar Virtual Campfire hosted by Krystal Kelley Bashar-context interview 7,907 50.1 min"':
+        - 'cell "A20 · E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar Virtual Campfire hosted by Krystal Kelley"':
+          - 'button "A20 · E55: Part 2 Preparing for Alien Contact with Darryl Anka aka Bashar"'
+          - text: Virtual Campfire hosted by Krystal Kelley
+        - cell "Bashar-context interview"
+        - cell "7,907"
+        - cell "50.1 min"
+  - button "Export the shown core/reference source metadata"
+- status: Lexical maps. 20 selected documents.
+- contentinfo:
+  - paragraph: Documents and source claims are the units of this study. Lexical resemblance does not establish agreement, independent transmission, speaker identity or an extraterrestrial origin.
+  - link "Inspect actual collection and access receipts":
+    - /url: ../research/#harvest

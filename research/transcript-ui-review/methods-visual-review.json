@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "checkedAt": "2026-10-24T02:05:40.845Z",
+  "figuresRendered": [
+    {
+      "source": "figures/source-coverage.png",
+      "width": 1961,
+      "height": 697,
+      "alt": "source-coverage"
+    },
+    {
+      "source": "figures/audio-cosine.png",
+      "width": 1608,
+      "height": 1419,
+      "alt": "audio-cosine"
+    },
+    {
+      "source": "figures/source-overlay.png",
+      "width": 1781,
+      "height": 1237,
+      "alt": "source-overlay"
+    },
+    {
+      "source": "figures/audio-topics.png",
+      "width": 1962,
+      "height": 1057,
+      "alt": "audio-topics"
+    },
+    {
+      "source": "figures/theme-overlay.png",
+      "width": 2324,
+      "height": 1062,
+      "alt": "theme-overlay"
+    },
+    {
+      "source": "figures/document-network.png",
+      "width": 1418,
+      "height": 1419,
+      "alt": "document-network"
+    },
+    {
+      "source": "figures/civilization-mentions.png",
+      "width": 2255,
+      "height": 1067,
+      "alt": "civilization-mentions"
+    },
+    {
+      "source": "figures/model-diagnostics.png",
+      "width": 2321,
+      "height": 712,
+      "alt": "model-diagnostics"
+    },
+    {
+      "source": "figures/audio-time-profiles.png",
+      "width": 2320,
+      "height": 698,
+      "alt": "audio-time-profiles"
+    }
+  ],
+  "externalRequestsBlocked": 0,
+  "dataSha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139",
+  "screenshots": [
+    "final-12-methods-desktop.png",
+    "final-13-method-sensitivities.png"
+  ]
+}

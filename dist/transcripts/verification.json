@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-24T01:19:30.854893+00:00",
+  "status": "passed",
+  "storage_kind": "managed_chatgpt_cloud_local",
+  "actual_archive_path": "/workspace/channels-et-raw/cloud-archive/cloud-local-2026-10-24-e452e20059",
+  "actual_files": 200,
+  "actual_bytes": 1703879268,
+  "source_artifacts": 99,
+  "metadata_artifacts": 101,
+  "verification": {
+    "verified_at": "2026-10-24T01:19:30.698454+00:00",
+    "files": 200,
+    "bytes": 1703879268,
+    "sha256_and_md5_verified": true,
+    "exact_file_set_verified": true,
+    "all_files_regular_single_link": true
+  },
+  "all_200_source_files_rehashed_after_copy": true,
+  "source_files_changed": 0,
+  "source_target_inodes_different": true,
+  "all_file_link_counts_one": true,
+  "owner_only_permissions_checked": {
+    "files": 200,
+    "directories": 122,
+    "group_or_other_permissions": false
+  },
+  "frozen_storage_drive_unchanged": {
+    "archive.py": "24b71670627a5fc64ac2bcb19d4173f9475fe4c5b357f360a9cfc3c8053694c0",
+    "test_archive.py": "e814b3bbe7593aa1ed9a09c8f1dcc46288f3b3103cb82e48ca0559567fa48454",
+    "README.md": "675bd67f4777be85b33ceba8089f141b5a4118ee6e6f63834391f919ae1addbd",
+    "archive-plan.json": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3",
+    "verification.json": "1e7a0f27f28ca869dc8f1a0d4a677adc7a9245ea071a06d6370e05b7ea27ee67",
+    "storage-state.json": "5a774d7bc68ff384e397f42fd2e6f28ab6272ba5369d278b2ba3267f87b6afe5",
+    "official-docs-sources.json": "26853543410cc737f51f568aa63ce5c201c0b99f6f026f49a35954f56b6cc6cf"
+  },
+  "offline_tests": {
+    "passed": 15,
+    "failed": 0,
+    "network_requests": 0,
+    "command": "python -m unittest discover -s research/cloud-archive -p test_*.py -v"
+  },
+  "raw_budget": {
+    "raw_budget_bytes": 21474836480,
+    "free_space_reserve_bytes": 6442450944,
+    "raw_bytes_before": 1709783166,
+    "raw_bytes_after": 3413662434,
+    "disk_free_bytes_before": 31116988416,
+    "disk_free_bytes_after": 29411921920
+  },
+  "source_pins": {
+    "archive_local.py": "130242f76156365eb43f3273f03da69fc2707ed5c36f7fdc647f3a49fe9658dc",
+    "test_cloud_archive.py": "2b705ca4479c9301df7bb3c4859bb33e617802cf04d739cd9766242ac85a04b8",
+    "README.md": "374c32864051d20699f589ef1214f7e7503095779b3447099406b06c70597a60",
+    "archive-receipt.json": "58ce8d8cfcba0034ffa8a91d1aa3200f50a036fe535e9623aa4d48fcb1c7701f",
+    "archive-state.json": "4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4"
+  },
+  "drive": {
+    "callable_tools_observed": 0,
+    "configured_remotes_observed": 0,
+    "authorized_outbound_identities_observed": 0,
+    "user_reported_connected_in_apps": true,
+    "actual_drive_folder_count": 0,
+    "actual_drive_uploads": 0,
+    "actual_quota_verified": false
+  },
+  "retention_guaranteed": false,
+  "chat_attachment_created": false,
+  "git_media_copied": 0,
+  "network_requests": 0
+}

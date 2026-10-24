@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-24T02:07:54.819707+00:00",
+  "status": "PASS",
+  "reviewer_agent": "drive_storage",
+  "human_review": false,
+  "scope": "Independent round-three rendered/source audit of the held transcript dashboard, with bounded legacy entry-route checks",
+  "base_url": "http://127.0.0.1:8016/channels-ET/dist/transcripts/",
+  "data_sha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139",
+  "final_retained_source_binding": true,
+  "main_rendered_checks": 395,
+  "additional_mobile_dialog_checks": 5,
+  "research_figure_images_rendered": 9,
+  "artifact_downloads_source_size_sha256_verified": 70,
+  "actually_loaded_core_assets": {
+    "index.html": {
+      "bytes": 1940,
+      "sha256": "a5877df13e911c443ae70bed59b6f7db7b520081a3d6587ea88bb66f439bf416"
+    },
+    "styles.css": {
+      "bytes": 11610,
+      "sha256": "562a519540c7f1822ca16106ec5fe68d5cbdfe6b147f1a189fc3e9b245b4037e"
+    },
+    "lib.js": {
+      "bytes": 7879,
+      "sha256": "9c98e5c037156d66176f87f2f437fbafc00672d786c742b2edfd9506c970c867"
+    },
+    "charts.js": {
+      "bytes": 8236,
+      "sha256": "747e6f239e7397d7c8935566371d43c301b9c718aa6c11729d75c2ca63248c61"
+    },
+    "app.js": {
+      "bytes": 43214,
+      "sha256": "fb97bc5443f190ad1cfe9a4762ac63e3c61813a1f8cd6e00de91a797e89f15c5"
+    },
+    "data.json": {
+      "bytes": 1279654,
+      "sha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139"
+    }
+  },
+  "owner_source_manifest_sha256": "c2437999b081e77d6e71faecb61b45285a37c15101a01c57ad41207baa59b005",
+  "source_populations": {
+    "audio_asr_documents": 20,
+    "publisher_text_documents": 16,
+    "audio_candidate_question_like_records": 21,
+    "analyst_constructed_authored_comparison_prompts": 16,
+    "total_qa_candidates": 37,
+    "reading_windows": 105,
+    "asr_words_read": 11992,
+    "asr_words_denominator": 226093,
+    "authored_words_read": 6319,
+    "authored_words_denominator": 13656,
+    "local_archive_files": 200,
+    "actual_youtube_media_or_caption_artifacts": 0,
+    "actual_drive_uploaded_files": 0
+  },
+  "root_entrypoints": {
+    "status": "PASS",
+    "previewSha256": "8af52b207606622e3d805158173e86c24f364cbf0cfd4f48dfcd865c43a75ad6",
+    "retainedSha256": "8af52b207606622e3d805158173e86c24f364cbf0cfd4f48dfcd865c43a75ad6",
+    "cases": [
+      {
+        "start": "http://127.0.0.1:8016/channels-ET/?audit=1",
+        "resolved": "http://127.0.0.1:8016/channels-ET/dist/transcripts/?audit=1"
+      },
+      {
+        "start": "http://127.0.0.1:8016/channels-ET/?audit=1#harvest",
+        "resolved": "http://127.0.0.1:8016/channels-ET/dist/research/?audit=1#harvest"
+      },
+      {
+        "start": "http://127.0.0.1:8016/channels-ET/?audit=1#/discovery",
+        "resolved": "http://127.0.0.1:8016/channels-ET/dist/?audit=1#/discovery"
+      }
+    ]
+  },
+  "old_acquisition_mobile_navigation": {
+    "status": "PASS",
+    "href": "../transcripts/"
+  },
+  "browser_runtime_errors": [],
+  "external_requests_blocked": 0,
+  "external_requests_permitted": 0,
+  "browser": "Existing Playwright with /usr/bin/chromium; fresh contexts, loopback origin allowlist, service workers blocked, no TLS-ignore flags",
+  "viewport_checks": {
+    "desktop": [
+      1440,
+      1050
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "two_hundred_percent_equivalent_reflow": {
+      "css_viewport": [
+        720,
+        525
+      ],
+      "device_pixel_ratio": 2,
+      "native_browser_menu_zoom_claimed": false
+    },
+    "mobile_network_hit_minimum_css_pixels": 24.8177490234375
+  },
+  "fixed_material_finding": {
+    "id": "UI-R3-01",
+    "before": "Keyboard-selected authored reference square set the selected ID but the ASR-only inspector lookup remained empty, making its provenance unreachable from the visible node.",
+    "owner_correction": "Visible authored reference documents can populate the inspector and open provenance; reference-projected sources are explicitly outside the ASR cluster/topic fit.",
+    "rendered_regression_status": "PASS",
+    "pre_fix_evidence": "03-overlay-selected.png",
+    "final_evidence": "final-04-reference-projection.png"
+  },
+  "nonblocking_limits": [
+    "Dense projection labels may overlap, particularly on narrow screens; zoom and exact source/pair tables remain alternatives.",
+    "Some inline count/method copy is dense or lacks polished spacing; measured values remain inspectable.",
+    "This is not a full WCAG/assistive-technology/device certification or new live Pages review."
+  ],
+  "remaining_material_findings": [],
+  "screenshots": {
+    "final-01-overview-desktop.png": {
+      "sha256": "19329e02a5cbb49a2a039259f678735060d14321221d45d9d5cf123744d62560",
+      "bytes": 137464,
+      "saved_file_visually_inspected": true
+    },
+    "final-02-source-inspector.png": {
+      "sha256": "2a476630c88e0c69f05272e6751250b99ee735adedee3b444e13d9399aea4e7b",
+      "bytes": 172115,
+      "saved_file_visually_inspected": true
+    },
+    "final-03-threshold-empty-desktop.png": {
+      "sha256": "405199743c895d611e5d825f99bda5d416e774ba408ab8a78bdc09d5cc4e8835",
+      "bytes": 116345,
+      "saved_file_visually_inspected": true
+    },
+    "final-04-reference-projection.png": {
+      "sha256": "3f89db3776f35113931302dcf97149cd3537139aa8ecf6a2df6ddaf9d3e4863f",
+      "bytes": 113962,
+      "saved_file_visually_inspected": true
+    },
+    "final-05-reading-desktop.png": {
+      "sha256": "4f727d2b0e15278a0cb3d73537075327c8754514828caf0042705439430fc4fb",
+      "bytes": 220039,
+      "saved_file_visually_inspected": true
+    },
+    "final-06-storage-desktop.png": {
+      "sha256": "835064f33e3a2cab2b08ed6da289858863eb9ab6f1dfe2c203c10fbe0e2d2360",
+      "bytes": 148475,
+      "saved_file_visually_inspected": true
+    },
+    "final-mobile-maps.png": {
+      "sha256": "b763f685455097f753e3a4b96aaf527f842e291e301e06aeb2e46d3c95478b98",
+      "bytes": 57531,
+      "saved_file_visually_inspected": true
+    },
+    "final-mobile-storage.png": {
+      "sha256": "5725f14f44d57b915cb13af06301f88d7389f6633e5d47ef369791f5e0299dd0",
+      "bytes": 80446,
+      "saved_file_visually_inspected": true
+    },
+    "final-07-overview-mobile.png": {
+      "sha256": "e7c7c18a1dd18c08da0e7ab983a92e3eec4086e016aeba108dcb987677e7b955",
+      "bytes": 55372,
+      "saved_file_visually_inspected": true
+    },
+    "final-mobile-overview-content.png": {
+      "sha256": "2e885b80be5cc64ebad36d744826e3807c04be1a05836f936a84ad30806450da",
+      "bytes": 64122,
+      "saved_file_visually_inspected": true
+    },
+    "final-08-overview-200percent.png": {
+      "sha256": "ef92f9d20752bf5d68fbe2b6600367ac3ab01266c6cce6bea3adc6d781269566",
+      "bytes": 45515,
+      "saved_file_visually_inspected": true
+    },
+    "final-09-network-mobile.png": {
+      "sha256": "4e85830e8e0982a8eed961c839f6346b81d29984bf384c356d41351fbfc6c7ea",
+      "bytes": 58683,
+      "saved_file_visually_inspected": true
+    },
+    "final-11-old-acquisition-mobile-nav.png": {
+      "sha256": "e020a7835ef8de8158097b8ec8a13f5226559878a938a179ad1314897093307b",
+      "bytes": 58349,
+      "saved_file_visually_inspected": true
+    },
+    "final-10-source-mobile.png": {
+      "sha256": "08275c9d89356a9773bc4bfbba73f31c333eebccfc7b9497f2093bff2f728f21",
+      "bytes": 54048,
+      "saved_file_visually_inspected": true
+    },
+    "final-12-methods-desktop.png": {
+      "sha256": "4b6b6674c4ba0057fec50991f37a72a9a657958f457975f7bd46b20371bdad44",
+      "bytes": 165745,
+      "saved_file_visually_inspected": true
+    },
+    "final-13-method-sensitivities.png": {
+      "sha256": "acb40d8ee33ff453e037c168b87757085a4e1592a9085898d30b8b00a106151c",
+      "bytes": 181690,
+      "saved_file_visually_inspected": true
+    }
+  },
+  "review_file_pins": {
+    "check-ui.cjs": "73cec806fdeaf6fb93340eca96caf76355de5918b862136eb38f3808d960e081",
+    "check-mobile-dialog.cjs": "700ffccffc2dfa1c248051a2aa99dd3f22be2bb4c96aaeba00ae77039f5be00f",
+    "capture-methods.cjs": "39fbddb7ca4f3cce772fccfac4a1b1676b2d6caf549c9527e10530ab4e0676ef",
+    "README.md": "d441736f5f3d64d7225b03d3899279f04aa7ef377bfb69066ec7e86f7ebba458",
+    "browser-review.json": "1a54ed00cdcac3501e54f0980c56173bcf93887681e87459c723c9774c2f194d",
+    "mobile-dialog-review.json": "9c8adf253c8476c73dc8d5d35a5d5ee21d0f99e8040b31e535944e228fe19b66",
+    "methods-visual-review.json": "25782a8a756663f87b17f5d87b24518ab1e1d0cd1dd82004dde01f7441c61047"
+  },
+  "applied_workflow": "Product Design audit capture/inspect/test/report workflow; Product Design saved-context preflight returned no saved context; explicit Chromium/Playwright user preference controlled browser choice.",
+  "owner_sources_modified": false,
+  "raw_sources_modified": false,
+  "prior_proofs_modified": false,
+  "authentication_or_source_acquisition_performed": false,
+  "deployment_performed_by_reviewer": false
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "stage": "transcript_research_manuscript_development",
+  "researchDate": "2026-10-23",
+  "researchTimezone": "America/New_York",
+  "receiptTimestampTimezone": "UTC",
+  "scope": "A new dated living research report; prior manuscripts and review receipts remain historical and unchanged.",
+  "primaryEvidence": "Twenty independently published original-publisher audio responses represented by unverified automatic transcripts: nineteen Bashar-related publisher contexts and one Athina/Ashtar creator episode. These are not twenty independent mediums or verified attributed speakers.",
+  "separateComparisonEvidence": "Fifteen Daniel Scranton authored RSS items plus one Paul Selig publisher-issued spiritual-Guides transcript; modality/author/context confounded, no biological-ET recoding.",
+  "requiredInputs": [
+    "research/transcript-analysis/analysis.json",
+    "research/transcript-analysis/sources.json",
+    "research/transcript-analysis/captions.json",
+    "research/transcript-analysis/protocol.json",
+    "research/transcript-reading/summary.json",
+    "research/transcript-reading/documents.json",
+    "research/transcript-reading/codebook.json",
+    "research/transcript-reading/qualitative-codes.json",
+    "research/transcript-reading/qa-candidates.json",
+    "research/storage-distributions/distributions.json"
+  ],
+  "citationPolicy": "Reuse only the existing verified bibliography and source-reading registers. No fresh literature retrieval, unsupported citation or transferred validation claim.",
+  "figurePolicy": "Only executed, source-bound figures. Captions state unit, cohort, construction, normalization and material limitation. Normalized NMF weights are not fractions of speech time.",
+  "reviewProtocol": [
+    {"round": 1, "task": "Review the first complete implemented manuscript against actual data, calculations and source-linked interpretations; record criticisms before corrections."},
+    {"round": 2, "task": "Review the corrected manuscript and inspect unresolved sensitivity, denominator, novelty and qualitative-source limitations; implement concrete corrections."},
+    {"round": 3, "task": "Inspect definitive PDF/source ZIP, final source hashes, figures, all-page rendering and reproducibility; bind review to final bytes."}
+  ],
+  "reviewMeaning": "Model-agent critical review and reproducibility checking, not independent human peer review.",
+  "humanAuthorship": "TBD",
+  "humanConstructAndSpeakerValidation": "TBD",
+  "institutionalAndRightsDetermination": "TBD",
+  "venueCompliance": "TBD; official AAAI/ICWSM preprint style is a writing reference, not a submission claim.",
+  "rawSpeechOrFullThirdPartyTextPublished": false,
+  "newYoutubeDownloadClaim": false,
+  "newModelTrainingRequestedOrExecutedByManuscriptWorker": false
+}

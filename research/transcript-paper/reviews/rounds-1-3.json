@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "scope": "Three completed model-agent implementation/review rounds for this new transcript research report. These are project reviews, not independent human peer review.",
+  "rounds": [
+    {
+      "round": 1,
+      "stage": "Protocol and first implementation",
+      "reviewers": [
+        "root project coordinator",
+        "independent qa_database agent",
+        "paper implementation agent"
+      ],
+      "artifacts_reviewed": [
+        "research/transcript-review/round-1-methods.md",
+        "research/transcript-analysis/protocol.json",
+        "research/transcript-reading/codebook.json (workflow schema/codebook; no separate protocol JSON was published)",
+        "first complete working manuscript and actual source figures"
+      ],
+      "concrete_findings": [
+        "The corpus is 19 Bashar-related recording contexts and one Ashtar-attributed episode, with a separate 16-document written branch.",
+        "Word denominators differ between original receipt definitions; declare the common analytical tokenizer and retain separate receipt counts.",
+        "Early embedded figure labels were approximately 4\u20136 pt and could not be assumed readable from standalone plots."
+      ],
+      "implemented": [
+        "Declared source/context/speaker and denominator boundaries in methods, abstract and tables.",
+        "Created presentation-only derivatives from unchanged numerical JSON, with short source/context keys and complete legends/source tables.",
+        "Foregrounded source-linked interpretive findings and bounded questions rather than reporting only aggregate diagnostics."
+      ],
+      "retention_note": "Working manuscript PDFs were overwritten during iteration; their exact bytes are not represented as archived release artifacts."
+    },
+    {
+      "round": 2,
+      "stage": "Executed analytical and source-reading checks",
+      "reviewers": [
+        "independent qa_database agent",
+        "root project coordinator",
+        "paper implementation agent"
+      ],
+      "receipt": "research/transcript-review/round-2-findings.md",
+      "receipt_sha256": "2b044d179ce847203df59eaaa0201ad6e630839e16c173ed7977c7b8993cd4c4",
+      "concrete_findings": [
+        "The selected audio K=2 partition is exactly the 19:1 singleton split; seed stability does not validate practitioner classes.",
+        "No/not/never are pruned by the high-document-frequency rule despite stoplist retention; synthetic sentence contrasts expose failures of stance representation.",
+        "Strict zero entity hits coexist with post-hoc candidate spellings that remain unvalidated.",
+        "Reading covers 5.304% of ASR words and 46.273% of authored words; only the lone Ashtar ASR source is completely read.",
+        "The displayed top-two-neighbor graph differs from the all-pair threshold diagnostic; attribution metadata have missingness and overlapping memberships."
+      ],
+      "implemented": [
+        "Retained the singleton, weak/null results and construct counterexamples explicitly.",
+        "Reported source/reading depth and typed candidate questions with exact locators and differing modality denominators.",
+        "Separated strict lexicons from post-hoc spelling diagnostics and storage artifacts from source counts."
+      ],
+      "independent_check_counts": {
+        "numerical": 1465,
+        "reading": 1371,
+        "storage_actual_byte_audit": 9433,
+        "storage_final_bindings": 39
+      },
+      "validation_limit": "These checks establish arithmetic/provenance and bounded support; they do not establish speech accuracy, speaker identity, annotation reliability or communication origin."
+    },
+    {
+      "round": 3,
+      "stage": "Actual rendered manuscript critique, corrections and final artifact closure",
+      "reviewers": [
+        "independent qa_database agent",
+        "root project coordinator",
+        "paper implementation agent"
+      ],
+      "concrete_findings": [
+        "A generator keyed sensitivity by name alone, overwriting the audio commercial-removal result with the separately fitted written result.",
+        "A selected-reading table showed one example locator while its source-level synthesis combined multiple windows.",
+        "The weak separate written K=6 clustering result was omitted from manuscript prose.",
+        "Root final page-11 visual inspection found the A04 callout crossing the lower projection axis."
+      ],
+      "implemented": [
+        "Keyed sensitivity by name and cohort; ASR commercial exclusion is rho=0.998/90% nearest-neighbor retention, separately written rho=1.000/100%.",
+        "Listed all supporting windows for source syntheses and the actual 0.82\u20131682.98 s full Athina transcript locator.",
+        "Added the written silhouette 0.057380 and its two singleton publications as a bounded weak result.",
+        "Moved only the A04 presentation annotation above-left; all source coordinates and numerical models remain unchanged. All 21 other page PNGs remain byte-identical."
+      ],
+      "final_pdf_sha256": "57102be0b866a80f7b49b9de89e6d0823d962fe8cd3f71fb229ede8d68bb700f",
+      "final_source_zip_sha256": "604ab5db35595e2cd5cb5cdc8540671ac1e702b0333e7fb79c2cb354648b3bd2",
+      "independent_release_receipt": {
+        "path": "research/transcript-review/paper-release-audit.json",
+        "sha256": "b52991d04eebd0716d5e06f44daabaa693cb2faa36e9133a2ea536e48be2ab1a",
+        "checks": 142,
+        "failed_checks": [],
+        "scope": "Independent source/text/font/standalone ZIP compilation checks on the exact final 57102be0 PDF/604ab5db ZIP."
+      },
+      "independent_render_receipt": {
+        "path": "research/transcript-review/callout-render-rebind.json",
+        "sha256": "c31f45af64fac8757ce760a880c6975ef6a67bbbb4be141de67e9808cdc7dd5d",
+        "pages": [
+          1,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          19,
+          20
+        ],
+        "scope": "Independent reviewer regenerated eleven selected pages at 1500px; newly viewed corrected page 11, reused ten exact-identical selected PNGs from prior inspection. This is not an all-22-page independent visual review."
+      },
+      "author_artifact_review": {
+        "path": "research/transcript-paper/reviews/final-artifact-review.json",
+        "sha256": "7c161fab396c6ee491fb574d29f442a8c0f6640883436f31eac55931733fbed9"
+      },
+      "closure": "All manuscript/source correction requests resolved; final UI/publication closure is the parent workstream responsibility and is not a prerequisite for standalone ZIP compilation.",
+      "callout_correction_render_comparison": {
+        "path": "research/transcript-paper/reviews/callout-correction-render-comparison.json",
+        "sha256": "e59c34fbdedab87f886dd409036b34fd1e1ee709d40b0f1fdd6c230d8822da8b"
+      },
+      "root_visual_closure": {
+        "page": 11,
+        "scope": "Root independently viewed the exact final 1400px page 11 render and explicitly closed the A04 annotation/axis finding; callouts, legend and caption readable."
+      }
+    }
+  ],
+  "human_peer_review": "Not performed; required authorship, human validation, institutional determinations and venue compliance remain pending."
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "method": "Independent direct input joins, physical file stats/SHA256, unique source durations and archive-copy verification; no builder import",
+  "checks": 9433,
+  "pins": {
+    "research/storage-distributions/distributions.json": "7ce614d55a17d18afda123b429f4c6c05ea92ee9c5d9f4be3dc9b4d5f4ef0a3a",
+    "research/storage-drive/archive-plan.json": "f3a6ccf7a68a508d97bbc7be7cb65fc2b09729f13177b899a8063a6364e6c4e3",
+    "research/harvest/inventory/videos.jsonl": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d",
+    "research/harvest/inventory/channel-routes.json": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee",
+    "research/harvest/inventory/practitioner-candidates.json": "119c5390c7a803b7cfd7c8a8982385cc5952b596f8810dbec5bbabb0b6829895",
+    "research/collection-policy/selection.jsonl": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9",
+    "research/harvest/publisher_sources/publisher-summary.json": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3",
+    "research/access-repair/athina/publisher_sources/publisher-summary.json": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370",
+    "research/cloud-archive/archive-receipt.json": "58ce8d8cfcba0034ffa8a91d1aa3200f50a036fe535e9623aa4d48fcb1c7701f",
+    "research/cloud-archive/archive-state.json": "4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4"
+  },
+  "summary": {
+    "indexedYouTubeIds": 942,
+    "selectedYouTubeIds": 733,
+    "literalRoutes": 362,
+    "publisherGroupsWithIndexedIds": 180,
+    "practitionerAssociationsWithIndexedIds": 90,
+    "entityLabelsWithIndexedIds": 160,
+    "civilizationLabelsWithIndexedIds": 40,
+    "actualYouTubeVideos": 0,
+    "actualYouTubeCaptions": 0,
+    "actualYouTubeBytes": 0,
+    "actualIndependentAudioFiles": 20,
+    "actualIndependentAudioBytes": 1691458021,
+    "actualIndependentAudioSeconds": 81691.621533,
+    "canonicalSourceArtifacts": 99,
+    "canonicalSourceBytes": 1703635307,
+    "wholeChannelLifetimeCountsKnown": false
+  },
+  "membership_diagnostics": {
+    "byRoute": {
+      "groups": 362,
+      "nonempty_groups": 226,
+      "sum_memberships": 1271,
+      "unique_ids_covered": 898,
+      "unassigned_ids": 44,
+      "membership_disjoint_within_covered_ids": false,
+      "partitions_all_indexed_ids": false
+    },
+    "byPublisherGroup": {
+      "groups": 180,
+      "nonempty_groups": 180,
+      "sum_memberships": 886,
+      "unique_ids_covered": 886,
+      "unassigned_ids": 56,
+      "membership_disjoint_within_covered_ids": true,
+      "partitions_all_indexed_ids": false
+    },
+    "byPractitionerAssociation": {
+      "groups": 90,
+      "nonempty_groups": 90,
+      "sum_memberships": 517,
+      "unique_ids_covered": 454,
+      "unassigned_ids": 488,
+      "membership_disjoint_within_covered_ids": false,
+      "partitions_all_indexed_ids": false
+    },
+    "byEntityLabel": {
+      "groups": 160,
+      "nonempty_groups": 160,
+      "sum_memberships": 696,
+      "unique_ids_covered": 642,
+      "unassigned_ids": 300,
+      "membership_disjoint_within_covered_ids": false,
+      "partitions_all_indexed_ids": false
+    },
+    "byPublisherDeclaredCivilization": {
+      "groups": 40,
+      "nonempty_groups": 40,
+      "sum_memberships": 1626,
+      "unique_ids_covered": 428,
+      "unassigned_ids": 514,
+      "membership_disjoint_within_covered_ids": false,
+      "partitions_all_indexed_ids": false
+    }
+  },
+  "canonical_source_files_hashed": 99,
+  "actual_archive_files_hashed": 200,
+  "actual_archive_bytes": 1703879268,
+  "athina_feed_context_regression": "pass: independent catalog metadata, no voice duration, not Paul",
+  "raw_text_published": false,
+  "network_requests": 0
+}

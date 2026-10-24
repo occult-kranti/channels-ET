@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "promptFamily": "channeling_origin_and_validation",
+      "candidateIds": [
+        "reading-qa-4a844bebfee1",
+        "reading-qa-7bc9c74a00e9",
+        "reading-qa-a96ba4732e04",
+        "reading-qa-7ce605e4cb28"
+      ],
+      "sourceIds": [
+        "rss-1620917042-0d435eadc49d",
+        "soul-talk-224-20220316",
+        "rss-1465014169-8dd4267008f8",
+        "athina-ashtar-20230206-5d144c22"
+      ],
+      "candidateKinds": {
+        "autobiographical_self_question_candidate": 2,
+        "interview_prompt_candidate": 2
+      },
+      "modalityCounts": {
+        "audio_asr": 4
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "channeling_process",
+      "candidateIds": [
+        "reading-qa-a347eb7c69a6",
+        "reading-qa-2111178fc95d"
+      ],
+      "sourceIds": [
+        "rss-1546456269-b82d79f0d2c0",
+        "rss-1763048673-1cf4301536f2"
+      ],
+      "candidateKinds": {
+        "interview_prompt_candidate": 2
+      },
+      "modalityCounts": {
+        "audio_asr": 2
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "contact_readiness",
+      "candidateIds": [
+        "reading-qa-8004add71fee",
+        "reading-qa-639177fd184f",
+        "reading-qa-99f7cc52454d",
+        "reading-qa-26e13ee478bd",
+        "reading-qa-e6ed644e6a8a"
+      ],
+      "sourceIds": [
+        "rss-1611118279-afab067a712d",
+        "rss-1556820026-35f9fd91f5ab",
+        "rss-1556820026-decefb87233c",
+        "daniel-item-02",
+        "daniel-item-07"
+      ],
+      "candidateKinds": {
+        "fragmentary_interview_prompt_candidate": 1,
+        "interview_prompt_candidate": 2,
+        "authored_comparison_prompt": 2
+      },
+      "modalityCounts": {
+        "audio_asr": 3,
+        "publisher_text": 2
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "cooperation_and_ethics",
+      "candidateIds": [
+        "reading-qa-8359afa1cb69",
+        "reading-qa-f13c7b91691c",
+        "reading-qa-fc407f128f5b",
+        "reading-qa-f8876c2523db"
+      ],
+      "sourceIds": [
+        "rss-1763048673-32a6fb8cd623",
+        "daniel-item-04",
+        "daniel-item-06",
+        "daniel-item-14"
+      ],
+      "candidateKinds": {
+        "rhetorical_coaching_prompt_candidate": 1,
+        "authored_comparison_prompt": 3
+      },
+      "modalityCounts": {
+        "audio_asr": 1,
+        "publisher_text": 3
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "entity_identity_and_contact",
+      "candidateIds": [
+        "reading-qa-fcb6f807aa3d",
+        "reading-qa-1461b19bccec",
+        "reading-qa-940f9407b209"
+      ],
+      "sourceIds": [
+        "rss-988576741-f283904d1eb7",
+        "rss-1465014169-7a91901169c6",
+        "rss-1546456269-353036e21117"
+      ],
+      "candidateKinds": {
+        "interview_prompt_candidate": 3
+      },
+      "modalityCounts": {
+        "audio_asr": 3
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "fear_and_beliefs",
+      "candidateIds": [
+        "reading-qa-861f3fe9aa24",
+        "reading-qa-1d0576884ad2"
+      ],
+      "sourceIds": [
+        "rss-988576741-1ecc5cb023cf",
+        "rss-1705626495-ae84c9540581"
+      ],
+      "candidateKinds": {
+        "interview_prompt_candidate": 1,
+        "rhetorical_coaching_prompt_candidate": 1
+      },
+      "modalityCounts": {
+        "audio_asr": 2
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "meaning_and_identity",
+      "candidateIds": [
+        "reading-qa-54d954bfb1b3",
+        "reading-qa-ba7f3a517193",
+        "reading-qa-3d381a7eb6eb"
+      ],
+      "sourceIds": [
+        "daniel-item-08",
+        "daniel-item-11",
+        "paul-birmingham-pdf"
+      ],
+      "candidateKinds": {
+        "authored_comparison_prompt": 3
+      },
+      "modalityCounts": {
+        "publisher_text": 3
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "practical_guidance",
+      "candidateIds": [
+        "reading-qa-fa2c372598e5",
+        "reading-qa-3dfc0344ed85",
+        "reading-qa-a3a338471fea",
+        "reading-qa-32518c88b967",
+        "reading-qa-d03a6398e905",
+        "reading-qa-ashtar-purpose-stages"
+      ],
+      "sourceIds": [
+        "impossible-dreams-21-20260310",
+        "daniel-item-01",
+        "daniel-item-05",
+        "daniel-item-09",
+        "daniel-item-12",
+        "athina-ashtar-20230206-5d144c22"
+      ],
+      "candidateKinds": {
+        "interview_prompt_candidate": 1,
+        "authored_comparison_prompt": 4,
+        "rhetorical_guidance_question_candidate": 1
+      },
+      "modalityCounts": {
+        "audio_asr": 2,
+        "publisher_text": 4
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "prediction_and_uncertainty",
+      "candidateIds": [
+        "reading-qa-a511a62b276f"
+      ],
+      "sourceIds": [
+        "rss-1560904383-7f4e01fae0ff"
+      ],
+      "candidateKinds": {
+        "interview_prompt_candidate": 1
+      },
+      "modalityCounts": {
+        "audio_asr": 1
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    },
+    {
+      "promptFamily": "reality_and_agency",
+      "candidateIds": [
+        "reading-qa-76f6f058ba5b",
+        "reading-qa-5d04f96aa204",
+        "reading-qa-d9e0d83f20d8",
+        "reading-qa-2c383aa1ca3e",
+        "reading-qa-4fbd0d126d8c",
+        "reading-qa-00301522c6a2",
+        "reading-qa-f7485c18c74f"
+      ],
+      "sourceIds": [
+        "rss-1705626495-6f489902be87",
+        "rss-1529629262-6e621316510d",
+        "rss-425328515-addbc47ecbd7",
+        "daniel-item-00",
+        "daniel-item-03",
+        "daniel-item-10",
+        "daniel-item-13"
+      ],
+      "candidateKinds": {
+        "interview_prompt_candidate": 2,
+        "secondary_reported_question_candidate": 1,
+        "authored_comparison_prompt": 4
+      },
+      "modalityCounts": {
+        "audio_asr": 3,
+        "publisher_text": 4
+      },
+      "meaning": "coarse AI analytic comparison family; no validated prompt equivalence or doctrinal agreement"
+    }
+  ]
+}

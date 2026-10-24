@@ -1,0 +1,152 @@
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lp{0.74\textwidth}}
+\toprule
+Audio component & Highest-weight terms\\
+\midrule
+topic-1 & reality, physical, idea, soul, positive, negative, saying, information\\
+topic-2 & workers, jumps, sole, supporting, phase, soles, identify, mission\\
+topic-3 & bashar, channeling, information, reality, does, society, brain, world\\
+\bottomrule
+\end{tabular}
+\caption{NMF display components from 20 ASR documents, reference seed 11. Labels are top-term summaries; component weights are not speech-time proportions.}
+\label{tab:topics}
+\end{table*}
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lp{0.74\textwidth}}
+\toprule
+Written component & Highest-weight terms\\
+\midrule
+topic-1 & germain, st germain, flame, violet, violet flame, st, beliefs, keeper\\
+topic-2 & arcturian, contact, arcturian council, council, earth, connect, planet, humans\\
+topic-3 & feel, creators, receive, don't, experience, collective, life, moment\\
+\bottomrule
+\end{tabular}
+\caption{Separate sixteen-document written fit. Source-attributed names and promotional wording can structure its components.}
+\end{table*}
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lrrrrr}
+\toprule
+K & NMF error & Topic cosine mean & Topic cosine min & Cluster silhouette & ARI mean\\
+\midrule
+2 & 3.288 & 0.873 & 0.831 & 0.238 & 1.000\\
+3 & 3.153 & 0.864 & 0.688 & 0.089 & 0.356\\
+4 & 3.011 & 1.000 & 1.000 & 0.056 & 0.337\\
+5 & 2.880 & 1.000 & 1.000 & 0.055 & 0.466\\
+6 & 2.751 & 0.978 & 0.913 & 0.064 & 0.512\\
+\bottomrule
+\end{tabular}
+\caption{All five audio candidate model sizes. Reconstruction, numerical stability and semantic validity are separate criteria.}
+\end{table*}
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Written K & Cosine silhouette & Seed ARI mean & Seed ARI min\\
+\midrule
+2 & 0.0544 & 0.738 & 0.200\\
+3 & 0.0541 & 0.629 & 0.326\\
+4 & 0.0534 & 0.505 & 0.505\\
+5 & 0.0543 & 0.584 & 0.509\\
+6 & 0.0574 & 0.760 & 0.581\\
+\bottomrule
+\end{tabular}
+\caption{Separate sixteen-document written K-means diagnostic. Selected K=6 has weak silhouette and two singletons; these are not validated semantic classes.}
+\end{table*}
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lp{0.43\textwidth}rrr}
+\toprule
+ID & Publisher/context & Minutes & Receipt words & Common tokens\\
+\midrule
+A01 & ACID FOR SQUARES & 101.86 & 16,635 & 16,682\\
+A02 & ACID FOR SQUARES & 101.06 & 16,543 & 16,548\\
+A03 & Align Podcast & 84.99 & 13,645 & 13,654\\
+A04 & Align Podcast & 69.10 & 11,118 & 11,126\\
+A05 & Danica Patrick Pretty Intense Podcast & 67.24 & 11,298 & 11,291\\
+A06 & Danica Patrick Pretty Intense Podcast & 78.56 & 12,922 & 12,920\\
+A07 & Gaia Consciousness & 32.59 & 5,181 & 5,172\\
+A08 & Gateways to Awakening with Yasmeen Turayhi & 68.40 & 10,903 & 10,924\\
+A09 & Healing + Human Potential & 65.06 & 12,667 & 12,695\\
+A10 & Healing + Human Potential & 60.96 & 10,653 & 10,674\\
+A11 & Impossible Dreams & 64.69 & 10,718 & 10,701\\
+A12 & Just Tap In with Emilio Ortiz & 85.81 & 13,147 & 13,169\\
+A13 & Mayim Bialik's Breakdown & 61.62 & 10,607 & 10,574\\
+A14 & Mayim Bialik's Breakdown & 41.87 & 7,443 & 7,456\\
+A15 & Next Level Soul Podcast with Alex Ferrari & 89.22 & 14,326 & 14,315\\
+A16 & Oh No, Ross and Carrie & 109.92 & 19,916 & 19,853\\
+A17 & SoulTalk with Kute Blackson & 64.62 & 11,177 & 11,196\\
+A18 & Spirit Channel with Athina Król & 28.05 & 3,394 & 3,389\\
+A19 & Virtual Campfire hosted by Krystal Kelley & 35.81 & 5,886 & 5,892\\
+A20 & Virtual Campfire hosted by Krystal Kelley & 50.12 & 7,914 & 7,907\\
+\bottomrule
+\end{tabular}
+\caption{All twenty audio documents. Short IDs identify the same records in the plots and public sources.json; hosts/guests/ads are unsegmented.}
+\end{table*}
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{p{0.43\textwidth}rrrr}
+\toprule
+Publisher & Recordings & Audio hours & Source artifacts & Source bytes\\
+\midrule
+ACID FOR SQUARES & 2 & 3.38 & 8 & 317,211,055\\
+Align Podcast & 2 & 2.57 & 8 & 248,299,068\\
+Danica Patrick Pretty Intense Podcast & 2 & 2.43 & 8 & 141,899,829\\
+Daniel Scranton & 0 & 0.00 & 15 & 60,075\\
+Gaia Consciousness & 1 & 0.54 & 4 & 23,718,009\\
+Gateways to Awakening with Yasmeen Turayhi & 1 & 1.14 & 4 & 65,999,593\\
+Healing + Human Potential & 2 & 2.10 & 8 & 152,919,164\\
+Impossible Dreams & 1 & 1.08 & 4 & 157,659,104\\
+Just Tap In with Emilio Ortiz & 1 & 1.43 & 4 & 82,777,594\\
+Mayim Bialik's Breakdown & 2 & 1.72 & 8 & 100,082,377\\
+Next Level Soul Podcast with Alex Ferrari & 1 & 1.49 & 4 & 128,919,597\\
+Oh No, Ross and Carrie & 1 & 1.83 & 4 & 106,734,758\\
+Paul Selig & 0 & 0.00 & 3 & 64,187\\
+SoulTalk with Kute Blackson & 1 & 1.08 & 4 & 62,523,183\\
+Spirit Channel with Athina Król & 1 & 0.47 & 5 & 31,823,680\\
+Virtual Campfire hosted by Krystal Kelley & 2 & 1.43 & 8 & 82,944,034\\
+\bottomrule
+\end{tabular}
+\caption{Actual logical source storage by publisher. Artifact counts include derivative/text/metadata files; they do not count independent recordings.}
+\end{table*}
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{p{0.56\textwidth}rr}
+\toprule
+Omitted publisher & Omitted documents & Matched topic cosine\\
+\midrule
+ACID FOR SQUARES & 2 & 0.885\\
+Align Podcast & 2 & 0.993\\
+Danica Patrick Pretty Intense Podcast & 2 & 0.888\\
+Gaia Consciousness & 1 & 0.693\\
+Gateways to Awakening with Yasmeen Turayhi & 1 & 0.718\\
+Healing + Human Potential & 2 & 0.885\\
+Impossible Dreams & 1 & 0.677\\
+Just Tap In with Emilio Ortiz & 1 & 0.704\\
+Mayim Bialik's Breakdown & 2 & 0.888\\
+Next Level Soul Podcast with Alex Ferrari & 1 & 0.705\\
+Oh No, Ross and Carrie & 1 & 0.691\\
+SoulTalk with Kute Blackson & 1 & 0.710\\
+Spirit Channel with Athina Król & 1 & 0.722\\
+Virtual Campfire hosted by Krystal Kelley & 2 & 0.889\\
+\bottomrule
+\end{tabular}
+\caption{Fixed-vocabulary publisher-omission diagnostic. Values are influences within this corpus, not confidence bounds.}
+\end{table*}
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{p{0.45\textwidth}rrr}
+\toprule
+Index association & Assigned IDs & Unassigned IDs & Memberships\\
+\midrule
+Route & 898 & 44 & 1271\\
+PublisherGroup & 886 & 56 & 886\\
+PractitionerAssociation & 454 & 488 & 517\\
+EntityLabel & 642 & 300 & 696\\
+PublisherDeclaredCivilization & 428 & 514 & 1626\\
+\bottomrule
+\end{tabular}
+\caption{Attribution coverage among 942 indexed IDs. Overlapping memberships do not increase distinct upload counts, and unassigned does not mean no relevant practitioner/entity/civilization.}
+\end{table*}

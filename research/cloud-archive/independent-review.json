@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-24T01:20:42.131103+00:00",
+  "status": "accepted_no_material_blocker",
+  "reviewer_agent": "paper",
+  "human_review": false,
+  "review_kind": "independent_static_code_and_receipt_semantics_review",
+  "reviewed_source_pins": {
+    "archive_local.py": "130242f76156365eb43f3273f03da69fc2707ed5c36f7fdc647f3a49fe9658dc",
+    "test_cloud_archive.py": "2b705ca4479c9301df7bb3c4859bb33e617802cf04d739cd9766242ac85a04b8",
+    "README.md": "374c32864051d20699f589ef1214f7e7503095779b3447099406b06c70597a60",
+    "archive-receipt.json": "58ce8d8cfcba0034ffa8a91d1aa3200f50a036fe535e9623aa4d48fcb1c7701f",
+    "archive-state.json": "4ab4a3796a0ba1e9132c7458774087885d16ee25b7b05fd5dbd5e29e2f537bf4",
+    "verification.json": "ed1b7a944eb3386cb974757b00895b98b3f589b87a2550e0fa72df63d9cd9637"
+  },
+  "focus": [
+    "pinned_guard_dependency",
+    "exact_source_and_metadata_artifact_set",
+    "independent_copy_SHA256_MD5_size_checks",
+    "single_link_destination_inodes",
+    "shared_worker_lock",
+    "raw_byte_budget_and_free_reserve",
+    "no_replace_atomic_publication",
+    "published_path_reverification",
+    "failed_partial_receipt_semantics"
+  ],
+  "independent_reviewer_new_copy_performed": false,
+  "actual_200_file_byte_permission_audit": "Owner evidence recorded in verification.json; not separately executed by reviewer",
+  "drive_upload_or_external_retention_verified": false,
+  "network_requests": 0
+}

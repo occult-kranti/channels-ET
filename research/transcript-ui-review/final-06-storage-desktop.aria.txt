@@ -1,0 +1,156 @@
+- link "Skip to study":
+  - /url: "#content"
+- banner:
+  - link "Channels ET Transcript study":
+    - /url: "#overview"
+  - text: 23 October 2026 America/New_York
+  - navigation "Project":
+    - link "Acquisition ledger":
+      - /url: ../research/#harvest
+    - link "Earlier research":
+      - /url: ../research/
+    - link "Repository ↗":
+      - /url: https://github.com/occult-kranti/channels-ET
+- navigation "Study views":
+  - link "Study overview":
+    - /url: "#overview"
+  - link "Lexical maps":
+    - /url: "#maps"
+  - link "Readings & Q&A":
+    - /url: "#reading"
+  - link "Contexts & storage":
+    - /url: "#storage"
+  - link "Sources & methods":
+    - /url: "#methods"
+- main:
+  - paragraph: Accounting frames · source labels are not verified voices
+  - heading "Contexts, downloads and storage" [level=1]
+  - paragraph: Inspect inherited channel associations separately from actual saved source files. Publisher RSS bytes are never assigned to a YouTube route without verified edition equivalence.
+  - heading "Actual managed local archive" [level=2]
+  - paragraph:
+    - text: "Completed and hash-verified:"
+    - strong: 200 files
+    - text: · 1.59 GiB. These are independent managed-workspace copies, not merely a transfer plan;99source artifacts plus101metadata files.
+  - paragraph: "Drive uploads by this workflow: 0. A Drive connection is not visible in this environment despite the user-reported connection. Environment retention guaranteed: no. Not a chat attachment or a durable Drive backup. Raw local paths are not browser download links."
+  - link "Exact local archive state ↓":
+    - /url: archive-state.json
+  - heading "YouTube collection remains separate" [level=2]
+  - paragraph:
+    - strong: 0 saved YouTube videos, audio or captions
+    - text: in the recorded worker outputs. Indexed IDs and policy selections describe metadata scope, not completed downloads.
+  - paragraph: Full channel lifetime counts and all reposter coverage remain unknown. Literal routes can be aliases; practitioner/entity/civilization associations overlap.
+  - link "Open the access, selection and runner ledger →":
+    - /url: ../research/#harvest
+  - text: Accounting frame
+  - combobox "Accounting frame":
+    - option "Inherited YouTube metadata"
+    - option "Actual canonical source files" [selected]
+  - text: Group by
+  - combobox "Group by":
+    - option "Publisher" [selected]
+    - option "Practitioner context"
+    - option "Source context"
+    - option "Provider"
+  - text: Group label / route search
+  - searchbox "Group label / route search"
+  - button "Apply accounting filters"
+  - button "Export matching group metadata"
+  - paragraph: 16 matching assigned canonical-file accounting rows. Each source/provider grouping is an assigned file partition of the99canonical artifacts. Group classifications are catalog context, not speaker verification; sidecar/archive-copy counts are a separate layer.
+  - text: ACID FOR SQUARES 302.52 MiB Align Podcast 236.8 MiB Impossible Dreams 150.36 MiB Healing + Human Potential 145.84 MiB Danica Patrick Pretty Intense Podcast 135.33 MiB Next Level Soul Podcast with Alex Ferrari 122.95 MiB Oh No, Ross and Carrie 101.79 MiB Mayim Bialik's Breakdown 95.45 MiB Virtual Campfire hosted by Krystal Kelley 79.1 MiB Just Tap In with Emilio Ortiz 78.94 MiB Gateways to Awakening with Yasmeen Turayhi 62.94 MiB SoulTalk with Kute Blackson 59.63 MiB Spirit Channel with Athina Król 30.35 MiB Gaia Consciousness 22.62 MiB Paul Selig 62.68 KiB
+  - paragraph: "Ranking measure: canonical source bytes. Plot shows the top 15 matching rows; table/export retain the full matching population."
+  - table:
+    - rowgroup:
+      - row "Source accounting group Canonical artifacts Bytes Audio recordings / duration":
+        - columnheader "Source accounting group"
+        - columnheader "Canonical artifacts"
+        - columnheader "Bytes"
+        - columnheader "Audio recordings / duration"
+    - rowgroup:
+      - 'row "ACID FOR SQUARES audio: 2 · transcript: 6 8 317,211,055 2 / 3.38 h"':
+        - 'cell "ACID FOR SQUARES audio: 2 · transcript: 6"'
+        - cell "8"
+        - cell "317,211,055"
+        - cell "2 / 3.38 h"
+      - 'row "Align Podcast audio: 2 · transcript: 6 8 248,299,068 2 / 2.57 h"':
+        - 'cell "Align Podcast audio: 2 · transcript: 6"'
+        - cell "8"
+        - cell "248,299,068"
+        - cell "2 / 2.57 h"
+      - 'row "Impossible Dreams audio: 1 · transcript: 3 4 157,659,104 1 / 1.08 h"':
+        - 'cell "Impossible Dreams audio: 1 · transcript: 3"'
+        - cell "4"
+        - cell "157,659,104"
+        - cell "1 / 1.08 h"
+      - 'row "Healing + Human Potential audio: 2 · transcript: 6 8 152,919,164 2 / 2.1 h"':
+        - 'cell "Healing + Human Potential audio: 2 · transcript: 6"'
+        - cell "8"
+        - cell "152,919,164"
+        - cell "2 / 2.1 h"
+      - 'row "Danica Patrick Pretty Intense Podcast audio: 2 · transcript: 6 8 141,899,829 2 / 2.43 h"':
+        - 'cell "Danica Patrick Pretty Intense Podcast audio: 2 · transcript: 6"'
+        - cell "8"
+        - cell "141,899,829"
+        - cell "2 / 2.43 h"
+      - 'row "Next Level Soul Podcast with Alex Ferrari audio: 1 · transcript: 3 4 128,919,597 1 / 1.49 h"':
+        - 'cell "Next Level Soul Podcast with Alex Ferrari audio: 1 · transcript: 3"'
+        - cell "4"
+        - cell "128,919,597"
+        - cell "1 / 1.49 h"
+      - 'row "Oh No, Ross and Carrie audio: 1 · transcript: 3 4 106,734,758 1 / 1.83 h"':
+        - 'cell "Oh No, Ross and Carrie audio: 1 · transcript: 3"'
+        - cell "4"
+        - cell "106,734,758"
+        - cell "1 / 1.83 h"
+      - 'row "Mayim Bialik''s Breakdown audio: 2 · transcript: 6 8 100,082,377 2 / 1.72 h"':
+        - 'cell "Mayim Bialik''s Breakdown audio: 2 · transcript: 6"'
+        - cell "8"
+        - cell "100,082,377"
+        - cell "2 / 1.72 h"
+      - 'row "Virtual Campfire hosted by Krystal Kelley audio: 2 · transcript: 6 8 82,944,034 2 / 1.43 h"':
+        - 'cell "Virtual Campfire hosted by Krystal Kelley audio: 2 · transcript: 6"'
+        - cell "8"
+        - cell "82,944,034"
+        - cell "2 / 1.43 h"
+      - 'row "Just Tap In with Emilio Ortiz audio: 1 · transcript: 3 4 82,777,594 1 / 1.43 h"':
+        - 'cell "Just Tap In with Emilio Ortiz audio: 1 · transcript: 3"'
+        - cell "4"
+        - cell "82,777,594"
+        - cell "1 / 1.43 h"
+      - 'row "Gateways to Awakening with Yasmeen Turayhi audio: 1 · transcript: 3 4 65,999,593 1 / 1.14 h"':
+        - 'cell "Gateways to Awakening with Yasmeen Turayhi audio: 1 · transcript: 3"'
+        - cell "4"
+        - cell "65,999,593"
+        - cell "1 / 1.14 h"
+      - 'row "SoulTalk with Kute Blackson audio: 1 · transcript: 3 4 62,523,183 1 / 1.08 h"':
+        - 'cell "SoulTalk with Kute Blackson audio: 1 · transcript: 3"'
+        - cell "4"
+        - cell "62,523,183"
+        - cell "1 / 1.08 h"
+      - 'row "Spirit Channel with Athina Król audio: 1 · transcript: 3 · source-metadata: 1 5 31,823,680 1 / 0.47 h"':
+        - 'cell "Spirit Channel with Athina Król audio: 1 · transcript: 3 · source-metadata: 1"'
+        - cell "5"
+        - cell "31,823,680"
+        - cell "1 / 0.47 h"
+      - 'row "Gaia Consciousness audio: 1 · transcript: 3 4 23,718,009 1 / 0.54 h"':
+        - 'cell "Gaia Consciousness audio: 1 · transcript: 3"'
+        - cell "4"
+        - cell "23,718,009"
+        - cell "1 / 0.54 h"
+      - 'row "Paul Selig source-document: 1 · source-metadata: 1 · primary-text: 1 3 64,187 0 / 0 h"':
+        - 'cell "Paul Selig source-document: 1 · source-metadata: 1 · primary-text: 1"'
+        - cell "3"
+        - cell "64,187"
+        - cell "0 / 0 h"
+      - 'row "Daniel Scranton primary-text: 15 15 60,075 0 / 0 h"':
+        - 'cell "Daniel Scranton primary-text: 15"'
+        - cell "15"
+        - cell "60,075"
+        - cell "0 / 0 h"
+  - text: Page 1 / 1
+  - button "Previous" [disabled]
+  - button "Next" [disabled]
+- status: Contexts & storage. Source accounting and methods use their own stated populations.
+- contentinfo:
+  - paragraph: Documents and source claims are the units of this study. Lexical resemblance does not establish agreement, independent transmission, speaker identity or an extraterrestrial origin.
+  - link "Inspect actual collection and access receipts":
+    - /url: ../research/#harvest

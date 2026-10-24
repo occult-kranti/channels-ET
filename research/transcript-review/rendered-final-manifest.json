@@ -1,0 +1,91 @@
+{
+  "pdf_sha256": "369f70a4bbdb7a5f5c39d2b235c61ddcc8394ba5d355b33b1fe6a3b685a27efb",
+  "rendered_pages": [
+    1,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    19,
+    20
+  ],
+  "images": [
+    {
+      "path": "research/transcript-review/rendered-final/page-01.png",
+      "sha256": "c949fc7a998a9d404b0fc9ebe0441e6621ce5fa113ac6ce35c6d0e9b1893a30b",
+      "same_as_previously_visually_inspected_image": false
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-06.png",
+      "sha256": "adb562b3f140c0d6bb92f870ab99457fda6d965a637465d75971f7b3a4b6371b",
+      "same_as_previously_visually_inspected_image": false
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-08.png",
+      "sha256": "9be53fc0b3f82769848f31b36ee7d7cfcd7f957e2729e426e53264ad12a53ada",
+      "same_as_previously_visually_inspected_image": true
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-09.png",
+      "sha256": "a8b350fb9febbf36f3caf24ad6b9152df1a4eeb4c57e480bc4d2b2cc5e93a4c3",
+      "same_as_previously_visually_inspected_image": true
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-10.png",
+      "sha256": "62a019aa4cb45ff309d9baaf56707789b1c097e4dd9e66e09c5da85ca2491b71",
+      "same_as_previously_visually_inspected_image": true
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-11.png",
+      "sha256": "d0b24cb8406ac6e97695ee2056a02408b72dd221656f8a696bb4898a4e9616f9",
+      "same_as_previously_visually_inspected_image": false
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-12.png",
+      "sha256": "af53c18d31dd7d245705573bd4421d95d4514d17dfe42d97c7e0f911a00c00f7",
+      "same_as_previously_visually_inspected_image": true
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-13.png",
+      "sha256": "815fb5cfd1a25f28adb93fe75209a18260b75030f974c458aeb3547a7c90ab7d",
+      "same_as_previously_visually_inspected_image": true
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-14.png",
+      "sha256": "575ca292fe253d2604dd8e6e956e5c2138d8fe5cf08325c67ad5bfd95bd39122",
+      "same_as_previously_visually_inspected_image": true
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-19.png",
+      "sha256": "372c6da02076d6db4fc1bf6946a38f02c7a9ae27b1a9ad21310e08947eeac2ee",
+      "same_as_previously_visually_inspected_image": false
+    },
+    {
+      "path": "research/transcript-review/rendered-final/page-20.png",
+      "sha256": "de972dbe19f19fe46cd276559b980975fcc0c718b376705798f93441bca17b74",
+      "same_as_previously_visually_inspected_image": false
+    }
+  ],
+  "visual_inspection_status": "pass_selected_pages",
+  "new_page_views_completed": [
+    1,
+    6,
+    11,
+    19,
+    20
+  ],
+  "prior_page_views_reused_by_identical_png_bytes": [
+    8,
+    9,
+    10,
+    12,
+    13,
+    14
+  ],
+  "scope": "Selected eleven pages, including the complete numerical figure sequence and corrected results/source tables; not a claim of independent visual inspection of all22pages.",
+  "findings": "No remaining material clipping, chart-label, caption-scope or inspected-table issue observed."
+}

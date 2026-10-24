@@ -1,0 +1,911 @@
+{
+  "schemaVersion": 1,
+  "annotationMethod": "AI-agent semantic close reading of the complete prepared 96-window private packet; not human annotation",
+  "records": [
+    {
+      "sourceId": "rss-1705626495-6f489902be87",
+      "codes": {
+        "belief_reality_agency": [
+          "beginning",
+          "query_rich"
+        ],
+        "emotion_fear_selfworth": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "ending"
+        ]
+      },
+      "synthesis": "The sampled conversation frames experience as mediated by beliefs and personal interpretations. Its rejection of a purely solipsistic reading is a useful qualification; the closing passage is a publisher call to action.",
+      "position": "interview context; individual speaking turns unverified",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit question within shared evidence window",
+      "question": "What major misunderstanding do people have about how they experience reality?",
+      "answer": "The reply presents experience as produced through the experiencer, while expressly maintaining that other people exist. A screen-mediated conversation illustrates the difference between another person and one's representation of that person.",
+      "family": "reality_and_agency",
+      "scope": "partial adjacent reply; no validated turn boundary"
+    },
+    {
+      "sourceId": "rss-1611118279-afab067a712d",
+      "codes": {
+        "contact_disclosure": [
+          "beginning",
+          "query_rich"
+        ],
+        "belief_reality_agency": [
+          "query_rich"
+        ],
+        "ontology_consciousness_dimensions": [
+          "query_rich"
+        ]
+      },
+      "synthesis": "A future-contact narrative is presented as conditional on collective orientation, rather than as an unconditional calendar prediction. The middle window explicitly redirects interest from spectacle and forecasts toward everyday conduct.",
+      "position": "interview context; claims attributed conversationally to Bashar",
+      "qaKind": "fragmentary_interview_prompt_candidate",
+      "questionForm": "prompt fragment at window opening",
+      "question": "What role might human consciousness play in the contact future being discussed?",
+      "answer": "The adjacent reply invokes already-existing alternate Earth versions and describes attention to a 2027 scenario as both a forecast and a contribution to the momentum toward that scenario. Its conditions matter for any later prediction audit.",
+      "family": "contact_readiness",
+      "scope": "fragmentary prompt and partial reply; not a verified prediction"
+    },
+    {
+      "sourceId": "rss-1556820026-35f9fd91f5ab",
+      "codes": {
+        "contact_disclosure": [
+          "query_rich"
+        ],
+        "emotion_fear_selfworth": [
+          "query_rich"
+        ],
+        "ontology_consciousness_dimensions": [
+          "middle",
+          "ending"
+        ]
+      },
+      "synthesis": "Disclosure is discussed through alternate-reality possibilities and self-preparation. A separate middle passage makes an unverified physiological claim about exposure to higher-frequency beings.",
+      "position": "interview context; hosts and guest not diarized",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit question within shared evidence window",
+      "question": "Could disclosure already have occurred in another reality, and what would that involve?",
+      "answer": "The reply allows many hypothetical versions with and without disclosure, then recommends examining fear-based beliefs and choosing actions and attitudes thought conducive to contact.",
+      "family": "contact_readiness",
+      "scope": "partial adjacent reply; alternate realities are source claims"
+    },
+    {
+      "sourceId": "rss-988576741-1ecc5cb023cf",
+      "codes": {
+        "emotion_fear_selfworth": [
+          "query_rich"
+        ],
+        "belief_reality_agency": [
+          "query_rich"
+        ],
+        "ontology_consciousness_dimensions": [
+          "beginning"
+        ],
+        "publisher_promotion": [
+          "middle",
+          "ending"
+        ]
+      },
+      "synthesis": "The query passage explains recurring fear through persistent belief patterns. The temporal middle sample abruptly contains retail advertising, demonstrating why document-level themes can reflect ad insertion rather than the interview topic.",
+      "position": "interview context with advertisement contamination",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit question within shared evidence window",
+      "question": "How is persistent fear interpreted in this account of beliefs and experience?",
+      "answer": "The reply characterizes repeated challenges as maintained by unexamined beliefs and describes change as identifying and transforming those beliefs. This is the source's explanatory account, not a validated clinical finding.",
+      "family": "fear_and_beliefs",
+      "scope": "partial adjacent reply; clinical implications not established"
+    },
+    {
+      "sourceId": "rss-988576741-f283904d1eb7",
+      "codes": {
+        "claimed_entity_identity": [
+          "beginning",
+          "query_rich"
+        ],
+        "relationships_collective_ethics": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "ending"
+        ]
+      },
+      "synthesis": "The selected question concerns alleged beings and personal contact, while the middle passage concerns changing relational roles across incarnations. Entity names are visibly unstable in the automatic transcription.",
+      "position": "interview context; ambiguous entity-name recognition",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit question; entity name recognition uncertain",
+      "question": "Does the speaker personally interact with the group being discussed, and how are those beings differentiated?",
+      "answer": "The reply denies known personal contact with that group, while describing dream-associated interactions with other claimed beings or hybrids. It then begins a broader origin story that the sampled window does not finish.",
+      "family": "entity_identity_and_contact",
+      "scope": "partial reply; entity-name transcription uncertain"
+    },
+    {
+      "sourceId": "rss-1560904383-7f4e01fae0ff",
+      "codes": {
+        "contact_disclosure": [
+          "query_rich"
+        ],
+        "epistemic_validation_skepticism": [
+          "query_rich"
+        ],
+        "relationships_collective_ethics": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "beginning",
+          "ending"
+        ]
+      },
+      "synthesis": "The query response cautions against assuming a settled forecast and declines to paraphrase a specifically worded earlier transmission. Opening and closing passages promote the publisher's media products.",
+      "position": "interview context; explicit caution about paraphrase and forecast certainty",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "broad question within shared evidence window",
+      "question": "What developments do the guest and the source attributed to Bashar anticipate?",
+      "answer": "The reply emphasizes rapid change and uncertainty, then refers listeners to a particular prior transmission instead of restating its wording. The window therefore provides a qualification and source referral rather than a complete forecast.",
+      "family": "prediction_and_uncertainty",
+      "scope": "source referral; substantive answer intentionally incomplete"
+    },
+    {
+      "sourceId": "rss-1705626495-ae84c9540581",
+      "codes": {
+        "contact_disclosure": [
+          "beginning"
+        ],
+        "practice_enthusiasm_alignment": [
+          "beginning",
+          "query_rich"
+        ],
+        "emotion_fear_selfworth": [
+          "query_rich"
+        ],
+        "relationships_collective_ethics": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "ending"
+        ]
+      },
+      "synthesis": "The opening links anticipated contact to passion-based preparation. The query passage contrasts inner resistance with a possibly unsuitable time for action; the middle sample discusses effects on other people in a sensitive life-and-death context.",
+      "position": "interview/coaching context; sensitive health-related discussion elsewhere in sample",
+      "qaKind": "rhetorical_coaching_prompt_candidate",
+      "questionForm": "self-examination question embedded in guidance",
+      "question": "How might someone distinguish a fear-based obstacle from a signal that an action is poorly timed?",
+      "answer": "The guidance proposes examining restrictive beliefs first, then accepting timing if no such belief is found and acting on an available alternative that feels meaningful. It stresses the reflective process rather than a guaranteed external result.",
+      "family": "fear_and_beliefs",
+      "scope": "rhetorical coaching passage; not individualized advice"
+    },
+    {
+      "sourceId": "rss-1620917042-0d435eadc49d",
+      "codes": {
+        "claimed_entity_identity": [
+          "beginning",
+          "query_rich"
+        ],
+        "epistemic_validation_skepticism": [
+          "query_rich"
+        ],
+        "practice_enthusiasm_alignment": [
+          "middle",
+          "ending"
+        ],
+        "publisher_promotion": [
+          "beginning"
+        ]
+      },
+      "synthesis": "The creator recounts a channeling-origin story and interprets apparent social corroboration as a reason to continue exploring. The available window reports the person's interpretation; it does not independently verify the event.",
+      "position": "publisher promotional/autobiographical monologue",
+      "qaKind": "autobiographical_self_question_candidate",
+      "questionForm": "recalled internal question, not an interviewer turn",
+      "question": "Was an unusual experience merely a consequence of meditation?",
+      "answer": "The narrator recalls another participant's response and a drawing as reasons to regard the experience as more than imagination, followed by early informal study sessions. These are retrospective narrative claims with unverified recognition and attribution.",
+      "family": "channeling_origin_and_validation",
+      "scope": "narrator's recalled question and interpretation"
+    },
+    {
+      "sourceId": "rss-1556820026-decefb87233c",
+      "codes": {
+        "contact_disclosure": [
+          "query_rich"
+        ],
+        "practice_enthusiasm_alignment": [
+          "query_rich"
+        ],
+        "claimed_entity_identity": [
+          "middle"
+        ],
+        "relationships_collective_ethics": [
+          "ending"
+        ]
+      },
+      "synthesis": "The selected practical question is answered by referring back to a general life-guidance formula. The middle window instead narrates a separate claimed perceptual experience, illustrating within-episode topic shifts.",
+      "position": "interview context; multiple narrators unsegmented",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit practical question; noisy recognition",
+      "question": "What could a person do regularly to invite contact?",
+      "answer": "The reply presents the source's general formula as sufficient guidance and suggests that relevant encounters will follow in an appropriate sequence. It gives no independently tested procedure or assured contact outcome.",
+      "family": "contact_readiness",
+      "scope": "partial adjacent reply; transcript wording noisy"
+    },
+    {
+      "sourceId": "rss-1763048673-32a6fb8cd623",
+      "codes": {
+        "relationships_collective_ethics": [
+          "query_rich"
+        ],
+        "emotion_fear_selfworth": [
+          "query_rich"
+        ],
+        "contact_disclosure": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "beginning",
+          "ending"
+        ]
+      },
+      "synthesis": "The coaching passage advocates investigating shared needs beneath conflict. Unrelated health-service and workplace-software advertisements bracket the episode and would distort untreated lexical topic estimates.",
+      "position": "interview/coaching context with advertisement contamination",
+      "qaKind": "rhetorical_coaching_prompt_candidate",
+      "questionForm": "question embedded in an extended response",
+      "question": "Can underlying needs be met through alternatives to fear-driven conflict?",
+      "answer": "The passage recommends discussion and constructive exploration of multiple ways to meet shared needs, while treating surface divisions as potentially different from deeper common desires.",
+      "family": "cooperation_and_ethics",
+      "scope": "coaching question; no isolated respondent turn"
+    },
+    {
+      "sourceId": "soul-talk-224-20220316",
+      "codes": {
+        "claimed_entity_identity": [
+          "query_rich"
+        ],
+        "epistemic_validation_skepticism": [
+          "query_rich"
+        ],
+        "practice_enthusiasm_alignment": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "beginning",
+          "ending"
+        ]
+      },
+      "synthesis": "A recalled unusual-sighting story appears alongside guidance about evaluating fading enthusiasm. Publisher introductions and event promotion occupy both temporal boundaries.",
+      "position": "interview context; retrospective anomalous-experience narrative",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit question within shared evidence window",
+      "question": "How did the person react during the unusual sighting being described?",
+      "answer": "The response recounts initial uncertainty about an ordinary aircraft, followed by a more surprising interpretation and an attempt to follow a later sighting. The account alone cannot establish what was observed.",
+      "family": "channeling_origin_and_validation",
+      "scope": "retrospective personal account; event not independently verified"
+    },
+    {
+      "sourceId": "rss-1465014169-8dd4267008f8",
+      "codes": {
+        "claimed_entity_identity": [
+          "beginning",
+          "middle"
+        ],
+        "epistemic_validation_skepticism": [
+          "query_rich"
+        ],
+        "publisher_promotion": [
+          "beginning",
+          "ending"
+        ]
+      },
+      "synthesis": "The query passage recounts channeling onset and initial doubt, while the source introduction explicitly frames Bashar as a physical future-associated being. These are claims within an interview, not identified entity speech.",
+      "position": "interview context; historical self-report",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit onset and duration questions",
+      "question": "When did channeling begin, and how did the initial experience feel?",
+      "answer": "The speaker gives an approximately forty-year history and describes early uncertainty about hallucination or meditation effects, followed by responses from others that were interpreted as corroborating the experience.",
+      "family": "channeling_origin_and_validation",
+      "scope": "partial recalled account; approximate duration is source-reported"
+    },
+    {
+      "sourceId": "rss-1546456269-b82d79f0d2c0",
+      "codes": {
+        "ontology_consciousness_dimensions": [
+          "query_rich"
+        ],
+        "claimed_entity_identity": [
+          "middle"
+        ],
+        "health_healing_claims": [
+          "query_rich"
+        ],
+        "publisher_promotion": [
+          "beginning"
+        ]
+      },
+      "synthesis": "The selected response contrasts earlier exhaustion with later energization during channeling and describes a changed sense of elapsed time. An opening automobile advertisement is unrelated to those claims.",
+      "position": "interview context; subjective bodily and temporal experience",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit duration and bodily-experience questions",
+      "question": "How long can channeling continue, and what does it feel like?",
+      "answer": "The speaker reports early exhaustion, later energization, a longest session of roughly five hours and more usual sessions around one-and-a-half to two hours, with subjectively shorter perceived duration. These are self-reports rather than physiological measurements.",
+      "family": "channeling_process",
+      "scope": "subjective self-report; durations and physiology unverified"
+    },
+    {
+      "sourceId": "rss-1763048673-1cf4301536f2",
+      "codes": {
+        "claimed_entity_identity": [
+          "query_rich"
+        ],
+        "ontology_consciousness_dimensions": [
+          "query_rich",
+          "middle"
+        ],
+        "belief_reality_agency": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "beginning",
+          "ending"
+        ]
+      },
+      "synthesis": "The query passage argues that a person-mediated message could convey context and personality beyond a narrow technical signal. The document also contains health-service and software advertisements unrelated to the interview.",
+      "position": "interview context; explanatory argument about a claimed communication mechanism",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit question within shared evidence window",
+      "question": "Why would a claimed extraterrestrial communicator use a human channel?",
+      "answer": "The reply proposes telepathic coordination with a trained person and argues that bodily delivery conveys emotion, context and personality. It is an explanation offered within the source, without independent mechanism evidence.",
+      "family": "channeling_process",
+      "scope": "partial explanatory reply; mechanism unverified"
+    },
+    {
+      "sourceId": "rss-1529629262-6e621316510d",
+      "codes": {
+        "belief_reality_agency": [
+          "query_rich"
+        ],
+        "ontology_consciousness_dimensions": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "ending"
+        ]
+      },
+      "synthesis": "The answer qualifies personal change as broad but constrained by an earthly-life framework. A television-frequency analogy appears in the middle, while the ending advertises the publisher's coaching materials.",
+      "position": "interview context; qualified agency claim",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit question within shared evidence window",
+      "question": "Are changes available within one life limitless, including rapid major changes?",
+      "answer": "The reply allows extensive change but denies literal limitlessness within a particular physical-life framework, distinguishing what is relevant to that framework from other imagined possibilities.",
+      "family": "reality_and_agency",
+      "scope": "partial adjacent reply; important boundary qualification"
+    },
+    {
+      "sourceId": "impossible-dreams-21-20260310",
+      "codes": {
+        "practice_enthusiasm_alignment": [
+          "middle",
+          "query_rich"
+        ],
+        "emotion_fear_selfworth": [
+          "query_rich"
+        ],
+        "health_healing_claims": [
+          "beginning",
+          "query_rich"
+        ]
+      },
+      "synthesis": "The interview places a general life-guidance formula alongside the host's experience of serious illness. The sample supports analysis of how guidance is narrated in that context, not a treatment-efficacy conclusion.",
+      "position": "interview context; serious-illness self-disclosure and spiritual guidance",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "collaborative clarification of numbered guidance",
+      "question": "What are the components of the source's practical formula?",
+      "answer": "The exchange clarifies action on enthusiasm with integrity, reduced insistence on a particular result, a constructive stance, and examination of restrictive fear-related beliefs. The adjacent personal-health context is not evidence that these steps treat illness.",
+      "family": "practical_guidance",
+      "scope": "partial collaborative restatement; no treatment claim validated"
+    },
+    {
+      "sourceId": "rss-1465014169-7a91901169c6",
+      "codes": {
+        "claimed_entity_identity": [
+          "beginning",
+          "middle",
+          "query_rich"
+        ],
+        "epistemic_validation_skepticism": [
+          "query_rich"
+        ],
+        "publisher_promotion": [
+          "ending"
+        ]
+      },
+      "synthesis": "The sampled material distinguishes Earth-origin humans from humanoid beings and develops genetic-relatedness and origin narratives. These source assertions should not be treated as biological evidence.",
+      "position": "interview context; speculative lineage narratives",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit identity question with clarification",
+      "question": "Does the term human apply only on Earth, or also to beings elsewhere?",
+      "answer": "The exchange separates Earth humans from humanlike beings and proposes genetic relatedness as an explanation for alleged hybrid compatibility. The sampled response does not establish those biological premises.",
+      "family": "entity_identity_and_contact",
+      "scope": "partial speculative explanation; no empirical genetic evidence"
+    },
+    {
+      "sourceId": "rss-425328515-addbc47ecbd7",
+      "codes": {
+        "epistemic_validation_skepticism": [
+          "beginning",
+          "middle",
+          "query_rich"
+        ],
+        "belief_reality_agency": [
+          "query_rich"
+        ],
+        "health_healing_claims": [
+          "ending",
+          "query_rich"
+        ]
+      },
+      "synthesis": "The hosts critically recount an event and challenge the repetitiveness and ambiguity of its guidance. The same belief/reality vocabulary appears here as criticism, so lexical proximity cannot be equated with endorsement.",
+      "position": "skeptical secondary commentary and reported event speech",
+      "qaKind": "secondary_reported_question_candidate",
+      "questionForm": "hosts restate a reported audience question",
+      "question": "How was a reported question about changing reality answered and evaluated?",
+      "answer": "The hosts paraphrase advice about noticing belief-based stories, then criticize it as repetitive and evasive. This record combines a secondary account of a response with the hosts' dissent; it is not a verified direct answer by an entity.",
+      "family": "reality_and_agency",
+      "scope": "secondary reported speech plus criticism; no endorsement inference"
+    },
+    {
+      "sourceId": "rss-1546456269-353036e21117",
+      "codes": {
+        "claimed_entity_identity": [
+          "middle",
+          "query_rich"
+        ],
+        "contact_disclosure": [
+          "query_rich"
+        ],
+        "ontology_consciousness_dimensions": [
+          "middle"
+        ],
+        "publisher_promotion": [
+          "beginning",
+          "query_rich",
+          "ending"
+        ]
+      },
+      "synthesis": "An organizational-role question receives a short reply before an unrelated podcast advertisement interrupts the selected window. The middle passage supplies a source-claimed location in a parallel-reality framing.",
+      "position": "interview context with mid-answer advertisement interruption",
+      "qaKind": "interview_prompt_candidate",
+      "questionForm": "explicit organizational-role question",
+      "question": "Is the claimed first-contact role a personal hobby or part of an organized social role?",
+      "answer": "The brief reply presents such work as a calling alongside other specialized social functions. The remaining sampled passage becomes unrelated podcast promotion, so it cannot support a complete account of the alleged organization.",
+      "family": "entity_identity_and_contact",
+      "scope": "brief partial reply followed by advertisement; answer truncated"
+    },
+    {
+      "sourceId": "athina-ashtar-20230206-5d144c22",
+      "codes": {
+        "claimed_entity_identity": [
+          "beginning",
+          "query_rich"
+        ],
+        "epistemic_validation_skepticism": [
+          "query_rich"
+        ],
+        "relationships_collective_ethics": [
+          "middle"
+        ],
+        "practice_enthusiasm_alignment": [
+          "ending"
+        ],
+        "publisher_promotion": [
+          "query_rich"
+        ]
+      },
+      "synthesis": "The complete ASR separates a creator origin-story introduction, an announced source-attributed address, and closing reflection. Its central account combines spiritual teams and lightworkers, claimed timeline changes, and three stages of recognizing and enacting a life purpose. The announced voice transition is a source framing, not verified speaker identification.",
+      "position": "creator autobiographical monologue and publisher-attributed channeling context",
+      "qaKind": "autobiographical_self_question_candidate",
+      "questionForm": "recalled internal safety question",
+      "question": "How did the narrator decide whether a perceived guide was safe and identify it?",
+      "answer": "The account describes a felt confirmation, later searching for a repeating name, and interpreting a match as the guide later associated with the program. That sequence documents the narrator's meaning-making, not external identity verification.",
+      "family": "channeling_origin_and_validation",
+      "scope": "autobiographical interpretation; no verified entity or speaker transition"
+    },
+    {
+      "sourceId": "daniel-item-00",
+      "codes": {
+        "ontology_consciousness_dimensions": [
+          "opening_250_words"
+        ],
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The sampled authored opening treats separation as a temporary experience within an ultimately connected existence and makes felt warmth or connection a practical orientation cue.",
+      "position": "publisher-attributed Creators address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "How does this message explain feeling disconnected from a larger whole?",
+      "answer": "The opening presents perceived separation as part of an incarnational learning process while asserting underlying connection. Positive feelings are offered as signs of a preferred direction.",
+      "family": "reality_and_agency",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-01",
+      "codes": {
+        "practice_enthusiasm_alignment": [
+          "opening_250_words"
+        ],
+        "claimed_entity_identity": [
+          "opening_250_words"
+        ],
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The attributed Arcturian collective recommends nature and animal contact, balancing solitude with social growth. A further practice is introduced at the sample boundary but not developed within it.",
+      "position": "publisher-attributed Arcturian Council address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "Which practices are presented as supporting spiritual development?",
+      "answer": "The opening describes time with animals and nature and recognizes value in contact with other humanoids. The subsequent discussion of further practices falls beyond the sampled opening.",
+      "family": "practical_guidance",
+      "scope": "opening250words only; further practice truncated"
+    },
+    {
+      "sourceId": "daniel-item-02",
+      "codes": {
+        "contact_disclosure": [
+          "opening_250_words"
+        ],
+        "claimed_entity_identity": [
+          "opening_250_words"
+        ],
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The Ashanti-attributed address identifies a Sassani affiliation and frames reduced fear, environmental dissatisfaction and a wish for help as conditions of contact readiness.",
+      "position": "publisher-attributed Ashanti / Sassani address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "Why are the addressed readers described as ready for extraterrestrial contact?",
+      "answer": "The opening links readiness to openness, fewer hostile narratives and dissatisfaction with current social or environmental conditions, while asserting earlier extraterrestrial involvement. These are source claims, not established history.",
+      "family": "contact_readiness",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-03",
+      "codes": {
+        "belief_reality_agency": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The message contrasts personal empowerment through spiritual alignment with dependence on powerful institutions or public figures. It frames some disempowerment as habitual and partly unconscious.",
+      "position": "publisher-attributed Creators address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "Where does the message locate personal empowerment?",
+      "answer": "The sampled passage locates it in conscious alignment rather than institutional size or external status and asks readers to notice habitual attribution of power to others.",
+      "family": "reality_and_agency",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-04",
+      "codes": {
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "practice_enthusiasm_alignment": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The St. Germain-attributed opening recommends example-setting while permitting others to develop at different speeds. Lack of agreement from close relationships is framed as a difficulty of leading change.",
+      "position": "publisher-attributed St. Germain address; spiritual comparison, not necessarily biological ET",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "How should a person respond when others resist the spiritual changes being advocated?",
+      "answer": "The passage favors allowing different paths and modeling the desired conduct rather than forcing agreement, while recognizing that disagreement can feel isolating.",
+      "family": "cooperation_and_ethics",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-05",
+      "codes": {
+        "belief_reality_agency": [
+          "opening_250_words"
+        ],
+        "practice_enthusiasm_alignment": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The opening recasts everyday duties as opportunities for play and subjective engagement. Its example concerns ordinary work rather than extraterrestrial identity or contact.",
+      "position": "publisher-attributed Creators address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "How might a person relate differently to unenjoyable routine duties?",
+      "answer": "The passage distinguishes avoidance, reluctant completion and finding a more enjoyable approach, assigning readers an active role in how the task is experienced.",
+      "family": "practical_guidance",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-06",
+      "codes": {
+        "belief_reality_agency": [
+          "opening_250_words"
+        ],
+        "ontology_consciousness_dimensions": [
+          "opening_250_words"
+        ],
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The opening contrasts religious beliefs and frames them as possible chosen experiences. It discourages a need to prove one spiritual relationship superior to another's.",
+      "position": "publisher-attributed St. Germain address; spiritual comparison",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "Must people persuade others to adopt the same account of God or spiritual identity?",
+      "answer": "The passage accepts that different belief frameworks can be experienced and says that a reader need not convince others of a preferred framework or accept competing proselytism.",
+      "family": "cooperation_and_ethics",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-07",
+      "codes": {
+        "contact_disclosure": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "This Arcturian-attributed opening distinguishes an individual's wish for immediate contact from a claimed collective lack of readiness, then calls for personal and social preparation.",
+      "position": "publisher-attributed Arcturian Council address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "Why does the message defer desired contact despite some readers feeling ready?",
+      "answer": "It contrasts individual desire with the condition of humanity as a whole and advocates self-examination, releasing obstacles and demonstrating an awakening process to others.",
+      "family": "contact_readiness",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-08",
+      "codes": {
+        "ontology_consciousness_dimensions": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The address describes ordinary experience as contributing to a larger collective and reassures readers who feel that they have little visible impact. Its use of information-sharing is metaphysical rather than a digital-privacy report.",
+      "position": "publisher-attributed Creators address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; title is rhetorical",
+      "question": "Does an ordinary life matter without a prominent public achievement?",
+      "answer": "The opening asserts that lived experiences contribute to a shared collective across realms and therefore have significance without public recognition or a lasting visible mark.",
+      "family": "meaning_and_identity",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-09",
+      "codes": {
+        "practice_enthusiasm_alignment": [
+          "opening_250_words"
+        ],
+        "belief_reality_agency": [
+          "opening_250_words"
+        ],
+        "ontology_consciousness_dimensions": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The Thymus-attributed opening treats mundane skills and spiritual mastery as connected through attention and practice. It does not make a biological extraterrestrial identification.",
+      "position": "publisher-attributed ascended-masters address; spiritual comparison",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "How are ordinary acquired skills related to spiritual mastery?",
+      "answer": "The passage treats focus and practice as shared mechanisms and suggests that recognizing an existing ability can support confidence in developing other capacities, including thoughts and emotions.",
+      "family": "practical_guidance",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-10",
+      "codes": {
+        "belief_reality_agency": [
+          "opening_250_words"
+        ],
+        "ontology_consciousness_dimensions": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The Arcturian-attributed opening combines multiple-Earth language with a recommendation to change one's response to unwanted circumstances. Acceptance and release are framed as compatible with wishing for change.",
+      "position": "publisher-attributed Arcturian Council address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "How is movement toward a preferred Earth linked to an individual's response to current circumstances?",
+      "answer": "The passage invokes multiple versions of Earth and recommends accepting the present situation while releasing judgments or attachments said to perpetuate an unwanted experience.",
+      "family": "reality_and_agency",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-11",
+      "codes": {
+        "ontology_consciousness_dimensions": [
+          "opening_250_words"
+        ],
+        "practice_enthusiasm_alignment": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The St. Germain-attributed opening emphasizes an underlying spiritual identity and presents a violet-flame practice as a way to uncover it. This symbolic/spiritual mechanism is not independently tested here.",
+      "position": "publisher-attributed St. Germain address; spiritual comparison",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "What is the stated purpose of the violet-flame practice?",
+      "answer": "The opening presents it as an aid to releasing acquired material that obscures a deeper loving identity, rather than as evidence of a measured physical process.",
+      "family": "meaning_and_identity",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-12",
+      "codes": {
+        "practice_enthusiasm_alignment": [
+          "opening_250_words"
+        ],
+        "belief_reality_agency": [
+          "opening_250_words"
+        ],
+        "ontology_consciousness_dimensions": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The opening invites quiet receptivity and observation of felt changes during the message, then extends that receptive stance to everyday events. The claimed energetic component remains source-attributed.",
+      "position": "publisher-attributed Creators address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "How does the message recommend receiving it and approaching daily experience?",
+      "answer": "The passage invites settling thoughts, noticing current feelings and treating experience as potentially supportive of development. It also asserts that more than linguistic content is being transmitted, which this study does not verify.",
+      "family": "practical_guidance",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-13",
+      "codes": {
+        "belief_reality_agency": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "practice_enthusiasm_alignment": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The St. Germain-attributed opening explicitly asks readers to inspect habitual interpretations and change their relationship to the world. This resembles a broad agency theme without establishing equivalent doctrine or shared authorship.",
+      "position": "publisher-attributed St. Germain address; spiritual comparison",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "How can habitual interpretations of the world be examined?",
+      "answer": "The exercise asks readers to notice assumptions and assigned meanings, then observe how a different interpretation changes inner feeling. The sampled opening does not test whether external conditions change.",
+      "family": "reality_and_agency",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "daniel-item-14",
+      "codes": {
+        "relationships_collective_ethics": [
+          "opening_250_words"
+        ],
+        "emotion_fear_selfworth": [
+          "opening_250_words"
+        ],
+        "practice_enthusiasm_alignment": [
+          "opening_250_words"
+        ],
+        "publisher_promotion": [
+          "opening_250_words"
+        ]
+      },
+      "synthesis": "The Creators-attributed opening frames calmness amid collective distress as potentially useful and discourages guilt about being relatively safe. It links personal orientation to a wish to help others.",
+      "position": "publisher-attributed Creators address",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed prompt; not a literal dialogue question",
+      "question": "How should a relatively secure person respond to widespread suffering or chaos?",
+      "answer": "The opening suggests appreciation, asking how to help and maintaining inner peace rather than adopting guilt or distress as the only form of solidarity.",
+      "family": "cooperation_and_ethics",
+      "scope": "opening250words only; researcher comparison prompt"
+    },
+    {
+      "sourceId": "paul-birmingham-pdf",
+      "codes": {
+        "ontology_consciousness_dimensions": [
+          "full_text"
+        ],
+        "belief_reality_agency": [
+          "full_text"
+        ],
+        "emotion_fear_selfworth": [
+          "full_text"
+        ],
+        "relationships_collective_ethics": [
+          "full_text"
+        ],
+        "practice_enthusiasm_alignment": [
+          "full_text"
+        ]
+      },
+      "synthesis": "The complete four-page extraction develops a divine-identity account, a distinction between inherited convention and enduring truth, and a bodily gesture tied to spiritual alignment. It includes publisher-marked sound losses and uses rhetorical questions rather than a separate interview exchange.",
+      "position": "publisher spiritual-Guides transcript; comparison source, not biological ET testimony",
+      "qaKind": "authored_comparison_prompt",
+      "questionForm": "analyst-constructed comparison prompt informed by rhetorical questions",
+      "question": "How does this transcript propose moving beyond fear-based inherited identity?",
+      "answer": "It recommends recognition of a divine identity, willingness to reconsider inherited agreements, inclusive recognition of others and an embodied gesture. These are spiritual teachings in a publisher transcript, not validated physiological or extraterrestrial findings.",
+      "family": "meaning_and_identity",
+      "scope": "full retained four-page text extraction; underlying audio has marked losses"
+    }
+  ]
+}
