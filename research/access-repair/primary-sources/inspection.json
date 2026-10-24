@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-24T00:05:56.992467+00:00",
+  "status": "PASS",
+  "checks": 12,
+  "failures": [],
+  "inspection_script_sha256": "ab4120c5ea9bac3402d675e30247d37a0be7ca8564c9c74946f7949d1dfb5a96",
+  "metadata_sha256": "8e5c2d86a0d34a911b22d0eeff95c289cc5ace4b7ec7da2cec82320289c749e7",
+  "network_requests_by_inspection": 0,
+  "daniel_message": {
+    "title": "Ancient Arcturian Practices ∞The 9D Arcturian Council",
+    "guid": "https://danielscranton.com/?p=385080",
+    "publication_timestamp": "Thu, 22 Oct 2026 11:01:44 +0000",
+    "private_text_path": "/workspace/channels-et-raw/primary-publications/daniel-arcturian-published-message.txt",
+    "bytes": 3905,
+    "sha256": "5375b970c385ab76c9c95f4d3792eafe8b1dc50604d8b9ec67001c841c368784",
+    "word_count": 699,
+    "extraction_rule": "Unique author-published opening and closing quotation boundaries, selected by assistant inspection of the retained RSS text; marketing/title/footer excluded.",
+    "source_response_sha256": "fa45b678c00d729e1060805acfbeaf30f3fbda9cf870fa3ba2942ebae0991e16",
+    "scope": "author-published attributed message; not verified audiovisual transcription",
+    "accuracy_or_entity_origin_verified": false
+  },
+  "paul_transcript_lead": {
+    "official_page_url": "https://paulselig.com/video-transcript-birmingham-2017/",
+    "explicit_pdf_url": "https://s3.us-east-2.amazonaws.com/pstranscripts/The+Expression+of+the+True+Self.pdf",
+    "pdf_followed": false,
+    "full_transcript_acquired": false,
+    "page_content_scope": "Official catalog page includes a duplicated short excerpt and boilerplate; its 550-word rendered page count is not a transcript length.",
+    "explicit_session_date": "2017-07-15",
+    "source_frame": "spiritual mediumship comparison; not recoded as biological ET"
+  },
+  "athina_podcast_lead": {
+    "official_page_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+    "explicit_rss_url": "https://feed.podbean.com/athinakrol/feed.xml",
+    "feed_followed": false,
+    "audio_acquired": false,
+    "explicit_episode_title": "Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades",
+    "explicit_publication_date": "2023-02-06",
+    "displayed_duration_minutes": 28,
+    "page_content_scope": "Creator episode description and show/marketing text; not a full spoken transcript."
+  },
+  "interpretation_limits": [
+    "Three independently published source-page/RSS requests succeeded; this does not demonstrate YouTube access.",
+    "No audio/video acquisition, new study cohort or redistribution license is established.",
+    "Full source responses and extracted text remain outside Git and public hosting."
+  ],
+  "all_checks": [
+    {
+      "check": "daniel-feed response hash and size",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed text hash and size",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham response hash and size",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham text hash and size",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar response hash and size",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar text hash and size",
+      "passed": true
+    },
+    {
+      "check": "unique explicit publisher message quote boundaries",
+      "passed": true
+    },
+    {
+      "check": "official Paul page explicitly links named transcript PDF",
+      "passed": true
+    },
+    {
+      "check": "Paul session date and place explicit in actual fetched text",
+      "passed": true
+    },
+    {
+      "check": "Athina actual creator page explicitly declares the publisher RSS URL",
+      "passed": true
+    },
+    {
+      "check": "Athina exact episode title/date/duration present in actual fetched text",
+      "passed": true
+    },
+    {
+      "check": "frozen nineteen-episode publisher summary unchanged",
+      "passed": true
+    }
+  ]
+}

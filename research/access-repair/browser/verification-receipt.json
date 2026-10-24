@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-24T00:09:25.957Z",
+  "mode": "verify",
+  "browserVersion": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "profileOutsideRepository": true,
+  "proxySource": "HTTPS_PROXY",
+  "inheritedProxyUsed": true,
+  "ignoreHTTPSErrors": false,
+  "browserArgs": [
+    "--no-sandbox"
+  ],
+  "youtubeRequests": 0,
+  "controls": [
+    {
+      "id": "github_pages",
+      "requestedUrl": "https://occult-kranti.github.io/channels-ET/dist/research/#harvest",
+      "responseObserved": true,
+      "status": 200,
+      "finalUrl": "https://occult-kranti.github.io/channels-ET/dist/research/",
+      "contentType": "text/html; charset=utf-8",
+      "tls": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "occult-kranti.github.io",
+        "validFrom": 1792800429,
+        "validTo": 1824336489
+      },
+      "pageTitle": "Acquisition & downloads — Channels ET",
+      "route": "#harvest",
+      "mainVisible": true,
+      "headings": [
+        "Acquisition & downloads",
+        "Saved original publisher audio",
+        "Automatic audio transcription",
+        "Indexed source material",
+        "Attempted operations and queue state",
+        "Channel and account-route inventory",
+        "Inspect download and enumeration jobs",
+        "YouTube worker artifact ledger",
+        "YouTube worker failures and next actions",
+        "Download the inventory and operation manifests"
+      ],
+      "harvestModuleLoaded": true,
+      "tlsVerifiedResponse": true
+    },
+    {
+      "id": "publisher_rss",
+      "requestedUrl": "https://feeds.captivate.fm/impossible-dreams-with-aaron-lazar/",
+      "responseObserved": true,
+      "status": 200,
+      "finalUrl": "https://feeds.captivate.fm/impossible-dreams-with-aaron-lazar/",
+      "contentType": "application/xml",
+      "tls": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "feeds.captivate.fm",
+        "validFrom": 1792800459,
+        "validTo": 1824336519
+      },
+      "tlsVerifiedResponse": true
+    }
+  ],
+  "certificateManager": {
+    "trustedCaVisible": true,
+    "trustedCategory": "Installed by you / Trusted Certificates"
+  },
+  "unrelatedCertificateControl": {
+    "id": "unrelated_self_signed_localhost",
+    "expected": "certificate rejection",
+    "imported": false,
+    "navigationError": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://127.0.0.1:34101/",
+    "httpRequestsReachedFixture": 0,
+    "passed": true,
+    "context": "separate local-only context, same CA profile",
+    "proxyBypass": "127.0.0.1 only",
+    "externalNavigations": 0,
+    "checkedAt": "2026-10-24T00:10:11.564Z"
+  },
+  "passed": true
+}

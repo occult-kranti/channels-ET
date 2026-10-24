@@ -1,0 +1,422 @@
+{
+  "scope": "Dated access-repair UI supplement; browser checks perform no collection",
+  "checkedAt": "2026-10-24T00:15:30.277Z",
+  "checks": [
+    "UI source exactly bound: watchProbe",
+    "UI source exactly bound: proxyResponse",
+    "UI source exactly bound: browser",
+    "UI source exactly bound: primarySources",
+    "UI source exactly bound: athinaPublisher",
+    "UI source exactly bound: athinaExecution",
+    "UI source exactly bound: athinaAsr",
+    "Original audio and ASR cohort remains19/19",
+    "YouTube worker attempts and saved artifacts remain zero",
+    "Daniel counts use15 full rendered publisher RSS items",
+    "Paul PDF uses four pages and2577 extracted words",
+    "Separate Athina audio has actual bytes/duration",
+    "Separate Athina ASR joins exact sourceID/audioSHA/enclosure",
+    "Athina machine ASR totals and full-audio scope match receipt",
+    "Athina execution binds exact completed receipt bytes",
+    "Unresolved destination denial is distinct from successful browser controls",
+    "Frozen scientific branch still matches source: analysis",
+    "Frozen scientific branch still matches source: models",
+    "Frozen scientific branch still matches source: predictions",
+    "Frozen scientific paper bytes unchanged",
+    "Exactly seven explicit metadata-only follow-up downloads",
+    "Project-prefix entry preserves acquisition route",
+    "Source/unit statement visible: 24 October",
+    "Source/unit statement visible: HTTP 403",
+    "Source/unit statement visible: Envoy",
+    "Source/unit statement visible: zero worker attempts",
+    "Source/unit statement visible: 15 posts",
+    "Source/unit statement visible: 10,998 rendered words",
+    "Source/unit statement visible: 4 pages",
+    "Source/unit statement visible: 2,577 extracted words",
+    "Source/unit statement visible: 26,928,318 bytes",
+    "Source/unit statement visible: 3,394 ASR words",
+    "Source/unit statement visible: 259 segments",
+    "Paul is explicitly a spiritual comparison source",
+    "Original cohort boundary explicit at new section",
+    "Daniel source inspector keyboard operable",
+    "All15 publisher post metadata rows inspectable",
+    "Native publisher title retained",
+    "Native post points to original publisher URL",
+    "Paul source PDF checksum visible",
+    "Athina audio checksum visible",
+    "Athina ASR lacks human validation, explicitly",
+    "All seven follow-up metadata downloads discoverable in Acquisition view",
+    "Expanded metadata has no desktop page overflow",
+    "Expanded metadata has no390px page overflow",
+    "Expanded metadata fits200percent CSSzoom",
+    "Download HTTP200: access-repair-watch-probe.json",
+    "Download bytes/hash match label: access-repair-watch-probe.json",
+    "Download equals retained source: access-repair-watch-probe.json",
+    "Download HTTP200: access-repair-proxy-response.json",
+    "Download bytes/hash match label: access-repair-proxy-response.json",
+    "Download equals retained source: access-repair-proxy-response.json",
+    "Download HTTP200: access-repair-browser-verification.json",
+    "Download bytes/hash match label: access-repair-browser-verification.json",
+    "Download equals retained source: access-repair-browser-verification.json",
+    "Download HTTP200: access-repair-primary-sources.json",
+    "Download bytes/hash match label: access-repair-primary-sources.json",
+    "Download equals retained source: access-repair-primary-sources.json",
+    "Download HTTP200: access-repair-athina-audio.json",
+    "Download bytes/hash match label: access-repair-athina-audio.json",
+    "Download equals retained source: access-repair-athina-audio.json",
+    "Download HTTP200: access-repair-athina-asr-execution.json",
+    "Download bytes/hash match label: access-repair-athina-asr-execution.json",
+    "Download equals retained source: access-repair-athina-asr-execution.json",
+    "Download HTTP200: access-repair-athina-asr.json",
+    "Download bytes/hash match label: access-repair-athina-asr.json",
+    "Download equals retained source: access-repair-athina-asr.json",
+    "Download HTTP200: harvest-summary.json",
+    "Download bytes/hash match label: harvest-summary.json",
+    "Download equals retained source: harvest-summary.json",
+    "Download HTTP200: harvest-jobs.json",
+    "Download bytes/hash match label: harvest-jobs.json",
+    "Download equals retained source: harvest-jobs.json",
+    "Download HTTP200: harvest-attempts.json",
+    "Download bytes/hash match label: harvest-attempts.json",
+    "Download equals retained source: harvest-attempts.json",
+    "Download HTTP200: harvest-artifacts.json",
+    "Download bytes/hash match label: harvest-artifacts.json",
+    "Download equals retained source: harvest-artifacts.json",
+    "Download HTTP200: harvest-inventory-summary.json",
+    "Download bytes/hash match label: harvest-inventory-summary.json",
+    "Download equals retained source: harvest-inventory-summary.json",
+    "Download HTTP200: harvest-video-inventory.jsonl",
+    "Download bytes/hash match label: harvest-video-inventory.jsonl",
+    "Download equals retained source: harvest-video-inventory.jsonl",
+    "Download HTTP200: harvest-channel-routes.json",
+    "Download bytes/hash match label: harvest-channel-routes.json",
+    "Download equals retained source: harvest-channel-routes.json",
+    "Download HTTP200: harvest-source-edges.jsonl",
+    "Download bytes/hash match label: harvest-source-edges.jsonl",
+    "Download equals retained source: harvest-source-edges.jsonl",
+    "Download HTTP200: harvest-query-inventory.jsonl",
+    "Download bytes/hash match label: harvest-query-inventory.jsonl",
+    "Download equals retained source: harvest-query-inventory.jsonl",
+    "Download HTTP200: harvest-inventory.sqlite",
+    "Download bytes/hash match label: harvest-inventory.sqlite",
+    "Download equals retained source: harvest-inventory.sqlite",
+    "Download HTTP200: harvest-root-access-probe.json",
+    "Download bytes/hash match label: harvest-root-access-probe.json",
+    "Download equals retained source: harvest-root-access-probe.json",
+    "Download HTTP200: harvest-publisher-audio.json",
+    "Download bytes/hash match label: harvest-publisher-audio.json",
+    "Download equals retained source: harvest-publisher-audio.json",
+    "Download HTTP200: harvest-asr-summary.json",
+    "Download bytes/hash match label: harvest-asr-summary.json",
+    "Download equals retained source: harvest-asr-summary.json",
+    "Download HTTP200: harvest-acquisition-report.md",
+    "Download bytes/hash match label: harvest-acquisition-report.md",
+    "Download equals retained source: harvest-acquisition-report.md",
+    "Download HTTP200: analysis-results.json",
+    "Download bytes/hash match label: analysis-results.json",
+    "Download equals retained source: analysis-results.json",
+    "Download HTTP200: model-results.json",
+    "Download bytes/hash match label: model-results.json",
+    "Download equals retained source: model-results.json",
+    "Download HTTP200: training-receipt.json",
+    "Download bytes/hash match label: training-receipt.json",
+    "Download equals retained source: training-receipt.json",
+    "Download HTTP200: predictions.json",
+    "Download bytes/hash match label: predictions.json",
+    "Download equals retained source: predictions.json",
+    "Download HTTP200: qwen-digest-lora-pilot.zip",
+    "Download bytes/hash match label: qwen-digest-lora-pilot.zip",
+    "Download equals retained source: qwen-digest-lora-pilot.zip",
+    "Download HTTP200: posthoc-diagnostics.json",
+    "Download bytes/hash match label: posthoc-diagnostics.json",
+    "Download equals retained source: posthoc-diagnostics.json",
+    "Download HTTP200: content-label-results.json",
+    "Download bytes/hash match label: content-label-results.json",
+    "Download equals retained source: content-label-results.json",
+    "Download HTTP200: content-label-predictions.json",
+    "Download bytes/hash match label: content-label-predictions.json",
+    "Download equals retained source: content-label-predictions.json",
+    "Download HTTP200: current-family-smoke.json",
+    "Download bytes/hash match label: current-family-smoke.json",
+    "Download equals retained source: current-family-smoke.json",
+    "Download HTTP200: length-audit.json",
+    "Download bytes/hash match label: length-audit.json",
+    "Download equals retained source: length-audit.json",
+    "Download HTTP200: option-order-results.json",
+    "Download bytes/hash match label: option-order-results.json",
+    "Download equals retained source: option-order-results.json",
+    "Download HTTP200: option-order-protocol.json",
+    "Download bytes/hash match label: option-order-protocol.json",
+    "Download equals retained source: option-order-protocol.json",
+    "Download HTTP200: option-order-predictions.json",
+    "Download bytes/hash match label: option-order-predictions.json",
+    "Download equals retained source: option-order-predictions.json",
+    "Download HTTP200: annotation-comparison.json",
+    "Download bytes/hash match label: annotation-comparison.json",
+    "Download equals retained source: annotation-comparison.json",
+    "Download HTTP200: conditional-lexicon-sensitivity.json",
+    "Download bytes/hash match label: conditional-lexicon-sensitivity.json",
+    "Download equals retained source: conditional-lexicon-sensitivity.json",
+    "Download HTTP200: qwen35-content-label-results.json",
+    "Download bytes/hash match label: qwen35-content-label-results.json",
+    "Download equals retained source: qwen35-content-label-results.json",
+    "Download HTTP200: qwen35-content-label-predictions.json",
+    "Download bytes/hash match label: qwen35-content-label-predictions.json",
+    "Download equals retained source: qwen35-content-label-predictions.json",
+    "Download HTTP200: qwen35-content-label-protocol.json",
+    "Download bytes/hash match label: qwen35-content-label-protocol.json",
+    "Download equals retained source: qwen35-content-label-protocol.json",
+    "Download HTTP200: hardware.json",
+    "Download bytes/hash match label: hardware.json",
+    "Download equals retained source: hardware.json",
+    "Download HTTP200: model-protocol.json",
+    "Download bytes/hash match label: model-protocol.json",
+    "Download equals retained source: model-protocol.json",
+    "Download HTTP200: model-split.json",
+    "Download bytes/hash match label: model-split.json",
+    "Download equals retained source: model-split.json",
+    "Download HTTP200: model-metadata.json",
+    "Download bytes/hash match label: model-metadata.json",
+    "Download equals retained source: model-metadata.json",
+    "Download HTTP200: acquisition-summary.json",
+    "Download bytes/hash match label: acquisition-summary.json",
+    "Download equals retained source: acquisition-summary.json",
+    "Download HTTP200: corpus-index.sqlite",
+    "Download bytes/hash match label: corpus-index.sqlite",
+    "Download equals retained source: corpus-index.sqlite",
+    "Download HTTP200: qa-candidates.sqlite",
+    "Download bytes/hash match label: qa-candidates.sqlite",
+    "Download equals retained source: qa-candidates.sqlite",
+    "Download HTTP200: qa-summary.json",
+    "Download bytes/hash match label: qa-summary.json",
+    "Download equals retained source: qa-summary.json",
+    "Download HTTP200: paper.pdf",
+    "Download bytes/hash match label: paper.pdf",
+    "Download equals retained source: paper.pdf",
+    "Download HTTP200: source.zip",
+    "Download bytes/hash match label: source.zip",
+    "Download equals retained source: source.zip",
+    "No browser runtime errors"
+  ],
+  "errors": [],
+  "artifacts": {
+    "access-repair-watch-probe.json": {
+      "bytes": 696,
+      "sha256": "d024596a34bc6cd83d920c74149e90cf44d62079f56d285c2a794047d630ea7d"
+    },
+    "access-repair-proxy-response.json": {
+      "bytes": 808,
+      "sha256": "81922e2c4c05ca3d3f7c037cb8ca7b2e2b97ca911f00b5f83ce9a91848fa0a5f"
+    },
+    "access-repair-browser-verification.json": {
+      "bytes": 2721,
+      "sha256": "ee0086bf1cc2ce616114cf352f126950caff97b4ca9ae38b99b3c66ec4c448b1"
+    },
+    "access-repair-primary-sources.json": {
+      "bytes": 23167,
+      "sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca"
+    },
+    "access-repair-athina-audio.json": {
+      "bytes": 6348,
+      "sha256": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370"
+    },
+    "access-repair-athina-asr-execution.json": {
+      "bytes": 1242,
+      "sha256": "a44512198d700ff515b41a452c1dba71403e247da42a5740a37054cf36197b63"
+    },
+    "access-repair-athina-asr.json": {
+      "bytes": 3576,
+      "sha256": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7"
+    },
+    "harvest-summary.json": {
+      "bytes": 2128,
+      "sha256": "ed47dafb60e785f2e7bf89e8990bd806600cb36f575c7ab547797f7f06a61016"
+    },
+    "harvest-jobs.json": {
+      "bytes": 8282097,
+      "sha256": "f5c11198878978b1e1819d0fa76871cce1ccd5da721ade7e688154962ba9d47e"
+    },
+    "harvest-attempts.json": {
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    "harvest-artifacts.json": {
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    },
+    "harvest-inventory-summary.json": {
+      "bytes": 5312,
+      "sha256": "54fe70bbb90ffd0108c1c054881de24ec7dbffc2b8dfcc46976802dd28a66916"
+    },
+    "harvest-video-inventory.jsonl": {
+      "bytes": 2599443,
+      "sha256": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d"
+    },
+    "harvest-channel-routes.json": {
+      "bytes": 775403,
+      "sha256": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee"
+    },
+    "harvest-source-edges.jsonl": {
+      "bytes": 1342069,
+      "sha256": "8c36d0edc2bee6c781ffe70b44f9fef9a8b7baff9fb44c04a0c422e67dd9f383"
+    },
+    "harvest-query-inventory.jsonl": {
+      "bytes": 240925,
+      "sha256": "85d5ec45ad2216d6d43a026c1bb0881ebd1b52a8e1eb7d4142184ab9005a7a71"
+    },
+    "harvest-inventory.sqlite": {
+      "bytes": 7462912,
+      "sha256": "0b8f4a97ed77eebf61cbc6b8df4ad2761d96f3c4322edfc5a71665baade529d2"
+    },
+    "harvest-root-access-probe.json": {
+      "bytes": 771,
+      "sha256": "b645cb2f56cdcde8443a7cbbde5cc0fcfa4feeb14aea0684602b5cd38d2d15ff"
+    },
+    "harvest-publisher-audio.json": {
+      "bytes": 106794,
+      "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+    },
+    "harvest-asr-summary.json": {
+      "bytes": 80379,
+      "sha256": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba"
+    },
+    "harvest-acquisition-report.md": {
+      "bytes": 9872,
+      "sha256": "4eb8014f633cdd85aad7fd36a094dd610f408e7e40f5f15ee6318d331a5e3400"
+    },
+    "analysis-results.json": {
+      "bytes": 244716,
+      "sha256": "14992d2f820d6cf3bf06af73fbf9b8716002cd8e4c5d34c8bc0a8d18827ac0dd"
+    },
+    "model-results.json": {
+      "bytes": 6396,
+      "sha256": "764e5ac964dca0f9a7186d0a9c2e2f8e204f306dd881d5c290dc07c149b51c8f"
+    },
+    "training-receipt.json": {
+      "bytes": 8809,
+      "sha256": "cc84244074e1316c4a83ddf21a69ca8e2058b2cd3db7a39e0bfe3ad0b2174e8e"
+    },
+    "predictions.json": {
+      "bytes": 66483,
+      "sha256": "8f9a76e05b494bf59fb689d4b3f59b8149085d8b4207a665f7458b7fc84b5db5"
+    },
+    "qwen-digest-lora-pilot.zip": {
+      "bytes": 1018863,
+      "sha256": "19bd5b720446af07603390e276baebfb0010fb4df7971199262cae64fd7adb0c"
+    },
+    "posthoc-diagnostics.json": {
+      "bytes": 7475,
+      "sha256": "e3fbae2fe881c6c6c6fd59f9a09283fe71e3f2acb50a3b7d703a90e503257619"
+    },
+    "content-label-results.json": {
+      "bytes": 1695,
+      "sha256": "10942ead1e9f965ce6ac9ee63c66fcc72ac0788e3f33a78d7e80105f1da7fe27"
+    },
+    "content-label-predictions.json": {
+      "bytes": 15071,
+      "sha256": "b7bc84fc4d4ae958ee820e750c9e5d8aaf628a52ee951433b81b1c78942878c9"
+    },
+    "current-family-smoke.json": {
+      "bytes": 2197,
+      "sha256": "4a2a9d1a8865993d8cc3133f487fb0fe7512510130ac245b89b5c339f54ffd83"
+    },
+    "length-audit.json": {
+      "bytes": 9284,
+      "sha256": "3a27e393c16c323b5f4561a9c0645ea84fd84f32fb0006b1a89a71fb60b7de31"
+    },
+    "option-order-results.json": {
+      "bytes": 1217,
+      "sha256": "8689dbca906ec3462a3cbe62d15dcfab7004b147cfc14bc026bd80826598f792"
+    },
+    "option-order-protocol.json": {
+      "bytes": 2182,
+      "sha256": "08414f30d1e63b3ef45f4b2669f82b6455bca4858662a1df3e9dfa5ce5162292"
+    },
+    "option-order-predictions.json": {
+      "bytes": 15529,
+      "sha256": "af2942b3f2ca7d2a696998a94d220bb3a1f2ae834652487174024f065e43f417"
+    },
+    "annotation-comparison.json": {
+      "bytes": 3889,
+      "sha256": "afd918b97c9144369dbf6bb9dc48f0fda11865d8d249690d919f3964093fa5e2"
+    },
+    "conditional-lexicon-sensitivity.json": {
+      "bytes": 1915,
+      "sha256": "5dba4b6e966ce65fcfe90adb1ebfd0041984cc2ffdce3b6e5b7192e2e7a95f55"
+    },
+    "qwen35-content-label-results.json": {
+      "bytes": 1437,
+      "sha256": "77a98ae34d784272ff131dece9317ef814e98a46077e5b844e679d20bd88f0e2"
+    },
+    "qwen35-content-label-predictions.json": {
+      "bytes": 16946,
+      "sha256": "86c0745d272bd333fb6d24f06fb0b368955750d52182d18eee107b07f02d61e0"
+    },
+    "qwen35-content-label-protocol.json": {
+      "bytes": 1924,
+      "sha256": "06278afc354e3b6f36c2c28cd9c74da76d7580a0502815ea1fa2332d3d091dba"
+    },
+    "hardware.json": {
+      "bytes": 328,
+      "sha256": "59e51e2417fb09de6e55b3e17c98cb41f58f8ffbb21146c8408f0619274d0f38"
+    },
+    "model-protocol.json": {
+      "bytes": 2537,
+      "sha256": "96620d504422d7d5f538e618915adf45edb8965ab7e8d6107cb35c5308b1290f"
+    },
+    "model-split.json": {
+      "bytes": 88879,
+      "sha256": "1871ef8ca44c2c289eee68907f53f47b0d731e4bf45edaa2c05e20a411694a4e"
+    },
+    "model-metadata.json": {
+      "bytes": 9557,
+      "sha256": "320bbebfa5433f1580077bf07c7939c51a4f16efe7e3ed53a26083c68246266a"
+    },
+    "acquisition-summary.json": {
+      "bytes": 83109,
+      "sha256": "c52dc7b054748dee6f804f75ee12cfc5fd26af2b2a50d9255966ab1109a74e00"
+    },
+    "corpus-index.sqlite": {
+      "bytes": 593920,
+      "sha256": "5ab054df3c6cbc333fb17297f2635cabb355d859c34ef23794c264210c7de05e"
+    },
+    "qa-candidates.sqlite": {
+      "bytes": 925696,
+      "sha256": "0633abfe399dfcfa1d7f524710cddaa015fdf588e5240e8ffb9c81eeab39d2a5"
+    },
+    "qa-summary.json": {
+      "bytes": 245622,
+      "sha256": "f45b1f6840bd5d581ebd492144eb70b9e88bf805ec91156569fcf6542f1bb100"
+    },
+    "paper.pdf": {
+      "bytes": 397048,
+      "sha256": "590460ca284cd1a3de98eefff71a5dbb2bbdf76296f8b2a868fba3a9d7e00cda"
+    },
+    "source.zip": {
+      "bytes": 296455,
+      "sha256": "497f8a05bc3fde86cff3c2d86a630711fbdc9068062c49cbbfab14ad12b12326"
+    },
+    "data.json": {
+      "bytes": 3177574,
+      "sha256": "87d098985ad11959ecc23f8d9607e7fa9b127f22cca9671ef7238282a7cdcaa7"
+    },
+    "harvest.js": {
+      "bytes": 38082,
+      "sha256": "cd515392e0b8dbbb230bf1d276c620f5a3e3bf835e15317d6711642c75049ab1"
+    },
+    "app.js": {
+      "bytes": 50695,
+      "sha256": "8e5da01e9d45e1b7a3ef533a493a8f58c4707015585b1183bb1c0924fcb65267"
+    },
+    "index.html": {
+      "bytes": 1809,
+      "sha256": "fe31d89cdee97257f47f7419d51814eb66ee4138edea7299cfb60505649281c9"
+    },
+    "styles.css": {
+      "bytes": 9850,
+      "sha256": "40b13762e962284c7988700d59e8ec5d9fe5d8c79493b10851cb9455cabd6bba"
+    }
+  },
+  "externalRequestsBlocked": 0,
+  "status": "PASS",
+  "completedAt": "2026-10-24T00:15:32.197Z"
+}

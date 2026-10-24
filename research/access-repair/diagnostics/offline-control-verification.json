@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-24T00:22:57.721430+00:00",
+  "status": "PASS_offline_diagnostic_controls",
+  "scriptSha256": "977a79a5ebbce6b5d72dbf40a85ee9badd5f6d95786684e8cb7fc91e169fec15",
+  "offlineInspectionNetworkRequests": 0,
+  "sameRevisionDenialGuardExitCode": 2,
+  "sameRevisionDenialGuardNetworkRequests": 0,
+  "guardOutputCreated": false,
+  "scope": "Default inspection and same-revision early-denial control; not a successful source-access test.",
+  "successfulFixtureWorkerGateCompatible": true,
+  "successfulFixtureNetworkRequests": 0,
+  "httpsRedirectGuardVerified": true,
+  "finalHttpAndWrongVideoFixturesRejectedByWorkerGate": true,
+  "allIntegrationFixturesNetworkRequests": 0
+}

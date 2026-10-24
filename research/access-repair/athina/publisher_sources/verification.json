@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "checks": 23,
+  "failures": [],
+  "network_requests_by_verifier": 0,
+  "verifier_sha256": "c50da40228373fa22a8c3d39de7415bf50ef50f466525d8395c6f1b15a616861",
+  "plan_sha256": "fbdc074270ac626113f8870d832276fc983872054c255c67efe8d4a25b93409a",
+  "summary_sha256": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370",
+  "actual_audio_sha256": "310c6d538a438cee6ba4372e337184e8b96c9d9de385779f9dbf68bc4dec76cf",
+  "source_id": "athina-ashtar-20230206-5d144c22",
+  "bytes": 26928318,
+  "duration_seconds": 1682.99102,
+  "human_listening_or_speaker_validation": false,
+  "all_checks": [
+    {
+      "check": "module exact executed source/configuration pin",
+      "passed": true
+    },
+    {
+      "check": "wrapper exact executed source/configuration pin",
+      "passed": true
+    },
+    {
+      "check": "plan exact executed source/configuration pin",
+      "passed": true
+    },
+    {
+      "check": "explicit adapted configuration receipt binding",
+      "passed": true
+    },
+    {
+      "check": "publisher-summary.json execution receipt binding",
+      "passed": true
+    },
+    {
+      "check": "publisher-attempts.jsonl execution receipt binding",
+      "passed": true
+    },
+    {
+      "check": "one terminal completed publisher source",
+      "passed": true
+    },
+    {
+      "check": "one actual attempt and no hidden retry",
+      "passed": true
+    },
+    {
+      "check": "raw audio outside Git in isolated primary-audio directory",
+      "passed": true
+    },
+    {
+      "check": "actual local audio hash and size",
+      "passed": true
+    },
+    {
+      "check": "HTTP declared, received and RSS byte sizes agree",
+      "passed": true
+    },
+    {
+      "check": "independent ffprobe actual audio and finite retained duration",
+      "passed": true
+    },
+    {
+      "check": "RSS duration within unchanged audited tolerance",
+      "passed": true
+    },
+    {
+      "check": "explicit isolated 128-MiB cap respected",
+      "passed": true
+    },
+    {
+      "check": "shared raw budget/reserve/process lock retained",
+      "passed": true
+    },
+    {
+      "check": "audited methods retained and actual collector exited successfully",
+      "passed": true
+    },
+    {
+      "check": "held nineteen-source file unchanged: publisher-summary.json",
+      "passed": true
+    },
+    {
+      "check": "held nineteen-source file unchanged: publisher-attempts.jsonl",
+      "passed": true
+    },
+    {
+      "check": "held nineteen-source file unchanged: expanded-plan.json",
+      "passed": true
+    },
+    {
+      "check": "exact publisher RSS source-proof artifact still bound",
+      "passed": true
+    },
+    {
+      "check": "actual saved artifact retains exact source GUID",
+      "passed": true
+    },
+    {
+      "check": "fresh verified-TLS HTTP200 response",
+      "passed": true
+    },
+    {
+      "check": "publisher acquisition kept separate from YouTube and ASR",
+      "passed": true
+    }
+  ]
+}

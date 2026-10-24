@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T00:11:02.246425+00:00",
+  "plan_sha256": "fbdc074270ac626113f8870d832276fc983872054c255c67efe8d4a25b93409a",
+  "run_status": "completed",
+  "terminal": true,
+  "terminal_record_statuses": [
+    "completed",
+    "failed",
+    "blocked",
+    "quota_stopped",
+    "validation_mismatch"
+  ],
+  "source_kind": "independent_original_publisher_rss_audio",
+  "not_youtube_downloads": true,
+  "youtube_requests": 0,
+  "concurrency_limit": 2,
+  "per_file_cap_bytes": 134217728,
+  "free_space_reserve_bytes": 6442450944,
+  "total_raw_budget_bytes": 21474836480,
+  "shared_collection_lock": "/workspace/channels-et-raw/.collection-worker.lock",
+  "coordination": "Publisher run holds exclusive process lock; YouTube writers must use the same lock and remain paused until integration.",
+  "planned_jobs": 1,
+  "in_flight": [],
+  "completed_audio_files": 1,
+  "completed_audio_bytes": 26928318,
+  "completed_audio_seconds": 1682.99102,
+  "warning_audio_files": 0,
+  "records": [
+    {
+      "source_id": "athina-ashtar-20230206-5d144c22",
+      "source_kind": "independent_original_publisher_rss_audio",
+      "source_format": "creator_trance_channeling_episode_as_described_by_publisher",
+      "publisher_name": "Spirit Channel with Athina Kr\u00f3l",
+      "publisher_author": "Athina Krol",
+      "license_status": "No open redistribution license established; full source audio local-only.",
+      "feed_url": "https://feed.podbean.com/athinakrol/feed.xml",
+      "feed_sha256": "6fc78ebea0d810b9b9e7eacc098aaf287a6ec3eea60e6ba5c0b80fb573109064",
+      "feed_item_index": 191,
+      "episode_guid": "lightleaders.podbean.com/5d144c22-ae55-37bb-b83b-5edfb61e45db",
+      "episode_title": "Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth\u2019s Dimensional Upgrades",
+      "episode_publication_date": "Mon, 06 Feb 2023 12:29:30 +1100",
+      "enclosure_url": "https://mcdn.podbean.com/mf/web/ns6mfv/Meet_Your_Guides_Ashtar6v2vz.mp3",
+      "rss_enclosure_length_bytes": 26928318,
+      "rss_duration_seconds": 1682,
+      "source_proof": {
+        "path": "research/access-repair/primary-sources/expanded-metadata.json",
+        "sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca",
+        "json_pointer": "/athina/exact_episode_matches/0",
+        "identity_basis": "Exact indexed creator-episode URL, excluding trailing slash only",
+        "creator_episode_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+        "feed_explicitly_linked_by_creator_page": true
+      },
+      "original_index_edge": {
+        "source_path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+        "source_sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a",
+        "source_pointer": "/sources/34",
+        "source_id": "ar-athina-ashtar-2023",
+        "creator_episode_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+        "apple_url": "https://podcasts.apple.com/us/podcast/ashtar-live-channelling-the-3-phases-of-soul/id1517048412?i=1000598155837",
+        "youtube_url_as_indexed": null,
+        "youtube_edition_equivalence_verified": false
+      },
+      "source_audio_inspected_by_human": false,
+      "transcript_status": "not_transcribed",
+      "collector_module_sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864",
+      "adapter_script": "research/access-repair/athina/publisher_sources/acquire.py",
+      "execution_configuration": "research/access-repair/athina/publisher_sources/execution-config.json",
+      "started_at": "2026-10-24T00:11:00.803562+00:00",
+      "status": "completed",
+      "raw_local_path": "/workspace/channels-et-raw/primary-audio/athina-ashtar-20230206-5d144c22.mp3",
+      "tls_verified": true,
+      "proxy": "inherited_session_configuration",
+      "audio_rehosted_publicly": false,
+      "actual_speaker_status": "not_verified; host_guest_advertising_and_claimed_entity_turns_unsegmented",
+      "acquisition_plan_sha256": "fbdc074270ac626113f8870d832276fc983872054c255c67efe8d4a25b93409a",
+      "collector_sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864",
+      "http_status": 200,
+      "content_type": "audio/mpeg",
+      "resumed_from_bytes": 0,
+      "final_endpoint": {
+        "origin": "https://s380.podbean.com",
+        "url_without_query": "https://s380.podbean.com/",
+        "path_redacted": true,
+        "query_keys_only": [
+          "pbss"
+        ],
+        "reason": "CDN paths and queries may contain expiring authorization; retain origin only. Use original RSS enclosure URL."
+      },
+      "redirect_chain": [
+        {
+          "http_status": 302,
+          "origin": "https://s380.podbean.com",
+          "url_without_query": "https://s380.podbean.com/",
+          "path_redacted": true,
+          "query_keys_only": [
+            "pbss"
+          ],
+          "reason": "CDN paths and queries may contain expiring authorization; retain origin only. Use original RSS enclosure URL."
+        }
+      ],
+      "response_declared_remaining_bytes": 26928318,
+      "duration_seconds": 1682.99102,
+      "duration_delta_from_rss_seconds": 0.991019999999935,
+      "rss_duration_within_tolerance": true,
+      "bytes": 26928318,
+      "sha256": "310c6d538a438cee6ba4372e337184e8b96c9d9de385779f9dbf68bc4dec76cf",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "format_name": "mp3",
+          "duration": "1682.991020",
+          "size": "26928318"
+        }
+      },
+      "rss_size_matches_actual": true,
+      "finished_at": "2026-10-24T00:11:02.244951+00:00",
+      "elapsed_seconds": 1.441127
+    }
+  ],
+  "limitations": [
+    "Independent podcast editions are not automatically byte-equivalent to indexed YouTube uploads.",
+    "RSS identity and public availability do not grant an open redistribution license.",
+    "Raw media are local-only; generated ASR text requires separate validation."
+  ]
+}

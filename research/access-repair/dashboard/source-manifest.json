@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "status": "HOLD",
+  "repeatedBuildByteIdentical": true,
+  "files": {
+    "dist/research/data.json": {
+      "bytes": 3177574,
+      "sha256": "87d098985ad11959ecc23f8d9607e7fa9b127f22cca9671ef7238282a7cdcaa7"
+    },
+    "dist/research/harvest.js": {
+      "bytes": 38082,
+      "sha256": "cd515392e0b8dbbb230bf1d276c620f5a3e3bf835e15317d6711642c75049ab1"
+    },
+    "research/access-repair/dashboard/README.md": {
+      "bytes": 2715,
+      "sha256": "3033b90854e8fec294be4cc52edfb84c716864bd7077f7e60df60d54e5b8dcb0"
+    },
+    "research/access-repair/dashboard/athina-mobile.png": {
+      "bytes": 74857,
+      "sha256": "eeb0de8673f03ddc5944cd6f3dcaeb2979a33c80497b81047e66390449ba7b36"
+    },
+    "research/access-repair/dashboard/browser-verification.json": {
+      "bytes": 19599,
+      "sha256": "da2c4d38b8f558211a54a3349c7738f887fe5d12459d6799c087a2826cd08d97"
+    },
+    "research/access-repair/dashboard/check-browser.cjs": {
+      "bytes": 8666,
+      "sha256": "86322beed16e5451a8cb47e017663a82c80430680cfe04aefce9287fbbf3ebfe"
+    },
+    "research/access-repair/dashboard/follow-up-desktop.png": {
+      "bytes": 166258,
+      "sha256": "2034b9e3af35d220e83334f547eea3ad6a9d5d78960dffba7bcc130227174b45"
+    },
+    "research/access-repair/dashboard/follow-up-mobile.png": {
+      "bytes": 80220,
+      "sha256": "6de9af42d7c0dbe0c2c0ab4f61c5cb31714c407186a6d34153e735572d1e7a45"
+    },
+    "research/continuation/dashboard/build_dashboard.py": {
+      "bytes": 18162,
+      "sha256": "0e2d561fd6fe4f07c77ef4f145b5d90e5ece3624c6a2e4967eb01eb02f831cc7"
+    },
+    "research/harvest/dashboard/harvest.js": {
+      "bytes": 38082,
+      "sha256": "cd515392e0b8dbbb230bf1d276c620f5a3e3bf835e15317d6711642c75049ab1"
+    }
+  }
+}

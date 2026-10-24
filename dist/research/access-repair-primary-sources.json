@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-24T00:07:22.373198+00:00",
+  "collector_sha256": "9a3687e3c64b708d5b11550f511696e0bfc71d51b607664daad6c8d87213f517",
+  "original_fetch_metadata_sha256": "8e5c2d86a0d34a911b22d0eeff95c289cc5ace4b7ec7da2cec82320289c749e7",
+  "new_network_requests": 2,
+  "cumulative_publisher_network_requests": 5,
+  "youtube_requests": 0,
+  "audio_acquisitions": 0,
+  "fixed_nineteen_episode_study_changed": false,
+  "paul": {
+    "source_id": "paul-birmingham-pdf",
+    "requested_url": "https://s3.us-east-2.amazonaws.com/pstranscripts/The+Expression+of+the+True+Self.pdf",
+    "attempted_at": "2026-10-24T00:07:21.486984+00:00",
+    "source_link_provenance": {
+      "publisher_page_url": "https://paulselig.com/video-transcript-birmingham-2017/",
+      "publisher_page_sha256": "53621c3b8ee8b331830f637f45d4c3b7ab8f6b8095ffb3b3f87947c9c8d6724a",
+      "link_label": "DOWNLOAD TRANSCRIPT"
+    },
+    "proxy_configuration": "inherited_session_configuration",
+    "tls_certificate_verification_enabled": true,
+    "network_attempts": 1,
+    "retry": false,
+    "audio_or_video_edition_equivalence_verified": false,
+    "redistribution_license": "not_established",
+    "full_text_publicly_rehosted": false,
+    "status": "retrieved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://s3.us-east-2.amazonaws.com/pstranscripts/The+Expression+of+the+True+Self.pdf",
+    "response": {
+      "raw_local_path": "/workspace/channels-et-raw/primary-publications/paul-birmingham-pdf.pdf",
+      "bytes": 49941,
+      "sha256": "127b892eeb2d8ee13167035785cfca51de28a5b96746a1510163322e69cc780d"
+    },
+    "finished_at": "2026-10-24T00:07:21.684504+00:00",
+    "pdf_magic_verified": true,
+    "pages": 4,
+    "pdfinfo": {
+      "raw_local_path": "/workspace/channels-et-raw/primary-publications/paul-birmingham-pdf.pdfinfo.txt",
+      "bytes": 526,
+      "sha256": "6746e38f99fc224bd22c296cbaa4de3fabb3febad3df8a26040112ec4c7ebc4c"
+    },
+    "text": {
+      "raw_local_path": "/workspace/channels-et-raw/primary-publications/paul-birmingham-pdf.txt",
+      "bytes": 13720,
+      "sha256": "1793544f91f91033f4cddcedca0c9068771465f453a037aa6a477271486bb696",
+      "word_count": 2577
+    },
+    "title": "The Expression of the True Self",
+    "session_date": "2017-07-15",
+    "title_and_date_basis": "Explicit official publisher linking page; PDF text separately retained for inspection",
+    "source_kind": "publisher_issued_spiritual_Guides_transcript",
+    "scope": "Spiritual mediumship comparison source, not biological ET; publisher transcript has not been checked against the recording",
+    "human_transcription_or_speaker_accuracy_verified": false
+  },
+  "athina": {
+    "source_id": "athina-feed",
+    "requested_url": "https://feed.podbean.com/athinakrol/feed.xml",
+    "attempted_at": "2026-10-24T00:07:22.105159+00:00",
+    "source_link_provenance": {
+      "publisher_page_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+      "publisher_page_sha256": "70fc9755fb5aee7404d629ca8c0a49eb3f2488271c10152885bdd5284cbd63c7",
+      "link_relation": "Explicit application/rss+xml alternate link and visible same URL"
+    },
+    "proxy_configuration": "inherited_session_configuration",
+    "tls_certificate_verification_enabled": true,
+    "network_attempts": 1,
+    "retry": false,
+    "audio_or_video_edition_equivalence_verified": false,
+    "redistribution_license": "not_established",
+    "full_text_publicly_rehosted": false,
+    "status": "retrieved",
+    "http_status": 200,
+    "content_type": "text/xml",
+    "final_url": "https://feed.podbean.com/athinakrol/feed.xml",
+    "response": {
+      "raw_local_path": "/workspace/channels-et-raw/primary-publications/athina-feed.rss",
+      "bytes": 4798159,
+      "sha256": "6fc78ebea0d810b9b9e7eacc098aaf287a6ec3eea60e6ba5c0b80fb573109064"
+    },
+    "finished_at": "2026-10-24T00:07:22.317371+00:00",
+    "feed_title": "Spirit Channel with Athina Król",
+    "publisher_site": "https://spiritchannel.podbean.com",
+    "publisher_author": "Athina Krol",
+    "feed_item_count": 212,
+    "exact_episode_matches": [
+      {
+        "feed_item_index": 191,
+        "title": "Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades",
+        "guid": "lightleaders.podbean.com/5d144c22-ae55-37bb-b83b-5edfb61e45db",
+        "link": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+        "publication_timestamp": "Mon, 06 Feb 2023 12:29:30 +1100",
+        "duration_as_published": "1682",
+        "enclosure": {
+          "url": "https://mcdn.podbean.com/mf/web/ns6mfv/Meet_Your_Guides_Ashtar6v2vz.mp3",
+          "query_values_redacted": false,
+          "query_keys": [],
+          "type": "audio/mpeg",
+          "length_as_published": "26928318",
+          "requested": false
+        },
+        "match_method": "Exact indexed creator-episode URL, excluding trailing slash only"
+      }
+    ],
+    "unique_exact_episode_present": true,
+    "audio_acquired": false
+  },
+  "daniel": {
+    "source_feed_sha256": "fa45b678c00d729e1060805acfbeaf30f3fbda9cf870fa3ba2942ebae0991e16",
+    "source_feed_url": "https://danielscranton.com/feed/",
+    "new_network_requests": 0,
+    "items_extracted": 15,
+    "total_rendered_item_words": 10998,
+    "items": [
+      {
+        "item_index": 0,
+        "title": "Are You Ever Going to Go Home? ∞The Creators",
+        "guid": "https://danielscranton.com/?p=385119",
+        "url": "https://danielscranton.com/are-you-ever-going-to-go-home-%e2%88%9ethe-creators/",
+        "publication_timestamp": "Fri, 23 Oct 2026 10:45:40 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The Creators"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-00-6d905431e942.txt",
+          "bytes": 4639,
+          "sha256": "d2080abfb40262e61793f406052147856239827177cced572e1f6d58cab6256c",
+          "word_count": 854
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 1,
+        "title": "Ancient Arcturian Practices ∞The 9D Arcturian Council",
+        "guid": "https://danielscranton.com/?p=385080",
+        "url": "https://danielscranton.com/ancient-arcturian-practices-%e2%88%9ethe-9d-arcturian-council/",
+        "publication_timestamp": "Thu, 22 Oct 2026 11:01:44 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The 9th Dimensional Arcturian Council"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-01-09486489dc4e.txt",
+          "bytes": 4348,
+          "sha256": "e180fd9da8391c7c691c0e194bf8f07d9c0fd1566d615cbb0dd190b6d94d6de6",
+          "word_count": 763
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 2,
+        "title": "Buckle Up…You Are the Humans We’ve Been Waiting For ∞Ashanti: The ET/Human Hybrid",
+        "guid": "https://danielscranton.com/?p=385047",
+        "url": "https://danielscranton.com/buckle-upyou-are-the-humans-weve-been-waiting-for-%e2%88%9eashanti-the-et-human-hybrid/",
+        "publication_timestamp": "Wed, 21 Oct 2026 11:10:15 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Ashanti",
+          "Quote of the Day"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-02-d79c82e2b460.txt",
+          "bytes": 2844,
+          "sha256": "dc4717335705cd1c5bb049a0e2bd76d2f3373053f3099c866ec74b5eeabd3a92",
+          "word_count": 521
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 3,
+        "title": "We Will Keep Telling You this Until You Get It ∞The Creators",
+        "guid": "https://danielscranton.com/?p=384995",
+        "url": "https://danielscranton.com/we-will-keep-telling-you-this-until-you-get-it-%e2%88%9ethe-creators/",
+        "publication_timestamp": "Tue, 20 Oct 2026 11:27:04 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The Creators"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-03-31e5807bfb7d.txt",
+          "bytes": 4196,
+          "sha256": "1a7308ed9c3bba711224f82f19b3413e08692536b929182caae1b788503a41d5",
+          "word_count": 753
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 4,
+        "title": "This Has Never Been Seen Before on Earth ∞St. Germain",
+        "guid": "https://danielscranton.com/?p=384927",
+        "url": "https://danielscranton.com/this-has-never-been-seen-before-on-earth-%e2%88%9est-germain/",
+        "publication_timestamp": "Mon, 19 Oct 2026 10:53:59 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "St. Germain"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-04-3bf6a6a27c67.txt",
+          "bytes": 3694,
+          "sha256": "8a8e8f25b95186edf68d35a844295db1fb3c9cdad13b34a476ffeba69b83a3fc",
+          "word_count": 692
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 5,
+        "title": "Receive These Downloads & Our Guarantee ∞The 12D Creators",
+        "guid": "https://danielscranton.com/?p=384872",
+        "url": "https://danielscranton.com/receive-these-downloads-our-guarantee-%e2%88%9ethe-12d-creators/",
+        "publication_timestamp": "Sun, 18 Oct 2026 11:05:59 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The Creators"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-05-3d64eaf560ab.txt",
+          "bytes": 3639,
+          "sha256": "18a8e384519c78f7775c5e1c354be05af4c344cef406a4bfc4e1b96b40a6279a",
+          "word_count": 680
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 6,
+        "title": "This is So Important ∞Saint Germain",
+        "guid": "https://danielscranton.com/?p=384827",
+        "url": "https://danielscranton.com/this-is-so-important-%e2%88%9esaint-germain/",
+        "publication_timestamp": "Sat, 17 Oct 2026 11:18:20 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "St. Germain"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-06-cbe2fafc4c6e.txt",
+          "bytes": 3826,
+          "sha256": "6bd6c6fe0ef94410749136ec17f3d71aaa2fa317c74a8b9049dc5780a1fbb85d",
+          "word_count": 702
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 7,
+        "title": "A Call Coming from Arcturus ∞The 9th Dimensional Arcturian Council",
+        "guid": "https://danielscranton.com/?p=384728",
+        "url": "https://danielscranton.com/a-call-coming-from-arcturus-%e2%88%9ethe-9th-dimensional-arcturian-council/",
+        "publication_timestamp": "Fri, 16 Oct 2026 10:54:51 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The 9th Dimensional Arcturian Council"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-07-34647f360bc5.txt",
+          "bytes": 4538,
+          "sha256": "7ee067304a54316c149c6a62408b022126a3d338636d25f77d29572dac9133a9",
+          "word_count": 817
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 8,
+        "title": "Is All of Your Data Being Shared? ∞The 12D Creators",
+        "guid": "https://danielscranton.com/?p=384670",
+        "url": "https://danielscranton.com/is-all-of-your-data-being-shared-%e2%88%9ethe-12d-creators/",
+        "publication_timestamp": "Thu, 15 Oct 2026 11:14:09 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The Creators"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-08-5d2085fdbbc9.txt",
+          "bytes": 4087,
+          "sha256": "e5e78dd109f7745e8d7749796b893cc1a69f2a5776bc5910d5b29bd975318134",
+          "word_count": 734
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 9,
+        "title": "The Ascended Masters Invite You ∞Thymus: The Collective of Ascended Masters",
+        "guid": "https://danielscranton.com/?p=384640",
+        "url": "https://danielscranton.com/the-ascended-masters-invite-you-%e2%88%9ethymus-the-collective-of-ascended-masters-2/",
+        "publication_timestamp": "Wed, 14 Oct 2026 11:11:19 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "Thymus: The Collective of Ascended Masters"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-09-dc91eca0526f.txt",
+          "bytes": 3620,
+          "sha256": "292ec729c36a7c954398b46b01ec2ada854f2cb263a5232b73dc4b1d713b21f3",
+          "word_count": 647
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 10,
+        "title": "Claim the New Earth ∞The 9th Dimensional Arcturian Council",
+        "guid": "https://danielscranton.com/?p=384602",
+        "url": "https://danielscranton.com/claim-the-new-earth-%e2%88%9ethe-9th-dimensional-arcturian-council/",
+        "publication_timestamp": "Tue, 13 Oct 2026 11:06:50 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The 9th Dimensional Arcturian Council"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-10-a98c0a45d394.txt",
+          "bytes": 4320,
+          "sha256": "43f992d12bd6254a9cf2df8d8f81d8216778891fe724d4b8935951d0a9e88a1c",
+          "word_count": 805
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 11,
+        "title": "Welcome Back, Humans ∞Saint Germain",
+        "guid": "https://danielscranton.com/?p=384567",
+        "url": "https://danielscranton.com/welcome-back-humans-%e2%88%9esaint-germain/",
+        "publication_timestamp": "Mon, 12 Oct 2026 10:36:48 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "St. Germain"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-11-069735dca2c7.txt",
+          "bytes": 3959,
+          "sha256": "2a130dea4ee8f2faf9c1543ff6cca6d55a186520d4e18d22a2b5d567e5ef80e2",
+          "word_count": 755
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 12,
+        "title": "A Guarantee from The Creators ∞The 12D Creators",
+        "guid": "https://danielscranton.com/?p=384534",
+        "url": "https://danielscranton.com/a-guarantee-from-the-creators-%e2%88%9ethe-12d-creators/",
+        "publication_timestamp": "Sun, 11 Oct 2026 10:20:14 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The Creators"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-12-e15a4821702a.txt",
+          "bytes": 4098,
+          "sha256": "3b548634d06c7f4a859da5dfea8e0dbe1738bf6e0216b20eb395e22cf0e5f3c1",
+          "word_count": 755
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 13,
+        "title": "St. Germain Invites Us to Do This ∞Saint Germain",
+        "guid": "https://danielscranton.com/?p=384462",
+        "url": "https://danielscranton.com/st-germain-invites-us-to-do-this-%e2%88%9esaint-germain/",
+        "publication_timestamp": "Sat, 10 Oct 2026 11:03:28 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "St. Germain"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-13-97c65efd6db3.txt",
+          "bytes": 4098,
+          "sha256": "b5b033f8f009b0ec5f0bdad142d34f794944aabc6b0dc3cbbb1e4963b4749aa1",
+          "word_count": 752
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      },
+      {
+        "item_index": 14,
+        "title": "Live on a Very Different Planet Earth ∞The 12D Creators",
+        "guid": "https://danielscranton.com/?p=384390",
+        "url": "https://danielscranton.com/awaken-to-who-you-really-are-%e2%88%9ethe-12d-creators-2/",
+        "publication_timestamp": "Fri, 09 Oct 2026 10:22:35 +0000",
+        "creator": "Daniel Scranton",
+        "categories_as_published": [
+          "Quote of the Day",
+          "The Creators"
+        ],
+        "audio_enclosures": 0,
+        "text": {
+          "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-item-14-64785217c9eb.txt",
+          "bytes": 4169,
+          "sha256": "5c278b3a38018c34a28c1d8523eabe71d5ac663884844ec1403bf1de8c0ec957",
+          "word_count": 768
+        },
+        "promotion_terms_present_heuristic": true,
+        "rendered_text_mentions_video_heuristic": true,
+        "content_scope": "Full publisher RSS item rendered text includes any title, attributed message, promotions and footer; no semantic message separation or audiovisual alignment verified",
+        "entity_origin_or_transcription_accuracy_verified": false
+      }
+    ]
+  }
+}

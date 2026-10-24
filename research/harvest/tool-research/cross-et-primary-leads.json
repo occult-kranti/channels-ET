@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-24T00:03:22.621350+00:00",
+  "scope": "Local-only identification of at most three explicit original-publisher source leads outside the held nineteen Bashar-related podcast editions. No new network retrieval or study-frame expansion.",
+  "network_requests": 0,
+  "youtube_requests": 0,
+  "held_publisher_summary_sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3",
+  "leads": [
+    {
+      "lead_id": "cross-et-athina-ashtar-20230206",
+      "priority": 1,
+      "practitioner": "Athina Król",
+      "claimed_entity": "Ashtar",
+      "source_kind": "creator_podcast_episode_candidate",
+      "publisher": "Spirit Channel with Athina Król",
+      "episode_title": "Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades",
+      "publication_date": "2023-02-06",
+      "episode_number_as_indexed": 36,
+      "duration_as_indexed_minutes": 28,
+      "creator_episode_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+      "creator_show_url": "https://athinakrol.podbean.com/",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ashtar-live-channelling-the-3-phases-of-soul/id1517048412?i=1000598155837",
+      "apple_show_id": "1517048412",
+      "apple_episode_id": "1000598155837",
+      "source_pointers": [
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/34",
+          "source_id": "ar-athina-ashtar-2023",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/35",
+          "source_id": "ar-athina-apple-2023",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/37",
+          "source_id": "ar-athina-show",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        }
+      ],
+      "identity_basis": "Existing exact creator-hosted episode record plus matching Apple episode identifier/date, not a title-only search match.",
+      "retained_access_depth": "Prior record reports creator episode description and Apple metadata read; no local episode audio, enclosure URL or feed response established here.",
+      "next_bounded_step": "Read the existing creator episode page or Apple catalog record, follow its actual publisher RSS, then match this exact episode by GUID/date/title and publisher identity before proposing an enclosure acquisition.",
+      "limits": [
+        "Current availability and free complete enclosure remain to be verified.",
+        "Do not equate this 2023 podcast edition with any 2026 YouTube upload.",
+        "Publisher availability does not establish a redistribution license or entity identity."
+      ]
+    },
+    {
+      "lead_id": "cross-et-daniel-original-text-rss",
+      "priority": 2,
+      "practitioner": "Daniel Scranton",
+      "claimed_entity": "The 9D Arcturian Council",
+      "source_kind": "author_published_message_text",
+      "publisher": "Daniel Scranton",
+      "feed_url": "https://danielscranton.com/feed/",
+      "feed_title": "Daniel Scranton's Channeling",
+      "feed_site_url": "https://danielscranton.com/",
+      "retained_feed_item_count": 15,
+      "exact_example": {
+        "item_index": 1,
+        "title": "Ancient Arcturian Practices ∞The 9D Arcturian Council",
+        "publication_timestamp": "Thu, 22 Oct 2026 11:01:44 +0000",
+        "guid": "https://danielscranton.com/?p=385080",
+        "creator": "Daniel Scranton",
+        "url": "https://danielscranton.com/ancient-arcturian-practices-%e2%88%9ethe-9d-arcturian-council/",
+        "rss_enclosures": 0
+      },
+      "source_pointers": [
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/52",
+          "source_id": "lk-s06",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/53",
+          "source_id": "lk-s07",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/tool-research/fetch-publisher-leads.json",
+          "json_pointer": "/records/2",
+          "sha256": "d95c9f8558177bbdea52daf9561f377d788cbfd7a2e0d2c6b4ff278655d5d839"
+        },
+        {
+          "path": "research/harvest/tool-research/source-cache/daniel-feed",
+          "sha256": "fa45b678c00d729e1060805acfbeaf30f3fbda9cf870fa3ba2942ebae0991e16",
+          "ignored_raw_snapshot": true
+        }
+      ],
+      "identity_basis": "Exact same-domain official biography/homepage plus retained successful RSS response and same-domain site link, item GUID and dc:creator.",
+      "retained_access_depth": "Actual 2026-10-23 HTTP200 publisher RSS retained; XML fields independently re-inspected locally. Message is author-published text, not independently verified speech transcription.",
+      "next_bounded_step": "Extract bounded attributed message text and boilerplate separately from the already retained RSS, retaining exact item GUID/date and feed snapshot hash. No network is needed to inspect this existing snapshot.",
+      "limits": [
+        "The feed is textual; the exact inspected item has no audio enclosure.",
+        "The content includes page markup/marketing; do not count full content:encoded length as message word count.",
+        "No open redistribution license established; preserve raw body outside public source releases.",
+        "No YouTube edition equivalence or spoken-word accuracy established."
+      ]
+    },
+    {
+      "lead_id": "cross-medium-paul-birmingham-20170715",
+      "priority": 3,
+      "practitioner": "Paul Selig",
+      "claimed_entity": "The Guides",
+      "source_kind": "official_session_transcript_candidate",
+      "publisher": "Paul Selig",
+      "session_title": "The Expression of the True Self",
+      "session_date": "2017-07-15",
+      "session_place": "Birmingham, England",
+      "official_url": "https://paulselig.com/video-transcript-birmingham-2017/",
+      "source_pointers": [
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/128",
+          "source_id": "yt-g-s-paul-catalog",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/131",
+          "source_id": "yt-g-s-paul-birmingham",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        }
+      ],
+      "identity_basis": "Existing exact official-domain session record explicitly advertises free video and transcript and names the session/date/place.",
+      "retained_access_depth": "Prior official catalog record retained; full transcript body and any outbound transcript file have not been acquired or independently inspected by this task.",
+      "next_bounded_step": "Read this exact official page and follow only its actual transcript link/body; record publisher transcript edition and access/rights before extraction.",
+      "limits": [
+        "Spiritual mediumship comparison source; do not recode the Guides as biological ETs.",
+        "A dated session is not a dated video upload.",
+        "Any YouTube embed may remain inaccessible while separately published author transcript can be assessed independently.",
+        "No current full-body availability or open redistribution license established."
+      ]
+    }
+  ],
+  "not_selected_reasons": [
+    "L/L Research primary Ra/Q’uo transcripts have exact existing source pointers but documented direct403 access; no renewed request or mirror proposed.",
+    "Kryon prior homepage response contained only navigation and the earlier guessed audio path was404; no further guessed path lead asserted.",
+    "Alexandra’s official session pages identify exact publications, but existing record alone does not establish a distinct downloadable full transcript."
+  ],
+  "interpretation_limits": [
+    "These are independent original-publisher source leads, not evidence that the YouTube route is fixed.",
+    "No held nineteen-source summary, plan, audio or ASR output was changed.",
+    "No new source material has been added to the empirical study by this local-only inventory."
+  ]
+}

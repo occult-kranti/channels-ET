@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-24T00:11:25.127548+00:00",
+  "status": "completed",
+  "corePath": "research/harvest/asr/transcribe.py",
+  "coreSha256": "f42b8bcf2ad8f69238119c2da16022d310d99b0c02af40aa7214b9c054ee3a1a",
+  "adapterSha256": "0100c92bc628d77a670fc132ddb314a7f5fc40ccbf3aaa0893dd2f50e76fdc12",
+  "sourceId": "athina-ashtar-20230206-5d144c22",
+  "sourceLedgerSha256": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370",
+  "audioSha256": "310c6d538a438cee6ba4372e337184e8b96c9d9de385779f9dbf68bc4dec76cf",
+  "adaptedConstants": {
+    "HERE": "/workspace/channels-ET/research/access-repair/athina/asr"
+  },
+  "adaptationScope": "Isolated publisher ledger, public receipt directory and identical model manifest. Original decoder/settings/raw-output path are unchanged.",
+  "networkRequests": 0,
+  "originalNineteenCohortMutated": false,
+  "completedAt": "2026-10-24T00:11:49.950782+00:00",
+  "publicReceipt": "310c6d538a438cee6ba4-receipt.json",
+  "publicReceiptSha256": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7",
+  "segments": 259,
+  "words": 3394,
+  "sourceAudioDurationSeconds": 1682.99102,
+  "humanAccuracyValidated": false,
+  "youtubeEditionEquivalenceVerified": false
+}

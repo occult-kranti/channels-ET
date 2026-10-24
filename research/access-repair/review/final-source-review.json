@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-24T00:24:09.561799+00:00",
+  "status": "PASS_WITH_EXPLICIT_LIMITS",
+  "release_manifest": "research/access-repair/RELEASE.json",
+  "release_manifest_sha256": "045686c7668f08d86ab644ced58ce92f164b6600e9d666e71e23d7ceaa96773a",
+  "manifest_files_verified": 175,
+  "manifest_bytes_verified": 35667359,
+  "all_bound_files_regular_within_repository": true,
+  "manifest_hash_size_checks_passed": 175,
+  "staged_worktree_exact_comparisons_passed": 175,
+  "manifest_itself_matches_staged_blob": true,
+  "staged_changed_paths": 69,
+  "unbound_staged_paths": [],
+  "accepted_scope": "Browser trust repair and separately dated primary-publisher acquisition supplement; not a successful YouTube route repair or new scientific-paper result",
+  "original_nineteen_cohort_metadata_hashes_preserved": {
+    "research/harvest/publisher_sources/publisher-summary.json": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3",
+    "research/harvest/publisher_sources/publisher-attempts.jsonl": "fced53fb869e891f21f127f9b694d0cc53922166364c308df9cd1bf3ad15523c",
+    "research/harvest/publisher_sources/expanded-plan.json": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712",
+    "research/harvest/asr/summary.json": "d6fd855158ddf714b8b9125571d0814514f1fd3c3e630908c6cbad154ddb2aba"
+  },
+  "diagnostic_helper_review": {
+    "source_sha256": "977a79a5ebbce6b5d72dbf40a85ee9badd5f6d95786684e8cb7fc91e169fec15",
+    "review_method": "Static inspection only; existing discarded offline fixture receipt inspected, not rerun.",
+    "redirect_downgrade_finding": "Corrected: HTTPS-only YouTube redirects, no auth or proxy-bypassed target; final200 success additionally requires HTTPS canonical /watch with the exact original video ID and watch marker.",
+    "current_real_revision6_probe_remains_failed": true,
+    "same_revision_denied_retry_guard_retained": true,
+    "default_offline_mode_retained": true,
+    "success_means": "Ready for one bounded metadata pilot; it does not certify source playback/download or every route.",
+    "offline_control_receipt": "research/access-repair/diagnostics/offline-control-verification.json",
+    "offline_control_receipt_sha256": "753f56f8eaf97c679295c2bda3c55d79d99dbd3af0c30778863bb8352ab66e5e",
+    "offline_fixtures_are_not_live_success_evidence": true
+  },
+  "prior_validation_receipts_not_rerun": {
+    "independent_local_artifact_checks": 455,
+    "focused_browser_checks": 194,
+    "source_bound_downloads": 49,
+    "pages_prefix_routes": 32
+  },
+  "independent_artifact_receipt_sha256": "11236026ad597aea5e7ae222f50855c5e256f7c2227cc2fc876937f081765923",
+  "reviewer_new_network_requests": 0,
+  "reviewer_new_browser_navigations": 0,
+  "reviewer_new_neural_runs": 0,
+  "original_broad_tests_rerun": false,
+  "remaining_limits": [
+    "YouTube access remains unresolved at proxy CONNECT403; queued video jobs remain unattempted.",
+    "Browser trust repair certifies the recorded allowed HTTPS controls and local certificate rejection, not YouTube access. Explicit-operation zero is not an instrumented page-subrequest count.",
+    "Publisher text/audio and ASR remain a separate dated acquisition supplement, with no human speech accuracy, speaker/entity-origin or YouTube-edition validation.",
+    "The upcoming commit, Pages Action and final live byte verification require separate deployment receipts."
+  ],
+  "pending_final_commit_action_and_live_receipts": true
+}

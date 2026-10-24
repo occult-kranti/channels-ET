@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-24T00:11:00.798576+00:00",
+  "module_path": "research/access-repair/athina/publisher_sources/executed-sources/publisher-collector.py",
+  "module_sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864",
+  "wrapper_path": "research/access-repair/athina/publisher_sources/acquire.py",
+  "wrapper_sha256": "99c351cca35b5f63647edbc05a3626d445d11ab152dd58c0fb3b795e81d20867",
+  "plan_path": "research/access-repair/athina/publisher_sources/plan.json",
+  "plan_sha256": "fbdc074270ac626113f8870d832276fc983872054c255c67efe8d4a25b93409a",
+  "original_module_constants": {
+    "H": "/workspace/channels-ET/research/access-repair/athina/publisher_sources/executed-sources",
+    "R": "/workspace/channels-ET/research/access-repair",
+    "RAW_ROOT": "/workspace/channels-et-raw",
+    "RAW": "/workspace/channels-et-raw/publisher-audio",
+    "CAP": 268435456,
+    "RESERVE": 6442450944,
+    "BUDGET": 21474836480
+  },
+  "adapted_constants": {
+    "H": "/workspace/channels-ET/research/access-repair/athina/publisher_sources",
+    "R": "/workspace/channels-ET",
+    "RAW_ROOT": "/workspace/channels-et-raw",
+    "RAW": "/workspace/channels-et-raw/primary-audio",
+    "CAP": 134217728,
+    "RESERVE": 6442450944,
+    "BUDGET": 21474836480
+  },
+  "method_replacements": [],
+  "module_thread_pool_limit": 2,
+  "frozen_jobs": 1,
+  "attempts_authorized": 1,
+  "implicit_retries": false,
+  "youtube_requests": 0,
+  "asr_requests": 0,
+  "shared_process_lock": "/workspace/channels-et-raw/.collection-worker.lock",
+  "tls_and_proxy": "Unmodified audited module uses Python default verified TLS and inherited proxy.",
+  "held_nineteen_source_files": [
+    {
+      "path": "research/harvest/publisher_sources/publisher-summary.json",
+      "sha256": "a021c6cc7fb3c082b164ed6aee25d6f436810f2afdd2fb23ac6cded412c296c3"
+    },
+    {
+      "path": "research/harvest/publisher_sources/publisher-attempts.jsonl",
+      "sha256": "fced53fb869e891f21f127f9b694d0cc53922166364c308df9cd1bf3ad15523c"
+    },
+    {
+      "path": "research/harvest/publisher_sources/expanded-plan.json",
+      "sha256": "784ffec18b99182286007d132e2837908047aecefd4c42d4277a44e0d13b9712"
+    }
+  ]
+}

@@ -24,6 +24,13 @@ Raw recordings and full machine transcripts live in
 `/workspace/channels-et-raw/`, outside public Git and Pages. Code, source
 provenance, metadata databases, summary exports and review receipts are here.
 
+The [24 October access-repair follow-up](research/access-repair/README.md)
+repairs Chromium's isolated certificate trust and adds an independently published
+Athina Król recording with automatic transcription, fifteen Daniel Scranton RSS
+posts and a four-page Paul Selig publisher transcript. These remain distinct
+source types and cohorts. The ordinary YouTube route still receives a proxy
+CONNECT 403; browser trust repair does not establish video access.
+
 ## Living study: source-aware analysis and local models
 
 The current continuation is organized entirely in this repository. Open the

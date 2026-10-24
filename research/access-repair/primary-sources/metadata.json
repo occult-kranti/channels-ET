@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-24T00:04:46.611393+00:00",
+  "collector_sha256": "c55b24cf503c87e5d0f458bdf8769f55964d79f8df5b555db6894caf8a570834",
+  "network_requests": 3,
+  "youtube_requests": 0,
+  "new_audio_jobs": 0,
+  "fixed_nineteen_episode_study_changed": false,
+  "records": [
+    {
+      "source_id": "daniel-feed",
+      "requested_url": "https://danielscranton.com/feed/",
+      "attempted_at": "2026-10-24T00:04:44.299341+00:00",
+      "source_pointers": [
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/52",
+          "source_id": "lk-s06",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/53",
+          "source_id": "lk-s07",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        }
+      ],
+      "source_kind": "independent_original_publisher_text_or_episode_page",
+      "proxy_configuration": "inherited_session_configuration",
+      "tls_certificate_verification_enabled": true,
+      "network_attempts": 1,
+      "retry": false,
+      "audio_or_video_edition_equivalence_verified": false,
+      "redistribution_license": "not_established",
+      "full_text_publicly_rehosted": false,
+      "status": "retrieved",
+      "http_status": 200,
+      "content_type": "application/rss+xml",
+      "final_url": "https://danielscranton.com/feed/",
+      "response": {
+        "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-feed.body",
+        "bytes": 290791,
+        "sha256": "fa45b678c00d729e1060805acfbeaf30f3fbda9cf870fa3ba2942ebae0991e16"
+      },
+      "feed_title": "Daniel Scranton's Channeling",
+      "publisher_site": "https://danielscranton.com/",
+      "feed_item_count": 15,
+      "title": "Ancient Arcturian Practices ∞The 9D Arcturian Council",
+      "publication_timestamp": "Thu, 22 Oct 2026 11:01:44 +0000",
+      "guid": "https://danielscranton.com/?p=385080",
+      "creator": "Daniel Scranton",
+      "publisher_item_url": "https://danielscranton.com/ancient-arcturian-practices-%e2%88%9ethe-9d-arcturian-council/",
+      "exact_previously_identified_item_status": "present",
+      "text": {
+        "raw_local_path": "/workspace/channels-et-raw/primary-publications/daniel-feed.txt",
+        "bytes": 4348,
+        "sha256": "e180fd9da8391c7c691c0e194bf8f07d9c0fd1566d615cbb0dd190b6d94d6de6",
+        "word_count": 763,
+        "text_scope": "publisher RSS item rendered text, including any embedded marketing; not verified speech transcription",
+        "human_transcription_or_accuracy_verified": false
+      },
+      "audio_enclosures": 0,
+      "finished_at": "2026-10-24T00:04:45.585843+00:00"
+    },
+    {
+      "source_id": "paul-birmingham",
+      "requested_url": "https://paulselig.com/video-transcript-birmingham-2017/",
+      "attempted_at": "2026-10-24T00:04:45.585859+00:00",
+      "source_pointers": [
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/128",
+          "source_id": "yt-g-s-paul-catalog",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/131",
+          "source_id": "yt-g-s-paul-birmingham",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        }
+      ],
+      "source_kind": "independent_original_publisher_text_or_episode_page",
+      "proxy_configuration": "inherited_session_configuration",
+      "tls_certificate_verification_enabled": true,
+      "network_attempts": 1,
+      "retry": false,
+      "audio_or_video_edition_equivalence_verified": false,
+      "redistribution_license": "not_established",
+      "full_text_publicly_rehosted": false,
+      "status": "retrieved",
+      "http_status": 200,
+      "content_type": "text/html",
+      "final_url": "https://paulselig.com/video-transcript-birmingham-2017/",
+      "response": {
+        "raw_local_path": "/workspace/channels-et-raw/primary-publications/paul-birmingham.body",
+        "bytes": 165080,
+        "sha256": "53621c3b8ee8b331830f637f45d4c3b7ab8f6b8095ffb3b3f87947c9c8d6724a"
+      },
+      "title": "Free video & transcript: Paul Selig in Birmingham, U.K. | Paul Selig",
+      "html_title": "Free video & transcript: Paul Selig in Birmingham, U.K. | Paul Selig",
+      "text": {
+        "raw_local_path": "/workspace/channels-et-raw/primary-publications/paul-birmingham.txt",
+        "bytes": 3360,
+        "sha256": "a5f7b507a50884f31accec0c68fa7b81b36c73312ad371e1c2a63f1f6dbb0b54",
+        "word_count": 550,
+        "text_scope": "whole visible publisher-page text; includes navigation/boilerplate",
+        "human_transcription_or_accuracy_verified": false
+      },
+      "explicit_transcript_or_feed_links": [
+        {
+          "url": "https://paulselig.com/video-transcript-birmingham-2017/#content",
+          "label": "Skip to content",
+          "followed": false
+        },
+        {
+          "url": "https://paulselig.com/video-transcript-birmingham-2017/",
+          "label": "Go to Top",
+          "followed": false
+        },
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/pstranscripts/The+Expression+of+the+True+Self.pdf",
+          "label": "DOWNLOAD TRANSCRIPT",
+          "followed": false
+        }
+      ],
+      "session_date_from_inherited_record": "2017-07-15",
+      "publication_date_from_inherited_record": null,
+      "finished_at": "2026-10-24T00:04:46.186642+00:00"
+    },
+    {
+      "source_id": "athina-ashtar",
+      "requested_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+      "attempted_at": "2026-10-24T00:04:46.186658+00:00",
+      "source_pointers": [
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/34",
+          "source_id": "ar-athina-ashtar-2023",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/35",
+          "source_id": "ar-athina-apple-2023",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        },
+        {
+          "path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+          "json_pointer": "/sources/37",
+          "source_id": "ar-athina-show",
+          "sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a"
+        }
+      ],
+      "source_kind": "independent_original_publisher_text_or_episode_page",
+      "proxy_configuration": "inherited_session_configuration",
+      "tls_certificate_verification_enabled": true,
+      "network_attempts": 1,
+      "retry": false,
+      "audio_or_video_edition_equivalence_verified": false,
+      "redistribution_license": "not_established",
+      "full_text_publicly_rehosted": false,
+      "status": "retrieved",
+      "http_status": 200,
+      "content_type": "text/html",
+      "final_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+      "response": {
+        "raw_local_path": "/workspace/channels-et-raw/primary-publications/athina-ashtar.body",
+        "bytes": 93411,
+        "sha256": "70fc9755fb5aee7404d629ca8c0a49eb3f2488271c10152885bdd5284cbd63c7"
+      },
+      "title": "Spirit Channel with Athina Król",
+      "html_title": "Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades | Spirit Channel with Athina Król",
+      "text": {
+        "raw_local_path": "/workspace/channels-et-raw/primary-publications/athina-ashtar.txt",
+        "bytes": 8389,
+        "sha256": "5a3730e8db40d9015cabd179af81b54b67119af15eddf20011ec037e9d7f836c",
+        "word_count": 1163,
+        "text_scope": "whole visible publisher-page text; includes navigation/boilerplate",
+        "human_transcription_or_accuracy_verified": false
+      },
+      "explicit_transcript_or_feed_links": [
+        {
+          "url": "https://www.podbean.com/site/podcatcher/index/blog/XpWjbmCaNu5K",
+          "label": "RSS",
+          "followed": false
+        }
+      ],
+      "session_date_from_inherited_record": null,
+      "publication_date_from_inherited_record": "2023-02-06",
+      "finished_at": "2026-10-24T00:04:46.611382+00:00"
+    }
+  ]
+}

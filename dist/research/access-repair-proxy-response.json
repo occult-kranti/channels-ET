@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-24T00:00:43.376918+00:00",
+  "purpose": "Single response-detail diagnostic for existing CONNECT403; not a media request or alternative route",
+  "target": "www.youtube.com:443",
+  "proxyRoute": "inherited HTTPS_PROXY",
+  "originTlsStarted": false,
+  "proxyConnectStatus": 403,
+  "responseHeaderNames": [
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "connection"
+  ],
+  "safeResponseHeaders": {
+    "content-type": "text/plain",
+    "server": "envoy"
+  },
+  "responseBodyBytesInspected": 16,
+  "responseBodySha256": "301ab39b129a9f65a8f8d7bfee350718cd0268497182e59c7ce9c036adf0a213",
+  "diagnosticMarkers": {
+    "policy": false,
+    "blocked": false,
+    "not_allowed": false,
+    "forbidden": true,
+    "authentication": false,
+    "tunnel": false
+  }
+}

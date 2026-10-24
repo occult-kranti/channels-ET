@@ -1,0 +1,323 @@
+{
+  "status": "PASS",
+  "checks": 78,
+  "failures": [],
+  "verifier_sha256": "0acbe06190300308d5476e043e1189d0b9f9ed2c486eebd646792c9afab6b9d7",
+  "metadata_sha256": "8e5c2d86a0d34a911b22d0eeff95c289cc5ace4b7ec7da2cec82320289c749e7",
+  "expanded_metadata_sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca",
+  "network_requests_by_verifier": 0,
+  "all_checks": [
+    {
+      "check": "daniel-feed response retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed response full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed rendered page/item retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed rendered page/item full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed rendered page/item rendered word count",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham response retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham response full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham rendered page/item retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham rendered page/item full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham rendered page/item rendered word count",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar response retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar response full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar rendered page/item retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar rendered page/item full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar rendered page/item rendered word count",
+      "passed": true
+    },
+    {
+      "check": "paul follow-up response retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "paul follow-up response full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "athina follow-up response retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "athina follow-up response full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Paul response PDF magic",
+      "passed": true
+    },
+    {
+      "check": "Paul independently probed four pages",
+      "passed": true
+    },
+    {
+      "check": "Paul extracted publisher transcript retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Paul extracted publisher transcript full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Paul extracted publisher transcript rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Paul actual PDF title and session date",
+      "passed": true
+    },
+    {
+      "check": "all fifteen saved Daniel RSS items have records",
+      "passed": true
+    },
+    {
+      "check": "Daniel item GUIDs are unique within this snapshot",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 0 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 0 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 0 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 1 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 1 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 1 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 2 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 2 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 2 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 3 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 3 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 3 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 4 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 4 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 4 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 5 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 5 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 5 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 6 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 6 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 6 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 7 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 7 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 7 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 8 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 8 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 8 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 9 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 9 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 9 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 10 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 10 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 10 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 11 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 11 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 11 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 12 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 12 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 12 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 13 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 13 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 13 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 14 retained hash and size",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 14 full body remains outside repository",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 14 rendered word count",
+      "passed": true
+    },
+    {
+      "check": "Daniel aggregate rendered word total; includes promotions",
+      "passed": true
+    },
+    {
+      "check": "Athina exact creator-episode URL match",
+      "passed": true
+    },
+    {
+      "check": "Athina explicit RSS episode date",
+      "passed": true
+    },
+    {
+      "check": "Athina actual GUID retained and enclosure not requested",
+      "passed": true
+    },
+    {
+      "check": "frozen nineteen-episode study summary unchanged",
+      "passed": true
+    },
+    {
+      "check": "bounded request ledger totals five publisher requests, zero YouTube or audio",
+      "passed": true
+    }
+  ]
+}

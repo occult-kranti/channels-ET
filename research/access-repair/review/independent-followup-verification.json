@@ -1,0 +1,1869 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-24T00:15:26.284337+00:00",
+  "status": "PASS_WITH_EXPLICIT_LIMITS",
+  "checks_passed": 455,
+  "checks_total": 455,
+  "failures": [],
+  "verifier_sha256": "38cd8c65b5cd1dab414c3453f184a57ab8788f58c720af0c7d101da117ca6c1f",
+  "source_network_requests_by_reviewer": 0,
+  "browser_navigation_by_reviewer": 0,
+  "neural_runs_by_reviewer": 0,
+  "original_21567_checks_rerun": false,
+  "verified_counts": {
+    "daniel_rendered_items": 15,
+    "daniel_rendered_words_including_promotions": 10998,
+    "paul_pdf_pages": 4,
+    "paul_extracted_words": 2577,
+    "athina_audio_bytes": 26928318,
+    "athina_audio_seconds": 1682.99102,
+    "athina_asr_segments": 259,
+    "athina_asr_whitespace_words": 3394
+  },
+  "browser_youtube_zero_scope": "Control automation has no explicit YouTube navigation/collection. Its literal youtubeRequests:0 is not an instrumented count of all subrequests.",
+  "limits": [
+    "Local byte/provenance/count verification; recorded HTTPS outcomes were inspected, not independently repeated.",
+    "No human listening, speech accuracy, speaker identity, entity origin or recording/YouTube-edition equivalence validation.",
+    "Daniel full rendered RSS item counts include publisher promotion; Paul is spiritual-Guides comparison text.",
+    "The separate new source cohort is not appended to the frozen nineteen-source ledger or earlier paper/model cohort."
+  ],
+  "input_hashes": {
+    "research/access-repair/primary-sources/metadata.json": "8e5c2d86a0d34a911b22d0eeff95c289cc5ace4b7ec7da2cec82320289c749e7",
+    "research/access-repair/primary-sources/expanded-metadata.json": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca",
+    "research/access-repair/athina/publisher_sources/execution-config.json": "b044f05ccf1cf91b7407a636f05fc9f7eeef3be0cadd6a768ce33d55efc72b71",
+    "research/access-repair/athina/publisher_sources/execution-receipt.json": "bcb324f78eaf2d97b0b4a019710d441ba516400d2ba9c0092ed8dcfbe17439eb",
+    "research/access-repair/athina/publisher_sources/publisher-summary.json": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370",
+    "research/access-repair/athina/publisher_sources/plan.json": "fbdc074270ac626113f8870d832276fc983872054c255c67efe8d4a25b93409a",
+    "research/access-repair/athina/asr/adapter-execution.json": "a44512198d700ff515b41a452c1dba71403e247da42a5740a37054cf36197b63",
+    "research/access-repair/athina/asr/310c6d538a438cee6ba4-receipt.json": "3d62005dc102c9632264b77b4553c783301a2f71e2f2b85545ec68073f474cf7",
+    "research/access-repair/athina/asr/model-manifest.json": "60452b6a810c402781341181e9bd655c5d56ba2b3161da5076b8a9a25b937076",
+    "research/access-repair/browser/baseline-receipt.json": "06a5c56d57ec132321db5dd2fe0cc2270548fe2c7c9d455d4b32a6eebd7d8aa2",
+    "research/access-repair/browser/trust-store-receipt.json": "0c6bc471a945a50cf83fc2a27b67cef11e61e2c602cb39f0a83c6d4924ffa01d",
+    "research/access-repair/browser/verification-receipt.json": "ee0086bf1cc2ce616114cf352f126950caff97b4ca9ae38b99b3c66ec4c448b1",
+    "research/access-repair/browser/source-manifest.json": "b81914315efa581f9aceac00429128ebc39986d00986ab1316b0c35df0713848",
+    "research/access-repair/diagnostics/revision6-watch-probe.json": "d024596a34bc6cd83d920c74149e90cf44d62079f56d285c2a794047d630ea7d",
+    "research/access-repair/diagnostics/revision6-proxy-response.json": "81922e2c4c05ca3d3f7c037cb8ca7b2e2b97ca911f00b5f83ce9a91848fa0a5f"
+  },
+  "all_checks": [
+    {
+      "check": "five recorded publisher operations, not a claim of five HTTP transactions including redirects",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed recorded verified-TLS HTTP200 outcome",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed response private path",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed response exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed extracted text private path",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed extracted text exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed mechanical word count",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed inherited source hash",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed inherited source pointer identity",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed inherited source hash",
+      "passed": true
+    },
+    {
+      "check": "daniel-feed inherited source pointer identity",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham recorded verified-TLS HTTP200 outcome",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham response private path",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham response exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham extracted text private path",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham extracted text exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham mechanical word count",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham inherited source hash",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham inherited source pointer identity",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham inherited source hash",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham inherited source pointer identity",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar recorded verified-TLS HTTP200 outcome",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar response private path",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar response exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar extracted text private path",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar extracted text exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar mechanical word count",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar inherited source hash",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar inherited source pointer identity",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar inherited source hash",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar inherited source pointer identity",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar inherited source hash",
+      "passed": true
+    },
+    {
+      "check": "athina-ashtar inherited source pointer identity",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham-pdf recorded verified-TLS HTTP200 outcome",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham-pdf response private path",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham-pdf response exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham-pdf extracted text private path",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham-pdf extracted text exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "paul-birmingham-pdf mechanical word count",
+      "passed": true
+    },
+    {
+      "check": "athina-feed recorded verified-TLS HTTP200 outcome",
+      "passed": true
+    },
+    {
+      "check": "athina-feed response private path",
+      "passed": true
+    },
+    {
+      "check": "athina-feed response exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "executed text collector source pin",
+      "passed": true
+    },
+    {
+      "check": "executed linked-source collector pin",
+      "passed": true
+    },
+    {
+      "check": "follow-up metadata binds first requests",
+      "passed": true
+    },
+    {
+      "check": "fifteen Daniel RSS items",
+      "passed": true
+    },
+    {
+      "check": "Daniel GUID uniqueness in saved snapshot",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 0 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 0 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 0",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 0",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 0",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 1 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 1 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 1",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 1",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 1",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 2 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 2 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 2",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 2",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 2",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 3 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 3 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 3",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 3",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 3",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 4 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 4 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 4",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 4",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 4",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 5 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 5 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 5",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 5",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 5",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 6 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 6 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 6",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 6",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 6",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 7 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 7 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 7",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 7",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 7",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 8 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 8 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 8",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 8",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 8",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 9 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 9 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 9",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 9",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 9",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 10 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 10 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 10",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 10",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 10",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 11 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 11 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 11",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 11",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 11",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 12 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 12 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 12",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 12",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 12",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 13 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 13 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 13",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 13",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 13",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 14 private path",
+      "passed": true
+    },
+    {
+      "check": "Daniel item 14 exact bytes/hash",
+      "passed": true
+    },
+    {
+      "check": "Daniel item mechanical words 14",
+      "passed": true
+    },
+    {
+      "check": "Daniel item actual feed identity 14",
+      "passed": true
+    },
+    {
+      "check": "Daniel independently rendered saved RSS body 14",
+      "passed": true
+    },
+    {
+      "check": "10998 rendered Daniel words include publisher promotions",
+      "passed": true
+    },
+    {
+      "check": "actual Paul valid PDF magic/size",
+      "passed": true
+    },
+    {
+      "check": "independent four-page PDF probe",
+      "passed": true
+    },
+    {
+      "check": "independent Paul extraction exact 2577 words",
+      "passed": true
+    },
+    {
+      "check": "actual Paul PDF header title/date",
+      "passed": true
+    },
+    {
+      "check": "official Paul page explicitly contains exact PDF link",
+      "passed": true
+    },
+    {
+      "check": "Paul comparison-source boundary retained",
+      "passed": true
+    },
+    {
+      "check": "creator page explicitly links exact feed",
+      "passed": true
+    },
+    {
+      "check": "212-item feed with one exact creator URL match",
+      "passed": true
+    },
+    {
+      "check": "Athina exact RSS GUID",
+      "passed": true
+    },
+    {
+      "check": "Athina module execution source pin",
+      "passed": true
+    },
+    {
+      "check": "Athina wrapper execution source pin",
+      "passed": true
+    },
+    {
+      "check": "Athina plan execution source pin",
+      "passed": true
+    },
+    {
+      "check": "audited collector methods and 128MiB cap",
+      "passed": true
+    },
+    {
+      "check": "separate single-source completed ledger",
+      "passed": true
+    },
+    {
+      "check": "new audio remains external private file",
+      "passed": true
+    },
+    {
+      "check": "actual Athina audio SHA256",
+      "passed": true
+    },
+    {
+      "check": "26928318 body bytes match HTTP/RSS/audio",
+      "passed": true
+    },
+    {
+      "check": "actual finite audio duration and stream",
+      "passed": true
+    },
+    {
+      "check": "audio artifact bound to exact creator RSS item",
+      "passed": true
+    },
+    {
+      "check": "one recorded audio attempt, no retries",
+      "passed": true
+    },
+    {
+      "check": "audio receipt binds publisher-summary.json",
+      "passed": true
+    },
+    {
+      "check": "audio receipt binds publisher-attempts.jsonl",
+      "passed": true
+    },
+    {
+      "check": "recorded fresh verified-TLS audio response",
+      "passed": true
+    },
+    {
+      "check": "original19 unchanged publisher-summary.json",
+      "passed": true
+    },
+    {
+      "check": "original19 unchanged publisher-attempts.jsonl",
+      "passed": true
+    },
+    {
+      "check": "original19 unchanged expanded-plan.json",
+      "passed": true
+    },
+    {
+      "check": "original19 ASR summary unchanged",
+      "passed": true
+    },
+    {
+      "check": "actual retained ASR core source pin",
+      "passed": true
+    },
+    {
+      "check": "actual source-ledger ASR adapter pin",
+      "passed": true
+    },
+    {
+      "check": "ASR adapter binds isolated publisher ledger",
+      "passed": true
+    },
+    {
+      "check": "ASR adapter binds completed receipt",
+      "passed": true
+    },
+    {
+      "check": "ASR source identity URL/hash agree",
+      "passed": true
+    },
+    {
+      "check": "ASR execution signature reproduced",
+      "passed": true
+    },
+    {
+      "check": "ASR signature binds exact model/core",
+      "passed": true
+    },
+    {
+      "check": "supported recorded ASR runtime versions",
+      "passed": true
+    },
+    {
+      "check": "unclipped pinned decoding settings",
+      "passed": true
+    },
+    {
+      "check": "official pinned tiny.en model identity",
+      "passed": true
+    },
+    {
+      "check": "actual cached model file README.md",
+      "passed": true
+    },
+    {
+      "check": "actual cached model file config.json",
+      "passed": true
+    },
+    {
+      "check": "actual cached model file model.bin",
+      "passed": true
+    },
+    {
+      "check": "actual cached model file tokenizer.json",
+      "passed": true
+    },
+    {
+      "check": "actual cached model file vocabulary.txt",
+      "passed": true
+    },
+    {
+      "check": "new transcript directory remains outside Git",
+      "passed": true
+    },
+    {
+      "check": "exact three transcript artifacts",
+      "passed": true
+    },
+    {
+      "check": "actual ASR output segments.jsonl",
+      "passed": true
+    },
+    {
+      "check": "actual ASR output transcript.txt",
+      "passed": true
+    },
+    {
+      "check": "actual ASR output transcript.srt",
+      "passed": true
+    },
+    {
+      "check": "public/private receipt agrees exactly",
+      "passed": true
+    },
+    {
+      "check": "259 actual ASR segments",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 0",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 1",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 2",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 3",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 4",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 5",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 6",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 7",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 8",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 9",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 10",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 11",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 12",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 13",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 14",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 15",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 16",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 17",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 18",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 19",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 20",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 21",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 22",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 23",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 24",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 25",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 26",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 27",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 28",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 29",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 30",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 31",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 32",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 33",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 34",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 35",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 36",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 37",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 38",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 39",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 40",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 41",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 42",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 43",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 44",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 45",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 46",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 47",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 48",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 49",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 50",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 51",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 52",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 53",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 54",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 55",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 56",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 57",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 58",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 59",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 60",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 61",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 62",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 63",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 64",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 65",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 66",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 67",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 68",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 69",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 70",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 71",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 72",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 73",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 74",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 75",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 76",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 77",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 78",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 79",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 80",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 81",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 82",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 83",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 84",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 85",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 86",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 87",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 88",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 89",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 90",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 91",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 92",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 93",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 94",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 95",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 96",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 97",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 98",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 99",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 100",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 101",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 102",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 103",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 104",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 105",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 106",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 107",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 108",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 109",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 110",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 111",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 112",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 113",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 114",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 115",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 116",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 117",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 118",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 119",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 120",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 121",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 122",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 123",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 124",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 125",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 126",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 127",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 128",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 129",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 130",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 131",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 132",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 133",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 134",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 135",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 136",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 137",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 138",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 139",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 140",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 141",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 142",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 143",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 144",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 145",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 146",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 147",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 148",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 149",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 150",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 151",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 152",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 153",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 154",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 155",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 156",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 157",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 158",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 159",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 160",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 161",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 162",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 163",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 164",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 165",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 166",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 167",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 168",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 169",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 170",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 171",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 172",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 173",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 174",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 175",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 176",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 177",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 178",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 179",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 180",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 181",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 182",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 183",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 184",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 185",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 186",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 187",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 188",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 189",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 190",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 191",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 192",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 193",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 194",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 195",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 196",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 197",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 198",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 199",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 200",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 201",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 202",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 203",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 204",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 205",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 206",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 207",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 208",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 209",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 210",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 211",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 212",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 213",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 214",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 215",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 216",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 217",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 218",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 219",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 220",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 221",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 222",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 223",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 224",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 225",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 226",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 227",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 228",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 229",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 230",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 231",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 232",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 233",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 234",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 235",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 236",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 237",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 238",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 239",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 240",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 241",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 242",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 243",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 244",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 245",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 246",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 247",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 248",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 249",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 250",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 251",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 252",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 253",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 254",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 255",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 256",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 257",
+      "passed": true
+    },
+    {
+      "check": "actual segment finite bounds/monotonic start 258",
+      "passed": true
+    },
+    {
+      "check": "3394 actual whitespace ASR words",
+      "passed": true
+    },
+    {
+      "check": "text derives from same retained segment rows",
+      "passed": true
+    },
+    {
+      "check": "ASR validation limits retained",
+      "passed": true
+    },
+    {
+      "check": "browser source/receipt manifest .gitignore",
+      "passed": true
+    },
+    {
+      "check": "browser source/receipt manifest README.md",
+      "passed": true
+    },
+    {
+      "check": "browser source/receipt manifest baseline-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "browser source/receipt manifest initialize-profile.cjs",
+      "passed": true
+    },
+    {
+      "check": "browser source/receipt manifest profile_ca.py",
+      "passed": true
+    },
+    {
+      "check": "browser source/receipt manifest trust-store-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "browser source/receipt manifest verification-receipt.json",
+      "passed": true
+    },
+    {
+      "check": "browser source/receipt manifest verify-browser.cjs",
+      "passed": true
+    },
+    {
+      "check": "saved initial browser CA rejection",
+      "passed": true
+    },
+    {
+      "check": "browser controls retain inherited proxy and TLS checks",
+      "passed": true
+    },
+    {
+      "check": "two recorded browser HTTPS200/TLS1.3 controls",
+      "passed": true
+    },
+    {
+      "check": "recorded local unrelated certificate rejection",
+      "passed": true
+    },
+    {
+      "check": "browser source contains no TLS-ignore flags",
+      "passed": true
+    },
+    {
+      "check": "separate negative-control bypass/guard limited to literal loopback",
+      "passed": true
+    },
+    {
+      "check": "current Node TLS verification not disabled by environment",
+      "passed": true
+    },
+    {
+      "check": "actual Chromium database trusts only exact configured managed public CA",
+      "passed": true
+    },
+    {
+      "check": "private Chromium trust database integrity",
+      "passed": true
+    },
+    {
+      "check": "browser profile remains outside repository and private",
+      "passed": true
+    },
+    {
+      "check": "new revision6 ordinary-watch receipt records CONNECT denial",
+      "passed": true
+    },
+    {
+      "check": "response diagnostic remains pre-origin Envoy403, opaque cause",
+      "passed": true
+    },
+    {
+      "check": "no new raw source audio/full PDF/subtitle/certificate artifacts under public research tree",
+      "passed": true
+    }
+  ]
+}

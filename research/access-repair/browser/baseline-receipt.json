@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-24T00:08:08.392Z",
+  "mode": "baseline",
+  "browserVersion": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "profileOutsideRepository": true,
+  "proxySource": "HTTPS_PROXY",
+  "inheritedProxyUsed": true,
+  "ignoreHTTPSErrors": false,
+  "browserArgs": [
+    "--no-sandbox"
+  ],
+  "youtubeRequests": 0,
+  "controls": [
+    {
+      "id": "github_pages",
+      "requestedUrl": "https://occult-kranti.github.io/channels-ET/dist/research/#harvest",
+      "responseObserved": false,
+      "navigationError": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://occult-kranti.github.io/channels-ET/dist/research/#harvest",
+      "tlsVerifiedResponse": false
+    }
+  ],
+  "passed": true
+}

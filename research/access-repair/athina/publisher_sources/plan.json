@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "scope": "One isolated original-publisher Athina Król Ashtar podcast edition; not a YouTube download or addition to the held nineteen-study cohort.",
+  "authorization": "Parent/root task explicitly authorizes one bounded enclosure attempt using audited module, cap128MiB, free reserve6GiB,totalraw20GiB,shared process lock; no ASR.",
+  "records": [
+    {
+      "source_id": "athina-ashtar-20230206-5d144c22",
+      "source_kind": "independent_original_publisher_rss_audio",
+      "source_format": "creator_trance_channeling_episode_as_described_by_publisher",
+      "publisher_name": "Spirit Channel with Athina Król",
+      "publisher_author": "Athina Krol",
+      "license_status": "No open redistribution license established; full source audio local-only.",
+      "feed_url": "https://feed.podbean.com/athinakrol/feed.xml",
+      "feed_sha256": "6fc78ebea0d810b9b9e7eacc098aaf287a6ec3eea60e6ba5c0b80fb573109064",
+      "feed_item_index": 191,
+      "episode_guid": "lightleaders.podbean.com/5d144c22-ae55-37bb-b83b-5edfb61e45db",
+      "episode_title": "Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades",
+      "episode_publication_date": "Mon, 06 Feb 2023 12:29:30 +1100",
+      "enclosure_url": "https://mcdn.podbean.com/mf/web/ns6mfv/Meet_Your_Guides_Ashtar6v2vz.mp3",
+      "rss_enclosure_length_bytes": 26928318,
+      "rss_duration_seconds": 1682,
+      "source_proof": {
+        "path": "research/access-repair/primary-sources/expanded-metadata.json",
+        "sha256": "402eb926e18c9ff89cad6389d8ebd8b14faac1f87f000169916f3b4f1c9b66ca",
+        "json_pointer": "/athina/exact_episode_matches/0",
+        "identity_basis": "Exact indexed creator-episode URL, excluding trailing slash only",
+        "creator_episode_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+        "feed_explicitly_linked_by_creator_page": true
+      },
+      "original_index_edge": {
+        "source_path": "research/harvest/inventory/sourcepins/channels-ET/dist/data.json",
+        "source_sha256": "f391ec565622358f22cf19ea612ceb8ed1f5eeb935e0591839733db4513e2c8a",
+        "source_pointer": "/sources/34",
+        "source_id": "ar-athina-ashtar-2023",
+        "creator_episode_url": "https://athinakrol.podbean.com/e/ashtar-live-channelling-meet-your-guides-episode-on-soul-purpose-earth-s-vibrational-shifts/",
+        "apple_url": "https://podcasts.apple.com/us/podcast/ashtar-live-channelling-the-3-phases-of-soul/id1517048412?i=1000598155837",
+        "youtube_url_as_indexed": null,
+        "youtube_edition_equivalence_verified": false
+      },
+      "source_audio_inspected_by_human": false,
+      "transcript_status": "not_transcribed",
+      "collector_module_sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864",
+      "adapter_script": "research/access-repair/athina/publisher_sources/acquire.py",
+      "execution_configuration": "research/access-repair/athina/publisher_sources/execution-config.json"
+    }
+  ]
+}

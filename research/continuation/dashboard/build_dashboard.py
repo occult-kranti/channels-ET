@@ -61,7 +61,16 @@ bundle = {
                 'channels': read(ROOT / 'research/harvest/inventory/channel-routes.json'),
                 'rootProbe': read(ROOT / 'research/harvest/access/preflight-2026-10-23-revision5.json'),
                 'publisherAudio': read(ROOT / 'research/harvest/publisher_sources/publisher-summary.json'),
-                'asr': read(ROOT / 'research/harvest/asr/summary.json')},
+                'asr': read(ROOT / 'research/harvest/asr/summary.json'),
+                'accessRepair': {
+                    'watchProbe': read(ROOT / 'research/access-repair/diagnostics/revision6-watch-probe.json'),
+                    'proxyResponse': read(ROOT / 'research/access-repair/diagnostics/revision6-proxy-response.json'),
+                    'browser': read(ROOT / 'research/access-repair/browser/verification-receipt.json'),
+                    'primarySources': read(ROOT / 'research/access-repair/primary-sources/expanded-metadata.json'),
+                    'athinaPublisher': read(ROOT / 'research/access-repair/athina/publisher_sources/publisher-summary.json'),
+                    'athinaExecution': read(ROOT / 'research/access-repair/athina/asr/adapter-execution.json'),
+                    'athinaAsr': read(ROOT / 'research/access-repair/athina/asr/310c6d538a438cee6ba4-receipt.json'),
+                }},
     'acquisition': None,
     'artifacts': [],
     'figures': [],
@@ -129,6 +138,13 @@ if figure_manifest:
                                       'title': f['title'], 'caption': f['caption']})
 published_targets = set()
 for source, target, label, kind in [
+    ('research/access-repair/diagnostics/revision6-watch-probe.json', 'access-repair-watch-probe.json', 'Revision 6 ordinary watch-page probe', 'One dated source probe; proxy tunnel denied before origin TLS'),
+    ('research/access-repair/diagnostics/revision6-proxy-response.json', 'access-repair-proxy-response.json', 'Revision 6 proxy response diagnostic', 'Sanitized CONNECT status and response metadata; no alternate route'),
+    ('research/access-repair/browser/verification-receipt.json', 'access-repair-browser-verification.json', 'Verified browser trust-repair controls', 'Allowed HTTPS controls and unrelated-certificate rejection; no browser profile'),
+    ('research/access-repair/primary-sources/expanded-metadata.json', 'access-repair-primary-sources.json', 'Primary publisher text-source metadata', 'Daniel RSS items and Paul publisher PDF metadata; full text stays local'),
+    ('research/access-repair/athina/publisher_sources/publisher-summary.json', 'access-repair-athina-audio.json', 'Separate Athina creator-audio receipt', 'One original creator RSS audio file; metadata and retained-byte hash only'),
+    ('research/access-repair/athina/asr/adapter-execution.json', 'access-repair-athina-asr-execution.json', 'Separate Athina ASR execution receipt', 'Isolated follow-up branch; original 19-episode cohort unchanged'),
+    ('research/access-repair/athina/asr/310c6d538a438cee6ba4-receipt.json', 'access-repair-athina-asr.json', 'Separate Athina full-audio ASR receipt', 'Machine transcript hashes and counts; no raw speech or transcript text'),
     ('research/harvest/summary.json', 'harvest-summary.json', 'Latest exported harvest run', 'Dated operation states, saved bytes and access outcomes'),
     ('research/harvest/jobs.json', 'harvest-jobs.json', 'Harvest job ledger', 'Recorded queues, attempts and terminal job states'),
     ('research/harvest/attempts.json', 'harvest-attempts.json', 'Harvest operation attempts', 'Worker leases; each operation can issue zero or several HTTP requests'),

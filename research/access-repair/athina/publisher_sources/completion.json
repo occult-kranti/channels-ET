@@ -1,0 +1,58 @@
+{
+  "status": "COMPLETE_AND_HOLD",
+  "recorded_at": "2026-10-24T00:12:10.360529+00:00",
+  "source_kind": "independent_original_publisher_rss_audio",
+  "cohort": "isolated_one_episode_Athina_20230206",
+  "actual_attempts": 1,
+  "completed_files": 1,
+  "bytes": 26928318,
+  "duration_seconds": 1682.99102,
+  "audio_sha256": "310c6d538a438cee6ba4372e337184e8b96c9d9de385779f9dbf68bc4dec76cf",
+  "artifact_checks_passed": 23,
+  "youtube_requests": 0,
+  "asr_requests_by_this_task": 0,
+  "held_nineteen_source_files_unchanged": true,
+  "scientific_or_media_mutations_pending": false,
+  "files": [
+    {
+      "path": "research/access-repair/athina/publisher_sources/README.md",
+      "sha256": "b2e6cf1322bceae2579e02d46c563abab29a557716f6b4759e86acf6cd72a2a1"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/acquire.py",
+      "sha256": "99c351cca35b5f63647edbc05a3626d445d11ab152dd58c0fb3b795e81d20867"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/executed-sources/publisher-collector.py",
+      "sha256": "9f3e6e15606ae059b30108acbb390e211847e004b1575fefec71a872b34da864"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/execution-config.json",
+      "sha256": "b044f05ccf1cf91b7407a636f05fc9f7eeef3be0cadd6a768ce33d55efc72b71"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/execution-receipt.json",
+      "sha256": "bcb324f78eaf2d97b0b4a019710d441ba516400d2ba9c0092ed8dcfbe17439eb"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/plan.json",
+      "sha256": "fbdc074270ac626113f8870d832276fc983872054c255c67efe8d4a25b93409a"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/publisher-attempts.jsonl",
+      "sha256": "c9e6cbd95629f56c5565a356171f2d2d60aaeb15257c241a01c37e4c4f74c31f"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/publisher-summary.json",
+      "sha256": "97bc337f25eb14088bd5718fe37b378931dc2d74d10430dc2fa3bd449a2df370"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/verification.json",
+      "sha256": "d29eb11d9fb3910786b96a22c488750e5be31a008a0834e76aa3049392b1e762"
+    },
+    {
+      "path": "research/access-repair/athina/publisher_sources/verify.py",
+      "sha256": "c50da40228373fa22a8c3d39de7415bf50ef50f466525d8395c6f1b15a616861"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-24T00:04:13.889Z",
+  "source": "cloud_environment.environment_status",
+  "spec_revision": "6",
+  "observed_spec_revision": "6",
+  "observations_current": true,
+  "network_policy": {
+    "mode": "unrestricted",
+    "state": "unknown"
+  },
+  "observed_phase": "running",
+  "connectivity": "connected"
+}

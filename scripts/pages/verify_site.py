@@ -133,6 +133,101 @@ def verify_harvest(payloads: dict[str, bytes], file_manifest: dict) -> dict:
     }
 
 
+def verify_access_repair(payloads: dict[str, bytes], file_manifest: dict) -> dict:
+    """Check the separate dated supplement without rerunning access/media probes."""
+    def load(name: str):
+        return json.loads(payloads["dist/research/" + name])
+    bundle = load("data.json")
+    repair = bundle["harvest"]["accessRepair"]
+    bindings = {
+        "watchProbe": "access-repair-watch-probe.json", "proxyResponse": "access-repair-proxy-response.json",
+        "browser": "access-repair-browser-verification.json", "primarySources": "access-repair-primary-sources.json",
+        "athinaPublisher": "access-repair-athina-audio.json", "athinaExecution": "access-repair-athina-asr-execution.json",
+        "athinaAsr": "access-repair-athina-asr.json",
+    }
+    for key, name in bindings.items():
+        assert repair[key] == load(name), f"Supplement differs from downloadable source: {name}"
+    artifacts = {a["path"]: a for a in bundle["artifacts"] if a["path"].startswith("access-repair-")}
+    assert set(bindings.values()).issubset(artifacts), "Missing supplement download metadata"
+    for name, artifact in artifacts.items():
+        source = file_manifest["dist/research/" + name]
+        assert artifact["bytes"] == source["bytes"] and artifact["sha256"] == source["sha256"], name
+    watch, proxy, browser = (repair[k] for k in ("watchProbe", "proxyResponse", "browser"))
+    assert watch["status"] == "request_failed" and watch["proxyTunnelDenied"] is True
+    assert watch["tlsVerificationEnabled"] is True and watch["proxyConfigurationPreserved"] is True
+    assert proxy["proxyConnectStatus"] == 403 and proxy["originTlsStarted"] is False
+    assert browser["passed"] is True and browser["ignoreHTTPSErrors"] is False
+    assert browser["inheritedProxyUsed"] is True and browser["youtubeRequests"] == 0
+    assert {c["id"] for c in browser["controls"]} == {"github_pages", "publisher_rss"}
+    assert all(c["status"] == 200 and c["tlsVerifiedResponse"] is True for c in browser["controls"])
+    negative = browser["unrelatedCertificateControl"]
+    assert negative["passed"] is True and negative["imported"] is False
+    assert "ERR_CERT_AUTHORITY_INVALID" in negative["navigationError"]
+    assert negative["httpRequestsReachedFixture"] == 0 and negative["externalNavigations"] == 0
+    primary = repair["primarySources"]
+    assert primary["youtube_requests"] == 0 and primary["fixed_nineteen_episode_study_changed"] is False
+    daniel, paul, athina_feed = (primary[k] for k in ("daniel", "paul", "athina"))
+    assert len(daniel["items"]) == daniel["items_extracted"]
+    assert sum(r["text"]["word_count"] for r in daniel["items"]) == daniel["total_rendered_item_words"]
+    assert all(r["entity_origin_or_transcription_accuracy_verified"] is False for r in daniel["items"])
+    assert paul["status"] == "retrieved" and paul["http_status"] == 200 and paul["pdf_magic_verified"] is True
+    assert paul["tls_certificate_verification_enabled"] is True and paul["full_text_publicly_rehosted"] is False
+    assert paul["pages"] > 0 and paul["text"]["word_count"] > 0
+    assert paul["source_kind"] == "publisher_issued_spiritual_Guides_transcript"
+    assert paul["human_transcription_or_speaker_accuracy_verified"] is False
+    publisher, execution, asr = (repair[k] for k in ("athinaPublisher", "athinaExecution", "athinaAsr"))
+    completed = [r for r in publisher["records"] if r["status"] == "completed"]
+    assert publisher["terminal"] is True and publisher["not_youtube_downloads"] is True and publisher["youtube_requests"] == 0
+    assert len(completed) == publisher["completed_audio_files"]
+    assert sum(r["bytes"] for r in completed) == publisher["completed_audio_bytes"]
+    assert math.isclose(sum(r["duration_seconds"] for r in completed), publisher["completed_audio_seconds"], abs_tol=1e-5)
+    assert asr["status"] == "completed" and asr["transcribedScope"] == "full_decoded_audio"
+    source = next((r for r in completed if r["source_id"] == asr["sourceId"]
+                   and r["sha256"] == asr["sourceAudioSha256"] and r["enclosure_url"] == asr["sourceUrl"]), None)
+    assert source is not None, "Supplement ASR/audio source join mismatch"
+    assert source["audio_rehosted_publicly"] is False and source["tls_verified"] is True
+    assert math.isclose(source["duration_seconds"], asr["sourceAudioDurationSeconds"], abs_tol=1e-5)
+    assert source["source_proof"]["sha256"] == file_manifest["dist/research/access-repair-primary-sources.json"]["sha256"]
+    assert source["feed_sha256"] == athina_feed["response"]["sha256"]
+    assert athina_feed["unique_exact_episode_present"] is True and len(athina_feed["exact_episode_matches"]) == 1
+    episode = athina_feed["exact_episode_matches"][0]
+    assert episode["enclosure"]["url"] == source["enclosure_url"]
+    assert episode["link"] == source["source_proof"]["creator_episode_url"]
+    for record in (asr["publisherAcquisitionRecord"], asr["executionProtocol"]):
+        assert record["sourceId"] == source["source_id"] and record["audioSha256"] == source["sha256"]
+        assert record.get("enclosureUrl", record.get("sourceUrl")) == source["enclosure_url"]
+    assert execution["status"] == "completed" and execution["networkRequests"] == 0
+    assert execution["originalNineteenCohortMutated"] is False
+    assert execution["sourceId"] == asr["sourceId"] and execution["audioSha256"] == asr["sourceAudioSha256"]
+    assert execution["coreSha256"] == asr["executionProtocol"]["scriptSha256"]
+    assert execution["sourceLedgerSha256"] == file_manifest["dist/research/access-repair-athina-audio.json"]["sha256"]
+    assert execution["publicReceiptSha256"] == file_manifest["dist/research/access-repair-athina-asr.json"]["sha256"]
+    assert execution["segments"] == asr["segments"] and execution["words"] == asr["words"]
+    assert math.isclose(execution["sourceAudioDurationSeconds"], asr["sourceAudioDurationSeconds"], abs_tol=1e-5)
+    assert {r["name"] for r in asr["outputs"]} == {"segments.jsonl", "transcript.txt", "transcript.srt"}
+    for key in ("humanReviewed", "speakerDiarizationPerformed", "youtubeVideoEditionVerified"):
+        assert asr[key] is False, f"Review supplement interpretation before changing {key}"
+    assert execution["humanAccuracyValidated"] is False and execution["youtubeEditionEquivalenceVerified"] is False
+    assert asr["sourceId"] not in {r["source_id"] for r in bundle["harvest"]["publisherAudio"]["records"]}
+    frozen_receipt = Path(__file__).resolve().parents[2] / "research/deployment/final-live-verification.json"
+    frozen = {r["route"]: r["sha256"] for r in json.loads(frozen_receipt.read_text())["live_http"]["routes"]}
+    old_cohort = ("dist/research/harvest-publisher-audio.json", "dist/research/harvest-asr-summary.json")
+    assert all(file_manifest[p]["sha256"] == frozen[p] for p in old_cohort), "Original cohort changed inside separate supplement"
+    return {
+        "status": "passed", "scope": "Public supplement metadata and retained probe receipts; no live media/access probe rerun",
+        "download_artifact_bindings": len(artifacts), "network_probe_revision": watch["runtimeObservationBeforeProbe"]["specRevision"],
+        "recorded_proxy_connect_status": proxy["proxyConnectStatus"], "recorded_origin_tls_started": proxy["originTlsStarted"],
+        "browser_recorded_https_controls": len(browser["controls"]), "browser_unrelated_certificate_rejection": True,
+        "browser_recorded_explicit_youtube_operations": browser["youtubeRequests"], "daniel_rss_items": len(daniel["items"]),
+        "daniel_reported_rendered_words": daniel["total_rendered_item_words"], "paul_reported_pdf_pages": paul["pages"],
+        "paul_reported_words": paul["text"]["word_count"], "paul_scope": paul["scope"],
+        "athina_audio_files": len(completed), "athina_audio_bytes": publisher["completed_audio_bytes"],
+        "athina_audio_seconds": publisher["completed_audio_seconds"], "athina_asr_words": asr["words"],
+        "athina_asr_segments": asr["segments"], "athina_source_join": asr["sourceId"],
+        "original_cohort_public_metadata_hashes_preserved": list(old_cohort),
+    }
+
+
 def http_verify(base: str, expected: dict | None = None) -> dict:
     base = base.rstrip("/") + "/"
     def get(relative: str) -> tuple[bytes, int]:
@@ -154,6 +249,11 @@ def http_verify(base: str, expected: dict | None = None) -> dict:
         for path in hashes:
             if path.startswith("dist/research/harvest-"):
                 routes[path] = b"SQLite format 3" if path.endswith(".sqlite") else None
+    has_access_repair = "dist/research/access-repair-watch-probe.json" in hashes
+    if has_access_repair:
+        for path in hashes:
+            if path.startswith("dist/research/access-repair-"):
+                routes[path] = None
     for route, marker in routes.items():
         body, status = get(route)
         path = route + "index.html" if not route or route.endswith("/") else route
@@ -166,6 +266,8 @@ def http_verify(base: str, expected: dict | None = None) -> dict:
               "static_inputs_dirty": manifest.get("static_inputs_dirty"), "routes": results}
     if has_harvest:
         report["acquisition_checks"] = verify_harvest(payloads, hashes)
+    if has_access_repair:
+        report["access_repair_checks"] = verify_access_repair(payloads, hashes)
     return report
 
 
