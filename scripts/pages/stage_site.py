@@ -45,7 +45,8 @@ def run(args: list[str], *, cwd: Path = ROOT, env: dict | None = None) -> None:
         print(completed.stderr, end="")
     if completed.returncode:
         tail = ((completed.stdout or "") + "\n" + (completed.stderr or ""))[-2400:]
-        raise RuntimeError(f"command failed ({completed.returncode}): {printable}\n{tail}")
+        tail = " | ".join(tail.splitlines())
+        raise RuntimeError(f"command failed ({completed.returncode}): {printable} :: {tail}")
 
 
 def download(url: str, target: Path) -> None:
