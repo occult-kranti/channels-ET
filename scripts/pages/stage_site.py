@@ -220,7 +220,13 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     if os.environ.get("CHANNELS_ET_BUILD_EXPANSION", "1") == "1":
-        build_expansion()
+        try:
+            build_expansion()
+        except Exception as exc:
+            import traceback
+            traceback.print_exc()
+            print(f"::error title=Expansion build failed::{type(exc).__name__}: {exc}")
+            raise
     manifest = stage(args.output)
     print(json.dumps({k: manifest[k] for k in ("source_commit", "file_count", "total_bytes")}))
 
