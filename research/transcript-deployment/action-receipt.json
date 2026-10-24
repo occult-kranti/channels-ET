@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "source_commit": "c51a268b32201af37a9ab3501cbd016789bb8ace",
+  "action": {
+    "conclusion": "success",
+    "databaseId": 40053311432,
+    "headSha": "c51a268b32201af37a9ab3501cbd016789bb8ace",
+    "jobs": [
+      {
+        "completedAt": "2026-10-24T02:14:22Z",
+        "conclusion": "success",
+        "databaseId": 120750588741,
+        "name": "build",
+        "startedAt": "2026-10-24T02:14:08Z",
+        "status": "completed",
+        "steps": [
+          {
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Check out reviewed static release",
+            "number": 2,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Configure Pages",
+            "number": 3,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Stage and verify static routes and download hashes",
+            "number": 4,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Upload Pages artifact",
+            "number": 5,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Post Check out reviewed static release",
+            "number": 10,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 11,
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/occult-kranti/channels-ET/actions/runs/40053311432/job/120750588741"
+      },
+      {
+        "completedAt": "2026-10-24T02:14:35Z",
+        "conclusion": "success",
+        "databaseId": 120750652538,
+        "name": "deploy",
+        "startedAt": "2026-10-24T02:14:26Z",
+        "status": "completed",
+        "steps": [
+          {
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Deploy reviewed static artifact",
+            "number": 2,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/occult-kranti/channels-ET/actions/runs/40053311432/job/120750652538"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/occult-kranti/channels-ET/actions/runs/40053311432"
+  },
+  "static_files_verified": 396,
+  "live_http_routes_verified": 135,
+  "interactive_artifacts_verified": 70,
+  "root_defaults_to_transcript_study": true,
+  "actual_live_browser_boot_and_corpus_switch": "PASS",
+  "live_data_sha256": "eb23509ff852869ee51896db3c6152f3c287d807c7540facacdc33ce02254139",
+  "transport": {
+    "method": "Official GitHub Git-data API via existing authenticated gh",
+    "verified_immutable_blobs": 266,
+    "exact_tree_and_commit": true,
+    "force": false,
+    "publisher_sha256": "c97745f862122be551716b6a658d5e6a3701ef0f7f6a94d9f0b992686c3dedf7"
+  },
+  "proof_hashes": {
+    "live-verification.json": "3d53aec0b5b2fa8830e81e57c96edd57cdae05b2abee41220a243c60c7223b78",
+    "live-browser.json": "a4afdd4b04961c2658a7bf017edc3a58f7fbc2ebe5461aad14a95ce3c00e9cb7",
+    "live-overview.png": "86029b973f6eedc7b85c0b30209003a4b6cc3e1d451d774569db2eb560503f74"
+  },
+  "publication_scope": "Static research files only; no source acquisition, media upload or new model inference in Actions",
+  "youtube_videos_downloaded": 0,
+  "private_managed_cloud_archive_files": 200,
+  "drive_uploaded_files": 0,
+  "live_browser_ignore_https_errors": false
+}
