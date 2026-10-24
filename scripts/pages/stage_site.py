@@ -35,8 +35,17 @@ def sha256(path: Path) -> str:
 
 
 def run(args: list[str], *, cwd: Path = ROOT, env: dict | None = None) -> None:
-    print("+", " ".join(str(a) for a in args), flush=True)
-    subprocess.run([str(a) for a in args], cwd=cwd, env=env, check=True)
+    printable = " ".join(str(a) for a in args)
+    print("+", printable, flush=True)
+    completed = subprocess.run([str(a) for a in args], cwd=cwd, env=env,
+                               capture_output=True, text=True)
+    if completed.stdout:
+        print(completed.stdout, end="")
+    if completed.stderr:
+        print(completed.stderr, end="")
+    if completed.returncode:
+        tail = ((completed.stdout or "") + "\n" + (completed.stderr or ""))[-2400:]
+        raise RuntimeError(f"command failed ({completed.returncode}): {printable}\n{tail}")
 
 
 def download(url: str, target: Path) -> None:
