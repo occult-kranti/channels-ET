@@ -1,5 +1,9 @@
 # channels-ET
 
+## Schumann, occult sources and contact — 29 October 2026
+
+Open the [cross-link review](dist/schumann-crosslinks/) and its [research handoff](research/schumann-crosslinks/README.md). Six sequential model-agent rounds connect this corpus with the Energy Observatory, Gateway and Astrology Workbench using explicit source and evidence boundaries. The companion includes verified synthetic controls and a prospective protocol; it does not establish a Schumann–ET contact mechanism or add new human/field observations. Existing transcript studies, source artifacts and historical releases remain preserved.
+
 Channeling Atlas is the cross-channel ET channeling research project. **Continue this analysis in `occult-kranti/channels-ET`.** The original [Bashar Index](https://github.com/occult-kranti/bashar-index) remains preserved and focused on Bashar. The existing copy of the Atlas in that repository is retained as history.
 
 The live site is **[Channels ET on GitHub Pages](https://occult-kranti.github.io/channels-ET/)**,
