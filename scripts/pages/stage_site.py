@@ -215,7 +215,7 @@ def stage(output: Path) -> dict:
         "entry": "index.html",
         "current_dashboard": "dist/research/",
         "legacy_dashboard": "dist/",
-        "method": "Build verified expansion source, then copy the complete retained dist tree",
+        "method": ("Copy checked-in dist tree; verify_site independently checks routes and hashes" if os.environ.get("CHANNELS_ET_BUILD_EXPANSION") == "0" else "Build verified expansion source, then copy the complete retained dist tree"),
         "manifest_self_excluded": True,
         "files": files,
         "file_count": len(files),
