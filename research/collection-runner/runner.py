@@ -364,6 +364,9 @@ def execute_one(store,args):
     command=[str(args.yt_python),'-m','yt_dlp','--ignore-config','--no-cache-dir','--no-playlist','--proxy',proxy,
              '--compat-options','no-certifi','--retries','0','--fragment-retries','0','--extractor-retries','0',
              '--socket-timeout','25','--max-filesize',str(CAPS[args.kind]),'--write-info-json','-o',str(folder/(vid+'.%(ext)s'))]
+    # Explicitly enable the installed Node runtime for yt-dlp's documented EJS solver.
+    node=shutil.which('node')
+    if node: command+=['--js-runtimes','node:'+node]
     if args.kind=='metadata': command+=['--skip-download']
     elif args.kind=='captions': command+=['--skip-download','--write-subs','--write-auto-subs','--sub-langs','en.*','--sub-format','vtt']
     else: command+=['--match-filter','duration >= 300','-f','ba/b' if args.kind=='audio' else 'bv*[height<=720]+ba/b[height<=720]/b']
@@ -415,6 +418,7 @@ def execute_one(store,args):
                 if not math.isfinite(duration) or duration<300 or not math.isclose(duration,float(metadata['duration']),abs_tol=5,rel_tol=.02): raise ValueError('Measured output duration fails >=300s/source-metadata match')
                 expected_stream='video' if args.kind=='video' else 'audio'
                 if not any(s.get('codec_type')==expected_stream for s in parsed.get('streams',[])): raise ValueError('Requested media stream is absent')
+                if args.kind=='video' and not any(s.get('codec_type')=='audio' for s in parsed.get('streams',[])): raise ValueError('Video has no audio stream for transcription')
                 validation['ffprobe_duration_seconds']=duration
             artifacts.append({'path':str(path),'validation':validation})
     except Exception as caught:

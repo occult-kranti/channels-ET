@@ -10,10 +10,16 @@ The [yt-dlp documentation](https://github.com/yt-dlp/yt-dlp#readme) describes pl
 
 ## Workflow
 
-1. With access genuinely restored, obtain timestamped, newest-first channel listings with sufficient metadata using the approved access-gated collection workflow. Keep raw listings privately. Flat listings may omit `media_type` or duration; entries with missing format/duration are deliberately held, not guessed.
+1. With access genuinely restored, obtain timestamped, newest-first channel listings with sufficient metadata using the approved access-gated collection workflow. Keep raw listings privately. Flat listings may omit `media_type` or duration; entries with missing format/duration are deliberately held, not guessed. If a newer listing entry is unresolved, the entire channel is held rather than selecting an older video as the latest.
 2. Run `python research/latest-video-study/select.py /private/channel1.json /private/channel2.json --output /private/selection.json`. The selection contains valid candidate IDs under `records` and a separate `excluded` list. It records selection time, not the time the original listings were captured. Retain listing retrieval timestamps separately.
 3. Import candidates with `python research/collection-runner/runner.py import-discovery --input /private/selection.json`. This queues **metadata only**. Follow the runner README to obtain fresh metadata, conduct source-bound admission/review, respect the Bashar cap and execute a bounded video job. A successful `ffprobe` and matching source ID are required before treating output as media. Stop on a rate limit, site denial or validation failure.
-4. Prepare a private JSON list with `video_id`, `channel`, `title`, `media_path`, and optionally `sha256` matching verified, locally retained video. Run:
+4. Export a private transcription input from the existing, reconciled runner ledger. The export verifies the stored file hash and source ID and excludes unavailable or changed media:
+
+   ```sh
+   python research/latest-video-study/export_media.py --database /private/raw/state.sqlite --raw /private/raw --selection /private/selection.json --output /private/verified-media.json
+   ```
+
+   Then run:
 
    ```sh
    python research/latest-video-study/transcribe.py --input /private/verified-media.json --output /private/transcripts --model tiny
@@ -26,4 +32,4 @@ The [yt-dlp documentation](https://github.com/yt-dlp/yt-dlp#readme) describes pl
 
 ## Current execution
 
-On 6 November 2026 metadata access was observed, but an actual YouTube media attempt returned an invalid response. A later automatic-caption request was rate-limited (HTTP 429). No fresh YouTube video or new audio transcription was successfully obtained in this pass. No new cross-channel findings are claimed. The one prior caption test is not a latest-video comparison.
+On 6 November 2026 metadata access was observed. The documented Node/EJS solver was installed and successfully solved the JavaScript challenge; one bounded test identified format 18 but returned a 195-byte HTML error response instead of media. `ffprobe` rejected it. The collection runner now explicitly enables Node when available and rejects video without an audio stream. The solver fixes extraction configuration; it does not resolve the media endpoint failure. A later automatic-caption request was rate-limited (HTTP 429). No fresh YouTube video or new audio transcription was successfully obtained in this pass. No new cross-channel findings are claimed. The one prior caption test is not a latest-video comparison.
