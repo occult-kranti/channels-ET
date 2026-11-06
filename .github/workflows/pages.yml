@@ -32,7 +32,9 @@ jobs:
           persist-credentials: false
       - name: Configure Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
-      - name: Stage and verify static routes and download hashes
+      - name: Stage and verify checked-in static release
+        env:
+          CHANNELS_ET_BUILD_EXPANSION: "0"
         run: |
           python3 scripts/pages/stage_site.py --output "$RUNNER_TEMP/pages-site"
           python3 scripts/pages/verify_site.py --directory "$RUNNER_TEMP/pages-site" --serve-prefix /channels-ET/
