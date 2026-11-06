@@ -1,0 +1,43 @@
+{
+  "input_files": {
+    "research/transcript-analysis/tables/sources.csv": "71601be05dd1d30dc332e5d66b5cbd024454532717f5486e6c26ca10df7366b6",
+    "research/transcript-analysis/tables/audio-cosine-pairs.csv": "3509a31ae47a7281f052b5169df1f0ed42fbd28d30d831619d71e5c1fa94f5a9"
+  },
+  "study": "descriptive regrouping of prior audio-ASR lexical cosine results",
+  "documents": 20,
+  "unique_pairs": 190,
+  "same_publisher_count": 6,
+  "groups": {
+    "bashar_same_publisher": {
+      "pairs": 6,
+      "mean": 0.49487331691674813,
+      "median": 0.5171496221070098
+    },
+    "bashar_different_publisher": {
+      "pairs": 165,
+      "mean": 0.39328078479245726,
+      "median": 0.3937928834633936
+    },
+    "ashtar_other": {
+      "pairs": 19,
+      "mean": 0.19484949733517487,
+      "median": 0.19310137329747648
+    },
+    "other": {
+      "pairs": 0,
+      "mean": null,
+      "median": null
+    }
+  },
+  "same_publisher_leave_one_pair_out_mean_range": [
+    0.4802575556665157,
+    0.5189642711942729
+  ],
+  "limitations": [
+    "Convenience sample and pairwise scores are dependent; not a significance test.",
+    "Publisher, episode, hosts, interview genre and repeated subject matter are confounded.",
+    "Single Ashtar-context source; 19 Bashar-context sources.",
+    "Existing ASR is not diarized or human-verified; lexical similarity is not agreement or truth.",
+    "No YouTube videos were downloaded in this descriptive regrouping."
+  ]
+}

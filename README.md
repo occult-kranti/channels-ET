@@ -1,5 +1,14 @@
 # channels-ET
 
+**[Open the Channeling Atlas dashboard](https://occult-kranti.github.io/channels-ET/dist/#/research-update)** · [Existing private Site](https://channeling-atlas.whatswrong-inc.chatgpt.site)
+
+### Research update · 6 November 2026
+
+The dashboard's research-update view contains 26 source-linked upcoming session records and 11 channel or practitioner discovery leads. The channel metrics are from the October 23 indexed sample: 925 distinct video IDs, 881 with known durations. Per-channel counts are observed samples, not total YouTube uploads; the latest indexed item is not necessarily the latest published video. Event dates and prices can change.
+
+One new publisher-RSS podcast was transcribed with faster-whisper and its private transcript retained in Drive; this is not a YouTube download. The [ASR receipt](research/new-round/publisher-asr-receipt.json) and [exploratory comparison](research/new-round/analysis.md) state methods and limits. An attempted YouTube download returned an HTML error instead of media, even after the Node/EJS fix; media access and the wider YouTube transcription task remain open. See the [collection workflow and handoff](research/latest-video-study/README.md).
+
+
 ## Schumann, occult sources and contact — 29 October 2026
 
 Open the [cross-link review](dist/schumann-crosslinks/) and its [research handoff](research/schumann-crosslinks/README.md). Six sequential model-agent rounds connect this corpus with the Energy Observatory, Gateway and Astrology Workbench using explicit source and evidence boundaries. The companion includes verified synthetic controls and a prospective protocol; it does not establish a Schumann–ET contact mechanism or add new human/field observations. Existing transcript studies, source artifacts and historical releases remain preserved.
