@@ -4,9 +4,9 @@
 
 ### Research update · 6 November 2026
 
-The dashboard's research-update view contains 26 source-linked upcoming session records and 11 channel or practitioner discovery leads. The channel metrics are from the October 23 indexed sample: 925 distinct video IDs, 881 with known durations. Per-channel counts are observed samples, not total YouTube uploads; the latest indexed item is not necessarily the latest published video. Event dates and prices can change.
+Pages deploys the checked-in static release with route and download-hash checks; full expansion regeneration remains blocked because its external source archive is unavailable. The dashboard's research-update view contains 26 source-linked upcoming session records and 11 channel or practitioner discovery leads. The channel metrics are from the October 23 indexed sample: 925 distinct video IDs, 881 with known durations. Per-channel counts are observed samples, not total YouTube uploads; the latest indexed item is not necessarily the latest published video. Event dates and prices can change.
 
-One new publisher-RSS podcast was transcribed with faster-whisper and its private transcript retained in Drive; this is not a YouTube download. The [ASR receipt](research/new-round/publisher-asr-receipt.json) and [exploratory comparison](research/new-round/analysis.md) state methods and limits. An attempted YouTube download returned an HTML error instead of media, even after the Node/EJS fix; media access and the wider YouTube transcription task remain open. See the [collection workflow and handoff](research/latest-video-study/README.md).
+One new publisher-RSS podcast was transcribed with faster-whisper and its private transcript retained in Drive; this is not a YouTube download. The [ASR receipt](research/new-round/publisher-asr-receipt.json) and [exploratory comparison](research/new-round/analysis.md) state methods and limits. YouTube video and audio-only tests returned 195-byte HTML errors instead of media, even after the Node/EJS fix; media access and the wider YouTube transcription task remain open. See the [collection workflow and handoff](research/latest-video-study/README.md).
 
 
 ## Schumann, occult sources and contact — 29 October 2026
