@@ -7,7 +7,7 @@ The public entry is https://occult-kranti.github.io/channels-ET/. Root `index.ht
 Run the same static preparation and project-prefix checks locally with Python 3.10 or newer, using a fresh output directory:
 
 ```sh
-python3 scripts/pages/stage_site.py --output /tmp/channels-et-pages-site
+CHANNELS_ET_BUILD_EXPANSION=0 python3 scripts/pages/stage_site.py --output /tmp/channels-et-pages-site
 python3 scripts/pages/verify_site.py --directory /tmp/channels-et-pages-site --serve-prefix /channels-ET/
 ```
 
