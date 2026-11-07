@@ -1,0 +1,185 @@
+{
+  "kind": "batch-collection-browser-verification",
+  "checkedAt": "2026-11-07T01:03:13.786Z",
+  "checks": [
+    {
+      "label": "390: actual retained row count matches source",
+      "pass": true
+    },
+    {
+      "label": "390: creator count separate",
+      "pass": true
+    },
+    {
+      "label": "390: actual completed ASR count",
+      "pass": true
+    },
+    {
+      "label": "390: YouTube ledger count separate",
+      "pass": true
+    },
+    {
+      "label": "390: source-specific timestamp repairs disclosed",
+      "pass": true
+    },
+    {
+      "label": "390: proposal not presented as collection",
+      "pass": true
+    },
+    {
+      "label": "390: no page-wide horizontal overflow",
+      "pass": true
+    },
+    {
+      "label": "390: query filters retained recording",
+      "pass": true
+    },
+    {
+      "label": "390: explicit empty search",
+      "pass": true
+    },
+    {
+      "label": "390: accessible methods disclosure",
+      "pass": true
+    },
+    {
+      "label": "390: actual downloaded bytes match source",
+      "pass": true
+    },
+    {
+      "label": "390: actual analysis cohort count",
+      "pass": true
+    },
+    {
+      "label": "390: within-creator limitation visible",
+      "pass": true
+    },
+    {
+      "label": "390: analytical figure loads with alternative text",
+      "pass": true
+    },
+    {
+      "label": "390: analytical figure loads with alternative text",
+      "pass": true
+    },
+    {
+      "label": "390: analytical figure loads with alternative text",
+      "pass": true
+    },
+    {
+      "label": "390: actual SVG download integrity",
+      "pass": true
+    },
+    {
+      "label": "390: analytical figures do not overflow viewport",
+      "pass": true
+    },
+    {
+      "label": "1440: actual retained row count matches source",
+      "pass": true
+    },
+    {
+      "label": "1440: creator count separate",
+      "pass": true
+    },
+    {
+      "label": "1440: actual completed ASR count",
+      "pass": true
+    },
+    {
+      "label": "1440: YouTube ledger count separate",
+      "pass": true
+    },
+    {
+      "label": "1440: source-specific timestamp repairs disclosed",
+      "pass": true
+    },
+    {
+      "label": "1440: proposal not presented as collection",
+      "pass": true
+    },
+    {
+      "label": "1440: no page-wide horizontal overflow",
+      "pass": true
+    },
+    {
+      "label": "1440: query filters retained recording",
+      "pass": true
+    },
+    {
+      "label": "1440: explicit empty search",
+      "pass": true
+    },
+    {
+      "label": "1440: accessible methods disclosure",
+      "pass": true
+    },
+    {
+      "label": "1440: actual downloaded bytes match source",
+      "pass": true
+    },
+    {
+      "label": "1440: actual analysis cohort count",
+      "pass": true
+    },
+    {
+      "label": "1440: within-creator limitation visible",
+      "pass": true
+    },
+    {
+      "label": "1440: analytical figure loads with alternative text",
+      "pass": true
+    },
+    {
+      "label": "1440: analytical figure loads with alternative text",
+      "pass": true
+    },
+    {
+      "label": "1440: analytical figure loads with alternative text",
+      "pass": true
+    },
+    {
+      "label": "1440: actual SVG download integrity",
+      "pass": true
+    },
+    {
+      "label": "1440: analytical figures do not overflow viewport",
+      "pass": true
+    },
+    {
+      "label": "No runtime/console errors",
+      "pass": true
+    },
+    {
+      "label": "Sources unchanged throughout browser verification",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "sourceHashesBefore": {
+    "dist/app.js": "3f323d2eb29462e351070e7eb10ece4ebd8807c9f9c921f3881732bdedf8c44c",
+    "dist/index.html": "86767c455d0468661afb45b35e7742ba6f0b13669e529463f60e8a9c3d92de91",
+    "dist/styles.css": "304e355adcf6284dbb52f088525f918852e15dba49d02e15544044bfa0bc2280",
+    "dist/new-round/batch-collection.json": "f4d3e18fa17d7f1f166925a0d408ab673d0e96b96ee017c1eab44a9cb878ac70",
+    "dist/new-round/batch-analysis/analysis.json": "2c98639bf81ec24252ffaf1b933d1b6de8ff9e2721b6c306aa5344b241b9485b",
+    "research/batch-media/browser_check.mjs": "b00f5dbe0f986d4a4775905547354102eb13c5c652874ef26b91ade87a89ea5f",
+    "dist/new-round/batch-analysis/figures/recording-coverage.svg": "20c15696768e7b59dd7d1eef4cee50ca2b226fe9c454a7b074c3d5012d275d4e",
+    "dist/new-round/batch-analysis/figures/keyword-rates.svg": "614d0f78ca406a22d7105702e502fc670239f027420e540c1156e8b7fe695c9a",
+    "dist/new-round/batch-analysis/figures/lexical-similarity.svg": "4dd18a3595876d1cc2172296b4e55c8a29546daa761876caacbe4ea3009ffe4f"
+  },
+  "sourceHashesAfter": {
+    "dist/app.js": "3f323d2eb29462e351070e7eb10ece4ebd8807c9f9c921f3881732bdedf8c44c",
+    "dist/index.html": "86767c455d0468661afb45b35e7742ba6f0b13669e529463f60e8a9c3d92de91",
+    "dist/styles.css": "304e355adcf6284dbb52f088525f918852e15dba49d02e15544044bfa0bc2280",
+    "dist/new-round/batch-collection.json": "f4d3e18fa17d7f1f166925a0d408ab673d0e96b96ee017c1eab44a9cb878ac70",
+    "dist/new-round/batch-analysis/analysis.json": "2c98639bf81ec24252ffaf1b933d1b6de8ff9e2721b6c306aa5344b241b9485b",
+    "research/batch-media/browser_check.mjs": "b00f5dbe0f986d4a4775905547354102eb13c5c652874ef26b91ade87a89ea5f",
+    "dist/new-round/batch-analysis/figures/recording-coverage.svg": "20c15696768e7b59dd7d1eef4cee50ca2b226fe9c454a7b074c3d5012d275d4e",
+    "dist/new-round/batch-analysis/figures/keyword-rates.svg": "614d0f78ca406a22d7105702e502fc670239f027420e540c1156e8b7fe695c9a",
+    "dist/new-round/batch-analysis/figures/lexical-similarity.svg": "4dd18a3595876d1cc2172296b4e55c8a29546daa761876caacbe4ea3009ffe4f"
+  },
+  "pass": true,
+  "receipt_sha256": "84de62587dbd0ae5b156c95e5bf62892e3b92e9e081083fe91fc84d5accc8db6",
+  "download_count": 4,
+  "screenshot_count": 4
+}

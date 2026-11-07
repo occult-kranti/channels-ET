@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "kind": "channeling-batch-inventory",
+  "observedAtUTC": "2026-11-07T00:06:15.165484+00:00",
+  "remoteSourceCommit": "314f5622245a792e31648e45039da304fadb4243",
+  "summary": {
+    "raw_practitioner_records": 106,
+    "new_round_lead_records": 11,
+    "contexts_after_explicit_crosswalk": 112,
+    "context_kinds": {
+      "historical_author_archive": 3,
+      "institutional_lineage": 1,
+      "joint_named_context": 3,
+      "person_candidate": 104,
+      "publishing_outlet": 1
+    },
+    "contexts_with_full_candidate_quota": 12,
+    "contexts_with_partial_candidate_quota": 67,
+    "contexts_without_known_eligible_selection": 33,
+    "proposed_context_video_associations": 274,
+    "unique_proposed_uploads": 264,
+    "classification_counts": {
+      "not_bashar_labeled_in_available_metadata": 254,
+      "explicit_bashar_association": 10
+    },
+    "unmeasured_discovery_video_ids": 2,
+    "indexed_publisher_groups": 256,
+    "downloads_by_this_planner": 0,
+    "network_calls_by_this_planner": 0,
+    "cap_slots_consumed": 0
+  },
+  "sourceHashes": [
+    {
+      "path": "research/expansion/acquisition/identity-map.json",
+      "bytes": 161671,
+      "sha256": "feb2f6e63532f3d555ed2fcc168f1daf93973d48e9a488874ce66bcee803da82"
+    },
+    {
+      "path": "research/expansion/acquisition/identity-publisher-links.json",
+      "bytes": 62276,
+      "sha256": "0ba9af8f3f60fbedead603c8b25c158bf34dcfdfebc8531384a5a9a69808dccc"
+    },
+    {
+      "path": "research/collection-policy/selection.jsonl",
+      "bytes": 3474515,
+      "sha256": "6eea4c971ed976a2222cd5f7938474563ab572f01d77ddc1792b7d4cde1df0f9"
+    },
+    {
+      "path": "dist/analysis/data.json",
+      "bytes": 3906689,
+      "sha256": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc"
+    },
+    {
+      "path": "dist/new-round/inventory.json",
+      "bytes": 6794,
+      "sha256": "d5287eb0f3b4be706f1c3905c206a2d799e7a82c421d901b432ea41676943b30"
+    },
+    {
+      "path": "dist/new-round/channel_metrics.json",
+      "bytes": 173503,
+      "sha256": "28ecd06a9e8da137d2b00fc0202e86df6d55bd169e6128a88d0f2e0afa1b5a29"
+    }
+  ],
+  "selectionScriptSHA256": "8c476d94cf3d475d6f698854b14dabaf4aa483130c7d210c9221df102dcc5c3c",
+  "testScriptSHA256": "6d3d917ff3088b4a9d4ef1344820924956900dac236f5e3f55caf095e2a4b1cb",
+  "testLogSHA256": "816e2951f5fb47a466bc4813ca0eff183770ad79d1d0bded420d6c32433474d9",
+  "offlineTests": 10,
+  "testPass": true,
+  "youtubeRequests": 0,
+  "downloadedVideos": 0,
+  "driveUploads": 0,
+  "limits": [
+    "Candidate identities and publisher mappings are inherited source associations; no audio speaker validation.",
+    "Complete lifetime channel inventories unavailable.",
+    "Only metadata-planned first-wave selection; existing collector gates remain authoritative."
+  ],
+  "deterministicRebuild": {
+    "proposed-batch.json": true,
+    "summary.json": true,
+    "context-quotas.csv": true
+  }
+}

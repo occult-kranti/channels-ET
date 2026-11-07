@@ -1,0 +1,2867 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-07T00:55:28.739486+00:00",
+  "analysis_script_sha256": "91e960d0dc0b22b294badf430f63059dd4b3ea44ec178e101518f4383931000d",
+  "counts": {
+    "distinct_retained_recordings": 10,
+    "provider_recordings": {
+      "publisher_video": 10
+    },
+    "creator_contexts": {
+      "geoffrey-hoppe": 10
+    },
+    "creator_context_count": 1,
+    "unresolved_creator_context_recordings": 0,
+    "english_lexical_documents": 10,
+    "decoded_seconds": 71704.2773125,
+    "asr_whitespace_words": 133080,
+    "punctuation_question_candidates": 1540,
+    "verified_questions_or_answers": 0
+  },
+  "dependency_scope": "one_creator_context_repeated_recordings",
+  "keyword_codebook": {
+    "groups": {
+      "freedom": [
+        "free",
+        "freedom",
+        "liberty",
+        "sovereign",
+        "sovereignty"
+      ],
+      "enlightenment": [
+        "enlightened",
+        "enlightenment",
+        "awakening",
+        "awakened",
+        "realization"
+      ],
+      "energy": [
+        "energy",
+        "energies",
+        "energetic",
+        "frequency",
+        "frequencies",
+        "vibration",
+        "vibrations"
+      ],
+      "fear": [
+        "fear",
+        "fears",
+        "afraid",
+        "anxiety",
+        "anxious",
+        "worry",
+        "worried"
+      ],
+      "choice": [
+        "choice",
+        "choices",
+        "choose",
+        "choosing",
+        "decision",
+        "decisions",
+        "allow",
+        "allowing"
+      ],
+      "consciousness": [
+        "consciousness",
+        "conscious",
+        "awareness",
+        "aware",
+        "mind",
+        "minds"
+      ],
+      "relationships": [
+        "relationship",
+        "relationships",
+        "love",
+        "loved",
+        "loving",
+        "family",
+        "families",
+        "friend",
+        "friends"
+      ],
+      "body": [
+        "body",
+        "bodies",
+        "physical",
+        "health",
+        "healing",
+        "disease",
+        "illness",
+        "breath",
+        "breathing"
+      ],
+      "religion": [
+        "religion",
+        "religions",
+        "religious",
+        "god",
+        "gods",
+        "church",
+        "churches",
+        "prayer",
+        "prayers"
+      ],
+      "metaphysics": [
+        "soul",
+        "souls",
+        "spirit",
+        "spirits",
+        "angel",
+        "angels",
+        "dimension",
+        "dimensions",
+        "reincarnation"
+      ]
+    },
+    "mode": "exploratory_exact_casefolded_word_forms",
+    "denominator": "Unicode regex tokens with internal apostrophes; not whitespace words",
+    "scope": "English-eligible documents only; dictionary mentions are not validated topics and groups are not a complete semantic inventory."
+  },
+  "lexical": {
+    "raw": {
+      "status": "descriptive_fit_complete",
+      "source_ids": [
+        "crimsoncircle:freedom-series:1:channel:en",
+        "crimsoncircle:freedom-series:2:channel:en",
+        "crimsoncircle:freedom-series:3:channel:en",
+        "crimsoncircle:freedom-series:4:channel:en",
+        "crimsoncircle:freedom-series:5:channel:en",
+        "crimsoncircle:freedom-series:6:channel:en",
+        "crimsoncircle:freedom-series:7:channel:en",
+        "crimsoncircle:freedom-series:8:channel:en",
+        "crimsoncircle:freedom-series:9:channel:en",
+        "crimsoncircle:freedom-series:10:channel:en"
+      ],
+      "documents": 10,
+      "name_mask_applied": false,
+      "top_terms": {
+        "crimsoncircle:freedom-series:1:channel:en": [
+          {
+            "term": "tran it's",
+            "weight": 0.09544529314900992
+          },
+          {
+            "term": "tran",
+            "weight": 0.09544529314900992
+          },
+          {
+            "term": "called tran",
+            "weight": 0.09544529314900992
+          },
+          {
+            "term": "it's called",
+            "weight": 0.057028832938275584
+          },
+          {
+            "term": "know happened",
+            "weight": 0.05680206583850493
+          },
+          {
+            "term": "walk like",
+            "weight": 0.051714060754879033
+          },
+          {
+            "term": "open heart",
+            "weight": 0.049246303610514276
+          },
+          {
+            "term": "keeping freedom",
+            "weight": 0.049246303610514276
+          },
+          {
+            "term": "happened know",
+            "weight": 0.04693250770119326
+          },
+          {
+            "term": "like master",
+            "weight": 0.04690386210664658
+          },
+          {
+            "term": "sword",
+            "weight": 0.046669391621879885
+          },
+          {
+            "term": "freedom",
+            "weight": 0.04436106173426138
+          },
+          {
+            "term": "losing",
+            "weight": 0.04376145043979458
+          },
+          {
+            "term": "big yes",
+            "weight": 0.043621551638200834
+          },
+          {
+            "term": "ifs",
+            "weight": 0.043621551638200834
+          }
+        ],
+        "crimsoncircle:freedom-series:2:channel:en": [
+          {
+            "term": "earthbound",
+            "weight": 0.06318207215140956
+          },
+          {
+            "term": "forgiveness",
+            "weight": 0.056831721847835304
+          },
+          {
+            "term": "selfish",
+            "weight": 0.0547288314063333
+          },
+          {
+            "term": "voice freedom",
+            "weight": 0.05114750627159289
+          },
+          {
+            "term": "new voice",
+            "weight": 0.05114750627159289
+          },
+          {
+            "term": "sinner",
+            "weight": 0.05114750627159289
+          },
+          {
+            "term": "earthbound realms",
+            "weight": 0.05114750627159289
+          },
+          {
+            "term": "program",
+            "weight": 0.0501511110788311
+          },
+          {
+            "term": "dream walk",
+            "weight": 0.0501511110788311
+          },
+          {
+            "term": "student",
+            "weight": 0.04874438396379159
+          },
+          {
+            "term": "s's",
+            "weight": 0.048471110025847454
+          },
+          {
+            "term": "software",
+            "weight": 0.048471110025847454
+          },
+          {
+            "term": "sin",
+            "weight": 0.04788126033721861
+          },
+          {
+            "term": "winds",
+            "weight": 0.04530560514018223
+          },
+          {
+            "term": "storm",
+            "weight": 0.04530560514018223
+          }
+        ],
+        "crimsoncircle:freedom-series:3:channel:en": [
+          {
+            "term": "getting stuck",
+            "weight": 0.06532138346383835
+          },
+          {
+            "term": "pop",
+            "weight": 0.05877288677090166
+          },
+          {
+            "term": "pop quiz",
+            "weight": 0.05628326387394587
+          },
+          {
+            "term": "joints",
+            "weight": 0.05163703152892963
+          },
+          {
+            "term": "memory",
+            "weight": 0.05163703152892963
+          },
+          {
+            "term": "common sense",
+            "weight": 0.05163703152892963
+          },
+          {
+            "term": "term memory",
+            "weight": 0.04973476718100918
+          },
+          {
+            "term": "europe",
+            "weight": 0.04973476718100918
+          },
+          {
+            "term": "short term",
+            "weight": 0.04973476718100918
+          },
+          {
+            "term": "stuck right",
+            "weight": 0.04973476718100918
+          },
+          {
+            "term": "modeling",
+            "weight": 0.04973476718100918
+          },
+          {
+            "term": "quiz",
+            "weight": 0.04894486017019208
+          },
+          {
+            "term": "model",
+            "weight": 0.04757815773294873
+          },
+          {
+            "term": "middle east",
+            "weight": 0.04757815773294873
+          },
+          {
+            "term": "stocking",
+            "weight": 0.04757815773294873
+          }
+        ],
+        "crimsoncircle:freedom-series:4:channel:en": [
+          {
+            "term": "proclaim",
+            "weight": 0.07600534098666425
+          },
+          {
+            "term": "proclaim sovereignty",
+            "weight": 0.06922080216385905
+          },
+          {
+            "term": "unavailable",
+            "weight": 0.06282055176515194
+          },
+          {
+            "term": "timothy",
+            "weight": 0.058575997689579044
+          },
+          {
+            "term": "old dreams",
+            "weight": 0.056036012942346745
+          },
+          {
+            "term": "cloud",
+            "weight": 0.05310381574256391
+          },
+          {
+            "term": "crystal ceiling",
+            "weight": 0.049794949538032686
+          },
+          {
+            "term": "old dream",
+            "weight": 0.04963576254363961
+          },
+          {
+            "term": "ease grace",
+            "weight": 0.04961177202516133
+          },
+          {
+            "term": "ease",
+            "weight": 0.04933053000317306
+          },
+          {
+            "term": "dream",
+            "weight": 0.04930515500877519
+          },
+          {
+            "term": "attributes",
+            "weight": 0.0493007901779401
+          },
+          {
+            "term": "grace",
+            "weight": 0.04680390661221169
+          },
+          {
+            "term": "allowing grace",
+            "weight": 0.04539120846806673
+          },
+          {
+            "term": "key words",
+            "weight": 0.04539120846806673
+          }
+        ],
+        "crimsoncircle:freedom-series:5:channel:en": [
+          {
+            "term": "attitude",
+            "weight": 0.05666521907082128
+          },
+          {
+            "term": "court",
+            "weight": 0.05415824535638896
+          },
+          {
+            "term": "royal",
+            "weight": 0.05415824535638896
+          },
+          {
+            "term": "did learn",
+            "weight": 0.05180982411615518
+          },
+          {
+            "term": "year old",
+            "weight": 0.04937558336479436
+          },
+          {
+            "term": "divine intelligence",
+            "weight": 0.049098770755686215
+          },
+          {
+            "term": "crystalline body",
+            "weight": 0.049098770755686215
+          },
+          {
+            "term": "compassion compassion",
+            "weight": 0.049098770755686215
+          },
+          {
+            "term": "it's dream",
+            "weight": 0.049098770755686215
+          },
+          {
+            "term": "winding",
+            "weight": 0.049098770755686215
+          },
+          {
+            "term": "it's attitude",
+            "weight": 0.049098770755686215
+          },
+          {
+            "term": "act",
+            "weight": 0.048091885701828894
+          },
+          {
+            "term": "crystalline",
+            "weight": 0.047598856496640085
+          },
+          {
+            "term": "psychology",
+            "weight": 0.04662952449324048
+          },
+          {
+            "term": "divine",
+            "weight": 0.0464665865217981
+          }
+        ],
+        "crimsoncircle:freedom-series:6:channel:en": [
+          {
+            "term": "knowingness",
+            "weight": 0.07428306605371762
+          },
+          {
+            "term": "graduation",
+            "weight": 0.07219721943743594
+          },
+          {
+            "term": "psychic gravity",
+            "weight": 0.07057619755161938
+          },
+          {
+            "term": "awakening human",
+            "weight": 0.06688382828514515
+          },
+          {
+            "term": "graduation day",
+            "weight": 0.06475007111042726
+          },
+          {
+            "term": "facet",
+            "weight": 0.06475007111042726
+          },
+          {
+            "term": "gravity",
+            "weight": 0.06383785916423527
+          },
+          {
+            "term": "embodied master",
+            "weight": 0.059996215758768554
+          },
+          {
+            "term": "diploma",
+            "weight": 0.05966046082229959
+          },
+          {
+            "term": "ark",
+            "weight": 0.05849822632262256
+          },
+          {
+            "term": "order ark",
+            "weight": 0.05849822632262256
+          },
+          {
+            "term": "doubts",
+            "weight": 0.05849822632262256
+          },
+          {
+            "term": "spiritual families",
+            "weight": 0.0568573645474886
+          },
+          {
+            "term": "spiritual family",
+            "weight": 0.0568573645474886
+          },
+          {
+            "term": "teacher",
+            "weight": 0.05682266124498898
+          }
+        ],
+        "crimsoncircle:freedom-series:7:channel:en": [
+          {
+            "term": "month month",
+            "weight": 0.08553560987234654
+          },
+          {
+            "term": "new car",
+            "weight": 0.0715292996162096
+          },
+          {
+            "term": "polite",
+            "weight": 0.06464755369605635
+          },
+          {
+            "term": "edith edith",
+            "weight": 0.06464755369605635
+          },
+          {
+            "term": "julie",
+            "weight": 0.06161815921509307
+          },
+          {
+            "term": "best answer",
+            "weight": 0.059889784040903137
+          },
+          {
+            "term": "truth truth",
+            "weight": 0.059091814290550396
+          },
+          {
+            "term": "bob",
+            "weight": 0.05797915392797397
+          },
+          {
+            "term": "amazing time",
+            "weight": 0.05797915392797397
+          },
+          {
+            "term": "measure",
+            "weight": 0.05797915392797397
+          },
+          {
+            "term": "denise",
+            "weight": 0.05797915392797397
+          },
+          {
+            "term": "pete pete",
+            "weight": 0.05584325118193819
+          },
+          {
+            "term": "biggest shift",
+            "weight": 0.05584325118193819
+          },
+          {
+            "term": "voting",
+            "weight": 0.05062636298483286
+          },
+          {
+            "term": "awakening polite",
+            "weight": 0.05062636298483286
+          }
+        ],
+        "crimsoncircle:freedom-series:8:channel:en": [
+          {
+            "term": "blind",
+            "weight": 0.07496480199322046
+          },
+          {
+            "term": "world blind",
+            "weight": 0.06535137799731464
+          },
+          {
+            "term": "crystalline energies",
+            "weight": 0.061701799504252204
+          },
+          {
+            "term": "open eye",
+            "weight": 0.058305796547658724
+          },
+          {
+            "term": "does care",
+            "weight": 0.05699667449267949
+          },
+          {
+            "term": "eye open",
+            "weight": 0.0540147517412578
+          },
+          {
+            "term": "middlelands",
+            "weight": 0.0540147517412578
+          },
+          {
+            "term": "crystalline",
+            "weight": 0.05353578986655592
+          },
+          {
+            "term": "science",
+            "weight": 0.052291549481106786
+          },
+          {
+            "term": "cosmic earth",
+            "weight": 0.052291549481106786
+          },
+          {
+            "term": "earth energies",
+            "weight": 0.050365173248195366
+          },
+          {
+            "term": "bringers",
+            "weight": 0.04956525388182989
+          },
+          {
+            "term": "level energy",
+            "weight": 0.04818122799949349
+          },
+          {
+            "term": "bringers energy",
+            "weight": 0.04818122799949349
+          },
+          {
+            "term": "basics",
+            "weight": 0.04818122799949349
+          }
+        ],
+        "crimsoncircle:freedom-series:9:channel:en": [
+          {
+            "term": "just assume",
+            "weight": 0.07937984859883924
+          },
+          {
+            "term": "assume",
+            "weight": 0.0678590972832613
+          },
+          {
+            "term": "embodied enlightenment",
+            "weight": 0.06614645033491104
+          },
+          {
+            "term": "going assume",
+            "weight": 0.060157068712342485
+          },
+          {
+            "term": "egypt",
+            "weight": 0.057870327713634796
+          },
+          {
+            "term": "doubts",
+            "weight": 0.05702069288635719
+          },
+          {
+            "term": "you've chosen",
+            "weight": 0.0554284864795944
+          },
+          {
+            "term": "just assuming",
+            "weight": 0.0554284864795944
+          },
+          {
+            "term": "doubting",
+            "weight": 0.05434869429623622
+          },
+          {
+            "term": "assuming",
+            "weight": 0.05297619889617091
+          },
+          {
+            "term": "egyptians",
+            "weight": 0.05252807932516524
+          },
+          {
+            "term": "clear choice",
+            "weight": 0.05252807932516524
+          },
+          {
+            "term": "buts",
+            "weight": 0.04925508690385674
+          },
+          {
+            "term": "choose embodied",
+            "weight": 0.049097625769433745
+          },
+          {
+            "term": "assume happens",
+            "weight": 0.049097625769433745
+          }
+        ],
+        "crimsoncircle:freedom-series:10:channel:en": [
+          {
+            "term": "expectations enlightenment",
+            "weight": 0.07444410918987839
+          },
+          {
+            "term": "expectations",
+            "weight": 0.07264368587165886
+          },
+          {
+            "term": "realization",
+            "weight": 0.06319653250944546
+          },
+          {
+            "term": "cast",
+            "weight": 0.06319653250944546
+          },
+          {
+            "term": "soulmate",
+            "weight": 0.058926574795163784
+          },
+          {
+            "term": "teaching",
+            "weight": 0.056688633065054714
+          },
+          {
+            "term": "birthday",
+            "weight": 0.05372282626688101
+          },
+          {
+            "term": "lot expectations",
+            "weight": 0.04993283237859585
+          },
+          {
+            "term": "little guidance",
+            "weight": 0.04993283237859585
+          },
+          {
+            "term": "realization enlightenment",
+            "weight": 0.04993283237859585
+          },
+          {
+            "term": "discovering",
+            "weight": 0.04993283237859585
+          },
+          {
+            "term": "you're teaching",
+            "weight": 0.04993283237859585
+          },
+          {
+            "term": "discovery",
+            "weight": 0.04700112471683478
+          },
+          {
+            "term": "enlightenment",
+            "weight": 0.04652707696024756
+          },
+          {
+            "term": "make choices",
+            "weight": 0.04566287466431419
+          }
+        ]
+      },
+      "cosine_matrix": [
+        [
+          0.9999999999999892,
+          0.2892618500053487,
+          0.2929806027988908,
+          0.2697940410231415,
+          0.28023926750374045,
+          0.2275915667201632,
+          0.2565874209598125,
+          0.2387994640881794,
+          0.274801613108435,
+          0.28048630098291466
+        ],
+        [
+          0.2892618500053487,
+          0.9999999999999957,
+          0.28717970852753383,
+          0.26473116514416545,
+          0.2682793175040101,
+          0.23624711372329654,
+          0.2523600076773565,
+          0.23373312496985152,
+          0.26202307254062185,
+          0.27452655598212883
+        ],
+        [
+          0.2929806027988908,
+          0.28717970852753383,
+          0.9999999999999944,
+          0.280990885374201,
+          0.2772808085323346,
+          0.2208335609799861,
+          0.2702172048894219,
+          0.24934589800842943,
+          0.27725686460051163,
+          0.2920896504583389
+        ],
+        [
+          0.2697940410231415,
+          0.26473116514416545,
+          0.280990885374201,
+          1.0,
+          0.2996347005756198,
+          0.24977347556797197,
+          0.260982897933692,
+          0.2402577663286147,
+          0.2630157552464932,
+          0.26815205226564837
+        ],
+        [
+          0.28023926750374045,
+          0.2682793175040101,
+          0.2772808085323346,
+          0.2996347005756198,
+          1.0,
+          0.27353194552793636,
+          0.264640224341773,
+          0.24743831062076144,
+          0.2549567008855569,
+          0.27183867905951575
+        ],
+        [
+          0.2275915667201632,
+          0.23624711372329654,
+          0.2208335609799861,
+          0.24977347556797197,
+          0.27353194552793636,
+          0.9999999999999682,
+          0.23073201930792486,
+          0.23393547417852137,
+          0.2224429616793841,
+          0.24237354796485064
+        ],
+        [
+          0.2565874209598125,
+          0.2523600076773565,
+          0.2702172048894219,
+          0.260982897933692,
+          0.264640224341773,
+          0.23073201930792486,
+          0.9999999999999944,
+          0.25471524885376706,
+          0.2473979651934387,
+          0.25285063231581256
+        ],
+        [
+          0.2387994640881794,
+          0.23373312496985152,
+          0.24934589800842943,
+          0.2402577663286147,
+          0.24743831062076144,
+          0.23393547417852137,
+          0.25471524885376706,
+          0.9999999999999923,
+          0.24492604022240472,
+          0.25001776222017463
+        ],
+        [
+          0.274801613108435,
+          0.26202307254062185,
+          0.27725686460051163,
+          0.2630157552464932,
+          0.2549567008855569,
+          0.2224429616793841,
+          0.2473979651934387,
+          0.24492604022240472,
+          0.9999999999999853,
+          0.29773700621238686
+        ],
+        [
+          0.28048630098291466,
+          0.27452655598212883,
+          0.2920896504583389,
+          0.26815205226564837,
+          0.27183867905951575,
+          0.24237354796485064,
+          0.25285063231581256,
+          0.25001776222017463,
+          0.29773700621238686,
+          1.0
+        ]
+      ],
+      "nmf": {
+        "status": "exploratory_fit_complete",
+        "components": 3,
+        "random_state": 42,
+        "iterations": 163,
+        "max_iter": 1000,
+        "convergence_warning": false,
+        "reconstruction_error": 2.2519191244067733,
+        "scope": "Components describe lexical variation; no optimal topic count, validated topic labels or independent creator sample is established.",
+        "component_terms": [
+          [
+            "it's",
+            "going",
+            "just",
+            "you're",
+            "really",
+            "i'm",
+            "yes",
+            "good",
+            "don't",
+            "yeah",
+            "that's",
+            "like"
+          ],
+          [
+            "knowingness",
+            "graduation",
+            "psychic gravity",
+            "awakening human",
+            "graduation day",
+            "facet",
+            "dream",
+            "gravity",
+            "dream dream",
+            "embodied master",
+            "diploma",
+            "vessel"
+          ],
+          [
+            "month month",
+            "blind",
+            "access",
+            "exist that's",
+            "it's",
+            "truth truth",
+            "going",
+            "energy",
+            "new car",
+            "car",
+            "exist",
+            "world blind"
+          ]
+        ],
+        "document_weights": [
+          {
+            "source_id": "crimsoncircle:freedom-series:1:channel:en",
+            "weights": [
+              0.44760591868558247,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:2:channel:en",
+            "weights": [
+              0.43813520447872395,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:3:channel:en",
+            "weights": [
+              0.45019013861858276,
+              0.0,
+              0.005277715038145713
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:4:channel:en",
+            "weights": [
+              0.41664786914883917,
+              0.026688461022493722,
+              0.008556962796591485
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:5:channel:en",
+            "weights": [
+              0.29170522639695445,
+              0.245526685990122,
+              0.03450461289678265
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:6:channel:en",
+            "weights": [
+              0.0,
+              0.842130155125795,
+              0.0
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:7:channel:en",
+            "weights": [
+              0.02413306810695094,
+              0.0,
+              0.7130972735828736
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:8:channel:en",
+            "weights": [
+              0.0,
+              0.0,
+              0.7546845612994689
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:9:channel:en",
+            "weights": [
+              0.4359216127152588,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:10:channel:en",
+            "weights": [
+              0.44690122672685867,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "vocabulary_features": 10000
+    },
+    "name_masked": {
+      "status": "descriptive_fit_complete",
+      "source_ids": [
+        "crimsoncircle:freedom-series:1:channel:en",
+        "crimsoncircle:freedom-series:2:channel:en",
+        "crimsoncircle:freedom-series:3:channel:en",
+        "crimsoncircle:freedom-series:4:channel:en",
+        "crimsoncircle:freedom-series:5:channel:en",
+        "crimsoncircle:freedom-series:6:channel:en",
+        "crimsoncircle:freedom-series:7:channel:en",
+        "crimsoncircle:freedom-series:8:channel:en",
+        "crimsoncircle:freedom-series:9:channel:en",
+        "crimsoncircle:freedom-series:10:channel:en"
+      ],
+      "documents": 10,
+      "name_mask_applied": true,
+      "top_terms": {
+        "crimsoncircle:freedom-series:1:channel:en": [
+          {
+            "term": "tran",
+            "weight": 0.09551911353394575
+          },
+          {
+            "term": "tran it's",
+            "weight": 0.09551911353394575
+          },
+          {
+            "term": "called tran",
+            "weight": 0.09551911353394575
+          },
+          {
+            "term": "it's called",
+            "weight": 0.057072940827319125
+          },
+          {
+            "term": "know happened",
+            "weight": 0.05684599833875722
+          },
+          {
+            "term": "walk like",
+            "weight": 0.051754058032330526
+          },
+          {
+            "term": "keeping freedom",
+            "weight": 0.04928439224714845
+          },
+          {
+            "term": "open heart",
+            "weight": 0.04928439224714845
+          },
+          {
+            "term": "happened know",
+            "weight": 0.04696880677546083
+          },
+          {
+            "term": "like master",
+            "weight": 0.04694013902551238
+          },
+          {
+            "term": "sword",
+            "weight": 0.04670548719391474
+          },
+          {
+            "term": "freedom",
+            "weight": 0.04439537197152235
+          },
+          {
+            "term": "losing",
+            "weight": 0.043795296918863726
+          },
+          {
+            "term": "bit freedom",
+            "weight": 0.04365528991514659
+          },
+          {
+            "term": "thing freedom",
+            "weight": 0.04365528991514659
+          }
+        ],
+        "crimsoncircle:freedom-series:2:channel:en": [
+          {
+            "term": "earthbound",
+            "weight": 0.06329779420685083
+          },
+          {
+            "term": "forgiveness",
+            "weight": 0.0569358128255851
+          },
+          {
+            "term": "selfish",
+            "weight": 0.05482907080410206
+          },
+          {
+            "term": "sinner",
+            "weight": 0.0512411862405287
+          },
+          {
+            "term": "new voice",
+            "weight": 0.0512411862405287
+          },
+          {
+            "term": "voice freedom",
+            "weight": 0.0512411862405287
+          },
+          {
+            "term": "earthbound realms",
+            "weight": 0.0512411862405287
+          },
+          {
+            "term": "program",
+            "weight": 0.05024296608546651
+          },
+          {
+            "term": "dream walk",
+            "weight": 0.05024296608546651
+          },
+          {
+            "term": "student",
+            "weight": 0.04883366245864676
+          },
+          {
+            "term": "s's",
+            "weight": 0.04855988800179401
+          },
+          {
+            "term": "software",
+            "weight": 0.04855988800179401
+          },
+          {
+            "term": "sin",
+            "weight": 0.04796895796527461
+          },
+          {
+            "term": "treval",
+            "weight": 0.045388585289001485
+          },
+          {
+            "term": "happen year",
+            "weight": 0.045388585289001485
+          }
+        ],
+        "crimsoncircle:freedom-series:3:channel:en": [
+          {
+            "term": "getting stuck",
+            "weight": 0.0654114862775642
+          },
+          {
+            "term": "pop",
+            "weight": 0.05885395673892799
+          },
+          {
+            "term": "pop quiz",
+            "weight": 0.05636089971341831
+          },
+          {
+            "term": "joints",
+            "weight": 0.051708258462385234
+          },
+          {
+            "term": "common sense",
+            "weight": 0.051708258462385234
+          },
+          {
+            "term": "memory",
+            "weight": 0.051708258462385234
+          },
+          {
+            "term": "stuck right",
+            "weight": 0.049803370174782105
+          },
+          {
+            "term": "term memory",
+            "weight": 0.049803370174782105
+          },
+          {
+            "term": "europe",
+            "weight": 0.049803370174782105
+          },
+          {
+            "term": "short term",
+            "weight": 0.049803370174782105
+          },
+          {
+            "term": "modeling",
+            "weight": 0.049803370174782105
+          },
+          {
+            "term": "quiz",
+            "weight": 0.04901237358440496
+          },
+          {
+            "term": "benefit",
+            "weight": 0.0476437859492587
+          },
+          {
+            "term": "middle east",
+            "weight": 0.0476437859492587
+          },
+          {
+            "term": "model",
+            "weight": 0.0476437859492587
+          }
+        ],
+        "crimsoncircle:freedom-series:4:channel:en": [
+          {
+            "term": "proclaim",
+            "weight": 0.07620037974586015
+          },
+          {
+            "term": "proclaim sovereignty",
+            "weight": 0.0693984309882196
+          },
+          {
+            "term": "unavailable",
+            "weight": 0.06298175678455219
+          },
+          {
+            "term": "timothy",
+            "weight": 0.05872631067758396
+          },
+          {
+            "term": "old dreams",
+            "weight": 0.05617980802691164
+          },
+          {
+            "term": "cloud",
+            "weight": 0.05324008645981278
+          },
+          {
+            "term": "crystal ceiling",
+            "weight": 0.04992272931042821
+          },
+          {
+            "term": "old dream",
+            "weight": 0.049763133823244196
+          },
+          {
+            "term": "ease grace",
+            "weight": 0.049739081742237595
+          },
+          {
+            "term": "ease",
+            "weight": 0.04945711801971763
+          },
+          {
+            "term": "dream",
+            "weight": 0.04943167791006131
+          },
+          {
+            "term": "attributes",
+            "weight": 0.04942730187855032
+          },
+          {
+            "term": "grace",
+            "weight": 0.04692401101214811
+          },
+          {
+            "term": "allowing grace",
+            "weight": 0.045507687716275974
+          },
+          {
+            "term": "sovereignty good",
+            "weight": 0.045507687716275974
+          }
+        ],
+        "crimsoncircle:freedom-series:5:channel:en": [
+          {
+            "term": "attitude",
+            "weight": 0.05683962577877166
+          },
+          {
+            "term": "royal",
+            "weight": 0.05432493599018271
+          },
+          {
+            "term": "court",
+            "weight": 0.05432493599018271
+          },
+          {
+            "term": "did learn",
+            "weight": 0.05196928667558327
+          },
+          {
+            "term": "year old",
+            "weight": 0.049527553710784204
+          },
+          {
+            "term": "divine intelligence",
+            "weight": 0.04924988911563127
+          },
+          {
+            "term": "winding",
+            "weight": 0.04924988911563127
+          },
+          {
+            "term": "crystalline body",
+            "weight": 0.04924988911563127
+          },
+          {
+            "term": "it's attitude",
+            "weight": 0.04924988911563127
+          },
+          {
+            "term": "compassion compassion",
+            "weight": 0.04924988911563127
+          },
+          {
+            "term": "it's dream",
+            "weight": 0.04924988911563127
+          },
+          {
+            "term": "act",
+            "weight": 0.04823990502659139
+          },
+          {
+            "term": "crystalline",
+            "weight": 0.047745358354391775
+          },
+          {
+            "term": "psychology",
+            "weight": 0.04677304289824291
+          },
+          {
+            "term": "divine",
+            "weight": 0.04660960342913291
+          }
+        ],
+        "crimsoncircle:freedom-series:6:channel:en": [
+          {
+            "term": "knowingness",
+            "weight": 0.07473206412652703
+          },
+          {
+            "term": "graduation",
+            "weight": 0.07263360977660376
+          },
+          {
+            "term": "psychic gravity",
+            "weight": 0.0710027897531849
+          },
+          {
+            "term": "awakening human",
+            "weight": 0.06728810225494102
+          },
+          {
+            "term": "facet",
+            "weight": 0.06514144775502927
+          },
+          {
+            "term": "graduation day",
+            "weight": 0.06514144775502927
+          },
+          {
+            "term": "gravity",
+            "weight": 0.0642237220164268
+          },
+          {
+            "term": "embodied master",
+            "weight": 0.06035885810355362
+          },
+          {
+            "term": "diploma",
+            "weight": 0.060021073723128995
+          },
+          {
+            "term": "ark",
+            "weight": 0.058851814189642374
+          },
+          {
+            "term": "order ark",
+            "weight": 0.058851814189642374
+          },
+          {
+            "term": "doubts",
+            "weight": 0.058851814189642374
+          },
+          {
+            "term": "spiritual family",
+            "weight": 0.057201034356276284
+          },
+          {
+            "term": "spiritual families",
+            "weight": 0.057201034356276284
+          },
+          {
+            "term": "teacher",
+            "weight": 0.057166121292430365
+          }
+        ],
+        "crimsoncircle:freedom-series:7:channel:en": [
+          {
+            "term": "month month",
+            "weight": 0.08565666492861275
+          },
+          {
+            "term": "new car",
+            "weight": 0.07163053211344257
+          },
+          {
+            "term": "polite",
+            "weight": 0.06473904673926757
+          },
+          {
+            "term": "edith edith",
+            "weight": 0.06473904673926757
+          },
+          {
+            "term": "julie",
+            "weight": 0.061705364879984397
+          },
+          {
+            "term": "best answer",
+            "weight": 0.05997454360697933
+          },
+          {
+            "term": "truth truth",
+            "weight": 0.05917544452261971
+          },
+          {
+            "term": "measure",
+            "weight": 0.05806120945726163
+          },
+          {
+            "term": "bob",
+            "weight": 0.05806120945726163
+          },
+          {
+            "term": "denise",
+            "weight": 0.05806120945726163
+          },
+          {
+            "term": "amazing time",
+            "weight": 0.05806120945726163
+          },
+          {
+            "term": "pete pete",
+            "weight": 0.05592228385527747
+          },
+          {
+            "term": "biggest shift",
+            "weight": 0.05592228385527747
+          },
+          {
+            "term": "awakening polite",
+            "weight": 0.05069801240931033
+          },
+          {
+            "term": "voting",
+            "weight": 0.05069801240931033
+          }
+        ],
+        "crimsoncircle:freedom-series:8:channel:en": [
+          {
+            "term": "blind",
+            "weight": 0.07503770846209523
+          },
+          {
+            "term": "world blind",
+            "weight": 0.06541493500112444
+          },
+          {
+            "term": "crystalline energies",
+            "weight": 0.061761807137240825
+          },
+          {
+            "term": "open eye",
+            "weight": 0.05836250142285609
+          },
+          {
+            "term": "does care",
+            "weight": 0.057052106190814855
+          },
+          {
+            "term": "middlelands",
+            "weight": 0.05406728339227128
+          },
+          {
+            "term": "eye open",
+            "weight": 0.05406728339227128
+          },
+          {
+            "term": "crystalline",
+            "weight": 0.053587855706707745
+          },
+          {
+            "term": "science",
+            "weight": 0.0523424052443889
+          },
+          {
+            "term": "cosmic earth",
+            "weight": 0.0523424052443889
+          },
+          {
+            "term": "earth energies",
+            "weight": 0.05041415552838766
+          },
+          {
+            "term": "bringers",
+            "weight": 0.04961345820630383
+          },
+          {
+            "term": "basics",
+            "weight": 0.04822808629973699
+          },
+          {
+            "term": "bringers energy",
+            "weight": 0.04822808629973699
+          },
+          {
+            "term": "level energy",
+            "weight": 0.04822808629973699
+          }
+        ],
+        "crimsoncircle:freedom-series:9:channel:en": [
+          {
+            "term": "just assume",
+            "weight": 0.07944680761090762
+          },
+          {
+            "term": "assume",
+            "weight": 0.06791633823539389
+          },
+          {
+            "term": "embodied enlightenment",
+            "weight": 0.0662022466238236
+          },
+          {
+            "term": "going assume",
+            "weight": 0.06020781279866928
+          },
+          {
+            "term": "egypt",
+            "weight": 0.05791914287315168
+          },
+          {
+            "term": "doubts",
+            "weight": 0.05706879135631548
+          },
+          {
+            "term": "you've chosen",
+            "weight": 0.05547524188113057
+          },
+          {
+            "term": "just assuming",
+            "weight": 0.05547524188113057
+          },
+          {
+            "term": "doubting",
+            "weight": 0.054394538864366765
+          },
+          {
+            "term": "assuming",
+            "weight": 0.053020885727953014
+          },
+          {
+            "term": "clear choice",
+            "weight": 0.052572388156178984
+          },
+          {
+            "term": "egyptians",
+            "weight": 0.052572388156178984
+          },
+          {
+            "term": "buts",
+            "weight": 0.04929663487877279
+          },
+          {
+            "term": "corporations",
+            "weight": 0.04913904092169787
+          },
+          {
+            "term": "choose embodied",
+            "weight": 0.04913904092169787
+          }
+        ],
+        "crimsoncircle:freedom-series:10:channel:en": [
+          {
+            "term": "expectations enlightenment",
+            "weight": 0.0743282970790648
+          },
+          {
+            "term": "expectations",
+            "weight": 0.0725306746651359
+          },
+          {
+            "term": "realization",
+            "weight": 0.06309821816455417
+          },
+          {
+            "term": "cast",
+            "weight": 0.06309821816455417
+          },
+          {
+            "term": "soulmate",
+            "weight": 0.05883490318965587
+          },
+          {
+            "term": "teaching",
+            "weight": 0.056600443007764144
+          },
+          {
+            "term": "birthday",
+            "weight": 0.05363925009172698
+          },
+          {
+            "term": "little guidance",
+            "weight": 0.04985515226690406
+          },
+          {
+            "term": "you're teaching",
+            "weight": 0.04985515226690406
+          },
+          {
+            "term": "realization enlightenment",
+            "weight": 0.04985515226690406
+          },
+          {
+            "term": "discovering",
+            "weight": 0.04985515226690406
+          },
+          {
+            "term": "lot expectations",
+            "weight": 0.04985515226690406
+          },
+          {
+            "term": "discovery",
+            "weight": 0.04692800543952319
+          },
+          {
+            "term": "enlightenment",
+            "weight": 0.04645469515527481
+          },
+          {
+            "term": "you're able",
+            "weight": 0.04559183729200577
+          }
+        ]
+      },
+      "cosine_matrix": [
+        [
+          0.9999999999999993,
+          0.2882975708005091,
+          0.29148977819036914,
+          0.26867784339374756,
+          0.27956040406199995,
+          0.22773183306842892,
+          0.25558301735601335,
+          0.2376581324380977,
+          0.27346689938505375,
+          0.2782145889576613
+        ],
+        [
+          0.2882975708005091,
+          0.9999999999999989,
+          0.2865586545214841,
+          0.2631934929760961,
+          0.2681759511744376,
+          0.236697379642076,
+          0.25145828522299946,
+          0.23262378558004834,
+          0.2609403276030047,
+          0.2731383548167589
+        ],
+        [
+          0.29148977819036914,
+          0.2865586545214841,
+          0.9999999999999994,
+          0.27944557125393926,
+          0.27515137613242924,
+          0.21868218605072515,
+          0.2682684639502162,
+          0.24801434557943064,
+          0.2758058160642796,
+          0.2911280416856286
+        ],
+        [
+          0.26867784339374756,
+          0.2631934929760961,
+          0.27944557125393926,
+          0.9999999999999983,
+          0.2973130884624324,
+          0.24855264990241477,
+          0.2592857803125152,
+          0.2392918321686115,
+          0.26184117663735285,
+          0.266014580373782
+        ],
+        [
+          0.27956040406199995,
+          0.2681759511744376,
+          0.27515137613242924,
+          0.2973130884624324,
+          1.0,
+          0.2711619275658327,
+          0.2627286169889486,
+          0.24699437170074465,
+          0.2539234484587895,
+          0.27105448506961033
+        ],
+        [
+          0.22773183306842892,
+          0.236697379642076,
+          0.21868218605072515,
+          0.24855264990241477,
+          0.2711619275658327,
+          1.0,
+          0.2285949496742146,
+          0.23425538933983864,
+          0.22149747113358587,
+          0.24182628259021302
+        ],
+        [
+          0.25558301735601335,
+          0.25145828522299946,
+          0.2682684639502162,
+          0.2592857803125152,
+          0.2627286169889486,
+          0.2285949496742146,
+          1.0,
+          0.25363230515894,
+          0.24584138962382215,
+          0.25136572916979355
+        ],
+        [
+          0.2376581324380977,
+          0.23262378558004834,
+          0.24801434557943064,
+          0.2392918321686115,
+          0.24699437170074465,
+          0.23425538933983864,
+          0.25363230515894,
+          1.0,
+          0.24371623292669523,
+          0.24853524873724722
+        ],
+        [
+          0.27346689938505375,
+          0.2609403276030047,
+          0.2758058160642796,
+          0.26184117663735285,
+          0.2539234484587895,
+          0.22149747113358587,
+          0.24584138962382215,
+          0.24371623292669523,
+          1.0,
+          0.2962462321880798
+        ],
+        [
+          0.2782145889576613,
+          0.2731383548167589,
+          0.2911280416856286,
+          0.266014580373782,
+          0.27105448506961033,
+          0.24182628259021302,
+          0.25136572916979355,
+          0.24853524873724722,
+          0.2962462321880798,
+          0.9999999999999606
+        ]
+      ],
+      "nmf": {
+        "status": "exploratory_fit_complete",
+        "components": 3,
+        "random_state": 42,
+        "iterations": 132,
+        "max_iter": 1000,
+        "convergence_warning": false,
+        "reconstruction_error": 2.254097739965806,
+        "scope": "Components describe lexical variation; no optimal topic count, validated topic labels or independent creator sample is established.",
+        "component_terms": [
+          [
+            "it's",
+            "going",
+            "just",
+            "you're",
+            "really",
+            "i'm",
+            "yes",
+            "good",
+            "don't",
+            "yeah",
+            "that's",
+            "like"
+          ],
+          [
+            "knowingness",
+            "graduation",
+            "psychic gravity",
+            "awakening human",
+            "facet",
+            "graduation day",
+            "gravity",
+            "dream",
+            "embodied master",
+            "diploma",
+            "dream dream",
+            "vessel"
+          ],
+          [
+            "month month",
+            "blind",
+            "access",
+            "exist that's",
+            "it's",
+            "truth truth",
+            "going",
+            "energy",
+            "new car",
+            "car",
+            "exist",
+            "world blind"
+          ]
+        ],
+        "document_weights": [
+          {
+            "source_id": "crimsoncircle:freedom-series:1:channel:en",
+            "weights": [
+              0.44511525493814963,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:2:channel:en",
+            "weights": [
+              0.43609750392045143,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:3:channel:en",
+            "weights": [
+              0.4482440996588277,
+              0.0,
+              0.004371418466622502
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:4:channel:en",
+            "weights": [
+              0.415372534564639,
+              0.024920525007731415,
+              0.008363008227964019
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:5:channel:en",
+            "weights": [
+              0.30646952365397656,
+              0.21868721928935664,
+              0.032264532829945354
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:6:channel:en",
+            "weights": [
+              0.0,
+              0.8441376277484189,
+              0.0
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:7:channel:en",
+            "weights": [
+              0.024040165875385808,
+              0.0,
+              0.7075421122382732
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:8:channel:en",
+            "weights": [
+              0.0,
+              0.0,
+              0.7489834339194016
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:9:channel:en",
+            "weights": [
+              0.4333839765191558,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "source_id": "crimsoncircle:freedom-series:10:channel:en",
+            "weights": [
+              0.4441128485532975,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "vocabulary_features": 10000
+    }
+  },
+  "methods": {
+    "representation": "English stop words, word unigrams/bigrams, sublinear TF, L2 normalization, min_df=1, max_features=10000",
+    "proper_name_mask": [
+      "adamus",
+      "shaumbra",
+      "geoffrey",
+      "hoppe",
+      "linda",
+      "saint",
+      "germain",
+      "crimson",
+      "circle"
+    ],
+    "mask_scope": "Fixed exact word forms; unrecognized ASR spellings remain. Calendar/genre/series context is not removed.",
+    "question_extraction": "Every ASR segment containing ? or fullwidth ？; retain following segment as context, never automatically as an answer.",
+    "versions": {
+      "scikit-learn": "1.8.0",
+      "numpy": "2.3.5"
+    }
+  },
+  "synthetic_method_diagnostic": {
+    "synthetic_control_not_corpus_data": true,
+    "texts": [
+      "aliens exist",
+      "aliens do not exist"
+    ],
+    "cosine_similarity": 1.0,
+    "features": [
+      "aliens",
+      "aliens exist",
+      "exist"
+    ],
+    "interpretation": "Opposite statements collapse after this lexical preprocessing; a high corpus cosine is not agreement."
+  },
+  "limitations": [
+    "These are unverified ASR versions of downloaded recordings, not human reference transcripts.",
+    "Presenter, facilitator and audience speech may mix. No diarization assigns any turn to a person or claimed entity.",
+    "One creator or one course series is one dependent source context, not independent cross-medium corroboration.",
+    "ASR errors, names, language, recurring introductions, editing and recording length affect word counts and similarities.",
+    "A keyword match records a word form, including negated, quoted, hypothetical and rhetorical uses; it is not a belief or topic label.",
+    "TF-IDF cosine measures word use, not agreement, semantic equivalence, truth, prediction accuracy or extraterrestrial origin.",
+    "NMF components, where fitted, are exploratory lexical patterns in this selected sample; no validated topics or optimal topic count are claimed.",
+    "Publisher text and ASR of the same performance are alternative versions of one source and are not pooled as independent documents.",
+    "Quiet-window fractions and ASR VAD durations do not measure speaking time, emotion or spiritual states.",
+    "Reported timestamp repairs are disclosed per recording; clipping an endpoint does not validate the terminal words or their audio alignment."
+  ],
+  "inference": {
+    "empirical_p_values": null,
+    "confidence_intervals": null,
+    "human_ASR_accuracy": null,
+    "cross_medium_validation": false
+  },
+  "kind": "public_actual_batch_ASR_descriptive_analysis",
+  "documents": [
+    {
+      "source_id": "crimsoncircle:freedom-series:1:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Call to Freedom — Freedom Series, Shoud 1",
+      "published_date": "2012-10-06",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/call-to-freedom",
+      "source_sha256": "8b4e1872188c0b236bf3c763ae5bc950606c31a20e52d531240741e59949d198",
+      "source_bytes": 729297853,
+      "audio_receipt_sha256": "2eae3f74b0b7c17520d3b53817b26a6f776456c8f49fd37fbbea67255455880d",
+      "processing_binding_sha256": "1f55776b598c74957609eda0f79a374601fd2b825b2750459d020be7cb638e5b",
+      "transcript_sha256": "4b1b217ab65e759207fb1594074d62a0f39af4ca95f14bb00474ec64f817ff1a",
+      "transcript_text_sha256": "59bb076a769f6f5bb4993c33a481ed4d69f629339ffb85aa415bbe75d9fd7938",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "5783e137066a22e83fd68f87f90f3449a95e0d0104e98ccbf6dd91975a27bfae",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 7619.456,
+      "source_duration_seconds": 7619.445167,
+      "whitespace_word_count": 14183,
+      "regex_token_count": 14189,
+      "segment_count": 1946,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 320,
+          "per_1000_regex_tokens": 22.552681654803017
+        },
+        "enlightenment": {
+          "mentions": 11,
+          "per_1000_regex_tokens": 0.7752484318838537
+        },
+        "energy": {
+          "mentions": 57,
+          "per_1000_regex_tokens": 4.017196419761787
+        },
+        "fear": {
+          "mentions": 21,
+          "per_1000_regex_tokens": 1.480019733596448
+        },
+        "choice": {
+          "mentions": 28,
+          "per_1000_regex_tokens": 1.973359644795264
+        },
+        "consciousness": {
+          "mentions": 74,
+          "per_1000_regex_tokens": 5.2153076326731975
+        },
+        "relationships": {
+          "mentions": 49,
+          "per_1000_regex_tokens": 3.4533793783917117
+        },
+        "body": {
+          "mentions": 62,
+          "per_1000_regex_tokens": 4.369582070618084
+        },
+        "religion": {
+          "mentions": 23,
+          "per_1000_regex_tokens": 1.620973993938967
+        },
+        "metaphysics": {
+          "mentions": 56,
+          "per_1000_regex_tokens": 3.946719289590528
+        }
+      },
+      "punctuation_question_candidates": 183
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:2:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 2 | The Voice of Freedom",
+      "published_date": null,
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/the-voice-of-freedom",
+      "source_sha256": "31ca90849e89ed8fec982958e8b300ed63863512f5a8cf9af038f02d5cd4b7cf",
+      "source_bytes": 658771754,
+      "audio_receipt_sha256": "d9a00d0ee838994d0d9cfcf0488a7a5bda2a00970ed17ccbe1ac93a677fa552a",
+      "processing_binding_sha256": "9aa49affaa107e3fb3862fd5fb8fb7ce487f4b0e257224b6a674616afdcbdfd7",
+      "transcript_sha256": "3c86561f6854715adb0b03043f7fa48da1d3acb42b9a44af1e2a11b145bee58a",
+      "transcript_text_sha256": "283389b367b0a1405639b0aaf4d4fdfda93c100c712f205efe8b90a4553ca41e",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "b8854790579d9feda489ed9194059b50456524a6185427ff2bea7c8edecb1976",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 6904.1066875,
+      "source_duration_seconds": 6904.097208,
+      "whitespace_word_count": 13943,
+      "regex_token_count": 13950,
+      "segment_count": 2454,
+      "source_language": "unknown",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "English_assumption_with_unknown_source_language_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 93,
+          "per_1000_regex_tokens": 6.666666666666667
+        },
+        "enlightenment": {
+          "mentions": 11,
+          "per_1000_regex_tokens": 0.7885304659498208
+        },
+        "energy": {
+          "mentions": 41,
+          "per_1000_regex_tokens": 2.939068100358423
+        },
+        "fear": {
+          "mentions": 5,
+          "per_1000_regex_tokens": 0.35842293906810035
+        },
+        "choice": {
+          "mentions": 18,
+          "per_1000_regex_tokens": 1.2903225806451613
+        },
+        "consciousness": {
+          "mentions": 37,
+          "per_1000_regex_tokens": 2.652329749103943
+        },
+        "relationships": {
+          "mentions": 31,
+          "per_1000_regex_tokens": 2.2222222222222223
+        },
+        "body": {
+          "mentions": 145,
+          "per_1000_regex_tokens": 10.394265232974911
+        },
+        "religion": {
+          "mentions": 14,
+          "per_1000_regex_tokens": 1.003584229390681
+        },
+        "metaphysics": {
+          "mentions": 21,
+          "per_1000_regex_tokens": 1.5053763440860215
+        }
+      },
+      "punctuation_question_candidates": 202
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:3:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 3 | End of an Era",
+      "published_date": "2012-12-01",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/end-of-an-era",
+      "source_sha256": "f661774f46c36f84bbfb0e4aee577fc0c537de6f900b53f87cdd2040b9016c4e",
+      "source_bytes": 699204030,
+      "audio_receipt_sha256": "8e8a263650c63323a1927c03fe5f8bb56bd874d10fadc503c4f7de41941aaa49",
+      "processing_binding_sha256": "6f9e39d7ee52103437dd4656fe295ddd2b9ddc6a9319fc0bc45aff7b3058c360",
+      "transcript_sha256": "412e1aaa7775dabafdf191074cc18fa1b27fedb0295a40f381470b9362fd84e0",
+      "transcript_text_sha256": "e4aa3894648fdf997b8d2a98881994ff76918829b1e304a1f9fa1a8969652fab",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "b8854790579d9feda489ed9194059b50456524a6185427ff2bea7c8edecb1976",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 7296.0426875,
+      "source_duration_seconds": 7296.022067,
+      "whitespace_word_count": 16129,
+      "regex_token_count": 16126,
+      "segment_count": 960,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 18,
+          "per_1000_regex_tokens": 1.116209847451321
+        },
+        "enlightenment": {
+          "mentions": 36,
+          "per_1000_regex_tokens": 2.232419694902642
+        },
+        "energy": {
+          "mentions": 74,
+          "per_1000_regex_tokens": 4.588862706188763
+        },
+        "fear": {
+          "mentions": 34,
+          "per_1000_regex_tokens": 2.1083963785191617
+        },
+        "choice": {
+          "mentions": 15,
+          "per_1000_regex_tokens": 0.9301748728761007
+        },
+        "consciousness": {
+          "mentions": 34,
+          "per_1000_regex_tokens": 2.1083963785191617
+        },
+        "relationships": {
+          "mentions": 17,
+          "per_1000_regex_tokens": 1.0541981892595809
+        },
+        "body": {
+          "mentions": 86,
+          "per_1000_regex_tokens": 5.333002604489644
+        },
+        "religion": {
+          "mentions": 29,
+          "per_1000_regex_tokens": 1.7983380875604613
+        },
+        "metaphysics": {
+          "mentions": 7,
+          "per_1000_regex_tokens": 0.4340816073421803
+        }
+      },
+      "punctuation_question_candidates": 186
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:4:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 4 | Beyond Your Dream into Freedom",
+      "published_date": "2013-01-05",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/beyond-your-dream-into-freedom",
+      "source_sha256": "022b9adf6253846ef8cd3d3aa85c2eb7034014830445b2333f4958bc344beadc",
+      "source_bytes": 688175650,
+      "audio_receipt_sha256": "8695cf3ddfe22197d81ceba6abd58230f9cf72f1edeb6125ed3862687f0aacf0",
+      "processing_binding_sha256": "4d37f1fa16437381bee608bb54f94cf9b48753121b4d076bbfc23cc84b63eaa5",
+      "transcript_sha256": "77aba84aaa8527d978cf18b6c2d044e71b884e1ccaf5e36332cc47d74f27d097",
+      "transcript_text_sha256": "240488bb452bbd6874f0747865bd487c6ef56b878458ac160d0450bb68346e80",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "b8854790579d9feda489ed9194059b50456524a6185427ff2bea7c8edecb1976",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 7154.5173125,
+      "source_duration_seconds": 7154.514042,
+      "whitespace_word_count": 12257,
+      "regex_token_count": 12244,
+      "segment_count": 708,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 54,
+          "per_1000_regex_tokens": 4.410323423717739
+        },
+        "enlightenment": {
+          "mentions": 5,
+          "per_1000_regex_tokens": 0.40836327997386473
+        },
+        "energy": {
+          "mentions": 69,
+          "per_1000_regex_tokens": 5.635413263639333
+        },
+        "fear": {
+          "mentions": 13,
+          "per_1000_regex_tokens": 1.0617445279320483
+        },
+        "choice": {
+          "mentions": 46,
+          "per_1000_regex_tokens": 3.756942175759556
+        },
+        "consciousness": {
+          "mentions": 26,
+          "per_1000_regex_tokens": 2.1234890558640966
+        },
+        "relationships": {
+          "mentions": 55,
+          "per_1000_regex_tokens": 4.4919960797125125
+        },
+        "body": {
+          "mentions": 51,
+          "per_1000_regex_tokens": 4.165305455733421
+        },
+        "religion": {
+          "mentions": 6,
+          "per_1000_regex_tokens": 0.4900359359686377
+        },
+        "metaphysics": {
+          "mentions": 13,
+          "per_1000_regex_tokens": 1.0617445279320483
+        }
+      },
+      "punctuation_question_candidates": 140
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:5:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 5 | The Dream of the Soul",
+      "published_date": "2013-02-02",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/the-dream-of-the-soul",
+      "source_sha256": "10a91f422094de4dc033ffcfaf2715e43ebdba592ecc25e7400b8dc7bc230994",
+      "source_bytes": 688824868,
+      "audio_receipt_sha256": "a27343dae2b506d7993c7abdeba698b8888335ccca69c85031688e6c9b6cad6d",
+      "processing_binding_sha256": "93019859b8b4782ae5cb51baef74ab74d9b34c152a90cfad2f1cd17ef09dc3ac",
+      "transcript_sha256": "62eceb7bce0525bfcb66bf17cd35f58a0e6f66a4ee376933ffbf7bba583bbcd3",
+      "transcript_text_sha256": "4212f9cdf08e851346ec87e64540fb0004026665c253800ee5db7a6fc47c4246",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "b8854790579d9feda489ed9194059b50456524a6185427ff2bea7c8edecb1976",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 7175.872,
+      "source_duration_seconds": 7175.868708,
+      "whitespace_word_count": 13744,
+      "regex_token_count": 13734,
+      "segment_count": 2365,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 44,
+          "per_1000_regex_tokens": 3.2037279743701763
+        },
+        "enlightenment": {
+          "mentions": 18,
+          "per_1000_regex_tokens": 1.3106159895150722
+        },
+        "energy": {
+          "mentions": 30,
+          "per_1000_regex_tokens": 2.18435998252512
+        },
+        "fear": {
+          "mentions": 11,
+          "per_1000_regex_tokens": 0.8009319935925441
+        },
+        "choice": {
+          "mentions": 20,
+          "per_1000_regex_tokens": 1.45623998835008
+        },
+        "consciousness": {
+          "mentions": 73,
+          "per_1000_regex_tokens": 5.315275957477792
+        },
+        "relationships": {
+          "mentions": 42,
+          "per_1000_regex_tokens": 3.058103975535168
+        },
+        "body": {
+          "mentions": 85,
+          "per_1000_regex_tokens": 6.1890199504878405
+        },
+        "religion": {
+          "mentions": 4,
+          "per_1000_regex_tokens": 0.291247997670016
+        },
+        "metaphysics": {
+          "mentions": 46,
+          "per_1000_regex_tokens": 3.3493519732051844
+        }
+      },
+      "punctuation_question_candidates": 168
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:6:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 6 | Illuminated Dreams",
+      "published_date": "2013-03-02",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/illuminated-dreams",
+      "source_sha256": "10d343b2437e03a757a4bc72d98f81b81319822ab7614486b398bea02a50d264",
+      "source_bytes": 673723813,
+      "audio_receipt_sha256": "23619b9acbf70ffff631b8ab1b3fe1c7498dc21176fd4b23337a8a87c8e3e308",
+      "processing_binding_sha256": "8e74313aecf5833a23de08528d82b7788cf292f564254e357079bf32b7e6cbec",
+      "transcript_sha256": "9de4a64127489851adf12979a9e1cc1fbed5febcd4e1e6b218397257e1cd02c3",
+      "transcript_text_sha256": "a28ee6700a909f5613f2eaf91c3410f3157e258b0c2047d12cac2716e49a30dc",
+      "transcript_source": "machine ASR; unverified; final segment endpoint clipped to recording boundary",
+      "executed_audio_script_sha256": "83aa74614147ed3c61df1ffdab68de1cc6373fcb9f47be40c2742458c9da5b43",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 7002.6453125,
+      "source_duration_seconds": 7002.628967,
+      "whitespace_word_count": 10558,
+      "regex_token_count": 10558,
+      "segment_count": 886,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": "terminal_end_clipped_to_decoded_duration",
+        "timestamp_anomaly_count": 1,
+        "timestamp_repaired_segment_count": 1,
+        "timestamp_maximum_adjustment_seconds": 7.3646875000004,
+        "text_changed_by_repair": false,
+        "terminal_text_alignment_unverified": true,
+        "asr_execution_script_sha256": "83aa74614147ed3c61df1ffdab68de1cc6373fcb9f47be40c2742458c9da5b43",
+        "timestamp_repair_script_sha256": "1b543bf5156e22c74c776c12f857a58407af847a00558d934079cebf3c1a6b2f",
+        "timestamp_repair_helper_sha256": "f5af5b9bb8c3265adb4b695cb77651aa80855dbf955676c939f4e20999d481ab",
+        "status": "reported_by_processing_receipt",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 24,
+          "per_1000_regex_tokens": 2.273157795036939
+        },
+        "enlightenment": {
+          "mentions": 19,
+          "per_1000_regex_tokens": 1.7995832544042432
+        },
+        "energy": {
+          "mentions": 61,
+          "per_1000_regex_tokens": 5.777609395718886
+        },
+        "fear": {
+          "mentions": 6,
+          "per_1000_regex_tokens": 0.5682894487592347
+        },
+        "choice": {
+          "mentions": 25,
+          "per_1000_regex_tokens": 2.367872703163478
+        },
+        "consciousness": {
+          "mentions": 29,
+          "per_1000_regex_tokens": 2.7467323356696345
+        },
+        "relationships": {
+          "mentions": 79,
+          "per_1000_regex_tokens": 7.482477741996591
+        },
+        "body": {
+          "mentions": 61,
+          "per_1000_regex_tokens": 5.777609395718886
+        },
+        "religion": {
+          "mentions": 4,
+          "per_1000_regex_tokens": 0.37885963250615645
+        },
+        "metaphysics": {
+          "mentions": 46,
+          "per_1000_regex_tokens": 4.3568857738208
+        }
+      },
+      "punctuation_question_candidates": 63
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:7:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 7 | It Comes to You",
+      "published_date": "2013-04-06",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/it-comes-to-you",
+      "source_sha256": "6139a01734fb3214266677b5a99c12a5fb99551d48a57fc354857e50a7e09efc",
+      "source_bytes": 661745893,
+      "audio_receipt_sha256": "176f3da64aef927fda5d55cd43a7fc6775af559f1efe813858c1fa43a9a6a587",
+      "processing_binding_sha256": "ffc758642f7e48e6c3a4b8a79fe0af0395591cff6689e4fb29861231e732126d",
+      "transcript_sha256": "05c3faded9de8df738b1b29064aa9744611d599e2aa8c76eac2b729f52e7bc28",
+      "transcript_text_sha256": "d0ddd5edab2e8e3a625c28fd3051cade8ecb02fe63588375c9acfc3568c62a04",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "b8854790579d9feda489ed9194059b50456524a6185427ff2bea7c8edecb1976",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 6870.8053125,
+      "source_duration_seconds": 6870.797271,
+      "whitespace_word_count": 13283,
+      "regex_token_count": 13259,
+      "segment_count": 2588,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 20,
+          "per_1000_regex_tokens": 1.508409382306358
+        },
+        "enlightenment": {
+          "mentions": 73,
+          "per_1000_regex_tokens": 5.505694245418207
+        },
+        "energy": {
+          "mentions": 82,
+          "per_1000_regex_tokens": 6.184478467456068
+        },
+        "fear": {
+          "mentions": 3,
+          "per_1000_regex_tokens": 0.22626140734595368
+        },
+        "choice": {
+          "mentions": 24,
+          "per_1000_regex_tokens": 1.8100912587676294
+        },
+        "consciousness": {
+          "mentions": 16,
+          "per_1000_regex_tokens": 1.2067275058450864
+        },
+        "relationships": {
+          "mentions": 32,
+          "per_1000_regex_tokens": 2.4134550116901727
+        },
+        "body": {
+          "mentions": 71,
+          "per_1000_regex_tokens": 5.354853307187571
+        },
+        "religion": {
+          "mentions": 14,
+          "per_1000_regex_tokens": 1.0558865676144507
+        },
+        "metaphysics": {
+          "mentions": 15,
+          "per_1000_regex_tokens": 1.1313070367297684
+        }
+      },
+      "punctuation_question_candidates": 170
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:8:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 8 | Bringers of the New Energy",
+      "published_date": "2013-05-04",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/bringers-of-the-new-energy",
+      "source_sha256": "3e348e963667ff058d9bb6da95376dcce8ce4bb056fc8460341fd236c1da2daf",
+      "source_bytes": 754888526,
+      "audio_receipt_sha256": "c850fc063489a651523bbd4a7018b7701745c8dfccefc3576df881c67064caca",
+      "processing_binding_sha256": "ff9397f955cc7fe21746f1f26e78513d252b85a582733703f2534f7428307a6e",
+      "transcript_sha256": "fa80e514c3a969c101e37def1ea0a5db39507aa4600a089e5aacab5ea6290e76",
+      "transcript_text_sha256": "75bf23a2671258bc64d5b65842737a0181f855cdc58e3276ce63c85815e3f62c",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "83aa74614147ed3c61df1ffdab68de1cc6373fcb9f47be40c2742458c9da5b43",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 7842.752,
+      "source_duration_seconds": 7842.7349,
+      "whitespace_word_count": 15030,
+      "regex_token_count": 15033,
+      "segment_count": 2466,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 0,
+          "per_1000_regex_tokens": 0.0
+        },
+        "enlightenment": {
+          "mentions": 32,
+          "per_1000_regex_tokens": 2.128650302667465
+        },
+        "energy": {
+          "mentions": 264,
+          "per_1000_regex_tokens": 17.561364997006585
+        },
+        "fear": {
+          "mentions": 14,
+          "per_1000_regex_tokens": 0.9312845074170158
+        },
+        "choice": {
+          "mentions": 6,
+          "per_1000_regex_tokens": 0.39912193175014965
+        },
+        "consciousness": {
+          "mentions": 155,
+          "per_1000_regex_tokens": 10.310649903545533
+        },
+        "relationships": {
+          "mentions": 31,
+          "per_1000_regex_tokens": 2.0621299807091065
+        },
+        "body": {
+          "mentions": 56,
+          "per_1000_regex_tokens": 3.7251380296680634
+        },
+        "religion": {
+          "mentions": 22,
+          "per_1000_regex_tokens": 1.4634470830838822
+        },
+        "metaphysics": {
+          "mentions": 14,
+          "per_1000_regex_tokens": 0.9312845074170158
+        }
+      },
+      "punctuation_question_candidates": 115
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:9:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 9 | How to Live",
+      "published_date": "2013-07-06",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/how-to-live",
+      "source_sha256": "bea56233bc61b178363903e01e947f4acedf32b9c366fd2c1c8cc08f148d4f6f",
+      "source_bytes": 681008737,
+      "audio_receipt_sha256": "e7dc05332adccc7328caae96c3e07d197c48d6439a1cd9d3eb8cca9ffc750ff8",
+      "processing_binding_sha256": "09a9ab7172cb808f62678ab396088e0078a99ab1e4902a49c66b1f0f14b1df97",
+      "transcript_sha256": "9eed06df7492f5f8894cdd71c991903d76cd959216a132b59070b5c8bdaf3c41",
+      "transcript_text_sha256": "bfd4940d3ea3af49247ab7d5f216f23633f834653b106ee1e42c2c4c058543e8",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "83aa74614147ed3c61df1ffdab68de1cc6373fcb9f47be40c2742458c9da5b43",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 7055.5306875,
+      "source_duration_seconds": 7055.515133,
+      "whitespace_word_count": 11461,
+      "regex_token_count": 11460,
+      "segment_count": 2403,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 40,
+          "per_1000_regex_tokens": 3.4904013961605584
+        },
+        "enlightenment": {
+          "mentions": 89,
+          "per_1000_regex_tokens": 7.766143106457243
+        },
+        "energy": {
+          "mentions": 71,
+          "per_1000_regex_tokens": 6.195462478184991
+        },
+        "fear": {
+          "mentions": 13,
+          "per_1000_regex_tokens": 1.1343804537521816
+        },
+        "choice": {
+          "mentions": 50,
+          "per_1000_regex_tokens": 4.363001745200698
+        },
+        "consciousness": {
+          "mentions": 26,
+          "per_1000_regex_tokens": 2.268760907504363
+        },
+        "relationships": {
+          "mentions": 37,
+          "per_1000_regex_tokens": 3.2286212914485164
+        },
+        "body": {
+          "mentions": 49,
+          "per_1000_regex_tokens": 4.275741710296684
+        },
+        "religion": {
+          "mentions": 13,
+          "per_1000_regex_tokens": 1.1343804537521816
+        },
+        "metaphysics": {
+          "mentions": 13,
+          "per_1000_regex_tokens": 1.1343804537521816
+        }
+      },
+      "punctuation_question_candidates": 144
+    },
+    {
+      "source_id": "crimsoncircle:freedom-series:10:channel:en",
+      "provider": "publisher_video",
+      "medium_id": "geoffrey-hoppe",
+      "channel_id": "crimson-circle",
+      "title": "Freedom Series / 10 | Expectations of Enlightenment",
+      "published_date": "2013-08-03",
+      "source_url": "https://www.crimsoncircle.com/library/freedom-series/expectations-of-enlightenment",
+      "source_sha256": "a64c8de1e1d65a9f0a3d819d23207ded6660ef2f1aaa4034d478d1cb3b4fcd79",
+      "source_bytes": 652873636,
+      "audio_receipt_sha256": "2346fbeac26c55fa47d83c6ecb93ddf666a1766958b1697b5b5ccf495d237670",
+      "processing_binding_sha256": "f23150c1f8e777afb232a3889e80fe8d1e6d35ab2a9b43c218b89a188156395f",
+      "transcript_sha256": "3109ea2f7b92cc2df617e395def7305a9c990c70ee78e6835683e74594a84b11",
+      "transcript_text_sha256": "50310b2967b611ae2e8217757c6768e2f75876667104f991ffbb027744ca5310",
+      "transcript_source": "machine ASR; unverified",
+      "executed_audio_script_sha256": "83aa74614147ed3c61df1ffdab68de1cc6373fcb9f47be40c2742458c9da5b43",
+      "asr_model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+      "decoded_duration_seconds": 6782.5493125,
+      "source_duration_seconds": 6782.542438,
+      "whitespace_word_count": 12492,
+      "regex_token_count": 12497,
+      "segment_count": 1984,
+      "source_language": "en",
+      "source_language_status": null,
+      "asr_language": "en",
+      "english_lexical_eligible": true,
+      "asr_timing_quality": {
+        "timestamp_policy": null,
+        "timestamp_anomaly_count": null,
+        "timestamp_repaired_segment_count": null,
+        "timestamp_maximum_adjustment_seconds": null,
+        "text_changed_by_repair": null,
+        "terminal_text_alignment_unverified": null,
+        "asr_execution_script_sha256": null,
+        "timestamp_repair_script_sha256": null,
+        "timestamp_repair_helper_sha256": null,
+        "status": "not_reported_by_original_processing_script",
+        "scope": "Receipt-reported processing diagnostic; a clipped endpoint does not verify terminal words or audio alignment."
+      },
+      "english_eligibility_basis": "metadata_declared_English_not_human_verified",
+      "human_transcript_validation": false,
+      "keyword_counts": {
+        "freedom": {
+          "mentions": 33,
+          "per_1000_regex_tokens": 2.6406337521005043
+        },
+        "enlightenment": {
+          "mentions": 112,
+          "per_1000_regex_tokens": 8.962150916219892
+        },
+        "energy": {
+          "mentions": 17,
+          "per_1000_regex_tokens": 1.3603264783548052
+        },
+        "fear": {
+          "mentions": 9,
+          "per_1000_regex_tokens": 0.7201728414819557
+        },
+        "choice": {
+          "mentions": 38,
+          "per_1000_regex_tokens": 3.040729775146035
+        },
+        "consciousness": {
+          "mentions": 29,
+          "per_1000_regex_tokens": 2.3205569336640792
+        },
+        "relationships": {
+          "mentions": 48,
+          "per_1000_regex_tokens": 3.840921821237097
+        },
+        "body": {
+          "mentions": 50,
+          "per_1000_regex_tokens": 4.000960230455309
+        },
+        "religion": {
+          "mentions": 12,
+          "per_1000_regex_tokens": 0.9602304553092742
+        },
+        "metaphysics": {
+          "mentions": 13,
+          "per_1000_regex_tokens": 1.0402496599183804
+        }
+      },
+      "punctuation_question_candidates": 169
+    }
+  ],
+  "release_scope": "Numerical aggregates, source-page metadata and short algorithmic lexical terms; no question excerpts, transcript bodies or private archive locations.",
+  "private_analysis_sha256": "d1f8152dca9d7549d7b5f689fe2e67e0be432f1739d1f99bfb2afbdaa9f9a68f",
+  "private_output_manifest_sha256": "af24d02bfecfb4acf4fe8ac6ffaa4f9fc31b23fca60af6ccf47ef8d24d5816dd",
+  "figures": [
+    {
+      "file": "figures/recording-coverage.png",
+      "caption": "Source duration and ASR volume have different units; recognized words are not verified speech counts.",
+      "bytes": 114345,
+      "sha256": "c41e7868b11be9dd52e482b3574b088a02fc2e608e52c5425a8309d676a4ad39"
+    },
+    {
+      "file": "figures/recording-coverage.svg",
+      "caption": "Source duration and ASR volume have different units; recognized words are not verified speech counts.",
+      "bytes": 111452,
+      "sha256": "20c15696768e7b59dd7d1eef4cee50ca2b226fe9c454a7b074c3d5012d275d4e"
+    },
+    {
+      "file": "figures/keyword-rates.png",
+      "caption": "Exact dictionary mentions, including negated or quoted uses; rates do not establish topic validity or belief.",
+      "bytes": 147927,
+      "sha256": "45b06f24c7f48f1243535d4462d81625ac88b978d3a332f32c649753535fd9bb"
+    },
+    {
+      "file": "figures/keyword-rates.svg",
+      "caption": "Exact dictionary mentions, including negated or quoted uses; rates do not establish topic validity or belief.",
+      "bytes": 83375,
+      "sha256": "614d0f78ca406a22d7105702e502fc670239f027420e540c1156e8b7fe695c9a"
+    },
+    {
+      "file": "figures/lexical-similarity.png",
+      "caption": "Dependent recording comparisons; proper-name removal is a sensitivity check, not control for genre or speaker identity.",
+      "bytes": 63887,
+      "sha256": "cf92e042fb916b493bbdc71a3b716a940f093c1d6876413982ae761d41641371"
+    },
+    {
+      "file": "figures/lexical-similarity.svg",
+      "caption": "Dependent recording comparisons; proper-name removal is a sensitivity check, not control for genre or speaker identity.",
+      "bytes": 72975,
+      "sha256": "4dd18a3595876d1cc2172296b4e55c8a29546daa761876caacbe4ea3009ffe4f"
+    }
+  ]
+}

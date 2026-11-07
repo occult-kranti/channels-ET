@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "analysis_script_sha256": "91e960d0dc0b22b294badf430f63059dd4b3ea44ec178e101518f4383931000d",
+  "private_analysis_sha256": "d1f8152dca9d7549d7b5f689fe2e67e0be432f1739d1f99bfb2afbdaa9f9a68f",
+  "files": [
+    {
+      "file": "analysis.json",
+      "bytes": 89227,
+      "sha256": "2c98639bf81ec24252ffaf1b933d1b6de8ff9e2721b6c306aa5344b241b9485b"
+    },
+    {
+      "file": "figures/keyword-rates.png",
+      "bytes": 147927,
+      "sha256": "45b06f24c7f48f1243535d4462d81625ac88b978d3a332f32c649753535fd9bb"
+    },
+    {
+      "file": "figures/keyword-rates.svg",
+      "bytes": 83375,
+      "sha256": "614d0f78ca406a22d7105702e502fc670239f027420e540c1156e8b7fe695c9a"
+    },
+    {
+      "file": "figures/lexical-similarity.png",
+      "bytes": 63887,
+      "sha256": "cf92e042fb916b493bbdc71a3b716a940f093c1d6876413982ae761d41641371"
+    },
+    {
+      "file": "figures/lexical-similarity.svg",
+      "bytes": 72975,
+      "sha256": "4dd18a3595876d1cc2172296b4e55c8a29546daa761876caacbe4ea3009ffe4f"
+    },
+    {
+      "file": "figures/recording-coverage.png",
+      "bytes": 114345,
+      "sha256": "c41e7868b11be9dd52e482b3574b088a02fc2e608e52c5425a8309d676a4ad39"
+    },
+    {
+      "file": "figures/recording-coverage.svg",
+      "bytes": 111452,
+      "sha256": "20c15696768e7b59dd7d1eef4cee50ca2b226fe9c454a7b074c3d5012d275d4e"
+    }
+  ],
+  "scope": "Numerical aggregates, source-page metadata and short algorithmic lexical terms; no question excerpts, transcript bodies or private archive locations."
+}

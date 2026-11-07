@@ -1,0 +1,26 @@
+{
+  "raw_practitioner_records": 106,
+  "new_round_lead_records": 11,
+  "contexts_after_explicit_crosswalk": 112,
+  "context_kinds": {
+    "historical_author_archive": 3,
+    "institutional_lineage": 1,
+    "joint_named_context": 3,
+    "person_candidate": 104,
+    "publishing_outlet": 1
+  },
+  "contexts_with_full_candidate_quota": 12,
+  "contexts_with_partial_candidate_quota": 67,
+  "contexts_without_known_eligible_selection": 33,
+  "proposed_context_video_associations": 274,
+  "unique_proposed_uploads": 264,
+  "classification_counts": {
+    "not_bashar_labeled_in_available_metadata": 254,
+    "explicit_bashar_association": 10
+  },
+  "unmeasured_discovery_video_ids": 2,
+  "indexed_publisher_groups": 256,
+  "downloads_by_this_planner": 0,
+  "network_calls_by_this_planner": 0,
+  "cap_slots_consumed": 0
+}

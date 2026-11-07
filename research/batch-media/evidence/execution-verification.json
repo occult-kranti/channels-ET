@@ -1,0 +1,63 @@
+{
+  "kind": "actual-batch-execution-verification",
+  "checked_at": "2026-11-07T01:04:00.564284+00:00",
+  "execution": {
+    "youtubeVideosInReconciledLedger": 0,
+    "youtubeJobAttemptsInLedger": 0,
+    "basharSlotsUsed": 0,
+    "independentCreatorVideos": 10,
+    "creatorContexts": 1,
+    "creatorMediaBytes": 6888514760,
+    "creatorDurationSeconds": 71704.165901,
+    "asrCompletedSources": 10,
+    "asrWhitespaceWords": 133080
+  },
+  "archive": {
+    "status": "completed",
+    "destination": "private managed cloud workspace",
+    "mode": "hardlink",
+    "driveUploadsThisRun": 0,
+    "files": 338,
+    "logicalVerifiedBytes": 9211218422,
+    "newUniqueFileBytes": 1491665,
+    "linkedFiles": 151,
+    "copiedFiles": 187,
+    "receiptSHA256": "07cb2ab045ad91b9da9505ed5142ffe15ece4a0b5b1d81307cd1d34fa8c3554b"
+  },
+  "asr_segments": 18760,
+  "publisher_pdfs": 10,
+  "automated_code_tests_passed": 188,
+  "browser_checks_passed": 38,
+  "independent_receipts": [
+    {
+      "file": "final-acquisition-receipt.json",
+      "sha256": "91d7dd783e890f14bd136f9cef9c4495636fe444a47fec7d86d15ddbc1baf34c"
+    },
+    {
+      "file": "receipt.json",
+      "sha256": "0c0997b5211b88a8e97c5fa22484b4747a70c8fbe738391e00d10b683b769e8a"
+    },
+    {
+      "file": "final-local-archive-receipt.json",
+      "sha256": "07cb2ab045ad91b9da9505ed5142ffe15ece4a0b5b1d81307cd1d34fa8c3554b"
+    },
+    {
+      "file": "final-ten-asr-independent.json",
+      "sha256": "ebc968e278a5e4e12c69d7959ab7677c767586541e5b21c3822d1ff2afcc3384"
+    },
+    {
+      "file": "final-archive-independent.json",
+      "sha256": "19cd18e018e8cc56728df25e7bc58ce9822489bf51a3570452a0abdfc90cb3f3"
+    },
+    {
+      "file": "audio-terminal-recovery-independent.json",
+      "sha256": "a5283ac2fd7b7a2f80dee0b3b5d508533ee33ec6e3ca211616acc34716168975"
+    },
+    {
+      "file": "analysis-timing-provenance-independent.json",
+      "sha256": "a996a59a1c9b38e0baeb7067226ef880ebe17e538a10b43af00d2ee59cb36ee8"
+    }
+  ],
+  "public_status_sha256": "f4d3e18fa17d7f1f166925a0d408ab673d0e96b96ee017c1eab44a9cb878ac70",
+  "scope": "Actual source files and processing receipts; independent model-agent review is not human transcription validation or evidence of entity identity."
+}

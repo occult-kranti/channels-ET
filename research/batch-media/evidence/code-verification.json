@@ -1,0 +1,40 @@
+{
+  "kind": "batch-code-verification",
+  "checked_at": "2026-11-07T00:55:56.510776+00:00",
+  "tests": [
+    {
+      "log": "batch-tests-release.log",
+      "passed": 159,
+      "exit_code": 0,
+      "sha256": "907c442ced17ce4008c8602147e77a892a1ff3e425af6c2f2c128822011fd6c8"
+    },
+    {
+      "log": "runner-tests-final.log",
+      "passed": 29,
+      "exit_code": 0,
+      "sha256": "898edcf5b9693823fb88afdae512c46d7ca14615f2b889bad15e0cec110f46b4"
+    }
+  ],
+  "total_passed": 188,
+  "selection_input_hashes_checked": 6,
+  "scope": "Code and synthetic boundary tests; test cases are not video downloads or evidence of transcription accuracy.",
+  "source_hashes_at_completion": {
+    "research/batch-media/test_export_verified.py": "073d958fa41a32db4f4ba69612e3cf55f473cb87abd77692ee8ac6a104af7ba9",
+    "research/batch-media/test_audio.py": "139fcc3951017b1030fee1a0aeeeba367d7f4054d9f9fbd17c5a074ddfd6ad16",
+    "research/batch-media/storage.py": "38cf81480145ae45dfcb427921bd4a7b04a7aab63ec1eb397b58fdf7202a0502",
+    "research/batch-media/test_build_public.py": "39ea19d7c0aa5befc06ac5e93fbacb3541d63279e7fae89049592084c0a8fd7d",
+    "research/batch-media/selection.py": "8c476d94cf3d475d6f698854b14dabaf4aa483130c7d210c9221df102dcc5c3c",
+    "research/batch-media/package_text.py": "55b184e0f0d9d460592a3c7f4c1f669e3a15449dbfccb949d92807d33c0ad946",
+    "research/batch-media/publisher_video.py": "dabb1ff73746140fc13d909ffc76b61fb4bcfc8960d6fe0ad4fb7e4f8ff72f94",
+    "research/batch-media/audio.py": "9568a970a9830c82e1eb026f9317ee136dc2899bcd6ef9e749725a5dc4aa9150",
+    "research/batch-media/build_public.py": "7276ed03df31557c880a35c1f56c14bd7faf11d9f8ac4067dcdea15ab4ff8df1",
+    "research/batch-media/test_selection.py": "6d3d917ff3088b4a9d4ef1344820924956900dac236f5e3f55caf095e2a4b1cb",
+    "research/batch-media/test_storage.py": "a89675fd8ded67ab4dcd97f8e74caf805b59658ff459db5820fbf223e45ef407",
+    "research/batch-media/analyze.py": "91e960d0dc0b22b294badf430f63059dd4b3ea44ec178e101518f4383931000d",
+    "research/batch-media/test_publisher_video.py": "397d526033bbdb47f5de6009cc8d0998c8144606a0b141d780794e0473618637",
+    "research/batch-media/export_verified.py": "e25443c08dbd687846d72444f0ab41682ea025702b7b58ec8728298cea76fe58",
+    "research/batch-media/test_analyze.py": "f82f9ddf5eaa305ae24b9693d029032078c922c86666789c77536a30c19c2a74",
+    "research/collection-runner/runner.py": "6b74d236bf5cc73496e5536e9fda563d068ea8f426e184542ae947389cac85b5",
+    "research/collection-runner/test_guards.py": "44734c93c2c296998a1c6bb36d000de0dc2008cbf23bee2dfbc137499bf475b3"
+  }
+}

@@ -23,6 +23,7 @@ import concurrent.futures
 import threading
 from urllib.parse import urlsplit, parse_qs
 import urllib.request
+import urllib.error
 import uuid
 
 HERE = Path(__file__).resolve().parent
@@ -31,6 +32,64 @@ PINNED_YTDLP = '2026.10.21'
 CAPS = {'metadata': 4*1024**2, 'captions': 8*1024**2, 'video': 512*1024**2, 'audio': 128*1024**2}
 BASHAR = re.compile(r'\bbashar\b|\bdarryl\s+anka\b', re.I)
 ID = re.compile(r'[A-Za-z0-9_-]{11}')
+VIDEO_HEIGHTS = (360, 480, 720)
+
+def canonical_source(value):
+    if not isinstance(value,str) or not value.startswith('youtube:') or not valid_id(value[8:]):
+        raise ValueError('Source must be canonical youtube:VIDEO_ID')
+    return value
+
+def video_format(height):
+    if type(height) is not int or height not in VIDEO_HEIGHTS: raise ValueError('Video height must be360,480or720')
+    # Prefer a muxed bounded format, avoiding unnecessary merge staging. Every
+    # fallback retains the same explicit bound; never fall back to unrestricted b.
+    return f'b[height<={height}]/bv*[height<={height}]+ba'
+
+def failure_diagnostic(error, private_stderr=None):
+    """Return only fixed categories/numeric codes, never exception text or URLs."""
+    reason=getattr(error,'reason',None)
+    parts=[str(error),str(reason) if reason is not None else '']
+    if private_stderr is not None and Path(private_stderr).is_file():
+        with Path(private_stderr).open('rb') as stream: parts.append(stream.read(65536).decode('utf-8',errors='replace'))
+    text=' '.join(parts).lower()
+    code=getattr(error,'code',None)
+    code=code if type(code) is int and 400<=code<=599 else None
+    if code is None:
+        match=re.search(r'(?:http error|http/\d(?:\.\d)?|status code|tunnel connection failed:)\s*[: ]?\s*([45]\d\d)',text)
+        if match: code=int(match.group(1))
+    category='operation_failed_requires_diagnosis'; scope='configuration'
+    if 'tunnel connection failed' in text: category='proxy_connect_rejected'
+    elif code==429 or 'too many requests' in text: category='rate_limited'
+    elif isinstance(error,ssl.SSLError) or isinstance(reason,ssl.SSLError) or 'certificate_verify_failed' in text: category='tls_verification_failed'
+    elif code in (401,403) or 'sign in to confirm' in text: category='access_rejected'
+    elif isinstance(error,TimeoutError) or isinstance(reason,TimeoutError) or 'timed out' in text: category='transport_timeout'
+    elif any(s in text for s in ('video unavailable','private video','video has been removed','not available in your country')):
+        category='source_unavailable'; scope='source'
+    elif 'requested format is not available' in text:
+        category='bounded_format_unavailable'; scope='source'
+    elif isinstance(error,subprocess.CalledProcessError): category='subprocess_or_media_validation_failed'
+    return {'category':category,'pause_scope':scope,'http_status':code,
+            'error_type':type(error).__name__,'underlying_error_type':type(reason).__name__ if reason is not None else None}
+
+def batch_sources(store,selection=None):
+    """An allowlist schedules existing IDs only; it never grants asset admission."""
+    with store.connect() as c:
+        known={r[0] for r in c.execute('SELECT source_id FROM items')}
+        pending={r[0] for r in c.execute("SELECT DISTINCT source_id FROM jobs WHERE kind IN ('metadata','captions','video') AND status='queued' AND attempts=0")}
+    if selection is None: return sorted(pending),None
+    path=Path(selection)
+    if path.is_symlink() or not path.is_file() or path.stat().st_size>8*1024**2: raise ValueError('Selection must be a bounded ordinary JSON/JSONL file')
+    content_hash=sha(path); selected=[]; seen=set()
+    for row in rows(path):
+        if not isinstance(row,dict): raise ValueError('Selection rows must be objects')
+        video_id=row.get('video_id',row.get('id'))
+        source=canonical_source(row.get('source_id','youtube:'+str(video_id)))
+        if video_id is not None and source!='youtube:'+str(video_id): raise ValueError('Selection source and video ID differ')
+        if source not in known: raise ValueError('Selection contains an unknown source; import metadata-only first')
+        if source not in seen: selected.append(source); seen.add(source)
+    if not selected: raise ValueError('Selection contains no source IDs')
+    if sha(path)!=content_hash: raise ValueError('Selection changed while being read')
+    return [s for s in selected if s in pending],{'sha256':content_hash,'unique_selected_ids':len(selected),'scope':'scheduling_allowlist_not_asset_admission'}
 
 def canonical_watch(url,video_id):
     try:
@@ -293,6 +352,7 @@ class Store:
             status='success'; receipt['http_status']=200
         except Exception as error:
             status='blocked'; receipt['error_type']=type(error).__name__; receipt['reason']='ordinary_watch_probe_failed_no_collection'
+            receipt['diagnostic']=failure_diagnostic(error)
         receipt['status']=status
         with self.connect() as c:
             if prior:c.execute('INSERT INTO events(source_id,kind,record_json) VALUES(?,?,?)',('youtube:'+video_id,'previous_probe_before_explicit_renewal',encoded(dict(prior))))
@@ -323,17 +383,20 @@ class Store:
         # Never reclaim a possibly live process/reservation automatically.
         with self.connect() as c:
             c.execute("UPDATE jobs SET status='expired_held',error='expired_lease_requires_operator_process_and_quarantine_review' WHERE status='running' AND lease_until<?",(time.time(),))
-    def finish(self,job,owner,artifacts,error=None):
+    def finish(self,job,owner,artifacts,error=None,*,unavailable_reason=None):
         with self.connect() as c:
             c.execute('BEGIN IMMEDIATE'); current=c.execute('SELECT * FROM jobs WHERE job_id=?',(job['job_id'],)).fetchone()
             if current['status']!='running' or current['owner']!=owner or current['lease_until']<time.time(): raise ValueError('Stale/foreign worker cannot finalize')
-            if not error and not artifacts: raise ValueError('Successful completion requires verified output files')
+            if unavailable_reason is not None and (job['kind']!='captions' or artifacts or error or unavailable_reason!='no_requested_caption_files_returned'):
+                raise ValueError('Only empty optional captions may finish unavailable')
+            if not error and not artifacts and unavailable_reason is None: raise ValueError('Successful completion requires verified output files')
             if not error and (sum(Path(a['path']).stat().st_size for a in artifacts)>current['reservation_bytes'] or tree_bytes(self.budget_root)>self.quota or shutil.disk_usage(self.budget_root).free<self.reserve_free): raise ValueError('Final artifact/shared-budget reservation check failed')
             for artifact in artifacts:
                 path=Path(artifact['path']).resolve()
                 if not path.is_relative_to(self.raw/'quarantine') or path.is_symlink() or not path.is_file(): raise ValueError('Output must remain inside private quarantine')
                 c.execute('INSERT INTO artifacts VALUES(?,?,?,?,?,?,?)',(str(path.relative_to(self.raw)),job['source_id'],job['kind'],path.stat().st_size,sha(path),encoded(artifact['validation']),'verified_quarantine'))
-            c.execute("UPDATE jobs SET status=?,error=?,owner=NULL,lease_until=NULL,reservation_bytes=0 WHERE job_id=?",('failed_no_retry' if error else 'verified_quarantine',error,job['job_id']))
+            status='unavailable' if unavailable_reason else 'failed_no_retry' if error else 'verified_quarantine'
+            c.execute("UPDATE jobs SET status=?,error=?,owner=NULL,lease_until=NULL,reservation_bytes=0 WHERE job_id=?",(status,unavailable_reason or error,job['job_id']))
     def export(self):
         with self.connect() as c:
             jobs=[dict(r) for r in c.execute('SELECT * FROM jobs ORDER BY job_id')]; items={r['source_id']:r for r in c.execute('SELECT * FROM items')}
@@ -354,11 +417,14 @@ def tool_version(python):
     if version!=PINNED_YTDLP: raise ValueError('yt-dlp version differs from pinned '+PINNED_YTDLP)
     return version
 def execute_one(store,args):
+    if getattr(args,'source_id',None) is not None: canonical_source(args.source_id)
+    height=getattr(args,'max_video_height',720); bounded_video_format=video_format(height)
     gate=store.gate(args.runtime_receipt)
     if not gate['ready']: return {'status':'blocked_before_claim_or_network','gate':gate,'network_collection_requests':0}
     tool_version(args.yt_python)
     owner=uuid.uuid4().hex; job=store.claim(args.kind,owner,gate['fingerprint'],source_id=getattr(args,'source_id',None))
     if not job: return {'status':'no_eligible_or_capacity_available_job','gate':gate}
+    acquisition_started_at=now()
     vid=job['source_id'].split(':',1)[1]; folder=store.raw/'quarantine'/vid/args.kind/owner; folder.mkdir(parents=True)
     proxy=os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')
     command=[str(args.yt_python),'-m','yt_dlp','--ignore-config','--no-cache-dir','--no-playlist','--proxy',proxy,
@@ -369,14 +435,16 @@ def execute_one(store,args):
     if node: command+=['--js-runtimes','node:'+node]
     if args.kind=='metadata': command+=['--skip-download']
     elif args.kind=='captions': command+=['--skip-download','--write-subs','--write-auto-subs','--sub-langs','en.*','--sub-format','vtt']
-    else: command+=['--match-filter','duration >= 300','-f','ba/b' if args.kind=='audio' else 'bv*[height<=720]+ba/b[height<=720]/b']
+    else: command+=['--match-filter','duration >= 300','-f','ba/b' if args.kind=='audio' else bounded_video_format]
+    admission=None
     if args.kind=='metadata': command+=['https://www.youtube.com/watch?v='+vid]
     else:
         # Freeze the exact freshly checked metadata, including title/description/tags and source ID,
         # before the cap reservation. Do not silently re-extract changed identity during media acquisition.
         with store.connect() as c:item=c.execute('SELECT * FROM items WHERE source_id=?',(job['source_id'],)).fetchone()
+        admission={'metadata_sha256':item['metadata_sha256'],'metadata_verified_at':item['metadata_verified_at']}
         command+=['--load-info-json',item['metadata_path']]
-    error=None; artifacts=[]; child=None
+    error=None; diagnostic=None; unavailable=None; artifacts=[]; child=None
     try:
         with (folder/'stdout.log').open('wb') as out,(folder/'stderr.log').open('wb') as err:
             child=subprocess.Popen(command,stdout=out,stderr=err,start_new_session=True)
@@ -406,38 +474,48 @@ def execute_one(store,args):
                         if c.execute('SELECT COUNT(*) FROM bashar_slots').fetchone()[0]>=limit: raise ValueError('Fresh output reclassified Bashar and cap full; quarantine retained')
                         c.execute('INSERT INTO bashar_slots VALUES(?,?)',(job['source_id'],now()))
         outputs=[info] if args.kind=='metadata' else [p for p in folder.iterdir() if p.suffix=='.vtt'] if args.kind=='captions' else [p for p in folder.iterdir() if p.suffix.lower() in {'.mp4','.webm','.mkv','.m4a','.opus','.mp3'}]
-        if not outputs: raise ValueError('No requested complete output; missing captions are not a success')
+        if not outputs:
+            if args.kind=='captions': unavailable='no_requested_caption_files_returned'
+            else: raise ValueError('No requested complete output')
         for path in outputs:
-            validation={'source_video_id':vid,'metadata_sha256':sha(info),'tls_verification':True,'proxy':'explicit_inherited','quarantine_only':True}
+            validation={'source_video_id':vid,'metadata_sha256':sha(info),'tls_verification':True,'proxy':'explicit_inherited','quarantine_only':True,
+                        'validated_at':now(),'metadata_refreshed_at_acquisition':True,'admission_metadata':admission,
+                        'acquisition_started_at':acquisition_started_at,
+                        'source_classification_at_acquisition':update['classification'],
+                        'non_shorts_verified_at_acquisition':update['non_shorts_verified']}
             if args.kind=='captions':
                 if not path.read_bytes().lstrip().startswith(b'WEBVTT'): raise ValueError('Invalid WebVTT')
                 if not re.search(rb'\d{2}:\d{2}(?::\d{2})?\.\d{3}\s+-->\s+\d{2}:\d{2}(?::\d{2})?\.\d{3}',path.read_bytes()): raise ValueError('WebVTT has no timestamped cues')
             elif args.kind in ('video','audio'):
-                parsed=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration:stream=codec_type','-of','json',str(path)],text=True))
+                parsed=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration:stream=codec_type,height','-of','json',str(path)],text=True,stderr=subprocess.PIPE,timeout=60))
                 duration=float(parsed['format']['duration'])
                 if not math.isfinite(duration) or duration<300 or not math.isclose(duration,float(metadata['duration']),abs_tol=5,rel_tol=.02): raise ValueError('Measured output duration fails >=300s/source-metadata match')
                 expected_stream='video' if args.kind=='video' else 'audio'
                 if not any(s.get('codec_type')==expected_stream for s in parsed.get('streams',[])): raise ValueError('Requested media stream is absent')
                 if args.kind=='video' and not any(s.get('codec_type')=='audio' for s in parsed.get('streams',[])): raise ValueError('Video has no audio stream for transcription')
+                if args.kind=='video':
+                    heights=[s.get('height') for s in parsed.get('streams',[]) if s.get('codec_type')=='video']
+                    if not heights or any(type(h) is not int or not 0<h<=height for h in heights): raise ValueError('Measured video height exceeds requested bound or is unavailable')
+                    validation['video_height_limit']=height; validation['measured_video_heights']=heights
                 validation['ffprobe_duration_seconds']=duration
             artifacts.append({'path':str(path),'validation':validation})
     except Exception as caught:
-        error=type(caught).__name__+': '+str(caught)
-        # Public errors contain no downloader logs, proxy URI or signed source endpoints.
-        if proxy: error=error.replace(proxy,'[proxy-redacted]')
+        diagnostic=failure_diagnostic(caught,folder/'stderr.log'); error=encoded(diagnostic)
         if child is not None and child.poll() is None:
             os.killpg(child.pid,signal.SIGKILL); child.wait(timeout=10)
-        # A changed access/extractor failure pauses all future claims, not just this source.
-        store.block_gate(args.runtime_receipt,'bounded_operation_failed_requires_diagnosis_not_bulk_retry')
-    store.finish(job,owner,artifacts if not error else [],error)
-    return {'status':'failed_no_retry' if error else 'verified_quarantine','job_id':job['job_id'],'error':error,'artifact_count':len(artifacts) if not error else 0}
+        # Known source unavailability does not establish a shared transport failure.
+        # Unknown failures remain conservative configuration-wide pauses.
+        if diagnostic['pause_scope']=='configuration': store.block_gate(args.runtime_receipt,diagnostic['category'])
+    store.finish(job,owner,artifacts if not error else [],error,unavailable_reason=unavailable if not error else None)
+    return {'status':'failed_no_retry' if error else 'captions_unavailable' if unavailable else 'verified_quarantine',
+            'job_id':job['job_id'],'error':error,'diagnostic':diagnostic,'unavailable_reason':unavailable if not error else None,
+            'artifact_count':len(artifacts) if not error else 0}
 
 def execute_bounded(store,args):
     gate=store.gate(args.runtime_receipt)
     if not gate['ready']: return {'status':'blocked_before_claim_or_network','gate':gate,'network_collection_requests':0}
     if not 1<=args.workers<=2 or not 1<=args.max_jobs<=3000: raise ValueError('Bounded run requires1-2workers and1-3000maximum job invocations')
-    with store.connect() as c:
-        sources=[r[0] for r in c.execute("SELECT source_id FROM jobs WHERE kind='metadata' AND status='queued' AND attempts=0 ORDER BY source_id")]
+    sources,selection_receipt=batch_sources(store,getattr(args,'selection',None))
     lock=threading.Lock(); stop=threading.Event(); remaining=args.max_jobs; results=[]
     def per_source(source):
         nonlocal remaining
@@ -448,12 +526,15 @@ def execute_bounded(store,args):
             local=argparse.Namespace(**vars(args)); local.kind=kind; local.source_id=source
             result=execute_one(store,local)
             with lock: results.append(result)
-            if result['status'] in ('failed_no_retry','blocked_before_claim_or_network'): stop.set(); return
+            if result['status']=='blocked_before_claim_or_network' or (result['status']=='failed_no_retry' and (result.get('diagnostic') or {}).get('pause_scope')!='source'):
+                stop.set(); return
+            if result['status']=='failed_no_retry': return
     # Per-source metadata->assets scheduling avoids a942-metadata-first stale-cache phase.
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
         for _ in pool.map(per_source,sources): pass
     return {'status':'bounded_execution_stopped' if stop.is_set() else 'bounded_execution_finished',
-            'max_job_invocations':args.max_jobs,'workers':args.workers,'results':results,'summary':store.export()['summary']}
+            'max_job_invocations':args.max_jobs,'workers':args.workers,'selection':selection_receipt,
+            'scheduled_source_ids':sources,'results':results,'summary':store.export()['summary']}
 
 def main():
     p=argparse.ArgumentParser(description=__doc__); p.add_argument('--database',type=Path,default=Path('/workspace/channels-et-raw/collection-runner/state.sqlite'))
@@ -468,7 +549,9 @@ def main():
     refresh=sub.add_parser('refresh-metadata'); refresh.add_argument('--source-id',required=True); refresh.add_argument('--reason',required=True)
     probe=sub.add_parser('probe'); probe.add_argument('--runtime-receipt',type=Path,required=True); probe.add_argument('--video-id',required=True)
     run=sub.add_parser('run-one'); run.add_argument('--runtime-receipt',type=Path,required=True); run.add_argument('--kind',choices=tuple(CAPS),required=True); run.add_argument('--yt-python',type=Path,default=Path('/workspace/channels-et-harvest-venv/bin/python'))
+    run.add_argument('--source-id',type=canonical_source); run.add_argument('--max-video-height',type=int,choices=VIDEO_HEIGHTS,default=720)
     batch=sub.add_parser('run-bounded'); batch.add_argument('--runtime-receipt',type=Path,required=True); batch.add_argument('--max-jobs',type=int,required=True); batch.add_argument('--workers',type=int,default=2); batch.add_argument('--yt-python',type=Path,default=Path('/workspace/channels-et-harvest-venv/bin/python'))
+    batch.add_argument('--selection',type=Path,help='JSON/JSONL existing-source scheduling allowlist; never grants asset admission'); batch.add_argument('--max-video-height',type=int,choices=VIDEO_HEIGHTS,default=720)
     sub.add_parser('expire-leases')
     args=p.parse_args(); store=Store(args.database,args.raw,args.quota_bytes,args.reserve_free_bytes,args.budget_root)
     if args.command=='init': result=store.initialize(args.selection,args.policy,args.conservative_all_materials,args.blocked_probe,args.runtime_receipt)['summary']

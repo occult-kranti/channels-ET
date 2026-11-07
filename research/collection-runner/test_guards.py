@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Offline adversarial guards; synthetic access rows never establish real access."""
 import concurrent.futures
+import argparse
 import json
 from pathlib import Path
 import tempfile
@@ -8,6 +9,8 @@ import time
 import unittest
 from unittest.mock import patch
 import urllib.request
+import urllib.error
+import ssl
 import runner
 
 
@@ -143,5 +146,114 @@ class Guards(unittest.TestCase):
         observed=json.loads(self.runtime.read_text());observed['network_policy']['allowed_hosts']=['b.example','a.example'];runner.save(self.runtime,observed)
         one=runner.config(self.runtime);observed['network_policy']['allowed_hosts']=['a.example','b.example','a.example'];runner.save(self.runtime,observed)
         self.assertEqual(one['fingerprint'],runner.config(self.runtime)['fingerprint'])
+
+    def test_selection_pins_order_deduplicates_and_does_not_admit_assets(self):
+        records=self.seed(3);path=self.root/'batch.json'
+        runner.save(path,{'records':[records[2],records[0],records[2]]})
+        sources,receipt=runner.batch_sources(self.store,path)
+        self.assertEqual(sources,[records[2]['source_id'],records[0]['source_id']])
+        self.assertEqual(receipt['sha256'],runner.sha(path));self.assertEqual(receipt['unique_selected_ids'],2)
+        self.assertEqual(self.store.export()['summary']['attempts'],0)
+        self.assertEqual(self.store.export()['summary']['bashar_unique_youtube_slots_used'],0)
+
+    def test_selection_rejects_unknown_mismatched_empty_and_symlink_sources(self):
+        records=self.seed();path=self.root/'batch.json'
+        for rows in ([],[{'source_id':'youtube:newVIDEO001'}],[{'source_id':records[0]['source_id'],'video_id':'newVIDEO001'}],[{'source_id':'https://www.youtube.com/watch?v=00000000000'}]):
+            runner.save(path,{'records':rows})
+            with self.assertRaises(ValueError):runner.batch_sources(self.store,path)
+        runner.save(path,{'records':records});link=self.root/'alias.json';link.symlink_to(path)
+        with self.assertRaises(ValueError):runner.batch_sources(self.store,link)
+        self.assertEqual(self.store.export()['summary']['attempts'],0)
+
+    def test_pending_assets_remain_schedulable_after_metadata_completion(self):
+        source=self.seed()[0]['source_id']
+        with self.store.connect() as c:c.execute("UPDATE jobs SET status='verified_quarantine',attempts=1 WHERE kind='metadata'")
+        self.assertEqual(runner.batch_sources(self.store)[0],[source])
+        with self.store.connect() as c:c.execute("UPDATE jobs SET status='failed_no_retry',attempts=1 WHERE kind<>'metadata'")
+        self.assertEqual(runner.batch_sources(self.store)[0],[])
+
+    def test_video_selectors_keep_every_fallback_bounded(self):
+        for height in runner.VIDEO_HEIGHTS:
+            value=runner.video_format(height)
+            self.assertEqual(value,f'b[height<={height}]/bv*[height<={height}]+ba')
+            self.assertNotEqual(value.rsplit('/',1)[-1],'b')
+        for bad in (True,None,1080,'720'):
+            with self.assertRaises(ValueError):runner.video_format(bad)
+
+    def fixture_spawn(self,media=False,returncode=0,stderr=''):
+        """Immediate local subprocess fixture; no network or real decoder calls."""
+        def spawn(command,stdout,stderr_stream=None,**kwargs):
+            info=Path(command[command.index('--load-info-json')+1]);metadata=json.loads(info.read_text())
+            output=Path(command[command.index('-o')+1]);folder=output.parent
+            runner.save(folder/(metadata['id']+'.info.json'),metadata)
+            if media:(folder/(metadata['id']+'.mp4')).write_bytes(b'offline controlled media fixture')
+            target=kwargs.get('stderr',stderr_stream)
+            if stderr:target.write(stderr.encode());target.flush()
+            return type('Child',(),{'pid':123456,'returncode':returncode,'poll':lambda self:returncode})()
+        return spawn
+
+    def run_args(self,kind='captions',source='youtube:00000000000',height=720):
+        return argparse.Namespace(runtime_receipt=self.runtime,kind=kind,yt_python=Path('/offline-fixture'),source_id=source,max_video_height=height)
+
+    def test_successful_caption_absence_is_unavailable_and_video_remains_eligible(self):
+        source=self.seed()[0]['source_id']
+        with patch.object(self.store,'gate',return_value={'ready':True,'fingerprint':'offline-fixture'}),patch('runner.tool_version',return_value=runner.PINNED_YTDLP),patch('runner.subprocess.Popen',side_effect=self.fixture_spawn()),patch.object(self.store,'block_gate') as blocked:
+            result=runner.execute_one(self.store,self.run_args(source=source))
+        self.assertEqual(result['status'],'captions_unavailable');self.assertEqual(result['artifact_count'],0);blocked.assert_not_called()
+        self.assertEqual(self.store.export()['summary']['verified_quarantine_artifacts'],0)
+        with self.store.connect() as c:job=c.execute("SELECT * FROM jobs WHERE kind='captions'").fetchone()
+        self.assertEqual(job['status'],'unavailable');self.assertEqual(job['reservation_bytes'],0)
+        self.assertIsNotNone(self.claim('video',source));self.assertEqual(self.store.export()['summary']['bashar_unique_youtube_slots_used'],1)
+
+    def test_empty_video_cannot_be_marked_unavailable_or_verified(self):
+        self.seed();job=self.claim('video')
+        with self.assertRaises(ValueError):self.store.finish(job,'owner',[],unavailable_reason='no_requested_caption_files_returned')
+        with self.assertRaises(ValueError):self.store.finish(job,'owner',[])
+
+    def test_measured_height_over_bound_is_rejected_and_pauses(self):
+        self.seed();probe={'format':{'duration':'600'},'streams':[{'codec_type':'video','height':1080},{'codec_type':'audio'}]}
+        with patch.object(self.store,'gate',return_value={'ready':True,'fingerprint':'offline-fixture'}),patch('runner.tool_version',return_value=runner.PINNED_YTDLP),patch('runner.subprocess.Popen',side_effect=self.fixture_spawn(media=True)),patch('runner.subprocess.check_output',return_value=json.dumps(probe)),patch.object(self.store,'block_gate') as blocked:
+            result=runner.execute_one(self.store,self.run_args(kind='video',height=360))
+        self.assertEqual(result['status'],'failed_no_retry');self.assertEqual(result['artifact_count'],0);blocked.assert_called_once()
+        self.assertEqual(self.store.export()['summary']['verified_quarantine_artifacts'],0)
+
+    def test_source_unavailable_failure_is_local_but_rate_limit_is_global(self):
+        self.seed(2)
+        for source,message,scope in [('youtube:00000000000','ERROR: Video unavailable. source-specific https://signed.invalid/?token=secret','source'),('youtube:00000000001','ERROR: HTTP Error 429: Too Many Requests; token=secret','configuration')]:
+            with patch.object(self.store,'gate',return_value={'ready':True,'fingerprint':'offline-fixture'}),patch('runner.tool_version',return_value=runner.PINNED_YTDLP),patch('runner.subprocess.Popen',side_effect=self.fixture_spawn(returncode=1,stderr=message)),patch.object(self.store,'block_gate') as blocked:
+                result=runner.execute_one(self.store,self.run_args(kind='video',source=source))
+            self.assertEqual(result['diagnostic']['pause_scope'],scope);self.assertNotIn('secret',json.dumps(result));self.assertEqual(blocked.call_count,int(scope=='configuration'))
+
+    def test_sanitized_probe_diagnostic_records_connect_status_without_secrets(self):
+        error=urllib.error.URLError(OSError('Tunnel connection failed: 403 Forbidden https://user:secret@proxy.invalid/?token=secret'))
+        fake=type('Opener',(),{'open':lambda self,*a,**k:(_ for _ in ()).throw(error)})()
+        cfg={'fixture_only':False,'proxy_configured':True,'fingerprint':'new-offline-probe-fixture'}
+        with patch('runner.config',return_value=cfg),patch('runner.urllib.request.proxy_bypass',return_value=False),patch('runner.urllib.request.build_opener',return_value=fake),patch.dict('os.environ',{'HTTPS_PROXY':'http://offline.invalid'}):
+            receipt=self.store.probe(self.runtime,'00000000000')
+        self.assertEqual(receipt['status'],'blocked');self.assertEqual(receipt['diagnostic']['http_status'],403)
+        self.assertEqual(receipt['diagnostic']['category'],'proxy_connect_rejected');self.assertNotIn('secret',json.dumps(receipt))
+        self.assertEqual(receipt['diagnostic']['underlying_error_type'],'OSError')
+
+    def test_diagnostic_categories_never_echo_url_or_unknown_exception_message(self):
+        cases=[(urllib.error.HTTPError('https://secret.invalid/?token=secret',429,'secret',{},None),'rate_limited'),(ssl.SSLCertVerificationError('secret'),'tls_verification_failed'),(TimeoutError('secret'),'transport_timeout'),(ValueError('secret https://private.invalid/'),'operation_failed_requires_diagnosis')]
+        for error,category in cases:
+            result=runner.failure_diagnostic(error);self.assertEqual(result['category'],category);self.assertNotIn('secret',json.dumps(result))
+
+    def test_bounded_allowlist_continues_after_caption_absence_without_touching_others(self):
+        records=self.seed(3);path=self.root/'batch.json';runner.save(path,{'records':[records[2]]});calls=[]
+        def execute(store,args):
+            calls.append((args.source_id,args.kind));return {'status':'captions_unavailable' if args.kind=='captions' else 'verified_quarantine'}
+        args=argparse.Namespace(runtime_receipt=self.runtime,workers=1,max_jobs=3,selection=path)
+        with patch.object(self.store,'gate',return_value={'ready':True,'fingerprint':'offline-fixture'}),patch('runner.execute_one',side_effect=execute):result=runner.execute_bounded(self.store,args)
+        self.assertEqual(calls,[(records[2]['source_id'],k) for k in ('metadata','captions','video')])
+        self.assertEqual(result['selection']['sha256'],runner.sha(path));self.assertEqual(result['status'],'bounded_execution_finished')
+
+    def test_bounded_controller_stops_on_configuration_failure(self):
+        self.seed(2);calls=[]
+        def execute(store,args):
+            calls.append(args.source_id);return {'status':'failed_no_retry','diagnostic':{'pause_scope':'configuration'}}
+        args=argparse.Namespace(runtime_receipt=self.runtime,workers=1,max_jobs=6,selection=None)
+        with patch.object(self.store,'gate',return_value={'ready':True,'fingerprint':'offline-fixture'}),patch('runner.execute_one',side_effect=execute):result=runner.execute_bounded(self.store,args)
+        self.assertEqual(len(calls),1);self.assertEqual(result['status'],'bounded_execution_stopped')
 
 if __name__=='__main__': unittest.main()

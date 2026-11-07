@@ -2,6 +2,14 @@
 
 **[Open the Channeling Atlas dashboard](https://occult-kranti.github.io/channels-ET/dist/#/research-update)** · [Existing private Site](https://channeling-atlas.whatswrong-inc.chatgpt.site)
 
+### Verified video batch · 7 November 2026
+
+**Ten full official Crimson Circle videos and ten matching publisher PDFs are now retained privately:** 19.92 recording hours and 6.89 GB of video. They belong to one Geoffrey Hoppe / claimed Adamus Saint-Germain context in the 2012–2013 Freedom Series. These are successful independent publisher downloads, separate from YouTube and the still-unfilled ten-per-medium request. The [current batch methods and handoff](research/batch-media/README.md) cover source verification, local transcription, keyword/TF-IDF analysis and space-saving private storage. The dashboard distinguishes actual files from the [264 proposed YouTube IDs](research/batch-media/SELECTION.md).
+
+All ten have local machine transcripts: **133,080 recognized words and 18,760 timecoded segments**. The [new analysis](research/batch-media/public/quantitative/analysis.json) includes recording coverage, keyword rates, TF-IDF comparisons and exploratory topic factors; [bounded publisher-text reading](research/batch-media/public/reading-summary.md) adds interpretation and sampling limits. One terminal timestamp correction is explicitly disclosed. No transcript-accuracy or cross-medium agreement claim follows from these counts.
+
+The user selected the managed cloud workspace as the current destination. No Google Drive upload was made in this run; this session exposes no authenticated Drive connection. The November 6 note below is historical, and its published ASR receipt does not itself contain an upload-verification receipt. Cloud files persist with the execution environment, not as permanent ChatGPT-account storage. Originals and full transcripts remain outside public Git and Pages. Ordinary YouTube access currently fails at HTTPS CONNECT with proxy HTTP 403 before an origin response; no YouTube videos have been added to the reconciled ledger.
+
 ### Research update · 6 November 2026
 
 Pages deploys the checked-in static release with route and download-hash checks; full expansion regeneration remains blocked because its external source archive is unavailable. The dashboard's research-update view contains 26 source-linked upcoming session records and 11 channel or practitioner discovery leads. The channel metrics are from the October 23 indexed sample: 925 distinct video IDs, 881 with known durations. Per-channel counts are observed samples, not total YouTube uploads; the latest indexed item is not necessarily the latest published video. Event dates and prices can change.
