@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T02:16:53.711180+00:00",
+  "scope": "Source-linked screening of the second 14 user-selected accounts for a broader channeling/mediumship discovery queue. No change to the frozen Bashar–Ra fitted corpus; inclusion never means every upload is channeling or that entity claims are verified.",
+  "method": "Read accessible official webpages and retained identity records; use explicitly labeled indexed source metadata when direct platform access is unavailable. Search-engine AI summaries, irrelevant name matches, empty pages and blocked page bodies were not treated as verified source content. No alternate YouTube proxy was used.",
+  "channels": [
+    {
+      "id": "subscription-magentapixie",
+      "name": "Magenta Pixie",
+      "handle": "@MagentaPixie",
+      "status": "include",
+      "status_reason": "Official website explicitly presents Magenta Pixie as the channel for the named collective and directly links this YouTube handle. Include in the discovery queue; classify individual uploads separately.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@MagentaPixie",
+      "roles": [
+        "direct_channeler",
+        "teacher"
+      ],
+      "medium_attribution": {
+        "names": [
+          "Magenta Pixie"
+        ],
+        "basis": "Publisher/self-description; not verification of paranormal ability"
+      },
+      "claimed_entities": [
+        "White Winged Collective Consciousness of Nine"
+      ],
+      "identity_evidence": "Fresh official website-to-handle link verified.",
+      "evidence": [
+        {
+          "label": "Magenta Pixie official website",
+          "url": "https://www.magentapixie.com/",
+          "note": "The title and main body identify the channeling role and named collective; the site links youtube.com/@MagentaPixie.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "f7f95b0c88a5fae48d07e25f06ea64c37201e44312c29ca1c54492573821ea26"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-laarkmaa",
+      "name": "Pleiadian Laarkmaa",
+      "handle": "@Laarkmaa",
+      "status": "include",
+      "status_reason": "Official website identifies a joint practice by Pia and Cullen and directly links the handle. Count one channel/joint context, with two attributed human practitioners, rather than inventing two independent archives.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@Laarkmaa",
+      "roles": [
+        "direct_channeler",
+        "joint_practice",
+        "teacher"
+      ],
+      "medium_attribution": {
+        "names": [
+          "Pia Orleane",
+          "Cullen Baird Smith"
+        ],
+        "basis": "Publisher/self-description; not verification of paranormal ability"
+      },
+      "claimed_entities": [
+        "Laarkmaa",
+        "Pleiadian collective (publisher characterization)"
+      ],
+      "identity_evidence": "Fresh official handle and legacy-route links verified.",
+      "evidence": [
+        {
+          "label": "Laarkmaa official website",
+          "url": "https://www.laarkmaa.com/",
+          "note": "Describes Laarkmaa as a collective communicating through Pia and Cullen, and links both @Laarkmaa and the legacy /user/laarkmaa route.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "043bc822bc64096f809a9406fd9992469aaf3bdb8c6a39e9283e7f8d80c21405"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-kristindaviesmedium",
+      "name": "Kristin Davies Medium",
+      "handle": "@KristinDaviesMedium",
+      "status": "include",
+      "status_reason": "Official About page explicitly describes mediumship/channeling and links a stable YouTube channel ID. Include broader angelic/mediumship content without assigning every video to an ET civilization.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@KristinDaviesMedium",
+      "roles": [
+        "direct_channeler",
+        "medium",
+        "teacher"
+      ],
+      "medium_attribution": {
+        "names": [
+          "Kristin Davies"
+        ],
+        "basis": "Publisher/self-description; not verification of paranormal ability"
+      },
+      "claimed_entities": [
+        "Angels",
+        "Archangels",
+        "Spirit Guides",
+        "Ascended Masters"
+      ],
+      "identity_evidence": "Official site-to-stable-channel link verified; submitted handle supported by indexed metadata.",
+      "evidence": [
+        {
+          "label": "Kristin Davies official About page",
+          "url": "https://www.kristindaviesmedium.com/about",
+          "note": "Identifies Kristin as a medium/channeler and describes angelic and spirit-guide content; links channel UC1Y09MHKaJGIfjGTFq3coHw.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "4712a92789815af790593fe6aa3ab3c966f78fb1b0976efe0cbb91e97f56a997"
+        },
+        {
+          "label": "Indexed Kristin Davies sources",
+          "url": "https://search.brave.com/search?q=%22KristinDaviesMedium%22",
+          "note": "Search results include the submitted @KristinDaviesMedium route and the same stable-channel route; direct YouTube page was not rechecked.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "3996ae676b7ab52bccc454ca7dce6c63ab893f552dc63e780593a8718c2e8027"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-comickaustubhagarwal",
+      "name": "Kaustubh Agarwal",
+      "handle": "@ComicKaustubhAgarwal",
+      "status": "exclude",
+      "status_reason": "Indexed video titles explicitly associate this handle with stand-up comedy and comedy shows; an accessible published interview identifies him as a comic. Exclude from the focused channeling acquisition queue unless an individual relevant interview is later documented.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@ComicKaustubhAgarwal",
+      "roles": [
+        "comedian",
+        "entertainment_host"
+      ],
+      "medium_attribution": {
+        "names": [],
+        "basis": "No channeling medium assigned in this focused screening"
+      },
+      "claimed_entities": [],
+      "identity_evidence": "Role supported by exact-handle video metadata plus publisher interview; no direct platform inventory verification.",
+      "evidence": [
+        {
+          "label": "Indexed exact-handle comedy videos",
+          "url": "https://search.brave.com/search?q=%22ComicKaustubhAgarwal%22",
+          "note": "Results explicitly mention @ComicKaustubhAgarwal in stand-up/comedy-show titles; this is metadata evidence, not a watched-video claim.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "7a9ae4252e633fa8b6b1f099ea43c7af0211bbefcfed22bb6b6a2ed59f868a22"
+        },
+        {
+          "label": "Curly Tales interview with Kaustubh Agarwal",
+          "url": "https://curlytales.com/india/celebrity-interviews/vada-pav-in-mumbai-rain-or-momo-in-forty-degree-heat-this-is-what-kaustubh-agarwal-chooses/",
+          "note": "Publisher interview identifies Kaustubh Agarwal as a comic; no channeling role is established.",
+          "access_kind": "fresh_publisher_interview",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "ef4ea959ff042e02aaf89b48b150b6e8ccfc15c11e92aaaa9018db7abafff760"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-tracykumbera",
+      "name": "Tracy Kumbera",
+      "handle": "@TracyKumbera",
+      "status": "include",
+      "status_reason": "Official site describes Tracy as a divine channel, identifies the types of guides claimed, and directly links @TracyKumbera. Preserve podcast/interview, guided practice and channeling formats separately.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@TracyKumbera",
+      "roles": [
+        "direct_channeler",
+        "interviewer",
+        "teacher"
+      ],
+      "medium_attribution": {
+        "names": [
+          "Tracy Kumbera"
+        ],
+        "basis": "Publisher/self-description; not verification of paranormal ability"
+      },
+      "claimed_entities": [
+        "Soul / Higher Self",
+        "Guides",
+        "Angels",
+        "Dragons (publisher claim)"
+      ],
+      "identity_evidence": "Fresh official website-to-handle link verified.",
+      "evidence": [
+        {
+          "label": "Tracy Kumbera official website",
+          "url": "https://tracykumbera.com/",
+          "note": "The main body describes channeling, guidance and a YouTube podcast; the footer directly links the submitted handle.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "6baba4b802ceba73087b1409e56be71e34ce2f4f753e4feaddae3a20cd673908"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-raunaqrajani",
+      "name": "Raunaq Rajani",
+      "handle": "@RaunaqRajani",
+      "status": "exclude",
+      "status_reason": "The indexed channel description presents a comedy talk show and stand-up work; the official site promotes ManChild performances. Exclude from the channeling queue, with any future topical interview assessed on its own content.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@RaunaqRajani",
+      "roles": [
+        "comedian",
+        "entertainment_host"
+      ],
+      "medium_attribution": {
+        "names": [],
+        "basis": "No channeling medium assigned in this focused screening"
+      },
+      "claimed_entities": [],
+      "identity_evidence": "Official performance site plus indexed channel/self-profile descriptions; direct YouTube inventory unverified.",
+      "evidence": [
+        {
+          "label": "Indexed Raunaq Rajani channel and creator profiles",
+          "url": "https://search.yahoo.com/search?p=%22RaunaqRajani%22%20comedian",
+          "note": "The channel result describes comedy, stand-up and relationship entertainment. AI-generated search summaries were not used.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "113bdce22cb0566878c80c946ba0e30be23b9392e9a3cbe54079c27e16c79b23"
+        },
+        {
+          "label": "Raunaq Rajani official performance website",
+          "url": "https://raunaqrajani.in/",
+          "note": "Promotes ManChild live shows and links the associated public social profile; supports performance context rather than mediumship.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "d793f6a3e00761f68c692bb262bd103067fdb55c04157ed63230383e2819b193"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-sahilshahcomedy",
+      "name": "Sahil Shah",
+      "handle": "@SahilShahcomedy",
+      "status": "exclude",
+      "status_reason": "The exact-handle indexed channel description identifies Unpopular Opinions Live as a comedy show, and indexed creator-profile text describes stand-up work. Exclude from focused channeling acquisition.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@SahilShahcomedy",
+      "roles": [
+        "comedian",
+        "entertainment_host"
+      ],
+      "medium_attribution": {
+        "names": [],
+        "basis": "No channeling medium assigned in this focused screening"
+      },
+      "claimed_entities": [],
+      "identity_evidence": "Exact-handle channel description and matching creator-profile slug; no inference from the word comedy alone.",
+      "evidence": [
+        {
+          "label": "Indexed @SahilShahcomedy channel description",
+          "url": "https://search.yahoo.com/search?p=%22SahilShahcomedy%22%20YouTube",
+          "note": "The matching handle is described through a comedy show with fellow comics and stand-up videos; unrelated AI-summary suggestions were ignored.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "4a9fb33b25af77ddc407252632edc39d87273821eae53bb71147a0bf687b2e59"
+        },
+        {
+          "label": "Indexed Sahil Shah creator profile",
+          "url": "https://search.brave.com/search?q=%22SahilShahcomedy%22",
+          "note": "The sahilshahcomedy professional-profile result identifies a stand-up comedian/writer. A different same-name software-engineer website was rejected as an identity mismatch.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "07ffda249424d0dbbc4e729946eabd5d15a7dfe0f3d03492602819d815e8015c"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-akanksshaa",
+      "name": "Multidimensional Soul",
+      "handle": "@Akanksshaa",
+      "status": "include",
+      "status_reason": "Retained channel records and indexed/public podcast material identify Akanksshaa as the host. Self-authored service listings also claim multidimensional channeling. Include with separate host, guest and direct-reading roles; do not attribute every guest claim to the host.",
+      "research_category": "interviewer_and_direct_channeler",
+      "channel_url": "https://www.youtube.com/@Akanksshaa",
+      "roles": [
+        "interviewer",
+        "direct_channeler",
+        "teacher"
+      ],
+      "medium_attribution": {
+        "names": [
+          "Akanksshaa (Akanksha Kulkarni)"
+        ],
+        "basis": "Publisher/self-description; not verification of paranormal ability"
+      },
+      "claimed_entities": [
+        "Akashic Records (claimed access)",
+        "Higher Self / Oversoul",
+        "Spirit guides and deities; specific labels require per-item attribution"
+      ],
+      "identity_evidence": "Submitted spelling corrected to @Akanksshaa from supplied account list; retained repo route and indexed channel/podcast identity agree.",
+      "evidence": [
+        {
+          "label": "Multidimensional Soul publisher podcast",
+          "url": "https://akanksshaa.podbean.com/",
+          "note": "Publisher episode descriptions identify Akanksshaa as host and name guests; supports an interview/podcast stratum.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "c1dd9c3d3cbcbf606f64cfc0392ff6be448701aebbea93c5c23c0a76757e532e"
+        },
+        {
+          "label": "Indexed channel and self-authored service profiles",
+          "url": "https://search.brave.com/search?q=%22Akanksshaa%22%20%22Multidimensional%22",
+          "note": "Matches the Multidimensional Soul channel and identifies host plus multidimensional-channeling services. Topmate body returned 403, so service-role evidence remains indexed rather than a full-page reading.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "3cc6020b8aae6af4a5b62cfd1697bf214f7c9f831f3a6b2cb3714f05aa145293"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-adityagundeti",
+      "name": "Aditya Gundeti",
+      "handle": "@AdityaGundeti",
+      "status": "exclude",
+      "status_reason": "Indexed channel text states that the channel posts stand-up videos and funny content, with named stand-up releases tied to the same account. Exclude from the focused channeling queue.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@AdityaGundeti",
+      "roles": [
+        "comedian",
+        "entertainment_creator"
+      ],
+      "medium_attribution": {
+        "names": [],
+        "basis": "No channeling medium assigned in this focused screening"
+      },
+      "claimed_entities": [],
+      "identity_evidence": "Exact handle/legacy channel metadata and content descriptions; direct platform inventory unverified.",
+      "evidence": [
+        {
+          "label": "Indexed Aditya Gundeti channel and releases",
+          "url": "https://search.brave.com/search?q=%22AdityaGundeti%22",
+          "note": "Matching @AdityaGundeti and /c/AdityaGundeti routes appear with a stand-up/funny-content description and several explicitly titled stand-up performances.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "1a12725c599562bbdf4331d9f34e69af7d70c6a922ab817f99df17b2f8f3280e"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-arkaylalove",
+      "name": "Arkayla",
+      "handle": "@arkaylalove",
+      "status": "include",
+      "status_reason": "Official arkayla.love explicitly offers Pleiadian channeling and links the same stable channel ID already mapped to this handle in retained records. Include as publisher-attributed direct channeling, with teaching/practice content tagged separately.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@arkaylalove",
+      "roles": [
+        "direct_channeler",
+        "teacher"
+      ],
+      "medium_attribution": {
+        "names": [
+          "Arkayla"
+        ],
+        "basis": "Publisher/self-description; not verification of paranormal ability"
+      },
+      "claimed_entities": [
+        "Pleiadians"
+      ],
+      "identity_evidence": "Fresh official stable-channel link agrees with retained handle mapping.",
+      "evidence": [
+        {
+          "label": "Arkayla official website",
+          "url": "https://www.arkayla.love/",
+          "note": "Describes sessions in which Arkayla channels Pleiadians and links YouTube channel UCztMyD_EcSK7JxeH2cMTcdg. The site distinguishes its guidance from specific-date prediction.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "028013dec545b1eb4ac822493c598b940596379bf06a3281561144cf99ca0bf4"
+        },
+        {
+          "label": "Retained account mapping",
+          "url": "https://www.youtube.com/channel/UCztMyD_EcSK7JxeH2cMTcdg",
+          "note": "Existing research/expansion/acquisition/identity-map.json links this stable ID to @arkaylalove; fresh official-site link agrees. The YouTube page itself was not freshly fetched.",
+          "access_kind": "inherited_repository_mapping_plus_fresh_official_link"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-theangelsofatlantis",
+      "name": "The Angels of Atlantis",
+      "handle": "@TheAngelsOfAtlantis",
+      "status": "include",
+      "status_reason": "Official website identifies Stewart Pearce as the emissary/channel and directly links @TheAngelsOfAtlantis. Include in the angelic/channeling comparison stratum; it is not automatically an ET-civilization account.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@TheAngelsOfAtlantis",
+      "roles": [
+        "direct_channeler",
+        "teacher"
+      ],
+      "medium_attribution": {
+        "names": [
+          "Stewart Pearce"
+        ],
+        "basis": "Publisher/self-description; not verification of paranormal ability"
+      },
+      "claimed_entities": [
+        "The Twelve Angels of Atlantis",
+        "Angelic orbs / collective of light beings (publisher characterization)"
+      ],
+      "identity_evidence": "Fresh official website-to-handle link verified; not conflated with Amanda Ellis or other angelic projects.",
+      "evidence": [
+        {
+          "label": "The Angels of Atlantis official website",
+          "url": "https://www.theangelsofatlantis.com/",
+          "note": "Names Stewart Pearce, describes the claimed Twelve/angelic collective speaking through him, and directly links @TheAngelsOfAtlantis.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "b662bade4138f55d5fac0c58579b971ebb3ee88658cc1aeb67833ae7dc0654a5"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-hisaimansays",
+      "name": "Saiman Says",
+      "handle": "@HiSaimanSays",
+      "status": "exclude",
+      "status_reason": "Indexed posts from the exact creator handle describe reaction videos, creator collaborations and meme entertainment, and link the matching YouTube handle. No channeling source role is supported by this bounded evidence.",
+      "research_category": "commentary",
+      "channel_url": "https://www.youtube.com/@HiSaimanSays",
+      "roles": [
+        "commentary",
+        "entertainment_creator"
+      ],
+      "medium_attribution": {
+        "names": [],
+        "basis": "No channeling medium assigned in this focused screening"
+      },
+      "claimed_entities": [],
+      "identity_evidence": "Exact creator handle and explicit YouTube link in indexed self-profile; role inferred from documented content descriptions rather than the name.",
+      "evidence": [
+        {
+          "label": "Indexed Saiman Says public posts and channel links",
+          "url": "https://search.brave.com/search?q=%22HiSaimanSays%22",
+          "note": "Exact-handle public-profile results link youtube.com/@HiSaimanSays and describe reaction/collaboration content. This is indexed creator-post evidence, not a complete channel audit.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "52e63ea2da6394dc719159202f66ed9ad22c56ed5dd8a3310e61bc3e4c9bf334"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-thegalacticguide111",
+      "name": "The Galactic Guide",
+      "handle": "@thegalacticguide111",
+      "status": "include",
+      "status_reason": "Official site identifies RYOKAH as channeled by Tyler Ellison and links the stable channel ID already bound to the supplied handle in the retained browser account audit. Preserve Tyler as practitioner and RYOKAH as attributed entity.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@thegalacticguide111",
+      "roles": [
+        "direct_channeler",
+        "teacher"
+      ],
+      "medium_attribution": {
+        "names": [
+          "Tyler Ellison"
+        ],
+        "basis": "Publisher/self-description; not verification of paranormal ability"
+      },
+      "claimed_entities": [
+        "RYOKAH (also styled Ryo/Ryokah in retained sources)",
+        "Sassani characterization (retained publisher account description)"
+      ],
+      "identity_evidence": "Fresh official stable-channel link agrees with prior browser-verified handle mapping.",
+      "evidence": [
+        {
+          "label": "The Galactic Guide official website",
+          "url": "https://www.thegalacticguide.com/optin1652320399202",
+          "note": "Title and main body identify Tyler Ellison and RYOKAH; official site links channel UCLw58p9pkhoNAXd9PpjMxdg.",
+          "access_kind": "fresh_official_webpage",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "5d9a719e4c2b298d0bfce003cd406d590e4db0502c0ccd9f8c101ff0f2b70d6f"
+        },
+        {
+          "label": "Retained official account identity audit",
+          "url": "https://www.youtube.com/channel/UCLw58p9pkhoNAXd9PpjMxdg/videos",
+          "note": "research/youtube/focus.json records an actual browser-rendered account inspection on 2026-10-22 linking this channel to @thegalacticguide111 and the RYOKAH/Sassani description. It is inherited evidence, not a new YouTube visit.",
+          "access_kind": "inherited_browser_account_record",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-deveshdixit2347",
+      "name": "Devesh Dixit",
+      "handle": "@deveshdixit2347",
+      "status": "exclude",
+      "status_reason": "Exact-handle indexed videos describe stand-up, comedy interviews and a comedy game show; indexed creator profile describes a stand-up comic/storyteller. Exclude from focused channeling acquisition. A playful Cult Leader title does not establish a channeling claim.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@deveshdixit2347",
+      "roles": [
+        "comedian",
+        "entertainment_host"
+      ],
+      "medium_attribution": {
+        "names": [],
+        "basis": "No channeling medium assigned in this focused screening"
+      },
+      "claimed_entities": [],
+      "identity_evidence": "Exact-handle content metadata plus creator self-profile description; no attribution based on a name or sensational title alone.",
+      "evidence": [
+        {
+          "label": "Indexed @deveshdixit2347 comedy sources",
+          "url": "https://search.brave.com/search?q=%22deveshdixit2347%22",
+          "note": "Matching handle appears in comedy interviews and a comedy quiz description, alongside explicitly titled stand-up releases. Same-name news/person results were ignored.",
+          "access_kind": "search_indexed_source_metadata_not_direct_platform_visit",
+          "retrieved_at": "2026-11-07",
+          "retained_response_sha256": "61c44c824ce3eabd9002fddc7dc71845fcd198363a9c4b3e92636f751f9da111"
+        }
+      ],
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    }
+  ],
+  "summary": {
+    "accounts": 14,
+    "include": 8,
+    "exclude": 6,
+    "uncertain": 0
+  },
+  "limitations": [
+    "Role screening is based on the listed evidence, not complete upload inventories or watched-video review.",
+    "Included accounts need per-upload format, speaker and claimed-entity tagging; interview hosts and guests remain separate.",
+    "Entity and healing descriptions are publisher claims, not empirical validation.",
+    "Direct YouTube access was not refreshed; stable IDs, official website links, retained account audits and indexed metadata have different evidence strength.",
+    "Supplied screenshots remain private; the public artifact records only the selected channel list and relevant research decisions."
+  ],
+  "human_reviewed": false
+}

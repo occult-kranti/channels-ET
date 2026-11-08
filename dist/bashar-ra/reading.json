@@ -1,0 +1,1320 @@
+{
+  "schema_version": 1,
+  "status": "exploratory_AI_assisted_reading_of_listed_sources",
+  "coverage": {
+    "ra": {
+      "inspected_sources": 28,
+      "available_sources": 106,
+      "unique_inspected_characters": 33050,
+      "unique_inspected_whitespace_words": 5569,
+      "available_whitespace_words": 278601,
+      "word_coverage_pct": 1.9989160125053391
+    },
+    "bashar": {
+      "inspected_sources": 19,
+      "available_sources": 19,
+      "unique_inspected_characters": 34445,
+      "unique_inspected_whitespace_words": 6305,
+      "available_whitespace_words": 222699,
+      "word_coverage_pct": 2.8311757125088124
+    },
+    "bashar_official_pages": {
+      "inspected_sources": 5,
+      "available_sources": 5,
+      "inspected_main_text_words": 1646
+    },
+    "bashar_handouts": {
+      "visually_inspected_pages": 3,
+      "visually_inspected_documents": 3,
+      "available_documents": 35,
+      "available_pages": 59,
+      "text_only_word_fraction_not_reported": "OCR corruption and diagram semantics make this fraction misleading"
+    }
+  },
+  "selection": {
+    "fixed_windows": 50,
+    "ra_fixed_exchanges": 22,
+    "bashar_asr_windows": 28,
+    "supplemental_ra_exchanges": 9,
+    "official_pages_read_in_full": 5,
+    "official_handout_pages_visually_inspected": 3,
+    "random_or_representative_sample": false,
+    "model_assisted": true,
+    "human_validated": false,
+    "audio_verified": false
+  },
+  "source_strata": {
+    "ra": "lawofone.info Lightly Edited published dialogue; documentary roles, unverified entity identity",
+    "bashar_primary": "Five official written teaching pages and three visually inspected handout pages; no recorded-voice/session equivalence",
+    "bashar_context": "19 mixed-speaker ASR recordings: 17 interviews, one promotional interview, one skeptical commentary; samples only"
+  },
+  "comparisons": [
+    {
+      "id": "ontology",
+      "theme": "Ontology",
+      "question_family": "What is the relation between consciousness, identity and physical reality?",
+      "ra": {
+        "summary": "Ra presents unity as fundamental while describing density-specific development and experience.",
+        "locators": [
+          {
+            "label": "Ra 1.7",
+            "url": "https://www.lawofone.info/s/1#1.7",
+            "source_id": "ra:session:001:lightly-edited",
+            "question_id": "1.7",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 19.1",
+            "url": "https://www.lawofone.info/s/19#19.1",
+            "source_id": "ra:session:019:lightly-edited",
+            "question_id": "19.1",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 4.20",
+            "url": "https://www.lawofone.info/s/4#4.20",
+            "source_id": "ra:session:004:lightly-edited",
+            "question_id": "4.20",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The official Principles and Five Laws present nonphysical consciousness, an underlying unity, and physical experience interpreted through the self.",
+        "locators": [
+          {
+            "label": "Bashar's Basic Principles",
+            "url": "https://www.bashar.org/principles",
+            "source_id": "bashar:official:principles",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "The Five Laws of Creation",
+            "url": "https://www.bashar.org/fivelaws",
+            "source_id": "bashar:official:fivelaws",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "The 9 Levels of Consciousness (PDF, p. 1)",
+            "url": "https://d11n7da8rpqbjy.cloudfront.net/basharet/1824_17089885180499_Levels_of_Consciousness.pdf",
+            "source_id": "bashar:handout:a7b5e408a30002f1",
+            "source_kind": "authored_reference",
+            "page": 1,
+            "image_inspected": true
+          }
+        ]
+      },
+      "interpretation": "The sampled sources share a broad unity-oriented metaphysical vocabulary. They do not supply the same developmental taxonomy or demonstrate a physical mechanism.",
+      "counterpoint": "The Nine Levels handout groups several psychological layers within a single density; a list of nine levels cannot be equated one-for-one with nine densities or with Ra categories.",
+      "evidence_limits": "These are attributed metaphysical propositions, not empirically established descriptions of reality. Ra 1.7 has a lost original question."
+    },
+    {
+      "id": "agency",
+      "theme": "Agency and free will",
+      "question_family": "What can individuals or teachers influence, and what limits intervention?",
+      "ra": {
+        "summary": "Ra narrates contact intended as service that allegedly became distorted through elite capture; teaching can offer catalysts but cannot directly confer enlightenment.",
+        "locators": [
+          {
+            "label": "Ra 2.2",
+            "url": "https://www.lawofone.info/s/2#2.2",
+            "source_id": "ra:session:002:lightly-edited",
+            "question_id": "2.2",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 17.2",
+            "url": "https://www.lawofone.info/s/17#17.2",
+            "source_id": "ra:session:017:lightly-edited",
+            "question_id": "17.2",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The official Message says interaction should preserve human responsibility and provide reflection; the Principles assert freedom of choice.",
+        "locators": [
+          {
+            "label": "A Message from Bashar",
+            "url": "https://www.bashar.org/message",
+            "source_id": "bashar:official:message",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "Bashar's Basic Principles",
+            "url": "https://www.bashar.org/principles",
+            "source_id": "bashar:official:principles",
+            "source_kind": "authored_reference"
+          }
+        ]
+      },
+      "interpretation": "Both frame the recipient as responsible for choices rather than a passive recipient of salvation.",
+      "counterpoint": "Ra explicitly narrates an unsuccessful intervention and responsibility for its effects. The inspected Bashar Message instead presents a current noninterference stance; these are different narrative roles.",
+      "evidence_limits": "Agency language does not establish that people control external harms or cause their own illness. The alleged contacts are not verified by the documents."
+    },
+    {
+      "id": "ethics",
+      "theme": "Ethics and polarity",
+      "question_family": "How are service, power and obligations to others distinguished?",
+      "ra": {
+        "summary": "Ra contrasts care for others with a negatively oriented hierarchy that expands control, while its unity claims operate at a different explanatory level.",
+        "locators": [
+          {
+            "label": "Ra 18.6",
+            "url": "https://www.lawofone.info/s/18#18.6",
+            "source_id": "ra:session:018:lightly-edited",
+            "question_id": "18.6",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 50.6",
+            "url": "https://www.lawofone.info/s/50#50.6",
+            "source_id": "ra:session:050:lightly-edited",
+            "question_id": "50.6",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 87.15",
+            "url": "https://www.lawofone.info/s/87#87.15",
+            "source_id": "ra:session:087:lightly-edited",
+            "question_id": "87.15",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 4.20",
+            "url": "https://www.lawofone.info/s/4#4.20",
+            "source_id": "ra:session:004:lightly-edited",
+            "question_id": "4.20",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The official Message emphasizes unconditional love, reciprocity, and respect for differing belief systems; the Formula asks for a positive stance while investigating beliefs.",
+        "locators": [
+          {
+            "label": "A Message from Bashar",
+            "url": "https://www.bashar.org/message",
+            "source_id": "bashar:official:message",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "The Follow Your Excitement Formula",
+            "url": "https://www.bashar.org/formula",
+            "source_id": "bashar:official:formula",
+            "source_kind": "authored_reference"
+          }
+        ]
+      },
+      "interpretation": "Both connect personal orientation to relations with others, but Ra gives a more explicit service/control contrast in these passages.",
+      "counterpoint": "Ra 45.10 uses positive/negative terminology about ears and magnetic polarity. That keyword hit is not evidence of moral categorization. Unity language also cannot be read as endorsing all conduct.",
+      "evidence_limits": "This is a scoped reading of these passages, not a quantified ranking of either teaching as more ethical."
+    },
+    {
+      "id": "fear",
+      "theme": "Fear, desire and acceptance",
+      "question_family": "How should difficult feelings and desires be approached?",
+      "ra": {
+        "summary": "Ra recommends examining and accepting desire rather than suppression, while distinguishing imagined exploration from carrying out actions inconsistent with others free will.",
+        "locators": [
+          {
+            "label": "Ra 18.5",
+            "url": "https://www.lawofone.info/s/18#18.5",
+            "source_id": "ra:session:018:lightly-edited",
+            "question_id": "18.5",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The Formula proposes investigating and replacing fear-based beliefs. The inspected Spectrum of Fear handout also distinguishes a protective role for fear.",
+        "locators": [
+          {
+            "label": "The Follow Your Excitement Formula",
+            "url": "https://www.bashar.org/formula",
+            "source_id": "bashar:official:formula",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "The Spectrum of Fear (PDF, p. 1)",
+            "url": "https://d11n7da8rpqbjy.cloudfront.net/basharet/1850_1708989118894Spectrum_of_Fear.pdf",
+            "source_id": "bashar:handout:64e18b2efaa738f2",
+            "source_kind": "authored_reference",
+            "page": 1,
+            "image_inspected": true
+          }
+        ]
+      },
+      "interpretation": "Both encourage reflective work with internal experience. Acceptance of desire and replacement of beliefs are different practices, not interchangeable instructions.",
+      "counterpoint": "The Bashar handout prevents the blanket reading that all fear is necessarily harmful. The Ra keyword-selected 91.28 passage concerns a tarot image rather than fear management.",
+      "evidence_limits": "The question family is intentionally broad: desire, fear and doubt are not identical constructs. No psychological or therapeutic efficacy is measured."
+    },
+    {
+      "id": "practice",
+      "theme": "Practices",
+      "question_family": "What can a reader actually do according to each source?",
+      "ra": {
+        "summary": "Ra proposes attention to love in the present and recognition of the Creator in other people, oneself and the surroundings, supported by contemplation, meditation or prayer.",
+        "locators": [
+          {
+            "label": "Ra 10.14",
+            "url": "https://www.lawofone.info/s/10#10.14",
+            "source_id": "ra:session:010:lightly-edited",
+            "question_id": "10.14",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 75.8",
+            "url": "https://www.lawofone.info/s/75#75.8",
+            "source_id": "ra:session:075:lightly-edited",
+            "question_id": "75.8",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The Formula links acting on enthusiasm with effort, release of outcome demands, an enduring positive stance and belief review. Seven Steps pairs intention and action with allowance.",
+        "locators": [
+          {
+            "label": "The Follow Your Excitement Formula",
+            "url": "https://www.bashar.org/formula",
+            "source_id": "bashar:official:formula",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "Seven Sequential Steps of Manifestation",
+            "url": "https://www.bashar.org/sevensteps",
+            "source_id": "bashar:official:sevensteps",
+            "source_kind": "authored_reference"
+          }
+        ]
+      },
+      "interpretation": "The sources offer different practical sequences within a shared language of inner orientation: contemplative recognition in this Ra example, action and belief review in the Bashar pages.",
+      "counterpoint": "The official Formula contains more than an instruction to follow excitement. Omitting its outcome and belief conditions changes the advice. Ra 75.8 is individualized situational guidance, not the same general exercise.",
+      "evidence_limits": "Instructions are document content; this project does not test outcomes or reproduce the associated complete Bashar sessions."
+    },
+    {
+      "id": "time",
+      "theme": "Time and probability",
+      "question_family": "How do the sources relate the present, future, alternatives and higher self?",
+      "ra": {
+        "summary": "Ra 36.4–36.6 allows an all-at-once frame but rejects the questioners simpler simultaneity interpretation; the higher self is described as future-relative from human space/time.",
+        "locators": [
+          {
+            "label": "Ra 36.4",
+            "url": "https://www.lawofone.info/s/36#36.4",
+            "source_id": "ra:session:036:lightly-edited",
+            "question_id": "36.4",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 36.5",
+            "url": "https://www.lawofone.info/s/36#36.5",
+            "source_id": "ra:session:036:lightly-edited",
+            "question_id": "36.5",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 36.6",
+            "url": "https://www.lawofone.info/s/36#36.6",
+            "source_id": "ra:session:036:lightly-edited",
+            "question_id": "36.6",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The Principles and Five Laws present one present moment and describe past/future experience as created from it. The Parallel Realities handout is mainly a path diagram.",
+        "locators": [
+          {
+            "label": "Bashar's Basic Principles",
+            "url": "https://www.bashar.org/principles",
+            "source_id": "bashar:official:principles",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "The Five Laws of Creation",
+            "url": "https://www.bashar.org/fivelaws",
+            "source_id": "bashar:official:fivelaws",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "Parallel Realities (PDF, p. 1)",
+            "url": "https://d11n7da8rpqbjy.cloudfront.net/basharet/1839_1708988587896Parallel_Realities_Diagram.pdf",
+            "source_id": "bashar:handout:c5f73b39f64134c2",
+            "source_kind": "authored_reference",
+            "page": 1,
+            "image_inspected": true
+          }
+        ]
+      },
+      "interpretation": "The sources both depart from ordinary linear-time language, but explain relations between perspectives differently.",
+      "counterpoint": "These are scope-qualified explanatory differences, not a flat logical contradiction. Ra explicitly changes reference frames. The Bashar diagram alone lacks enough legend to recover a physical model.",
+      "evidence_limits": "No dated forecast, calibrated probability or evidence of changing the past is established by these passages."
+    },
+    {
+      "id": "contact",
+      "theme": "Contact",
+      "question_family": "How is interaction with humanity justified and constrained?",
+      "ra": {
+        "summary": "Ra narrates responsibility for earlier contact and describes a service-oriented Confederation, while a separate response claims most contacts in its Confederation/Orion framing are Orion-oriented.",
+        "locators": [
+          {
+            "label": "Ra 2.2",
+            "url": "https://www.lawofone.info/s/2#2.2",
+            "source_id": "ra:session:002:lightly-edited",
+            "question_id": "2.2",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 6.24",
+            "url": "https://www.lawofone.info/s/6#6.24",
+            "source_id": "ra:session:006:lightly-edited",
+            "question_id": "6.24",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 53.15",
+            "url": "https://www.lawofone.info/s/53#53.15",
+            "source_id": "ra:session:053:lightly-edited",
+            "question_id": "53.15",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The official Message attributes interaction to mutual learning, reflection and preservation of human choices rather than overriding them.",
+        "locators": [
+          {
+            "label": "A Message from Bashar",
+            "url": "https://www.bashar.org/message",
+            "source_id": "bashar:official:message",
+            "source_kind": "authored_reference"
+          }
+        ]
+      },
+      "interpretation": "Both use a service and responsibility rationale for claimed contact; the Ra examples add factional and historical narratives.",
+      "counterpoint": "A retained interview says advanced civilizations tend to be positive, while Ra 53.15 concerns a subset of contacts. Different populations and unresolved interview speakers prevent treating these as a measured contradiction.",
+      "evidence_limits": "Publisher attribution documents a claim of communication, not an independently authenticated entity, encounter or contact frequency.",
+      "context": {
+        "summary": "Mixed-speaker interview context about advanced civilizations; different population from Ra contact claims.",
+        "locators": [
+          {
+            "label": "Bashar's NEW Predictions: The Great Shift + How Life Will Change Forever!; ASR 2971.1–3046.58 s",
+            "url": "https://rss.libsyn.com/shows/482922/destinations/4112301.xml",
+            "source_id": "rss-1705626495-ae84c9540581",
+            "source_kind": "machine_asr",
+            "source_format": "interview",
+            "start_seconds": 2971.1,
+            "end_seconds": 3046.58,
+            "speaker_status": "unknown/mixed; no diarization",
+            "window_id": "rss-1705626495-ae84c9540581:47547-48783"
+          }
+        ]
+      }
+    },
+    {
+      "id": "healing",
+      "theme": "Healing and the body",
+      "question_family": "How are changes in consciousness connected to bodily experience?",
+      "ra": {
+        "summary": "Ra 4.20 depicts the healer as catalyst for an individual process of recognizing unity. Ra 105.4 nevertheless explicitly describes a particular relapse as physical within its wider narrative.",
+        "locators": [
+          {
+            "label": "Ra 4.20",
+            "url": "https://www.lawofone.info/s/4#4.20",
+            "source_id": "ra:session:004:lightly-edited",
+            "question_id": "4.20",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 105.4",
+            "url": "https://www.lawofone.info/s/105#105.4",
+            "source_id": "ra:session:105:lightly-edited",
+            "question_id": "105.4",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 106.12",
+            "url": "https://www.lawofone.info/s/106#106.12",
+            "source_id": "ra:session:106:lightly-edited",
+            "question_id": "106.12",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The official Message connects changes in self-understanding to physical and physiological experience; the Principles connect beliefs, emotions and actions to experienced life.",
+        "locators": [
+          {
+            "label": "A Message from Bashar",
+            "url": "https://www.bashar.org/message",
+            "source_id": "bashar:official:message",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "Bashar's Basic Principles",
+            "url": "https://www.bashar.org/principles",
+            "source_id": "bashar:official:principles",
+            "source_kind": "authored_reference"
+          }
+        ]
+      },
+      "interpretation": "Both make mind–body or consciousness–experience claims, but the inspected Bashar pages do not provide a clinical protocol comparable to a medical treatment study.",
+      "counterpoint": "Ra 105.4 is a direct counterexample to reading every bodily problem as exclusively metaphysical. Individual health claims in 106.12 have no clinical verification here.",
+      "evidence_limits": "These are source claims, not health advice, proof of efficacy, or a basis to attribute illness to a persons beliefs."
+    },
+    {
+      "id": "knowing",
+      "theme": "Knowing and uncertainty",
+      "question_family": "What qualifications or limits are attached to answers?",
+      "ra": {
+        "summary": "Ra sometimes limits its teaching role, corrects a questioner, refuses a response on free-will grounds, or simply declines to explain a proposed mechanism.",
+        "locators": [
+          {
+            "label": "Ra 17.2",
+            "url": "https://www.lawofone.info/s/17#17.2",
+            "source_id": "ra:session:017:lightly-edited",
+            "question_id": "17.2",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 77.15",
+            "url": "https://www.lawofone.info/s/77#77.15",
+            "source_id": "ra:session:077:lightly-edited",
+            "question_id": "77.15",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 68.9",
+            "url": "https://www.lawofone.info/s/68#68.9",
+            "source_id": "ra:session:068:lightly-edited",
+            "question_id": "68.9",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 96.12",
+            "url": "https://www.lawofone.info/s/96#96.12",
+            "source_id": "ra:session:096:lightly-edited",
+            "question_id": "96.12",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The official Message accommodates multiple belief systems while allowing differences in everyday efficacy. The Formula asks a reader to investigate beliefs.",
+        "locators": [
+          {
+            "label": "A Message from Bashar",
+            "url": "https://www.bashar.org/message",
+            "source_id": "bashar:official:message",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "The Follow Your Excitement Formula",
+            "url": "https://www.bashar.org/formula",
+            "source_id": "bashar:official:formula",
+            "source_kind": "authored_reference"
+          }
+        ]
+      },
+      "interpretation": "Both include language about the recipients interpretive role, but dialogic refusal and broad pluralism are different forms of qualification.",
+      "counterpoint": "A lengthy Ra question may receive no explanation at all, as in 96.12. A model that merges question and response can fabricate the appearance of a supported answer.",
+      "evidence_limits": "Neither pluralism nor introspection provides an independently validated truth criterion. These sources are not being used to authenticate nonhuman knowledge."
+    },
+    {
+      "id": "relationships",
+      "theme": "Relationships",
+      "question_family": "How should a person relate to others within a unity-oriented account?",
+      "ra": {
+        "summary": "Ra 18.6 stresses attention to others needs, empathy and context; the same action need not fit everyone. The practices of 10.14 extend unity recognition to other people.",
+        "locators": [
+          {
+            "label": "Ra 18.6",
+            "url": "https://www.lawofone.info/s/18#18.6",
+            "source_id": "ra:session:018:lightly-edited",
+            "question_id": "18.6",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          },
+          {
+            "label": "Ra 10.14",
+            "url": "https://www.lawofone.info/s/10#10.14",
+            "source_id": "ra:session:010:lightly-edited",
+            "question_id": "10.14",
+            "source_kind": "publisher_transcript",
+            "edition": "Lightly Edited"
+          }
+        ]
+      },
+      "bashar": {
+        "summary": "The official Message portrays the interaction as reciprocal learning; the Principles treat other experience as related to the self and affirm individual expression.",
+        "locators": [
+          {
+            "label": "A Message from Bashar",
+            "url": "https://www.bashar.org/message",
+            "source_id": "bashar:official:message",
+            "source_kind": "authored_reference"
+          },
+          {
+            "label": "Bashar's Basic Principles",
+            "url": "https://www.bashar.org/principles",
+            "source_id": "bashar:official:principles",
+            "source_kind": "authored_reference"
+          }
+        ]
+      },
+      "interpretation": "The apparent overlap is relational reciprocity within a unity framework; the Ra passage provides a more explicit situational service test.",
+      "counterpoint": "A Bashar-related ASR segment broadens soulmate language beyond romance, but it has unidentified speakers and is contextual reception material, not a verified channeling answer.",
+      "evidence_limits": "This sample does not establish a complete theory of relationships or representative audience beliefs.",
+      "context": {
+        "summary": "Mixed-speaker interview context about non-romantic soulmate roles.",
+        "locators": [
+          {
+            "label": "Bashar: This is Coming In 2026... (Darryl Anka); ASR 2032.19–2104.79 s",
+            "url": "https://feeds.megaphone.fm/SSM6025167151",
+            "source_id": "rss-988576741-f283904d1eb7",
+            "source_kind": "machine_asr",
+            "source_format": "interview",
+            "start_seconds": 2032.19,
+            "end_seconds": 2104.79,
+            "speaker_status": "unknown/mixed; no diarization",
+            "window_id": "rss-988576741-f283904d1eb7:30104-31244"
+          }
+        ]
+      }
+    }
+  ],
+  "method_checks": [
+    {
+      "id": "ads",
+      "title": "Advertisements can look like themes",
+      "finding": "A relationship-enriched ASR window shifts into a charity sponsorship; another midpoint crosses commercial advertisements. These contexts must not be attributed to the alleged entity.",
+      "locators": [
+        {
+          "label": "Darryl Anka, Channeler of BASHAR: From UFOs To The Formula For Life | Episode 21; ASR 760.34–837.3 s",
+          "url": "https://feeds.captivate.fm/impossible-dreams-with-aaron-lazar/",
+          "source_id": "impossible-dreams-21-20260310",
+          "source_kind": "machine_asr",
+          "source_format": "interview",
+          "start_seconds": 760.34,
+          "end_seconds": 837.3,
+          "speaker_status": "unknown/mixed; no diarization",
+          "window_id": "impossible-dreams-21-20260310:10888-12114"
+        },
+        {
+          "label": "Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561; ASR 2512.7–2591.98 s",
+          "url": "https://feeds.megaphone.fm/SSM6025167151",
+          "source_id": "rss-988576741-1ecc5cb023cf",
+          "source_kind": "machine_asr",
+          "source_format": "interview",
+          "start_seconds": 2512.7,
+          "end_seconds": 2591.98,
+          "speaker_status": "unknown/mixed; no diarization",
+          "window_id": "rss-988576741-1ecc5cb023cf:37613-38801"
+        }
+      ]
+    },
+    {
+      "id": "skeptic",
+      "title": "Mention does not mean endorsement",
+      "finding": "The retained skeptical-commentary midpoint recounts a channeling performance and a non-specific prediction joke. Keyword overlap here is not support for the teaching.",
+      "locators": [
+        {
+          "label": "Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition; ASR 3303.71–3380.55 s",
+          "url": "https://feeds.simplecast.com/ftB6Gihc",
+          "source_id": "rss-425328515-addbc47ecbd7",
+          "source_kind": "machine_asr",
+          "source_format": "skeptical_commentary",
+          "start_seconds": 3303.71,
+          "end_seconds": 3380.55,
+          "speaker_status": "unknown/mixed; no diarization",
+          "window_id": "rss-425328515-addbc47ecbd7:52554-53762"
+        }
+      ]
+    },
+    {
+      "id": "speaker",
+      "title": "Interview self-description changes attribution",
+      "finding": "One interview window announces explaining the formula as himself and warns against omitting its conditions. This supports maintaining a separate interview stratum and unknown/mixed speaker status.",
+      "locators": [
+        {
+          "label": "Bashar's NEW Predictions: The Great Shift + How Life Will Change Forever!; ASR 3281.24–3364.88 s",
+          "url": "https://rss.libsyn.com/shows/482922/destinations/4112301.xml",
+          "source_id": "rss-1705626495-ae84c9540581",
+          "source_kind": "machine_asr",
+          "source_format": "interview",
+          "start_seconds": 3281.24,
+          "end_seconds": 3364.88,
+          "speaker_status": "unknown/mixed; no diarization",
+          "window_id": "rss-1705626495-ae84c9540581:52565-53792"
+        }
+      ]
+    },
+    {
+      "id": "numerical",
+      "title": "Numbers and equations are not measurements",
+      "finding": "Ra spiritual-mass notation and interview EEG/frequency statements have no operational data in the inspected windows. They must not be promoted to verified physics or neuroscience.",
+      "locators": [
+        {
+          "label": "Ra 39.5",
+          "url": "https://www.lawofone.info/s/39#39.5",
+          "source_id": "ra:session:039:lightly-edited",
+          "question_id": "39.5",
+          "source_kind": "publisher_transcript",
+          "edition": "Lightly Edited"
+        },
+        {
+          "label": "Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka; ASR 1762.88–1847.34 s",
+          "url": "https://rss.pdrl.fm/a88a08/feeds.megaphone.fm/MASL6091580855/",
+          "source_id": "rss-1546456269-353036e21117",
+          "source_kind": "machine_asr",
+          "source_format": "interview",
+          "start_seconds": 1762.88,
+          "end_seconds": 1847.34,
+          "speaker_status": "unknown/mixed; no diarization",
+          "window_id": "rss-1546456269-353036e21117:28107-29343"
+        },
+        {
+          "label": "#248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human; ASR 2468.09–2545.85 s",
+          "url": "https://anchor.fm/s/d22ad49c/podcast/rss",
+          "source_id": "rss-1611118279-afab067a712d",
+          "source_kind": "machine_asr",
+          "source_format": "interview",
+          "start_seconds": 2468.09,
+          "end_seconds": 2545.85,
+          "speaker_status": "unknown/mixed; no diarization",
+          "window_id": "rss-1611118279-afab067a712d:35423-36661"
+        }
+      ]
+    },
+    {
+      "id": "keyword",
+      "title": "Keyword selection yields false positives",
+      "finding": "The Ra ethics-enriched hit concerns ear/magnetic polarity; the fear-enriched hit concerns tarot-image doubt. Fixed word dictionaries retrieve vocabulary, not validated semantic classes.",
+      "locators": [
+        {
+          "label": "Ra 45.10",
+          "url": "https://www.lawofone.info/s/45#45.10",
+          "source_id": "ra:session:045:lightly-edited",
+          "question_id": "45.10",
+          "source_kind": "publisher_transcript",
+          "edition": "Lightly Edited"
+        },
+        {
+          "label": "Ra 91.28",
+          "url": "https://www.lawofone.info/s/91#91.28",
+          "source_id": "ra:session:091:lightly-edited",
+          "question_id": "91.28",
+          "source_kind": "publisher_transcript",
+          "edition": "Lightly Edited"
+        }
+      ]
+    },
+    {
+      "id": "documentary",
+      "title": "A printed questioner turn is not always a question",
+      "finding": "Ra 1.7 retains an editorial notice for a lost question; 96.12 receives no mechanism explanation. Documentary role tags cannot establish intact semantic Q/A or answer agreement.",
+      "locators": [
+        {
+          "label": "Ra 1.7",
+          "url": "https://www.lawofone.info/s/1#1.7",
+          "source_id": "ra:session:001:lightly-edited",
+          "question_id": "1.7",
+          "source_kind": "publisher_transcript",
+          "edition": "Lightly Edited"
+        },
+        {
+          "label": "Ra 96.12",
+          "url": "https://www.lawofone.info/s/96#96.12",
+          "source_id": "ra:session:096:lightly-edited",
+          "question_id": "96.12",
+          "source_kind": "publisher_transcript",
+          "edition": "Lightly Edited"
+        }
+      ]
+    },
+    {
+      "id": "diagram",
+      "title": "OCR misses visual structure",
+      "finding": "The retained Parallel Realities extraction contains its title but omits the visual path; Nine Levels OCR is rotated and corrupted. Three selected PDF page images were inspected, while all other handouts remain outside substantive visual reading coverage.",
+      "locators": [
+        {
+          "label": "Parallel Realities (PDF, p. 1)",
+          "url": "https://d11n7da8rpqbjy.cloudfront.net/basharet/1839_1708988587896Parallel_Realities_Diagram.pdf",
+          "source_id": "bashar:handout:c5f73b39f64134c2",
+          "source_kind": "authored_reference",
+          "page": 1,
+          "image_inspected": true
+        },
+        {
+          "label": "The 9 Levels of Consciousness (PDF, p. 1)",
+          "url": "https://d11n7da8rpqbjy.cloudfront.net/basharet/1824_17089885180499_Levels_of_Consciousness.pdf",
+          "source_id": "bashar:handout:a7b5e408a30002f1",
+          "source_kind": "authored_reference",
+          "page": 1,
+          "image_inspected": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Similar question families index the comparison; they are not literal paired questions, equivalent propositions or independent corroboration.",
+    "Full-corpus computational processing is separate from this limited semantic reading.",
+    "Within-corpus percentages count unique inspected whitespace words in the normalized text and are not confidence intervals or representative estimates.",
+    "No human inter-rater reliability, systematic audio error assessment or verification of paranormal/medical claims has been performed.",
+    "The nine supplemental Ra exchanges were purposively selected to deepen or challenge the initial sample; 12.24 was inspected but is not used substantively because its antecedent is unresolved."
+  ],
+  "private_audit_attestation_sha256": "3ace2ff98d3658a16170730650f346409e4c1b48ec0dd492f8348e90323399fc",
+  "followup": {
+    "schema_version": 1,
+    "status": "bounded_AI_followup_complete",
+    "selection": "Frozen Run01 audit and official-excerpt reading retained, with a separate corrected Run04 top-five correspondence and one additional contextual reading.",
+    "counts": {
+      "followup_ra": {
+        "unique_sources": 5,
+        "unique_whitespace_words": 868,
+        "unique_characters": 5031
+      },
+      "followup_retained_asr": {
+        "unique_sources": 4,
+        "unique_whitespace_words": 438,
+        "unique_characters": 2424
+      },
+      "cumulative_ra": {
+        "unique_sources": 31,
+        "unique_whitespace_words": 6437,
+        "unique_characters": 38081
+      },
+      "cumulative_retained_asr": {
+        "unique_sources": 19,
+        "unique_whitespace_words": 6743,
+        "unique_characters": 36869
+      },
+      "new_official_excerpt": {
+        "documents": 1,
+        "available_output_words": 870,
+        "inspected_output_words": 870,
+        "inspected_segments": 50,
+        "first_segment_seconds": 28.05,
+        "last_segment_seconds": 376.38,
+        "media_duration_seconds": 422.336,
+        "not_equivalent_to_verified_transcription_coverage": true
+      }
+    },
+    "retrieval_reviews": [
+      {
+        "rank": 1,
+        "cosine": 0.6783531431736332,
+        "classification": "broad_family_overlap",
+        "finding": "Both prompts concern feelings and the body, but Ra requests examples of bodily sensations while the interview asks whether stored feelings require somatic rather than intellectual work. The retained context only begins the interview response. This is a broad question-family overlap, not equivalent questions or answers.",
+        "locators": [
+          {
+            "label": "Ra 61.7",
+            "url": "https://www.lawofone.info/s/61#61.7",
+            "source_id": "ra:session:061:lightly-edited",
+            "question_id": "61.7"
+          },
+          {
+            "label": "Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561; ASR 853.34–883.86 s",
+            "url": "https://feeds.megaphone.fm/SSM6025167151",
+            "source_id": "rss-988576741-1ecc5cb023cf",
+            "start_seconds": 853.34,
+            "end_seconds": 883.86,
+            "speaker_status": "unknown/mixed"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false,
+        "analysis_run": "run-04"
+      },
+      {
+        "rank": 2,
+        "cosine": 0.6766573985934274,
+        "classification": "fragment_and_response_mixture",
+        "finding": "The ASR candidate joins the end of a question about spontaneous healing to the start of an explanation. Its context says the healer supplies a state that a recipient may match; Ra66.12 emphasizes self-healing and multiple approaches. This is a broad healing overlap, with an even closer catalyst framing in separately read Ra4.20, but no validated medical mechanism or matched speaker turns.",
+        "locators": [
+          {
+            "label": "Ra 66.12",
+            "url": "https://www.lawofone.info/s/66#66.12",
+            "source_id": "ra:session:066:lightly-edited",
+            "question_id": "66.12"
+          },
+          {
+            "label": "Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka; ASR 1553.13–1584.89 s",
+            "url": "https://rss.pdrl.fm/a88a08/feeds.megaphone.fm/MASL6091580855/",
+            "source_id": "rss-1546456269-b82d79f0d2c0",
+            "start_seconds": 1553.13,
+            "end_seconds": 1584.89,
+            "speaker_status": "unknown/mixed"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false,
+        "analysis_run": "run-04"
+      },
+      {
+        "rank": 3,
+        "cosine": 0.6739084238276171,
+        "classification": "generic_intent_different_referent",
+        "finding": "The general wording about what can be done conceals different referents. Ra104.5–104.7 concerns a cats declining eyesight and the burden of treatment; the interview context concerns confronting social abuse. The similarity does not support a common substantive question. The interviews causal account of abuse is not endorsed.",
+        "locators": [
+          {
+            "label": "Ra 104.6",
+            "url": "https://www.lawofone.info/s/104#104.6",
+            "source_id": "ra:session:104:lightly-edited",
+            "question_id": "104.6"
+          },
+          {
+            "label": "#248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human; ASR 3088.41–3110.17 s",
+            "url": "https://anchor.fm/s/d22ad49c/podcast/rss",
+            "source_id": "rss-1611118279-afab067a712d",
+            "start_seconds": 3088.41,
+            "end_seconds": 3110.17,
+            "speaker_status": "unknown/mixed"
+          },
+          {
+            "label": "Ra 104.4",
+            "url": "https://www.lawofone.info/s/104#104.4",
+            "source_id": "ra:session:104:lightly-edited",
+            "question_id": "104.4"
+          },
+          {
+            "label": "Ra 104.5",
+            "url": "https://www.lawofone.info/s/104#104.5",
+            "source_id": "ra:session:104:lightly-edited",
+            "question_id": "104.5"
+          },
+          {
+            "label": "Ra 104.7",
+            "url": "https://www.lawofone.info/s/104#104.7",
+            "source_id": "ra:session:104:lightly-edited",
+            "question_id": "104.7"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false,
+        "analysis_run": "run-04"
+      },
+      {
+        "rank": 4,
+        "cosine": 0.6677269348965401,
+        "classification": "polysemy_different_referent",
+        "finding": "Ra106.8 asks whether a proposed location is metaphysically favorable. The interview asks about the place of evil/negativity amid social disillusionment. Shared place/negative vocabulary does not identify the same question.",
+        "locators": [
+          {
+            "label": "Ra 106.8",
+            "url": "https://www.lawofone.info/s/106#106.8",
+            "source_id": "ra:session:106:lightly-edited",
+            "question_id": "106.8"
+          },
+          {
+            "label": "Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka; ASR 656.54–696.42 s",
+            "url": "https://rss.pdrl.fm/a88a08/feeds.megaphone.fm/MASL6091580855/",
+            "source_id": "rss-1546456269-b82d79f0d2c0",
+            "start_seconds": 656.54,
+            "end_seconds": 696.42,
+            "speaker_status": "unknown/mixed"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false,
+        "analysis_run": "run-04"
+      },
+      {
+        "classification": "shared_spirit_vocabulary_different_referent",
+        "finding": "Ra80.15–80.17 discusses the Significator within a numbered spirit-archetype framework. The interview compares a living persons work/skills with those of people described as being in spirit. The same word does not identify the same referent or question; the ASR segment mixes a rhetorical question and its continuation. No equivalent answer or afterlife claim is validated.",
+        "locators": [
+          {
+            "label": "Ra 80.15",
+            "url": "https://www.lawofone.info/s/80#80.15",
+            "source_id": "ra:session:080:lightly-edited",
+            "question_id": "80.15"
+          },
+          {
+            "label": "Ra 80.16",
+            "url": "https://www.lawofone.info/s/80#80.16",
+            "source_id": "ra:session:080:lightly-edited",
+            "question_id": "80.16"
+          },
+          {
+            "label": "Ra 80.17",
+            "url": "https://www.lawofone.info/s/80#80.17",
+            "source_id": "ra:session:080:lightly-edited",
+            "question_id": "80.17"
+          },
+          {
+            "label": "#68 Darryl Anka: Bashar’s Guide For The End Of The World; ASR4777.41–4807.89s",
+            "url": "https://feeds.megaphone.fm/acidforsquares",
+            "source_id": "rss-1763048673-32a6fb8cd623",
+            "start_seconds": 4777.41,
+            "end_seconds": 4807.89,
+            "speaker_status": "unknown/mixed"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false,
+        "rank": 5,
+        "cosine": 0.6651731109040224,
+        "analysis_run": "run-04"
+      }
+    ],
+    "official_excerpt": {
+      "source_id": "vimeo:392834325",
+      "title": "Bashar :: The Mind Body Meditation :: Bashar discusses Time Travel with Alan Steinfeld",
+      "source_url": "https://vimeo.com/392834325",
+      "source_format": "official_channeling_qa_excerpt",
+      "scope": "All 870 words of this public excerpt ASR output inspected; partial original paid session; no listening verification or diarization; English recognition was assumed, not independently detected.",
+      "claims": [
+        {
+          "id": "past_like",
+          "summary": "The transcript distinguishes a past-like parallel reality from returning to the speakers own past. This qualifies a simplistic reading of past creation as literal reversal of the same personal history.",
+          "start_seconds": 96.99,
+          "end_seconds": 125.15,
+          "locator": {
+            "label": "Official public excerpt; ASR 96.99–125.15 s",
+            "url": "https://vimeo.com/392834325",
+            "source_id": "vimeo:392834325",
+            "start_seconds": 96.99,
+            "end_seconds": 125.15,
+            "speaker_status": "unknown/mixed ASR; publisher attributed, no independent diarization"
+          }
+        },
+        {
+          "id": "future_frame",
+          "summary": "The attributed speaker describes a reality perceived by humans as future while also claiming simultaneous coexistence. This gives a frame-dependent time explanation that can be compared cautiously with Ra36.4–36.6.",
+          "start_seconds": 164.19,
+          "end_seconds": 190.82,
+          "locator": {
+            "label": "Official public excerpt; ASR 164.19–190.82 s",
+            "url": "https://vimeo.com/392834325",
+            "source_id": "vimeo:392834325",
+            "start_seconds": 164.19,
+            "end_seconds": 190.82,
+            "speaker_status": "unknown/mixed ASR; publisher attributed, no independent diarization"
+          }
+        },
+        {
+          "id": "practice_link",
+          "summary": "The explanation links the Formula and self-change to selecting among parallel realities, rather than providing a measured probability or dated prediction.",
+          "start_seconds": 192.26,
+          "end_seconds": 255.01,
+          "locator": {
+            "label": "Official public excerpt; ASR 192.26–255.01 s",
+            "url": "https://vimeo.com/392834325",
+            "source_id": "vimeo:392834325",
+            "start_seconds": 192.26,
+            "end_seconds": 255.01,
+            "speaker_status": "unknown/mixed ASR; publisher attributed, no independent diarization"
+          }
+        },
+        {
+          "id": "reciprocity",
+          "summary": "Later dialogue describes the interaction as mutual formation of an overlapping possibility. The narrative includes reciprocal change, not only one-way instruction.",
+          "start_seconds": 334.86,
+          "end_seconds": 354.22,
+          "locator": {
+            "label": "Official public excerpt; ASR 334.86–354.22 s",
+            "url": "https://vimeo.com/392834325",
+            "source_id": "vimeo:392834325",
+            "start_seconds": 334.86,
+            "end_seconds": 354.22,
+            "speaker_status": "unknown/mixed ASR; publisher attributed, no independent diarization"
+          }
+        },
+        {
+          "id": "asr_polarity",
+          "summary": "A segment contains wording about being able to duplicate a moment amid adjacent statements denying duplication. This apparent textual inconsistency is preserved unresolved; the audio has not been checked and the transcript has not been silently corrected.",
+          "start_seconds": 125.15,
+          "end_seconds": 149.15,
+          "locator": {
+            "label": "Official public excerpt; ASR 125.15–149.15 s",
+            "url": "https://vimeo.com/392834325",
+            "source_id": "vimeo:392834325",
+            "start_seconds": 125.15,
+            "end_seconds": 149.15,
+            "speaker_status": "unknown/mixed ASR; publisher attributed, no independent diarization"
+          }
+        }
+      ],
+      "interpretive_limit": "All statements are reported teachings; no empirical time travel, probability, contact or mind-body efficacy is established."
+    },
+    "human_validated": false,
+    "audio_verified": false,
+    "historical_retrieval_reviews": [
+      {
+        "rank": 1,
+        "cosine": 0.6783531439035378,
+        "classification": "broad_family_overlap",
+        "finding": "Both prompts concern feelings and the body, but Ra requests examples of bodily sensations while the interview asks whether stored feelings require somatic rather than intellectual work. The retained context only begins the interview response. This is a broad question-family overlap, not equivalent questions or answers.",
+        "locators": [
+          {
+            "label": "Ra 61.7",
+            "url": "https://www.lawofone.info/s/61#61.7",
+            "source_id": "ra:session:061:lightly-edited",
+            "question_id": "61.7"
+          },
+          {
+            "label": "Bashar: URGENT MESSAGE for 2025 (Darryl Anka) - Align Podcast #561; ASR 853.34–883.86 s",
+            "url": "https://feeds.megaphone.fm/SSM6025167151",
+            "source_id": "rss-988576741-1ecc5cb023cf",
+            "start_seconds": 853.34,
+            "end_seconds": 883.86,
+            "speaker_status": "unknown/mixed"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false
+      },
+      {
+        "rank": 2,
+        "cosine": 0.6766573969305394,
+        "classification": "fragment_and_response_mixture",
+        "finding": "The ASR candidate joins the end of a question about spontaneous healing to the start of an explanation. Its context says the healer supplies a state that a recipient may match; Ra66.12 emphasizes self-healing and multiple approaches. This is a broad healing overlap, with an even closer catalyst framing in separately read Ra4.20, but no validated medical mechanism or matched speaker turns.",
+        "locators": [
+          {
+            "label": "Ra 66.12",
+            "url": "https://www.lawofone.info/s/66#66.12",
+            "source_id": "ra:session:066:lightly-edited",
+            "question_id": "66.12"
+          },
+          {
+            "label": "Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka; ASR 1553.13–1584.89 s",
+            "url": "https://rss.pdrl.fm/a88a08/feeds.megaphone.fm/MASL6091580855/",
+            "source_id": "rss-1546456269-b82d79f0d2c0",
+            "start_seconds": 1553.13,
+            "end_seconds": 1584.89,
+            "speaker_status": "unknown/mixed"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false
+      },
+      {
+        "rank": 3,
+        "cosine": 0.6739084227005501,
+        "classification": "generic_intent_different_referent",
+        "finding": "The general wording about what can be done conceals different referents. Ra104.5–104.7 concerns a cats declining eyesight and the burden of treatment; the interview context concerns confronting social abuse. The similarity does not support a common substantive question. The interviews causal account of abuse is not endorsed.",
+        "locators": [
+          {
+            "label": "Ra 104.6",
+            "url": "https://www.lawofone.info/s/104#104.6",
+            "source_id": "ra:session:104:lightly-edited",
+            "question_id": "104.6"
+          },
+          {
+            "label": "#248 Darryl Anka / Bashar – Preparing for Open Contact: The Three-Year Collapse, Timeline Mechanics & The New Human; ASR 3088.41–3110.17 s",
+            "url": "https://anchor.fm/s/d22ad49c/podcast/rss",
+            "source_id": "rss-1611118279-afab067a712d",
+            "start_seconds": 3088.41,
+            "end_seconds": 3110.17,
+            "speaker_status": "unknown/mixed"
+          },
+          {
+            "label": "Ra 104.4",
+            "url": "https://www.lawofone.info/s/104#104.4",
+            "source_id": "ra:session:104:lightly-edited",
+            "question_id": "104.4"
+          },
+          {
+            "label": "Ra 104.5",
+            "url": "https://www.lawofone.info/s/104#104.5",
+            "source_id": "ra:session:104:lightly-edited",
+            "question_id": "104.5"
+          },
+          {
+            "label": "Ra 104.7",
+            "url": "https://www.lawofone.info/s/104#104.7",
+            "source_id": "ra:session:104:lightly-edited",
+            "question_id": "104.7"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false
+      },
+      {
+        "rank": 4,
+        "cosine": 0.6677269347261285,
+        "classification": "polysemy_different_referent",
+        "finding": "Ra106.8 asks whether a proposed location is metaphysically favorable. The interview asks about the place of evil/negativity amid social disillusionment. Shared place/negative vocabulary does not identify the same question.",
+        "locators": [
+          {
+            "label": "Ra 106.8",
+            "url": "https://www.lawofone.info/s/106#106.8",
+            "source_id": "ra:session:106:lightly-edited",
+            "question_id": "106.8"
+          },
+          {
+            "label": "Part Two: Bashar’s Warning: Extraterrestrial Contact In 2027, Humanity’s Reset, UFO Disclosure & How To Create Your Reality | Darryl Anka; ASR 656.54–696.42 s",
+            "url": "https://rss.pdrl.fm/a88a08/feeds.megaphone.fm/MASL6091580855/",
+            "source_id": "rss-1546456269-b82d79f0d2c0",
+            "start_seconds": 656.54,
+            "end_seconds": 696.42,
+            "speaker_status": "unknown/mixed"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false
+      },
+      {
+        "rank": 5,
+        "cosine": 0.6634828108821954,
+        "classification": "shared_named_topic_incomplete_answer",
+        "finding": "Both mention Egyptians, but Ra1.5 asks about the narrating groups own role; the interview asks about a link with the Anunnaki and receives a qualified, incomplete response in this window. The proposed relationship is neither the same narrative nor historical corroboration.",
+        "locators": [
+          {
+            "label": "Ra 1.5",
+            "url": "https://www.lawofone.info/s/1#1.5",
+            "source_id": "ra:session:001:lightly-edited",
+            "question_id": "1.5"
+          },
+          {
+            "label": "Darryl Anka; ASR 1962.04–1988.2 s",
+            "url": "https://feeds.simplecast.com/5LExlydD",
+            "source_id": "rss-1465014169-8dd4267008f8",
+            "start_seconds": 1962.04,
+            "end_seconds": 1988.2,
+            "speaker_status": "unknown/mixed"
+          }
+        ],
+        "validated_equivalent_question": false,
+        "validated_matched_answer": false
+      }
+    ],
+    "corrected_run_correspondence": {
+      "analysis_run": "run-04",
+      "analysis_sha256": "e9e88095a5264ff588c52e9d9edb23bbffa57ca1e86b24b997057e08035aa476",
+      "status": "corrected_run_rows_verified_and_changed_fifth_inspected",
+      "explanation": "The first four Run01 leads retain their identities; a different candidate becomes fifth in corrected Run04. Existing readings were rebound by exact identity and the changed fifth was read with context. Original pilot receipts and the Egyptian example remain historical. This is not a second independent annotation.",
+      "correspondence": [
+        {
+          "rank": 1,
+          "corrected_retrieval": {
+            "bashar_source_id": "rss-988576741-1ecc5cb023cf",
+            "bashar_candidate_id": "rss-988576741-1ecc5cb023cf:rss-988576741-1ecc5cb023cf:asr:196",
+            "bashar_turn_id": "rss-988576741-1ecc5cb023cf:asr:196",
+            "ra_source_id": "ra:session:061:lightly-edited",
+            "ra_pair_id": "ra:session:061:lightly-edited:ra:061:0014",
+            "ra_question_id": "61.7",
+            "cosine": 0.6783531431736332,
+            "interpretation": "Nearest retrieval lead; no validated question equivalence or Bashar answer."
+          },
+          "previous_run01_rank": 1,
+          "reading_basis": "Existing source reading reused after exact candidate/pair identity and source-artifact verification"
+        },
+        {
+          "rank": 2,
+          "corrected_retrieval": {
+            "bashar_source_id": "rss-1546456269-b82d79f0d2c0",
+            "bashar_candidate_id": "rss-1546456269-b82d79f0d2c0:rss-1546456269-b82d79f0d2c0:asr:461",
+            "bashar_turn_id": "rss-1546456269-b82d79f0d2c0:asr:461",
+            "ra_source_id": "ra:session:066:lightly-edited",
+            "ra_pair_id": "ra:session:066:lightly-edited:ra:066:0024",
+            "ra_question_id": "66.12",
+            "cosine": 0.6766573985934274,
+            "interpretation": "Nearest retrieval lead; no validated question equivalence or Bashar answer."
+          },
+          "previous_run01_rank": 2,
+          "reading_basis": "Existing source reading reused after exact candidate/pair identity and source-artifact verification"
+        },
+        {
+          "rank": 3,
+          "corrected_retrieval": {
+            "bashar_source_id": "rss-1611118279-afab067a712d",
+            "bashar_candidate_id": "rss-1611118279-afab067a712d:rss-1611118279-afab067a712d:asr:592",
+            "bashar_turn_id": "rss-1611118279-afab067a712d:asr:592",
+            "ra_source_id": "ra:session:104:lightly-edited",
+            "ra_pair_id": "ra:session:104:lightly-edited:ra:104:0012",
+            "ra_question_id": "104.6",
+            "cosine": 0.6739084238276171,
+            "interpretation": "Nearest retrieval lead; no validated question equivalence or Bashar answer."
+          },
+          "previous_run01_rank": 3,
+          "reading_basis": "Existing source reading reused after exact candidate/pair identity and source-artifact verification"
+        },
+        {
+          "rank": 4,
+          "corrected_retrieval": {
+            "bashar_source_id": "rss-1546456269-b82d79f0d2c0",
+            "bashar_candidate_id": "rss-1546456269-b82d79f0d2c0:rss-1546456269-b82d79f0d2c0:asr:179",
+            "bashar_turn_id": "rss-1546456269-b82d79f0d2c0:asr:179",
+            "ra_source_id": "ra:session:106:lightly-edited",
+            "ra_pair_id": "ra:session:106:lightly-edited:ra:106:0016",
+            "ra_question_id": "106.8",
+            "cosine": 0.6677269348965401,
+            "interpretation": "Nearest retrieval lead; no validated question equivalence or Bashar answer."
+          },
+          "previous_run01_rank": 4,
+          "reading_basis": "Existing source reading reused after exact candidate/pair identity and source-artifact verification"
+        },
+        {
+          "rank": 5,
+          "corrected_retrieval": {
+            "bashar_source_id": "rss-1763048673-32a6fb8cd623",
+            "bashar_candidate_id": "rss-1763048673-32a6fb8cd623:rss-1763048673-32a6fb8cd623:asr:1234",
+            "bashar_turn_id": "rss-1763048673-32a6fb8cd623:asr:1234",
+            "ra_source_id": "ra:session:080:lightly-edited",
+            "ra_pair_id": "ra:session:080:lightly-edited:ra:080:0034",
+            "ra_question_id": "80.17",
+            "cosine": 0.6651731109040224,
+            "interpretation": "Nearest retrieval lead; no validated question equivalence or Bashar answer."
+          },
+          "previous_run01_rank": null,
+          "reading_basis": "Newly inspected complete Ra80.15–80.17 and seven-segment ASR context"
+        }
+      ],
+      "counts": {
+        "new_ra": {
+          "unique_sources": 1,
+          "unique_whitespace_words": 338,
+          "unique_characters": 1970
+        },
+        "new_retained_asr": {
+          "unique_sources": 1,
+          "unique_whitespace_words": 86,
+          "unique_characters": 470
+        },
+        "cumulative_ra": {
+          "unique_sources": 32,
+          "unique_whitespace_words": 6775,
+          "unique_characters": 40051
+        },
+        "cumulative_retained_asr": {
+          "unique_sources": 19,
+          "unique_whitespace_words": 6829,
+          "unique_characters": 37339
+        }
+      },
+      "human_validated": false,
+      "audio_verified": false
+    },
+    "retrieval_selection": "CorrectedRun04top5: four previously inspected pairs rebound by identity; changed fifth newly inspected. Run01 fifth remains historical."
+  },
+  "followup_private_attestation_sha256": "dc38ab78cb4fed35ae33fdc1f0c50ef06ca969bceaa662e8803f18ffacd3a529",
+  "original_followup_private_attestation_sha256": "d9a00a658c931fb61933d69ced38ffb616f92e641477c7ea3e7a7af5647882b8"
+}

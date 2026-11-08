@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "status": "locally_verified_static_core",
+  "source_base_commit": "117312a2675e8af2edbe24ad9b4842253377ec33",
+  "acquisition_snapshot": "30 publisher audios, 2 local ASRs; larger successor collection in progress",
+  "verification": {
+    "bashar_ra_unit_tests": 139,
+    "legacy_audio_tests": 48,
+    "publisher_text_tests": 13,
+    "archive_parser_tests": 3,
+    "bashar_ra_browser_assertions": 260,
+    "expanded_browser_assertions": 199,
+    "screening_browser_assertions": 967,
+    "typed_graph_groups_crosschecked": 19,
+    "figure_files_verified": 87
+  },
+  "artifacts": [
+    {
+      "path": "dist/bashar-ra/data.json",
+      "bytes": 5520404,
+      "sha256": "e9e88095a5264ff588c52e9d9edb23bbffa57ca1e86b24b997057e08035aa476"
+    },
+    {
+      "path": "dist/bashar-ra/collection.json",
+      "bytes": 72634,
+      "sha256": "04150648f0ddfe81df062391c9c92edf1901d098467a7546a5f5f1bf78b97316"
+    },
+    {
+      "path": "dist/bashar-ra/reading.json",
+      "bytes": 62688,
+      "sha256": "89bd1ea85ce90ecd1ccdaa9f083f7eef99e0ce4a3af1ce89904d9d51ff58ed85"
+    },
+    {
+      "path": "dist/bashar-ra/official-speech.json",
+      "bytes": 6616234,
+      "sha256": "68e4c40a34fa0bd7efcea13a32ea501b0f7bfd55643935f01e2d8a7a68907b01"
+    },
+    {
+      "path": "dist/bashar-ra/report/paper.pdf",
+      "bytes": 652216,
+      "sha256": "e6c2e4639f4d1cf9eb7897be76899f7d66c6797a4efafc8b0beb3268a3f14f0f"
+    },
+    {
+      "path": "dist/subscription-audit/data.json",
+      "bytes": 319903,
+      "sha256": "206d3af9fbb9d792a89d97166f850d2c1b9a758ff696e769c5d73e2e82803594"
+    },
+    {
+      "path": "dist/subscription-audit/source-topics.json",
+      "bytes": 2267026,
+      "sha256": "6dceb3c3a48c16d69dc0e373e88aa4501563ea75a9f5dd64fd2a3176f446d145"
+    },
+    {
+      "path": "dist/subscription-audit/publisher-video-index.json",
+      "bytes": 502637,
+      "sha256": "f61a77cfa5ccabde3514a355fa8df7e4e23e02b47f5c9811b520a70fdfcd3061"
+    },
+    {
+      "path": "dist/subscription-audit/acquisition.json",
+      "bytes": 48358,
+      "sha256": "ef49f1ff30ccd1eaaabf00dbe3cb1e3914e68b749191ad056d3f06ac97bb5f20"
+    },
+    {
+      "path": "dist/channeling-network/analysis.json",
+      "bytes": 431666,
+      "sha256": "34ac7bbeb61d83f8d782392008c39e252a335381b8b481c88258c1130e7a6722"
+    },
+    {
+      "path": "dist/channeling-network/new-message-pilot.json",
+      "bytes": 191057,
+      "sha256": "2fd5c74456ffe522f382d3ba800c128c8d8316abd2b8fd42e719877d0cc2d8b6"
+    },
+    {
+      "path": "dist/channeling-network/et-register.json",
+      "bytes": 113626,
+      "sha256": "5ffb6af9912d25629aa0971ae40d5a0db3d9a6235237c3adee63ffea39217f69"
+    },
+    {
+      "path": "dist/channeling-network/traditions-register.json",
+      "bytes": 170770,
+      "sha256": "b6dafe0a996e58c8c35fc106c0b759ce8c65eee3f54f48be6296b22983104d39"
+    },
+    {
+      "path": "dist/channeling-network/claim-graph-statistics.json",
+      "bytes": 48365,
+      "sha256": "a5964a58a09344c84f54ff750d1bf79775ea733f4bea7ac99ae39201e07a5af7"
+    },
+    {
+      "path": "dist/channeling-network/acquisition.json",
+      "bytes": 48358,
+      "sha256": "ef49f1ff30ccd1eaaabf00dbe3cb1e3914e68b749191ad056d3f06ac97bb5f20"
+    }
+  ],
+  "scope": "Artifact binding and completed technical checks. Deployment status and later acquisition are separate. No human peer review or source-claim authentication."
+}

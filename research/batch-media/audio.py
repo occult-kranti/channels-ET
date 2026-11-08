@@ -134,7 +134,7 @@ def validate_record(raw):
     for key in ('source_id', 'medium_id', 'channel_id'):
         if not isinstance(raw.get(key), str) or not IDENTIFIER.fullmatch(raw[key]):
             raise ValueError(key + ' must be a bounded stable identifier; use an explicit unknown context when unresolved')
-    if raw.get('provider') not in ('youtube', 'publisher_rss', 'publisher_video') or raw.get('kind') not in ('video', 'audio'):
+    if raw.get('provider') not in ('youtube', 'publisher_rss', 'publisher_video', 'publisher_audio') or raw.get('kind') not in ('video', 'audio'):
         raise ValueError('A supported explicit provider and media kind are required')
     if not isinstance(raw.get('sha256'), str) or not HASH.fullmatch(raw['sha256']):
         raise ValueError('A source SHA-256 is required')
@@ -174,6 +174,38 @@ def validate_record(raw):
         duration = positive_number(raw.get('duration_seconds'), 'Publisher source duration', MAX_DURATION)
         if duration < 300 or abs(duration - media['duration_seconds']) > max(2, duration * .02):
             raise ValueError('Publisher video and declared source durations do not match')
+    if raw['provider'] == 'publisher_audio':
+        # An original audio-only track from a public publisher player is neither
+        # an RSS enclosure nor an acquired video. Keep its identity explicit.
+        if raw['kind'] != 'audio' or matching[0].get('provider') != 'publisher_audio':
+            raise ValueError('Publisher-audio source requires an explicit proof-bound audio provider')
+        if any(stream.get('codec_type') == 'video' for stream in media['streams']):
+            raise ValueError('Publisher-audio input must be an actual audio-only track without video streams')
+        duration = positive_number(raw.get('duration_seconds'), 'Publisher audio source duration', MAX_DURATION)
+        validation = matching[0].get('validation', {})
+        bound_duration = positive_number(validation.get('ffprobe_duration_seconds'), 'Publisher audio receipt duration', MAX_DURATION)
+        if (validation.get('source_id') != raw['source_id']
+                or not HASH.fullmatch(str(validation.get('acquisition_receipt_sha256', '')))):
+            raise ValueError('Publisher-audio receipt must bind the original acquisition and exact source ID')
+        acquisition_binding = report.get('acquisition_receipt', {})
+        if (not isinstance(acquisition_binding, dict)
+                or acquisition_binding.get('sha256') != validation['acquisition_receipt_sha256']):
+            raise ValueError('Publisher-audio acquisition receipt binding is missing or contradictory')
+        acquisition_path = private_path(acquisition_binding.get('path'), exists=True)
+        if acquisition_path.stat().st_size > 8 * 1024**2 or sha256(acquisition_path) != acquisition_binding['sha256']:
+            raise ValueError('Publisher-audio acquisition receipt bytes differ')
+        acquisition = json.loads(acquisition_path.read_text(encoding='utf-8'))
+        original = acquisition.get('audio', {})
+        if (acquisition.get('status') != 'completed' or acquisition.get('source_id') != raw['source_id']
+                or original.get('path') != raw['local_path'] or original.get('sha256') != raw['sha256']
+                or original.get('bytes') != raw['bytes']):
+            raise ValueError('Publisher-audio acquisition receipt does not bind this completed original audio')
+        acquired_duration = positive_number(acquisition.get('duration_seconds'), 'Acquired publisher audio duration', MAX_DURATION)
+        if (min(duration, media['duration_seconds'], bound_duration) < 300
+                or abs(duration - media['duration_seconds']) > max(2, duration * .02)
+                or abs(bound_duration - media['duration_seconds']) > .1
+                or acquired_duration < 300 or abs(acquired_duration - media['duration_seconds']) > .1):
+            raise ValueError('Publisher audio is short or its source/receipt/media durations differ')
     if raw['provider'] == 'youtube':
         vid = raw.get('video_id')
         if not isinstance(vid, str) or not VIDEO_ID.fullmatch(vid) or raw['source_id'] != 'youtube:' + vid:
@@ -524,16 +556,34 @@ def verify_completed(receipt_path, binding):
     if not isinstance(items, list) or len(items) < 3:
         raise ValueError('Existing result has no complete artifact list')
     for item in items:
-        path = private_path(item.get('local_path'), exists=True)
+        retained = item.get('retained', True)
+        if not isinstance(retained, bool):
+            raise ValueError('Artifact retention state must be explicit boolean')
+        path = private_path(item.get('local_path'), exists=retained)
         source_path = binding['source']['local_path']
         if str(path) != source_path and not path.is_relative_to(receipt_path.parent):
             raise ValueError('Existing result refers outside its source/output scope')
+        if not retained:
+            if (binding.get('storage', {}).get('retain_decoded_audio') is not False
+                    or path != receipt_path.parent / 'audio-16khz-mono.wav'
+                    or str(path) == source_path or item.get('kind') != 'audio'
+                    or item.get('disposition') != 'new_derivative_removed_after_verification'
+                    or not HASH.fullmatch(str(item.get('sha256', '')))
+                    or isinstance(item.get('bytes'), bool) or not isinstance(item.get('bytes'), int)
+                    or item['bytes'] <= 0 or path.exists()):
+                raise ValueError('Only the explicitly discarded new decoded derivative may be absent')
+            continue
         if path.stat().st_size != item.get('bytes') or sha256(path) != item.get('sha256'):
             raise ValueError('Existing completed artifact was changed; refusing silent replacement')
     return receipt
 
 
-def process_record(raw, output, *, transcribe=False, model_path=DEFAULT_MODEL, language='en', retain_asr_diagnostics=False):
+def process_record(raw, output, *, transcribe=False, model_path=DEFAULT_MODEL, language='en', retain_asr_diagnostics=False,
+                   min_free_bytes=FREE_RESERVE, retain_decoded_audio=True):
+    if isinstance(min_free_bytes, bool) or not isinstance(min_free_bytes, int) or min_free_bytes < 0:
+        raise ValueError('Minimum free bytes must be a nonnegative integer')
+    if not isinstance(retain_decoded_audio, bool):
+        raise ValueError('Decoded-audio retention must be boolean')
     record, media = validate_record(raw)
     source = Path(record['local_path'])
     runtime = versions(transcribe)
@@ -543,6 +593,7 @@ def process_record(raw, output, *, transcribe=False, model_path=DEFAULT_MODEL, l
                'media_probe': media, 'script_sha256': sha256(Path(__file__)), 'versions': runtime,
                'analysis': {'sample_rate_hz': SAMPLE_RATE, 'window_samples': WINDOW_SAMPLES,
                             'quiet_threshold_dbfs': SILENCE_DBFS, 'near_full_scale_fraction': NEAR_FULL_SCALE},
+               'storage': {'min_free_bytes': min_free_bytes, 'retain_decoded_audio': retain_decoded_audio},
                'asr': {'requested': transcribe, 'model': model, 'device': 'cpu', 'compute_type': 'int8',
                        'cpu_threads': 2, 'num_workers': 1, 'language_plan': languages, 'beam_size': 5,
                        'temperature': 0, 'vad_filter': True, 'min_silence_duration_ms': 500,
@@ -562,7 +613,7 @@ def process_record(raw, output, *, transcribe=False, model_path=DEFAULT_MODEL, l
     request_path = folder / 'request.json'
     atomic_json(request_path, {'binding_sha256': signature, 'binding': binding, 'started_at': now()})
     decoded = folder / 'audio-16khz-mono.wav'
-    duration = decode_audio(source, decoded, media['duration_seconds'])
+    duration = decode_audio(source, decoded, media['duration_seconds'], reserve_bytes=min_free_bytes)
     metrics = audio_metrics(decoded)
     print(json.dumps({'stage': 'audio_metrics_completed', 'source_id': record['source_id'], 'decoded_seconds': duration}), flush=True)
     metrics_path = folder / 'audio-metrics.json'
@@ -605,8 +656,23 @@ def process_record(raw, output, *, transcribe=False, model_path=DEFAULT_MODEL, l
     final_proof = private_path(record['verification_receipt']['path'], exists=True)
     if sha256(final_proof) != record['verification_receipt']['sha256']:
         raise ValueError('Source verification proof changed during processing; outputs are not admitted')
+    if record['provider'] == 'publisher_audio':
+        # The upstream acquisition receipt is a separately retained file: bind
+        # its unchanged bytes again, not only the outer proof that names it.
+        validate_record(record)
     if model is not None and local_model_binding(model_path) != model:
         raise ValueError('Model files changed during inference; outputs are not admitted')
+    if not retain_decoded_audio:
+        # Only a derivative created in this fresh request folder can be removed.
+        # Verify all newly finalized outputs first; originals/prior WAVs stay put.
+        for item in outputs:
+            path = private_path(item['local_path'], exists=True)
+            if path.stat().st_size != item['bytes'] or sha256(path) != item['sha256']:
+                raise ValueError('Output changed before derivative-retention decision')
+        decoded_item = next(item for item in outputs if item['local_path'] == str(decoded))
+        decoded_item.update(retained=False, disposition='new_derivative_removed_after_verification',
+                            derived_from_sha256=record['sha256'], removed_at=now())
+        decoded.unlink()
     receipt = {'schema_version': SCHEMA, 'kind': 'source-bound-audio-analysis', 'status': status,
                'completed_at': now(), 'binding_sha256': signature, 'binding': binding,
                'source_id': record['source_id'], 'provider': record['provider'],
@@ -630,10 +696,11 @@ def final_artifacts(record, receipt_path, receipt):
     if record['provider'] == 'youtube':
         common.update({k: record[k] for k in ('video_id', 'duration_seconds', 'is_short', 'metadata_refreshed_at_acquisition', 'duration_scope')})
     return [{**item, **common, 'verification_receipt': {'path': str(receipt_path), 'sha256': sha256(receipt_path)}}
-            for item in receipt['verified_artifacts']]
+            for item in receipt['verified_artifacts'] if item.get('retained', True)]
 
 
-def run_batch(input_path, output, *, transcribe=False, model_path=DEFAULT_MODEL, language='en', retain_asr_diagnostics=False):
+def run_batch(input_path, output, *, transcribe=False, model_path=DEFAULT_MODEL, language='en', retain_asr_diagnostics=False,
+              min_free_bytes=FREE_RESERVE, retain_decoded_audio=True):
     input_path = private_path(input_path, exists=True)
     if input_path.stat().st_size > 4 * 1024**2:
         raise ValueError('Input manifest exceeds 4 MiB')
@@ -660,7 +727,8 @@ def run_batch(input_path, output, *, transcribe=False, model_path=DEFAULT_MODEL,
                     raise ValueError('Duplicate source ID in one batch')
                 seen.add(source_id)
                 receipt_path, receipt, reused = process_record(record, output, transcribe=transcribe,
-                    model_path=model_path, language=language, retain_asr_diagnostics=retain_asr_diagnostics)
+                    model_path=model_path, language=language, retain_asr_diagnostics=retain_asr_diagnostics,
+                    min_free_bytes=min_free_bytes, retain_decoded_audio=retain_decoded_audio)
                 result.update(status=receipt['status'], reused=reused, receipt_path=str(receipt_path),
                               receipt_sha256=sha256(receipt_path), provider=record['provider'])
                 finalized.extend(final_artifacts(record, receipt_path, receipt))
@@ -685,10 +753,13 @@ def main(argv=None):
     parser.add_argument('--model', type=Path, default=DEFAULT_MODEL, help='Existing local CTranslate2 model directory only')
     parser.add_argument('--language', default='en', help='Explicit language code, or auto with a verified multilingual model')
     parser.add_argument('--retain-asr-diagnostics', action='store_true', help='Retain private raw segments and exhaust inference after a timestamp failure; never admit failed output')
+    parser.add_argument('--min-free-bytes', type=int, default=FREE_RESERVE, help='Minimum free disk reserve, bound in each new request; default six GiB')
+    parser.add_argument('--discard-decoded-audio', action='store_true', help='Remove only the new temporary PCM derivative after verified output; original media retained')
     args = parser.parse_args(argv)
     try:
         result = run_batch(args.input, args.output, transcribe=args.transcribe, model_path=args.model,
-                           language=args.language, retain_asr_diagnostics=args.retain_asr_diagnostics)
+                           language=args.language, retain_asr_diagnostics=args.retain_asr_diagnostics,
+                           min_free_bytes=args.min_free_bytes, retain_decoded_audio=not args.discard_decoded_audio)
     except (ValueError, OSError) as exc:
         print(f'Audio run stopped: {exc}', file=sys.stderr)
         return 2

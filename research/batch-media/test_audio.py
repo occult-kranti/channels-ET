@@ -154,6 +154,112 @@ class AudioTests(unittest.TestCase):
             with self.subTest(key=key), self.assertRaises(ValueError):
                 A.validate_record(changed)
 
+    def publisher_audio_record(self, duration=300):
+        row=self.record();row.update(provider='publisher_audio',duration_seconds=duration)
+        proof=Path(row['verification_receipt']['path']);data=json.loads(proof.read_text())
+        acquired=self.folder/'acquisition.json'
+        acquired.write_text(json.dumps({'status':'completed','source_id':row['source_id'],'duration_seconds':duration,
+            'audio':{'path':row['local_path'],'sha256':row['sha256'],'bytes':row['bytes']},'fixture_only':True}))
+        data['acquisition_receipt']={'path':str(acquired),'sha256':A.sha256(acquired)}
+        item=data['verified_artifacts'][0];item['provider']='publisher_audio'
+        item['validation'].update(source_id=row['source_id'],acquisition_receipt_sha256=A.sha256(acquired),ffprobe_duration_seconds=duration)
+        proof.write_text(json.dumps(data));row['verification_receipt']['sha256']=A.sha256(proof)
+        return row
+
+    def test_publisher_audio_is_distinct_from_rss_and_video(self):
+        row=self.publisher_audio_record()
+        with patch.object(A,'probe_media',return_value={'duration_seconds':300,'streams':[{'codec_type':'audio'}]}):
+            self.assertEqual(A.validate_record(row)[0]['provider'],'publisher_audio')
+
+    def test_publisher_audio_rejects_short_actual_audio_despite_long_declared_duration(self):
+        row=self.publisher_audio_record()
+        with self.assertRaisesRegex(ValueError,'short or its source'):
+            A.validate_record(row)
+
+    def test_publisher_audio_rejects_missing_acquisition_binding(self):
+        row=self.publisher_audio_record();proof=Path(row['verification_receipt']['path']);data=json.loads(proof.read_text())
+        del data['verified_artifacts'][0]['validation']['acquisition_receipt_sha256']
+        proof.write_text(json.dumps(data));row['verification_receipt']['sha256']=A.sha256(proof)
+        with patch.object(A,'probe_media',return_value={'duration_seconds':300,'streams':[{'codec_type':'audio'}]}):
+            with self.assertRaisesRegex(ValueError,'original acquisition'):
+                A.validate_record(row)
+
+    def test_publisher_audio_rejects_changed_provider_or_kind(self):
+        row=self.publisher_audio_record();proof=Path(row['verification_receipt']['path']);data=json.loads(proof.read_text())
+        del data['verified_artifacts'][0]['provider']
+        proof.write_text(json.dumps(data));row['verification_receipt']['sha256']=A.sha256(proof)
+        with self.assertRaisesRegex(ValueError,'proof-bound audio provider'):
+            A.validate_record(row)
+
+    def test_publisher_audio_rejects_a_video_stream(self):
+        row=self.publisher_audio_record()
+        with patch.object(A,'probe_media',return_value={'duration_seconds':300,'streams':[{'codec_type':'audio'},{'codec_type':'video'}]}):
+            with self.assertRaisesRegex(ValueError,'audio-only track'):
+                A.validate_record(row)
+
+    def test_publisher_audio_rejects_invented_acquisition_sha(self):
+        row=self.publisher_audio_record();proof=Path(row['verification_receipt']['path']);data=json.loads(proof.read_text())
+        data['verified_artifacts'][0]['validation']['acquisition_receipt_sha256']='2'*64
+        proof.write_text(json.dumps(data));row['verification_receipt']['sha256']=A.sha256(proof)
+        with patch.object(A,'probe_media',return_value={'duration_seconds':300,'streams':[{'codec_type':'audio'}]}):
+            with self.assertRaisesRegex(ValueError,'missing or contradictory'):
+                A.validate_record(row)
+
+    def test_publisher_audio_rejects_changed_acquisition_bytes(self):
+        row=self.publisher_audio_record();p=self.folder/'acquisition.json';p.write_text(p.read_text()+' ')
+        with patch.object(A,'probe_media',return_value={'duration_seconds':300,'streams':[{'codec_type':'audio'}]}):
+            with self.assertRaisesRegex(ValueError,'acquisition receipt bytes differ'):
+                A.validate_record(row)
+
+    def test_publisher_audio_rejects_acquisition_of_another_source(self):
+        row=self.publisher_audio_record();p=self.folder/'acquisition.json';acquired=json.loads(p.read_text());acquired['source_id']='another:source';p.write_text(json.dumps(acquired))
+        proof=Path(row['verification_receipt']['path']);data=json.loads(proof.read_text());data['acquisition_receipt']['sha256']=A.sha256(p)
+        data['verified_artifacts'][0]['validation']['acquisition_receipt_sha256']=A.sha256(p)
+        proof.write_text(json.dumps(data));row['verification_receipt']['sha256']=A.sha256(proof)
+        with patch.object(A,'probe_media',return_value={'duration_seconds':300,'streams':[{'codec_type':'audio'}]}):
+            with self.assertRaisesRegex(ValueError,'this completed original audio'):
+                A.validate_record(row)
+
+    def test_custom_reserve_is_passed_to_decode_and_bound_in_receipt(self):
+        row=self.record();output=self.folder/'reserve-output'
+        with patch.object(A,'decode_audio',wraps=A.decode_audio) as decoder:
+            path,receipt,_=A.process_record(row,output,min_free_bytes=12345)
+        self.assertEqual(decoder.call_args.kwargs['reserve_bytes'],12345)
+        self.assertEqual(receipt['binding']['storage']['min_free_bytes'],12345)
+        self.assertTrue(receipt['binding']['storage']['retain_decoded_audio'])
+
+    def test_discarded_new_derivative_is_audited_and_result_reuses(self):
+        row=self.record();original=A.sha256(self.wave);output=self.folder/'compact-output'
+        path,receipt,_=A.process_record(row,output,min_free_bytes=0,retain_decoded_audio=False)
+        discarded=[x for x in receipt['verified_artifacts'] if x.get('retained') is False]
+        self.assertEqual(len(discarded),1);self.assertFalse(Path(discarded[0]['local_path']).exists())
+        self.assertEqual(discarded[0]['derived_from_sha256'],original)
+        self.assertEqual(A.sha256(self.wave),original)
+        self.assertNotIn(discarded[0]['local_path'],[x['local_path'] for x in A.final_artifacts(row,path,receipt)])
+        with patch.object(A,'decode_audio',side_effect=AssertionError('No repeat decode')):
+            _,again,reused=A.process_record(row,output,min_free_bytes=0,retain_decoded_audio=False)
+        self.assertTrue(reused)
+
+    def test_retention_flag_cannot_hide_missing_original(self):
+        row=self.record();path,receipt,_=A.process_record(row,self.folder/'bad-retention',min_free_bytes=0,retain_decoded_audio=False)
+        receipt['verified_artifacts'][0]['retained']=False
+        path.write_text(json.dumps(receipt))
+        with self.assertRaisesRegex(ValueError,'Only the explicitly discarded'):
+            A.verify_completed(path,receipt['binding'])
+
+    def test_failed_processing_does_not_remove_derivative(self):
+        row=self.record();output=self.folder/'failure-retention'
+        with patch.object(A,'audio_metrics',side_effect=RuntimeError('Synthetic output failure')):
+            with self.assertRaises(RuntimeError):
+                A.process_record(row,output,min_free_bytes=0,retain_decoded_audio=False)
+        self.assertEqual(len(list(output.glob('sources/*/*/audio-16khz-mono.wav'))),1)
+        self.assertTrue(self.wave.exists())
+
+    def test_invalid_disk_reserve_is_rejected_before_processing(self):
+        for reserve in (-1,True,1.5):
+            with self.subTest(reserve=reserve),self.assertRaisesRegex(ValueError,'nonnegative integer'):
+                A.process_record({},self.folder/'invalid',min_free_bytes=reserve)
+
     def test_receipt_must_bind_matching_source(self):
         row = self.record()
         proof = Path(row['verification_receipt']['path'])

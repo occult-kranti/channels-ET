@@ -1,0 +1,2264 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-07T02:44:43.115531+00:00",
+  "corpora": {
+    "ra": {
+      "audio_downloaded": 2620,
+      "unique_audio_sources": 2620,
+      "retained_audio_files": 2621,
+      "video_downloaded": 0,
+      "transcripts_downloaded": 106,
+      "transcript_editions": 106,
+      "unique_transcribed_sources": 106,
+      "inventory_audio_total": 2620,
+      "inventory_video_total": null,
+      "original_audio_retained": 1,
+      "compact_audio_retained": 2620,
+      "retained_audio_encoding": "Full-length 48 kbps CBR Ogg Opus (lossy); original pilot MP3 also preserved",
+      "inventory_original_bytes": 6620288811,
+      "media_bytes": 2536323675,
+      "audio_hours": 115.08962996444446,
+      "download_status": "completed",
+      "scope": "106 complete published Lightly Edited texts. Audio counts are segments, not continuous tapes. The finite original-audio frame has 2,620 links. Historical missing/overwritten recordings are not reconstructed.",
+      "updated_at": "2026-11-07T02:44:43.115531+00:00",
+      "auxiliary_validation_audio_files": 1,
+      "auxiliary_validation_audio_bytes": 6770304,
+      "auxiliary_validation_audio_sha256": "cde597184a3ebaac63e7de1433a3da3b5d9debf0136c3ae00caa4e110e714feb",
+      "auxiliary_scope": "Separate local conversion-test copy of source1.0, outside canonical source/file/duration totals.",
+      "original_bytes_verified_before_conversion": 6620288811,
+      "manifest_sha256": "05bafffc5c4526f50df50656082fb6ec3666f48c05f3b462972d5b893b43d202",
+      "failed_segments": 0
+    },
+    "bashar": {
+      "audio_downloaded": 105,
+      "unique_audio_sources": 105,
+      "retained_audio_files": 105,
+      "video_downloaded": 0,
+      "transcripts_downloaded": 107,
+      "transcript_editions": 107,
+      "unique_transcribed_sources": 105,
+      "inventory_audio_total": 106,
+      "inventory_video_total": 87,
+      "official_profile_ids": 307,
+      "duration_eligible_profile_ids": 87,
+      "original_audio_retained": 105,
+      "compact_audio_retained": 0,
+      "retained_audio_encoding": "Publisher audio encodings; formats and editions recorded separately",
+      "media_bytes": 2240888107,
+      "audio_hours": 31.78847143833333,
+      "publisher_automatic_caption_tracks": 14,
+      "local_machine_transcripts": 93,
+      "download_status": "resolved_with_explicit_exclusions",
+      "updated_at": "2026-11-07T02:44:43.115531+00:00",
+      "scope": "19 retained mixed-context recordings plus official public publications. The Vimeo frame has 307 IDs and 87 advertised at least five minutes; actual decoded duration determines admission. Unique audio sources here means publication IDs, while exact encoded-audio families are reported separately. Excerpts, greetings and promotions are not full paid sessions. Counts do not cover every historic Bashar upload. No count cap in this new study.",
+      "official_audio_retained": 86,
+      "official_text_dispositions": 87,
+      "audio_acquisition_manifest_sha256": "6e87632dc87ac4b1888fabcac3359f1f45338325c82d3962f24609cbece423a3",
+      "preferred_speech_manifest_sha256": "633a9254fd493e566ebb553cd4c3a893e432f59b63ea6bbca364421526ab621c",
+      "unique_encoded_audio_hashes": 103,
+      "official_unique_encoded_audio_hashes": 84,
+      "exact_media_duplicate_publications": 2,
+      "collection_resolution_status": "all_candidate_dispositions_resolved",
+      "qualifying_audio_status": "all_current_qualifying_sources_retained",
+      "unadmitted_audio_files": 2,
+      "unadmitted_audio_bytes": 9746161,
+      "unadmitted_audio_editions": [
+        {
+          "source_id": "vimeo:329903959",
+          "disposition": "excluded_below_actual_duration",
+          "bytes": 5196831,
+          "sha256": "b4d37839c585b8fc67a7a73af96f99b68e4c02409702077749a0fdb262007087"
+        },
+        {
+          "source_id": "vimeo:204089777",
+          "disposition": "superseded_missing_fragment",
+          "bytes": 4549330,
+          "sha256": "054f659907612604c5b133cf41f3d5a705a9c1bcc0cadbcb7da0efa1130b150d"
+        }
+      ],
+      "superseded_transcript_editions": 1,
+      "excluded_publications": 1,
+      "unresolved_publications": 0,
+      "exclusions": [
+        {
+          "source_id": "vimeo:329903959",
+          "source_url": "https://vimeo.com/329903959",
+          "eligibility_status": "excluded_below_actual_duration",
+          "advertised_duration_seconds": 300,
+          "observed_duration_seconds": 299.648
+        }
+      ]
+    }
+  },
+  "source_statuses": {
+    "ra:session:001:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 11,
+      "compact_audio_bytes": 15994373,
+      "video_downloaded": false
+    },
+    "ra:session:002:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 7,
+      "compact_audio_bytes": 25186770,
+      "video_downloaded": false
+    },
+    "ra:session:003:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 19,
+      "compact_audio_bytes": 21133041,
+      "video_downloaded": false
+    },
+    "ra:session:004:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 23450887,
+      "video_downloaded": false
+    },
+    "ra:session:005:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 4,
+      "compact_audio_bytes": 11092387,
+      "video_downloaded": false
+    },
+    "ra:session:006:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 30,
+      "compact_audio_bytes": 24882380,
+      "video_downloaded": false
+    },
+    "ra:session:007:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 20,
+      "compact_audio_bytes": 22999327,
+      "video_downloaded": false
+    },
+    "ra:session:008:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 35,
+      "compact_audio_bytes": 25102814,
+      "video_downloaded": false
+    },
+    "ra:session:009:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 18473582,
+      "video_downloaded": false
+    },
+    "ra:session:010:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 20,
+      "compact_audio_bytes": 24895566,
+      "video_downloaded": false
+    },
+    "ra:session:011:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 33,
+      "compact_audio_bytes": 19791190,
+      "video_downloaded": false
+    },
+    "ra:session:012:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 34,
+      "compact_audio_bytes": 25455238,
+      "video_downloaded": false
+    },
+    "ra:session:013:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 28,
+      "compact_audio_bytes": 20431996,
+      "video_downloaded": false
+    },
+    "ra:session:014:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 35,
+      "compact_audio_bytes": 22884225,
+      "video_downloaded": false
+    },
+    "ra:session:015:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 26,
+      "compact_audio_bytes": 22163131,
+      "video_downloaded": false
+    },
+    "ra:session:016:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 63,
+      "compact_audio_bytes": 31303296,
+      "video_downloaded": false
+    },
+    "ra:session:017:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 46,
+      "compact_audio_bytes": 30073267,
+      "video_downloaded": false
+    },
+    "ra:session:018:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 28,
+      "compact_audio_bytes": 21495565,
+      "video_downloaded": false
+    },
+    "ra:session:019:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 21317497,
+      "video_downloaded": false
+    },
+    "ra:session:020:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 46,
+      "compact_audio_bytes": 21625995,
+      "video_downloaded": false
+    },
+    "ra:session:021:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 30,
+      "compact_audio_bytes": 20208656,
+      "video_downloaded": false
+    },
+    "ra:session:022:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 30,
+      "compact_audio_bytes": 19886360,
+      "video_downloaded": false
+    },
+    "ra:session:023:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 20,
+      "compact_audio_bytes": 20586153,
+      "video_downloaded": false
+    },
+    "ra:session:024:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 16438069,
+      "video_downloaded": false
+    },
+    "ra:session:025:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 13,
+      "compact_audio_bytes": 13928640,
+      "video_downloaded": false
+    },
+    "ra:session:026:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 41,
+      "compact_audio_bytes": 26740804,
+      "video_downloaded": false
+    },
+    "ra:session:027:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 19,
+      "compact_audio_bytes": 18464727,
+      "video_downloaded": false
+    },
+    "ra:session:028:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 22,
+      "compact_audio_bytes": 19188715,
+      "video_downloaded": false
+    },
+    "ra:session:029:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 35,
+      "compact_audio_bytes": 20600133,
+      "video_downloaded": false
+    },
+    "ra:session:030:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 19,
+      "compact_audio_bytes": 18865957,
+      "video_downloaded": false
+    },
+    "ra:session:031:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 18,
+      "compact_audio_bytes": 19199545,
+      "video_downloaded": false
+    },
+    "ra:session:032:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 17,
+      "compact_audio_bytes": 19248240,
+      "video_downloaded": false
+    },
+    "ra:session:033:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 22,
+      "compact_audio_bytes": 18451731,
+      "video_downloaded": false
+    },
+    "ra:session:034:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 20,
+      "compact_audio_bytes": 20683627,
+      "video_downloaded": false
+    },
+    "ra:session:035:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 10,
+      "compact_audio_bytes": 15708107,
+      "video_downloaded": false
+    },
+    "ra:session:036:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 25,
+      "compact_audio_bytes": 22812615,
+      "video_downloaded": false
+    },
+    "ra:session:037:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 10,
+      "compact_audio_bytes": 13696109,
+      "video_downloaded": false
+    },
+    "ra:session:038:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 16,
+      "compact_audio_bytes": 15328385,
+      "video_downloaded": false
+    },
+    "ra:session:039:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 14,
+      "compact_audio_bytes": 19173926,
+      "video_downloaded": false
+    },
+    "ra:session:040:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 18,
+      "compact_audio_bytes": 20427583,
+      "video_downloaded": false
+    },
+    "ra:session:041:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 28,
+      "compact_audio_bytes": 29128761,
+      "video_downloaded": false
+    },
+    "ra:session:042:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 22,
+      "compact_audio_bytes": 23778087,
+      "video_downloaded": false
+    },
+    "ra:session:043:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 33,
+      "compact_audio_bytes": 18040207,
+      "video_downloaded": false
+    },
+    "ra:session:044:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 18,
+      "compact_audio_bytes": 15621160,
+      "video_downloaded": false
+    },
+    "ra:session:045:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 14,
+      "compact_audio_bytes": 7603224,
+      "video_downloaded": false
+    },
+    "ra:session:046:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 19,
+      "compact_audio_bytes": 15086157,
+      "video_downloaded": false
+    },
+    "ra:session:047:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 17,
+      "compact_audio_bytes": 21028532,
+      "video_downloaded": false
+    },
+    "ra:session:048:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 12,
+      "compact_audio_bytes": 22308297,
+      "video_downloaded": false
+    },
+    "ra:session:049:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 10,
+      "compact_audio_bytes": 19110743,
+      "video_downloaded": false
+    },
+    "ra:session:050:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 15,
+      "compact_audio_bytes": 21052178,
+      "video_downloaded": false
+    },
+    "ra:session:051:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 11,
+      "compact_audio_bytes": 18405584,
+      "video_downloaded": false
+    },
+    "ra:session:052:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 13,
+      "compact_audio_bytes": 19051551,
+      "video_downloaded": false
+    },
+    "ra:session:053:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 25,
+      "compact_audio_bytes": 23263362,
+      "video_downloaded": false
+    },
+    "ra:session:054:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 34,
+      "compact_audio_bytes": 33537715,
+      "video_downloaded": false
+    },
+    "ra:session:055:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 19,
+      "compact_audio_bytes": 20142584,
+      "video_downloaded": false
+    },
+    "ra:session:056:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 9,
+      "compact_audio_bytes": 12851149,
+      "video_downloaded": false
+    },
+    "ra:session:057:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 35,
+      "compact_audio_bytes": 28835907,
+      "video_downloaded": false
+    },
+    "ra:session:058:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 25,
+      "compact_audio_bytes": 18571071,
+      "video_downloaded": false
+    },
+    "ra:session:059:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 26,
+      "compact_audio_bytes": 20863594,
+      "video_downloaded": false
+    },
+    "ra:session:060:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 33,
+      "compact_audio_bytes": 33064178,
+      "video_downloaded": false
+    },
+    "ra:session:061:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 15,
+      "compact_audio_bytes": 20632744,
+      "video_downloaded": false
+    },
+    "ra:session:062:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 31,
+      "compact_audio_bytes": 23260347,
+      "video_downloaded": false
+    },
+    "ra:session:063:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 34,
+      "compact_audio_bytes": 25224070,
+      "video_downloaded": false
+    },
+    "ra:session:064:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 22,
+      "compact_audio_bytes": 25087425,
+      "video_downloaded": false
+    },
+    "ra:session:065:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 36345918,
+      "video_downloaded": false
+    },
+    "ra:session:066:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 36,
+      "compact_audio_bytes": 38056936,
+      "video_downloaded": false
+    },
+    "ra:session:067:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 32,
+      "compact_audio_bytes": 31992433,
+      "video_downloaded": false
+    },
+    "ra:session:068:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 20,
+      "compact_audio_bytes": 22664608,
+      "video_downloaded": false
+    },
+    "ra:session:069:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 23,
+      "compact_audio_bytes": 24027434,
+      "video_downloaded": false
+    },
+    "ra:session:070:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 25,
+      "compact_audio_bytes": 23275180,
+      "video_downloaded": false
+    },
+    "ra:session:071:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 27558818,
+      "video_downloaded": false
+    },
+    "ra:session:072:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 19,
+      "compact_audio_bytes": 23222897,
+      "video_downloaded": false
+    },
+    "ra:session:073:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 32256097,
+      "video_downloaded": false
+    },
+    "ra:session:074:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 21,
+      "compact_audio_bytes": 26001407,
+      "video_downloaded": false
+    },
+    "ra:session:075:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 42,
+      "compact_audio_bytes": 39490513,
+      "video_downloaded": false
+    },
+    "ra:session:076:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 23,
+      "compact_audio_bytes": 26458718,
+      "video_downloaded": false
+    },
+    "ra:session:077:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 26,
+      "compact_audio_bytes": 26167632,
+      "video_downloaded": false
+    },
+    "ra:session:078:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 39,
+      "compact_audio_bytes": 38027766,
+      "video_downloaded": false
+    },
+    "ra:session:079:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 45,
+      "compact_audio_bytes": 27478023,
+      "video_downloaded": false
+    },
+    "ra:session:080:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 26993173,
+      "video_downloaded": false
+    },
+    "ra:session:081:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 35,
+      "compact_audio_bytes": 24537653,
+      "video_downloaded": false
+    },
+    "ra:session:082:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 31,
+      "compact_audio_bytes": 29142278,
+      "video_downloaded": false
+    },
+    "ra:session:083:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 29,
+      "compact_audio_bytes": 28892069,
+      "video_downloaded": false
+    },
+    "ra:session:084:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 29245024,
+      "video_downloaded": false
+    },
+    "ra:session:085:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 21,
+      "compact_audio_bytes": 22063269,
+      "video_downloaded": false
+    },
+    "ra:session:086:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 28756229,
+      "video_downloaded": false
+    },
+    "ra:session:087:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 30,
+      "compact_audio_bytes": 29147681,
+      "video_downloaded": false
+    },
+    "ra:session:088:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 25,
+      "compact_audio_bytes": 31548760,
+      "video_downloaded": false
+    },
+    "ra:session:089:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 46,
+      "compact_audio_bytes": 32315411,
+      "video_downloaded": false
+    },
+    "ra:session:090:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 32,
+      "compact_audio_bytes": 30522888,
+      "video_downloaded": false
+    },
+    "ra:session:091:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 39,
+      "compact_audio_bytes": 27225549,
+      "video_downloaded": false
+    },
+    "ra:session:092:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 36,
+      "compact_audio_bytes": 31748768,
+      "video_downloaded": false
+    },
+    "ra:session:093:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 25,
+      "compact_audio_bytes": 26750740,
+      "video_downloaded": false
+    },
+    "ra:session:094:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 31,
+      "compact_audio_bytes": 32588179,
+      "video_downloaded": false
+    },
+    "ra:session:095:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 29,
+      "compact_audio_bytes": 32635716,
+      "video_downloaded": false
+    },
+    "ra:session:096:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 23,
+      "compact_audio_bytes": 25607454,
+      "video_downloaded": false
+    },
+    "ra:session:097:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 21,
+      "compact_audio_bytes": 25485104,
+      "video_downloaded": false
+    },
+    "ra:session:098:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 17,
+      "compact_audio_bytes": 21056134,
+      "video_downloaded": false
+    },
+    "ra:session:099:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 11,
+      "compact_audio_bytes": 24210598,
+      "video_downloaded": false
+    },
+    "ra:session:100:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 16,
+      "compact_audio_bytes": 20195605,
+      "video_downloaded": false
+    },
+    "ra:session:101:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 10,
+      "compact_audio_bytes": 19402439,
+      "video_downloaded": false
+    },
+    "ra:session:102:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 23,
+      "compact_audio_bytes": 24210228,
+      "video_downloaded": false
+    },
+    "ra:session:103:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 21,
+      "compact_audio_bytes": 21674583,
+      "video_downloaded": false
+    },
+    "ra:session:104:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 27,
+      "compact_audio_bytes": 21799158,
+      "video_downloaded": false
+    },
+    "ra:session:105:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 23,
+      "compact_audio_bytes": 31077238,
+      "video_downloaded": false
+    },
+    "ra:session:106:lightly-edited": {
+      "published_text": "retained",
+      "compact_audio_segments": 24,
+      "compact_audio_bytes": 31703426,
+      "video_downloaded": false
+    },
+    "rss-1705626495-6f489902be87": {
+      "audio_downloaded": true,
+      "audio_bytes": 93687272,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1611118279-afab067a712d": {
+      "audio_downloaded": true,
+      "audio_bytes": 82382261,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1556820026-35f9fd91f5ab": {
+      "audio_downloaded": true,
+      "audio_bytes": 34382575,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-988576741-1ecc5cb023cf": {
+      "audio_downloaded": true,
+      "audio_bytes": 81631438,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-988576741-f283904d1eb7": {
+      "audio_downloaded": true,
+      "audio_bytes": 165884562,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1560904383-7f4e01fae0ff": {
+      "audio_downloaded": true,
+      "audio_bytes": 128479603,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1705626495-ae84c9540581": {
+      "audio_downloaded": true,
+      "audio_bytes": 58518699,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1620917042-0d435eadc49d": {
+      "audio_downloaded": true,
+      "audio_bytes": 23557581,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1556820026-decefb87233c": {
+      "audio_downloaded": true,
+      "audio_bytes": 48115878,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1763048673-32a6fb8cd623": {
+      "audio_downloaded": true,
+      "audio_bytes": 242616813,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "soul-talk-224-20220316": {
+      "audio_downloaded": true,
+      "audio_bytes": 62146296,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1465014169-8dd4267008f8": {
+      "audio_downloaded": true,
+      "audio_bytes": 75780998,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1546456269-b82d79f0d2c0": {
+      "audio_downloaded": true,
+      "audio_bytes": 40274039,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1763048673-1cf4301536f2": {
+      "audio_downloaded": true,
+      "audio_bytes": 73492058,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1529629262-6e621316510d": {
+      "audio_downloaded": true,
+      "audio_bytes": 65661870,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "impossible-dreams-21-20260310": {
+      "audio_downloaded": true,
+      "audio_bytes": 157323633,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1465014169-7a91901169c6": {
+      "audio_downloaded": true,
+      "audio_bytes": 65356999,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-425328515-addbc47ecbd7": {
+      "audio_downloaded": true,
+      "audio_bytes": 106006995,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "rss-1546456269-353036e21117": {
+      "audio_downloaded": true,
+      "audio_bytes": 59230133,
+      "local_machine_transcript": true,
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:392834325": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:1232083694:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:1158201520:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:1142563626:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:1123292028:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:942436705:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:915689107:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:859490507:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:853510380:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:824793465:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:784033644:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:765877695:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:756476540:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:727196183:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:714615663:captions:en-x-autogen": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:704707114:local-asr:273348b1c18dff3c": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:685667305:local-asr:9314e77e2239d231": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:649637547:local-asr:257780e2764aab6b": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:642443703:local-asr:0cac7b6920d9918c": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:509973384:local-asr:ae73f5cf35382512": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:481887022:local-asr:40b41207fd3ec49e": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:457106172:local-asr:af2b6777a79b080a": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:442486657:local-asr:755346fd32211b80": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:432657822:local-asr:97570ebab4af61cc": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:424936861:local-asr:15f42562e68d61b7": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:382226013:local-asr:f96b941c3f3d7b87": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:381375170:local-asr:ac8f57076b2e815c": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:351520232:local-asr:9ebd9d6124328006": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:335985446:local-asr:064d2f7c35ef9a77": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:329903959:text-unavailable": {
+      "audio_downloaded": false,
+      "text_edition_retained": false,
+      "text_kind": "machine_asr",
+      "collection_status": "not_retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:312873312:local-asr:dc9a0998cf593d88": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:308939440:local-asr:97a51908221ff0ce": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:306215124:local-asr:cc8cb13fab5757c7": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:299700229:local-asr:73d5b517aa5e102b": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:296671503:local-asr:b3ef12d768ed69f0": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:286084921:local-asr:f845c98ec7bfb0de": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:278735645:local-asr:9349ac52a9fe2178": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:269231600:local-asr:d236a23db2a9a7f8": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:261549084:local-asr:bc09fe58a38875d7": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:248933745:local-asr:e66e98af6f02cad3": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:248782665:local-asr:846593aea97e6951": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:244082894:local-asr:81fb1c7d9d5ef9e9": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:243933136:local-asr:aa7ff7abe1106496": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:239682547:local-asr:f59a605ff66d6736": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:227807005:local-asr:5da0d4cc471d2b87": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:221688472:local-asr:a353fccaceacff50": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:221668166:local-asr:228bd708e6562fb6": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:218534595:local-asr:625fe1c7a7386f6f": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204375008:local-asr:817fa9caf1aa0656": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204091661:local-asr:6331912dec1a7b5a": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204091317:local-asr:079893e0388c37c7": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204091007:local-asr:3b31d4f582fa726f": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204089777:local-asr:960589da22c95c9e": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204089494:local-asr:383c63a5d1b381e8": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204089196:local-asr:958fc0faf556e381": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204088832:local-asr:b26d505046f190f3": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204088259:local-asr:6f88452a9fa39afd": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204087868:local-asr:a588e66834e6b22e": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204087355:local-asr:7d50eabd7dc03dfe": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204087056:local-asr:f349c55e916cb417": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204086275:local-asr:3d7a4cbea6dbb320": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204086006:local-asr:44e93aae67086073": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204075252:local-asr:264c7fdb5668707c": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204074862:local-asr:fd41ba464a2fa092": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204074583:local-asr:a5559bdaf0553f6e": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204074443:local-asr:a8509c159d7c7947": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204074342:local-asr:5333a25c9fbe0bf9": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204073990:local-asr:57b12e9480a1a426": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204072408:local-asr:300b1b8516acf113": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204071634:local-asr:93c15bc6be878c18": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204069533:local-asr:422cb7977a8c6236": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204068106:local-asr:1587ad4903c8bde3": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204065881:local-asr:7f4e1b0f76065275": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204065096:local-asr:c23c71c63f52adf8": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204064597:local-asr:fbf34e0ac4aa0493": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204063687:local-asr:c9e11c193aedbeee": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204063224:local-asr:5c7bf14d6e5c1e58": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204061817:local-asr:e316caab35cb50dc": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204061477:local-asr:f006cb7758076dd0": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204061292:local-asr:d3a7dcdbd0eec84d": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204061158:local-asr:303c906392fed8e4": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204020567:local-asr:7f9740b1eaff8e2a": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204020444:local-asr:4413539c4e853fbd": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204020339:local-asr:d73b3a36373ff73c": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:204019752:local-asr:4e22347bde94019b": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:203958062:local-asr:c1f35226db8af938": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    },
+    "vimeo:203925510:local-asr:b7fe324a6d5b310f": {
+      "audio_downloaded": true,
+      "text_edition_retained": true,
+      "text_kind": "machine_asr",
+      "collection_status": "retrieved",
+      "video_downloaded": false,
+      "human_accuracy_validated": false
+    }
+  },
+  "storage": {
+    "destination": "Private managed cloud workspace",
+    "permanent_chatgpt_account_storage": false,
+    "google_drive_uploads": 0,
+    "public_media_uploads": 0
+  },
+  "scope": "Dated receipt-based collection snapshot. The frozen primary statistical study remains 106 Ra sessions and 19 Bashar-related contexts. New acquisitions have separate analysis coverage.",
+  "inputs": {
+    "ra/complete-transcript-manifest.json": "1f303635eaee27db96a25bd227a779940a14e7c60f80ac95bcb0cb35482d417d",
+    "ra/audio-inventory-complete.json": "c954a492fd07c8e4b90e046677431d71e6991755d7799fe87479e11e992c3590",
+    "bashar/corpus/manifest.json": "0c1f1df4f93bccfedb2744da66b7c78feb1e76d6c5973339928f96d8c70d3b60",
+    "bashar/official-excerpt-corpus/manifest.json": "30dfa1bd982c2f8dc7af25815fe7a9e1f831d351a40540cd1ddc4f5d1c1920dd",
+    "bashar/official-platform-captions/manifest.json": "2518a82f34581d361402e54126eb6e0e76e30365293ac36cebf47446bffa8961",
+    "bashar/discovery/vimeo-oembed-census.json": "5c615b247550884635491066492a1cfc34bd7f7a66d0d7d47fc106e30a2003e9",
+    "paired_editions_manifest_sha256": "4a8400c98a85a7411f82ecba52d05a7e18c5a66a21f348030ee1499c8caacda4",
+    "official_audio_dispositions_manifest_sha256": "cf666cfd808fd0e22f509bd95c9605f7d8a64092b5987d7a9857f244619a16a0",
+    "official_audio_manifest_sha256": "6e87632dc87ac4b1888fabcac3359f1f45338325c82d3962f24609cbece423a3",
+    "preferred_speech_manifest_sha256": "633a9254fd493e566ebb553cd4c3a893e432f59b63ea6bbca364421526ab621c"
+  },
+  "supplementary_studies": {
+    "official_speech": "official-speech.json"
+  },
+  "supplementary_sha256": "68e4c40a34fa0bd7efcea13a32ea501b0f7bfd55643935f01e2d8a7a68907b01",
+  "figures": [
+    {
+      "file": "recording-duration-coverage.png",
+      "caption": "Top: summed decoded durations of retained Ra segments per canonical session; source gaps and missing historical recordings are not filled. Bottom: each admitted Bashar publication is a point, using retained-media duration metadata and grouped by source format; black marks show medians. Official excerpts are not full sessions. The logarithmic duration axis exposes the recording-length difference; this is acquisition metadata, not speech-rate or content analysis.",
+      "bytes": 173474,
+      "sha256": "7b9eb669d7c9d1fcac632421dcc2067ae03ba22de0032242489870adc6fec8e0"
+    },
+    {
+      "file": "recording-duration-coverage.svg",
+      "caption": "Top: summed decoded durations of retained Ra segments per canonical session; source gaps and missing historical recordings are not filled. Bottom: each admitted Bashar publication is a point, using retained-media duration metadata and grouped by source format; black marks show medians. Official excerpts are not full sessions. The logarithmic duration axis exposes the recording-length difference; this is acquisition metadata, not speech-rate or content analysis.",
+      "bytes": 122859,
+      "sha256": "167d4731a22d0c9d553dcb5cf648f7bfd758b73884ff5fa8ce89397c771fc3bb"
+    },
+    {
+      "file": "recording-duration-coverage.pdf",
+      "caption": "Top: summed decoded durations of retained Ra segments per canonical session; source gaps and missing historical recordings are not filled. Bottom: each admitted Bashar publication is a point, using retained-media duration metadata and grouped by source format; black marks show medians. Official excerpts are not full sessions. The logarithmic duration axis exposes the recording-length difference; this is acquisition metadata, not speech-rate or content analysis.",
+      "bytes": 26450,
+      "sha256": "39e75377354cfe69e1b201a3123c734aea033bcaee63d6ba16f44ceda25299e0"
+    },
+    {
+      "file": "compressed-audio-storage.png",
+      "caption": "Compressed admitted audio only; excludes model weights, metadata, PCM derivatives and any retained-but-unadmitted boundary files. The preserved Ra pilot and its compact copy are two files from one source, not independent recordings. Opus is a lossy derivative; original source MP3 bytes were verified before conversion. Decimal GB is used.",
+      "bytes": 83713,
+      "sha256": "8c0317ca6edd21a46fe61600b53ebe28980b3f907a17429c6b81eb0d261c941e"
+    },
+    {
+      "file": "compressed-audio-storage.svg",
+      "caption": "Compressed admitted audio only; excludes model weights, metadata, PCM derivatives and any retained-but-unadmitted boundary files. The preserved Ra pilot and its compact copy are two files from one source, not independent recordings. Opus is a lossy derivative; original source MP3 bytes were verified before conversion. Decimal GB is used.",
+      "bytes": 51094,
+      "sha256": "068705212a09904832b3530c1ed978ba831714f604b891a39c2a6c4a67e85b6b"
+    },
+    {
+      "file": "compressed-audio-storage.pdf",
+      "caption": "Compressed admitted audio only; excludes model weights, metadata, PCM derivatives and any retained-but-unadmitted boundary files. The preserved Ra pilot and its compact copy are two files from one source, not independent recordings. Opus is a lossy derivative; original source MP3 bytes were verified before conversion. Decimal GB is used.",
+      "bytes": 17258,
+      "sha256": "cc8758b8aee11154ec64b433add3a3fca565fe0f08c1df6e4839716e86462baa"
+    }
+  ],
+  "audio_summary_by_ra_session": [
+    {
+      "session": 1,
+      "retained_segments": 11,
+      "duration_seconds": 2631.497229,
+      "compact_bytes": 15994373
+    },
+    {
+      "session": 2,
+      "retained_segments": 7,
+      "duration_seconds": 4144.3004789999995,
+      "compact_bytes": 25186770
+    },
+    {
+      "session": 3,
+      "retained_segments": 19,
+      "duration_seconds": 3476.767584,
+      "compact_bytes": 21133041
+    },
+    {
+      "session": 4,
+      "retained_segments": 24,
+      "duration_seconds": 3857.946418,
+      "compact_bytes": 23450887
+    },
+    {
+      "session": 5,
+      "retained_segments": 4,
+      "duration_seconds": 1825.149438,
+      "compact_bytes": 11092387
+    },
+    {
+      "session": 6,
+      "retained_segments": 30,
+      "duration_seconds": 4093.2313130000002,
+      "compact_bytes": 24882380
+    },
+    {
+      "session": 7,
+      "retained_segments": 20,
+      "duration_seconds": 3783.78467,
+      "compact_bytes": 22999327
+    },
+    {
+      "session": 8,
+      "retained_segments": 35,
+      "duration_seconds": 4129.358668,
+      "compact_bytes": 25102814
+    },
+    {
+      "session": 9,
+      "retained_segments": 24,
+      "duration_seconds": 3038.903147,
+      "compact_bytes": 18473582
+    },
+    {
+      "session": 10,
+      "retained_segments": 20,
+      "duration_seconds": 4095.817357,
+      "compact_bytes": 24895566
+    },
+    {
+      "session": 11,
+      "retained_segments": 33,
+      "duration_seconds": 3255.379921,
+      "compact_bytes": 19791190
+    },
+    {
+      "session": 12,
+      "retained_segments": 34,
+      "duration_seconds": 4187.298296,
+      "compact_bytes": 25455238
+    },
+    {
+      "session": 13,
+      "retained_segments": 28,
+      "duration_seconds": 3361.045169,
+      "compact_bytes": 20431996
+    },
+    {
+      "session": 14,
+      "retained_segments": 35,
+      "duration_seconds": 3764.271376,
+      "compact_bytes": 22884225
+    },
+    {
+      "session": 15,
+      "retained_segments": 26,
+      "duration_seconds": 3645.962771,
+      "compact_bytes": 22163131
+    },
+    {
+      "session": 16,
+      "retained_segments": 63,
+      "duration_seconds": 5148.500211,
+      "compact_bytes": 31303296
+    },
+    {
+      "session": 17,
+      "retained_segments": 46,
+      "duration_seconds": 4946.782522,
+      "compact_bytes": 30073267
+    },
+    {
+      "session": 18,
+      "retained_segments": 28,
+      "duration_seconds": 3536.039458,
+      "compact_bytes": 21495565
+    },
+    {
+      "session": 19,
+      "retained_segments": 24,
+      "duration_seconds": 3506.912917,
+      "compact_bytes": 21317497
+    },
+    {
+      "session": 20,
+      "retained_segments": 46,
+      "duration_seconds": 3556.780838,
+      "compact_bytes": 21625995
+    },
+    {
+      "session": 21,
+      "retained_segments": 30,
+      "duration_seconds": 3324.212546,
+      "compact_bytes": 20208656
+    },
+    {
+      "session": 22,
+      "retained_segments": 30,
+      "duration_seconds": 3271.157877,
+      "compact_bytes": 19886360
+    },
+    {
+      "session": 23,
+      "retained_segments": 20,
+      "duration_seconds": 3386.749646,
+      "compact_bytes": 20586153
+    },
+    {
+      "session": 24,
+      "retained_segments": 24,
+      "duration_seconds": 2703.961063,
+      "compact_bytes": 16438069
+    },
+    {
+      "session": 25,
+      "retained_segments": 13,
+      "duration_seconds": 2291.487459,
+      "compact_bytes": 13928640
+    },
+    {
+      "session": 26,
+      "retained_segments": 41,
+      "duration_seconds": 4398.629066,
+      "compact_bytes": 26740804
+    },
+    {
+      "session": 27,
+      "retained_segments": 19,
+      "duration_seconds": 3037.675313,
+      "compact_bytes": 18464727
+    },
+    {
+      "session": 28,
+      "retained_segments": 22,
+      "duration_seconds": 3156.74148,
+      "compact_bytes": 19188715
+    },
+    {
+      "session": 29,
+      "retained_segments": 35,
+      "duration_seconds": 3388.421629,
+      "compact_bytes": 20600133
+    },
+    {
+      "session": 30,
+      "retained_segments": 19,
+      "duration_seconds": 3103.712854,
+      "compact_bytes": 18865957
+    },
+    {
+      "session": 31,
+      "retained_segments": 18,
+      "duration_seconds": 3158.648313,
+      "compact_bytes": 19199545
+    },
+    {
+      "session": 32,
+      "retained_segments": 17,
+      "duration_seconds": 3166.667937,
+      "compact_bytes": 19248240
+    },
+    {
+      "session": 33,
+      "retained_segments": 22,
+      "duration_seconds": 3035.40271,
+      "compact_bytes": 18451731
+    },
+    {
+      "session": 34,
+      "retained_segments": 20,
+      "duration_seconds": 3402.762689,
+      "compact_bytes": 20683627
+    },
+    {
+      "session": 35,
+      "retained_segments": 10,
+      "duration_seconds": 2584.398416,
+      "compact_bytes": 15708107
+    },
+    {
+      "session": 36,
+      "retained_segments": 25,
+      "duration_seconds": 3752.934107,
+      "compact_bytes": 22812615
+    },
+    {
+      "session": 37,
+      "retained_segments": 10,
+      "duration_seconds": 2253.374771,
+      "compact_bytes": 13696109
+    },
+    {
+      "session": 38,
+      "retained_segments": 16,
+      "duration_seconds": 2521.65242,
+      "compact_bytes": 15328385
+    },
+    {
+      "session": 39,
+      "retained_segments": 14,
+      "duration_seconds": 3154.599334,
+      "compact_bytes": 19173926
+    },
+    {
+      "session": 40,
+      "retained_segments": 18,
+      "duration_seconds": 3360.705481,
+      "compact_bytes": 20427583
+    },
+    {
+      "session": 41,
+      "retained_segments": 28,
+      "duration_seconds": 4792.059149,
+      "compact_bytes": 29128761
+    },
+    {
+      "session": 42,
+      "retained_segments": 22,
+      "duration_seconds": 3911.889147,
+      "compact_bytes": 23778087
+    },
+    {
+      "session": 43,
+      "retained_segments": 33,
+      "duration_seconds": 2967.275523,
+      "compact_bytes": 18040207
+    },
+    {
+      "session": 44,
+      "retained_segments": 18,
+      "duration_seconds": 2569.743876,
+      "compact_bytes": 15621160
+    },
+    {
+      "session": 45,
+      "retained_segments": 14,
+      "duration_seconds": 1250.560105,
+      "compact_bytes": 7603224
+    },
+    {
+      "session": 46,
+      "retained_segments": 19,
+      "duration_seconds": 2481.711146,
+      "compact_bytes": 15086157
+    },
+    {
+      "session": 47,
+      "retained_segments": 17,
+      "duration_seconds": 3459.657312,
+      "compact_bytes": 21028532
+    },
+    {
+      "session": 48,
+      "retained_segments": 12,
+      "duration_seconds": 3670.465418,
+      "compact_bytes": 22308297
+    },
+    {
+      "session": 49,
+      "retained_segments": 10,
+      "duration_seconds": 3144.3592719999997,
+      "compact_bytes": 19110743
+    },
+    {
+      "session": 50,
+      "retained_segments": 15,
+      "duration_seconds": 3463.60175,
+      "compact_bytes": 21052178
+    },
+    {
+      "session": 51,
+      "retained_segments": 11,
+      "duration_seconds": 3028.2972720000002,
+      "compact_bytes": 18405584
+    },
+    {
+      "session": 52,
+      "retained_segments": 13,
+      "duration_seconds": 3134.511188,
+      "compact_bytes": 19051551
+    },
+    {
+      "session": 53,
+      "retained_segments": 25,
+      "duration_seconds": 3827.069628,
+      "compact_bytes": 23263362
+    },
+    {
+      "session": 54,
+      "retained_segments": 34,
+      "duration_seconds": 5517.348924,
+      "compact_bytes": 33537715
+    },
+    {
+      "session": 55,
+      "retained_segments": 19,
+      "duration_seconds": 3313.737313,
+      "compact_bytes": 20142584
+    },
+    {
+      "session": 56,
+      "retained_segments": 9,
+      "duration_seconds": 2114.32498,
+      "compact_bytes": 12851149
+    },
+    {
+      "session": 57,
+      "retained_segments": 35,
+      "duration_seconds": 4743.602025,
+      "compact_bytes": 28835907
+    },
+    {
+      "session": 58,
+      "retained_segments": 25,
+      "duration_seconds": 3054.916126,
+      "compact_bytes": 18571071
+    },
+    {
+      "session": 59,
+      "retained_segments": 26,
+      "duration_seconds": 3432.098233,
+      "compact_bytes": 20863594
+    },
+    {
+      "session": 60,
+      "retained_segments": 33,
+      "duration_seconds": 5439.504001,
+      "compact_bytes": 33064178
+    },
+    {
+      "session": 61,
+      "retained_segments": 15,
+      "duration_seconds": 3394.586314,
+      "compact_bytes": 20632744
+    },
+    {
+      "session": 62,
+      "retained_segments": 31,
+      "duration_seconds": 3826.286004,
+      "compact_bytes": 23260347
+    },
+    {
+      "session": 63,
+      "retained_segments": 34,
+      "duration_seconds": 4149.316253,
+      "compact_bytes": 25224070
+    },
+    {
+      "session": 64,
+      "retained_segments": 22,
+      "duration_seconds": 4127.399396,
+      "compact_bytes": 25087425
+    },
+    {
+      "session": 65,
+      "retained_segments": 24,
+      "duration_seconds": 5979.925146,
+      "compact_bytes": 36345918
+    },
+    {
+      "session": 66,
+      "retained_segments": 36,
+      "duration_seconds": 6260.950608,
+      "compact_bytes": 38056936
+    },
+    {
+      "session": 67,
+      "retained_segments": 32,
+      "duration_seconds": 5263.203604,
+      "compact_bytes": 31992433
+    },
+    {
+      "session": 68,
+      "retained_segments": 20,
+      "duration_seconds": 3728.744669,
+      "compact_bytes": 22664608
+    },
+    {
+      "session": 69,
+      "retained_segments": 23,
+      "duration_seconds": 3952.9015,
+      "compact_bytes": 24027434
+    },
+    {
+      "session": 70,
+      "retained_segments": 25,
+      "duration_seconds": 3829.002711,
+      "compact_bytes": 23275180
+    },
+    {
+      "session": 71,
+      "retained_segments": 24,
+      "duration_seconds": 4533.917045,
+      "compact_bytes": 27558818
+    },
+    {
+      "session": 72,
+      "retained_segments": 19,
+      "duration_seconds": 3820.721814,
+      "compact_bytes": 23222897
+    },
+    {
+      "session": 73,
+      "retained_segments": 24,
+      "duration_seconds": 5306.906377,
+      "compact_bytes": 32256097
+    },
+    {
+      "session": 74,
+      "retained_segments": 21,
+      "duration_seconds": 4277.76021,
+      "compact_bytes": 26001407
+    },
+    {
+      "session": 75,
+      "retained_segments": 42,
+      "duration_seconds": 6496.575109,
+      "compact_bytes": 39490513
+    },
+    {
+      "session": 76,
+      "retained_segments": 23,
+      "duration_seconds": 4352.914543,
+      "compact_bytes": 26458718
+    },
+    {
+      "session": 77,
+      "retained_segments": 26,
+      "duration_seconds": 4304.9275609999995,
+      "compact_bytes": 26167632
+    },
+    {
+      "session": 78,
+      "retained_segments": 39,
+      "duration_seconds": 6256.002882,
+      "compact_bytes": 38027766
+    },
+    {
+      "session": 79,
+      "retained_segments": 45,
+      "duration_seconds": 4519.785023,
+      "compact_bytes": 27478023
+    },
+    {
+      "session": 80,
+      "retained_segments": 24,
+      "duration_seconds": 4440.894978,
+      "compact_bytes": 26993173
+    },
+    {
+      "session": 81,
+      "retained_segments": 35,
+      "duration_seconds": 4036.336731,
+      "compact_bytes": 24537653
+    },
+    {
+      "session": 82,
+      "retained_segments": 31,
+      "duration_seconds": 4794.201086,
+      "compact_bytes": 29142278
+    },
+    {
+      "session": 83,
+      "retained_segments": 29,
+      "duration_seconds": 4753.110462,
+      "compact_bytes": 28892069
+    },
+    {
+      "session": 84,
+      "retained_segments": 24,
+      "duration_seconds": 4811.468,
+      "compact_bytes": 29245024
+    },
+    {
+      "session": 85,
+      "retained_segments": 21,
+      "duration_seconds": 3629.766794,
+      "compact_bytes": 22063269
+    },
+    {
+      "session": 86,
+      "retained_segments": 24,
+      "duration_seconds": 4730.984753,
+      "compact_bytes": 28756229
+    },
+    {
+      "session": 87,
+      "retained_segments": 30,
+      "duration_seconds": 4795.141524,
+      "compact_bytes": 29147681
+    },
+    {
+      "session": 88,
+      "retained_segments": 25,
+      "duration_seconds": 5190.504732,
+      "compact_bytes": 31548760
+    },
+    {
+      "session": 89,
+      "retained_segments": 46,
+      "duration_seconds": 5315.762001,
+      "compact_bytes": 32315411
+    },
+    {
+      "session": 90,
+      "retained_segments": 32,
+      "duration_seconds": 5021.33588,
+      "compact_bytes": 30522888
+    },
+    {
+      "session": 91,
+      "retained_segments": 39,
+      "duration_seconds": 4478.459127,
+      "compact_bytes": 27225549
+    },
+    {
+      "session": 92,
+      "retained_segments": 36,
+      "duration_seconds": 5222.975082,
+      "compact_bytes": 31748768
+    },
+    {
+      "session": 93,
+      "retained_segments": 25,
+      "duration_seconds": 4400.9537709999995,
+      "compact_bytes": 26750740
+    },
+    {
+      "session": 94,
+      "retained_segments": 31,
+      "duration_seconds": 5361.293315,
+      "compact_bytes": 32588179
+    },
+    {
+      "session": 95,
+      "retained_segments": 29,
+      "duration_seconds": 5369.077857,
+      "compact_bytes": 32635716
+    },
+    {
+      "session": 96,
+      "retained_segments": 23,
+      "duration_seconds": 4212.924355,
+      "compact_bytes": 25607454
+    },
+    {
+      "session": 97,
+      "retained_segments": 21,
+      "duration_seconds": 4192.836145,
+      "compact_bytes": 25485104
+    },
+    {
+      "session": 98,
+      "retained_segments": 17,
+      "duration_seconds": 3464.228732,
+      "compact_bytes": 21056134
+    },
+    {
+      "session": 99,
+      "retained_segments": 11,
+      "duration_seconds": 3983.516834,
+      "compact_bytes": 24210598
+    },
+    {
+      "session": 100,
+      "retained_segments": 16,
+      "duration_seconds": 3322.6450449999998,
+      "compact_bytes": 20195605
+    },
+    {
+      "session": 101,
+      "retained_segments": 10,
+      "duration_seconds": 3192.34621,
+      "compact_bytes": 19402439
+    },
+    {
+      "session": 102,
+      "retained_segments": 23,
+      "duration_seconds": 3982.968421,
+      "compact_bytes": 24210228
+    },
+    {
+      "session": 103,
+      "retained_segments": 21,
+      "duration_seconds": 3565.819001,
+      "compact_bytes": 21674583
+    },
+    {
+      "session": 104,
+      "retained_segments": 27,
+      "duration_seconds": 3586.037814,
+      "compact_bytes": 21799158
+    },
+    {
+      "session": 105,
+      "retained_segments": 23,
+      "duration_seconds": 5112.921065,
+      "compact_bytes": 31077238
+    },
+    {
+      "session": 106,
+      "retained_segments": 24,
+      "duration_seconds": 5215.974107,
+      "compact_bytes": 31703426
+    }
+  ],
+  "collection_plot_inputs": {
+    "ra_audio_manifest": "05bafffc5c4526f50df50656082fb6ec3666f48c05f3b462972d5b893b43d202",
+    "official_bashar_audio_manifest": "cf666cfd808fd0e22f509bd95c9605f7d8a64092b5987d7a9857f244619a16a0",
+    "retained_bashar_contexts": "0c1f1df4f93bccfedb2744da66b7c78feb1e76d6c5973339928f96d8c70d3b60"
+  }
+}

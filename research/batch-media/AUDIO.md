@@ -3,7 +3,18 @@
 `audio.py` processes explicitly supplied local files. It does not download media,
 models or captions, and it does not upload to Drive. YouTube downloads,
 independently published creator videos and publisher RSS audio remain separate
-providers: `youtube`, `publisher_video` and `publisher_rss`. Reprocessing a retained
+providers: `youtube`, `publisher_video`, `publisher_rss` and `publisher_audio`. The
+last provider identifies an original audio-only publisher track, including a
+public Vimeo-player track; it is not relabeled as an RSS enclosure or a downloaded
+video. Its acquisition proof must explicitly bind this provider, source ID,
+acquisition-receipt SHA-256 and measured duration. Actual, declared and proof-bound
+duration must each be at least five minutes and agree within the stated tolerances.
+The acquisition receipt is loaded and rehashed, its completed source ID/path/hash/
+bytes/duration are checked against the media, and containers with video streams
+are rejected for this provider. That acquisition chain is checked again after
+processing; a syntactically valid invented SHA is insufficient.
+Public excerpts remain excerpts even when their full available audio is processed.
+Reprocessing a retained
 recording does not create a new source or establish a matching YouTube edition.
 
 ## Input and execution
@@ -103,6 +114,17 @@ entity attribution is performed. Every transcript remains machine-generated and
 unverified until the promised independent listening/annotation work occurs.
 
 ## Resume, storage and privacy
+
+New runs may explicitly set `--min-free-bytes INTEGER`; the default remains six
+GiB and the chosen reserve enters the request/receipt binding. The caller must
+coordinate remaining acquisition budgets across workers. `--discard-decoded-audio`
+removes only the newly generated 16 kHz PCM derivative after all outputs have
+been rehashed and source/model checks pass. It preserves original media, metrics,
+transcripts, the derivative's hash/size/provenance and a `retained: false` disposition.
+Absent derivatives are not counted as stored artifacts. Reuse permits only this
+exact declared derivative to be absent; it cannot hide a missing original or
+transcript. Failed processing keeps its derivative for diagnosis. Older receipts
+and previously retained WAV files are never changed by these options.
 
 Completed results are reused only when source, proof, model, parameters, tool
 versions and script hashes match, and every retained artifact still rehashes to

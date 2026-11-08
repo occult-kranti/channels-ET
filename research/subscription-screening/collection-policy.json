@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "effective_on": "2026-11-08",
+  "minimum_duration_seconds": 0,
+  "bashar_minimum_duration_seconds": 300,
+  "per_channel_count_cap": null,
+  "jamie_butler_user_excluded": true,
+  "basis": "Current user instruction removes duration and count limits for non-Bashar material. Bashar retains a five-minute minimum, including reposts on mixed accounts. Historical selection snapshots remain unchanged.",
+  "unknown_duration": "Inventory the item; measure actual media duration before applying the Bashar threshold. Do not infer duration from title or omit unknowns from the discovery ledger.",
+  "unknown_speaker": "Keep provisional source/account attribution; do not turn a mixed account biography into a per-utterance speaker annotation.",
+  "resource_policy": "Resume finite discovered frames subject to verified per-item storage and integrity checks. A resource stop is recorded as incomplete acquisition, never as a complete channel census."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "reviewer": "AI methods panel bounded reading; not human annotation or audio verification",
+  "selection": "All1surviving joint lexical candidate after eligibility repair",
+  "basis_private_qa_sha256": "b5eaea90cc505cbf89ae5181e75c1cf67159fd00e1e456031196ab97393c261c",
+  "reviews": [
+    {
+      "id": "rss-1546456269-353036e21117:candidate:129:0",
+      "target_id": "ra:session:016:lightly-edited:ra:016:0028",
+      "query_text_sha256": "de3e9e2635231a45a6dfaa210a30da7fa292d20c9675065e4933de24478098f8",
+      "target_text_sha256": "f4673af6529bc86149c0b7ec2944d9fdd85739e4afcaec8afd9818d45fa89854",
+      "status": "reviewed_non_equivalent_questions",
+      "question_paraphrase": "An interviewer asks whether the present era differs from a thousand years earlier. The displayed cue is a fragment of that question.",
+      "response_paraphrase": "The Ra passage asks for the name of a visitor sent in antiquity; the printed answer names Yahweh.",
+      "comparison": "Shared time-span wording conceals different questions. The interview cue has no identified answer; the Ra answer is documentary attribution only.",
+      "accepted_same_question": false,
+      "audio_reviewed": false,
+      "query_context_words_inspected": 38,
+      "ra_question_response_words_inspected": 43
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "status": "AI_methods_panel_complete_reading_of_nine_bounded_source_bodies",
+  "selection": "All4texts in2same-name pairs,1Daniel and1Natalie message from each broadPleiadian/Arcturian group, plus completeLyssa Pleiadian excerpt. Purposeful comparison, not representative sampling.",
+  "coverage": {
+    "messages_read": 9,
+    "primary_body_words_read": 11274,
+    "additional_Lyssa_question_words_read": 71,
+    "audio_listened": false,
+    "human_validated": false
+  },
+  "sources": [
+    {
+      "source_id": "tr-source-omna-mary",
+      "text_sha256": "c8442a9ca3240d357b9ab803de99f446fc86e5f0bc36855e25809057fb4a1202",
+      "words_read": 726,
+      "scope": "Complete extracted message body; publisher page-local named-speaker attribution, no audio alignment."
+    },
+    {
+      "source_id": "tr-source-omna-magdalene",
+      "text_sha256": "210e95be0fd22ce5e71bd9348290a10db2e071d7d7d7e715e1fc91025547851f",
+      "words_read": 952,
+      "scope": "Complete extracted message body; publisher page-local named-speaker attribution, no audio alignment."
+    },
+    {
+      "source_id": "tr-source-jeshua-mary-full",
+      "text_sha256": "10c0e634493dd6f39945f433622cbddbc84f6339367d839361a8994998d94dfb",
+      "words_read": 1490,
+      "scope": "Complete extracted message body; publisher page-local named-speaker attribution, no audio alignment."
+    },
+    {
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "text_sha256": "4076d8b6946a3b4ffde1d8562beda696970acd221dd97d175d8ce34db5586bd4",
+      "words_read": 2128,
+      "scope": "Complete extracted message body; publisher page-local named-speaker attribution, no audio alignment."
+    },
+    {
+      "source_id": "tr-source-omna-pleiadians",
+      "text_sha256": "18cfcb7044b83e0077074da41118b376fe5b83a8dc0070f72708783c17e4a117",
+      "words_read": 1063,
+      "scope": "Complete extracted message body; publisher source attribution, no spoken audio verification."
+    },
+    {
+      "source_id": "tr-source-omna-arcturians",
+      "text_sha256": "f8380e0e48dd56776024fcd04ae1eab12eb022490f8d68488363204afa0fd448",
+      "words_read": 824,
+      "scope": "Complete extracted message body; publisher source attribution, no spoken audio verification."
+    },
+    {
+      "source_id": "new-et-daniel-23785",
+      "text_sha256": "37446fafd1eb3abb5ce9008f647a933a5b3eeb73fa2156ee4deb9e9936cb25b3",
+      "words_read": 721,
+      "scope": "Complete extracted message body; publisher source attribution, no spoken audio verification."
+    },
+    {
+      "source_id": "new-et-daniel-385080",
+      "text_sha256": "a8ad800f2da3b02ce1b16c8649fbabd0d8ed541a376246d286b01c244ec0049b",
+      "words_read": 699,
+      "scope": "Complete extracted message body; publisher source attribution, no spoken audio verification."
+    },
+    {
+      "source_id": "new-et-lyssa-preparedness-138",
+      "text_sha256": "2cb1fc1ab0bec0ef5d7648a7650c1be8503dea4eaae754757e524524daadd6d3",
+      "words_read": 2671,
+      "scope": "Complete message body; Lyssa full mixed Q/A excerpt2742words also read, response-only2671word derivative used in model."
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "mary-pilot",
+      "comparison_label": "mother_mary",
+      "source_ids": [
+        "tr-source-omna-mary",
+        "tr-source-jeshua-mary-full"
+      ],
+      "question_family": "How does a person respond to distrust, vulnerability or emotionally draining situations?",
+      "shared_theme": "Both messages invite a caring relationship with oneself and use love, joy and inward attention as resources.",
+      "natalie_glasson": "The message frames distrust as temporary disconnection from inner love and a generous universe; it recommends reconnecting with that love to recover trust.",
+      "pamela_kribbe": "The message emphasizes inner-child care, recognizing emotional over-involvement, boundaries, self-awareness and sometimes leaving a draining situation.",
+      "difference": "The first gives a general trust-and-abundance explanation. The second specifies relational boundaries and self-recognition. Their practical emphases differ; this is not evidence that the named historical or sacred figure spoke either text.",
+      "question_answer_status": "Analyst-composed comparison question, not a matched audience question or verified answer pair.",
+      "counterpoint": "Treating every adverse experience as merely an inner disconnection would overextend the first message. The second explicitly permits changing an external situation."
+    },
+    {
+      "id": "magdalene-pilot",
+      "comparison_label": "mary_magdalene",
+      "source_ids": [
+        "tr-source-omna-magdalene",
+        "tr-source-jeshua-magdalene-full"
+      ],
+      "question_family": "What kind of inward change is recommended, and how is it related to everyday action?",
+      "shared_theme": "Both recommend allowing inner change to alter relationships and action, with an emphasis on acceptance rather than simple suppression.",
+      "natalie_glasson": "The message centers on grace, crystalline consciousness and an initiation imagined as an embrace extending from oneself to surrounding situations.",
+      "pamela_kribbe": "The message centers on embodied passion, acknowledging shadow feelings, autonomy and integrating heart and bodily desire. It also contains a first-person narrative about religious and gender restrictions.",
+      "difference": "One presents a grace/initiation vocabulary; the other presents grounded emotional integration and an autobiographical social critique. Shared sacred naming does not erase these differing frameworks.",
+      "question_answer_status": "Analyst-composed comparison question, not a matched audience question or verified answer pair.",
+      "counterpoint": "The latter explicitly acknowledges potentially dominating or manipulative expressions of feminine energy; reading it as unconditional approval of all impulses would omit that qualification."
+    },
+    {
+      "id": "pleiadian-pilot",
+      "comparison_label": "pleiadian",
+      "comparison_level": "broad_civilization_label_not_same_speaker",
+      "source_ids": [
+        "new-et-daniel-23785",
+        "tr-source-omna-pleiadians",
+        "new-et-lyssa-preparedness-138"
+      ],
+      "question_family": "How is personal agency related to spiritual or social change?",
+      "shared_theme": "These selected texts emphasize inner choice and a movement away from fear-driven dependence, while giving very different practical content.",
+      "daniel_scranton": "The named High Council message rejects a universal formula and emphasizes individual choice, intuition, community and heart-centered guidance.",
+      "natalie_glasson": "The unnamed Pleiadian collective message recommends daily inward recentering and reducing spiritual distraction to follow a personally fulfilling path.",
+      "lyssa_royal": "The Sasha excerpt discusses debt, tangible wealth, self-responsibility and an imagined Equal Value System. It includes documentary audience questions.",
+      "difference": "Shared Pleiadian naming spans a specific council, an unnamed collective and a named speaker. Their message genres, eras and recommendations differ; the broad category does not establish a single doctrine.",
+      "counterpoint": "The Sasha source explicitly distinguishes communal sharing from hoarding and presents its society as one example, qualifications that a keyword-only reading could omit. Its financial claims are source content, not evaluated investment guidance.",
+      "question_answer_status": "Analyst-composed thematic comparison; the messages were not responses to the same observed question."
+    },
+    {
+      "id": "arcturian-pilot",
+      "comparison_label": "arcturian",
+      "comparison_level": "broad_civilization_label_not_same_speaker",
+      "source_ids": [
+        "new-et-daniel-385080",
+        "tr-source-omna-arcturians"
+      ],
+      "question_family": "What practices are proposed for changing experience or consciousness?",
+      "shared_theme": "Both sources encourage using inward awareness and personal resonance rather than a single compulsory routine.",
+      "daniel_scranton": "The named Council message offers a catalog of purported historical bodily, nature-based and meditative practices, then encourages choosing practices intuitively.",
+      "natalie_glasson": "The unnamed collective message centers on attention, intended qualities and imagining those qualities as a felt vibration affecting experience.",
+      "difference": "The Council narrative invokes an alleged past society and varied practices; the collective narrative offers a focused present-tense attention exercise. Topic overlap does not authenticate the society, mechanisms or speaker identity.",
+      "counterpoint": "The Glasson text allows anger or low feelings as a process someone may be passing through; reducing it to a requirement to feel positive would omit that qualification.",
+      "question_answer_status": "Analyst-composed thematic comparison, not verified matching dialogue."
+    }
+  ]
+}

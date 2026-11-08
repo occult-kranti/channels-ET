@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T02:24:07.715730+00:00",
+  "scope": "First 14 user-selected account screening for a broader channeling/mediumship discovery queue. This is separate from the frozen Bashar–Ra fitted corpus. Inclusion does not imply that all uploads are channeling, that a current inventory has been crawled, or that entity claims are factual.",
+  "method": "Read bounded accessible publisher pages, explicitly marked secondary sources and retained repository identity evidence. No YouTube page requests, alternate YouTube proxies, login, membership access or audio downloads were performed for this screening. Irrelevant search results, generic directory fallbacks and a domain-for-sale page were discarded. No search-engine AI summary was evidence.",
+  "channels": [
+    {
+      "id": "subscription-viveksamtani",
+      "name": "Vivek Samtani",
+      "handle": "@VivekSamtani",
+      "status": "exclude",
+      "status_reason": "A bounded exact-handle indexed result resolves the requested channel as stand-up comedy: the channel snippet describes a live stand-up event at The Habitat. Exclude from the channeling-medium queue; this is indexed metadata, not a direct channel-body audit.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@VivekSamtani",
+      "evidence": [
+        {
+          "label": "Exact-handle channel result indexed by Bing",
+          "url": "https://www.youtube.com/@VivekSamtani",
+          "note": "Organic result at the exact channel URL describes a live stand-up comedy event recorded by The Habitat Team, Mumbai. Only the indexed source snippet was inspected; subscriber counts and unrelated search results were not used.",
+          "access_kind": "fresh_search_indexed_source_metadata_not_direct_body",
+          "retrieved_at": "2026-11-07T02:23:36.268471+00:00",
+          "search_url": "https://www.bing.com/search?q=%22%40VivekSamtani%22%20stand-up%20comedy",
+          "retained_response_sha256": "21d1b1892d043fd7ee1ebd105969ea3e21b96c17a0fb75f8191a13fcc7d41567"
+        },
+        {
+          "label": "Same-name Linktree",
+          "url": "https://linktr.ee/viveksamtani",
+          "note": "Profile title is @viveksamtani, with an appearance/form link. This is insufficient evidence to verify the YouTube identity or classify the person as a medium or comedian.",
+          "access_kind": "fresh_self_branded_profile_identity_unverified",
+          "retrieved_at": "2026-11-07T02:20:12.125741+00:00",
+          "retained_response_sha256": "99ae410158354ddd72902c6fdf80613a406fd2ce80ed8bc29046b18bc6de47a0"
+        }
+      ],
+      "identity_evidence": "Exact @VivekSamtani URL in a fresh organic search result; the earlier same-name profile alone was insufficient. Current channel contents were not fetched.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-athinakrol",
+      "name": "Athina Król",
+      "handle": "@AthinaKrol",
+      "status": "include",
+      "status_reason": "The publisher describes trance channeling of Ashtar. Include as an attributed practitioner, with the exact unaccented handle retained from the existing repository mapping.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@AthinaKrol",
+      "evidence": [
+        {
+          "label": "Athina Król channeling page",
+          "url": "https://www.athinakrol.com/channelling",
+          "note": "The body describes channeling sessions with Ashtar. The current site links an accented @AthinaKról handle; the requested unaccented route was not directly rechecked.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:11:40.651921+00:00",
+          "retained_response_sha256": "3c3df8847c9ffc35d2bbdfd51ae5f5628954cfbd1892ffd173fb0c64f7d1b0a5"
+        },
+        {
+          "label": "Retained practitioner identity map",
+          "url": "https://github.com/occult-kranti/channels-ET/blob/main/research/youtube/focus.json",
+          "note": "Existing mapping connects Athina Król and @AthinaKrol; historical evidence, not a new platform inventory.",
+          "access_kind": "retained_repository_evidence_not_current_platform_recheck",
+          "inspected_at": "2026-11-07",
+          "retained_response_sha256": "390906359996edcae9c7f7b5d724588c1d987f77dfe2d1996a29a37194016d96"
+        }
+      ],
+      "identity_evidence": "Fresh publisher role established; current accented handle link plus retained unaccented account mapping.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false,
+      "medium_attribution": {
+        "names": [
+          "Athina Król"
+        ],
+        "basis": "Publisher or retained source attribution; paranormal ability and voice identity not verified"
+      },
+      "claimed_entities": [
+        "Ashtar"
+      ]
+    },
+    {
+      "id": "subscription-predictivehistory",
+      "name": "Predictive History",
+      "handle": "@PredictiveHistory",
+      "status": "exclude",
+      "status_reason": "The source-linked archive describes Jiang Xueqin history, game-theory and geopolitical lectures. Forecasting and eschatology discussion alone do not establish a channeling medium.",
+      "research_category": "commentary",
+      "channel_url": "https://www.youtube.com/@PredictiveHistory",
+      "evidence": [
+        {
+          "label": "Predictive History community archive — About",
+          "url": "https://predictivehistory.com/about/",
+          "note": "Explicitly a community-built lecture archive, not an official publisher identity certificate. It links the exact @PredictiveHistory channel.",
+          "access_kind": "fresh_secondary_community_archive",
+          "retrieved_at": "2026-11-07T02:20:13.289152+00:00",
+          "retained_response_sha256": "cc7fc0ea59ce52e963505c991dd108bd6c2bf28fc0118a4bd30ec25d37a093df"
+        }
+      ],
+      "identity_evidence": "Community archive links the exact requested handle; no channeling attribution established.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false,
+      "category_detail": "History, geopolitical commentary and forecasting lectures."
+    },
+    {
+      "id": "subscription-divinelightvibes",
+      "name": "Divine Light Vibes",
+      "handle": "@DivineLightVibes",
+      "status": "include",
+      "status_reason": "Retain as a provisional Bashar excerpt/repost discovery source, separate from the original publisher and from distinct channeling practitioners. Deduplicate against original recordings before analysis.",
+      "research_category": "reposter",
+      "channel_url": "https://www.youtube.com/@DivineLightVibes",
+      "evidence": [
+        {
+          "label": "Retained Divine Light Vibes account record",
+          "url": "https://github.com/occult-kranti/channels-ET/blob/main/research/deep/repo_raw/data/divine_light_vibes_channel.json",
+          "note": "The saved account ID/handle, Bashar/Darryl keywords and clip titles support an excerpt/repost classification. This record is not a fresh upload census, does not prove permission, and its favorites playlist size is not an upload count.",
+          "access_kind": "retained_repository_evidence_not_current_platform_recheck",
+          "inspected_at": "2026-11-07",
+          "retained_response_sha256": "ddd29f84a8eb08b4993e2019fa3650f2ff1386a9b1654550254c499bbe8cb199"
+        }
+      ],
+      "identity_evidence": "Retained exact handle/channel ID evidence; original operator identity and current inventory unresolved.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false,
+      "medium_attribution": {
+        "names": [
+          "Darryl Anka (content attribution; not the verified account operator)"
+        ],
+        "basis": "Publisher or retained source attribution; paranormal ability and voice identity not verified"
+      },
+      "claimed_entities": [
+        "Bashar"
+      ],
+      "category_detail": "Provisional clip aggregator/reposter, not an independently counted medium."
+    },
+    {
+      "id": "subscription-jamiebutlermedium",
+      "name": "Jamie Butler",
+      "handle": "@JamieButlerMedium",
+      "status": "exclude",
+      "status_reason": "Explicit user exclusion, independent of the researched category. The publisher presents Jamie Butler as a medium/channeler; this is not a comedy classification.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@JamieButlerMedium",
+      "evidence": [
+        {
+          "label": "Jamie Butler official website",
+          "url": "https://jamiebutlermedium.com/",
+          "note": "Self-description as The Everyday Medium, with channeling and intuitive teaching. The site links legacy JamieButlerMedium YouTube routes.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:11:41.350370+00:00",
+          "retained_response_sha256": "7eb4a75c7f35871df74ffeaa19e838fa2a55966100907b7bfdbd7ecf785c49a0"
+        }
+      ],
+      "identity_evidence": "Fresh publisher identity and legacy channel-route links.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false,
+      "medium_attribution": {
+        "names": [
+          "Jamie Butler"
+        ],
+        "basis": "Publisher or retained source attribution; paranormal ability and voice identity not verified"
+      },
+      "explicit_user_exclusion": true
+    },
+    {
+      "id": "subscription-madhurvirliraw",
+      "name": "Madhur Virli Raw",
+      "handle": "@madhurvirliraw",
+      "status": "exclude",
+      "status_reason": "The publisher identifies Madhur Virli as a stand-up comedian and explicitly links this raw channel. Outside the channeling-medium discovery scope.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@madhurvirliraw",
+      "evidence": [
+        {
+          "label": "Madhur Virli official website",
+          "url": "https://madhurvirli.com/",
+          "note": "Visible site metadata and schema.org Person jobTitle say stand-up comedian; sameAs includes @madhurvirliraw.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:11:41.382887+00:00",
+          "retained_response_sha256": "cadd9eeaa0b0bb7f41e83bf827e4386ac03f75bbeec16682a64488861065ffd7"
+        }
+      ],
+      "identity_evidence": "Fresh publisher structured-data link to the exact requested handle.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-coldones",
+      "name": "Cold Ones",
+      "handle": "@coldones",
+      "status": "exclude",
+      "status_reason": "The linked creator profile presents entertainment, a podcast, gaming and behind-the-scenes material. No channeling practitioner attribution is established.",
+      "research_category": "commentary",
+      "channel_url": "https://www.youtube.com/@coldones",
+      "evidence": [
+        {
+          "label": "Cold Ones creator link profile",
+          "url": "https://linktr.ee/coldones",
+          "note": "Embedded public profile links exactly @coldones, the Cold Ones Patreon and entertainment merchandise.",
+          "access_kind": "fresh_self_branded_profile",
+          "retrieved_at": "2026-11-07T02:20:12.614102+00:00",
+          "retained_response_sha256": "6b2c3b389d2db22226bb41f9c350e7554c641a54a6910af7fc471f979262a5af"
+        },
+        {
+          "label": "Cold Ones creator Patreon overview",
+          "url": "https://www.patreon.com/cw/coldones",
+          "note": "Public overview describes the Sober Podcast, gaming content and the Max/Chad crew; title says Creating Drunk Content. No membership was accessed.",
+          "access_kind": "fresh_publisher_profile",
+          "retrieved_at": "2026-11-07T02:21:07.121630+00:00",
+          "retained_response_sha256": "c91fa05c51b99bf4c338578f75e472c039d4d32e3f8100f94bad0ce3242c4fef"
+        }
+      ],
+      "identity_evidence": "Self-branded link profile supplies the exact handle and cross-linked creator Patreon.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false,
+      "category_detail": "Entertainment/podcast/gaming; the category does not assert that each host is a stand-up comedian."
+    },
+    {
+      "id": "subscription-samayrainaofficial",
+      "name": "Samay Raina",
+      "handle": "@SamayRainaOfficial",
+      "status": "exclude",
+      "status_reason": "A secondary biographical source identifies the same channel as a comedian/entertainment and gaming creator. Exclude from the medium discovery queue.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@SamayRainaOfficial",
+      "evidence": [
+        {
+          "label": "Samay Raina biography",
+          "url": "https://en.wikipedia.org/wiki/Samay_Raina",
+          "note": "The article describes stand-up comedy and entertainment/gaming and explicitly links @SamayRainaOfficial. The guessed personal homepage supplied no usable identity text.",
+          "access_kind": "fresh_secondary_encyclopedia",
+          "retrieved_at": "2026-11-07T02:14:21.793211+00:00",
+          "retained_response_sha256": "fd70d73da88f47ec28220fbe6667b81ec19ee5e99a94ac4cc0d72e38748805c6"
+        }
+      ],
+      "identity_evidence": "Secondary source links the exact requested handle; no fresh first-party biography was available.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-samtheillusionist",
+      "name": "Sam the Illusionist",
+      "handle": "@SAMTHEILLUSIONIST",
+      "status": "include",
+      "status_reason": "The official site explicitly describes trance channeling and links the exact handle. Keep the public persona and each attributed entity separate; claimed Ra material here must not be merged with the historical L/L Research Ra corpus.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@SAMTHEILLUSIONIST",
+      "evidence": [
+        {
+          "label": "Sam the Illusionist official website",
+          "url": "https://samtheillusionist.com/",
+          "note": "Self-description explains trance states and channeling sessions; the site links @SAMTHEILLUSIONIST and presents Galactic Federation, Pleiadian and Metatron session labels.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:11:42.071448+00:00",
+          "retained_response_sha256": "243a8b5952b5be55a45de2800715e051e799450e691479ee80d7e4c8d4a705cb"
+        }
+      ],
+      "identity_evidence": "Fresh official site-to-handle link.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false,
+      "medium_attribution": {
+        "names": [
+          "Sam (public persona; full legal identity not established)"
+        ],
+        "basis": "Publisher or retained source attribution; paranormal ability and voice identity not verified"
+      },
+      "claimed_entities": [
+        "Galactic Federation",
+        "Pleiadians",
+        "Metatron"
+      ]
+    },
+    {
+      "id": "subscription-sapanv",
+      "name": "Sapan Verma",
+      "handle": "@sapanv",
+      "status": "exclude",
+      "status_reason": "The official site identifies a stand-up comedian and writer and links the exact account. Outside the medium corpus.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@sapanv",
+      "evidence": [
+        {
+          "label": "Sapan Verma official website",
+          "url": "https://www.sapanverma.in/",
+          "note": "The publisher describes comedy/writing and links @sapanv.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:11:42.178598+00:00",
+          "retained_response_sha256": "5d91d7a22c700d7c73e9b50f319656c6236b8369a6920ab43e7a5694e9edbba7"
+        }
+      ],
+      "identity_evidence": "Fresh official site-to-handle link.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-kennysebastian",
+      "name": "Kenny Sebastian",
+      "handle": "@KennySebastian",
+      "status": "exclude",
+      "status_reason": "The official website identifies a comedian, writer and singer. Exclude from the channeling-medium queue.",
+      "research_category": "comedian",
+      "channel_url": "https://www.youtube.com/@KennySebastian",
+      "evidence": [
+        {
+          "label": "Kenny Sebastian official website",
+          "url": "https://www.knowkenny.com/",
+          "note": "The original domain redirects to knowkenny.com; the site identifies comedy/writing/singing and links legacy YouTube routes, including channel ID UCzNq9i-DlDDBLjPerVzJW-A.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:11:43.016176+00:00",
+          "retained_response_sha256": "defacbef864e16ed0eb0612556df848ffc0c5860440da0f1db692a34ef3a6eee"
+        }
+      ],
+      "identity_evidence": "Fresh publisher identity and legacy channel ID; the requested current handle itself was not directly rechecked.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-kryonleecarroll3491",
+      "name": "Kryon — Lee Carroll",
+      "handle": "@kryonleecarroll3491",
+      "status": "include",
+      "status_reason": "The official Kryon site identifies Lee Carroll as the person bringing the attributed Kryon messages and links the exact handle. Monika Muranyi is separately described as a researcher/archivist; do not automatically count every cohost as the channeler.",
+      "research_category": "direct_channeler",
+      "channel_url": "https://www.youtube.com/@kryonleecarroll3491",
+      "evidence": [
+        {
+          "label": "Kryon Masters — About",
+          "url": "https://kryonmasters.com/home/about/",
+          "note": "Official biography attributes Kryon messages to Lee Carroll and describes Monika Muranyi as a researcher/archivist. It links @kryonleecarroll3491.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:21:07.585493+00:00",
+          "retained_response_sha256": "e87bbfc4058bdbf142d650703616684c6b05b0b3002a0b609dc195ecfee8efd4"
+        },
+        {
+          "label": "Kryon official menu",
+          "url": "https://menus.kryon.com/",
+          "note": "The original kryon.com site directs to this menu, which links the same exact YouTube handle.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:14:21.792486+00:00",
+          "retained_response_sha256": "32bf83bddb3433f45795f1e80b189af322fc82f44261a64c48eea864b533f15e"
+        }
+      ],
+      "identity_evidence": "Fresh official website-to-handle links.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false,
+      "medium_attribution": {
+        "names": [
+          "Lee Carroll"
+        ],
+        "basis": "Publisher or retained source attribution; paranormal ability and voice identity not verified"
+      },
+      "claimed_entities": [
+        "Kryon"
+      ]
+    },
+    {
+      "id": "subscription-unfilteredbysamdish",
+      "name": "Unfiltered by Samdish",
+      "handle": "@UNFILTEREDbySamdish",
+      "status": "exclude",
+      "status_reason": "The publisher catalog consists of interviews, field reporting and political conversations. There is no established channeling-medium role in the inspected evidence.",
+      "research_category": "interviewer",
+      "channel_url": "https://www.youtube.com/@UNFILTEREDbySamdish",
+      "evidence": [
+        {
+          "label": "Unfiltered by Samdish official website",
+          "url": "https://unfilteredhq.com/",
+          "note": "The self-branded catalog presents interviews, field reports and Political Chit Chat; footer links /c/UNFILTEREDbySamdish.",
+          "access_kind": "fresh_publisher_webpage",
+          "retrieved_at": "2026-11-07T02:21:06.688210+00:00",
+          "retained_response_sha256": "ecd19bd641426ac330dc713a9f52607ebd9ba3b888f8078696ffa63ada42cc56"
+        },
+        {
+          "label": "Unfiltered by Samdish link profile",
+          "url": "https://linktr.ee/UnfilteredbySamdish",
+          "note": "The profile links UnfilteredHQ as its official website and the interview/reporting series.",
+          "access_kind": "fresh_self_branded_profile",
+          "retrieved_at": "2026-11-07T02:20:12.132176+00:00",
+          "retained_response_sha256": "fdc49d5e18535f41a19932f4e14fd73b62d5444a56b305b9cd149d50b4ca3c27"
+        }
+      ],
+      "identity_evidence": "Fresh publisher site and legacy named YouTube route; current handle is not a fresh upload census.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false
+    },
+    {
+      "id": "subscription-thedeshbhakt",
+      "name": "The Deshbhakt",
+      "handle": "@thedeshbhakt",
+      "status": "exclude",
+      "status_reason": "A source-linked biography identifies political satire and commentary rather than channeling. Exclude from the medium discovery queue.",
+      "research_category": "commentary",
+      "channel_url": "https://www.youtube.com/@thedeshbhakt",
+      "evidence": [
+        {
+          "label": "Akash Banerjee / The Deshbhakt biography",
+          "url": "https://en.wikipedia.org/wiki/Akash_Banerjee",
+          "note": "The secondary source describes political satire/commentary and links the exact @thedeshbhakt handle. The attempted first-party website returned HTTP403; no alternate route around that denial was used.",
+          "access_kind": "fresh_secondary_encyclopedia",
+          "retrieved_at": "2026-11-07T02:14:23.315438+00:00",
+          "retained_response_sha256": "6a057d1fe271a6d87c1b2127171ceb59f482b67de0f8296f620f0a6bcd516157"
+        }
+      ],
+      "identity_evidence": "Secondary source links the exact handle; no first-party body obtained in this check.",
+      "all_uploads_are_channeling": false,
+      "speaker_identity_verified": false,
+      "current_youtube_inventory_verified": false,
+      "human_reviewed": false,
+      "category_detail": "Political commentary and satire."
+    }
+  ],
+  "counts": {
+    "include": 4,
+    "exclude": 10,
+    "uncertain": 0
+  }
+}

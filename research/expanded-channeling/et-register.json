@@ -1,0 +1,2796 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T14:24:17.304443+00:00",
+  "status": "round2_corrected_source_register",
+  "scope": "Bounded publisher-source ET and named-entity expansion; public metadata register, no raw media/text release. Distinct attribution practices are not independent origins.",
+  "acquisition_policy": {
+    "bashar_min_duration_seconds": 300,
+    "non_bashar_min_duration_seconds": 0,
+    "video_count_cap": null,
+    "youtube_requests_in_this_pass": 0,
+    "jamie_butler": "excluded_by_user",
+    "raw_media_storage": "private workspace only; no permanent ChatGPT-account storage assertion"
+  },
+  "relation_dictionary": {
+    "channels_named_entity": "Publisher attributes a specific named entity to medium.",
+    "channels_collective": "Publisher attributes named/unnamed collective; scope records metadata or joint limitations.",
+    "works_with_civilization": "Publisher says works with civilization; no transcript speaker assignment.",
+    "reports_communications_from": "Published communication/contact account; medium mechanism unresolved.",
+    "claims_contact_with": "Contactee relation, not assumed channeling.",
+    "publisher_category_label": "Archive/category association only; not verified session content."
+  },
+  "sources": [
+    {
+      "id": "et-src-bashar",
+      "url": "https://www.bashar.org/about",
+      "title": "Attention Required! | Cloudflare",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:07:30.242626+00:00",
+      "retrieval_status": "blocked",
+      "http_status": 403,
+      "sha256": "add81278e280534d8e69ebd9509ccc7a8afa2c8e4a784fd473e718630cc4f7a9",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "bashar.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-tyler",
+      "url": "https://www.thegalacticguide.com/optin1652320399202",
+      "title": "The Galactic Guide: Ryokah - Channeled by Tyler Ellison",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:30.244301+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "4d2b1a6407db670b3c26be54e0da31e6243c95506167403fc364d29e1193003b",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "tyler.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-daniel",
+      "url": "https://danielscranton.com/",
+      "title": "Daniel Scranton's Channeling • Channeling, Spirituality & Consciousness",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:30.244708+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "6fcc352feeb070e0964be8850008113224ebc13ed39a92090301653e89a60a92",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "daniel.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-wendy",
+      "url": "https://higherfrequencies.net/about-wendy/",
+      "title": "Not Acceptable!",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:07:30.245847+00:00",
+      "retrieval_status": "blocked",
+      "http_status": 406,
+      "sha256": "80a265bed528211aa708dcd58f7a95db36eeb7f873c6fe4ddab0b3a1dc0973a4",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "wendy.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-nora",
+      "url": "https://www.noraherold.com/",
+      "title": "Nora Herold - Pleiadian & Faerie Channel and Incarnate Guide - Home",
+      "access_depth": "metadata_only",
+      "checked_at": "2026-11-08T14:07:30.246772+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "df1e112a4dc27475d261c30e5d3f83da524563618a55806759c34967583052cb",
+      "note": "Rendered extract empty; HTML meta-description inspected and supports named Pleiadian Collective role only.",
+      "private_artifact": "nora.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-marciniak",
+      "url": "https://www.pleiadians.com/",
+      "title": "The Pleiadians with Barbara Marciniak",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:30.248338+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "6293c190b177ccadd603f099f335260adcb9e6409146d7fd830a85492fb173a4",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "marciniak.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-lyssa",
+      "url": "https://www.lyssaroyal.net/",
+      "title": "LyssaRoyal.net - :: Intro ::",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:30.547663+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "248937c5c39b04cad90161ec8ae413dff95350c83cd8adb80ecffcdf1637b0e9",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "lyssa.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-rob",
+      "url": "https://www.trebchanneling.com/",
+      "title": "E. T. Whisperer Rob Gauthier | channeling | Kalamazoo, MI, United States",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:30.685356+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "7fb88cac6efdecc77d93027e247e10f0c6fa23e434da17d89d0d053d35ee632e",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "rob.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-wieteke",
+      "url": "https://www.design4awareness.com/",
+      "title": "Netherlands life coaching, Cosmic channeling - Amsterdam",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:30.689236+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "d1d6da58db4d389a33f69e587c263fe973eb5ba877baa16badaf9c1d38d51043",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "wieteke.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-shaun",
+      "url": "https://www.ishuwa.com/",
+      "title": "Ishuwa and the Yahyel - Opening Contact with Our Galactic Family",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:31.034974+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "1024c7d61dc66950c51d740931c9adfa4b461ff7f042a9a7252c1d3f7fdb0c96",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "shaun.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-paul",
+      "url": "https://www.the-zeta-connection.com/",
+      "title": "paul",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:07:31.077659+00:00",
+      "retrieval_status": "blocked",
+      "http_status": null,
+      "sha256": null,
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": null,
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-ra",
+      "url": "https://www.llresearch.org/channeling/ra-contact",
+      "title": "Finerprint",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:07:31.101138+00:00",
+      "retrieval_status": "blocked",
+      "http_status": 403,
+      "sha256": "57350bce9d150f055c2d1e893f401af9c7e4b9287abdf885cad377ad9f81e061",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "ra.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-sam",
+      "url": "https://samtheillusionist.com/",
+      "title": "Sam the Illusionist - Official Website",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:31.144275+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "9ae070be51758105aaf5c0dd90b98d3dd0f51faf16998c43268e43ff2454dc8b",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "sam.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-kryon-lee",
+      "url": "https://kryonmasters.com/home/about/",
+      "title": "kryon-lee",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:07:31.419521+00:00",
+      "retrieval_status": "blocked",
+      "http_status": 403,
+      "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "kryon-lee.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-kryon-david",
+      "url": "https://www.kryon.org.za/",
+      "title": "PESTOTO functionalcarerx Situs Toto & toto togel 4d Hadiah 100% Penuh",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:07:31.462057+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "019b924f6e532eb903160b2667201f50f1f1ec1815eb5430e79f128d3d6d7060",
+      "note": "Former Kryon-domain candidate now returns unrelated gambling text; rejected for identity evidence.",
+      "private_artifact": "kryon-david.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-kryon-sabine",
+      "url": "https://www.shimaar.com/",
+      "title": "kryon-sabine",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:07:31.606188+00:00",
+      "retrieval_status": "blocked",
+      "http_status": null,
+      "sha256": null,
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": null,
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-magenta",
+      "url": "https://www.magentapixie.com/",
+      "title": "Magenta Pixie * Intuitive Consultant, Consciousness Coach and Channel for The White Winged Collective Consciousness of Nine - Home",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:31.699486+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "f7f95b0c88a5fae48d07e25f06ea64c37201e44312c29ca1c54492573821ea26",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "magenta.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-laarkmaa",
+      "url": "https://www.laarkmaa.com/",
+      "title": "Laarkmaa | Pleiadian Wisdom for Times of Evolutionary Shift and Change",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:31.971412+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "c88704c8b037cf414e8737b015dd146251680b5451581e0e958bf070e2e7f5c3",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "laarkmaa.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-arkayla",
+      "url": "https://www.arkayla.love/",
+      "title": "AR༌KAY༌LA",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:32.163551+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "4d6699e13831ee083507c290725533bb1924421df9ba2bfcdf2b901f3bcadab6",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "arkayla.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-phyllis",
+      "url": "https://www.phyllisschlemmer.com/",
+      "title": "phyllis",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:07:32.192260+00:00",
+      "retrieval_status": "blocked",
+      "http_status": null,
+      "sha256": null,
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": null,
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-alex",
+      "url": "https://www.alexcollier.org/",
+      "title": "Alex Collier - Tracking Andromedan Contactee Alex Collier and Much More",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:07:32.214150+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "54af9ce9f44b754fd9cf0e3c134b4c747844c288d04a93b54f4cde9a8ff44a94",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "alex.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-wendy-academy",
+      "url": "https://www.higherfrequencies.academy/pages/about",
+      "title": "About Wendy",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:08:19.052599+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "15fcb28ad2a959be058e815a2ee1791848791de8f6525c325e4a91b5e2155643",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "wendy-academy.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-nora-frame",
+      "url": "https://noraherold.com/",
+      "title": "Nora Herold - Pleiadian & Faerie Channel and Incarnate Guide - Home",
+      "access_depth": "metadata_only",
+      "checked_at": "2026-11-08T14:08:19.053101+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "df1e112a4dc27475d261c30e5d3f83da524563618a55806759c34967583052cb",
+      "note": "Duplicate route, metadata only.",
+      "private_artifact": "nora-frame.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-lyssa-about",
+      "url": "https://www.lyssaroyal.net/lyssa-royal-holt.html",
+      "title": "Lyssa Royal Holt - LyssaRoyal.net",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:08:19.054749+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "02c249c07003be2d90a5760a497719f4b75bd1fefd47f14aa0c7273f9ab0e7b9",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "lyssa-about.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-lyssa-guides",
+      "url": "https://www.lyssaroyal.net/germane-and-sasha.html",
+      "title": "404 - Page Not Found",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:08:19.056450+00:00",
+      "retrieval_status": "missing",
+      "http_status": 404,
+      "sha256": "40d7842f96920d7134c75582a3104434eb9570c5a0607359973e4612eaf886b9",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "lyssa-guides.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-rob-about",
+      "url": "https://www.etwhisperer.com/about",
+      "title": "ABOUT | The ET Whisperer",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:08:19.057505+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "0b96cffcbc988c1a61c54cfbdd72ef98322407d8667de608501068df97b984f0",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "rob-about.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-paul-zeta",
+      "url": "https://www.thezetaconnection.com/about-us-and-resources.html",
+      "title": "About Us and Resources - The Zeta Connection",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:08:19.345321+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "1806acb936c0877506964cd169eaa793f8fea9e0142878d68dee7d4e50325c91",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "paul-zeta.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-shaun-about",
+      "url": "https://www.ishuwa.com/about.html",
+      "title": "About Ishuwa and The Yahyel - Open Contact with Our Galactic Family",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:08:19.476909+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "b0578e35ef47234577846659ee521446445702d77154ccdb9a45909b51941047",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "shaun-about.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-sam-kryon",
+      "url": "https://samtheillusionist.com/c/kryon",
+      "title": "sam-kryon",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:08:19.676124+00:00",
+      "retrieval_status": "blocked",
+      "http_status": 403,
+      "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "sam-kryon.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-sam-ra",
+      "url": "https://samtheillusionist.com/c/ra",
+      "title": "sam-ra",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:08:19.800821+00:00",
+      "retrieval_status": "blocked",
+      "http_status": 403,
+      "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "sam-ra.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-sam-arcturian",
+      "url": "https://samtheillusionist.com/c/arcturians",
+      "title": "sam-arcturian",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:08:19.876337+00:00",
+      "retrieval_status": "blocked",
+      "http_status": 403,
+      "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "sam-arcturian.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-daniel-about",
+      "url": "https://danielscranton.com/daniel/",
+      "title": "How Daniel Scranton Woke Up & Started Channeling • Daniel Scranton's Channeling",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:08:19.962600+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "9bf1eff7aa3a84eb4a16a08f682864859fbcf9ed4d791c2e5e2b7a4dfc26a969",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "daniel-about.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-daniel-pleiadian",
+      "url": "https://danielscranton.com/product-category/pleiadians/",
+      "title": "Pleiadians Archives • Daniel Scranton's Channeling",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:08:20.019763+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "30776fa25acbef74bd3f77708a8c249e1cf43f02063eb29048c56cfbeaac62c8",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "daniel-pleiadian.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-bashar-who",
+      "url": "https://www.bashar.org/who-is-bashar",
+      "title": "Attention Required! | Cloudflare",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:08:20.490722+00:00",
+      "retrieval_status": "blocked",
+      "http_status": 403,
+      "sha256": "f2e207709bba62e70daeb7b8c65215e92480fdf0b62f36e5baadd4963814daa9",
+      "note": "Response did not yield usable source body; no claim is supported by this failed fetch.",
+      "private_artifact": "bashar-who.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-kryon-menu",
+      "url": "https://menus.kryon.com/",
+      "title": "menu-kryon | kryon-menu-pages",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:08:20.844168+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "32bf83bddb3433f45795f1e80b189af322fc82f44261a64c48eea864b533f15e",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "kryon-menu.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-darryl",
+      "url": "https://www.darrylanka.com/",
+      "title": "Best Sci Fi Books - DarrylAnka.com",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:18.382299+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "b1efa731436bb8aff020479aa6b88ac3ff11fde1f18dcd490a139b69da7bb1de",
+      "note": "Splash/links only; insufficient for entity affiliation.",
+      "private_artifact": "darryl.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-lyssa-transcripts",
+      "url": "https://www.lyssaroyal.net/free-transcripts-library.html",
+      "title": "Free Transcripts Library - LyssaRoyal.net",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:18.382691+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "54537476c5dabe38a312cbbba95213a26e591555b4da2d210087c93fb91b05f0",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "lyssa-transcripts.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-zeta-intro",
+      "url": "https://www.thezetaconnection.com/introduction-to-the-zeta-race.html",
+      "title": "Introduction To The Zeta Race - The Zeta Connection",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:18.383709+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "a59ad4dc6bf21a79e634579238b6383a4b6cdda3217376c805219c5da0e823b0",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "zeta-intro.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-zeta-pubs",
+      "url": "https://www.thezetaconnection.com/published-material.html",
+      "title": "Published Material  - The Zeta Connection",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:18.754512+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "b81fdfd6d03c3de3c8b472ec517ec21581e756f2cba621568ce06b031d5c3b9f",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "zeta-pubs.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-kryon-audio",
+      "url": "https://www.menus.kryon.com/freeaudio",
+      "title": "freeaudio | kryon-menu-pages",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:18.836594+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "9423073648eedbefbf36e01cc55ebb89a1a626c3597aec9a195537e6198acbb0",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "kryon-audio.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-andromedan-scranton",
+      "url": "https://danielscranton.com/product-category/andromedan-council-of-light/",
+      "title": "Andromedan Council of Light Archives • Daniel Scranton's Channeling",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:19.218551+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "08fb89ca3a386e97edd61e99a4393cd9109a68c5ec70ee7a14a59b9365554c0d",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "andromedan-scranton.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-query-sam-kryon",
+      "url": "https://www.bing.com/search?q=site%3Asamtheillusionist.com%20Kryon%20channeling",
+      "title": "site:samtheillusionist.com Kryon channeling - Search",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:10:19.453493+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "002eebe5b24ae4f06e006eb45217041efa78d52cc3e1d4c28d5fdf1382e041ce",
+      "note": "Bing first-page results were irrelevant to the requested terms; excluded from all claim support.",
+      "private_artifact": "query-sam-kryon.html",
+      "source_type": "search_index"
+    },
+    {
+      "id": "et-src-query-david-brown",
+      "url": "https://www.bing.com/search?q=%22David%20Brown%22%20%22Kryon%22%20channeling",
+      "title": "\"David Brown\" \"Kryon\" channeling - Search",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:10:19.860797+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "e036ae62010da23ae3a6cf0da40750ce7b51f5f3a46e135be523e64d71828c5e",
+      "note": "Bing first-page results were irrelevant to the requested terms; excluded from all claim support.",
+      "private_artifact": "query-david-brown.html",
+      "source_type": "search_index"
+    },
+    {
+      "id": "et-src-query-phyllis",
+      "url": "https://www.bing.com/search?q=%22Phyllis%20Schlemmer%22%20%22Council%20of%20Nine%22%20publisher",
+      "title": "\"Phyllis Schlemmer\" \"Council of Nine\" publisher - Search",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:10:19.942097+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "5fa26924a12b3a831e75a5c87472f4da8528a15b3e963bad87a991fe17b69f55",
+      "note": "Bing first-page results were irrelevant to the requested terms; excluded from all claim support.",
+      "private_artifact": "query-phyllis.html",
+      "source_type": "search_index"
+    },
+    {
+      "id": "et-src-query-literature",
+      "url": "https://www.bing.com/search?q=channeling%20discourse%20religion%20ethnography%20peer%20reviewed%20Pleiadians",
+      "title": "channeling discourse religion ethnography peer reviewed Pleiadians - Search",
+      "access_depth": "discovery_only",
+      "checked_at": "2026-11-08T14:10:20.364892+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "59151c8764566da8fb0e75813ae1170aa958dc15c0a04627db0e76a0e4fc7a07",
+      "note": "Bing first-page results were irrelevant to the requested terms; excluded from all claim support.",
+      "private_artifact": "query-literature.html",
+      "source_type": "search_index"
+    },
+    {
+      "id": "et-src-elan-who",
+      "url": "https://www.elaninteractions.com/who-is-elan.html",
+      "title": "Who Is Elan? - ELAN INTERACTIONS",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:55.315583+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "c6ecbb95e04c70232b33d52ef2c23e1ed5a8f072eda8f6c5fcadf178f8f45c80",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "elan-who.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-elan-about",
+      "url": "https://www.elaninteractions.com/about.html",
+      "title": "About - ELAN INTERACTIONS",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:55.316190+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "63ae0f5586dc1a0edb42178f6a070e5e1d5b1c3209497bcf2504b78754764460",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "elan-about.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-magenta-nine",
+      "url": "https://www.magentapixie.com/the-nine.html",
+      "title": "The Nine - Magenta Pixie * Intuitive Consultant, Consciousness Coach and Channel for The White Winged Collective Consciousness of Nine",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:10:55.316712+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "7c9cf31117912d19b8bf6859518c80987efa4a202e798547954fc8487ed58c70",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "magenta-nine.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-ra-permitted",
+      "url": "https://www.lawofone.info/",
+      "title": "The Law of One (The Ra Material)",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:12:33.206610+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "3789a320c2d08502b3e88b16e2b38b43e7d707fdeb3ef248ed3b032ddcb45ee2",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "ra-permitted.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-ra-intro",
+      "url": "https://www.lawofone.info/Intro",
+      "title": "Introductions to the Ra Material",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:12:33.841800+00:00",
+      "retrieval_status": "retrieved",
+      "http_status": 200,
+      "sha256": "665f7d40dc4952f40bffcb39c84ac4776316a304bd38645a08583d91737fcab6",
+      "note": "Public publisher webpage inspected; source-reported claims, not entity authentication.",
+      "private_artifact": "ra-intro.html",
+      "source_type": "publisher"
+    },
+    {
+      "id": "et-src-bashar-inherited",
+      "url": "https://www.youtube.com/BasharChanneledbyDarrylAnka",
+      "title": "Bashar Channeled by Darryl Anka — official YouTube account",
+      "access_depth": "metadata_only",
+      "checked_at": "2026-11-08T14:18:39.762484+00:00",
+      "source_accessed_at": "2026-10-22",
+      "retrieval_status": "retained_record_inspected",
+      "note": "Official BasharTV website links this account. Browser-rendered channel branding and handle match. Video-grid metadata read; no full recordings reviewed. Historical browser metadata; not a fresh platform crawl.",
+      "repository_artifact": "research/youtube/focus.json",
+      "sha256": "390906359996edcae9c7f7b5d724588c1d987f77dfe2d1996a29a37194016d96",
+      "source_type": "retained_primary_metadata"
+    },
+    {
+      "id": "et-src-tyler-inherited",
+      "url": "https://www.youtube.com/channel/UCLw58p9pkhoNAXd9PpjMxdg/videos",
+      "title": "The Galactic Guide — official YouTube account",
+      "access_depth": "metadata_only",
+      "checked_at": "2026-11-08T14:18:39.762484+00:00",
+      "source_accessed_at": "2026-10-22",
+      "retrieval_status": "retained_record_inspected",
+      "note": "Browser-rendered official channel identifies Tyler Ellison as channeler of RYOKAH, described as a Sassani hybrid ET. Handle @thegalacticguide111. Legacy Health Thyself name is not counted separately. Historical browser metadata; not a fresh platform crawl.",
+      "repository_artifact": "research/youtube/focus.json",
+      "sha256": "390906359996edcae9c7f7b5d724588c1d987f77dfe2d1996a29a37194016d96",
+      "source_type": "retained_primary_metadata"
+    },
+    {
+      "id": "et-src-kryon-inherited",
+      "url": "https://kryonmasters.com/home/about/",
+      "title": "Kryon Masters — About",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:18:39.762484+00:00",
+      "source_accessed_at": "2026-11-07T02:21:07.585493+00:00",
+      "retrieval_status": "retained_record_inspected",
+      "note": "Official biography attributes Kryon messages to Lee Carroll and describes Monika Muranyi as a researcher/archivist. It links @kryonleecarroll3491. Current revisit403; support comes from retained previous source audit.",
+      "repository_artifact": "research/subscription-screening/first14.json",
+      "sha256": "cd66fcbbf051d94e7b0f6d5935657c4482161ffb4c4ed357b7ca0ba4736611f0",
+      "source_type": "retained_publisher_audit"
+    },
+    {
+      "id": "et-src-new-et-daniel-23785",
+      "url": "https://danielscranton.com/introductions-pleiadian-high-council/",
+      "title": "Introductions ∞The Pleiadian High Council of Seven",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:21:46.044419+00:00",
+      "retrieval_status": "retrieved",
+      "source_type": "publisher_message",
+      "note": "Exact title plus first/last message self-attribution; Daniel site explicitly identifies author channeling role. Source retained privately; public record contains metadata only.",
+      "normalized_body_sha256": "37446fafd1eb3abb5ce9008f647a933a5b3eeb73fa2156ee4deb9e9936cb25b3",
+      "raw_source_sha256": "e5b4d6eaecbff62682e93c1600d055bb6bcef68bda0a140dd1a44e00e9a84be8",
+      "published_at": "2016-04-07T01:08:18",
+      "retrieval_note": "WordPress public REST API content.rendered for exact post ID 23785; raw hash binds API bundle, not HTML at canonical URL."
+    },
+    {
+      "id": "et-src-new-et-daniel-23821",
+      "url": "https://danielscranton.com/creative-stream-energy-pleiadian-high-council/",
+      "title": "The Creative Stream of Energy ∞The Pleiadian High Council of Seven",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:21:46.045139+00:00",
+      "retrieval_status": "retrieved",
+      "source_type": "publisher_message",
+      "note": "Exact title plus first/last message self-attribution; Daniel site explicitly identifies author channeling role. Source retained privately; public record contains metadata only.",
+      "normalized_body_sha256": "a787bcacefcf1f4ce5d2404a09cfb92f6838a05c64e4c9a5e91b285936df82ca",
+      "raw_source_sha256": "e5b4d6eaecbff62682e93c1600d055bb6bcef68bda0a140dd1a44e00e9a84be8",
+      "published_at": "2016-04-08T01:03:41",
+      "retrieval_note": "WordPress public REST API content.rendered for exact post ID 23821; raw hash binds API bundle, not HTML at canonical URL."
+    },
+    {
+      "id": "et-src-new-et-daniel-23838",
+      "url": "https://danielscranton.com/transformation-pleiadian-high-council/",
+      "title": "Your Transformation ∞The Pleiadian High Council of Seven",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:21:46.045672+00:00",
+      "retrieval_status": "retrieved",
+      "source_type": "publisher_message",
+      "note": "Exact title plus first/last message self-attribution; Daniel site explicitly identifies author channeling role. Source retained privately; public record contains metadata only.",
+      "normalized_body_sha256": "37ff293c984a5db620023259b448097f35e68788556707d87efe50cb359c9a9c",
+      "raw_source_sha256": "e5b4d6eaecbff62682e93c1600d055bb6bcef68bda0a140dd1a44e00e9a84be8",
+      "published_at": "2016-04-09T00:12:04",
+      "retrieval_note": "WordPress public REST API content.rendered for exact post ID 23838; raw hash binds API bundle, not HTML at canonical URL."
+    },
+    {
+      "id": "et-src-new-et-daniel-385737",
+      "url": "https://danielscranton.com/the-awakened-collective-the-divine-feminine-%e2%88%9ethe-9th-dimensional-arcturian-council/",
+      "title": "The Awakened Collective & the Divine Feminine ∞The 9th Dimensional Arcturian Council",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:21:46.062660+00:00",
+      "retrieval_status": "retrieved",
+      "source_type": "publisher_message",
+      "note": "Exact title plus first/last message self-attribution; Daniel site explicitly identifies author channeling role. Source retained privately; public record contains metadata only.",
+      "normalized_body_sha256": "88455936e9ea4182d643a28a6969a4dc2f4ee5b166496230ffe033bb1f16e28c",
+      "raw_source_sha256": "4ad98fc83285e81d45674de69167c8bab67fe0858b42c837105e6b702590b074",
+      "published_at": "2026-11-08T01:05:56",
+      "retrieval_note": "WordPress public REST API content.rendered for exact post ID 385737; raw hash binds API bundle, not HTML at canonical URL."
+    },
+    {
+      "id": "et-src-new-et-daniel-385177",
+      "url": "https://danielscranton.com/it-is-time-for-the-children-of-the-stars-%e2%88%9ethe-9th-dimensional-arcturian-council/",
+      "title": "It is Time for the Children of the Stars ∞The 9th Dimensional Arcturian Council",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:21:46.064257+00:00",
+      "retrieval_status": "retrieved",
+      "source_type": "publisher_message",
+      "note": "Exact title plus first/last message self-attribution; Daniel site explicitly identifies author channeling role. Source retained privately; public record contains metadata only.",
+      "normalized_body_sha256": "8b0a2ea2efd4e644a9ba9f3070553023b6bd3099e51aea14b465b2d4aa99f01d",
+      "raw_source_sha256": "410f538496e5763fc83728f0fe6b0330de84e7ed8e0f432b90247635cf5373a5",
+      "published_at": "2026-10-25T00:43:38",
+      "retrieval_note": "WordPress public REST API content.rendered for exact post ID 385177; raw hash binds API bundle, not HTML at canonical URL."
+    },
+    {
+      "id": "et-src-new-et-daniel-385080",
+      "url": "https://danielscranton.com/ancient-arcturian-practices-%e2%88%9ethe-9d-arcturian-council/",
+      "title": "Ancient Arcturian Practices ∞The 9D Arcturian Council",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:21:46.066013+00:00",
+      "retrieval_status": "retrieved",
+      "source_type": "publisher_message",
+      "note": "Exact title plus first/last message self-attribution; Daniel site explicitly identifies author channeling role. Source retained privately; public record contains metadata only.",
+      "normalized_body_sha256": "a8ad800f2da3b02ce1b16c8649fbabd0d8ed541a376246d286b01c244ec0049b",
+      "raw_source_sha256": "410f538496e5763fc83728f0fe6b0330de84e7ed8e0f432b90247635cf5373a5",
+      "published_at": "2026-10-22T01:01:44",
+      "retrieval_note": "WordPress public REST API content.rendered for exact post ID 385080; raw hash binds API bundle, not HTML at canonical URL."
+    },
+    {
+      "id": "et-src-new-et-daniel-379240",
+      "url": "https://danielscranton.com/introducing-ashanti-the-sassani-human-et-hybrid-%e2%88%9eashanti-the-sassani/",
+      "title": "Introducing Ashanti the Sassani Human/ET Hybrid ∞Ashanti the Sassani",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:21:46.068404+00:00",
+      "retrieval_status": "retrieved",
+      "source_type": "publisher_message",
+      "note": "Exact title plus first/last message self-attribution; Daniel site explicitly identifies author channeling role. Source retained privately; public record contains metadata only.",
+      "normalized_body_sha256": "bd74c1e8c303ed88be278734e4ea31248af2fa2161cc2a4abaddda8b92fff6cd",
+      "raw_source_sha256": "70f83f1882cd90748d2dc79563a5322d50d9ffce7183355fddc8f6a2c61083ff",
+      "published_at": "2026-06-09T01:13:10",
+      "retrieval_note": "WordPress public REST API content.rendered for exact post ID 379240; raw hash binds API bundle, not HTML at canonical URL."
+    },
+    {
+      "id": "et-src-new-et-lyssa-preparedness-138",
+      "url": "https://www.lyssaroyal.net/uploads/1/5/7/1/15716170/tran-preparedness138.pdf",
+      "title": "Preparedness: Exploring the True Definitions of Wealth — excerpt #138",
+      "access_depth": "full_text",
+      "checked_at": "2026-11-08T14:21:46.069261+00:00",
+      "retrieval_status": "retrieved",
+      "source_type": "publisher_pdf_excerpt",
+      "note": "PDF header Sasha through Lyssa Royal; body explicitly says my Pleiadian community onp3. Source retained privately; public record contains metadata only.",
+      "normalized_body_sha256": "2cb1fc1ab0bec0ef5d7648a7650c1be8503dea4eaae754757e524524daadd6d3",
+      "raw_source_sha256": "b8a8f2200af15a1c8363df48f0d58a583a268b91e0075c7ca8cfe2867a4c34f2",
+      "published_at": "1993-07-23"
+    }
+  ],
+  "mediums": [
+    {
+      "id": "medium-darryl-anka",
+      "name": "Darryl Anka",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/BasharChanneledbyDarrylAnka",
+          "platform": "youtube",
+          "role": "official_attribution",
+          "verification": "retained publisher-linked browser metadata,2026-10-22",
+          "source_ids": [
+            "et-src-bashar-inherited"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-bashar-inherited"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-andrew-elan",
+      "name": "Andrew (Elan Interactions)",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/@ElanInteractions",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-elan-who"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/@ElanInteractions/",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-elan-about"
+          ]
+        },
+        {
+          "url": "https://youtube.com/@elaninteractions",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-elan-about"
+          ]
+        },
+        {
+          "url": "http://youtube.com/@elaninteractions",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-elan-about"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-elan-who",
+        "et-src-elan-about"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-tyler-ellison",
+      "name": "Tyler Ellison",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/channel/UCLw58p9pkhoNAXd9PpjMxdg",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-tyler"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-tyler",
+        "et-src-tyler-inherited"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-daniel-scranton",
+      "name": "Daniel Scranton",
+      "accounts": [
+        {
+          "url": "http://youtube.com/danscranton",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-daniel-about"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/user/danscranton",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-daniel-about"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-daniel-about",
+        "et-src-daniel",
+        "et-src-new-et-daniel-379240"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-wendy-kennedy",
+      "name": "Wendy Kennedy",
+      "accounts": [],
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-nora-herold",
+      "name": "Nora Herold",
+      "accounts": [],
+      "source_ids": [
+        "et-src-nora"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-barbara-marciniak",
+      "name": "Barbara Marciniak",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/channel/UCSffF5wKtHDCezvV5tUm68w",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-marciniak"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-marciniak"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-lyssa-royal-holt",
+      "name": "Lyssa Royal Holt",
+      "accounts": [],
+      "source_ids": [
+        "et-src-lyssa-about",
+        "et-src-lyssa-transcripts",
+        "et-src-new-et-lyssa-preparedness-138"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-rob-gauthier",
+      "name": "Rob Gauthier",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/c/TheETWhispererRobGauthier",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-rob"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-rob",
+        "et-src-rob-about"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-wieteke-koolhof",
+      "name": "Wieteke Koolhof",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/user/Design4awareness",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-wieteke"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-wieteke"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-shaun-swanson",
+      "name": "Shaun Swanson",
+      "accounts": [
+        {
+          "url": "http://www.youtube.com/user/IshuwaDotCom",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-shaun"
+          ]
+        },
+        {
+          "url": "http://www.youtube.com/user/TheYahyel",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-shaun"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-shaun",
+        "et-src-shaun-about"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-paul-hamden",
+      "name": "Paul Hamden",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/@The-Zeta-Connection",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-paul-zeta"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/@retcheto",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-zeta-intro"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-paul-zeta",
+        "et-src-zeta-intro",
+        "et-src-zeta-pubs"
+      ],
+      "role": "reported_contact_communicator",
+      "medium_kind": "reported_contact_communicator",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": "practice-zeta-connection",
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-alex-collier",
+      "name": "Alex Collier",
+      "accounts": [],
+      "source_ids": [
+        "et-src-alex"
+      ],
+      "role": "self_described_contactee",
+      "medium_kind": "self_described_contactee",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-carla-rueckert",
+      "name": "Carla L. Rueckert",
+      "accounts": [],
+      "source_ids": [
+        "et-src-ra-permitted",
+        "et-src-ra-intro"
+      ],
+      "role": "medium",
+      "medium_kind": "historical_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-lee-carroll",
+      "name": "Lee Carroll",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/@kryonleecarroll3491",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-kryon-menu"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-kryon-menu",
+        "et-src-kryon-inherited"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-sam-the-illusionist",
+      "name": "Sam the Illusionist",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/@SAMTHEILLUSIONIST",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-sam"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-magenta-pixie",
+      "name": "Magenta Pixie",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/@MagentaPixie",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-magenta"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-magenta",
+        "et-src-magenta-nine"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-pia-orleane",
+      "name": "Pia Orleane",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/@Laarkmaa",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-laarkmaa"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/user/laarkmaa",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-laarkmaa"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-laarkmaa"
+      ],
+      "role": "joint_practice_medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": "practice-laarkmaa-pia-cullen",
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-cullen-baird-smith",
+      "name": "Cullen Baird Smith",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/@Laarkmaa",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-laarkmaa"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/user/laarkmaa",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-laarkmaa"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-laarkmaa"
+      ],
+      "role": "joint_practice_medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": "practice-laarkmaa-pia-cullen",
+      "independent_origin": "not_established"
+    },
+    {
+      "id": "medium-arkayla",
+      "name": "Arkayla",
+      "accounts": [
+        {
+          "url": "https://www.youtube.com/channel/UCztMyD_EcSK7JxeH2cMTcdg",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-arkayla"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCztMyD_EcSK7JxeH2cMTcdg/join",
+          "platform": "youtube",
+          "role": "publisher_linked_account",
+          "verification": "linked_by_inspected_publisher; ownership not independently authenticated",
+          "source_ids": [
+            "et-src-arkayla"
+          ]
+        }
+      ],
+      "source_ids": [
+        "et-src-arkayla"
+      ],
+      "role": "medium",
+      "medium_kind": "direct_channeler",
+      "identity_basis": "Public professional name or publisher pseudonym; no physical/legal identity authentication.",
+      "collaboration_group_id": null,
+      "independent_origin": "not_established"
+    }
+  ],
+  "channellees": [
+    {
+      "id": "et-bashar-darryl",
+      "label": "Bashar — Darryl Anka attribution",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-bashar-inherited"
+      ],
+      "broad_groups": [
+        "bashar"
+      ]
+    },
+    {
+      "id": "et-elan-andrew",
+      "label": "Elan",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-elan-who",
+        "et-src-elan-about"
+      ],
+      "broad_groups": [
+        "sassani"
+      ]
+    },
+    {
+      "id": "et-bashar-andrew",
+      "label": "Bashar — Andrew attribution",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-elan-about"
+      ],
+      "broad_groups": [
+        "bashar"
+      ]
+    },
+    {
+      "id": "et-ryokah-tyler",
+      "label": "RYOKAH",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [
+        "RYO"
+      ],
+      "alias_status": "RYOKAH and RYO co-branded on official homepage; Riok/Ryok testimonial/index variants remain leads; Royukh unresolved.",
+      "source_ids": [
+        "et-src-tyler"
+      ],
+      "broad_groups": [
+        "sassani"
+      ]
+    },
+    {
+      "id": "et-phc7-daniel",
+      "label": "Pleiadian High Council of 7",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-daniel-about",
+        "et-src-new-et-daniel-23785",
+        "et-src-new-et-daniel-23821",
+        "et-src-new-et-daniel-23838"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-arcturian-daniel",
+      "label": "9D Arcturian Council",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-daniel-about",
+        "et-src-new-et-daniel-385737",
+        "et-src-new-et-daniel-385177",
+        "et-src-new-et-daniel-385080"
+      ],
+      "broad_groups": [
+        "arcturian"
+      ]
+    },
+    {
+      "id": "et-zeta-daniel",
+      "label": "Zetas — Daniel Scranton label",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-daniel-about"
+      ],
+      "broad_groups": [
+        "zeta"
+      ]
+    },
+    {
+      "id": "et-andromedan-daniel",
+      "label": "Andromedan Council of Light",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-andromedan-scranton"
+      ],
+      "broad_groups": [
+        "andromedan"
+      ]
+    },
+    {
+      "id": "et-pleiadian-wendy",
+      "label": "9th Dimensional Pleiadian Collective",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [
+        "The Ps"
+      ],
+      "alias_status": "Explicit affectionate abbreviation in publisher biography.",
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-arcturian-wendy",
+      "label": "Beings from Arcturus — Wendy Kennedy",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "broad_groups": [
+        "arcturian"
+      ]
+    },
+    {
+      "id": "et-sirian-wendy",
+      "label": "Beings from Sirius — Wendy Kennedy",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "broad_groups": []
+    },
+    {
+      "id": "et-lyran-wendy",
+      "label": "Beings from Lyra — Wendy Kennedy",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "broad_groups": []
+    },
+    {
+      "id": "et-pleiadian-nora",
+      "label": "Pleiadian Collective — Nora Herold",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-nora"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-pleiadian-marciniak",
+      "label": "Pleiadians — Barbara Marciniak",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-marciniak"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-sasha-lyssa",
+      "label": "Sasha — Lyssa Royal Holt",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-lyssa-transcripts",
+        "et-src-new-et-lyssa-preparedness-138"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-aridif-rob",
+      "label": "Aridif",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-rob-about"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-treb-rob",
+      "label": "Treb Bor Yit-Ne",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-rob-about"
+      ],
+      "broad_groups": []
+    },
+    {
+      "id": "et-arjun-wieteke",
+      "label": "Arjun",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-wieteke"
+      ],
+      "broad_groups": [
+        "yahyel"
+      ]
+    },
+    {
+      "id": "et-ishuwa-shaun",
+      "label": "Ishuwa",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-shaun-about"
+      ],
+      "broad_groups": [
+        "yahyel"
+      ]
+    },
+    {
+      "id": "et-zeta-paul",
+      "label": "Zeta race — Paul Hamden",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-zeta-intro",
+        "et-src-zeta-pubs"
+      ],
+      "broad_groups": [
+        "zeta"
+      ]
+    },
+    {
+      "id": "et-andromedan-alex",
+      "label": "Andromedans — Alex Collier",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-alex"
+      ],
+      "broad_groups": [
+        "andromedan"
+      ]
+    },
+    {
+      "id": "et-ra-llresearch",
+      "label": "Ra — L/L Research 1981–1984",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-ra-permitted",
+        "et-src-ra-intro"
+      ],
+      "broad_groups": [
+        "ra"
+      ]
+    },
+    {
+      "id": "et-kryon-lee",
+      "label": "Kryon — Lee Carroll attribution",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-kryon-inherited"
+      ],
+      "broad_groups": [
+        "kryon"
+      ]
+    },
+    {
+      "id": "et-pleiadian-sam",
+      "label": "Pleiadians — Sam archive",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-arcturian-sam",
+      "label": "Arcturians — Sam archive",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "broad_groups": [
+        "arcturian"
+      ]
+    },
+    {
+      "id": "et-kryon-sam",
+      "label": "Kryon — Sam archive",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "broad_groups": [
+        "kryon"
+      ]
+    },
+    {
+      "id": "et-ra-sam",
+      "label": "RA — Sam archive",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "broad_groups": [
+        "ra"
+      ]
+    },
+    {
+      "id": "et-nine-magenta",
+      "label": "White Winged Collective Consciousness of Nine",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [
+        "The Nine"
+      ],
+      "alias_status": "Explicit publisher shorthand; no merge with Schlemmer Council of Nine.",
+      "source_ids": [
+        "et-src-magenta",
+        "et-src-magenta-nine"
+      ],
+      "broad_groups": []
+    },
+    {
+      "id": "et-laarkmaa",
+      "label": "Laarkmaa",
+      "kind": "named_collective",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-laarkmaa"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-pleiadian-arkayla",
+      "label": "Pleiadians — Arkayla",
+      "kind": "civilization_label",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-arkayla"
+      ],
+      "broad_groups": [
+        "pleiadian"
+      ]
+    },
+    {
+      "id": "et-ashanti-daniel",
+      "label": "Ashanti — Daniel Scranton",
+      "kind": "named_entity",
+      "tradition": "Contemporary channeling discourse",
+      "aliases": [],
+      "alias_status": "no_cross_publisher_identity_inferred",
+      "source_ids": [
+        "et-src-new-et-daniel-379240"
+      ],
+      "broad_groups": [
+        "sassani"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "et-claim-001",
+      "medium_id": "medium-darryl-anka",
+      "channellee_id": "et-bashar-darryl",
+      "source_ids": [
+        "et-src-bashar-inherited"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "Official account title and attribution in retained browser audit.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-002",
+      "medium_id": "medium-andrew-elan",
+      "channellee_id": "et-elan-andrew",
+      "source_ids": [
+        "et-src-elan-about",
+        "et-src-elan-who"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "About: first-person publisher explanation of Andrew and Elan; Who Is Elan: first-name-only attribution.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-003",
+      "medium_id": "medium-andrew-elan",
+      "channellee_id": "et-bashar-andrew",
+      "source_ids": [
+        "et-src-elan-about"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Explicit publisher attribution; publisher-claimed Bashar training lineage prevents assuming independent origins; no direct Andrew–Darryl mentorship established.",
+      "source_location": "About: opening paragraphs explicitly include Bashar through the same channel Andrew; publisher says Bashar trained Andrew for two years and Darryl confirmed this; direct human mentorship is not established.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-004",
+      "medium_id": "medium-tyler-ellison",
+      "channellee_id": "et-ryokah-tyler",
+      "source_ids": [
+        "et-src-tyler"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "Homepage title and main RYOKAH/RYO service headings.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-005",
+      "medium_id": "medium-daniel-scranton",
+      "channellee_id": "et-phc7-daniel",
+      "source_ids": [
+        "et-src-daniel-about"
+      ],
+      "relation": "channels_collective",
+      "scope": "named_collective",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "About: enumerated list of entities/collectives working with Daniel.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-006",
+      "medium_id": "medium-daniel-scranton",
+      "channellee_id": "et-arcturian-daniel",
+      "source_ids": [
+        "et-src-daniel-about"
+      ],
+      "relation": "channels_collective",
+      "scope": "named_collective",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "About: enumerated list of entities/collectives working with Daniel.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-007",
+      "medium_id": "medium-daniel-scranton",
+      "channellee_id": "et-zeta-daniel",
+      "source_ids": [
+        "et-src-daniel-about"
+      ],
+      "relation": "channels_collective",
+      "scope": "civilization_label",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "About: enumerated list of entities/collectives working with Daniel.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-008",
+      "medium_id": "medium-daniel-scranton",
+      "channellee_id": "et-andromedan-daniel",
+      "source_ids": [
+        "et-src-andromedan-scranton",
+        "et-src-daniel-about"
+      ],
+      "relation": "publisher_category_label",
+      "scope": "archive_category",
+      "confidence_basis": "Category-level association; actual named-voice session speech not inspected.",
+      "source_location": "Product category heading; publisher identity from About.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-009",
+      "medium_id": "medium-wendy-kennedy",
+      "channellee_id": "et-pleiadian-wendy",
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "relation": "channels_collective",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "About Wendy: paragraphs2 and narrative explaining The Ps.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-010",
+      "medium_id": "medium-wendy-kennedy",
+      "channellee_id": "et-arcturian-wendy",
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "relation": "works_with_civilization",
+      "scope": "civilization_label",
+      "confidence_basis": "Publisher says works with; not a named-voice or transcript attribution.",
+      "source_location": "About Wendy: in addition to Pleiadians, works with beings from Sirius, Lyra, Arcturus.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-011",
+      "medium_id": "medium-wendy-kennedy",
+      "channellee_id": "et-sirian-wendy",
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "relation": "works_with_civilization",
+      "scope": "civilization_label",
+      "confidence_basis": "Publisher says works with; not a named-voice or transcript attribution.",
+      "source_location": "About Wendy: in addition to Pleiadians, works with beings from Sirius, Lyra, Arcturus.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-012",
+      "medium_id": "medium-wendy-kennedy",
+      "channellee_id": "et-lyran-wendy",
+      "source_ids": [
+        "et-src-wendy-academy"
+      ],
+      "relation": "works_with_civilization",
+      "scope": "civilization_label",
+      "confidence_basis": "Publisher says works with; not a named-voice or transcript attribution.",
+      "source_location": "About Wendy: in addition to Pleiadians, works with beings from Sirius, Lyra, Arcturus.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-013",
+      "medium_id": "medium-nora-herold",
+      "channellee_id": "et-pleiadian-nora",
+      "source_ids": [
+        "et-src-nora"
+      ],
+      "relation": "channels_collective",
+      "scope": "publisher_metadata",
+      "confidence_basis": "Direct publisher metadata names Nora and Pleiadian Collective; body text unavailable.",
+      "source_location": "HTML meta-description, not rendered body.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-014",
+      "medium_id": "medium-barbara-marciniak",
+      "channellee_id": "et-pleiadian-marciniak",
+      "source_ids": [
+        "et-src-marciniak"
+      ],
+      "relation": "channels_collective",
+      "scope": "civilization_label",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "Homepage biography identifies trance channel and Pleiadian teaching.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-015",
+      "medium_id": "medium-lyssa-royal-holt",
+      "channellee_id": "et-sasha-lyssa",
+      "source_ids": [
+        "et-src-lyssa-transcripts",
+        "et-src-new-et-lyssa-preparedness-138"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Direct publisher transcript excerpt confirms named attribution and Pleiadian self-description; printed-layout role attribution is not voice authentication.",
+      "source_location": "Publisher transcript-library description plus PDF#138 header Sasha through Lyssa Royal; p3 states own Pleiadian community.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-016",
+      "medium_id": "medium-rob-gauthier",
+      "channellee_id": "et-aridif-rob",
+      "source_ids": [
+        "et-src-rob-about"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "About: Rob biography and named guide subsection.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-017",
+      "medium_id": "medium-rob-gauthier",
+      "channellee_id": "et-treb-rob",
+      "source_ids": [
+        "et-src-rob-about"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "About: Rob biography and named guide subsection.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-018",
+      "medium_id": "medium-wieteke-koolhof",
+      "channellee_id": "et-arjun-wieteke",
+      "source_ids": [
+        "et-src-wieteke"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "Homepage subsection Arjun of the YahYel.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-019",
+      "medium_id": "medium-shaun-swanson",
+      "channellee_id": "et-ishuwa-shaun",
+      "source_ids": [
+        "et-src-shaun-about"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "About Shaun Swanson: first-person statement channels Ishuwa of Yahyel.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-020",
+      "medium_id": "medium-paul-hamden",
+      "channellee_id": "et-zeta-paul",
+      "source_ids": [
+        "et-src-zeta-intro",
+        "et-src-zeta-pubs"
+      ],
+      "relation": "reports_communications_from",
+      "scope": "civilization_label",
+      "confidence_basis": "Current inspected pages support reported communications/contact; channeling mechanism not independently resolved.",
+      "source_location": "Introduction: communications of Paul Hamden; publications describe his Zeta experiences.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-021",
+      "medium_id": "medium-alex-collier",
+      "channellee_id": "et-andromedan-alex",
+      "source_ids": [
+        "et-src-alex"
+      ],
+      "relation": "claims_contact_with",
+      "scope": "civilization_label",
+      "confidence_basis": "Contactee classification; no automatic trance-channeler classification.",
+      "source_location": "Homepage title and repeated self-description Andromedan contactee.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-022",
+      "medium_id": "medium-carla-rueckert",
+      "channellee_id": "et-ra-llresearch",
+      "source_ids": [
+        "et-src-ra-permitted",
+        "et-src-ra-intro"
+      ],
+      "relation": "channels_collective",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Permission-republishing publisher identifies historical material; distinct from modern Ra-labeled channels.",
+      "source_location": "Homepage describes Ra material; book introduction identifies Carla and research contact.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-023",
+      "medium_id": "medium-lee-carroll",
+      "channellee_id": "et-kryon-lee",
+      "source_ids": [
+        "et-src-kryon-inherited"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Previous official biography access retained; current About request403.",
+      "source_location": "Retained About biography attribution; current menu links Lee account.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-024",
+      "medium_id": "medium-sam-the-illusionist",
+      "channellee_id": "et-pleiadian-sam",
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "relation": "channels_collective",
+      "scope": "published_session_heading",
+      "confidence_basis": "Pleiadian dated cards inspected; other labels supported only by archive categories, not full corresponding session readings.",
+      "source_location": "Homepage introduction, dated session cards, and named archive-category sidebar.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-025",
+      "medium_id": "medium-sam-the-illusionist",
+      "channellee_id": "et-arcturian-sam",
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "relation": "publisher_category_label",
+      "scope": "archive_category",
+      "confidence_basis": "Pleiadian dated cards inspected; other labels supported only by archive categories, not full corresponding session readings.",
+      "source_location": "Homepage introduction, dated session cards, and named archive-category sidebar.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-026",
+      "medium_id": "medium-sam-the-illusionist",
+      "channellee_id": "et-kryon-sam",
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "relation": "publisher_category_label",
+      "scope": "archive_category",
+      "confidence_basis": "Pleiadian dated cards inspected; other labels supported only by archive categories, not full corresponding session readings.",
+      "source_location": "Homepage introduction, dated session cards, and named archive-category sidebar.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-027",
+      "medium_id": "medium-sam-the-illusionist",
+      "channellee_id": "et-ra-sam",
+      "source_ids": [
+        "et-src-sam"
+      ],
+      "relation": "publisher_category_label",
+      "scope": "archive_category",
+      "confidence_basis": "Pleiadian dated cards inspected; other labels supported only by archive categories, not full corresponding session readings.",
+      "source_location": "Homepage introduction, dated session cards, and named archive-category sidebar.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-028",
+      "medium_id": "medium-magenta-pixie",
+      "channellee_id": "et-nine-magenta",
+      "source_ids": [
+        "et-src-magenta",
+        "et-src-magenta-nine"
+      ],
+      "relation": "channels_collective",
+      "scope": "source_attributed_claim",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "Homepage explicit through-the-channel attribution and The Nine page.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-029",
+      "medium_id": "medium-pia-orleane",
+      "channellee_id": "et-laarkmaa",
+      "source_ids": [
+        "et-src-laarkmaa"
+      ],
+      "relation": "channels_collective",
+      "scope": "joint_practice",
+      "confidence_basis": "Joint practice: two named participants count as one practice for comparison independence.",
+      "source_location": "Homepage: Laarkmaa contacted Pia Orleane and Cullen Smith and communicates with both.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-030",
+      "medium_id": "medium-cullen-baird-smith",
+      "channellee_id": "et-laarkmaa",
+      "source_ids": [
+        "et-src-laarkmaa"
+      ],
+      "relation": "channels_collective",
+      "scope": "joint_practice",
+      "confidence_basis": "Joint practice: two named participants count as one practice for comparison independence.",
+      "source_location": "Homepage: Laarkmaa contacted Pia Orleane and Cullen Smith and communicates with both.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-031",
+      "medium_id": "medium-arkayla",
+      "channellee_id": "et-pleiadian-arkayla",
+      "source_ids": [
+        "et-src-arkayla"
+      ],
+      "relation": "channels_collective",
+      "scope": "civilization_label",
+      "confidence_basis": "Publisher directly attributes this role/label; no independent entity verification.",
+      "source_location": "Personal reading section: Arkayla will channel Pleiadians.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    },
+    {
+      "id": "et-claim-032",
+      "medium_id": "medium-daniel-scranton",
+      "channellee_id": "et-ashanti-daniel",
+      "source_ids": [
+        "et-src-new-et-daniel-379240"
+      ],
+      "relation": "channels_named_entity",
+      "scope": "published_message_body",
+      "confidence_basis": "Publisher title and message body explicitly name Ashanti and Sassani; source attribution, not entity verification.",
+      "source_location": "Message first and last paragraphs; body included in separately normalized pilot.",
+      "annotation_type": "AI source reading, not human-coded ground truth",
+      "claim_truth": "not_assessed"
+    }
+  ],
+  "comparison_groups": [
+    {
+      "id": "et-group-pleiadian",
+      "label": "Pleiadian labels",
+      "kind": "civilization_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-phc7-daniel",
+        "et-pleiadian-wendy",
+        "et-pleiadian-nora",
+        "et-pleiadian-marciniak",
+        "et-pleiadian-sam",
+        "et-laarkmaa",
+        "et-pleiadian-arkayla",
+        "et-aridif-rob",
+        "et-sasha-lyssa"
+      ],
+      "medium_ids": [
+        "medium-arkayla",
+        "medium-barbara-marciniak",
+        "medium-cullen-baird-smith",
+        "medium-daniel-scranton",
+        "medium-lyssa-royal-holt",
+        "medium-nora-herold",
+        "medium-pia-orleane",
+        "medium-rob-gauthier",
+        "medium-sam-the-illusionist",
+        "medium-wendy-kennedy"
+      ],
+      "notes": "Specific councils, individuals and unnamed collectives remain distinct. Aridif is described by publisher as Ancient Pleiadian from Deneb; preserve that wording without astronomically harmonizing it. Pia/Cullen form one practice. Sasha affiliation now supported by publisher PDF#138 p3, rather than inferred from library search terms.",
+      "source_ids": [
+        "et-src-arkayla",
+        "et-src-daniel-about",
+        "et-src-laarkmaa",
+        "et-src-lyssa-transcripts",
+        "et-src-marciniak",
+        "et-src-new-et-daniel-23785",
+        "et-src-new-et-daniel-23821",
+        "et-src-new-et-daniel-23838",
+        "et-src-new-et-lyssa-preparedness-138",
+        "et-src-nora",
+        "et-src-rob-about",
+        "et-src-sam",
+        "et-src-wendy-academy"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    },
+    {
+      "id": "et-group-arcturian",
+      "label": "Arcturian labels",
+      "kind": "civilization_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-arcturian-daniel",
+        "et-arcturian-wendy",
+        "et-arcturian-sam"
+      ],
+      "medium_ids": [
+        "medium-daniel-scranton",
+        "medium-sam-the-illusionist",
+        "medium-wendy-kennedy"
+      ],
+      "notes": "Daniel named council; Wendy works-with affiliation; Sam category-only. These are unequal evidence scopes.",
+      "source_ids": [
+        "et-src-daniel-about",
+        "et-src-new-et-daniel-385080",
+        "et-src-new-et-daniel-385177",
+        "et-src-new-et-daniel-385737",
+        "et-src-sam",
+        "et-src-wendy-academy"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    },
+    {
+      "id": "et-group-yahyel",
+      "label": "Yahyel labels",
+      "kind": "civilization_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-arjun-wieteke",
+        "et-ishuwa-shaun"
+      ],
+      "medium_ids": [
+        "medium-shaun-swanson",
+        "medium-wieteke-koolhof"
+      ],
+      "notes": "Two publisher-attributed named beings, not one common named speaker.",
+      "source_ids": [
+        "et-src-shaun-about",
+        "et-src-wieteke"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    },
+    {
+      "id": "et-group-zeta",
+      "label": "Zeta labels",
+      "kind": "civilization_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-zeta-daniel",
+        "et-zeta-paul"
+      ],
+      "medium_ids": [
+        "medium-daniel-scranton",
+        "medium-paul-hamden"
+      ],
+      "notes": "Daniel channeling and Paul reported communications are different relationship types; no shared source independence established.",
+      "source_ids": [
+        "et-src-daniel-about",
+        "et-src-zeta-intro",
+        "et-src-zeta-pubs"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    },
+    {
+      "id": "et-group-bashar",
+      "label": "Bashar",
+      "kind": "shared_named_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-bashar-darryl",
+        "et-bashar-andrew"
+      ],
+      "medium_ids": [
+        "medium-andrew-elan",
+        "medium-darryl-anka"
+      ],
+      "notes": "Andrew publisher claims Bashar trained Andrew and Darryl confirmed this; direct Andrew–Darryl teacher relationship is not established. Two attributed mediums are not two independent origins. No physical identity authentication.",
+      "source_ids": [
+        "et-src-bashar-inherited",
+        "et-src-elan-about"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    },
+    {
+      "id": "et-group-sassani",
+      "label": "Sassani / Essassani vocabulary",
+      "kind": "civilization_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-elan-andrew",
+        "et-ryokah-tyler",
+        "et-ashanti-daniel"
+      ],
+      "medium_ids": [
+        "medium-andrew-elan",
+        "medium-daniel-scranton",
+        "medium-tyler-ellison"
+      ],
+      "notes": "Retained Tyler account says Sassani; Elan publisher says planet Essassani. Only these affiliations are admitted here; Bashar remains separate pending an equally inspectable affiliation passage. Planet/race vocabulary is not astronomical equivalence. Newly inspected Daniel message explicitly introduces Ashanti as Sassani.",
+      "source_ids": [
+        "et-src-elan-about",
+        "et-src-elan-who",
+        "et-src-new-et-daniel-379240",
+        "et-src-tyler"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    },
+    {
+      "id": "et-group-ra",
+      "label": "Ra / RA",
+      "kind": "shared_named_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-ra-llresearch",
+        "et-ra-sam"
+      ],
+      "medium_ids": [
+        "medium-carla-rueckert",
+        "medium-sam-the-illusionist"
+      ],
+      "notes": "Historical L/L Research material and modern Sam category remain separate. Sam category association is not an inspected session attribution or Egyptian deity equivalence.",
+      "source_ids": [
+        "et-src-ra-intro",
+        "et-src-ra-permitted",
+        "et-src-sam"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    },
+    {
+      "id": "et-group-kryon",
+      "label": "Kryon",
+      "kind": "shared_named_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-kryon-lee",
+        "et-kryon-sam"
+      ],
+      "medium_ids": [
+        "medium-lee-carroll",
+        "medium-sam-the-illusionist"
+      ],
+      "notes": "Kryon is a named entity label, not a civilization. Sam currently category-only; cannot assert two independently verified named-voice sessions.",
+      "source_ids": [
+        "et-src-kryon-inherited",
+        "et-src-sam"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    },
+    {
+      "id": "et-group-andromedan",
+      "label": "Andromedan labels",
+      "kind": "civilization_label",
+      "identity_equivalence": false,
+      "channellee_ids": [
+        "et-andromedan-daniel",
+        "et-andromedan-alex"
+      ],
+      "medium_ids": [
+        "medium-alex-collier",
+        "medium-daniel-scranton"
+      ],
+      "notes": "Product category vs contactee discourse; neither is automatically a shared named channellee.",
+      "source_ids": [
+        "et-src-alex",
+        "et-src-andromedan-scranton"
+      ],
+      "denominator_rule": "Distinct attributed people and declared joint practices are descriptive source counts; exclude category/contact-only relations when counting direct channeling claims. Shared label is not a speaker-identity assertion."
+    }
+  ],
+  "leads": [
+    {
+      "id": "et-lead-royukh",
+      "query": "channeling Royukh",
+      "status": "unresolved_alias",
+      "note": "Search returns Ryokah and unrelated channeling results; no source explicitly equates user spelling Royukh with RYOKAH. Do not auto-correct entity identity."
+    },
+    {
+      "id": "et-lead-riok",
+      "query": "Tyler Ellison Riok Ryok",
+      "status": "indexed_or_testimonial_variants",
+      "note": "Official homepage testimonials and indexed titles use Riok/Ryok; retain as search variants, not verified renaming chronology."
+    },
+    {
+      "id": "et-lead-phyllis",
+      "query": "Phyllis Schlemmer Council of Nine Tom",
+      "status": "source_unresolved",
+      "note": "Candidate biography domain unavailable; Bing result page irrelevant. No equivalence with Magenta White Winged Nine asserted."
+    },
+    {
+      "id": "et-lead-david",
+      "query": "David Brown Kryon",
+      "status": "candidate_domain_rejected",
+      "note": "Former domain returned unrelated gambling content. No current claimant edge admitted."
+    },
+    {
+      "id": "et-lead-sabine",
+      "query": "Sabine Sangitar Kryon",
+      "status": "source_unavailable",
+      "note": "Candidate publisher domain CONNECT403; no edge admitted."
+    },
+    {
+      "id": "et-lead-syann",
+      "query": "Syann Hamden Zeta medium",
+      "status": "role_unresolved",
+      "note": "Publisher verifies collaboration and counselling; current page does not establish a second independent medium. Not counted."
+    },
+    {
+      "id": "et-lead-sasha",
+      "query": "Lyssa Royal Sasha Pleiadian",
+      "status": "resolved_by_additional_primary_excerpt",
+      "note": "Publisher PDF#138 header assigns Sasha through Lyssa; p3 explicitly describes own Pleiadian community. Added to comparison group only after reading this direct passage.",
+      "source_ids": [
+        "et-src-new-et-lyssa-preparedness-138"
+      ]
+    },
+    {
+      "id": "et-lead-repost",
+      "query": "Divine Light Vibes Bashar",
+      "status": "excluded_from_medium_count",
+      "note": "Retained account classification is reposter. Distinct accounts do not create new mediums."
+    },
+    {
+      "id": "et-lead-jamie",
+      "query": "Jamie Butler",
+      "status": "user_excluded_acquisition",
+      "note": "Factual role medium/channeler; excluded at user request, not classified as comedian."
+    }
+  ],
+  "query_log": [
+    {
+      "query": "site:youtube.com channeling Sassani Ryokah Tyler Ellison",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Sassani%20Ryokah%20Tyler%20Ellison",
+      "checked_at": "2026-11-08T14:09:12.834496+00:00",
+      "status": 200,
+      "sha256": "e53972173b520213b4a05e55121d4e3f3feea76696111b39a6af7bbff0c16a85",
+      "access_depth": "metadata_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "Ranked results are not complete or independent channel counts"
+    },
+    {
+      "query": "site:youtube.com channeling Royukh",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Royukh",
+      "checked_at": "2026-11-08T14:09:13.889507+00:00",
+      "status": 200,
+      "sha256": "5a77545b19e80ae85cb3a9b23a21dbc1ee47d8ef4fb830c98965a9cd11c4a67e",
+      "access_depth": "metadata_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "Ranked results are not complete or independent channel counts"
+    },
+    {
+      "query": "site:youtube.com channeling Pleiadians Wendy Kennedy Nora Herold",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Pleiadians%20Wendy%20Kennedy%20Nora%20Herold",
+      "checked_at": "2026-11-08T14:09:15.016204+00:00",
+      "status": 429,
+      "sha256": "203ef6fd61087945c7249ec72b50cc9046917ad90a820101f79ded4d6734b582",
+      "access_depth": "discovery_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "429 request not retried"
+    },
+    {
+      "query": "site:youtube.com channeling Arcturians Daniel Scranton Sam",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Arcturians%20Daniel%20Scranton%20Sam",
+      "checked_at": "2026-11-08T14:09:15.581814+00:00",
+      "status": 200,
+      "sha256": "7a0f16f1b53eb035883cc4d7f7b57bdb6b24dcd0c490a3b47df205fa7fa9df87",
+      "access_depth": "metadata_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "Ranked results are not complete or independent channel counts"
+    },
+    {
+      "query": "site:youtube.com channeling Yahyel Wieteke Shaun",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Yahyel%20Wieteke%20Shaun",
+      "checked_at": "2026-11-08T14:09:16.539090+00:00",
+      "status": 429,
+      "sha256": "bef7c7e81e623f8317d0691e581d5d86afb6e274157c3998833946978eae7712",
+      "access_depth": "discovery_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "429 request not retried"
+    },
+    {
+      "query": "site:youtube.com channeling Zeta Paul Hamden",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Zeta%20Paul%20Hamden",
+      "checked_at": "2026-11-08T14:09:17.067226+00:00",
+      "status": 200,
+      "sha256": "0a7a56c647d977699527a49f89619327b09730e9ba9bfb18b72023943e9170fe",
+      "access_depth": "metadata_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "Ranked results are not complete or independent channel counts"
+    },
+    {
+      "query": "site:youtube.com channeling Andromedan Alex Collier",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Andromedan%20Alex%20Collier",
+      "checked_at": "2026-11-08T14:09:17.970731+00:00",
+      "status": 429,
+      "sha256": "5b9984e7bca0e238450f3df5f83243bd79d6a6a6ab17b5e7c04c965f9123c8a6",
+      "access_depth": "discovery_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "429 request not retried"
+    },
+    {
+      "query": "site:youtube.com channeling Ra Sam Carla",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Ra%20Sam%20Carla",
+      "checked_at": "2026-11-08T14:09:18.511000+00:00",
+      "status": 200,
+      "sha256": "4208d6da30ba2e86db4d7d2856cbe50358cd2eb76c82d8a95fac16de95ff46c7",
+      "access_depth": "metadata_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "Ranked results are not complete or independent channel counts"
+    },
+    {
+      "query": "site:youtube.com channeling Kryon David Brown Lee Carroll",
+      "url": "https://search.brave.com/search?q=site%3Ayoutube.com%20channeling%20Kryon%20David%20Brown%20Lee%20Carroll",
+      "checked_at": "2026-11-08T14:09:19.375637+00:00",
+      "status": 429,
+      "sha256": "d08d0a09ccae02ade8c86a0f8dedc5e05861d25e3c7b0194a0001bb5531bb862",
+      "access_depth": "discovery_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "429 request not retried"
+    },
+    {
+      "query": "channeling Nine Phyllis Schlemmer Magenta Pixie",
+      "url": "https://search.brave.com/search?q=channeling%20Nine%20Phyllis%20Schlemmer%20Magenta%20Pixie",
+      "checked_at": "2026-11-08T14:09:19.824347+00:00",
+      "status": 200,
+      "sha256": "3fa568a7a95e9e18c9f48cf78098538d2b5e007490e5c5f70dcbab8e1444572e",
+      "access_depth": "metadata_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "Ranked results are not complete or independent channel counts"
+    },
+    {
+      "query": "channeling ethnography Pleiadians religions peer reviewed Hanegraaff",
+      "url": "https://search.brave.com/search?q=channeling%20ethnography%20Pleiadians%20religions%20peer%20reviewed%20Hanegraaff",
+      "checked_at": "2026-11-08T14:09:20.651237+00:00",
+      "status": 429,
+      "sha256": "f84729ab9676f769cea252980e8e4245d3abb451bf7888f746e646d8a7e0a7b2",
+      "access_depth": "discovery_only",
+      "scope": "first page organic search-index metadata; no YouTube body requests",
+      "used_for": "Discovery/variant checking; publisher pages support admitted claims",
+      "limitation": "429 request not retried"
+    },
+    {
+      "query": "site%3Asamtheillusionist.com%20Kryon%20channeling",
+      "url": "https://www.bing.com/search?q=site%3Asamtheillusionist.com%20Kryon%20channeling",
+      "checked_at": "2026-11-08T14:10:19.453493+00:00",
+      "status": 200,
+      "sha256": "002eebe5b24ae4f06e006eb45217041efa78d52cc3e1d4c28d5fdf1382e041ce",
+      "access_depth": "discovery_only",
+      "used_for": "none",
+      "limitation": "Unrelated organic results discarded"
+    },
+    {
+      "query": "%22David%20Brown%22%20%22Kryon%22%20channeling",
+      "url": "https://www.bing.com/search?q=%22David%20Brown%22%20%22Kryon%22%20channeling",
+      "checked_at": "2026-11-08T14:10:19.860797+00:00",
+      "status": 200,
+      "sha256": "e036ae62010da23ae3a6cf0da40750ce7b51f5f3a46e135be523e64d71828c5e",
+      "access_depth": "discovery_only",
+      "used_for": "none",
+      "limitation": "Unrelated organic results discarded"
+    },
+    {
+      "query": "%22Phyllis%20Schlemmer%22%20%22Council%20of%20Nine%22%20publisher",
+      "url": "https://www.bing.com/search?q=%22Phyllis%20Schlemmer%22%20%22Council%20of%20Nine%22%20publisher",
+      "checked_at": "2026-11-08T14:10:19.942097+00:00",
+      "status": 200,
+      "sha256": "5fa26924a12b3a831e75a5c87472f4da8528a15b3e963bad87a991fe17b69f55",
+      "access_depth": "discovery_only",
+      "used_for": "none",
+      "limitation": "Unrelated organic results discarded"
+    },
+    {
+      "query": "channeling%20discourse%20religion%20ethnography%20peer%20reviewed%20Pleiadians",
+      "url": "https://www.bing.com/search?q=channeling%20discourse%20religion%20ethnography%20peer%20reviewed%20Pleiadians",
+      "checked_at": "2026-11-08T14:10:20.364892+00:00",
+      "status": 200,
+      "sha256": "59151c8764566da8fb0e75813ae1170aa958dc15c0a04627db0e76a0e4fc7a07",
+      "access_depth": "discovery_only",
+      "used_for": "none",
+      "limitation": "Unrelated organic results discarded"
+    },
+    {
+      "query": "site:samtheillusionist.com \"Kryon\"",
+      "url": "https://search.brave.com/search?q=site%3Asamtheillusionist.com%20%22Kryon%22",
+      "checked_at": "2026-11-08T14:16:48.667229+00:00",
+      "status": 200,
+      "sha256": "5ed9d36093b6d713436a750ac138d44f406986a30dfdfa7fc1bc4f38f3f50610",
+      "access_depth": "metadata_only",
+      "used_for": "Discovery only; no session text or new named-voice claim admitted.",
+      "limitation": "Search-index ranking; corresponding category body unavailable.",
+      "scope": "first page organic search-index metadata; no YouTube body request"
+    }
+  ],
+  "literature_leads": [
+    {
+      "query": "channeling discourse religion ethnography peer reviewed Pleiadians",
+      "status": "search_unproductive",
+      "note": "Search produced unrelated results; no invented peer-reviewed citation or claimed full-text review. Existing project related-work bibliography remains separate."
+    }
+  ],
+  "review_rounds": [
+    {
+      "round": 1,
+      "type": "AI source researcher plus reviewer guidance",
+      "status": "completed",
+      "decisions": [
+        "Separate named labels from civilization affiliations.",
+        "Keep joint practices and declared training lineage.",
+        "Reject repurposed/irrelevant search sources.",
+        "Downgrade Sam labels to category-only where relevant.",
+        "Preserve unresolved Royukh spelling."
+      ]
+    },
+    {
+      "round": 2,
+      "type": "Actual AI reviewer critique and correction; not human peer review",
+      "status": "completed_for_this_register",
+      "reviewers": [
+        "panel_critic",
+        "panel_methods",
+        "panel_design"
+      ],
+      "corrections": [
+        {
+          "finding": "Private absolute root leaked into public draft.",
+          "action": "Removed; public sources retain IDs, URLs, hashes and access depth; private artifacts bound separately."
+        },
+        {
+          "finding": "Sassani group included Bashar without equivalent inspectable affiliation passage.",
+          "action": "Removed Bashar nodes from this civilization group; retained Bashar shared-name comparison. Elan and Ryokah remain; newly inspected Ashanti message adds Daniel."
+        },
+        {
+          "finding": "Andrew training wording implied Darryl human mentorship.",
+          "action": "Corrected: publisher says Bashar trained Andrew and Darryl confirmed this; direct human teacher relationship not established."
+        },
+        {
+          "finding": "Role vocabulary conflicted across registers and UI.",
+          "action": "Normalized direct/historical people to medium; joint Laarkmaa participants to joint_practice_medium; contactee/communicator roles stay distinct."
+        },
+        {
+          "finding": "Keyword hits risk speaker misattribution.",
+          "action": "Daniel API Pleiadian search returned Arcturian messages; actual title/body controlled labels. New exact older PHCo7 bodies separately selected."
+        },
+        {
+          "finding": "Lyssa source mixed questions and attributed responses.",
+          "action": "Preserved complete excerpt; primary pilot removes five exact Question paragraphs and records private Q/A turns with printed-layout attribution."
+        },
+        {
+          "finding": "Unverified Sasha civilization could inflate group.",
+          "action": "Added only after PDF#138 p3 explicitly describes own Pleiadian community."
+        }
+      ],
+      "remaining_limits": [
+        "Sam Ra/Kryon/Arcturian labels remain category-only; three attempted exact sessions403.",
+        "Royukh spelling unresolved.",
+        "Named-label overlap and corpus similarity do not establish a shared external speaker.",
+        "Finite source frame and AI interpretation, not exhaustive culture survey or human validation."
+      ]
+    }
+  ],
+  "limitations": [
+    "Current YouTube upload totals unknown; search/publisher links are not a platform census.",
+    "Publisher self-attribution does not authenticate paranormal sources.",
+    "No comparable transcript segments were fitted in this source registry task.",
+    "No random sample or exhaustive survey of religions/cultures.",
+    "Metadata-only records cannot stand in for transcript reading.",
+    "Full text retained privately for permitted source inspection; public output is metadata and paraphrase."
+  ],
+  "new_text_pilot": {
+    "manifest_sha256": "d7f7d01e49fee1dafdcb5fba1515e54e03d42a0f573d9416ebbb268160792f37",
+    "source_count": 8,
+    "primary_words": 6578,
+    "mixed_lyssa_words": 2742,
+    "response_only_lyssa_words": 2671,
+    "printed_QA_pairs": 5,
+    "raw_text_release": "private_only",
+    "source_ids": [
+      "et-src-new-et-daniel-23785",
+      "et-src-new-et-daniel-23821",
+      "et-src-new-et-daniel-23838",
+      "et-src-new-et-daniel-385737",
+      "et-src-new-et-daniel-385177",
+      "et-src-new-et-daniel-385080",
+      "et-src-new-et-daniel-379240",
+      "et-src-new-et-lyssa-preparedness-138"
+    ],
+    "sampling": "3PHCo7 messages,3Arcturian messages,1Ashanti message from bounded Daniel API queries,1Lyssa excerpt. Not a channel census, not random; period and genre confounding.",
+    "failed_attempts": [
+      {
+        "url": "https://samtheillusionist.com/session-256",
+        "status": 403,
+        "admitted_text": false
+      },
+      {
+        "url": "https://samtheillusionist.com/session-254",
+        "status": 403,
+        "admitted_text": false
+      },
+      {
+        "url": "https://samtheillusionist.com/session-250",
+        "status": 403,
+        "admitted_text": false
+      }
+    ]
+  }
+}
