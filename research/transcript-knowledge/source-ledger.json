@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "study": "transcript-knowledge",
+  "created_at": "2026-11-08T19:20:22.902648+00:00",
+  "scope": "Focused primary-source and open-source review for an additive 493-source transcript knowledge/search layer. Not an exhaustive SOTA survey or reproduction of graph-RAG benchmark results.",
+  "sources": [
+    {
+      "id": "TK-L01",
+      "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+      "kind": "paper_and_repository",
+      "publication_date": "2025-02-19",
+      "version": "arXiv 2404.16130v2",
+      "publication_status": "ArXiv manuscript inspected; no peer-reviewed venue established in this review",
+      "implementation_status": "reference_only",
+      "limitations": [
+        "The paper evaluates global sensemaking over two roughly million-token corpora, not our source-grounding or answer accuracy.",
+        "Current pinned README says maintenance mode and warns that indexing can be expensive.",
+        "Community generation, Leiden hierarchy and LLM map/reduce are not implemented merely by displaying our provenance graph."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "graphrag-abstract",
+          "url": "https://arxiv.org/abs/2404.16130",
+          "final_url": "https://arxiv.org/abs/2404.16130",
+          "retrieved_at": "2026-11-08T19:12:31.665375+00:00",
+          "bytes": 43707,
+          "sha256": "855117eeed1d12d807df77154b203ba20a1664fd6f17891395557b379989add7",
+          "access_depth": "bibliographic metadata and abstract",
+          "inspected_scope": "Title, authors, v1/v2 dates, abstract and submission history"
+        },
+        {
+          "artifact_id": "graphrag-paper",
+          "url": "https://arxiv.org/html/2404.16130v2",
+          "final_url": "https://arxiv.org/html/2404.16130v2",
+          "retrieved_at": "2026-11-08T19:12:31.664928+00:00",
+          "bytes": 619003,
+          "sha256": "e71aba110390a5844dc886c4469547540c0de0552a81e1dafbc6a428871462c1",
+          "access_depth": "selected full-text sections",
+          "inspected_scope": "Sections 3.1.1–3.1.6 pipeline and6.1 evaluation limitations"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/microsoft/graphrag",
+        "observed_commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+        "commit_date": "2026-11-02T05:40:54Z",
+        "license": "MIT",
+        "artifacts": [
+          {
+            "artifact_id": "graphrag-readme-pinned",
+            "url": "https://raw.githubusercontent.com/microsoft/graphrag/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/README.md",
+            "final_url": "https://raw.githubusercontent.com/microsoft/graphrag/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/README.md",
+            "retrieved_at": "2026-11-08T19:14:30.377799+00:00",
+            "bytes": 5099,
+            "sha256": "36df9326f1e83343fd46373a2a059093590e4c2ad2256d3ed5de5c5e6e492709",
+            "access_depth": "selected README sections",
+            "inspected_scope": "Overview, setup, resource requirements and operational limitations; not every linked document"
+          },
+          {
+            "artifact_id": "graphrag-license-pinned",
+            "url": "https://raw.githubusercontent.com/microsoft/graphrag/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/LICENSE",
+            "final_url": "https://raw.githubusercontent.com/microsoft/graphrag/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/LICENSE",
+            "retrieved_at": "2026-11-08T19:14:30.378642+00:00",
+            "bytes": 1141,
+            "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+            "access_depth": "complete license",
+            "inspected_scope": "MIT copyright, permission and disclaimer text"
+          },
+          {
+            "artifact_id": "graphrag-code-fixed",
+            "url": "https://raw.githubusercontent.com/microsoft/graphrag/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/query/structured_search/global_search/search.py",
+            "final_url": "https://raw.githubusercontent.com/microsoft/graphrag/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/query/structured_search/global_search/search.py",
+            "retrieved_at": "2026-11-08T19:17:26.672955+00:00",
+            "bytes": 20309,
+            "sha256": "c201e86aa401452ab4b5eee25f439283b572e7148ab3d823bf555f68c495cd30",
+            "access_depth": "selected code functions",
+            "inspected_scope": "GlobalSearch.search method, context-building/map calls/reduce calls and accounting; lines142–205 of retained code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TK-L02",
+      "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "kind": "paper_and_repository",
+      "publication_date": "2025-04-28",
+      "version": "arXiv 2410.05779v3",
+      "publication_status": "ArXiv manuscript inspected; a conference venue was not verified in retrieved primary pages",
+      "implementation_status": "reference_only",
+      "limitations": [
+        "LLM-based entity/relation extraction, keyword extraction and answer generation still require inference.",
+        "The paper uses four UltraDomain subsets and 125 generated questions per dataset; GPT-4o-mini pairwise judging does not validate local source fidelity.",
+        "Current code differs from the 2024/2025 paper; the repository snapshot and paper edition are separate."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "lightrag-abstract",
+          "url": "https://arxiv.org/abs/2410.05779",
+          "final_url": "https://arxiv.org/abs/2410.05779",
+          "retrieved_at": "2026-11-08T19:12:32.075569+00:00",
+          "bytes": 41899,
+          "sha256": "a3c53668cc6095fdb626d28348fb07913fe470e3eda8598761045bdaff356cda",
+          "access_depth": "bibliographic metadata and abstract",
+          "inspected_scope": "Title, authors, v1/v2/v3 dates and submission history"
+        },
+        {
+          "artifact_id": "lightrag-paper",
+          "url": "https://arxiv.org/html/2410.05779v3",
+          "final_url": "https://arxiv.org/html/2410.05779v3",
+          "retrieved_at": "2026-11-08T19:12:31.993988+00:00",
+          "bytes": 212508,
+          "sha256": "1d52828dbfb3c068c7274ceb7b5343e85f61545d875316749afafd581a259c2b",
+          "access_depth": "selected full-text sections",
+          "inspected_scope": "Sections 3.1–3.4 indexing/retrieval/generation/complexity and4.1 experimental settings"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/HKUDS/LightRAG",
+        "observed_commit": "aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a",
+        "commit_date": "2026-10-14T14:55:37Z",
+        "license": "MIT",
+        "artifacts": [
+          {
+            "artifact_id": "lightrag-readme-pinned",
+            "url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/README.md",
+            "final_url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/README.md",
+            "retrieved_at": "2026-11-08T19:14:30.378975+00:00",
+            "bytes": 52594,
+            "sha256": "b495a0fb015976fca63152962ebd4a4daf82f32fdd8c3bb146fab90a0b09e8e4",
+            "access_depth": "selected README sections",
+            "inspected_scope": "Overview, setup, resource requirements and operational limitations; not every linked document"
+          },
+          {
+            "artifact_id": "lightrag-license-pinned",
+            "url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/LICENSE",
+            "final_url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/LICENSE",
+            "retrieved_at": "2026-11-08T19:14:30.597432+00:00",
+            "bytes": 1070,
+            "sha256": "0c16924564059e493c86854574660a47ed1dcc2a476ba7b5f949d3f2f73a1984",
+            "access_depth": "complete license",
+            "inspected_scope": "MIT copyright, permission and disclaimer text"
+          },
+          {
+            "artifact_id": "lightrag-code-pinned",
+            "url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/lightrag/operate.py",
+            "final_url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/lightrag/operate.py",
+            "retrieved_at": "2026-11-08T19:14:30.683479+00:00",
+            "bytes": 299930,
+            "sha256": "176585e3f686574ab98657b666982302ce47d58229baacb529ef601bd6799326",
+            "access_depth": "selected code functions",
+            "inspected_scope": "get_keywords_from_query,extract_keywords_only and _build_query_context selected bodies; API roles/cache identity/context boundaries; not full299KBmodule"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TK-L03",
+      "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models (HippoRAG 2)",
+      "kind": "paper_and_repository",
+      "publication_date": "2025-07-13",
+      "version": "PMLR 267; arXiv 2502.14802v2 (2025-06-19)",
+      "publication_status": "Peer-reviewed ICML 2025 proceedings verified; PMLR 267:21497–21515, conference 13–19 July 2025",
+      "implementation_status": "reference_only",
+      "limitations": [
+        "Paper uses Llama-3.3-70B-Instruct extraction/filtering and NV-Embed-v2, not our CPU MiniLM configuration.",
+        "Passage nodes and contains edges inspire preserving context, but our typed navigation graph is not Personalized PageRank or OpenIE.",
+        "Reported benchmark gains are not measured local benefits."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "hipporag-proceedings",
+          "url": "https://proceedings.mlr.press/v267/gutierrez25a.html",
+          "final_url": "https://proceedings.mlr.press/v267/gutierrez25a.html",
+          "retrieved_at": "2026-11-08T19:13:52.972983+00:00",
+          "bytes": 17474,
+          "sha256": "671f87c0b09c8ac841a1ad1ac023612a02a7505ad2603589c41c21187d166bcb",
+          "access_depth": "complete bibliographic page and abstract",
+          "inspected_scope": "PMLR venue, authors, conference dates/pages and abstract"
+        },
+        {
+          "artifact_id": "hipporag-abstract",
+          "url": "https://arxiv.org/abs/2502.14802",
+          "final_url": "https://arxiv.org/abs/2502.14802",
+          "retrieved_at": "2026-11-08T19:12:32.164895+00:00",
+          "bytes": 43701,
+          "sha256": "ecdec63a730f5543d554070b603909edffb08f6d9d6099b37054de8f5ffc9938",
+          "access_depth": "bibliographic metadata and abstract",
+          "inspected_scope": "ArXivv2date and ICMLcomment"
+        },
+        {
+          "artifact_id": "hipporag-paper",
+          "url": "https://arxiv.org/html/2502.14802v2",
+          "final_url": "https://arxiv.org/html/2502.14802v2",
+          "retrieved_at": "2026-11-08T19:12:32.150291+00:00",
+          "bytes": 489523,
+          "sha256": "48617e71c7191dde8095c638395c24f65c0d5817865ad1b5727be092f7a55c3a",
+          "access_depth": "selected full-text sections",
+          "inspected_scope": "Sections 3.1–3.5 graph/context/query/triple filtering/PPR;4.3–4.4 metrics/models"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/OSU-NLP-Group/HippoRAG",
+        "observed_commit": "d5c8329422e0a0b834a15874545cb6a74b4f9b26",
+        "commit_date": "2026-10-06T21:03:48Z",
+        "license": "MIT",
+        "artifacts": [
+          {
+            "artifact_id": "hipporag-readme-pinned",
+            "url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/README.md",
+            "final_url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/README.md",
+            "retrieved_at": "2026-11-08T19:14:30.715594+00:00",
+            "bytes": 29972,
+            "sha256": "5b6affb7fd746390990c63467f424501a3a67946461aa2e6244561130c3bc60b",
+            "access_depth": "selected README sections",
+            "inspected_scope": "Overview, setup, resource requirements and operational limitations; not every linked document"
+          },
+          {
+            "artifact_id": "hipporag-license-pinned",
+            "url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/LICENSE",
+            "final_url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/LICENSE",
+            "retrieved_at": "2026-11-08T19:14:30.809570+00:00",
+            "bytes": 1088,
+            "sha256": "93b43d692b033b76129504448695bfe76ef22d18b11e51352bfab4b5622e5aaa",
+            "access_depth": "complete license",
+            "inspected_scope": "MIT copyright, permission and disclaimer text"
+          },
+          {
+            "artifact_id": "hipporag-code-pinned",
+            "url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/src/hipporag/HippoRAG.py",
+            "final_url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/src/hipporag/HippoRAG.py",
+            "retrieved_at": "2026-11-08T19:14:30.862905+00:00",
+            "bytes": 116930,
+            "sha256": "3935854368bb11e960323c31fb3cc67bee9e393079ce522711586d5e643bdb46",
+            "access_depth": "selected code functions",
+            "inspected_scope": "run_ppr lines 2177–2218, passage retrieval interface and README index-identity requirements; no pipeline execution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TK-L04",
+      "title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+      "kind": "paper_and_repository",
+      "publication_date": "2024-01-31",
+      "version": "arXiv 2401.18059v1",
+      "publication_status": "ArXiv edition inspected; OpenReview venue page returned a browser challenge and its API returned HTTP 403, so venue status was not independently reverified here",
+      "implementation_status": "reference_only",
+      "limitations": [
+        "Requires recursive clustering, generated summaries and new embeddings at multiple levels; not just a source-summary page.",
+        "Appendix E reports that 6 of 150 sampled summary nodes had hallucinations across 40 stories; that is not a local error rate or assurance that our errors cannot propagate."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "raptor-abstract",
+          "url": "https://arxiv.org/abs/2401.18059",
+          "final_url": "https://arxiv.org/abs/2401.18059",
+          "retrieved_at": "2026-11-08T19:12:32.444232+00:00",
+          "bytes": 40587,
+          "sha256": "803e4dfd1dd99bf9a20d9739d4981deeaef8c835833fb74a3d423fa868d06d43",
+          "access_depth": "bibliographic metadata and abstract",
+          "inspected_scope": "Title, authors and v1date"
+        },
+        {
+          "artifact_id": "raptor-paper",
+          "url": "https://arxiv.org/html/2401.18059v1",
+          "final_url": "https://arxiv.org/html/2401.18059v1",
+          "retrieved_at": "2026-11-08T19:13:52.995169+00:00",
+          "bytes": 253113,
+          "sha256": "03a4e57d0b79a2b86fd99ebec7bffe066e148350eeb02927d63ec36dab8fa899",
+          "access_depth": "selected full-text sections",
+          "inspected_scope": "Section 3methods/querying and Appendix E.1–E.3 summary-hallucination study"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/parthsarthi03/raptor",
+        "observed_commit": "7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767",
+        "commit_date": "2024-09-03T08:34:31Z",
+        "license": "MIT",
+        "artifacts": [
+          {
+            "artifact_id": "raptor-readme-pinned",
+            "url": "https://raw.githubusercontent.com/parthsarthi03/raptor/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767/README.md",
+            "final_url": "https://raw.githubusercontent.com/parthsarthi03/raptor/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767/README.md",
+            "retrieved_at": "2026-11-08T19:14:31.046515+00:00",
+            "bytes": 6715,
+            "sha256": "769bcefe1d7254162a99bf6d8fbbff19cd7e1f2115cae9d18dbcd842e8c802c2",
+            "access_depth": "selected README sections",
+            "inspected_scope": "Overview, setup, resource requirements and operational limitations; not every linked document"
+          },
+          {
+            "artifact_id": "raptor-license-fixed",
+            "url": "https://raw.githubusercontent.com/parthsarthi03/raptor/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767/LICENSE.txt",
+            "final_url": "https://raw.githubusercontent.com/parthsarthi03/raptor/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767/LICENSE.txt",
+            "retrieved_at": "2026-11-08T19:14:30.376294+00:00",
+            "bytes": 1068,
+            "sha256": "96134f372fd6a571d669593efdfc5f3a7ecc488b360b6ed425e7347fb278e194",
+            "access_depth": "complete license",
+            "inspected_scope": "MIT copyright, permission and disclaimer text"
+          },
+          {
+            "artifact_id": "raptor-code-pinned",
+            "url": "https://raw.githubusercontent.com/parthsarthi03/raptor/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767/raptor/cluster_tree_builder.py",
+            "final_url": "https://raw.githubusercontent.com/parthsarthi03/raptor/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767/raptor/cluster_tree_builder.py",
+            "retrieved_at": "2026-11-08T19:14:31.051571+00:00",
+            "bytes": 5340,
+            "sha256": "99bdb5f0c0c383a1c600f16922ab1336e0bc60fa0647305c6d18e39e6cb49b99",
+            "access_depth": "selected code functions",
+            "inspected_scope": "Complete cluster_tree_builder.py: clustering→summarize→create_parent_node→next_layer loop and thread execution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TK-L05",
+      "title": "BM25S: Orders of magnitude faster lexical search via eager sparse scoring",
+      "kind": "technical_report_and_repository",
+      "publication_date": "2024-07-04",
+      "version": "arXiv 2407.03618v1",
+      "publication_status": "ArXiv technical report; no peer-reviewed status claimed",
+      "implementation_status": "reference_only",
+      "limitations": [
+        "Paper speedups are particular benchmark claims and do not apply to 493 sources without measurements.",
+        "BM25 variants differ in IDF, term-frequency normalization and score offsets; a shared name does not mean identical scores.",
+        "No BM25S package installed or executed in this extension."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "bm25s-abstract",
+          "url": "https://arxiv.org/abs/2407.03618",
+          "final_url": "https://arxiv.org/abs/2407.03618",
+          "retrieved_at": "2026-11-08T19:12:32.574517+00:00",
+          "bytes": 38954,
+          "sha256": "43a804daec5c7afd9b96522fe703b13c5d1d88553ace9bf35a83ab88793e72c1",
+          "access_depth": "bibliographic metadata and abstract",
+          "inspected_scope": "Technical-report label,author,date and abstract"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/xhluca/bm25s",
+        "observed_commit": "ca2b0511887e6953b1a1747ed637ed5e8f9e1e40",
+        "commit_date": "2026-11-02T00:16:04Z",
+        "license": "MIT",
+        "artifacts": [
+          {
+            "artifact_id": "bm25s-readme-pinned",
+            "url": "https://raw.githubusercontent.com/xhluca/bm25s/ca2b0511887e6953b1a1747ed637ed5e8f9e1e40/README.md",
+            "final_url": "https://raw.githubusercontent.com/xhluca/bm25s/ca2b0511887e6953b1a1747ed637ed5e8f9e1e40/README.md",
+            "retrieved_at": "2026-11-08T19:14:31.066989+00:00",
+            "bytes": 28703,
+            "sha256": "df7cc12b276788b3138c24e308f3a5426aa114250707e0df1663e11d4b4f5dc1",
+            "access_depth": "selected README sections",
+            "inspected_scope": "Overview, setup, resource requirements and operational limitations; not every linked document"
+          },
+          {
+            "artifact_id": "bm25s-license-pinned",
+            "url": "https://raw.githubusercontent.com/xhluca/bm25s/ca2b0511887e6953b1a1747ed637ed5e8f9e1e40/LICENSE",
+            "final_url": "https://raw.githubusercontent.com/xhluca/bm25s/ca2b0511887e6953b1a1747ed637ed5e8f9e1e40/LICENSE",
+            "retrieved_at": "2026-11-08T19:14:31.085742+00:00",
+            "bytes": 1068,
+            "sha256": "8c159b4c621a86c4695c83f42a00932b26183f6da8ab62b0865835594426c8ff",
+            "access_depth": "complete license",
+            "inspected_scope": "MIT copyright, permission and disclaimer text"
+          },
+          {
+            "artifact_id": "bm25s-code-pinned",
+            "url": "https://raw.githubusercontent.com/xhluca/bm25s/ca2b0511887e6953b1a1747ed637ed5e8f9e1e40/bm25s/scoring.py",
+            "final_url": "https://raw.githubusercontent.com/xhluca/bm25s/ca2b0511887e6953b1a1747ed637ed5e8f9e1e40/bm25s/scoring.py",
+            "retrieved_at": "2026-11-08T19:14:31.173778+00:00",
+            "bytes": 14538,
+            "sha256": "859c13bd8e346d0d585b6743aad010b9e9fcbe163b1b3d6f1d67a72e369e2318",
+            "access_depth": "selected code functions",
+            "inspected_scope": "Scoring module first 210 lines: DF/IDF,Robertson/Lucene/ATIRE/BM25L/BM25+term components and IDFselectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TK-L06",
+      "title": "MiniSearch 7.2.0",
+      "kind": "open_source_browser_library",
+      "publication_date": null,
+      "version": "npm 7.2.0",
+      "publication_status": "MIT-licensed software; not a research-paper benchmark",
+      "implementation_status": "vendored_and_api_tested",
+      "limitations": [
+        "Search covers only bounded public annotation/summary/metadata fields, not private full transcript bodies.",
+        "Default BM25+ parameters are k=1.2, b=0.7, delta=0.5; per-field length counts unique tokens. Scores are not equivalent to SQLite FTS5 BM25.",
+        "Sixteen synthetic API checks passed, including Devanagari combining marks; these do not establish corpus retrieval accuracy or live deployment status."
+      ],
+      "artifacts": [],
+      "repository": {
+        "url": "https://github.com/lucaong/minisearch",
+        "observed_commit": "3d239d1c3ae7aef1bf5d8945dd7b5f0709f646f5",
+        "commit_date": "2025-09-16T12:42:13Z",
+        "license": "MIT",
+        "artifacts": [
+          {
+            "artifact_id": "minisearch-readme-pinned",
+            "url": "https://raw.githubusercontent.com/lucaong/minisearch/3d239d1c3ae7aef1bf5d8945dd7b5f0709f646f5/README.md",
+            "final_url": "https://raw.githubusercontent.com/lucaong/minisearch/3d239d1c3ae7aef1bf5d8945dd7b5f0709f646f5/README.md",
+            "retrieved_at": "2026-11-08T19:14:31.251554+00:00",
+            "bytes": 11694,
+            "sha256": "e1b4c36f42a3a0a35f5ef66c617f3d018409732ea9c3c66e01036e6c85313b27",
+            "access_depth": "selected README sections",
+            "inspected_scope": "Overview, setup, resource requirements and operational limitations; not every linked document"
+          },
+          {
+            "artifact_id": "minisearch-license-pinned",
+            "url": "https://raw.githubusercontent.com/lucaong/minisearch/3d239d1c3ae7aef1bf5d8945dd7b5f0709f646f5/LICENSE.txt",
+            "final_url": "https://raw.githubusercontent.com/lucaong/minisearch/3d239d1c3ae7aef1bf5d8945dd7b5f0709f646f5/LICENSE.txt",
+            "retrieved_at": "2026-11-08T19:14:31.259778+00:00",
+            "bytes": 1051,
+            "sha256": "70d37354d6395629fb99edb28cb37a5d356ffa24a48cd02a5def5b83a300a899",
+            "access_depth": "complete license",
+            "inspected_scope": "MIT copyright, permission and disclaimer text"
+          },
+          {
+            "artifact_id": "minisearch-code-pinned",
+            "url": "https://raw.githubusercontent.com/lucaong/minisearch/3d239d1c3ae7aef1bf5d8945dd7b5f0709f646f5/src/MiniSearch.ts",
+            "final_url": "https://raw.githubusercontent.com/lucaong/minisearch/3d239d1c3ae7aef1bf5d8945dd7b5f0709f646f5/src/MiniSearch.ts",
+            "retrieved_at": "2026-11-08T19:14:31.354079+00:00",
+            "bytes": 78751,
+            "sha256": "f13e267bb854feb5e2e6f528baf5286db5efaf40f4e07baa2da2c158b2a22fc6",
+            "access_depth": "selected code functions",
+            "inspected_scope": "add field length lines 752–770,search option API/defaults and BM25+scorer lines 2108–2162"
+          }
+        ]
+      },
+      "package_integrity": {
+        "package": "minisearch",
+        "version": "7.2.0",
+        "registry_metadata_url": "https://registry.npmjs.org/minisearch/7.2.0",
+        "metadata_sha256": "7bb4e09645e76c483c0403fc45cbda572f207bcb0b2b9edf1f890f6f11cb3b21",
+        "tarball_url": "https://registry.npmjs.org/minisearch/-/minisearch-7.2.0.tgz",
+        "tarball_sha256": "cb3b8126a3ea65d6b387787294f0792b0ea4a40b70f8f37688066a5638e0218a",
+        "npm_integrity": "sha512-dqT2XBYUOZOiC5t2HRnwADjhNS2cecp9u+TJRiJ1Qp/f5qjkeT5APcGPjHw+bz89Ms8Jp+cG4AlE+QZ/QnDglg==",
+        "npm_shasum": "3dc30e41e9464b3836553b6d969b656614f8f359",
+        "integrity_verified": true,
+        "accessed_at": "2026-11-08T19:15:59.962893+00:00",
+        "git_head": null
+      },
+      "vendored_manifest": "../../dist/transcript-knowledge/vendor/minisearch.provenance.json",
+      "test_command": "node research/transcript-knowledge/test-minisearch.cjs"
+    },
+    {
+      "id": "TK-L07",
+      "title": "SQLite FTS5 BM25, snippets and full-text query syntax",
+      "kind": "official_software_documentation",
+      "publication_date": null,
+      "version": "Documentation retrieved 2026-11-08",
+      "publication_status": "Official SQLite documentation; software reference",
+      "implementation_status": "implementation_reference",
+      "limitations": [
+        "FTS5 BM25 uses lower-is-better negative scores, k1=1.2, b=0.75 and token-count document length.",
+        "Private transcript search and public MiniSearch annotation search have different corpora, tokenization and scoring; their score values are not interchangeable.",
+        "A snippet is a retrieved text window, not a validated answer."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "sqlite-fts5",
+          "url": "https://www.sqlite.org/fts5.html",
+          "final_url": "https://www.sqlite.org/fts5.html",
+          "retrieved_at": "2026-11-08T19:17:26.673573+00:00",
+          "bytes": 215354,
+          "sha256": "de3092630358518a6869bf047055b3938e18b476e3fbc54f4e2146d1e593497f",
+          "access_depth": "selected official documentation",
+          "inspected_scope": "Section 5.1.1bm25() and5.1.2–5.1.3 highlight()/snippet(); private implementation execution documented by methods owner"
+        }
+      ]
+    },
+    {
+      "id": "TK-L08",
+      "title": "Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods",
+      "kind": "conference_paper",
+      "publication_date": "2009-07-19",
+      "version": "SIGIR 2009 two-page paper",
+      "publication_status": "SIGIR 2009 conference-paper footer and complete source paper inspected",
+      "implementation_status": "method_reference",
+      "limitations": [
+        "RRF constant 60 was frozen after a pilot in the paper; it is not an automatically optimal value for our corpus.",
+        "The prior local 25-source experiment proved coverage bias when fusing full source ranks with partially covered card ranks; retain fixed candidate cutoffs and a raw fallback, and report coverage.",
+        "Fusion ranks evidence candidates; it does not determine relevance truth or corroboration."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "rrf-paper",
+          "url": "https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf",
+          "final_url": "https://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf",
+          "retrieved_at": "2026-11-08T19:12:32.777918+00:00",
+          "bytes": 66196,
+          "sha256": "5c1f9f1fe0d80f67d82041bbe151ea17437bc7a7d9a920564cf122d1b09eafb5",
+          "access_depth": "complete two-page paper",
+          "inspected_scope": "Formula,constant 60 pilot,Tables 1–3,discussion and conference footer"
+        }
+      ]
+    },
+    {
+      "id": "TK-L09",
+      "title": "PROV-O: The PROV Ontology",
+      "kind": "web_standard",
+      "publication_date": "2013-04-30",
+      "version": "W3C Recommendation 2013-04-30",
+      "publication_status": "W3C Recommendation",
+      "implementation_status": "principle_adapted",
+      "limitations": [
+        "A derivation link describes how an artifact was produced, not whether its claim is true.",
+        "The local JSON graph mapping is inspired by PROV-O; RDF/OWL conformance is not asserted."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "prov-o",
+          "url": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+          "final_url": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+          "retrieved_at": "2026-11-08T19:12:32.807816+00:00",
+          "bytes": 464179,
+          "sha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+          "access_depth": "selected normative definitions",
+          "inspected_scope": "Section 3.1StartingPointTerms:Entity,Activity,Agent,used,wasGeneratedBy,wasDerivedFrom,wasAssociatedWith,wasAttributedTo"
+        }
+      ]
+    },
+    {
+      "id": "TK-L10",
+      "title": "Web Annotation Data Model",
+      "kind": "web_standard",
+      "publication_date": "2017-02-23",
+      "version": "W3C Recommendation 2017-02-23",
+      "publication_status": "W3C Recommendation",
+      "implementation_status": "principle_adapted",
+      "limitations": [
+        "Text selectors need the exact normalized edition; offsets are brittle if resource bodies change.",
+        "Unicode code points are not JavaScript UTF-16 code units. Exact quotes can reproduce restricted text, so public locators and hashes are preferred.",
+        "JSON fields alone do not establish W3C JSON-LD conformance."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "web-annotation",
+          "url": "https://www.w3.org/TR/2017/REC-annotation-model-20170223/",
+          "final_url": "https://www.w3.org/TR/2017/REC-annotation-model-20170223/",
+          "retrieved_at": "2026-11-08T19:12:32.841451+00:00",
+          "bytes": 284185,
+          "sha256": "a7513e022f56c0a6f4e99ac11aec03f3451d1ff1ce14054780b3ccfb38fa7980",
+          "access_depth": "selected normative definitions",
+          "inspected_scope": "Sections 4.2.4TextQuoteSelector and4.2.5TextPositionSelector; startinclusive/endexclusive,normalization,codepoints and resource-state caveat"
+        }
+      ]
+    },
+    {
+      "id": "TK-L11",
+      "title": "Extractive is not Faithful: An Investigation of Broad Unfaithfulness Problems in Extractive Summarization",
+      "kind": "conference_paper",
+      "publication_date": "2023-07",
+      "version": "ACL 2023 long paper; DOI 10.18653/v1/2023.acl-long.120",
+      "publication_status": "Peer-reviewed ACL 2023 proceedings verified from the official anthology; publication month is known, not an exact day",
+      "implementation_status": "method_reference",
+      "limitations": [
+        "Only official abstract and bibliography inspected; full experiments/code not inspected in this review.",
+        "The reported 30% of 1,600 summaries with issues is their sampled-system result, not a local error rate.",
+        "Extracting original sentences can still lose coreference or discourse context, or omit qualifications."
+      ],
+      "artifacts": [
+        {
+          "artifact_id": "extractive-faithfulness",
+          "url": "https://aclanthology.org/2023.acl-long.120/",
+          "final_url": "https://aclanthology.org/2023.acl-long.120/",
+          "retrieved_at": "2026-11-08T19:18:37.912731+00:00",
+          "bytes": 43071,
+          "sha256": "10c01cc5b56e4a58c1fa5acbdd8cad842fa9083053a7b264eda5295a0739a0de",
+          "access_depth": "official abstract and bibliographic metadata",
+          "inspected_scope": "Five types of unfaithfulness, 1,600 summaries from 16 systems,venue/authors/pages/DOI; no full-paper claims"
+        }
+      ]
+    }
+  ],
+  "attempted_access_limits": [
+    {
+      "artifact_id": "graphrag-code",
+      "url": "https://raw.githubusercontent.com/microsoft/graphrag/main/graphrag/query/structured_search/global_search/search.py",
+      "result": "HTTP Error 404: Not Found"
+    },
+    {
+      "artifact_id": "lightrag-proceedings-search",
+      "url": "https://aclanthology.org/search/?q=LightRAG",
+      "result": "browser challenge or non-result page"
+    },
+    {
+      "artifact_id": "raptor-openreview",
+      "url": "https://openreview.net/forum?id=GN921JHCRw",
+      "result": "browser challenge or non-result page"
+    },
+    {
+      "artifact_id": "emnlp-2025-index",
+      "url": "https://aclanthology.org/events/emnlp-2025/",
+      "result": ""
+    },
+    {
+      "artifact_id": "raptor-openreview-api",
+      "url": "https://api2.openreview.net/notes?id=GN921JHCRw",
+      "result": "HTTP Error 403: Forbidden"
+    },
+    {
+      "artifact_id": "raptor-license",
+      "url": "https://raw.githubusercontent.com/parthsarthi03/raptor/master/LICENSE",
+      "result": "HTTP Error 404: Not Found"
+    }
+  ],
+  "prior_local_findings": [
+    "research/knowledge-bank/METHODS.md",
+    "research/knowledge-bank/INDEPENDENT-REVIEW.md",
+    "research/channel-lab/METHODS.md"
+  ],
+  "evaluation_boundary": "Source-informed frozen queries, declared known support and abstention controls; not human-heldout relevance truth. No benchmark improvement is claimed from citations."
+}

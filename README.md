@@ -2,6 +2,14 @@
 
 **[Open the Channeling Atlas dashboard](https://occult-kranti.github.io/channels-ET/dist/#/research-update)** · [Existing private Site](https://channeling-atlas.whatswrong-inc.chatgpt.site)
 
+### Transcript knowledge explorer · 8 November 2026
+
+Open the **[question bank and knowledge graph](https://occult-kranti.github.io/channels-ET/dist/transcript-knowledge/)**. The extension processes the same **493 canonical sources / 1,411,446 words** into source profiles and **9,424 typed entries**: 2,523 printed Ra pairs, 6,408 unverified question cues and 493 generated reading tasks. Four printed pairs contain missing-question placeholders. Candidate context is never silently treated as an answer.
+
+The reviewed layer contains **27 qualified answer cards, 26 questions and 26 context summaries**, with exact evidence locations and a **622-node / 3,664-edge typed graph**. Filter the public bank and graph by source context, record type, origin, dates, labels and lexical factors; inspect source editions and export the selected metadata. MiniSearch powers local browser search over public annotations. A copied release works through a local static server. Separate SQLite databases support public downloads and private full-transcript retrieval; GraphML supports external network tools.
+
+Twelve frozen known-support queries and four evidence-sufficiency controls compare BM25, TF-IDF, MiniLM and rank fusion. Fusion is not uniformly better: a Council source ranks first with BM25, 284th with MiniLM and fifth with fusion. The [implementation and results](research/transcript-knowledge/README.md), [paper/code review](research/transcript-knowledge/LITERATURE.md) and [independent AI review](research/transcript-knowledge/REVIEW.md) explain extraction corrections, source-reading coverage and remaining limits. Public source profiles are automatic outlines; the bounded curated readings cover 22,042 unique words across 42 documents. Full original text and exact private evidence remain outside GitHub Pages.
+
 ### Channel and recording laboratory · 8 November 2026
 
 Open the **[updated channel and recording dashboard](https://occult-kranti.github.io/channels-ET/dist/channel-lab/)**. Its shared analysis covers **493 canonical source units / 1,411,446 words across 26 publisher contexts**, with detailed source pages, channel profiles, topic progression, lexical and neural neighbors, interactive comparison networks, contextual word overlays and downloadable figures. The inventory distinguishes retained media, transcript editions, analyzed bodies and accounts with unknown upload totals. The 55 inventory rows include screened and historical references; they are not 55 fully analyzed channels.

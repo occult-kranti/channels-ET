@@ -1,0 +1,37 @@
+{
+  "package": "minisearch",
+  "version": "7.2.0",
+  "registry_metadata_url": "https://registry.npmjs.org/minisearch/7.2.0",
+  "metadata_sha256": "7bb4e09645e76c483c0403fc45cbda572f207bcb0b2b9edf1f890f6f11cb3b21",
+  "tarball_url": "https://registry.npmjs.org/minisearch/-/minisearch-7.2.0.tgz",
+  "tarball_sha256": "cb3b8126a3ea65d6b387787294f0792b0ea4a40b70f8f37688066a5638e0218a",
+  "npm_integrity": "sha512-dqT2XBYUOZOiC5t2HRnwADjhNS2cecp9u+TJRiJ1Qp/f5qjkeT5APcGPjHw+bz89Ms8Jp+cG4AlE+QZ/QnDglg==",
+  "npm_shasum": "3dc30e41e9464b3836553b6d969b656614f8f359",
+  "integrity_verified": true,
+  "accessed_at": "2026-11-08T19:15:59.962893+00:00",
+  "git_head": null,
+  "repo_url": "https://github.com/lucaong/minisearch",
+  "inspected_repo_commit": "3d239d1c3ae7aef1bf5d8945dd7b5f0709f646f5",
+  "package_matches_inspected_package_json": true,
+  "license": "MIT",
+  "code_modifications": "None: exact npm7.2.0 UMD bundle, source map and license bytes.",
+  "scope": "Only bounded public question/answer summaries, topic terms and documentary metadata are indexed by the consuming page; full transcript bodies are not shipped.",
+  "scoring": "MiniSearch7.2.0 BM25+ defaults k=1.2,b=0.7,d=0.5; not numerically comparable to SQLite FTS5 bm25().",
+  "files": [
+    {
+      "file": "minisearch.js",
+      "bytes": 86348,
+      "sha256": "03c27931eb603af1d3358579e9885eafdb6a2f5fa9929557b3e77d7e99d06d03"
+    },
+    {
+      "file": "minisearch.LICENSE.txt",
+      "bytes": 1051,
+      "sha256": "70d37354d6395629fb99edb28cb37a5d356ffa24a48cd02a5def5b83a300a899"
+    },
+    {
+      "file": "index.js.map",
+      "bytes": 42963,
+      "sha256": "4bf7e52bd41838937a53151140594816afdcc913b2fd8348f9ef44668beeda41"
+    }
+  ]
+}
