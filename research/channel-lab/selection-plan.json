@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-11-08T18:31:46.437821+00:00",
+  "status": "purposeful_candidate_selection_frozen_before_new_rankings",
+  "selection_basis": "Existing accepted qualitative findings, repeated printed labels across distinct mediums, source-title inventory and deliberately different conditions/genres. No new channel-lab similarity or topic output inspected.",
+  "sampling_status": "Purposive illustrative cases, not probability sampled or representative; no frequency, accuracy or contradiction-rate inference.",
+  "case_limit": 12,
+  "canonical_join_rule": "Resolve exact legacy IDs or explicitly documented source/recording aliases against the owner-frozen frame. A changed body requires fresh span reading. Missing or insufficient candidates remain recorded; no silent replacement using high-ranked neighbors.",
+  "candidates": [
+    {
+      "case_id": "practice-action",
+      "title": "Contemplation and action",
+      "selection_reason": "Ra10.14; official Bashar Passion Principle public excerpt",
+      "source_selectors": [
+        "ra:session:010:lightly-edited",
+        "vimeo:204086275"
+      ]
+    },
+    {
+      "case_id": "fear-desire",
+      "title": "Fear, desire and qualifications",
+      "selection_reason": "Ra18.5; official Bashar Relationship Between Fear and Power excerpt",
+      "source_selectors": [
+        "ra:session:018:lightly-edited",
+        "vimeo:457106172"
+      ]
+    },
+    {
+      "case_id": "time-reference",
+      "title": "Time language and its reference frame",
+      "selection_reason": "Ra36.4–36.6; official Bashar You Are All Time Travelers excerpt",
+      "source_selectors": [
+        "ra:session:036:lightly-edited",
+        "vimeo:278735645"
+      ]
+    },
+    {
+      "case_id": "council-definition",
+      "title": "Formation proposal versus claimed current council",
+      "selection_reason": "Daniel2019 Galactic Council proposal; Tracy Timeline of Contact recording",
+      "source_selectors": [
+        "galactic-daniel-20190327",
+        "council-contact-tracy-4818c71bd66ea72a"
+      ]
+    },
+    {
+      "case_id": "council-timing",
+      "title": "Contact timing under different conditional cases",
+      "selection_reason": "Tracy First Contact Is Here; Pamela Council of9 interview current canonical editions",
+      "source_selectors": [
+        "council-contact-tracy-548134ce5946a24d",
+        "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f"
+      ]
+    },
+    {
+      "case_id": "mary-support",
+      "title": "Shared printed name, different trust referents",
+      "selection_reason": "Mother Mary publisher messages under Natalie Glasson and Pamela Kribbe",
+      "source_selectors": [
+        "tr-source-omna-mary",
+        "tr-source-jeshua-mary-full"
+      ]
+    },
+    {
+      "case_id": "magdalene-change",
+      "title": "Shared printed name and practical change",
+      "selection_reason": "Mary Magdalene publisher messages under Natalie Glasson and Pamela Kribbe",
+      "source_selectors": [
+        "tr-source-omna-magdalene",
+        "tr-source-jeshua-magdalene-full"
+      ]
+    },
+    {
+      "case_id": "mediation-optional",
+      "title": "Optional invocation and nonhierarchical practice",
+      "selection_reason": "Andromedans via Natalie; Jeshua mornings via Pamela",
+      "source_selectors": [
+        "tr-source-omna-andromedans",
+        "tr-source-jeshua-mornings-one-many"
+      ]
+    },
+    {
+      "case_id": "michael-awareness",
+      "title": "Stable awareness and contemplative exercise",
+      "selection_reason": "Michael via Natalie; Ra10.14, distinct printed identities",
+      "source_selectors": [
+        "tr-source-omna-michael",
+        "ra:session:010:lightly-edited"
+      ]
+    },
+    {
+      "case_id": "reception-genre",
+      "title": "Skeptical reception versus official presentation",
+      "selection_reason": "Ross and Carrie Consult Bashar commentary; official Open Contact Progress Report excerpt",
+      "source_selectors": [
+        "title: Ross and Carrie Consult Bashar",
+        "vimeo:1232083694"
+      ]
+    },
+    {
+      "case_id": "preparedness",
+      "title": "Preparedness and individual action",
+      "selection_reason": "Lyssa/Sasha preparedness publisher questions; official Bashar Passion Principle excerpt",
+      "source_selectors": [
+        "new-et-lyssa-preparedness-138",
+        "vimeo:204086275"
+      ]
+    },
+    {
+      "case_id": "answer-limits",
+      "title": "Refusal or correction is not an affirmative answer",
+      "selection_reason": "Ra68 refusal and Ra77 questioner correction; documentary Q/A evidence controls",
+      "source_selectors": [
+        "ra:session:068:lightly-edited",
+        "ra:session:077:lightly-edited"
+      ]
+    }
+  ],
+  "required_controls": [
+    "Preserve documentary questions versus analyst comparison questions versus ASR cues.",
+    "Report same-label different-medium cases and differing-scope cases.",
+    "Bind source body hash, complete selected character intervals and actual read-word union.",
+    "New ASR editions cannot inherit old cards or locators without rereading.",
+    "Publish failed or insufficient candidate dispositions."
+  ]
+}

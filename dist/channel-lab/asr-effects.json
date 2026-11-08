@@ -1,0 +1,1764 @@
+{
+  "schema_version": 1,
+  "status": "executed_frozen_space_ASR_sensitivity",
+  "created_at": "2026-11-08T19:00:25.186822+00:00",
+  "bindings": {
+    "frame_sha256": "0d69378f9e9a2280e7ed05981b647fbfe280016380b3072b2b3a320961ae2c8c",
+    "registry_sha256": "211246663c6b35254a831cd32f0a9c785dd2ec498b5e9096b0dfd10a565a4d2d",
+    "analysis_sha256": "59f08dddc1b72bc3ed9b70c41f515a91a5e6bdb3ad427a9a0048deb62390635a",
+    "asr_manifest_sha256": "062bb81dfacb35093c85b9149b120d61ea0918d25a0780884fb8f9a04c562cf9",
+    "model_manifest_sha256": "931b052d83a03d2c35854572d9038f14ed9f9da0e3383cee5e1c3912518f428d",
+    "baseline_vectors_sha256": "775147f34a0c51f21b25fe1ce714230e2506b6a6f85e776d8db087d73f4d36fa",
+    "baseline_lexical_sha256": "6bc9c47d0b40d2723cf470017c309b8614f58940481aa97544bd015569cbce3a",
+    "producer_sha256": "24609cf657681cce93308faee467b087a739892648573c006488005b26f54c30",
+    "encoder_script_sha256": "edd711afd232a5d061666d76396cb2028a3ff275880a3ab27e5b401b4db0558d",
+    "mask_and_tokenization_helper_sha256": "a0db239bd3916f70d42dfaef99b3c6acb36f29ff2c3a26a7fdbcdae25b1f66b4"
+  },
+  "coverage": {
+    "candidate_sources": 493,
+    "changed_sources": 9,
+    "old_same_audio_comparisons": 9,
+    "canonical_written_vs_ASR_comparisons": 5,
+    "canonical_ASR_vs_ASR_comparisons": 4,
+    "encoded_new_texts": 9,
+    "encoded_old_ASR_texts_absent_from_primary": 5,
+    "reused_old_baseline_vectors": 4,
+    "full_corpus_reencoded": false,
+    "vocabulary_or_IDF_refit": false,
+    "canonical_frame_changed": false
+  },
+  "pairs": [
+    {
+      "source_id": "doc-fc7d9bd99fbcd4be1672",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Do You Trust The Universe? by Mother Mary",
+      "recording_id": "audio-sha256:37b86ba8cae58e7594eb44653e7fabfb4d2830e049784c4a1939360c01356de2",
+      "audio_sha256": "37b86ba8cae58e7594eb44653e7fabfb4d2830e049784c4a1939360c01356de2",
+      "publication_date": null,
+      "selected_edition_id": "tr-source-omna-mary",
+      "selected_body_sha256": "fc86e6514236643b2e5b15c214cf5f5a35403e5a4388f07e5485c695900f60ce",
+      "selected_text_origin": "publisher_written",
+      "old_asr_edition_id": "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+      "old_asr_body_sha256": "8906e3fec14bd40a2e7cfdd4e0ee1e2bbd06e4438ac329d6ab90d86a8eefe5bb",
+      "new_asr_edition_id": "parakeet-660ed97b2f44f12000c5e20c822bf1ab",
+      "new_asr_body_sha256": "20dd716f5ff9444752519639d03763f47d6f24efa03f38ad6d50e4b863fe740f",
+      "old_asr_artifact_sha256": "64e3b361e000fdf34605c5942f0b05ee8489786870469ffcf8c353cf7a5ef41f",
+      "new_asr_artifact_sha256": "925a0289c1d731b2a6f89931bbaa96a21903ce1854773290497405fff1c35e78",
+      "old_asr_is_selected_canonical": false,
+      "canonical_comparison_type": "publisher_written_vs_new_ASR_origin_confounded",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 869,
+          "lexical_tokens": 869,
+          "negation_cues": 10,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 11.507479861910241,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "after": {
+          "whitespace_words": 868,
+          "lexical_tokens": 869,
+          "negation_cues": 10,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 11.507479861910241,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "delta": {
+          "whitespace_words": -1,
+          "lexical_tokens": 0,
+          "negation_cues": 0,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 0.0,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 726,
+          "lexical_tokens": 741,
+          "negation_cues": 9,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 12.145748987854251,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "after": {
+          "whitespace_words": 868,
+          "lexical_tokens": 869,
+          "negation_cues": 10,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 11.507479861910241,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "delta": {
+          "whitespace_words": 142,
+          "lexical_tokens": 128,
+          "negation_cues": 1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -0.6382691259440101,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.992994583174979,
+        "semantic": 0.9897884445157287
+      },
+      "canonical_cosines": {
+        "lexical": 0.9127153297293169,
+        "semantic": 0.9536168177535033
+      }
+    },
+    {
+      "source_id": "doc-75564e2ab119641b6a01",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Angelic Enlightenment by Archangel Metatron",
+      "recording_id": "audio-sha256:6a7059b2dd8b19f13f66959f6b0f1a1103e63de9569472fd3b36d1c3f6ceb9e9",
+      "audio_sha256": "6a7059b2dd8b19f13f66959f6b0f1a1103e63de9569472fd3b36d1c3f6ceb9e9",
+      "publication_date": null,
+      "selected_edition_id": "tr-source-omna-metatron",
+      "selected_body_sha256": "78246437f1ff1f316eb6a8390b77572e2d9ebeab0b04c65951678c336a876262",
+      "selected_text_origin": "publisher_written",
+      "old_asr_edition_id": "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+      "old_asr_body_sha256": "9782902e4d267c766b9bb233781556d54a2af124e010b14761fcd941d1a75fcd",
+      "new_asr_edition_id": "parakeet-8bd38cb0176bd95fb4b6824506e7ca5c",
+      "new_asr_body_sha256": "a2837952f9543763bef8aff9c5a384f65276104b85a6bd98d2ed5a94371255e5",
+      "old_asr_artifact_sha256": "70569189113c1673a368bfee1c3a8145338895ecc6b3a4c96f2cf8e0fead486f",
+      "new_asr_artifact_sha256": "d34f7b2347e00a8e1624e0a911c85a680898aa04e6fd453b4ca43a252e746bd1",
+      "old_asr_is_selected_canonical": false,
+      "canonical_comparison_type": "publisher_written_vs_new_ASR_origin_confounded",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 839,
+          "lexical_tokens": 840,
+          "negation_cues": 5,
+          "number_word_cues": 10,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 5.9523809523809526,
+          "number_cues_per_1000_lexical_tokens": 11.904761904761905
+        },
+        "after": {
+          "whitespace_words": 831,
+          "lexical_tokens": 832,
+          "negation_cues": 5,
+          "number_word_cues": 10,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 6.009615384615385,
+          "number_cues_per_1000_lexical_tokens": 12.01923076923077
+        },
+        "delta": {
+          "whitespace_words": -8,
+          "lexical_tokens": -8,
+          "negation_cues": 0,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 0.057234432234432475,
+          "number_cues_per_1000_lexical_tokens": 0.11446886446886495
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 744,
+          "lexical_tokens": 744,
+          "negation_cues": 5,
+          "number_word_cues": 10,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 6.720430107526882,
+          "number_cues_per_1000_lexical_tokens": 13.440860215053764
+        },
+        "after": {
+          "whitespace_words": 831,
+          "lexical_tokens": 832,
+          "negation_cues": 5,
+          "number_word_cues": 10,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 6.009615384615385,
+          "number_cues_per_1000_lexical_tokens": 12.01923076923077
+        },
+        "delta": {
+          "whitespace_words": 87,
+          "lexical_tokens": 88,
+          "negation_cues": 0,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -0.7108147229114969,
+          "number_cues_per_1000_lexical_tokens": -1.4216294458229939
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.9489418214763206,
+        "semantic": 0.9886511919682244
+      },
+      "canonical_cosines": {
+        "lexical": 0.9454549763554392,
+        "semantic": 0.9693006149505914
+      }
+    },
+    {
+      "source_id": "doc-1ea8241d5d809106ce98",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Everything Is Changing by Archangel Michael",
+      "recording_id": "audio-sha256:a60f913bd8b920f6491b155d82d360d5175fbf132dd440be13da63a67950c09b",
+      "audio_sha256": "a60f913bd8b920f6491b155d82d360d5175fbf132dd440be13da63a67950c09b",
+      "publication_date": null,
+      "selected_edition_id": "tr-source-omna-michael",
+      "selected_body_sha256": "30f3227b6c915685c2c00d9471991d808229b826092599b73dbf86b3dae2eda7",
+      "selected_text_origin": "publisher_written",
+      "old_asr_edition_id": "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+      "old_asr_body_sha256": "8bbafb2f631f697b0311e344516e123dbf769af8e99591e84d48ce23f2c5718a",
+      "new_asr_edition_id": "parakeet-e95cc4e443e45aaba32bb4f4f1a4bebd",
+      "new_asr_body_sha256": "8b3694cde2a203a215a3580341fa2cbd84cf3b3d162e0eb85cca1d1af1044342",
+      "old_asr_artifact_sha256": "1aea3ed381123c4587196bb8a458f6ae637b409b8ac4dea1d63445cca165bb25",
+      "new_asr_artifact_sha256": "a0102c6c95c4a296f898021a17252121eff518bec659db3c9dbf09f48e32f743",
+      "old_asr_is_selected_canonical": false,
+      "canonical_comparison_type": "publisher_written_vs_new_ASR_origin_confounded",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 852,
+          "lexical_tokens": 852,
+          "negation_cues": 3,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 3.5211267605633805,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "after": {
+          "whitespace_words": 857,
+          "lexical_tokens": 857,
+          "negation_cues": 3,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 3.500583430571762,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "delta": {
+          "whitespace_words": 5,
+          "lexical_tokens": 5,
+          "negation_cues": 0,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -0.020543329991618453,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 596,
+          "lexical_tokens": 634,
+          "negation_cues": 2,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 3.1545741324921135,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "after": {
+          "whitespace_words": 857,
+          "lexical_tokens": 857,
+          "negation_cues": 3,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 3.500583430571762,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "delta": {
+          "whitespace_words": 261,
+          "lexical_tokens": 223,
+          "negation_cues": 1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 0.34600929807964853,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.9580716816936483,
+        "semantic": 0.984512425017982
+      },
+      "canonical_cosines": {
+        "lexical": 0.8331856258200866,
+        "semantic": 0.9401211929486982
+      }
+    },
+    {
+      "source_id": "doc-94024a1a8db1b2d2f62e",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Grace Embrace Initiation by Mary Magdalene",
+      "recording_id": "audio-sha256:43d605c08b0b7c64aba9b04d811e996a2dc38cc828c819a56d9a390ce5405d57",
+      "audio_sha256": "43d605c08b0b7c64aba9b04d811e996a2dc38cc828c819a56d9a390ce5405d57",
+      "publication_date": null,
+      "selected_edition_id": "tr-source-omna-magdalene",
+      "selected_body_sha256": "6aa961a0aaad90289e6e47135e1f827257021fe1266e6bf5d4eb920fd380e30e",
+      "selected_text_origin": "publisher_written",
+      "old_asr_edition_id": "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+      "old_asr_body_sha256": "9128c72bc3cc84cc8e35f794722263b74caa6c3413060f3b8c8bd9f8c0db9643",
+      "new_asr_edition_id": "parakeet-8f9af09eaa392c02fa4b16fd5b48518d",
+      "new_asr_body_sha256": "603174a164dc0f1e627452515e67276945ee87757e1a8c57283ec2edc1ae5b2a",
+      "old_asr_artifact_sha256": "3c72b2ad5d672375894b0a825f44cb9ed5354cbc9acd10cf62300ea82979a316",
+      "new_asr_artifact_sha256": "8f6324f3a71acee219dab4c14fd7c36c634577ddf83b60d5dbefc77c9f654437",
+      "old_asr_is_selected_canonical": false,
+      "canonical_comparison_type": "publisher_written_vs_new_ASR_origin_confounded",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 1106,
+          "lexical_tokens": 1108,
+          "negation_cues": 1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 0.9025270758122743,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "after": {
+          "whitespace_words": 1112,
+          "lexical_tokens": 1113,
+          "negation_cues": 1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 0.8984725965858041,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "delta": {
+          "whitespace_words": 6,
+          "lexical_tokens": 5,
+          "negation_cues": 0,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -0.004054479226470176,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 952,
+          "lexical_tokens": 952,
+          "negation_cues": 1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 1.050420168067227,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "after": {
+          "whitespace_words": 1112,
+          "lexical_tokens": 1113,
+          "negation_cues": 1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 0.8984725965858041,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        },
+        "delta": {
+          "whitespace_words": 160,
+          "lexical_tokens": 161,
+          "negation_cues": 0,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -0.1519475714814228,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.9679858924082382,
+        "semantic": 0.9791125687572353
+      },
+      "canonical_cosines": {
+        "lexical": 0.9080629143578608,
+        "semantic": 0.9683264139120664
+      }
+    },
+    {
+      "source_id": "doc-55b2070abbedfc372379",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Inner Order by Lady Quan Yin",
+      "recording_id": "audio-sha256:9c153da72b073006848339b3be51569da3312bdc0ddef48368e79892202e25be",
+      "audio_sha256": "9c153da72b073006848339b3be51569da3312bdc0ddef48368e79892202e25be",
+      "publication_date": null,
+      "selected_edition_id": "tr-source-omna-quanyin",
+      "selected_body_sha256": "5bd4cec7c2cd956b23b4b7e1a8908c9f599adad06a99521a9d02a9eb6c4cc3ff",
+      "selected_text_origin": "publisher_written",
+      "old_asr_edition_id": "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2",
+      "old_asr_body_sha256": "e7f649ed4cf82c38b28e4021721f0058e265d0edb313ca6726e5897f175760ed",
+      "new_asr_edition_id": "parakeet-487348fdce24b9096281e6e0fb596744",
+      "new_asr_body_sha256": "bb001f4a9dfbe8cf1b94ed7e77ba5dfafd6a8b2adc55caa12f52952405da336d",
+      "old_asr_artifact_sha256": "fead1b8e148df8b3f3e430d05837d77aa853683397eea9c77fc4d82beb2d33d7",
+      "new_asr_artifact_sha256": "d8cd98d83dd95e8336309d85b1f4585dd5ee4ee763d82ebf95a3bd5c44653aeb",
+      "old_asr_is_selected_canonical": false,
+      "canonical_comparison_type": "publisher_written_vs_new_ASR_origin_confounded",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 1437,
+          "lexical_tokens": 1437,
+          "negation_cues": 12,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 8.350730688935283,
+          "number_cues_per_1000_lexical_tokens": 2.0876826722338206
+        },
+        "after": {
+          "whitespace_words": 1436,
+          "lexical_tokens": 1437,
+          "negation_cues": 11,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 7.6548364648573415,
+          "number_cues_per_1000_lexical_tokens": 2.0876826722338206
+        },
+        "delta": {
+          "whitespace_words": -1,
+          "lexical_tokens": 0,
+          "negation_cues": -1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -0.6958942240779411,
+          "number_cues_per_1000_lexical_tokens": 0.0
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 1239,
+          "lexical_tokens": 1279,
+          "negation_cues": 11,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 8.600469116497264,
+          "number_cues_per_1000_lexical_tokens": 2.3455824863174355
+        },
+        "after": {
+          "whitespace_words": 1436,
+          "lexical_tokens": 1437,
+          "negation_cues": 11,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 7.6548364648573415,
+          "number_cues_per_1000_lexical_tokens": 2.0876826722338206
+        },
+        "delta": {
+          "whitespace_words": 197,
+          "lexical_tokens": 158,
+          "negation_cues": 0,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -0.9456326516399223,
+          "number_cues_per_1000_lexical_tokens": -0.25789981408361484
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.9782541680378412,
+        "semantic": 0.9750404947276056
+      },
+      "canonical_cosines": {
+        "lexical": 0.883023854336699,
+        "semantic": 0.9707259808080573
+      }
+    },
+    {
+      "source_id": "doc-2f6a4af6daaccfaea209",
+      "channel_id": "tracy-kumbera",
+      "title": "Your Spirit Guides Are Asking You To Choose! Drama or Commitment?",
+      "recording_id": "audio-sha256:a4a52bbd0276c94e2fa7a5119ee80eb1aa52664642d4e4cfd4e037ba9ccd0fa2",
+      "audio_sha256": "a4a52bbd0276c94e2fa7a5119ee80eb1aa52664642d4e4cfd4e037ba9ccd0fa2",
+      "publication_date": "2026-06-23T19:44:36+00:00",
+      "selected_edition_id": "publisher-rss:tracykumbera:rss:43fc596f7d23ba55:asr:tiny-en-v2",
+      "selected_body_sha256": "763a810e63d58be661d9e6cbf96b68e21a84e12982c5c21a6c2e491bbf12eb5f",
+      "selected_text_origin": "local_asr",
+      "old_asr_edition_id": "publisher-rss:tracykumbera:rss:43fc596f7d23ba55:asr:tiny-en-v2",
+      "old_asr_body_sha256": "763a810e63d58be661d9e6cbf96b68e21a84e12982c5c21a6c2e491bbf12eb5f",
+      "new_asr_edition_id": "parakeet-d60a22dfc42f80ed0eebb81e046b629a",
+      "new_asr_body_sha256": "4a2ee456481f079f15f9f5fb9763b0a9a6cb330dc9b6d720ef34f8ac0a4e5cd9",
+      "old_asr_artifact_sha256": "8c98e4d4b56ac55f7d841b33f4e39fe8feb77361fe23f3ce74dec65ef2e2c3f4",
+      "new_asr_artifact_sha256": "9d7c4650dcd8a9130aef099b6e490aeb7d5266625ec3f53753f51075a9c6b63d",
+      "old_asr_is_selected_canonical": true,
+      "canonical_comparison_type": "same_audio_ASR_edition_change",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 759,
+          "lexical_tokens": 764,
+          "negation_cues": 15,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 19.63350785340314,
+          "number_cues_per_1000_lexical_tokens": 3.926701570680628
+        },
+        "after": {
+          "whitespace_words": 759,
+          "lexical_tokens": 760,
+          "negation_cues": 14,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 18.42105263157895,
+          "number_cues_per_1000_lexical_tokens": 3.9473684210526314
+        },
+        "delta": {
+          "whitespace_words": 0,
+          "lexical_tokens": -4,
+          "negation_cues": -1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -1.212455221824193,
+          "number_cues_per_1000_lexical_tokens": 0.02066685037200333
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 759,
+          "lexical_tokens": 764,
+          "negation_cues": 15,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 19.63350785340314,
+          "number_cues_per_1000_lexical_tokens": 3.926701570680628
+        },
+        "after": {
+          "whitespace_words": 759,
+          "lexical_tokens": 760,
+          "negation_cues": 14,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 18.42105263157895,
+          "number_cues_per_1000_lexical_tokens": 3.9473684210526314
+        },
+        "delta": {
+          "whitespace_words": 0,
+          "lexical_tokens": -4,
+          "negation_cues": -1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": -1.212455221824193,
+          "number_cues_per_1000_lexical_tokens": 0.02066685037200333
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.9299942938968376,
+        "semantic": 0.9692296918215606
+      },
+      "canonical_cosines": {
+        "lexical": 0.9299942938968376,
+        "semantic": 0.9692296918215606
+      }
+    },
+    {
+      "source_id": "doc-ab7884d18579cdefaae2",
+      "channel_id": "multidimensional-soul",
+      "title": "Shiva Took Her to Parallel Realities | Soul Contracts, Healing Patterns & Past Lives | Natasha Rocha",
+      "recording_id": "audio-sha256:f257598c5254bbe286d1aef2d3d14fa59d0f51673213091373b7a48b84280197",
+      "audio_sha256": "f257598c5254bbe286d1aef2d3d14fa59d0f51673213091373b7a48b84280197",
+      "publication_date": "2026-10-08T19:23:30+05:00",
+      "selected_edition_id": "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+      "selected_body_sha256": "3f46dd2b791169420bedc33c2f538cf7fb8a419fcaec88093a8814677a595fa3",
+      "selected_text_origin": "local_asr",
+      "old_asr_edition_id": "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+      "old_asr_body_sha256": "3f46dd2b791169420bedc33c2f538cf7fb8a419fcaec88093a8814677a595fa3",
+      "new_asr_edition_id": "parakeet-0c3b48ed156366fa3f68a745c0ed9abc",
+      "new_asr_body_sha256": "8de77f9cd612a05f38435c4f45fa2719a9fd51c6945ad5be1874674fb60bc577",
+      "old_asr_artifact_sha256": "581cfdae3a9f6bbd4f25adb9d20eb8d7569591e77d297f3a29ab71911b3bcb24",
+      "new_asr_artifact_sha256": "7301cb734ac8a3c585b502eeae447172732a685b5cc344f5155d4f443275ee00",
+      "old_asr_is_selected_canonical": true,
+      "canonical_comparison_type": "same_audio_ASR_edition_change",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 5416,
+          "lexical_tokens": 5428,
+          "negation_cues": 41,
+          "number_word_cues": 25,
+          "digit_number_cues": 2,
+          "negation_per_1000_lexical_tokens": 7.553426676492262,
+          "number_cues_per_1000_lexical_tokens": 4.974207811348563
+        },
+        "after": {
+          "whitespace_words": 5476,
+          "lexical_tokens": 5492,
+          "negation_cues": 44,
+          "number_word_cues": 26,
+          "digit_number_cues": 1,
+          "negation_per_1000_lexical_tokens": 8.011653313911143,
+          "number_cues_per_1000_lexical_tokens": 4.916241806263656
+        },
+        "delta": {
+          "whitespace_words": 60,
+          "lexical_tokens": 64,
+          "negation_cues": 3,
+          "number_word_cues": 1,
+          "digit_number_cues": -1,
+          "negation_per_1000_lexical_tokens": 0.45822663741888103,
+          "number_cues_per_1000_lexical_tokens": -0.057966005084907124
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 5416,
+          "lexical_tokens": 5428,
+          "negation_cues": 41,
+          "number_word_cues": 25,
+          "digit_number_cues": 2,
+          "negation_per_1000_lexical_tokens": 7.553426676492262,
+          "number_cues_per_1000_lexical_tokens": 4.974207811348563
+        },
+        "after": {
+          "whitespace_words": 5476,
+          "lexical_tokens": 5492,
+          "negation_cues": 44,
+          "number_word_cues": 26,
+          "digit_number_cues": 1,
+          "negation_per_1000_lexical_tokens": 8.011653313911143,
+          "number_cues_per_1000_lexical_tokens": 4.916241806263656
+        },
+        "delta": {
+          "whitespace_words": 60,
+          "lexical_tokens": 64,
+          "negation_cues": 3,
+          "number_word_cues": 1,
+          "digit_number_cues": -1,
+          "negation_per_1000_lexical_tokens": 0.45822663741888103,
+          "number_cues_per_1000_lexical_tokens": -0.057966005084907124
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.9431384415253191,
+        "semantic": 0.9640035136944646
+      },
+      "canonical_cosines": {
+        "lexical": 0.943138441525319,
+        "semantic": 0.9640035136944646
+      }
+    },
+    {
+      "source_id": "doc-5cb7f6ff14a7c82f8eb8",
+      "channel_id": "bashar-official",
+      "title": "Bashar :: Dare to Dream - Highlights",
+      "recording_id": "audio-sha256:7fd486b1730d3f0666b075691c1a2d725f16d7152ebce0e1b70b5a7ce56ec7be",
+      "audio_sha256": "7fd486b1730d3f0666b075691c1a2d725f16d7152ebce0e1b70b5a7ce56ec7be",
+      "publication_date": null,
+      "selected_edition_id": "vimeo:243933136:local-asr:aa7ff7abe1106496",
+      "selected_body_sha256": "fbd76ca7df824e67b41ffc8a75b882fa3a88d651be2d4d9c7be4ba176e97d704",
+      "selected_text_origin": "local_asr",
+      "old_asr_edition_id": "vimeo:243933136:local-asr:aa7ff7abe1106496",
+      "old_asr_body_sha256": "fbd76ca7df824e67b41ffc8a75b882fa3a88d651be2d4d9c7be4ba176e97d704",
+      "new_asr_edition_id": "parakeet-112bdbd7d663fe2b92fa978b5a19dac7",
+      "new_asr_body_sha256": "3c7c089f397246fdf20c5735ae9d1e100dc8352a8c2d2e4cdb2527df79891143",
+      "old_asr_artifact_sha256": "afb1151b993d07536d49a343eb10a8e15e82498bc9f3a989defb61731e35f404",
+      "new_asr_artifact_sha256": "8d3d0702e909a5ef32f9da778f10bd98756746725e7cc03fc6e25cd7e5cd9f92",
+      "old_asr_is_selected_canonical": true,
+      "canonical_comparison_type": "same_audio_ASR_edition_change",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 543,
+          "lexical_tokens": 543,
+          "negation_cues": 20,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 36.83241252302026,
+          "number_cues_per_1000_lexical_tokens": 5.524861878453039
+        },
+        "after": {
+          "whitespace_words": 541,
+          "lexical_tokens": 541,
+          "negation_cues": 21,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 38.817005545286506,
+          "number_cues_per_1000_lexical_tokens": 5.545286506469501
+        },
+        "delta": {
+          "whitespace_words": -2,
+          "lexical_tokens": -2,
+          "negation_cues": 1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 1.984593022266246,
+          "number_cues_per_1000_lexical_tokens": 0.020424628016462165
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 543,
+          "lexical_tokens": 543,
+          "negation_cues": 20,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 36.83241252302026,
+          "number_cues_per_1000_lexical_tokens": 5.524861878453039
+        },
+        "after": {
+          "whitespace_words": 541,
+          "lexical_tokens": 541,
+          "negation_cues": 21,
+          "number_word_cues": 3,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 38.817005545286506,
+          "number_cues_per_1000_lexical_tokens": 5.545286506469501
+        },
+        "delta": {
+          "whitespace_words": -2,
+          "lexical_tokens": -2,
+          "negation_cues": 1,
+          "number_word_cues": 0,
+          "digit_number_cues": 0,
+          "negation_per_1000_lexical_tokens": 1.984593022266246,
+          "number_cues_per_1000_lexical_tokens": 0.020424628016462165
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.9695488900955316,
+        "semantic": 0.9660841317217942
+      },
+      "canonical_cosines": {
+        "lexical": 0.9695488900955314,
+        "semantic": 0.9660841317217942
+      }
+    },
+    {
+      "source_id": "doc-4eaf9f1336ce27b48d48",
+      "channel_id": "athina-krol",
+      "title": "Ashtar Live Channelling | The 3 Phases of Soul Purpose & Earth’s Dimensional Upgrades",
+      "recording_id": "audio-sha256:310c6d538a438cee6ba4372e337184e8b96c9d9de385779f9dbf68bc4dec76cf",
+      "audio_sha256": "310c6d538a438cee6ba4372e337184e8b96c9d9de385779f9dbf68bc4dec76cf",
+      "publication_date": "2023-02-06T12:29:30+11:00",
+      "selected_edition_id": "athina-ashtar-20230206-5d144c22",
+      "selected_body_sha256": "3f4aaf788f63a68e867a973fc3be44787868468dd2b2a4ea9d9c190007b24ece",
+      "selected_text_origin": "machine_asr",
+      "old_asr_edition_id": "athina-ashtar-20230206-5d144c22",
+      "old_asr_body_sha256": "3f4aaf788f63a68e867a973fc3be44787868468dd2b2a4ea9d9c190007b24ece",
+      "new_asr_edition_id": "parakeet-dcb21ff945b804b0476df3bd202f7fe0",
+      "new_asr_body_sha256": "77fdb2b61fe6bbcaa70aef116d5f94e2ac2f3cc7106c755938fc18ae64354fec",
+      "old_asr_artifact_sha256": "5eeb4c90838c9c55b38725264f71577052fd2ad9755f89409364effa1e06c805",
+      "new_asr_artifact_sha256": "84c81eaa66c01fed1f8c3ef47ac33a10bc91fedb5389fa23e7a491627990a6da",
+      "old_asr_is_selected_canonical": true,
+      "canonical_comparison_type": "same_audio_ASR_edition_change",
+      "same_audio_cue_change": {
+        "before": {
+          "whitespace_words": 3394,
+          "lexical_tokens": 3389,
+          "negation_cues": 23,
+          "number_word_cues": 33,
+          "digit_number_cues": 8,
+          "negation_per_1000_lexical_tokens": 6.786662732369431,
+          "number_cues_per_1000_lexical_tokens": 12.097964001180289
+        },
+        "after": {
+          "whitespace_words": 3420,
+          "lexical_tokens": 3419,
+          "negation_cues": 22,
+          "number_word_cues": 39,
+          "digit_number_cues": 4,
+          "negation_per_1000_lexical_tokens": 6.434630008774495,
+          "number_cues_per_1000_lexical_tokens": 12.576776835331968
+        },
+        "delta": {
+          "whitespace_words": 26,
+          "lexical_tokens": 30,
+          "negation_cues": -1,
+          "number_word_cues": 6,
+          "digit_number_cues": -4,
+          "negation_per_1000_lexical_tokens": -0.3520327235949354,
+          "number_cues_per_1000_lexical_tokens": 0.47881283415167886
+        }
+      },
+      "canonical_cue_change": {
+        "before": {
+          "whitespace_words": 3394,
+          "lexical_tokens": 3389,
+          "negation_cues": 23,
+          "number_word_cues": 33,
+          "digit_number_cues": 8,
+          "negation_per_1000_lexical_tokens": 6.786662732369431,
+          "number_cues_per_1000_lexical_tokens": 12.097964001180289
+        },
+        "after": {
+          "whitespace_words": 3420,
+          "lexical_tokens": 3419,
+          "negation_cues": 22,
+          "number_word_cues": 39,
+          "digit_number_cues": 4,
+          "negation_per_1000_lexical_tokens": 6.434630008774495,
+          "number_cues_per_1000_lexical_tokens": 12.576776835331968
+        },
+        "delta": {
+          "whitespace_words": 26,
+          "lexical_tokens": 30,
+          "negation_cues": -1,
+          "number_word_cues": 6,
+          "digit_number_cues": -4,
+          "negation_per_1000_lexical_tokens": -0.3520327235949354,
+          "number_cues_per_1000_lexical_tokens": 0.47881283415167886
+        }
+      },
+      "same_audio_cosines": {
+        "lexical": 0.94880088006853,
+        "semantic": 0.9795327075593867
+      },
+      "canonical_cosines": {
+        "lexical": 0.94880088006853,
+        "semantic": 0.9795327075593867
+      }
+    }
+  ],
+  "neighbors": {
+    "lexical": {
+      "k": 5,
+      "available_common_sources": 493,
+      "changed_sources": 9,
+      "mean_jaccard_changed_sources": 0.6613756613756614,
+      "mean_jaccard_all_sources": 0.9924659518980007,
+      "mean_jaccard_unchanged_sources": 0.9986225895316804,
+      "unchanged_sources_with_changed_neighbor_set": 2,
+      "rows": [
+        {
+          "source_id": "doc-fc7d9bd99fbcd4be1672",
+          "jaccard": 1.0,
+          "before": [
+            {
+              "source_id": "doc-55b2070abbedfc372379",
+              "cosine": 0.21121783554553986
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.18371830880641937
+            },
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.178794726729393
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.17649349570274353
+            },
+            {
+              "source_id": "doc-94024a1a8db1b2d2f62e",
+              "cosine": 0.16943317651748657
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-55b2070abbedfc372379",
+              "cosine": 0.21865332126617432
+            },
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.20314855873584747
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.20035789906978607
+            },
+            {
+              "source_id": "doc-94024a1a8db1b2d2f62e",
+              "cosine": 0.19836576282978058
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.17563281953334808
+            }
+          ]
+        },
+        {
+          "source_id": "doc-75564e2ab119641b6a01",
+          "jaccard": 1.0,
+          "before": [
+            {
+              "source_id": "doc-94024a1a8db1b2d2f62e",
+              "cosine": 0.1984604150056839
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.19471631944179535
+            },
+            {
+              "source_id": "doc-27c094919618b2ec885b",
+              "cosine": 0.186498761177063
+            },
+            {
+              "source_id": "doc-fc7d9bd99fbcd4be1672",
+              "cosine": 0.178794726729393
+            },
+            {
+              "source_id": "doc-55b2070abbedfc372379",
+              "cosine": 0.16804903745651245
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.2254645824432373
+            },
+            {
+              "source_id": "doc-94024a1a8db1b2d2f62e",
+              "cosine": 0.22200128436088562
+            },
+            {
+              "source_id": "doc-fc7d9bd99fbcd4be1672",
+              "cosine": 0.20314855873584747
+            },
+            {
+              "source_id": "doc-55b2070abbedfc372379",
+              "cosine": 0.16910876333713531
+            },
+            {
+              "source_id": "doc-27c094919618b2ec885b",
+              "cosine": 0.15664030611515045
+            }
+          ]
+        },
+        {
+          "source_id": "doc-1ea8241d5d809106ce98",
+          "jaccard": 0.6666666666666666,
+          "before": [
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.19471631944179535
+            },
+            {
+              "source_id": "doc-fc7d9bd99fbcd4be1672",
+              "cosine": 0.18371830880641937
+            },
+            {
+              "source_id": "doc-55b2070abbedfc372379",
+              "cosine": 0.1703396886587143
+            },
+            {
+              "source_id": "doc-94024a1a8db1b2d2f62e",
+              "cosine": 0.1544857919216156
+            },
+            {
+              "source_id": "doc-27c094919618b2ec885b",
+              "cosine": 0.1363237202167511
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.2254645824432373
+            },
+            {
+              "source_id": "doc-fc7d9bd99fbcd4be1672",
+              "cosine": 0.20035789906978607
+            },
+            {
+              "source_id": "doc-94024a1a8db1b2d2f62e",
+              "cosine": 0.1920059770345688
+            },
+            {
+              "source_id": "doc-55b2070abbedfc372379",
+              "cosine": 0.18103347718715668
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.12648724019527435
+            }
+          ]
+        },
+        {
+          "source_id": "doc-94024a1a8db1b2d2f62e",
+          "jaccard": 0.6666666666666666,
+          "before": [
+            {
+              "source_id": "doc-55b2070abbedfc372379",
+              "cosine": 0.21344242990016937
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.21298883855342865
+            },
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.1984604150056839
+            },
+            {
+              "source_id": "doc-fc7d9bd99fbcd4be1672",
+              "cosine": 0.16943317651748657
+            },
+            {
+              "source_id": "doc-a8c9531905a2c967850c",
+              "cosine": 0.16168645024299622
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.22200128436088562
+            },
+            {
+              "source_id": "doc-55b2070abbedfc372379",
+              "cosine": 0.20238550007343292
+            },
+            {
+              "source_id": "doc-fc7d9bd99fbcd4be1672",
+              "cosine": 0.19836576282978058
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.1920059770345688
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.19072473049163818
+            }
+          ]
+        },
+        {
+          "source_id": "doc-55b2070abbedfc372379",
+          "jaccard": 0.6666666666666666,
+          "before": [
+            {
+              "source_id": "doc-94024a1a8db1b2d2f62e",
+              "cosine": 0.21344242990016937
+            },
+            {
+              "source_id": "doc-fc7d9bd99fbcd4be1672",
+              "cosine": 0.21121783554553986
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.17478057742118835
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.1703396886587143
+            },
+            {
+              "source_id": "doc-a8c9531905a2c967850c",
+              "cosine": 0.16895093023777008
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-fc7d9bd99fbcd4be1672",
+              "cosine": 0.21865332126617432
+            },
+            {
+              "source_id": "doc-94024a1a8db1b2d2f62e",
+              "cosine": 0.20238550007343292
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.18103347718715668
+            },
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.16910876333713531
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.1524321436882019
+            }
+          ]
+        },
+        {
+          "source_id": "doc-2f6a4af6daaccfaea209",
+          "jaccard": 0.42857142857142855,
+          "before": [
+            {
+              "source_id": "doc-56d1e9e896896c56ed33",
+              "cosine": 0.15250808000564575
+            },
+            {
+              "source_id": "doc-374929ae044186fa556e",
+              "cosine": 0.15216779708862305
+            },
+            {
+              "source_id": "doc-4056e7fbab6b5aa15c56",
+              "cosine": 0.13927201926708221
+            },
+            {
+              "source_id": "doc-9c50290c658f4ff2e4b5",
+              "cosine": 0.13193024694919586
+            },
+            {
+              "source_id": "doc-b3753955817fa2394dc3",
+              "cosine": 0.1316443681716919
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-56d1e9e896896c56ed33",
+              "cosine": 0.1580841839313507
+            },
+            {
+              "source_id": "doc-4056e7fbab6b5aa15c56",
+              "cosine": 0.14432337880134583
+            },
+            {
+              "source_id": "doc-374929ae044186fa556e",
+              "cosine": 0.1350877434015274
+            },
+            {
+              "source_id": "doc-0a8c755bda0178155564",
+              "cosine": 0.13400903344154358
+            },
+            {
+              "source_id": "doc-c74116de33291e5a6a7d",
+              "cosine": 0.13376584649085999
+            }
+          ]
+        },
+        {
+          "source_id": "doc-ab7884d18579cdefaae2",
+          "jaccard": 0.6666666666666666,
+          "before": [
+            {
+              "source_id": "doc-10f521a4a2495b48989d",
+              "cosine": 0.33483755588531494
+            },
+            {
+              "source_id": "doc-6e9c6b6580b808a6b546",
+              "cosine": 0.23676875233650208
+            },
+            {
+              "source_id": "doc-81c93eeff92bf4ed9055",
+              "cosine": 0.2287284880876541
+            },
+            {
+              "source_id": "doc-91e441cc01ff3dff0494",
+              "cosine": 0.2220655083656311
+            },
+            {
+              "source_id": "doc-44c566b4464274975ccb",
+              "cosine": 0.22185060381889343
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-10f521a4a2495b48989d",
+              "cosine": 0.32654520869255066
+            },
+            {
+              "source_id": "doc-6e9c6b6580b808a6b546",
+              "cosine": 0.23092788457870483
+            },
+            {
+              "source_id": "doc-81c93eeff92bf4ed9055",
+              "cosine": 0.22389012575149536
+            },
+            {
+              "source_id": "doc-000d16b562af1d2c4c51",
+              "cosine": 0.2194524109363556
+            },
+            {
+              "source_id": "doc-44c566b4464274975ccb",
+              "cosine": 0.21732443571090698
+            }
+          ]
+        },
+        {
+          "source_id": "doc-5cb7f6ff14a7c82f8eb8",
+          "jaccard": 0.42857142857142855,
+          "before": [
+            {
+              "source_id": "doc-a85b91d6bbf6a69f107a",
+              "cosine": 0.13602495193481445
+            },
+            {
+              "source_id": "doc-b58fc24bd9c05128dce9",
+              "cosine": 0.13387064635753632
+            },
+            {
+              "source_id": "doc-5d05af83c5625aa1f9dc",
+              "cosine": 0.1275552660226822
+            },
+            {
+              "source_id": "doc-be29ba439fa1a17441b2",
+              "cosine": 0.1270807683467865
+            },
+            {
+              "source_id": "doc-450e13a48558b6ec4626",
+              "cosine": 0.12675325572490692
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-a85b91d6bbf6a69f107a",
+              "cosine": 0.13819848001003265
+            },
+            {
+              "source_id": "doc-be29ba439fa1a17441b2",
+              "cosine": 0.13656701147556305
+            },
+            {
+              "source_id": "doc-ca4dec11b5b125aa3cd5",
+              "cosine": 0.1314397007226944
+            },
+            {
+              "source_id": "doc-b58fc24bd9c05128dce9",
+              "cosine": 0.13140465319156647
+            },
+            {
+              "source_id": "doc-64c335a2253dcc27bdb2",
+              "cosine": 0.129810631275177
+            }
+          ]
+        },
+        {
+          "source_id": "doc-4eaf9f1336ce27b48d48",
+          "jaccard": 0.42857142857142855,
+          "before": [
+            {
+              "source_id": "doc-10f521a4a2495b48989d",
+              "cosine": 0.15986298024654388
+            },
+            {
+              "source_id": "doc-23e90c1865dc04e4a82c",
+              "cosine": 0.15945105254650116
+            },
+            {
+              "source_id": "doc-abdcbbe1e3d6bef1ddc5",
+              "cosine": 0.15895557403564453
+            },
+            {
+              "source_id": "doc-4f50c25b0cf630e8d245",
+              "cosine": 0.15766111016273499
+            },
+            {
+              "source_id": "doc-ad81af8a7aec003e99e2",
+              "cosine": 0.15412573516368866
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-23e90c1865dc04e4a82c",
+              "cosine": 0.1578626185655594
+            },
+            {
+              "source_id": "doc-d2f7efd6635dd16c0353",
+              "cosine": 0.1571616232395172
+            },
+            {
+              "source_id": "doc-4f50c25b0cf630e8d245",
+              "cosine": 0.1556314378976822
+            },
+            {
+              "source_id": "doc-ad81af8a7aec003e99e2",
+              "cosine": 0.1544124037027359
+            },
+            {
+              "source_id": "doc-35d3517dd8b34b85202b",
+              "cosine": 0.15406285226345062
+            }
+          ]
+        }
+      ],
+      "scope": "Nine selected source representations replaced simultaneously; all other representations and the common candidate universe remain fixed. Neighbor changes are descriptive, not independent statistical trials."
+    },
+    "semantic": {
+      "k": 5,
+      "available_common_sources": 493,
+      "changed_sources": 9,
+      "mean_jaccard_changed_sources": 0.5780423280423279,
+      "mean_jaccard_all_sources": 0.9848594610257896,
+      "mean_jaccard_unchanged_sources": 0.9924242424242425,
+      "unchanged_sources_with_changed_neighbor_set": 11,
+      "rows": [
+        {
+          "source_id": "doc-fc7d9bd99fbcd4be1672",
+          "jaccard": 0.42857142857142855,
+          "before": [
+            {
+              "source_id": "doc-0410c3db5088a6b52a31",
+              "cosine": 0.6705312132835388
+            },
+            {
+              "source_id": "doc-ab2807415948d900b816",
+              "cosine": 0.6683800220489502
+            },
+            {
+              "source_id": "doc-f9f64bc9cc8e01ff2491",
+              "cosine": 0.6387938261032104
+            },
+            {
+              "source_id": "doc-22ff2a0e4c049726336d",
+              "cosine": 0.6333848237991333
+            },
+            {
+              "source_id": "doc-c4e51aaa75bcef22d42e",
+              "cosine": 0.6333479285240173
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.7022314071655273
+            },
+            {
+              "source_id": "doc-ab2807415948d900b816",
+              "cosine": 0.6917884945869446
+            },
+            {
+              "source_id": "doc-c4e51aaa75bcef22d42e",
+              "cosine": 0.688363254070282
+            },
+            {
+              "source_id": "doc-0410c3db5088a6b52a31",
+              "cosine": 0.6874257922172546
+            },
+            {
+              "source_id": "doc-e90c7668b1742aab5dea",
+              "cosine": 0.6823607087135315
+            }
+          ]
+        },
+        {
+          "source_id": "doc-75564e2ab119641b6a01",
+          "jaccard": 0.42857142857142855,
+          "before": [
+            {
+              "source_id": "doc-39f14ef1b758acc83bcd",
+              "cosine": 0.7740635871887207
+            },
+            {
+              "source_id": "doc-2c0065a0fa8063c49de2",
+              "cosine": 0.7277905941009521
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.7227622270584106
+            },
+            {
+              "source_id": "doc-05a65b9267bfd817891c",
+              "cosine": 0.7207759618759155
+            },
+            {
+              "source_id": "doc-9be51042f7f77d8e0cb8",
+              "cosine": 0.7188590168952942
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-39f14ef1b758acc83bcd",
+              "cosine": 0.7579241394996643
+            },
+            {
+              "source_id": "doc-9be51042f7f77d8e0cb8",
+              "cosine": 0.738828718662262
+            },
+            {
+              "source_id": "doc-2c0065a0fa8063c49de2",
+              "cosine": 0.7379990220069885
+            },
+            {
+              "source_id": "doc-2757b1fc633b387809b7",
+              "cosine": 0.7330288290977478
+            },
+            {
+              "source_id": "doc-0596c09799feab2a1905",
+              "cosine": 0.7312105298042297
+            }
+          ]
+        },
+        {
+          "source_id": "doc-1ea8241d5d809106ce98",
+          "jaccard": 0.42857142857142855,
+          "before": [
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.8242631554603577
+            },
+            {
+              "source_id": "doc-d8ffa5c26fcb914c58db",
+              "cosine": 0.809928297996521
+            },
+            {
+              "source_id": "doc-f9f64bc9cc8e01ff2491",
+              "cosine": 0.8090773820877075
+            },
+            {
+              "source_id": "doc-e229f4732feb8d5cffe1",
+              "cosine": 0.8038730621337891
+            },
+            {
+              "source_id": "doc-289a8b37b64551bc60b8",
+              "cosine": 0.793563187122345
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-f9f64bc9cc8e01ff2491",
+              "cosine": 0.8274461030960083
+            },
+            {
+              "source_id": "doc-60edc6727833560d226f",
+              "cosine": 0.8264867663383484
+            },
+            {
+              "source_id": "doc-289a8b37b64551bc60b8",
+              "cosine": 0.817040741443634
+            },
+            {
+              "source_id": "doc-d8ffa5c26fcb914c58db",
+              "cosine": 0.8041712045669556
+            },
+            {
+              "source_id": "doc-7a3c62c8997969868fe9",
+              "cosine": 0.8035329580307007
+            }
+          ]
+        },
+        {
+          "source_id": "doc-94024a1a8db1b2d2f62e",
+          "jaccard": 0.6666666666666666,
+          "before": [
+            {
+              "source_id": "doc-a8c9531905a2c967850c",
+              "cosine": 0.6966927647590637
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.6931067705154419
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.6775502562522888
+            },
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.6583174467086792
+            },
+            {
+              "source_id": "doc-27e952144201810d7747",
+              "cosine": 0.6532860994338989
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.7112312912940979
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.6952514052391052
+            },
+            {
+              "source_id": "doc-75564e2ab119641b6a01",
+              "cosine": 0.6937764883041382
+            },
+            {
+              "source_id": "doc-a8c9531905a2c967850c",
+              "cosine": 0.6703488826751709
+            },
+            {
+              "source_id": "doc-574179aeaf96654ad1fe",
+              "cosine": 0.6658540964126587
+            }
+          ]
+        },
+        {
+          "source_id": "doc-55b2070abbedfc372379",
+          "jaccard": 1.0,
+          "before": [
+            {
+              "source_id": "doc-914d8a3f23298b0ef6f6",
+              "cosine": 0.7538514733314514
+            },
+            {
+              "source_id": "doc-37b70ba60161584041d3",
+              "cosine": 0.747951090335846
+            },
+            {
+              "source_id": "doc-0a7e15f0bc260f555da1",
+              "cosine": 0.7426032423973083
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.7377685904502869
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.7341863512992859
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-914d8a3f23298b0ef6f6",
+              "cosine": 0.7556865811347961
+            },
+            {
+              "source_id": "doc-37b70ba60161584041d3",
+              "cosine": 0.7452378869056702
+            },
+            {
+              "source_id": "doc-0a7e15f0bc260f555da1",
+              "cosine": 0.7375801205635071
+            },
+            {
+              "source_id": "doc-1ea8241d5d809106ce98",
+              "cosine": 0.7319009304046631
+            },
+            {
+              "source_id": "doc-1083ce76f718bc778692",
+              "cosine": 0.7291834354400635
+            }
+          ]
+        },
+        {
+          "source_id": "doc-2f6a4af6daaccfaea209",
+          "jaccard": 0.6666666666666666,
+          "before": [
+            {
+              "source_id": "doc-56d1e9e896896c56ed33",
+              "cosine": 0.8335893154144287
+            },
+            {
+              "source_id": "doc-f9f64bc9cc8e01ff2491",
+              "cosine": 0.8304334282875061
+            },
+            {
+              "source_id": "doc-42b47dc8f140ca69f200",
+              "cosine": 0.8286513090133667
+            },
+            {
+              "source_id": "doc-c2f5921162120ff348be",
+              "cosine": 0.8251211047172546
+            },
+            {
+              "source_id": "doc-b9a205970b0e801899b5",
+              "cosine": 0.8120977878570557
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-56d1e9e896896c56ed33",
+              "cosine": 0.8465789556503296
+            },
+            {
+              "source_id": "doc-42b47dc8f140ca69f200",
+              "cosine": 0.8311955332756042
+            },
+            {
+              "source_id": "doc-f9f64bc9cc8e01ff2491",
+              "cosine": 0.8291519284248352
+            },
+            {
+              "source_id": "doc-30f1569a452ac4bc2638",
+              "cosine": 0.8151865601539612
+            },
+            {
+              "source_id": "doc-c2f5921162120ff348be",
+              "cosine": 0.8144722580909729
+            }
+          ]
+        },
+        {
+          "source_id": "doc-ab7884d18579cdefaae2",
+          "jaccard": 0.25,
+          "before": [
+            {
+              "source_id": "doc-10f521a4a2495b48989d",
+              "cosine": 0.8378136157989502
+            },
+            {
+              "source_id": "doc-2766082ced66c4abbe2d",
+              "cosine": 0.823034405708313
+            },
+            {
+              "source_id": "doc-914d8a3f23298b0ef6f6",
+              "cosine": 0.814182460308075
+            },
+            {
+              "source_id": "doc-000d16b562af1d2c4c51",
+              "cosine": 0.806576669216156
+            },
+            {
+              "source_id": "doc-fc011ec00db4eb527966",
+              "cosine": 0.8044401407241821
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-10f521a4a2495b48989d",
+              "cosine": 0.877528727054596
+            },
+            {
+              "source_id": "doc-4e2caf50c8cd2fc195c9",
+              "cosine": 0.8344025015830994
+            },
+            {
+              "source_id": "doc-1d09a6cbc139985f0a94",
+              "cosine": 0.8326311111450195
+            },
+            {
+              "source_id": "doc-fc011ec00db4eb527966",
+              "cosine": 0.8279711604118347
+            },
+            {
+              "source_id": "doc-6fa89c0ffc1c5fbf1991",
+              "cosine": 0.824958086013794
+            }
+          ]
+        },
+        {
+          "source_id": "doc-5cb7f6ff14a7c82f8eb8",
+          "jaccard": 0.6666666666666666,
+          "before": [
+            {
+              "source_id": "doc-be29ba439fa1a17441b2",
+              "cosine": 0.7044770121574402
+            },
+            {
+              "source_id": "doc-323e3d5f8782004ce806",
+              "cosine": 0.6886101961135864
+            },
+            {
+              "source_id": "doc-a85b91d6bbf6a69f107a",
+              "cosine": 0.6767802834510803
+            },
+            {
+              "source_id": "doc-835be3993c38ec4d929a",
+              "cosine": 0.6692134737968445
+            },
+            {
+              "source_id": "doc-9ce72df2a698fe418b70",
+              "cosine": 0.6577308773994446
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-be29ba439fa1a17441b2",
+              "cosine": 0.6982384324073792
+            },
+            {
+              "source_id": "doc-323e3d5f8782004ce806",
+              "cosine": 0.6717003583908081
+            },
+            {
+              "source_id": "doc-a85b91d6bbf6a69f107a",
+              "cosine": 0.6687614321708679
+            },
+            {
+              "source_id": "doc-835be3993c38ec4d929a",
+              "cosine": 0.6564708948135376
+            },
+            {
+              "source_id": "doc-41628156a68aa07224d6",
+              "cosine": 0.64683997631073
+            }
+          ]
+        },
+        {
+          "source_id": "doc-4eaf9f1336ce27b48d48",
+          "jaccard": 0.6666666666666666,
+          "before": [
+            {
+              "source_id": "doc-35d3517dd8b34b85202b",
+              "cosine": 0.7825883626937866
+            },
+            {
+              "source_id": "doc-99bd01fde4938657a3ef",
+              "cosine": 0.7760295867919922
+            },
+            {
+              "source_id": "doc-6fa89c0ffc1c5fbf1991",
+              "cosine": 0.7671568989753723
+            },
+            {
+              "source_id": "doc-d8ffa5c26fcb914c58db",
+              "cosine": 0.7663599252700806
+            },
+            {
+              "source_id": "doc-91e441cc01ff3dff0494",
+              "cosine": 0.7597141861915588
+            }
+          ],
+          "after": [
+            {
+              "source_id": "doc-35d3517dd8b34b85202b",
+              "cosine": 0.7995889186859131
+            },
+            {
+              "source_id": "doc-6fa89c0ffc1c5fbf1991",
+              "cosine": 0.7897189259529114
+            },
+            {
+              "source_id": "doc-d8ffa5c26fcb914c58db",
+              "cosine": 0.780863881111145
+            },
+            {
+              "source_id": "doc-99bd01fde4938657a3ef",
+              "cosine": 0.7802526950836182
+            },
+            {
+              "source_id": "doc-9207a58ee278dcb7fa5d",
+              "cosine": 0.7780777812004089
+            }
+          ]
+        }
+      ],
+      "scope": "Nine selected source representations replaced simultaneously; all other representations and the common candidate universe remain fixed. Neighbor changes are descriptive, not independent statistical trials."
+    }
+  },
+  "methods": {
+    "selection": "Previously frozen nine full recordings: five retained OmNa audios plus shortest eligible official Bashar, Tracy, Multidimensional Soul and Athina recordings; not a random sample.",
+    "representations": "Frozen canonical TF-IDF vocabulary/IDF and masked full-body MiniLM weights/pooling. Only nine new texts and five unmatched old ASRs encoded; four old canonical vectors reused.",
+    "counterfactual": "One simultaneous replacement of the nine canonical representations; all other 484 vectors remain unchanged. This is a sensitivity calculation, not adoption of new editions.",
+    "same_audio_scope": "Old and new recognition editions from the exact same retained encoded audio; decoding/window/model settings differ. This does not isolate model architecture causally.",
+    "canonical_scope": "Five selected OmNa primary editions are publisher-written messages, not old ASRs; their comparison is explicitly confounded by text origin/editorial treatment.",
+    "negation_cues": "Casefolded lexical no/not/never/nor/cannot or token ending n't; surface cue counts, not resolved logical negation.",
+    "number_cues": "Digit sequences plus listed number/ordinal words; lexical counters, not checked factual claims. Rates use lexical-token denominator.",
+    "number_word_dictionary": [
+      "billion",
+      "eight",
+      "eighteen",
+      "eighth",
+      "eighty",
+      "eleven",
+      "fifteen",
+      "fifth",
+      "fifty",
+      "first",
+      "five",
+      "forty",
+      "four",
+      "fourteen",
+      "fourth",
+      "hundred",
+      "million",
+      "nine",
+      "nineteen",
+      "ninety",
+      "ninth",
+      "one",
+      "second",
+      "seven",
+      "seventeen",
+      "seventh",
+      "seventy",
+      "six",
+      "sixteen",
+      "sixth",
+      "sixty",
+      "ten",
+      "tenth",
+      "third",
+      "thirteen",
+      "thirty",
+      "thousand",
+      "three",
+      "trillion",
+      "twelve",
+      "twenty",
+      "two",
+      "zero"
+    ],
+    "top_k": 5,
+    "tie_break": "Descending cosine, then stable canonical source ID"
+  },
+  "performance": {
+    "encoded_texts": 14,
+    "encoder_chunks": 112,
+    "encoding_seconds": 6.855559865012765,
+    "total_seconds": 8.804080520989373,
+    "cpu_threads": 1
+  },
+  "limitations": [
+    "No listening reference, WER, human accuracy measurement or correctness ranking is available.",
+    "Similarity and stable neighbors do not imply identical answers, preserved qualifiers, truth, or verified entity identities.",
+    "Negation and number cue differences can reflect recognition, wording, editing, punctuation or scope; no automatic semantic judgment follows.",
+    "The small purposive set and dependent neighbors do not support population-level accuracy claims or significance tests.",
+    "Old evidence cards and locators remain bound to their original editions. No card, claim or interpretation is automatically transferred."
+  ],
+  "figures": [
+    {
+      "file": "asr-edition-sensitivity.svg",
+      "sha256": "df388d77bab3eb2eac4e6ea2c7facdc50bbb9302c9477a2decf8763395861a32",
+      "bytes": 100763
+    }
+  ]
+}

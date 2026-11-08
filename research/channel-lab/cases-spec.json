@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "status": "source_read_case_specification",
+  "cases": [
+    {
+      "case_id": "practice-action",
+      "title": "Contemplation, skill and action",
+      "question_kind": "analyst_comparison",
+      "question": "What does a person do in the selected teachings, and what conditions belong to that practice?",
+      "relation": "different_focus",
+      "reading": "The selected Ra exchange proposes seeking love and recognizing the Creator in people, self and surroundings, grounded in meditation, contemplation or prayer. The Bashar excerpt presents a five-part project sequence: passion, project, preparedness, people and persistence. Both address personal orientation, but their practical sequences differ.",
+      "conditions": "Ra 10.14 is an explicit printed request for general practices; the Bashar highlight combines an introductory teaching with a later conversational example. Its preparation and collaboration conditions must remain attached to action on passion.",
+      "counter_reading": "Contemplation need not exclude action, and action on a project need not reject contemplation. These passages cannot rank either tradition as more active or passive overall.",
+      "limitations": "No shared audience question, behavioral outcome, therapeutic benefit or authenticated speaker is established. A685-word promotional excerpt cannot stand in for its complete paid session.",
+      "qualitative_theme_keys": [
+        "practices",
+        "agency",
+        "source_genre"
+      ],
+      "evidence_ids": [
+        "new:ra10.14",
+        "new:vimeo204086275:full"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "ra:session:010:lightly-edited",
+          "actor": "Printed Ra response",
+          "proposition": "Seek love in the moment and recognize the Creator through contemplative exercises.",
+          "conditions": "A disposition toward meditation, contemplation or prayer is described as foundational.",
+          "time_scope": "General exercise; no dated forecast",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "vimeo:204086275:local-asr:3d7a4cbea6dbb320",
+          "actor": "Unknown ASR voice in official Bashar excerpt",
+          "proposition": "Develop and persist with an exciting project through skills and collaboration.",
+          "conditions": "The project and way of doing it should fit the person’s passion; preparedness and people are part of the sequence.",
+          "time_scope": "General project example",
+          "source_genre": "Official short highlight, machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "fear-desire",
+      "title": "Acceptance of desire and belief-based fear",
+      "question_kind": "analyst_comparison",
+      "question": "Are acceptance of difficult experience and changing fear-related beliefs the same instruction?",
+      "relation": "different_focus",
+      "reading": "Ra 18.5 recommends understanding and accepting desires rather than suppression, while distinguishing imagined exploration from actions that violate its free-will framing. The Bashar excerpt explains fear through negative beliefs and proposes changing one’s relationship to perceived emotional frequencies. Both invite self-examination, but desire, fear and empathy are different constructs.",
+      "conditions": "The Ra passage explicitly constrains physical enactment of some desires. The Bashar example concerns a question about empathic feeling; its frequency language and claim of a physical mechanism are source claims.",
+      "counter_reading": "A shared introspective vocabulary can conceal distinct practices and different assumptions about why distress occurs. Acceptance does not mean endorsing every impulse, and this excerpt does not establish that all fear has one cause.",
+      "limitations": "No clinical efficacy or physical frequency mechanism is measured. The ASR’s alternating questions and replies do not independently identify speakers.",
+      "qualitative_theme_keys": [
+        "fear",
+        "agency",
+        "epistemic_limits"
+      ],
+      "evidence_ids": [
+        "new:ra18.5",
+        "new:vimeo457106172:full"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "ra:session:018:lightly-edited",
+          "actor": "Printed Ra response",
+          "proposition": "Understand and accept experience and desire instead of trying to erase them.",
+          "conditions": "Some desires should be explored in imagination instead of physically enacted, within the source’s free-will rule.",
+          "time_scope": "General developmental guidance",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "vimeo:457106172:local-asr:af2b6777a79b080a",
+          "actor": "Unknown ASR voices in official Bashar excerpt",
+          "proposition": "Fear is attributed to self-perpetuating beliefs, with emotional matching framed as something a person can change.",
+          "conditions": "An empathy-related exchange is the local example; the claimed mechanism is not independently tested.",
+          "time_scope": "General explanatory claim",
+          "source_genre": "Official highlight, machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "time-reference",
+      "title": "Future-relative higher self and a single-moment account",
+      "question_kind": "analyst_comparison",
+      "question": "Do the selected uses of simultaneous time state the same cosmology?",
+      "relation": "unresolved",
+      "reading": "Ra 36.4–36.6 qualifies the questioner’s simultaneity premise and describes a higher self as future-relative from human space/time. The Bashar excerpt’s opening treats time as changing viewpoints on one moment, then turns to guidance, relevance and acting on passion. Broadly similar vocabulary does not establish equivalent reference frames or taxonomies.",
+      "conditions": "The Ra answer explicitly changes perspective between an all-at-once account and human space/time. The Bashar practical passage limits fulfillment to what it calls relevant needs and includes action language despite its surrender metaphor.",
+      "counter_reading": "Reading only a sentence about the future or the present could manufacture a contradiction. The sources may be using different reference frames, but the passages do not supply a common formal model that resolves equivalence.",
+      "limitations": "These are attributed metaphysical accounts, not measured time travel or physics. Three contiguous complete Ra exchanges were read to retain the qualification.",
+      "qualitative_theme_keys": [
+        "time",
+        "worldview",
+        "epistemic_limits"
+      ],
+      "evidence_ids": [
+        "new:ra36.4",
+        "new:ra36.5",
+        "new:ra36.6",
+        "new:vimeo278735645:full"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "ra:session:036:lightly-edited",
+          "actor": "Printed Ra response",
+          "proposition": "The higher self is described as future-relative from human space/time; a simplistic simultaneity interpretation is qualified.",
+          "conditions": "The standpoint is explicitly specified in 36.6 and surrounding exchanges reject an unqualified equivalence.",
+          "time_scope": "Human-relative future versus broader metaphysical frame",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "vimeo:278735645:local-asr:9349ac52a9fe2178",
+          "actor": "Unknown ASR voices in official Bashar excerpt",
+          "proposition": "Time is described as successive viewpoints on one moment; a higher mind supposedly guides relevant experience through passion.",
+          "conditions": "Relevant needs and following guidance are conditions in the subsequent practical example.",
+          "time_scope": "General account of time, not a date-specific prediction",
+          "source_genre": "Official highlight, machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "council-definition",
+      "title": "A proposed council is not every council",
+      "question_kind": "analyst_comparison",
+      "question": "When the sources use council, are they identifying one organization or different referents?",
+      "relation": "unresolved",
+      "reading": "The Daniel Scranton written message distinguishes its nonphysical ninth-dimensional narrator from a proposed fourth-dimensional council that would meet astrally before physically. The Tracy recording describes Council of Contact as a loose, fluid label for higher incarnational beings. The shared noun is insufficient to identify the same council.",
+      "conditions": "Daniel’s narrator says it would not sit physically on the proposed council and gives no timeframe for physical convening. Tracy’s naming account explicitly allows flexible labels; its separate contact discussion distinguishes isolated appearances from public leadership appearances.",
+      "counter_reading": "Similar names could support a useful comparison question, but treating them as one entity would erase the sources’ own distinctions between narrator, proposed organization and fluid collective.",
+      "limitations": "The old canonical Tracy ASR remains primary. Separate newly inspected Parakeet windows are disclosed as additional editions, not silently substituted source text. No council’s existence or membership is verified.",
+      "qualitative_theme_keys": [
+        "contact",
+        "council_identity",
+        "source_attribution"
+      ],
+      "evidence_ids": [
+        "old:c-timing-daniel:1",
+        "old:c-identity-daniel:1",
+        "old:c-identity-daniel:2",
+        "old:c-identity-fluid:1",
+        "old:c-timing-contact:1",
+        "old:c-timing-contact:2"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "galactic-daniel-20190327",
+          "actor": "Printed ninth-dimensional Arcturian narrator via Daniel Scranton",
+          "proposition": "A separate fourth-dimensional council is proposed, first astral then physical.",
+          "conditions": "The narrator is explicitly not a physical member and declines a date for the physical gathering.",
+          "time_scope": "Published2019 message; no physical-meeting timeframe supplied",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "council-contact-tracy-4818c71bd66ea72a",
+          "actor": "Unknown ASR speaker in Tracy Kumbera context",
+          "proposition": "Council of Contact is described as a fluid collective with a flexible human label.",
+          "conditions": "Named collective and claimed contact stages need not be a fixed membership organization.",
+          "time_scope": "Relative-year contact language; utterance/event dates not verified",
+          "source_genre": "Canonical baseline machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "council-timing",
+      "title": "Conditional language is not a calibrated probability",
+      "question_kind": "analyst_comparison",
+      "question": "How should conditional future statements be preserved when comparing these recordings?",
+      "relation": "unresolved",
+      "reading": "The Tracy opening defines the contact under discussion as visibly physical encounters and uses relative-year possibilities. The Pamela interview allows changing timelines but also makes specific election expectations, including repeated choices and possible election-day disruption. Conditional framing should be retained without erasing concrete assertions.",
+      "conditions": "The passages concern different events, audiences and publication contexts. The Pamela claims belong to a mixed interview; no diarization proves which utterance belongs to a purported council. A later portion of that interview explicitly changes to a different claimed speaker.",
+      "counter_reading": "Neither a confident date nor a conditional disclaimer alone provides a calibrated probability. Similar future-oriented language is not a shared prediction or a contradiction; an outcome audit would need frozen event criteria and exact dates.",
+      "limitations": "No forecast success/failure scoring or future safety advice is supplied. Baseline and Parakeet editions are separate; newly recognized wording is not inherited by old cards.",
+      "qualitative_theme_keys": [
+        "time",
+        "contact",
+        "predictions",
+        "source_attribution"
+      ],
+      "evidence_ids": [
+        "old:c-contact-physical:1",
+        "old:c-contact-physical:2",
+        "old:c-timing-pamela:1",
+        "old:c-timing-pamela:2",
+        "old:c-identity-pamela:1",
+        "old:c-identity-pamela:2"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "council-contact-tracy-548134ce5946a24d",
+          "actor": "Unknown ASR voice in Tracy Kumbera context",
+          "proposition": "Physical encounters are presented as possibly occurring in the current or following relative year.",
+          "conditions": "Physical landing/approach is distinguished from inward perception or guides.",
+          "time_scope": "Relative-year wording; no event-date verification",
+          "source_genre": "Canonical baseline machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "actor": "Unknown/mixed voices in Pamela Aaralyn interview context",
+          "proposition": "Changing timelines coexist with concrete expectations about election choices and disruption.",
+          "conditions": "The source explicitly denies that the future is fixed; this does not remove its specific expectations.",
+          "time_scope": "US election discussion in its publication context, not the same event as physical contact",
+          "source_genre": "Canonical mixed-interview machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "mary-support",
+      "title": "Two Mother Mary labels, two trust referents",
+      "question_kind": "analyst_comparison",
+      "question": "Does advice about trust conflict with advice about personal boundaries?",
+      "relation": "conditional_tension",
+      "reading": "The Natalie Glasson Mother Mary message frames distrust of the Universe or Creator’s support as disconnection from inner love. Pamela Kribbe’s Mother Mary message addresses highly sensitive people losing themselves in draining relationships and allows clearer boundaries or leaving. The immediate referents differ.",
+      "conditions": "A tension appears only if the first message is extended to mean unconditional interpersonal trust. That extension is not the proposition directly stated in the inspected passage.",
+      "counter_reading": "Trust in a metaphysical source and caution in a relationship can coexist. Calling the pair an explicit contradiction would silently substitute one referent for another.",
+      "limitations": "The repeated printed name is not evidence of a common external speaker. Neither text’s psychological or spiritual effects are validated here.",
+      "qualitative_theme_keys": [
+        "boundaries",
+        "care",
+        "source_attribution"
+      ],
+      "evidence_ids": [
+        "old:c-care-mary-trust:1",
+        "old:c-care-mary-boundaries:1",
+        "old:c-care-mary-boundaries:2",
+        "old:c-care-mary-boundaries:3"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "tr-source-omna-mary",
+          "actor": "Publisher-attributed Mother Mary via Natalie Glasson",
+          "proposition": "Reconnect with inner love to restore trust in the Universe or Creator.",
+          "conditions": "The stated referent is metaphysical support, not a named interpersonal relationship.",
+          "time_scope": "General practice",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "tr-source-jeshua-mary-full",
+          "actor": "Publisher-attributed Mother Mary via Pamela Kribbe",
+          "proposition": "Protect an inner-child sense of self and assess boundaries in draining situations.",
+          "conditions": "Clearer expression or leaving is presented as situationally appropriate, not universally required.",
+          "time_scope": "Everyday relationship example",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "magdalene-change",
+      "title": "Grace and shadow are different practice frames",
+      "question_kind": "analyst_comparison",
+      "question": "How do the same-name messages frame personal transformation?",
+      "relation": "different_focus",
+      "reading": "The Natalie Glasson Mary Magdalene passage offers a voluntary grace-embrace initiation and claims that acceptance changes one’s relationship with experience. Pamela Kribbe’s Mary Magdalene passage recommends conscious engagement with emotional shadow and desire, while acknowledging that unbalanced energies can be manipulative. Both discuss transformation, with distinct practical frames.",
+      "conditions": "The first is an optional named initiation; the second pairs acceptance with awareness and does not endorse every impulse. Healing language remains a source claim.",
+      "counter_reading": "A common label and acceptance vocabulary do not make the practices identical. Conversely, different imagery does not prove that the scoped practices conflict.",
+      "limitations": "These two deliberately selected messages cannot establish the prevalence of either theme across a medium’s output or the identity of an attributed speaker.",
+      "qualitative_theme_keys": [
+        "transformation",
+        "care",
+        "practices"
+      ],
+      "evidence_ids": [
+        "old:c-change-grace:1",
+        "old:c-change-grace:2",
+        "old:c-change-shadow:1",
+        "old:c-change-shadow:2",
+        "old:c-change-shadow:3"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "tr-source-omna-magdalene",
+          "actor": "Publisher-attributed Mary Magdalene via Natalie Glasson",
+          "proposition": "Use a voluntarily requested grace-embrace initiation to transform relationship and perception.",
+          "conditions": "The practice is described as chosen; metaphysical/healing effects are asserted, not measured.",
+          "time_scope": "General initiation/practice",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "tr-source-jeshua-magdalene-full",
+          "actor": "Publisher-attributed Mary Magdalene via Pamela Kribbe",
+          "proposition": "Acknowledge emotional shadow and desire through awareness rather than suppression.",
+          "conditions": "The source also acknowledges dominating or manipulative possibilities; acceptance is not blanket approval.",
+          "time_scope": "General integration practice",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "mediation-optional",
+      "title": "Optional invocation and direct access",
+      "question_kind": "analyst_comparison",
+      "question": "Does an offered invocation require a hierarchy that the other passage rejects?",
+      "relation": "compatible",
+      "reading": "The Andromedan passage offers an optional meditation with the named beings and explicitly permits the exercise with any being or the Creator. The Jeshua passage says connection with the One does not require a hierarchy and treats teachers or channeling as possible tools. Under those stated conditions, the propositions can coexist.",
+      "conditions": "Compatibility depends on preserving optionality and the distinction between a tool and an indispensable authority.",
+      "counter_reading": "If a later source made the invocation mandatory or exclusive, this comparison would need revision. These two passages do not establish that broader claim.",
+      "limitations": "Compatibility is a narrow source-reading relation, not equal meaning, shared identity or efficacy of invocation.",
+      "qualitative_theme_keys": [
+        "mediation",
+        "practices",
+        "agency"
+      ],
+      "evidence_ids": [
+        "old:c-mediation-andromedan:1",
+        "old:c-mediation-andromedan:2",
+        "old:c-mediation-jeshua:1",
+        "old:c-mediation-jeshua:2"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "tr-source-omna-andromedans",
+          "actor": "Publisher-attributed Andromedans via Natalie Glasson",
+          "proposition": "An invocation is offered as an optional way to experience oneness.",
+          "conditions": "The text permits other beings or the Creator; the named group is not exclusive.",
+          "time_scope": "Voluntary practice",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "tr-source-jeshua-mornings-one-many",
+          "actor": "Publisher-attributed Jeshua via Pamela Kribbe",
+          "proposition": "Direct connection to the One requires no spiritual hierarchy.",
+          "conditions": "Teachers, guides and forms can be tools rather than the source of the connection.",
+          "time_scope": "General spiritual account",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "michael-awareness",
+      "title": "Attention during change and contemplative recognition",
+      "question_kind": "analyst_comparison",
+      "question": "What common practical element survives different religious or cosmological language?",
+      "relation": "shared_proposition",
+      "reading": "The Michael message directs attention inward toward a supposedly stable core during rapid change, beginning with awareness of body and surroundings and breathing. Ra 10.14 proposes deliberate awareness of love and recognition of the Creator, with a contemplative foundation. A narrow common element is the recommendation to direct attention deliberately rather than merely react.",
+      "conditions": "The objects and claimed reasons for attention differ: an unwavering inner core in one text and love/Creator recognition in the other. The comparison does not merge those ontologies.",
+      "counter_reading": "Attention is a broad practice shared by many traditions. This parallel is too general to infer influence, common authorship or a shared source.",
+      "limitations": "The Michael body was read completely; only the selected Ra exchange was read for this comparison. No meditation outcome or religious truth claim is tested.",
+      "qualitative_theme_keys": [
+        "practices",
+        "attention",
+        "worldview"
+      ],
+      "evidence_ids": [
+        "new:omna-michael:full",
+        "new:ra10.14"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "tr-source-omna-michael",
+          "actor": "Publisher-attributed Archangel Michael via Natalie Glasson",
+          "proposition": "During change, attend to an inner anchor through awareness and breathing.",
+          "conditions": "The passage frames this as access to an eternal inner energy; that premise is unverified.",
+          "time_scope": "General response to perceived accelerated change",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "ra:session:010:lightly-edited",
+          "actor": "Printed Ra response",
+          "proposition": "Practice deliberate recognition of love and the Creator.",
+          "conditions": "Meditation, contemplation or prayer is the stated foundation.",
+          "time_scope": "General exercise",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "reception-genre",
+      "title": "A topic mention can be commentary rather than endorsement",
+      "question_kind": "analyst_comparison",
+      "question": "Why should skeptical reception and official highlights remain different source contexts?",
+      "relation": "different_focus",
+      "reading": "The retained Ross and Carrie window recounts an interview and channeling performance, including a joke about a non-specific prediction. The official Open Contact highlight opens with disclosure framing but devotes most of its retained text to life lessons, free choice and a soul-school analogy. A shared Bashar/contact label conceals different genres and local content.",
+      "conditions": "The commentary is a second-hand reception account with unknown individual ASR voices. The official highlight is an edited publication with automatic captions; its title is not a full semantic description of every passage.",
+      "counter_reading": "Skeptical mention does not imply endorsement, while an official label does not authenticate a speaker or establish that all content concerns contact. Neither source should be reduced to title keywords.",
+      "limitations": "Only one fixed commentary window and one complete short highlight were inspected. This does not classify all remarks by either publisher or score a historical prediction.",
+      "qualitative_theme_keys": [
+        "source_genre",
+        "contact",
+        "epistemic_limits"
+      ],
+      "evidence_ids": [
+        "new:skeptical-midpoint",
+        "new:vimeo1232083694:full"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "rss-425328515-addbc47ecbd7",
+          "actor": "Unknown ASR commentators in Ross and Carrie reception context",
+          "proposition": "A reported performance and question sequence are discussed with humor and skepticism.",
+          "conditions": "This is a report about a claimed channeling event, not a verified entity answer.",
+          "time_scope": "Recounted past encounter",
+          "source_genre": "Skeptical commentary machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "vimeo:1232083694:captions:en-x-autogen",
+          "actor": "Unknown captioned voices in official Bashar highlight",
+          "proposition": "An introduction frames contact progress, followed by discussion of lessons, choice and a soul-school analogy.",
+          "conditions": "A selected highlight is neither a full session nor a title-only topic classification.",
+          "time_scope": "General life-course account within a contact-titled publication",
+          "source_genre": "Official short highlight with automatic captions",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "preparedness",
+      "title": "Skills, collaborators and community",
+      "question_kind": "analyst_comparison",
+      "question": "What limited practical overlap exists between these preparedness passages?",
+      "relation": "shared_proposition",
+      "reading": "The Lyssa/Sasha excerpt recommends developing tangible skills and explicitly distinguishes community sharing from isolated hoarding. The Bashar Passion Principle excerpt includes learning relevant skills and collaborating with excited people before persistence. The limited shared proposition is that preparation can include skills and cooperative action.",
+      "conditions": "Lyssa’s source also contains economic and investment assertions presented as suggestions and individual choices; those are separate from the narrow skills/community overlap. The Bashar example concerns a project or career.",
+      "counter_reading": "Skills and cooperation are commonplace advice. They neither establish a shared channeled civilization nor validate the surrounding financial or metaphysical claims.",
+      "limitations": "This comparison is not investment advice, an outcome study, or a claim that both sources answered the same documentary audience question.",
+      "qualitative_theme_keys": [
+        "preparedness",
+        "agency",
+        "community"
+      ],
+      "evidence_ids": [
+        "old:c-agency-lyssa:1",
+        "old:c-agency-lyssa:2",
+        "old:c-agency-lyssa:3",
+        "new:vimeo204086275:full"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "new-et-lyssa-preparedness-138",
+          "actor": "Publisher-attributed Sasha via Lyssa Royal Holt",
+          "proposition": "Develop skills/resources and participate in voluntary sharing rather than isolated hoarding.",
+          "conditions": "Suggestions retain individual choice; specific investment claims are not established evidence of financial safety.",
+          "time_scope": "Preparedness during the source’s described instability",
+          "source_genre": "Publisher-written question/response excerpt",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "vimeo:204086275:local-asr:3d7a4cbea6dbb320",
+          "actor": "Unknown ASR voice in official Bashar excerpt",
+          "proposition": "Acquire project-relevant skills and collaborate before persistent action.",
+          "conditions": "Preparations are tied to a project that fits the stated passion criterion.",
+          "time_scope": "General project example",
+          "source_genre": "Official highlight machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    },
+    {
+      "case_id": "answer-limits",
+      "title": "A refusal, a reframed question and a correction",
+      "question_kind": "analyst_comparison",
+      "question": "When does a printed question fail to establish an affirmative answer to its premise?",
+      "relation": "different_focus",
+      "reading": "Ra 68.9 declines an individualized density question under its first-distortion rule;68.10 answers a reframed generic hypothetical. Ra 77.15 explicitly rejects the questioner’s description before distinguishing kinds of intensity. These exchanges illustrate why prompt vocabulary cannot be treated as an endorsed answer.",
+      "conditions": "The shift from a particular person to a generic hypothetical matters. The77.15 qualification depends on the source’s interpretation of the question, and the corrected density comparison is not the same proposition as the refused 68.9 question.",
+      "counter_reading": "A refusal is not evidence of either agreement or disagreement with an unstated answer. A later hypothetical answer does not automatically license the originally refused personal inference.",
+      "limitations": "This is a documentary dialogue control, not validation of density categories or an explicit contradiction between two sources. Additional nearby Ra 68 exchanges were inspected and remain in the reading denominator.",
+      "qualitative_theme_keys": [
+        "epistemic_limits",
+        "question_structure",
+        "source_attribution"
+      ],
+      "evidence_ids": [
+        "new:ra68.9",
+        "new:ra68.10",
+        "new:ra77.15"
+      ],
+      "statements": [
+        {
+          "legacy_source_id": "ra:session:068:lightly-edited",
+          "actor": "Printed Ra response",
+          "proposition": "An individualized answer is refused; a generic reformulation receives a different response.",
+          "conditions": "The referent and permitted scope change between 68.9 and 68.10.",
+          "time_scope": "Local adjacent exchange sequence",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        },
+        {
+          "legacy_source_id": "ra:session:077:lightly-edited",
+          "actor": "Printed Ra response",
+          "proposition": "A questioner’s intensity premise is explicitly corrected.",
+          "conditions": "The reply distinguishes developmental stages rather than endorsing the premise.",
+          "time_scope": "Local exchange 77.15",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome"
+        }
+      ]
+    }
+  ],
+  "failed_candidates": [],
+  "channel_notes": {
+    "ra-law-of-one": {
+      "summary": "Selected printed exchanges distinguish contemplation, acceptance with free-will qualifications, perspective-dependent time language, refusals and corrections. Documentary roles are useful but do not verify the purported speaker.",
+      "conditions": "The inspected exchanges are a purposeful subset of the Lightly Edited edition, not a complete reading of 106 sessions. Personal and generic hypothetical questions can receive different responses."
+    },
+    "bashar-official": {
+      "summary": "Four short official excerpt texts were inspected: project preparation and collaboration, belief-based fear explanations, time/guidance language, and a contact-titled highlight dominated by life-lesson discussion.",
+      "conditions": "Three are local machine transcripts and one has automatic captions. Short highlights are not complete paid sessions; a duplicate Passion Principle body contributes once."
+    },
+    "daniel-scranton": {
+      "summary": "The inspected 2019 message separates its ninth-dimensional narrator from a proposed council with astral then physical meetings.",
+      "conditions": "No physical-convening timeframe is supplied in the selected passage. This one message cannot define all of Scranton’s attributed councils."
+    },
+    "natalie-glasson-omna": {
+      "summary": "Selected publisher messages offer optional invocation, inner-love trust, grace-embrace transformation and awareness during change. Each named attribution retains its own scope.",
+      "conditions": "Three messages are represented by bounded support spans and the Michael body is read completely; broad metaphysical/healing effects remain untested claims."
+    },
+    "pamela-rose-kribbe": {
+      "summary": "Selected written messages emphasize boundaries in draining relationships, conscious engagement with shadow and nonhierarchical access to the One.",
+      "conditions": "These are source-bound paraphrases, not a complete account of Kribbe’s work. Repeated Mary/Magdalene names do not prove identity across mediums."
+    },
+    "lyssa-royal-holt": {
+      "summary": "The preparedness excerpt links skills and self-responsibility with voluntary community sharing, alongside economic suggestions.",
+      "conditions": "The financial assertions are not validated or adopted as advice. Only inspected response passages are counted in this pass; historical full-excerpt reading is not added."
+    },
+    "guest-inspire-nation-show-with-michael-sandler": {
+      "summary": "The inspected Pamela Aaralyn interview passages mix future-timeline qualifications, concrete election expectations, a Council of 9 description and a later transition to another claimed speaker.",
+      "conditions": "Publisher/interview context differs from a verified medium-only session. Canonical baseline ASR and separately inspected Parakeet windows are distinct editions; no speaker diarization or forecast scoring is established."
+    },
+    "guest-oh-no-ross-and-carrie": {
+      "summary": "One fixed midpoint reception window discusses a channeling performance and a joke about a non-specific prediction.",
+      "conditions": "Mention and humor are not endorsement. Unknown individual ASR voices and second-hand narration prevent treating this as a channeled response."
+    },
+    "tracy-kumbera": {
+      "summary": "Selected Council passages define a physical-contact subtype, distinguish stages and timing, and describe council naming as fluid.",
+      "conditions": "Canonical baseline ASR is primary; separately read Parakeet windows do not replace its supports. Relative-year claims, filters and resonance language do not establish calibrated probabilities or events."
+    }
+  },
+  "limitations": [
+    "Twelve cases were purposefully selected before new ranking inspection; they illustrate interpretation and failure modes, not prevalence or a contradiction benchmark.",
+    "All comparison questions are analyst-authored. Actual printed Ra question IDs and inherited knowledge-bank question links are separately labeled.",
+    "No human annotation validation, acoustic listening, diarization, entity authentication, clinical/financial efficacy or forecast outcome evaluation was performed.",
+    "Canonical body hashes are checked; additional Parakeet reading is an alternative-edition inspection and excluded from primary-case and primary-word counts.",
+    "Repeated sources make the comparisons dependent. Zero explicit contradictions in this set would not establish their absence from the wider corpus.",
+    "Unreviewed publisher contexts and portions of partially inspected texts remain explicitly unreviewed. Computed topics and embeddings are not manual reading coverage.",
+    "Broad similarities can reflect common language, publisher editing, genre, source style, shared premises or sampling. No borrowing, common origin or scientific truth follows from resemblance."
+  ]
+}

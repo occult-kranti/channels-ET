@@ -48,6 +48,7 @@ jobs:
           python3 research/expanded-channeling/verify_paper.py --public-dir "$RUNNER_TEMP/pages-site/dist/channeling-network"
           python3 research/council-study/verify_release.py --site "$RUNNER_TEMP/pages-site"
           python3 research/knowledge-bank/verify_release.py --site "$RUNNER_TEMP/pages-site"
+          python3 research/channel-lab/verify_release.py --site "$RUNNER_TEMP/pages-site"
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:

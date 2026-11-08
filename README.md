@@ -2,6 +2,14 @@
 
 **[Open the Channeling Atlas dashboard](https://occult-kranti.github.io/channels-ET/dist/#/research-update)** · [Existing private Site](https://channeling-atlas.whatswrong-inc.chatgpt.site)
 
+### Channel and recording laboratory · 8 November 2026
+
+Open the **[updated channel and recording dashboard](https://occult-kranti.github.io/channels-ET/dist/channel-lab/)**. Its shared analysis covers **493 canonical source units / 1,411,446 words across 26 publisher contexts**, with detailed source pages, channel profiles, topic progression, lexical and neural neighbors, interactive comparison networks, contextual word overlays and downloadable figures. The inventory distinguishes retained media, transcript editions, analyzed bodies and accounts with unknown upload totals. The 55 inventory rows include screened and historical references; they are not 55 fully analyzed channels.
+
+A resumable two-worker CPU speech batch produced **nine new full-duration transcript editions: 132.61 minutes, 269 windows and 15,300 words**, using the pinned Parakeet TDT 0.6B v3 model. All audio samples and window boundaries were independently checked; a second invocation verified nine cache hits without inference. No new media was downloaded. The new editions remain separate from the frozen main corpus, with paired sensitivity showing how recognition changes affect neighbors. Word accuracy has not been measured against human transcripts.
+
+The lab adds 12 source-bound comparative readings, three actual AI-agent review milestones and tests of text length, name masking, context weighting, topic initialization and graph thresholds. Similarity and clusters are exploratory; shared labels do not establish the identity of a claimed entity. Full-versus-bounded-text neighbor overlap is particularly low, and the dashboard makes that sensitivity visible. See the [methods, results and reproduction instructions](research/channel-lab/README.md) and [critical AI review](research/channel-lab/REVIEW.md).
+
 ### Knowledge bank and speech laboratory · 8 November 2026
 
 Open the [new knowledge-bank dashboard](https://occult-kranti.github.io/channels-ET/dist/knowledge-bank/), [18-page technical report](dist/knowledge-bank/report/report.pdf), [portable LaTeX source](dist/knowledge-bank/report/source.zip), and [searchable question database](dist/knowledge-bank/questions.sqlite). The source-bound study contains **25 text editions / 47,280 words**, **13 questions / 25 answer cards**, and a **100-node / 135-edge knowledge graph**. It adds TF-IDF and MiniLM comparisons, contextual overlays for 24 terms, scoped answer comparisons, retrieval experiments, methodological documents and three reusable project skills.

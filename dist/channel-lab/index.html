@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An inspectable workbench for retained channeling sources, recording profiles, speech recognition and cross-source comparisons.">
+  <title>Channel & Recording Lab · Channeling Atlas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to evidence</a>
+  <header class="masthead">
+    <a class="brand" href="../channeling-network/"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17"/><circle cx="20" cy="20" r="10"/><path d="M20 3v34M3 20h34M8 8l24 24M8 32 32 8"/></svg><span>CHANNELING ATLAS<small>Channel & recording laboratory</small></span></a>
+    <nav aria-label="Related research"><a href="../knowledge-bank/">Knowledge bank</a><a href="../subscription-audit/">Collection audit</a></nav>
+  </header>
+  <div class="workspace">
+    <aside class="sidebar" aria-label="Workbench navigation">
+      <nav class="primary-nav" aria-label="Laboratory views"><a href="?view=inventory" data-route="inventory">Evidence inventory</a><a href="?view=compare" data-route="compare">Compare sources</a><a href="?view=batch" data-route="batch">Speech batch</a><a href="?view=methods" data-route="methods">Methods & downloads</a></nav>
+      <details class="context-nav" open><summary>Collection contexts</summary><div id="context-links"><p class="muted">Loading the reviewed registry…</p></div></details>
+      <p class="sidebar-note">Collection context, publisher, named medium and attributed speaker are separate records. Similarity does not authenticate an identity.</p>
+    </aside>
+    <main id="main" tabindex="-1" aria-busy="true"><div class="loading"><span class="eyebrow">SOURCE-BOUND RESEARCH</span><h1>Loading the laboratory.</h1><p>Checking the release and its source registry.</p></div></main>
+  </div>
+  <footer><span>Static research workbench · no remote inference required</span><a href="manifest.json">Release manifest</a><a href="../knowledge-bank/">Earlier knowledge-bank edition</a></footer>
+  <p id="live" class="sr-only" role="status" aria-live="polite"></p>
+  <dialog id="inspector" aria-labelledby="inspector-title"><div class="dialog-head"><span class="eyebrow">EVIDENCE INSPECTOR</span><button id="close-inspector" type="button">Close</button></div><div id="inspector-content"></div></dialog>
+  <noscript><p class="notice">JavaScript is required for local filtering and charts. The <a href="manifest.json">release manifest</a> lists downloadable data and methods.</p></noscript>
+</body>
+</html>

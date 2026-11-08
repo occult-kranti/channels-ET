@@ -1,0 +1,3499 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T18:45:42.672472+00:00",
+  "status": "completed_bounded_source_reading",
+  "scope": "Source-attributed discourse interpretation; no verification of claimed entities, events, effects, speaker identity or recognition accuracy.",
+  "input_bindings": {
+    "frame": {
+      "sha256": "0d69378f9e9a2280e7ed05981b647fbfe280016380b3072b2b3a320961ae2c8c",
+      "bytes": 2078304
+    },
+    "inspection": {
+      "sha256": "da6612944ac528f3504e6deb2abf137cc090203a2c45a8aefee46756d186bea1",
+      "bytes": 136455
+    },
+    "cases": {
+      "sha256": "3d62cd2c4e9315df1b247926ced18377c53cb3698c213321aa181f001e0f1276",
+      "bytes": 38854
+    },
+    "selection": {
+      "sha256": "2dd56a04fe883f53f12f5844e3afb2e2e6de7cb933309a4dd15a08122afcce7c",
+      "bytes": 5176
+    }
+  },
+  "coverage": {
+    "frame_source_units": 493,
+    "frame_words": 1411446,
+    "primary_sources_read": 22,
+    "primary_unique_words_read": 10006,
+    "primary_complete_bodies_read": 5,
+    "primary_reading_spans": 46,
+    "additional_edition_sources_read": 3,
+    "additional_unique_words_read": 2124,
+    "case_count": 12,
+    "failed_candidates": 0,
+    "read_channel_contexts": 9,
+    "modeled_channel_contexts": 26,
+    "relation_counts": {
+      "different_focus": 5,
+      "unresolved": 3,
+      "conditional_tension": 1,
+      "compatible": 1,
+      "shared_proposition": 2
+    },
+    "audio_listened_seconds": 0,
+    "human_validated": false,
+    "question_origin": "All case questions are analyst comparisons; documentary Ra question IDs are retained separately."
+  },
+  "source_bindings": [
+    {
+      "source_id": "doc-b31bee1059ae94433f0d",
+      "channel_id": "daniel-scranton",
+      "title": "A 4th Dimensional Galactic Council ∞The 9D Arcturian Council",
+      "source_url": "https://danielscranton.com/a-4th-dimensional-galactic-council-%E2%88%9Ethe-9d-arcturian-council/",
+      "selected_edition_id": "galactic-daniel-20190327",
+      "body_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+      "text_artifact_sha256": "f5d771ac28d1668aad231a06734e90c58d520228cf731a723f920068c5ac2286",
+      "body_words": 487,
+      "unique_words_inspected": 318,
+      "merged_intervals": [
+        [
+          0,
+          84
+        ],
+        [
+          969,
+          1514
+        ],
+        [
+          1516,
+          2600
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "direct_to_arcturian_council_not_discussed_galactic_council",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-5dc6a299562a41aa3fc2",
+      "channel_id": "pamela-rose-kribbe",
+      "title": "The One and the Many | The Jeshua Channelings",
+      "source_url": "https://www.jeshua.net/channelings/mornings-with-jeshua/the-one-and-the-many/",
+      "selected_edition_id": "tr-source-jeshua-mornings-one-many",
+      "body_sha256": "0578eca823db5babf3a7a8f9ded1c66a7878eb4a9d0d31e2c9a90ae05cb5f49e",
+      "text_artifact_sha256": "7d615f575889b84e6afcdb74b55705ec038f4a26493976af805fa05caaf164f1",
+      "body_words": 1778,
+      "unique_words_inspected": 207,
+      "merged_intervals": [
+        [
+          3360,
+          3720
+        ],
+        [
+          8306,
+          9062
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "Entire bounded publisher message explicitly attributed to Pamela and named speaker immediately before text. Written English translation; audio not validated.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-27c094919618b2ec885b",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Celestial Andromedan Innovations by the Andromedans",
+      "source_url": "https://omna.org/celestial-andromedan-innovations-by-the-andromedans/",
+      "selected_edition_id": "tr-source-omna-andromedans",
+      "body_sha256": "ffebc2673c71e2522c75be294af172f2832aa8c7c831a2097b1248fc30bb9e82",
+      "text_artifact_sha256": "a6eaf0e5228446620e106ef7421288babbd2e0044b6482ccf16a1727b8068c23",
+      "body_words": 783,
+      "unique_words_inspected": 145,
+      "merged_intervals": [
+        [
+          329,
+          703
+        ],
+        [
+          3921,
+          4346
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "This individually named message has explicit first-person collective self-identification. Natalie attribution is the per-article author metadata and named MP3 for Arcturians; explicit publisher channel attribution footer for Pleiadians/Andromedans. The collectives are separate from Daniel councils and not authenticated entities.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-fc7d9bd99fbcd4be1672",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Do You Trust The Universe? by Mother Mary",
+      "source_url": "https://omna.org/do-you-trust-the-universe-by-mother-mary/",
+      "selected_edition_id": "tr-source-omna-mary",
+      "body_sha256": "fc86e6514236643b2e5b15c214cf5f5a35403e5a4388f07e5485c695900f60ce",
+      "text_artifact_sha256": "c8442a9ca3240d357b9ab803de99f446fc86e5f0bc36855e25809057fb4a1202",
+      "body_words": 726,
+      "unique_words_inspected": 306,
+      "merged_intervals": [
+        [
+          2276,
+          3987
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "Entire bounded first-person message attributed by page to Natalie Glasson and named speaker; no inference from biography or site categories.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-8bb867bca47a5549ad85",
+      "channel_id": "pamela-rose-kribbe",
+      "title": "High Sensitivity | The Jeshua Channelings",
+      "source_url": "https://www.jeshua.net/channelings/mother-mary/high-sensitivity/",
+      "selected_edition_id": "tr-source-jeshua-mary-full",
+      "body_sha256": "6fb0a6509e64eed49e0abc7ca5ce1267d2e294c9238783afd18f87b6eb7d54b3",
+      "text_artifact_sha256": "10c0e634493dd6f39945f433622cbddbc84f6339367d839361a8994998d94dfb",
+      "body_words": 1490,
+      "unique_words_inspected": 420,
+      "merged_intervals": [
+        [
+          3336,
+          3588
+        ],
+        [
+          4616,
+          6090
+        ],
+        [
+          6091,
+          6633
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "Entire bounded publisher message explicitly attributed to Pamela and named speaker immediately before text. Written English translation; audio not validated.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-94024a1a8db1b2d2f62e",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Grace Embrace Initiation by Mary Magdalene",
+      "source_url": "https://omna.org/grace-embrace-initiation-by-mary-magdalene/",
+      "selected_edition_id": "tr-source-omna-magdalene",
+      "body_sha256": "6aa961a0aaad90289e6e47135e1f827257021fe1266e6bf5d4eb920fd380e30e",
+      "text_artifact_sha256": "210e95be0fd22ce5e71bd9348290a10db2e071d7d7d7e715e1fc91025547851f",
+      "body_words": 952,
+      "unique_words_inspected": 265,
+      "merged_intervals": [
+        [
+          2386,
+          3689
+        ],
+        [
+          4945,
+          5287
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "Entire bounded first-person message attributed by page to Natalie Glasson and named speaker; no inference from biography or site categories.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-ba9a74869794e672bb8a",
+      "channel_id": "pamela-rose-kribbe",
+      "title": "The Fire in Your Belly | The Jeshua Channelings",
+      "source_url": "https://www.jeshua.net/channelings/mary-magdalene/the-fire-in-your-belly/",
+      "selected_edition_id": "tr-source-jeshua-magdalene-full",
+      "body_sha256": "a2d6829981f1714166c5ef6cfe5d4adc70134a3dc9a31445592cda4b6feb7b4b",
+      "text_artifact_sha256": "4076d8b6946a3b4ffde1d8562beda696970acd221dd97d175d8ce34db5586bd4",
+      "body_words": 2128,
+      "unique_words_inspected": 348,
+      "merged_intervals": [
+        [
+          5798,
+          6238
+        ],
+        [
+          7658,
+          8610
+        ],
+        [
+          9114,
+          9584
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "Entire bounded publisher message explicitly attributed to Pamela and named speaker immediately before text. Written English translation; audio not validated.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-18bb7497fb6e237c960b",
+      "channel_id": "lyssa-royal-holt",
+      "title": "Preparedness: Exploring the True Definitions of Wealth — excerpt #138",
+      "source_url": "https://www.lyssaroyal.net/uploads/1/5/7/1/15716170/tran-preparedness138.pdf",
+      "selected_edition_id": "new-et-lyssa-preparedness-138",
+      "body_sha256": "18299c1b98ae2815f3ce5cfbff4590c36f4d821dab35e0e78e239124eef4eca6",
+      "text_artifact_sha256": "2cb1fc1ab0bec0ef5d7648a7650c1be8503dea4eaae754757e524524daadd6d3",
+      "body_words": 2671,
+      "unique_words_inspected": 716,
+      "merged_intervals": [
+        [
+          4672,
+          7550
+        ],
+        [
+          8481,
+          9420
+        ],
+        [
+          11820,
+          11980
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "PDF header assigns Sasha through Lyssa; continuation paragraphs are response spans inferred from printed Q/A layout, not acoustic verified speaker identity. Five exact Question paragraphs excluded.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-5340dabed29c4cfedf0a",
+      "channel_id": "tracy-kumbera",
+      "title": "First Contact Is Here! Council of Contact Channeled Message",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+      "selected_edition_id": "publisher-rss:tracykumbera:rss:548134ce5946a24d:asr:tiny-en-v2",
+      "body_sha256": "3cea380262cfce78d4f8e0f72f0509a92712041726ed550b393473587621ad4f",
+      "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+      "body_words": 3440,
+      "unique_words_inspected": 246,
+      "merged_intervals": [
+        [
+          0,
+          746
+        ],
+        [
+          17043,
+          17624
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "machine_transcript",
+      "text_origin": "local_asr",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-fc7068d9aac72f14cd6a",
+      "channel_id": "tracy-kumbera",
+      "title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+      "selected_edition_id": "publisher-rss:tracykumbera:rss:4818c71bd66ea72a:asr:tiny-en-v2",
+      "body_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+      "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+      "body_words": 2932,
+      "unique_words_inspected": 726,
+      "merged_intervals": [
+        [
+          1589,
+          2773
+        ],
+        [
+          11854,
+          13877
+        ],
+        [
+          14155,
+          15074
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "machine_transcript",
+      "text_origin": "local_asr",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-d2f7efd6635dd16c0353",
+      "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+      "title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+      "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+      "selected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "body_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+      "text_artifact_sha256": "b5fbc413f7e3661e2a9d5739f3d0eccd0a513fa127d2cd1ea2fd216bf3ef0e7b",
+      "body_words": 16931,
+      "unique_words_inspected": 878,
+      "merged_intervals": [
+        [
+          21630,
+          22587
+        ],
+        [
+          23691,
+          24932
+        ],
+        [
+          25956,
+          27724
+        ],
+        [
+          59839,
+          60529
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "machine_transcript",
+      "text_origin": "machine_asr",
+      "attribution_scope": "Publisher title/description credit Pamela Aaralyn and mix Galactic Council of 9 with humans from the future; no entity-specific or named-speaker turns verified.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-b58fc24bd9c05128dce9",
+      "channel_id": "bashar-official",
+      "title": "The Passion Principle highlights",
+      "source_url": "https://vimeo.com/204072408",
+      "selected_edition_id": "vimeo:204072408:local-asr:300b1b8516acf113",
+      "body_sha256": "7d65f3fd1bd49d721230dccced28a45b0ce9a3bf315cadef70bb6d8110627f9e",
+      "text_artifact_sha256": "4df047e4d24adf094a66b2b9922e3103684b53d6587da397dd78f3f1859ae444",
+      "body_words": 685,
+      "unique_words_inspected": 685,
+      "merged_intervals": [
+        [
+          0,
+          3791
+        ]
+      ],
+      "complete_body_inspected": true,
+      "document_kind": "caption_or_asr",
+      "text_origin": "local_asr",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-28688dcebf66389eba91",
+      "channel_id": "bashar-official",
+      "title": "Bashar :: The Relationship Between Fear and Power - Highlights",
+      "source_url": "https://vimeo.com/457106172",
+      "selected_edition_id": "vimeo:457106172:local-asr:af2b6777a79b080a",
+      "body_sha256": "cd1443a0dacd0e77a7946d4930e9ae39229c371aba073fbaaa21ac3f16a6e9d4",
+      "text_artifact_sha256": "a889474defdecad15c1f12452883a5ee937937de0d7c102478e025e1f1918db1",
+      "body_words": 589,
+      "unique_words_inspected": 589,
+      "merged_intervals": [
+        [
+          0,
+          3316
+        ]
+      ],
+      "complete_body_inspected": true,
+      "document_kind": "caption_or_asr",
+      "text_origin": "local_asr",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-5d05af83c5625aa1f9dc",
+      "channel_id": "bashar-official",
+      "title": "Bashar :: You Are All Time Travelers - Highlights",
+      "source_url": "https://vimeo.com/278735645",
+      "selected_edition_id": "vimeo:278735645:local-asr:9349ac52a9fe2178",
+      "body_sha256": "6d9bf677ba6bab884bf4865aecb4f7be901bc8bb8748b97961430f72e6938e09",
+      "text_artifact_sha256": "e1b9290a11883a4a94185d9fa3ff55b149d7664ce7b0f8c7ae9e7409ce27af3c",
+      "body_words": 573,
+      "unique_words_inspected": 573,
+      "merged_intervals": [
+        [
+          0,
+          3094
+        ]
+      ],
+      "complete_body_inspected": true,
+      "document_kind": "caption_or_asr",
+      "text_origin": "local_asr",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-7309209c2909e9517bb9",
+      "channel_id": "bashar-official",
+      "title": "Bashar :: The Open Contact Progress Report Day 1 - Highlights",
+      "source_url": "https://vimeo.com/1232083694",
+      "selected_edition_id": "vimeo:1232083694:captions:en-x-autogen",
+      "body_sha256": "539c3efde8ea45506721347a675a1d2a1e43537361d16d45984189084892bece",
+      "text_artifact_sha256": "2e02f9defa8a97a6fd148ff6909c95bb48e69b45cdaa89cfd9a9bd7982bd5f61",
+      "body_words": 963,
+      "unique_words_inspected": 963,
+      "merged_intervals": [
+        [
+          0,
+          5053
+        ]
+      ],
+      "complete_body_inspected": true,
+      "document_kind": "caption_or_asr",
+      "text_origin": "platform_auto_caption",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-317eaf1f0e687225043c",
+      "channel_id": "ra-law-of-one",
+      "title": "The Law of One — Session 10",
+      "source_url": "https://www.lawofone.info/s/10",
+      "selected_edition_id": "ra:session:010:lightly-edited",
+      "body_sha256": "b201736f54ef9aa2dd6d78d123eb1b730819c66d79f10d5fc07005023ff604d2",
+      "text_artifact_sha256": "890ada1169a7780d4bd6ecd5885d8f7331cfaa6947315085f1957a947f603a76",
+      "body_words": 2647,
+      "unique_words_inspected": 276,
+      "merged_intervals": [
+        [
+          9498,
+          11170
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_transcript",
+      "text_origin": "publisher_transcript",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-753ff02c3913cd217297",
+      "channel_id": "ra-law-of-one",
+      "title": "The Law of One — Session 18",
+      "source_url": "https://www.lawofone.info/s/18",
+      "selected_edition_id": "ra:session:018:lightly-edited",
+      "body_sha256": "c6a5604052c202585965303341786626d57db93ed2c3bc628445d53114a87000",
+      "text_artifact_sha256": "5c869e4e81784415c44050d2f28e66914808525a8fa64a96a9df5607bcdb15a4",
+      "body_words": 2971,
+      "unique_words_inspected": 326,
+      "merged_intervals": [
+        [
+          2841,
+          4812
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_transcript",
+      "text_origin": "publisher_transcript",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-5e5f8f356c53596c8f0a",
+      "channel_id": "ra-law-of-one",
+      "title": "The Law of One — Session 36",
+      "source_url": "https://www.lawofone.info/s/36",
+      "selected_edition_id": "ra:session:036:lightly-edited",
+      "body_sha256": "939a03a62a7a41f8b62fb6dd2afb25509b91afa3c4e93d388efc642c92079eb3",
+      "text_artifact_sha256": "b9c4e1f11d3d76699de87d4e8a0902f9b4a4283ecebfa851909e7688247ec4ef",
+      "body_words": 2811,
+      "unique_words_inspected": 336,
+      "merged_intervals": [
+        [
+          3181,
+          4154
+        ],
+        [
+          4155,
+          4941
+        ],
+        [
+          4942,
+          5177
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_transcript",
+      "text_origin": "publisher_transcript",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-591ab1478f70516b11d3",
+      "channel_id": "ra-law-of-one",
+      "title": "The Law of One — Session 68",
+      "source_url": "https://www.lawofone.info/s/68",
+      "selected_edition_id": "ra:session:068:lightly-edited",
+      "body_sha256": "585feccb7dc1a2352b837a5112839fd14481fd2e6c753cbfcb3b4c1176012adb",
+      "text_artifact_sha256": "c83db781f0feff3ff87d5497b4f2783cff0bf90ae9e2ad0e88251fc43eb537be",
+      "body_words": 2365,
+      "unique_words_inspected": 740,
+      "merged_intervals": [
+        [
+          6813,
+          7043
+        ],
+        [
+          7044,
+          7704
+        ],
+        [
+          8360,
+          9289
+        ],
+        [
+          10710,
+          11217
+        ],
+        [
+          11218,
+          12901
+        ],
+        [
+          12902,
+          13249
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_transcript",
+      "text_origin": "publisher_transcript",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-c03fdbd48b5b9feb11df",
+      "channel_id": "ra-law-of-one",
+      "title": "The Law of One — Session 77",
+      "source_url": "https://www.lawofone.info/s/77",
+      "selected_edition_id": "ra:session:077:lightly-edited",
+      "body_sha256": "9d660a412f445301ffa35962307d1d1b5e7c2b7ff928db8b02de81ac4b7ea381",
+      "text_artifact_sha256": "e6d4c2893d3ee970a65aafd9a22620eeac278c4fa527bd1c2846fec462a3d55b",
+      "body_words": 2690,
+      "unique_words_inspected": 121,
+      "merged_intervals": [
+        [
+          7306,
+          8018
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "publisher_transcript",
+      "text_origin": "publisher_transcript",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-1ea8241d5d809106ce98",
+      "channel_id": "natalie-glasson-omna",
+      "title": "Everything Is Changing by Archangel Michael",
+      "source_url": "https://omna.org/everything-is-changing-by-archangel-michael/",
+      "selected_edition_id": "tr-source-omna-michael",
+      "body_sha256": "30f3227b6c915685c2c00d9471991d808229b826092599b73dbf86b3dae2eda7",
+      "text_artifact_sha256": "5b395f19900c37b439b8e62ba42e9975d5955dcc744cfd706138df75d4266772",
+      "body_words": 596,
+      "unique_words_inspected": 596,
+      "merged_intervals": [
+        [
+          0,
+          3608
+        ]
+      ],
+      "complete_body_inspected": true,
+      "document_kind": "publisher_written_message",
+      "text_origin": "publisher_written",
+      "attribution_scope": "Entire bounded first-person message attributed by page to Natalie Glasson and named speaker; no inference from biography or site categories.",
+      "audio_listened": false,
+      "human_validated": false
+    },
+    {
+      "source_id": "doc-f7aafb3326f649560466",
+      "channel_id": "guest-oh-no-ross-and-carrie",
+      "title": "Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition",
+      "source_url": "https://afp-9384.calisto.simplecastaudio.com/35621d45-8bc2-42d2-a1f7-8e2805787cb7/episodes/7a6dbd04-aa77-47c0-bf5d-14a4debfe23f/audio/128/default.mp3?aid=rss_feed&awCollectionId=35621d45-8bc2-42d2-a1f7-8e2805787cb7&awEpisodeId=7a6dbd04-aa77-47c0-bf5d-14a4debfe23f&feed=ftB6Gihc",
+      "selected_edition_id": "rss-425328515-addbc47ecbd7",
+      "body_sha256": "e0a34e995a6b7a4a765e16c5ce90c65580b629e9d1f37e97fc143342af42ebc9",
+      "text_artifact_sha256": "439533de2d8ac53abeeecf1a013bcd1afa4c196c52f1611d66bd78aacbe09b79",
+      "body_words": 19916,
+      "unique_words_inspected": 226,
+      "merged_intervals": [
+        [
+          52554,
+          53762
+        ]
+      ],
+      "complete_body_inspected": false,
+      "document_kind": "interview_asr",
+      "text_origin": "retained_local_asr",
+      "attribution_scope": "source_context_only; speakers_and_claimed_identity_unverified",
+      "audio_listened": false,
+      "human_validated": false
+    }
+  ],
+  "additional_edition_readings": [
+    {
+      "source_id": "doc-5340dabed29c4cfedf0a",
+      "channel_id": "tracy-kumbera",
+      "inspected_body_sha256": "342638fc7376c099e990ded881b45bf9af59401bec023b1f9bbb8173bb543b99",
+      "unique_words_inspected": 218,
+      "merged_intervals": [
+        [
+          0,
+          1212
+        ]
+      ],
+      "edition_join": "alternative_edition_not_canonical",
+      "scope": "Additional inspected recognition edition; excluded from canonical reading-word totals and primary cases"
+    },
+    {
+      "source_id": "doc-fc7068d9aac72f14cd6a",
+      "channel_id": "tracy-kumbera",
+      "inspected_body_sha256": "d5fcc8b0f9891a2de065381113050cb5af1a6bfa157684a50860ef1d009e93a9",
+      "unique_words_inspected": 892,
+      "merged_intervals": [
+        [
+          1414,
+          2809
+        ],
+        [
+          11876,
+          15540
+        ]
+      ],
+      "edition_join": "alternative_edition_not_canonical",
+      "scope": "Additional inspected recognition edition; excluded from canonical reading-word totals and primary cases"
+    },
+    {
+      "source_id": "doc-d2f7efd6635dd16c0353",
+      "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+      "inspected_body_sha256": "bf9b05bcb1c025eca78a9cf7b2c6cb7b3917461d6e43a0b7230e45753b1fbfd0",
+      "unique_words_inspected": 1014,
+      "merged_intervals": [
+        [
+          21926,
+          23429
+        ],
+        [
+          23851,
+          25663
+        ],
+        [
+          26317,
+          28485
+        ]
+      ],
+      "edition_join": "alternative_edition_not_canonical",
+      "scope": "Additional inspected recognition edition; excluded from canonical reading-word totals and primary cases"
+    }
+  ],
+  "channel_notes": [
+    {
+      "channel_id": "athina-krol",
+      "channel_name": "Spirit Channel with Athina Król",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "bashar-official",
+      "channel_name": "Bashar Communications official Vimeo",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 82,
+      "reviewed_source_ids": [
+        "doc-28688dcebf66389eba91",
+        "doc-5d05af83c5625aa1f9dc",
+        "doc-7309209c2909e9517bb9",
+        "doc-b58fc24bd9c05128dce9"
+      ],
+      "unreviewed_source_units": 78,
+      "unique_words_inspected": 2810,
+      "case_ids": [
+        "practice-action",
+        "fear-desire",
+        "time-reference",
+        "reception-genre",
+        "preparedness"
+      ],
+      "qualitative_theme_keys": [
+        "agency",
+        "community",
+        "contact",
+        "epistemic_limits",
+        "fear",
+        "practices",
+        "preparedness",
+        "source_genre",
+        "time",
+        "worldview"
+      ],
+      "summary": "Four short official excerpt texts were inspected: project preparation and collaboration, belief-based fear explanations, time/guidance language, and a contact-titled highlight dominated by life-lesson discussion.",
+      "conditions": "Three are local machine transcripts and one has automatic captions. Short highlights are not complete paid sessions; a duplicate Passion Principle body contributes once.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "crimson-circle",
+      "channel_name": "Crimson Circle — Freedom Series",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 10,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 10,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "daniel-scranton",
+      "channel_name": "Daniel Scranton publisher texts",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 22,
+      "reviewed_source_ids": [
+        "doc-b31bee1059ae94433f0d"
+      ],
+      "unreviewed_source_units": 21,
+      "unique_words_inspected": 318,
+      "case_ids": [
+        "council-definition"
+      ],
+      "qualitative_theme_keys": [
+        "contact",
+        "council_identity",
+        "source_attribution"
+      ],
+      "summary": "The inspected 2019 message separates its ninth-dimensional narrator from a proposed council with astral then physical meetings.",
+      "conditions": "No physical-convening timeframe is supplied in the selected passage. This one message cannot define all of Scranton’s attributed councils.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-acid-for-squares",
+      "channel_name": "ACID FOR SQUARES — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 2,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 2,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-align-podcast",
+      "channel_name": "Align Podcast — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 2,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 2,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-danica-patrick-pretty-intense-podcast",
+      "channel_name": "Danica Patrick Pretty Intense Podcast — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 2,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 2,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-gaia-consciousness",
+      "channel_name": "Gaia Consciousness — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-gateways-to-awakening-with-yasmeen-turayhi",
+      "channel_name": "Gateways to Awakening with Yasmeen Turayhi — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-healing-human-potential",
+      "channel_name": "Healing + Human Potential — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 2,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 2,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-impossible-dreams",
+      "channel_name": "Impossible Dreams — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+      "channel_name": "Inspire Nation Show with Michael Sandler — guest context",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [
+        "doc-d2f7efd6635dd16c0353"
+      ],
+      "unreviewed_source_units": 0,
+      "unique_words_inspected": 878,
+      "case_ids": [
+        "council-timing"
+      ],
+      "qualitative_theme_keys": [
+        "contact",
+        "predictions",
+        "source_attribution",
+        "time"
+      ],
+      "summary": "The inspected Pamela Aaralyn interview passages mix future-timeline qualifications, concrete election expectations, a Council of 9 description and a later transition to another claimed speaker.",
+      "conditions": "Publisher/interview context differs from a verified medium-only session. Canonical baseline ASR and separately inspected Parakeet windows are distinct editions; no speaker diarization or forecast scoring is established.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-just-tap-in-with-emilio-ortiz",
+      "channel_name": "Just Tap In with Emilio Ortiz — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-mayim-bialik-s-breakdown",
+      "channel_name": "Mayim Bialik's Breakdown — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 2,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 2,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-next-level-soul-podcast-with-alex-ferrari",
+      "channel_name": "Next Level Soul Podcast with Alex Ferrari — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-oh-no-ross-and-carrie",
+      "channel_name": "Oh No, Ross and Carrie — guest context",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [
+        "doc-f7aafb3326f649560466"
+      ],
+      "unreviewed_source_units": 0,
+      "unique_words_inspected": 226,
+      "case_ids": [
+        "reception-genre"
+      ],
+      "qualitative_theme_keys": [
+        "contact",
+        "epistemic_limits",
+        "source_genre"
+      ],
+      "summary": "One fixed midpoint reception window discusses a channeling performance and a joke about a non-specific prediction.",
+      "conditions": "Mention and humor are not endorsement. Unknown individual ASR voices and second-hand narration prevent treating this as a channeled response.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-soultalk-with-kute-blackson",
+      "channel_name": "SoulTalk with Kute Blackson — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "guest-virtual-campfire-hosted-by-krystal-kelley",
+      "channel_name": "Virtual Campfire hosted by Krystal Kelley — guest context",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 2,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 2,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "lyssa-royal-holt",
+      "channel_name": "Lyssa Royal Holt publisher texts",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [
+        "doc-18bb7497fb6e237c960b"
+      ],
+      "unreviewed_source_units": 0,
+      "unique_words_inspected": 716,
+      "case_ids": [
+        "preparedness"
+      ],
+      "qualitative_theme_keys": [
+        "agency",
+        "community",
+        "preparedness"
+      ],
+      "summary": "The preparedness excerpt links skills and self-responsibility with voluntary community sharing, alongside economic suggestions.",
+      "conditions": "The financial assertions are not validated or adopted as advice. Only inspected response passages are counted in this pass; historical full-excerpt reading is not added.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "magenta-pixie",
+      "channel_name": "Magenta Pixie publisher PDFs",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 15,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 15,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "multidimensional-soul",
+      "channel_name": "Multidimensional Soul publisher interviews",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 20,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 20,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "natalie-glasson-omna",
+      "channel_name": "Natalie Glasson / OmNa",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 8,
+      "reviewed_source_ids": [
+        "doc-1ea8241d5d809106ce98",
+        "doc-27c094919618b2ec885b",
+        "doc-94024a1a8db1b2d2f62e",
+        "doc-fc7d9bd99fbcd4be1672"
+      ],
+      "unreviewed_source_units": 4,
+      "unique_words_inspected": 1312,
+      "case_ids": [
+        "mary-support",
+        "magdalene-change",
+        "mediation-optional",
+        "michael-awareness"
+      ],
+      "qualitative_theme_keys": [
+        "agency",
+        "attention",
+        "boundaries",
+        "care",
+        "mediation",
+        "practices",
+        "source_attribution",
+        "transformation",
+        "worldview"
+      ],
+      "summary": "Selected publisher messages offer optional invocation, inner-love trust, grace-embrace transformation and awareness during change. Each named attribution retains its own scope.",
+      "conditions": "Three messages are represented by bounded support spans and the Michael body is read completely; broad metaphysical/healing effects remain untested claims.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "pamela-rose-kribbe",
+      "channel_name": "Pamela Rose Kribbe publisher texts",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 4,
+      "reviewed_source_ids": [
+        "doc-5dc6a299562a41aa3fc2",
+        "doc-8bb867bca47a5549ad85",
+        "doc-ba9a74869794e672bb8a"
+      ],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 975,
+      "case_ids": [
+        "mary-support",
+        "magdalene-change",
+        "mediation-optional"
+      ],
+      "qualitative_theme_keys": [
+        "agency",
+        "boundaries",
+        "care",
+        "mediation",
+        "practices",
+        "source_attribution",
+        "transformation"
+      ],
+      "summary": "Selected written messages emphasize boundaries in draining relationships, conscious engagement with shadow and nonhierarchical access to the One.",
+      "conditions": "These are source-bound paraphrases, not a complete account of Kribbe’s work. Repeated Mary/Magdalene names do not prove identity across mediums.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "paul-selig",
+      "channel_name": "Paul Selig publisher transcript",
+      "reading_status": "not_close_read_in_this_pass",
+      "frame_source_units": 1,
+      "reviewed_source_ids": [],
+      "unreviewed_source_units": 1,
+      "unique_words_inspected": 0,
+      "case_ids": [],
+      "qualitative_theme_keys": [],
+      "summary": "No substantive source-reading summary is supplied for this context in this pass.",
+      "conditions": "Computed features and historical annotations do not establish a fresh close reading of these sources.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "ra-law-of-one",
+      "channel_name": "Ra Lightly Edited sessions",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 106,
+      "reviewed_source_ids": [
+        "doc-317eaf1f0e687225043c",
+        "doc-591ab1478f70516b11d3",
+        "doc-5e5f8f356c53596c8f0a",
+        "doc-753ff02c3913cd217297",
+        "doc-c03fdbd48b5b9feb11df"
+      ],
+      "unreviewed_source_units": 101,
+      "unique_words_inspected": 1799,
+      "case_ids": [
+        "practice-action",
+        "fear-desire",
+        "time-reference",
+        "michael-awareness",
+        "answer-limits"
+      ],
+      "qualitative_theme_keys": [
+        "agency",
+        "attention",
+        "epistemic_limits",
+        "fear",
+        "practices",
+        "question_structure",
+        "source_attribution",
+        "source_genre",
+        "time",
+        "worldview"
+      ],
+      "summary": "Selected printed exchanges distinguish contemplation, acceptance with free-will qualifications, perspective-dependent time language, refusals and corrections. Documentary roles are useful but do not verify the purported speaker.",
+      "conditions": "The inspected exchanges are a purposeful subset of the Lightly Edited edition, not a complete reading of 106 sessions. Personal and generic hypothetical questions can receive different responses.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    },
+    {
+      "channel_id": "tracy-kumbera",
+      "channel_name": "Tracy Kumbera publisher episodes",
+      "reading_status": "bounded_examples_read",
+      "frame_source_units": 203,
+      "reviewed_source_ids": [
+        "doc-5340dabed29c4cfedf0a",
+        "doc-fc7068d9aac72f14cd6a"
+      ],
+      "unreviewed_source_units": 201,
+      "unique_words_inspected": 972,
+      "case_ids": [
+        "council-definition",
+        "council-timing"
+      ],
+      "qualitative_theme_keys": [
+        "contact",
+        "council_identity",
+        "predictions",
+        "source_attribution",
+        "time"
+      ],
+      "summary": "Selected Council passages define a physical-contact subtype, distinguish stages and timing, and describe council naming as fluid.",
+      "conditions": "Canonical baseline ASR is primary; separately read Parakeet windows do not replace its supports. Relative-year claims, filters and resonance language do not establish calibrated probabilities or events.",
+      "unreviewed_scope": "Other retained editions and the remainder of partly inspected bodies are unreviewed here; whole-channel prevalence and lifetime uploads are unknown."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "practice-action",
+      "title": "Contemplation, skill and action",
+      "question_kind": "analyst_comparison",
+      "question": "What does a person do in the selected teachings, and what conditions belong to that practice?",
+      "relation": "different_focus",
+      "reading": "The selected Ra exchange proposes seeking love and recognizing the Creator in people, self and surroundings, grounded in meditation, contemplation or prayer. The Bashar excerpt presents a five-part project sequence: passion, project, preparedness, people and persistence. Both address personal orientation, but their practical sequences differ.",
+      "conditions": "Ra 10.14 is an explicit printed request for general practices; the Bashar highlight combines an introductory teaching with a later conversational example. Its preparation and collaboration conditions must remain attached to action on passion.",
+      "counter_reading": "Contemplation need not exclude action, and action on a project need not reject contemplation. These passages cannot rank either tradition as more active or passive overall.",
+      "limitations": "No shared audience question, behavioral outcome, therapeutic benefit or authenticated speaker is established. A685-word promotional excerpt cannot stand in for its complete paid session.",
+      "qualitative_theme_keys": [
+        "practices",
+        "agency",
+        "source_genre"
+      ],
+      "statements": [
+        {
+          "actor": "Printed Ra response",
+          "proposition": "Seek love in the moment and recognize the Creator through contemplative exercises.",
+          "conditions": "A disposition toward meditation, contemplation or prayer is described as foundational.",
+          "time_scope": "General exercise; no dated forecast",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-317eaf1f0e687225043c"
+        },
+        {
+          "actor": "Unknown ASR voice in official Bashar excerpt",
+          "proposition": "Develop and persist with an exciting project through skills and collaboration.",
+          "conditions": "The project and way of doing it should fit the person’s passion; preparedness and people are part of the sequence.",
+          "time_scope": "General project example",
+          "source_genre": "Official short highlight, machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-b58fc24bd9c05128dce9"
+        }
+      ],
+      "source_ids": [
+        "doc-317eaf1f0e687225043c",
+        "doc-b58fc24bd9c05128dce9"
+      ],
+      "channel_ids": [
+        "bashar-official",
+        "ra-law-of-one"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "new:ra10.14",
+          "source_id": "doc-317eaf1f0e687225043c",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/10#10.14",
+          "source_title": "The Law of One — Session 10",
+          "selected_edition_id": "ra:session:010:lightly-edited",
+          "inspected_edition_id": "ra:session:010:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "b201736f54ef9aa2dd6d78d123eb1b730819c66d79f10d5fc07005023ff604d2",
+          "selected_body_sha256": "b201736f54ef9aa2dd6d78d123eb1b730819c66d79f10d5fc07005023ff604d2",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete selected printed exchange; not complete session",
+          "locator": {
+            "start_character": 9498,
+            "end_character": 11170,
+            "span_sha256": "eff3380d1449f6788ba688ced1786b2f54b6eb210f5013e459c7853240216e64",
+            "words": 276
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "10.14",
+          "turn_ids": [
+            "ra:010:0028",
+            "ra:010:0029"
+          ]
+        },
+        {
+          "evidence_id": "new:vimeo204086275:full",
+          "source_id": "doc-b58fc24bd9c05128dce9",
+          "channel_id": "bashar-official",
+          "source_url": "https://vimeo.com/204086275",
+          "source_title": "The Passion Principle highlights",
+          "selected_edition_id": "vimeo:204072408:local-asr:300b1b8516acf113",
+          "inspected_edition_id": "vimeo:204086275:local-asr:3d7a4cbea6dbb320",
+          "canonical_join_basis": "exact_complete_normalized_body_alias_explicitly_reviewed",
+          "edition_text_sha256": "7d65f3fd1bd49d721230dccced28a45b0ce9a3bf315cadef70bb6d8110627f9e",
+          "selected_body_sha256": "7d65f3fd1bd49d721230dccced28a45b0ce9a3bf315cadef70bb6d8110627f9e",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete retained short-excerpt text; not full paid session or audio listening",
+          "locator": {
+            "start_character": 0,
+            "end_character": 3791,
+            "span_sha256": "7d65f3fd1bd49d721230dccced28a45b0ce9a3bf315cadef70bb6d8110627f9e",
+            "words": 685
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": []
+    },
+    {
+      "case_id": "fear-desire",
+      "title": "Acceptance of desire and belief-based fear",
+      "question_kind": "analyst_comparison",
+      "question": "Are acceptance of difficult experience and changing fear-related beliefs the same instruction?",
+      "relation": "different_focus",
+      "reading": "Ra 18.5 recommends understanding and accepting desires rather than suppression, while distinguishing imagined exploration from actions that violate its free-will framing. The Bashar excerpt explains fear through negative beliefs and proposes changing one’s relationship to perceived emotional frequencies. Both invite self-examination, but desire, fear and empathy are different constructs.",
+      "conditions": "The Ra passage explicitly constrains physical enactment of some desires. The Bashar example concerns a question about empathic feeling; its frequency language and claim of a physical mechanism are source claims.",
+      "counter_reading": "A shared introspective vocabulary can conceal distinct practices and different assumptions about why distress occurs. Acceptance does not mean endorsing every impulse, and this excerpt does not establish that all fear has one cause.",
+      "limitations": "No clinical efficacy or physical frequency mechanism is measured. The ASR’s alternating questions and replies do not independently identify speakers.",
+      "qualitative_theme_keys": [
+        "fear",
+        "agency",
+        "epistemic_limits"
+      ],
+      "statements": [
+        {
+          "actor": "Printed Ra response",
+          "proposition": "Understand and accept experience and desire instead of trying to erase them.",
+          "conditions": "Some desires should be explored in imagination instead of physically enacted, within the source’s free-will rule.",
+          "time_scope": "General developmental guidance",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-753ff02c3913cd217297"
+        },
+        {
+          "actor": "Unknown ASR voices in official Bashar excerpt",
+          "proposition": "Fear is attributed to self-perpetuating beliefs, with emotional matching framed as something a person can change.",
+          "conditions": "An empathy-related exchange is the local example; the claimed mechanism is not independently tested.",
+          "time_scope": "General explanatory claim",
+          "source_genre": "Official highlight, machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-28688dcebf66389eba91"
+        }
+      ],
+      "source_ids": [
+        "doc-28688dcebf66389eba91",
+        "doc-753ff02c3913cd217297"
+      ],
+      "channel_ids": [
+        "bashar-official",
+        "ra-law-of-one"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "new:ra18.5",
+          "source_id": "doc-753ff02c3913cd217297",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/18#18.5",
+          "source_title": "The Law of One — Session 18",
+          "selected_edition_id": "ra:session:018:lightly-edited",
+          "inspected_edition_id": "ra:session:018:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "c6a5604052c202585965303341786626d57db93ed2c3bc628445d53114a87000",
+          "selected_body_sha256": "c6a5604052c202585965303341786626d57db93ed2c3bc628445d53114a87000",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete selected printed exchange; not complete session",
+          "locator": {
+            "start_character": 2841,
+            "end_character": 4812,
+            "span_sha256": "89316e481dd6049d2f1947296582c06dd45c2b8f0399b69f30f14f52d7b2a98f",
+            "words": 326
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "18.5",
+          "turn_ids": [
+            "ra:018:0010",
+            "ra:018:0011"
+          ]
+        },
+        {
+          "evidence_id": "new:vimeo457106172:full",
+          "source_id": "doc-28688dcebf66389eba91",
+          "channel_id": "bashar-official",
+          "source_url": "https://vimeo.com/457106172",
+          "source_title": "Bashar :: The Relationship Between Fear and Power - Highlights",
+          "selected_edition_id": "vimeo:457106172:local-asr:af2b6777a79b080a",
+          "inspected_edition_id": "vimeo:457106172:local-asr:af2b6777a79b080a",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "cd1443a0dacd0e77a7946d4930e9ae39229c371aba073fbaaa21ac3f16a6e9d4",
+          "selected_body_sha256": "cd1443a0dacd0e77a7946d4930e9ae39229c371aba073fbaaa21ac3f16a6e9d4",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete retained short-excerpt text; not full paid session or audio listening",
+          "locator": {
+            "start_character": 0,
+            "end_character": 3316,
+            "span_sha256": "cd1443a0dacd0e77a7946d4930e9ae39229c371aba073fbaaa21ac3f16a6e9d4",
+            "words": 589
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": []
+    },
+    {
+      "case_id": "time-reference",
+      "title": "Future-relative higher self and a single-moment account",
+      "question_kind": "analyst_comparison",
+      "question": "Do the selected uses of simultaneous time state the same cosmology?",
+      "relation": "unresolved",
+      "reading": "Ra 36.4–36.6 qualifies the questioner’s simultaneity premise and describes a higher self as future-relative from human space/time. The Bashar excerpt’s opening treats time as changing viewpoints on one moment, then turns to guidance, relevance and acting on passion. Broadly similar vocabulary does not establish equivalent reference frames or taxonomies.",
+      "conditions": "The Ra answer explicitly changes perspective between an all-at-once account and human space/time. The Bashar practical passage limits fulfillment to what it calls relevant needs and includes action language despite its surrender metaphor.",
+      "counter_reading": "Reading only a sentence about the future or the present could manufacture a contradiction. The sources may be using different reference frames, but the passages do not supply a common formal model that resolves equivalence.",
+      "limitations": "These are attributed metaphysical accounts, not measured time travel or physics. Three contiguous complete Ra exchanges were read to retain the qualification.",
+      "qualitative_theme_keys": [
+        "time",
+        "worldview",
+        "epistemic_limits"
+      ],
+      "statements": [
+        {
+          "actor": "Printed Ra response",
+          "proposition": "The higher self is described as future-relative from human space/time; a simplistic simultaneity interpretation is qualified.",
+          "conditions": "The standpoint is explicitly specified in 36.6 and surrounding exchanges reject an unqualified equivalence.",
+          "time_scope": "Human-relative future versus broader metaphysical frame",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-5e5f8f356c53596c8f0a"
+        },
+        {
+          "actor": "Unknown ASR voices in official Bashar excerpt",
+          "proposition": "Time is described as successive viewpoints on one moment; a higher mind supposedly guides relevant experience through passion.",
+          "conditions": "Relevant needs and following guidance are conditions in the subsequent practical example.",
+          "time_scope": "General account of time, not a date-specific prediction",
+          "source_genre": "Official highlight, machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-5d05af83c5625aa1f9dc"
+        }
+      ],
+      "source_ids": [
+        "doc-5d05af83c5625aa1f9dc",
+        "doc-5e5f8f356c53596c8f0a"
+      ],
+      "channel_ids": [
+        "bashar-official",
+        "ra-law-of-one"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "new:ra36.4",
+          "source_id": "doc-5e5f8f356c53596c8f0a",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/36#36.4",
+          "source_title": "The Law of One — Session 36",
+          "selected_edition_id": "ra:session:036:lightly-edited",
+          "inspected_edition_id": "ra:session:036:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "939a03a62a7a41f8b62fb6dd2afb25509b91afa3c4e93d388efc642c92079eb3",
+          "selected_body_sha256": "939a03a62a7a41f8b62fb6dd2afb25509b91afa3c4e93d388efc642c92079eb3",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete selected printed exchange; not complete session",
+          "locator": {
+            "start_character": 3181,
+            "end_character": 4154,
+            "span_sha256": "4f00b821f12747228b7d84773952eea6394f6ff9b7371d00b42824abad336acd",
+            "words": 158
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "36.4",
+          "turn_ids": [
+            "ra:036:0008",
+            "ra:036:0009"
+          ]
+        },
+        {
+          "evidence_id": "new:ra36.5",
+          "source_id": "doc-5e5f8f356c53596c8f0a",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/36#36.5",
+          "source_title": "The Law of One — Session 36",
+          "selected_edition_id": "ra:session:036:lightly-edited",
+          "inspected_edition_id": "ra:session:036:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "939a03a62a7a41f8b62fb6dd2afb25509b91afa3c4e93d388efc642c92079eb3",
+          "selected_body_sha256": "939a03a62a7a41f8b62fb6dd2afb25509b91afa3c4e93d388efc642c92079eb3",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete selected printed exchange; not complete session",
+          "locator": {
+            "start_character": 4155,
+            "end_character": 4941,
+            "span_sha256": "e1be06cfd0c59b5edece5155f0d0c7b644afae40518fdf511578e8742462931d",
+            "words": 135
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "36.5",
+          "turn_ids": [
+            "ra:036:0010",
+            "ra:036:0011"
+          ]
+        },
+        {
+          "evidence_id": "new:ra36.6",
+          "source_id": "doc-5e5f8f356c53596c8f0a",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/36#36.6",
+          "source_title": "The Law of One — Session 36",
+          "selected_edition_id": "ra:session:036:lightly-edited",
+          "inspected_edition_id": "ra:session:036:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "939a03a62a7a41f8b62fb6dd2afb25509b91afa3c4e93d388efc642c92079eb3",
+          "selected_body_sha256": "939a03a62a7a41f8b62fb6dd2afb25509b91afa3c4e93d388efc642c92079eb3",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete selected printed exchange; not complete session",
+          "locator": {
+            "start_character": 4942,
+            "end_character": 5177,
+            "span_sha256": "6e2912faf37af9be1820489e21dba55ec83d57428df6cb5b2f59de4ca679ed09",
+            "words": 43
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "36.6",
+          "turn_ids": [
+            "ra:036:0012",
+            "ra:036:0013"
+          ]
+        },
+        {
+          "evidence_id": "new:vimeo278735645:full",
+          "source_id": "doc-5d05af83c5625aa1f9dc",
+          "channel_id": "bashar-official",
+          "source_url": "https://vimeo.com/278735645",
+          "source_title": "Bashar :: You Are All Time Travelers - Highlights",
+          "selected_edition_id": "vimeo:278735645:local-asr:9349ac52a9fe2178",
+          "inspected_edition_id": "vimeo:278735645:local-asr:9349ac52a9fe2178",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "6d9bf677ba6bab884bf4865aecb4f7be901bc8bb8748b97961430f72e6938e09",
+          "selected_body_sha256": "6d9bf677ba6bab884bf4865aecb4f7be901bc8bb8748b97961430f72e6938e09",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete retained short-excerpt text; not full paid session or audio listening",
+          "locator": {
+            "start_character": 0,
+            "end_character": 3094,
+            "span_sha256": "6d9bf677ba6bab884bf4865aecb4f7be901bc8bb8748b97961430f72e6938e09",
+            "words": 573
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": []
+    },
+    {
+      "case_id": "council-definition",
+      "title": "A proposed council is not every council",
+      "question_kind": "analyst_comparison",
+      "question": "When the sources use council, are they identifying one organization or different referents?",
+      "relation": "unresolved",
+      "reading": "The Daniel Scranton written message distinguishes its nonphysical ninth-dimensional narrator from a proposed fourth-dimensional council that would meet astrally before physically. The Tracy recording describes Council of Contact as a loose, fluid label for higher incarnational beings. The shared noun is insufficient to identify the same council.",
+      "conditions": "Daniel’s narrator says it would not sit physically on the proposed council and gives no timeframe for physical convening. Tracy’s naming account explicitly allows flexible labels; its separate contact discussion distinguishes isolated appearances from public leadership appearances.",
+      "counter_reading": "Similar names could support a useful comparison question, but treating them as one entity would erase the sources’ own distinctions between narrator, proposed organization and fluid collective.",
+      "limitations": "The old canonical Tracy ASR remains primary. Separate newly inspected Parakeet windows are disclosed as additional editions, not silently substituted source text. No council’s existence or membership is verified.",
+      "qualitative_theme_keys": [
+        "contact",
+        "council_identity",
+        "source_attribution"
+      ],
+      "statements": [
+        {
+          "actor": "Printed ninth-dimensional Arcturian narrator via Daniel Scranton",
+          "proposition": "A separate fourth-dimensional council is proposed, first astral then physical.",
+          "conditions": "The narrator is explicitly not a physical member and declines a date for the physical gathering.",
+          "time_scope": "Published2019 message; no physical-meeting timeframe supplied",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-b31bee1059ae94433f0d"
+        },
+        {
+          "actor": "Unknown ASR speaker in Tracy Kumbera context",
+          "proposition": "Council of Contact is described as a fluid collective with a flexible human label.",
+          "conditions": "Named collective and claimed contact stages need not be a fixed membership organization.",
+          "time_scope": "Relative-year contact language; utterance/event dates not verified",
+          "source_genre": "Canonical baseline machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-fc7068d9aac72f14cd6a"
+        }
+      ],
+      "source_ids": [
+        "doc-b31bee1059ae94433f0d",
+        "doc-fc7068d9aac72f14cd6a"
+      ],
+      "channel_ids": [
+        "daniel-scranton",
+        "tracy-kumbera"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "old:c-timing-daniel:1",
+          "source_id": "doc-b31bee1059ae94433f0d",
+          "channel_id": "daniel-scranton",
+          "source_url": "https://danielscranton.com/a-4th-dimensional-galactic-council-%E2%88%9Ethe-9d-arcturian-council/",
+          "source_title": "A 4th Dimensional Galactic Council ∞The 9D Arcturian Council",
+          "selected_edition_id": "galactic-daniel-20190327",
+          "inspected_edition_id": "galactic-daniel-20190327",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+          "selected_body_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 1516,
+            "end_character": 2600,
+            "span_sha256": "54e89efcd476edd294766606ec8095c1b891bd28c3aa574e7aa808a1fd31bb96",
+            "words": 207
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-timing-daniel",
+          "existing_question_id": "q-timing"
+        },
+        {
+          "evidence_id": "old:c-identity-daniel:1",
+          "source_id": "doc-b31bee1059ae94433f0d",
+          "channel_id": "daniel-scranton",
+          "source_url": "https://danielscranton.com/a-4th-dimensional-galactic-council-%E2%88%9Ethe-9d-arcturian-council/",
+          "source_title": "A 4th Dimensional Galactic Council ∞The 9D Arcturian Council",
+          "selected_edition_id": "galactic-daniel-20190327",
+          "inspected_edition_id": "galactic-daniel-20190327",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+          "selected_body_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 0,
+            "end_character": 84,
+            "span_sha256": "0c7b37786b00836ee97a967a21085a8bc267313908fa3611ce8b0ebaa7d58154",
+            "words": 15
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-identity-daniel",
+          "existing_question_id": "q-identity"
+        },
+        {
+          "evidence_id": "old:c-identity-daniel:2",
+          "source_id": "doc-b31bee1059ae94433f0d",
+          "channel_id": "daniel-scranton",
+          "source_url": "https://danielscranton.com/a-4th-dimensional-galactic-council-%E2%88%9Ethe-9d-arcturian-council/",
+          "source_title": "A 4th Dimensional Galactic Council ∞The 9D Arcturian Council",
+          "selected_edition_id": "galactic-daniel-20190327",
+          "inspected_edition_id": "galactic-daniel-20190327",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+          "selected_body_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 969,
+            "end_character": 1514,
+            "span_sha256": "d343e2c9b155ed3a070483bbddd062cdbfd13ec948c8f7c0f68a34e14f3df8b5",
+            "words": 96
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-identity-daniel",
+          "existing_question_id": "q-identity"
+        },
+        {
+          "evidence_id": "old:c-identity-fluid:1",
+          "source_id": "doc-fc7068d9aac72f14cd6a",
+          "channel_id": "tracy-kumbera",
+          "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+          "source_title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+          "selected_edition_id": "publisher-rss:tracykumbera:rss:4818c71bd66ea72a:asr:tiny-en-v2",
+          "inspected_edition_id": "council-contact-tracy-4818c71bd66ea72a",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+          "selected_body_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 1589,
+            "end_character": 2773,
+            "span_sha256": "cee4736b60698cb5c9556002ef39d5300c71041c27c9333403d53e34de46df42",
+            "words": 214
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-45",
+            "segment-46",
+            "segment-47",
+            "segment-48",
+            "segment-49",
+            "segment-50",
+            "segment-51",
+            "segment-52",
+            "segment-53",
+            "segment-54",
+            "segment-55",
+            "segment-56",
+            "segment-57",
+            "segment-58",
+            "segment-59",
+            "segment-60",
+            "segment-61",
+            "segment-62",
+            "segment-63",
+            "segment-64",
+            "segment-65",
+            "segment-66",
+            "segment-67",
+            "segment-68",
+            "segment-69",
+            "segment-70",
+            "segment-71",
+            "segment-72",
+            "segment-73",
+            "segment-74"
+          ],
+          "start_seconds": 100.6,
+          "end_seconds": 179.2,
+          "existing_card_id": "c-identity-fluid",
+          "existing_question_id": "q-identity"
+        },
+        {
+          "evidence_id": "old:c-timing-contact:1",
+          "source_id": "doc-fc7068d9aac72f14cd6a",
+          "channel_id": "tracy-kumbera",
+          "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+          "source_title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+          "selected_edition_id": "publisher-rss:tracykumbera:rss:4818c71bd66ea72a:asr:tiny-en-v2",
+          "inspected_edition_id": "council-contact-tracy-4818c71bd66ea72a",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+          "selected_body_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 11854,
+            "end_character": 13877,
+            "span_sha256": "9f391263b7041fad870728d4e67be255b3bd95359897f1befbfa187968a9cf7d",
+            "words": 353
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-304",
+            "segment-305",
+            "segment-306",
+            "segment-307",
+            "segment-308",
+            "segment-309",
+            "segment-310",
+            "segment-311",
+            "segment-312",
+            "segment-313",
+            "segment-314",
+            "segment-315",
+            "segment-316",
+            "segment-317",
+            "segment-318",
+            "segment-319",
+            "segment-320",
+            "segment-321",
+            "segment-322",
+            "segment-323",
+            "segment-324",
+            "segment-325",
+            "segment-326",
+            "segment-327",
+            "segment-328",
+            "segment-329",
+            "segment-330",
+            "segment-331",
+            "segment-332",
+            "segment-333",
+            "segment-334",
+            "segment-335",
+            "segment-336",
+            "segment-337",
+            "segment-338",
+            "segment-339",
+            "segment-340",
+            "segment-341",
+            "segment-342",
+            "segment-343",
+            "segment-344",
+            "segment-345",
+            "segment-346",
+            "segment-347",
+            "segment-348",
+            "segment-349",
+            "segment-350",
+            "segment-351",
+            "segment-352",
+            "segment-353",
+            "segment-354",
+            "segment-355",
+            "segment-356",
+            "segment-357",
+            "segment-358"
+          ],
+          "start_seconds": 877.3,
+          "end_seconds": 1050.1,
+          "existing_card_id": "c-timing-contact",
+          "existing_question_id": "q-timing"
+        },
+        {
+          "evidence_id": "old:c-timing-contact:2",
+          "source_id": "doc-fc7068d9aac72f14cd6a",
+          "channel_id": "tracy-kumbera",
+          "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+          "source_title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+          "selected_edition_id": "publisher-rss:tracykumbera:rss:4818c71bd66ea72a:asr:tiny-en-v2",
+          "inspected_edition_id": "council-contact-tracy-4818c71bd66ea72a",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+          "selected_body_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 14155,
+            "end_character": 15074,
+            "span_sha256": "0e8f87f47112a78f89ed691a8474ff465cd221124a1ce16e2fdd55ac3b1ae51c",
+            "words": 159
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-366",
+            "segment-367",
+            "segment-368",
+            "segment-369",
+            "segment-370",
+            "segment-371",
+            "segment-372",
+            "segment-373",
+            "segment-374",
+            "segment-375",
+            "segment-376",
+            "segment-377",
+            "segment-378",
+            "segment-379",
+            "segment-380",
+            "segment-381",
+            "segment-382",
+            "segment-383",
+            "segment-384",
+            "segment-385",
+            "segment-386",
+            "segment-387",
+            "segment-388",
+            "segment-389",
+            "segment-390"
+          ],
+          "start_seconds": 1071.3,
+          "end_seconds": 1140.5,
+          "existing_card_id": "c-timing-contact",
+          "existing_question_id": "q-timing"
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": [
+        "q-identity",
+        "q-timing"
+      ]
+    },
+    {
+      "case_id": "council-timing",
+      "title": "Conditional language is not a calibrated probability",
+      "question_kind": "analyst_comparison",
+      "question": "How should conditional future statements be preserved when comparing these recordings?",
+      "relation": "unresolved",
+      "reading": "The Tracy opening defines the contact under discussion as visibly physical encounters and uses relative-year possibilities. The Pamela interview allows changing timelines but also makes specific election expectations, including repeated choices and possible election-day disruption. Conditional framing should be retained without erasing concrete assertions.",
+      "conditions": "The passages concern different events, audiences and publication contexts. The Pamela claims belong to a mixed interview; no diarization proves which utterance belongs to a purported council. A later portion of that interview explicitly changes to a different claimed speaker.",
+      "counter_reading": "Neither a confident date nor a conditional disclaimer alone provides a calibrated probability. Similar future-oriented language is not a shared prediction or a contradiction; an outcome audit would need frozen event criteria and exact dates.",
+      "limitations": "No forecast success/failure scoring or future safety advice is supplied. Baseline and Parakeet editions are separate; newly recognized wording is not inherited by old cards.",
+      "qualitative_theme_keys": [
+        "time",
+        "contact",
+        "predictions",
+        "source_attribution"
+      ],
+      "statements": [
+        {
+          "actor": "Unknown ASR voice in Tracy Kumbera context",
+          "proposition": "Physical encounters are presented as possibly occurring in the current or following relative year.",
+          "conditions": "Physical landing/approach is distinguished from inward perception or guides.",
+          "time_scope": "Relative-year wording; no event-date verification",
+          "source_genre": "Canonical baseline machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-5340dabed29c4cfedf0a"
+        },
+        {
+          "actor": "Unknown/mixed voices in Pamela Aaralyn interview context",
+          "proposition": "Changing timelines coexist with concrete expectations about election choices and disruption.",
+          "conditions": "The source explicitly denies that the future is fixed; this does not remove its specific expectations.",
+          "time_scope": "US election discussion in its publication context, not the same event as physical contact",
+          "source_genre": "Canonical mixed-interview machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-d2f7efd6635dd16c0353"
+        }
+      ],
+      "source_ids": [
+        "doc-5340dabed29c4cfedf0a",
+        "doc-d2f7efd6635dd16c0353"
+      ],
+      "channel_ids": [
+        "guest-inspire-nation-show-with-michael-sandler",
+        "tracy-kumbera"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "old:c-contact-physical:1",
+          "source_id": "doc-5340dabed29c4cfedf0a",
+          "channel_id": "tracy-kumbera",
+          "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+          "source_title": "First Contact Is Here! Council of Contact Channeled Message",
+          "selected_edition_id": "publisher-rss:tracykumbera:rss:548134ce5946a24d:asr:tiny-en-v2",
+          "inspected_edition_id": "council-contact-tracy-548134ce5946a24d",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "3cea380262cfce78d4f8e0f72f0509a92712041726ed550b393473587621ad4f",
+          "selected_body_sha256": "3cea380262cfce78d4f8e0f72f0509a92712041726ed550b393473587621ad4f",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 0,
+            "end_character": 746,
+            "span_sha256": "942249ece4da2fc80f7caf114f4ae14eeb98223c4da46f9ddc8b9c460f750a1b",
+            "words": 133
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-1",
+            "segment-2",
+            "segment-3",
+            "segment-4",
+            "segment-5",
+            "segment-6",
+            "segment-7",
+            "segment-8",
+            "segment-9",
+            "segment-10",
+            "segment-11",
+            "segment-12",
+            "segment-13",
+            "segment-14",
+            "segment-15",
+            "segment-16",
+            "segment-17",
+            "segment-18",
+            "segment-19"
+          ],
+          "start_seconds": 0.0,
+          "end_seconds": 61.56,
+          "existing_card_id": "c-contact-physical",
+          "existing_question_id": "q-contact"
+        },
+        {
+          "evidence_id": "old:c-contact-physical:2",
+          "source_id": "doc-5340dabed29c4cfedf0a",
+          "channel_id": "tracy-kumbera",
+          "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+          "source_title": "First Contact Is Here! Council of Contact Channeled Message",
+          "selected_edition_id": "publisher-rss:tracykumbera:rss:548134ce5946a24d:asr:tiny-en-v2",
+          "inspected_edition_id": "council-contact-tracy-548134ce5946a24d",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "3cea380262cfce78d4f8e0f72f0509a92712041726ed550b393473587621ad4f",
+          "selected_body_sha256": "3cea380262cfce78d4f8e0f72f0509a92712041726ed550b393473587621ad4f",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 17043,
+            "end_character": 17624,
+            "span_sha256": "0212fe1853d0fa3904ece7b6398e6dfef6b0b4786e0eae8e5dfcec9fa1bb22ee",
+            "words": 113
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-431",
+            "segment-432",
+            "segment-433",
+            "segment-434",
+            "segment-435",
+            "segment-436",
+            "segment-437",
+            "segment-438",
+            "segment-439",
+            "segment-440",
+            "segment-441",
+            "segment-442",
+            "segment-443",
+            "segment-444",
+            "segment-445",
+            "segment-446"
+          ],
+          "start_seconds": 1310.09,
+          "end_seconds": 1358.42,
+          "existing_card_id": "c-contact-physical",
+          "existing_question_id": "q-contact"
+        },
+        {
+          "evidence_id": "old:c-timing-pamela:1",
+          "source_id": "doc-d2f7efd6635dd16c0353",
+          "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+          "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+          "source_title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+          "selected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "inspected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+          "selected_body_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 21630,
+            "end_character": 22587,
+            "span_sha256": "5c04e5f7fb34df440a9e8f36bad029cb99bcfc35faa223b7e276ef2099110dde",
+            "words": 172
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-357",
+            "segment-358",
+            "segment-359",
+            "segment-360",
+            "segment-361",
+            "segment-362",
+            "segment-363",
+            "segment-364",
+            "segment-365",
+            "segment-366",
+            "segment-367"
+          ],
+          "start_seconds": 1387.32,
+          "end_seconds": 1445.52,
+          "existing_card_id": "c-timing-pamela",
+          "existing_question_id": "q-timing"
+        },
+        {
+          "evidence_id": "old:c-timing-pamela:2",
+          "source_id": "doc-d2f7efd6635dd16c0353",
+          "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+          "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+          "source_title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+          "selected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "inspected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+          "selected_body_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 25956,
+            "end_character": 27724,
+            "span_sha256": "af22faf69adabf831f500916523ffab57d38fc44c50c97d0dedcdb3a7fc563c6",
+            "words": 338
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-417",
+            "segment-418",
+            "segment-419",
+            "segment-420",
+            "segment-421",
+            "segment-422",
+            "segment-423",
+            "segment-424",
+            "segment-425",
+            "segment-426",
+            "segment-427",
+            "segment-428",
+            "segment-429",
+            "segment-430",
+            "segment-431",
+            "segment-432",
+            "segment-433",
+            "segment-434",
+            "segment-435",
+            "segment-436",
+            "segment-437"
+          ],
+          "start_seconds": 1695.73,
+          "end_seconds": 1842.5,
+          "existing_card_id": "c-timing-pamela",
+          "existing_question_id": "q-timing"
+        },
+        {
+          "evidence_id": "old:c-identity-pamela:1",
+          "source_id": "doc-d2f7efd6635dd16c0353",
+          "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+          "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+          "source_title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+          "selected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "inspected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+          "selected_body_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 23691,
+            "end_character": 24932,
+            "span_sha256": "41f85291929c12516134a81ded001aac999917c15e6e67ef3e59f40b17ecded3",
+            "words": 229
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-388",
+            "segment-389",
+            "segment-390",
+            "segment-391",
+            "segment-392",
+            "segment-393",
+            "segment-394",
+            "segment-395",
+            "segment-396",
+            "segment-397",
+            "segment-398",
+            "segment-399",
+            "segment-400",
+            "segment-401",
+            "segment-402",
+            "segment-403"
+          ],
+          "start_seconds": 1521.54,
+          "end_seconds": 1600.46,
+          "existing_card_id": "c-identity-pamela",
+          "existing_question_id": "q-identity"
+        },
+        {
+          "evidence_id": "old:c-identity-pamela:2",
+          "source_id": "doc-d2f7efd6635dd16c0353",
+          "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+          "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+          "source_title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+          "selected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "inspected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+          "selected_body_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 59839,
+            "end_character": 60529,
+            "span_sha256": "601d231a469cf9a78916d8e1e595ac17e0635ca85e9725a24567bb4439016b4d",
+            "words": 139
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "segment-897",
+            "segment-898",
+            "segment-899",
+            "segment-900",
+            "segment-901",
+            "segment-902",
+            "segment-903",
+            "segment-904",
+            "segment-905"
+          ],
+          "start_seconds": 4220.18,
+          "end_seconds": 4289.44,
+          "existing_card_id": "c-identity-pamela",
+          "existing_question_id": "q-identity"
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": [
+        "q-contact",
+        "q-identity",
+        "q-timing"
+      ]
+    },
+    {
+      "case_id": "mary-support",
+      "title": "Two Mother Mary labels, two trust referents",
+      "question_kind": "analyst_comparison",
+      "question": "Does advice about trust conflict with advice about personal boundaries?",
+      "relation": "conditional_tension",
+      "reading": "The Natalie Glasson Mother Mary message frames distrust of the Universe or Creator’s support as disconnection from inner love. Pamela Kribbe’s Mother Mary message addresses highly sensitive people losing themselves in draining relationships and allows clearer boundaries or leaving. The immediate referents differ.",
+      "conditions": "A tension appears only if the first message is extended to mean unconditional interpersonal trust. That extension is not the proposition directly stated in the inspected passage.",
+      "counter_reading": "Trust in a metaphysical source and caution in a relationship can coexist. Calling the pair an explicit contradiction would silently substitute one referent for another.",
+      "limitations": "The repeated printed name is not evidence of a common external speaker. Neither text’s psychological or spiritual effects are validated here.",
+      "qualitative_theme_keys": [
+        "boundaries",
+        "care",
+        "source_attribution"
+      ],
+      "statements": [
+        {
+          "actor": "Publisher-attributed Mother Mary via Natalie Glasson",
+          "proposition": "Reconnect with inner love to restore trust in the Universe or Creator.",
+          "conditions": "The stated referent is metaphysical support, not a named interpersonal relationship.",
+          "time_scope": "General practice",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-fc7d9bd99fbcd4be1672"
+        },
+        {
+          "actor": "Publisher-attributed Mother Mary via Pamela Kribbe",
+          "proposition": "Protect an inner-child sense of self and assess boundaries in draining situations.",
+          "conditions": "Clearer expression or leaving is presented as situationally appropriate, not universally required.",
+          "time_scope": "Everyday relationship example",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-8bb867bca47a5549ad85"
+        }
+      ],
+      "source_ids": [
+        "doc-8bb867bca47a5549ad85",
+        "doc-fc7d9bd99fbcd4be1672"
+      ],
+      "channel_ids": [
+        "natalie-glasson-omna",
+        "pamela-rose-kribbe"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "old:c-care-mary-trust:1",
+          "source_id": "doc-fc7d9bd99fbcd4be1672",
+          "channel_id": "natalie-glasson-omna",
+          "source_url": "https://omna.org/do-you-trust-the-universe-by-mother-mary/",
+          "source_title": "Do You Trust The Universe? by Mother Mary",
+          "selected_edition_id": "tr-source-omna-mary",
+          "inspected_edition_id": "tr-source-omna-mary",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "fc86e6514236643b2e5b15c214cf5f5a35403e5a4388f07e5485c695900f60ce",
+          "selected_body_sha256": "fc86e6514236643b2e5b15c214cf5f5a35403e5a4388f07e5485c695900f60ce",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 2276,
+            "end_character": 3987,
+            "span_sha256": "43783369d052a1f5ad0a5c7e3a562762620b87b15a0ae340a19bad9b21217da7",
+            "words": 306
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-care-mary-trust",
+          "existing_question_id": "q-care"
+        },
+        {
+          "evidence_id": "old:c-care-mary-boundaries:1",
+          "source_id": "doc-8bb867bca47a5549ad85",
+          "channel_id": "pamela-rose-kribbe",
+          "source_url": "https://www.jeshua.net/channelings/mother-mary/high-sensitivity/",
+          "source_title": "High Sensitivity | The Jeshua Channelings",
+          "selected_edition_id": "tr-source-jeshua-mary-full",
+          "inspected_edition_id": "tr-source-jeshua-mary-full",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "6fb0a6509e64eed49e0abc7ca5ce1267d2e294c9238783afd18f87b6eb7d54b3",
+          "selected_body_sha256": "6fb0a6509e64eed49e0abc7ca5ce1267d2e294c9238783afd18f87b6eb7d54b3",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 3336,
+            "end_character": 3588,
+            "span_sha256": "6c4818886af9366239e64675f7a026440290c442a11293eac44f093aba6bd046",
+            "words": 41
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-care-mary-boundaries",
+          "existing_question_id": "q-care"
+        },
+        {
+          "evidence_id": "old:c-care-mary-boundaries:2",
+          "source_id": "doc-8bb867bca47a5549ad85",
+          "channel_id": "pamela-rose-kribbe",
+          "source_url": "https://www.jeshua.net/channelings/mother-mary/high-sensitivity/",
+          "source_title": "High Sensitivity | The Jeshua Channelings",
+          "selected_edition_id": "tr-source-jeshua-mary-full",
+          "inspected_edition_id": "tr-source-jeshua-mary-full",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "6fb0a6509e64eed49e0abc7ca5ce1267d2e294c9238783afd18f87b6eb7d54b3",
+          "selected_body_sha256": "6fb0a6509e64eed49e0abc7ca5ce1267d2e294c9238783afd18f87b6eb7d54b3",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 4616,
+            "end_character": 6090,
+            "span_sha256": "e46131dfe5b3cdfd43149c145977778fcd88c0b3d93ab41eb63f99091536d7dd",
+            "words": 277
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-care-mary-boundaries",
+          "existing_question_id": "q-care"
+        },
+        {
+          "evidence_id": "old:c-care-mary-boundaries:3",
+          "source_id": "doc-8bb867bca47a5549ad85",
+          "channel_id": "pamela-rose-kribbe",
+          "source_url": "https://www.jeshua.net/channelings/mother-mary/high-sensitivity/",
+          "source_title": "High Sensitivity | The Jeshua Channelings",
+          "selected_edition_id": "tr-source-jeshua-mary-full",
+          "inspected_edition_id": "tr-source-jeshua-mary-full",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "6fb0a6509e64eed49e0abc7ca5ce1267d2e294c9238783afd18f87b6eb7d54b3",
+          "selected_body_sha256": "6fb0a6509e64eed49e0abc7ca5ce1267d2e294c9238783afd18f87b6eb7d54b3",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 6091,
+            "end_character": 6633,
+            "span_sha256": "819187702ddb3ea63b895ce8085093a66ade902808c24ecda7d3a4fbef3301bd",
+            "words": 102
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-care-mary-boundaries",
+          "existing_question_id": "q-care"
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": [
+        "q-care"
+      ]
+    },
+    {
+      "case_id": "magdalene-change",
+      "title": "Grace and shadow are different practice frames",
+      "question_kind": "analyst_comparison",
+      "question": "How do the same-name messages frame personal transformation?",
+      "relation": "different_focus",
+      "reading": "The Natalie Glasson Mary Magdalene passage offers a voluntary grace-embrace initiation and claims that acceptance changes one’s relationship with experience. Pamela Kribbe’s Mary Magdalene passage recommends conscious engagement with emotional shadow and desire, while acknowledging that unbalanced energies can be manipulative. Both discuss transformation, with distinct practical frames.",
+      "conditions": "The first is an optional named initiation; the second pairs acceptance with awareness and does not endorse every impulse. Healing language remains a source claim.",
+      "counter_reading": "A common label and acceptance vocabulary do not make the practices identical. Conversely, different imagery does not prove that the scoped practices conflict.",
+      "limitations": "These two deliberately selected messages cannot establish the prevalence of either theme across a medium’s output or the identity of an attributed speaker.",
+      "qualitative_theme_keys": [
+        "transformation",
+        "care",
+        "practices"
+      ],
+      "statements": [
+        {
+          "actor": "Publisher-attributed Mary Magdalene via Natalie Glasson",
+          "proposition": "Use a voluntarily requested grace-embrace initiation to transform relationship and perception.",
+          "conditions": "The practice is described as chosen; metaphysical/healing effects are asserted, not measured.",
+          "time_scope": "General initiation/practice",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-94024a1a8db1b2d2f62e"
+        },
+        {
+          "actor": "Publisher-attributed Mary Magdalene via Pamela Kribbe",
+          "proposition": "Acknowledge emotional shadow and desire through awareness rather than suppression.",
+          "conditions": "The source also acknowledges dominating or manipulative possibilities; acceptance is not blanket approval.",
+          "time_scope": "General integration practice",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-ba9a74869794e672bb8a"
+        }
+      ],
+      "source_ids": [
+        "doc-94024a1a8db1b2d2f62e",
+        "doc-ba9a74869794e672bb8a"
+      ],
+      "channel_ids": [
+        "natalie-glasson-omna",
+        "pamela-rose-kribbe"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "old:c-change-grace:1",
+          "source_id": "doc-94024a1a8db1b2d2f62e",
+          "channel_id": "natalie-glasson-omna",
+          "source_url": "https://omna.org/grace-embrace-initiation-by-mary-magdalene/",
+          "source_title": "Grace Embrace Initiation by Mary Magdalene",
+          "selected_edition_id": "tr-source-omna-magdalene",
+          "inspected_edition_id": "tr-source-omna-magdalene",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "6aa961a0aaad90289e6e47135e1f827257021fe1266e6bf5d4eb920fd380e30e",
+          "selected_body_sha256": "6aa961a0aaad90289e6e47135e1f827257021fe1266e6bf5d4eb920fd380e30e",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 2386,
+            "end_character": 3689,
+            "span_sha256": "ae8799c31ec010c868aa5d495da83a2dbc991f0f2fb4bbcea76b65576c6631f0",
+            "words": 202
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-change-grace",
+          "existing_question_id": "q-change"
+        },
+        {
+          "evidence_id": "old:c-change-grace:2",
+          "source_id": "doc-94024a1a8db1b2d2f62e",
+          "channel_id": "natalie-glasson-omna",
+          "source_url": "https://omna.org/grace-embrace-initiation-by-mary-magdalene/",
+          "source_title": "Grace Embrace Initiation by Mary Magdalene",
+          "selected_edition_id": "tr-source-omna-magdalene",
+          "inspected_edition_id": "tr-source-omna-magdalene",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "6aa961a0aaad90289e6e47135e1f827257021fe1266e6bf5d4eb920fd380e30e",
+          "selected_body_sha256": "6aa961a0aaad90289e6e47135e1f827257021fe1266e6bf5d4eb920fd380e30e",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 4945,
+            "end_character": 5287,
+            "span_sha256": "05d7d2274e3a68ef27d38a03b139fdb02370f18157b87156a70adb11e87816a4",
+            "words": 63
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-change-grace",
+          "existing_question_id": "q-change"
+        },
+        {
+          "evidence_id": "old:c-change-shadow:1",
+          "source_id": "doc-ba9a74869794e672bb8a",
+          "channel_id": "pamela-rose-kribbe",
+          "source_url": "https://www.jeshua.net/channelings/mary-magdalene/the-fire-in-your-belly/",
+          "source_title": "The Fire in Your Belly | The Jeshua Channelings",
+          "selected_edition_id": "tr-source-jeshua-magdalene-full",
+          "inspected_edition_id": "tr-source-jeshua-magdalene-full",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "a2d6829981f1714166c5ef6cfe5d4adc70134a3dc9a31445592cda4b6feb7b4b",
+          "selected_body_sha256": "a2d6829981f1714166c5ef6cfe5d4adc70134a3dc9a31445592cda4b6feb7b4b",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 5798,
+            "end_character": 6238,
+            "span_sha256": "5b3b7fa0abe3be943cebd57333ada6e66a6a60eadb89ae2700f6b51ef352dcd5",
+            "words": 83
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-change-shadow",
+          "existing_question_id": "q-change"
+        },
+        {
+          "evidence_id": "old:c-change-shadow:2",
+          "source_id": "doc-ba9a74869794e672bb8a",
+          "channel_id": "pamela-rose-kribbe",
+          "source_url": "https://www.jeshua.net/channelings/mary-magdalene/the-fire-in-your-belly/",
+          "source_title": "The Fire in Your Belly | The Jeshua Channelings",
+          "selected_edition_id": "tr-source-jeshua-magdalene-full",
+          "inspected_edition_id": "tr-source-jeshua-magdalene-full",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "a2d6829981f1714166c5ef6cfe5d4adc70134a3dc9a31445592cda4b6feb7b4b",
+          "selected_body_sha256": "a2d6829981f1714166c5ef6cfe5d4adc70134a3dc9a31445592cda4b6feb7b4b",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 7658,
+            "end_character": 8610,
+            "span_sha256": "c118c92cf569ffcfbe9553e7fb1fc5a3029229e6c1ae02a72919b6997b03b847",
+            "words": 175
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-change-shadow",
+          "existing_question_id": "q-change"
+        },
+        {
+          "evidence_id": "old:c-change-shadow:3",
+          "source_id": "doc-ba9a74869794e672bb8a",
+          "channel_id": "pamela-rose-kribbe",
+          "source_url": "https://www.jeshua.net/channelings/mary-magdalene/the-fire-in-your-belly/",
+          "source_title": "The Fire in Your Belly | The Jeshua Channelings",
+          "selected_edition_id": "tr-source-jeshua-magdalene-full",
+          "inspected_edition_id": "tr-source-jeshua-magdalene-full",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "a2d6829981f1714166c5ef6cfe5d4adc70134a3dc9a31445592cda4b6feb7b4b",
+          "selected_body_sha256": "a2d6829981f1714166c5ef6cfe5d4adc70134a3dc9a31445592cda4b6feb7b4b",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 9114,
+            "end_character": 9584,
+            "span_sha256": "da1ef5aa9babc1674e988237293d20a7246201c0e5e7e880119fc59527f995be",
+            "words": 90
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-change-shadow",
+          "existing_question_id": "q-change"
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": [
+        "q-change"
+      ]
+    },
+    {
+      "case_id": "mediation-optional",
+      "title": "Optional invocation and direct access",
+      "question_kind": "analyst_comparison",
+      "question": "Does an offered invocation require a hierarchy that the other passage rejects?",
+      "relation": "compatible",
+      "reading": "The Andromedan passage offers an optional meditation with the named beings and explicitly permits the exercise with any being or the Creator. The Jeshua passage says connection with the One does not require a hierarchy and treats teachers or channeling as possible tools. Under those stated conditions, the propositions can coexist.",
+      "conditions": "Compatibility depends on preserving optionality and the distinction between a tool and an indispensable authority.",
+      "counter_reading": "If a later source made the invocation mandatory or exclusive, this comparison would need revision. These two passages do not establish that broader claim.",
+      "limitations": "Compatibility is a narrow source-reading relation, not equal meaning, shared identity or efficacy of invocation.",
+      "qualitative_theme_keys": [
+        "mediation",
+        "practices",
+        "agency"
+      ],
+      "statements": [
+        {
+          "actor": "Publisher-attributed Andromedans via Natalie Glasson",
+          "proposition": "An invocation is offered as an optional way to experience oneness.",
+          "conditions": "The text permits other beings or the Creator; the named group is not exclusive.",
+          "time_scope": "Voluntary practice",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-27c094919618b2ec885b"
+        },
+        {
+          "actor": "Publisher-attributed Jeshua via Pamela Kribbe",
+          "proposition": "Direct connection to the One requires no spiritual hierarchy.",
+          "conditions": "Teachers, guides and forms can be tools rather than the source of the connection.",
+          "time_scope": "General spiritual account",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-5dc6a299562a41aa3fc2"
+        }
+      ],
+      "source_ids": [
+        "doc-27c094919618b2ec885b",
+        "doc-5dc6a299562a41aa3fc2"
+      ],
+      "channel_ids": [
+        "natalie-glasson-omna",
+        "pamela-rose-kribbe"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "old:c-mediation-andromedan:1",
+          "source_id": "doc-27c094919618b2ec885b",
+          "channel_id": "natalie-glasson-omna",
+          "source_url": "https://omna.org/celestial-andromedan-innovations-by-the-andromedans/",
+          "source_title": "Celestial Andromedan Innovations by the Andromedans",
+          "selected_edition_id": "tr-source-omna-andromedans",
+          "inspected_edition_id": "tr-source-omna-andromedans",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "ffebc2673c71e2522c75be294af172f2832aa8c7c831a2097b1248fc30bb9e82",
+          "selected_body_sha256": "ffebc2673c71e2522c75be294af172f2832aa8c7c831a2097b1248fc30bb9e82",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 329,
+            "end_character": 703,
+            "span_sha256": "4251f5bf71f77ffebaf64e6dfc16463c89ec9034904ff786cde85257ec4f7fd1",
+            "words": 66
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-mediation-andromedan",
+          "existing_question_id": "q-mediation"
+        },
+        {
+          "evidence_id": "old:c-mediation-andromedan:2",
+          "source_id": "doc-27c094919618b2ec885b",
+          "channel_id": "natalie-glasson-omna",
+          "source_url": "https://omna.org/celestial-andromedan-innovations-by-the-andromedans/",
+          "source_title": "Celestial Andromedan Innovations by the Andromedans",
+          "selected_edition_id": "tr-source-omna-andromedans",
+          "inspected_edition_id": "tr-source-omna-andromedans",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "ffebc2673c71e2522c75be294af172f2832aa8c7c831a2097b1248fc30bb9e82",
+          "selected_body_sha256": "ffebc2673c71e2522c75be294af172f2832aa8c7c831a2097b1248fc30bb9e82",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 3921,
+            "end_character": 4346,
+            "span_sha256": "81a3824a5b51324cb772ea064c66185d9b09de443fec48a6ce4959197a40798d",
+            "words": 79
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-mediation-andromedan",
+          "existing_question_id": "q-mediation"
+        },
+        {
+          "evidence_id": "old:c-mediation-jeshua:1",
+          "source_id": "doc-5dc6a299562a41aa3fc2",
+          "channel_id": "pamela-rose-kribbe",
+          "source_url": "https://www.jeshua.net/channelings/mornings-with-jeshua/the-one-and-the-many/",
+          "source_title": "The One and the Many | The Jeshua Channelings",
+          "selected_edition_id": "tr-source-jeshua-mornings-one-many",
+          "inspected_edition_id": "tr-source-jeshua-mornings-one-many",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "0578eca823db5babf3a7a8f9ded1c66a7878eb4a9d0d31e2c9a90ae05cb5f49e",
+          "selected_body_sha256": "0578eca823db5babf3a7a8f9ded1c66a7878eb4a9d0d31e2c9a90ae05cb5f49e",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 3360,
+            "end_character": 3720,
+            "span_sha256": "3fa8bdf518895fe02b8d16acb109947da5c1baac861fe5b8ccd0f06308f14ac0",
+            "words": 65
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-mediation-jeshua",
+          "existing_question_id": "q-mediation"
+        },
+        {
+          "evidence_id": "old:c-mediation-jeshua:2",
+          "source_id": "doc-5dc6a299562a41aa3fc2",
+          "channel_id": "pamela-rose-kribbe",
+          "source_url": "https://www.jeshua.net/channelings/mornings-with-jeshua/the-one-and-the-many/",
+          "source_title": "The One and the Many | The Jeshua Channelings",
+          "selected_edition_id": "tr-source-jeshua-mornings-one-many",
+          "inspected_edition_id": "tr-source-jeshua-mornings-one-many",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "0578eca823db5babf3a7a8f9ded1c66a7878eb4a9d0d31e2c9a90ae05cb5f49e",
+          "selected_body_sha256": "0578eca823db5babf3a7a8f9ded1c66a7878eb4a9d0d31e2c9a90ae05cb5f49e",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 8306,
+            "end_character": 9062,
+            "span_sha256": "1f7042b49e103dfc03f1507cedb9b9499c7310eeeeadb48041e16a855a13c32a",
+            "words": 142
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-mediation-jeshua",
+          "existing_question_id": "q-mediation"
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": [
+        "q-mediation"
+      ]
+    },
+    {
+      "case_id": "michael-awareness",
+      "title": "Attention during change and contemplative recognition",
+      "question_kind": "analyst_comparison",
+      "question": "What common practical element survives different religious or cosmological language?",
+      "relation": "shared_proposition",
+      "reading": "The Michael message directs attention inward toward a supposedly stable core during rapid change, beginning with awareness of body and surroundings and breathing. Ra 10.14 proposes deliberate awareness of love and recognition of the Creator, with a contemplative foundation. A narrow common element is the recommendation to direct attention deliberately rather than merely react.",
+      "conditions": "The objects and claimed reasons for attention differ: an unwavering inner core in one text and love/Creator recognition in the other. The comparison does not merge those ontologies.",
+      "counter_reading": "Attention is a broad practice shared by many traditions. This parallel is too general to infer influence, common authorship or a shared source.",
+      "limitations": "The Michael body was read completely; only the selected Ra exchange was read for this comparison. No meditation outcome or religious truth claim is tested.",
+      "qualitative_theme_keys": [
+        "practices",
+        "attention",
+        "worldview"
+      ],
+      "statements": [
+        {
+          "actor": "Publisher-attributed Archangel Michael via Natalie Glasson",
+          "proposition": "During change, attend to an inner anchor through awareness and breathing.",
+          "conditions": "The passage frames this as access to an eternal inner energy; that premise is unverified.",
+          "time_scope": "General response to perceived accelerated change",
+          "source_genre": "Publisher-written message",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-1ea8241d5d809106ce98"
+        },
+        {
+          "actor": "Printed Ra response",
+          "proposition": "Practice deliberate recognition of love and the Creator.",
+          "conditions": "Meditation, contemplation or prayer is the stated foundation.",
+          "time_scope": "General exercise",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-317eaf1f0e687225043c"
+        }
+      ],
+      "source_ids": [
+        "doc-1ea8241d5d809106ce98",
+        "doc-317eaf1f0e687225043c"
+      ],
+      "channel_ids": [
+        "natalie-glasson-omna",
+        "ra-law-of-one"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "new:omna-michael:full",
+          "source_id": "doc-1ea8241d5d809106ce98",
+          "channel_id": "natalie-glasson-omna",
+          "source_url": "https://omna.org/everything-is-changing-by-archangel-michael/",
+          "source_title": "Everything Is Changing by Archangel Michael",
+          "selected_edition_id": "tr-source-omna-michael",
+          "inspected_edition_id": "tr-source-omna-michael",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "30f3227b6c915685c2c00d9471991d808229b826092599b73dbf86b3dae2eda7",
+          "selected_body_sha256": "30f3227b6c915685c2c00d9471991d808229b826092599b73dbf86b3dae2eda7",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "Complete retained publisher-written body; audio not inspected",
+          "locator": {
+            "start_character": 0,
+            "end_character": 3608,
+            "span_sha256": "30f3227b6c915685c2c00d9471991d808229b826092599b73dbf86b3dae2eda7",
+            "words": 596
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false
+        },
+        {
+          "evidence_id": "new:ra10.14",
+          "source_id": "doc-317eaf1f0e687225043c",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/10#10.14",
+          "source_title": "The Law of One — Session 10",
+          "selected_edition_id": "ra:session:010:lightly-edited",
+          "inspected_edition_id": "ra:session:010:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "b201736f54ef9aa2dd6d78d123eb1b730819c66d79f10d5fc07005023ff604d2",
+          "selected_body_sha256": "b201736f54ef9aa2dd6d78d123eb1b730819c66d79f10d5fc07005023ff604d2",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete selected printed exchange; not complete session",
+          "locator": {
+            "start_character": 9498,
+            "end_character": 11170,
+            "span_sha256": "eff3380d1449f6788ba688ced1786b2f54b6eb210f5013e459c7853240216e64",
+            "words": 276
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "10.14",
+          "turn_ids": [
+            "ra:010:0028",
+            "ra:010:0029"
+          ]
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": []
+    },
+    {
+      "case_id": "reception-genre",
+      "title": "A topic mention can be commentary rather than endorsement",
+      "question_kind": "analyst_comparison",
+      "question": "Why should skeptical reception and official highlights remain different source contexts?",
+      "relation": "different_focus",
+      "reading": "The retained Ross and Carrie window recounts an interview and channeling performance, including a joke about a non-specific prediction. The official Open Contact highlight opens with disclosure framing but devotes most of its retained text to life lessons, free choice and a soul-school analogy. A shared Bashar/contact label conceals different genres and local content.",
+      "conditions": "The commentary is a second-hand reception account with unknown individual ASR voices. The official highlight is an edited publication with automatic captions; its title is not a full semantic description of every passage.",
+      "counter_reading": "Skeptical mention does not imply endorsement, while an official label does not authenticate a speaker or establish that all content concerns contact. Neither source should be reduced to title keywords.",
+      "limitations": "Only one fixed commentary window and one complete short highlight were inspected. This does not classify all remarks by either publisher or score a historical prediction.",
+      "qualitative_theme_keys": [
+        "source_genre",
+        "contact",
+        "epistemic_limits"
+      ],
+      "statements": [
+        {
+          "actor": "Unknown ASR commentators in Ross and Carrie reception context",
+          "proposition": "A reported performance and question sequence are discussed with humor and skepticism.",
+          "conditions": "This is a report about a claimed channeling event, not a verified entity answer.",
+          "time_scope": "Recounted past encounter",
+          "source_genre": "Skeptical commentary machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-f7aafb3326f649560466"
+        },
+        {
+          "actor": "Unknown captioned voices in official Bashar highlight",
+          "proposition": "An introduction frames contact progress, followed by discussion of lessons, choice and a soul-school analogy.",
+          "conditions": "A selected highlight is neither a full session nor a title-only topic classification.",
+          "time_scope": "General life-course account within a contact-titled publication",
+          "source_genre": "Official short highlight with automatic captions",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-7309209c2909e9517bb9"
+        }
+      ],
+      "source_ids": [
+        "doc-7309209c2909e9517bb9",
+        "doc-f7aafb3326f649560466"
+      ],
+      "channel_ids": [
+        "bashar-official",
+        "guest-oh-no-ross-and-carrie"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "new:skeptical-midpoint",
+          "source_id": "doc-f7aafb3326f649560466",
+          "channel_id": "guest-oh-no-ross-and-carrie",
+          "source_url": "https://feeds.simplecast.com/ftB6Gihc",
+          "source_title": "Ross and Carrie Consult Bashar: Multi-Dimensional Channeler Edition",
+          "selected_edition_id": "rss-425328515-addbc47ecbd7",
+          "inspected_edition_id": "rss-425328515-addbc47ecbd7",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "e0a34e995a6b7a4a765e16c5ce90c65580b629e9d1f37e97fc143342af42ebc9",
+          "selected_body_sha256": "e0a34e995a6b7a4a765e16c5ce90c65580b629e9d1f37e97fc143342af42ebc9",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_prior_fixed_window",
+          "read_scope": "Fresh reading of previously fixed midpoint window; reception commentary with unknown individual ASR speaker",
+          "locator": {
+            "start_character": 52554,
+            "end_character": 53762,
+            "span_sha256": "55032b3ded179c3ecf11828dccc3b4b61ddc81963ee269cf5518271f46b1510a",
+            "words": 226
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "turn_ids": [
+            "rss-425328515-addbc47ecbd7:asr:1272",
+            "rss-425328515-addbc47ecbd7:asr:1273",
+            "rss-425328515-addbc47ecbd7:asr:1274",
+            "rss-425328515-addbc47ecbd7:asr:1275",
+            "rss-425328515-addbc47ecbd7:asr:1276",
+            "rss-425328515-addbc47ecbd7:asr:1277",
+            "rss-425328515-addbc47ecbd7:asr:1278",
+            "rss-425328515-addbc47ecbd7:asr:1279",
+            "rss-425328515-addbc47ecbd7:asr:1280",
+            "rss-425328515-addbc47ecbd7:asr:1281",
+            "rss-425328515-addbc47ecbd7:asr:1282",
+            "rss-425328515-addbc47ecbd7:asr:1283",
+            "rss-425328515-addbc47ecbd7:asr:1284",
+            "rss-425328515-addbc47ecbd7:asr:1285",
+            "rss-425328515-addbc47ecbd7:asr:1286",
+            "rss-425328515-addbc47ecbd7:asr:1287",
+            "rss-425328515-addbc47ecbd7:asr:1288",
+            "rss-425328515-addbc47ecbd7:asr:1289",
+            "rss-425328515-addbc47ecbd7:asr:1290",
+            "rss-425328515-addbc47ecbd7:asr:1291",
+            "rss-425328515-addbc47ecbd7:asr:1292",
+            "rss-425328515-addbc47ecbd7:asr:1293",
+            "rss-425328515-addbc47ecbd7:asr:1294",
+            "rss-425328515-addbc47ecbd7:asr:1295",
+            "rss-425328515-addbc47ecbd7:asr:1296",
+            "rss-425328515-addbc47ecbd7:asr:1297",
+            "rss-425328515-addbc47ecbd7:asr:1298",
+            "rss-425328515-addbc47ecbd7:asr:1299"
+          ],
+          "start_seconds": 3303.71,
+          "end_seconds": 3380.55
+        },
+        {
+          "evidence_id": "new:vimeo1232083694:full",
+          "source_id": "doc-7309209c2909e9517bb9",
+          "channel_id": "bashar-official",
+          "source_url": "https://vimeo.com/1232083694",
+          "source_title": "Bashar :: The Open Contact Progress Report Day 1 - Highlights",
+          "selected_edition_id": "vimeo:1232083694:captions:en-x-autogen",
+          "inspected_edition_id": "vimeo:1232083694:captions:en-x-autogen",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "539c3efde8ea45506721347a675a1d2a1e43537361d16d45984189084892bece",
+          "selected_body_sha256": "539c3efde8ea45506721347a675a1d2a1e43537361d16d45984189084892bece",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete retained short-excerpt text; not full paid session or audio listening",
+          "locator": {
+            "start_character": 0,
+            "end_character": 5053,
+            "span_sha256": "539c3efde8ea45506721347a675a1d2a1e43537361d16d45984189084892bece",
+            "words": 963
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": []
+    },
+    {
+      "case_id": "preparedness",
+      "title": "Skills, collaborators and community",
+      "question_kind": "analyst_comparison",
+      "question": "What limited practical overlap exists between these preparedness passages?",
+      "relation": "shared_proposition",
+      "reading": "The Lyssa/Sasha excerpt recommends developing tangible skills and explicitly distinguishes community sharing from isolated hoarding. The Bashar Passion Principle excerpt includes learning relevant skills and collaborating with excited people before persistence. The limited shared proposition is that preparation can include skills and cooperative action.",
+      "conditions": "Lyssa’s source also contains economic and investment assertions presented as suggestions and individual choices; those are separate from the narrow skills/community overlap. The Bashar example concerns a project or career.",
+      "counter_reading": "Skills and cooperation are commonplace advice. They neither establish a shared channeled civilization nor validate the surrounding financial or metaphysical claims.",
+      "limitations": "This comparison is not investment advice, an outcome study, or a claim that both sources answered the same documentary audience question.",
+      "qualitative_theme_keys": [
+        "preparedness",
+        "agency",
+        "community"
+      ],
+      "statements": [
+        {
+          "actor": "Publisher-attributed Sasha via Lyssa Royal Holt",
+          "proposition": "Develop skills/resources and participate in voluntary sharing rather than isolated hoarding.",
+          "conditions": "Suggestions retain individual choice; specific investment claims are not established evidence of financial safety.",
+          "time_scope": "Preparedness during the source’s described instability",
+          "source_genre": "Publisher-written question/response excerpt",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-18bb7497fb6e237c960b"
+        },
+        {
+          "actor": "Unknown ASR voice in official Bashar excerpt",
+          "proposition": "Acquire project-relevant skills and collaborate before persistent action.",
+          "conditions": "Preparations are tied to a project that fits the stated passion criterion.",
+          "time_scope": "General project example",
+          "source_genre": "Official highlight machine transcript",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-b58fc24bd9c05128dce9"
+        }
+      ],
+      "source_ids": [
+        "doc-18bb7497fb6e237c960b",
+        "doc-b58fc24bd9c05128dce9"
+      ],
+      "channel_ids": [
+        "bashar-official",
+        "lyssa-royal-holt"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "old:c-agency-lyssa:1",
+          "source_id": "doc-18bb7497fb6e237c960b",
+          "channel_id": "lyssa-royal-holt",
+          "source_url": "https://www.lyssaroyal.net/uploads/1/5/7/1/15716170/tran-preparedness138.pdf",
+          "source_title": "Preparedness: Exploring the True Definitions of Wealth — excerpt #138",
+          "selected_edition_id": "new-et-lyssa-preparedness-138",
+          "inspected_edition_id": "new-et-lyssa-preparedness-138",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "18299c1b98ae2815f3ce5cfbff4590c36f4d821dab35e0e78e239124eef4eca6",
+          "selected_body_sha256": "18299c1b98ae2815f3ce5cfbff4590c36f4d821dab35e0e78e239124eef4eca6",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 4672,
+            "end_character": 7550,
+            "span_sha256": "c6a0ce082a4dc22f157239bee77f0ccc1046c1caa0417dd8704ed4fefdb3b56b",
+            "words": 520
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-agency-lyssa",
+          "existing_question_id": "q-agency"
+        },
+        {
+          "evidence_id": "old:c-agency-lyssa:2",
+          "source_id": "doc-18bb7497fb6e237c960b",
+          "channel_id": "lyssa-royal-holt",
+          "source_url": "https://www.lyssaroyal.net/uploads/1/5/7/1/15716170/tran-preparedness138.pdf",
+          "source_title": "Preparedness: Exploring the True Definitions of Wealth — excerpt #138",
+          "selected_edition_id": "new-et-lyssa-preparedness-138",
+          "inspected_edition_id": "new-et-lyssa-preparedness-138",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "18299c1b98ae2815f3ce5cfbff4590c36f4d821dab35e0e78e239124eef4eca6",
+          "selected_body_sha256": "18299c1b98ae2815f3ce5cfbff4590c36f4d821dab35e0e78e239124eef4eca6",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 8481,
+            "end_character": 9420,
+            "span_sha256": "d74175eb8c3c0ee2825bdf6c6362eaa2d6d4624d769a4bf4badaeccab3ae35ea",
+            "words": 168
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-agency-lyssa",
+          "existing_question_id": "q-agency"
+        },
+        {
+          "evidence_id": "old:c-agency-lyssa:3",
+          "source_id": "doc-18bb7497fb6e237c960b",
+          "channel_id": "lyssa-royal-holt",
+          "source_url": "https://www.lyssaroyal.net/uploads/1/5/7/1/15716170/tran-preparedness138.pdf",
+          "source_title": "Preparedness: Exploring the True Definitions of Wealth — excerpt #138",
+          "selected_edition_id": "new-et-lyssa-preparedness-138",
+          "inspected_edition_id": "new-et-lyssa-preparedness-138",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "18299c1b98ae2815f3ce5cfbff4590c36f4d821dab35e0e78e239124eef4eca6",
+          "selected_body_sha256": "18299c1b98ae2815f3ce5cfbff4590c36f4d821dab35e0e78e239124eef4eca6",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_reinspection_of_accepted_card_support",
+          "read_scope": "Fresh exact-span reinspection of accepted old-edition card support; prior complete-body reading not credited in this pass",
+          "locator": {
+            "start_character": 11820,
+            "end_character": 11980,
+            "span_sha256": "f7d88cf3d13cd9ad3db28c3e44293490a345a6fe2a50f6ab3268f25d428d5173",
+            "words": 28
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "existing_card_id": "c-agency-lyssa",
+          "existing_question_id": "q-agency"
+        },
+        {
+          "evidence_id": "new:vimeo204086275:full",
+          "source_id": "doc-b58fc24bd9c05128dce9",
+          "channel_id": "bashar-official",
+          "source_url": "https://vimeo.com/204086275",
+          "source_title": "The Passion Principle highlights",
+          "selected_edition_id": "vimeo:204072408:local-asr:300b1b8516acf113",
+          "inspected_edition_id": "vimeo:204086275:local-asr:3d7a4cbea6dbb320",
+          "canonical_join_basis": "exact_complete_normalized_body_alias_explicitly_reviewed",
+          "edition_text_sha256": "7d65f3fd1bd49d721230dccced28a45b0ce9a3bf315cadef70bb6d8110627f9e",
+          "selected_body_sha256": "7d65f3fd1bd49d721230dccced28a45b0ce9a3bf315cadef70bb6d8110627f9e",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "complete retained short-excerpt text; not full paid session or audio listening",
+          "locator": {
+            "start_character": 0,
+            "end_character": 3791,
+            "span_sha256": "7d65f3fd1bd49d721230dccced28a45b0ce9a3bf315cadef70bb6d8110627f9e",
+            "words": 685
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": [
+        "q-agency"
+      ]
+    },
+    {
+      "case_id": "answer-limits",
+      "title": "A refusal, a reframed question and a correction",
+      "question_kind": "analyst_comparison",
+      "question": "When does a printed question fail to establish an affirmative answer to its premise?",
+      "relation": "different_focus",
+      "reading": "Ra 68.9 declines an individualized density question under its first-distortion rule;68.10 answers a reframed generic hypothetical. Ra 77.15 explicitly rejects the questioner’s description before distinguishing kinds of intensity. These exchanges illustrate why prompt vocabulary cannot be treated as an endorsed answer.",
+      "conditions": "The shift from a particular person to a generic hypothetical matters. The77.15 qualification depends on the source’s interpretation of the question, and the corrected density comparison is not the same proposition as the refused 68.9 question.",
+      "counter_reading": "A refusal is not evidence of either agreement or disagreement with an unstated answer. A later hypothetical answer does not automatically license the originally refused personal inference.",
+      "limitations": "This is a documentary dialogue control, not validation of density categories or an explicit contradiction between two sources. Additional nearby Ra 68 exchanges were inspected and remain in the reading denominator.",
+      "qualitative_theme_keys": [
+        "epistemic_limits",
+        "question_structure",
+        "source_attribution"
+      ],
+      "statements": [
+        {
+          "actor": "Printed Ra response",
+          "proposition": "An individualized answer is refused; a generic reformulation receives a different response.",
+          "conditions": "The referent and permitted scope change between 68.9 and 68.10.",
+          "time_scope": "Local adjacent exchange sequence",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-591ab1478f70516b11d3"
+        },
+        {
+          "actor": "Printed Ra response",
+          "proposition": "A questioner’s intensity premise is explicitly corrected.",
+          "conditions": "The reply distinguishes developmental stages rather than endorsing the premise.",
+          "time_scope": "Local exchange 77.15",
+          "source_genre": "Edited printed Q/A",
+          "modality": "Source-attributed assertion or recommendation, not verified outcome",
+          "source_id": "doc-c03fdbd48b5b9feb11df"
+        }
+      ],
+      "source_ids": [
+        "doc-591ab1478f70516b11d3",
+        "doc-c03fdbd48b5b9feb11df"
+      ],
+      "channel_ids": [
+        "ra-law-of-one"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "new:ra68.9",
+          "source_id": "doc-591ab1478f70516b11d3",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/68#68.9",
+          "source_title": "The Law of One — Session 68",
+          "selected_edition_id": "ra:session:068:lightly-edited",
+          "inspected_edition_id": "ra:session:068:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "585feccb7dc1a2352b837a5112839fd14481fd2e6c753cbfcb3b4c1176012adb",
+          "selected_body_sha256": "585feccb7dc1a2352b837a5112839fd14481fd2e6c753cbfcb3b4c1176012adb",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "Complete selected printed exchange; fixed source/topic followed by literal term retrieval to locate prior refusal/correction example",
+          "locator": {
+            "start_character": 6813,
+            "end_character": 7043,
+            "span_sha256": "26fc3e6774788381fe1644c784ae5fc6d08430043bd312d8d3cb558dba79ab0b",
+            "words": 39
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "68.9",
+          "turn_ids": [
+            "ra:068:0018",
+            "ra:068:0019"
+          ]
+        },
+        {
+          "evidence_id": "new:ra68.10",
+          "source_id": "doc-591ab1478f70516b11d3",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/68#68.10",
+          "source_title": "The Law of One — Session 68",
+          "selected_edition_id": "ra:session:068:lightly-edited",
+          "inspected_edition_id": "ra:session:068:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "585feccb7dc1a2352b837a5112839fd14481fd2e6c753cbfcb3b4c1176012adb",
+          "selected_body_sha256": "585feccb7dc1a2352b837a5112839fd14481fd2e6c753cbfcb3b4c1176012adb",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "Complete selected printed exchange; fixed source/topic followed by literal term retrieval to locate prior refusal/correction example",
+          "locator": {
+            "start_character": 7044,
+            "end_character": 7704,
+            "span_sha256": "37654fa9eae0f5ec69b7fbdb20faf579b3cfe5b03bd1c45e3266fd790a6dfc40",
+            "words": 104
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "68.10",
+          "turn_ids": [
+            "ra:068:0020",
+            "ra:068:0021"
+          ]
+        },
+        {
+          "evidence_id": "new:ra77.15",
+          "source_id": "doc-c03fdbd48b5b9feb11df",
+          "channel_id": "ra-law-of-one",
+          "source_url": "https://www.lawofone.info/s/77#77.15",
+          "source_title": "The Law of One — Session 77",
+          "selected_edition_id": "ra:session:077:lightly-edited",
+          "inspected_edition_id": "ra:session:077:lightly-edited",
+          "canonical_join_basis": "declared_legacy_source_id",
+          "edition_text_sha256": "9d660a412f445301ffa35962307d1d1b5e7c2b7ff928db8b02de81ac4b7ea381",
+          "selected_body_sha256": "9d660a412f445301ffa35962307d1d1b5e7c2b7ff928db8b02de81ac4b7ea381",
+          "edition_join": "same_edition",
+          "reading_kind": "fresh_bounded_source_reading",
+          "read_scope": "Complete selected printed exchange; fixed source/topic followed by literal term retrieval to locate prior refusal/correction example",
+          "locator": {
+            "start_character": 7306,
+            "end_character": 8018,
+            "span_sha256": "63e520cdfac48049c650c5413821e35d178948bdc7e0fef27e56ad26e33777ab",
+            "words": 121
+          },
+          "speaker_identity_verified": false,
+          "audio_alignment_verified": false,
+          "human_validated": false,
+          "question_id": "77.15",
+          "turn_ids": [
+            "ra:077:0030",
+            "ra:077:0031"
+          ]
+        }
+      ],
+      "selection_disposition": "retained_after_source_reading",
+      "existing_question_ids": []
+    }
+  ],
+  "candidate_dispositions": [
+    {
+      "case_id": "practice-action",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "fear-desire",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "time-reference",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "council-definition",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "council-timing",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "mary-support",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "magdalene-change",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "mediation-optional",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "michael-awareness",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "reception-genre",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "preparedness",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    },
+    {
+      "case_id": "answer-limits",
+      "status": "retained",
+      "reason": "Required source scope and evidence inspected; relation is a purposive interpretation, not a prevalence claim"
+    }
+  ],
+  "additional_evidence": [
+    {
+      "evidence_id": "alternate:council-contact-tracy-548134ce5946a24d:0",
+      "source_id": "doc-5340dabed29c4cfedf0a",
+      "channel_id": "tracy-kumbera",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+      "source_title": "First Contact Is Here! Council of Contact Channeled Message",
+      "selected_edition_id": "publisher-rss:tracykumbera:rss:548134ce5946a24d:asr:tiny-en-v2",
+      "inspected_edition_id": "council-contact-tracy-548134ce5946a24d:parakeet-tdt-v3-full30-20261108",
+      "canonical_join_basis": "declared_legacy_source_id",
+      "edition_text_sha256": "342638fc7376c099e990ded881b45bf9af59401bec023b1f9bbb8173bb543b99",
+      "selected_body_sha256": "3cea380262cfce78d4f8e0f72f0509a92712041726ed550b393473587621ad4f",
+      "edition_join": "alternative_edition_not_canonical",
+      "reading_kind": "fresh_bounded_source_reading",
+      "read_scope": "New Parakeet full-edition bounded complete windows selected by prior thematic times; not prior text/locator inheritance, not verified speaker turns or word alignment",
+      "locator": {
+        "start_character": 0,
+        "end_character": 1212,
+        "span_sha256": "1a3b7290d903b9dbfbb81ac556e454607eff42571bd79da98c84f3b5d5817be6",
+        "words": 218
+      },
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "human_validated": false,
+      "turn_ids": [
+        "full-01-chunk-0001",
+        "full-01-chunk-0002",
+        "full-01-chunk-0003"
+      ],
+      "start_seconds": 0,
+      "end_seconds": 90
+    },
+    {
+      "evidence_id": "alternate:council-contact-tracy-4818c71bd66ea72a:90",
+      "source_id": "doc-fc7068d9aac72f14cd6a",
+      "channel_id": "tracy-kumbera",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+      "source_title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+      "selected_edition_id": "publisher-rss:tracykumbera:rss:4818c71bd66ea72a:asr:tiny-en-v2",
+      "inspected_edition_id": "council-contact-tracy-4818c71bd66ea72a:parakeet-tdt-v3-full30-20261108",
+      "canonical_join_basis": "declared_legacy_source_id",
+      "edition_text_sha256": "d5fcc8b0f9891a2de065381113050cb5af1a6bfa157684a50860ef1d009e93a9",
+      "selected_body_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+      "edition_join": "alternative_edition_not_canonical",
+      "reading_kind": "fresh_bounded_source_reading",
+      "read_scope": "New Parakeet full-edition bounded complete windows selected by prior thematic times; not prior text/locator inheritance, not verified speaker turns or word alignment",
+      "locator": {
+        "start_character": 1414,
+        "end_character": 2809,
+        "span_sha256": "e3c66cebd48a40732a7a9ed8ddec5497c4ff89fb4bf013e8e969048de5254953",
+        "words": 254
+      },
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "human_validated": false,
+      "turn_ids": [
+        "full-03-chunk-0004",
+        "full-03-chunk-0005",
+        "full-03-chunk-0006"
+      ],
+      "start_seconds": 90,
+      "end_seconds": 180
+    },
+    {
+      "evidence_id": "alternate:council-contact-tracy-4818c71bd66ea72a:870",
+      "source_id": "doc-fc7068d9aac72f14cd6a",
+      "channel_id": "tracy-kumbera",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+      "source_title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+      "selected_edition_id": "publisher-rss:tracykumbera:rss:4818c71bd66ea72a:asr:tiny-en-v2",
+      "inspected_edition_id": "council-contact-tracy-4818c71bd66ea72a:parakeet-tdt-v3-full30-20261108",
+      "canonical_join_basis": "declared_legacy_source_id",
+      "edition_text_sha256": "d5fcc8b0f9891a2de065381113050cb5af1a6bfa157684a50860ef1d009e93a9",
+      "selected_body_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+      "edition_join": "alternative_edition_not_canonical",
+      "reading_kind": "fresh_bounded_source_reading",
+      "read_scope": "New Parakeet full-edition bounded complete windows selected by prior thematic times; not prior text/locator inheritance, not verified speaker turns or word alignment",
+      "locator": {
+        "start_character": 11876,
+        "end_character": 15540,
+        "span_sha256": "0c5b23a2aba065fd6f83c6ee60c0987929a46042c8fe0a96113d2322b2dd574b",
+        "words": 638
+      },
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "human_validated": false,
+      "turn_ids": [
+        "full-03-chunk-0030",
+        "full-03-chunk-0031",
+        "full-03-chunk-0032",
+        "full-03-chunk-0033",
+        "full-03-chunk-0034",
+        "full-03-chunk-0035",
+        "full-03-chunk-0036",
+        "full-03-chunk-0037",
+        "full-03-chunk-0038",
+        "full-03-chunk-0039"
+      ],
+      "start_seconds": 870,
+      "end_seconds": 1170
+    },
+    {
+      "evidence_id": "alternate:council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1:1380",
+      "source_id": "doc-d2f7efd6635dd16c0353",
+      "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+      "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+      "source_title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+      "selected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "inspected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1:parakeet-tdt-v3-full30-20261108",
+      "canonical_join_basis": "declared_legacy_source_id",
+      "edition_text_sha256": "bf9b05bcb1c025eca78a9cf7b2c6cb7b3917461d6e43a0b7230e45753b1fbfd0",
+      "selected_body_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+      "edition_join": "alternative_edition_not_canonical",
+      "reading_kind": "fresh_bounded_source_reading",
+      "read_scope": "New Parakeet full-edition bounded complete windows selected by prior thematic times; not prior text/locator inheritance, not verified speaker turns or word alignment",
+      "locator": {
+        "start_character": 21926,
+        "end_character": 23429,
+        "span_sha256": "0710b24e5b41186d7dc2ed4db9d79c82e45a95cedeccfa4b5c38e61f46c1fe6b",
+        "words": 272
+      },
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "human_validated": false,
+      "turn_ids": [
+        "full-04-chunk-0047",
+        "full-04-chunk-0048",
+        "full-04-chunk-0049"
+      ],
+      "start_seconds": 1380,
+      "end_seconds": 1470
+    },
+    {
+      "evidence_id": "alternate:council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1:1500",
+      "source_id": "doc-d2f7efd6635dd16c0353",
+      "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+      "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+      "source_title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+      "selected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "inspected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1:parakeet-tdt-v3-full30-20261108",
+      "canonical_join_basis": "declared_legacy_source_id",
+      "edition_text_sha256": "bf9b05bcb1c025eca78a9cf7b2c6cb7b3917461d6e43a0b7230e45753b1fbfd0",
+      "selected_body_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+      "edition_join": "alternative_edition_not_canonical",
+      "reading_kind": "fresh_bounded_source_reading",
+      "read_scope": "New Parakeet full-edition bounded complete windows selected by prior thematic times; not prior text/locator inheritance, not verified speaker turns or word alignment",
+      "locator": {
+        "start_character": 23851,
+        "end_character": 25663,
+        "span_sha256": "8d25efbfa8f3c1eed2dfdd67a50f7f758622578ff9f3315a46cb0606b7ac7f80",
+        "words": 332
+      },
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "human_validated": false,
+      "turn_ids": [
+        "full-04-chunk-0051",
+        "full-04-chunk-0052",
+        "full-04-chunk-0053",
+        "full-04-chunk-0054"
+      ],
+      "start_seconds": 1500,
+      "end_seconds": 1620
+    },
+    {
+      "evidence_id": "alternate:council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1:1680",
+      "source_id": "doc-d2f7efd6635dd16c0353",
+      "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+      "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+      "source_title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+      "selected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "inspected_edition_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1:parakeet-tdt-v3-full30-20261108",
+      "canonical_join_basis": "declared_legacy_source_id",
+      "edition_text_sha256": "bf9b05bcb1c025eca78a9cf7b2c6cb7b3917461d6e43a0b7230e45753b1fbfd0",
+      "selected_body_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+      "edition_join": "alternative_edition_not_canonical",
+      "reading_kind": "fresh_bounded_source_reading",
+      "read_scope": "New Parakeet full-edition bounded complete windows selected by prior thematic times; not prior text/locator inheritance, not verified speaker turns or word alignment",
+      "locator": {
+        "start_character": 26317,
+        "end_character": 28485,
+        "span_sha256": "3707dd8ddcb1e46875ea5d5121da186dff8b02dfe6c7522d799203cd80a01f52",
+        "words": 410
+      },
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "human_validated": false,
+      "turn_ids": [
+        "full-04-chunk-0057",
+        "full-04-chunk-0058",
+        "full-04-chunk-0059",
+        "full-04-chunk-0060",
+        "full-04-chunk-0061",
+        "full-04-chunk-0062"
+      ],
+      "start_seconds": 1680,
+      "end_seconds": 1860
+    }
+  ],
+  "reading_method": {
+    "selection": "Twelve purposeful candidates frozen before new ranking inspection; source title/known qualitative finding/repeated label and negative control criteria, not prevalence sampling.",
+    "normalization": "NFKC, strip outer whitespace, Python characters with exclusive end; exact body and span hashes.",
+    "coverage": "Union overlapping inspected intervals within an edition; canonical and additional ASR editions counted separately. Only the displayed passages were read here, not full audio listening.",
+    "keyword_use": "Literal first-distortion/intensity retrieval located selected Ra68/77 refusal/correction passages; all returned inspected complete exchanges remain in coverage, including unused contextual exchanges. Keywords locate passages, not semantic truth labels.",
+    "human_validated": false,
+    "audio_listened": false
+  },
+  "limitations": [
+    "Twelve cases were purposefully selected before new ranking inspection; they illustrate interpretation and failure modes, not prevalence or a contradiction benchmark.",
+    "All comparison questions are analyst-authored. Actual printed Ra question IDs and inherited knowledge-bank question links are separately labeled.",
+    "No human annotation validation, acoustic listening, diarization, entity authentication, clinical/financial efficacy or forecast outcome evaluation was performed.",
+    "Canonical body hashes are checked; additional Parakeet reading is an alternative-edition inspection and excluded from primary-case and primary-word counts.",
+    "Repeated sources make the comparisons dependent. Zero explicit contradictions in this set would not establish their absence from the wider corpus.",
+    "Unreviewed publisher contexts and portions of partially inspected texts remain explicitly unreviewed. Computed topics and embeddings are not manual reading coverage.",
+    "Broad similarities can reflect common language, publisher editing, genre, source style, shared premises or sampling. No borrowing, common origin or scientific truth follows from resemblance."
+  ],
+  "script_sha256": "bdf59bf98fc195cde5622602f09bc5852a0cab58d2401fb0ab3e9a325f815780"
+}
