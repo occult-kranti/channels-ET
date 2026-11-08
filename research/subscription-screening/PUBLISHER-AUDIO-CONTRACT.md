@@ -1,5 +1,11 @@
 # Compact publisher-audio / local-ASR contract
 
+This planning snapshot is preserved for provenance. The implemented v2/v3
+phases, actual schema extensions for publisher download pages, RAM staging,
+caption reuse and timestamp-normalization receipts are documented in
+[PUBLISHER-AUDIO.md](PUBLISHER-AUDIO.md). Consult the executed code and bound
+private receipts for the authoritative current behavior.
+
 This is a proposed new execution contract, not evidence of acquired media. The
 accepted Bashar core at `research/batch-media/audio.py` remains unchanged. New
 screened RSS processing uses the separately versioned `audio_derivative_v2.py`.

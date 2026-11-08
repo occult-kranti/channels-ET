@@ -8,6 +8,10 @@ import matplotlib;matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,x):p.write_text(json.dumps(x,indent=2,ensure_ascii=False,allow_nan=False)+'\n')
+def preserve_date_metadata(d):
+ d.setdefault('publication_date_raw',d.get('publication_date'))
+ d.setdefault('date_status','publisher_metadata_unverified' if d.get('publication_date') else 'unknown')
+ if d['publication_id']=='@tracykumbera:rss:a213ea57efabb655':d['publication_date']=None;d['date_status']='known_unix_epoch_placeholder_not_chronology'
 def refine(src,dst):
  if dst.exists():raise ValueError('Choose new edition')
  dst.mkdir(parents=True,mode=0o700)
@@ -15,8 +19,7 @@ def refine(src,dst):
   if p.is_file():shutil.copy2(p,dst/p.name)
  r=json.loads((src/'collected-audio-analysis.json').read_text());r['scope']=r['scope'].replace('publisheraudio+machine-text editions','publisher audio with ASR and publisher-caption editions');r['keyword_dictionaries']=A.KEYWORDS;r['keyword_dictionary_helper_sha256']=HELPER_SHA;r['keyword_scope']='Exact dictionary word forms per1000analysis tokens; polysemy, quoted/negated wording and recognition errors remain; no validated belief prevalence.'
  for d in r['documents']:
-  d['publication_date_raw']=d.get('publication_date');d['date_status']='publisher_metadata_unverified' if d.get('publication_date') else 'unknown'
-  if d['publication_id']=='@tracykumbera:rss:a213ea57efabb655':d['publication_date']=None;d['date_status']='known_unix_epoch_placeholder_not_chronology'
+  preserve_date_metadata(d)
  lex=r['lexical'];fig,axes=plt.subplots(1,2,figsize=(11,5));fig.subplots_adjust(left=.08,right=.87,bottom=.17,wspace=.4)
  for ax,key,idskey,title in zip(axes,['matrix','window_300_matrix'],['source_ids','window_300_source_ids'],['Whole selected text','Centered300-token spans']):
   values=np.array(lex[key]);ids=lex[idskey];im=ax.imshow(values,vmin=0,vmax=1,cmap='viridis');step=max(1,(len(ids)+11)//12);ticks=sorted(set(range(0,len(ids),step))|{len(ids)-1});ax.set_xticks(ticks,[i+1 for i in ticks]);ax.set_yticks(ticks,[i+1 for i in ticks]);ax.set_title(title);ax.set_xlabel('Selected text unit · numbered source table')

@@ -2,6 +2,12 @@ import hashlib,importlib.util,json,tempfile,unittest
 from pathlib import Path
 spec=importlib.util.spec_from_file_location('collected',Path(__file__).with_name('analyze_collected_audio.py'));C=importlib.util.module_from_spec(spec);spec.loader.exec_module(C)
 class Admission(unittest.TestCase):
+ def test_refinement_preserves_raw_epoch_and_existing_date_status(self):
+  spec=importlib.util.spec_from_file_location('collected_date_refinement',Path(__file__).with_name('refine_collected_audio.py'));refine=importlib.util.module_from_spec(spec);spec.loader.exec_module(refine)
+  epoch={'publication_id':'@tracykumbera:rss:a213ea57efabb655','publication_date':None,'publication_date_raw':'1970-01-01T00:33:45+00:00','date_status':'known_unix_epoch_placeholder_not_chronology'}
+  original=epoch.copy();refine.preserve_date_metadata(epoch);self.assertEqual(epoch,original)
+  known={'publication_id':'other','publication_date':None,'publication_date_raw':'unresolved original value','date_status':'unknown_source_date'}
+  original=known.copy();refine.preserve_date_metadata(known);self.assertEqual(known,original)
  def test_unadjusted_timestamp_status_is_not_a_repair(self):
   self.assertFalse(C.is_timestamp_repaired(None));self.assertFalse(C.is_timestamp_repaired('unadjusted'));self.assertTrue(C.is_timestamp_repaired('terminal_display_end_repaired'))
  def document(self,root,role='unknown',end=1.0):

@@ -101,3 +101,7 @@ Focused actual-data Chromium verification passed **787 assertions**, saved 12 sc
 ```sh
 BASE=http://127.0.0.1:8765 node research/expanded-channeling/acquisition_ui_check.mjs
 ```
+
+### Final acquisition wording
+
+Removed the per-record “In previous frozen fits: no” line from the audio inventory: newly retained recordings and previously modeled caption text are distinct, so that terse label could imply reused captions had never been analyzed. The collected-text study continues to expose exact caption overlap. This changes wording only, not frozen source data or fitted results.

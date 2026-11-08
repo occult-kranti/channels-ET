@@ -1,0 +1,345 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-08T15:29:03.655105+00:00",
+  "commit": "2b5a4dd165e301ce97254c022fbf0d84fa2b6dec",
+  "workflow_run": "https://github.com/occult-kranti/channels-ET/actions/runs/42494911897",
+  "assets": [
+    {
+      "path": "dist/channeling-network/acquisition.json",
+      "status": 200,
+      "bytes": 399492,
+      "sha256": "176509c108abe6e801acfa514adfbf7055cf6300586d97c09c02fe71b34dc841"
+    },
+    {
+      "path": "dist/channeling-network/app.js",
+      "status": 200,
+      "bytes": 44333,
+      "sha256": "10ee877f044cf0fbb73c8bfc1958ef910c426318ccea858f7029c2bd2b71e4db"
+    },
+    {
+      "path": "dist/channeling-network/collected-audio-analysis.json",
+      "status": 200,
+      "bytes": 170956,
+      "sha256": "ef96c13266ca90bd87377eda124d9a2bac215e33e1f33ebda3bdba96f8eff66c"
+    },
+    {
+      "path": "dist/channeling-network/collected-audio-figures/collected-coverage.pdf",
+      "status": 200,
+      "bytes": 14570,
+      "sha256": "4105b5bcca53680c7dac5b527e21b496349695617c2cc396a43f1eb97e2edf80"
+    },
+    {
+      "path": "dist/channeling-network/collected-audio-figures/collected-coverage.png",
+      "status": 200,
+      "bytes": 74327,
+      "sha256": "eb9650b1b64634ac24ac479373a989654cfc08ccf4180d830822cf58610f17e8"
+    },
+    {
+      "path": "dist/channeling-network/collected-audio-figures/collected-coverage.svg",
+      "status": 200,
+      "bytes": 45735,
+      "sha256": "f46404d5bae9d60f145790f6a4c679f607d58da49f9f1b23b9aa5bef6e26cc50"
+    },
+    {
+      "path": "dist/channeling-network/collected-audio-figures/collected-similarity.pdf",
+      "status": 200,
+      "bytes": 23780,
+      "sha256": "28b2d43471231722f44ed4cd760152a3c3aa2fe6efef5d25ff32fe924ffc6f33"
+    },
+    {
+      "path": "dist/channeling-network/collected-audio-figures/collected-similarity.png",
+      "status": 200,
+      "bytes": 52861,
+      "sha256": "dcc66aa0b6db8d6808f2cea5594a82a75be04a44d3ee82093839df18b594123b"
+    },
+    {
+      "path": "dist/channeling-network/collected-audio-figures/collected-similarity.svg",
+      "status": 200,
+      "bytes": 66519,
+      "sha256": "33edee7ae869ecc9b4846826c5d86507fdb710414be0bebcb96b3455bc9e2187"
+    },
+    {
+      "path": "dist/channeling-network/index.html",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "c202e11e9e398c6a17c1e2b40e071582fd2f85953b3666475dfd520c74aacb7d"
+    },
+    {
+      "path": "dist/channeling-network/report/.gitignore",
+      "status": 200,
+      "bytes": 21,
+      "sha256": "03824949a66ab6db1429bd078d10d1bc2d75706aa1b756c547f9a7ff541c77cb"
+    },
+    {
+      "path": "dist/channeling-network/report/README.md",
+      "status": 200,
+      "bytes": 1851,
+      "sha256": "535f4c607fc8ac070ca398f523ee97e5163f5f7347e846fad0f720645c7f2cbe"
+    },
+    {
+      "path": "dist/channeling-network/report/REVIEW.md",
+      "status": 200,
+      "bytes": 3433,
+      "sha256": "955a16161b3d100e73930395d6b02c4775780bbd80877dc294789f71bb79e45f"
+    },
+    {
+      "path": "dist/channeling-network/report/build-manifest.json",
+      "status": 200,
+      "bytes": 4784,
+      "sha256": "4f99c23a11de9df6b6ddbfa20008f143eb58f6155f1f5c40d6a6d8c6e798e23c"
+    },
+    {
+      "path": "dist/channeling-network/report/build.sh",
+      "status": 200,
+      "bytes": 1705,
+      "sha256": "d7d58ff683c776e5cd53153001eba11bcf4da789c2a7ce40fc89ee6bf9336560"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/claim-coverage.pdf",
+      "status": 200,
+      "bytes": 24850,
+      "sha256": "73f6ab4dabfa333aa9fb79c44a6aa170b7681afa1c508f8359202366e3fa35d5"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/claim-coverage.png",
+      "status": 200,
+      "bytes": 140029,
+      "sha256": "2ae8f0628e629962cb044b4f3bc518caf77d9b57ebd836db4d8516b5801c3295"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/joint-clusters.pdf",
+      "status": 200,
+      "bytes": 22497,
+      "sha256": "0ab626059eac39cd6e5ee0d8bdffa5fbdded53a8597e8515c8253758bd3913a0"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/joint-clusters.png",
+      "status": 200,
+      "bytes": 107625,
+      "sha256": "cce1415df5b847cf85dd0985ec5f5b8c9737e86d1d3ac6e4d817d10aea532aad"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/joint-coverage.pdf",
+      "status": 200,
+      "bytes": 15077,
+      "sha256": "89d59e7381ee1d0eaeeeb5ab161a05f42b8b22fe049be4615dd4eb5eb97d0e7a"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/joint-coverage.png",
+      "status": 200,
+      "bytes": 45908,
+      "sha256": "e89d0ff30135c62c5a718ef10422549d74aca9735bb83501c72527a519dc39a1"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/joint-similarity.pdf",
+      "status": 200,
+      "bytes": 23244,
+      "sha256": "9b666a2e408822051feb328131df78eacd0916b77c96f17f903e07d103189253"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/joint-similarity.png",
+      "status": 200,
+      "bytes": 163632,
+      "sha256": "aac011645e35f7ba14b54b83811429926754cfec2a2e35752d7d989b88712904"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/joint-topics.pdf",
+      "status": 200,
+      "bytes": 25905,
+      "sha256": "bad17792b85506f11526ab992d96b757accd0d3288bf503c16ec25410db00f60"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/joint-topics.png",
+      "status": 200,
+      "bytes": 79986,
+      "sha256": "3c57cc8337c4ef4156fe425ca53535b03f570711ec0cc99286eb47acc7f64621"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/pilot-similarity.pdf",
+      "status": 200,
+      "bytes": 30075,
+      "sha256": "20c374207f30d8a6d7e47bcdcdb018c7073e14ea0325ed5479d60b53d30c6655"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/pilot-similarity.png",
+      "status": 200,
+      "bytes": 155301,
+      "sha256": "c742bae2626a5899dd5c385b3866183ddc3bc415af77490592221d8b07b9e512"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/pilot-title-sensitivity.pdf",
+      "status": 200,
+      "bytes": 15056,
+      "sha256": "733eea918ad056b366a8a9f31207dc1dda379c7f292a39daea93b26f2d711849"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/pilot-title-sensitivity.png",
+      "status": 200,
+      "bytes": 61532,
+      "sha256": "03a70fb7f025026d77835a6b1617d6d8cafc408561b793656af5b35fbb8d7f0e"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/typed-network-example.pdf",
+      "status": 200,
+      "bytes": 22246,
+      "sha256": "935ff6cd24b5c2c448f2706e1c18ed3f33bd5c6c52ba905358c185a211589d95"
+    },
+    {
+      "path": "dist/channeling-network/report/figures/typed-network-example.png",
+      "status": 200,
+      "bytes": 180013,
+      "sha256": "b9a40a688cc881aa79e21ae32b769e5d0165c6f3f2c3813ca96fcf242589735f"
+    },
+    {
+      "path": "dist/channeling-network/report/header.tex",
+      "status": 200,
+      "bytes": 401,
+      "sha256": "8a896825d767e18e5fe828a59286699502f5c03992154704ec68cae804cf1c48"
+    },
+    {
+      "path": "dist/channeling-network/report/paper.md",
+      "status": 200,
+      "bytes": 49331,
+      "sha256": "e5e24e16ca796ac1fbd4913786485eb5f9f0cd90ce6cddab56c79fe18b654081"
+    },
+    {
+      "path": "dist/channeling-network/report/paper.pdf",
+      "status": 200,
+      "bytes": 503849,
+      "sha256": "926e98aa9844f8edb955f0c1926479e332baca5aa31139a8248328abb76cc0fb"
+    },
+    {
+      "path": "dist/channeling-network/report/paper.tex",
+      "status": 200,
+      "bytes": 66598,
+      "sha256": "ffd0c2c8b1b2ba459f05f836ab24190f506e9d16a96ef9d79ea6faafbdc6728b"
+    },
+    {
+      "path": "dist/channeling-network/report/plot_snapshot.py",
+      "status": 200,
+      "bytes": 3900,
+      "sha256": "40fd72c4ba46c8a2e98ce236b3c16cbf99abae376eecd37fa11a5f07cecf29ad"
+    },
+    {
+      "path": "dist/channeling-network/report/references.bib",
+      "status": 200,
+      "bytes": 2366,
+      "sha256": "5b003e9d8cd3837705cebcc5440ef33cad9ede654535dc90c26db5f95946e181"
+    },
+    {
+      "path": "dist/channeling-network/report/snapshot.json",
+      "status": 200,
+      "bytes": 83302,
+      "sha256": "5f4aba7086b1838d7a7e07510b278ccf086b3d94eda1e069cce49c7a66704ad6"
+    },
+    {
+      "path": "dist/channeling-network/report/source-bundle.json",
+      "status": 200,
+      "bytes": 264,
+      "sha256": "83bd598b819b785ec099eb6d6a98007c5f44956c74883f6cf7f1ef791dad6bdb"
+    },
+    {
+      "path": "dist/channeling-network/report/source.zip",
+      "status": 200,
+      "bytes": 1402845,
+      "sha256": "aa7dbf18eaa8e0d563bcd1a83c4393d5dd4072f158f9bb1091d30c03c7b162a4"
+    },
+    {
+      "path": "dist/channeling-network/report/vector-figures.lua",
+      "status": 200,
+      "bytes": 1037,
+      "sha256": "da0cd8fed4dcc7da614a4c551f9fa5262a189f4d47004fc3dbbedf68a2db7103"
+    },
+    {
+      "path": "dist/channeling-network/semantic-figures/semantic-pilot-contrast.pdf",
+      "status": 200,
+      "bytes": 15169,
+      "sha256": "7aca79873d7065674e3d8e3a20afc2e28c11fb70c17cdb0262d78f63ade3ded4"
+    },
+    {
+      "path": "dist/channeling-network/semantic-figures/semantic-pilot-contrast.png",
+      "status": 200,
+      "bytes": 59779,
+      "sha256": "6c52ba8dde8cb642fe15997073ceac9d078690bde7ee4ad7fbf9ee1f1d2559b9"
+    },
+    {
+      "path": "dist/channeling-network/semantic-figures/semantic-pilot-contrast.svg",
+      "status": 200,
+      "bytes": 41829,
+      "sha256": "df4dac4ad54e2b4d6338a865f97a6db7b04399ad8495374d4fe54b8297af9c89"
+    },
+    {
+      "path": "dist/channeling-network/semantic-pilot.json",
+      "status": 200,
+      "bytes": 236428,
+      "sha256": "014c5f5bef87898e284d2e0342225fc1c2c5a1e5b6e91192fb194efec6e80cd5"
+    },
+    {
+      "path": "dist/channeling-network/studies.js",
+      "status": 200,
+      "bytes": 34224,
+      "sha256": "697ff334144071cc7b00d213a98e5293060156e87d7717d819ecfbc3fe8ca9b2"
+    },
+    {
+      "path": "dist/channeling-network/styles.css",
+      "status": 200,
+      "bytes": 13553,
+      "sha256": "1098f3e9b30e48f54accf963d8261e78cd51dba5500b25df2024f4651ed49426"
+    },
+    {
+      "path": "dist/channeling-network/supplements.js",
+      "status": 200,
+      "bytes": 16245,
+      "sha256": "e4243e541de94ac376d77830ff2114029be54c3c896e9b8542290f300da51313"
+    },
+    {
+      "path": "dist/subscription-audit/acquisition.json",
+      "status": 200,
+      "bytes": 399492,
+      "sha256": "176509c108abe6e801acfa514adfbf7055cf6300586d97c09c02fe71b34dc841"
+    },
+    {
+      "path": "dist/subscription-audit/app.js",
+      "status": 200,
+      "bytes": 29093,
+      "sha256": "d66956d7271c1d528d01dea78c4ed331670cc2376d5e95068de186cd5ef13cae"
+    },
+    {
+      "path": "dist/subscription-audit/data.json",
+      "status": 200,
+      "bytes": 320368,
+      "sha256": "ee21b94d337b8953ba3842945b811adbe58ce33c8f8689991d6561da52c50b34"
+    },
+    {
+      "path": "dist/subscription-audit/index.html",
+      "status": 200,
+      "bytes": 2967,
+      "sha256": "488291ac2b48a41d068e110061f878b17203f5928bad8782957c5b75c3e31f3e"
+    },
+    {
+      "path": "dist/subscription-audit/publisher-audio.js",
+      "status": 200,
+      "bytes": 4974,
+      "sha256": "36d150ee0e14b8dcd5bc8052f4039664ec17e2eeb0951b9a50e771afa27b630e"
+    },
+    {
+      "path": "dist/subscription-audit/styles.css",
+      "status": 200,
+      "bytes": 3533,
+      "sha256": "5d97ed62762d55b622f7f4fbaa0bd0d43d6e37e71efa75e7ace3e88a071414a4"
+    },
+    {
+      "path": "dist/channeling-network/",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "c202e11e9e398c6a17c1e2b40e071582fd2f85953b3666475dfd520c74aacb7d"
+    },
+    {
+      "path": "dist/subscription-audit/",
+      "status": 200,
+      "bytes": 2967,
+      "sha256": "488291ac2b48a41d068e110061f878b17203f5928bad8782957c5b75c3e31f3e"
+    }
+  ],
+  "scope": "Actual HTTPS Pages responses match all changed committed public assets and both dashboard entry routes."
+}
