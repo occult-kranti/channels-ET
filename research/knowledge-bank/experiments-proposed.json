@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T17:28:50.465179+00:00",
+  "scope": "Exploratory designs proposed by the literature panel. Execution, actual denominators, measured outcomes and reviewer decisions belong in the separate integrated experiments ledger. This is not a preregistered confirmatory study.",
+  "experiments": [
+    {
+      "id": "KB-H1-ASR",
+      "title": "Recognition representation changes downstream evidence retrieval",
+      "cross_field_connection": "Speech recognition as measurement error; information retrieval robustness",
+      "hypothesis": "Changing the recognizer on identical audio spans changes names, negation or retrieved source rankings more than it changes broad topic membership.",
+      "unit": "Preselected paired audio span, grouped by original recording; transcript editions are paired measurements.",
+      "design": "Run baseline and larger-capacity recognizers on the same decoded spans and language settings. Keep span selection independent of observed model disagreement. Bind model revision, decoding settings, source audio and output hashes.",
+      "comparisons": [
+        "Baseline versus new ASR",
+        "Names/negation/date tokens versus all tokens",
+        "Retrieval ranks before and after the transcript substitution"
+      ],
+      "metrics": [
+        "Observed transcript edit disagreement, with symmetric normalization if neither edition is a reference",
+        "Named-token/negation/date retention counts",
+        "Document-neighbor overlap and retrieval-rank changes",
+        "Wall time, audio seconds, peak memory and real-time factor"
+      ],
+      "falsification_or_null": "Little or no rank/token change; any change may reduce rather than improve usefulness.",
+      "plots": [
+        "Paired disagreement and duration plot",
+        "Model-by-span coverage/runtime table",
+        "Retrieval-rank change heatmap"
+      ],
+      "limits": [
+        "Without independently transcribed audio, disagreement is not word error rate or an accuracy improvement.",
+        "Concurrent machine load limits runtime comparisons; speedup requires a matched serial-versus-parallel run."
+      ],
+      "source_ids": [
+        "whisper-2022",
+        "mmteb-2025",
+        "datasheets-2021"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "KB-H2-RETRIEVAL",
+      "title": "Lexical and dense retrieval recover different known-support passages",
+      "cross_field_connection": "Information retrieval and representation learning",
+      "hypothesis": "Dense retrieval improves known-support ranking for paraphrased questions, while lexical retrieval remains competitive for rare proper names and exact source wording.",
+      "unit": "A fixed analyst question with inspected source-support mappings; aggregate by question family and source, not every correlated retrieved pair.",
+      "design": "Freeze question wording, source universe, preprocessing, model revisions and retrieval settings. Compare TF-IDF/BM25-compatible lexical baseline, available dense models and a hybrid at the same maximum number of distinct source hits.",
+      "comparisons": [
+        "Exact-name questions versus paraphrase questions",
+        "Within-medium versus cross-medium support",
+        "Raw embedding similarity versus name-masked lexical similarity"
+      ],
+      "metrics": [
+        "Known-support hit@k and reciprocal rank",
+        "Recall over explicitly judged support only",
+        "Per-query rank changes and overlap of nearest neighbors",
+        "Index size and preprocessing/query runtime"
+      ],
+      "falsification_or_null": "No benefit for paraphrases, dense errors on proper names, or hybrid performance below the best baseline.",
+      "plots": [
+        "Per-query paired-rank slope chart",
+        "Model-by-query-type support matrix",
+        "Neighbor-overlap heatmap"
+      ],
+      "limits": [
+        "Source-informed questions are retrieval diagnostics, not external held-out accuracy.",
+        "Unjudged retrieved sources are not automatically irrelevant.",
+        "Semantic closeness is not shared belief or equivalent answers."
+      ],
+      "source_ids": [
+        "sbert-2019",
+        "mmteb-2025",
+        "hipporag-2024"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "KB-H3-CONSOLIDATION",
+      "title": "Source cards trade compression against evidence and qualification retention",
+      "cross_field_connection": "Offline memory consolidation and database/index maintenance",
+      "hypothesis": "A hybrid of raw evidence and concise source cards preserves more known support and qualifications than card-only retrieval at a comparable source-hit limit.",
+      "unit": "A source-bound card and a question-family retrieval result; keep provenance to each source edition.",
+      "design": "Freeze raw chunks and independently authored source cards before fitting retrieval. Do not insert evaluated question strings or answer-key fields into index text. Compare raw-only, card-only and reciprocal-rank-fused hybrid systems on the same source universe and at most three distinct source hits.",
+      "comparisons": [
+        "Raw-only versus card-only versus hybrid",
+        "Source/qualification coverage before and after card preparation",
+        "Offline preprocessing cost versus per-query work"
+      ],
+      "metrics": [
+        "Known-support hit@3 and reciprocal rank",
+        "Retained source links and inspected qualifier fields",
+        "Source diversity and compressed word/token counts",
+        "Index bytes and query latency, with construction cost separately reported"
+      ],
+      "falsification_or_null": "Cards omit qualifications or lose known support; hybrid adds cost without recovering missing evidence.",
+      "plots": [
+        "Raw/card/hybrid support-and-size comparison",
+        "Source-to-card derivation flow",
+        "Qualification-retention table with inspected denominators"
+      ],
+      "limits": [
+        "This is nonparametric source-card consolidation, not Google Sleep, neural distillation or a model-weight update.",
+        "Card presence and schema completeness do not demonstrate semantic faithfulness without source reading.",
+        "A source-informed question bank can overstate generalization."
+      ],
+      "source_ids": [
+        "google-sleep-2026",
+        "sleep-time-2025",
+        "raptor-2024",
+        "prov-o-2013"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "KB-H4-SCOPE",
+      "title": "Scope alignment reduces apparent answer conflicts",
+      "cross_field_connection": "Textual inference, argumentation and qualitative discourse analysis",
+      "hypothesis": "Some superficially opposed answers become compatible or remain indeterminate when proposition, time, modality and speaker/source scope are aligned.",
+      "unit": "Two inspected propositions answering a comparable analyst question, each linked to exact evidence spans.",
+      "design": "Use similarity only to propose candidate pairs. Read both evidence spans and context. Record the common question, scoped claims, conditions, dates, unknown roles and relation category before discussing agreement. Include high-similarity compatible, high-similarity conflicting and insufficient-context cases where actually found.",
+      "comparisons": [
+        "Topic-similarity candidates versus inspected scoped relations",
+        "Unqualified paraphrase versus qualification-preserving representation"
+      ],
+      "metrics": [
+        "Counts by compatible, qualified-tension, explicit-scoped-conflict and insufficient-context labels",
+        "Provenance and context availability per compared pair",
+        "Reviewer disagreements and changes after source inspection"
+      ],
+      "falsification_or_null": "Context preserves a genuine scoped conflict or remains insufficient; no requirement that every apparent conflict disappear.",
+      "plots": [
+        "Question-by-source answer comparison table",
+        "Relation matrix with an explicit unknown category",
+        "Proposition graph separating conflict from mere shared topic"
+      ],
+      "limits": [
+        "AI review is not human annotation reliability.",
+        "A conflict label concerns reported assertions, not which claim is true.",
+        "Cosine distance and negation flags cannot determine contradiction."
+      ],
+      "source_ids": [
+        "contradictions-2008",
+        "sbert-2019",
+        "prov-o-2013"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "KB-H5-CONFOUNDING",
+      "title": "Source context explains part of the apparent topic organization",
+      "cross_field_connection": "Digital humanities, statistical measurement and representation analysis",
+      "hypothesis": "Some similarity and cluster structure follows medium, publication format, text length or recognizer rather than the attributed council/entity label.",
+      "unit": "Deduplicated publication/text edition; independent-medium comparisons require actual distinct mediums.",
+      "design": "Use exact source families, disclosed name masking, common-length spans and multiple representations. Cross-tabulate cluster membership with medium, text origin and attributed label; explicitly count whether the desired same-label cross-medium pairs exist.",
+      "comparisons": [
+        "Masked versus unmasked text",
+        "Whole text versus fixed-length spans",
+        "Lexical versus dense representations",
+        "Within-medium versus cross-medium/same-label pairs"
+      ],
+      "metrics": [
+        "Descriptive pair similarities and pair counts",
+        "Adjusted Rand association with source/context labels",
+        "Silhouette and seed sensitivity",
+        "Neighborhood overlap across representations"
+      ],
+      "falsification_or_null": "Structure persists across these controls, or there are too few eligible comparisons to separate the effects.",
+      "plots": [
+        "Cluster/source/format contingency heatmap",
+        "Matched-source sensitivity plot",
+        "Same-label versus same-medium pair table"
+      ],
+      "limits": [
+        "Source, medium, time and label may be inseparable in the convenience sample.",
+        "No population p-value or causal mechanism follows from dependent pairs.",
+        "Clusters are not authenticated entity categories."
+      ],
+      "source_ids": [
+        "mmteb-2025",
+        "graphrag-2024",
+        "datasheets-2021"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "KB-H6-RETENTION",
+      "title": "Index updates can retain prior evidence without erasing disagreement",
+      "cross_field_connection": "Continual learning analogies and software/data regression testing",
+      "hypothesis": "A source-versioned consolidation update can add a transcript edition while preserving earlier known support, uncertainty and disagreement records.",
+      "unit": "A versioned knowledge-bank release and a fixed prior-question/source-support set.",
+      "design": "Freeze the first release, then add an independently reviewed transcript edition. Rebuild only derived artifacts whose source dependencies changed. Evaluate the earlier question set plus a separate new-source set; preserve superseded editions and correction history.",
+      "comparisons": [
+        "Before versus after an index update",
+        "Earlier-question support versus new-source support",
+        "Unchanged versus affected source derivations"
+      ],
+      "metrics": [
+        "Regression count in known-support retrieval",
+        "Missing/changed source bindings",
+        "Retained qualification and relation records",
+        "Number of affected/rebuilt artifacts"
+      ],
+      "falsification_or_null": "Earlier support is lost, qualifications disappear or source lineage breaks.",
+      "plots": [
+        "Release-to-release change ledger",
+        "Earlier/new-question support matrix",
+        "Dependency graph highlighting affected artifacts"
+      ],
+      "limits": [
+        "This measures index-maintenance regression, not neural catastrophic forgetting.",
+        "An earlier answer may legitimately change after corrected evidence; semantic correctness needs review."
+      ],
+      "source_ids": [
+        "google-sleep-2026",
+        "nested-learning-2025",
+        "prov-o-2013"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "KB-H7-GRAPH",
+      "title": "Typed evidence paths support associative questions without merging identities",
+      "cross_field_connection": "Knowledge graphs, memory indexing and network science",
+      "hypothesis": "Inspecting typed source-to-claim paths can expose useful associations while reducing unsupported identity merges compared with a graph of untyped similar names.",
+      "unit": "An evidence path between question, proposition, source edition and attributed label.",
+      "design": "Separate document, medium, named claim, proposition and derived topic nodes. Every claim edge carries source provenance; similarity edges use a different relation type and never substitute for identity edges. Evaluate direct factual questions separately from multi-source associative questions.",
+      "comparisons": [
+        "Direct source retrieval versus graph-assisted evidence navigation",
+        "Typed provenance edges versus proposed similarity links",
+        "Factual questions versus associative/global questions"
+      ],
+      "metrics": [
+        "Number of inspectable paths with complete evidence bindings",
+        "Known-support recovery by question type",
+        "Unresolved identity links and false merges found in review"
+      ],
+      "falsification_or_null": "Associative paths add unsupported jumps or degrade direct-source retrieval.",
+      "plots": [
+        "Typed evidence graph with source filters",
+        "Path inspector and provenance-completeness table",
+        "Question-type retrieval comparison"
+      ],
+      "limits": [
+        "Graph degree depends on collection coverage.",
+        "A graph edge is not evidence that a supernatural entity exists or that independent mediums share an origin.",
+        "A typed provenance graph alone does not reproduce GraphRAG or HippoRAG."
+      ],
+      "source_ids": [
+        "graphrag-2024",
+        "hipporag-2024",
+        "hipporag2-2025",
+        "prov-o-2013"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "KB-H8-ANALOGY",
+      "title": "Cross-field analogies should produce discriminating questions",
+      "cross_field_connection": "Scientific hypothesis generation, psychology and information processing",
+      "hypothesis": "An evidence card that explicitly separates analogy from mechanism produces more testable follow-up questions than an unqualified thematic synthesis.",
+      "unit": "A proposed bridge between a corpus claim and a separately documented scientific construct.",
+      "design": "Record the source assertion, external construct, exact shared feature, disanalogies and a possible observation that would distinguish the mechanisms. Keep proposed bridges outside empirical findings until source support and an actual experiment exist.",
+      "comparisons": [
+        "Thematic resemblance versus a scoped mechanism claim",
+        "Supported shared feature versus unsupported transferred evidence"
+      ],
+      "metrics": [
+        "Presence of an explicit discriminating observation and counterexample",
+        "Independent source support for each side of the analogy",
+        "Number of bridges deferred for missing mechanism or evidence"
+      ],
+      "falsification_or_null": "No discriminating observation can be formulated, or the apparent commonality disappears once the claims are scoped.",
+      "plots": [
+        "Cross-field connection table with evidence status",
+        "Hypothesis graph using visibly distinct proposed edges"
+      ],
+      "limits": [
+        "Schema completeness is not scientific validity.",
+        "Psychological or neural evidence cannot be imported into an unrelated paranormal causal claim.",
+        "No model-generated analogy is treated as an observed phenomenon."
+      ],
+      "source_ids": [
+        "google-sleep-2026",
+        "contradictions-2008",
+        "datasheets-2021"
+      ],
+      "status": "proposed"
+    }
+  ]
+}

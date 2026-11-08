@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T18:11:45.075618+00:00",
+  "scope": "Execution ledger for exploratory, source-bound experiments; proposed, partial and completed components remain separate. No preregistration or human peer-review claim.",
+  "input_bindings": {
+    "proposed": {
+      "file": "experiments-proposed.json",
+      "bytes": 16304,
+      "sha256": "9f141a29f071ccd8638f3e8083c67305036a00696ec83168b24cffb00ca92170"
+    },
+    "analysis": {
+      "file": "analysis.json",
+      "bytes": 487845,
+      "sha256": "e1407aa84f8eb33375f15647a5635daae0e75b55c365e7771e3ab0b728e818df"
+    },
+    "knowledge": {
+      "file": "knowledge.json",
+      "bytes": 181571,
+      "sha256": "9ef331231f1efdb52d482a00324999f5f1f3cfe5d7c66527e6e79a04dd5ef6b2"
+    },
+    "retrieval": {
+      "file": "retrieval.json",
+      "bytes": 251376,
+      "sha256": "0df6a4967ed08fd10aed7a11a9d43c3373c53660a352b66eaaa3121e15a946a4"
+    },
+    "asr": {
+      "file": "asr-benchmark.json",
+      "bytes": 42359,
+      "sha256": "11a4242e924fa2509bfc11ef49337defab8d431ac885265913c77d31c48da5f7"
+    },
+    "full_asr": {
+      "file": "asr-full.json",
+      "bytes": 10851,
+      "sha256": "fdfdd4d7fdeec4c7d2675061095d457b390e86a80343633e1ab9e0fcba71a7b9"
+    },
+    "sensitivity": {
+      "file": "asr-sensitivity.json",
+      "bytes": 81350,
+      "sha256": "02aacfb8ceef15df14226c16df587799f1a1e5e0dcb55c53e858b46905db113a"
+    },
+    "contextual_terms": {
+      "file": "contextual-terms.json",
+      "bytes": 159262,
+      "sha256": "5d3d509f6a50927019eedf936170a7df8bfe5bc5dff5874b015d211581c6327e"
+    }
+  },
+  "experiments": [
+    {
+      "id": "KB-H1-ASR",
+      "title": "Recognition representation changes downstream evidence retrieval",
+      "cross_field_connection": "Speech recognition as measurement error; information retrieval robustness",
+      "hypothesis": "Changing the recognizer on identical audio spans changes names, negation or retrieved source rankings more than it changes broad topic membership.",
+      "unit": "Preselected paired audio span, grouped by original recording; transcript editions are paired measurements.",
+      "design": "Run baseline and larger-capacity recognizers on the same decoded spans and language settings. Keep span selection independent of observed model disagreement. Bind model revision, decoding settings, source audio and output hashes.",
+      "comparisons": [
+        "Baseline versus new ASR",
+        "Names/negation/date tokens versus all tokens",
+        "Retrieval ranks before and after the transcript substitution"
+      ],
+      "metrics": [
+        "Observed transcript edit disagreement, with symmetric normalization if neither edition is a reference",
+        "Named-token/negation/date retention counts",
+        "Document-neighbor overlap and retrieval-rank changes",
+        "Wall time, audio seconds, peak memory and real-time factor"
+      ],
+      "falsification_or_null": "Little or no rank/token change; any change may reduce rather than improve usefulness.",
+      "plots": [
+        "Paired disagreement and duration plot",
+        "Model-by-span coverage/runtime table",
+        "Retrieval-rank change heatmap"
+      ],
+      "limits": [
+        "Without independently transcribed audio, disagreement is not word error rate or an accuracy improvement.",
+        "Concurrent machine load limits runtime comparisons; speedup requires a matched serial-versus-parallel run."
+      ],
+      "source_ids": [
+        "whisper-2022",
+        "mmteb-2025",
+        "datasheets-2021"
+      ],
+      "status": "partially_executed",
+      "evidence_module": "asr",
+      "observations": [
+        "Executed 16 paired windows from 8 retained recordings (480 audio seconds).",
+        "Parakeet outer stage 62.40s; tiny baseline 12.48s, each with two workers.",
+        "Median symmetric token-edit disagreement 0.0706; this is not a reference word-error rate.",
+        "Runtime concurrency is measured; no matched serial-versus-parallel speedup experiment or human word-accuracy evaluation was performed.",
+        "Completed 4 full-recording new editions across 359 nonoverlapping chunks, covering 178.99 minutes; original ASRs remain preserved."
+      ],
+      "execution_scope": "Bounded local operationalization; unexecuted components and external validity remain explicit."
+    },
+    {
+      "id": "KB-H2-RETRIEVAL",
+      "title": "Lexical and dense retrieval recover different known-support passages",
+      "cross_field_connection": "Information retrieval and representation learning",
+      "hypothesis": "Dense retrieval improves known-support ranking for paraphrased questions, while lexical retrieval remains competitive for rare proper names and exact source wording.",
+      "unit": "A fixed analyst question with inspected source-support mappings; aggregate by question family and source, not every correlated retrieved pair.",
+      "design": "Freeze question wording, source universe, preprocessing, model revisions and retrieval settings. Compare TF-IDF/BM25-compatible lexical baseline, available dense models and a hybrid at the same maximum number of distinct source hits.",
+      "comparisons": [
+        "Exact-name questions versus paraphrase questions",
+        "Within-medium versus cross-medium support",
+        "Raw embedding similarity versus name-masked lexical similarity"
+      ],
+      "metrics": [
+        "Known-support hit@k and reciprocal rank",
+        "Recall over explicitly judged support only",
+        "Per-query rank changes and overlap of nearest neighbors",
+        "Index size and preprocessing/query runtime"
+      ],
+      "falsification_or_null": "No benefit for paraphrases, dense errors on proper names, or hybrid performance below the best baseline.",
+      "plots": [
+        "Per-query paired-rank slope chart",
+        "Model-by-query-type support matrix",
+        "Neighbor-overlap heatmap"
+      ],
+      "limits": [
+        "Source-informed questions are retrieval diagnostics, not external held-out accuracy.",
+        "Unjudged retrieved sources are not automatically irrelevant.",
+        "Semantic closeness is not shared belief or equivalent answers."
+      ],
+      "source_ids": [
+        "sbert-2019",
+        "mmteb-2025",
+        "hipporag-2024"
+      ],
+      "status": "executed",
+      "evidence_module": "retrieval",
+      "observations": [
+        "Compared lexical and cached MiniLM representations over 25 editions and 300 dependent document pairs.",
+        "All four source-informed audit queries were frozen independently of card construction and before retrieval rankings; unlisted sources remain unjudged.",
+        "Raw-source MiniLM known-support reciprocal-rank mean is 0.8125 versus 0.6667 for raw-source TF-IDF in this 4-query diagnostic; no general model ranking follows.",
+        "Named-query versus paraphrase-query performance and human relevance accuracy remain unmeasured."
+      ],
+      "execution_scope": "Bounded local operationalization; unexecuted components and external validity remain explicit."
+    },
+    {
+      "id": "KB-H3-CONSOLIDATION",
+      "title": "Source cards trade compression against evidence and qualification retention",
+      "cross_field_connection": "Offline memory consolidation and database/index maintenance",
+      "hypothesis": "A hybrid of raw evidence and concise source cards preserves more known support and qualifications than card-only retrieval at a comparable source-hit limit.",
+      "unit": "A source-bound card and a question-family retrieval result; keep provenance to each source edition.",
+      "design": "Freeze raw chunks and independently authored source cards before fitting retrieval. Do not insert evaluated question strings or answer-key fields into index text. Compare raw-only, card-only and reciprocal-rank-fused hybrid systems on the same source universe and at most three distinct source hits.",
+      "comparisons": [
+        "Raw-only versus card-only versus hybrid",
+        "Source/qualification coverage before and after card preparation",
+        "Offline preprocessing cost versus per-query work"
+      ],
+      "metrics": [
+        "Known-support hit@3 and reciprocal rank",
+        "Retained source links and inspected qualifier fields",
+        "Source diversity and compressed word/token counts",
+        "Index bytes and query latency, with construction cost separately reported"
+      ],
+      "falsification_or_null": "Cards omit qualifications or lose known support; hybrid adds cost without recovering missing evidence.",
+      "plots": [
+        "Raw/card/hybrid support-and-size comparison",
+        "Source-to-card derivation flow",
+        "Qualification-retention table with inspected denominators"
+      ],
+      "limits": [
+        "This is nonparametric source-card consolidation, not Google Sleep, neural distillation or a model-weight update.",
+        "Card presence and schema completeness do not demonstrate semantic faithfulness without source reading.",
+        "A source-informed question bank can overstate generalization."
+      ],
+      "source_ids": [
+        "google-sleep-2026",
+        "sleep-time-2025",
+        "raptor-2024",
+        "prov-o-2013"
+      ],
+      "status": "executed",
+      "evidence_module": "retrieval",
+      "observations": [
+        "Compared 276 raw chunks with 25 curated cards covering 14 of 25 sources.",
+        "3 of 4 distinct known supporting sources have cards. Sources outside that subset cannot be recovered by the card-only index.",
+        "Naive full-list rank fusion structurally favors every card-covered source. Its original result is retained alongside a disclosed post-hoc top5 candidate repair.",
+        "The repair does not outperform the best raw-source baseline across both representations. Cards provide curated interpretation but do not automatically improve evidence retrieval.",
+        "No neural weight distillation, synthetic-dream training or Google Sleep benchmark reproduction was executed."
+      ],
+      "execution_scope": "Bounded local operationalization; unexecuted components and external validity remain explicit."
+    },
+    {
+      "id": "KB-H4-SCOPE",
+      "title": "Scope alignment reduces apparent answer conflicts",
+      "cross_field_connection": "Textual inference, argumentation and qualitative discourse analysis",
+      "hypothesis": "Some superficially opposed answers become compatible or remain indeterminate when proposition, time, modality and speaker/source scope are aligned.",
+      "unit": "Two inspected propositions answering a comparable analyst question, each linked to exact evidence spans.",
+      "design": "Use similarity only to propose candidate pairs. Read both evidence spans and context. Record the common question, scoped claims, conditions, dates, unknown roles and relation category before discussing agreement. Include high-similarity compatible, high-similarity conflicting and insufficient-context cases where actually found.",
+      "comparisons": [
+        "Topic-similarity candidates versus inspected scoped relations",
+        "Unqualified paraphrase versus qualification-preserving representation"
+      ],
+      "metrics": [
+        "Counts by compatible, qualified-tension, explicit-scoped-conflict and insufficient-context labels",
+        "Provenance and context availability per compared pair",
+        "Reviewer disagreements and changes after source inspection"
+      ],
+      "falsification_or_null": "Context preserves a genuine scoped conflict or remains insufficient; no requirement that every apparent conflict disappear.",
+      "plots": [
+        "Question-by-source answer comparison table",
+        "Relation matrix with an explicit unknown category",
+        "Proposition graph separating conflict from mere shared topic"
+      ],
+      "limits": [
+        "AI review is not human annotation reliability.",
+        "A conflict label concerns reported assertions, not which claim is true.",
+        "Cosine distance and negation flags cannot determine contradiction."
+      ],
+      "source_ids": [
+        "contradictions-2008",
+        "sbert-2019",
+        "prov-o-2013"
+      ],
+      "status": "executed",
+      "evidence_module": "knowledge",
+      "observations": [
+        "Created 13 question records and 25 source-linked cards, with 11 scoped comparisons.",
+        "Relations: compatible 4, conditional tension 1, different focus 3, explicit contradiction 0, shared proposition 1, unresolved 2.",
+        "Zero scoped contradictions in this small selected set is not evidence of universal agreement. Similarity never assigns a comparison label.",
+        "Human inter-annotator reliability, speaker verification and prediction-outcome verification remain unmeasured."
+      ],
+      "execution_scope": "Bounded local operationalization; unexecuted components and external validity remain explicit."
+    },
+    {
+      "id": "KB-H5-CONFOUNDING",
+      "title": "Source context explains part of the apparent topic organization",
+      "cross_field_connection": "Digital humanities, statistical measurement and representation analysis",
+      "hypothesis": "Some similarity and cluster structure follows medium, publication format, text length or recognizer rather than the attributed council/entity label.",
+      "unit": "Deduplicated publication/text edition; independent-medium comparisons require actual distinct mediums.",
+      "design": "Use exact source families, disclosed name masking, common-length spans and multiple representations. Cross-tabulate cluster membership with medium, text origin and attributed label; explicitly count whether the desired same-label cross-medium pairs exist.",
+      "comparisons": [
+        "Masked versus unmasked text",
+        "Whole text versus fixed-length spans",
+        "Lexical versus dense representations",
+        "Within-medium versus cross-medium/same-label pairs"
+      ],
+      "metrics": [
+        "Descriptive pair similarities and pair counts",
+        "Adjusted Rand association with source/context labels",
+        "Silhouette and seed sensitivity",
+        "Neighborhood overlap across representations"
+      ],
+      "falsification_or_null": "Structure persists across these controls, or there are too few eligible comparisons to separate the effects.",
+      "plots": [
+        "Cluster/source/format contingency heatmap",
+        "Matched-source sensitivity plot",
+        "Same-label versus same-medium pair table"
+      ],
+      "limits": [
+        "Source, medium, time and label may be inseparable in the convenience sample.",
+        "No population p-value or causal mechanism follows from dependent pairs.",
+        "Clusters are not authenticated entity categories."
+      ],
+      "source_ids": [
+        "mmteb-2025",
+        "graphrag-2024",
+        "datasheets-2021"
+      ],
+      "status": "executed",
+      "evidence_module": "analysis",
+      "observations": [
+        "Executed exact-name masking, unmasked, centered-window and pooling sensitivities; compared within-medium and cross-medium label strata.",
+        "Clusters have weak separation and seed sensitivity. Repeated names and similar language do not establish a shared entity or independent source.",
+        "Five explicitly synthetic statements demonstrate that high embedding similarity can survive a negation; these controls are excluded from corpus denominators."
+      ],
+      "execution_scope": "Bounded local operationalization; unexecuted components and external validity remain explicit."
+    },
+    {
+      "id": "KB-H6-RETENTION",
+      "title": "Index updates can retain prior evidence without erasing disagreement",
+      "cross_field_connection": "Continual learning analogies and software/data regression testing",
+      "hypothesis": "A source-versioned consolidation update can add a transcript edition while preserving earlier known support, uncertainty and disagreement records.",
+      "unit": "A versioned knowledge-bank release and a fixed prior-question/source-support set.",
+      "design": "Freeze the first release, then add an independently reviewed transcript edition. Rebuild only derived artifacts whose source dependencies changed. Evaluate the earlier question set plus a separate new-source set; preserve superseded editions and correction history.",
+      "comparisons": [
+        "Before versus after an index update",
+        "Earlier-question support versus new-source support",
+        "Unchanged versus affected source derivations"
+      ],
+      "metrics": [
+        "Regression count in known-support retrieval",
+        "Missing/changed source bindings",
+        "Retained qualification and relation records",
+        "Number of affected/rebuilt artifacts"
+      ],
+      "falsification_or_null": "Earlier support is lost, qualifications disappear or source lineage breaks.",
+      "plots": [
+        "Release-to-release change ledger",
+        "Earlier/new-question support matrix",
+        "Dependency graph highlighting affected artifacts"
+      ],
+      "limits": [
+        "This measures index-maintenance regression, not neural catastrophic forgetting.",
+        "An earlier answer may legitimately change after corrected evidence; semantic correctness needs review."
+      ],
+      "source_ids": [
+        "google-sleep-2026",
+        "nested-learning-2025",
+        "prov-o-2013"
+      ],
+      "status": "partially_executed",
+      "evidence_module": "knowledge",
+      "observations": [
+        "Preserved earlier source editions, corrected card support locators in new annotation editions, and verified unchanged card-index text across the metadata correction.",
+        "The primary model and all knowledge cards remain bound to their original body hashes. Recognition upgrades do not silently replace evidence.",
+        "Repeated update cycles, automatic re-annotation and human evaluation of qualifier retention remain future work; this is not a test of neural catastrophic forgetting.",
+        "Executed a separate four-recording recognition-edition sensitivity and affected-card audit; new evidence is not automatically substituted into existing annotations."
+      ],
+      "execution_scope": "Bounded local operationalization; unexecuted components and external validity remain explicit."
+    },
+    {
+      "id": "KB-H7-GRAPH",
+      "title": "Typed evidence paths support associative questions without merging identities",
+      "cross_field_connection": "Knowledge graphs, memory indexing and network science",
+      "hypothesis": "Inspecting typed source-to-claim paths can expose useful associations while reducing unsupported identity merges compared with a graph of untyped similar names.",
+      "unit": "An evidence path between question, proposition, source edition and attributed label.",
+      "design": "Separate document, medium, named claim, proposition and derived topic nodes. Every claim edge carries source provenance; similarity edges use a different relation type and never substitute for identity edges. Evaluate direct factual questions separately from multi-source associative questions.",
+      "comparisons": [
+        "Direct source retrieval versus graph-assisted evidence navigation",
+        "Typed provenance edges versus proposed similarity links",
+        "Factual questions versus associative/global questions"
+      ],
+      "metrics": [
+        "Number of inspectable paths with complete evidence bindings",
+        "Known-support recovery by question type",
+        "Unresolved identity links and false merges found in review"
+      ],
+      "falsification_or_null": "Associative paths add unsupported jumps or degrade direct-source retrieval.",
+      "plots": [
+        "Typed evidence graph with source filters",
+        "Path inspector and provenance-completeness table",
+        "Question-type retrieval comparison"
+      ],
+      "limits": [
+        "Graph degree depends on collection coverage.",
+        "A graph edge is not evidence that a supernatural entity exists or that independent mediums share an origin.",
+        "A typed provenance graph alone does not reproduce GraphRAG or HippoRAG."
+      ],
+      "source_ids": [
+        "graphrag-2024",
+        "hipporag-2024",
+        "hipporag2-2025",
+        "prov-o-2013"
+      ],
+      "status": "partially_executed",
+      "evidence_module": "knowledge",
+      "observations": [
+        "Built 100 typed nodes and 135 provenance/attribution/question relationships with checked joins.",
+        "The graph supports inspection and navigation. GraphRAG/HippoRAG retrieval algorithms and multi-hop retrieval gains were not implemented or evaluated.",
+        "Attribution, source support, interpretation and hypotheses are distinct edge roles; graph density is not corroboration."
+      ],
+      "execution_scope": "Bounded local operationalization; unexecuted components and external validity remain explicit."
+    },
+    {
+      "id": "KB-H8-ANALOGY",
+      "title": "Cross-field analogies should produce discriminating questions",
+      "cross_field_connection": "Scientific hypothesis generation, psychology and information processing",
+      "hypothesis": "An evidence card that explicitly separates analogy from mechanism produces more testable follow-up questions than an unqualified thematic synthesis.",
+      "unit": "A proposed bridge between a corpus claim and a separately documented scientific construct.",
+      "design": "Record the source assertion, external construct, exact shared feature, disanalogies and a possible observation that would distinguish the mechanisms. Keep proposed bridges outside empirical findings until source support and an actual experiment exist.",
+      "comparisons": [
+        "Thematic resemblance versus a scoped mechanism claim",
+        "Supported shared feature versus unsupported transferred evidence"
+      ],
+      "metrics": [
+        "Presence of an explicit discriminating observation and counterexample",
+        "Independent source support for each side of the analogy",
+        "Number of bridges deferred for missing mechanism or evidence"
+      ],
+      "falsification_or_null": "No discriminating observation can be formulated, or the apparent commonality disappears once the claims are scoped.",
+      "plots": [
+        "Cross-field connection table with evidence status",
+        "Hypothesis graph using visibly distinct proposed edges"
+      ],
+      "limits": [
+        "Schema completeness is not scientific validity.",
+        "Psychological or neural evidence cannot be imported into an unrelated paranormal causal claim.",
+        "No model-generated analogy is treated as an observed phenomenon."
+      ],
+      "source_ids": [
+        "google-sleep-2026",
+        "contradictions-2008",
+        "datasheets-2021"
+      ],
+      "status": "proposed",
+      "evidence_module": "literature",
+      "observations": [
+        "Recorded falsifiable connections to information retrieval, measurement error, oral history, argumentation, data versioning and contextual representation geometry.",
+        "These are research hypotheses and design analogies, not evidence for physical mechanisms, claim truth or shared supernatural identity."
+      ],
+      "execution_scope": "Bounded local operationalization; unexecuted components and external validity remain explicit."
+    },
+    {
+      "id": "KB-H9-CONTEXTUAL-TERMS",
+      "title": "Contextual token states across source usage",
+      "status": "executed",
+      "evidence_module": "contextual_terms",
+      "cross_field_connection": "Contextual representation geometry and source-aware digital humanities",
+      "hypothesis": "The same selected term changes its contextual representation across sources; projections and clusters require explicit sampling and distortion diagnostics.",
+      "observations": [
+        "Selected 24 terms from 806 eligible unigrams; 711 deterministic contexts from 2290 available occurrences, spanning 409 source-term pairs.",
+        "Target subword states are balanced within source and then across sources. One term-centroid PCA also transforms source-context vectors.",
+        "This uses token states from a sentence-trained MiniLM baseline. It is not a validated word-sense model, comprehensive vocabulary analysis or ontology of claimed beings."
+      ],
+      "limits": [
+        "Context sampling is bounded and purposive.",
+        "Projection distances lose high-dimensional information.",
+        "No human word-sense judgments or generalization accuracy."
+      ],
+      "source_ids": [
+        "sbert-2019",
+        "mmteb-2025"
+      ]
+    }
+  ],
+  "decision": "Retain raw evidence alongside curated cards, keep generation/recognition editions separate, and use similarity for navigation rather than automatic agreement or truth labels."
+}

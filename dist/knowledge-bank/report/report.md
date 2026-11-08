@@ -1,0 +1,354 @@
+---
+title: "Source-bound knowledge consolidation and recognition sensitivity in channeling discourse"
+subtitle: "An additive, reproducible technical supplement to Channels ET"
+author: "Maintainer/authorship: TBD — AI-assisted technical report"
+date: "8 November 2026"
+lang: en
+documentclass: article
+fontsize: 10pt
+geometry: margin=24mm
+colorlinks: true
+toc: false
+toc-depth: 2
+header-includes:
+  - \usepackage{microtype}
+  - \usepackage{float}
+  - \usepackage{xurl}
+  - \floatplacement{figure}{htbp}
+  - \setlength{\emergencystretch}{3em}
+---
+
+# Abstract
+
+We examine how a small, source-bound knowledge bank changes when texts are represented lexically, embedded, consolidated into qualified answer cards, and transcribed by a different recognition pipeline. The frozen frame contains **25 distinct source editions, 47,280 whitespace words and 6 medium contexts**. Close reading covers 15,795 unique body words in 14 sources; it does not cover the entire modeled frame. The public bank contains 13 question labels, 25 answer cards and 11 scoped comparisons. A typed graph has 100 nodes and 135 edges.
+
+Lexical and neural neighborhoods agree only partially: mean top-five Jaccard is 0.340. Same-medium pairs are descriptively more similar than cross-medium pairs sharing a comparison label; format, editing and speaker context remain confounded. A four-query source-retrieval diagnostic exposes a mathematical coverage bias in naive full-list reciprocal-rank fusion (RRF). A separately labelled post-hoc repair does not establish a general retrieval winner. A paired eight-minute speech-recognition pilot runs NVIDIA Parakeet on two CPU workers and compares its output with Whisper tiny.en. Parakeet takes 62.40 seconds versus 12.48; disagreement is measured without treating either output as ground truth. A separate completed four-recording run covers 178.99 audio minutes and yields 26,319 recognized words; downstream sensitivity preserves older editions and requires re-reading affected cards. This study updates no language-model weights and does not reproduce Google's Sleep training framework. It supports auditable navigation, source criticism and experiment design, rather than verification of the identities or events claimed in channeling discourse.
+
+**Status.** This is an AI-assisted technical report, not a submitted or peer-reviewed paper. Maintainer authorship, institutional affiliations and human annotation validation remain TBD. Earlier corpora, papers and source editions remain unchanged.
+
+\clearpage
+\tableofcontents
+\clearpage
+
+# 1. Questions and study boundaries
+
+The immediate research questions are methodological. Do lexical and neural representations organize the same editions similarly? Does preserving the conditions of an answer improve useful retrieval, or merely increase index coverage and verbosity? Can two statements be compared without erasing their time, audience, referent or modal force? Does a larger contemporary speech-recognition model change downstream representations enough to require new annotation?
+
+The unit of analysis is a **documentary source edition**, not an extraterrestrial civilization, a verified spiritual speaker, a unique audience member or a complete YouTube channel. A medium is a recorded presentation or attribution context. A comparison label is an analyst grouping of printed identities; broad civilization groups and named personalities occupy different conceptual levels. The frame contains 13 comparison labels and 17 exact printed labels. Neither shared wording nor a graph edge authenticates a claimed identity.
+
+The 25-edition sample joins a previous 20-document written pilot with five Council-related texts. It is a purposive, accessible-source frame. It is not the separate, previously completed 228-unit publisher fit, a random sample of channeling, or an inventory of all videos. No new source media were acquired to assemble this particular frame. Existing retained audio was used for the recognition experiments. Duplicate checks removed no editions in this selection; this does not establish independence of their underlying ideas, publishing workflows or audiences.
+
+# 2. Literature and the meaning of consolidation
+
+## 2.1 The identifiable Google paper
+
+The strongest match to the requested recent Google work is **Behrouz, Hashemi, Javanmard and Mirrokni, “Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories,” arXiv:2606.03979v2** [R1]. Version 1 appeared on 2 June 2026, version 2 on 10 July 2026; the metadata also notes an earlier OpenReview version from September 2025. Google's Research blog describes it on **27 October 2026** [R2]. The identification is source-grounded but remains a likely match because no paper link was supplied by the requester.
+
+The authors' framework performs parameter updates. A fast wake memory operates alongside slower memory modules. It expands or activates low-rank mixture-of-experts memory while preserving older parameters, transfers information through generalized on-policy distillation and reinforcement-learning imitation, and resets fast modules after transfer. Its dreaming procedure activates random additional experts, produces synthetic curricula, selects examples using gradients, and trains adaptations. Cross-field connection in this setting is a proposed computational benefit of trained memory recombination; it is not evidence that two discourse traditions share an external referent.
+
+The reported benchmarks require their original denominators. The ten-million-token BABILong result uses task-finetuned small models, and Appendix B.2 reports substantial degradation without that fine-tuning. The filtered ARC experiment uses 11 training tasks and eight held-out tasks, reporting successful-dream fractions from five dreams per test task. Mathematical results use the stated average-at-16 setting. Appendix B.5 reports same-step supervised fine-tuning as four times more efficient, while selected time-to-target comparisons have a different ordering. None of those values forecasts performance on this corpus or CPU environment. The inspected paper and blog did not establish an executable official author release; similarly named third-party repositories are not treated as reproductions.
+
+Our implementation is an **external source-card and index consolidation experiment**. Sources remain immutable, cards are explicit annotations, and retrieval is measured separately. There are no trainable memory experts, imitation training, synthetic-gradient selection, new model weights, fine-tuning or biological sleep measurements. The analogy is limited to preparing a persistent, compressed, auditable representation before later queries.
+
+## 2.2 Adjacent primary methods
+
+Sleep-time Compute [R3] is a distinct Letta/UC Berkeley line of work about offline context preparation; it must not be attributed to Google. Nested Learning [R4] supplies architectural context for nested update frequencies, not proof that storing a card implements continual learning. GraphRAG [R5] motivates document-to-entity-to-community summaries for global questions. HippoRAG [R6] links passage retrieval, OpenIE and personalized PageRank; HippoRAG 2 [R7] broadens factual, associative and sensemaking retrieval. RAPTOR [R8] motivates hierarchical retrieval over summaries. These are design references; the present typed graph is not an executed GraphRAG, HippoRAG or RAPTOR benchmark.
+
+MMTEB [R9] motivates task-specific, multilingual embedding evaluation rather than claiming a universally best encoder. Sentence-BERT [R10] supplies the foundational rationale for sentence-level similarity. The local encoder is a small, pinned MiniLM baseline, not a current universal state-of-the-art claim. Work on contradictions in text [R11] makes referent, scope and modality central: negation or cosine alone cannot decide contradiction. Whisper [R12] provides speech-recognition background, but the inspected abstract is not evidence for a specific observed error mechanism. Datasheets [R13] and W3C PROV-O [R14] motivate explicit collection, processing and agent provenance. The JSON records borrow that conceptual separation without claiming formal RDF conformance.
+
+Access depth is recorded. HippoRAG 2, RAPTOR, Sentence-BERT, Whisper and Datasheets were inspected at abstract level in this literature pass. The report does not imply full-paper validation of their detailed methods. The literature register contains the exact versions, retrieval dates, inspected sections and source hashes for all 14 primary sources.
+
+# 3. Data, provenance and annotation
+
+## 3.1 Coverage is not a single denominator
+
+| Operation | Units actually covered |
+| --- | --- |
+| Representation analysis | 25 editions / 47,280 body words / 6 medium contexts |
+| Close reading | 14 editions / 15,795 unique body words |
+| Complete retained source bodies read | 10 |
+| Additional documentary question text | 65 words outside the body denominator |
+| Question bank | 8 analyst-authored + 5 paraphrased printed questions |
+| Knowledge cards and comparisons | 25 cards / 11 comparison records |
+| Typed graph | 100 nodes / 135 edges |
+| Fixed retrieval diagnostic | 4 source-informed questions; one known support per question |
+| Paired ASR pilot | 16 windows / 8 recordings / 8 unique audio minutes |
+
+The frozen frame's medium-level distribution is:
+
+| Medium attribution context | Editions | Words | Machine transcript editions |
+| --- | --- | --- | --- |
+| Daniel Scranton | 8 | 4,394 | 0 |
+| Lyssa Royal Holt | 1 | 2,671 | 0 |
+| Natalie Glasson | 8 | 6,927 | 0 |
+| Pamela Aaralyn | 1 | 16,931 | 1 |
+| Pamela Rose Kribbe | 4 | 7,324 | 0 |
+| Tracy Kumbera | 3 | 9,033 | 3 |
+
+This table counts the retained documentary editions, not a medium's complete output. The source mix is uneven; the machine-transcript column also exposes a major text-origin confound. The five documentary question labels paraphrase printed questions attributed to the Lyssa Royal Holt/Sasha source; the other eight are analyst-written after reading their answers. They are navigation labels, not independently observed matching questions asked to multiple mediums. The analyst questions are excluded from the experimental card index. Automated full-text processing does not count as close reading. No human listening validation or human consensus annotation is claimed.
+
+Source records retain edition identifiers, retrieval context, URL and cryptographic bindings. Normalized text locators use NFKC-normalized, stripped Python strings with end-exclusive character offsets. Source wording is retained privately; public artifacts expose bounded paraphrases, identifiers, evidence locators, summaries and plots. Existing Daniel attribution aliases are resolved to the same person where documented. Pamela Aaralyn and Pamela Rose Kribbe remain distinct. Recognition outputs retain unknown speaker roles where speaker identity is not established.
+
+## 3.2 Cards preserve conditions
+
+A card separates a question label, a concise answer, a scope or qualifier, and support locators. A relation compares propositions, not entities. The annotation record contains:
+
+| Annotation relation | Pairs |
+| --- | --- |
+| compatible | 4 |
+| conditional tension | 1 |
+| different focus | 3 |
+| explicit contradiction | 0 |
+| shared proposition | 1 |
+| unresolved | 2 |
+
+Examples show why qualification matters. A source's advice to trust the Universe or Creator does not license the broader claim that every interpersonal relationship is safe. Comparing it with a boundary-setting passage yields a conditional tension only if an analyst expands the referent to draining relationships; it is not an explicit contradiction in the retained texts. Optional invocation of an Andromedan framing can coexist with a nonhierarchical Jeshua account. Voluntary recentering can coexist with rejection of a compulsory universal formula. A contact passage's near-term discussion concerns isolated contact and does not establish a definite start date for universal contact. These are bounded interpretive comparisons, not endorsements of the source claims.
+
+Independent review corrected qualifiers and locators before acceptance. The graph contains typed source, annotation, question, topic and methodological-hypothesis links. Its printed-label nodes are medium-scoped: Mother Mary and Mary Magdalene each remain separate for Kribbe and Glasson. Consequently, 19 graph label nodes coexist with 17 distinct literal label strings in the analysis. Its 135 edges are not 135 independent corroborations, causal relationships or verified spiritual interactions. A node's degree partly reflects annotation choices and source coverage.
+
+# 4. Representations, topics and source effects
+
+## 4.1 Fixed processing contract
+
+Complete exact medium-name and printed-label phrases are masked before the main similarity analysis. This reduces a direct name cue but leaves aliases, vocabulary, repeated introductions, editing practices and source format. TF-IDF uses unigram and bigram features, sublinear term frequency, smoothed inverse-document frequency, L2 normalization, minimum document frequency one and a 12,000-feature ceiling. Unicode letters and apostrophes define tokens; the stop list retains “no,” “not,” “nor” and “never.” Standalone numerals are not lexical features. Numerical claims therefore require a separate source-level audit.
+
+The semantic encoder is `sentence-transformers/all-MiniLM-L6-v2`, pinned to revision `1110a243fdf4706b3f48f1d95db1a4f5529b4d41`, running through cached ONNX on one CPU thread. Documents are encoded as nonoverlapping 240-content-wordpiece chunks plus special tokens. Attention-mask mean pooling includes those special tokens, each chunk is L2 normalized, and the document mean is weighted by content-wordpiece count before final L2 normalization. All content chunks are processed; this is not head-only truncation. Equal-chunk weighting is a sensitivity condition.
+
+A second condition uses a centered 300-analysis-token span selected before name masking. All 25 editions qualify. It reuses the full-corpus lexical vocabulary and IDF rather than refitting. This is a fixed-span control, not a random excerpt sample. Three NMF factors and three K-means clusters are fixed exploratory displays, not statistically selected doctrine counts. K-means uses ten initializations for seeds 11, 23 and 47.
+
+## 4.2 Similarity is partly a source-context measurement
+
+There are 300 unordered pairs, and pairs sharing an edition are dependent. Their descriptive means are:
+
+| Pair stratum | Pairs | TF-IDF | MiniLM | Span TF-IDF | Span MiniLM |
+| --- | --- | --- | --- | --- | --- |
+| Different medium, different label | 222 | 0.054 | 0.545 | 0.023 | 0.380 |
+| Different medium, same comparison label | 13 | 0.045 | 0.521 | 0.024 | 0.382 |
+| Same medium, different label | 53 | 0.080 | 0.609 | 0.040 | 0.490 |
+| Same medium, same comparison label | 12 | 0.121 | 0.643 | 0.045 | 0.402 |
+
+The same-medium/different-label MiniLM mean (0.609) exceeds the cross-medium/same-label mean (0.521). This is consistent with a source-context effect, but medium, date, editorial style, format, document length and topic selection are confounded. It does not show which medium is more authentic, that comparison labels are meaningless, or that authors deliberately copied one another. No inferential confidence intervals or p-values are assigned to these dependent pair summaries.
+
+
+![Dependent pair means by medium context and comparison label. The category denominators are displayed; the study does not treat 300 pairs as 300 independent observations.](figures/source-label-contrast.pdf){width=100%}
+
+
+
+![Two lossy representations of the same 25 editions, with a portable source key. The maps support source navigation; distances and visual clusters do not validate doctrine or identity.](figures/representation-maps.pdf){width=100%}
+
+
+The lexical display is an uncentered two-component truncated SVD; the neural display is a centered two-component PCA. Their displayed explained-variance sums are approximately 6.30% and 26.52%, respectively. Trustworthiness at five neighbors is 0.801 and 0.845. Both coordinate systems are centered and scaled to unit root-mean-square radius; orthogonal Procrustes rotates or reflects the neural display only. The alignment RMS of 0.907 is not a latent-space equivalence metric. Axes are not assigned metaphysical meanings.
+
+## 4.3 Stability and lexical overlays
+
+Pair-rank Spearman between TF-IDF and MiniLM is 0.542. Mean top-five neighbor Jaccard is 0.340. Full-versus-span overlap is 0.403 for TF-IDF and 0.550 for MiniLM. Name masking produces higher neighbor stability (0.924 lexical; 0.897 neural), but does not remove all source cues. Equal-versus-content-weighted pooling changes at least one pair cosine by as much as 0.093.
+
+
+![Per-edition top-five neighbor stability across representation, excerpt and masking choices. Set overlap measures modeling sensitivity, not answer correctness.](figures/neighbor-stability.pdf){width=100%}
+
+
+| Representation | Silhouette | Medium ARI | Text-origin ARI | Comparison-label ARI |
+| --- | --- | --- | --- | --- |
+| Lexical | 0.036–0.037 | 0.351–0.443 | -0.072–-0.034 | 0.029–0.113 |
+| Semantic | 0.145–0.187 | 0.167–0.226 | 0.160–0.437 | 0.025–0.122 |
+
+The table shows ranges across the three fixed seeds. Low lexical silhouettes and changing adjusted Rand indices caution against naming clusters as stable civilizations or belief systems. Neural separation also aligns with text origin in some runs. The lexical overlay averages L2-normalized TF-IDF feature weights per medium with equal edition weights, selecting the union of each medium's top six observed features, capped at 30. It is an observed unigram/bigram overlay, not a neural word-vector map, a prevalence estimate or a unique vocabulary test.
+
+A separate synthetic control compares five constructed statements outside the corpus. “Contact will happen this year” and its negated version have MiniLM cosine approximately 0.830, exceeding the approximately 0.542 score of the selected paraphrase. This small demonstration illustrates why cosine cannot certify agreement. It is not an accuracy benchmark or evidence that a corpus source contradicts another.
+
+## 4.4 Contextual target-token exploration
+
+A separate add-on addresses literal word-vector overlays without relabelling document embeddings or TF-IDF weights as word embeddings. It selects 24 unigrams from 806 eligible candidates by mean fixed-baseline TF-IDF weight, with document frequency at least three and all components of exact medium and printed-label names excluded. The selection spans 409 source-term pairs in the same 25 editions. Up to two deterministic ordinal occurrences per source and term yield 711 sampled contexts out of 2,290 available occurrences. A single occurrence is used when only one exists; the two-occurrence rule selects the first-third and second-third ordinal positions rather than optimizing visible separation.
+
+For each occurrence, the same pinned MiniLM encoder processes up to 24 wordpieces on each side of the target. Final-layer hidden states for the target's own subwords are averaged and normalized. Occurrences are averaged equally within each source and normalized; source means are then averaged equally for each term and normalized. This limits domination by a source with many repeated occurrences, but medium coverage still differs by term. These are exploratory target-token states from a sentence-trained encoder, not validated word-sense embeddings. Foundational work on contextual representation geometry [R15] was inspected at abstract level; its BERT/ELMo/GPT-2 findings are not presented as measurements of this MiniLM add-on.
+
+One PCA fitted to the 24 term centroids transforms all 409 source-term means in the same coordinate system. The two displayed components explain 23.16% of centroid variance, with trustworthiness at 5 neighbors of 0.8646. The first four selected terms—not, time, energy, feel—supply the fixed source-overlay panels. Axes are shared within this add-on only and are not aligned to the document maps. Fixed three-cluster silhouettes range from 0.140 to 0.152; seed-pair adjusted Rand indices range from 0.552 to 0.769. These are sensitivity diagnostics, not an estimated number of meanings or civilizations.
+
+
+![Selected target-token centroids and source-context overlays in a shared PCA. Sentence-trained token states, two-occurrence sampling and fixed clusters are exploratory; proximity is not common-answer agreement or an ontology.](figures/contextual-token-overlay.pdf){width=100%}
+
+
+Frequent shared English vocabulary is overrepresented; sparse words, untranslated material and unsampled uses remain outside this view. High-cosine pairs include energy/energies (0.867), simply/just (0.778), not/no (0.745). Morphology and ordinary language usage are competing explanations for these neighborhoods, rather than evidence of a shared channeling teaching. Token states encode spelling, local context and source style as well as possible semantic associations. Nearness cannot establish a shared proposition, agreement, contradiction, or a verified speaker. Source character/token locators and their hashes are retained privately, with no corpus quotations in the public figure. The original document representations and TF-IDF term overlay remain unchanged.
+
+# 5. Source-card retrieval experiment
+
+## 5.1 Design and denominators
+
+Four source-informed audit queries were authored independently of the card author and frozen before that author saw them. They ask about a proposed council's initiators and timing, preparedness through sharing rather than hoarding, personal boundaries and external affirmation, and rapid change versus stable internal awareness. This is useful separation of roles, but the questions were still informed by source reading. They are not a human-blinded external held-out test.
+
+The raw index contains 276 nonoverlapping 180-whitespace-word chunks covering all 47,280 words. Twenty-five cards cover 14 sources. Answer-only cards contain 573 words; qualified cards contain 1,458. Lexical vocabulary/IDF are fitted on raw source chunks only, and cards and queries are transformed without refitting. A source receives its maximum unit cosine, so document length and card multiplicity can affect its opportunity to score highly. The neural condition uses the same pinned MiniLM representation contract. The 13 navigation questions are not included in the indexed cards.
+
+Each query has one documented known-support source. Other retrieved sources are **unjudged**, not automatically irrelevant. Known-support Hit@k asks whether that one known source appears among the first k sources. Reciprocal rank is zero if the source is missing and otherwise the inverse of its rank; MRR averages four such values. Coverage asks whether that support exists in an index at all. A 199-repetition source-ID shuffle is a descriptive negative control, not a p-value, sampling confidence interval or estimate of general task accuracy.
+
+| Model / condition | MRR | Hit@1 | Hit@3 | Hit@5 | Support coverage |
+| --- | --- | --- | --- | --- | --- |
+| TF-IDF / Raw chunks | 0.667 | 2/4 | 4/4 | 4/4 | 4/4 |
+| TF-IDF / Answer cards | 0.750 | 3/4 | 3/4 | 3/4 | 3/4 |
+| TF-IDF / Qualified cards | 0.625 | 2/4 | 3/4 | 3/4 | 3/4 |
+| TF-IDF / Naive full-list RRF | 0.767 | 3/4 | 3/4 | 3/4 | 4/4 |
+| TF-IDF / Top-5 RRF repair* | 0.800 | 3/4 | 3/4 | 4/4 | 4/4 |
+| MiniLM / Raw chunks | 0.812 | 3/4 | 3/4 | 4/4 | 4/4 |
+| MiniLM / Answer cards | 0.625 | 2/4 | 3/4 | 3/4 | 3/4 |
+| MiniLM / Qualified cards | 0.562 | 2/4 | 2/4 | 3/4 | 3/4 |
+| MiniLM / Naive full-list RRF | 0.766 | 3/4 | 3/4 | 3/4 | 4/4 |
+| MiniLM / Top-5 RRF repair* | 0.786 | 3/4 | 3/4 | 3/4 | 4/4 |
+
+*The top-five RRF repair is post-hoc. All fractions have four queries as the denominator. Cards cover only three of their four known support sources, imposing a 3/4 ceiling independently of ranking quality.*
+
+
+![Known-support retrieval for four fixed source-informed queries. Naive full-list fusion is a diagnosed negative control; the top-five repair was added after the first run. Rankings outside the known support are unjudged.](figures/retrieval-audit.pdf){width=100%}
+
+
+## 5.2 A structural coverage bias in naive fusion
+
+For a source appearing in a ranked list, reciprocal-rank fusion contributes $1/(60+r)$, where $r$ starts at one. In the naive condition, all 25 raw sources and all 14 card-covered sources contribute their full lists. Even the worst-positioned card-covered source receives
+
+$$\frac{1}{60+25}+\frac{1}{60+14} \approx 0.02528,$$
+
+whereas the best raw-only source receives at most
+
+$$\frac{1}{60+1} \approx 0.01639.$$
+
+Thus **every card-covered source outranks every raw-only source by construction**, regardless of the query. This is a coverage artifact, not an empirical discovery that synthesis improves relevance. An independent critic derived the issue without viewing rankings, but the initial experiment had already run. The correction therefore remains explicitly post-hoc.
+
+The repair fuses fixed top-five candidates from each list, then appends the raw-ranked tail to retain coverage. It does not tune k over the four queries or rewrite questions/cards. TF-IDF Hit@5 rises from 3/4 in naive fusion to 4/4 in the repair; MiniLM remains 3/4. Raw MiniLM itself reaches 4/4 at five with MRR 0.8125. These mixed, tiny-denominator results do not select a universal winner or prove that qualified cards improve retrieval. The operational lesson is to audit coverage and rank mechanics before interpreting an apparent consolidation gain.
+
+# 6. Parallel speech-recognition pilot
+
+## 6.1 Feasibility and actual performance
+
+The candidate is NVIDIA `parakeet-tdt-0.6b-v3`, revision `541d1f99c6b0c3cd0b11a95167540bb8edefd82b`. Its safetensors artifact is 2,508,311,120 bytes; all downloaded model artifacts occupy approximately 2.509 GB temporarily in RAM. The counted floating-state elements are not presented as an independently verified architecture parameter count. The choice is a strong contemporary open-model candidate that runs in this environment, not a universal state-of-the-art finding. Its joint technical report [R16], inspected here at abstract and bibliographic level, announces Parakeet multilingual recognition across 25 languages. That abstract's 1.7-million-hour training and ten-times-faster-than-Whisper claims concern **Canary**, and are not transferred to this Parakeet run.
+
+The pilot covers all four Council recordings plus four eligible recordings from other contexts under a fixed selection rule. Two nonoverlapping 30-second windows are centered near 25% and 75% of each recording, selected before recognition. Six source contexts contribute eight recordings and 16 paired windows: eight unique audio minutes and 32 model-window inferences. Both models receive the same canonical PCM samples. Two workers each use one CPU thread on a shared host with a four-core quota, 32 GiB memory limit and no available CUDA GPU.
+
+| Measured quantity | Whisper tiny.en | Parakeet 0.6b-v3 |
+| --- | --- | --- |
+| Concurrent workers / threads each | 2 / 1 | 2 / 1 |
+| Outer-stage wall time, seconds | 12.48 | 62.40 |
+| Observed inference overlap, seconds | 9.95 | 54.11 |
+| Median 30-second-window inference, seconds | 1.248 | 6.856 |
+| Median per-window real-time factor | 0.0416 | 0.2285 |
+| Recognized whitespace words | 1015 | 913 |
+| Conservative ASR memory accounting, GiB | 3.26 | 8.54 |
+
+The observed overlap proves that workers actually ran concurrently. There is no matched serial execution on the same workload, so no parallel speedup claim is made. Outer-stage time includes load and orchestration; median real-time factor is a per-window measure. The Parakeet run is slower in this pilot, although it remains faster than real time per 30-second window. Shared host activity, runtime libraries, decoding and model architectures differ; these timings do not isolate a single cause or generalize to GPUs. Conservative memory accounting includes worker RSS and staged artifacts and can overcount shared pages.
+
+## 6.2 Disagreement and timestamp triage
+
+Symmetric normalized word-edit distance divides unit-cost token Levenshtein distance by the longer output token sequence. Its median is 0.0706 and mean 0.1496; median distinct-token Jaccard is 0.8835. Two windows differ in negation-token counts and zero in numeric-token counts. These flags prioritize inspection; they do not establish semantic contradiction or numerical correctness. Neither output is an independent reference, so these metrics are **not word error rate (WER), accuracy or hallucination rate**.
+
+The retained tiny.en segment output overruns the 30-second window endpoint in six segments across six windows, by at most one second. Raw timestamps are preserved rather than silently repaired. Parakeet here supplies window boundaries rather than comparable word-level alignment; the pilot cannot rank alignment accuracy. Repeated output, omitted speech, boundary artifacts and uncommon names require direct audio review before substantive claim comparison. No such human listening validation is claimed in this report.
+
+A post-hoc repetition screen flags 1 baseline window and 0 Parakeet windows at a threshold of at least ten identical consecutive tokens. In the flagged Ra window, the baseline's longest identical-token run contains 112 tokens. All 16 windows remain in the reported summaries. This is an output-quality triage flag; without independent listening it is not a confirmed hallucination, a diagnosis of the underlying audio, or proof that the other model's output is correct.
+
+The eight-recording recognition pilot and the 25-edition representation frame are separate selections. For example, a pilot Ra window is not a Ra edition in the main 25-source knowledge bank. Results from one denominator must not silently be transferred to the other.
+
+# 7. Full-recording paired-edition sensitivity
+
+The separately completed run covers **4 full recordings, 178.99 audio minutes and 359 contiguous nonoverlapping windows**, producing 26,319 recognized whitespace words. Exact canonical 16 kHz mono sample bindings, start/end offsets and final partial tails are checked. Complete sample coverage does not establish complete or accurate linguistic recognition. Independent windows can split an utterance or lose discourse context; output is concatenated in sample order without inferred speaker identities or silently repaired wording. All 2 empty-text chunks are retained as empty outcomes rather than omitted from coverage.
+
+The measured two-worker stage takes 21.23 minutes, with one CPU thread per worker and 20.88 minutes of observed inference overlap. Median chunk real-time factor is 0.2344; conservative memory accounting is 9.33 GiB. The stage includes hash checks, model loading and inference, and excludes download, preparation and final projection. It is a shared-host measurement without a matched serial speedup comparison.
+
+
+
+For a controlled sensitivity analysis, four old recognition editions are counterfactually replaced within the 25-source frame; 21 editions remain unchanged. The published original fit is preserved. The new 25-source counterfactual has 47,635 words versus 47,280; the paired subset changes from 25,964 to 26,319. More words are not evidence of better recognition.
+
+The lexical transform freezes the original phrase mask, vocabulary and IDF; new terms outside that vocabulary do not become new features. The semantic transform uses the same pinned MiniLM and complete chunk-pooling contract. This is a recognition-pipeline sensitivity analysis: model, context/VAD handling, segmentation, decoding and punctuation differ, so a change cannot be attributed solely to model weights.
+
+| Observed sensitivity | Value |
+| --- | --- |
+| Mean old/new paired TF-IDF cosine | 0.9616 |
+| Mean old/new paired MiniLM cosine | 0.9880 |
+| All-source mean top-five Jaccard, TF-IDF | 0.9600 |
+| All-source mean top-five Jaccard, MiniLM | 0.8933 |
+| Largest pair-cosine change, TF-IDF | 0.0109 |
+| Largest pair-cosine change, MiniLM | 0.0259 |
+| Existing cards requiring edition-specific re-reading | 9 |
+| Cards automatically rewritten | 0 |
+
+
+![Four same-audio pairs under old and new recognition pipelines. Word counts, representation cosines and normalized machine-text disagreement describe sensitivity; neither edition is ground truth.](figures/asr-edition-sensitivity.pdf){width=100%}
+
+
+All existing cards remain bound to their old source wording and locators. New editions require independent re-reading and re-annotation before inheriting any claim or relation. Similarity changes do not automatically alter a compatibility or contradiction label. Four deliberately selected Council recordings cannot establish performance across all channels, languages or recording conditions.
+
+Independent model-agent review checked every retained input/output join and all 359 window-duration bindings. A separate scalar dynamic-programming implementation reproduced full token-edit distances of 104, 145, 108 and 1,602. An independent log-TF/IDF reconstruction reproduced the baseline and counterfactual lexical matrices; arithmetic on saved neural-vector witnesses reproduced paired cosines, matrices and neighbor summaries. These checks did not repeat neural-model inference, establish speaker identity, or supply a listening-verified reference. Detailed acceptance scopes are retained in the project's independent-review record.
+
+# 8. Cross-field connections and falsifiable next experiments
+
+The useful cross-field transfers are methodological, and each requires a stated failure condition.
+
+**Information retrieval and archive coverage.** Card compression can change both relevance and opportunity to be retrieved. A larger preregistered query set should stratify supports that have and lack cards, hold query families out of tuning, report known-support coverage separately, and audit multiple plausible supports rather than treating all unlisted sources as irrelevant. A claimed gain fails if it disappears under equal source coverage or depends on repeatedly tuning fusion to the same questions. The present four-query diagnostic identifies a structural failure and supplies no population accuracy estimate.
+
+**Oral history, discourse analysis and claim scope.** A statement's practical meaning depends on audience, speaker attribution, date, referent, condition and modality. A blinded annotation exercise can present source spans, qualified cards and answer-only cards to independent reviewers and count which obligatory qualifiers survive. The denominator should be prespecified qualifier obligations, with disagreement and unresolved cases retained. A compression method fails if it systematically turns possibilities into certainties or collective metaphors into dated factual predictions. Current cards are source-bound but have not undergone a human inter-annotator study.
+
+**Stylometry and measurement theory.** Medium and text-origin signals can masquerade as civilization/topic similarity. A balanced future design should sample several matched questions per medium and label, preserve publication and editing metadata, and evaluate held-out medium or publisher conditions. A civilization-level interpretation weakens if separation vanishes after matching genre, length and topic or if medium prediction dominates. Current dependent-pair contrasts are descriptive; the available sample does not permit independent causal separation of those factors.
+
+**Memory consolidation and regression testing.** Immutable sources, compressed cards and a retrieval index form three inspectable layers. Repeated updates can retain a fixed old-question set alongside newly introduced questions, reporting source support, qualifier retention, unsupported synthesis and index coverage after each update. A consolidation proposal fails if gains on new questions hide losses on old questions or erase provenance. This is an external-memory regression design, not evidence that a language model has acquired new parametric knowledge.
+
+**Speech recognition and error propagation.** A future listening-verified reference should stratify quiet speech, noise, repetition, unfamiliar names, negation and numerical claims. Word-level accuracy, named-entity correctness and source-card stability should be assessed separately, using the same audio and explicit pipeline settings. Current machine-to-machine disagreement identifies review targets but cannot show which model is right. A higher-capacity model fails the substantive task if it produces fluent but unsupported names or reverses conditions even when its broad topic embedding remains similar.
+
+**Network epistemology and graph semantics.** Typed provenance paths can distinguish “source supports card,” “analyst compares propositions” and “hypothesis connects methods.” A later graph-retrieval experiment can compare equal-budget lexical, neural and graph retrieval against documented supports. A graph method fails if apparent gains arise from duplicated source edges or label leakage. High degree and dense communities are not independent corroboration. GraphRAG and hippocampal-memory papers motivate tests, not shortcuts to evidential authority.
+
+**Forecast auditing.** Date-bound prediction/outcome matching remains proposed. It requires the original publication timestamp, stable edition text, exact forecast scope, outcome criteria selected before outcome lookup, and listening verification where the decisive date comes from ASR. Retrospective thematic similarity is insufficient. The present study does not score prophecy, supernatural causation, health outcomes or future events.
+
+# 9. Limitations, AI roles and reproducibility
+
+This study is constrained by purposive source access, few mediums, uneven labels and topics, variable edition lengths and mixed text origins. Publisher text is not an independent word-aligned audio reference. Embeddings encode training-distribution biases; numerical claims and negation require direct examination. Lossy maps, selected lexical features and fixed cluster counts are exploratory. The pair observations are dependent. Four retrieval queries and four full-recognition source pairs cannot support general superiority claims. No new weight training, human-blinded accuracy study, verified channeled identity or causal spiritual mechanism is established.
+
+AI agents performed literature inspection, source reading and bounded paraphrase annotation, representation design, code implementation, ASR orchestration, report writing and independent criticism in distinct roles. Independent model-agent review is not independent human replication or inter-annotator agreement. The source-reading and card roles were separated from the four audit-query authorship role before the card author saw the queries. An independent critic identified qualifier issues and the naive-fusion bias; the latter remained post-hoc because the first run already existed. Runtime and script/model/data hashes bind executed outputs. Maintainer authorship and human validation remain TBD.
+
+The report is additive. Earlier source editions, numeric fits, papers and raw evidence are retained. Private full text and audio are excluded from the public source archive. Public materials contain the analysis code, literature register, bounded card paraphrases, question database, typed graph, figures, this report and release hashes. Access restrictions and source licences continue to apply to raw materials. The report source archive is self-contained for typesetting, not a redistribution of the research corpus or downloaded model weights.
+
+To reproduce the PDF from the source archive, run `pdflatex -interaction=nonstopmode -halt-on-error main.tex` twice in a directory containing its `figures/` folder. To regenerate the report's selected numbers, run `build.py` with the accepted analysis, knowledge, retrieval, ASR and literature JSON inputs described in the accompanying README. Full-recording results require both a completed manifest and its hash-bound sensitivity artifact. Missing inputs produce an explicitly pending chapter, never inferred completion. The build verifies selected figure hashes and pins the main numerical and retrieval releases.
+
+## 9.1 Input bindings
+
+| Accepted input role | SHA-256 prefix | Bytes |
+| --- | --- | --- |
+| analysis | e1407aa84f8eb333 | 487,845 |
+| knowledge | 9ef331231f1efdb5 | 181,571 |
+| retrieval | 0df6a4967ed08fd1 | 251,376 |
+| asr | 11a4242e924fa250 | 42,359 |
+| literature | 639e8cb68aed09c6 | 27,061 |
+| asr_full | 3991b8649962b522 | 265,080 |
+| asr_full_public | fdfdd4d7fdeec4c7 | 10,851 |
+| sensitivity | 02aacfb8ceef15df | 81,350 |
+| contextual_terms | 5d3d509f6a509270 | 159,262 |
+| additional_references | 3b0a9be8df956874 | 1,852 |
+
+Full SHA-256 values and output/figure bindings are in `manifest.json`. Prefixes above are display abbreviations, not alternate hashes.
+
+# References
+
+**R1. Ali Behrouz; Farnoosh Hashemi; Adel Javanmard; Vahab Mirrokni.** Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories. arXiv:2606.03979v2; revised 2026-07-10. Primary source: <https://arxiv.org/html/2606.03979v2>. Access depth: full text; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R2. Ali Behrouz; Vahab Mirrokni.** The sleep framework: A new way for LLMs to retain knowledge in continual learning. Google Research blog, retrieved 2026-11-08. Primary source: <https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/>. Access depth: full text; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R3. Kevin Lin; Charlie Snell; Yu Wang; Charles Packer; Sarah Wooders; Ion Stoica; Joseph E. Gonzalez.** Sleep-time Compute: Beyond Inference Scaling at Test-time. arXiv:2504.13171v1. Primary source: <https://arxiv.org/html/2504.13171v1>. Access depth: full text; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R4. Ali Behrouz; Meisam Razaviyayn; Peilin Zhong; Vahab Mirrokni.** Nested Learning: The Illusion of Deep Learning Architectures. arXiv:2512.24695v1; Google blog dated 2025-11-07. Primary source: <https://arxiv.org/abs/2512.24695>. Access depth: abstract or excerpt; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R5. Darren Edge; Ha Trinh; Newman Cheng; Joshua Bradley; Alex Chao; Apurva Mody; Steven Truitt; Dasha Metropolitansky; Robert Osazuwa Ness; Jonathan Larson.** From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv:2404.16130v2; revised 2025-02-19. Primary source: <https://arxiv.org/html/2404.16130v2>. Access depth: full text; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R6. Bernal Jiménez Gutiérrez; Yiheng Shu; Yu Gu; Michihiro Yasunaga; Yu Su.** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models. arXiv:2405.14831v3; revised 2025-01-14. Primary source: <https://arxiv.org/html/2405.14831v3>. Access depth: full text; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R7. Bernal Jiménez Gutiérrez; Yiheng Shu; Weijian Qi; Sizhe Zhou; Yu Su.** From RAG to Memory: Non-Parametric Continual Learning for Large Language Models. arXiv:2502.14802v2; revised 2025-06-19. Primary source: <https://arxiv.org/abs/2502.14802v2>. Access depth: abstract or excerpt; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R8. Parth Sarthi; Salman Abdullah; Aditi Tuli; Shubh Khanna; Anna Goldie; Christopher D. Manning.** RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval. arXiv:2401.18059v1. Primary source: <https://arxiv.org/abs/2401.18059>. Access depth: abstract or excerpt; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R9. Kenneth Enevoldsen; Isaac Chung; Imene Kerboua; et al..** MMTEB: Massive Multilingual Text Embedding Benchmark. arXiv:2502.13595v4; revised 2025-11-13. Primary source: <https://arxiv.org/html/2502.13595v4>. Access depth: full text; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R10. Nils Reimers; Iryna Gurevych.** Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. arXiv:1908.10084v1. Primary source: <https://arxiv.org/abs/1908.10084>. Access depth: abstract or excerpt; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R11. Marie-Catherine de Marneffe; Anna N. Rafferty; Christopher D. Manning.** Finding Contradictions in Text. ACL-08: HLT, pp. 1039–1047. Primary source: <https://aclanthology.org/P08-1118/>. Access depth: full text; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R12. Alec Radford; Jong Wook Kim; Tao Xu; Greg Brockman; Christine McLeavey; Ilya Sutskever.** Robust Speech Recognition via Large-Scale Weak Supervision. arXiv:2212.04356v1. Primary source: <https://arxiv.org/abs/2212.04356>. Access depth: abstract or excerpt; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R13. Timnit Gebru; Jamie Morgenstern; Briana Vecchione; Jennifer Wortman Vaughan; Hanna Wallach; Hal Daumé III; Kate Crawford.** Datasheets for Datasets. arXiv:1803.09010v8; revised 2021-12-01. Primary source: <https://arxiv.org/abs/1803.09010v8>. Access depth: abstract or excerpt; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R14. Timothy Lebo; Satya Sahoo; Deborah McGuinness.** PROV-O: The PROV Ontology. W3C Recommendation, 2013-04-30. Primary source: <https://www.w3.org/TR/prov-o/>. Access depth: full text; retrieved 2026-11-08. Inspection details and source hashes are in the literature register.
+
+**R15. Kawin Ethayarajh.** How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings. EMNLP-IJCNLP 2019, pp. 55–65, DOI 10.18653/v1/D19-1006. Primary source: <https://aclanthology.org/D19-1006/>. Access depth: abstract and bibliographic metadata only; retrieved 2026-11-08. Foundational caution that contextual representations have model/layer-dependent geometry; the paper does not validate the present MiniLM token means or clusters.
+
+**R16. Monica Sekoyan; Nithin Rao Koluguri; Nune Tadevosyan; Piotr Zelasko; Travis Bartley; Nikolay Karpov; Jagadeesh Balam; Boris Ginsburg.** Canary-1B-v2 & Parakeet-TDT-0.6B-v3: Efficient and High-Performance Models for Multilingual ASR and AST. arXiv:2509.14128v2, revised 25 September 2025. Primary source: <https://arxiv.org/abs/2509.14128v2>. Access depth: abstract and bibliographic metadata only; retrieved 2026-11-08. The abstract announces Parakeet multilingual ASR across 25 languages; its 1.7M-hour and ten-times-Whisper performance claims concern Canary, not this Parakeet experiment.

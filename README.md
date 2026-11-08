@@ -2,6 +2,14 @@
 
 **[Open the Channeling Atlas dashboard](https://occult-kranti.github.io/channels-ET/dist/#/research-update)** · [Existing private Site](https://channeling-atlas.whatswrong-inc.chatgpt.site)
 
+### Knowledge bank and speech laboratory · 8 November 2026
+
+Open the [new knowledge-bank dashboard](https://occult-kranti.github.io/channels-ET/dist/knowledge-bank/), [18-page technical report](dist/knowledge-bank/report/report.pdf), [portable LaTeX source](dist/knowledge-bank/report/source.zip), and [searchable question database](dist/knowledge-bank/questions.sqlite). The source-bound study contains **25 text editions / 47,280 words**, **13 questions / 25 answer cards**, and a **100-node / 135-edge knowledge graph**. It adds TF-IDF and MiniLM comparisons, contextual overlays for 24 terms, scoped answer comparisons, retrieval experiments, methodological documents and three reusable project skills.
+
+The official **Parakeet TDT 0.6B v3** model was downloaded and run with two CPU workers: 16 paired benchmark windows, then all four retained Council recordings (**178.99 minutes / 359 chunks / 26,319 recognized words**, completed in 21.23 minutes). The benchmark and full run overlap and must not be summed as independent audio. No new audio was downloaded in this extension. Old editions remain intact; a separate paired sensitivity flags **nine cards for rereading** before transfer to the new transcripts. Sample coverage is verified; word accuracy is unmeasured.
+
+The review identifies Google's [*Language Models Need Sleep*](https://arxiv.org/html/2606.03979v2). Our consolidation experiment builds an external knowledge bank; it does not reproduce that paper's neural-weight training. On four frozen retrieval queries, curated cards do not consistently improve retrieval; a discovered rank-fusion coverage bias and its post-hoc repair are documented. [Methods, findings and reproduction](research/knowledge-bank/README.md) preserve distinct samples, unresolved comparisons and independent AI audit limits.
+
 ### Council follow-on · 8 November 2026
 
 Open the [Galactic Council and Council of Contact explorer](https://occult-kranti.github.io/channels-ET/dist/council-study/). The new study combines **one newly downloaded Pamela Aaralyn interview, three reused Tracy Kumbera recordings and one Daniel Scranton written comparison control**: four full-duration audios totaling **178.99 minutes**, and **five text editions / 26,451 words**. The new interview alone is 114.96 minutes, with 16,931 locally recognized words; its Council of 9, future-human, host and promotional material remains labeled as a mixed interview.

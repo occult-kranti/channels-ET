@@ -1,0 +1,5295 @@
+{
+  "schema_version": 1,
+  "status": "executed_contextual_token_exploration",
+  "bindings": {
+    "frame_sha256": "95131882eaed23b9429d3beb6cdffcda3fa62b32569d36412cd013c206008aae",
+    "baseline_analysis_sha256": "e1407aa84f8eb33375f15647a5635daae0e75b55c365e7771e3ab0b728e818df",
+    "model_manifest_sha256": "931b052d83a03d2c35854572d9038f14ed9f9da0e3383cee5e1c3912518f428d",
+    "script_sha256": "33151c788393a9fa35aed1ba23f4d387ed455c0970519a8ea23420e9df0c1b69",
+    "private_locators_sha256": "ebc2f6fee2b8afda9886bec22a534e4e0fabdce51b204e5d63fd4575658299db"
+  },
+  "coverage": {
+    "source_editions": 25,
+    "terms": 24,
+    "source_term_pairs": 409,
+    "sampled_occurrences": 711,
+    "available_occurrences": 2290,
+    "eligible_terms": 806
+  },
+  "selection": {
+    "criterion": "Top 24 unigrams by mean baseline L2 TF-IDF weight, document frequency at least 3, excluding every component of exact medium/printed-label names; ties lexical.",
+    "context_sampling": "Two occurrences at floor first-third and ceiling second-third ordinal indices; one if only one occurrence.",
+    "context_radius_wordpieces": 24,
+    "pooling": "Mean final-layer target subword states, L2 normalization; equal occurrence mean within each source, normalize; equal source mean for each term, normalize."
+  },
+  "terms": [
+    {
+      "term": "not",
+      "document_frequency": 21,
+      "mean_tfidf": 0.03447789463745762,
+      "x": 0.920843949934143,
+      "y": 0.551570646572986
+    },
+    {
+      "term": "time",
+      "document_frequency": 21,
+      "mean_tfidf": 0.02914761988010669,
+      "x": -0.2979438519832815,
+      "y": -0.12879249172759402
+    },
+    {
+      "term": "energy",
+      "document_frequency": 19,
+      "mean_tfidf": 0.02825675647861302,
+      "x": -1.137149388123669,
+      "y": 0.43038313839070147
+    },
+    {
+      "term": "feel",
+      "document_frequency": 20,
+      "mean_tfidf": 0.0279299294919004,
+      "x": -0.35012543077181224,
+      "y": -1.0038480457531036
+    },
+    {
+      "term": "earth",
+      "document_frequency": 22,
+      "mean_tfidf": 0.026869800143099157,
+      "x": -0.9019213821616545,
+      "y": 0.6257758946809675
+    },
+    {
+      "term": "know",
+      "document_frequency": 22,
+      "mean_tfidf": 0.02634236414905712,
+      "x": 0.36044929900265793,
+      "y": -1.3119609022168173
+    },
+    {
+      "term": "love",
+      "document_frequency": 19,
+      "mean_tfidf": 0.02542907476515785,
+      "x": -0.4912693396843866,
+      "y": 0.02901024142969937
+    },
+    {
+      "term": "like",
+      "document_frequency": 21,
+      "mean_tfidf": 0.023543027080442546,
+      "x": 0.48633607830017755,
+      "y": -0.49330940541557133
+    },
+    {
+      "term": "need",
+      "document_frequency": 17,
+      "mean_tfidf": 0.023494491623813472,
+      "x": 0.7441309051301304,
+      "y": 0.11649559457473825
+    },
+    {
+      "term": "reality",
+      "document_frequency": 13,
+      "mean_tfidf": 0.023106242396638575,
+      "x": -0.5553575634935791,
+      "y": 0.12128656427888208
+    },
+    {
+      "term": "way",
+      "document_frequency": 22,
+      "mean_tfidf": 0.022746774037494196,
+      "x": 0.5509153131174821,
+      "y": 0.018582024258477
+    },
+    {
+      "term": "energies",
+      "document_frequency": 13,
+      "mean_tfidf": 0.022738242381152032,
+      "x": -1.1940455293281969,
+      "y": 0.5649791803636082
+    },
+    {
+      "term": "allow",
+      "document_frequency": 21,
+      "mean_tfidf": 0.02270873556023162,
+      "x": 0.8641697741415425,
+      "y": 0.06130826250779348
+    },
+    {
+      "term": "no",
+      "document_frequency": 20,
+      "mean_tfidf": 0.022469884808458733,
+      "x": 0.9723297312432021,
+      "y": 0.6218122353598546
+    },
+    {
+      "term": "want",
+      "document_frequency": 15,
+      "mean_tfidf": 0.022046165098275724,
+      "x": 0.5843055355493145,
+      "y": 0.20711963343225473
+    },
+    {
+      "term": "experience",
+      "document_frequency": 21,
+      "mean_tfidf": 0.021519597235536026,
+      "x": -0.6267370447492072,
+      "y": -0.9281339784450678
+    },
+    {
+      "term": "creator",
+      "document_frequency": 9,
+      "mean_tfidf": 0.021403566911522096,
+      "x": -0.8530848085987455,
+      "y": 0.5308608763573672
+    },
+    {
+      "term": "simply",
+      "document_frequency": 15,
+      "mean_tfidf": 0.02081002586896303,
+      "x": 1.1951671635908276,
+      "y": 0.38922570547519686
+    },
+    {
+      "term": "just",
+      "document_frequency": 14,
+      "mean_tfidf": 0.02057512820218487,
+      "x": 1.065439546063917,
+      "y": 0.5360566198274805
+    },
+    {
+      "term": "soul",
+      "document_frequency": 15,
+      "mean_tfidf": 0.020529054452858568,
+      "x": -1.013059929491406,
+      "y": 0.44956505683417886
+    },
+    {
+      "term": "connect",
+      "document_frequency": 14,
+      "mean_tfidf": 0.02050555317362343,
+      "x": -0.04643470704948489,
+      "y": -0.6381236220325981
+    },
+    {
+      "term": "right",
+      "document_frequency": 15,
+      "mean_tfidf": 0.01999043680618522,
+      "x": 0.5890223928954709,
+      "y": 0.3627571348661558
+    },
+    {
+      "term": "life",
+      "document_frequency": 13,
+      "mean_tfidf": 0.019775562672078695,
+      "x": -0.7473768179721596,
+      "y": 0.533467061538408
+    },
+    {
+      "term": "recognise",
+      "document_frequency": 7,
+      "mean_tfidf": 0.01954917299447987,
+      "x": -0.1186038955612829,
+      "y": -1.6460874251579982
+    }
+  ],
+  "source_contexts": [
+    {
+      "term": "not",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 34,
+      "sampled_occurrences": 2,
+      "x": 0.6048696457458405,
+      "y": 0.5400165459080757,
+      "cosine_to_term_centroid": 0.7893830074774517
+    },
+    {
+      "term": "time",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": -0.2308176760645705,
+      "y": -0.13194542353080882,
+      "cosine_to_term_centroid": 0.8199001151377326
+    },
+    {
+      "term": "feel",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.15572478206180537,
+      "y": -0.798591250507424,
+      "cosine_to_term_centroid": 0.8945884789912646
+    },
+    {
+      "term": "know",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.40816870840475,
+      "y": -0.901593707393052,
+      "cosine_to_term_centroid": 0.8417251533030011
+    },
+    {
+      "term": "love",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 8,
+      "sampled_occurrences": 2,
+      "x": -0.5968893359557857,
+      "y": -0.02848466846232426,
+      "cosine_to_term_centroid": 0.9420576666765823
+    },
+    {
+      "term": "like",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.18722205847252132,
+      "y": -0.4236406531550612,
+      "cosine_to_term_centroid": 0.6880986627588416
+    },
+    {
+      "term": "way",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.33109463712474213,
+      "y": -0.2453976114084674,
+      "cosine_to_term_centroid": 0.8279103578207152
+    },
+    {
+      "term": "energies",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -1.2053287668899844,
+      "y": 0.5503297120866415,
+      "cosine_to_term_centroid": 0.9588507587410597
+    },
+    {
+      "term": "allow",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.7739316495443385,
+      "y": -0.0029986784888202086,
+      "cosine_to_term_centroid": 0.8373705047163454
+    },
+    {
+      "term": "no",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": 0.6984849634223227,
+      "y": 0.3687839721405731,
+      "cosine_to_term_centroid": 0.8114115151975757
+    },
+    {
+      "term": "want",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.7017302818939484,
+      "y": -0.12272068070783765,
+      "cosine_to_term_centroid": 0.7997376849365712
+    },
+    {
+      "term": "experience",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.4786429485736848,
+      "y": -0.9391842856389346,
+      "cosine_to_term_centroid": 0.9241726174087318
+    },
+    {
+      "term": "simply",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 1.0973645556334644,
+      "y": 0.22923613120358677,
+      "cosine_to_term_centroid": 0.8517574722570556
+    },
+    {
+      "term": "just",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": 0.9497033392833578,
+      "y": 0.44849127301441655,
+      "cosine_to_term_centroid": 0.8441921706752407
+    },
+    {
+      "term": "soul",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 14,
+      "sampled_occurrences": 2,
+      "x": -0.9715740556581587,
+      "y": 0.38282624628882633,
+      "cosine_to_term_centroid": 0.9439242447889364
+    },
+    {
+      "term": "connect",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.11552554789490903,
+      "y": -0.521129343331917,
+      "cosine_to_term_centroid": 0.913326300950221
+    },
+    {
+      "term": "right",
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": 0.40030926609064216,
+      "y": 0.39176497807605576,
+      "cosine_to_term_centroid": 0.8129366308184588
+    },
+    {
+      "term": "not",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 30,
+      "sampled_occurrences": 2,
+      "x": 0.7204875933607577,
+      "y": 0.14212451354350922,
+      "cosine_to_term_centroid": 0.8234825269650294
+    },
+    {
+      "term": "time",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.5125512819288254,
+      "y": -0.2574201115120912,
+      "cosine_to_term_centroid": 0.8297216286604399
+    },
+    {
+      "term": "energy",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": -1.0807324099458195,
+      "y": 0.452129493670498,
+      "cosine_to_term_centroid": 0.9599065685124472
+    },
+    {
+      "term": "feel",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 12,
+      "sampled_occurrences": 2,
+      "x": -0.47031352416968847,
+      "y": -1.0431068081877037,
+      "cosine_to_term_centroid": 0.8882237753262755
+    },
+    {
+      "term": "earth",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.8801183868603513,
+      "y": 0.5513460490116869,
+      "cosine_to_term_centroid": 0.920402532075574
+    },
+    {
+      "term": "know",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 16,
+      "sampled_occurrences": 2,
+      "x": 0.15728479648470264,
+      "y": -1.1111087493912142,
+      "cosine_to_term_centroid": 0.812575896482197
+    },
+    {
+      "term": "love",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.5270187909324912,
+      "y": 0.0629354148975474,
+      "cosine_to_term_centroid": 0.9570211386359366
+    },
+    {
+      "term": "like",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 19,
+      "sampled_occurrences": 2,
+      "x": 0.17790709089459364,
+      "y": -0.35379474122970245,
+      "cosine_to_term_centroid": 0.7273520419606588
+    },
+    {
+      "term": "need",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.8277398794824147,
+      "y": 0.19736084204603263,
+      "cosine_to_term_centroid": 0.7284699684956334
+    },
+    {
+      "term": "way",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.3150858770119139,
+      "y": 0.10169698936060942,
+      "cosine_to_term_centroid": 0.7018026845332171
+    },
+    {
+      "term": "energies",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -1.112263323293403,
+      "y": 0.551241563133839,
+      "cosine_to_term_centroid": 0.9540574603477519
+    },
+    {
+      "term": "allow",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6854052669095668,
+      "y": -0.021533770088721767,
+      "cosine_to_term_centroid": 0.7430890633272764
+    },
+    {
+      "term": "no",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 12,
+      "sampled_occurrences": 2,
+      "x": 0.7454793013036349,
+      "y": 0.7740672238062647,
+      "cosine_to_term_centroid": 0.8129975872784285
+    },
+    {
+      "term": "want",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 8,
+      "sampled_occurrences": 2,
+      "x": 0.6245120727624511,
+      "y": 0.3144421190424945,
+      "cosine_to_term_centroid": 0.7769868279564112
+    },
+    {
+      "term": "experience",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -0.5793653537186116,
+      "y": -0.8373280223384604,
+      "cosine_to_term_centroid": 0.8521304363962205
+    },
+    {
+      "term": "simply",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.8382433760030263,
+      "y": 0.4428780425254304,
+      "cosine_to_term_centroid": 0.7274918608954084
+    },
+    {
+      "term": "just",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.6965866094589382,
+      "y": 0.3774941253113382,
+      "cosine_to_term_centroid": 0.7696411885660263
+    },
+    {
+      "term": "soul",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 11,
+      "sampled_occurrences": 2,
+      "x": -0.9883633027192904,
+      "y": 0.43064764204116956,
+      "cosine_to_term_centroid": 0.9681435779674943
+    },
+    {
+      "term": "right",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": 0.5839015758882624,
+      "y": 0.3800018697538277,
+      "cosine_to_term_centroid": 0.7281933039921364
+    },
+    {
+      "term": "life",
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 11,
+      "sampled_occurrences": 2,
+      "x": -0.74815485106177,
+      "y": 0.5644303093719929,
+      "cosine_to_term_centroid": 0.9560017282774282
+    },
+    {
+      "term": "not",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 21,
+      "sampled_occurrences": 2,
+      "x": 0.6283406134826554,
+      "y": 0.5966415802367268,
+      "cosine_to_term_centroid": 0.8230729997160537
+    },
+    {
+      "term": "time",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 13,
+      "sampled_occurrences": 2,
+      "x": -0.3190895931676064,
+      "y": -0.014805395360757761,
+      "cosine_to_term_centroid": 0.8904696559991112
+    },
+    {
+      "term": "energy",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": -1.0953292220330584,
+      "y": 0.46916412817653386,
+      "cosine_to_term_centroid": 0.9637983289909238
+    },
+    {
+      "term": "feel",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.49603197980004055,
+      "y": -0.9291558819403702,
+      "cosine_to_term_centroid": 0.9185815419241821
+    },
+    {
+      "term": "earth",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.8189371445001795,
+      "y": 0.6664781349575712,
+      "cosine_to_term_centroid": 0.9488813521727495
+    },
+    {
+      "term": "know",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.16621097991742614,
+      "y": -1.293415871106479,
+      "cosine_to_term_centroid": 0.8777057140689699
+    },
+    {
+      "term": "love",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": -0.020130908405341364,
+      "y": -0.014530770450255616,
+      "cosine_to_term_centroid": 0.7667685574028096
+    },
+    {
+      "term": "like",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.5996468629047756,
+      "y": -0.3026383470425921,
+      "cosine_to_term_centroid": 0.8217184826595259
+    },
+    {
+      "term": "way",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.38871697073710615,
+      "y": 0.028369781836304283,
+      "cosine_to_term_centroid": 0.6069516002032693
+    },
+    {
+      "term": "no",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.3825585340349856,
+      "y": 0.3134378711992687,
+      "cosine_to_term_centroid": 0.6830015928851247
+    },
+    {
+      "term": "want",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.5641450022860454,
+      "y": 0.14635506352828598,
+      "cosine_to_term_centroid": 0.7729823516789448
+    },
+    {
+      "term": "experience",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.6818160879724896,
+      "y": -0.8447099198945668,
+      "cosine_to_term_centroid": 0.8644457303259621
+    },
+    {
+      "term": "simply",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.842672144442794,
+      "y": 0.3860451438157679,
+      "cosine_to_term_centroid": 0.7911062235506683
+    },
+    {
+      "term": "just",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 12,
+      "sampled_occurrences": 2,
+      "x": 0.6478866692479972,
+      "y": 0.5531893404885931,
+      "cosine_to_term_centroid": 0.7809040431513419
+    },
+    {
+      "term": "soul",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 8,
+      "sampled_occurrences": 2,
+      "x": -0.9848198611059191,
+      "y": 0.40973334174947296,
+      "cosine_to_term_centroid": 0.9432180314589032
+    },
+    {
+      "term": "connect",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.07658634683498544,
+      "y": -0.5500944958699309,
+      "cosine_to_term_centroid": 0.9368107679901899
+    },
+    {
+      "term": "right",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": 0.49944228233345317,
+      "y": 0.3279044802892025,
+      "cosine_to_term_centroid": 0.6994838238770806
+    },
+    {
+      "term": "life",
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "medium_id": "medium-tracy-kumbera",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.7721198281863929,
+      "y": 0.42492709714361715,
+      "cosine_to_term_centroid": 0.9321269409791303
+    },
+    {
+      "term": "not",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 87,
+      "sampled_occurrences": 2,
+      "x": 0.7363145130278397,
+      "y": 0.3994801302648366,
+      "cosine_to_term_centroid": 0.7100120356862804
+    },
+    {
+      "term": "time",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 60,
+      "sampled_occurrences": 2,
+      "x": -0.28673963622179444,
+      "y": -0.02721421819941477,
+      "cosine_to_term_centroid": 0.8704785709587148
+    },
+    {
+      "term": "energy",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 20,
+      "sampled_occurrences": 2,
+      "x": -1.000109334867493,
+      "y": 0.4105739246478954,
+      "cosine_to_term_centroid": 0.9123963263975888
+    },
+    {
+      "term": "feel",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 19,
+      "sampled_occurrences": 2,
+      "x": -0.1744334760650478,
+      "y": -0.7861328812782246,
+      "cosine_to_term_centroid": 0.8841529983737416
+    },
+    {
+      "term": "earth",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 31,
+      "sampled_occurrences": 2,
+      "x": -0.8913799680213546,
+      "y": 0.6011364659224325,
+      "cosine_to_term_centroid": 0.9286694796484772
+    },
+    {
+      "term": "know",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 51,
+      "sampled_occurrences": 2,
+      "x": 0.2870593168403936,
+      "y": -1.1065580945425169,
+      "cosine_to_term_centroid": 0.8869106578627999
+    },
+    {
+      "term": "love",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 22,
+      "sampled_occurrences": 2,
+      "x": -0.4879901117813119,
+      "y": -0.07357532753749327,
+      "cosine_to_term_centroid": 0.895324729110231
+    },
+    {
+      "term": "like",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 72,
+      "sampled_occurrences": 2,
+      "x": 0.1368819441239868,
+      "y": -0.312768183675686,
+      "cosine_to_term_centroid": 0.7399204051184849
+    },
+    {
+      "term": "need",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 16,
+      "sampled_occurrences": 2,
+      "x": 0.6835928934624816,
+      "y": -0.10495616437744835,
+      "cosine_to_term_centroid": 0.8780223933075704
+    },
+    {
+      "term": "reality",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.39371368019541375,
+      "y": 0.05456815904551652,
+      "cosine_to_term_centroid": 0.8878541481002062
+    },
+    {
+      "term": "way",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 26,
+      "sampled_occurrences": 2,
+      "x": 0.27803807940837405,
+      "y": -0.01570522210934863,
+      "cosine_to_term_centroid": 0.7147574252676088
+    },
+    {
+      "term": "allow",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.7082972564212877,
+      "y": 0.10115967270744726,
+      "cosine_to_term_centroid": 0.8695474318490541
+    },
+    {
+      "term": "no",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 41,
+      "sampled_occurrences": 2,
+      "x": 0.8585611356394559,
+      "y": 0.4547398052173085,
+      "cosine_to_term_centroid": 0.772552475117592
+    },
+    {
+      "term": "want",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 39,
+      "sampled_occurrences": 2,
+      "x": 0.4487524916617209,
+      "y": 0.1803038873142578,
+      "cosine_to_term_centroid": 0.8539029958641993
+    },
+    {
+      "term": "experience",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": -0.31093116901234086,
+      "y": -0.6686504272339354,
+      "cosine_to_term_centroid": 0.7106708346136412
+    },
+    {
+      "term": "simply",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 15,
+      "sampled_occurrences": 2,
+      "x": 0.9132671021764638,
+      "y": 0.5364317559162354,
+      "cosine_to_term_centroid": 0.7741872857497014
+    },
+    {
+      "term": "just",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 74,
+      "sampled_occurrences": 2,
+      "x": 0.9343258722199789,
+      "y": 0.601027041432151,
+      "cosine_to_term_centroid": 0.8210844753908928
+    },
+    {
+      "term": "soul",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -1.0167274905813368,
+      "y": 0.45066815135918853,
+      "cosine_to_term_centroid": 0.9235076507131427
+    },
+    {
+      "term": "right",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 38,
+      "sampled_occurrences": 2,
+      "x": 0.552100379783785,
+      "y": 0.36573642616775837,
+      "cosine_to_term_centroid": 0.8773489122906564
+    },
+    {
+      "term": "life",
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "medium_id": "medium-pamela-aaralyn",
+      "occurrences_available": 8,
+      "sampled_occurrences": 2,
+      "x": -0.7751679649843498,
+      "y": 0.48494626956655756,
+      "cosine_to_term_centroid": 0.9349092954587961
+    },
+    {
+      "term": "not",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.81609540191553,
+      "y": 0.41765866282506803,
+      "cosine_to_term_centroid": 0.8460945138434087
+    },
+    {
+      "term": "energy",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -1.015720219612761,
+      "y": 0.45228145561437477,
+      "cosine_to_term_centroid": 0.9236603805927847
+    },
+    {
+      "term": "feel",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.18194853104625205,
+      "y": -0.8616090081540124,
+      "cosine_to_term_centroid": 0.9153973789458788
+    },
+    {
+      "term": "earth",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.721197342312106,
+      "y": 0.5113363942911786,
+      "cosine_to_term_centroid": 0.8869717852855732
+    },
+    {
+      "term": "know",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.255245806036957,
+      "y": -1.133717049931821,
+      "cosine_to_term_centroid": 0.9040324215824899
+    },
+    {
+      "term": "like",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.46253880592879193,
+      "y": -0.28034105633033557,
+      "cosine_to_term_centroid": 0.5996149421434174
+    },
+    {
+      "term": "need",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.5557408228542483,
+      "y": 0.022513861802046745,
+      "cosine_to_term_centroid": 0.8968978270924004
+    },
+    {
+      "term": "way",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.31321408344266377,
+      "y": -0.02378412718027821,
+      "cosine_to_term_centroid": 0.7679075943488736
+    },
+    {
+      "term": "no",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.5654047985408379,
+      "y": 0.48381292780149154,
+      "cosine_to_term_centroid": 0.7315167994898756
+    },
+    {
+      "term": "connect",
+      "source_id": "galactic-daniel-20190327",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.018115404285597988,
+      "y": -0.599020468168131,
+      "cosine_to_term_centroid": 0.9568727971377236
+    },
+    {
+      "term": "not",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.6917888090263035,
+      "y": 0.4430091635597636,
+      "cosine_to_term_centroid": 0.8372120397575176
+    },
+    {
+      "term": "time",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.43250074019140144,
+      "y": -0.1283490975197547,
+      "cosine_to_term_centroid": 0.334703025624555
+    },
+    {
+      "term": "know",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": 0.34652337249332,
+      "y": -0.9535474066030322,
+      "cosine_to_term_centroid": 0.8749812805883692
+    },
+    {
+      "term": "love",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.5102577573097408,
+      "y": 0.13170466235979522,
+      "cosine_to_term_centroid": 0.9338094080628032
+    },
+    {
+      "term": "like",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.48204851564402823,
+      "y": -0.12267307276838647,
+      "cosine_to_term_centroid": 0.579253247025475
+    },
+    {
+      "term": "need",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.665099365087807,
+      "y": 0.04657485069503051,
+      "cosine_to_term_centroid": 0.8744603859008602
+    },
+    {
+      "term": "way",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": 0.3213069336145069,
+      "y": 0.1650934943268397,
+      "cosine_to_term_centroid": 0.8612185115173535
+    },
+    {
+      "term": "allow",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.5732753751604115,
+      "y": 0.1984509003663275,
+      "cosine_to_term_centroid": 0.8416863060241503
+    },
+    {
+      "term": "no",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.7655946302649832,
+      "y": 0.5484426585383442,
+      "cosine_to_term_centroid": 0.7534643426516109
+    },
+    {
+      "term": "want",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.49102081213684,
+      "y": 0.04330059317013036,
+      "cosine_to_term_centroid": 0.8926605294379362
+    },
+    {
+      "term": "experience",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.626981811962036,
+      "y": -0.7431030811003929,
+      "cosine_to_term_centroid": 0.9106781414741854
+    },
+    {
+      "term": "simply",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 1.1115745309424803,
+      "y": 0.2869417661887485,
+      "cosine_to_term_centroid": 0.8485088934669192
+    },
+    {
+      "term": "right",
+      "source_id": "new-et-daniel-23785",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.20969202291544098,
+      "y": 0.2839971650394975,
+      "cosine_to_term_centroid": 0.768136273637438
+    },
+    {
+      "term": "time",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.4560269597309141,
+      "y": 0.001884114179016935,
+      "cosine_to_term_centroid": 0.8902228849196856
+    },
+    {
+      "term": "energy",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -1.1056233973858207,
+      "y": 0.4601283782378676,
+      "cosine_to_term_centroid": 0.9608864728382095
+    },
+    {
+      "term": "feel",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.3835186362792215,
+      "y": -0.83595129974512,
+      "cosine_to_term_centroid": 0.8827257693064217
+    },
+    {
+      "term": "know",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.4072675030309013,
+      "y": -1.28235145240113,
+      "cosine_to_term_centroid": 0.8621883319005783
+    },
+    {
+      "term": "like",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.069380623137519,
+      "y": -0.7194786345736676,
+      "cosine_to_term_centroid": 0.8157984236148643
+    },
+    {
+      "term": "way",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.5448998329539178,
+      "y": 0.11427811066467804,
+      "cosine_to_term_centroid": 0.7684052480439854
+    },
+    {
+      "term": "energies",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -1.0795674253707181,
+      "y": 0.45929558722017455,
+      "cosine_to_term_centroid": 0.9259947975381723
+    },
+    {
+      "term": "allow",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6556121449235464,
+      "y": 0.22503429723294222,
+      "cosine_to_term_centroid": 0.8901520906628291
+    },
+    {
+      "term": "no",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.8175168873648315,
+      "y": 0.37859550581606216,
+      "cosine_to_term_centroid": 0.8109155820646152
+    },
+    {
+      "term": "want",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6714799869271193,
+      "y": 0.20165410345529364,
+      "cosine_to_term_centroid": 0.6920112662426641
+    },
+    {
+      "term": "experience",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.5244585277910574,
+      "y": -1.0436692781199348,
+      "cosine_to_term_centroid": 0.7658055798778768
+    },
+    {
+      "term": "simply",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 1.0638816430272486,
+      "y": 0.4113647514993243,
+      "cosine_to_term_centroid": 0.8711289463513586
+    },
+    {
+      "term": "just",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.46519986540109,
+      "y": 0.298307143507281,
+      "cosine_to_term_centroid": 0.7080897275773002
+    },
+    {
+      "term": "right",
+      "source_id": "new-et-daniel-23821",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.39860583455592297,
+      "y": 0.26563594854077593,
+      "cosine_to_term_centroid": 0.6911595865817741
+    },
+    {
+      "term": "not",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.8623219179661586,
+      "y": 0.21196550408480497,
+      "cosine_to_term_centroid": 0.6739340243942611
+    },
+    {
+      "term": "time",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.3615219617623939,
+      "y": -0.18504360530301134,
+      "cosine_to_term_centroid": 0.8508682892294256
+    },
+    {
+      "term": "energy",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -1.1047035008424861,
+      "y": 0.34521650007970495,
+      "cosine_to_term_centroid": 0.9598440925587897
+    },
+    {
+      "term": "feel",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.37919717044885715,
+      "y": -0.9711145756839025,
+      "cosine_to_term_centroid": 0.9409917470893931
+    },
+    {
+      "term": "earth",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.7830287142887343,
+      "y": 0.45829467604398294,
+      "cosine_to_term_centroid": 0.9267942041130083
+    },
+    {
+      "term": "know",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.4086073491597684,
+      "y": -1.0601744135960907,
+      "cosine_to_term_centroid": 0.7838283921798149
+    },
+    {
+      "term": "need",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.35889934183068956,
+      "y": 0.31592637482938785,
+      "cosine_to_term_centroid": 0.7829452129965877
+    },
+    {
+      "term": "reality",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.479490534281411,
+      "y": 0.02160538444386037,
+      "cosine_to_term_centroid": 0.8808522356008114
+    },
+    {
+      "term": "way",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.5283298365037649,
+      "y": -0.0563403085464045,
+      "cosine_to_term_centroid": 0.8229698885019555
+    },
+    {
+      "term": "allow",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.5686746120303579,
+      "y": 0.08758086910989961,
+      "cosine_to_term_centroid": 0.8409314932070504
+    },
+    {
+      "term": "no",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.7925154868357216,
+      "y": 0.5895390426021833,
+      "cosine_to_term_centroid": 0.8455468858569141
+    },
+    {
+      "term": "want",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.4851623781852622,
+      "y": 0.05341826016166503,
+      "cosine_to_term_centroid": 0.8546885197650784
+    },
+    {
+      "term": "experience",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": -0.6286379358646373,
+      "y": -0.6650400671913,
+      "cosine_to_term_centroid": 0.8394269116222445
+    },
+    {
+      "term": "just",
+      "source_id": "new-et-daniel-23838",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6528076248476059,
+      "y": 0.23044327378281904,
+      "cosine_to_term_centroid": 0.6051476053598924
+    },
+    {
+      "term": "not",
+      "source_id": "new-et-daniel-379240",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.6914299130942843,
+      "y": 0.3372563467062333,
+      "cosine_to_term_centroid": 0.8173228018007228
+    },
+    {
+      "term": "time",
+      "source_id": "new-et-daniel-379240",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.35544934759952107,
+      "y": -0.02311864893603562,
+      "cosine_to_term_centroid": 0.8110404981617773
+    },
+    {
+      "term": "earth",
+      "source_id": "new-et-daniel-379240",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": -0.8330366913438029,
+      "y": 0.626225864469703,
+      "cosine_to_term_centroid": 0.9439409444182723
+    },
+    {
+      "term": "know",
+      "source_id": "new-et-daniel-379240",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.27331548666605804,
+      "y": -1.158656538837272,
+      "cosine_to_term_centroid": 0.8236272635927833
+    },
+    {
+      "term": "love",
+      "source_id": "new-et-daniel-379240",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.38993337350026935,
+      "y": -0.022906495101586027,
+      "cosine_to_term_centroid": 0.9295011537936924
+    },
+    {
+      "term": "energies",
+      "source_id": "new-et-daniel-379240",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -1.1422261125498958,
+      "y": 0.6133878409994936,
+      "cosine_to_term_centroid": 0.9731933039989414
+    },
+    {
+      "term": "experience",
+      "source_id": "new-et-daniel-379240",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.542389825773461,
+      "y": -0.6570326322786899,
+      "cosine_to_term_centroid": 0.8847603824188294
+    },
+    {
+      "term": "life",
+      "source_id": "new-et-daniel-379240",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.6287546288963776,
+      "y": 0.5464885751036853,
+      "cosine_to_term_centroid": 0.8826476935105226
+    },
+    {
+      "term": "not",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.6019945036588387,
+      "y": 0.4126698871587097,
+      "cosine_to_term_centroid": 0.8057557455592902
+    },
+    {
+      "term": "time",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 8,
+      "sampled_occurrences": 2,
+      "x": -0.3988771945885539,
+      "y": -0.18807437395735843,
+      "cosine_to_term_centroid": 0.862054365518954
+    },
+    {
+      "term": "energy",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -1.0117668252326517,
+      "y": 0.4114013536814181,
+      "cosine_to_term_centroid": 0.8736410611648251
+    },
+    {
+      "term": "feel",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.25124960917477224,
+      "y": -0.8001919743416324,
+      "cosine_to_term_centroid": 0.8568297299291755
+    },
+    {
+      "term": "earth",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.8823418795934773,
+      "y": 0.5370579438503135,
+      "cosine_to_term_centroid": 0.9345640751502223
+    },
+    {
+      "term": "know",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.3813883530706391,
+      "y": -1.1051059029487718,
+      "cosine_to_term_centroid": 0.8967804018380747
+    },
+    {
+      "term": "like",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.49988573426063704,
+      "y": 0.015113244795190342,
+      "cosine_to_term_centroid": 0.4611000054504495
+    },
+    {
+      "term": "way",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.579145402943954,
+      "y": 0.029267829389688298,
+      "cosine_to_term_centroid": 0.7280827362754263
+    },
+    {
+      "term": "allow",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6390579704761934,
+      "y": 0.08059988387141684,
+      "cosine_to_term_centroid": 0.78434926903819
+    },
+    {
+      "term": "no",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.46323773266973217,
+      "y": 0.5414476999287898,
+      "cosine_to_term_centroid": 0.8022182207151858
+    },
+    {
+      "term": "connect",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.08704283562338808,
+      "y": -0.6626149270984819,
+      "cosine_to_term_centroid": 0.9561756717360729
+    },
+    {
+      "term": "right",
+      "source_id": "new-et-daniel-385080",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.478124213021574,
+      "y": 0.17060852232108628,
+      "cosine_to_term_centroid": 0.7973077016792334
+    },
+    {
+      "term": "not",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6712141674693837,
+      "y": 0.4658105418111153,
+      "cosine_to_term_centroid": 0.6405908997169132
+    },
+    {
+      "term": "time",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.13184680747821356,
+      "y": -0.04097761124354576,
+      "cosine_to_term_centroid": 0.8732360844295779
+    },
+    {
+      "term": "feel",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.29848027958857554,
+      "y": -1.0629561808051722,
+      "cosine_to_term_centroid": 0.8749634045500365
+    },
+    {
+      "term": "earth",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.7881661718130045,
+      "y": 0.5095068881155311,
+      "cosine_to_term_centroid": 0.8513291612907055
+    },
+    {
+      "term": "know",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.09515563103784727,
+      "y": -1.1603936004831499,
+      "cosine_to_term_centroid": 0.8444828241194969
+    },
+    {
+      "term": "love",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.5219718442207213,
+      "y": -0.07483533449562708,
+      "cosine_to_term_centroid": 0.9481076668180488
+    },
+    {
+      "term": "need",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6754607183515017,
+      "y": 0.06627228284025069,
+      "cosine_to_term_centroid": 0.793942503678603
+    },
+    {
+      "term": "way",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.4352706874098267,
+      "y": 0.03105573916592634,
+      "cosine_to_term_centroid": 0.8698730772919071
+    },
+    {
+      "term": "energies",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -1.141422774276235,
+      "y": 0.5683602496296655,
+      "cosine_to_term_centroid": 0.9497674692020673
+    },
+    {
+      "term": "allow",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.4864694666614779,
+      "y": 0.255686296351569,
+      "cosine_to_term_centroid": 0.8084274709570258
+    },
+    {
+      "term": "want",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.631601390500648,
+      "y": 0.11563330606971967,
+      "cosine_to_term_centroid": 0.806072404329336
+    },
+    {
+      "term": "experience",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.5116802978187271,
+      "y": -0.7388586242135575,
+      "cosine_to_term_centroid": 0.87468254025077
+    },
+    {
+      "term": "creator",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.6895176680004077,
+      "y": 0.37130355533379317,
+      "cosine_to_term_centroid": 0.8926162593221924
+    },
+    {
+      "term": "soul",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -1.0045661298712598,
+      "y": 0.527898145520538,
+      "cosine_to_term_centroid": 0.9236865510825365
+    },
+    {
+      "term": "connect",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.036151676712756514,
+      "y": -0.6256949504945016,
+      "cosine_to_term_centroid": 0.973475334513259
+    },
+    {
+      "term": "right",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.4623181512823577,
+      "y": 0.09745433278271025,
+      "cosine_to_term_centroid": 0.7553574704285434
+    },
+    {
+      "term": "life",
+      "source_id": "new-et-daniel-385177",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.5971959612061022,
+      "y": 0.30862220652856376,
+      "cosine_to_term_centroid": 0.8729400782922234
+    },
+    {
+      "term": "not",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.7337158438480751,
+      "y": 0.5601356484128045,
+      "cosine_to_term_centroid": 0.8006575029070937
+    },
+    {
+      "term": "time",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.3807943279200867,
+      "y": -0.036314573085722,
+      "cosine_to_term_centroid": 0.8348647767284098
+    },
+    {
+      "term": "earth",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.7904702208626134,
+      "y": 0.5495895770557515,
+      "cosine_to_term_centroid": 0.9456716587952378
+    },
+    {
+      "term": "know",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.5624969285793797,
+      "y": -0.9270816181250408,
+      "cosine_to_term_centroid": 0.8365892852958003
+    },
+    {
+      "term": "like",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.11561676260590624,
+      "y": -0.39399921420111916,
+      "cosine_to_term_centroid": 0.6243398443626458
+    },
+    {
+      "term": "allow",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.8276283147575176,
+      "y": 0.05878559404967812,
+      "cosine_to_term_centroid": 0.8603470128081772
+    },
+    {
+      "term": "no",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.4208116129785837,
+      "y": 0.25754504323212135,
+      "cosine_to_term_centroid": 0.5931562114174096
+    },
+    {
+      "term": "want",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.32222238472766374,
+      "y": 0.13655702986175466,
+      "cosine_to_term_centroid": 0.9071987319836663
+    },
+    {
+      "term": "experience",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.5666717543540588,
+      "y": -0.8627799994905938,
+      "cosine_to_term_centroid": 0.8872291124810192
+    },
+    {
+      "term": "just",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.8223982378393297,
+      "y": 0.3765677515173379,
+      "cosine_to_term_centroid": 0.8211478211405474
+    },
+    {
+      "term": "connect",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.03679645194517482,
+      "y": -0.5704431321002309,
+      "cosine_to_term_centroid": 0.923625244813957
+    },
+    {
+      "term": "right",
+      "source_id": "new-et-daniel-385737",
+      "medium_id": "medium-daniel-scranton",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.34855283390533404,
+      "y": 0.4112057641930205,
+      "cosine_to_term_centroid": 0.7512783309721631
+    },
+    {
+      "term": "not",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 26,
+      "sampled_occurrences": 2,
+      "x": 0.6205513124118143,
+      "y": 0.6361037552287206,
+      "cosine_to_term_centroid": 0.7808860686631451
+    },
+    {
+      "term": "time",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": -0.31780660876795264,
+      "y": 0.0605556042362609,
+      "cosine_to_term_centroid": 0.7903065525410731
+    },
+    {
+      "term": "feel",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.22564895814533925,
+      "y": -0.8089409407562834,
+      "cosine_to_term_centroid": 0.9160018973716242
+    },
+    {
+      "term": "earth",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.8088606726754498,
+      "y": 0.547024122675489,
+      "cosine_to_term_centroid": 0.9231927329217117
+    },
+    {
+      "term": "know",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.6025246605875244,
+      "y": -0.8503165911774079,
+      "cosine_to_term_centroid": 0.8049806791614393
+    },
+    {
+      "term": "love",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.42421455850394824,
+      "y": 0.12226979655666546,
+      "cosine_to_term_centroid": 0.9533353729243004
+    },
+    {
+      "term": "like",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.489734344587618,
+      "y": 0.009019702582411842,
+      "cosine_to_term_centroid": 0.6213209449807431
+    },
+    {
+      "term": "need",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.28042256872893295,
+      "y": 0.24454168392397052,
+      "cosine_to_term_centroid": 0.8176327153125501
+    },
+    {
+      "term": "way",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": 0.34642638249162316,
+      "y": 0.04452169328457134,
+      "cosine_to_term_centroid": 0.8446713918139331
+    },
+    {
+      "term": "allow",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.8648849226002218,
+      "y": 0.17903849023100743,
+      "cosine_to_term_centroid": 0.7470840396376706
+    },
+    {
+      "term": "no",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": 0.6309395158126322,
+      "y": 0.7397372440338965,
+      "cosine_to_term_centroid": 0.719677835461459
+    },
+    {
+      "term": "want",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": 0.33498712067605285,
+      "y": 0.3561923619766223,
+      "cosine_to_term_centroid": 0.8350486308198093
+    },
+    {
+      "term": "experience",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.22096893504159174,
+      "y": -0.5046558011079018,
+      "cosine_to_term_centroid": 0.8211503202257094
+    },
+    {
+      "term": "simply",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.9005870758637623,
+      "y": 0.4067487633153822,
+      "cosine_to_term_centroid": 0.7924187956664023
+    },
+    {
+      "term": "just",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.8905247105737037,
+      "y": 0.6226148605427766,
+      "cosine_to_term_centroid": 0.7629690602875283
+    },
+    {
+      "term": "soul",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.8812070549488384,
+      "y": 0.4035355533297044,
+      "cosine_to_term_centroid": 0.8533380235285175
+    },
+    {
+      "term": "right",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.44190692095213807,
+      "y": 0.46133784424035684,
+      "cosine_to_term_centroid": 0.671760772728016
+    },
+    {
+      "term": "life",
+      "source_id": "new-et-lyssa-preparedness-138",
+      "medium_id": "medium-lyssa-royal-holt",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.6103728026226964,
+      "y": 0.5106154517380307,
+      "cosine_to_term_centroid": 0.9281184717400881
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 24,
+      "sampled_occurrences": 2,
+      "x": 0.8059573066039116,
+      "y": 0.4025611335781267,
+      "cosine_to_term_centroid": 0.7601699236062476
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.40197388584508015,
+      "y": 0.0043139351757836,
+      "cosine_to_term_centroid": 0.7967767689054943
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 30,
+      "sampled_occurrences": 2,
+      "x": -1.0996913443582375,
+      "y": 0.36370670033147795,
+      "cosine_to_term_centroid": 0.962024622679168
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 15,
+      "sampled_occurrences": 2,
+      "x": -0.4725585438585708,
+      "y": -0.7984794676776161,
+      "cosine_to_term_centroid": 0.9317517656442649
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.9098482548480752,
+      "y": 0.6034771655979609,
+      "cosine_to_term_centroid": 0.9400347339241104
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.44857744734011074,
+      "y": -1.0752272541758472,
+      "cosine_to_term_centroid": 0.9223323864503908
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.605743172914429,
+      "y": -0.043020091176578325,
+      "cosine_to_term_centroid": 0.930229846339685
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.0025142162243896506,
+      "y": -0.4160560727372907,
+      "cosine_to_term_centroid": 0.7858415652008823
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": 0.7776527770031199,
+      "y": -0.06933520102179576,
+      "cosine_to_term_centroid": 0.8993624753966443
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.15703399306086133,
+      "y": 0.1403150734308576,
+      "cosine_to_term_centroid": 0.7861203199623883
+    },
+    {
+      "term": "energies",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -1.234711523575618,
+      "y": 0.5417520137336675,
+      "cosine_to_term_centroid": 0.9792038928693958
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.6940073240523762,
+      "y": -0.03457913007631969,
+      "cosine_to_term_centroid": 0.8534409997693628
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.7227229333761735,
+      "y": 0.6802695731349936,
+      "cosine_to_term_centroid": 0.768335683372485
+    },
+    {
+      "term": "simply",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 1.0011430420878382,
+      "y": 0.21360295483377426,
+      "cosine_to_term_centroid": 0.8245276207387451
+    },
+    {
+      "term": "just",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": 0.8551199105371192,
+      "y": 0.4701621912109409,
+      "cosine_to_term_centroid": 0.8438477398926875
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.993669788079765,
+      "y": 0.3963731632624729,
+      "cosine_to_term_centroid": 0.9471544350420438
+    },
+    {
+      "term": "connect",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.00637486850444992,
+      "y": -0.49120160233895516,
+      "cosine_to_term_centroid": 0.8901395527117224
+    },
+    {
+      "term": "life",
+      "source_id": "tr-source-jeshua-isis-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 18,
+      "sampled_occurrences": 2,
+      "x": -0.5874715177202778,
+      "y": 0.4719881475630079,
+      "cosine_to_term_centroid": 0.9162874892010927
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 24,
+      "sampled_occurrences": 2,
+      "x": 0.8509423329700402,
+      "y": 0.33904487583419873,
+      "cosine_to_term_centroid": 0.8437701328184029
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -0.2969759423892152,
+      "y": -0.2608115338818628,
+      "cosine_to_term_centroid": 0.8140567577156683
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 22,
+      "sampled_occurrences": 2,
+      "x": -1.1052804384561579,
+      "y": 0.3540882277999008,
+      "cosine_to_term_centroid": 0.9448919361857753
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 12,
+      "sampled_occurrences": 2,
+      "x": -0.3137676126855223,
+      "y": -0.959171668159257,
+      "cosine_to_term_centroid": 0.9406630557429867
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": -0.8957364912103774,
+      "y": 0.658151963402782,
+      "cosine_to_term_centroid": 0.94230065080389
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.30334684848950016,
+      "y": -1.170086124570913,
+      "cosine_to_term_centroid": 0.8930821406761563
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.5497720780464644,
+      "y": -0.011782011434853665,
+      "cosine_to_term_centroid": 0.938985730811574
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.6615917663071643,
+      "y": -0.0636901747476324,
+      "cosine_to_term_centroid": 0.5495103228836192
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.3822645188838079,
+      "y": 0.21072287233507786,
+      "cosine_to_term_centroid": 0.8122290721833153
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.5772189122439533,
+      "y": 0.11615673699671532,
+      "cosine_to_term_centroid": 0.961777279982755
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.4978732329016341,
+      "y": 0.042686514634878985,
+      "cosine_to_term_centroid": 0.8192199696416016
+    },
+    {
+      "term": "energies",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -1.1668557615394917,
+      "y": 0.6018703474166567,
+      "cosine_to_term_centroid": 0.9545860497433777
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.8588367559996218,
+      "y": 0.18442578535902948,
+      "cosine_to_term_centroid": 0.8604900731756893
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.6726227572627143,
+      "y": 0.5335857977260068,
+      "cosine_to_term_centroid": 0.765116077471181
+    },
+    {
+      "term": "want",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.49826415620266096,
+      "y": 0.34466831119425223,
+      "cosine_to_term_centroid": 0.80123111199717
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.6736337052202884,
+      "y": -0.5450447794876323,
+      "cosine_to_term_centroid": 0.7571473508879498
+    },
+    {
+      "term": "just",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.6471831278199222,
+      "y": 0.5911478515179573,
+      "cosine_to_term_centroid": 0.7011152600884311
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": -1.0025163024612267,
+      "y": 0.43332746696714786,
+      "cosine_to_term_centroid": 0.9439265007453899
+    },
+    {
+      "term": "connect",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": -0.07333139062985493,
+      "y": -0.5722714013032544,
+      "cosine_to_term_centroid": 0.9615961396764539
+    },
+    {
+      "term": "right",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.38718690606064765,
+      "y": 0.2819035125945456,
+      "cosine_to_term_centroid": 0.6306960131784648
+    },
+    {
+      "term": "life",
+      "source_id": "tr-source-jeshua-magdalene-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 11,
+      "sampled_occurrences": 2,
+      "x": -0.745192070103323,
+      "y": 0.48614780494134885,
+      "cosine_to_term_centroid": 0.9412505719058979
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 8,
+      "sampled_occurrences": 2,
+      "x": 0.4716574394861047,
+      "y": 0.39997074697683666,
+      "cosine_to_term_centroid": 0.7427200927792976
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.21684520907081756,
+      "y": -0.25773597001936843,
+      "cosine_to_term_centroid": 0.586582235323085
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 18,
+      "sampled_occurrences": 2,
+      "x": -1.0929542859945651,
+      "y": 0.3694238727158691,
+      "cosine_to_term_centroid": 0.9514417466643679
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 10,
+      "sampled_occurrences": 2,
+      "x": -0.30207013714626785,
+      "y": -0.9596059857639034,
+      "cosine_to_term_centroid": 0.9256724669309506
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.8726367313084173,
+      "y": 0.5797966741580881,
+      "cosine_to_term_centroid": 0.9505295341819591
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.05707952082517561,
+      "y": -1.218832774431831,
+      "cosine_to_term_centroid": 0.8627519643924544
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.5309379208625413,
+      "y": 0.1758056137427571,
+      "cosine_to_term_centroid": 0.9215671577479672
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.5251797194470982,
+      "y": -0.11464964440509762,
+      "cosine_to_term_centroid": 0.4604454716473876
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": 0.8266890814613136,
+      "y": 0.1651247035906462,
+      "cosine_to_term_centroid": 0.7950721533467389
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.5842907582723044,
+      "y": 0.07091347122986913,
+      "cosine_to_term_centroid": 0.8896599330866894
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.22988671469663804,
+      "y": 0.10193988360833306,
+      "cosine_to_term_centroid": 0.8247521364889598
+    },
+    {
+      "term": "energies",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -1.1003649426966653,
+      "y": 0.5609488089690019,
+      "cosine_to_term_centroid": 0.9519798592632891
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6579848623583404,
+      "y": 0.0757014075903494,
+      "cosine_to_term_centroid": 0.8602006570420881
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.6913142310816444,
+      "y": 0.37415721758224646,
+      "cosine_to_term_centroid": 0.8062294080686001
+    },
+    {
+      "term": "want",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.3360100923714838,
+      "y": 0.2150141171049911,
+      "cosine_to_term_centroid": 0.864498594806147
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.3915734555503592,
+      "y": -0.7278619348520278,
+      "cosine_to_term_centroid": 0.751290635724683
+    },
+    {
+      "term": "just",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6835188085556698,
+      "y": 0.21746183296279603,
+      "cosine_to_term_centroid": 0.7732331777799749
+    },
+    {
+      "term": "connect",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.0029273558282026913,
+      "y": -0.5902691240790949,
+      "cosine_to_term_centroid": 0.8829560882657523
+    },
+    {
+      "term": "life",
+      "source_id": "tr-source-jeshua-mary-full",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -0.8308883926753615,
+      "y": 0.5031572855750727,
+      "cosine_to_term_centroid": 0.9205928336797706
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 23,
+      "sampled_occurrences": 2,
+      "x": 0.4303632678813762,
+      "y": 0.6429013368606155,
+      "cosine_to_term_centroid": 0.7940116868655578
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.5550388302670513,
+      "y": 0.06560122343235407,
+      "cosine_to_term_centroid": 0.7956939064318557
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -1.1517001925586203,
+      "y": 0.43621839855316863,
+      "cosine_to_term_centroid": 0.9800799857462599
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": -0.34880687206618544,
+      "y": -0.9514799221237576,
+      "cosine_to_term_centroid": 0.9364226060218075
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 8,
+      "sampled_occurrences": 2,
+      "x": -0.9504384830267544,
+      "y": 0.6046049949863711,
+      "cosine_to_term_centroid": 0.9533732083197032
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.35535902745906517,
+      "y": -1.3876171354760318,
+      "cosine_to_term_centroid": 0.9450691451398465
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.48003309800603094,
+      "y": -0.014943667441018708,
+      "cosine_to_term_centroid": 0.958362941119306
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.3923820198081372,
+      "y": -0.46401794880476194,
+      "cosine_to_term_centroid": 0.7780099530566451
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.5995458459039729,
+      "y": 0.24120132040314302,
+      "cosine_to_term_centroid": 0.869307820836152
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.48917654136523375,
+      "y": 0.042062811597688744,
+      "cosine_to_term_centroid": 0.948149752255272
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": 0.3759101854988922,
+      "y": 0.0007617683510375564,
+      "cosine_to_term_centroid": 0.8697421113600874
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.5750878506554801,
+      "y": -0.047629671288487614,
+      "cosine_to_term_centroid": 0.7611143117330246
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": 0.7639640076908522,
+      "y": 0.4457064098106298,
+      "cosine_to_term_centroid": 0.8484550797795838
+    },
+    {
+      "term": "want",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.35702962815975764,
+      "y": 0.13169042514802576,
+      "cosine_to_term_centroid": 0.8241292876297319
+    },
+    {
+      "term": "simply",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.7740440996331983,
+      "y": 0.38108303550040457,
+      "cosine_to_term_centroid": 0.7820426317724763
+    },
+    {
+      "term": "just",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.9417615782564027,
+      "y": 0.2539067439475067,
+      "cosine_to_term_centroid": 0.8560323579441766
+    },
+    {
+      "term": "connect",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.11025333095805416,
+      "y": -0.6129784705344253,
+      "cosine_to_term_centroid": 0.9610203679198236
+    },
+    {
+      "term": "right",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.378518438564652,
+      "y": 0.2196464291003173,
+      "cosine_to_term_centroid": 0.6782825656123882
+    },
+    {
+      "term": "life",
+      "source_id": "tr-source-jeshua-mornings-one-many",
+      "medium_id": "medium-pamela-rose-kribbe",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -0.7796792061880957,
+      "y": 0.48085181784948205,
+      "cosine_to_term_centroid": 0.891493403642899
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.7940360927057906,
+      "y": 0.38561406642105284,
+      "cosine_to_term_centroid": 0.7458475191835792
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.25357494055046703,
+      "y": -0.07816593989191097,
+      "cosine_to_term_centroid": 0.7584644112775567
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -1.1064593613508291,
+      "y": 0.33324270277588075,
+      "cosine_to_term_centroid": 0.9757065565559426
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.42148455846844424,
+      "y": -0.9249415616301335,
+      "cosine_to_term_centroid": 0.9523952279930062
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.8991519693418079,
+      "y": 0.5996891426428679,
+      "cosine_to_term_centroid": 0.9706899411514538
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.5132917799922524,
+      "y": 0.0286941609003138,
+      "cosine_to_term_centroid": 0.9580655306272813
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.11970754400410318,
+      "y": -0.6583936758769232,
+      "cosine_to_term_centroid": 0.7646054734208495
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.5728527926227003,
+      "y": 0.1561559553685185,
+      "cosine_to_term_centroid": 0.946140625097573
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.13920983123504385,
+      "y": 0.07511204905018681,
+      "cosine_to_term_centroid": 0.8384720337395597
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": 0.6422311578946736,
+      "y": 0.019042574217309368,
+      "cosine_to_term_centroid": 0.88227228533628
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.7221160030921191,
+      "y": -0.86170112444463,
+      "cosine_to_term_centroid": 0.9234089249821192
+    },
+    {
+      "term": "creator",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": -0.8781021092737317,
+      "y": 0.4392853516096983,
+      "cosine_to_term_centroid": 0.9660790347209288
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.938753797310959,
+      "y": 0.4199267771606646,
+      "cosine_to_term_centroid": 0.9577767209061234
+    },
+    {
+      "term": "recognise",
+      "source_id": "tr-source-omna-andromedans",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 11,
+      "sampled_occurrences": 2,
+      "x": -0.2599601159798573,
+      "y": -1.5470913118514307,
+      "cosine_to_term_centroid": 0.9372040949172042
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.3372333188560727,
+      "y": -0.2492932201523201,
+      "cosine_to_term_centroid": 0.8494220110124108
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -1.0900628394472256,
+      "y": 0.3867526534450088,
+      "cosine_to_term_centroid": 0.9409139603223379
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -0.38214174987181543,
+      "y": -0.9835171812484126,
+      "cosine_to_term_centroid": 0.9498226230380133
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.7578546863453612,
+      "y": 0.47439040608663907,
+      "cosine_to_term_centroid": 0.8849314116260688
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": -0.44105270258136153,
+      "y": 0.026541146194899907,
+      "cosine_to_term_centroid": 0.9099012451356346
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 8,
+      "sampled_occurrences": 2,
+      "x": -0.5326102177205755,
+      "y": 0.15799667014416846,
+      "cosine_to_term_centroid": 0.9430032660116608
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.5192410101829249,
+      "y": 0.07949523167476318,
+      "cosine_to_term_centroid": 0.800315520386544
+    },
+    {
+      "term": "energies",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -1.1584320054368358,
+      "y": 0.47586126994867767,
+      "cosine_to_term_centroid": 0.9431329391191101
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.6891424646928835,
+      "y": -0.0016833998173503113,
+      "cosine_to_term_centroid": 0.8809337961426671
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.7939348787856808,
+      "y": -0.7411201117782982,
+      "cosine_to_term_centroid": 0.8771448088577186
+    },
+    {
+      "term": "creator",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.8750674146019648,
+      "y": 0.5298691746033285,
+      "cosine_to_term_centroid": 0.941435517104217
+    },
+    {
+      "term": "simply",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.8849070378443672,
+      "y": 0.2611200390570631,
+      "cosine_to_term_centroid": 0.8272119711389789
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.942159758659548,
+      "y": 0.4284881547544926,
+      "cosine_to_term_centroid": 0.9450236922215014
+    },
+    {
+      "term": "life",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.6348760402528791,
+      "y": 0.4118047578018313,
+      "cosine_to_term_centroid": 0.9339076856770828
+    },
+    {
+      "term": "recognise",
+      "source_id": "tr-source-omna-arcturians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.020632888601968498,
+      "y": -1.470422953624409,
+      "cosine_to_term_centroid": 0.9177084749537712
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.3073969292482105,
+      "y": -0.0004056390031732824,
+      "cosine_to_term_centroid": 0.7079090928873633
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -1.0895560488481881,
+      "y": 0.41380500459762,
+      "cosine_to_term_centroid": 0.9563648790119389
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.8312262943834062,
+      "y": 0.6111270147367757,
+      "cosine_to_term_centroid": 0.9499763510261345
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.06103044058233974,
+      "y": -1.2629137148964844,
+      "cosine_to_term_centroid": 0.8902609091759273
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.2895651185696691,
+      "y": -0.3479580747794896,
+      "cosine_to_term_centroid": 0.8349785035977945
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.4465102749353054,
+      "y": 0.04577494380935687,
+      "cosine_to_term_centroid": 0.8870616427366693
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -0.5644713300008738,
+      "y": 0.16678349702786366,
+      "cosine_to_term_centroid": 0.9444865149972557
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.49440750112576376,
+      "y": -0.03572241785423446,
+      "cosine_to_term_centroid": 0.8477295874054485
+    },
+    {
+      "term": "energies",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -1.1473912587965465,
+      "y": 0.5603666564093717,
+      "cosine_to_term_centroid": 0.9663549845049684
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.7102316664814098,
+      "y": -0.0251807940178019,
+      "cosine_to_term_centroid": 0.9024400643532926
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.48366276528926,
+      "y": -0.8844004925467834,
+      "cosine_to_term_centroid": 0.8067237895119268
+    },
+    {
+      "term": "creator",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.8126267594991096,
+      "y": 0.496319701465498,
+      "cosine_to_term_centroid": 0.9738412644402469
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.9812368206418279,
+      "y": 0.41894965250129546,
+      "cosine_to_term_centroid": 0.9561875848814667
+    },
+    {
+      "term": "recognise",
+      "source_id": "tr-source-omna-magdalene",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.11251445302979406,
+      "y": -1.5394804869621497,
+      "cosine_to_term_centroid": 0.9607462461821197
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.5707366978960022,
+      "y": 0.4528674004578494,
+      "cosine_to_term_centroid": 0.8195255526434314
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -1.0230758809537377,
+      "y": 0.4438680356310921,
+      "cosine_to_term_centroid": 0.9389338883996061
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.34429197547058343,
+      "y": -0.9713499278291143,
+      "cosine_to_term_centroid": 0.9158288419215698
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.8653940481693043,
+      "y": 0.5623250650632179,
+      "cosine_to_term_centroid": 0.9357134575686401
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.22528218202128553,
+      "y": -1.1598114464089333,
+      "cosine_to_term_centroid": 0.7924622693303021
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 15,
+      "sampled_occurrences": 2,
+      "x": -0.5240800432633075,
+      "y": 0.02337726271851207,
+      "cosine_to_term_centroid": 0.9399108409042227
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.6112295697273374,
+      "y": -0.1506463243729598,
+      "cosine_to_term_centroid": 0.5820745596384664
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.6937419630254067,
+      "y": -0.1263669659089873,
+      "cosine_to_term_centroid": 0.7530141005879118
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.49451278672554144,
+      "y": 0.14302807031213466,
+      "cosine_to_term_centroid": 0.9567785821883131
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.6500254380682745,
+      "y": -0.09762765885844388,
+      "cosine_to_term_centroid": 0.8138297886670498
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.7466852716833449,
+      "y": -0.030472849752476133,
+      "cosine_to_term_centroid": 0.891682562491763
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 1.0476921089420386,
+      "y": 0.507208931028717,
+      "cosine_to_term_centroid": 0.8400469647032529
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": -0.668611846082025,
+      "y": -0.8348114852139235,
+      "cosine_to_term_centroid": 0.9028778886159633
+    },
+    {
+      "term": "creator",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 11,
+      "sampled_occurrences": 2,
+      "x": -0.8213059029051136,
+      "y": 0.5608131525236075,
+      "cosine_to_term_centroid": 0.9582802330757135
+    },
+    {
+      "term": "simply",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.9815876093631309,
+      "y": 0.1409542142063686,
+      "cosine_to_term_centroid": 0.8372350289263681
+    },
+    {
+      "term": "connect",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.07733108965268753,
+      "y": -0.6399070901601935,
+      "cosine_to_term_centroid": 0.967809604938193
+    },
+    {
+      "term": "right",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.10409325896445708,
+      "y": 0.1450241132419783,
+      "cosine_to_term_centroid": 0.7608065611040882
+    },
+    {
+      "term": "life",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.7139151610488035,
+      "y": 0.6837601084530821,
+      "cosine_to_term_centroid": 0.8771052107485153
+    },
+    {
+      "term": "recognise",
+      "source_id": "tr-source-omna-mary",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.08570241961192554,
+      "y": -1.4863813758562872,
+      "cosine_to_term_centroid": 0.8906673521385545
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.7263737701060795,
+      "y": 0.5016542983372138,
+      "cosine_to_term_centroid": 0.8847430331060551
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -1.1510945478637529,
+      "y": 0.47363018709462,
+      "cosine_to_term_centroid": 0.9528677766077716
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.42247570252562566,
+      "y": -1.0811988540852873,
+      "cosine_to_term_centroid": 0.9474179749615065
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.8551139552469292,
+      "y": 0.652095189079592,
+      "cosine_to_term_centroid": 0.9342708340344014
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.11180723785589955,
+      "y": -0.9130231939680519,
+      "cosine_to_term_centroid": 0.7713120982416699
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.41592054323151245,
+      "y": 0.06434725368070289,
+      "cosine_to_term_centroid": 0.948741553331794
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.2394978952404919,
+      "y": -0.5259568539857433,
+      "cosine_to_term_centroid": 0.8075985587982508
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.5762353190835559,
+      "y": -0.0686414168565876,
+      "cosine_to_term_centroid": 0.7467140215169797
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.5641902660921423,
+      "y": 0.20051849706078445,
+      "cosine_to_term_centroid": 0.9033756005687743
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.765768475334382,
+      "y": 0.03178022047506235,
+      "cosine_to_term_centroid": 0.9108652344002254
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.7309836577811258,
+      "y": 0.6171852925083064,
+      "cosine_to_term_centroid": 0.812175723700297
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.45096343508678227,
+      "y": -0.7382620135714684,
+      "cosine_to_term_centroid": 0.8617596986275964
+    },
+    {
+      "term": "creator",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.773495537602083,
+      "y": 0.5138114658361929,
+      "cosine_to_term_centroid": 0.9500190802759626
+    },
+    {
+      "term": "simply",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.9377577770246631,
+      "y": 0.019307548258421823,
+      "cosine_to_term_centroid": 0.7916286388054864
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.9903093752732451,
+      "y": 0.49685108442905923,
+      "cosine_to_term_centroid": 0.9431076965366199
+    },
+    {
+      "term": "connect",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.19416778550891223,
+      "y": -0.6528150415470912,
+      "cosine_to_term_centroid": 0.9243565306436993
+    },
+    {
+      "term": "recognise",
+      "source_id": "tr-source-omna-metatron",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.13182005947282718,
+      "y": -1.6458493879940492,
+      "cosine_to_term_centroid": 0.9531521364474989
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": -0.44601352070160827,
+      "y": -0.08770547010939629,
+      "cosine_to_term_centroid": 0.8792418297100475
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -1.1300142953200176,
+      "y": 0.387397413468117,
+      "cosine_to_term_centroid": 0.9656144886515735
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.40041306097213986,
+      "y": -0.9841516684789261,
+      "cosine_to_term_centroid": 0.9427053742882417
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.8642323837305068,
+      "y": 0.6129191142633379,
+      "cosine_to_term_centroid": 0.9451092847742221
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.25416090872672054,
+      "y": -1.245041640128206,
+      "cosine_to_term_centroid": 0.9262769009073722
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.43773161898498114,
+      "y": 0.09948065718265883,
+      "cosine_to_term_centroid": 0.9463464137508035
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.19061586122509788,
+      "y": -0.5650024215982251,
+      "cosine_to_term_centroid": 0.6323417148722111
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.4173988160719616,
+      "y": 0.30617822901504593,
+      "cosine_to_term_centroid": 0.8141570194710366
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -0.547956313795226,
+      "y": 0.10846694987364135,
+      "cosine_to_term_centroid": 0.9535786699314055
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.6130784764381979,
+      "y": -0.17041763153292325,
+      "cosine_to_term_centroid": 0.7023250295656973
+    },
+    {
+      "term": "energies",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -1.175496802530836,
+      "y": 0.48695262120140265,
+      "cosine_to_term_centroid": 0.9662415846343484
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.7895707965445434,
+      "y": -0.12523787816203624,
+      "cosine_to_term_centroid": 0.9186547133262022
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.874599282152866,
+      "y": 0.4015470822814626,
+      "cosine_to_term_centroid": 0.8091991617492963
+    },
+    {
+      "term": "want",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.15453656247154313,
+      "y": 0.1694735373084023,
+      "cosine_to_term_centroid": 0.8592363772252305
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.6555232848104052,
+      "y": -0.9749053428727841,
+      "cosine_to_term_centroid": 0.8591500071099907
+    },
+    {
+      "term": "creator",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.8168724501886017,
+      "y": 0.463505373659789,
+      "cosine_to_term_centroid": 0.9335311565783635
+    },
+    {
+      "term": "simply",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 6,
+      "sampled_occurrences": 2,
+      "x": 0.9565501997059433,
+      "y": 0.3402891186429037,
+      "cosine_to_term_centroid": 0.8258467967071643
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.8575142162683226,
+      "y": 0.31430629221541806,
+      "cosine_to_term_centroid": 0.9392171055414735
+    },
+    {
+      "term": "connect",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.017520487979348028,
+      "y": -0.5400405043165962,
+      "cosine_to_term_centroid": 0.8797483124359581
+    },
+    {
+      "term": "right",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.22218145971378206,
+      "y": 0.18159785666791595,
+      "cosine_to_term_centroid": 0.721060332537385
+    },
+    {
+      "term": "recognise",
+      "source_id": "tr-source-omna-michael",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.14194261640622702,
+      "y": -1.594022435530737,
+      "cosine_to_term_centroid": 0.9565835717061228
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.6703531400827276,
+      "y": 0.3627563227968928,
+      "cosine_to_term_centroid": 0.7983280765112559
+    },
+    {
+      "term": "time",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.031392912500709406,
+      "y": -0.204476363053704,
+      "cosine_to_term_centroid": 0.7438676209438729
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -1.127436212107462,
+      "y": 0.4579159859622853,
+      "cosine_to_term_centroid": 0.9776550383193123
+    },
+    {
+      "term": "feel",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.29775844812224406,
+      "y": -0.8866765255267658,
+      "cosine_to_term_centroid": 0.9485682127205997
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.9247515457190769,
+      "y": 0.6206958809102978,
+      "cosine_to_term_centroid": 0.9347004467510392
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.3747880102959,
+      "y": 0.10675887306242962,
+      "cosine_to_term_centroid": 0.8997216703904303
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.2882662057369917,
+      "y": -0.5206668754627927,
+      "cosine_to_term_centroid": 0.8581141756447026
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.6727438379304732,
+      "y": 0.03713844911813509,
+      "cosine_to_term_centroid": 0.9214932206192907
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.48363051975057386,
+      "y": 0.13316344339041172,
+      "cosine_to_term_centroid": 0.9533103786341756
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.5009257288712263,
+      "y": 0.04795033640330922,
+      "cosine_to_term_centroid": 0.8496357884291144
+    },
+    {
+      "term": "energies",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -1.1649397531828858,
+      "y": 0.5287156747295831,
+      "cosine_to_term_centroid": 0.9694074544650114
+    },
+    {
+      "term": "allow",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.8792153865038216,
+      "y": -0.04685992415385215,
+      "cosine_to_term_centroid": 0.837876960061908
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.697474795454733,
+      "y": 0.3354346378471184,
+      "cosine_to_term_centroid": 0.7901141637996236
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.6400224871101601,
+      "y": -0.8294029007130739,
+      "cosine_to_term_centroid": 0.9247528235651858
+    },
+    {
+      "term": "creator",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -0.837917251732696,
+      "y": 0.5462432837747329,
+      "cosine_to_term_centroid": 0.9760225377110847
+    },
+    {
+      "term": "simply",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 1.0397613522045477,
+      "y": 0.34320118976017056,
+      "cosine_to_term_centroid": 0.8888256023488241
+    },
+    {
+      "term": "just",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.9336874789318911,
+      "y": 0.5278391890807737,
+      "cosine_to_term_centroid": 0.8656520450977574
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.9808903838078471,
+      "y": 0.44457727282264553,
+      "cosine_to_term_centroid": 0.9671878835772929
+    },
+    {
+      "term": "connect",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.07157451488114425,
+      "y": -0.6841973682515549,
+      "cosine_to_term_centroid": 0.9313155334931992
+    },
+    {
+      "term": "life",
+      "source_id": "tr-source-omna-pleiadians",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.6788571828091972,
+      "y": 0.5056206770094739,
+      "cosine_to_term_centroid": 0.9338738566906155
+    },
+    {
+      "term": "not",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": 0.7378842968460859,
+      "y": 0.5731589505035416,
+      "cosine_to_term_centroid": 0.8065858006242546
+    },
+    {
+      "term": "energy",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 9,
+      "sampled_occurrences": 2,
+      "x": -1.1128086433298767,
+      "y": 0.36781387972968344,
+      "cosine_to_term_centroid": 0.9479399230014315
+    },
+    {
+      "term": "earth",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": -0.9301622044426945,
+      "y": 0.721142653444427,
+      "cosine_to_term_centroid": 0.942920774657763
+    },
+    {
+      "term": "know",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.05277507541265195,
+      "y": -1.159020272865138,
+      "cosine_to_term_centroid": 0.7769450808272617
+    },
+    {
+      "term": "love",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.5329912892328662,
+      "y": -0.016684850408064025,
+      "cosine_to_term_centroid": 0.8837103643882745
+    },
+    {
+      "term": "like",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 4,
+      "sampled_occurrences": 2,
+      "x": 0.17408020774659388,
+      "y": -0.27392493890587605,
+      "cosine_to_term_centroid": 0.7220997033003742
+    },
+    {
+      "term": "need",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": 0.6053032743861207,
+      "y": 0.18376613739626765,
+      "cosine_to_term_centroid": 0.9067609790049158
+    },
+    {
+      "term": "reality",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 11,
+      "sampled_occurrences": 2,
+      "x": -0.6038187750635239,
+      "y": 0.1178474346345835,
+      "cosine_to_term_centroid": 0.9499101065962688
+    },
+    {
+      "term": "way",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.2798678936654884,
+      "y": 0.0667516498143121,
+      "cosine_to_term_centroid": 0.8373797381318762
+    },
+    {
+      "term": "energies",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 7,
+      "sampled_occurrences": 2,
+      "x": -1.1415195777777603,
+      "y": 0.5503746431593407,
+      "cosine_to_term_centroid": 0.9634000487164226
+    },
+    {
+      "term": "no",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.9985822931107456,
+      "y": 0.43102497912368265,
+      "cosine_to_term_centroid": 0.7889746713324661
+    },
+    {
+      "term": "want",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": 0.13363598567903134,
+      "y": 0.3334677791332025,
+      "cosine_to_term_centroid": 0.8266134493016789
+    },
+    {
+      "term": "experience",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.6008992212872158,
+      "y": -0.8610671758137493,
+      "cosine_to_term_centroid": 0.8566839270067159
+    },
+    {
+      "term": "creator",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": -0.8777236481588674,
+      "y": 0.6338515225766406,
+      "cosine_to_term_centroid": 0.9704168945868699
+    },
+    {
+      "term": "simply",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 0.7998591230900982,
+      "y": 0.42787939028772776,
+      "cosine_to_term_centroid": 0.8119690232319733
+    },
+    {
+      "term": "just",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 3,
+      "sampled_occurrences": 2,
+      "x": 1.0322186108745035,
+      "y": 0.3815626355422447,
+      "cosine_to_term_centroid": 0.8226370834575775
+    },
+    {
+      "term": "soul",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 1,
+      "sampled_occurrences": 1,
+      "x": -0.8924238073023683,
+      "y": 0.39114705382208875,
+      "cosine_to_term_centroid": 0.9225267109296238
+    },
+    {
+      "term": "right",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 2,
+      "sampled_occurrences": 2,
+      "x": 0.3099011379647254,
+      "y": 0.1004572127439125,
+      "cosine_to_term_centroid": 0.6733097940208769
+    },
+    {
+      "term": "recognise",
+      "source_id": "tr-source-omna-quanyin",
+      "medium_id": "medium-natalie-glasson",
+      "occurrences_available": 5,
+      "sampled_occurrences": 2,
+      "x": -0.1450044238770203,
+      "y": -1.5176122066728668,
+      "cosine_to_term_centroid": 0.9512633559165379
+    }
+  ],
+  "term_cosine_matrix": [
+    [
+      1.0,
+      0.08614725022562611,
+      0.0341370944986636,
+      0.16987050776572127,
+      0.049354941400236454,
+      0.144789778359048,
+      -0.006545322571720915,
+      0.2004163742235798,
+      0.2439553244340499,
+      0.14723593635491888,
+      0.20717783067987322,
+      0.0327323817169805,
+      0.24858587594112735,
+      0.7452280867517664,
+      0.24689245868661797,
+      0.085406796800266,
+      0.036519327498041994,
+      0.34849536161168576,
+      0.37348860619660607,
+      0.04180078685727593,
+      0.09313217431953563,
+      0.2035231978846369,
+      0.10428205454453157,
+      0.06314076456329046
+    ],
+    [
+      0.08614725022562611,
+      1.0,
+      0.1465818632855792,
+      0.1889096505174942,
+      0.08465139602532687,
+      0.09850692383597569,
+      0.10383071711281543,
+      0.18707167154825263,
+      0.08205233322195665,
+      0.11239074061714466,
+      0.19897805768207333,
+      0.08747603137442847,
+      0.1251480268131887,
+      0.15047735727152162,
+      0.10694044381424714,
+      0.33337383587145075,
+      0.08077727154545145,
+      0.0723548016301533,
+      0.14906553769480269,
+      0.10250335943925164,
+      0.08944215608746336,
+      0.24058604225194777,
+      0.22872514979666064,
+      0.0892609285708875
+    ],
+    [
+      0.0341370944986636,
+      0.1465818632855792,
+      1.0,
+      0.26197493443363035,
+      0.10759353394587932,
+      0.019480341091006714,
+      0.0760580182299839,
+      0.10078546711157467,
+      0.13513863546002766,
+      0.09610830150611087,
+      0.03344739470282278,
+      0.8673860482104225,
+      0.08298829445320653,
+      0.05162398236561849,
+      0.14848351932565357,
+      0.19827926122707012,
+      0.1915097092333898,
+      0.01837317500866079,
+      0.07201842192302273,
+      0.17957790772367987,
+      0.07357273243898524,
+      0.00539828958563251,
+      0.07583360523316748,
+      0.016433769287696905
+    ],
+    [
+      0.16987050776572127,
+      0.1889096505174942,
+      0.26197493443363035,
+      1.0,
+      0.08681002908022042,
+      0.3107588279668616,
+      0.24082798293144525,
+      0.4130605771522509,
+      0.2476489110694931,
+      0.1452411140843859,
+      0.14759545749514805,
+      0.22914352244482467,
+      0.09353585863001683,
+      0.15268457730558666,
+      0.23203060060851644,
+      0.49715175516344356,
+      -0.0033259080233650332,
+      0.08833151623395093,
+      0.1873170647819816,
+      0.22601855801712556,
+      0.19757128256029996,
+      0.16763174272390316,
+      0.1386201807916591,
+      0.39312401333201924
+    ],
+    [
+      0.049354941400236454,
+      0.08465139602532687,
+      0.10759353394587932,
+      0.08681002908022042,
+      1.0,
+      -0.0413862239789286,
+      0.0699984709816849,
+      0.018809652460931484,
+      0.03229520124312666,
+      0.2248059825577422,
+      -0.007175451845072314,
+      0.15264276495789816,
+      -0.02955287152463749,
+      0.049298310562115526,
+      0.006962373120710076,
+      0.11686940244027923,
+      0.17447983186211083,
+      0.019449938967500954,
+      0.05443798283784295,
+      0.22713975492142202,
+      0.03099762736720779,
+      0.024975649530489495,
+      0.2762054866091249,
+      -0.041628373899957445
+    ],
+    [
+      0.144789778359048,
+      0.09850692383597569,
+      0.019480341091006714,
+      0.3107588279668616,
+      -0.0413862239789286,
+      1.0,
+      0.004590806985464316,
+      0.23671616758685496,
+      0.2614067421420711,
+      0.06826214779664087,
+      0.14343461907774321,
+      -0.012511793797826697,
+      0.1303448311929985,
+      0.17986935354246117,
+      0.19884651136438217,
+      0.2572388844408051,
+      0.009263214154572494,
+      0.22702939018466595,
+      0.1832169065442886,
+      0.006034356139138478,
+      0.17168545299029722,
+      0.14138801694800665,
+      0.0353172041965834,
+      0.5490329513069143
+    ],
+    [
+      -0.006545322571720915,
+      0.10383071711281543,
+      0.0760580182299839,
+      0.24082798293144525,
+      0.0699984709816849,
+      0.004590806985464316,
+      1.0,
+      0.15591901989845708,
+      0.13799412715821383,
+      -0.06227657512900547,
+      0.03935736679261669,
+      0.0939109252949016,
+      0.13409833589562398,
+      0.050990399982407744,
+      0.2154202533809669,
+      0.1355133651536719,
+      0.12862008256679153,
+      0.007601194476868868,
+      0.09614770626253996,
+      0.27285012377638657,
+      0.09275728867207193,
+      0.13019898499264937,
+      0.2345888211997501,
+      0.07933056491351907
+    ],
+    [
+      0.2004163742235798,
+      0.18707167154825263,
+      0.10078546711157467,
+      0.4130605771522509,
+      0.018809652460931484,
+      0.23671616758685496,
+      0.15591901989845708,
+      1.0,
+      0.30053766266724585,
+      0.10899229687027061,
+      0.3565494447116384,
+      0.11641363567700623,
+      0.2545177070817568,
+      0.20600275557653297,
+      0.3811631622429192,
+      0.4048304707247671,
+      0.10710015845175952,
+      0.4007549189628033,
+      0.4204050738441956,
+      0.0719216641890625,
+      0.1551425822817314,
+      0.23408718364642161,
+      0.1088187689719842,
+      0.22414203249497094
+    ],
+    [
+      0.2439553244340499,
+      0.08205233322195665,
+      0.13513863546002766,
+      0.2476489110694931,
+      0.03229520124312666,
+      0.2614067421420711,
+      0.13799412715821383,
+      0.30053766266724585,
+      1.0,
+      0.034750030598787104,
+      0.11274945985933997,
+      0.10819076732720312,
+      0.4056926535717547,
+      0.3415870683267699,
+      0.4843362049228102,
+      0.056144870827119185,
+      0.07128135063482144,
+      0.375888654941695,
+      0.3199744139814199,
+      0.0913508077539272,
+      0.17212644253362827,
+      0.27306281692416207,
+      0.06669594092186423,
+      0.11034917612268853
+    ],
+    [
+      0.14723593635491888,
+      0.11239074061714466,
+      0.09610830150611087,
+      0.1452411140843859,
+      0.2248059825577422,
+      0.06826214779664087,
+      -0.06227657512900547,
+      0.10899229687027061,
+      0.034750030598787104,
+      1.0,
+      0.22660315811506626,
+      0.11368577634109162,
+      0.06101574324770466,
+      0.16863489686411778,
+      0.030710936635715787,
+      0.3179228853447404,
+      0.2555896103315433,
+      0.12279115103432237,
+      0.08210652857496309,
+      0.17546980606728443,
+      0.07622852197457045,
+      0.11223000324169051,
+      0.2845334944330024,
+      0.14395910907513848
+    ],
+    [
+      0.20717783067987322,
+      0.19897805768207333,
+      0.03344739470282278,
+      0.14759545749514805,
+      -0.007175451845072314,
+      0.14343461907774321,
+      0.03935736679261669,
+      0.3565494447116384,
+      0.11274945985933997,
+      0.22660315811506626,
+      1.0,
+      0.045765232657716814,
+      0.3436951419650194,
+      0.2048949772036601,
+      0.23070733519663378,
+      0.2208125704995095,
+      0.0025080895116941985,
+      0.4054655193105543,
+      0.2874596665534665,
+      0.09381671082103617,
+      0.20458100357740647,
+      0.26935856829505234,
+      0.16833261857201584,
+      0.05020110629103991
+    ],
+    [
+      0.0327323817169805,
+      0.08747603137442847,
+      0.8673860482104225,
+      0.22914352244482467,
+      0.15264276495789816,
+      -0.012511793797826697,
+      0.0939109252949016,
+      0.11641363567700623,
+      0.10819076732720312,
+      0.11368577634109162,
+      0.045765232657716814,
+      1.0,
+      0.08274979235210411,
+      0.020575021821740352,
+      0.1348615069079252,
+      0.21890109537288735,
+      0.21425757542611235,
+      0.045931610538028245,
+      0.11658320250060841,
+      0.287316607094086,
+      0.07879634421138887,
+      0.02836644406799891,
+      0.09113558445422222,
+      -0.022270971261390802
+    ],
+    [
+      0.24858587594112735,
+      0.1251480268131887,
+      0.08298829445320653,
+      0.09353585863001683,
+      -0.02955287152463749,
+      0.1303448311929985,
+      0.13409833589562398,
+      0.2545177070817568,
+      0.4056926535717547,
+      0.06101574324770466,
+      0.3436951419650194,
+      0.08274979235210411,
+      1.0,
+      0.33308748275321337,
+      0.39076459312014905,
+      0.20656841302207904,
+      0.08052115428626859,
+      0.39157697328992797,
+      0.30518519501070285,
+      0.006276987778385544,
+      0.19447718563064018,
+      0.25324816810567036,
+      -0.0671470500897888,
+      0.14427502017521243
+    ],
+    [
+      0.7452280867517664,
+      0.15047735727152162,
+      0.05162398236561849,
+      0.15268457730558666,
+      0.049298310562115526,
+      0.17986935354246117,
+      0.050990399982407744,
+      0.20600275557653297,
+      0.3415870683267699,
+      0.16863489686411778,
+      0.2048949772036601,
+      0.020575021821740352,
+      0.33308748275321337,
+      1.0,
+      0.25300113138005104,
+      0.07380691438213308,
+      0.10740644867876711,
+      0.4025787866821753,
+      0.39986161937907844,
+      0.07216184814582462,
+      0.13072699012118183,
+      0.2929347856864988,
+      0.1607912110320312,
+      0.06667339377712993
+    ],
+    [
+      0.24689245868661797,
+      0.10694044381424714,
+      0.14848351932565357,
+      0.23203060060851644,
+      0.006962373120710076,
+      0.19884651136438217,
+      0.2154202533809669,
+      0.3811631622429192,
+      0.4843362049228102,
+      0.030710936635715787,
+      0.23070733519663378,
+      0.1348615069079252,
+      0.39076459312014905,
+      0.25300113138005104,
+      1.0,
+      0.09104473363933986,
+      0.04644904879285257,
+      0.21527634376911997,
+      0.26268698098836857,
+      0.03874810652253612,
+      0.054637239948084323,
+      0.2387175789218908,
+      0.14289191228451426,
+      0.005890268620707386
+    ],
+    [
+      0.085406796800266,
+      0.33337383587145075,
+      0.19827926122707012,
+      0.49715175516344356,
+      0.11686940244027923,
+      0.2572388844408051,
+      0.1355133651536719,
+      0.4048304707247671,
+      0.056144870827119185,
+      0.3179228853447404,
+      0.2208125704995095,
+      0.21890109537288735,
+      0.20656841302207904,
+      0.07380691438213308,
+      0.09104473363933986,
+      1.0,
+      0.17573842388941927,
+      0.1477029840742959,
+      0.1123541168323303,
+      0.2128623662689446,
+      0.19600605962770187,
+      0.027325788350443546,
+      0.23022539678411497,
+      0.32537600302575664
+    ],
+    [
+      0.036519327498041994,
+      0.08077727154545145,
+      0.1915097092333898,
+      -0.0033259080233650332,
+      0.17447983186211083,
+      0.009263214154572494,
+      0.12862008256679153,
+      0.10710015845175952,
+      0.07128135063482144,
+      0.2555896103315433,
+      0.0025080895116941985,
+      0.21425757542611235,
+      0.08052115428626859,
+      0.10740644867876711,
+      0.04644904879285257,
+      0.17573842388941927,
+      1.0,
+      0.07766493320464037,
+      0.03360046539476028,
+      0.30873875103280846,
+      0.03748925933747708,
+      0.06885083297039865,
+      0.18312052032723672,
+      0.05558608421812528
+    ],
+    [
+      0.34849536161168576,
+      0.0723548016301533,
+      0.01837317500866079,
+      0.08833151623395093,
+      0.019449938967500954,
+      0.22702939018466595,
+      0.007601194476868868,
+      0.4007549189628033,
+      0.375888654941695,
+      0.12279115103432237,
+      0.4054655193105543,
+      0.045931610538028245,
+      0.39157697328992797,
+      0.4025787866821753,
+      0.21527634376911997,
+      0.1477029840742959,
+      0.07766493320464037,
+      1.0,
+      0.7784920321367665,
+      0.09466102015831403,
+      0.1334177262443279,
+      0.25451057375200536,
+      0.05667095851356041,
+      0.0833361015046741
+    ],
+    [
+      0.37348860619660607,
+      0.14906553769480269,
+      0.07201842192302273,
+      0.1873170647819816,
+      0.05443798283784295,
+      0.1832169065442886,
+      0.09614770626253996,
+      0.4204050738441956,
+      0.3199744139814199,
+      0.08210652857496309,
+      0.2874596665534665,
+      0.11658320250060841,
+      0.30518519501070285,
+      0.39986161937907844,
+      0.26268698098836857,
+      0.1123541168323303,
+      0.03360046539476028,
+      0.7784920321367665,
+      1.0,
+      0.12407001297004633,
+      0.11256734608851007,
+      0.40845580677130544,
+      0.11599831904891485,
+      0.02964295391390513
+    ],
+    [
+      0.04180078685727593,
+      0.10250335943925164,
+      0.17957790772367987,
+      0.22601855801712556,
+      0.22713975492142202,
+      0.006034356139138478,
+      0.27285012377638657,
+      0.0719216641890625,
+      0.0913508077539272,
+      0.17546980606728443,
+      0.09381671082103617,
+      0.287316607094086,
+      0.006276987778385544,
+      0.07216184814582462,
+      0.03874810652253612,
+      0.2128623662689446,
+      0.30873875103280846,
+      0.09466102015831403,
+      0.12407001297004633,
+      1.0,
+      0.06629792240144478,
+      0.12876972355762087,
+      0.37926845603816467,
+      0.08887565395709764
+    ],
+    [
+      0.09313217431953563,
+      0.08944215608746336,
+      0.07357273243898524,
+      0.19757128256029996,
+      0.03099762736720779,
+      0.17168545299029722,
+      0.09275728867207193,
+      0.1551425822817314,
+      0.17212644253362827,
+      0.07622852197457045,
+      0.20458100357740647,
+      0.07879634421138887,
+      0.19447718563064018,
+      0.13072699012118183,
+      0.054637239948084323,
+      0.19600605962770187,
+      0.03748925933747708,
+      0.1334177262443279,
+      0.11256734608851007,
+      0.06629792240144478,
+      1.0,
+      0.010436397051014328,
+      0.059042530588589034,
+      0.23191600140454582
+    ],
+    [
+      0.2035231978846369,
+      0.24058604225194777,
+      0.00539828958563251,
+      0.16763174272390316,
+      0.024975649530489495,
+      0.14138801694800665,
+      0.13019898499264937,
+      0.23408718364642161,
+      0.27306281692416207,
+      0.11223000324169051,
+      0.26935856829505234,
+      0.02836644406799891,
+      0.25324816810567036,
+      0.2929347856864988,
+      0.2387175789218908,
+      0.027325788350443546,
+      0.06885083297039865,
+      0.25451057375200536,
+      0.40845580677130544,
+      0.12876972355762087,
+      0.010436397051014328,
+      1.0,
+      0.1697500618760182,
+      0.0891793073025359
+    ],
+    [
+      0.10428205454453157,
+      0.22872514979666064,
+      0.07583360523316748,
+      0.1386201807916591,
+      0.2762054866091249,
+      0.0353172041965834,
+      0.2345888211997501,
+      0.1088187689719842,
+      0.06669594092186423,
+      0.2845334944330024,
+      0.16833261857201584,
+      0.09113558445422222,
+      -0.0671470500897888,
+      0.1607912110320312,
+      0.14289191228451426,
+      0.23022539678411497,
+      0.18312052032723672,
+      0.05667095851356041,
+      0.11599831904891485,
+      0.37926845603816467,
+      0.059042530588589034,
+      0.1697500618760182,
+      1.0,
+      -0.019974747779139518
+    ],
+    [
+      0.06314076456329046,
+      0.0892609285708875,
+      0.016433769287696905,
+      0.39312401333201924,
+      -0.041628373899957445,
+      0.5490329513069143,
+      0.07933056491351907,
+      0.22414203249497094,
+      0.11034917612268853,
+      0.14395910907513848,
+      0.05020110629103991,
+      -0.022270971261390802,
+      0.14427502017521243,
+      0.06667339377712993,
+      0.005890268620707386,
+      0.32537600302575664,
+      0.05558608421812528,
+      0.0833361015046741,
+      0.02964295391390513,
+      0.08887565395709764,
+      0.23191600140454582,
+      0.0891793073025359,
+      -0.019974747779139518,
+      1.0
+    ]
+  ],
+  "projection": {
+    "method": "PCA fitted to 24 normalized term centroids; the exact same transform projects all source-term means. Both use one centering and RMS-radius scale.",
+    "coordinate_scope": "Shared within this contextual-token experiment only; not aligned to document maps or independent latent dimensions.",
+    "explained_variance": [
+      0.13540672786735272,
+      0.09620822234399999
+    ],
+    "trustworthiness": 0.8645833333333334,
+    "trustworthiness_k": 5,
+    "overlay_terms": [
+      "not",
+      "time",
+      "energy",
+      "feel"
+    ]
+  },
+  "clusters": {
+    "k": 3,
+    "selection": "Fixed exploratory k=3; not an estimated number of meanings or civilizations.",
+    "runs": [
+      {
+        "seed": 11,
+        "assignments": [
+          {
+            "term": "not",
+            "cluster": 2
+          },
+          {
+            "term": "time",
+            "cluster": 3
+          },
+          {
+            "term": "energy",
+            "cluster": 1
+          },
+          {
+            "term": "feel",
+            "cluster": 3
+          },
+          {
+            "term": "earth",
+            "cluster": 1
+          },
+          {
+            "term": "know",
+            "cluster": 3
+          },
+          {
+            "term": "love",
+            "cluster": 3
+          },
+          {
+            "term": "like",
+            "cluster": 2
+          },
+          {
+            "term": "need",
+            "cluster": 2
+          },
+          {
+            "term": "reality",
+            "cluster": 3
+          },
+          {
+            "term": "way",
+            "cluster": 2
+          },
+          {
+            "term": "energies",
+            "cluster": 1
+          },
+          {
+            "term": "allow",
+            "cluster": 2
+          },
+          {
+            "term": "no",
+            "cluster": 2
+          },
+          {
+            "term": "want",
+            "cluster": 2
+          },
+          {
+            "term": "experience",
+            "cluster": 3
+          },
+          {
+            "term": "creator",
+            "cluster": 1
+          },
+          {
+            "term": "simply",
+            "cluster": 2
+          },
+          {
+            "term": "just",
+            "cluster": 2
+          },
+          {
+            "term": "soul",
+            "cluster": 1
+          },
+          {
+            "term": "connect",
+            "cluster": 3
+          },
+          {
+            "term": "right",
+            "cluster": 2
+          },
+          {
+            "term": "life",
+            "cluster": 3
+          },
+          {
+            "term": "recognise",
+            "cluster": 3
+          }
+        ],
+        "cosine_silhouette": 0.14018502879122371
+      },
+      {
+        "seed": 23,
+        "assignments": [
+          {
+            "term": "not",
+            "cluster": 1
+          },
+          {
+            "term": "time",
+            "cluster": 1
+          },
+          {
+            "term": "energy",
+            "cluster": 3
+          },
+          {
+            "term": "feel",
+            "cluster": 2
+          },
+          {
+            "term": "earth",
+            "cluster": 3
+          },
+          {
+            "term": "know",
+            "cluster": 2
+          },
+          {
+            "term": "love",
+            "cluster": 3
+          },
+          {
+            "term": "like",
+            "cluster": 1
+          },
+          {
+            "term": "need",
+            "cluster": 1
+          },
+          {
+            "term": "reality",
+            "cluster": 3
+          },
+          {
+            "term": "way",
+            "cluster": 1
+          },
+          {
+            "term": "energies",
+            "cluster": 3
+          },
+          {
+            "term": "allow",
+            "cluster": 1
+          },
+          {
+            "term": "no",
+            "cluster": 1
+          },
+          {
+            "term": "want",
+            "cluster": 1
+          },
+          {
+            "term": "experience",
+            "cluster": 2
+          },
+          {
+            "term": "creator",
+            "cluster": 3
+          },
+          {
+            "term": "simply",
+            "cluster": 1
+          },
+          {
+            "term": "just",
+            "cluster": 1
+          },
+          {
+            "term": "soul",
+            "cluster": 3
+          },
+          {
+            "term": "connect",
+            "cluster": 2
+          },
+          {
+            "term": "right",
+            "cluster": 1
+          },
+          {
+            "term": "life",
+            "cluster": 3
+          },
+          {
+            "term": "recognise",
+            "cluster": 2
+          }
+        ],
+        "cosine_silhouette": 0.1516800496889961
+      },
+      {
+        "seed": 47,
+        "assignments": [
+          {
+            "term": "not",
+            "cluster": 2
+          },
+          {
+            "term": "time",
+            "cluster": 2
+          },
+          {
+            "term": "energy",
+            "cluster": 1
+          },
+          {
+            "term": "feel",
+            "cluster": 3
+          },
+          {
+            "term": "earth",
+            "cluster": 1
+          },
+          {
+            "term": "know",
+            "cluster": 3
+          },
+          {
+            "term": "love",
+            "cluster": 3
+          },
+          {
+            "term": "like",
+            "cluster": 3
+          },
+          {
+            "term": "need",
+            "cluster": 2
+          },
+          {
+            "term": "reality",
+            "cluster": 1
+          },
+          {
+            "term": "way",
+            "cluster": 2
+          },
+          {
+            "term": "energies",
+            "cluster": 1
+          },
+          {
+            "term": "allow",
+            "cluster": 2
+          },
+          {
+            "term": "no",
+            "cluster": 2
+          },
+          {
+            "term": "want",
+            "cluster": 2
+          },
+          {
+            "term": "experience",
+            "cluster": 3
+          },
+          {
+            "term": "creator",
+            "cluster": 1
+          },
+          {
+            "term": "simply",
+            "cluster": 2
+          },
+          {
+            "term": "just",
+            "cluster": 2
+          },
+          {
+            "term": "soul",
+            "cluster": 1
+          },
+          {
+            "term": "connect",
+            "cluster": 3
+          },
+          {
+            "term": "right",
+            "cluster": 2
+          },
+          {
+            "term": "life",
+            "cluster": 1
+          },
+          {
+            "term": "recognise",
+            "cluster": 3
+          }
+        ],
+        "cosine_silhouette": 0.14085947296709792
+      }
+    ],
+    "seed_pair_adjusted_rand": [
+      {
+        "left": 11,
+        "right": 23,
+        "value": 0.6087187666135034
+      },
+      {
+        "left": 11,
+        "right": 47,
+        "value": 0.5523517750946116
+      },
+      {
+        "left": 23,
+        "right": 47,
+        "value": 0.769299659681175
+      }
+    ]
+  },
+  "limitations": [
+    "MiniLM is sentence-embedding trained. Target-token hidden states are an exploratory representation, not validated word-sense embeddings.",
+    "Selected terms favor frequent shared English vocabulary. Sparse terms, untranslated material and nonselected concepts are outside this display.",
+    "At most two ordinally sampled occurrences cannot represent every use, sense or claim. Token states still encode spelling, local context and source style.",
+    "Source means receive equal weight, but sources and mediums are not equally represented for every term. Names are masked only by the documented exact phrases; other variants can remain.",
+    "PCA is lossy and fixed-k clusters are exploratory. Spatial proximity and token cosine do not imply common answers, agreement, contradiction, verified speakers or entities."
+  ],
+  "figures": [
+    {
+      "file": "contextual-token-overlay.png",
+      "bytes": 180493,
+      "sha256": "87d31b0ed2af70130a68224d08197738fd136cb7348ab7697f2632622e143861",
+      "title": "Contextual token centroids and source-context overlay",
+      "alt": "Twenty-four selected term centroids and source means for the first four terms, projected by one PCA. Fixed-k colors are exploratory; token proximity is not answer agreement."
+    },
+    {
+      "file": "contextual-token-overlay.svg",
+      "bytes": 125587,
+      "sha256": "2856a9abf5bbc2a4a41ea0cc0163fc6d743f5b592170c71ac490abd197494ace",
+      "title": "Contextual token centroids and source-context overlay",
+      "alt": "Twenty-four selected term centroids and source means for the first four terms, projected by one PCA. Fixed-k colors are exploratory; token proximity is not answer agreement."
+    },
+    {
+      "file": "contextual-token-overlay.pdf",
+      "bytes": 30327,
+      "sha256": "cdabc95f5b4a187218fa024430b16b04e63c3b5ecb888744a04c98ff05ad2c1f",
+      "title": "Contextual token centroids and source-context overlay",
+      "alt": "Twenty-four selected term centroids and source means for the first four terms, projected by one PCA. Fixed-k colors are exploratory; token proximity is not answer agreement."
+    }
+  ],
+  "visual_revision": {
+    "parent_sha256": "0b9cd11d8e90f7b4cc96aa6613a164b87128dad60ba1668d6d6c45b394c7ff13",
+    "unchanged_numerical_projection_sha256": "b67ca2b827bf155a00cc50f77e2be02ff632d3911eac902c35545fa7a5f2e80a",
+    "refiner_sha256": "cb352be76307975cccf9753a22c85279088f06986e3d0d23cb2aad4e423ff2e8",
+    "renderer_sha256": "48e8e32b83d8126af1d77cc3f6ae35d4766b00d8ce555e5061a9b2d038a5976e",
+    "scope": "Figure-label offsets only; token selection, source spans, vectors, scores, coordinates and clusters are unchanged."
+  }
+}

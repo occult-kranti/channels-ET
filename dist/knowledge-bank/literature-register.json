@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T17:25:52.487310+00:00",
+  "scope": "Bounded primary-source literature review for the knowledge-bank extension; source access and inspected sections are explicit. Paper benchmarks are not local results or a comprehensive current SOTA ranking.",
+  "identification": {
+    "requested_paper_id": "google-sleep-2026",
+    "status": "strong_primary_source_match",
+    "basis": "The Google Research blog dated 2026-10-27 links the paper and explicitly describes sleep, distillation and mixing disparate expert knowledge. The user did not provide a link.",
+    "distinct_from": [
+      "sleep-time-2025",
+      "nested-learning-2025"
+    ]
+  },
+  "records": [
+    {
+      "id": "google-sleep-2026",
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "authors": [
+        "Ali Behrouz",
+        "Farnoosh Hashemi",
+        "Adel Javanmard",
+        "Vahab Mirrokni"
+      ],
+      "year": 2026,
+      "published_at": "2026-06-02",
+      "version": "arXiv:2606.03979v2; revised 2026-07-10",
+      "url": "https://arxiv.org/html/2606.03979v2",
+      "retrieved_url": "https://arxiv.org/html/2606.03979v2",
+      "retrieved_at": "2026-11-08T17:18:07.130177+00:00",
+      "source_type": "research_paper",
+      "access_depth": "full_text",
+      "inspected_sections": [
+        "Main narrative sections 1–5, appendices A/B and experimental tables 1–5. Displayed formula proofs and every referenced work were not independently reproduced."
+      ],
+      "source_sha256": "cd4e7462754f196741bc9671d18f03054e40d0e0debe0fa88c477b2dbd468824",
+      "source_bytes": 445981,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Memory consolidation expands or activates low-rank experts and transfers knowledge through generalized on-policy distillation plus reinforcement-learning imitation.",
+        "Dreaming combines random expert activation, synthetic examples, gradient-based selection and trained model adaptations.",
+        "Appendix B.2 uses task-finetuned small models for the 10-million-token BABILong result and reports substantial drops without fine-tuning.",
+        "The ARC evaluation uses 11 filtered training tasks and eight held-out tasks and reports successful-dream fractions. Mathematical scores use average@16.",
+        "Appendix B.5 reports that same-step SFT is four times more efficient, with different conclusions under selected comparisons of time to reach a performance target."
+      ],
+      "application": [
+        "Inspire an explicitly nonparametric, source-bound consolidation experiment that preserves original sources, qualifications and regression checks."
+      ],
+      "limitations": [
+        "Our source-card/index experiment does not update model weights or reproduce this paper.",
+        "No specific executable author release is linked in the inspected blog or paper. Results of the bounded GitHub search are not established official implementations.",
+        "The authors’ experimental results are not local performance measurements or proof of unlimited continual learning."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "google-sleep-blog-2026",
+        "sleep-time-2025",
+        "nested-learning-2025"
+      ],
+      "publication_status": "arXiv preprint; no venue acceptance inferred from the blog",
+      "earlier_version_note": "ArXiv metadata notes a version available on OpenReview from September 2025."
+    },
+    {
+      "id": "google-sleep-blog-2026",
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "authors": [
+        "Ali Behrouz",
+        "Vahab Mirrokni"
+      ],
+      "year": 2026,
+      "published_at": "2026-10-27",
+      "version": "Google Research blog, retrieved 2026-11-08",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "retrieved_url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "retrieved_at": "2026-11-08T17:17:11.728021+00:00",
+      "source_type": "primary_research_blog",
+      "access_depth": "full_text",
+      "inspected_sections": [
+        "Complete visible article; navigation/footer excluded from substantive interpretation."
+      ],
+      "source_sha256": "c260ed142bdea76b3557e8c1087038b96127e5d9a66a8caa22924cf76f6d3b02",
+      "source_bytes": 169127,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "The primary Google explanation links arXiv:2606.03979 and describes memory consolidation, upward distillation and random expert mixing.",
+        "The post explicitly describes weight updates within a fixed architecture and human-defined training rules."
+      ],
+      "application": [
+        "Identify the likely user-referenced paper and distinguish its technical claims from a retrieval-index analogy."
+      ],
+      "limitations": [
+        "Headline benchmark results require the paper’s dataset, fine-tuning and metric conditions.",
+        "A blog is not an independent replication or evidence of biological sleep in an AI."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "google-sleep-2026"
+      ]
+    },
+    {
+      "id": "sleep-time-2025",
+      "title": "Sleep-time Compute: Beyond Inference Scaling at Test-time",
+      "authors": [
+        "Kevin Lin",
+        "Charlie Snell",
+        "Yu Wang",
+        "Charles Packer",
+        "Sarah Wooders",
+        "Ion Stoica",
+        "Joseph E. Gonzalez"
+      ],
+      "year": 2025,
+      "published_at": "2025-04-17",
+      "version": "arXiv:2504.13171v1",
+      "url": "https://arxiv.org/html/2504.13171v1",
+      "retrieved_url": "https://arxiv.org/html/2504.13171v1",
+      "retrieved_at": "2026-11-08T17:18:06.892574+00:00",
+      "source_type": "research_paper",
+      "access_depth": "full_text",
+      "inspected_sections": [
+        "Author affiliations, abstract, sections 3–4, experimental questions/results and selected discussion; not every appendix experiment."
+      ],
+      "source_sha256": "eeb8ef2fb597b8847da0ab195f3d5fa7a89a89eb8b27764443e0b507c56d8f66",
+      "source_bytes": 377162,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Letta and UC Berkeley authors preprocess a context before a later query arrives and reuse the transformed context.",
+        "The primary evaluation uses stateful mathematical datasets and query predictability, with a software-engineering case study.",
+        "Code and data are linked at https://github.com/letta-ai/sleep-time-compute."
+      ],
+      "application": [
+        "Separate offline preprocessing cost from per-query retrieval and answer cost; evaluate whether prepared cards preserve useful evidence."
+      ],
+      "limitations": [
+        "This method is distinct from Google’s parametric Sleep framework and does not validate our corpus.",
+        "Source-informed queries and prewritten answer cards can create leakage if evaluated question strings enter the index."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "google-sleep-2026",
+        "raptor-2024"
+      ]
+    },
+    {
+      "id": "nested-learning-2025",
+      "title": "Nested Learning: The Illusion of Deep Learning Architectures",
+      "authors": [
+        "Ali Behrouz",
+        "Meisam Razaviyayn",
+        "Peilin Zhong",
+        "Vahab Mirrokni"
+      ],
+      "year": 2025,
+      "published_at": "2025-12-31",
+      "version": "arXiv:2512.24695v1; Google blog dated 2025-11-07",
+      "url": "https://arxiv.org/abs/2512.24695",
+      "retrieved_url": "https://arxiv.org/abs/2512.24695",
+      "retrieved_at": "2026-11-08T17:18:06.720210+00:00",
+      "source_type": "research_paper",
+      "access_depth": "abstract_or_excerpt",
+      "inspected_sections": [
+        "ArXiv metadata and abstract plus the complete primary Google blog; the full technical paper was not read here."
+      ],
+      "source_sha256": "12c16366218bae1fbd710b2c9a7f023214c43cdc8881113147849b98467a7ed6",
+      "source_bytes": 43870,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "The work models learning as nested optimization problems and introduces a continuum-memory formulation with different update rates.",
+        "The associated Google blog calls Hope a proof-of-concept architecture and identifies NeurIPS 2025."
+      ],
+      "application": [
+        "Keep source capture, annotation, indexing and release as explicitly versioned processes with different update rates."
+      ],
+      "limitations": [
+        "Versioned data workflows are an engineering analogy, not an implementation of nested neural optimization.",
+        "The later arXiv deposit date and earlier blog date describe different publication events."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "google-sleep-2026"
+      ]
+    },
+    {
+      "id": "graphrag-2024",
+      "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+      "authors": [
+        "Darren Edge",
+        "Ha Trinh",
+        "Newman Cheng",
+        "Joshua Bradley",
+        "Alex Chao",
+        "Apurva Mody",
+        "Steven Truitt",
+        "Dasha Metropolitansky",
+        "Robert Osazuwa Ness",
+        "Jonathan Larson"
+      ],
+      "year": 2024,
+      "published_at": "2024-04-24",
+      "version": "arXiv:2404.16130v2; revised 2025-02-19",
+      "url": "https://arxiv.org/html/2404.16130v2",
+      "retrieved_url": "https://arxiv.org/html/2404.16130v2",
+      "retrieved_at": "2026-11-08T17:18:07.266348+00:00",
+      "source_type": "research_paper",
+      "access_depth": "full_text",
+      "inspected_sections": [
+        "Abstract, section 3 workflow/extraction/community summaries, evaluation overview and section 6 limitations/future work."
+      ],
+      "source_sha256": "bb946da08b68f2cc24bd1f14f267b08bae6f00902827fe86771d3d17245f4b3c",
+      "source_bytes": 619093,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "GraphRAG separates text chunks, extracted entities and relations, graph communities, precomputed community summaries and query-focused answers.",
+        "The inspected limitations describe sensemaking evaluation on two roughly million-token corpora and call for stronger fabrication analysis."
+      ],
+      "application": [
+        "Use typed source-to-claim graphs and separate global theme navigation from claim-level evidence retrieval."
+      ],
+      "limitations": [
+        "An extracted edge or fluent community summary is not a verified fact.",
+        "Our graph is not an exact GraphRAG implementation or a transfer of its benchmark gains."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "hipporag-2024",
+        "hipporag2-2025",
+        "prov-o-2013"
+      ]
+    },
+    {
+      "id": "hipporag-2024",
+      "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+      "authors": [
+        "Bernal Jiménez Gutiérrez",
+        "Yiheng Shu",
+        "Yu Gu",
+        "Michihiro Yasunaga",
+        "Yu Su"
+      ],
+      "year": 2024,
+      "published_at": "2024-05-23",
+      "version": "arXiv:2405.14831v3; revised 2025-01-14",
+      "url": "https://arxiv.org/html/2405.14831v3",
+      "retrieved_url": "https://arxiv.org/html/2405.14831v3",
+      "retrieved_at": "2026-11-08T17:21:37.499208+00:00",
+      "source_type": "research_paper",
+      "access_depth": "full_text",
+      "inspected_sections": [
+        "Abstract, section 2.3 offline indexing/online retrieval, sections 3.3–3.4 metrics/setup and selected results."
+      ],
+      "source_sha256": "c96081775bd5ac74ec82dd9ea702c8806c9b26611071d9af8738d14e23c07671",
+      "source_bytes": 482163,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Combines LLM OpenIE, graph structure, embedding-based query/entity matching and Personalized PageRank.",
+        "Reports retrieval recall separately from exact-match and F1 answer quality."
+      ],
+      "application": [
+        "Keep retrieval-support coverage separate from generated-answer quality and allow inspectable paths across evidence sources."
+      ],
+      "limitations": [
+        "Similarity-based synonym edges require domain review. Similarly named councils cannot be automatically merged.",
+        "No local reproduction of the HippoRAG algorithm or benchmark is claimed."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "hipporag2-2025",
+        "graphrag-2024"
+      ]
+    },
+    {
+      "id": "hipporag2-2025",
+      "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+      "authors": [
+        "Bernal Jiménez Gutiérrez",
+        "Yiheng Shu",
+        "Weijian Qi",
+        "Sizhe Zhou",
+        "Yu Su"
+      ],
+      "year": 2025,
+      "published_at": "2025-02-20",
+      "version": "arXiv:2502.14802v2; revised 2025-06-19",
+      "url": "https://arxiv.org/abs/2502.14802v2",
+      "retrieved_url": "https://arxiv.org/abs/2502.14802",
+      "retrieved_at": "2026-11-08T17:21:37.441914+00:00",
+      "source_type": "research_paper",
+      "access_depth": "abstract_or_excerpt",
+      "inspected_sections": [
+        "Abstract, publication/version metadata and code-link statement; the full paper was not read."
+      ],
+      "source_sha256": "ecdec63a730f5543d554070b603909edffb08f6d9d6099b37054de8f5ffc9938",
+      "source_bytes": 43701,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "HippoRAG 2 addresses factual, associative and sensemaking tasks and adds deeper passage integration to Personalized PageRank retrieval.",
+        "The abstract explicitly notes that structured RAG can lose factual retrieval performance while improving other memory tasks."
+      ],
+      "application": [
+        "Evaluate direct source questions, comparisons across sources and global themes separately."
+      ],
+      "limitations": [
+        "Abstract-level inspection supports method selection, not detailed implementation claims.",
+        "The reported 7% associative benchmark gain is not expected or measured here."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "hipporag-2024",
+        "graphrag-2024"
+      ]
+    },
+    {
+      "id": "raptor-2024",
+      "title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+      "authors": [
+        "Parth Sarthi",
+        "Salman Abdullah",
+        "Aditi Tuli",
+        "Shubh Khanna",
+        "Anna Goldie",
+        "Christopher D. Manning"
+      ],
+      "year": 2024,
+      "published_at": "2024-01-31",
+      "version": "arXiv:2401.18059v1",
+      "url": "https://arxiv.org/abs/2401.18059",
+      "retrieved_url": "https://arxiv.org/abs/2401.18059",
+      "retrieved_at": "2026-11-08T17:18:07.366370+00:00",
+      "source_type": "research_paper",
+      "access_depth": "abstract_or_excerpt",
+      "inspected_sections": [
+        "Metadata/abstract only."
+      ],
+      "source_sha256": "803e4dfd1dd99bf9a20d9739d4981deeaef8c835833fb74a3d423fa868d06d43",
+      "source_bytes": 40587,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Recursively embeds, clusters and summarizes chunks into multiple abstraction levels for retrieval."
+      ],
+      "application": [
+        "Preserve a path from concise cards or themes back to original evidence; compare card-only and raw-source retrieval."
+      ],
+      "limitations": [
+        "No exact RAPTOR implementation or reported benchmark reproduction is claimed.",
+        "Summary compression may erase uncertainty, time conditions or minority positions."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "sleep-time-2025",
+        "graphrag-2024"
+      ]
+    },
+    {
+      "id": "mmteb-2025",
+      "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+      "authors": [
+        "Kenneth Enevoldsen",
+        "Isaac Chung",
+        "Imene Kerboua",
+        "et al."
+      ],
+      "year": 2025,
+      "published_at": "2025-02-19",
+      "version": "arXiv:2502.13595v4; revised 2025-11-13",
+      "url": "https://arxiv.org/html/2502.13595v4",
+      "retrieved_url": "https://arxiv.org/html/2502.13595v4",
+      "retrieved_at": "2026-11-08T17:21:37.898675+00:00",
+      "source_type": "research_paper",
+      "access_depth": "full_text",
+      "inspected_sections": [
+        "Abstract, sections 2.2–2.3 task quality/caching, section 3.2 evaluation, selected comparisons/discussion and limitations."
+      ],
+      "source_sha256": "c3c0f5a5c5240eb6dfe93c974e84332a9007d89d3e75b1b01d67cdaddefc3677",
+      "source_bytes": 1132920,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Evaluates embeddings across task categories and languages and requires annotation, source and licensing metadata.",
+        "Uses caching/downsampling strategies and reports task-sensitive model rankings.",
+        "Limitations include translated-content bias and uneven language coverage."
+      ],
+      "application": [
+        "Compare lexical and dense systems on the same units and report retrieval, clustering and qualitative comparisons separately; cache embeddings with source/model hashes."
+      ],
+      "limitations": [
+        "A leaderboard rank is not corpus-specific validation.",
+        "The English convenience sample cannot support broad cross-cultural or language generalization."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "sbert-2019",
+        "datasheets-2021"
+      ]
+    },
+    {
+      "id": "sbert-2019",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "authors": [
+        "Nils Reimers",
+        "Iryna Gurevych"
+      ],
+      "year": 2019,
+      "published_at": "2019-08-27",
+      "version": "arXiv:1908.10084v1",
+      "url": "https://arxiv.org/abs/1908.10084",
+      "retrieved_url": "https://arxiv.org/abs/1908.10084",
+      "retrieved_at": "2026-11-08T17:18:07.408930+00:00",
+      "source_type": "research_paper",
+      "access_depth": "abstract_or_excerpt",
+      "inspected_sections": [
+        "Metadata/abstract only."
+      ],
+      "source_sha256": "e7939b7078738b4640f9a7b60be045c8c3c5baa7cc75358832bf78c99cfe8791",
+      "source_bytes": 41707,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Produces sentence embeddings for efficient cosine-similarity search and clustering."
+      ],
+      "application": [
+        "Use cached sentence/document representations for candidate comparison; distinguish them from word TF-IDF weights."
+      ],
+      "limitations": [
+        "Similarity is not equivalence, contradiction, entailment or factual truth.",
+        "This is a foundational method reference, not a current SOTA model ranking."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "mmteb-2025",
+        "contradictions-2008"
+      ]
+    },
+    {
+      "id": "contradictions-2008",
+      "title": "Finding Contradictions in Text",
+      "authors": [
+        "Marie-Catherine de Marneffe",
+        "Anna N. Rafferty",
+        "Christopher D. Manning"
+      ],
+      "year": 2008,
+      "published_at": "2008-06",
+      "version": "ACL-08: HLT, pp. 1039–1047",
+      "url": "https://aclanthology.org/P08-1118/",
+      "retrieved_url": "https://aclanthology.org/P08-1118.pdf",
+      "retrieved_at": "2026-11-08T17:20:55.720621+00:00",
+      "source_type": "research_paper",
+      "access_depth": "full_text",
+      "inspected_sections": [
+        "PDF sections 1–7 and typology/results tables; the bibliography was not independently followed."
+      ],
+      "source_sha256": "ccf78c29955e4fc8db3998b31a1d9b05b4811e2f956ccecd4941e37d15a17651",
+      "source_bytes": 129541,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Contradiction requires finer distinctions than non-entailment; alignment of events or propositions is essential.",
+        "Negation, modality, numbers/dates, argument structure and lexical context can create or resolve apparent conflicts.",
+        "The paper reports generalization failures and false conflicts caused by mismatched scope."
+      ],
+      "application": [
+        "Store scoped claim comparisons with source conditions and an abstain category; use embeddings only to identify candidate pairs."
+      ],
+      "limitations": [
+        "This is a foundational 2008 analysis, not a current neural benchmark or classifier.",
+        "Our reading labels remain AI-assisted annotations, not human-validated truth judgments."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "sbert-2019",
+        "prov-o-2013"
+      ]
+    },
+    {
+      "id": "whisper-2022",
+      "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "authors": [
+        "Alec Radford",
+        "Jong Wook Kim",
+        "Tao Xu",
+        "Greg Brockman",
+        "Christine McLeavey",
+        "Ilya Sutskever"
+      ],
+      "year": 2022,
+      "published_at": "2022-12-06",
+      "version": "arXiv:2212.04356v1",
+      "url": "https://arxiv.org/abs/2212.04356",
+      "retrieved_url": "https://arxiv.org/abs/2212.04356",
+      "retrieved_at": "2026-11-08T17:18:07.498197+00:00",
+      "source_type": "research_paper",
+      "access_depth": "abstract_or_excerpt",
+      "inspected_sections": [
+        "Metadata and abstract only; selected new model cards are handled by the ASR lane."
+      ],
+      "source_sha256": "19daee279670cda0ab588641acc5217e8b4607d9c22a382bfbb266483e3a6040",
+      "source_bytes": 40430,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Whisper uses large-scale multilingual/multitask weak supervision and is evaluated for generalization across datasets."
+      ],
+      "application": [
+        "Treat transcripts as model-dependent measurements; compare fixed audio editions with pinned models/configurations and retain older outputs."
+      ],
+      "limitations": [
+        "Larger capacity or model agreement does not establish word accuracy in this corpus.",
+        "This paper alone does not rank current 2026 ASR models."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "datasheets-2021"
+      ]
+    },
+    {
+      "id": "datasheets-2021",
+      "title": "Datasheets for Datasets",
+      "authors": [
+        "Timnit Gebru",
+        "Jamie Morgenstern",
+        "Briana Vecchione",
+        "Jennifer Wortman Vaughan",
+        "Hanna Wallach",
+        "Hal Daumé III",
+        "Kate Crawford"
+      ],
+      "year": 2021,
+      "published_at": "2018-03-23",
+      "version": "arXiv:1803.09010v8; revised 2021-12-01",
+      "url": "https://arxiv.org/abs/1803.09010v8",
+      "retrieved_url": "https://arxiv.org/abs/1803.09010",
+      "retrieved_at": "2026-11-08T17:18:07.497500+00:00",
+      "source_type": "research_paper",
+      "access_depth": "abstract_or_excerpt",
+      "inspected_sections": [
+        "Metadata/abstract only."
+      ],
+      "source_sha256": "a797ae3b75d7bd60adb85a2175ed4bcac98b8fec91082a37edf5d4f43da2584e",
+      "source_bytes": 42771,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Recommends documenting motivation, composition, collection processes, recommended uses and other dataset properties."
+      ],
+      "application": [
+        "Maintain a corpus/edition datasheet with sampling, access, derivatives, uncertainty and release boundaries."
+      ],
+      "limitations": [
+        "Documentation does not remove selection bias or confer independent validity."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "prov-o-2013",
+        "mmteb-2025"
+      ]
+    },
+    {
+      "id": "prov-o-2013",
+      "title": "PROV-O: The PROV Ontology",
+      "authors": [
+        "Timothy Lebo",
+        "Satya Sahoo",
+        "Deborah McGuinness"
+      ],
+      "year": 2013,
+      "published_at": "2013-04-30",
+      "version": "W3C Recommendation, 2013-04-30",
+      "url": "https://www.w3.org/TR/prov-o/",
+      "retrieved_url": "https://www.w3.org/TR/prov-o/",
+      "retrieved_at": "2026-11-08T17:18:07.673217+00:00",
+      "source_type": "technical_standard",
+      "access_depth": "full_text",
+      "inspected_sections": [
+        "Abstract/status, section 3.1 Starting Point Terms and selected expanded derivation/attribution terms."
+      ],
+      "source_sha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "source_bytes": 464179,
+      "hash_scope": "Decoded HTTP response bytes at the retrieved URL; it is a document binding, not a truth score.",
+      "claims_supported": [
+        "Defines Entity, Activity and Agent and relationships including used, wasGeneratedBy, wasDerivedFrom and wasAttributedTo.",
+        "Provenance entities may be real, imaginary, physical, digital or conceptual; representation as an Entity does not authenticate existence."
+      ],
+      "application": [
+        "Map source edition → recognition activity → text edition → annotation activity → claim card → index/release, preserving derivations and version identifiers."
+      ],
+      "limitations": [
+        "JSON/SQL using related concepts does not constitute validated RDF/PROV-O conformance.",
+        "Provenance authenticates a record chain, not supernatural content."
+      ],
+      "implementation_status": "reference_not_reproduced",
+      "related_ids": [
+        "datasheets-2021",
+        "graphrag-2024"
+      ]
+    }
+  ]
+}

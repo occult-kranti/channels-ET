@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "contextual",
+      "url": "https://aclanthology.org/D19-1006/",
+      "retrieved_at": "2026-11-08T17:57:46.318443+00:00",
+      "source_sha256": "3f825d41b8a7b0a9eec0879c3ab88fea459aa1ac603682357709d2ddf84c937e",
+      "source_bytes": 42182,
+      "access_depth": "abstract and bibliographic metadata only",
+      "raw_source_public": false,
+      "authors": [
+        "Kawin Ethayarajh"
+      ],
+      "title": "How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings",
+      "version": "EMNLP-IJCNLP 2019, pp. 55–65, DOI 10.18653/v1/D19-1006",
+      "application": "Foundational caution that contextual representations have model/layer-dependent geometry; the paper does not validate the present MiniLM token means or clusters."
+    },
+    {
+      "id": "parakeet",
+      "url": "https://arxiv.org/abs/2509.14128v2",
+      "retrieved_at": "2026-11-08T17:57:46.318443+00:00",
+      "source_sha256": "f6fcb03630dffe82ed5cbd088f6d8f96446dada3bbb416bee660937872a03c2f",
+      "source_bytes": 43096,
+      "access_depth": "abstract and bibliographic metadata only",
+      "raw_source_public": false,
+      "authors": [
+        "Monica Sekoyan",
+        "Nithin Rao Koluguri",
+        "Nune Tadevosyan",
+        "Piotr Zelasko",
+        "Travis Bartley",
+        "Nikolay Karpov",
+        "Jagadeesh Balam",
+        "Boris Ginsburg"
+      ],
+      "title": "Canary-1B-v2 & Parakeet-TDT-0.6B-v3: Efficient and High-Performance Models for Multilingual ASR and AST",
+      "version": "arXiv:2509.14128v2, revised 25 September 2025",
+      "application": "The abstract announces Parakeet multilingual ASR across 25 languages; its 1.7M-hour and ten-times-Whisper performance claims concern Canary, not this Parakeet experiment."
+    }
+  ]
+}

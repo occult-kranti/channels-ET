@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "title": "Channeling knowledge bank and recognition laboratory",
+  "generated_at": "2026-11-08T18:11:45.210009+00:00",
+  "scope": "Separate, source-bound text, curated-question, retrieval and speech-recognition frames. Source assertions and model outputs remain distinct from authenticated claims.",
+  "modules": {
+    "analysis": {
+      "file": "analysis.json",
+      "bytes": 487845,
+      "sha256": "e1407aa84f8eb33375f15647a5635daae0e75b55c365e7771e3ab0b728e818df",
+      "required": true
+    },
+    "knowledge": {
+      "file": "knowledge.json",
+      "bytes": 181571,
+      "sha256": "9ef331231f1efdb52d482a00324999f5f1f3cfe5d7c66527e6e79a04dd5ef6b2",
+      "required": true
+    },
+    "retrieval": {
+      "file": "retrieval.json",
+      "bytes": 251376,
+      "sha256": "0df6a4967ed08fd10aed7a11a9d43c3373c53660a352b66eaaa3121e15a946a4",
+      "required": false
+    },
+    "asr": {
+      "file": "asr-benchmark.json",
+      "bytes": 42359,
+      "sha256": "11a4242e924fa2509bfc11ef49337defab8d431ac885265913c77d31c48da5f7",
+      "required": false
+    },
+    "literature": {
+      "file": "literature-register.json",
+      "bytes": 27061,
+      "sha256": "639e8cb68aed09c69fa4e23ad3b07417f004beec5e5a8a2d8be3b54a3374e6fc",
+      "required": false
+    },
+    "experiments": {
+      "file": "experiments.json",
+      "bytes": 24825,
+      "sha256": "bb3b7c3fbbe38d7c5dd68215808490ca04b35535f9e8fae842151363c58e0888",
+      "required": false
+    },
+    "full_asr": {
+      "file": "asr-full.json",
+      "bytes": 10851,
+      "sha256": "fdfdd4d7fdeec4c7d2675061095d457b390e86a80343633e1ab9e0fcba71a7b9",
+      "required": false
+    },
+    "asr_sensitivity": {
+      "file": "asr-sensitivity.json",
+      "bytes": 81350,
+      "sha256": "02aacfb8ceef15df14226c16df587799f1a1e5e0dcb55c53e858b46905db113a",
+      "required": false
+    },
+    "contextual_terms": {
+      "file": "contextual-terms.json",
+      "bytes": 159262,
+      "sha256": "5d3d509f6a50927019eedf936170a7df8bfe5bc5dff5874b015d211581c6327e",
+      "required": false
+    }
+  },
+  "artifacts": [
+    {
+      "file": "analysis.json",
+      "bytes": 487845,
+      "sha256": "e1407aa84f8eb33375f15647a5635daae0e75b55c365e7771e3ab0b728e818df",
+      "label": "analysis.json"
+    },
+    {
+      "file": "figures/lexical-neural-pairs.png",
+      "bytes": 103784,
+      "sha256": "ae449850c5d1b791f8b86404fd4c4adc2fd2302d44a9bc1e872c3a430f801c36",
+      "label": "Lexical versus neural pair similarities"
+    },
+    {
+      "file": "figures/lexical-neural-pairs.svg",
+      "bytes": 86754,
+      "sha256": "271b9e2d59a6762a2812bd3f6bd30a9e803fd3b6461743dbf691d19052dad343",
+      "label": "Lexical versus neural pair similarities"
+    },
+    {
+      "file": "figures/lexical-neural-pairs.pdf",
+      "bytes": 21763,
+      "sha256": "d05cbf92ec0bb6ce07f1b41e57a6b2c9fb95795d47ffb9dff48e8cb129c0121a",
+      "label": "Lexical versus neural pair similarities"
+    },
+    {
+      "file": "figures/representation-maps.png",
+      "bytes": 349194,
+      "sha256": "d90d53f310904b4b9b35a4d18d1bb707a520b55f407bf7c1f00e5f1f696137b6",
+      "label": "Lexical and neural source-context maps with portable source key"
+    },
+    {
+      "file": "figures/representation-maps.svg",
+      "bytes": 264784,
+      "sha256": "664a03f474865f9950761e1d72bac2216d0c9e03d29fa4efeed0007bf863c883",
+      "label": "Lexical and neural source-context maps with portable source key"
+    },
+    {
+      "file": "figures/representation-maps.pdf",
+      "bytes": 36193,
+      "sha256": "725eeab5a76174ea8caf5abc6d18e19fb6d8200b2865214574c22764ef163e4f",
+      "label": "Lexical and neural source-context maps with portable source key"
+    },
+    {
+      "file": "figures/neighbor-stability.png",
+      "bytes": 158748,
+      "sha256": "6c845a750e3828a5121c9bfb460a45af767156a8abeadc8b0c2c178451b9fff8",
+      "label": "Neighbor stability across representation choices"
+    },
+    {
+      "file": "figures/neighbor-stability.svg",
+      "bytes": 73401,
+      "sha256": "410dcee3fb4f2bc04ddc61a67b2dceb1f0f7a25b8c0481c25ee9af937751d604",
+      "label": "Neighbor stability across representation choices"
+    },
+    {
+      "file": "figures/neighbor-stability.pdf",
+      "bytes": 19259,
+      "sha256": "d3bb97ff8fbcd2fec48550c518710efe87f71261b017750ef9475faabe18e9ec",
+      "label": "Neighbor stability across representation choices"
+    },
+    {
+      "file": "figures/term-source-overlay.png",
+      "bytes": 151052,
+      "sha256": "77b6dcebc68bbca0d45e62fa138cc96c8b46c1685fd8e8470eb91eacc35a7890",
+      "label": "Lexical features across source contexts"
+    },
+    {
+      "file": "figures/term-source-overlay.svg",
+      "bytes": 78794,
+      "sha256": "08110f0097dc7f9fe6ae80ea6f6743a0d39ea84a0bf4850ff0cd1b13c6ef063f",
+      "label": "Lexical features across source contexts"
+    },
+    {
+      "file": "figures/term-source-overlay.pdf",
+      "bytes": 26930,
+      "sha256": "e25673b2d34c9d34d47fb70d7fdaf2da99d237123ca7da71587c6fa5dd6ab7cd",
+      "label": "Lexical features across source contexts"
+    },
+    {
+      "file": "figures/source-label-contrast.png",
+      "bytes": 90660,
+      "sha256": "b5e98a2b63d6d8d2ae180f6aed286e6d6b8f86533b72ba7e7afb9845da85bf06",
+      "label": "Source versus comparison-label contrasts"
+    },
+    {
+      "file": "figures/source-label-contrast.svg",
+      "bytes": 71571,
+      "sha256": "c3d92274a5c2a658553632b9bfa346cb5f38c9bcd9cbc2f7b5f7043c51cf5416",
+      "label": "Source versus comparison-label contrasts"
+    },
+    {
+      "file": "figures/source-label-contrast.pdf",
+      "bytes": 16811,
+      "sha256": "90e5c5363b7a2deefff797bbd24f95353f07ac39703ae4883fc0d7fded37be67",
+      "label": "Source versus comparison-label contrasts"
+    },
+    {
+      "file": "knowledge.json",
+      "bytes": 181571,
+      "sha256": "9ef331231f1efdb52d482a00324999f5f1f3cfe5d7c66527e6e79a04dd5ef6b2",
+      "label": "knowledge.json"
+    },
+    {
+      "file": "questions.sqlite",
+      "bytes": 450560,
+      "sha256": "3a84753b36bf0cd7df5b39a842e6a52a9dbd2249e3e98effd4acd582afe3287c",
+      "label": "Queryable question database"
+    },
+    {
+      "file": "question-bank.md",
+      "bytes": 12502,
+      "sha256": "49f96f48cb6ee200e493fa9a7ce9333923352cf65d497a1d9a91a4c1b75be9ef",
+      "label": "Question-bank reading document"
+    },
+    {
+      "file": "retrieval.json",
+      "bytes": 251376,
+      "sha256": "0df6a4967ed08fd10aed7a11a9d43c3373c53660a352b66eaaa3121e15a946a4",
+      "label": "retrieval.json"
+    },
+    {
+      "file": "figures/retrieval-audit.png",
+      "bytes": 89290,
+      "sha256": "0fc646f2985c3564b6ebd376ce2a4dbdb3e2bf6f9de88fedbe94aa74dd75794c",
+      "label": "Fixed-query retrieval audit"
+    },
+    {
+      "file": "figures/retrieval-audit.svg",
+      "bytes": 68424,
+      "sha256": "510f4672124c0ecbe6c392e81c33b02e5190a3b02fa854ec96dd46a24b3da37d",
+      "label": "Fixed-query retrieval audit"
+    },
+    {
+      "file": "figures/retrieval-audit.pdf",
+      "bytes": 21671,
+      "sha256": "d34c8f13a6bb30d85e813005a8e77b4214544ba9319167c8eb8c9281f5e2d695",
+      "label": "Fixed-query retrieval audit"
+    },
+    {
+      "file": "asr-benchmark.json",
+      "bytes": 42359,
+      "sha256": "11a4242e924fa2509bfc11ef49337defab8d431ac885265913c77d31c48da5f7",
+      "label": "asr-benchmark.json"
+    },
+    {
+      "file": "literature-register.json",
+      "bytes": 27061,
+      "sha256": "639e8cb68aed09c69fa4e23ad3b07417f004beec5e5a8a2d8be3b54a3374e6fc",
+      "label": "literature-register.json"
+    },
+    {
+      "file": "experiments.json",
+      "bytes": 24825,
+      "sha256": "bb3b7c3fbbe38d7c5dd68215808490ca04b35535f9e8fae842151363c58e0888",
+      "label": "experiments.json"
+    },
+    {
+      "file": "asr-full.json",
+      "bytes": 10851,
+      "sha256": "fdfdd4d7fdeec4c7d2675061095d457b390e86a80343633e1ab9e0fcba71a7b9",
+      "label": "asr-full.json"
+    },
+    {
+      "file": "asr-sensitivity.json",
+      "bytes": 81350,
+      "sha256": "02aacfb8ceef15df14226c16df587799f1a1e5e0dcb55c53e858b46905db113a",
+      "label": "asr-sensitivity.json"
+    },
+    {
+      "file": "figures/asr-edition-sensitivity.png",
+      "bytes": 136001,
+      "sha256": "71ee3040a7b07738045996039e76354568bf965fa97bb08ee1a1ff5660f9d128",
+      "label": "Paired ASR-edition sensitivity on four full recordings"
+    },
+    {
+      "file": "figures/asr-edition-sensitivity.svg",
+      "bytes": 92930,
+      "sha256": "ac8094adc419524d21df0039f04f9f2a1ec4dadcd8d8ddb188adfd4ad9c6610a",
+      "label": "Paired ASR-edition sensitivity on four full recordings"
+    },
+    {
+      "file": "figures/asr-edition-sensitivity.pdf",
+      "bytes": 21771,
+      "sha256": "78402a8474476e0fdf767164cb3c8d6e9c208cca0198d1b5b7c9b4fdf0862b62",
+      "label": "Paired ASR-edition sensitivity on four full recordings"
+    },
+    {
+      "file": "contextual-terms.json",
+      "bytes": 159262,
+      "sha256": "5d3d509f6a50927019eedf936170a7df8bfe5bc5dff5874b015d211581c6327e",
+      "label": "contextual-terms.json"
+    },
+    {
+      "file": "figures/contextual-token-overlay.png",
+      "bytes": 180493,
+      "sha256": "87d31b0ed2af70130a68224d08197738fd136cb7348ab7697f2632622e143861",
+      "label": "Contextual token centroids and source-context overlay"
+    },
+    {
+      "file": "figures/contextual-token-overlay.svg",
+      "bytes": 125587,
+      "sha256": "2856a9abf5bbc2a4a41ea0cc0163fc6d743f5b592170c71ac490abd197494ace",
+      "label": "Contextual token centroids and source-context overlay"
+    },
+    {
+      "file": "figures/contextual-token-overlay.pdf",
+      "bytes": 30327,
+      "sha256": "cdabc95f5b4a187218fa024430b16b04e63c3b5ecb888744a04c98ff05ad2c1f",
+      "label": "Contextual token centroids and source-context overlay"
+    },
+    {
+      "file": "docs/README.md",
+      "bytes": 7575,
+      "sha256": "d4642026e1cdd8de7f02667fb4c9eaed5580cfecb0df2f9ac8677db83693e7ea",
+      "label": "README.md"
+    },
+    {
+      "file": "docs/PROTOCOL.md",
+      "bytes": 8615,
+      "sha256": "1ad57528d063f9a8132c3a9fd2c320984c072764505d2c49d0008da272483f22",
+      "label": "PROTOCOL.md"
+    },
+    {
+      "file": "docs/METHODS.md",
+      "bytes": 24268,
+      "sha256": "48e5455e367471e9937057408a49e8689f5e4d302d68302f84f32f2c0e380b0f",
+      "label": "METHODS.md"
+    },
+    {
+      "file": "docs/CODEBOOK.md",
+      "bytes": 7771,
+      "sha256": "421b4243757cba47f1196f52ddffd4b3a679af881fe4e7b37434da4017ee73d5",
+      "label": "CODEBOOK.md"
+    },
+    {
+      "file": "docs/LITERATURE.md",
+      "bytes": 13820,
+      "sha256": "f41beb92c7613604c8d9352ef60fcde8c91aa34aaa88edf1c54f8dc48ac41f67",
+      "label": "LITERATURE.md"
+    },
+    {
+      "file": "docs/PANEL.md",
+      "bytes": 4441,
+      "sha256": "3a3c47de388dd2838dacee83d53fa292796eb65e2a021d79a9b92668eea4aea8",
+      "label": "PANEL.md"
+    },
+    {
+      "file": "docs/DATASET-CARD.md",
+      "bytes": 5329,
+      "sha256": "7881af3049e407a69cb753b429630389d00bbe1b52f0cf4910d905b36ea36705",
+      "label": "DATASET-CARD.md"
+    },
+    {
+      "file": "docs/asr_METHODS.md",
+      "bytes": 12662,
+      "sha256": "e1fb70eadae14ca3a2970db1ee72ae4617e481197b7d40c87334353802a150d0",
+      "label": "asr_METHODS.md"
+    },
+    {
+      "file": "docs/INDEPENDENT-REVIEW.md",
+      "bytes": 16664,
+      "sha256": "da023b0d4310b8cee6723ba22e33afb4171663961e6cfb2bbfaa1989a0c521e1",
+      "label": "INDEPENDENT-REVIEW.md"
+    },
+    {
+      "file": "docs/REVIEW.md",
+      "bytes": 11571,
+      "sha256": "13ccd22b3620736c9ad91532f4f289cced882a92e6e4d082ed4f22457dfe562e",
+      "label": "REVIEW.md"
+    },
+    {
+      "file": "question_query.py",
+      "bytes": 2654,
+      "sha256": "d2b98e1c632fb0bc4b6fc46276c639bca3081fc2e16cd723394b8259f225361b",
+      "label": "Offline Python question-bank query tool"
+    },
+    {
+      "file": "project-skills.zip",
+      "bytes": 3445,
+      "sha256": "cde17ebe0e66b2866ec7aa309e38c6beca561e156c5dcaa77dad42793a7c5f5d",
+      "label": "Three reusable project research skills"
+    },
+    {
+      "file": "report/report.pdf",
+      "bytes": 387311,
+      "sha256": "c801703145409acbd68e5e20872c93c9ec20f30398c0adb18777fb1b43f55081",
+      "label": "Technical report / portable source: report.pdf"
+    },
+    {
+      "file": "report/source.zip",
+      "bytes": 143487,
+      "sha256": "a524915f2198d4c4b6844cf2cb6a51babdfb01fc77324e5acb0fa294ce13d6a7",
+      "label": "Technical report / portable source: source.zip"
+    },
+    {
+      "file": "report/report.md",
+      "bytes": 47242,
+      "sha256": "d5443a547ae8bb39231e28a654ca3dfed87d2d28dbea0b8c3bff42cd3ccb4bf0",
+      "label": "Technical report / portable source: report.md"
+    },
+    {
+      "file": "report/main.tex",
+      "bytes": 55790,
+      "sha256": "51016d960118332e4aa843ec97bfc7c922bee6ba5f73472bbd166f590751aac5",
+      "label": "Technical report / portable source: main.tex"
+    }
+  ],
+  "builder_sha256": "9ad011f67181b9c86ad7e85915bac90203dbf0391e998ca87ca1869e9f78abf4"
+}
