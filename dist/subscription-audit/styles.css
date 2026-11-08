@@ -7,3 +7,5 @@
 .publisher-subhead{margin-top:34px}.publisher-table td{min-width:130px}.publisher-table th{min-width:280px}.publisher-table small{overflow-wrap:anywhere}#publisher-texts details pre{white-space:pre-wrap;overflow-wrap:anywhere}#channel-detail pre{white-space:pre-wrap;overflow-wrap:anywhere;font:11px/1.7 monospace;padding:16px;border:1px solid var(--line);background:var(--surface)}
 
 .figure-open{font-size:12px;margin:-6px 0 15px}.figure-open a{display:inline-flex;align-items:center;min-height:36px}
+
+.audio-holds{margin-top:28px}.audio-holds .inspection-note{overflow-wrap:anywhere}.audio-holds p+p{margin-top:8px}

@@ -10,3 +10,5 @@
 .graph-scroll{max-width:100%;overflow:auto;overscroll-behavior-inline:contain}.graph-scroll svg{min-width:760px}.graph-frame>p{overflow-wrap:anywhere}
 
 .figure-open{font-size:12px;margin:-6px 0 15px}.figure-open a{display:inline-flex;align-items:center;min-height:36px}
+
+.study-jumps{display:flex;gap:10px 18px;flex-wrap:wrap;align-items:center;margin:22px 0 30px;padding-bottom:23px;border-bottom:1px solid var(--line)}.study-jumps button,.study-jumps a{font-size:12px}.collected-matrix th:first-child{min-width:230px;max-width:300px}.collected-matrix td{min-width:58px;text-align:right}.collected-matrix thead th:not(:first-child){text-align:right}.keyword-selector{max-width:360px;margin:20px 0 14px}.table-note{font-size:12px;margin-top:15px;max-width:950px}@media(max-width:680px){.study-jumps button{width:100%;text-align:left}.study-jumps a{display:block;min-height:36px;width:100%}}

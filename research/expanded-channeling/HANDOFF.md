@@ -22,7 +22,11 @@ states this explicitly.
 | New attributed-message pilot | 20 messages / 20,829 words, four mediums, 11 comparison labels | Source-local written attribution; broad labels and named figures are not merged into authenticated identities |
 | Typed relationship register | 69 relationships / 19 comparison groups / 52 source-specific label records | Host, directory, contact, repost and direct channeling relations remain distinct |
 | Magenta publisher video archive | 23 linked pages / 1,114 YouTube IDs | Includes a repaired Shorts-parser omission; no YouTube download or upload-total claim |
-| First new audio release snapshot | 30 verified retained audio sources / 304,758,859 bytes / 50,147.960 decoded seconds; two local ASRs | Immutable acquisition/ASR input snapshots; continuing 229-item successor frame has separate later receipts |
+| Completed new publisher audio frame | 229 publications / 228 exact original-byte families / 1,571,640,963 bytes / 258,545.244 decoded seconds | 204 Tracy, 20 Multidimensional Soul, five OmNa; finite publisher frame, not every historical YouTube upload |
+| Supplementary release text snapshot | 31 local ASRs, 71 linked captions, one held failure, 126 pending ASRs | Immutable input manifests; live queue continues separately, with one reviewed alternate-model retry |
+| Collected-audio analytical snapshot | 27 text units / 67,424 words from an earlier 75-audio cutoff | Ten new ASRs plus 17 reused captions; source context, not speaker/entity labels |
+| MiniLM semantic message pilot | 20 messages, zero chunk truncation; six source-read retrieval pairs | Same written-message pilot; pretrained model, no new weights or answer-equivalence claim |
+| Expanded companion paper | 21 pages, eight figures, eight tables, portable LaTeX ZIP | Frozen joint and written-message studies; later audio/semantic supplements remain separate |
 
 Private roots are `/workspace/channels-et-private/bashar-ra-2026-11/`,
 `/workspace/channels-et-private/subscription-screening-2026-11/` and
@@ -50,6 +54,12 @@ outside the public checkout.
   `34ac7bbeb61d83f8d782392008c39e252a335381b8b481c88258c1130e7a6722`.
 - New-message `pilot/final-02/new-message-pilot.json` SHA-256
   `2fd5c74456ffe522f382d3ba800c128c8d8316abd2b8fd42e719877d0cc2d8b6`.
+- Collected-audio `collected-audio/three-context-final-02/collected-audio-analysis.json` SHA-256
+  `ef96c13266ca90bd87377eda124d9a2bac215e33e1f33ebda3bdba96f8eff66c`.
+- Semantic pilot `semantic-pilot/final-01/semantic-pilot.json` SHA-256
+  `014c5f5bef87898e284d2e0342225fc1c2c5a1e5b6e91192fb194efec6e80cd5`.
+- Completed publisher audio manifest SHA-256
+  `82c007e60fdddd3c970bd4831beb632dca8a3fe183bbca01a715de6d409de694`; all 229 audio hashes and 458 decode-log proofs independently checked.
 - Reviewed official Bashar acquisition/text manifests are under
   `bashar/official-vimeo-corpus-reviewed/`. Earlier similarly named folders
   remain historical and must not be silently substituted.
@@ -122,3 +132,11 @@ Human review of transcription accuracy, source-role annotation and paired
 answer equivalence remains outstanding. Full YouTube account coverage and
 permanent archive transfer remain unresolved. These are reported limits,
 not inferred successes.
+
+## Supplementary release and continued processing
+
+The new private publisher navigator is `subscription-screening-2026-11/archive/index.html`. Its supplementary snapshot references all 229 existing recordings and 102 text links without duplicating audio. The reusable generator is `../subscription-screening/private_portal.py`. Caption links do not establish audio-text alignment. The failed repeated-output ASR remains held; an alternate inference edition needs its own source-bound review before admission.
+
+Supplementary actual-data browser checks pass 1,242 assertions plus 208 core regression assertions. A further 130 matrix-scaling checks cover the actual 27-text study and explicitly isolated 40/41/81/229-source fixtures; fixture sizes are not observed corpus counts. The supplementary review and paper review describe bounded manual inspection separately.
+
+A finite completion refresher is implemented in `refresh_pipeline.py`. It requires a clean reviewed expected Git commit, unchanged remote main, final collection and transcription dispositions, a reviewed fallback result, fresh private refits, source/figure/privacy checks, and an exact publication allowlist. It stops if future edits or a new commit appear. Its launch/completion state is recorded privately; the presence of code alone does not establish execution or a later publication.

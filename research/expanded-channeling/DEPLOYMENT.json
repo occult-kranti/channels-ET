@@ -1,0 +1,171 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-08T14:45:17.913801+00:00",
+  "commit": "6e66b9ab1fccbd0fe1200619598f1c065c058eb8",
+  "workflow_run": "https://github.com/occult-kranti/channels-ET/actions/runs/42491124319",
+  "assets": [
+    {
+      "path": "dist/bashar-ra/app.js",
+      "http_status": 200,
+      "bytes": 79387,
+      "sha256": "6ac547b6d9c8eaefb19db690176b32f0397822ba85137370c5529269d412878b"
+    },
+    {
+      "path": "dist/bashar-ra/collection.json",
+      "http_status": 200,
+      "bytes": 72634,
+      "sha256": "04150648f0ddfe81df062391c9c92edf1901d098467a7546a5f5f1bf78b97316"
+    },
+    {
+      "path": "dist/bashar-ra/data.json",
+      "http_status": 200,
+      "bytes": 5520404,
+      "sha256": "e9e88095a5264ff588c52e9d9edb23bbffa57ca1e86b24b997057e08035aa476"
+    },
+    {
+      "path": "dist/bashar-ra/index.html",
+      "http_status": 200,
+      "bytes": 2987,
+      "sha256": "400e6eb7e3f1599f852ec8556246c84d551b5f72d6a0e4b87bf931ab70307b9c"
+    },
+    {
+      "path": "dist/bashar-ra/official-speech.json",
+      "http_status": 200,
+      "bytes": 6616234,
+      "sha256": "68e4c40a34fa0bd7efcea13a32ea501b0f7bfd55643935f01e2d8a7a68907b01"
+    },
+    {
+      "path": "dist/bashar-ra/reading.json",
+      "http_status": 200,
+      "bytes": 62688,
+      "sha256": "89bd1ea85ce90ecd1ccdaa9f083f7eef99e0ce4a3af1ce89904d9d51ff58ed85"
+    },
+    {
+      "path": "dist/bashar-ra/report/paper.pdf",
+      "http_status": 200,
+      "bytes": 652216,
+      "sha256": "e6c2e4639f4d1cf9eb7897be76899f7d66c6797a4efafc8b0beb3268a3f14f0f"
+    },
+    {
+      "path": "dist/bashar-ra/styles.css",
+      "http_status": 200,
+      "bytes": 18738,
+      "sha256": "21d8674a421de5890411d451964ec27e969b9e25051686194a5b565dd93079cd"
+    },
+    {
+      "path": "dist/channeling-network/acquisition.json",
+      "http_status": 200,
+      "bytes": 48358,
+      "sha256": "ef49f1ff30ccd1eaaabf00dbe3cb1e3914e68b749191ad056d3f06ac97bb5f20"
+    },
+    {
+      "path": "dist/channeling-network/analysis.json",
+      "http_status": 200,
+      "bytes": 431666,
+      "sha256": "34ac7bbeb61d83f8d782392008c39e252a335381b8b481c88258c1130e7a6722"
+    },
+    {
+      "path": "dist/channeling-network/app.js",
+      "http_status": 200,
+      "bytes": 44028,
+      "sha256": "758281baca11068e54e1adcf1135c8da5d4c13301bb26e1433f771dc19a2b539"
+    },
+    {
+      "path": "dist/channeling-network/claim-graph-statistics.json",
+      "http_status": 200,
+      "bytes": 48365,
+      "sha256": "a5964a58a09344c84f54ff750d1bf79775ea733f4bea7ac99ae39201e07a5af7"
+    },
+    {
+      "path": "dist/channeling-network/et-register.json",
+      "http_status": 200,
+      "bytes": 113626,
+      "sha256": "5ffb6af9912d25629aa0971ae40d5a0db3d9a6235237c3adee63ffea39217f69"
+    },
+    {
+      "path": "dist/channeling-network/index.html",
+      "http_status": 200,
+      "bytes": 2549,
+      "sha256": "ecf159da890a69218a9fc886ca76f81489ab416a965f333251a3056632b3f4e7"
+    },
+    {
+      "path": "dist/channeling-network/new-message-pilot.json",
+      "http_status": 200,
+      "bytes": 191057,
+      "sha256": "2fd5c74456ffe522f382d3ba800c128c8d8316abd2b8fd42e719877d0cc2d8b6"
+    },
+    {
+      "path": "dist/channeling-network/styles.css",
+      "http_status": 200,
+      "bytes": 12932,
+      "sha256": "3c7c702493667e880a2ddaa039bfc3e1767762e17fca98d50b6e761e7c223c2e"
+    },
+    {
+      "path": "dist/channeling-network/supplements.js",
+      "http_status": 200,
+      "bytes": 13862,
+      "sha256": "6a5ccae157f6f7f4e0373c98ed4a4d77062acc1e5ccf08ef20c039bf640fdbc0"
+    },
+    {
+      "path": "dist/channeling-network/traditions-register.json",
+      "http_status": 200,
+      "bytes": 170770,
+      "sha256": "b6dafe0a996e58c8c35fc106c0b759ce8c65eee3f54f48be6296b22983104d39"
+    },
+    {
+      "path": "dist/subscription-audit/acquisition.json",
+      "http_status": 200,
+      "bytes": 48358,
+      "sha256": "ef49f1ff30ccd1eaaabf00dbe3cb1e3914e68b749191ad056d3f06ac97bb5f20"
+    },
+    {
+      "path": "dist/subscription-audit/app.js",
+      "http_status": 200,
+      "bytes": 29039,
+      "sha256": "095bc9bf3d365db2ed1c96920502f37ccf613480a6c240143d66a858a0addac6"
+    },
+    {
+      "path": "dist/subscription-audit/data.json",
+      "http_status": 200,
+      "bytes": 319903,
+      "sha256": "206d3af9fbb9d792a89d97166f850d2c1b9a758ff696e769c5d73e2e82803594"
+    },
+    {
+      "path": "dist/subscription-audit/index.html",
+      "http_status": 200,
+      "bytes": 2861,
+      "sha256": "38a3e2809085ffbbac3c9214a3c6f95ce6ee345309ff5876650e0049b5f7a165"
+    },
+    {
+      "path": "dist/subscription-audit/publisher-inventory.js",
+      "http_status": 200,
+      "bytes": 6157,
+      "sha256": "71a843234a2a9226fa9061305b91b3f6c5dcb589d8189f9cae917314307f1ccb"
+    },
+    {
+      "path": "dist/subscription-audit/publisher-video-index.json",
+      "http_status": 200,
+      "bytes": 502637,
+      "sha256": "f61a77cfa5ccabde3514a355fa8df7e4e23e02b47f5c9811b520a70fdfcd3061"
+    },
+    {
+      "path": "dist/subscription-audit/publisher.js",
+      "http_status": 200,
+      "bytes": 16272,
+      "sha256": "b60404cca4123324446aa655dc9d9b8b29f3a0d0b25e5609e285a61453bd69b0"
+    },
+    {
+      "path": "dist/subscription-audit/source-topics.json",
+      "http_status": 200,
+      "bytes": 2267026,
+      "sha256": "6dceb3c3a48c16d69dc0e373e88aa4501563ea75a9f5dd64fd2a3176f446d145"
+    },
+    {
+      "path": "dist/subscription-audit/styles.css",
+      "http_status": 200,
+      "bytes": 3417,
+      "sha256": "97bd89f663a14e3e4b84056014ae343cb7b060d137f85ceabc5503afbd37e4ac"
+    }
+  ],
+  "scope": "Actual HTTPS Pages responses matched committed local public core assets; larger acquisition is ongoing."
+}

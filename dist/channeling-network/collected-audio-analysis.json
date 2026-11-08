@@ -1,0 +1,5052 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T14:48:32.775055+00:00",
+  "script_sha256": "f992237368845f11cefbaff0c475c8eae84ff29f9f86df0cdd7307cc824ad768",
+  "snapshot_bindings": [
+    {
+      "snapshot_file": "acquisition-snapshot.json",
+      "sha256": "9737cea4d7f25b22fab201da833cbbc7a98436f92c8808f38a3ea39a54d7d96e",
+      "bytes": 872443
+    },
+    {
+      "snapshot_file": "previous-caption-study.json",
+      "sha256": "6dceb3c3a48c16d69dc0e373e88aa4501563ea75a9f5dd64fd2a3176f446d145",
+      "bytes": 2267026
+    },
+    {
+      "snapshot_file": "asr-snapshot-1.json",
+      "sha256": "29a7f46cb84c05f61becb91330f8b34c5d4188104909feeac507e898fc5eb22c",
+      "bytes": 85091
+    }
+  ],
+  "scope": "Separate bounded snapshot of completed publisher audio with ASR and publisher-caption editions; never changes earlier292unit or20message fits. All-upload YouTube totals unknown.",
+  "coverage": {
+    "finite_publisher_frame": 229,
+    "collection_status_at_snapshot": "running",
+    "retained_audio_publications": 75,
+    "selected_text_units": 27,
+    "timestamp_display_repaired_units": 3,
+    "lexical_model_units": 27,
+    "words": 67424,
+    "groups": [
+      {
+        "id": "akanksshaa_publisher",
+        "label": "Multidimensional Soul episode context",
+        "retained_audio_publications": 20,
+        "selected_text_units": 3,
+        "new_local_asr_units": 3,
+        "previously_modeled_caption_units": 0,
+        "reused_caption_units": 0,
+        "words": 18790,
+        "audio_seconds": 52901.7733125,
+        "analyzed_text_audio_seconds": 7255.1706875
+      },
+      {
+        "id": "tr-medium-natalie-glasson",
+        "label": "Natalie / OmNa recording context",
+        "retained_audio_publications": 5,
+        "selected_text_units": 5,
+        "new_local_asr_units": 5,
+        "previously_modeled_caption_units": 0,
+        "reused_caption_units": 0,
+        "words": 5103,
+        "audio_seconds": 3585.6603125,
+        "analyzed_text_audio_seconds": 3585.6603125
+      },
+      {
+        "id": "tracy_kumbera_publisher",
+        "label": "Tracy publisher episode context",
+        "retained_audio_publications": 50,
+        "selected_text_units": 19,
+        "new_local_asr_units": 2,
+        "previously_modeled_caption_units": 17,
+        "reused_caption_units": 17,
+        "words": 43531,
+        "audio_seconds": 52749.921187500004,
+        "analyzed_text_audio_seconds": 18304.1211875
+      }
+    ],
+    "all_uploaded_youtube_videos": null,
+    "duration_policy": {
+      "non_bashar_min_seconds": 0,
+      "bashar_min_seconds": 300
+    }
+  },
+  "documents": [
+    {
+      "source_id": "publisher-rss:akanksshaa:rss:09262d220324d6a6:asr:tiny-en-v2",
+      "publication_id": "@akanksshaa:rss:09262d220324d6a6",
+      "group_id": "akanksshaa_publisher",
+      "group_label": "Multidimensional Soul episode context",
+      "source_url": "https://akanksshaa.podbean.com/e/psychic-paramedic-angels-loved-ones-are-waiting-when-we-die-sarah-k-grace/",
+      "title": "PSYCHIC Paramedic: ANGELS & LOVED ONES Are Waiting When We Die | Sarah K. Grace",
+      "publisher": "Multidimensional Soul",
+      "source_origin": "publisher_rss",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 6039,
+      "token_count": 5533,
+      "turns": 806,
+      "duration_seconds": 2425.939625,
+      "retained_audio_sha256": "371b69a287fb9cea046665fa900df6d7d3ead2f4555ffd4b9207067cc7830b44",
+      "text_artifact_sha256": "8aba4841c4852f5919044d13b0946882b399cb5e812c50c2ce185b86892372e0",
+      "text_content_sha256": "c828874ba5f46b0013797da157c0af155786b045525073bf88b115c52b6ff3d6",
+      "exact_original_family_id": "original-sha256:77c8f29709d35987279cecc8778ba6a578d49b9c89e22a07d5cdade625721e2a",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-10-06T14:32:59+05:00",
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": "2026-10-06T14:32:59+05:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+      "publication_id": "@akanksshaa:rss:61d6e1553fd2b6cd",
+      "group_id": "akanksshaa_publisher",
+      "group_label": "Multidimensional Soul episode context",
+      "source_url": "https://akanksshaa.podbean.com/e/shiva-took-her-to-parallel-realities-soul-contracts-healing-patterns-past-lives-natasha-rocha/",
+      "title": "Shiva Took Her to Parallel Realities | Soul Contracts, Healing Patterns & Past Lives | Natasha Rocha",
+      "publisher": "Multidimensional Soul",
+      "source_origin": "publisher_rss",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 5416,
+      "token_count": 4990,
+      "turns": 300,
+      "duration_seconds": 2087.758375,
+      "retained_audio_sha256": "f257598c5254bbe286d1aef2d3d14fa59d0f51673213091373b7a48b84280197",
+      "text_artifact_sha256": "581cfdae3a9f6bbd4f25adb9d20eb8d7569591e77d297f3a29ab71911b3bcb24",
+      "text_content_sha256": "3f46dd2b791169420bedc33c2f538cf7fb8a419fcaec88093a8814677a595fa3",
+      "exact_original_family_id": "original-sha256:41e610e14b168a7346c9fc39a03c7a1a3a4123c87a5227cd788236ea574ace77",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-10-08T19:23:30+05:00",
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": "terminal_end_display_repair_text_unchanged",
+      "timestamp_quality": {
+        "timestamp_policy": "terminal_end_clipped_to_decoded_duration",
+        "timestamp_anomaly_count": 1,
+        "timestamp_repaired_segment_count": 1,
+        "timestamp_maximum_adjustment_seconds": 1.4616249999999127,
+        "text_changed_by_repair": false,
+        "terminal_text_alignment_unverified": true,
+        "timestamp_repair": {
+          "raw_segment_index": 299,
+          "original_start_seconds": 2084.42,
+          "original_end_seconds": 2089.22,
+          "corrected_end_seconds": 2087.758375,
+          "max_allowed_overrun_seconds": 30,
+          "earlier_timestamps_unchanged": true,
+          "segment_order_unchanged": true,
+          "policy_scope": "Display interval restricted to existing audio; terminal recognition/alignment remains unverified."
+        }
+      },
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": "2026-10-08T19:23:30+05:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "publisher-rss:akanksshaa:rss:e1d8730b57f8eede:asr:tiny-en-v2",
+      "publication_id": "@akanksshaa:rss:e1d8730b57f8eede",
+      "group_id": "akanksshaa_publisher",
+      "group_label": "Multidimensional Soul episode context",
+      "source_url": "https://akanksshaa.podbean.com/e/she-saw-where-our-soul-blueprints-are-stored-restored-in-the-akashic-records-natasha-rocha/",
+      "title": "She Saw Where Our Soul Blueprints Are STORED & RESTORED in the Akashic Records | Natasha Rocha",
+      "publisher": "Multidimensional Soul",
+      "source_origin": "publisher_rss",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 7335,
+      "token_count": 6768,
+      "turns": 431,
+      "duration_seconds": 2741.4726875,
+      "retained_audio_sha256": "407d7190916d43e5b660d8c15b81ba0fd96a28cb42e2e184dbaa50b66049d96b",
+      "text_artifact_sha256": "3d7d4e2c9a1b946d1e86699848887837d718443b3b510af3711847a6fa6cfccf",
+      "text_content_sha256": "0da3e2ca5d79c7ab27cbb008a3a3f2aa256355e15c5007ffd873564233c59bb5",
+      "exact_original_family_id": "original-sha256:8966c10ad71fc07d4cfe6db295c37d5f10681dd24914c2150dc76c600f3f8972",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-10-06T14:51:04+05:00",
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": "terminal_end_display_repair_text_unchanged",
+      "timestamp_quality": {
+        "timestamp_policy": "terminal_end_clipped_to_decoded_duration",
+        "timestamp_anomaly_count": 1,
+        "timestamp_repaired_segment_count": 1,
+        "timestamp_maximum_adjustment_seconds": 7.167312499999753,
+        "text_changed_by_repair": false,
+        "terminal_text_alignment_unverified": true,
+        "timestamp_repair": {
+          "raw_segment_index": 430,
+          "original_start_seconds": 2740.16,
+          "original_end_seconds": 2748.64,
+          "corrected_end_seconds": 2741.4726875,
+          "max_allowed_overrun_seconds": 30,
+          "earlier_timestamps_unchanged": true,
+          "segment_order_unchanged": true,
+          "policy_scope": "Display interval restricted to existing audio; terminal recognition/alignment remains unverified."
+        }
+      },
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": "2026-10-06T14:51:04+05:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+      "publication_id": "@tracykumbera:rss:12fad61abc11efd1",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/April-2026-Energy-Update-Convergence--Emergence-e3h8lsc",
+      "title": "April 2026 Energy Update: Convergence & Emergence",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 2691,
+      "token_count": 2582,
+      "turns": 293,
+      "duration_seconds": 1197.13725,
+      "retained_audio_sha256": "42c854f10a0a7ea8e039d333767c6143e0931e1711fabdd491de600311c3caeb",
+      "text_artifact_sha256": "6d27b4709504f7d6c8ee6b924737809b46edf3ded89aadcc16ca68cd465d46d3",
+      "text_content_sha256": "348977644d47ee98e1f3553a122c53035f5173386f928f9fadd1897a9247492d",
+      "exact_original_family_id": "original-sha256:fc8700c5c06250b9f0a45cbe8062f9ed6a2392768816800b1f5defc1e7f5cd33",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-03-31T23:55:01+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+      "previous_study_model_unit_id": "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-03-31T23:55:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+      "publication_id": "@tracykumbera:rss:1373909d433f17eb",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/How-to-Stay-in-5D-When-the-3D-World-Is-Too-Much-e3gvt6q",
+      "title": "How to Stay in 5D When the 3D World Is Too Much",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 2720,
+      "token_count": 2600,
+      "turns": 287,
+      "duration_seconds": 1175.4875,
+      "retained_audio_sha256": "0b10650e10f444a2b5dc4ed10aa8e2d06ec7b23e3cd99ec3aafa6b44208837c9",
+      "text_artifact_sha256": "876f9f747b04157a9a02df9056702cf083f7e6036f7d810864a572c6b69d2f0f",
+      "text_content_sha256": "96b5e7453748a654f8a0ebfb23c396457c0c549d0e415642cf0685eddf079723",
+      "exact_original_family_id": "original-sha256:527eb25d7dc64e119e2276a66d126f21eae4920e3cc2ac6770b7df7ecfe8e75b",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-03-26T01:27:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+      "previous_study_model_unit_id": "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-03-26T01:27:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+      "publication_id": "@tracykumbera:rss:1b033b0b724c1e8a",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Free-Yourself-of-the-Addiction-to-3D-e3jrd29",
+      "title": "Free Yourself of the Addiction to 3D!",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1100,
+      "token_count": 1005,
+      "turns": 112,
+      "duration_seconds": 399.2304375,
+      "retained_audio_sha256": "a8802beee774d4ea34a17b9e837b58f253e9162904ed6a604faad68f858f7286",
+      "text_artifact_sha256": "3bbddecc6b5392772398ed5b177ba3fa1bc551635add906a34ca2c72ae18a168",
+      "text_content_sha256": "1b030c887ddef59c02703dd2260a57728144b5d2d04e1baa65534f2d756d0a72",
+      "exact_original_family_id": "original-sha256:cd49ceaf0c8d621e09f2c5c4267043ca25bf509b9c516c55e2b57bc6673ae76a",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-05-24T22:44:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+      "previous_study_model_unit_id": "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-05-24T22:44:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+      "publication_id": "@tracykumbera:rss:1ca17d79d08a3c98",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Solar-Elohim-Channeled-Message-For-Your-Ascension-e3fbdr4",
+      "title": "Solar Elohim Channeled Message For Your Ascension",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 859,
+      "token_count": 836,
+      "turns": 85,
+      "duration_seconds": 384.2160625,
+      "retained_audio_sha256": "62241ab40e318076b3803e8732ca60909271d30b280fe80c458ba1d02d4a8bd0",
+      "text_artifact_sha256": "65be4453fda6251ddfe8dab126b1dc6946086f089db5c29d450ce096bf1c8bbe",
+      "text_content_sha256": "264d3fccd1cc8feb57564e181b16ecfe12a270928a16c79e61865a59a3369e29",
+      "exact_original_family_id": "original-sha256:706e1e70607c7cb1c6efb8ee5c9217e7ca3dda53ed7a293ed284b75c9412ae65",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-02-20T02:27:01+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+      "previous_study_model_unit_id": "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-02-20T02:27:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+      "publication_id": "@tracykumbera:rss:42345a3f17d7b02d",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Etheric-Temples-of-Lemuria-Are-Activating-RIGHT-NOW-e3h1aso",
+      "title": "The Etheric Temples of Lemuria Are Activating RIGHT NOW!",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 5640,
+      "token_count": 5241,
+      "turns": 579,
+      "duration_seconds": 2174.89575,
+      "retained_audio_sha256": "a91e66152aa1ee4d298f45986b0d0398c9bb407ec0bb2e172c3dfeaf0f0f42e1",
+      "text_artifact_sha256": "42f5840bee10860b64d1cd66e22d1a906e75b8c6a1e16b06aaf7360d1696476b",
+      "text_content_sha256": "787d947e39b39c06d72548bdbecfbe8a5e7089f0bac0d7e1665934b9511d0923",
+      "exact_original_family_id": "original-sha256:a29272ab89176f2a7c8e07dfe9b65aae9e604873f334b38ef1364b95ea00ca48",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-03-28T23:35:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+      "previous_study_model_unit_id": "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-03-28T23:35:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+      "publication_id": "@tracykumbera:rss:4886c94945e88489",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Truth-About-Healing-Earth--Ascension--YOUR-Power-Orange-Dragons-of-Andromeda-e3fis7i",
+      "title": "The Truth About Healing Earth, Ascension & YOUR Power: Orange Dragons of Andromeda ",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1420,
+      "token_count": 1381,
+      "turns": 147,
+      "duration_seconds": 647.720875,
+      "retained_audio_sha256": "e9aeb6ffae1b794da8d585221d592827afbfce8af6668e633b24cfc6b6e8e669",
+      "text_artifact_sha256": "8c5eb2a6adb044f0946878291bf918a6fdfe3a4db7a93fed13c69018c72859f5",
+      "text_content_sha256": "0724957d0759d8c9d0e37e921a25c1579702795d2d1b620fc743fb19cd9ea8f7",
+      "exact_original_family_id": "original-sha256:3c42448672afcbd73a0b78e7cf58232b7f6ed1a50bf33f32464394e1d64c18ef",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-02-25T05:10:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+      "previous_study_model_unit_id": "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-02-25T05:10:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+      "publication_id": "@tracykumbera:rss:531d5154276a6e28",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Why-Youre-So-Exhausted-Right-Now-The-Great-Drain--The-Void--The-Rise-of-the-Divine-Feminine-e3i5bii",
+      "title": "Why You're So Exhausted Right Now: The Great Drain, The Void & The Rise of the Divine Feminine",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 3393,
+      "token_count": 3183,
+      "turns": 369,
+      "duration_seconds": 1363.7800625,
+      "retained_audio_sha256": "ca337a1e3437eb864701806ae51abfb18ddb50f1e60418da086c7eca8339587b",
+      "text_artifact_sha256": "d67f637ea4398165c1980a11bfeb2cfc091bf8f8f054551321dd34158138316e",
+      "text_content_sha256": "00e620f085546eeedc76b05b3d74411a720fd66848c1bd8c5549f3f53e8019ab",
+      "exact_original_family_id": "original-sha256:045b7c07baa12c94e837674053a5dd57f77407c818038327d18fed466ece6c55",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-04-20T01:57:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+      "previous_study_model_unit_id": "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-04-20T01:57:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+      "publication_id": "@tracykumbera:rss:55dc2b7edab7a1a9",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/May-2026-Energy-Update-From-Intense-Clearing-To-Creating-Finally-e3ip5r9",
+      "title": "May 2026 Energy Update: From Intense Clearing To Creating (Finally!)",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 3248,
+      "token_count": 3058,
+      "turns": 343,
+      "duration_seconds": 1211.4779375,
+      "retained_audio_sha256": "fca67bb41ea65b7b98ce3971303c53ccc4f29b7082cea5366fe80943239462b7",
+      "text_artifact_sha256": "f29fd40135f267ae14c57a402cb7c82c3b5f9901bc93159e9c465eb8cc5f671d",
+      "text_content_sha256": "26aa7566e9e7afaab416640b009a2c37b5f41a1f9bb9fa2fe99b3bec2e4bd1b4",
+      "exact_original_family_id": "original-sha256:98a2534f44024e70c34ac174ed30762b1e93664146311135b5ba09766870516d",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-05-02T02:18:01+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+      "previous_study_model_unit_id": "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-05-02T02:18:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+      "publication_id": "@tracykumbera:rss:81d79c29320e0988",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/You-Have-a-Partner-DRAGON---Heres-How-to-Meet-Them-Tonight-e3eom6v",
+      "title": "You Have a Partner DRAGON - Here's How to Meet Them Tonight",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1613,
+      "token_count": 1539,
+      "turns": 166,
+      "duration_seconds": 725.696375,
+      "retained_audio_sha256": "aeaa584fe9016ef2b6f1b8cd5a1e9e2da01e6e4e561758a833ddcdfbeb94157e",
+      "text_artifact_sha256": "a9716064722e3a544a0b0f7795c1cdccdaa4456fc4ee44b3876898fb8d9bf216",
+      "text_content_sha256": "e2732678356cb270d8d66c9fc428f5af2accb35313f7ef1d195657a1c097e4c3",
+      "exact_original_family_id": "original-sha256:4d240c74eac2472c33fe224a3e4d3c6661bd4d65d4cc3deead6c51f643ae9b41",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-02-07T04:29:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+      "previous_study_model_unit_id": "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-02-07T04:29:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+      "publication_id": "@tracykumbera:rss:8be4d529e0cb2d6e",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Alcyone--The-Great-Central-Sun-On-Solar-Light-Codes--Disclosure--Your-Galactic-Ascension-e3gdba4",
+      "title": "Alcyone, The Great Central Sun On Solar Light Codes, Disclosure & Your Galactic Ascension",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1514,
+      "token_count": 1443,
+      "turns": 157,
+      "duration_seconds": 712.4555,
+      "retained_audio_sha256": "312641756f7791c3fe5d627c3889b02f2eabdae3bdc969d8f97373372acb7abb",
+      "text_artifact_sha256": "5b5475ed7cd167a34a057c73e3bcdce4a9a6480b37d8ca3e87cd5a11881b0b91",
+      "text_content_sha256": "5691cea397859346ebae9a0d02deb9315d585ac51cce5ee847ae540546f3de45",
+      "exact_original_family_id": "original-sha256:e10e8f496ec81bbcb5d4fe56b0c3dd13ed8c5a48df258fba5864a6cfacfc8275",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-03-13T21:13:01+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+      "previous_study_model_unit_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-03-13T21:13:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "publisher-rss:tracykumbera:rss:8cd51c72bb88a354:asr:tiny-en-v2",
+      "publication_id": "@tracykumbera:rss:8cd51c72bb88a354",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Archangel-Cocoon-Activation-for-Intense-Times-e3rc7c7",
+      "title": "Archangel Cocoon Activation for Intense Times",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1637,
+      "token_count": 1553,
+      "turns": 94,
+      "duration_seconds": 752.3555625,
+      "retained_audio_sha256": "c3b147f2892b7ca5c31d50f95ac8b94d756f7d40f19ca228605c6b7eeefd5f3b",
+      "text_artifact_sha256": "e4c0f7b93ed04922c80172568a593a254cad624ec3c5a9f23ffb042055d81a76",
+      "text_content_sha256": "67acd942ec6d153dbc5edd3887a08abdb03d942295c006485fc3d215cb1f5fc1",
+      "exact_original_family_id": "original-sha256:f2364467e827082a239fae2056b41407012a1a8fd8fdb257fda8a78bdb5955fe",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-10-29T20:12:00+00:00",
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": "2026-10-29T20:12:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "publisher-rss:tracykumbera:rss:993981f9f0ef856e:asr:tiny-en-v2",
+      "publication_id": "@tracykumbera:rss:993981f9f0ef856e",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/November-2026-Ascension-Update-e3rkcjp",
+      "title": "November 2026 Ascension Update",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 2221,
+      "token_count": 2141,
+      "turns": 295,
+      "duration_seconds": 1002.8253125,
+      "retained_audio_sha256": "c593876842702d188a5fac2b43f7469e8411d33f3acd6daba5862fc78f549017",
+      "text_artifact_sha256": "8c19f7314564ab07e07c34cf9126aac377e17e7daddb8e6438ae6b96d9fe4156",
+      "text_content_sha256": "591b6677e8b33c99de243d4e485f703b72fa4f18bee496627f8a4001b63a2ac9",
+      "exact_original_family_id": "original-sha256:ce43dea3ed1cbaa793da4f4dad6b9909189ba9ce680f0703bb0e5859a59492ea",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-11-02T22:33:01+00:00",
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": "2026-11-02T22:33:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+      "publication_id": "@tracykumbera:rss:a22b19a2c1e88780",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Mary-Magdalene--Pleiadian-Priestesses-PROFOUND-Lunar-Eclipse-Guidance-e3fljqf",
+      "title": "Mary Magdalene & Pleiadian Priestesses PROFOUND Lunar Eclipse Guidance",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1937,
+      "token_count": 1843,
+      "turns": 204,
+      "duration_seconds": 961.036625,
+      "retained_audio_sha256": "af36dfc9d36906c246493042015b642b9d0de1de1728fb0045f0a3b8f60d9d42",
+      "text_artifact_sha256": "8da62ff2523dd8861f21014772668ae34f7be6c236433fd89be603e671054050",
+      "text_content_sha256": "3c7187b26bf3c38f430ff6b59048cc8129e0cf38cad966e4c7f06d1c7ca52ae3",
+      "exact_original_family_id": "original-sha256:0345e62159cdc3d2aef03d6e458faadad111b5b1d99b4b1fb9198948e212ed77",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-02-26T20:51:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+      "previous_study_model_unit_id": "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-02-26T20:51:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+      "publication_id": "@tracykumbera:rss:b800ff4486d3dd6a",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/March-Is-Your-Turning-Point--Heres-Whats-Coming--How-to-Survive-It-e3fph12",
+      "title": "March Is Your Turning Point — Here's What's Coming & How to Survive It",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 2910,
+      "token_count": 2733,
+      "turns": 307,
+      "duration_seconds": 1162.1123125,
+      "retained_audio_sha256": "de8f04c548fcb7e77fa3bba91b10816e66a85fd2d39f0eab4952bef727410afc",
+      "text_artifact_sha256": "eec8fa48b86e7f074445c436dd50f35122e4770b22faa5e79587dbfb025fcdf5",
+      "text_content_sha256": "c4c20ecaeb14978561916dc03b8193d61005fe9138d9ff0f3ee775afa2c7784f",
+      "exact_original_family_id": "original-sha256:a1eb877194d62e8769cdb40f0480fec96233ae8692eb787a374f480b0f9fe758",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-03-01T17:44:01+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+      "previous_study_model_unit_id": "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-03-01T17:44:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+      "publication_id": "@tracykumbera:rss:c18b9380cb253ed7",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Corridor-of-Change-Cocooning--New-Realities--Why-You-Feel-So-Exhausted-Right-Now-e3g3hpo",
+      "title": "The Corridor of Change: Cocooning, New Realities & Why You Feel So Exhausted Right Now",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 2570,
+      "token_count": 2429,
+      "turns": 278,
+      "duration_seconds": 1069.7006875,
+      "retained_audio_sha256": "7cba627b104d6b2f97bfe43043c98a551a0739efd0fcae4a039fa7b5e3df5de4",
+      "text_artifact_sha256": "0d94035d757f31d47d49f3d21943bfc62f28a41cb18351945f42bd9a07380594",
+      "text_content_sha256": "e8f50829c48e6bc887795bb601e2dfa2a60c5dcb14be5f38b081eeba18a7466f",
+      "exact_original_family_id": "original-sha256:6e77c0340936ce410edd7078b62cbeb179a3316badbb04ec2d72dc58a59f3a56",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-03-08T00:27:01+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+      "previous_study_model_unit_id": "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-03-08T00:27:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+      "publication_id": "@tracykumbera:rss:c7fe44e6afc1141d",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Lyran-Golden-Dragons-Channeled-Message-For-Your-Ascension-e3fev7l",
+      "title": "Lyran Golden Dragons Channeled Message For Your Ascension",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 734,
+      "token_count": 695,
+      "turns": 76,
+      "duration_seconds": 327.4965,
+      "retained_audio_sha256": "4c7596420519bb4ca4f85fdda5d75f7e61ce88536e2316ff871197d272c315b1",
+      "text_artifact_sha256": "7e1684b25240129ed6d6050d69361e048fe96dd750d33f6f4037dc4cc406c58e",
+      "text_content_sha256": "d04936bde567347e42969c9648e9a86163a7e87b938f1c53b6ba648ac6923ef3",
+      "exact_original_family_id": "original-sha256:7c39b9bfc4c8081fd5ca8b1e9508db9ac9fb6679d0db9323281a069b7ce6932b",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-02-23T02:37:01+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+      "previous_study_model_unit_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-02-23T02:37:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+      "publication_id": "@tracykumbera:rss:cc8c1aa5c865e46e",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Blue--Red-Dragons-Channeled-Activation-Burn-Away-Your-Limits--Step-Into-Divine-Power-e3epbvm",
+      "title": "Blue & Red Dragons Channeled Activation: Burn Away Your Limits & Step Into Divine Power ",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1673,
+      "token_count": 1618,
+      "turns": 173,
+      "duration_seconds": 790.1711875,
+      "retained_audio_sha256": "3c470a39fa235c7df62101d3befd0fe55a2e629a9a5b369efcf2de2a47583169",
+      "text_artifact_sha256": "4e4c7ffc81446d7a378f2d8ea169039626c526aee5418d612ff523bd3a55c92e",
+      "text_content_sha256": "ccbced06cbc41575fbfc918a6d6729af6c331bf70efeef49adf774192e314b4f",
+      "exact_original_family_id": "original-sha256:deb68e223cce08c2d94034518cc0184bc17ce5c27dbcb0e2f9ac30f9347d61db",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-02-13T19:00:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+      "previous_study_model_unit_id": "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-02-13T19:00:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+      "publication_id": "@tracykumbera:rss:f55024c9c3bbfe48",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Navigating-Uncertainty-During-Massive-Change-e3etmqu",
+      "title": "Navigating Uncertainty During Massive Change",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 2640,
+      "token_count": 2505,
+      "turns": 284,
+      "duration_seconds": 1085.857375,
+      "retained_audio_sha256": "e7787caf06261d04e2562276178601124c08bb9a94e2493db042f900cefc855f",
+      "text_artifact_sha256": "cb96f770c3311c9d55145b7279566086307f48fc9fd66aa63b03d97a2a26c41f",
+      "text_content_sha256": "f6d6b7a4b0f3c383991fe7c74c411e09ceecbec3428bd85e30c43a5813a27da3",
+      "exact_original_family_id": "original-sha256:a075291f0b5785c7d24ef5ff1a286c505b575fc045e40b7391d41c7f15a62861",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-02-10T20:33:01+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+      "previous_study_model_unit_id": "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-02-10T20:33:01+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+      "publication_id": "@tracykumbera:rss:f5b11aa307f3f560",
+      "group_id": "tracy_kumbera_publisher",
+      "group_label": "Tracy publisher episode context",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/You-Are-At-A-ChoicePoint-You-CANNOT-Ignore-e3jemf6",
+      "title": "You Are At A ChoicePoint You CANNOT Ignore!",
+      "publisher": "Your MultiDimensional Journey with Tracy Kumbera",
+      "source_origin": "publisher_rss",
+      "text_origin": "linked_publisher_caption",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 3011,
+      "token_count": 2847,
+      "turns": 321,
+      "duration_seconds": 1160.467875,
+      "retained_audio_sha256": "362991fb0a8454055c9353ce153f457a19ec07a63b5b30cc3f7ea417ba6586a4",
+      "text_artifact_sha256": "d80c8cd0bc385bb3537f3b5f903883791dc1df30e4c75e797d2df42ab869a96c",
+      "text_content_sha256": "0f7f63178ce4e075519c68604c302f7e4044fd9ad0268ca61fa58da05dc108f5",
+      "exact_original_family_id": "original-sha256:59a130bb7dde22a6afa320d764fff889396387644a44126d9b4b19744ccfbf29",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": "2026-05-16T05:11:00+00:00",
+      "in_existing_frozen_models": true,
+      "same_source_old_written_pilot_possible": false,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+      "previous_study_model_unit_id": "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+      "prior_model_overlap": "Exact normalized-text hash matched accepted Tracy/Magenta Run01; reused text, not a new unique cross-study observation.",
+      "new_text_status": "reused_previously_acquired_publisher_caption_now_linked_to_retained_audio",
+      "publication_date_raw": "2026-05-16T05:11:00+00:00",
+      "date_status": "publisher_metadata_unverified"
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-magdalene",
+      "group_id": "tr-medium-natalie-glasson",
+      "group_label": "Natalie / OmNa recording context",
+      "source_url": "https://omna.org/grace-embrace-initiation-by-mary-magdalene/",
+      "title": "Grace Embrace Initiation by Mary Magdalene",
+      "publisher": "OmNa",
+      "source_origin": "publisher_download_page",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1106,
+      "token_count": 1097,
+      "turns": 104,
+      "duration_seconds": 778.4141875,
+      "retained_audio_sha256": "43d605c08b0b7c64aba9b04d811e996a2dc38cc828c819a56d9a390ce5405d57",
+      "text_artifact_sha256": "3c72b2ad5d672375894b0a825f44cb9ed5354cbc9acd10cf62300ea82979a316",
+      "text_content_sha256": "9128c72bc3cc84cc8e35f794722263b74caa6c3413060f3b8c8bd9f8c0db9643",
+      "exact_original_family_id": "original-sha256:24b72f73e89d8ae05d25e3e17bbf62a6e526d90c9fd7ad58829ee0dc399726b2",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": null,
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": true,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": null,
+      "date_status": "unknown"
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-mary",
+      "group_id": "tr-medium-natalie-glasson",
+      "group_label": "Natalie / OmNa recording context",
+      "source_url": "https://omna.org/do-you-trust-the-universe-by-mother-mary/",
+      "title": "Do You Trust The Universe? by Mother Mary",
+      "publisher": "OmNa",
+      "source_origin": "publisher_download_page",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 869,
+      "token_count": 844,
+      "turns": 57,
+      "duration_seconds": 589.5546875,
+      "retained_audio_sha256": "37b86ba8cae58e7594eb44653e7fabfb4d2830e049784c4a1939360c01356de2",
+      "text_artifact_sha256": "64e3b361e000fdf34605c5942f0b05ee8489786870469ffcf8c353cf7a5ef41f",
+      "text_content_sha256": "8906e3fec14bd40a2e7cfdd4e0ee1e2bbd06e4438ac329d6ab90d86a8eefe5bb",
+      "exact_original_family_id": "original-sha256:8acd0decfaee477077b55cd06824f74d82d2cad8954362396e6ab8c19067aaa9",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": null,
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": true,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": null,
+      "date_status": "unknown"
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-metatron",
+      "group_id": "tr-medium-natalie-glasson",
+      "group_label": "Natalie / OmNa recording context",
+      "source_url": "https://omna.org/angelic-enlightenment-by-archangel-metatron/",
+      "title": "Angelic Enlightenment by Archangel Metatron",
+      "publisher": "OmNa",
+      "source_origin": "publisher_download_page",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 839,
+      "token_count": 831,
+      "turns": 51,
+      "duration_seconds": 619.7521875,
+      "retained_audio_sha256": "6a7059b2dd8b19f13f66959f6b0f1a1103e63de9569472fd3b36d1c3f6ceb9e9",
+      "text_artifact_sha256": "70569189113c1673a368bfee1c3a8145338895ecc6b3a4c96f2cf8e0fead486f",
+      "text_content_sha256": "9782902e4d267c766b9bb233781556d54a2af124e010b14761fcd941d1a75fcd",
+      "exact_original_family_id": "original-sha256:a81e9fcd2dd04394d4084fd4eaea75a398b7224c6f695d41fada71fb54b55bb8",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": null,
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": true,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": null,
+      "date_status": "unknown"
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-michael",
+      "group_id": "tr-medium-natalie-glasson",
+      "group_label": "Natalie / OmNa recording context",
+      "source_url": "https://omna.org/everything-is-changing-by-archangel-michael/",
+      "title": "Everything Is Changing by Archangel Michael",
+      "publisher": "OmNa",
+      "source_origin": "publisher_download_page",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 852,
+      "token_count": 827,
+      "turns": 71,
+      "duration_seconds": 685.139625,
+      "retained_audio_sha256": "a60f913bd8b920f6491b155d82d360d5175fbf132dd440be13da63a67950c09b",
+      "text_artifact_sha256": "1aea3ed381123c4587196bb8a458f6ae637b409b8ac4dea1d63445cca165bb25",
+      "text_content_sha256": "8bbafb2f631f697b0311e344516e123dbf769af8e99591e84d48ce23f2c5718a",
+      "exact_original_family_id": "original-sha256:bb1365a721082866239c71ca1889ca04cf2e8f0106a4d45c5b22e5f348651bba",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": null,
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": true,
+      "timestamp_normalization": null,
+      "timestamp_quality": null,
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": null,
+      "date_status": "unknown"
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-quanyin",
+      "group_id": "tr-medium-natalie-glasson",
+      "group_label": "Natalie / OmNa recording context",
+      "source_url": "https://omna.org/inner-order-by-lady-quan-yin/",
+      "title": "Inner Order by Lady Quan Yin",
+      "publisher": "OmNa",
+      "source_origin": "publisher_download_page",
+      "text_origin": "local_asr",
+      "source_role": "unknown_speakers_recording_context_only",
+      "claimed_entity_attribution": null,
+      "words": 1437,
+      "token_count": 1393,
+      "turns": 83,
+      "duration_seconds": 912.799625,
+      "retained_audio_sha256": "9c153da72b073006848339b3be51569da3312bdc0ddef48368e79892202e25be",
+      "text_artifact_sha256": "fead1b8e148df8b3f3e430d05837d77aa853683397eea9c77fc4d82beb2d33d7",
+      "text_content_sha256": "e7f649ed4cf82c38b28e4021721f0058e265d0edb313ca6726e5897f175760ed",
+      "exact_original_family_id": "original-sha256:81ff03e6bbcd5c2a5b44afe8ac8616db2454d4642841aaf6284f200842928f01",
+      "language": "en",
+      "human_accuracy_verified": false,
+      "audio_text_alignment_verified": false,
+      "publication_date": null,
+      "in_existing_frozen_models": false,
+      "same_source_old_written_pilot_possible": true,
+      "timestamp_normalization": "terminal_end_display_repair_text_unchanged",
+      "timestamp_quality": {
+        "timestamp_policy": "terminal_end_clipped_to_decoded_duration",
+        "timestamp_anomaly_count": 1,
+        "timestamp_repaired_segment_count": 1,
+        "timestamp_maximum_adjustment_seconds": 7.460374999999999,
+        "text_changed_by_repair": false,
+        "terminal_text_alignment_unverified": true,
+        "timestamp_repair": {
+          "raw_segment_index": 82,
+          "original_start_seconds": 904.14,
+          "original_end_seconds": 920.26,
+          "corrected_end_seconds": 912.799625,
+          "max_allowed_overrun_seconds": 30,
+          "earlier_timestamps_unchanged": true,
+          "segment_order_unchanged": true,
+          "policy_scope": "Display interval restricted to existing audio; terminal recognition/alignment remains unverified."
+        }
+      },
+      "previous_study_source_id": null,
+      "previous_study_model_unit_id": null,
+      "prior_model_overlap": "No exact admitted caption-edition match to previous Tracy/Magenta Run01.",
+      "new_text_status": "new_local_recognition_edition",
+      "publication_date_raw": null,
+      "date_status": "unknown"
+    }
+  ],
+  "excluded_and_aliases": [],
+  "keywords": [
+    {
+      "source_id": "publisher-rss:akanksshaa:rss:09262d220324d6a6:asr:tiny-en-v2",
+      "group_id": "akanksshaa_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 11,
+          "per_1000_tokens": 1.8184823937840966
+        },
+        "agency_free_will": {
+          "mentions": 31,
+          "per_1000_tokens": 5.124814018846091
+        },
+        "ethics_polarity": {
+          "mentions": 5,
+          "per_1000_tokens": 0.8265829062654985
+        },
+        "fear": {
+          "mentions": 10,
+          "per_1000_tokens": 1.653165812530997
+        },
+        "practices": {
+          "mentions": 3,
+          "per_1000_tokens": 0.49594974375929907
+        },
+        "time_probability": {
+          "mentions": 34,
+          "per_1000_tokens": 5.62076376260539
+        },
+        "contact": {
+          "mentions": 3,
+          "per_1000_tokens": 0.49594974375929907
+        },
+        "healing_body": {
+          "mentions": 45,
+          "per_1000_tokens": 7.439246156389486
+        },
+        "knowing_uncertainty": {
+          "mentions": 47,
+          "per_1000_tokens": 7.769879318895685
+        },
+        "relationships": {
+          "mentions": 18,
+          "per_1000_tokens": 2.9756984625557945
+        }
+      }
+    },
+    {
+      "source_id": "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+      "group_id": "akanksshaa_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 14,
+          "per_1000_tokens": 2.5792188651436994
+        },
+        "agency_free_will": {
+          "mentions": 33,
+          "per_1000_tokens": 6.079587324981577
+        },
+        "ethics_polarity": {
+          "mentions": 4,
+          "per_1000_tokens": 0.7369196757553427
+        },
+        "fear": {
+          "mentions": 1,
+          "per_1000_tokens": 0.18422991893883567
+        },
+        "practices": {
+          "mentions": 8,
+          "per_1000_tokens": 1.4738393515106853
+        },
+        "time_probability": {
+          "mentions": 39,
+          "per_1000_tokens": 7.184966838614591
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 22,
+          "per_1000_tokens": 4.053058216654384
+        },
+        "knowing_uncertainty": {
+          "mentions": 75,
+          "per_1000_tokens": 13.817243920412675
+        },
+        "relationships": {
+          "mentions": 23,
+          "per_1000_tokens": 4.237288135593221
+        }
+      }
+    },
+    {
+      "source_id": "publisher-rss:akanksshaa:rss:e1d8730b57f8eede:asr:tiny-en-v2",
+      "group_id": "akanksshaa_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 21,
+          "per_1000_tokens": 2.8645478106670303
+        },
+        "agency_free_will": {
+          "mentions": 13,
+          "per_1000_tokens": 1.773291501841495
+        },
+        "ethics_polarity": {
+          "mentions": 5,
+          "per_1000_tokens": 0.6820351930159596
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 15,
+          "per_1000_tokens": 2.046105579047879
+        },
+        "time_probability": {
+          "mentions": 64,
+          "per_1000_tokens": 8.730050470604283
+        },
+        "contact": {
+          "mentions": 1,
+          "per_1000_tokens": 0.13640703860319192
+        },
+        "healing_body": {
+          "mentions": 43,
+          "per_1000_tokens": 5.865502659937253
+        },
+        "knowing_uncertainty": {
+          "mentions": 82,
+          "per_1000_tokens": 11.185377165461738
+        },
+        "relationships": {
+          "mentions": 14,
+          "per_1000_tokens": 1.909698540444687
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 8,
+          "per_1000_tokens": 2.9806259314456036
+        },
+        "agency_free_will": {
+          "mentions": 4,
+          "per_1000_tokens": 1.4903129657228018
+        },
+        "ethics_polarity": {
+          "mentions": 12,
+          "per_1000_tokens": 4.470938897168406
+        },
+        "fear": {
+          "mentions": 12,
+          "per_1000_tokens": 4.470938897168406
+        },
+        "practices": {
+          "mentions": 1,
+          "per_1000_tokens": 0.37257824143070045
+        },
+        "time_probability": {
+          "mentions": 12,
+          "per_1000_tokens": 4.470938897168406
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 25,
+          "per_1000_tokens": 9.314456035767511
+        },
+        "knowing_uncertainty": {
+          "mentions": 9,
+          "per_1000_tokens": 3.3532041728763042
+        },
+        "relationships": {
+          "mentions": 5,
+          "per_1000_tokens": 1.8628912071535022
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 12,
+          "per_1000_tokens": 4.419889502762431
+        },
+        "agency_free_will": {
+          "mentions": 4,
+          "per_1000_tokens": 1.4732965009208103
+        },
+        "ethics_polarity": {
+          "mentions": 7,
+          "per_1000_tokens": 2.578268876611418
+        },
+        "fear": {
+          "mentions": 10,
+          "per_1000_tokens": 3.6832412523020257
+        },
+        "practices": {
+          "mentions": 7,
+          "per_1000_tokens": 2.578268876611418
+        },
+        "time_probability": {
+          "mentions": 7,
+          "per_1000_tokens": 2.578268876611418
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 25,
+          "per_1000_tokens": 9.208103130755065
+        },
+        "knowing_uncertainty": {
+          "mentions": 6,
+          "per_1000_tokens": 2.2099447513812156
+        },
+        "relationships": {
+          "mentions": 11,
+          "per_1000_tokens": 4.051565377532229
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 1,
+          "per_1000_tokens": 0.91324200913242
+        },
+        "agency_free_will": {
+          "mentions": 6,
+          "per_1000_tokens": 5.47945205479452
+        },
+        "ethics_polarity": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 1,
+          "per_1000_tokens": 0.91324200913242
+        },
+        "time_probability": {
+          "mentions": 9,
+          "per_1000_tokens": 8.219178082191782
+        },
+        "contact": {
+          "mentions": 1,
+          "per_1000_tokens": 0.91324200913242
+        },
+        "healing_body": {
+          "mentions": 3,
+          "per_1000_tokens": 2.73972602739726
+        },
+        "knowing_uncertainty": {
+          "mentions": 10,
+          "per_1000_tokens": 9.132420091324201
+        },
+        "relationships": {
+          "mentions": 1,
+          "per_1000_tokens": 0.91324200913242
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 5,
+          "per_1000_tokens": 5.827505827505828
+        },
+        "agency_free_will": {
+          "mentions": 12,
+          "per_1000_tokens": 13.986013986013987
+        },
+        "ethics_polarity": {
+          "mentions": 2,
+          "per_1000_tokens": 2.331002331002331
+        },
+        "fear": {
+          "mentions": 3,
+          "per_1000_tokens": 3.4965034965034967
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 4,
+          "per_1000_tokens": 4.662004662004662
+        },
+        "contact": {
+          "mentions": 3,
+          "per_1000_tokens": 3.4965034965034967
+        },
+        "healing_body": {
+          "mentions": 1,
+          "per_1000_tokens": 1.1655011655011656
+        },
+        "knowing_uncertainty": {
+          "mentions": 4,
+          "per_1000_tokens": 4.662004662004662
+        },
+        "relationships": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 8,
+          "per_1000_tokens": 1.4212115828744005
+        },
+        "agency_free_will": {
+          "mentions": 28,
+          "per_1000_tokens": 4.974240540060402
+        },
+        "ethics_polarity": {
+          "mentions": 10,
+          "per_1000_tokens": 1.7765144785930005
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 34,
+          "per_1000_tokens": 6.040149227216202
+        },
+        "contact": {
+          "mentions": 1,
+          "per_1000_tokens": 0.17765144785930007
+        },
+        "healing_body": {
+          "mentions": 47,
+          "per_1000_tokens": 8.349618049387102
+        },
+        "knowing_uncertainty": {
+          "mentions": 28,
+          "per_1000_tokens": 4.974240540060402
+        },
+        "relationships": {
+          "mentions": 15,
+          "per_1000_tokens": 2.6647717178895007
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 12,
+          "per_1000_tokens": 8.450704225352112
+        },
+        "agency_free_will": {
+          "mentions": 16,
+          "per_1000_tokens": 11.267605633802816
+        },
+        "ethics_polarity": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 1,
+          "per_1000_tokens": 0.704225352112676
+        },
+        "time_probability": {
+          "mentions": 3,
+          "per_1000_tokens": 2.112676056338028
+        },
+        "contact": {
+          "mentions": 1,
+          "per_1000_tokens": 0.704225352112676
+        },
+        "healing_body": {
+          "mentions": 2,
+          "per_1000_tokens": 1.408450704225352
+        },
+        "knowing_uncertainty": {
+          "mentions": 7,
+          "per_1000_tokens": 4.929577464788732
+        },
+        "relationships": {
+          "mentions": 1,
+          "per_1000_tokens": 0.704225352112676
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 4,
+          "per_1000_tokens": 1.1855364552459988
+        },
+        "agency_free_will": {
+          "mentions": 5,
+          "per_1000_tokens": 1.4819205690574986
+        },
+        "ethics_polarity": {
+          "mentions": 3,
+          "per_1000_tokens": 0.8891523414344991
+        },
+        "fear": {
+          "mentions": 9,
+          "per_1000_tokens": 2.667457024303497
+        },
+        "practices": {
+          "mentions": 8,
+          "per_1000_tokens": 2.3710729104919976
+        },
+        "time_probability": {
+          "mentions": 16,
+          "per_1000_tokens": 4.742145820983995
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 39,
+          "per_1000_tokens": 11.558980438648488
+        },
+        "knowing_uncertainty": {
+          "mentions": 15,
+          "per_1000_tokens": 4.445761707172496
+        },
+        "relationships": {
+          "mentions": 17,
+          "per_1000_tokens": 5.038529934795495
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 5,
+          "per_1000_tokens": 1.5441630636195183
+        },
+        "agency_free_will": {
+          "mentions": 13,
+          "per_1000_tokens": 4.014823965410748
+        },
+        "ethics_polarity": {
+          "mentions": 6,
+          "per_1000_tokens": 1.8529956763434219
+        },
+        "fear": {
+          "mentions": 1,
+          "per_1000_tokens": 0.30883261272390367
+        },
+        "practices": {
+          "mentions": 8,
+          "per_1000_tokens": 2.4706609017912293
+        },
+        "time_probability": {
+          "mentions": 12,
+          "per_1000_tokens": 3.7059913526868438
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 43,
+          "per_1000_tokens": 13.279802347127857
+        },
+        "knowing_uncertainty": {
+          "mentions": 12,
+          "per_1000_tokens": 3.7059913526868438
+        },
+        "relationships": {
+          "mentions": 2,
+          "per_1000_tokens": 0.6176652254478073
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 1,
+          "per_1000_tokens": 0.6203473945409429
+        },
+        "agency_free_will": {
+          "mentions": 12,
+          "per_1000_tokens": 7.444168734491315
+        },
+        "ethics_polarity": {
+          "mentions": 2,
+          "per_1000_tokens": 1.2406947890818858
+        },
+        "fear": {
+          "mentions": 2,
+          "per_1000_tokens": 1.2406947890818858
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 7,
+          "per_1000_tokens": 4.3424317617866
+        },
+        "contact": {
+          "mentions": 2,
+          "per_1000_tokens": 1.2406947890818858
+        },
+        "healing_body": {
+          "mentions": 5,
+          "per_1000_tokens": 3.101736972704715
+        },
+        "knowing_uncertainty": {
+          "mentions": 10,
+          "per_1000_tokens": 6.20347394540943
+        },
+        "relationships": {
+          "mentions": 20,
+          "per_1000_tokens": 12.40694789081886
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 12,
+          "per_1000_tokens": 7.926023778071334
+        },
+        "agency_free_will": {
+          "mentions": 14,
+          "per_1000_tokens": 9.247027741083222
+        },
+        "ethics_polarity": {
+          "mentions": 3,
+          "per_1000_tokens": 1.9815059445178336
+        },
+        "fear": {
+          "mentions": 2,
+          "per_1000_tokens": 1.321003963011889
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 8,
+          "per_1000_tokens": 5.284015852047556
+        },
+        "contact": {
+          "mentions": 6,
+          "per_1000_tokens": 3.963011889035667
+        },
+        "healing_body": {
+          "mentions": 4,
+          "per_1000_tokens": 2.642007926023778
+        },
+        "knowing_uncertainty": {
+          "mentions": 16,
+          "per_1000_tokens": 10.568031704095112
+        },
+        "relationships": {
+          "mentions": 2,
+          "per_1000_tokens": 1.321003963011889
+        }
+      }
+    },
+    {
+      "source_id": "publisher-rss:tracykumbera:rss:8cd51c72bb88a354:asr:tiny-en-v2",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 9,
+          "per_1000_tokens": 5.497861942577886
+        },
+        "agency_free_will": {
+          "mentions": 6,
+          "per_1000_tokens": 3.665241295051924
+        },
+        "ethics_polarity": {
+          "mentions": 3,
+          "per_1000_tokens": 1.832620647525962
+        },
+        "fear": {
+          "mentions": 12,
+          "per_1000_tokens": 7.330482590103848
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 7,
+          "per_1000_tokens": 4.276114844227245
+        },
+        "contact": {
+          "mentions": 3,
+          "per_1000_tokens": 1.832620647525962
+        },
+        "healing_body": {
+          "mentions": 12,
+          "per_1000_tokens": 7.330482590103848
+        },
+        "knowing_uncertainty": {
+          "mentions": 19,
+          "per_1000_tokens": 11.606597434331093
+        },
+        "relationships": {
+          "mentions": 17,
+          "per_1000_tokens": 10.384850335980452
+        }
+      }
+    },
+    {
+      "source_id": "publisher-rss:tracykumbera:rss:993981f9f0ef856e:asr:tiny-en-v2",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 15,
+          "per_1000_tokens": 6.738544474393531
+        },
+        "agency_free_will": {
+          "mentions": 33,
+          "per_1000_tokens": 14.824797843665769
+        },
+        "ethics_polarity": {
+          "mentions": 8,
+          "per_1000_tokens": 3.5938903863432166
+        },
+        "fear": {
+          "mentions": 3,
+          "per_1000_tokens": 1.3477088948787062
+        },
+        "practices": {
+          "mentions": 2,
+          "per_1000_tokens": 0.8984725965858041
+        },
+        "time_probability": {
+          "mentions": 20,
+          "per_1000_tokens": 8.984725965858042
+        },
+        "contact": {
+          "mentions": 2,
+          "per_1000_tokens": 0.8984725965858041
+        },
+        "healing_body": {
+          "mentions": 9,
+          "per_1000_tokens": 4.0431266846361185
+        },
+        "knowing_uncertainty": {
+          "mentions": 14,
+          "per_1000_tokens": 6.289308176100629
+        },
+        "relationships": {
+          "mentions": 5,
+          "per_1000_tokens": 2.2461814914645104
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 5,
+          "per_1000_tokens": 2.5826446280991737
+        },
+        "agency_free_will": {
+          "mentions": 11,
+          "per_1000_tokens": 5.681818181818182
+        },
+        "ethics_polarity": {
+          "mentions": 11,
+          "per_1000_tokens": 5.681818181818182
+        },
+        "fear": {
+          "mentions": 2,
+          "per_1000_tokens": 1.0330578512396693
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 2,
+          "per_1000_tokens": 1.0330578512396693
+        },
+        "contact": {
+          "mentions": 3,
+          "per_1000_tokens": 1.5495867768595042
+        },
+        "healing_body": {
+          "mentions": 16,
+          "per_1000_tokens": 8.264462809917354
+        },
+        "knowing_uncertainty": {
+          "mentions": 17,
+          "per_1000_tokens": 8.78099173553719
+        },
+        "relationships": {
+          "mentions": 17,
+          "per_1000_tokens": 8.78099173553719
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 15,
+          "per_1000_tokens": 5.15818431911967
+        },
+        "agency_free_will": {
+          "mentions": 12,
+          "per_1000_tokens": 4.126547455295736
+        },
+        "ethics_polarity": {
+          "mentions": 4,
+          "per_1000_tokens": 1.375515818431912
+        },
+        "fear": {
+          "mentions": 4,
+          "per_1000_tokens": 1.375515818431912
+        },
+        "practices": {
+          "mentions": 2,
+          "per_1000_tokens": 0.687757909215956
+        },
+        "time_probability": {
+          "mentions": 14,
+          "per_1000_tokens": 4.814305364511692
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 22,
+          "per_1000_tokens": 7.565337001375516
+        },
+        "knowing_uncertainty": {
+          "mentions": 17,
+          "per_1000_tokens": 5.845942228335626
+        },
+        "relationships": {
+          "mentions": 12,
+          "per_1000_tokens": 4.126547455295736
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 9,
+          "per_1000_tokens": 3.508771929824561
+        },
+        "agency_free_will": {
+          "mentions": 16,
+          "per_1000_tokens": 6.237816764132553
+        },
+        "ethics_polarity": {
+          "mentions": 8,
+          "per_1000_tokens": 3.1189083820662766
+        },
+        "fear": {
+          "mentions": 12,
+          "per_1000_tokens": 4.678362573099415
+        },
+        "practices": {
+          "mentions": 5,
+          "per_1000_tokens": 1.949317738791423
+        },
+        "time_probability": {
+          "mentions": 16,
+          "per_1000_tokens": 6.237816764132553
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 16,
+          "per_1000_tokens": 6.237816764132553
+        },
+        "knowing_uncertainty": {
+          "mentions": 15,
+          "per_1000_tokens": 5.847953216374269
+        },
+        "relationships": {
+          "mentions": 5,
+          "per_1000_tokens": 1.949317738791423
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 10,
+          "per_1000_tokens": 13.66120218579235
+        },
+        "agency_free_will": {
+          "mentions": 3,
+          "per_1000_tokens": 4.098360655737705
+        },
+        "ethics_polarity": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 5,
+          "per_1000_tokens": 6.830601092896175
+        },
+        "contact": {
+          "mentions": 3,
+          "per_1000_tokens": 4.098360655737705
+        },
+        "healing_body": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "knowing_uncertainty": {
+          "mentions": 6,
+          "per_1000_tokens": 8.19672131147541
+        },
+        "relationships": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 5,
+          "per_1000_tokens": 2.997601918465228
+        },
+        "agency_free_will": {
+          "mentions": 9,
+          "per_1000_tokens": 5.39568345323741
+        },
+        "ethics_polarity": {
+          "mentions": 5,
+          "per_1000_tokens": 2.997601918465228
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 2,
+          "per_1000_tokens": 1.1990407673860912
+        },
+        "time_probability": {
+          "mentions": 2,
+          "per_1000_tokens": 1.1990407673860912
+        },
+        "contact": {
+          "mentions": 1,
+          "per_1000_tokens": 0.5995203836930456
+        },
+        "healing_body": {
+          "mentions": 8,
+          "per_1000_tokens": 4.796163069544365
+        },
+        "knowing_uncertainty": {
+          "mentions": 12,
+          "per_1000_tokens": 7.194244604316546
+        },
+        "relationships": {
+          "mentions": 15,
+          "per_1000_tokens": 8.992805755395683
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 9,
+          "per_1000_tokens": 3.411675511751327
+        },
+        "agency_free_will": {
+          "mentions": 12,
+          "per_1000_tokens": 4.548900682335102
+        },
+        "ethics_polarity": {
+          "mentions": 4,
+          "per_1000_tokens": 1.5163002274450341
+        },
+        "fear": {
+          "mentions": 24,
+          "per_1000_tokens": 9.097801364670204
+        },
+        "practices": {
+          "mentions": 2,
+          "per_1000_tokens": 0.7581501137225171
+        },
+        "time_probability": {
+          "mentions": 15,
+          "per_1000_tokens": 5.686125852918878
+        },
+        "contact": {
+          "mentions": 1,
+          "per_1000_tokens": 0.37907505686125853
+        },
+        "healing_body": {
+          "mentions": 10,
+          "per_1000_tokens": 3.790750568612585
+        },
+        "knowing_uncertainty": {
+          "mentions": 11,
+          "per_1000_tokens": 4.169825625473844
+        },
+        "relationships": {
+          "mentions": 13,
+          "per_1000_tokens": 4.927975739196361
+        }
+      }
+    },
+    {
+      "source_id": "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+      "group_id": "tracy_kumbera_publisher",
+      "rates": {
+        "ontology": {
+          "mentions": 13,
+          "per_1000_tokens": 4.321808510638298
+        },
+        "agency_free_will": {
+          "mentions": 40,
+          "per_1000_tokens": 13.297872340425531
+        },
+        "ethics_polarity": {
+          "mentions": 2,
+          "per_1000_tokens": 0.6648936170212766
+        },
+        "fear": {
+          "mentions": 24,
+          "per_1000_tokens": 7.9787234042553195
+        },
+        "practices": {
+          "mentions": 1,
+          "per_1000_tokens": 0.3324468085106383
+        },
+        "time_probability": {
+          "mentions": 23,
+          "per_1000_tokens": 7.6462765957446805
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 13,
+          "per_1000_tokens": 4.321808510638298
+        },
+        "knowing_uncertainty": {
+          "mentions": 13,
+          "per_1000_tokens": 4.321808510638298
+        },
+        "relationships": {
+          "mentions": 9,
+          "per_1000_tokens": 2.992021276595745
+        }
+      }
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+      "group_id": "tr-medium-natalie-glasson",
+      "rates": {
+        "ontology": {
+          "mentions": 14,
+          "per_1000_tokens": 12.635379061371841
+        },
+        "agency_free_will": {
+          "mentions": 18,
+          "per_1000_tokens": 16.24548736462094
+        },
+        "ethics_polarity": {
+          "mentions": 4,
+          "per_1000_tokens": 3.6101083032490973
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 6,
+          "per_1000_tokens": 5.415162454873646
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 8,
+          "per_1000_tokens": 7.2202166064981945
+        },
+        "knowing_uncertainty": {
+          "mentions": 5,
+          "per_1000_tokens": 4.512635379061372
+        },
+        "relationships": {
+          "mentions": 5,
+          "per_1000_tokens": 4.512635379061372
+        }
+      }
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+      "group_id": "tr-medium-natalie-glasson",
+      "rates": {
+        "ontology": {
+          "mentions": 13,
+          "per_1000_tokens": 14.959723820483314
+        },
+        "agency_free_will": {
+          "mentions": 2,
+          "per_1000_tokens": 2.3014959723820483
+        },
+        "ethics_polarity": {
+          "mentions": 2,
+          "per_1000_tokens": 2.3014959723820483
+        },
+        "fear": {
+          "mentions": 16,
+          "per_1000_tokens": 18.411967779056386
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 2,
+          "per_1000_tokens": 2.3014959723820483
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 1,
+          "per_1000_tokens": 1.1507479861910241
+        },
+        "knowing_uncertainty": {
+          "mentions": 6,
+          "per_1000_tokens": 6.904487917146145
+        },
+        "relationships": {
+          "mentions": 19,
+          "per_1000_tokens": 21.86421173762946
+        }
+      }
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+      "group_id": "tr-medium-natalie-glasson",
+      "rates": {
+        "ontology": {
+          "mentions": 4,
+          "per_1000_tokens": 4.761904761904762
+        },
+        "agency_free_will": {
+          "mentions": 23,
+          "per_1000_tokens": 27.38095238095238
+        },
+        "ethics_polarity": {
+          "mentions": 2,
+          "per_1000_tokens": 2.380952380952381
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 1,
+          "per_1000_tokens": 1.1904761904761905
+        },
+        "time_probability": {
+          "mentions": 2,
+          "per_1000_tokens": 2.380952380952381
+        },
+        "contact": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "healing_body": {
+          "mentions": 5,
+          "per_1000_tokens": 5.9523809523809526
+        },
+        "knowing_uncertainty": {
+          "mentions": 1,
+          "per_1000_tokens": 1.1904761904761905
+        },
+        "relationships": {
+          "mentions": 2,
+          "per_1000_tokens": 2.380952380952381
+        }
+      }
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+      "group_id": "tr-medium-natalie-glasson",
+      "rates": {
+        "ontology": {
+          "mentions": 16,
+          "per_1000_tokens": 18.757327080890974
+        },
+        "agency_free_will": {
+          "mentions": 4,
+          "per_1000_tokens": 4.6893317702227435
+        },
+        "ethics_polarity": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "fear": {
+          "mentions": 3,
+          "per_1000_tokens": 3.5169988276670576
+        },
+        "practices": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "time_probability": {
+          "mentions": 8,
+          "per_1000_tokens": 9.378663540445487
+        },
+        "contact": {
+          "mentions": 2,
+          "per_1000_tokens": 2.3446658851113718
+        },
+        "healing_body": {
+          "mentions": 10,
+          "per_1000_tokens": 11.723329425556859
+        },
+        "knowing_uncertainty": {
+          "mentions": 9,
+          "per_1000_tokens": 10.550996483001173
+        },
+        "relationships": {
+          "mentions": 3,
+          "per_1000_tokens": 3.5169988276670576
+        }
+      }
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2",
+      "group_id": "tr-medium-natalie-glasson",
+      "rates": {
+        "ontology": {
+          "mentions": 13,
+          "per_1000_tokens": 9.046624913013222
+        },
+        "agency_free_will": {
+          "mentions": 8,
+          "per_1000_tokens": 5.567153792623521
+        },
+        "ethics_polarity": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "fear": {
+          "mentions": 0,
+          "per_1000_tokens": 0.0
+        },
+        "practices": {
+          "mentions": 1,
+          "per_1000_tokens": 0.6958942240779401
+        },
+        "time_probability": {
+          "mentions": 2,
+          "per_1000_tokens": 1.3917884481558802
+        },
+        "contact": {
+          "mentions": 2,
+          "per_1000_tokens": 1.3917884481558802
+        },
+        "healing_body": {
+          "mentions": 30,
+          "per_1000_tokens": 20.876826722338205
+        },
+        "knowing_uncertainty": {
+          "mentions": 8,
+          "per_1000_tokens": 5.567153792623521
+        },
+        "relationships": {
+          "mentions": 1,
+          "per_1000_tokens": 0.6958942240779401
+        }
+      }
+    }
+  ],
+  "lexical": {
+    "status": "fitted",
+    "source_ids": [
+      "publisher-rss:akanksshaa:rss:09262d220324d6a6:asr:tiny-en-v2",
+      "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+      "publisher-rss:akanksshaa:rss:e1d8730b57f8eede:asr:tiny-en-v2",
+      "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+      "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+      "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+      "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+      "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+      "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+      "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+      "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+      "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+      "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+      "publisher-rss:tracykumbera:rss:8cd51c72bb88a354:asr:tiny-en-v2",
+      "publisher-rss:tracykumbera:rss:993981f9f0ef856e:asr:tiny-en-v2",
+      "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+      "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+      "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+      "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+      "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+      "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+      "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+      "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+      "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+      "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+      "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+      "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2"
+    ],
+    "matrix": [
+      [
+        1.0000000000000542,
+        0.151355169391554,
+        0.15181423546444653,
+        0.10325828511411965,
+        0.12551722026024661,
+        0.07655962528784191,
+        0.06986860958929163,
+        0.11682812958665494,
+        0.07213920229767891,
+        0.11250480717357995,
+        0.13287217214040467,
+        0.07528870784315611,
+        0.08253214666519312,
+        0.07856555829531832,
+        0.0920123417540112,
+        0.06039588108060006,
+        0.11541379282944407,
+        0.10497792038926133,
+        0.043346168021645204,
+        0.07205882548597346,
+        0.1068469725656867,
+        0.11953000247853672,
+        0.036050855976975035,
+        0.037247068464580035,
+        0.049601011242467054,
+        0.05313985581137582,
+        0.05514832347216022
+      ],
+      [
+        0.151355169391554,
+        1.0000000000000369,
+        0.2568971191303718,
+        0.10334283347078495,
+        0.10075613069067818,
+        0.06798893209930688,
+        0.08169330640454434,
+        0.12362664828089444,
+        0.07409864715817192,
+        0.09927568614583912,
+        0.10794743797673022,
+        0.058565190610782386,
+        0.07623142635818304,
+        0.05551882038898928,
+        0.09323694964142092,
+        0.07000144854153692,
+        0.10653877542957238,
+        0.09781578870630327,
+        0.06664768390915374,
+        0.06395558681890615,
+        0.10122911212622968,
+        0.11400241718339726,
+        0.05098363141163316,
+        0.047613516218822746,
+        0.04853103809344761,
+        0.05836885605265046,
+        0.07784766278542687
+      ],
+      [
+        0.15181423546444653,
+        0.2568971191303718,
+        0.9999999999999969,
+        0.11184693820270038,
+        0.11393725555691617,
+        0.07723003322867975,
+        0.06912633536289353,
+        0.1399275480982341,
+        0.08778879854074362,
+        0.11332948746000478,
+        0.1301818390449193,
+        0.06503951151748483,
+        0.09120257194867236,
+        0.08471138712386447,
+        0.0826240197370224,
+        0.07895691912671136,
+        0.11481998739509813,
+        0.10478913714008224,
+        0.053973096347278995,
+        0.07791253576912738,
+        0.1111464291392925,
+        0.1263723321934832,
+        0.051880591791325516,
+        0.043201353440574575,
+        0.05001010136436468,
+        0.06652007159316466,
+        0.06701291516509592
+      ],
+      [
+        0.10325828511411965,
+        0.10334283347078495,
+        0.11184693820270038,
+        1.0000000000000002,
+        0.20761534073051666,
+        0.0821621334255265,
+        0.10809331923422943,
+        0.13461220110649091,
+        0.10868652525168358,
+        0.16728205348577918,
+        0.16686867409252112,
+        0.104423622439047,
+        0.15884240953444878,
+        0.11363424503925952,
+        0.11636538509992936,
+        0.09063766441873135,
+        0.19726721497448796,
+        0.15131091324858112,
+        0.11029596549838044,
+        0.10194048679261118,
+        0.17664270372571053,
+        0.15765222524128014,
+        0.05726900140803603,
+        0.048562338899849906,
+        0.07720927347328752,
+        0.06778061560895884,
+        0.06217664677883459
+      ],
+      [
+        0.12551722026024661,
+        0.10075613069067818,
+        0.11393725555691617,
+        0.20761534073051666,
+        0.9999999999999976,
+        0.08269548366985513,
+        0.08236685843509489,
+        0.10669185494195678,
+        0.08553728744160913,
+        0.18422170218928763,
+        0.17939248399812835,
+        0.06473596181046651,
+        0.10009714407399192,
+        0.10518094346526173,
+        0.09030288484160866,
+        0.07279850424904315,
+        0.1920331592390565,
+        0.17844060705292952,
+        0.06876188238876357,
+        0.08095344925571836,
+        0.16442990117980663,
+        0.16890914190971124,
+        0.03993259763142395,
+        0.05269441860114949,
+        0.05515087072461449,
+        0.05091780616670148,
+        0.059849574692891976
+      ],
+      [
+        0.07655962528784191,
+        0.06798893209930688,
+        0.07723003322867975,
+        0.0821621334255265,
+        0.08269548366985513,
+        0.9999999999999895,
+        0.04352038528080324,
+        0.07456043360943328,
+        0.0596787254479567,
+        0.09794510113195931,
+        0.10866880873634945,
+        0.05389656193534844,
+        0.06492974738680961,
+        0.05180369600391409,
+        0.08978626361551803,
+        0.05117720035355662,
+        0.09491817935500177,
+        0.0814485367651147,
+        0.06734848428066283,
+        0.06167271544271933,
+        0.11329126159224133,
+        0.11080591851012415,
+        0.019537941360756754,
+        0.026308356785190508,
+        0.013668253258276052,
+        0.03243830278509868,
+        0.04787714411257758
+      ],
+      [
+        0.06986860958929163,
+        0.08169330640454434,
+        0.06912633536289353,
+        0.10809331923422943,
+        0.08236685843509489,
+        0.04352038528080324,
+        1.000000000000001,
+        0.07770596959244122,
+        0.09561974189471975,
+        0.07579597214288065,
+        0.0639112969243973,
+        0.09417420291575263,
+        0.13927417845614112,
+        0.06286382528970931,
+        0.0882506051836589,
+        0.06505367478416113,
+        0.08297496497161576,
+        0.07172142735797861,
+        0.11735132244601383,
+        0.0681272175009735,
+        0.08601414454249962,
+        0.08083124890105267,
+        0.024667221886923798,
+        0.025876759820791295,
+        0.03523864596707435,
+        0.0351236826793396,
+        0.037129589537710214
+      ],
+      [
+        0.11682812958665494,
+        0.12362664828089444,
+        0.1399275480982341,
+        0.13461220110649091,
+        0.10669185494195678,
+        0.07456043360943328,
+        0.07770596959244122,
+        0.9999999999999973,
+        0.10140775945457417,
+        0.10703160836663718,
+        0.1101479143791513,
+        0.09696789112015378,
+        0.11971633193467121,
+        0.10164672537524377,
+        0.10966136628406999,
+        0.10603814541517213,
+        0.10616659950361307,
+        0.12715974166557142,
+        0.08468961233066113,
+        0.09922197110310525,
+        0.11955493344521335,
+        0.11623674005416675,
+        0.052168808246007246,
+        0.05622057566129636,
+        0.06434009488286833,
+        0.05655119765063237,
+        0.0608854908285053
+      ],
+      [
+        0.07213920229767891,
+        0.07409864715817192,
+        0.08778879854074362,
+        0.10868652525168358,
+        0.08553728744160913,
+        0.0596787254479567,
+        0.09561974189471975,
+        0.10140775945457417,
+        0.9999999999999859,
+        0.07444051100095855,
+        0.09314843412118774,
+        0.0996978605601692,
+        0.12982312431048365,
+        0.07992969820294943,
+        0.1312409789312711,
+        0.07727838360108952,
+        0.10997503061532106,
+        0.091862144623306,
+        0.09170855369788694,
+        0.1145507691786402,
+        0.09735565409657933,
+        0.09201097709862771,
+        0.029174577098195018,
+        0.03925755222544559,
+        0.03938144309506927,
+        0.049378521963802796,
+        0.04712340411080849
+      ],
+      [
+        0.11250480717357995,
+        0.09927568614583912,
+        0.11332948746000478,
+        0.16728205348577918,
+        0.18422170218928763,
+        0.09794510113195931,
+        0.07579597214288065,
+        0.10703160836663718,
+        0.07444051100095855,
+        1.0000000000000329,
+        0.19296826934126857,
+        0.0705313805713931,
+        0.0835262749977566,
+        0.1109041391677219,
+        0.0909605090801132,
+        0.08816093308360466,
+        0.14586001868286183,
+        0.1759784855592047,
+        0.06337579228402525,
+        0.06886856142993256,
+        0.1745536921858724,
+        0.1542484026637259,
+        0.04408109867908748,
+        0.059966942025149364,
+        0.050478447590774474,
+        0.061467157606126095,
+        0.06101239599046669
+      ],
+      [
+        0.13287217214040467,
+        0.10794743797673022,
+        0.1301818390449193,
+        0.16686867409252112,
+        0.17939248399812835,
+        0.10866880873634945,
+        0.0639112969243973,
+        0.1101479143791513,
+        0.09314843412118774,
+        0.19296826934126857,
+        1.0000000000000349,
+        0.07889838490425538,
+        0.08570853365683555,
+        0.09828899051724772,
+        0.10749569541659548,
+        0.08620993166665801,
+        0.17703358850926584,
+        0.16773612454396974,
+        0.08536962296779206,
+        0.10629822890727468,
+        0.16300167525980014,
+        0.19025644096498595,
+        0.0407180255797423,
+        0.04336060312671,
+        0.04426187061581592,
+        0.07157417944704617,
+        0.06938813368475288
+      ],
+      [
+        0.07528870784315611,
+        0.058565190610782386,
+        0.06503951151748483,
+        0.104423622439047,
+        0.06473596181046651,
+        0.05389656193534844,
+        0.09417420291575263,
+        0.09696789112015378,
+        0.0996978605601692,
+        0.0705313805713931,
+        0.07889838490425538,
+        1.0000000000000044,
+        0.09746239011735618,
+        0.07528606932385187,
+        0.08326883269753674,
+        0.07390787698210166,
+        0.0913539444099709,
+        0.07204191004084533,
+        0.08939124408299949,
+        0.13679844924443943,
+        0.1014500165016014,
+        0.06731738345228083,
+        0.029627996467953735,
+        0.04039890904345024,
+        0.05128210987999139,
+        0.04350563129316177,
+        0.04700121653801147
+      ],
+      [
+        0.08253214666519312,
+        0.07623142635818304,
+        0.09120257194867236,
+        0.15884240953444878,
+        0.10009714407399192,
+        0.06492974738680961,
+        0.13927417845614112,
+        0.11971633193467121,
+        0.12982312431048365,
+        0.0835262749977566,
+        0.08570853365683555,
+        0.09746239011735618,
+        1.0000000000000018,
+        0.10173198396861606,
+        0.11399283305950318,
+        0.10521546841566043,
+        0.10973383093597541,
+        0.09188292141767478,
+        0.10367435893177993,
+        0.08580434272739691,
+        0.10183217110770446,
+        0.10024736045955317,
+        0.03442160146818215,
+        0.03414075883579537,
+        0.043119384449882274,
+        0.04580653470090853,
+        0.04247895335281723
+      ],
+      [
+        0.07856555829531832,
+        0.05551882038898928,
+        0.08471138712386447,
+        0.11363424503925952,
+        0.10518094346526173,
+        0.05180369600391409,
+        0.06286382528970931,
+        0.10164672537524377,
+        0.07992969820294943,
+        0.1109041391677219,
+        0.09828899051724772,
+        0.07528606932385187,
+        0.10173198396861606,
+        0.9999999999999988,
+        0.09225885117966463,
+        0.11230439482523234,
+        0.09876611043347976,
+        0.108090913569188,
+        0.06918313667125581,
+        0.09583864879616065,
+        0.0967937489214068,
+        0.10498734413466049,
+        0.03981020881810407,
+        0.0417323575920123,
+        0.07042156009083919,
+        0.07819973680981086,
+        0.05451801378441326
+      ],
+      [
+        0.0920123417540112,
+        0.09323694964142092,
+        0.0826240197370224,
+        0.11636538509992936,
+        0.09030288484160866,
+        0.08978626361551803,
+        0.0882506051836589,
+        0.10966136628406999,
+        0.1312409789312711,
+        0.0909605090801132,
+        0.10749569541659548,
+        0.08326883269753674,
+        0.11399283305950318,
+        0.09225885117966463,
+        1.0000000000000004,
+        0.08090711009253686,
+        0.11844634716378595,
+        0.12116573962053834,
+        0.08166254516679945,
+        0.09774437066937976,
+        0.12010975215426273,
+        0.1499251059220598,
+        0.04146039082932104,
+        0.04471724448907061,
+        0.038808084311163116,
+        0.05155588366073148,
+        0.05846154045224388
+      ],
+      [
+        0.06039588108060006,
+        0.07000144854153692,
+        0.07895691912671136,
+        0.09063766441873135,
+        0.07279850424904315,
+        0.05117720035355662,
+        0.06505367478416113,
+        0.10603814541517213,
+        0.07727838360108952,
+        0.08816093308360466,
+        0.08620993166665801,
+        0.07390787698210166,
+        0.10521546841566043,
+        0.11230439482523234,
+        0.08090711009253686,
+        1.0000000000000013,
+        0.1058390655112822,
+        0.10298872304529967,
+        0.07092194096814432,
+        0.09976853043983337,
+        0.08411710300612853,
+        0.09482878138203277,
+        0.07071433225855552,
+        0.062380703329930766,
+        0.040667950244502156,
+        0.04560518857828624,
+        0.05000780849289111
+      ],
+      [
+        0.11541379282944407,
+        0.10653877542957238,
+        0.11481998739509813,
+        0.19726721497448796,
+        0.1920331592390565,
+        0.09491817935500177,
+        0.08297496497161576,
+        0.10616659950361307,
+        0.10997503061532106,
+        0.14586001868286183,
+        0.17703358850926584,
+        0.0913539444099709,
+        0.10973383093597541,
+        0.09876611043347976,
+        0.11844634716378595,
+        0.1058390655112822,
+        0.9999999999999966,
+        0.1770665089493073,
+        0.09821757334439794,
+        0.0932471152650574,
+        0.1753282504496807,
+        0.1932092158939242,
+        0.04710169931036953,
+        0.0531432657662983,
+        0.05326500019892929,
+        0.05335846824418098,
+        0.07631331015151303
+      ],
+      [
+        0.10497792038926133,
+        0.09781578870630327,
+        0.10478913714008224,
+        0.15131091324858112,
+        0.17844060705292952,
+        0.0814485367651147,
+        0.07172142735797861,
+        0.12715974166557142,
+        0.091862144623306,
+        0.1759784855592047,
+        0.16773612454396974,
+        0.07204191004084533,
+        0.09188292141767478,
+        0.108090913569188,
+        0.12116573962053834,
+        0.10298872304529967,
+        0.1770665089493073,
+        0.9999999999999972,
+        0.0774488651932219,
+        0.09837155409482323,
+        0.1621114847026823,
+        0.15308062183328966,
+        0.04236790649247959,
+        0.05543758473000526,
+        0.04629786597689783,
+        0.05930608946008456,
+        0.05928064074934295
+      ],
+      [
+        0.043346168021645204,
+        0.06664768390915374,
+        0.053973096347278995,
+        0.11029596549838044,
+        0.06876188238876357,
+        0.06734848428066283,
+        0.11735132244601383,
+        0.08468961233066113,
+        0.09170855369788694,
+        0.06337579228402525,
+        0.08536962296779206,
+        0.08939124408299949,
+        0.10367435893177993,
+        0.06918313667125581,
+        0.08166254516679945,
+        0.07092194096814432,
+        0.09821757334439794,
+        0.0774488651932219,
+        1.0000000000000075,
+        0.08815459848977353,
+        0.08104925640708475,
+        0.09279023095208182,
+        0.03428233233837818,
+        0.030069093676313628,
+        0.03719838393591006,
+        0.05082242170584226,
+        0.03342168002408869
+      ],
+      [
+        0.07205882548597346,
+        0.06395558681890615,
+        0.07791253576912738,
+        0.10194048679261118,
+        0.08095344925571836,
+        0.06167271544271933,
+        0.0681272175009735,
+        0.09922197110310525,
+        0.1145507691786402,
+        0.06886856142993256,
+        0.10629822890727468,
+        0.13679844924443943,
+        0.08580434272739691,
+        0.09583864879616065,
+        0.09774437066937976,
+        0.09976853043983337,
+        0.0932471152650574,
+        0.09837155409482323,
+        0.08815459848977353,
+        0.9999999999999801,
+        0.09362374983893636,
+        0.0857930516330147,
+        0.03663400753859039,
+        0.04321499502425724,
+        0.05251051948249722,
+        0.05412474412241779,
+        0.06480407114340622
+      ],
+      [
+        0.1068469725656867,
+        0.10122911212622968,
+        0.1111464291392925,
+        0.17664270372571053,
+        0.16442990117980663,
+        0.11329126159224133,
+        0.08601414454249962,
+        0.11955493344521335,
+        0.09735565409657933,
+        0.1745536921858724,
+        0.16300167525980014,
+        0.1014500165016014,
+        0.10183217110770446,
+        0.0967937489214068,
+        0.12010975215426273,
+        0.08411710300612853,
+        0.1753282504496807,
+        0.1621114847026823,
+        0.08104925640708475,
+        0.09362374983893636,
+        0.9999999999999961,
+        0.19170613824747484,
+        0.04377465083036577,
+        0.05791118862225585,
+        0.05250681495783227,
+        0.06835049633243724,
+        0.06773055134918611
+      ],
+      [
+        0.11953000247853672,
+        0.11400241718339726,
+        0.1263723321934832,
+        0.15765222524128014,
+        0.16890914190971124,
+        0.11080591851012415,
+        0.08083124890105267,
+        0.11623674005416675,
+        0.09201097709862771,
+        0.1542484026637259,
+        0.19025644096498595,
+        0.06731738345228083,
+        0.10024736045955317,
+        0.10498734413466049,
+        0.1499251059220598,
+        0.09482878138203277,
+        0.1932092158939242,
+        0.15308062183328966,
+        0.09279023095208182,
+        0.0857930516330147,
+        0.19170613824747484,
+        1.0000000000000304,
+        0.04748435096723201,
+        0.0562567052628015,
+        0.05031394858898965,
+        0.08643881876486081,
+        0.07276514029529345
+      ],
+      [
+        0.036050855976975035,
+        0.05098363141163316,
+        0.051880591791325516,
+        0.05726900140803603,
+        0.03993259763142395,
+        0.019537941360756754,
+        0.024667221886923798,
+        0.052168808246007246,
+        0.029174577098195018,
+        0.04408109867908748,
+        0.0407180255797423,
+        0.029627996467953735,
+        0.03442160146818215,
+        0.03981020881810407,
+        0.04146039082932104,
+        0.07071433225855552,
+        0.04710169931036953,
+        0.04236790649247959,
+        0.03428233233837818,
+        0.03663400753859039,
+        0.04377465083036577,
+        0.04748435096723201,
+        0.9999999999999983,
+        0.1152611421813964,
+        0.11014086635386751,
+        0.10205454572635707,
+        0.1179658848259582
+      ],
+      [
+        0.037247068464580035,
+        0.047613516218822746,
+        0.043201353440574575,
+        0.048562338899849906,
+        0.05269441860114949,
+        0.026308356785190508,
+        0.025876759820791295,
+        0.05622057566129636,
+        0.03925755222544559,
+        0.059966942025149364,
+        0.04336060312671,
+        0.04039890904345024,
+        0.03414075883579537,
+        0.0417323575920123,
+        0.04471724448907061,
+        0.062380703329930766,
+        0.0531432657662983,
+        0.05543758473000526,
+        0.030069093676313628,
+        0.04321499502425724,
+        0.05791118862225585,
+        0.0562567052628015,
+        0.1152611421813964,
+        1.0000000000000013,
+        0.12323334778449935,
+        0.1286572342610979,
+        0.13349525617461933
+      ],
+      [
+        0.049601011242467054,
+        0.04853103809344761,
+        0.05001010136436468,
+        0.07720927347328752,
+        0.05515087072461449,
+        0.013668253258276052,
+        0.03523864596707435,
+        0.06434009488286833,
+        0.03938144309506927,
+        0.050478447590774474,
+        0.04426187061581592,
+        0.05128210987999139,
+        0.043119384449882274,
+        0.07042156009083919,
+        0.038808084311163116,
+        0.040667950244502156,
+        0.05326500019892929,
+        0.04629786597689783,
+        0.03719838393591006,
+        0.05251051948249722,
+        0.05250681495783227,
+        0.05031394858898965,
+        0.11014086635386751,
+        0.12323334778449935,
+        1.0000000000000004,
+        0.1324972114464269,
+        0.11008729827236145
+      ],
+      [
+        0.05313985581137582,
+        0.05836885605265046,
+        0.06652007159316466,
+        0.06778061560895884,
+        0.05091780616670148,
+        0.03243830278509868,
+        0.0351236826793396,
+        0.05655119765063237,
+        0.049378521963802796,
+        0.061467157606126095,
+        0.07157417944704617,
+        0.04350563129316177,
+        0.04580653470090853,
+        0.07819973680981086,
+        0.05155588366073148,
+        0.04560518857828624,
+        0.05335846824418098,
+        0.05930608946008456,
+        0.05082242170584226,
+        0.05412474412241779,
+        0.06835049633243724,
+        0.08643881876486081,
+        0.10205454572635707,
+        0.1286572342610979,
+        0.1324972114464269,
+        1.000000000000009,
+        0.12182459748102165
+      ],
+      [
+        0.05514832347216022,
+        0.07784766278542687,
+        0.06701291516509592,
+        0.06217664677883459,
+        0.059849574692891976,
+        0.04787714411257758,
+        0.037129589537710214,
+        0.0608854908285053,
+        0.04712340411080849,
+        0.06101239599046669,
+        0.06938813368475288,
+        0.04700121653801147,
+        0.04247895335281723,
+        0.05451801378441326,
+        0.05846154045224388,
+        0.05000780849289111,
+        0.07631331015151303,
+        0.05928064074934295,
+        0.03342168002408869,
+        0.06480407114340622,
+        0.06773055134918611,
+        0.07276514029529345,
+        0.1179658848259582,
+        0.13349525617461933,
+        0.11008729827236145,
+        0.12182459748102165,
+        1.0000000000000007
+      ]
+    ],
+    "features": 12000,
+    "top_terms": [
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:09262d220324d6a6:asr:tiny-en-v2",
+        "terms": [
+          "gotta",
+          "cases",
+          "data",
+          "kills",
+          "layer",
+          "trauma kills",
+          "matrix",
+          "ai",
+          "death",
+          "sarah",
+          "data data",
+          "belief structure"
+        ]
+      },
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+        "terms": [
+          "india",
+          "ai",
+          "deity",
+          "temples",
+          "records",
+          "contract",
+          "brother",
+          "blueprint",
+          "stomach",
+          "jazz bar",
+          "jazz",
+          "india stomach"
+        ]
+      },
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:e1d8730b57f8eede:asr:tiny-en-v2",
+        "terms": [
+          "kashik",
+          "records",
+          "water holds",
+          "parallel",
+          "normal",
+          "memory",
+          "holds memory",
+          "school",
+          "ritual",
+          "kashik records",
+          "absolutely",
+          "blueprint"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+        "terms": [
+          "convergence",
+          "great split",
+          "feminine divine",
+          "deeply connected",
+          "telepathy",
+          "new earth",
+          "emergence",
+          "sun",
+          "painful",
+          "april",
+          "harmony",
+          "sole mission"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+        "terms": [
+          "plasma waves",
+          "plasma",
+          "grieving",
+          "empathic",
+          "cocoon",
+          "emotion",
+          "d consciousness",
+          "necessary",
+          "storms",
+          "tuned",
+          "waves",
+          "dna"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+        "terms": [
+          "triggered",
+          "kit",
+          "tool kit",
+          "addiction",
+          "twice",
+          "twice week",
+          "tool",
+          "pisses",
+          "days days",
+          "work differently",
+          "addiction past",
+          "d addiction"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+        "terms": [
+          "elohim",
+          "solar elohim",
+          "buffet",
+          "food",
+          "common",
+          "visions",
+          "happier",
+          "forms",
+          "solarin council",
+          "solarin",
+          "panels",
+          "solar panels"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+        "terms": [
+          "lemurian",
+          "temple",
+          "lemuria",
+          "retreat",
+          "temples",
+          "chloe",
+          "flame",
+          "shasta",
+          "keeper",
+          "retreats",
+          "central coast",
+          "mount"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+        "terms": [
+          "chemtrails",
+          "pollution",
+          "atmospheric",
+          "orange dragons",
+          "orange",
+          "chemtrails atmospheric",
+          "sky",
+          "eradicate",
+          "atmospheric pollution",
+          "game",
+          "dragons",
+          "transcend"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+        "terms": [
+          "drain",
+          "great drain",
+          "void",
+          "crying",
+          "divine feminine",
+          "unbalanced",
+          "feminine",
+          "masculine",
+          "goals",
+          "void not",
+          "unbalanced masculine",
+          "perform"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+        "terms": [
+          "cleared",
+          "nausea",
+          "cold",
+          "hopeless",
+          "breath work",
+          "mind chatter",
+          "mind body",
+          "headaches",
+          "observe",
+          "chatter",
+          "wow",
+          "house"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+        "terms": [
+          "partner",
+          "partner dragon",
+          "dragon",
+          "color",
+          "personal dragon",
+          "run eye",
+          "tonight",
+          "lifeline",
+          "dragon life",
+          "dragons",
+          "answer",
+          "yellow"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+        "terms": [
+          "hierarchy",
+          "sun",
+          "solar light",
+          "disclosure",
+          "great central",
+          "central sun",
+          "elsion",
+          "elsie",
+          "solar systems",
+          "central",
+          "veil",
+          "contained"
+        ]
+      },
+      {
+        "source_id": "publisher-rss:tracykumbera:rss:8cd51c72bb88a354:asr:tiny-en-v2",
+        "terms": [
+          "sword",
+          "cosmic codes",
+          "archangels",
+          "cosmic",
+          "circle",
+          "bubble",
+          "female archangels",
+          "surrounding",
+          "cocoon",
+          "justice",
+          "female",
+          "archangel"
+        ]
+      },
+      {
+        "source_id": "publisher-rss:tracykumbera:rss:993981f9f0ef856e:asr:tiny-en-v2",
+        "terms": [
+          "game",
+          "critical",
+          "soul awareness",
+          "quantum leaping",
+          "awareness soul",
+          "exit game",
+          "exiting",
+          "leaping",
+          "incarnations",
+          "choices",
+          "discernment",
+          "exit"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+        "terms": [
+          "goddesses",
+          "priestesses",
+          "lunar eclipse",
+          "venusian goddesses",
+          "venusian",
+          "new direction",
+          "completions",
+          "goddess",
+          "lunar",
+          "eclipse",
+          "mary magdalene",
+          "endings"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+        "terms": [
+          "march",
+          "shattering",
+          "veil",
+          "going feel",
+          "subtle",
+          "new car",
+          "sensed",
+          "obvious",
+          "stay flow",
+          "pay attention",
+          "signs",
+          "pay"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+        "terms": [
+          "corridor",
+          "purging",
+          "doors",
+          "corridor change",
+          "door",
+          "cocoon",
+          "exit",
+          "exit cocoon",
+          "tired",
+          "lemurian",
+          "fog",
+          "zero"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+        "terms": [
+          "golden dragons",
+          "golden",
+          "dimensional awareness",
+          "higher state",
+          "leaving",
+          "states",
+          "leaving returning",
+          "dragons wisdom",
+          "dictate",
+          "initiated",
+          "dictate truths",
+          "dimensional states"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+        "terms": [
+          "red dragon",
+          "red",
+          "dragon",
+          "blue dragon",
+          "blast",
+          "blue",
+          "surrounded",
+          "burning",
+          "pink",
+          "swirling",
+          "express",
+          "burn"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+        "terms": [
+          "uncertainty",
+          "control",
+          "marriage",
+          "told",
+          "decided",
+          "soul collective",
+          "anxiety",
+          "float",
+          "shore",
+          "wanted experience",
+          "waiting room",
+          "need control"
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+        "terms": [
+          "choice points",
+          "new moon",
+          "rules",
+          "moon",
+          "results",
+          "instructions",
+          "points",
+          "choice",
+          "fear anxiety",
+          "claim",
+          "arriving",
+          "wait"
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+        "terms": [
+          "grace",
+          "vibration grace",
+          "embrace",
+          "initiation",
+          "grace embrace",
+          "magdalene",
+          "vibration",
+          "beauty",
+          "mary magdalene",
+          "embrace initiation",
+          "grace soul",
+          "crystalline consciousness"
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+        "terms": [
+          "trust universe",
+          "universe creator",
+          "mother mary",
+          "creator",
+          "space love",
+          "embodiment love",
+          "mary",
+          "build",
+          "universe",
+          "mother",
+          "trust",
+          "way connecting"
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+        "terms": [
+          "enlightenment",
+          "tier",
+          "metatron",
+          "archangel metatron",
+          "tier drop",
+          "angelic tier",
+          "angelic",
+          "eye chakra",
+          "angelic kingdom",
+          "droplet",
+          "kingdom",
+          "purity"
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+        "terms": [
+          "changing changing",
+          "eternal",
+          "knowingness",
+          "soul wants",
+          "eternal energy",
+          "complete absolute",
+          "existence earth",
+          "arc",
+          "knowingness complete",
+          "angel michael",
+          "arc angel",
+          "earth time"
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2",
+        "terms": [
+          "inner order",
+          "karma",
+          "qualities",
+          "impact",
+          "board karma",
+          "essence",
+          "order",
+          "order inner",
+          "lady",
+          "karmic",
+          "essence truth",
+          "baggage"
+        ]
+      }
+    ],
+    "scope": "Whole recognized/caption text TF-IDF; source style, recognition and length confounded. No channellee attribution.",
+    "window_300_source_ids": [
+      "publisher-rss:akanksshaa:rss:09262d220324d6a6:asr:tiny-en-v2",
+      "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+      "publisher-rss:akanksshaa:rss:e1d8730b57f8eede:asr:tiny-en-v2",
+      "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+      "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+      "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+      "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+      "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+      "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+      "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+      "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+      "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+      "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+      "publisher-rss:tracykumbera:rss:8cd51c72bb88a354:asr:tiny-en-v2",
+      "publisher-rss:tracykumbera:rss:993981f9f0ef856e:asr:tiny-en-v2",
+      "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+      "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+      "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+      "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+      "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+      "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+      "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+      "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+      "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+      "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+      "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+      "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2"
+    ],
+    "window_300_matrix": [
+      [
+        0.9999999999999984,
+        0.012578909514692193,
+        0.021144355778290585,
+        0.012284767343695348,
+        0.02137951809177544,
+        0.03462952654511756,
+        0.0336764923580064,
+        0.02231801868728885,
+        0.011517073422773826,
+        0.007374014491923429,
+        0.017918378846624318,
+        0.01020388879042685,
+        0.018461081249695054,
+        0.014147016555763298,
+        0.019232912626677885,
+        0.008793928140735508,
+        0.032580548206621,
+        0.010019706409545946,
+        0.005188738561370044,
+        0.009559217542557298,
+        0.007863344318337153,
+        0.025351444781225474,
+        0.0022668142965070063,
+        0.010568067864765584,
+        0.010005618374948094,
+        0.013818655193285127,
+        0.006832090583543631
+      ],
+      [
+        0.012578909514692193,
+        1.0000000000000004,
+        0.011630466700796899,
+        0.025410898450814748,
+        0.030188611384508367,
+        0.006715824457691068,
+        0.027627816004442432,
+        0.02029313509895457,
+        0.017385218668128137,
+        0.015580355432603304,
+        0.01872942106695126,
+        0.009254488565717343,
+        0.003969242685575848,
+        0.0014954740298230313,
+        0.00222960937344419,
+        0.010563867266084229,
+        0.023842770692372513,
+        0.012960881795143818,
+        0.019260366175760442,
+        0.006675599425750077,
+        0.011185890002302582,
+        0.007294359946586174,
+        0.021830078082323384,
+        0.009780151742331062,
+        0.010063416983491131,
+        0.017497713696486034,
+        0.014543365422181305
+      ],
+      [
+        0.021144355778290585,
+        0.011630466700796899,
+        1.0000000000000002,
+        0.0646987822312616,
+        0.02046296827877078,
+        0.030799344482501358,
+        0.014081388752945078,
+        0.019711217233312074,
+        0.02415652099360566,
+        0.01646704740197122,
+        0.01849588597817076,
+        0.00864859924103784,
+        0.011157548536608606,
+        0.012893002411791688,
+        0.025871586336041308,
+        0.019928021422383632,
+        0.023905970084916586,
+        0.01663239708434089,
+        0.013812621006430045,
+        0.010197615673940683,
+        0.0248122186545497,
+        0.009948138953566851,
+        0.016039745393926812,
+        0.017900775722565848,
+        0.03081647023245693,
+        0.019433507357565327,
+        0.009249896397927435
+      ],
+      [
+        0.012284767343695348,
+        0.025410898450814748,
+        0.0646987822312616,
+        1.0,
+        0.03409618784524214,
+        0.03737807123669871,
+        0.02424646197273417,
+        0.024502723898154707,
+        0.03432788899303417,
+        0.03279417346983925,
+        0.014025840252767343,
+        0.027861008212037693,
+        0.02080229172257734,
+        0.022957799441621726,
+        0.007934243557174097,
+        0.016741227117056664,
+        0.05732131445791164,
+        0.031180407553106818,
+        0.022888654704988545,
+        0.015687924766005508,
+        0.048593967398088404,
+        0.014788168974818099,
+        0.02547582436235408,
+        0.040628487043372255,
+        0.058245401813890436,
+        0.020649851222190204,
+        0.016719885190259617
+      ],
+      [
+        0.02137951809177544,
+        0.030188611384508367,
+        0.02046296827877078,
+        0.03409618784524214,
+        1.0000000000000009,
+        0.014572763541104776,
+        0.017660734444644097,
+        0.023040633831961012,
+        0.027934714591527215,
+        0.03695432240614179,
+        0.07069342479292819,
+        0.013840010579916887,
+        0.019355506201545636,
+        0.016251619520332713,
+        0.010768184285366158,
+        0.020031533798790732,
+        0.03497645451297697,
+        0.03192928148917081,
+        0.02418788236833812,
+        0.010674503865489366,
+        0.01434290959334163,
+        0.0311922617586632,
+        0.025400026723894863,
+        0.02132362944741445,
+        0.0432143580474438,
+        0.027238835488791274,
+        0.017402773165766106
+      ],
+      [
+        0.03462952654511756,
+        0.006715824457691068,
+        0.030799344482501358,
+        0.03737807123669871,
+        0.014572763541104776,
+        1.0000000000000007,
+        0.017109110558905585,
+        0.030029006392344973,
+        0.01959798298888587,
+        0.0160087996253754,
+        0.021482109922386586,
+        0.005130022729364387,
+        0.012739324386370921,
+        0.019833832767559952,
+        0.038478099719488484,
+        0.007541344044524528,
+        0.027277917179548226,
+        0.017864617242857525,
+        0.05764023442330719,
+        0.014797818322881826,
+        0.06658696541901016,
+        0.08609393388077184,
+        0.011207889271247327,
+        0.01645842281733634,
+        0.004607442820955953,
+        0.002310442291395333,
+        0.01609955959023957
+      ],
+      [
+        0.0336764923580064,
+        0.027627816004442432,
+        0.014081388752945078,
+        0.02424646197273417,
+        0.017660734444644097,
+        0.017109110558905585,
+        1.0,
+        0.02476365054688039,
+        0.05376764347869897,
+        0.0207050238431598,
+        0.016480372294856993,
+        0.03338716983994737,
+        0.04605550438345839,
+        0.017457966633696993,
+        0.02193517177948376,
+        0.017958173441710197,
+        0.034668170400099764,
+        0.008970568038726819,
+        0.046761751878204416,
+        0.014453004962294869,
+        0.02717455620807039,
+        0.03725124623225039,
+        0.010373437199132474,
+        0.016657314183028023,
+        0.017625298155034944,
+        0.011703427956686701,
+        0.015066417427880847
+      ],
+      [
+        0.02231801868728885,
+        0.02029313509895457,
+        0.019711217233312074,
+        0.024502723898154707,
+        0.023040633831961012,
+        0.030029006392344973,
+        0.02476365054688039,
+        1.0000000000000004,
+        0.013420007516814169,
+        0.023043507546181684,
+        0.0070342285672101304,
+        0.031947185276537775,
+        0.01867426400525111,
+        0.015381906866113165,
+        0.019294647376061857,
+        0.005188143040381319,
+        0.008047608785550258,
+        0.023890945621642005,
+        0.017852435824191427,
+        0.041498177384813185,
+        0.015599767491089192,
+        0.01797166441024595,
+        0.010814228616242096,
+        0.02218715047838454,
+        0.009849916461048682,
+        0.029575038270906778,
+        0.018540352683351514
+      ],
+      [
+        0.011517073422773826,
+        0.017385218668128137,
+        0.02415652099360566,
+        0.03432788899303417,
+        0.027934714591527215,
+        0.01959798298888587,
+        0.05376764347869897,
+        0.013420007516814169,
+        1.0000000000000007,
+        0.02099767825656605,
+        0.004657115477919251,
+        0.02612296060094464,
+        0.01686440286719951,
+        0.009518473192514584,
+        0.03806662900391983,
+        0.02221678248145347,
+        0.11798199647776376,
+        0.01709177929232832,
+        0.05048363417675949,
+        0.038468885205829945,
+        0.012225707413035334,
+        0.013851259370921222,
+        0.021574947499129603,
+        0.03297386850302495,
+        0.006446608139360627,
+        0.02056431492337418,
+        0.019233245666858346
+      ],
+      [
+        0.007374014491923429,
+        0.015580355432603304,
+        0.01646704740197122,
+        0.03279417346983925,
+        0.03695432240614179,
+        0.0160087996253754,
+        0.0207050238431598,
+        0.023043507546181684,
+        0.02099767825656605,
+        1.0000000000000007,
+        0.03650201529950244,
+        0.019181723385434987,
+        0.022609038188448796,
+        0.02554241116525752,
+        0.026720452602518163,
+        0.013593150532371973,
+        0.03500941625534994,
+        0.02020746674238127,
+        0.014062403165928888,
+        0.017634775703342147,
+        0.048208841702195804,
+        0.022750602623827536,
+        0.00977620144108628,
+        0.03516399501185698,
+        0.0176682632961173,
+        0.023592621927854864,
+        0.013893966068711013
+      ],
+      [
+        0.017918378846624318,
+        0.01872942106695126,
+        0.01849588597817076,
+        0.014025840252767343,
+        0.07069342479292819,
+        0.021482109922386586,
+        0.016480372294856993,
+        0.0070342285672101304,
+        0.004657115477919251,
+        0.03650201529950244,
+        0.9999999999999979,
+        0.008389835895147841,
+        0.016257189123482618,
+        0.01969934702147643,
+        0.011517791435679119,
+        0.016838328530637752,
+        0.013352088623746804,
+        0.01272313090268659,
+        0.008480567145471142,
+        0.013324678629139943,
+        0.0200142352811315,
+        0.017737563854889195,
+        0.0018091755447654854,
+        0.007273689479332849,
+        0.017527561858949988,
+        0.013844587444444285,
+        0.006909415819912916
+      ],
+      [
+        0.01020388879042685,
+        0.009254488565717343,
+        0.00864859924103784,
+        0.027861008212037693,
+        0.013840010579916887,
+        0.005130022729364387,
+        0.03338716983994737,
+        0.031947185276537775,
+        0.02612296060094464,
+        0.019181723385434987,
+        0.008389835895147841,
+        0.9999999999999994,
+        0.010427705337119094,
+        0.019332822238375316,
+        0.018201117870629502,
+        0.009339994549719802,
+        0.014245769322600986,
+        0.008217131976534217,
+        0.020694612598732218,
+        0.07626867232172421,
+        0.014816963200210151,
+        0.009238344074713117,
+        0.0,
+        0.025003693439316577,
+        0.020405382928173708,
+        0.004381708839729376,
+        0.009660215789114503
+      ],
+      [
+        0.018461081249695054,
+        0.003969242685575848,
+        0.011157548536608606,
+        0.02080229172257734,
+        0.019355506201545636,
+        0.012739324386370921,
+        0.04605550438345839,
+        0.01867426400525111,
+        0.01686440286719951,
+        0.022609038188448796,
+        0.016257189123482618,
+        0.010427705337119094,
+        0.9999999999999999,
+        0.037324903504251626,
+        0.03889690222002753,
+        0.0376883510343594,
+        0.0284325894303754,
+        0.031680902387182054,
+        0.03730031634215499,
+        0.015402321594431195,
+        0.012498760782862025,
+        0.028516029455318965,
+        0.00627964439393088,
+        0.013205070223257205,
+        0.019196699407606762,
+        0.007209289696258908,
+        0.004090746804158574
+      ],
+      [
+        0.014147016555763298,
+        0.0014954740298230313,
+        0.012893002411791688,
+        0.022957799441621726,
+        0.016251619520332713,
+        0.019833832767559952,
+        0.017457966633696993,
+        0.015381906866113165,
+        0.009518473192514584,
+        0.02554241116525752,
+        0.01969934702147643,
+        0.019332822238375316,
+        0.037324903504251626,
+        0.9999999999999996,
+        0.020027204530590308,
+        0.013919602109907805,
+        0.036676260107799896,
+        0.05461727840179244,
+        0.013287677311124702,
+        0.026134143401556644,
+        0.03295463031310143,
+        0.014601090607144722,
+        0.007240879424762332,
+        0.01013568215579734,
+        0.012807756895064172,
+        0.014713658422459083,
+        0.017017286046361907
+      ],
+      [
+        0.019232912626677885,
+        0.00222960937344419,
+        0.025871586336041308,
+        0.007934243557174097,
+        0.010768184285366158,
+        0.038478099719488484,
+        0.02193517177948376,
+        0.019294647376061857,
+        0.03806662900391983,
+        0.026720452602518163,
+        0.011517791435679119,
+        0.018201117870629502,
+        0.03889690222002753,
+        0.020027204530590308,
+        1.0000000000000004,
+        0.01386240817058481,
+        0.05317175492373172,
+        0.05009095495553775,
+        0.05410074658991651,
+        0.02790157193493902,
+        0.020043416823455472,
+        0.02370280403046511,
+        0.0029305248339567326,
+        0.014256290433975576,
+        0.01102851156384959,
+        0.02731631257140108,
+        0.013140258848451348
+      ],
+      [
+        0.008793928140735508,
+        0.010563867266084229,
+        0.019928021422383632,
+        0.016741227117056664,
+        0.020031533798790732,
+        0.007541344044524528,
+        0.017958173441710197,
+        0.005188143040381319,
+        0.02221678248145347,
+        0.013593150532371973,
+        0.016838328530637752,
+        0.009339994549719802,
+        0.0376883510343594,
+        0.013919602109907805,
+        0.01386240817058481,
+        1.0000000000000002,
+        0.018859013289699165,
+        0.02108188345446558,
+        0.01504750984024703,
+        0.030551942770812118,
+        0.015394435312499078,
+        0.032177857546704325,
+        0.016180824134090162,
+        0.009904817822601653,
+        0.016858823576259844,
+        0.00227808521121425,
+        0.01627940291294547
+      ],
+      [
+        0.032580548206621,
+        0.023842770692372513,
+        0.023905970084916586,
+        0.05732131445791164,
+        0.03497645451297697,
+        0.027277917179548226,
+        0.034668170400099764,
+        0.008047608785550258,
+        0.11798199647776376,
+        0.03500941625534994,
+        0.013352088623746804,
+        0.014245769322600986,
+        0.0284325894303754,
+        0.036676260107799896,
+        0.05317175492373172,
+        0.018859013289699165,
+        1.0000000000000002,
+        0.04190547911730522,
+        0.04366548940526857,
+        0.018647831566713166,
+        0.048139300416988204,
+        0.051889335207696514,
+        0.02031605966514341,
+        0.02027258779528955,
+        0.018727594388488655,
+        0.03713039818988018,
+        0.02494237238280029
+      ],
+      [
+        0.010019706409545946,
+        0.012960881795143818,
+        0.01663239708434089,
+        0.031180407553106818,
+        0.03192928148917081,
+        0.017864617242857525,
+        0.008970568038726819,
+        0.023890945621642005,
+        0.01709177929232832,
+        0.02020746674238127,
+        0.01272313090268659,
+        0.008217131976534217,
+        0.031680902387182054,
+        0.05461727840179244,
+        0.05009095495553775,
+        0.02108188345446558,
+        0.04190547911730522,
+        0.9999999999999989,
+        0.01967988261573513,
+        0.04123326408655187,
+        0.04149677528301846,
+        0.032454742029384656,
+        0.016273648550634005,
+        0.03754128232160019,
+        0.01415664897575203,
+        0.028432927660176056,
+        0.012148346228272423
+      ],
+      [
+        0.005188738561370044,
+        0.019260366175760442,
+        0.013812621006430045,
+        0.022888654704988545,
+        0.02418788236833812,
+        0.05764023442330719,
+        0.046761751878204416,
+        0.017852435824191427,
+        0.05048363417675949,
+        0.014062403165928888,
+        0.008480567145471142,
+        0.020694612598732218,
+        0.03730031634215499,
+        0.013287677311124702,
+        0.05410074658991651,
+        0.01504750984024703,
+        0.04366548940526857,
+        0.01967988261573513,
+        1.0000000000000004,
+        0.021949630714377995,
+        0.04163376380511663,
+        0.061710865466732275,
+        0.02543153345376531,
+        0.02772756039195886,
+        0.021529722340918413,
+        0.016098895177933614,
+        0.019380006454253952
+      ],
+      [
+        0.009559217542557298,
+        0.006675599425750077,
+        0.010197615673940683,
+        0.015687924766005508,
+        0.010674503865489366,
+        0.014797818322881826,
+        0.014453004962294869,
+        0.041498177384813185,
+        0.038468885205829945,
+        0.017634775703342147,
+        0.013324678629139943,
+        0.07626867232172421,
+        0.015402321594431195,
+        0.026134143401556644,
+        0.02790157193493902,
+        0.030551942770812118,
+        0.018647831566713166,
+        0.04123326408655187,
+        0.021949630714377995,
+        0.9999999999999992,
+        0.009874537040587739,
+        0.01806511425769682,
+        0.00886519180867288,
+        0.022329165436794456,
+        0.02433830090707531,
+        0.021090235903876195,
+        0.011412542193714134
+      ],
+      [
+        0.007863344318337153,
+        0.011185890002302582,
+        0.0248122186545497,
+        0.048593967398088404,
+        0.01434290959334163,
+        0.06658696541901016,
+        0.02717455620807039,
+        0.015599767491089192,
+        0.012225707413035334,
+        0.048208841702195804,
+        0.0200142352811315,
+        0.014816963200210151,
+        0.012498760782862025,
+        0.03295463031310143,
+        0.020043416823455472,
+        0.015394435312499078,
+        0.048139300416988204,
+        0.04149677528301846,
+        0.04163376380511663,
+        0.009874537040587739,
+        1.0000000000000004,
+        0.08578550964696911,
+        0.004839956937155301,
+        0.03915015184186601,
+        0.025518517693337614,
+        0.021540028374934718,
+        0.003973629018927689
+      ],
+      [
+        0.025351444781225474,
+        0.007294359946586174,
+        0.009948138953566851,
+        0.014788168974818099,
+        0.0311922617586632,
+        0.08609393388077184,
+        0.03725124623225039,
+        0.01797166441024595,
+        0.013851259370921222,
+        0.022750602623827536,
+        0.017737563854889195,
+        0.009238344074713117,
+        0.028516029455318965,
+        0.014601090607144722,
+        0.02370280403046511,
+        0.032177857546704325,
+        0.051889335207696514,
+        0.032454742029384656,
+        0.061710865466732275,
+        0.01806511425769682,
+        0.08578550964696911,
+        1.0000000000000009,
+        0.016150505006884534,
+        0.034505958599399145,
+        0.01256819377758238,
+        0.024998748352541244,
+        0.008770483941030542
+      ],
+      [
+        0.0022668142965070063,
+        0.021830078082323384,
+        0.016039745393926812,
+        0.02547582436235408,
+        0.025400026723894863,
+        0.011207889271247327,
+        0.010373437199132474,
+        0.010814228616242096,
+        0.021574947499129603,
+        0.00977620144108628,
+        0.0018091755447654854,
+        0.0,
+        0.00627964439393088,
+        0.007240879424762332,
+        0.0029305248339567326,
+        0.016180824134090162,
+        0.02031605966514341,
+        0.016273648550634005,
+        0.02543153345376531,
+        0.00886519180867288,
+        0.004839956937155301,
+        0.016150505006884534,
+        1.0000000000000004,
+        0.04874045111458349,
+        0.05700912914347517,
+        0.040067323992367204,
+        0.04942794371498262
+      ],
+      [
+        0.010568067864765584,
+        0.009780151742331062,
+        0.017900775722565848,
+        0.040628487043372255,
+        0.02132362944741445,
+        0.01645842281733634,
+        0.016657314183028023,
+        0.02218715047838454,
+        0.03297386850302495,
+        0.03516399501185698,
+        0.007273689479332849,
+        0.025003693439316577,
+        0.013205070223257205,
+        0.01013568215579734,
+        0.014256290433975576,
+        0.009904817822601653,
+        0.02027258779528955,
+        0.03754128232160019,
+        0.02772756039195886,
+        0.022329165436794456,
+        0.03915015184186601,
+        0.034505958599399145,
+        0.04874045111458349,
+        1.0,
+        0.04052041093408873,
+        0.027350681985661415,
+        0.05341653917303969
+      ],
+      [
+        0.010005618374948094,
+        0.010063416983491131,
+        0.03081647023245693,
+        0.058245401813890436,
+        0.0432143580474438,
+        0.004607442820955953,
+        0.017625298155034944,
+        0.009849916461048682,
+        0.006446608139360627,
+        0.0176682632961173,
+        0.017527561858949988,
+        0.020405382928173708,
+        0.019196699407606762,
+        0.012807756895064172,
+        0.01102851156384959,
+        0.016858823576259844,
+        0.018727594388488655,
+        0.01415664897575203,
+        0.021529722340918413,
+        0.02433830090707531,
+        0.025518517693337614,
+        0.01256819377758238,
+        0.05700912914347517,
+        0.04052041093408873,
+        1.0,
+        0.041717801185420275,
+        0.02769899138981194
+      ],
+      [
+        0.013818655193285127,
+        0.017497713696486034,
+        0.019433507357565327,
+        0.020649851222190204,
+        0.027238835488791274,
+        0.002310442291395333,
+        0.011703427956686701,
+        0.029575038270906778,
+        0.02056431492337418,
+        0.023592621927854864,
+        0.013844587444444285,
+        0.004381708839729376,
+        0.007209289696258908,
+        0.014713658422459083,
+        0.02731631257140108,
+        0.00227808521121425,
+        0.03713039818988018,
+        0.028432927660176056,
+        0.016098895177933614,
+        0.021090235903876195,
+        0.021540028374934718,
+        0.024998748352541244,
+        0.040067323992367204,
+        0.027350681985661415,
+        0.041717801185420275,
+        0.9999999999999999,
+        0.07413872399959431
+      ],
+      [
+        0.006832090583543631,
+        0.014543365422181305,
+        0.009249896397927435,
+        0.016719885190259617,
+        0.017402773165766106,
+        0.01609955959023957,
+        0.015066417427880847,
+        0.018540352683351514,
+        0.019233245666858346,
+        0.013893966068711013,
+        0.006909415819912916,
+        0.009660215789114503,
+        0.004090746804158574,
+        0.017017286046361907,
+        0.013140258848451348,
+        0.01627940291294547,
+        0.02494237238280029,
+        0.012148346228272423,
+        0.019380006454253952,
+        0.011412542193714134,
+        0.003973629018927689,
+        0.008770483941030542,
+        0.04942794371498262,
+        0.05341653917303969,
+        0.02769899138981194,
+        0.07413872399959431,
+        1.0000000000000004
+      ]
+    ],
+    "window_rule": "Centered300tokens before masking, fixed full-fit vocabulary/IDF; shorter texts excluded, not padded."
+  },
+  "topics": {
+    "status": "exploratory_fit",
+    "k": 3,
+    "selection": "Display at most3factors when at least5eligible documents; not optimalcount or validatedtopics.",
+    "iterations": 66,
+    "components": [
+      {
+        "id": 1,
+        "terms": [
+          "body",
+          "not",
+          "what's",
+          "don't",
+          "feeling",
+          "people",
+          "going",
+          "d",
+          "things",
+          "remember",
+          "new",
+          "soul"
+        ]
+      },
+      {
+        "id": 2,
+        "terms": [
+          "creator",
+          "greetings",
+          "recognize",
+          "essence",
+          "truth",
+          "embodiment",
+          "allow",
+          "present",
+          "forth",
+          "simply",
+          "universe creator",
+          "build"
+        ]
+      },
+      {
+        "id": 3,
+        "terms": [
+          "dragon",
+          "not",
+          "dragons",
+          "solar",
+          "sphere",
+          "soul",
+          "ascension",
+          "higher",
+          "beautiful",
+          "dear",
+          "stepping",
+          "tell"
+        ]
+      }
+    ],
+    "weights": [
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:09262d220324d6a6:asr:tiny-en-v2",
+        "weights": [
+          0.992717428606393,
+          0.007282571393607008,
+          0.0
+        ]
+      },
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+        "weights": [
+          0.8605918925772729,
+          0.13940810742272713,
+          0.0
+        ]
+      },
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:e1d8730b57f8eede:asr:tiny-en-v2",
+        "weights": [
+          0.9148733343289355,
+          0.08512666567106462,
+          0.0
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+        "weights": [
+          0.6919016402420627,
+          0.00831382815398795,
+          0.29978453160394947
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+        "weights": [
+          0.9865992430873857,
+          0.0,
+          0.013400756912614348
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+        "weights": [
+          0.3046776460406978,
+          0.0655870365527374,
+          0.6297353174065647
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "source_id": "publisher-rss:tracykumbera:rss:8cd51c72bb88a354:asr:tiny-en-v2",
+        "weights": [
+          0.13884013497346123,
+          0.14820340548783598,
+          0.7129564595387028
+        ]
+      },
+      {
+        "source_id": "publisher-rss:tracykumbera:rss:993981f9f0ef856e:asr:tiny-en-v2",
+        "weights": [
+          0.19058884128720233,
+          0.0,
+          0.8094111587127978
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+        "weights": [
+          0.01679821491501177,
+          0.12796785105182013,
+          0.855233934033168
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+        "weights": [
+          0.9650412573839772,
+          0.0,
+          0.03495874261602281
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+        "weights": [
+          0.9925984066009892,
+          0.0,
+          0.00740159339901081
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+        "weights": [
+          0.0,
+          0.02021574107529302,
+          0.979784258924707
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+        "weights": [
+          0.9825582690755541,
+          0.0,
+          0.017441730924445915
+        ]
+      },
+      {
+        "source_id": "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+        "weights": [
+          0.9814765838933954,
+          0.01852341610660466,
+          0.0
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+        "weights": [
+          0.015967143934540906,
+          0.9840328560654591,
+          0.0
+        ]
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2",
+        "weights": [
+          0.030529048108047272,
+          0.9694709518919528,
+          0.0
+        ]
+      }
+    ]
+  },
+  "clusters": {
+    "status": "exploratory_fit",
+    "k": 3,
+    "silhouette": 0.035749820625485776,
+    "assignments": [
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:09262d220324d6a6:asr:tiny-en-v2",
+        "cluster": 1
+      },
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:61d6e1553fd2b6cd:asr:tiny-en-v2",
+        "cluster": 1
+      },
+      {
+        "source_id": "publisher-rss:akanksshaa:rss:e1d8730b57f8eede:asr:tiny-en-v2",
+        "cluster": 1
+      },
+      {
+        "source_id": "@tracykumbera:rss:12fad61abc11efd1:caption:64084b738d",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:1373909d433f17eb:caption:5a19b46ccf",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:1b033b0b724c1e8a:caption:b4f767c7fc",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:1ca17d79d08a3c98:caption:2974902773",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:42345a3f17d7b02d:caption:b800b26cb8",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:4886c94945e88489:caption:d889674327",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:531d5154276a6e28:caption:8a9bfd1622",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:55dc2b7edab7a1a9:caption:b8fef19e3d",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:81d79c29320e0988:caption:2284d06cb1",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+        "cluster": 2
+      },
+      {
+        "source_id": "publisher-rss:tracykumbera:rss:8cd51c72bb88a354:asr:tiny-en-v2",
+        "cluster": 2
+      },
+      {
+        "source_id": "publisher-rss:tracykumbera:rss:993981f9f0ef856e:asr:tiny-en-v2",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:a22b19a2c1e88780:caption:290f97a21b",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:b800ff4486d3dd6a:caption:2770070c46",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:c18b9380cb253ed7:caption:d86161a1a0",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:cc8c1aa5c865e46e:caption:5dc1f060a6",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:f55024c9c3bbfe48:caption:da642843f9",
+        "cluster": 2
+      },
+      {
+        "source_id": "@tracykumbera:rss:f5b11aa307f3f560:caption:687be3433b",
+        "cluster": 2
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+        "cluster": 3
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+        "cluster": 3
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+        "cluster": 3
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+        "cluster": 3
+      },
+      {
+        "source_id": "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2",
+        "cluster": 3
+      }
+    ]
+  },
+  "paired_written_editions": [
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-magdalene:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-magdalene",
+      "text_words": 1106,
+      "linked_written_words": 952,
+      "linked_written_sha256": "210e95be0fd22ce5e71bd9348290a10db2e071d7d7d7e715e1fc91025547851f",
+      "matched_ordered_token_count": 913,
+      "token_sequence_ratio": 0.8864077669902912,
+      "audio_alignment_verified": false,
+      "scope": "Sequence overlap between publication-associated editions; introductions, omissions, rewording and recognition errors are mixed. This is not word error rate or recognition accuracy."
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-mary:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-mary",
+      "text_words": 869,
+      "linked_written_words": 726,
+      "linked_written_sha256": "c8442a9ca3240d357b9ab803de99f446fc86e5f0bc36855e25809057fb4a1202",
+      "matched_ordered_token_count": 714,
+      "token_sequence_ratio": 0.8869565217391304,
+      "audio_alignment_verified": false,
+      "scope": "Sequence overlap between publication-associated editions; introductions, omissions, rewording and recognition errors are mixed. This is not word error rate or recognition accuracy."
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-metatron:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-metatron",
+      "text_words": 839,
+      "linked_written_words": 744,
+      "linked_written_sha256": "dec5de339bf546133829617c16a1c01206dbd5c6028ffc8d6b8900e9aacb3507",
+      "matched_ordered_token_count": 716,
+      "token_sequence_ratio": 0.9040404040404041,
+      "audio_alignment_verified": false,
+      "scope": "Sequence overlap between publication-associated editions; introductions, omissions, rewording and recognition errors are mixed. This is not word error rate or recognition accuracy."
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-michael:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-michael",
+      "text_words": 852,
+      "linked_written_words": 596,
+      "linked_written_sha256": "5b395f19900c37b439b8e62ba42e9975d5955dcc744cfd706138df75d4266772",
+      "matched_ordered_token_count": 594,
+      "token_sequence_ratio": 0.7989240080699395,
+      "audio_alignment_verified": false,
+      "scope": "Sequence overlap between publication-associated editions; introductions, omissions, rewording and recognition errors are mixed. This is not word error rate or recognition accuracy."
+    },
+    {
+      "source_id": "publisher-page:tr-acquisition-omna-quanyin:asr:tiny-en-v2",
+      "publication_id": "tr-acquisition-omna-quanyin",
+      "text_words": 1437,
+      "linked_written_words": 1239,
+      "linked_written_sha256": "ea159b9c4a433f5ab17b9f8f92bb344d888dda13d60ea8316b14f5470c9a4281",
+      "matched_ordered_token_count": 1218,
+      "token_sequence_ratio": 0.8969072164948454,
+      "audio_alignment_verified": false,
+      "scope": "Sequence overlap between publication-associated editions; introductions, omissions, rewording and recognition errors are mixed. This is not word error rate or recognition accuracy."
+    }
+  ],
+  "qa": {
+    "unverified_punctuation_turns": 276,
+    "identified_answers": 0,
+    "speaker_diarization": false
+  },
+  "limitations": [
+    "All speaker roles are unknown; a linked page naming a claimed being does not identify every introduction, guest or transcript utterance.",
+    "Retained full-duration lossy audio does not make VAD/ASR text complete or accurate. Publisher captions and local ASR are different uncertain editions.",
+    "The snapshot includes only completed receipts at its recorded cutoff. Running collection and later successful transcripts need a new analysis edition.",
+    "Linked publisher captions may overlap the earlier Tracy study; new-audio and new-text counts remain separate. Written OmNa pilot messages are separate editions, not independent speakers.",
+    "Whole-text lexical models are sensitive to duration, source format, publisher repetition and unequal coverage. No semantic equivalence, significance or entity-origin probabilities are estimated."
+  ],
+  "figures": [
+    {
+      "file": "collected-coverage.png",
+      "sha256": "eb9650b1b64634ac24ac479373a989654cfc08ccf4180d830822cf58610f17e8",
+      "bytes": 74327,
+      "title": "Retained audio versus available analyzed text",
+      "alt": "Bounded completion snapshot; missing text is not zero topic prevalence, and the finite publisher frame is not all YouTube uploads."
+    },
+    {
+      "file": "collected-coverage.svg",
+      "sha256": "f46404d5bae9d60f145790f6a4c679f607d58da49f9f1b23b9aa5bef6e26cc50",
+      "bytes": 45735,
+      "title": "Retained audio versus available analyzed text",
+      "alt": "Bounded completion snapshot; missing text is not zero topic prevalence, and the finite publisher frame is not all YouTube uploads."
+    },
+    {
+      "file": "collected-coverage.pdf",
+      "sha256": "4105b5bcca53680c7dac5b527e21b496349695617c2cc396a43f1eb97e2edf80",
+      "bytes": 14570,
+      "title": "Retained audio versus available analyzed text",
+      "alt": "Bounded completion snapshot; missing text is not zero topic prevalence, and the finite publisher frame is not all YouTube uploads."
+    },
+    {
+      "file": "collected-similarity.png",
+      "sha256": "dcc66aa0b6db8d6808f2cea5594a82a75be04a44d3ee82093839df18b594123b",
+      "bytes": 52861,
+      "title": "New transcript vocabulary and length control",
+      "alt": "Whole selected ASR/caption text and centered300token spans, fixed vocabulary and IDF; numbered units identify publisher recording contexts, not claimed entities."
+    },
+    {
+      "file": "collected-similarity.svg",
+      "sha256": "33edee7ae869ecc9b4846826c5d86507fdb710414be0bebcb96b3455bc9e2187",
+      "bytes": 66519,
+      "title": "New transcript vocabulary and length control",
+      "alt": "Whole selected ASR/caption text and centered300token spans, fixed vocabulary and IDF; numbered units identify publisher recording contexts, not claimed entities."
+    },
+    {
+      "file": "collected-similarity.pdf",
+      "sha256": "28b2d43471231722f44ed4cd760152a3c3aa2fe6efef5d25ff32fe924ffc6f33",
+      "bytes": 23780,
+      "title": "New transcript vocabulary and length control",
+      "alt": "Whole selected ASR/caption text and centered300token spans, fixed vocabulary and IDF; numbered units identify publisher recording contexts, not claimed entities."
+    }
+  ],
+  "keyword_dictionaries": {
+    "ontology": [
+      "reality",
+      "realities",
+      "existence",
+      "exists",
+      "consciousness",
+      "awareness",
+      "creation",
+      "creator",
+      "density",
+      "densities"
+    ],
+    "agency_free_will": [
+      "choice",
+      "choices",
+      "choose",
+      "choosing",
+      "chosen",
+      "will",
+      "freedom",
+      "free",
+      "permission",
+      "responsibility"
+    ],
+    "ethics_polarity": [
+      "service",
+      "self",
+      "others",
+      "polarity",
+      "polarities",
+      "positive",
+      "negative",
+      "compassion",
+      "acceptance",
+      "judgment"
+    ],
+    "fear": [
+      "fear",
+      "fears",
+      "afraid",
+      "anxiety",
+      "anxious",
+      "worry",
+      "worried",
+      "doubt",
+      "doubts",
+      "trust"
+    ],
+    "practices": [
+      "meditation",
+      "meditate",
+      "meditating",
+      "practice",
+      "practices",
+      "breath",
+      "breathing",
+      "visualization",
+      "ritual",
+      "exercise"
+    ],
+    "time_probability": [
+      "time",
+      "times",
+      "future",
+      "past",
+      "present",
+      "probability",
+      "probabilities",
+      "parallel",
+      "timeline",
+      "timelines",
+      "possibility",
+      "possible"
+    ],
+    "contact": [
+      "contact",
+      "contacts",
+      "contacted",
+      "alien",
+      "aliens",
+      "extraterrestrial",
+      "extraterrestrials",
+      "ufo",
+      "ufos",
+      "channeling",
+      "channelling"
+    ],
+    "healing_body": [
+      "healing",
+      "heal",
+      "health",
+      "body",
+      "bodies",
+      "physical",
+      "illness",
+      "disease",
+      "pain",
+      "energy",
+      "energies"
+    ],
+    "knowing_uncertainty": [
+      "know",
+      "knowing",
+      "knowledge",
+      "understand",
+      "understanding",
+      "believe",
+      "belief",
+      "beliefs",
+      "perhaps",
+      "possibly",
+      "uncertain"
+    ],
+    "relationships": [
+      "love",
+      "loving",
+      "relationship",
+      "relationships",
+      "partner",
+      "partners",
+      "family",
+      "friend",
+      "friends",
+      "forgiveness"
+    ]
+  },
+  "keyword_dictionary_helper_sha256": "6f4d9ab73ad479b7d84e7a299a5c74276847d961030d98cdb2ad059b40b30506",
+  "keyword_scope": "Exact dictionary word forms per1000analysis tokens; polysemy, quoted/negated wording and recognition errors remain; no validated belief prevalence.",
+  "visual_revision": {
+    "prior_analysis_sha256": "e305bf80d576fee5fc681555b179f0b208ed59111cc258c347fd9d84c3631347",
+    "renderer_sha256": "02bdedb6ec579fe160bb08d954f34a649531505fbe179fdfd4fc349ca44e8622",
+    "scope": "Caption-generation wording, exact existing keyword dictionary, explicit date-status metadata and readable heatmap tick spacing only. All source counts, topic models, clustering and similarities unchanged."
+  }
+}

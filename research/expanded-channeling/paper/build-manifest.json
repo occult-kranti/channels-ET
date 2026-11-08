@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "expanded-channeling-companion-paper",
+  "inputs": "snapshot.json; frozen public model outputs and source graph",
+  "tools": {
+    "pandoc": "pandoc 3.1.11.1",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian)"
+  },
+  "human_authorship": "TBD",
+  "human_peer_review": false,
+  "media_progress_counts_included": false,
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 21,
+      "sha256": "03824949a66ab6db1429bd078d10d1bc2d75706aa1b756c547f9a7ff541c77cb"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1851,
+      "sha256": "535f4c607fc8ac070ca398f523ee97e5163f5f7347e846fad0f720645c7f2cbe"
+    },
+    {
+      "file": "REVIEW.md",
+      "bytes": 3433,
+      "sha256": "955a16161b3d100e73930395d6b02c4775780bbd80877dc294789f71bb79e45f"
+    },
+    {
+      "file": "build.sh",
+      "bytes": 1705,
+      "sha256": "d7d58ff683c776e5cd53153001eba11bcf4da789c2a7ce40fc89ee6bf9336560"
+    },
+    {
+      "file": "figures/claim-coverage.pdf",
+      "bytes": 24850,
+      "sha256": "73f6ab4dabfa333aa9fb79c44a6aa170b7681afa1c508f8359202366e3fa35d5"
+    },
+    {
+      "file": "figures/claim-coverage.png",
+      "bytes": 140029,
+      "sha256": "2ae8f0628e629962cb044b4f3bc518caf77d9b57ebd836db4d8516b5801c3295"
+    },
+    {
+      "file": "figures/joint-clusters.pdf",
+      "bytes": 22497,
+      "sha256": "0ab626059eac39cd6e5ee0d8bdffa5fbdded53a8597e8515c8253758bd3913a0"
+    },
+    {
+      "file": "figures/joint-clusters.png",
+      "bytes": 107625,
+      "sha256": "cce1415df5b847cf85dd0985ec5f5b8c9737e86d1d3ac6e4d817d10aea532aad"
+    },
+    {
+      "file": "figures/joint-coverage.pdf",
+      "bytes": 15077,
+      "sha256": "89d59e7381ee1d0eaeeeb5ab161a05f42b8b22fe049be4615dd4eb5eb97d0e7a"
+    },
+    {
+      "file": "figures/joint-coverage.png",
+      "bytes": 45908,
+      "sha256": "e89d0ff30135c62c5a718ef10422549d74aca9735bb83501c72527a519dc39a1"
+    },
+    {
+      "file": "figures/joint-similarity.pdf",
+      "bytes": 23244,
+      "sha256": "9b666a2e408822051feb328131df78eacd0916b77c96f17f903e07d103189253"
+    },
+    {
+      "file": "figures/joint-similarity.png",
+      "bytes": 163632,
+      "sha256": "aac011645e35f7ba14b54b83811429926754cfec2a2e35752d7d989b88712904"
+    },
+    {
+      "file": "figures/joint-topics.pdf",
+      "bytes": 25905,
+      "sha256": "bad17792b85506f11526ab992d96b757accd0d3288bf503c16ec25410db00f60"
+    },
+    {
+      "file": "figures/joint-topics.png",
+      "bytes": 79986,
+      "sha256": "3c57cc8337c4ef4156fe425ca53535b03f570711ec0cc99286eb47acc7f64621"
+    },
+    {
+      "file": "figures/pilot-similarity.pdf",
+      "bytes": 30075,
+      "sha256": "20c374207f30d8a6d7e47bcdcdb018c7073e14ea0325ed5479d60b53d30c6655"
+    },
+    {
+      "file": "figures/pilot-similarity.png",
+      "bytes": 155301,
+      "sha256": "c742bae2626a5899dd5c385b3866183ddc3bc415af77490592221d8b07b9e512"
+    },
+    {
+      "file": "figures/pilot-title-sensitivity.pdf",
+      "bytes": 15056,
+      "sha256": "733eea918ad056b366a8a9f31207dc1dda379c7f292a39daea93b26f2d711849"
+    },
+    {
+      "file": "figures/pilot-title-sensitivity.png",
+      "bytes": 61532,
+      "sha256": "03a70fb7f025026d77835a6b1617d6d8cafc408561b793656af5b35fbb8d7f0e"
+    },
+    {
+      "file": "figures/typed-network-example.pdf",
+      "bytes": 22246,
+      "sha256": "935ff6cd24b5c2c448f2706e1c18ed3f33bd5c6c52ba905358c185a211589d95"
+    },
+    {
+      "file": "figures/typed-network-example.png",
+      "bytes": 180013,
+      "sha256": "b9a40a688cc881aa79e21ae32b769e5d0165c6f3f2c3813ca96fcf242589735f"
+    },
+    {
+      "file": "header.tex",
+      "bytes": 401,
+      "sha256": "8a896825d767e18e5fe828a59286699502f5c03992154704ec68cae804cf1c48"
+    },
+    {
+      "file": "paper.md",
+      "bytes": 49331,
+      "sha256": "e5e24e16ca796ac1fbd4913786485eb5f9f0cd90ce6cddab56c79fe18b654081"
+    },
+    {
+      "file": "paper.pdf",
+      "bytes": 503849,
+      "sha256": "926e98aa9844f8edb955f0c1926479e332baca5aa31139a8248328abb76cc0fb"
+    },
+    {
+      "file": "paper.tex",
+      "bytes": 66598,
+      "sha256": "ffd0c2c8b1b2ba459f05f836ab24190f506e9d16a96ef9d79ea6faafbdc6728b"
+    },
+    {
+      "file": "plot_snapshot.py",
+      "bytes": 3900,
+      "sha256": "40fd72c4ba46c8a2e98ce236b3c16cbf99abae376eecd37fa11a5f07cecf29ad"
+    },
+    {
+      "file": "references.bib",
+      "bytes": 2366,
+      "sha256": "5b003e9d8cd3837705cebcc5440ef33cad9ede654535dc90c26db5f95946e181"
+    },
+    {
+      "file": "snapshot.json",
+      "bytes": 83302,
+      "sha256": "5f4aba7086b1838d7a7e07510b278ccf086b3d94eda1e069cce49c7a66704ad6"
+    },
+    {
+      "file": "vector-figures.lua",
+      "bytes": 1037,
+      "sha256": "da0cd8fed4dcc7da614a4c551f9fa5262a189f4d47004fc3dbbedf68a2db7103"
+    }
+  ]
+}

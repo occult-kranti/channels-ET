@@ -1,0 +1,2401 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-08",
+  "purpose": "Fixed companion-paper evidence snapshot; ongoing media acquisition deliberately excluded.",
+  "inputs": [
+    {
+      "file": "dist/channeling-network/analysis.json",
+      "bytes": 431666,
+      "sha256": "34ac7bbeb61d83f8d782392008c39e252a335381b8b481c88258c1130e7a6722",
+      "captured_at": "2026-11-08T14:54:08.669044+00:00"
+    },
+    {
+      "file": "dist/channeling-network/new-message-pilot.json",
+      "bytes": 191057,
+      "sha256": "2fd5c74456ffe522f382d3ba800c128c8d8316abd2b8fd42e719877d0cc2d8b6",
+      "captured_at": "2026-11-08T14:54:08.669850+00:00"
+    },
+    {
+      "file": "dist/channeling-network/claim-graph-statistics.json",
+      "bytes": 48365,
+      "sha256": "a5964a58a09344c84f54ff750d1bf79775ea733f4bea7ac99ae39201e07a5af7",
+      "captured_at": "2026-11-08T14:54:08.670170+00:00"
+    },
+    {
+      "file": "dist/channeling-network/et-register.json",
+      "bytes": 113626,
+      "sha256": "5ffb6af9912d25629aa0971ae40d5a0db3d9a6235237c3adee63ffea39217f69",
+      "captured_at": "2026-11-08T14:54:08.670317+00:00"
+    },
+    {
+      "file": "dist/channeling-network/traditions-register.json",
+      "bytes": 170770,
+      "sha256": "b6dafe0a996e58c8c35fc106c0b759ce8c65eee3f54f48be6296b22983104d39",
+      "captured_at": "2026-11-08T14:54:08.670522+00:00"
+    },
+    {
+      "file": "research/expanded-channeling/METHODS.md",
+      "bytes": 15372,
+      "sha256": "624e883f3bad9f763d914a87f985a56f4481e6426b83ee1a9de34fe4750f1019",
+      "scope_note": "Inspected updated method document; its appended continuing-collection methods are outside the fixed paper models.",
+      "captured_at": "2026-11-08T14:54:08.670710+00:00"
+    },
+    {
+      "file": "research/expanded-channeling/PANEL-REVIEW.md",
+      "bytes": 16791,
+      "sha256": "5ca14e4d0c3137d79c35c71f98b484b67495a6ddeab36244cf932420593bf59b",
+      "captured_at": "2026-11-08T14:54:08.670799+00:00"
+    }
+  ],
+  "joint": {
+    "coverage": {
+      "model_documents": 292,
+      "model_words": 774110,
+      "groups": [
+        {
+          "id": "ra_published",
+          "label": "Ra edited sessions",
+          "documents": 106,
+          "words": 278601,
+          "source_role": "publisher_printed_roles_unverified",
+          "text_origin": [
+            "publisher_transcript"
+          ]
+        },
+        {
+          "id": "bashar_context",
+          "label": "Bashar-related interviews / commentary",
+          "documents": 19,
+          "words": 222699,
+          "source_role": "unknown_mixed_speakers",
+          "text_origin": [
+            "retained_local_asr"
+          ]
+        },
+        {
+          "id": "official_excerpt",
+          "label": "Official Bashar excerpts",
+          "documents": 75,
+          "words": 62590,
+          "source_role": "unknown_mixed_speakers",
+          "text_origin": [
+            "local_asr",
+            "platform_auto_caption"
+          ]
+        },
+        {
+          "id": "official_promotion",
+          "label": "Official promotion / product",
+          "documents": 4,
+          "words": 2895,
+          "source_role": "unknown_mixed_speakers",
+          "text_origin": [
+            "local_asr"
+          ]
+        },
+        {
+          "id": "official_greeting",
+          "label": "Official greetings",
+          "documents": 3,
+          "words": 2051,
+          "source_role": "unknown_mixed_speakers",
+          "text_origin": [
+            "local_asr"
+          ]
+        },
+        {
+          "id": "tracy_kumbera",
+          "label": "Tracy publisher captions",
+          "documents": 70,
+          "words": 144568,
+          "source_role": "unknown_mixed_speakers",
+          "text_origin": [
+            "publisher_hosted_caption_origin_unverified"
+          ]
+        },
+        {
+          "id": "magenta_pixie",
+          "label": "Magenta transcript PDFs",
+          "documents": 15,
+          "words": 60706,
+          "source_role": "unknown_mixed_speakers",
+          "text_origin": [
+            "publisher_labeled_transcript_pdf"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "scope": "Official Bashar publications",
+          "exact_media_aliases": 2,
+          "non_English": 2,
+          "below_300_seconds": 1
+        },
+        {
+          "scope": "Tracy/Magenta files",
+          "exact_caption_aliases": 1,
+          "references": 4,
+          "non_English": 1
+        },
+        {
+          "scope": "Baseline",
+          "written_references_separate": 5,
+          "partial_handouts_separate": 35
+        }
+      ],
+      "all_uploads_denominator": null,
+      "source_groups_are_speakers": false,
+      "duration_policy": {
+        "bashar_minimum_seconds": 300,
+        "others_minimum_seconds": 0,
+        "applies_to": "future acquisitions; accepted historical model cohorts preserved"
+      }
+    },
+    "similarities": {
+      "groups": [
+        "ra_published",
+        "bashar_context",
+        "official_excerpt",
+        "official_promotion",
+        "official_greeting",
+        "tracy_kumbera",
+        "magenta_pixie"
+      ],
+      "matrix": [
+        [
+          0.1890125512589206,
+          0.10278056993066756,
+          0.0504908492796114,
+          0.05163098406611086,
+          0.04339487267785425,
+          0.05942759286705801,
+          0.0771629196670825
+        ],
+        [
+          0.10278056993066756,
+          0.348264760999907,
+          0.1284263931105193,
+          0.09881575951042539,
+          0.1307266034188114,
+          0.13318059813988814,
+          0.11446106018760396
+        ],
+        [
+          0.0504908492796114,
+          0.1284263931105193,
+          0.08606284123699674,
+          0.05941462794406337,
+          0.07740335842093281,
+          0.060455334879407,
+          0.053963392192724294
+        ],
+        [
+          0.05163098406611085,
+          0.09881575951042536,
+          0.05941462794406337,
+          0.09053714215709485,
+          0.037778522514825295,
+          0.05481164213905809,
+          0.05932172261930935
+        ],
+        [
+          0.04339487267785425,
+          0.1307266034188114,
+          0.07740335842093281,
+          0.037778522514825295,
+          0.09691365519655482,
+          0.06645993671040916,
+          0.049670538403655415
+        ],
+        [
+          0.05942759286705801,
+          0.13318059813988814,
+          0.060455334879407,
+          0.0548116421390581,
+          0.06645993671040916,
+          0.1683147119273565,
+          0.09267109296145473
+        ],
+        [
+          0.0771629196670825,
+          0.11446106018760396,
+          0.05396339219272429,
+          0.05932172261930935,
+          0.049670538403655415,
+          0.09267109296145475,
+          0.20669832512176706
+        ]
+      ],
+      "pair_counts": [
+        [
+          5565,
+          2014,
+          7950,
+          424,
+          318,
+          7420,
+          1590
+        ],
+        [
+          2014,
+          171,
+          1425,
+          76,
+          57,
+          1330,
+          285
+        ],
+        [
+          7950,
+          1425,
+          2775,
+          300,
+          225,
+          5250,
+          1125
+        ],
+        [
+          424,
+          76,
+          300,
+          6,
+          12,
+          280,
+          60
+        ],
+        [
+          318,
+          57,
+          225,
+          12,
+          3,
+          210,
+          45
+        ],
+        [
+          7420,
+          1330,
+          5250,
+          280,
+          210,
+          2415,
+          1050
+        ],
+        [
+          1590,
+          285,
+          1125,
+          60,
+          45,
+          1050,
+          105
+        ]
+      ],
+      "window_matrix": [
+        [
+          0.0794517288169852,
+          0.025888799040417958,
+          0.028052999446880195,
+          0.02994123265883633,
+          0.027028482584532373,
+          0.02529731746696271,
+          0.030655014731002572
+        ],
+        [
+          0.025888799040417958,
+          0.06526014883259189,
+          0.05728154718387359,
+          0.041462059384571676,
+          0.054714712290085905,
+          0.040050061375659717,
+          0.027609685928336233
+        ],
+        [
+          0.028052999446880195,
+          0.0572815471838736,
+          0.06819272339072006,
+          0.04655869233196651,
+          0.06260297415023687,
+          0.0391799477262091,
+          0.03057648778839548
+        ],
+        [
+          0.02994123265883633,
+          0.04146205938457167,
+          0.04655869233196651,
+          0.06273610954913231,
+          0.027492401015464563,
+          0.03241327502925319,
+          0.03269814575143549
+        ],
+        [
+          0.02702848258453238,
+          0.05471471229008592,
+          0.06260297415023687,
+          0.027492401015464563,
+          0.06858020582714253,
+          0.045700452070710475,
+          0.028216128624427343
+        ],
+        [
+          0.02529731746696271,
+          0.040050061375659717,
+          0.0391799477262091,
+          0.03241327502925319,
+          0.04570045207071047,
+          0.07514832641445982,
+          0.04209667346751328
+        ],
+        [
+          0.03065501473100258,
+          0.027609685928336236,
+          0.03057648778839548,
+          0.03269814575143549,
+          0.028216128624427343,
+          0.04209667346751328,
+          0.08228443654873006
+        ]
+      ],
+      "window_pair_counts": [
+        [
+          5565,
+          2014,
+          6678,
+          318,
+          212,
+          7420,
+          1590
+        ],
+        [
+          2014,
+          171,
+          1197,
+          57,
+          38,
+          1330,
+          285
+        ],
+        [
+          6678,
+          1197,
+          1953,
+          189,
+          126,
+          4410,
+          945
+        ],
+        [
+          318,
+          57,
+          189,
+          3,
+          6,
+          210,
+          45
+        ],
+        [
+          212,
+          38,
+          126,
+          6,
+          1,
+          140,
+          30
+        ],
+        [
+          7420,
+          1330,
+          4410,
+          210,
+          140,
+          2415,
+          1050
+        ],
+        [
+          1590,
+          285,
+          945,
+          45,
+          30,
+          1050,
+          105
+        ]
+      ],
+      "window_documents": 278
+    },
+    "clusters": {
+      "selected_k": 3,
+      "silhouette": 0.08367653330584889,
+      "source_context_adjusted_rand": 0.8238395933155576,
+      "svd_explained_variance_ratio": [
+        0.007578292151238511,
+        0.045325011537178404
+      ]
+    },
+    "qa": {
+      "total_items": 5152,
+      "documentary_pairs": 2523,
+      "missing_question_text": 4,
+      "unverified_punctuation_candidates": 2629,
+      "eligible_documentary_questions": 1949,
+      "eligible_candidates": 411,
+      "retrieval_leads": 1,
+      "abstentions": 410,
+      "identified_non_Ra_answers": 0,
+      "reviewed_candidates": 1,
+      "accepted_same_question_pairs": 0,
+      "rule": "Question-only common TF-IDF (1,2)-grams,6–80 masked tokens and≥4distinct non-stop unigrams; min_df1; best Ra prompt, cosine≥0.35, margin≥0.03, and≥3shared content unigrams to yield a review lead. Heuristic thresholds have no precision estimate; not an answer recommendation.",
+      "threshold_sensitivity": [
+        {
+          "threshold": 0.25,
+          "margin": 0.03,
+          "leads": 2
+        },
+        {
+          "threshold": 0.35,
+          "margin": 0.03,
+          "leads": 1
+        },
+        {
+          "threshold": 0.45,
+          "margin": 0.03,
+          "leads": 0
+        },
+        {
+          "threshold": 0.55,
+          "margin": 0.03,
+          "leads": 0
+        }
+      ],
+      "by_group": {
+        "ra_published": 2523,
+        "bashar_context": 1387,
+        "official_excerpt": 452,
+        "official_promotion": 3,
+        "official_greeting": 32,
+        "tracy_kumbera": 688,
+        "magenta_pixie": 67
+      }
+    },
+    "longest_removed": {
+      "groups": [
+        "ra_published",
+        "bashar_context",
+        "official_excerpt",
+        "official_promotion",
+        "official_greeting",
+        "tracy_kumbera",
+        "magenta_pixie"
+      ],
+      "matrix": [
+        [
+          0.18858938973412187,
+          0.10223569419228094,
+          0.050308457807368444,
+          0.05219536201464433,
+          0.04303344613995891,
+          0.059313579160209365,
+          0.07575487782641128
+        ],
+        [
+          0.10223569419228094,
+          0.3457991585627979,
+          0.12753120807465362,
+          0.09923514048096121,
+          0.129000256324949,
+          0.1324286883256643,
+          0.10478952668785176
+        ],
+        [
+          0.050308457807368444,
+          0.12753120807465362,
+          0.08547634312273912,
+          0.059708004731454024,
+          0.0767522797733868,
+          0.060240556847376704,
+          0.051378588793512314
+        ],
+        [
+          0.052195362014644336,
+          0.09923514048096119,
+          0.059708004731454024,
+          0.08919835345672761,
+          0.03793261268074739,
+          0.05525873576578732,
+          0.05869705668361087
+        ],
+        [
+          0.043033446139958915,
+          0.129000256324949,
+          0.0767522797733868,
+          0.037932612680747387,
+          0.09543401365916454,
+          0.06583933326361345,
+          0.0460131110794128
+        ],
+        [
+          0.059313579160209365,
+          0.13242868832566432,
+          0.06024055684737671,
+          0.05525873576578732,
+          0.06583933326361346,
+          0.16779806300348585,
+          0.08976292729037992
+        ],
+        [
+          0.07575487782641128,
+          0.10478952668785176,
+          0.05137858879351231,
+          0.05869705668361086,
+          0.0460131110794128,
+          0.0897629272903799,
+          0.21057182033947253
+        ]
+      ],
+      "pair_counts": [
+        [
+          5565,
+          2014,
+          7950,
+          424,
+          318,
+          7420,
+          1484
+        ],
+        [
+          2014,
+          171,
+          1425,
+          76,
+          57,
+          1330,
+          266
+        ],
+        [
+          7950,
+          1425,
+          2775,
+          300,
+          225,
+          5250,
+          1050
+        ],
+        [
+          424,
+          76,
+          300,
+          6,
+          12,
+          280,
+          56
+        ],
+        [
+          318,
+          57,
+          225,
+          12,
+          3,
+          210,
+          42
+        ],
+        [
+          7420,
+          1330,
+          5250,
+          280,
+          210,
+          2415,
+          980
+        ],
+        [
+          1484,
+          266,
+          1050,
+          56,
+          42,
+          980,
+          91
+        ]
+      ],
+      "removed_source_id": "@magentapixie:pdf:005041d66a072253",
+      "removed_words": 23969,
+      "refitted_vocabulary_and_idf": true,
+      "model_documents": 291
+    },
+    "network_edges_touching_longest": 19,
+    "network_display_edges": 25
+  },
+  "pilot": {
+    "coverage": {
+      "documents": 20,
+      "words": 20829,
+      "mediums": 4,
+      "comparison_labels": 11
+    },
+    "by_medium": {
+      "Daniel Scranton": {
+        "documents": 7,
+        "words": 3907,
+        "labels": [
+          "arcturian",
+          "pleiadian",
+          "sassani"
+        ]
+      },
+      "Lyssa Royal Holt": {
+        "documents": 1,
+        "words": 2671,
+        "labels": [
+          "pleiadian"
+        ]
+      },
+      "Pamela Rose Kribbe": {
+        "documents": 4,
+        "words": 7324,
+        "labels": [
+          "isis",
+          "jeshua_jesus_related",
+          "mary_magdalene",
+          "mother_mary"
+        ]
+      },
+      "Natalie Glasson": {
+        "documents": 8,
+        "words": 6927,
+        "labels": [
+          "andromedan",
+          "archangel_michael",
+          "arcturian",
+          "mary_magdalene",
+          "metatron",
+          "mother_mary",
+          "pleiadian",
+          "quan_yin"
+        ]
+      }
+    },
+    "pair_summary": [
+      {
+        "kind": "different_label_same_medium",
+        "pairs": 49,
+        "mean_cosine": 0.06587707686075693,
+        "mean_window_cosine": 0.03145265427625732,
+        "inferential_test": null
+      },
+      {
+        "kind": "other",
+        "pairs": 129,
+        "mean_cosine": 0.037297055446490826,
+        "mean_window_cosine": 0.016858325461222335,
+        "inferential_test": null
+      },
+      {
+        "kind": "same_label_cross_medium",
+        "pairs": 12,
+        "mean_cosine": 0.036364039173118624,
+        "mean_window_cosine": 0.018292295530410643,
+        "inferential_test": null
+      }
+    ],
+    "label_summary": [
+      {
+        "comparison_label": "arcturian",
+        "comparison_level": "broad_civilization_label",
+        "pairs": 3,
+        "mean_cosine": 0.023998171687293793,
+        "mean_window_cosine": 0.012391441689500989
+      },
+      {
+        "comparison_label": "mary_magdalene",
+        "comparison_level": "named_label",
+        "pairs": 1,
+        "mean_cosine": 0.049459420579692284,
+        "mean_window_cosine": 0.010406081446855127
+      },
+      {
+        "comparison_label": "mother_mary",
+        "comparison_level": "named_label",
+        "pairs": 1,
+        "mean_cosine": 0.050956950684645785,
+        "mean_window_cosine": 0.024105435003785865
+      },
+      {
+        "comparison_label": "pleiadian",
+        "comparison_level": "broad_civilization_label",
+        "pairs": 7,
+        "mean_cosine": 0.037708226250172006,
+        "mean_window_cosine": 0.021117386406540543
+      }
+    ],
+    "phrase_mask_summary": [
+      {
+        "kind": "different_label_same_medium",
+        "pairs": 49,
+        "original_mean_cosine": 0.06587707686075693,
+        "phrase_mask_mean_cosine": 0.06537911647789355
+      },
+      {
+        "kind": "other",
+        "pairs": 129,
+        "original_mean_cosine": 0.037297055446490826,
+        "phrase_mask_mean_cosine": 0.036539195633759784
+      },
+      {
+        "kind": "same_label_cross_medium",
+        "pairs": 12,
+        "original_mean_cosine": 0.036364039173118624,
+        "phrase_mask_mean_cosine": 0.036477182730369935
+      }
+    ],
+    "phrase_mask_max_change": 0.03483014933861078,
+    "clusters": {
+      "k": 3,
+      "silhouette": 0.027739444003022213,
+      "source_medium_ARI": 0.6177806619078521,
+      "seed_ARI_mean": 0.8376900734665984,
+      "selection": "k3 declared for a small exploratory display, not optimal or validated."
+    },
+    "reading": {
+      "schema_version": 1,
+      "status": "AI_methods_panel_complete_reading_of_nine_bounded_source_bodies",
+      "selection": "All4texts in2same-name pairs,1Daniel and1Natalie message from each broadPleiadian/Arcturian group, plus completeLyssa Pleiadian excerpt. Purposeful comparison, not representative sampling.",
+      "coverage": {
+        "messages_read": 9,
+        "primary_body_words_read": 11274,
+        "additional_Lyssa_question_words_read": 71,
+        "audio_listened": false,
+        "human_validated": false
+      },
+      "sources": [
+        {
+          "source_id": "tr-source-omna-mary",
+          "text_sha256": "c8442a9ca3240d357b9ab803de99f446fc86e5f0bc36855e25809057fb4a1202",
+          "words_read": 726,
+          "scope": "Complete extracted message body; publisher page-local named-speaker attribution, no audio alignment."
+        },
+        {
+          "source_id": "tr-source-omna-magdalene",
+          "text_sha256": "210e95be0fd22ce5e71bd9348290a10db2e071d7d7d7e715e1fc91025547851f",
+          "words_read": 952,
+          "scope": "Complete extracted message body; publisher page-local named-speaker attribution, no audio alignment."
+        },
+        {
+          "source_id": "tr-source-jeshua-mary-full",
+          "text_sha256": "10c0e634493dd6f39945f433622cbddbc84f6339367d839361a8994998d94dfb",
+          "words_read": 1490,
+          "scope": "Complete extracted message body; publisher page-local named-speaker attribution, no audio alignment."
+        },
+        {
+          "source_id": "tr-source-jeshua-magdalene-full",
+          "text_sha256": "4076d8b6946a3b4ffde1d8562beda696970acd221dd97d175d8ce34db5586bd4",
+          "words_read": 2128,
+          "scope": "Complete extracted message body; publisher page-local named-speaker attribution, no audio alignment."
+        },
+        {
+          "source_id": "tr-source-omna-pleiadians",
+          "text_sha256": "18cfcb7044b83e0077074da41118b376fe5b83a8dc0070f72708783c17e4a117",
+          "words_read": 1063,
+          "scope": "Complete extracted message body; publisher source attribution, no spoken audio verification."
+        },
+        {
+          "source_id": "tr-source-omna-arcturians",
+          "text_sha256": "f8380e0e48dd56776024fcd04ae1eab12eb022490f8d68488363204afa0fd448",
+          "words_read": 824,
+          "scope": "Complete extracted message body; publisher source attribution, no spoken audio verification."
+        },
+        {
+          "source_id": "new-et-daniel-23785",
+          "text_sha256": "37446fafd1eb3abb5ce9008f647a933a5b3eeb73fa2156ee4deb9e9936cb25b3",
+          "words_read": 721,
+          "scope": "Complete extracted message body; publisher source attribution, no spoken audio verification."
+        },
+        {
+          "source_id": "new-et-daniel-385080",
+          "text_sha256": "a8ad800f2da3b02ce1b16c8649fbabd0d8ed541a376246d286b01c244ec0049b",
+          "words_read": 699,
+          "scope": "Complete extracted message body; publisher source attribution, no spoken audio verification."
+        },
+        {
+          "source_id": "new-et-lyssa-preparedness-138",
+          "text_sha256": "2cb1fc1ab0bec0ef5d7648a7650c1be8503dea4eaae754757e524524daadd6d3",
+          "words_read": 2671,
+          "scope": "Complete message body; Lyssa full mixed Q/A excerpt2742words also read, response-only2671word derivative used in model."
+        }
+      ],
+      "comparisons": [
+        {
+          "id": "mary-pilot",
+          "comparison_label": "mother_mary",
+          "source_ids": [
+            "tr-source-omna-mary",
+            "tr-source-jeshua-mary-full"
+          ],
+          "question_family": "How does a person respond to distrust, vulnerability or emotionally draining situations?",
+          "shared_theme": "Both messages invite a caring relationship with oneself and use love, joy and inward attention as resources.",
+          "natalie_glasson": "The message frames distrust as temporary disconnection from inner love and a generous universe; it recommends reconnecting with that love to recover trust.",
+          "pamela_kribbe": "The message emphasizes inner-child care, recognizing emotional over-involvement, boundaries, self-awareness and sometimes leaving a draining situation.",
+          "difference": "The first gives a general trust-and-abundance explanation. The second specifies relational boundaries and self-recognition. Their practical emphases differ; this is not evidence that the named historical or sacred figure spoke either text.",
+          "question_answer_status": "Analyst-composed comparison question, not a matched audience question or verified answer pair.",
+          "counterpoint": "Treating every adverse experience as merely an inner disconnection would overextend the first message. The second explicitly permits changing an external situation."
+        },
+        {
+          "id": "magdalene-pilot",
+          "comparison_label": "mary_magdalene",
+          "source_ids": [
+            "tr-source-omna-magdalene",
+            "tr-source-jeshua-magdalene-full"
+          ],
+          "question_family": "What kind of inward change is recommended, and how is it related to everyday action?",
+          "shared_theme": "Both recommend allowing inner change to alter relationships and action, with an emphasis on acceptance rather than simple suppression.",
+          "natalie_glasson": "The message centers on grace, crystalline consciousness and an initiation imagined as an embrace extending from oneself to surrounding situations.",
+          "pamela_kribbe": "The message centers on embodied passion, acknowledging shadow feelings, autonomy and integrating heart and bodily desire. It also contains a first-person narrative about religious and gender restrictions.",
+          "difference": "One presents a grace/initiation vocabulary; the other presents grounded emotional integration and an autobiographical social critique. Shared sacred naming does not erase these differing frameworks.",
+          "question_answer_status": "Analyst-composed comparison question, not a matched audience question or verified answer pair.",
+          "counterpoint": "The latter explicitly acknowledges potentially dominating or manipulative expressions of feminine energy; reading it as unconditional approval of all impulses would omit that qualification."
+        },
+        {
+          "id": "pleiadian-pilot",
+          "comparison_label": "pleiadian",
+          "comparison_level": "broad_civilization_label_not_same_speaker",
+          "source_ids": [
+            "new-et-daniel-23785",
+            "tr-source-omna-pleiadians",
+            "new-et-lyssa-preparedness-138"
+          ],
+          "question_family": "How is personal agency related to spiritual or social change?",
+          "shared_theme": "These selected texts emphasize inner choice and a movement away from fear-driven dependence, while giving very different practical content.",
+          "daniel_scranton": "The named High Council message rejects a universal formula and emphasizes individual choice, intuition, community and heart-centered guidance.",
+          "natalie_glasson": "The unnamed Pleiadian collective message recommends daily inward recentering and reducing spiritual distraction to follow a personally fulfilling path.",
+          "lyssa_royal": "The Sasha excerpt discusses debt, tangible wealth, self-responsibility and an imagined Equal Value System. It includes documentary audience questions.",
+          "difference": "Shared Pleiadian naming spans a specific council, an unnamed collective and a named speaker. Their message genres, eras and recommendations differ; the broad category does not establish a single doctrine.",
+          "counterpoint": "The Sasha source explicitly distinguishes communal sharing from hoarding and presents its society as one example, qualifications that a keyword-only reading could omit. Its financial claims are source content, not evaluated investment guidance.",
+          "question_answer_status": "Analyst-composed thematic comparison; the messages were not responses to the same observed question."
+        },
+        {
+          "id": "arcturian-pilot",
+          "comparison_label": "arcturian",
+          "comparison_level": "broad_civilization_label_not_same_speaker",
+          "source_ids": [
+            "new-et-daniel-385080",
+            "tr-source-omna-arcturians"
+          ],
+          "question_family": "What practices are proposed for changing experience or consciousness?",
+          "shared_theme": "Both sources encourage using inward awareness and personal resonance rather than a single compulsory routine.",
+          "daniel_scranton": "The named Council message offers a catalog of purported historical bodily, nature-based and meditative practices, then encourages choosing practices intuitively.",
+          "natalie_glasson": "The unnamed collective message centers on attention, intended qualities and imagining those qualities as a felt vibration affecting experience.",
+          "difference": "The Council narrative invokes an alleged past society and varied practices; the collective narrative offers a focused present-tense attention exercise. Topic overlap does not authenticate the society, mechanisms or speaker identity.",
+          "counterpoint": "The Glasson text allows anger or low feelings as a process someone may be passing through; reducing it to a requirement to feel positive would omit that qualification.",
+          "question_answer_status": "Analyst-composed thematic comparison, not verified matching dialogue."
+        }
+      ]
+    }
+  },
+  "graph": {
+    "source_records": 150,
+    "medium_records": 41,
+    "channellee_records": 52,
+    "claims": 69,
+    "groups": [
+      {
+        "id": "et-group-pleiadian",
+        "label": "Pleiadian labels",
+        "kind": "civilization_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "entity-glasson-pleiadians",
+          "et-aridif-rob",
+          "et-laarkmaa",
+          "et-phc7-daniel",
+          "et-pleiadian-arkayla",
+          "et-pleiadian-marciniak",
+          "et-pleiadian-nora",
+          "et-pleiadian-sam",
+          "et-pleiadian-wendy",
+          "et-sasha-lyssa"
+        ],
+        "all_claims": 11,
+        "relation_counts": {
+          "channels_collective": 8,
+          "channels_named_entity": 2,
+          "claims_to_channel": 1
+        },
+        "direct_claim_medium_records": 11,
+        "declared_practice_groups": 10,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-arkayla",
+          "medium-barbara-marciniak",
+          "medium-cullen-baird-smith",
+          "medium-daniel-scranton",
+          "medium-lyssa-royal-holt",
+          "medium-nora-herold",
+          "medium-pia-orleane",
+          "medium-rob-gauthier",
+          "medium-sam-the-illusionist",
+          "medium-wendy-kennedy",
+          "tr-medium-natalie-glasson"
+        ],
+        "source_ids": [
+          "et-src-arkayla",
+          "et-src-daniel-about",
+          "et-src-laarkmaa",
+          "et-src-lyssa-transcripts",
+          "et-src-marciniak",
+          "et-src-new-et-lyssa-preparedness-138",
+          "et-src-nora",
+          "et-src-rob-about",
+          "et-src-sam",
+          "et-src-wendy-academy",
+          "tr-source-omna-pleiadians"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "pleiadian",
+        "pilot_source_ids": [
+          "new-et-daniel-23785",
+          "new-et-daniel-23821",
+          "new-et-daniel-23838",
+          "new-et-lyssa-preparedness-138",
+          "tr-source-omna-pleiadians"
+        ],
+        "new_attributed_message_documents": 5,
+        "new_attributed_message_mediums": 3,
+        "text_comparison_status": "available_purposive_pilot",
+        "note": "Specific councils, individuals and unnamed collectives remain distinct. Aridif is described by publisher as Ancient Pleiadian from Deneb; preserve that wording without astronomically harmonizing it. Pia/Cullen form one practice. Sasha affiliation now supported by publisher PDF#138 p3, rather than inferred from library search terms."
+      },
+      {
+        "id": "et-group-arcturian",
+        "label": "Arcturian labels",
+        "kind": "civilization_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "entity-glasson-arcturians",
+          "et-arcturian-daniel",
+          "et-arcturian-sam",
+          "et-arcturian-wendy"
+        ],
+        "all_claims": 4,
+        "relation_counts": {
+          "channels_collective": 1,
+          "works_with_civilization": 1,
+          "publisher_category_label": 1,
+          "claims_to_channel": 1
+        },
+        "direct_claim_medium_records": 2,
+        "declared_practice_groups": 2,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-daniel-scranton",
+          "tr-medium-natalie-glasson"
+        ],
+        "source_ids": [
+          "et-src-daniel-about",
+          "et-src-sam",
+          "et-src-wendy-academy",
+          "tr-source-omna-arcturians"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "arcturian",
+        "pilot_source_ids": [
+          "new-et-daniel-385080",
+          "new-et-daniel-385177",
+          "new-et-daniel-385737",
+          "tr-source-omna-arcturians"
+        ],
+        "new_attributed_message_documents": 4,
+        "new_attributed_message_mediums": 2,
+        "text_comparison_status": "available_purposive_pilot",
+        "note": "Daniel named council; Wendy works-with affiliation; Sam category-only. These are unequal evidence scopes."
+      },
+      {
+        "id": "et-group-yahyel",
+        "label": "Yahyel labels",
+        "kind": "civilization_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "et-arjun-wieteke",
+          "et-ishuwa-shaun"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "channels_named_entity": 2
+        },
+        "direct_claim_medium_records": 2,
+        "declared_practice_groups": 2,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-shaun-swanson",
+          "medium-wieteke-koolhof"
+        ],
+        "source_ids": [
+          "et-src-shaun-about",
+          "et-src-wieteke"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Two publisher-attributed named beings, not one common named speaker."
+      },
+      {
+        "id": "et-group-zeta",
+        "label": "Zeta labels",
+        "kind": "civilization_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "et-zeta-daniel",
+          "et-zeta-paul"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "channels_collective": 1,
+          "reports_communications_from": 1
+        },
+        "direct_claim_medium_records": 1,
+        "declared_practice_groups": 1,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-daniel-scranton"
+        ],
+        "source_ids": [
+          "et-src-daniel-about",
+          "et-src-zeta-intro",
+          "et-src-zeta-pubs"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Daniel channeling and Paul reported communications are different relationship types; no shared source independence established."
+      },
+      {
+        "id": "et-group-bashar",
+        "label": "Bashar",
+        "kind": "shared_named_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "et-bashar-andrew",
+          "et-bashar-darryl"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "channels_named_entity": 2
+        },
+        "direct_claim_medium_records": 2,
+        "declared_practice_groups": 2,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-andrew-elan",
+          "medium-darryl-anka"
+        ],
+        "source_ids": [
+          "et-src-bashar-inherited",
+          "et-src-elan-about"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Andrew publisher claims Bashar trained Andrew and Darryl confirmed this; direct Andrew–Darryl teacher relationship is not established. Two attributed mediums are not two independent origins. No physical identity authentication."
+      },
+      {
+        "id": "et-group-sassani",
+        "label": "Sassani / Essassani vocabulary",
+        "kind": "civilization_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "et-ashanti-daniel",
+          "et-elan-andrew",
+          "et-ryokah-tyler"
+        ],
+        "all_claims": 3,
+        "relation_counts": {
+          "channels_named_entity": 3
+        },
+        "direct_claim_medium_records": 3,
+        "declared_practice_groups": 3,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-andrew-elan",
+          "medium-daniel-scranton",
+          "medium-tyler-ellison"
+        ],
+        "source_ids": [
+          "et-src-elan-about",
+          "et-src-elan-who",
+          "et-src-new-et-daniel-379240",
+          "et-src-tyler"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "sassani",
+        "pilot_source_ids": [
+          "new-et-daniel-379240"
+        ],
+        "new_attributed_message_documents": 1,
+        "new_attributed_message_mediums": 1,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Retained Tyler account says Sassani; Elan publisher says planet Essassani. Only these affiliations are admitted here; Bashar remains separate pending an equally inspectable affiliation passage. Planet/race vocabulary is not astronomical equivalence. Newly inspected Daniel message explicitly introduces Ashanti as Sassani."
+      },
+      {
+        "id": "et-group-ra",
+        "label": "Ra / RA",
+        "kind": "shared_named_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "et-ra-llresearch",
+          "et-ra-sam"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "channels_collective": 1,
+          "publisher_category_label": 1
+        },
+        "direct_claim_medium_records": 1,
+        "declared_practice_groups": 1,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-carla-rueckert"
+        ],
+        "source_ids": [
+          "et-src-ra-intro",
+          "et-src-ra-permitted",
+          "et-src-sam"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Historical L/L Research material and modern Sam category remain separate. Sam category association is not an inspected session attribution or Egyptian deity equivalence."
+      },
+      {
+        "id": "et-group-kryon",
+        "label": "Kryon",
+        "kind": "shared_named_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "et-kryon-lee",
+          "et-kryon-sam"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "channels_named_entity": 1,
+          "publisher_category_label": 1
+        },
+        "direct_claim_medium_records": 1,
+        "declared_practice_groups": 1,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-lee-carroll"
+        ],
+        "source_ids": [
+          "et-src-kryon-inherited",
+          "et-src-sam"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Kryon is a named entity label, not a civilization. Sam currently category-only; cannot assert two independently verified named-voice sessions."
+      },
+      {
+        "id": "et-group-andromedan",
+        "label": "Andromedan labels",
+        "kind": "civilization_label",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "entity-glasson-andromedans",
+          "et-andromedan-alex",
+          "et-andromedan-daniel"
+        ],
+        "all_claims": 3,
+        "relation_counts": {
+          "publisher_category_label": 1,
+          "claims_contact_with": 1,
+          "claims_to_channel": 1
+        },
+        "direct_claim_medium_records": 1,
+        "declared_practice_groups": 1,
+        "independence_established": false,
+        "medium_ids": [
+          "tr-medium-natalie-glasson"
+        ],
+        "source_ids": [
+          "et-src-alex",
+          "et-src-andromedan-scranton",
+          "et-src-daniel-about",
+          "tr-source-omna-andromedans"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "andromedan",
+        "pilot_source_ids": [
+          "tr-source-omna-andromedans"
+        ],
+        "new_attributed_message_documents": 1,
+        "new_attributed_message_mediums": 1,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Product category vs contactee discourse; neither is automatically a shared named channellee."
+      },
+      {
+        "id": "tr-group-michael",
+        "label": "Archangel Michael",
+        "kind": "shared_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-archangel-michael"
+        ],
+        "all_claims": 4,
+        "relation_counts": {
+          "claims_to_channel": 4
+        },
+        "direct_claim_medium_records": 4,
+        "declared_practice_groups": 4,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-daniel-scranton",
+          "tr-medium-diana-muenz-chen",
+          "tr-medium-natalie-glasson",
+          "tr-medium-ronna-vezane"
+        ],
+        "source_ids": [
+          "tr-source-daniel-michael",
+          "tr-source-diana-michael",
+          "tr-source-omna-michael",
+          "tr-source-ronna-home"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "archangel_michael",
+        "pilot_source_ids": [
+          "tr-source-omna-michael"
+        ],
+        "new_attributed_message_documents": 1,
+        "new_attributed_message_mediums": 1,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Multiple explicit medium attributions share a written angel name; no common-being or independence claim."
+      },
+      {
+        "id": "tr-group-gabriel",
+        "label": "Archangel Gabriel",
+        "kind": "shared_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-archangel-gabriel"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "claims_to_channel": 2
+        },
+        "direct_claim_medium_records": 2,
+        "declared_practice_groups": 2,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-daniel-scranton",
+          "tr-medium-shelley-young"
+        ],
+        "source_ids": [
+          "tr-source-daniel-gabriel-detail",
+          "tr-source-shelley-about"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Practitioner bio versus paid-product description; media coverage differs."
+      },
+      {
+        "id": "tr-group-mary",
+        "label": "Mother Mary",
+        "kind": "shared_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-mother-mary"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "claims_to_channel": 2
+        },
+        "direct_claim_medium_records": 2,
+        "declared_practice_groups": 2,
+        "independence_established": false,
+        "medium_ids": [
+          "tr-medium-natalie-glasson",
+          "tr-medium-pamela-kribbe"
+        ],
+        "source_ids": [
+          "tr-source-jeshua-mary-full",
+          "tr-source-jeshua-mother-mary",
+          "tr-source-omna-mary"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "mother_mary",
+        "pilot_source_ids": [
+          "tr-source-jeshua-mary-full",
+          "tr-source-omna-mary"
+        ],
+        "new_attributed_message_documents": 2,
+        "new_attributed_message_mediums": 2,
+        "text_comparison_status": "available_purposive_pilot",
+        "note": "Compare Marian-label channeling within each source framing; do not merge Magdalene."
+      },
+      {
+        "id": "tr-group-magdalene",
+        "label": "Mary Magdalene / Magdalen",
+        "kind": "related_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-mary-magdalen-kenyon",
+          "tr-entity-mary-magdalene"
+        ],
+        "all_claims": 3,
+        "relation_counts": {
+          "claims_to_channel": 3
+        },
+        "direct_claim_medium_records": 3,
+        "declared_practice_groups": 3,
+        "independence_established": false,
+        "medium_ids": [
+          "tr-medium-natalie-glasson",
+          "tr-medium-pamela-kribbe",
+          "tr-medium-tom-kenyon"
+        ],
+        "source_ids": [
+          "tr-source-jeshua-audio",
+          "tr-source-jeshua-magdalene-full",
+          "tr-source-kenyon-magdalen",
+          "tr-source-omna-magdalene"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "mary_magdalene",
+        "pilot_source_ids": [
+          "tr-source-jeshua-magdalene-full",
+          "tr-source-omna-magdalene"
+        ],
+        "new_attributed_message_documents": 2,
+        "new_attributed_message_mediums": 2,
+        "text_comparison_status": "available_purposive_pilot",
+        "note": "Kenyon source explicitly differentiates aspect/spelling; related-name comparison only."
+      },
+      {
+        "id": "tr-group-jesus",
+        "label": "Jeshua / Yeshua / Jesus-related",
+        "kind": "related_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-jeshua-kribbe",
+          "tr-entity-yeshua-scranton"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "claims_to_channel": 2
+        },
+        "direct_claim_medium_records": 2,
+        "declared_practice_groups": 2,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-daniel-scranton",
+          "tr-medium-pamela-kribbe"
+        ],
+        "source_ids": [
+          "tr-source-daniel-yeshua",
+          "tr-source-jeshua-audio",
+          "tr-source-jeshua-mornings-one-many"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "jeshua_jesus_related",
+        "pilot_source_ids": [
+          "tr-source-jeshua-mornings-one-many"
+        ],
+        "new_attributed_message_documents": 1,
+        "new_attributed_message_mediums": 1,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Source-specific identity statements retained; Christ consciousness is a conceptual theme, never a person merge."
+      },
+      {
+        "id": "tr-group-germain",
+        "label": "Saint Germain / Adamus Saint-Germain",
+        "kind": "related_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-adamus-saint-germain",
+          "tr-entity-saint-germain"
+        ],
+        "all_claims": 3,
+        "relation_counts": {
+          "claims_to_channel": 3
+        },
+        "direct_claim_medium_records": 3,
+        "declared_practice_groups": 3,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-daniel-scranton",
+          "tr-medium-geoffrey-hoppe",
+          "tr-medium-tara-arnold"
+        ],
+        "source_ids": [
+          "tr-source-daniel-germain",
+          "tr-source-hoppe-masters",
+          "tr-source-tara-germain"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Adamus audience-specific scope remains distinct."
+      },
+      {
+        "id": "tr-group-quanyin",
+        "label": "Quan Yin",
+        "kind": "shared_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-quan-yin"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "claims_to_channel": 2
+        },
+        "direct_claim_medium_records": 2,
+        "declared_practice_groups": 2,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-daniel-scranton",
+          "tr-medium-natalie-glasson"
+        ],
+        "source_ids": [
+          "tr-source-daniel-quanyin-detail",
+          "tr-source-omna-quanyin"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": "quan_yin",
+        "pilot_source_ids": [
+          "tr-source-omna-quanyin"
+        ],
+        "new_attributed_message_documents": 1,
+        "new_attributed_message_mediums": 1,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Named spiritual attribution, not representative of all Buddhist doctrine/practice."
+      },
+      {
+        "id": "tr-group-hathors",
+        "label": "The Hathors",
+        "kind": "related_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-hathors-kenyon",
+          "tr-entity-hathors-scranton"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "claims_to_channel": 2
+        },
+        "direct_claim_medium_records": 2,
+        "declared_practice_groups": 2,
+        "independence_established": false,
+        "medium_ids": [
+          "medium-daniel-scranton",
+          "tr-medium-tom-kenyon"
+        ],
+        "source_ids": [
+          "tr-source-daniel-hathors-detail",
+          "tr-source-kenyon-hathors"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Collective-name overlap, with different source descriptions; not singular goddess Hathor."
+      },
+      {
+        "id": "tr-group-erik",
+        "label": "Erik Medhus",
+        "kind": "shared_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-erik-medhus"
+        ],
+        "all_claims": 8,
+        "relation_counts": {
+          "claims_to_channel": 1,
+          "listed_series_medium": 7
+        },
+        "direct_claim_medium_records": 1,
+        "declared_practice_groups": 1,
+        "independence_established": false,
+        "medium_ids": [
+          "tr-medium-kim-babcock"
+        ],
+        "source_ids": [
+          "tr-source-erik-chakras",
+          "tr-source-erik-heal",
+          "tr-source-erik-home",
+          "tr-source-erik-kim-intro",
+          "tr-source-erik-kim-trance",
+          "tr-source-erik-mediums"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "Only explicit claims_to_channel edges count as named-speaker evidence; directory roles stay separate."
+      },
+      {
+        "id": "tr-group-krishna",
+        "label": "Krishna",
+        "kind": "shared_name_comparison",
+        "identity_equivalence": false,
+        "channellee_ids": [
+          "tr-entity-krishna"
+        ],
+        "all_claims": 2,
+        "relation_counts": {
+          "claims_to_channel": 1,
+          "reposted_channeling_attribution": 1
+        },
+        "direct_claim_medium_records": 1,
+        "declared_practice_groups": 1,
+        "independence_established": false,
+        "medium_ids": [
+          "tr-medium-leena"
+        ],
+        "source_ids": [
+          "tr-source-krishna-natalie-repost",
+          "tr-source-leena-krishna"
+        ],
+        "pilot_coverage_basis": "Explicit cross-register comparison-label mapping, preserving source-specific label IDs; no shared identity asserted.",
+        "pilot_comparison_label": null,
+        "pilot_source_ids": [],
+        "new_attributed_message_documents": 0,
+        "new_attributed_message_mediums": 0,
+        "text_comparison_status": "insufficient_cross_medium_attributed_text",
+        "note": "One original attribution plus one secondary republication; do not count as two original verified channels."
+      }
+    ],
+    "medium_names": {
+      "medium-darryl-anka": "Darryl Anka",
+      "medium-andrew-elan": "Andrew (Elan Interactions)",
+      "medium-tyler-ellison": "Tyler Ellison",
+      "medium-daniel-scranton": "Daniel Scranton",
+      "medium-wendy-kennedy": "Wendy Kennedy",
+      "medium-nora-herold": "Nora Herold",
+      "medium-barbara-marciniak": "Barbara Marciniak",
+      "medium-lyssa-royal-holt": "Lyssa Royal Holt",
+      "medium-rob-gauthier": "Rob Gauthier",
+      "medium-wieteke-koolhof": "Wieteke Koolhof",
+      "medium-shaun-swanson": "Shaun Swanson",
+      "medium-paul-hamden": "Paul Hamden",
+      "medium-alex-collier": "Alex Collier",
+      "medium-carla-rueckert": "Carla L. Rueckert",
+      "medium-lee-carroll": "Lee Carroll",
+      "medium-sam-the-illusionist": "Sam the Illusionist",
+      "medium-magenta-pixie": "Magenta Pixie",
+      "medium-pia-orleane": "Pia Orleane",
+      "medium-cullen-baird-smith": "Cullen Baird Smith",
+      "medium-arkayla": "Arkayla",
+      "tr-medium-natalie-glasson": "Natalie Glasson",
+      "tr-medium-pamela-kribbe": "Pamela Rose Kribbe",
+      "tr-medium-shelley-young": "Shelley Young",
+      "tr-medium-ronna-vezane": "Ronna Herman Vezane",
+      "tr-medium-diana-muenz-chen": "Diana Muenz Chen",
+      "tr-medium-tom-kenyon": "Tom Kenyon",
+      "tr-medium-geoffrey-hoppe": "Geoffrey Hoppe",
+      "tr-medium-kristin-davies": "Kristin Davies Medium",
+      "tr-medium-elisa-medhus": "Elisa Medhus",
+      "tr-medium-kim-babcock": "Kim Babcock",
+      "tr-medium-jennifer-doran": "Jennifer Doran",
+      "tr-medium-courtney-dillon": "Courtney Dillon",
+      "tr-medium-abbie-dagnese": "Abbie D’Agnese",
+      "tr-medium-liz-cross": "Liz Cross",
+      "tr-medium-ginger-bayley": "Ginger Bayley",
+      "tr-medium-veronica-drake": "Veronica Drake",
+      "tr-medium-michelle-gray": "Michelle Gray",
+      "tr-medium-jamie-butler": "Jamie Butler",
+      "tr-medium-danielle-hoffman": "Danielle Rama Hoffman",
+      "tr-medium-leena": "Leena (Golden Light Communications)",
+      "tr-medium-tara-arnold": "Tara Arnold"
+    },
+    "edges": [
+      {
+        "id": "et-claim-001",
+        "medium_id": "medium-darryl-anka",
+        "channellee_id": "et-bashar-darryl",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-bashar-inherited"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-002",
+        "medium_id": "medium-andrew-elan",
+        "channellee_id": "et-elan-andrew",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-elan-about",
+          "et-src-elan-who"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-003",
+        "medium_id": "medium-andrew-elan",
+        "channellee_id": "et-bashar-andrew",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-elan-about"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-004",
+        "medium_id": "medium-tyler-ellison",
+        "channellee_id": "et-ryokah-tyler",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-tyler"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-005",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "et-phc7-daniel",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-daniel-about"
+        ],
+        "scope": "named_collective"
+      },
+      {
+        "id": "et-claim-006",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "et-arcturian-daniel",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-daniel-about"
+        ],
+        "scope": "named_collective"
+      },
+      {
+        "id": "et-claim-007",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "et-zeta-daniel",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-daniel-about"
+        ],
+        "scope": "civilization_label"
+      },
+      {
+        "id": "et-claim-008",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "et-andromedan-daniel",
+        "relation": "publisher_category_label",
+        "source_ids": [
+          "et-src-andromedan-scranton",
+          "et-src-daniel-about"
+        ],
+        "scope": "archive_category"
+      },
+      {
+        "id": "et-claim-009",
+        "medium_id": "medium-wendy-kennedy",
+        "channellee_id": "et-pleiadian-wendy",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-wendy-academy"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-010",
+        "medium_id": "medium-wendy-kennedy",
+        "channellee_id": "et-arcturian-wendy",
+        "relation": "works_with_civilization",
+        "source_ids": [
+          "et-src-wendy-academy"
+        ],
+        "scope": "civilization_label"
+      },
+      {
+        "id": "et-claim-011",
+        "medium_id": "medium-wendy-kennedy",
+        "channellee_id": "et-sirian-wendy",
+        "relation": "works_with_civilization",
+        "source_ids": [
+          "et-src-wendy-academy"
+        ],
+        "scope": "civilization_label"
+      },
+      {
+        "id": "et-claim-012",
+        "medium_id": "medium-wendy-kennedy",
+        "channellee_id": "et-lyran-wendy",
+        "relation": "works_with_civilization",
+        "source_ids": [
+          "et-src-wendy-academy"
+        ],
+        "scope": "civilization_label"
+      },
+      {
+        "id": "et-claim-013",
+        "medium_id": "medium-nora-herold",
+        "channellee_id": "et-pleiadian-nora",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-nora"
+        ],
+        "scope": "publisher_metadata"
+      },
+      {
+        "id": "et-claim-014",
+        "medium_id": "medium-barbara-marciniak",
+        "channellee_id": "et-pleiadian-marciniak",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-marciniak"
+        ],
+        "scope": "civilization_label"
+      },
+      {
+        "id": "et-claim-015",
+        "medium_id": "medium-lyssa-royal-holt",
+        "channellee_id": "et-sasha-lyssa",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-lyssa-transcripts",
+          "et-src-new-et-lyssa-preparedness-138"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-016",
+        "medium_id": "medium-rob-gauthier",
+        "channellee_id": "et-aridif-rob",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-rob-about"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-017",
+        "medium_id": "medium-rob-gauthier",
+        "channellee_id": "et-treb-rob",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-rob-about"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-018",
+        "medium_id": "medium-wieteke-koolhof",
+        "channellee_id": "et-arjun-wieteke",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-wieteke"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-019",
+        "medium_id": "medium-shaun-swanson",
+        "channellee_id": "et-ishuwa-shaun",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-shaun-about"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-020",
+        "medium_id": "medium-paul-hamden",
+        "channellee_id": "et-zeta-paul",
+        "relation": "reports_communications_from",
+        "source_ids": [
+          "et-src-zeta-intro",
+          "et-src-zeta-pubs"
+        ],
+        "scope": "civilization_label"
+      },
+      {
+        "id": "et-claim-021",
+        "medium_id": "medium-alex-collier",
+        "channellee_id": "et-andromedan-alex",
+        "relation": "claims_contact_with",
+        "source_ids": [
+          "et-src-alex"
+        ],
+        "scope": "civilization_label"
+      },
+      {
+        "id": "et-claim-022",
+        "medium_id": "medium-carla-rueckert",
+        "channellee_id": "et-ra-llresearch",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-ra-permitted",
+          "et-src-ra-intro"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-023",
+        "medium_id": "medium-lee-carroll",
+        "channellee_id": "et-kryon-lee",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-kryon-inherited"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-024",
+        "medium_id": "medium-sam-the-illusionist",
+        "channellee_id": "et-pleiadian-sam",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-sam"
+        ],
+        "scope": "published_session_heading"
+      },
+      {
+        "id": "et-claim-025",
+        "medium_id": "medium-sam-the-illusionist",
+        "channellee_id": "et-arcturian-sam",
+        "relation": "publisher_category_label",
+        "source_ids": [
+          "et-src-sam"
+        ],
+        "scope": "archive_category"
+      },
+      {
+        "id": "et-claim-026",
+        "medium_id": "medium-sam-the-illusionist",
+        "channellee_id": "et-kryon-sam",
+        "relation": "publisher_category_label",
+        "source_ids": [
+          "et-src-sam"
+        ],
+        "scope": "archive_category"
+      },
+      {
+        "id": "et-claim-027",
+        "medium_id": "medium-sam-the-illusionist",
+        "channellee_id": "et-ra-sam",
+        "relation": "publisher_category_label",
+        "source_ids": [
+          "et-src-sam"
+        ],
+        "scope": "archive_category"
+      },
+      {
+        "id": "et-claim-028",
+        "medium_id": "medium-magenta-pixie",
+        "channellee_id": "et-nine-magenta",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-magenta",
+          "et-src-magenta-nine"
+        ],
+        "scope": "source_attributed_claim"
+      },
+      {
+        "id": "et-claim-029",
+        "medium_id": "medium-pia-orleane",
+        "channellee_id": "et-laarkmaa",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-laarkmaa"
+        ],
+        "scope": "joint_practice"
+      },
+      {
+        "id": "et-claim-030",
+        "medium_id": "medium-cullen-baird-smith",
+        "channellee_id": "et-laarkmaa",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-laarkmaa"
+        ],
+        "scope": "joint_practice"
+      },
+      {
+        "id": "et-claim-031",
+        "medium_id": "medium-arkayla",
+        "channellee_id": "et-pleiadian-arkayla",
+        "relation": "channels_collective",
+        "source_ids": [
+          "et-src-arkayla"
+        ],
+        "scope": "civilization_label"
+      },
+      {
+        "id": "et-claim-032",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "et-ashanti-daniel",
+        "relation": "channels_named_entity",
+        "source_ids": [
+          "et-src-new-et-daniel-379240"
+        ],
+        "scope": "published_message_body"
+      },
+      {
+        "id": "tr-claim-glasson-archangel-michael",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "tr-entity-archangel-michael",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-michael"
+        ],
+        "scope": "Specific written message with linked public MP3; media acquisition tracked separately."
+      },
+      {
+        "id": "tr-claim-glasson-metatron",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "tr-entity-metatron",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-metatron"
+        ],
+        "scope": "Specific written message with linked public MP3; media acquisition tracked separately."
+      },
+      {
+        "id": "tr-claim-glasson-quan-yin",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "tr-entity-quan-yin",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-quanyin"
+        ],
+        "scope": "Specific written message with linked public MP3; media acquisition tracked separately."
+      },
+      {
+        "id": "tr-claim-glasson-mother-mary",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "tr-entity-mother-mary",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-mary"
+        ],
+        "scope": "Specific written message with linked public MP3; media acquisition tracked separately."
+      },
+      {
+        "id": "tr-claim-glasson-mary-magdalene",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "tr-entity-mary-magdalene",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-magdalene"
+        ],
+        "scope": "Specific written message with linked public MP3; media acquisition tracked separately."
+      },
+      {
+        "id": "tr-claim-glasson-archangel-raphael",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "tr-entity-archangel-raphael",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-raphael"
+        ],
+        "scope": "Specific written message with linked public MP3; media acquisition tracked separately."
+      },
+      {
+        "id": "tr-claim-ronna-michael",
+        "medium_id": "tr-medium-ronna-vezane",
+        "channellee_id": "tr-entity-archangel-michael",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-ronna-home"
+        ],
+        "scope": "Legacy archive biography and named teachings."
+      },
+      {
+        "id": "tr-claim-diana-michael",
+        "medium_id": "tr-medium-diana-muenz-chen",
+        "channellee_id": "tr-entity-archangel-michael",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-diana-michael"
+        ],
+        "scope": "Practitioner account of channeling since1990s and advertised sessions."
+      },
+      {
+        "id": "tr-claim-daniel-michael",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "tr-entity-archangel-michael",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-daniel-michael"
+        ],
+        "scope": "Public landing page describing gated free meditation."
+      },
+      {
+        "id": "tr-claim-shelley-gabriel",
+        "medium_id": "tr-medium-shelley-young",
+        "channellee_id": "tr-entity-archangel-gabriel",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-shelley-about"
+        ],
+        "scope": "Official practitioner biography."
+      },
+      {
+        "id": "tr-claim-daniel-gabriel",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "tr-entity-archangel-gabriel",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-daniel-gabriel-detail"
+        ],
+        "scope": "Public paid-product description, not acquired recording."
+      },
+      {
+        "id": "tr-claim-daniel-quanyin",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "tr-entity-quan-yin",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-daniel-quanyin-detail"
+        ],
+        "scope": "Public paid-product description, not acquired recording."
+      },
+      {
+        "id": "tr-claim-pamela-jeshua-kribbe",
+        "medium_id": "tr-medium-pamela-kribbe",
+        "channellee_id": "tr-entity-jeshua-kribbe",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-jeshua-audio",
+          "tr-source-jeshua-mornings-one-many"
+        ],
+        "scope": "Publisher-labelled recorded or written channelings."
+      },
+      {
+        "id": "tr-claim-pamela-mary-magdalene",
+        "medium_id": "tr-medium-pamela-kribbe",
+        "channellee_id": "tr-entity-mary-magdalene",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-jeshua-audio",
+          "tr-source-jeshua-magdalene-full"
+        ],
+        "scope": "Publisher-labelled recorded or written channelings."
+      },
+      {
+        "id": "tr-claim-pamela-mother-mary",
+        "medium_id": "tr-medium-pamela-kribbe",
+        "channellee_id": "tr-entity-mother-mary",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-jeshua-mother-mary",
+          "tr-source-jeshua-mary-full"
+        ],
+        "scope": "Publisher-labelled recorded or written channelings."
+      },
+      {
+        "id": "tr-claim-pamela-isis",
+        "medium_id": "tr-medium-pamela-kribbe",
+        "channellee_id": "tr-entity-isis",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-jeshua-isis-full"
+        ],
+        "scope": "Publisher-labelled recorded or written channelings."
+      },
+      {
+        "id": "tr-claim-kenyon-magdalen",
+        "medium_id": "tr-medium-tom-kenyon",
+        "channellee_id": "tr-entity-mary-magdalen-kenyon",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-kenyon-magdalen"
+        ],
+        "scope": "Publisher transcript introduction; personal-use/no-redistribution notice."
+      },
+      {
+        "id": "tr-claim-kenyon-hathors",
+        "medium_id": "tr-medium-tom-kenyon",
+        "channellee_id": "tr-entity-hathors-kenyon",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-kenyon-hathors"
+        ],
+        "scope": "Practitioner account of claimed contact and voice sound meditations."
+      },
+      {
+        "id": "tr-claim-daniel-hathors",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "tr-entity-hathors-scranton",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-daniel-hathors-detail"
+        ],
+        "scope": "January2022 paid Q&A recording description; not acquired."
+      },
+      {
+        "id": "tr-claim-daniel-yeshua",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "tr-entity-yeshua-scranton",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-daniel-yeshua"
+        ],
+        "scope": "Advertised paid one-hour monthly session."
+      },
+      {
+        "id": "tr-claim-daniel-germain",
+        "medium_id": "medium-daniel-scranton",
+        "channellee_id": "tr-entity-saint-germain",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-daniel-germain"
+        ],
+        "scope": "Public written transmission."
+      },
+      {
+        "id": "tr-claim-hoppe-adamus",
+        "medium_id": "tr-medium-geoffrey-hoppe",
+        "channellee_id": "tr-entity-adamus-saint-germain",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-hoppe-masters"
+        ],
+        "scope": "Official Crimson Circle master description and chronology."
+      },
+      {
+        "id": "tr-claim-kim-erik",
+        "medium_id": "tr-medium-kim-babcock",
+        "channellee_id": "tr-entity-erik-medhus",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-erik-kim-intro",
+          "tr-source-erik-kim-trance"
+        ],
+        "scope": "2015 test session and July8,2016 transcript; present activity unverified."
+      },
+      {
+        "id": "tr-claim-series-jennifer-doran",
+        "medium_id": "tr-medium-jennifer-doran",
+        "channellee_id": "tr-entity-erik-medhus",
+        "relation": "listed_series_medium",
+        "source_ids": [
+          "tr-source-erik-chakras",
+          "tr-source-erik-mediums"
+        ],
+        "scope": "Directory inspected2026; specific homepage/episode descriptions2024 where present."
+      },
+      {
+        "id": "tr-claim-series-courtney-dillon",
+        "medium_id": "tr-medium-courtney-dillon",
+        "channellee_id": "tr-entity-erik-medhus",
+        "relation": "listed_series_medium",
+        "source_ids": [
+          "tr-source-erik-heal",
+          "tr-source-erik-mediums"
+        ],
+        "scope": "Directory inspected2026; specific homepage/episode descriptions2024 where present."
+      },
+      {
+        "id": "tr-claim-series-abbie-dagnese",
+        "medium_id": "tr-medium-abbie-dagnese",
+        "channellee_id": "tr-entity-erik-medhus",
+        "relation": "listed_series_medium",
+        "source_ids": [
+          "tr-source-erik-home",
+          "tr-source-erik-mediums"
+        ],
+        "scope": "Directory inspected2026; specific homepage/episode descriptions2024 where present."
+      },
+      {
+        "id": "tr-claim-series-liz-cross",
+        "medium_id": "tr-medium-liz-cross",
+        "channellee_id": "tr-entity-erik-medhus",
+        "relation": "listed_series_medium",
+        "source_ids": [
+          "tr-source-erik-home",
+          "tr-source-erik-mediums"
+        ],
+        "scope": "Directory inspected2026; specific homepage/episode descriptions2024 where present."
+      },
+      {
+        "id": "tr-claim-series-ginger-bayley",
+        "medium_id": "tr-medium-ginger-bayley",
+        "channellee_id": "tr-entity-erik-medhus",
+        "relation": "listed_series_medium",
+        "source_ids": [
+          "tr-source-erik-home",
+          "tr-source-erik-mediums"
+        ],
+        "scope": "Directory inspected2026; specific homepage/episode descriptions2024 where present."
+      },
+      {
+        "id": "tr-claim-series-veronica-drake",
+        "medium_id": "tr-medium-veronica-drake",
+        "channellee_id": "tr-entity-erik-medhus",
+        "relation": "listed_series_medium",
+        "source_ids": [
+          "tr-source-erik-mediums"
+        ],
+        "scope": "Directory inspected2026; specific homepage/episode descriptions2024 where present."
+      },
+      {
+        "id": "tr-claim-series-michelle-gray",
+        "medium_id": "tr-medium-michelle-gray",
+        "channellee_id": "tr-entity-erik-medhus",
+        "relation": "listed_series_medium",
+        "source_ids": [
+          "tr-source-erik-mediums"
+        ],
+        "scope": "Directory inspected2026; specific homepage/episode descriptions2024 where present."
+      },
+      {
+        "id": "tr-claim-hoffman-thoth",
+        "medium_id": "tr-medium-danielle-hoffman",
+        "channellee_id": "tr-entity-thoth",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-danielle-thoth"
+        ],
+        "scope": "Host-published interview transcript with in-session named introduction."
+      },
+      {
+        "id": "tr-claim-leena-krishna",
+        "medium_id": "tr-medium-leena",
+        "channellee_id": "tr-entity-krishna",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-leena-krishna"
+        ],
+        "scope": "March1,2025 brief publisher-written message."
+      },
+      {
+        "id": "tr-claim-glasson-krishna-repost",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "tr-entity-krishna",
+        "relation": "reposted_channeling_attribution",
+        "source_ids": [
+          "tr-source-krishna-natalie-repost"
+        ],
+        "scope": "Inspected third-party republication; original message/date not independently recovered."
+      },
+      {
+        "id": "tr-claim-tara-germain",
+        "medium_id": "tr-medium-tara-arnold",
+        "channellee_id": "tr-entity-saint-germain",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-tara-germain"
+        ],
+        "scope": "Official practitioner explanation and linked YouTube channel."
+      },
+      {
+        "id": "tr-claim-glasson-arcturians",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "entity-glasson-arcturians",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-arcturians"
+        ],
+        "scope": "Specific publisher written message with same-page MP3 link."
+      },
+      {
+        "id": "tr-claim-glasson-pleiadians",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "entity-glasson-pleiadians",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-pleiadians"
+        ],
+        "scope": "Specific publisher written message with same-page MP3 link."
+      },
+      {
+        "id": "tr-claim-glasson-andromedans",
+        "medium_id": "tr-medium-natalie-glasson",
+        "channellee_id": "entity-glasson-andromedans",
+        "relation": "claims_to_channel",
+        "source_ids": [
+          "tr-source-omna-andromedans"
+        ],
+        "scope": "Specific publisher written message with same-page MP3 link."
+      }
+    ],
+    "channellee_names": {
+      "et-bashar-darryl": "Bashar — Darryl Anka attribution",
+      "et-elan-andrew": "Elan",
+      "et-bashar-andrew": "Bashar — Andrew attribution",
+      "et-ryokah-tyler": "RYOKAH",
+      "et-phc7-daniel": "Pleiadian High Council of 7",
+      "et-arcturian-daniel": "9D Arcturian Council",
+      "et-zeta-daniel": "Zetas — Daniel Scranton label",
+      "et-andromedan-daniel": "Andromedan Council of Light",
+      "et-pleiadian-wendy": "9th Dimensional Pleiadian Collective",
+      "et-arcturian-wendy": "Beings from Arcturus — Wendy Kennedy",
+      "et-sirian-wendy": "Beings from Sirius — Wendy Kennedy",
+      "et-lyran-wendy": "Beings from Lyra — Wendy Kennedy",
+      "et-pleiadian-nora": "Pleiadian Collective — Nora Herold",
+      "et-pleiadian-marciniak": "Pleiadians — Barbara Marciniak",
+      "et-sasha-lyssa": "Sasha — Lyssa Royal Holt",
+      "et-aridif-rob": "Aridif",
+      "et-treb-rob": "Treb Bor Yit-Ne",
+      "et-arjun-wieteke": "Arjun",
+      "et-ishuwa-shaun": "Ishuwa",
+      "et-zeta-paul": "Zeta race — Paul Hamden",
+      "et-andromedan-alex": "Andromedans — Alex Collier",
+      "et-ra-llresearch": "Ra — L/L Research 1981–1984",
+      "et-kryon-lee": "Kryon — Lee Carroll attribution",
+      "et-pleiadian-sam": "Pleiadians — Sam archive",
+      "et-arcturian-sam": "Arcturians — Sam archive",
+      "et-kryon-sam": "Kryon — Sam archive",
+      "et-ra-sam": "RA — Sam archive",
+      "et-nine-magenta": "White Winged Collective Consciousness of Nine",
+      "et-laarkmaa": "Laarkmaa",
+      "et-pleiadian-arkayla": "Pleiadians — Arkayla",
+      "et-ashanti-daniel": "Ashanti — Daniel Scranton",
+      "tr-entity-archangel-michael": "Archangel Michael",
+      "tr-entity-archangel-gabriel": "Archangel Gabriel",
+      "tr-entity-archangel-raphael": "Archangel Raphael",
+      "tr-entity-metatron": "Archangel Metatron",
+      "tr-entity-mother-mary": "Mother Mary",
+      "tr-entity-mary-magdalene": "Mary Magdalene",
+      "tr-entity-mary-magdalen-kenyon": "Mary Magdalen (Kenyon aspect)",
+      "tr-entity-jeshua-kribbe": "Jeshua (Kribbe)",
+      "tr-entity-yeshua-scranton": "Yeshua (Scranton)",
+      "tr-entity-saint-germain": "Saint Germain",
+      "tr-entity-adamus-saint-germain": "Adamus Saint-Germain (Crimson Circle)",
+      "tr-entity-quan-yin": "Quan Yin / Lady Quan Yin",
+      "tr-entity-isis": "Isis (Kribbe)",
+      "tr-entity-hathors-kenyon": "The Hathors (Kenyon)",
+      "tr-entity-hathors-scranton": "The Hathors (Scranton)",
+      "tr-entity-erik-medhus": "Erik Rune Medhus",
+      "tr-entity-thoth": "Thoth (Hoffman)",
+      "tr-entity-krishna": "Krishna",
+      "entity-glasson-arcturians": "Arcturians (Glasson)",
+      "entity-glasson-pleiadians": "Pleiadians (Glasson)",
+      "entity-glasson-andromedans": "Andromedans (Glasson)"
+    }
+  },
+  "checks": {
+    "all_private_media_counts_omitted": true,
+    "human_review": false,
+    "study_type": "exploratory_descriptive",
+    "existing_bashar_ra_paper_modified": false
+  },
+  "input_version_policy": "Input hashes identify the retained bytes inspected at this paper freeze. Repository paths may later advance; exact source-method and review editions are retained with private review evidence. Portable paper compilation uses only the supplied paper files and snapshot, not changing repository paths."
+}
