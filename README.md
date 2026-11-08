@@ -2,6 +2,16 @@
 
 **[Open the Channeling Atlas dashboard](https://occult-kranti.github.io/channels-ET/dist/#/research-update)** · [Existing private Site](https://channeling-atlas.whatswrong-inc.chatgpt.site)
 
+### YouTube collection repair · 8 November 2026
+
+Open the **[YouTube collection ledger](https://occult-kranti.github.io/channels-ET/dist/youtube-archive/)**. The reconciled index now contains **2,812 video IDs across 297 account references**, adding **752 IDs** to the preceding 2,060-ID frame. Account references include unresolved identities and exclusions; they are not 297 verified complete channels. A first-party crawl retained 1,215 documents across 16 publisher contexts, with 24 failed/held requests still explicit. All screenshot screening decisions remain preserved.
+
+The new finite OmNa publisher collection retains **192 audio files / 44.55 hours / 942.25 MB** and **192 associated written editions / 189,717 words**. Original MP3s and verified, full-duration 48 kbps Opus derivatives remain private, with source/output hashes and decode receipts. Written messages are separate publisher editions, not ASR or word-aligned transcripts; exact page/record joins expose their provenance. Existing topic models and the 493-source analysis remain frozen.
+
+The dashboard provides account and all-video views, filters, uploader evidence, per-tab enumeration status, exact retained-asset counts, storage information and CSV/JSON exports. **Direct YouTube acquisition remains blocked before origin by CONNECT 403, so new YouTube downloads remain zero.** Supported yt-dlp runtime repairs and local HTTP tests are documented separately from that transport failure. The queue has no item-count cap; only Bashar-associated items retain the five-minute minimum.
+
+[Methods and commands](research/youtube-archive/README.md) · [Current handoff](research/youtube-archive/HANDOFF.md) · [GitHub / Stack Overflow tool research](research/youtube-archive/TOOL-RESEARCH.md) · [Independent AI review](research/youtube-archive/REVIEW.md) · [Further unchecked publisher leads](research/youtube-archive/NEXT-SOURCES.md). GitHub contains organized code, manifests and metadata; full media and written bodies remain in the managed private workspace, with no permanent ChatGPT-account or Drive-backup claim.
+
 ### Transcript knowledge explorer · 8 November 2026
 
 Open the **[question bank and knowledge graph](https://occult-kranti.github.io/channels-ET/dist/transcript-knowledge/)**. The extension processes the same **493 canonical sources / 1,411,446 words** into source profiles and **9,424 typed entries**: 2,523 printed Ra pairs, 6,408 unverified question cues and 493 generated reading tasks. Four printed pairs contain missing-question placeholders. Candidate context is never silently treated as an answer.

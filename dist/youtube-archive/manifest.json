@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "title": "YouTube archive · Channeling Atlas",
+  "generated_at": "2026-11-08T20:51:52.501654+00:00",
+  "scope": "Source-bound discovery, account identity, enumeration and verified retention. Unknown channel totals remain unknown.",
+  "modules": {
+    "inventory": {
+      "file": "inventory.json",
+      "bytes": 6246480,
+      "sha256": "0411954faeccfb5637a1ef01a154c638cff0927b8baafbffe5cbd5ef8d2bcfff",
+      "required": true
+    },
+    "collection": {
+      "file": "collector-status.json",
+      "bytes": 1676484,
+      "sha256": "ecbe76a6678c3b62adcb95a70932522772acf2bf04842be6f4f1965d289ea3e0",
+      "required": true
+    },
+    "discovery": {
+      "file": "publisher-discovery.json",
+      "bytes": 3860623,
+      "sha256": "98d4d339098b9da4248506ca867d60553752f34cd914e7fe1afd5c0009672966",
+      "required": true
+    },
+    "publisher_text": {
+      "file": "publisher-text-recovery.json",
+      "bytes": 257957,
+      "sha256": "1f26be98ee77d4861c788a2350bade86a6922f85622b46c6dd02380927e1cdab",
+      "required": false
+    },
+    "literature": {
+      "file": "literature.json",
+      "bytes": 41713,
+      "sha256": "b1c5a344732c022b08c5364ecdc789cc4651cfa407917ab09dfa46dcf024406b",
+      "required": false
+    },
+    "publisher_media": {
+      "file": "publisher-media.json",
+      "bytes": 673791,
+      "sha256": "7bac415597b5220e51e25885548e761de9098f16c2d100b5dcdf5e784a99670b",
+      "required": false
+    },
+    "reconciliation": {
+      "file": "reconciliation.json",
+      "bytes": 15277,
+      "sha256": "bd6807e5c43c3cfb9d1ed5a732a50fde3f0a5a464e75743c9e8c7a5ad4e5d780",
+      "required": true
+    }
+  },
+  "artifacts": [
+    {
+      "file": "inventory.json",
+      "bytes": 6246480,
+      "sha256": "0411954faeccfb5637a1ef01a154c638cff0927b8baafbffe5cbd5ef8d2bcfff"
+    },
+    {
+      "file": "collector-status.json",
+      "bytes": 1676484,
+      "sha256": "ecbe76a6678c3b62adcb95a70932522772acf2bf04842be6f4f1965d289ea3e0"
+    },
+    {
+      "file": "publisher-discovery.json",
+      "bytes": 3860623,
+      "sha256": "98d4d339098b9da4248506ca867d60553752f34cd914e7fe1afd5c0009672966"
+    },
+    {
+      "file": "publisher-text-recovery.json",
+      "bytes": 257957,
+      "sha256": "1f26be98ee77d4861c788a2350bade86a6922f85622b46c6dd02380927e1cdab"
+    },
+    {
+      "file": "literature.json",
+      "bytes": 41713,
+      "sha256": "b1c5a344732c022b08c5364ecdc789cc4651cfa407917ab09dfa46dcf024406b"
+    },
+    {
+      "file": "publisher-media.json",
+      "bytes": 673791,
+      "sha256": "7bac415597b5220e51e25885548e761de9098f16c2d100b5dcdf5e784a99670b"
+    },
+    {
+      "file": "reconciliation.json",
+      "bytes": 15277,
+      "sha256": "bd6807e5c43c3cfb9d1ed5a732a50fde3f0a5a464e75743c9e8c7a5ad4e5d780"
+    },
+    {
+      "file": "docs/COLLECTION.md",
+      "bytes": 12131,
+      "sha256": "4bf87c440b5803f25904507c4ef453a312167529959565258794778dc9e0911a"
+    },
+    {
+      "file": "docs/DESIGN.md",
+      "bytes": 7326,
+      "sha256": "c5f8859419abc8a9016dca78d70b76eb885ff4da31c58005244467782211c855"
+    },
+    {
+      "file": "docs/DISCOVERY.md",
+      "bytes": 12641,
+      "sha256": "aa46ad92c5d8a39d8991a7c5200d1fe30f35cbcde02c5c9dd541c4872f37fab9"
+    },
+    {
+      "file": "docs/HANDOFF.md",
+      "bytes": 6216,
+      "sha256": "fc46cb3f24017625606248574313a76840fce0d1bf2deff967fe81b964ea3e9a"
+    },
+    {
+      "file": "docs/INVENTORY.md",
+      "bytes": 7144,
+      "sha256": "5bf4306e3400fc86180274f9055417977507ad266bf0a0eaf31d14627cb0b12e"
+    },
+    {
+      "file": "docs/NEXT-SOURCES.md",
+      "bytes": 5155,
+      "sha256": "c7d0e5d075b9f08990711d3e090b53ef1c109c837afe8f4cf70b6623ffab62fd"
+    },
+    {
+      "file": "docs/PUBLISHER-MEDIA.md",
+      "bytes": 9895,
+      "sha256": "95018ea7ddf5bfd483b15ba6c19c0b1fd14df00462867ba1bb65b7bb37ad4de5"
+    },
+    {
+      "file": "docs/README.md",
+      "bytes": 5503,
+      "sha256": "e649718b6af70e19152b185f0ce81f89ff60278bf1f2c07ac4c9af2e0b4ee18e"
+    },
+    {
+      "file": "docs/REVIEW.md",
+      "bytes": 17945,
+      "sha256": "af8e440071d58cc2049149a9841d83166d4b4dec6c2ee52c762362bd29b224c5"
+    },
+    {
+      "file": "docs/TEXT-RECOVERY.md",
+      "bytes": 3869,
+      "sha256": "0b04885de1b590bb1ed8c38fc60829f57987548275c592f90e28301f1de30338"
+    },
+    {
+      "file": "docs/TOOL-RESEARCH.md",
+      "bytes": 16330,
+      "sha256": "ad595e0ca7b9df35429d54c53c907573fe9f7e6ba53895cd60ada967ad1625cd"
+    },
+    {
+      "file": "index.html",
+      "bytes": 2012,
+      "sha256": "ef1c5fa5f2e8f6eff26d30525ee09a2150408033c6a82c0bcefe779d67e575a1"
+    },
+    {
+      "file": "app.js",
+      "bytes": 49588,
+      "sha256": "45dfbfcc1a09d1923af10bb4cf0260a98c9fc5b0e561f1a99818e26f3feb57e9"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 10838,
+      "sha256": "b2a13ffd5eb93846c6e37c91ebcb2b4c6dcfd55040d523cf6965c20466d8b284"
+    }
+  ],
+  "builder_sha256": "612eaee7c769e9948ebe622fae59f1d134b9e62f72ce854e09e751f1e6ae5397"
+}

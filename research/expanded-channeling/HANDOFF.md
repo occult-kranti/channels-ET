@@ -1,3 +1,5 @@
+> Latest collection repair: [YouTube archive handoff](../youtube-archive/HANDOFF.md). The 8 November follow-on reconciles 2,812 video IDs, retains separately sourced publisher audio/text, and preserves this earlier analysis edition.
+
 # Current research handoff — 8 November 2026
 
 This handoff supersedes older collection plans, without changing their frozen

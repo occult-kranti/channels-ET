@@ -1,0 +1,864 @@
+{
+  "schema_version": 1,
+  "study": "youtube-archive-tool-research",
+  "reviewed_at": "2026-11-08T20:01:35.057632+00:00",
+  "observed_release": {
+    "tag": "2026.10.26",
+    "published_at": "2026-10-26T22:25:26Z",
+    "release_api_sha256": "b289f5fe307d845bf0762e375c269606e643a0d0a857ad5468baf848e908e50e",
+    "stable_python_requirement": ">=3.11",
+    "stable_ejs_requirement": "==0.8.0"
+  },
+  "observed_master_commit": "412e7f0a4b0588fe884a02b344ac66a06538475b",
+  "sources": [
+    {
+      "id": "ytdlp-release",
+      "title": "Official latest stable release metadata",
+      "authority": "official_release_metadata",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/releases/latest",
+      "final_url": "https://api.github.com/repos/yt-dlp/yt-dlp/releases/latest",
+      "accessed_at": "2026-11-08T19:51:23.300089+00:00",
+      "bytes": 46562,
+      "sha256": "b289f5fe307d845bf0762e375c269606e643a0d0a857ad5468baf848e908e50e",
+      "access_depth": "Release tag, publication timestamp, important changes and dependency-related changelog inspected.",
+      "findings": [
+        "Latest stable API response identifies 2026.10.26 published 2026-10-26T22:25:26Z.",
+        "The release removes Python3.10 support. This is metadata inspection, not an installation or source-access test."
+      ],
+      "applicable_failure_layers": [
+        "tool_version"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "ytdlp-stable-pyproject",
+      "title": "yt-dlp2026.10.26 package configuration",
+      "authority": "official_pinned_code",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.10.26/pyproject.toml",
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.10.26/pyproject.toml",
+      "accessed_at": "2026-11-08T19:52:24.313223+00:00",
+      "bytes": 12716,
+      "sha256": "e030907b6fffb781c0e5f208ec51a90dec45ae10dcbf9cc33af4cd665d886c4d",
+      "access_depth": "requires-python plus default/dependency sections; complete file retained, not every setting reviewed.",
+      "findings": [
+        "requires-python>=3.11; yt-dlp-ejs==0.8.0 for this exact release."
+      ],
+      "applicable_failure_layers": [
+        "tool_version",
+        "javascript_runtime"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "ytdlp-readme-pinned",
+      "title": "Current yt-dlp README",
+      "authority": "official_pinned_documentation",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md",
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md",
+      "accessed_at": "2026-11-08T19:52:23.986569+00:00",
+      "bytes": 179127,
+      "sha256": "6adba80a892aee34940550ee8d7085041afca6140b7ac56d6414f1e6eb484bfe",
+      "access_depth": "Selected dependency/update, playlist/tab, simulation/archive, download/audio, retry/sleep and YouTube extractor-argument sections read.",
+      "findings": [
+        "Channel root includes videos, shorts and streams; specific tab URLs scope enumeration.",
+        "Flat entries may lack metadata; lazy mode disables n_entries.",
+        "--force-write-archive can mark simulated entries; --ignore-errors can treat postprocessing failures as success.",
+        "-N is per-video fragment concurrency; archive completion is not artifact integrity."
+      ],
+      "applicable_failure_layers": [
+        "enumeration",
+        "queue_accounting",
+        "media_postprocessing",
+        "rate_limit"
+      ],
+      "verified_fix_for_this_environment": false,
+      "commit": "412e7f0a4b0588fe884a02b344ac66a06538475b"
+    },
+    {
+      "id": "ytdlp-ejs-wiki",
+      "title": "External JS Scripts Setup Guide",
+      "authority": "official_wiki_snapshot",
+      "url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/EJS.md",
+      "final_url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/EJS.md",
+      "accessed_at": "2026-11-08T19:51:23.303899+00:00",
+      "bytes": 11053,
+      "sha256": "0b07ba789625c045d6e215df427af2eee1d3e444d5359b07dd81108fbbbe83ea",
+      "access_depth": "Runtime and EJS setup sections read in full; linked runtime/package documentation not all followed.",
+      "findings": [
+        "Deno>=2.3.0, enabled by default; Node>=22.0.0, enabled explicitly.",
+        "The installed EJS version must match the supported version for the installed yt-dlp release.",
+        "Bun support is deprecated; old PhantomJS/JSInterp advice is not current YouTube guidance."
+      ],
+      "applicable_failure_layers": [
+        "javascript_runtime"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "ejs-readme",
+      "title": "yt-dlp EJS project README",
+      "authority": "official_project_documentation",
+      "url": "https://raw.githubusercontent.com/yt-dlp/ejs/master/README.md",
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/ejs/master/README.md",
+      "accessed_at": "2026-11-08T19:51:23.625123+00:00",
+      "bytes": 4590,
+      "sha256": "bfb96fcc1ee296bb20456238a4f09072c62dfbcfe9ea37823bc59a5a1dce01ac",
+      "access_depth": "Project purpose and runtime/challenge-provider setup inspected; no EJS code executed.",
+      "findings": [
+        "EJS provides the external JavaScript challenge components; it is distinct from having Node or Deno installed."
+      ],
+      "applicable_failure_layers": [
+        "javascript_runtime"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "ytdlp-extractors",
+      "title": "YouTube extractor wiki",
+      "authority": "official_wiki_snapshot",
+      "url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/Extractors.md",
+      "final_url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/Extractors.md",
+      "accessed_at": "2026-11-08T19:51:23.301182+00:00",
+      "bytes": 3908,
+      "sha256": "e914a6944c742ebb62b95eee814808a8ffc07beaca178779022c357d2d8e8c73",
+      "access_depth": "PO-token notice, cookie/session guidance, common rate error and OAuth notice inspected.",
+      "findings": [
+        "PO-token/client issues occur after origin access.",
+        "Current guide recommends request delays for the reported origin rate-limit error.",
+        "OAuth no longer works for YouTube login in yt-dlp according to this snapshot.",
+        "Cookies are only relevant to an authorized session and do not grant access to otherwise inaccessible media."
+      ],
+      "applicable_failure_layers": [
+        "origin_authentication",
+        "origin_rate_limit",
+        "origin_formats"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "po-token-page",
+      "title": "YouTube PO Token Guide",
+      "authority": "official_wiki_snapshot",
+      "url": "https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide",
+      "final_url": "https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide",
+      "accessed_at": "2026-11-08T19:52:23.985922+00:00",
+      "bytes": 176665,
+      "sha256": "6381e13662136b4fa81c8f6c1da746bcf39f7b10caf9d789383c2661a56153eb",
+      "access_depth": "Rendered guide body: three token contexts, current client table, provider guidance and binding/lifespan caveats; page displays last edit12July2026.",
+      "findings": [
+        "Contexts distinguish GVS media, player and subtitle requests.",
+        "Tokens are client/content/session-bound; many require a new token per video.",
+        "Current guide favors a provider for applicable mweb/GVS use; no provider was installed or tested here.",
+        "A token cannot repair a rejected transport CONNECT tunnel."
+      ],
+      "applicable_failure_layers": [
+        "origin_formats",
+        "origin_authentication"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "bgutil-readme",
+      "title": "BgUtils POT Provider README",
+      "authority": "third_party_repository_documentation",
+      "url": "https://raw.githubusercontent.com/Brainicism/bgutil-ytdlp-pot-provider/master/README.md",
+      "final_url": "https://raw.githubusercontent.com/Brainicism/bgutil-ytdlp-pot-provider/master/README.md",
+      "accessed_at": "2026-11-08T19:51:23.811102+00:00",
+      "bytes": 9930,
+      "sha256": "a966dbe487686c22ae898e270548d19a3c50df67a146e51705b2ae6440d6718b",
+      "access_depth": "Purpose/caution, requirements, provider/plugin split, local-server/script modes, concurrency caveat and verification section inspected. No code installation.",
+      "findings": [
+        "The repository cautions that a PO token does not guarantee resolving403 or bot checks.",
+        "Script mode is not recommended for high concurrency due to process overhead and cache concurrency.",
+        "A loaded plugin is not proof that a token was requested or generated."
+      ],
+      "applicable_failure_layers": [
+        "origin_formats"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "ytdlp-faq",
+      "title": "yt-dlp FAQ",
+      "authority": "official_wiki_snapshot",
+      "url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/FAQ.md",
+      "final_url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/FAQ.md",
+      "accessed_at": "2026-11-08T19:51:23.300499+00:00",
+      "bytes": 18605,
+      "sha256": "1322595f80bbcac827ab132cb2a7500350aa61706fe58c2195d4f678f9e63b1a",
+      "access_depth": "Cookie and HTTP403/Cloudflare-related sections checked against earlier retained study; complete FAQ not reread.",
+      "findings": [
+        "Site-specific403/authentication guidance should not be applied to a pre-origin CONNECT failure.",
+        "Session material is private configuration, not a public source-log field."
+      ],
+      "applicable_failure_layers": [
+        "origin_authentication",
+        "origin_http_error"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "ytdlp-tab-code",
+      "title": "YouTube tab extractor code",
+      "authority": "official_pinned_code",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/yt_dlp/extractor/youtube/_tab.py",
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/yt_dlp/extractor/youtube/_tab.py",
+      "accessed_at": "2026-11-08T19:52:23.987041+00:00",
+      "bytes": 123044,
+      "sha256": "736ac305841cf6f070cb44a2d7060771e9743f30b6ef38fe0304fc419877b970",
+      "access_depth": "Selected continuation loop, unavailable-playlist reload, tab routing and uploads-playlist fallback; lines608–653,930–953,2350–2428 in retained file.",
+      "findings": [
+        "Continuation-only responses are followed; empty-looking intermediary content need not be terminal.",
+        "Channel-root logic combines available tabs and has a members-only-tab TODO.",
+        "Unavailable entries may be listed without being downloadable.",
+        "UC→UU fallback appears in the inspected extractor; official contentDetails is the documented API mapping."
+      ],
+      "applicable_failure_layers": [
+        "enumeration"
+      ],
+      "verified_fix_for_this_environment": false,
+      "commit": "412e7f0a4b0588fe884a02b344ac66a06538475b"
+    },
+    {
+      "id": "ytdlp-core-code",
+      "title": "yt-dlp download/archive implementation",
+      "authority": "official_pinned_code",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/yt_dlp/YoutubeDL.py",
+      "final_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/yt_dlp/YoutubeDL.py",
+      "accessed_at": "2026-11-08T19:52:23.987493+00:00",
+      "bytes": 218917,
+      "sha256": "1e6e127e8b03e987dfe81dc83e8de1217145339280e043feb867de168aef3e21",
+      "access_depth": "Selected postprocessing completion flags, archive membership and locked append; lines3645–3682 and3860–3900.",
+      "findings": [
+        "Archive membership uses extractor/video identifiers.",
+        "Locked append is not a reservation preventing two workers from scheduling the same ID.",
+        "Normal completion and force-write paths differ; independent file validation remains necessary."
+      ],
+      "applicable_failure_layers": [
+        "queue_accounting",
+        "media_postprocessing"
+      ],
+      "verified_fix_for_this_environment": false,
+      "commit": "412e7f0a4b0588fe884a02b344ac66a06538475b"
+    },
+    {
+      "id": "uploads-playlist-api",
+      "title": "YouTube Data API channel resource",
+      "authority": "official_service_documentation",
+      "url": "https://developers.google.com/youtube/v3/docs/channels",
+      "final_url": "https://developers.google.com/youtube/data/reference/rest/v3/channels",
+      "accessed_at": "2026-11-08T19:52:24.411190+00:00",
+      "bytes": 209956,
+      "sha256": "6edf78af9d0b5a8bc5f0374240438f29aa6b31fb9186b467c5ffdd13e6ada467",
+      "access_depth": "contentDetails.relatedPlaylists.uploads definition inspected; no authenticated API request made.",
+      "findings": [
+        "The channel resource identifies its uploaded-videos playlist.",
+        "API credentials/quota and destination access are separate prerequisites; not a verified local workaround."
+      ],
+      "applicable_failure_layers": [
+        "enumeration"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "playlistitems-api",
+      "title": "YouTube Data API playlistItems.list",
+      "authority": "official_service_documentation",
+      "url": "https://developers.google.com/youtube/v3/docs/playlistItems/list",
+      "final_url": "https://developers.google.com/youtube/data/reference/rest/v3/playlistItems/list",
+      "accessed_at": "2026-11-08T19:52:24.440744+00:00",
+      "bytes": 230865,
+      "sha256": "c012e6826a05d1f7830579949aa127c9976b96b021e4c07752cfcc5ecce358dc",
+      "access_depth": "part/playlistId, maxResults, pageToken/nextPageToken and quota sections inspected.",
+      "findings": [
+        "At most50items per page; follow nextPageToken until no next page is returned.",
+        "Documented quota cost is1unit per list request.",
+        "Visible accessible items do not establish every historical/private/deleted upload."
+      ],
+      "applicable_failure_layers": [
+        "enumeration"
+      ],
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "ytdlp-issue-14404",
+      "title": "[Announcement] Upcoming new requirements for YouTube downloads",
+      "authority": "primary_issue_report",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/14404",
+      "final_url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/14404",
+      "accessed_at": "2026-11-08T19:51:23.694749+00:00",
+      "bytes": 12591,
+      "sha256": "6bf42306e356218a9a0dec7eaf2820bb2106787f4bf85d455d2bcbd350e7a177",
+      "access_depth": "Announcement body and FAQ excerpts inspected; comments were fetched but not used as a current repair basis.",
+      "findings": [
+        "Historical explanation of the move to a proper JS runtime and EJS; its old minimum versions are superseded by the current wiki."
+      ],
+      "applicable_failure_layers": [
+        "javascript_runtime"
+      ],
+      "verified_fix_for_this_environment": false,
+      "human_url": "https://github.com/yt-dlp/yt-dlp/issues/14404",
+      "source_created_at": "2025-09-23T09:38:05Z",
+      "source_updated_at": "2026-04-01T00:20:17Z",
+      "issue_state": "closed",
+      "state_is_not_fix_verification": true
+    },
+    {
+      "id": "ytdlp-issue-12482",
+      "title": "[youtube] `web` only has SABR formats",
+      "authority": "primary_issue_report",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12482",
+      "final_url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12482",
+      "accessed_at": "2026-11-08T19:51:23.743523+00:00",
+      "bytes": 10125,
+      "sha256": "3fe1a0e252e585ff962784e1dd710eef85a4eb0f0f4bfbe6c2c86fff002414d2",
+      "access_depth": "Issue description and sample verbose log inspected; issue comments not fetched.",
+      "findings": [
+        "Origin player response/SABR-format report. Different layer from a failed CONNECT tunnel; no local fix demonstrated."
+      ],
+      "applicable_failure_layers": [
+        "origin_formats",
+        "origin_authentication"
+      ],
+      "verified_fix_for_this_environment": false,
+      "human_url": "https://github.com/yt-dlp/yt-dlp/issues/12482",
+      "source_created_at": "2025-02-26T06:58:37Z",
+      "source_updated_at": "2026-08-18T14:20:38Z",
+      "issue_state": "open",
+      "state_is_not_fix_verification": true
+    },
+    {
+      "id": "ytdlp-issue-10128",
+      "title": "[youtube] Sign in to confirm you’re not a bot",
+      "authority": "primary_issue_report",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/10128",
+      "final_url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/10128",
+      "accessed_at": "2026-11-08T19:51:23.783770+00:00",
+      "bytes": 7213,
+      "sha256": "30951f35c9c10a4052bef28cb7888a6098ec43b736b24f57ad656623efff97c1",
+      "access_depth": "Issue body and error-stage log inspected; comments not fetched.",
+      "findings": [
+        "Historical origin bot/sign-in report involving an old release and proxies; not a remedy recommendation for this environment."
+      ],
+      "applicable_failure_layers": [
+        "origin_formats",
+        "origin_authentication"
+      ],
+      "verified_fix_for_this_environment": false,
+      "human_url": "https://github.com/yt-dlp/yt-dlp/issues/10128",
+      "source_created_at": "2024-06-07T12:12:11Z",
+      "source_updated_at": "2025-08-22T16:22:46Z",
+      "issue_state": "closed",
+      "state_is_not_fix_verification": true
+    },
+    {
+      "id": "ytdlp-issue-12933",
+      "title": "Flaky Youtube Streams",
+      "authority": "primary_issue_report",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12933",
+      "final_url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12933",
+      "accessed_at": "2026-11-08T19:54:03.722675+00:00",
+      "bytes": 13167,
+      "sha256": "ce0e307fd981ad46801a425e9482b95675d872c41dbcd578da5cdedf1b2bd4d7",
+      "access_depth": "Issue description and selected verbose log inspected; all four returned comments read. A project member warns that a proposed patch could collect recommendations.",
+      "findings": [
+        "A streams tab can expose scheduled items and a continuation before older entries; current code explicitly follows continuation-only responses."
+      ],
+      "applicable_failure_layers": [
+        "enumeration"
+      ],
+      "verified_fix_for_this_environment": false,
+      "human_url": "https://github.com/yt-dlp/yt-dlp/issues/12933",
+      "source_created_at": "2025-04-17T06:26:52Z",
+      "source_updated_at": "2025-04-17T23:34:31Z",
+      "issue_state": "closed",
+      "state_is_not_fix_verification": true
+    },
+    {
+      "id": "issue-12933-comments",
+      "title": "Pagination issue12933 comments",
+      "authority": "primary_issue_discussion",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12933/comments?per_page=30",
+      "final_url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12933/comments?per_page=30",
+      "accessed_at": "2026-11-08T19:54:03.723382+00:00",
+      "bytes": 8453,
+      "sha256": "c69f914a1664e7ea579e1e1f80dba3b07dea690dcd92a96ad140d02215a1b2a4",
+      "access_depth": "All four returned comments read; no statement that a suggested patch was independently validated locally.",
+      "findings": [
+        "One contributor proposes a patch; the reporter says it works; a project member raises the risk of extracting recommendations.",
+        "The pinned current extractor code is the implementation reference, not the old suggestion."
+      ],
+      "applicable_failure_layers": [
+        "enumeration"
+      ],
+      "verified_fix_for_this_environment": false,
+      "comment_count": 4
+    },
+    {
+      "id": "stackoverflow-answer-78340276",
+      "title": "Stack Overflow answer 78340276",
+      "authority": "community_answer_not_verified_fix",
+      "url": "https://stackoverflow.com/a/78340276",
+      "api_url": "https://api.stackexchange.com/2.3/questions/79362810;78858346;78335337;77419481;80013710/answers?site=stackoverflow&pagesize=30&sort=votes&filter=withbody",
+      "response_sha256": "d23bf82d2d5f35c063ac0b25b08ae6e72e760267ce9f30b070a4fc54c3ab6054",
+      "accessed_at": "2026-11-08T19:52:25.835813+00:00",
+      "answer_id": 78340276,
+      "question_id": 78335337,
+      "author": "BoppreH",
+      "author_url": "https://stackoverflow.com/users/252218/boppreh",
+      "is_accepted": true,
+      "score_at_access": 2,
+      "created_at": "2024-04-17T10:26:58+00:00",
+      "last_edited_at": null,
+      "access_depth": "Complete returned answer body read; selected question context from search response. Linked sites and full comment discussion not inspected.",
+      "assessment": "Demonstrates filtering before archival. Its unknown-value allowance is intentional for that resolution task; do not transfer it to the strict Bashar duration rule.",
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "stackoverflow-answer-77419511",
+      "title": "Stack Overflow answer 77419511",
+      "authority": "community_answer_not_verified_fix",
+      "url": "https://stackoverflow.com/a/77419511",
+      "api_url": "https://api.stackexchange.com/2.3/questions/79362810;78858346;78335337;77419481;80013710/answers?site=stackoverflow&pagesize=30&sort=votes&filter=withbody",
+      "response_sha256": "d23bf82d2d5f35c063ac0b25b08ae6e72e760267ce9f30b070a4fc54c3ab6054",
+      "accessed_at": "2026-11-08T19:52:25.835813+00:00",
+      "answer_id": 77419511,
+      "question_id": 77419481,
+      "author": "Kreetchy",
+      "author_url": "https://stackoverflow.com/users/9346879/kreetchy",
+      "is_accepted": false,
+      "score_at_access": 1,
+      "created_at": "2023-11-03T20:23:09+00:00",
+      "last_edited_at": null,
+      "access_depth": "Complete returned answer body read; selected question context from search response. Linked sites and full comment discussion not inspected.",
+      "assessment": "A filename extension does not perform audio conversion; extraction/postprocessing and ffprobe verification are separate.",
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "stackoverflow-answer-78858352",
+      "title": "Stack Overflow answer 78858352",
+      "authority": "community_answer_not_verified_fix",
+      "url": "https://stackoverflow.com/a/78858352",
+      "api_url": "https://api.stackexchange.com/2.3/questions/79362810;78858346;78335337;77419481;80013710/answers?site=stackoverflow&pagesize=30&sort=votes&filter=withbody",
+      "response_sha256": "d23bf82d2d5f35c063ac0b25b08ae6e72e760267ce9f30b070a4fc54c3ab6054",
+      "accessed_at": "2026-11-08T19:52:25.835813+00:00",
+      "answer_id": 78858352,
+      "question_id": 78858346,
+      "author": "Nikita Fedyashev",
+      "author_url": "https://stackoverflow.com/users/74089/nikita-fedyashev",
+      "is_accepted": true,
+      "score_at_access": 0,
+      "created_at": "2024-08-11T12:44:18+00:00",
+      "last_edited_at": null,
+      "access_depth": "Complete returned answer body read; selected question context from search response. Linked sites and full comment discussion not inspected.",
+      "assessment": "Research notes belong in structured sidecar metadata, not informal annotations mixed into the downloader archive.",
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "stackoverflow-answer-79362811",
+      "title": "Stack Overflow answer 79362811",
+      "authority": "community_answer_not_verified_fix",
+      "url": "https://stackoverflow.com/a/79362811",
+      "api_url": "https://api.stackexchange.com/2.3/questions/79362810;78858346;78335337;77419481;80013710/answers?site=stackoverflow&pagesize=30&sort=votes&filter=withbody",
+      "response_sha256": "d23bf82d2d5f35c063ac0b25b08ae6e72e760267ce9f30b070a4fc54c3ab6054",
+      "accessed_at": "2026-11-08T19:52:25.835813+00:00",
+      "answer_id": 79362811,
+      "question_id": 79362810,
+      "author": "pzkpfw",
+      "author_url": "https://stackoverflow.com/users/1173358/pzkpfw",
+      "is_accepted": false,
+      "score_at_access": 0,
+      "created_at": "2025-01-16T19:12:15+00:00",
+      "last_edited_at": null,
+      "access_depth": "Complete returned answer body read; selected question context from search response. Linked sites and full comment discussion not inspected.",
+      "assessment": "Flat JSON separates enumeration from sorting; optional view counts and a dated sort URL cannot establish completeness.",
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "stackoverflow-answer-59976565",
+      "title": "Stack Overflow answer 59976565",
+      "authority": "community_answer_not_verified_fix",
+      "url": "https://stackoverflow.com/a/59976565",
+      "api_url": "https://api.stackexchange.com/2.3/questions/57736537/answers?site=stackoverflow&pagesize=10&sort=votes&filter=withbody",
+      "response_sha256": "cbb9efa1e7f1d5f5ccafcbf4e5524e604407ca47add24c3406b1272705863d59",
+      "accessed_at": "2026-11-08T19:54:03.723761+00:00",
+      "answer_id": 59976565,
+      "question_id": 57736537,
+      "author": "CPG",
+      "author_url": "https://stackoverflow.com/users/12809698/cpg",
+      "is_accepted": false,
+      "score_at_access": 12,
+      "created_at": "2020-01-29T22:30:14+00:00",
+      "last_edited_at": null,
+      "access_depth": "Complete returned answer body read; selected question context from search response. Linked sites and full comment discussion not inspected.",
+      "assessment": "Archive-file syntax is relevant, but prefilling the success archive from discovered IDs would mark unsaved items already downloaded. Use a separate discovery inventory.",
+      "verified_fix_for_this_environment": false
+    },
+    {
+      "id": "stackoverflow-answer-58500968",
+      "title": "Stack Overflow answer 58500968",
+      "authority": "community_answer_not_verified_fix",
+      "url": "https://stackoverflow.com/a/58500968",
+      "api_url": "https://api.stackexchange.com/2.3/questions/57736537/answers?site=stackoverflow&pagesize=10&sort=votes&filter=withbody",
+      "response_sha256": "cbb9efa1e7f1d5f5ccafcbf4e5524e604407ca47add24c3406b1272705863d59",
+      "accessed_at": "2026-11-08T19:54:03.723761+00:00",
+      "answer_id": 58500968,
+      "question_id": 57736537,
+      "author": "Keaser",
+      "author_url": "https://stackoverflow.com/users/6742920/keaser",
+      "is_accepted": false,
+      "score_at_access": 2,
+      "created_at": "2019-10-22T09:19:09+00:00",
+      "last_edited_at": "2020-07-18T04:24:52+00:00",
+      "access_depth": "Complete returned answer body read; selected question context from search response. Linked sites and full comment discussion not inspected.",
+      "assessment": "Distinguishes metadata collection from media downloading. Dated youtube-dl flags, including annotations, must not be copied as a current recipe.",
+      "verified_fix_for_this_environment": false
+    }
+  ],
+  "scope": {
+    "new_youtube_media_requests": 0,
+    "new_youtube_channel_requests": 0,
+    "runtime_or_plugin_installs": 0,
+    "cookie_exports": 0,
+    "relay_sites_used": 0,
+    "stackoverflow_answer_bodies_read": 6,
+    "github_issue_bodies_inspected": 4,
+    "historical_connectivity_reference": "research/youtube-access/brave/README.md; 24 October 2026 Envoy 403 during CONNECT; current status is separately bound to the 8 November receipt.",
+    "current_connectivity_status": "Collector ordinary-route preflight 8 November 2026 19:53 UTC: CONNECT 403 before origin; GitHub controls 200; independent saved-receipt audit passed. Zero new YouTube metadata/media/captions at that boundary."
+  },
+  "limitations": [
+    "This is a bounded selected-source review, not an exhaustive Stack Overflow or issue search.",
+    "Documentation and historical community reports do not establish that a fix works in the current environment.",
+    "Mutable wiki snapshots and pinned release/master code have different version scopes.",
+    "API backoff fields were checked; no instructed backoff was returned.",
+    "The recent bot question80013710 had no answer in the inspected answer response; no global negative finding follows."
+  ],
+  "request_operations": [
+    {
+      "id": "ytdlp-readme",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/README.md",
+      "accessed_at": "2026-11-08T19:51:23.299029+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 179127,
+      "sha256": "6adba80a892aee34940550ee8d7085041afca6140b7ac56d6414f1e6eb484bfe"
+    },
+    {
+      "id": "ytdlp-commit",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/commits/master",
+      "accessed_at": "2026-11-08T19:51:23.299639+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 75541,
+      "sha256": "9ac9f98472263b6112f8d1f3feba7757513fe8cba2d889450cd10083d00d0ebb"
+    },
+    {
+      "id": "ytdlp-release",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/releases/latest",
+      "accessed_at": "2026-11-08T19:51:23.300089+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 46562,
+      "sha256": "b289f5fe307d845bf0762e375c269606e643a0d0a857ad5468baf848e908e50e"
+    },
+    {
+      "id": "ytdlp-faq",
+      "url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/FAQ.md",
+      "accessed_at": "2026-11-08T19:51:23.300499+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 18605,
+      "sha256": "1322595f80bbcac827ab132cb2a7500350aa61706fe58c2195d4f678f9e63b1a"
+    },
+    {
+      "id": "ytdlp-extractors",
+      "url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/Extractors.md",
+      "accessed_at": "2026-11-08T19:51:23.301182+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 3908,
+      "sha256": "e914a6944c742ebb62b95eee814808a8ffc07beaca178779022c357d2d8e8c73"
+    },
+    {
+      "id": "ytdlp-ejs-wiki",
+      "url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/EJS.md",
+      "accessed_at": "2026-11-08T19:51:23.303899+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 11053,
+      "sha256": "0b07ba789625c045d6e215df427af2eee1d3e444d5359b07dd81108fbbbe83ea"
+    },
+    {
+      "id": "ytdlp-pot-wiki",
+      "url": "https://raw.githubusercontent.com/wiki/yt-dlp/yt-dlp/PO-Token-Guide.md",
+      "accessed_at": "2026-11-08T19:51:23.606989+00:00",
+      "status": null,
+      "error": "HTTP Error 404: Not Found",
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "ejs-readme",
+      "url": "https://raw.githubusercontent.com/yt-dlp/ejs/master/README.md",
+      "accessed_at": "2026-11-08T19:51:23.625123+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 4590,
+      "sha256": "bfb96fcc1ee296bb20456238a4f09072c62dfbcfe9ea37823bc59a5a1dce01ac"
+    },
+    {
+      "id": "ytdlp-issue-14404",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/14404",
+      "accessed_at": "2026-11-08T19:51:23.694749+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 12591,
+      "sha256": "6bf42306e356218a9a0dec7eaf2820bb2106787f4bf85d455d2bcbd350e7a177"
+    },
+    {
+      "id": "ytdlp-issue-12482",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12482",
+      "accessed_at": "2026-11-08T19:51:23.743523+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 10125,
+      "sha256": "3fe1a0e252e585ff962784e1dd710eef85a4eb0f0f4bfbe6c2c86fff002414d2"
+    },
+    {
+      "id": "ytdlp-issue-10128",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/10128",
+      "accessed_at": "2026-11-08T19:51:23.783770+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 7213,
+      "sha256": "30951f35c9c10a4052bef28cb7888a6098ec43b736b24f57ad656623efff97c1"
+    },
+    {
+      "id": "bgutil-readme",
+      "url": "https://raw.githubusercontent.com/Brainicism/bgutil-ytdlp-pot-provider/master/README.md",
+      "accessed_at": "2026-11-08T19:51:23.811102+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 9930,
+      "sha256": "a966dbe487686c22ae898e270548d19a3c50df67a146e51705b2ae6440d6718b"
+    },
+    {
+      "id": "stackoverflow-channel",
+      "url": "https://api.stackexchange.com/2.3/search/advanced?site=stackoverflow&q=yt-dlp+channel+videos&pagesize=5&sort=relevance&filter=withbody",
+      "accessed_at": "2026-11-08T19:51:24.270755+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 18026,
+      "sha256": "92bcf0d768a98c6ee922174e6da10c80b5e71e6a78a7c8c964f63827d531c56c"
+    },
+    {
+      "id": "stackoverflow-archive",
+      "url": "https://api.stackexchange.com/2.3/search/advanced?site=stackoverflow&q=yt-dlp+download+archive&pagesize=5&sort=relevance&filter=withbody",
+      "accessed_at": "2026-11-08T19:51:24.569418+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 12778,
+      "sha256": "ca05f15286138432b00af69526f580763044bfff173c3c30e3ee05fa335aa1dd"
+    },
+    {
+      "id": "stackoverflow-bot",
+      "url": "https://api.stackexchange.com/2.3/search/advanced?site=stackoverflow&q=yt-dlp+sign+in+bot&pagesize=5&sort=relevance&filter=withbody",
+      "accessed_at": "2026-11-08T19:51:24.840563+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 12011,
+      "sha256": "3f83f312c1aa85d162005758050fbc836deac4e0dfbab3e7eb764fcf71c7187f"
+    },
+    {
+      "id": "po-token-page",
+      "url": "https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide",
+      "accessed_at": "2026-11-08T19:52:23.985922+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 176665,
+      "sha256": "6381e13662136b4fa81c8f6c1da746bcf39f7b10caf9d789383c2661a56153eb"
+    },
+    {
+      "id": "ytdlp-readme-pinned",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md",
+      "accessed_at": "2026-11-08T19:52:23.986569+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 179127,
+      "sha256": "6adba80a892aee34940550ee8d7085041afca6140b7ac56d6414f1e6eb484bfe"
+    },
+    {
+      "id": "ytdlp-tab-code",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/yt_dlp/extractor/youtube/_tab.py",
+      "accessed_at": "2026-11-08T19:52:23.987041+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 123044,
+      "sha256": "736ac305841cf6f070cb44a2d7060771e9743f30b6ef38fe0304fc419877b970"
+    },
+    {
+      "id": "ytdlp-core-code",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/412e7f0a4b0588fe884a02b344ac66a06538475b/yt_dlp/YoutubeDL.py",
+      "accessed_at": "2026-11-08T19:52:23.987493+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 218917,
+      "sha256": "1e6e127e8b03e987dfe81dc83e8de1217145339280e043feb867de168aef3e21"
+    },
+    {
+      "id": "ytdlp-stable-pyproject",
+      "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.10.26/pyproject.toml",
+      "accessed_at": "2026-11-08T19:52:24.313223+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 12716,
+      "sha256": "e030907b6fffb781c0e5f208ec51a90dec45ae10dcbf9cc33af4cd665d886c4d"
+    },
+    {
+      "id": "uploads-playlist-api",
+      "url": "https://developers.google.com/youtube/v3/docs/channels",
+      "accessed_at": "2026-11-08T19:52:24.411190+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 209956,
+      "sha256": "6edf78af9d0b5a8bc5f0374240438f29aa6b31fb9186b467c5ffdd13e6ada467"
+    },
+    {
+      "id": "playlistitems-api",
+      "url": "https://developers.google.com/youtube/v3/docs/playlistItems/list",
+      "accessed_at": "2026-11-08T19:52:24.440744+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 230865,
+      "sha256": "c012e6826a05d1f7830579949aa127c9976b96b021e4c07752cfcc5ecce358dc"
+    },
+    {
+      "id": "issue-14404-comments",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/14404/comments?per_page=100",
+      "accessed_at": "2026-11-08T19:52:24.455343+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 248704,
+      "sha256": "73757d3a4a45f7d6ea16706be404e719dfc316b83720922c5b98627502b25ac4"
+    },
+    {
+      "id": "stackoverflow-listchannel",
+      "url": "https://api.stackexchange.com/2.3/search/advanced?site=stackoverflow&q=youtube-dl+list+all+videos+channel&pagesize=5&sort=relevance&filter=withbody",
+      "accessed_at": "2026-11-08T19:52:25.339667+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 17593,
+      "sha256": "d30475229e6ab6c95ab76dc35571b8a4bb39e0e21d438f62dc47921d73ba85ee"
+    },
+    {
+      "id": "stackoverflow-pagination",
+      "url": "https://api.stackexchange.com/2.3/search/advanced?site=stackoverflow&q=yt-dlp+playlist+pagination&pagesize=5&sort=relevance&filter=withbody",
+      "accessed_at": "2026-11-08T19:52:25.592217+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 67,
+      "sha256": "00b4043d64604e2511bdaf32c0a2d5b8f0d49e271e8146654c8a5ccaab4abbf9"
+    },
+    {
+      "id": "stackoverflow-answers",
+      "url": "https://api.stackexchange.com/2.3/questions/79362810;78858346;78335337;77419481;80013710/answers?site=stackoverflow&pagesize=30&sort=votes&filter=withbody",
+      "accessed_at": "2026-11-08T19:52:25.835813+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 4645,
+      "sha256": "d23bf82d2d5f35c063ac0b25b08ae6e72e760267ce9f30b070a4fc54c3ab6054"
+    },
+    {
+      "id": "ytdlp-issue-12933",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12933",
+      "accessed_at": "2026-11-08T19:54:03.722675+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 13167,
+      "sha256": "ce0e307fd981ad46801a425e9482b95675d872c41dbcd578da5cdedf1b2bd4d7"
+    },
+    {
+      "id": "issue-12933-comments",
+      "url": "https://api.github.com/repos/yt-dlp/yt-dlp/issues/12933/comments?per_page=30",
+      "accessed_at": "2026-11-08T19:54:03.723382+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 8453,
+      "sha256": "c69f914a1664e7ea579e1e1f80dba3b07dea690dcd92a96ad140d02215a1b2a4"
+    },
+    {
+      "id": "stackoverflow-channel-archive-answers",
+      "url": "https://api.stackexchange.com/2.3/questions/57736537/answers?site=stackoverflow&pagesize=10&sort=votes&filter=withbody",
+      "accessed_at": "2026-11-08T19:54:03.723761+00:00",
+      "status": 200,
+      "error": null,
+      "bytes": 2291,
+      "sha256": "cbb9efa1e7f1d5f5ccafcbf4e5524e604407ca47add24c3406b1272705863d59"
+    }
+  ],
+  "runtime_requirements": {
+    "source_id": "ytdlp-ejs-wiki",
+    "deno": {
+      "minimum": "2.3.0",
+      "enabled_by_default": true
+    },
+    "node": {
+      "minimum": "22.0.0",
+      "enabled_by_default": false,
+      "explicit_option": "--js-runtimes node"
+    },
+    "companion_ejs_required": true,
+    "ffmpeg_ffprobe": "Required for the proposed extraction and artifact-validation workflow; actual invoked versions belong to the collector receipt."
+  },
+  "implementation_status": {
+    "scope": "tool-research lane",
+    "status": "documentation_and_source_review_completed",
+    "research_sources": 24,
+    "downloader_installed_by_this_lane": false,
+    "provider_plugin_installed": false,
+    "proposed_command_sketches_executed": false,
+    "verified_youtube_fix": false,
+    "collector_runtime_upgrade": "Owned by the collector; preparation does not establish successful origin access."
+  },
+  "observed_transport": {
+    "checked_at": "2026-11-08T19:53:07.036058+00:00",
+    "ordinary_configured_route": true,
+    "proxy_override": false,
+    "youtube": {
+      "name": "youtube_watch",
+      "timestamp": "2026-11-08T19:53:07.036058+00:00",
+      "curl_exit": 56,
+      "CONNECT_HTTP": 403,
+      "origin_HTTP": 0,
+      "bytes_downloaded": 0,
+      "receipt_sha256": "3edbd4e5a0c8bc99ac139c210b643d41a6d9ba2faba61d8ca17856db4a74007f"
+    },
+    "control_results": [
+      {
+        "name": "github_latest",
+        "CONNECT_HTTP": 200,
+        "origin_HTTP": 200,
+        "receipt_sha256": "37643b945c384b879a460e2d58b555ad8c03295f40f036eab9f7e3770c5c52f2"
+      },
+      {
+        "name": "github_readme",
+        "CONNECT_HTTP": 200,
+        "origin_HTTP": 200,
+        "receipt_sha256": "551e0fdaf4734fd66607e1aa2d4a119d8af43b287fe7efa998c8122ed0c433ae"
+      }
+    ],
+    "interpretation": "The observed CONNECT rejection precedes YouTube TLS/origin access. The underlying gateway cause is not established. Extractor/runtime/token changes do not repair this observed layer. Reachable GitHub controls do not prove YouTube or media-CDN reachability.",
+    "independent_audit": {
+      "status": "passed_fresh_ordinary_route_receipt_audit",
+      "at": "2026-11-08T19:54:05.500592+00:00",
+      "sha256": "903f128fac7c9081cf35e840eed326cc5a25782c9dc1d58c52587b629f4546cd",
+      "scope": "Independent saved-header/receipt/body byte/hash checks and cross-receipt accounting; no redundant network request. Proxy CONNECT rejection precedes YouTube origin/TLS. Reachable GitHub controls do not prove YouTube or media CDN reachability."
+    },
+    "summary_sha256": "0ab8b323b8d5fcafd6d2764636ea922c6ba7051e3c09772a82af9f02cbdacde3",
+    "preflight_sha256": "12131ab38db04a94b6ddb888b15936ba2a982ffec01b9c070b2ebe930eff1521",
+    "actual_new_youtube_metadata_extractions": 0,
+    "actual_new_youtube_media": 0,
+    "actual_new_youtube_captions": 0,
+    "research_access_depth": "Inspected saved summary, preflight and independent audit; no duplicate network probe in this research lane."
+  }
+}

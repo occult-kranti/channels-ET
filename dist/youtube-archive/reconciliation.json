@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T20:02:15.897590+00:00",
+  "scope": "Fresh byte verification of the frozen canonical source frame; upstream segment/publication ledgers remain separately scoped historical receipts.",
+  "youtube": {
+    "verified_audio_files": 0,
+    "verified_video_files": 0,
+    "verified_transcript_files": 0,
+    "note": "No exact YouTube-edition media/text admitted by this reconciliation. Publisher editions and historical caption analyses cannot be joined by title or medium alone."
+  },
+  "canonical_frame": {
+    "documents": 493,
+    "words": 1411446,
+    "selected_text_artifacts_verified": 493,
+    "media_files_hash_verified": 341,
+    "frame_sha256": "0d69378f9e9a2280e7ed05981b647fbfe280016380b3072b2b3a320961ae2c8c",
+    "registry_sha256": "211246663c6b35254a831cd32f0a9c785dd2ec498b5e9096b0dfd10a565a4d2d"
+  },
+  "publisher_contexts": [
+    {
+      "channel_id": "athina-krol",
+      "display_name": "Spirit Channel with Athina Król",
+      "selected_text_units": 1,
+      "selected_words": 3394,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "bashar-official",
+      "display_name": "Bashar Communications official Vimeo",
+      "selected_text_units": 82,
+      "selected_words": 67536,
+      "selected_units_with_verified_media": 82,
+      "upstream_collection_counts": {
+        "retained_publication_audio_records": 86,
+        "unique_encoded_audio_families": 84,
+        "profile_publication_ids_in_selected_census": 307
+      },
+      "upstream_scope": "Official profile census and retained publication/audio-family counts differ from 82 canonical English modeled texts. No YouTube edition equivalence or lifetime all-account census.",
+      "source_binding": {
+        "url": "https://occult-kranti.github.io/channels-ET/dist/bashar-ra/collection.json",
+        "sha256": "04150648f0ddfe81df062391c9c92edf1901d098467a7546a5f5f1bf78b97316",
+        "bytes": 72634
+      }
+    },
+    {
+      "channel_id": "crimson-circle",
+      "display_name": "Crimson Circle — Freedom Series",
+      "selected_text_units": 10,
+      "selected_words": 133080,
+      "selected_units_with_verified_media": 10,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "daniel-scranton",
+      "display_name": "Daniel Scranton publisher texts",
+      "selected_text_units": 22,
+      "selected_words": 14710,
+      "selected_units_with_verified_media": 0,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-acid-for-squares",
+      "display_name": "ACID FOR SQUARES — guest context",
+      "selected_text_units": 2,
+      "selected_words": 33178,
+      "selected_units_with_verified_media": 2,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-align-podcast",
+      "display_name": "Align Podcast — guest context",
+      "selected_text_units": 2,
+      "selected_words": 24763,
+      "selected_units_with_verified_media": 2,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-danica-patrick-pretty-intense-podcast",
+      "display_name": "Danica Patrick Pretty Intense Podcast — guest context",
+      "selected_text_units": 2,
+      "selected_words": 24220,
+      "selected_units_with_verified_media": 2,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-gaia-consciousness",
+      "display_name": "Gaia Consciousness — guest context",
+      "selected_text_units": 1,
+      "selected_words": 5181,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-gateways-to-awakening-with-yasmeen-turayhi",
+      "display_name": "Gateways to Awakening with Yasmeen Turayhi — guest context",
+      "selected_text_units": 1,
+      "selected_words": 10903,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-healing-human-potential",
+      "display_name": "Healing + Human Potential — guest context",
+      "selected_text_units": 2,
+      "selected_words": 23320,
+      "selected_units_with_verified_media": 2,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-impossible-dreams",
+      "display_name": "Impossible Dreams — guest context",
+      "selected_text_units": 1,
+      "selected_words": 10718,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-inspire-nation-show-with-michael-sandler",
+      "display_name": "Inspire Nation Show with Michael Sandler — guest context",
+      "selected_text_units": 1,
+      "selected_words": 16931,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-just-tap-in-with-emilio-ortiz",
+      "display_name": "Just Tap In with Emilio Ortiz — guest context",
+      "selected_text_units": 1,
+      "selected_words": 13147,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-mayim-bialik-s-breakdown",
+      "display_name": "Mayim Bialik's Breakdown — guest context",
+      "selected_text_units": 2,
+      "selected_words": 18050,
+      "selected_units_with_verified_media": 2,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-next-level-soul-podcast-with-alex-ferrari",
+      "display_name": "Next Level Soul Podcast with Alex Ferrari — guest context",
+      "selected_text_units": 1,
+      "selected_words": 14326,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-oh-no-ross-and-carrie",
+      "display_name": "Oh No, Ross and Carrie — guest context",
+      "selected_text_units": 1,
+      "selected_words": 19916,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-soultalk-with-kute-blackson",
+      "display_name": "SoulTalk with Kute Blackson — guest context",
+      "selected_text_units": 1,
+      "selected_words": 11177,
+      "selected_units_with_verified_media": 1,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "guest-virtual-campfire-hosted-by-krystal-kelley",
+      "display_name": "Virtual Campfire hosted by Krystal Kelley — guest context",
+      "selected_text_units": 2,
+      "selected_words": 13800,
+      "selected_units_with_verified_media": 2,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "lyssa-royal-holt",
+      "display_name": "Lyssa Royal Holt publisher texts",
+      "selected_text_units": 1,
+      "selected_words": 2671,
+      "selected_units_with_verified_media": 0,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "magenta-pixie",
+      "display_name": "Magenta Pixie publisher PDFs",
+      "selected_text_units": 15,
+      "selected_words": 60706,
+      "selected_units_with_verified_media": 0,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "multidimensional-soul",
+      "display_name": "Multidimensional Soul publisher interviews",
+      "selected_text_units": 20,
+      "selected_words": 122532,
+      "selected_units_with_verified_media": 20,
+      "upstream_collection_counts": {
+        "retained_publication_audio_records": 20,
+        "unique_original_encoded_audio_families": 20,
+        "retained_audio_bytes": 321489170,
+        "decoded_audio_seconds": 52901.7733125,
+        "accepted_local_asr_editions": 20,
+        "publisher_caption_links": 0,
+        "written_message_links": 0
+      },
+      "upstream_scope": "Direct publisher audio retained as verified full-duration lossy48kbpsOpus; original bytes hashed before newly staged originals removed. YouTube edition equivalence and text accuracy are unverified.",
+      "source_binding": {
+        "url": "https://occult-kranti.github.io/channels-ET/dist/subscription-audit/acquisition.json",
+        "sha256": "d0b57ebd491594c70aba9dbbb9f311a221ab37efc9df47f123f30f70a766a14a",
+        "bytes": 403667
+      }
+    },
+    {
+      "channel_id": "natalie-glasson-omna",
+      "display_name": "Natalie Glasson / OmNa",
+      "selected_text_units": 8,
+      "selected_words": 6927,
+      "selected_units_with_verified_media": 5,
+      "upstream_collection_counts": {
+        "retained_publication_audio_records": 5,
+        "unique_original_encoded_audio_families": 5,
+        "retained_audio_bytes": 21792453,
+        "decoded_audio_seconds": 3585.6603125,
+        "accepted_local_asr_editions": 5,
+        "publisher_caption_links": 0,
+        "written_message_links": 5
+      },
+      "upstream_scope": "Direct publisher audio retained as verified full-duration lossy48kbpsOpus; original bytes hashed before newly staged originals removed. YouTube edition equivalence and text accuracy are unverified.",
+      "source_binding": {
+        "url": "https://occult-kranti.github.io/channels-ET/dist/subscription-audit/acquisition.json",
+        "sha256": "d0b57ebd491594c70aba9dbbb9f311a221ab37efc9df47f123f30f70a766a14a",
+        "bytes": 403667
+      }
+    },
+    {
+      "channel_id": "pamela-rose-kribbe",
+      "display_name": "Pamela Rose Kribbe publisher texts",
+      "selected_text_units": 4,
+      "selected_words": 7324,
+      "selected_units_with_verified_media": 0,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "paul-selig",
+      "display_name": "Paul Selig publisher transcript",
+      "selected_text_units": 1,
+      "selected_words": 2569,
+      "selected_units_with_verified_media": 0,
+      "upstream_collection_counts": null,
+      "upstream_scope": null,
+      "source_binding": null
+    },
+    {
+      "channel_id": "ra-law-of-one",
+      "display_name": "Ra Lightly Edited sessions",
+      "selected_text_units": 106,
+      "selected_words": 278601,
+      "selected_units_with_verified_media": 0,
+      "upstream_collection_counts": {
+        "retained_linked_audio_segments": 2620,
+        "unique_linked_audio_segments": 2620,
+        "published_session_texts": 106,
+        "retained_audio_files_including_preserved_original": 2621,
+        "decoded_audio_hours": 115.08962996444446
+      },
+      "upstream_scope": "Audio counts are linked segments, not whole-session recordings. Canonical text frame does not assert word/timestamp alignment; zero direct session-level joins does not mean absent audio.",
+      "source_binding": {
+        "url": "https://occult-kranti.github.io/channels-ET/dist/bashar-ra/collection.json",
+        "sha256": "04150648f0ddfe81df062391c9c92edf1901d098467a7546a5f5f1bf78b97316",
+        "bytes": 72634
+      }
+    },
+    {
+      "channel_id": "tracy-kumbera",
+      "display_name": "Tracy Kumbera publisher episodes",
+      "selected_text_units": 203,
+      "selected_words": 471766,
+      "selected_units_with_verified_media": 203,
+      "upstream_collection_counts": {
+        "retained_publication_audio_records": 204,
+        "unique_original_encoded_audio_families": 203,
+        "retained_audio_bytes": 1228359340,
+        "decoded_audio_seconds": 202057.8101875,
+        "accepted_local_asr_editions": 133,
+        "publisher_caption_links": 71,
+        "written_message_links": 0
+      },
+      "upstream_scope": "Direct publisher audio retained as verified full-duration lossy48kbpsOpus; original bytes hashed before newly staged originals removed. YouTube edition equivalence and text accuracy are unverified.",
+      "source_binding": {
+        "url": "https://occult-kranti.github.io/channels-ET/dist/subscription-audit/acquisition.json",
+        "sha256": "d0b57ebd491594c70aba9dbbb9f311a221ab37efc9df47f123f30f70a766a14a",
+        "bytes": 403667
+      }
+    }
+  ],
+  "storage": {
+    "destinations": [
+      {
+        "id": "managed-workspace",
+        "label": "Private managed workspace",
+        "status": "retained_files_verified",
+        "scope": "Exact selected source artifacts rehashed. This is not permanent ChatGPT account storage or an external backup."
+      },
+      {
+        "id": "github",
+        "label": "GitHub / Pages",
+        "status": "metadata_and_code_only",
+        "scope": "Public code, metadata, manifests, derived research and bounded annotations; full audio/video/transcripts remain private."
+      },
+      {
+        "id": "drive",
+        "label": "Google Drive",
+        "status": "no_verified_upload",
+        "scope": "No callable authenticated Drive connection or upload receipt in this run."
+      }
+    ],
+    "selected_media_bytes": 10715508036,
+    "selected_text_bytes": 32796736,
+    "free_disk_bytes": 3261071360,
+    "disk_floor_bytes": 2147483648,
+    "count_basis": "Distinct resolved paths in the selected canonical frame only; not total archive storage and not deduplicated by encoded content."
+  },
+  "input_bindings": [
+    {
+      "file": "dist/channel-lab/registry.json",
+      "bytes": 2002198,
+      "sha256": "211246663c6b35254a831cd32f0a9c785dd2ec498b5e9096b0dfd10a565a4d2d"
+    },
+    {
+      "file": "dist/channel-lab/collection-coverage.json",
+      "bytes": 4904,
+      "sha256": "5d987fea26c32740f967f3ac4ffff6610a43a978fcca0cf4a189afad26dd0312"
+    },
+    {
+      "file": "research/harvest/artifacts.json",
+      "bytes": 43,
+      "sha256": "246f867f77cfbe61fd392297925d4f498946eff28bcf3d66f62a6e22ed3c8209"
+    }
+  ],
+  "limitations": [
+    "Publisher context is not a verified YouTube uploader identity.",
+    "Ra segment counts, publication rows, unique encoded families and canonical text units have different denominators; do not add them.",
+    "All existing canonical texts were previously analyzed; this run checks retention and does not rerun topic models.",
+    "Media rehashing confirms retained bytes, not speech-recognition accuracy or equivalent YouTube editions.",
+    "Earlier 30 YouTube-caption analyses lack verified retained original bodies in this canonical frame."
+  ]
+}
