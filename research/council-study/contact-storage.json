@@ -1,0 +1,80 @@
+{
+  "status": "verified_lossless_metadata_retention",
+  "response_files": 10,
+  "decoded_total_bytes": 2548312,
+  "compressed_total_bytes": 485968,
+  "response_bytes_freed_net_of_gzip": 2062344,
+  "scope": "Only new Contact discovery metadata. No ASR text, old source feed, recording, model or existing archive is changed. Original HTTP hashes identify decoded bytes; gzip hashes identify storage.",
+  "files": [
+    {
+      "encoding": "gzip",
+      "bytes": 133077,
+      "sha256": "3ee3cc31d15a4605fdec4b50c343a471c967e6df6fce63c6bf26689a418c41a8",
+      "decoded_bytes": 975697,
+      "decoded_sha256": "1e8b13bd05116be589f643b1ed03a232a3a2b25cdf0c1f77835c57db7fd9e7e4"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 42111,
+      "sha256": "f235fc65ec5ef3d6c5b0672370e6ae3acb9e881b8a18b5cbe467e503b65ea9cc",
+      "decoded_bytes": 124106,
+      "decoded_sha256": "15d1c0be30cd36cb706b44281b296d6227845d2415a4af83f0a16c248005c77e"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 57063,
+      "sha256": "9f098cb5f9990c372bc0785bb1792fe4ff1a782cb8da6c858e9c32994a6cdb3f",
+      "decoded_bytes": 229977,
+      "decoded_sha256": "3b4be452579eeb17da9cfdfd059453f1d0d1ba8607d5d44e9369d65b5115cf9c"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 42333,
+      "sha256": "891415f58e14487327f6108dd384a3cc9dd161ba677c85baff9762646e8f88c8",
+      "decoded_bytes": 124833,
+      "decoded_sha256": "67b84b639b0dc9711d29e3e0dcebe35a4db843df256210f7175962b6adbce97d"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 42094,
+      "sha256": "11af1a42835fe5e8eddccba879cdf432d1252a1f6a77261ac384444c0818a923",
+      "decoded_bytes": 124075,
+      "decoded_sha256": "94e250501ca7c572d0ec4deaaa3009d656ac4e14e54a8a5da3e1204b7c572a56"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 54410,
+      "sha256": "91bce028b2291b2e7f36f4819f1b5ae9559729340cd860fece94fe5e2c99ff09",
+      "decoded_bytes": 244212,
+      "decoded_sha256": "ea22136f66bcf2bb39acd47fb70e2c86ffe2f77452142ec53bb72ca01326e574"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 52117,
+      "sha256": "7aaff145ed66e4a616ed6c8ad65253733254ebc1387b4166439ef2d7c74dec1c",
+      "decoded_bytes": 150598,
+      "decoded_sha256": "edc2198114b3a889470503e99536fb9c7979c6a3ff834be20067eadd844bdaa5"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 50873,
+      "sha256": "8af29220aee699e3c60287b5de1f30c16fbf87e3d6a7a1c2825ca032efecbfc2",
+      "decoded_bytes": 515461,
+      "decoded_sha256": "6d533cb8d8485614a9757ee1153832a6f531787ac4e46d19d064c4f7f2843925"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 11717,
+      "sha256": "ad00117ec6463367e99171e15cd3ceba5602553895e27102154aa451507810c2",
+      "decoded_bytes": 59127,
+      "decoded_sha256": "bb5328f87dc1252f58733b13c2bc50aebad9edd4188aff3936147002137210eb"
+    },
+    {
+      "encoding": "gzip",
+      "bytes": 173,
+      "sha256": "1ca1647d0d095c4878925115fc31e5c75d8009de1be36ddecb4a49e7bf95157d",
+      "decoded_bytes": 226,
+      "decoded_sha256": "80a265bed528211aa708dcd58f7a95db36eeb7f873c6fe4ddab0b3a1dc0973a4"
+    }
+  ]
+}

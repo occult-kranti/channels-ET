@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T15:18:06.842024+00:00",
+  "generated_at": "2026-11-08T16:43:07.580030+00:00",
   "scope": "Source-screened public accounts selected by the user. Relevant channel classification does not establish that every upload is channeling. Counts distinguish historical metadata, actual retained media, full text and completed analysis.",
   "channels": [
     {
@@ -1170,10 +1170,10 @@
         "current_new_audio_decoded_seconds": 202057.8101875,
         "current_new_audio_exact_original_families": 203,
         "current_new_audio_caption_linked": 71,
-        "current_new_audio_local_asr": 13,
+        "current_new_audio_local_asr": 133,
         "current_new_audio_asr_failed_editions": 0,
         "current_new_audio_recognition_holds": 0,
-        "current_new_audio_asr_pending": 120,
+        "current_new_audio_asr_pending": 0,
         "current_new_audio_written_message_linked": 0,
         "acquisition_status": "frame_complete"
       }
@@ -1396,10 +1396,10 @@
         "current_new_audio_decoded_seconds": 52901.7733125,
         "current_new_audio_exact_original_families": 20,
         "current_new_audio_caption_linked": 0,
-        "current_new_audio_local_asr": 13,
-        "current_new_audio_asr_failed_editions": 1,
-        "current_new_audio_recognition_holds": 1,
-        "current_new_audio_asr_pending": 6,
+        "current_new_audio_local_asr": 20,
+        "current_new_audio_asr_failed_editions": 2,
+        "current_new_audio_recognition_holds": 0,
+        "current_new_audio_asr_pending": 0,
         "current_new_audio_written_message_linked": 0,
         "acquisition_status": "frame_complete"
       }
@@ -2893,10 +2893,10 @@
     "research/harvest/inventory/channel-routes.json": "dd23b706f1d9873309f6ba7a3fe6d6463ceef29d7d2ce13aa0ba685b2efbc8ee",
     "research/harvest/inventory/videos.jsonl": "527814ffa29bba89dc1826a438e3d18302378909bb101c94ca52ef2e3007f51d",
     "dist/analysis/data.json": "f3b1eec291a8b4e82aac31fb75c679ae61ad030527915fe90e9579410a7acbcc",
-    "research/subscription-screening/publisher-audio-acquisition.json": "176509c108abe6e801acfa514adfbf7055cf6300586d97c09c02fe71b34dc841",
     "research/subscription-screening/second14-source-inventory.json": "1a91f1900b930aacee28e59c581041d682a2aaea2b1b5fd76062952ab72b9ce5",
     "research/subscription-screening/second14-text-acquisition.json": "1853c7c7015a071705d3215610100a4984263b696ebe60fb9b04c11516498f35",
-    "research/subscription-screening/magenta-publisher-video-index.json": "f61a77cfa5ccabde3514a355fa8df7e4e23e02b47f5c9811b520a70fdfcd3061"
+    "research/subscription-screening/magenta-publisher-video-index.json": "f61a77cfa5ccabde3514a355fa8df7e4e23e02b47f5c9811b520a70fdfcd3061",
+    "research/subscription-screening/publisher-audio-acquisition.json": "d0b57ebd491594c70aba9dbbb9f311a221ab37efc9df47f123f30f70a766a14a"
   },
   "publisher_video_inventory": {
     "file": "publisher-video-index.json",
@@ -2913,17 +2913,17 @@
   },
   "publisher_audio_acquisition": {
     "file": "acquisition.json",
-    "sha256": "176509c108abe6e801acfa514adfbf7055cf6300586d97c09c02fe71b34dc841",
+    "sha256": "d0b57ebd491594c70aba9dbbb9f311a221ab37efc9df47f123f30f70a766a14a",
     "summary": {
       "completed_publications": 229,
       "retained_bytes": 1571640963,
       "decoded_duration_seconds": 258545.2438125,
-      "local_asr_completed": 31,
+      "local_asr_completed": 158,
       "local_asr_empty_recognition": 0,
-      "asr_failed_editions": 1,
-      "recognition_holds": 1,
-      "pending_local_asr": 126,
-      "normalization_repaired": 12,
+      "asr_failed_editions": 2,
+      "recognition_holds": 0,
+      "pending_local_asr": 0,
+      "normalization_repaired": 60,
       "publisher_caption_linked": 71,
       "publisher_written_message_linked": 5
     },

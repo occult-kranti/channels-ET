@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T16:32:12.749356+00:00",
+  "scope": "Bounded exact-name research and three existing Tracy Council of Contact recordings. Source claims are discourse data, not authenticated entities or independently verified physical events.",
+  "sources": [
+    {
+      "source_id": "contact-tracy-primary-feed",
+      "canonical_url": "https://anchor.fm/s/1046702dc/podcast/rss",
+      "title": "Your MultiDimensional Journey with Tracy Kumbera — publisher RSS",
+      "source_type": "publisher_rss",
+      "access_depth": "full_feed_metadata",
+      "retrieval_status": "retrieved",
+      "retrieved_at": "2026-11-08T16:00:02.291017+00:00",
+      "content_sha256": "1e8b13bd05116be589f643b1ed03a232a3a2b25cdf0c1f77835c57db7fd9e7e4",
+      "retained_bytes": 133077,
+      "observed_feed_items": 205,
+      "primary_for": [
+        "Publication titles, publication dates, episode descriptions and explicit media enclosures"
+      ],
+      "scope": "A current feed window, not a complete YouTube upload census or proof of every historical episode.",
+      "retention": {
+        "encoding": "gzip",
+        "stored_bytes": 133077,
+        "stored_sha256": "3ee3cc31d15a4605fdec4b50c343a471c967e6df6fce63c6bf26689a418c41a8",
+        "decoded_bytes": 975697,
+        "decoded_sha256": "1e8b13bd05116be589f643b1ed03a232a3a2b25cdf0c1f77835c57db7fd9e7e4"
+      },
+      "decoded_response_bytes": 975697
+    },
+    {
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+      "title": "First Contact Is Here! Council of Contact Channeled Message",
+      "source_type": "publisher_rss_episode_with_retained_audio_and_local_asr",
+      "access_depth": "publisher_feed_item_and_full_machine_text",
+      "retrieval_status": "retrieved_existing_audio_and_asr",
+      "retrieved_at": "2026-11-08T16:32:12.749356+00:00",
+      "published_at": "2026-10-16T20:22:01+00:00",
+      "access_via_source_id": "contact-tracy-primary-feed",
+      "source_metadata_sha256": "1e8b13bd05116be589f643b1ed03a232a3a2b25cdf0c1f77835c57db7fd9e7e4",
+      "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+      "audio_sha256": "76657fd5df68b12f7d50228d98f413bc29c6083161459862da030cca83632f6b",
+      "audio_bytes": 8883108,
+      "primary_for": [
+        "This publisher attributes the episode to the Council of Contact",
+        "This retained machine text supports bounded discourse analysis; voice and word accuracy remain unverified"
+      ],
+      "notes": "The Spotify episode web page was not freshly retrieved; metadata is inspected from the primary RSS. The full existing ASR was read by an AI research role, not checked through manual audio listening."
+    },
+    {
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/September-Energy-Update---Council-of-Contact-Channeled-Message-e3oaecs",
+      "title": "September Energy Update - Council of Contact Channeled Message",
+      "source_type": "publisher_rss_episode_with_retained_audio_and_local_asr",
+      "access_depth": "publisher_feed_item_and_full_machine_text",
+      "retrieval_status": "retrieved_existing_audio_and_asr",
+      "retrieved_at": "2026-11-08T16:32:12.749356+00:00",
+      "published_at": "2026-09-03T22:44:01+00:00",
+      "access_via_source_id": "contact-tracy-primary-feed",
+      "source_metadata_sha256": "1e8b13bd05116be589f643b1ed03a232a3a2b25cdf0c1f77835c57db7fd9e7e4",
+      "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+      "audio_sha256": "95957cefb4ae067a28cfdacc599c519cc1ec64551d5a9561ac31d3ea45232870",
+      "audio_bytes": 7049067,
+      "primary_for": [
+        "This publisher attributes the episode to the Council of Contact",
+        "This retained machine text supports bounded discourse analysis; voice and word accuracy remain unverified"
+      ],
+      "notes": "The Spotify episode web page was not freshly retrieved; metadata is inspected from the primary RSS. The full existing ASR was read by an AI research role, not checked through manual audio listening."
+    },
+    {
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+      "title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+      "source_type": "publisher_rss_episode_with_retained_audio_and_local_asr",
+      "access_depth": "publisher_feed_item_and_full_machine_text",
+      "retrieval_status": "retrieved_existing_audio_and_asr",
+      "retrieved_at": "2026-11-08T16:32:12.749356+00:00",
+      "published_at": "2026-06-14T22:44:00+00:00",
+      "access_via_source_id": "contact-tracy-primary-feed",
+      "source_metadata_sha256": "1e8b13bd05116be589f643b1ed03a232a3a2b25cdf0c1f77835c57db7fd9e7e4",
+      "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+      "audio_sha256": "2f777243ddd574922efe83db9b0166ae728cbfb6e6a2c430bc10c8a36c13f7da",
+      "audio_bytes": 7417439,
+      "primary_for": [
+        "This publisher attributes the episode to the Council of Contact",
+        "This retained machine text supports bounded discourse analysis; voice and word accuracy remain unverified"
+      ],
+      "notes": "The Spotify episode web page was not freshly retrieved; metadata is inspected from the primary RSS. The full existing ASR was read by an AI research role, not checked through manual audio listening."
+    },
+    {
+      "source_id": "contact-control-7d0da43d73e06f31",
+      "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Navigating-Soul-Connections-After-Completing-Soul-Contracts-e329uhu",
+      "title": "Navigating Soul Connections After Completing Soul Contracts",
+      "source_type": "publisher_rss_episode_description",
+      "access_depth": "publisher_feed_metadata_only_in_this_role",
+      "retrieval_status": "retrieved",
+      "retrieved_at": "2026-11-08T16:00:02.291017+00:00",
+      "published_at_raw": "Mon, 14 Apr 2025 00:51:21 GMT",
+      "access_via_source_id": "contact-tracy-primary-feed",
+      "source_metadata_sha256": "1e8b13bd05116be589f643b1ed03a232a3a2b25cdf0c1f77835c57db7fd9e7e4",
+      "primary_for": [
+        "Soul contracts is an episode topic, rather than evidence for a Council of Contract named entity"
+      ],
+      "notes": "Audio/text analysis may be supplied separately by the methods role; this source review inspected the primary episode description."
+    },
+    {
+      "source_id": "contact-control-4559794edb735419",
+      "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Break-Soul-Contracts--Activate-Your-5D-Light-Human-with-Dragon-Energy-e329uio",
+      "title": "Break Soul Contracts & Activate Your 5D Light-Human with Dragon Energy",
+      "source_type": "publisher_rss_episode_description",
+      "access_depth": "publisher_feed_metadata_only_in_this_role",
+      "retrieval_status": "retrieved",
+      "retrieved_at": "2026-11-08T16:00:02.291017+00:00",
+      "published_at_raw": "Sat, 05 Apr 2025 19:35:34 GMT",
+      "access_via_source_id": "contact-tracy-primary-feed",
+      "source_metadata_sha256": "1e8b13bd05116be589f643b1ed03a232a3a2b25cdf0c1f77835c57db7fd9e7e4",
+      "primary_for": [
+        "Soul contracts is an episode topic, rather than evidence for a Council of Contract named entity"
+      ],
+      "notes": "Audio/text analysis may be supplied separately by the methods role; this source review inspected the primary episode description."
+    }
+  ],
+  "mediums": [
+    {
+      "id": "medium-tracy-kumbera",
+      "name": "Tracy Kumbera",
+      "publisher_handle": "@TracyKumbera",
+      "source_ids": [
+        "council-contact-tracy-548134ce5946a24d",
+        "council-contact-tracy-da255be6621e2071",
+        "council-contact-tracy-4818c71bd66ea72a"
+      ]
+    }
+  ],
+  "councils": [
+    {
+      "id": "council-of-contact-tracy",
+      "label": "Council of Contact",
+      "label_scope": "Tracy publisher and recording context",
+      "source_ids": [
+        "council-contact-tracy-548134ce5946a24d",
+        "council-contact-tracy-da255be6621e2071",
+        "council-contact-tracy-4818c71bd66ea72a"
+      ],
+      "identity_status": "source_specific_claimed_collective_not_authenticated",
+      "description": "The recordings describe a fluid collective of higher selves or contact specialists. The name is not merged with generic Galactic Council labels."
+    }
+  ],
+  "relationships": [
+    {
+      "id": "contact-tracy-attribution",
+      "medium_id": "medium-tracy-kumbera",
+      "council_id": "council-of-contact-tracy",
+      "relation_type": "direct_publisher_recording_attribution",
+      "source_ids": [
+        "council-contact-tracy-548134ce5946a24d",
+        "council-contact-tracy-da255be6621e2071",
+        "council-contact-tracy-4818c71bd66ea72a"
+      ],
+      "evidence_level": "Primary RSS titles/descriptions plus full local ASR context read; speaker identity and word accuracy unverified."
+    }
+  ],
+  "name_findings": [
+    {
+      "query": "Council of Contract",
+      "status": "not_established_in_this_search_frame",
+      "summary": "No inspected primary source in this bounded research frame established this exact council name or its equivalence to Council of Contact. Search-engine results were relaxed or irrelevant; this is not evidence of universal absence.",
+      "source_ids": [
+        "contact-control-7d0da43d73e06f31",
+        "contact-control-4559794edb735419"
+      ],
+      "query_ids": [
+        "contact-search-01",
+        "contact-search-02"
+      ],
+      "resolved_to": null
+    },
+    {
+      "query": "Council of Contact",
+      "status": "direct_publisher_attribution_established",
+      "summary": "Three Tracy Kumbera publisher episodes explicitly use this name. Their audio and completed ASRs were already retained and are reused, not downloaded again.",
+      "source_ids": [
+        "council-contact-tracy-548134ce5946a24d",
+        "council-contact-tracy-da255be6621e2071",
+        "council-contact-tracy-4818c71bd66ea72a"
+      ],
+      "resolved_to": "council-of-contact-tracy"
+    },
+    {
+      "query": "Council of Nine / Galactic Council of Nine",
+      "status": "separate_neighboring_labels",
+      "summary": "Search results returned Council of Nine and Galactic Council of Nine leads. Neither shared council vocabulary nor a contact topic establishes equivalence with the Tracy Council of Contact. The Galactic research register reviews these separately.",
+      "source_ids": [],
+      "resolved_to": null
+    }
+  ],
+  "recordings": [
+    {
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "publication_id": "@tracykumbera:rss:548134ce5946a24d",
+      "title": "First Contact Is Here! Council of Contact Channeled Message",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+      "published_at": "2026-10-16T20:22:01+00:00",
+      "medium_id": "medium-tracy-kumbera",
+      "council_id": "council-of-contact-tracy",
+      "council_label": "Council of Contact",
+      "status": "previously_retained_audio_and_completed_local_asr",
+      "new_download_this_council_round": false,
+      "words": 3440,
+      "segments": 489,
+      "decoded_duration_seconds": 1461.695125,
+      "audio_bytes": 8883108,
+      "audio_sha256": "76657fd5df68b12f7d50228d98f413bc29c6083161459862da030cca83632f6b",
+      "text_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+      "normalization_status": "unadjusted",
+      "speaker_identity_verified": false,
+      "transcript_accuracy_verified": false,
+      "audio_listened_in_this_review": false,
+      "body_boundary": "Full unverified ASR including host introduction, channeling context and any outro; no diarization or speech identity verification."
+    },
+    {
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "publication_id": "@tracykumbera:rss:da255be6621e2071",
+      "title": "September Energy Update - Council of Contact Channeled Message",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/September-Energy-Update---Council-of-Contact-Channeled-Message-e3oaecs",
+      "published_at": "2026-09-03T22:44:01+00:00",
+      "medium_id": "medium-tracy-kumbera",
+      "council_id": "council-of-contact-tracy",
+      "council_label": "Council of Contact",
+      "status": "previously_retained_audio_and_completed_local_asr",
+      "new_download_this_council_round": false,
+      "words": 2661,
+      "segments": 349,
+      "decoded_duration_seconds": 1159.910125,
+      "audio_bytes": 7049067,
+      "audio_sha256": "95957cefb4ae067a28cfdacc599c519cc1ec64551d5a9561ac31d3ea45232870",
+      "text_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+      "normalization_status": "unadjusted",
+      "speaker_identity_verified": false,
+      "transcript_accuracy_verified": false,
+      "audio_listened_in_this_review": false,
+      "body_boundary": "Full unverified ASR including host introduction, channeling context and any outro; no diarization or speech identity verification."
+    },
+    {
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "publication_id": "@tracykumbera:rss:4818c71bd66ea72a",
+      "title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+      "published_at": "2026-06-14T22:44:00+00:00",
+      "medium_id": "medium-tracy-kumbera",
+      "council_id": "council-of-contact-tracy",
+      "council_label": "Council of Contact",
+      "status": "previously_retained_audio_and_completed_local_asr",
+      "new_download_this_council_round": false,
+      "words": 2932,
+      "segments": 423,
+      "decoded_duration_seconds": 1220.516,
+      "audio_bytes": 7417439,
+      "audio_sha256": "2f777243ddd574922efe83db9b0166ae728cbfb6e6a2c430bc10c8a36c13f7da",
+      "text_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+      "normalization_status": "unadjusted",
+      "speaker_identity_verified": false,
+      "transcript_accuracy_verified": false,
+      "audio_listened_in_this_review": false,
+      "body_boundary": "Full unverified ASR including host introduction, channeling context and any outro; no diarization or speech identity verification."
+    }
+  ],
+  "topic_controls": [
+    {
+      "source_id": "contact-control-7d0da43d73e06f31",
+      "topic": "soul contracts",
+      "claimed_figures_in_description": [
+        "Archangel Aurora",
+        "Archangel Michael"
+      ],
+      "interpretation": "The publisher describes a soul-contract exercise involving named angels or dragons. This does not establish a council named Council of Contract."
+    },
+    {
+      "source_id": "contact-control-4559794edb735419",
+      "topic": "soul contracts",
+      "claimed_figures_in_description": [
+        "Black Dragons of Purification",
+        "Ruby Dragons of the Root Chakra"
+      ],
+      "interpretation": "The publisher describes a soul-contract exercise involving named angels or dragons. This does not establish a council named Council of Contract."
+    }
+  ],
+  "reading_comparisons": [
+    {
+      "id": "contact-reading-fluid-group",
+      "source_ids": [
+        "council-contact-tracy-4818c71bd66ea72a",
+        "council-contact-tracy-da255be6621e2071"
+      ],
+      "theme": "The council label is described as a fluid group",
+      "observation": "The June introduction describes Council of Contact as a loose name and a changing collective of higher selves. The September recording likewise explains council as a group name rather than a hierarchy.",
+      "source_locations": [
+        {
+          "source_id": "council-contact-tracy-4818c71bd66ea72a",
+          "asr_start_seconds": 100.6,
+          "anchor_turn": "segment-45"
+        },
+        {
+          "source_id": "council-contact-tracy-da255be6621e2071",
+          "asr_start_seconds": 152.37,
+          "anchor_turn": "segment-53"
+        }
+      ],
+      "interpretation": "Represent this as a source-specific claimed collective; the source itself does not support treating the name as a stable institution or equating it with every Galactic Council."
+    },
+    {
+      "id": "contact-reading-definition-shift",
+      "source_ids": [
+        "council-contact-tracy-548134ce5946a24d",
+        "council-contact-tracy-da255be6621e2071"
+      ],
+      "theme": "Different operational meanings of contact",
+      "observation": "The October introduction distinguishes visible, physical landings from prior inner or partly perceived encounters. The September message says contact can occur through impressions, telepathy and a spirit-team relationship without a landed ship or shared observation.",
+      "source_locations": [
+        {
+          "source_id": "council-contact-tracy-548134ce5946a24d",
+          "asr_start_seconds": 0,
+          "anchor_turn": "opening introduction"
+        },
+        {
+          "source_id": "council-contact-tracy-da255be6621e2071",
+          "asr_start_seconds": 633.89,
+          "anchor_turn": "segment-195"
+        }
+      ],
+      "interpretation": "Code physical/public and private/experiential contact separately. Shared use of the word contact does not establish a shared observable outcome; this comparison does not evaluate whether contact occurred."
+    },
+    {
+      "id": "contact-reading-sequence",
+      "source_ids": [
+        "council-contact-tracy-4818c71bd66ea72a",
+        "council-contact-tracy-548134ce5946a24d"
+      ],
+      "theme": "Personal encounters, disclosure and global landings",
+      "observation": "The June episode says isolated contact can precede disclosure and presents the timetable as contingent on human response. October places personal contact before global landings and describes a frequency grid, while declining to give a fixed tipping-point number.",
+      "source_locations": [
+        {
+          "source_id": "council-contact-tracy-4818c71bd66ea72a",
+          "asr_start_seconds": 723.78,
+          "anchor_turn": "segment-259 onward"
+        },
+        {
+          "source_id": "council-contact-tracy-548134ce5946a24d",
+          "asr_start_seconds": 589.01,
+          "anchor_turn": "segment-205 onward"
+        }
+      ],
+      "interpretation": "The material supports comparing narrative sequences and changing time references. It does not provide a validated forecast model, a fixed measurable threshold or independently verified event outcomes."
+    },
+    {
+      "id": "contact-reading-agency",
+      "source_ids": [
+        "council-contact-tracy-548134ce5946a24d"
+      ],
+      "theme": "Personal agency and practical recommendations",
+      "observation": "The October message rejects a rescue narrative and emphasizes intention, curiosity, meditation and changes in one’s own responses and relationships. It discusses healing and financial abundance in the same spiritual framework.",
+      "source_locations": [
+        {
+          "source_id": "council-contact-tracy-548134ce5946a24d",
+          "asr_start_seconds": 972.34,
+          "anchor_turn": "segment-324 onward"
+        }
+      ],
+      "interpretation": "These are recommendations made within the source discourse, not verified medical, financial or physical mechanisms, and not advice generated by this research."
+    },
+    {
+      "id": "contact-reading-contract-control",
+      "source_ids": [
+        "council-contact-tracy-548134ce5946a24d",
+        "contact-control-7d0da43d73e06f31",
+        "contact-control-4559794edb735419"
+      ],
+      "theme": "Soul contracts are a topic, not a council name",
+      "observation": "The October Contact recording mentions soul contracts when discussing who experiences contact. Separate publisher descriptions explicitly discuss soul-contract exercises associated with angels or dragons.",
+      "source_locations": [
+        {
+          "source_id": "council-contact-tracy-548134ce5946a24d",
+          "asr_start_seconds": 367.44,
+          "anchor_turn": "segment-129"
+        }
+      ],
+      "interpretation": "Do not use keyword matches for contract, contracts or contracting to rename the council. These are useful nearby-topic controls, not evidence that Contract and Contact are aliases."
+    }
+  ],
+  "reading_coverage": {
+    "annotator_type": "AI_research_role",
+    "full_asr_texts_read": 3,
+    "asr_whitespace_words_read": 9033,
+    "audio_recordings_manually_listened": 0,
+    "human_annotation_accuracy_evaluated": false,
+    "scope": "All three complete retained ASRs were read for the bounded comparisons above; no diarization, waveform alignment or clinical/physical claim verification."
+  },
+  "search_audit": {
+    "queries": [
+      {
+        "query_id": "contact-search-01",
+        "query": "\"Council of Contract\" channeling",
+        "engine": "brave",
+        "url": "https://search.brave.com/search?q=%22Council%20of%20Contract%22%20channeling",
+        "retrieved_at": "2026-11-08T15:58:25.335656+00:00",
+        "status": 200,
+        "content_sha256": "ea22136f66bcf2bb39acd47fb70e2c86ffe2f77452142ec53bb72ca01326e574",
+        "bytes": 244212,
+        "access_depth": "discovery_only",
+        "query_limit": "First response page only",
+        "assessment": "Search page explicitly reports operators were not applied and too few matches; returned relaxed related-name leads, not an exact-name census.",
+        "supports_named_claim": false,
+        "retention": {
+          "encoding": "gzip",
+          "stored_bytes": 54410,
+          "stored_sha256": "91bce028b2291b2e7f36f4819f1b5ae9559729340cd860fece94fe5e2c99ff09",
+          "decoded_bytes": 244212,
+          "decoded_sha256": "ea22136f66bcf2bb39acd47fb70e2c86ffe2f77452142ec53bb72ca01326e574"
+        }
+      },
+      {
+        "query_id": "contact-search-02",
+        "query": "\"Council of Contract\" channeling",
+        "engine": "bing",
+        "url": "https://www.bing.com/search?q=%22Council%20of%20Contract%22%20channeling",
+        "retrieved_at": "2026-11-08T15:58:25.336592+00:00",
+        "status": 200,
+        "content_sha256": "15d1c0be30cd36cb706b44281b296d6227845d2415a4af83f0a16c248005c77e",
+        "bytes": 124106,
+        "access_depth": "discovery_only",
+        "query_limit": "First response page only",
+        "assessment": "Returned unrelated civic-council/dictionary pages; not useful evidence for the requested channeling names.",
+        "supports_named_claim": false,
+        "retention": {
+          "encoding": "gzip",
+          "stored_bytes": 42111,
+          "stored_sha256": "f235fc65ec5ef3d6c5b0672370e6ae3acb9e881b8a18b5cbe467e503b65ea9cc",
+          "decoded_bytes": 124106,
+          "decoded_sha256": "15d1c0be30cd36cb706b44281b296d6227845d2415a4af83f0a16c248005c77e"
+        }
+      },
+      {
+        "query_id": "contact-search-03",
+        "query": "\"Council of Contact\" channeling",
+        "engine": "brave",
+        "url": "https://search.brave.com/search?q=%22Council%20of%20Contact%22%20channeling",
+        "retrieved_at": "2026-11-08T15:58:25.337065+00:00",
+        "status": 200,
+        "content_sha256": "3b4be452579eeb17da9cfdfd059453f1d0d1ba8607d5d44e9369d65b5115cf9c",
+        "bytes": 229977,
+        "access_depth": "discovery_only",
+        "query_limit": "First response page only",
+        "assessment": "Search page explicitly reports operators were not applied and too few matches; returned relaxed related-name leads, not an exact-name census.",
+        "supports_named_claim": false,
+        "retention": {
+          "encoding": "gzip",
+          "stored_bytes": 57063,
+          "stored_sha256": "9f098cb5f9990c372bc0785bb1792fe4ff1a782cb8da6c858e9c32994a6cdb3f",
+          "decoded_bytes": 229977,
+          "decoded_sha256": "3b4be452579eeb17da9cfdfd059453f1d0d1ba8607d5d44e9369d65b5115cf9c"
+        }
+      },
+      {
+        "query_id": "contact-search-04",
+        "query": "\"Council of Contact\" Tracy Kumbera",
+        "engine": "bing",
+        "url": "https://www.bing.com/search?q=%22Council%20of%20Contact%22%20Tracy%20Kumbera",
+        "retrieved_at": "2026-11-08T15:58:25.853718+00:00",
+        "status": 200,
+        "content_sha256": "67b84b639b0dc9711d29e3e0dcebe35a4db843df256210f7175962b6adbce97d",
+        "bytes": 124833,
+        "access_depth": "discovery_only",
+        "query_limit": "First response page only",
+        "assessment": "Returned unrelated civic-council/dictionary pages; not useful evidence for the requested channeling names.",
+        "supports_named_claim": false,
+        "retention": {
+          "encoding": "gzip",
+          "stored_bytes": 42333,
+          "stored_sha256": "891415f58e14487327f6108dd384a3cc9dd161ba677c85baff9762646e8f88c8",
+          "decoded_bytes": 124833,
+          "decoded_sha256": "67b84b639b0dc9711d29e3e0dcebe35a4db843df256210f7175962b6adbce97d"
+        }
+      },
+      {
+        "query_id": "contact-search-05",
+        "query": "\"Council of Contact\" channeling -Tracy -Kumbera",
+        "engine": "bing",
+        "url": "https://www.bing.com/search?q=%22Council%20of%20Contact%22%20channeling%20-Tracy%20-Kumbera",
+        "retrieved_at": "2026-11-08T15:58:26.153329+00:00",
+        "status": 200,
+        "content_sha256": "94e250501ca7c572d0ec4deaaa3009d656ac4e14e54a8a5da3e1204b7c572a56",
+        "bytes": 124075,
+        "access_depth": "discovery_only",
+        "query_limit": "First response page only",
+        "assessment": "Returned unrelated civic-council/dictionary pages; not useful evidence for the requested channeling names.",
+        "supports_named_claim": false,
+        "retention": {
+          "encoding": "gzip",
+          "stored_bytes": 42094,
+          "stored_sha256": "11af1a42835fe5e8eddccba879cdf432d1252a1f6a77261ac384444c0818a923",
+          "decoded_bytes": 124075,
+          "decoded_sha256": "94e250501ca7c572d0ec4deaaa3009d656ac4e14e54a8a5da3e1204b7c572a56"
+        }
+      },
+      {
+        "query_id": "contact-search-06",
+        "query": "\"Council of Nine\" Phyllis Schlemmer official",
+        "engine": "bing",
+        "url": "https://www.bing.com/search?q=%22Council%20of%20Nine%22%20Phyllis%20Schlemmer%20official",
+        "retrieved_at": "2026-11-08T15:58:26.323511+00:00",
+        "status": 200,
+        "content_sha256": "edc2198114b3a889470503e99536fb9c7979c6a3ff834be20067eadd844bdaa5",
+        "bytes": 150598,
+        "access_depth": "discovery_only",
+        "query_limit": "First response page only",
+        "assessment": "Returned unrelated civic-council/dictionary pages; not useful evidence for the requested channeling names.",
+        "supports_named_claim": false,
+        "retention": {
+          "encoding": "gzip",
+          "stored_bytes": 52117,
+          "stored_sha256": "7aaff145ed66e4a616ed6c8ad65253733254ebc1387b4166439ef2d7c74dec1c",
+          "decoded_bytes": 150598,
+          "decoded_sha256": "edc2198114b3a889470503e99536fb9c7979c6a3ff834be20067eadd844bdaa5"
+        }
+      }
+    ],
+    "executed_queries": 6,
+    "search_pages_are_not_source_claims": true,
+    "scope": "No second-page enumeration or complete platform census. Reddit/YouTube results remained discovery links; no community text or blocked YouTube endpoint was collected."
+  },
+  "totals": {
+    "retained_contact_publications": 3,
+    "previously_retained_audio_bytes": 23349614,
+    "decoded_audio_seconds": 3842.12125,
+    "complete_local_asr_words": 9033,
+    "new_audio_downloads_this_role": 0,
+    "distinct_medium_records_in_contact_subset": 1
+  },
+  "limitations": [
+    "The three Contact recordings share one publisher/medium; they do not provide cross-medium replication.",
+    "All transcripts are uncertain machine editions; apparent text speakers are not verified voice identities.",
+    "Public RSS dates are publication metadata, not timestamps of a claimed contact event.",
+    "Search engines relaxed exact-name operators or returned irrelevant pages; unresolved names must remain unresolved.",
+    "A recent feed window and a source-led convenience sample are not all uploaded YouTube videos.",
+    "Related vocabulary does not establish a common entity, institution, doctrine or independently shared answer."
+  ]
+}

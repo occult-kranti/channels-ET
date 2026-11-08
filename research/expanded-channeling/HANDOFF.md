@@ -23,8 +23,10 @@ states this explicitly.
 | Typed relationship register | 69 relationships / 19 comparison groups / 52 source-specific label records | Host, directory, contact, repost and direct channeling relations remain distinct |
 | Magenta publisher video archive | 23 linked pages / 1,114 YouTube IDs | Includes a repaired Shorts-parser omission; no YouTube download or upload-total claim |
 | Completed new publisher audio frame | 229 publications / 228 exact original-byte families / 1,571,640,963 bytes / 258,545.244 decoded seconds | 204 Tracy, 20 Multidimensional Soul, five OmNa; finite publisher frame, not every historical YouTube upload |
-| Supplementary release text snapshot | 31 local ASRs, 71 linked captions, one held failure, 126 pending ASRs | Immutable input manifests; live queue continues separately, with one reviewed alternate-model retry |
-| Collected-audio analytical snapshot | 27 text units / 67,424 words from an earlier 75-audio cutoff | Ten new ASRs plus 17 reused captions; source context, not speaker/entity labels |
+| Historical supplementary text snapshot | 31 local ASRs, 71 linked captions, one held failure, 126 pending ASRs | Earlier immutable cutoff; superseded by the completed edition below |
+| Historical collected-audio fit | 27 text units / 67,424 words from an earlier 75-audio cutoff | Ten new ASRs plus 17 reused captions; preserved privately and in release history |
+| Completed publisher text frame | 158 accepted local ASRs + 71 linked captions = 229 publications with text | 156 standard + two reviewed alternate ASRs; failed editions preserved, zero pending |
+| Completed collected-audio fit | 228 unique text units / 599,401 words | 158 ASRs + 70 caption units after one exact original-audio/text family exclusion |
 | MiniLM semantic message pilot | 20 messages, zero chunk truncation; six source-read retrieval pairs | Same written-message pilot; pretrained model, no new weights or answer-equivalence claim |
 | Expanded companion paper | 21 pages, eight figures, eight tables, portable LaTeX ZIP | Frozen joint and written-message studies; later audio/semantic supplements remain separate |
 
@@ -142,3 +144,68 @@ Supplementary actual-data browser checks pass 1,242 assertions plus 208 core reg
 A finite completion refresher is implemented in `refresh_pipeline.py`. It requires a clean reviewed expected Git commit, unchanged remote main, final collection and transcription dispositions, a reviewed fallback result, fresh private refits, source/figure/privacy checks, and an exact publication allowlist. It stops if future edits or a new commit appear. Its launch/completion state is recorded privately; the presence of code alone does not establish execution or a later publication.
 
 The table and accepted hashes above preserve the reviewed supplementary cutoffs. A successful completion refresher publishes a new collected-audio edition with its own counts, source hashes and private provenance, while preserving the core fits and paper. Consult the current dashboard JSON for that later edition; do not add overlapping editions as new independent observations.
+
+## Completed edition integrated with the Council follow-on
+
+The selected publisher frame has finished: all **229 retained publications have
+text**, through **156 standard local ASRs, two independently accepted alternate
+ASRs and 71 exact publisher-caption links**. The two failed inference editions
+remain preserved as history; there are zero active recognition holds and zero
+pending selected transcriptions. Sixty admitted ASR editions disclose terminal
+display-timestamp normalization. These counts do not establish word accuracy,
+speaker identity, caption alignment or complete historical YouTube coverage.
+
+The resulting collected-audio fit has **228 text units / 599,401 words**: 203 Tracy
+units (471,766 words), 20 Multidimensional Soul units (122,532 words), and five
+OmNa units (5,103 words). One caption-linked publication shares both its original
+audio-byte family and caption text with another selected publication and is
+excluded once from modeling. Source-context labels are not inferred entity or
+utterance-speaker labels. All earlier joint, written-message, semantic and paper
+bytes remain unchanged; overlapping editions must not be summed.
+
+Final collected-audio JSON SHA-256:
+`4f0107cd8ccdcbcfa5730ee1ee9710895b2a04d05614987c72e751c860c1fce3`.
+Completed acquisition projection SHA-256:
+`d0b57ebd491594c70aba9dbbb9f311a221ab37efc9df47f123f30f70a766a14a`.
+Private merged-ASR input SHA-256:
+`8eaa346375679976ecff4b7a3a8a0701f5af452e2e04796069b4d4be157faf94`.
+
+The previous publication watcher was paused for the newly authorized Council
+work. The recognition process later lost liveness with no demonstrated cause;
+its two incomplete unadmitted inference folders were preserved before an
+unchanged, detached inference restart completed the queue. No failed partial
+output was silently admitted. The watcher's source validation and private
+staging functions ran successfully into
+`expanded-channeling-2026-11/completion/coordinated-council-01/`; its publication
+function was not called. A source-bound eleven-file allowlist was then reviewed
+and integrated manually with the Council release. This coordinated completion
+supersedes the paused watcher; no remaining background completion is claimed.
+
+The new private navigator is
+`subscription-screening-2026-11/archive-complete-01/index.html`, referencing all
+229 audio and text editions without copying media. Its 229-text portable ZIP is
+`publisher-texts-snapshot.zip`, SHA-256
+`b1a346e57f761cc5cbce8c8e828dc65eb08796d3c89f1c25de6a4ee9d1226270`.
+The earlier navigator and text snapshot remain preserved. The separate
+[Council study](../council-study/README.md) reuses three of these recordings and
+adds one new mixed interview and one written comparison control; those reused
+items are not independent new recordings.
+
+An independent completion audit rehashed all 229 retained audio files, checked
+158 accepted ASR source/output joins and 71 caption links, and reconciled every
+selected/excluded model unit. Separate log-TF/IDF calculations reproduced all
+whole-text similarities within 1.033e-14 and all centered-window similarities
+within 1.666e-15; literal keyword counts matched exactly. NMF weights matched
+within 8.216e-15, and KMeans reproduced the released partition. Cluster separation
+remains weak (cosine silhouette 0.02150); this does not identify entities or
+validate source assertions. The two final figure families were visually checked.
+Private proofs are `independent-methods-review.json` and
+`independent-visual-review.json` in the coordinated completion directory.
+
+The completed 228-unit browser regression passed 294 actual-data assertions at
+320/1440 pixels. Updated reusable checks passed 136 matrix assertions (actual
+data plus explicitly isolated fixtures) and 198 supplementary-study assertions
+at mobile/desktop sizes. Every exported value for all 25,878 distinct unordered
+document pairs was compared with the released matrix. The final partial 8×8
+block preserves global source IDs; complete exports are independent of the
+visible block. No runtime/console errors or input hash changes were observed.

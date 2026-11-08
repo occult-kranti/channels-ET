@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded AI interpretation of exact phrase-match windows; no new text enters the council fit.",
+  "reviews": [
+    {
+      "source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+      "query": "Council of Contact",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Alcyone--The-Great-Central-Sun-On-Solar-Light-Codes--Disclosure--Your-Galactic-Ascension-e3gdba4",
+      "text_artifact_sha256": "5b5475ed7cd167a34a057c73e3bcdce4a9a6480b37d8ca3e87cd5a11881b0b91",
+      "context_sha256": "1c7d9179cbae70699dbb846b261b7a442be20569af02ee70dec097e3f9268ee6",
+      "context_words_read": 126,
+      "matched_start_character": 4080,
+      "matched_end_character": 4098,
+      "context_kind": "cross_reference_in_differently_attributed_recording",
+      "paraphrase": "The retained context in the Alcyone-titled recording describes the Council of Contact as an intermediary and anticipates meeting it. This is a cross-reference inside another attributed context, not evidence that the retrieved passage is spoken by that council.",
+      "speaker_role": "unknown",
+      "human_annotation": false,
+      "audio_listened": false,
+      "coverage": "Only the saved match context was read for this note, not the whole recording or document."
+    },
+    {
+      "source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+      "query": "Council of Contact",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Lyran-Golden-Dragons-Channeled-Message-For-Your-Ascension-e3fev7l",
+      "text_artifact_sha256": "7e1684b25240129ed6d6050d69361e048fe96dd750d33f6f4037dc4cc406c58e",
+      "context_sha256": "8c5edd17bb0576b0d2fc98532a132c69ccbdca90aa13402a013b499f7f34cca4",
+      "context_words_read": 135,
+      "matched_start_character": 3632,
+      "matched_end_character": 3650,
+      "context_kind": "invitation_to_future_topics_in_differently_attributed_recording",
+      "paraphrase": "The retained context in the Lyran Golden Dragons recording invites requests for future topics and mentions having Council of Contact material. That invitation does not make the current recording a Council of Contact message.",
+      "speaker_role": "unknown",
+      "human_annotation": false,
+      "audio_listened": false,
+      "coverage": "Only the saved match context was read for this note, not the whole recording or document."
+    }
+  ]
+}

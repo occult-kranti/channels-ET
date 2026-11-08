@@ -1,0 +1,2898 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T16:42:18.707005+00:00",
+  "script_sha256": "a56f67ec19f092c58311b96b4a72028fd1e9bec5664f116dbcefc8785d5183f1",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "scope": "A separately fitted convenience sample of inspected council message texts and publisher-attributed recording contexts. Earlier studies are unchanged.",
+  "input_bindings": [
+    {
+      "snapshot_file": "input-manifest-1.json",
+      "sha256": "032d4da38de9b282d49415e941745ad8688bdc9529304a7f556b24626b73d367",
+      "bytes": 15648
+    },
+    {
+      "snapshot_file": "input-manifest-2.json",
+      "sha256": "d58a22107a36f6c46ad0bf5e0dea28d65e88d1310e13cd52e08a780ab709b399",
+      "bytes": 1981
+    },
+    {
+      "snapshot_file": "input-manifest-3.json",
+      "sha256": "ab1e1195b1ba679246db2389e50a420a8151ee8fa09b4fa2f806df4069cc6279",
+      "bytes": 30424
+    }
+  ],
+  "coverage": {
+    "documents": 5,
+    "words": 26451,
+    "mediums": 3,
+    "council_labels": 3,
+    "groups": [
+      {
+        "medium_id": "daniel-scranton",
+        "council_label_exact": "The 9D Arcturian Council",
+        "label": "Daniel Scranton · The 9D Arcturian Council",
+        "documents": 1,
+        "words": 487
+      },
+      {
+        "medium_id": "medium-tracy-kumbera",
+        "council_label_exact": "Council of Contact",
+        "label": "Tracy Kumbera · Council of Contact",
+        "documents": 3,
+        "words": 9033
+      },
+      {
+        "medium_id": "pamela-aaralyn",
+        "council_label_exact": "Galactic Council of 9",
+        "label": "Pamela Aaralyn · Galactic Council of 9",
+        "documents": 1,
+        "words": 16931
+      }
+    ],
+    "reused_existing_audio_text_editions": 3,
+    "all_youtube_uploads": null,
+    "source_editions_inspected": 5,
+    "new_audio_asr_editions_selected": 1,
+    "duration_policy": {
+      "non_bashar_minimum_seconds": 0,
+      "bashar_minimum_seconds": 300
+    }
+  },
+  "acquisition_origin_rules": {
+    "prior_audio_frame_sha256": "82c007e60fdddd3c970bd4831beb632dca8a3fe183bbca01a715de6d409de694",
+    "scope": "Reuse requires exact acquisition-receipt agreement with the pinned prior 229-publication frame. New ASR requires an explicit new-council-pilot declaration and a receipt in this private study. Unknown origin is not inferred as new."
+  },
+  "documents": [
+    {
+      "source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "primary_source_id": "council-contact-tracy-4818c71bd66ea72a",
+      "title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+      "medium_id": "medium-tracy-kumbera",
+      "medium": "Tracy Kumbera",
+      "council_id": "council-of-contact-tracy",
+      "council_label_exact": "Council of Contact",
+      "attribution_scope": "publisher_title_attributes_this_recording; utterance speaker roles remain unverified",
+      "text_origin": "publisher_rss_audio_with_local_asr",
+      "corpus_kind": "publisher_attributed_recording_context",
+      "discussed_council_label": null,
+      "text_scope": "Full unverified ASR including host introduction, channeling context and any outro; no diarization or speech identity verification.",
+      "access_depth": "full_retained_audio_and_machine_text",
+      "published_at": "2026-06-14T22:44:00+00:00",
+      "published_at_basis": "publisher_metadata_unverified",
+      "words": 2932,
+      "analysis_tokens": 2933,
+      "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+      "text_content_sha256": "50a9fe7456e31e10d78528ea5bf2e6a6b86d4567595c9eb3b84de988e3312b71",
+      "source_format": "normalized_asr",
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "audio_listened": false,
+      "decoded_audio_seconds": 1220.516,
+      "retained_audio_sha256": "2f777243ddd574922efe83db9b0166ae728cbfb6e6a2c430bc10c8a36c13f7da",
+      "reused_from_existing_collection": true,
+      "acquisition_origin": "reused_prior_verified_frame",
+      "audio_representation": {
+        "codec": "opus",
+        "channels": 1,
+        "container_reported_bitrate_bps": 48618,
+        "scope": "Retained derivative metadata; container average bitrate is not a nominal encoder target or an accuracy measure."
+      },
+      "recognition": {
+        "receipt_sha256": "2f84a50c296dee33dc44b1537dbc3f4e6b329bcaf05c45f7cee7d3f89fbcaea3",
+        "model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+        "language_mode": "english-only",
+        "language_reported": "en",
+        "condition_on_previous_text": null,
+        "cpu_threads": null,
+        "scope": "Recognition configuration and source-format differences remain confounded with medium/context; no accuracy comparison."
+      },
+      "publication_family_id": null,
+      "timestamp_normalization": "unadjusted",
+      "question_punctuation_count": 11,
+      "identified_answers": 0
+    },
+    {
+      "source_id": "council-contact-tracy-548134ce5946a24d",
+      "primary_source_id": "council-contact-tracy-548134ce5946a24d",
+      "title": "First Contact Is Here! Council of Contact Channeled Message",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+      "medium_id": "medium-tracy-kumbera",
+      "medium": "Tracy Kumbera",
+      "council_id": "council-of-contact-tracy",
+      "council_label_exact": "Council of Contact",
+      "attribution_scope": "publisher_title_attributes_this_recording; utterance speaker roles remain unverified",
+      "text_origin": "publisher_rss_audio_with_local_asr",
+      "corpus_kind": "publisher_attributed_recording_context",
+      "discussed_council_label": null,
+      "text_scope": "Full unverified ASR including host introduction, channeling context and any outro; no diarization or speech identity verification.",
+      "access_depth": "full_retained_audio_and_machine_text",
+      "published_at": "2026-10-16T20:22:01+00:00",
+      "published_at_basis": "publisher_metadata_unverified",
+      "words": 3440,
+      "analysis_tokens": 3442,
+      "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+      "text_content_sha256": "3cea380262cfce78d4f8e0f72f0509a92712041726ed550b393473587621ad4f",
+      "source_format": "normalized_asr",
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "audio_listened": false,
+      "decoded_audio_seconds": 1461.695125,
+      "retained_audio_sha256": "76657fd5df68b12f7d50228d98f413bc29c6083161459862da030cca83632f6b",
+      "reused_from_existing_collection": true,
+      "acquisition_origin": "reused_prior_verified_frame",
+      "audio_representation": {
+        "codec": "opus",
+        "channels": 1,
+        "container_reported_bitrate_bps": 48617,
+        "scope": "Retained derivative metadata; container average bitrate is not a nominal encoder target or an accuracy measure."
+      },
+      "recognition": {
+        "receipt_sha256": "d1ab26b27c2daaaa4682bcb4d5aa8b53095c927e1b238318e643b6fbc588e00b",
+        "model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+        "language_mode": "english-only",
+        "language_reported": "en",
+        "condition_on_previous_text": null,
+        "cpu_threads": null,
+        "scope": "Recognition configuration and source-format differences remain confounded with medium/context; no accuracy comparison."
+      },
+      "publication_family_id": null,
+      "timestamp_normalization": "unadjusted",
+      "question_punctuation_count": 12,
+      "identified_answers": 0
+    },
+    {
+      "source_id": "council-contact-tracy-da255be6621e2071",
+      "primary_source_id": "council-contact-tracy-da255be6621e2071",
+      "title": "September Energy Update - Council of Contact Channeled Message",
+      "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/September-Energy-Update---Council-of-Contact-Channeled-Message-e3oaecs",
+      "medium_id": "medium-tracy-kumbera",
+      "medium": "Tracy Kumbera",
+      "council_id": "council-of-contact-tracy",
+      "council_label_exact": "Council of Contact",
+      "attribution_scope": "publisher_title_attributes_this_recording; utterance speaker roles remain unverified",
+      "text_origin": "publisher_rss_audio_with_local_asr",
+      "corpus_kind": "publisher_attributed_recording_context",
+      "discussed_council_label": null,
+      "text_scope": "Full unverified ASR including host introduction, channeling context and any outro; no diarization or speech identity verification.",
+      "access_depth": "full_retained_audio_and_machine_text",
+      "published_at": "2026-09-03T22:44:01+00:00",
+      "published_at_basis": "publisher_metadata_unverified",
+      "words": 2661,
+      "analysis_tokens": 2660,
+      "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+      "text_content_sha256": "0804fdcb76b9af7bddb15d01ad67fc0f1e0d3f8980e123862bbaed81e168cd16",
+      "source_format": "normalized_asr",
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "audio_listened": false,
+      "decoded_audio_seconds": 1159.910125,
+      "retained_audio_sha256": "95957cefb4ae067a28cfdacc599c519cc1ec64551d5a9561ac31d3ea45232870",
+      "reused_from_existing_collection": true,
+      "acquisition_origin": "reused_prior_verified_frame",
+      "audio_representation": {
+        "codec": "opus",
+        "channels": 1,
+        "container_reported_bitrate_bps": 48617,
+        "scope": "Retained derivative metadata; container average bitrate is not a nominal encoder target or an accuracy measure."
+      },
+      "recognition": {
+        "receipt_sha256": "ae269a297ba9877ee52468131010af8f4527232b52c94b90916442da410827f6",
+        "model_files_sha256": "1eaa693a623c13572fcc373f2f982b36d686e164deffb8c89d93b65c09cf237b",
+        "language_mode": "english-only",
+        "language_reported": "en",
+        "condition_on_previous_text": null,
+        "cpu_threads": null,
+        "scope": "Recognition configuration and source-format differences remain confounded with medium/context; no accuracy comparison."
+      },
+      "publication_family_id": null,
+      "timestamp_normalization": "unadjusted",
+      "question_punctuation_count": 6,
+      "identified_answers": 0
+    },
+    {
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "primary_source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f",
+      "title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+      "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+      "medium_id": "pamela-aaralyn",
+      "medium": "Pamela Aaralyn",
+      "council_id": "galactic-council-9-pamela",
+      "council_label_exact": "Galactic Council of 9",
+      "attribution_scope": "Publisher title/description credit Pamela Aaralyn and mix Galactic Council of 9 with humans from the future; no entity-specific or named-speaker turns verified.",
+      "text_origin": "publisher_rss_interview_audio_with_local_asr",
+      "corpus_kind": "publisher_attributed_mixed_interview_context",
+      "discussed_council_label": null,
+      "text_scope": "Complete recognized interview including introduction, host speech, claimed channeling context, any advertisements and outro; no diarization, entity-specific segmentation, listening or word-accuracy review.",
+      "access_depth": "full_retained_audio_and_machine_text",
+      "published_at": "2024-07-26T10:00:00+00:00",
+      "published_at_basis": "primary RSS pubDate; not claimed channeling event time",
+      "words": 16931,
+      "analysis_tokens": 16933,
+      "text_artifact_sha256": "b5fbc413f7e3661e2a9d5739f3d0eccd0a513fa127d2cd1ea2fd216bf3ef0e7b",
+      "text_content_sha256": "a770b17d5c4a01d546818ad184fa7e9eba9f21e35ca1d82e498a96ce8df348e9",
+      "source_format": "normalized_asr",
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "audio_listened": false,
+      "decoded_audio_seconds": 6897.456,
+      "retained_audio_sha256": "546235cea10c76750ac5aea119184a0f894319383efd5c0ccce5566491fccf52",
+      "reused_from_existing_collection": false,
+      "acquisition_origin": "new_council_pilot",
+      "audio_representation": {
+        "codec": "opus",
+        "channels": 1,
+        "container_reported_bitrate_bps": 22641,
+        "scope": "Retained derivative metadata; container average bitrate is not a nominal encoder target or an accuracy measure."
+      },
+      "recognition": {
+        "receipt_sha256": "7213fbfc0a30de8967a5561262ffa0e56ea115280b4be18f84ffb8d5b2fdb73f",
+        "model_files_sha256": "92faa8961801194124137f7a9287f00e9d13a174e6a6690c83907c1d546af793",
+        "language_mode": "multilingual",
+        "language_reported": "en",
+        "condition_on_previous_text": false,
+        "cpu_threads": 1,
+        "scope": "Recognition configuration and source-format differences remain confounded with medium/context; no accuracy comparison."
+      },
+      "publication_family_id": "inspire:d075f187-a23e-47a1-9fb2-308f3250d57f",
+      "timestamp_normalization": "unadjusted",
+      "question_punctuation_count": 141,
+      "identified_answers": 0
+    },
+    {
+      "source_id": "galactic-daniel-20190327",
+      "primary_source_id": "galactic-daniel-20190327",
+      "title": "A 4th Dimensional Galactic Council ∞The 9D Arcturian Council",
+      "source_url": "https://danielscranton.com/a-4th-dimensional-galactic-council-%E2%88%9Ethe-9d-arcturian-council/",
+      "medium_id": "daniel-scranton",
+      "medium": "Daniel Scranton",
+      "council_id": null,
+      "council_label_exact": "The 9D Arcturian Council",
+      "attribution_scope": "direct_to_arcturian_council_not_discussed_galactic_council",
+      "text_origin": "publisher_text",
+      "corpus_kind": "council_discussion_comparison_control",
+      "discussed_council_label": "a fourth-dimensional galactic council",
+      "text_scope": "Complete bounded quoted publisher message from opening self-attribution through closing signature; navigation, advertisements and recommendations excluded.",
+      "access_depth": null,
+      "published_at": "2019-03-27T08:45:53+00:00",
+      "published_at_basis": "article:published_time metadata; schema also reports equivalent2019-03-26T22:45:53-10:00",
+      "words": 487,
+      "analysis_tokens": 493,
+      "text_artifact_sha256": "f5d771ac28d1668aad231a06734e90c58d520228cf731a723f920068c5ac2286",
+      "text_content_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+      "source_format": "publisher_written_message",
+      "speaker_identity_verified": false,
+      "audio_alignment_verified": false,
+      "audio_listened": false,
+      "decoded_audio_seconds": null,
+      "retained_audio_sha256": null,
+      "reused_from_existing_collection": false,
+      "acquisition_origin": "written_source_not_audio_acquisition",
+      "audio_representation": null,
+      "recognition": null,
+      "publication_family_id": null,
+      "timestamp_normalization": null,
+      "question_punctuation_count": 0,
+      "identified_answers": 0
+    }
+  ],
+  "excluded_and_aliases": [],
+  "lexical": {
+    "status": "fitted",
+    "source_ids": [
+      "council-contact-tracy-4818c71bd66ea72a",
+      "council-contact-tracy-548134ce5946a24d",
+      "council-contact-tracy-da255be6621e2071",
+      "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "galactic-daniel-20190327"
+    ],
+    "matrix": [
+      [
+        0.9999999999999255,
+        0.1452385637381855,
+        0.14778426077932916,
+        0.12254288693478248,
+        0.04688872812944254
+      ],
+      [
+        0.1452385637381855,
+        0.9999999999999178,
+        0.1520889283173388,
+        0.11354661817767885,
+        0.05330289853253653
+      ],
+      [
+        0.14778426077932916,
+        0.1520889283173388,
+        0.9999999999999942,
+        0.11771108240516792,
+        0.03829868617209621
+      ],
+      [
+        0.12254288693478248,
+        0.11354661817767885,
+        0.11771108240516792,
+        0.9999999999995534,
+        0.05494597253028897
+      ],
+      [
+        0.04688872812944254,
+        0.05330289853253653,
+        0.03829868617209621,
+        0.05494597253028897,
+        1.0000000000000002
+      ]
+    ],
+    "window_300_source_ids": [
+      "council-contact-tracy-4818c71bd66ea72a",
+      "council-contact-tracy-548134ce5946a24d",
+      "council-contact-tracy-da255be6621e2071",
+      "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "galactic-daniel-20190327"
+    ],
+    "window_300_matrix": [
+      [
+        0.9999999999999996,
+        0.042712654677780626,
+        0.046188622725435446,
+        0.031249905838086837,
+        0.01919017821610127
+      ],
+      [
+        0.042712654677780626,
+        0.9999999999999991,
+        0.053380983972087986,
+        0.024102264534531317,
+        0.05058416402783215
+      ],
+      [
+        0.046188622725435446,
+        0.053380983972087986,
+        0.9999999999999959,
+        0.022911780147476062,
+        0.014717173895450238
+      ],
+      [
+        0.031249905838086837,
+        0.024102264534531317,
+        0.022911780147476062,
+        0.9999999999999983,
+        0.02558682186029701
+      ],
+      [
+        0.01919017821610127,
+        0.05058416402783215,
+        0.014717173895450238,
+        0.02558682186029701,
+        1.0
+      ]
+    ],
+    "pairs": [
+      {
+        "source": "council-contact-tracy-4818c71bd66ea72a",
+        "target": "council-contact-tracy-548134ce5946a24d",
+        "cosine": 0.1452385637381855,
+        "unmasked_cosine": 0.14760101675439546,
+        "same_medium": true,
+        "same_exact_label": true,
+        "category": "same_medium_same_label"
+      },
+      {
+        "source": "council-contact-tracy-4818c71bd66ea72a",
+        "target": "council-contact-tracy-da255be6621e2071",
+        "cosine": 0.14778426077932916,
+        "unmasked_cosine": 0.15073943664486095,
+        "same_medium": true,
+        "same_exact_label": true,
+        "category": "same_medium_same_label"
+      },
+      {
+        "source": "council-contact-tracy-4818c71bd66ea72a",
+        "target": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+        "cosine": 0.12254288693478248,
+        "unmasked_cosine": 0.12232415240071147,
+        "same_medium": false,
+        "same_exact_label": false,
+        "category": "different_medium_different_label"
+      },
+      {
+        "source": "council-contact-tracy-4818c71bd66ea72a",
+        "target": "galactic-daniel-20190327",
+        "cosine": 0.04688872812944254,
+        "unmasked_cosine": 0.04801719086965883,
+        "same_medium": false,
+        "same_exact_label": false,
+        "category": "different_medium_different_label"
+      },
+      {
+        "source": "council-contact-tracy-548134ce5946a24d",
+        "target": "council-contact-tracy-da255be6621e2071",
+        "cosine": 0.1520889283173388,
+        "unmasked_cosine": 0.1539782360462612,
+        "same_medium": true,
+        "same_exact_label": true,
+        "category": "same_medium_same_label"
+      },
+      {
+        "source": "council-contact-tracy-548134ce5946a24d",
+        "target": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+        "cosine": 0.11354661817767885,
+        "unmasked_cosine": 0.11352853915471202,
+        "same_medium": false,
+        "same_exact_label": false,
+        "category": "different_medium_different_label"
+      },
+      {
+        "source": "council-contact-tracy-548134ce5946a24d",
+        "target": "galactic-daniel-20190327",
+        "cosine": 0.05330289853253653,
+        "unmasked_cosine": 0.054025470457282,
+        "same_medium": false,
+        "same_exact_label": false,
+        "category": "different_medium_different_label"
+      },
+      {
+        "source": "council-contact-tracy-da255be6621e2071",
+        "target": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+        "cosine": 0.11771108240516792,
+        "unmasked_cosine": 0.11770142070304428,
+        "same_medium": false,
+        "same_exact_label": false,
+        "category": "different_medium_different_label"
+      },
+      {
+        "source": "council-contact-tracy-da255be6621e2071",
+        "target": "galactic-daniel-20190327",
+        "cosine": 0.03829868617209621,
+        "unmasked_cosine": 0.039982678000480186,
+        "same_medium": false,
+        "same_exact_label": false,
+        "category": "different_medium_different_label"
+      },
+      {
+        "source": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+        "target": "galactic-daniel-20190327",
+        "cosine": 0.05494597253028897,
+        "unmasked_cosine": 0.054979222827246585,
+        "same_medium": false,
+        "same_exact_label": false,
+        "category": "different_medium_different_label"
+      }
+    ],
+    "top_terms": [
+      {
+        "source_id": "council-contact-tracy-4818c71bd66ea72a",
+        "terms": [
+          "flow",
+          "disclosure",
+          "higher dimensions",
+          "reach point",
+          "return",
+          "dramatic",
+          "isolated",
+          "galactics",
+          "contact disclosure",
+          "contraction"
+        ]
+      },
+      {
+        "source_id": "council-contact-tracy-548134ce5946a24d",
+        "terms": [
+          "grid",
+          "contact",
+          "spouse",
+          "contact frequencies",
+          "frequencies",
+          "personal contact",
+          "land",
+          "starships",
+          "flower life",
+          "tipping point"
+        ]
+      },
+      {
+        "source_id": "council-contact-tracy-da255be6621e2071",
+        "terms": [
+          "time space",
+          "space",
+          "september",
+          "eclipse",
+          "disco",
+          "grief",
+          "special",
+          "month",
+          "contact",
+          "greater"
+        ]
+      },
+      {
+        "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+        "terms": [
+          "future",
+          "days",
+          "trump",
+          "wonder",
+          "election",
+          "new",
+          "chaos",
+          "change",
+          "war",
+          "thank thank"
+        ]
+      },
+      {
+        "source_id": "galactic-daniel-20190327",
+        "terms": [
+          "physical",
+          "fourth",
+          "fourth dimensional",
+          "star",
+          "star systems",
+          "physical beings",
+          "arcturian",
+          "arcturian council",
+          "members",
+          "unite"
+        ]
+      }
+    ],
+    "mask_phrases": [
+      "Council of Contact",
+      "Daniel Scranton",
+      "Galactic Council of 9",
+      "Pamela Aaralyn",
+      "The 9D Arcturian Council",
+      "Tracy Kumbera"
+    ],
+    "mask_rule": "Longest complete council-label and medium-name phrases only; no global deletion of contact, light, council, or other constituent words.",
+    "unmasked_matrix": [
+      [
+        0.9999999999999973,
+        0.14760101675439546,
+        0.15073943664486095,
+        0.12232415240071147,
+        0.04801719086965883
+      ],
+      [
+        0.14760101675439546,
+        1.000000000000014,
+        0.1539782360462612,
+        0.11352853915471202,
+        0.054025470457282
+      ],
+      [
+        0.15073943664486095,
+        0.1539782360462612,
+        0.9999999999999364,
+        0.11770142070304428,
+        0.039982678000480186
+      ],
+      [
+        0.12232415240071147,
+        0.11352853915471202,
+        0.11770142070304428,
+        1.0000000000001168,
+        0.054979222827246585
+      ],
+      [
+        0.04801719086965883,
+        0.054025470457282,
+        0.039982678000480186,
+        0.054979222827246585,
+        1.0000000000000002
+      ]
+    ],
+    "features": 12000,
+    "pair_summaries": [
+      {
+        "category": "different_medium_different_label",
+        "pairs": 7,
+        "mean_cosine": 0.07817669612599908,
+        "mean_unmasked_cosine": 0.07865123920187647
+      },
+      {
+        "category": "same_medium_same_label",
+        "pairs": 3,
+        "mean_cosine": 0.1483705842782845,
+        "mean_unmasked_cosine": 0.1507728964818392
+      }
+    ],
+    "window_rule": "Centered 300 raw-token span before phrase masking; fixed masked whole-document vocabulary/IDF; short texts excluded.",
+    "unmasked_sensitivity": "Separately refitted unmasked vocabulary/IDF; same selected documents. Descriptive name-mask sensitivity, not a validation test.",
+    "pair_scope": "Dependent document pairs; unequal length, source style, editions, speaker roles and label coverage remain confounded. No significance or agreement probability."
+  },
+  "topics": {
+    "status": "exploratory_fit",
+    "k": 3,
+    "selection": "At most three displayed factors with at least five eligible units; not an optimal or validated doctrine count.",
+    "iterations": 15,
+    "max_iter": 1000,
+    "converged_before_iteration_limit": true,
+    "components": [
+      {
+        "id": 1,
+        "terms": [
+          "contact",
+          "higher",
+          "not",
+          "frequencies",
+          "soul",
+          "going",
+          "ascension",
+          "it's",
+          "right",
+          "just"
+        ]
+      },
+      {
+        "id": 2,
+        "terms": [
+          "physical",
+          "fourth dimensional",
+          "fourth",
+          "star",
+          "star systems",
+          "physical beings",
+          "members",
+          "unite",
+          "arcturian",
+          "arcturian council"
+        ]
+      },
+      {
+        "id": 3,
+        "terms": [
+          "future",
+          "days",
+          "wonder",
+          "trump",
+          "election",
+          "new",
+          "chaos",
+          "did",
+          "war",
+          "thank thank"
+        ]
+      }
+    ],
+    "weights": [
+      {
+        "source_id": "council-contact-tracy-4818c71bd66ea72a",
+        "weights": [
+          0.9780551340208589,
+          0.0,
+          0.021944865979141085
+        ]
+      },
+      {
+        "source_id": "council-contact-tracy-548134ce5946a24d",
+        "weights": [
+          0.9769850501958904,
+          0.023014949804109654,
+          0.0
+        ]
+      },
+      {
+        "source_id": "council-contact-tracy-da255be6621e2071",
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "source_id": "galactic-daniel-20190327",
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "clusters": {
+    "status": "exploratory_fit",
+    "k": 3,
+    "seeds": [
+      {
+        "seed": 11,
+        "silhouette": 0.02069122075639357,
+        "medium_ARI": 1.0
+      },
+      {
+        "seed": 23,
+        "silhouette": 0.02069122075639357,
+        "medium_ARI": 1.0
+      },
+      {
+        "seed": 47,
+        "silhouette": 0.02069122075639357,
+        "medium_ARI": 1.0
+      }
+    ],
+    "silhouette": 0.02069122075639357,
+    "medium_ARI": 1.0,
+    "seed_pair_ARI": [
+      {
+        "left": 11,
+        "right": 23,
+        "ARI": 1.0
+      },
+      {
+        "left": 11,
+        "right": 47,
+        "ARI": 1.0
+      },
+      {
+        "left": 23,
+        "right": 47,
+        "ARI": 1.0
+      }
+    ],
+    "assignments": [
+      {
+        "source_id": "council-contact-tracy-4818c71bd66ea72a",
+        "cluster": 1,
+        "x": 0.5973488472427841,
+        "y": -0.13877509312556255
+      },
+      {
+        "source_id": "council-contact-tracy-548134ce5946a24d",
+        "cluster": 1,
+        "x": 0.5964027791406802,
+        "y": -0.0993256582796561
+      },
+      {
+        "source_id": "council-contact-tracy-da255be6621e2071",
+        "cluster": 1,
+        "x": 0.5960024627996624,
+        "y": -0.20872776317190478
+      },
+      {
+        "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+        "cluster": 3,
+        "x": 0.533728292093415,
+        "y": 0.026753367601180297
+      },
+      {
+        "source_id": "galactic-daniel-20190327",
+        "cluster": 2,
+        "x": 0.264823922251042,
+        "y": 0.952551680776824
+      }
+    ],
+    "svd_explained_variance_ratio": [
+      0.02300059912679517,
+      0.2564640739873177
+    ],
+    "scope": "Two-dimensional projection and seed11 clusters; source-medium ARI diagnoses confounding, not entity-class accuracy."
+  },
+  "keywords": {
+    "dictionary": {
+      "contact_and_disclosure": [
+        "contact",
+        "disclosure",
+        "ship",
+        "ships",
+        "extraterrestrial",
+        "extraterrestrials",
+        "alien",
+        "aliens",
+        "telepathy",
+        "telepathic"
+      ],
+      "choice_and_agency": [
+        "choice",
+        "choices",
+        "choose",
+        "choosing",
+        "consent",
+        "permission",
+        "decision",
+        "decisions",
+        "sovereignty"
+      ],
+      "emotion_and_self_care": [
+        "fear",
+        "fears",
+        "love",
+        "loving",
+        "anxiety",
+        "peace",
+        "compassion",
+        "healing",
+        "heart"
+      ],
+      "collective_change": [
+        "collective",
+        "humanity",
+        "earth",
+        "planet",
+        "planetary",
+        "ascension",
+        "transition",
+        "transformation"
+      ],
+      "practice_and_attention": [
+        "meditate",
+        "meditation",
+        "breathe",
+        "breathing",
+        "practice",
+        "practices",
+        "attention",
+        "awareness",
+        "focus"
+      ],
+      "contracts_and_incarnation": [
+        "contract",
+        "contracts",
+        "soul",
+        "souls",
+        "incarnation",
+        "incarnations",
+        "incarnational"
+      ]
+    },
+    "rows": [
+      {
+        "source_id": "council-contact-tracy-4818c71bd66ea72a",
+        "analysis_tokens": 2933,
+        "counts": {
+          "contact_and_disclosure": 48,
+          "choice_and_agency": 7,
+          "emotion_and_self_care": 23,
+          "collective_change": 16,
+          "practice_and_attention": 5,
+          "contracts_and_incarnation": 23
+        },
+        "rates": {
+          "contact_and_disclosure": 16.3654960790999,
+          "choice_and_agency": 2.386634844868735,
+          "emotion_and_self_care": 7.841800204568701,
+          "collective_change": 5.455165359699966,
+          "practice_and_attention": 1.7047391749062393,
+          "contracts_and_incarnation": 7.841800204568701
+        }
+      },
+      {
+        "source_id": "council-contact-tracy-548134ce5946a24d",
+        "analysis_tokens": 3442,
+        "counts": {
+          "contact_and_disclosure": 53,
+          "choice_and_agency": 0,
+          "emotion_and_self_care": 12,
+          "collective_change": 17,
+          "practice_and_attention": 6,
+          "contracts_and_incarnation": 22
+        },
+        "rates": {
+          "contact_and_disclosure": 15.398024404416038,
+          "choice_and_agency": 0.0,
+          "emotion_and_self_care": 3.486345148169669,
+          "collective_change": 4.9389889599070305,
+          "practice_and_attention": 1.7431725740848345,
+          "contracts_and_incarnation": 6.391632771644392
+        }
+      },
+      {
+        "source_id": "council-contact-tracy-da255be6621e2071",
+        "analysis_tokens": 2660,
+        "counts": {
+          "contact_and_disclosure": 26,
+          "choice_and_agency": 10,
+          "emotion_and_self_care": 11,
+          "collective_change": 25,
+          "practice_and_attention": 9,
+          "contracts_and_incarnation": 16
+        },
+        "rates": {
+          "contact_and_disclosure": 9.774436090225564,
+          "choice_and_agency": 3.7593984962406015,
+          "emotion_and_self_care": 4.135338345864661,
+          "collective_change": 9.398496240601503,
+          "practice_and_attention": 3.3834586466165413,
+          "contracts_and_incarnation": 6.015037593984962
+        }
+      },
+      {
+        "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+        "analysis_tokens": 16933,
+        "counts": {
+          "contact_and_disclosure": 6,
+          "choice_and_agency": 46,
+          "emotion_and_self_care": 54,
+          "collective_change": 76,
+          "practice_and_attention": 9,
+          "contracts_and_incarnation": 6
+        },
+        "rates": {
+          "contact_and_disclosure": 0.3543376838126735,
+          "choice_and_agency": 2.7165889092304965,
+          "emotion_and_self_care": 3.1890391543140613,
+          "collective_change": 4.488277328293864,
+          "practice_and_attention": 0.5315065257190102,
+          "contracts_and_incarnation": 0.3543376838126735
+        }
+      },
+      {
+        "source_id": "galactic-daniel-20190327",
+        "analysis_tokens": 493,
+        "counts": {
+          "contact_and_disclosure": 3,
+          "choice_and_agency": 0,
+          "emotion_and_self_care": 1,
+          "collective_change": 3,
+          "practice_and_attention": 0,
+          "contracts_and_incarnation": 0
+        },
+        "rates": {
+          "contact_and_disclosure": 6.085192697768763,
+          "choice_and_agency": 0.0,
+          "emotion_and_self_care": 2.028397565922921,
+          "collective_change": 6.085192697768763,
+          "practice_and_attention": 0.0,
+          "contracts_and_incarnation": 0.0
+        }
+      }
+    ],
+    "scope": "Unmasked NFKC/apostrophe-preserving word-form counts per 1,000 tokens; multiple meanings, negation and quotations are not disambiguated."
+  },
+  "qa": {
+    "question_punctuation_count": 170,
+    "identified_answers": 0,
+    "speaker_diarization": false,
+    "scope": "No question or answer roles are inferred from punctuation or adjacency."
+  },
+  "reading": {
+    "schema_version": 1,
+    "created_at": "2026-11-08T16:01:13.962525+00:00",
+    "status": "bounded_ai_source_reading",
+    "source_manifest_sha256": "032d4da38de9b282d49415e941745ad8688bdc9529304a7f556b24626b73d367",
+    "coverage": {
+      "documents_read_in_full": 3,
+      "asr_words_read": 9033,
+      "audio_content_listened": false,
+      "human_annotation": false
+    },
+    "readings": [
+      {
+        "id": "contact-definition-reading",
+        "analyst_question": "What counts as contact in these recordings?",
+        "question_type": "analyst_constructed_comparison_not_a_verified_spoken_question",
+        "finding": "The October recording explicitly focuses on physical landings and visible beings, while the September recording also describes private impressions and telepathy without a ship or shared observation. This is a difference in framing within one publisher/medium context; it does not alone establish a contradiction or a change in the claimed entity.",
+        "supports": [
+          {
+            "source_id": "council-contact-tracy-548134ce5946a24d",
+            "publication_id": "@tracykumbera:rss:548134ce5946a24d",
+            "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+            "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+            "turn_ids": [
+              "segment-5",
+              "segment-19"
+            ],
+            "start_seconds": 11.16,
+            "end_seconds": 61.56,
+            "role": "unknown",
+            "audio_alignment_verified": false
+          },
+          {
+            "source_id": "council-contact-tracy-da255be6621e2071",
+            "publication_id": "@tracykumbera:rss:da255be6621e2071",
+            "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/September-Energy-Update---Council-of-Contact-Channeled-Message-e3oaecs",
+            "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+            "turn_ids": [
+              "segment-195",
+              "segment-212"
+            ],
+            "start_seconds": 633.89,
+            "end_seconds": 693.09,
+            "role": "unknown",
+            "audio_alignment_verified": false
+          }
+        ],
+        "limits": "Full unverified ASR includes narrator and attributed-channeling context; individual speaker identities and word accuracy were not checked by listening."
+      },
+      {
+        "id": "contact-council-identity-reading",
+        "analyst_question": "Is the council presented as a fixed hierarchical institution?",
+        "question_type": "analyst_constructed_comparison_not_a_verified_spoken_question",
+        "finding": "The June recording calls the name a loose label for a fluid collective of higher incarnational selves, and the September recording presents council as simply a group name rather than a hierarchy. A repeated label therefore should not be encoded as proof of stable membership or a single institutional identity.",
+        "supports": [
+          {
+            "source_id": "council-contact-tracy-4818c71bd66ea72a",
+            "publication_id": "@tracykumbera:rss:4818c71bd66ea72a",
+            "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/The-Council-of-Contact-Reveals-the-Timeline-of-Contact--Disclosure-e3kpl10",
+            "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+            "turn_ids": [
+              "segment-45",
+              "segment-74"
+            ],
+            "start_seconds": 100.6,
+            "end_seconds": 179.2,
+            "role": "unknown",
+            "audio_alignment_verified": false
+          },
+          {
+            "source_id": "council-contact-tracy-da255be6621e2071",
+            "publication_id": "@tracykumbera:rss:da255be6621e2071",
+            "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/September-Energy-Update---Council-of-Contact-Channeled-Message-e3oaecs",
+            "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+            "turn_ids": [
+              "segment-52",
+              "segment-72"
+            ],
+            "start_seconds": 150.21,
+            "end_seconds": 216.97,
+            "role": "unknown",
+            "audio_alignment_verified": false
+          }
+        ],
+        "limits": "This records how the source describes its claim; it does not authenticate the described beings or their membership."
+      },
+      {
+        "id": "contract-name-disambiguation",
+        "analyst_question": "Does the appearance of the word contract establish a Council of Contract?",
+        "question_type": "analyst_constructed_comparison_not_a_verified_spoken_question",
+        "finding": "The October recording discusses soul contracts in explaining who might experience contact, but names the Council of Contact elsewhere. This topical occurrence is not evidence that Council of Contract is an alternate council name.",
+        "supports": [
+          {
+            "source_id": "council-contact-tracy-548134ce5946a24d",
+            "publication_id": "@tracykumbera:rss:548134ce5946a24d",
+            "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+            "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+            "turn_ids": [
+              "segment-125",
+              "segment-135"
+            ],
+            "start_seconds": 355.04,
+            "end_seconds": 391.96,
+            "role": "unknown",
+            "audio_alignment_verified": false
+          },
+          {
+            "source_id": "council-contact-tracy-548134ce5946a24d",
+            "publication_id": "@tracykumbera:rss:548134ce5946a24d",
+            "canonical_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/First-Contact-Is-Here--Council-of-Contact-Channeled-Message-e3qk9gq",
+            "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+            "turn_ids": [
+              "segment-166",
+              "segment-195"
+            ],
+            "start_seconds": 465.07,
+            "end_seconds": 560.82,
+            "role": "unknown",
+            "audio_alignment_verified": false
+          }
+        ],
+        "limits": "Exact-name search results are assessed separately. This is not proof that no claimant anywhere uses Council of Contract."
+      }
+    ],
+    "scope": "AI reviewer reading of the three full retained machine transcripts, with exact edition hashes and turn locators. Analyst-created questions are not documentary Q/A pairs.",
+    "reading_matrix": {
+      "kind": "bounded_qualitative_comparison",
+      "rows": [
+        {
+          "source_id": "council-contact-tracy-4818c71bd66ea72a",
+          "title": "The Council of Contact Reveals the Timeline of Contact & Disclosure",
+          "publisher_date": "2026-06-14T22:44:00+00:00",
+          "cells": {
+            "contact_framing": {
+              "summary": "Discusses private higher-self communication and a sequence from isolated visible contact to later public appearances with national leaders.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-4818c71bd66ea72a",
+                  "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+                  "first_turn_id": "segment-75",
+                  "last_turn_id": "segment-93",
+                  "start_seconds": 179.2,
+                  "end_seconds": 218.44,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-4818c71bd66ea72a",
+                  "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+                  "first_turn_id": "segment-304",
+                  "last_turn_id": "segment-358",
+                  "start_seconds": 877.3,
+                  "end_seconds": 1050.1,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "council_identity": {
+              "summary": "A loose and fluid collective of higher incarnational selves; the name is presented as a convenient familiar label.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-4818c71bd66ea72a",
+                  "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+                  "first_turn_id": "segment-45",
+                  "last_turn_id": "segment-74",
+                  "start_seconds": 100.6,
+                  "end_seconds": 179.2,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "recommended_practices": {
+              "summary": "The source recommends nature, meditation, leaving fear-oriented media, and returning to a state it calls flow; it asks listeners to send love and compassion.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-4818c71bd66ea72a",
+                  "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+                  "first_turn_id": "segment-152",
+                  "last_turn_id": "segment-165",
+                  "start_seconds": 397.1,
+                  "end_seconds": 444.9,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-4818c71bd66ea72a",
+                  "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+                  "first_turn_id": "segment-359",
+                  "last_turn_id": "segment-365",
+                  "start_seconds": 1050.1,
+                  "end_seconds": 1071.3,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "timing_specificity": {
+              "summary": "Uses relative-year and imminent language while distinguishing isolated contact from later public appearances; gives no fixed event date and discusses conflicting predictions.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-4818c71bd66ea72a",
+                  "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+                  "first_turn_id": "segment-313",
+                  "last_turn_id": "segment-355",
+                  "start_seconds": 913.62,
+                  "end_seconds": 1042.82,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-4818c71bd66ea72a",
+                  "text_artifact_sha256": "12413082085e47c2731a7effc4c4cd90ea951d42566a75a28f3ca3b5ec985272",
+                  "first_turn_id": "segment-366",
+                  "last_turn_id": "segment-390",
+                  "start_seconds": 1071.3,
+                  "end_seconds": 1140.5,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_id": "council-contact-tracy-da255be6621e2071",
+          "title": "September Energy Update - Council of Contact Channeled Message",
+          "publisher_date": "2026-09-03T22:44:01+00:00",
+          "cells": {
+            "contact_framing": {
+              "summary": "Explicitly allows private impressions or telepathic communication without a landed ship or multiple witnesses.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-da255be6621e2071",
+                  "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+                  "first_turn_id": "segment-195",
+                  "last_turn_id": "segment-218",
+                  "start_seconds": 633.89,
+                  "end_seconds": 716.25,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "council_identity": {
+              "summary": "A group of contact specialists across races, planets and dimensions; the text rejects a hierarchical interpretation of council.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-da255be6621e2071",
+                  "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+                  "first_turn_id": "segment-52",
+                  "last_turn_id": "segment-72",
+                  "start_seconds": 150.21,
+                  "end_seconds": 216.97,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "recommended_practices": {
+              "summary": "The source recommends practicing communication and automatic writing, using movement, music or meditation, and cultivating compassion.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-da255be6621e2071",
+                  "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+                  "first_turn_id": "segment-134",
+                  "last_turn_id": "segment-143",
+                  "start_seconds": 425.38,
+                  "end_seconds": 461.86,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-da255be6621e2071",
+                  "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+                  "first_turn_id": "segment-213",
+                  "last_turn_id": "segment-237",
+                  "start_seconds": 693.09,
+                  "end_seconds": 772.02,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-da255be6621e2071",
+                  "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+                  "first_turn_id": "segment-263",
+                  "last_turn_id": "segment-273",
+                  "start_seconds": 841.52,
+                  "end_seconds": 881.4,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "timing_specificity": {
+              "summary": "Offers a September-and-beyond theme, while the introduction explicitly says monthly boundaries and individual timing vary.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-da255be6621e2071",
+                  "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+                  "first_turn_id": "segment-1",
+                  "last_turn_id": "segment-24",
+                  "start_seconds": 0.0,
+                  "end_seconds": 68.51,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-da255be6621e2071",
+                  "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+                  "first_turn_id": "segment-73",
+                  "last_turn_id": "segment-77",
+                  "start_seconds": 216.97,
+                  "end_seconds": 238.05,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-da255be6621e2071",
+                  "text_artifact_sha256": "a978746a82de6a9bc4b7a75e40fff047ccf7e9308bd6d8aa23f5fb4b14ce4953",
+                  "first_turn_id": "segment-274",
+                  "last_turn_id": "segment-288",
+                  "start_seconds": 881.4,
+                  "end_seconds": 936.64,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_id": "council-contact-tracy-548134ce5946a24d",
+          "title": "First Contact Is Here! Council of Contact Channeled Message",
+          "publisher_date": "2026-10-16T20:22:01+00:00",
+          "cells": {
+            "contact_framing": {
+              "summary": "The opening emphasizes physical landings and visible beings rather than inner-dimensional perception; later passages also encourage inner connection.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-5",
+                  "last_turn_id": "segment-19",
+                  "start_seconds": 11.16,
+                  "end_seconds": 61.56,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-431",
+                  "last_turn_id": "segment-446",
+                  "start_seconds": 1310.09,
+                  "end_seconds": 1358.42,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "council_identity": {
+              "summary": "Presented as contact specialists involving other aspects of listeners’ higher selves; private contact is framed as preceding global contact.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-190",
+                  "last_turn_id": "segment-216",
+                  "start_seconds": 542.58,
+                  "end_seconds": 636.53,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "recommended_practices": {
+              "summary": "The source recommends intention, meditation, curiosity and personal transformation, while saying contact is assistance rather than rescue.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-225",
+                  "last_turn_id": "segment-247",
+                  "start_seconds": 660.53,
+                  "end_seconds": 729.13,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-321",
+                  "last_turn_id": "segment-333",
+                  "start_seconds": 957.82,
+                  "end_seconds": 1005.18,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-352",
+                  "last_turn_id": "segment-372",
+                  "start_seconds": 1063.97,
+                  "end_seconds": 1138.67,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-450",
+                  "last_turn_id": "segment-464",
+                  "start_seconds": 1367.74,
+                  "end_seconds": 1417.86,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            },
+            "timing_specificity": {
+              "summary": "Uses this-year/next-year possibilities and a changing contact date. A collective tipping point is described without a fixed numerical threshold.",
+              "supports": [
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-1",
+                  "last_turn_id": "segment-4",
+                  "start_seconds": 0.0,
+                  "end_seconds": 11.16,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-310",
+                  "last_turn_id": "segment-319",
+                  "start_seconds": 923.14,
+                  "end_seconds": 953.42,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                },
+                {
+                  "source_id": "council-contact-tracy-548134ce5946a24d",
+                  "text_artifact_sha256": "1009fa6be855a9d9a798c95466a936f67bef0164375d1423a59a960515d2653d",
+                  "first_turn_id": "segment-415",
+                  "last_turn_id": "segment-422",
+                  "start_seconds": 1266.03,
+                  "end_seconds": 1289.45,
+                  "role": "unknown",
+                  "audio_alignment_verified": false
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "columns": [
+        {
+          "id": "contact_framing",
+          "label": "What counts as contact"
+        },
+        {
+          "id": "council_identity",
+          "label": "How the council is described"
+        },
+        {
+          "id": "recommended_practices",
+          "label": "Practices recommended by the source"
+        },
+        {
+          "id": "timing_specificity",
+          "label": "How timing is expressed"
+        }
+      ],
+      "limits": [
+        "Categories summarize contextual emphasis and are not mutually exclusive belief labels or numerical scores.",
+        "These are AI interpretations of complete machine transcripts, without listening-based speaker or word verification.",
+        "Publication dates are publisher metadata; relative temporal expressions are not converted into verified event dates.",
+        "Source recommendations and predictions are reported as claims, not endorsed advice or established outcomes."
+      ]
+    },
+    "updated_at": "2026-11-08T16:05:07.430131+00:00",
+    "artifact_binding": {
+      "sha256": "dd02a97486239a4157748fdc5673a74637fa8b989090bb4542ed2caeb3cd921b",
+      "bytes": 23216
+    }
+  },
+  "supplemental_readings": [
+    {
+      "source_id": "galactic-daniel-20190327",
+      "title": "A 4th Dimensional Galactic Council ∞The 9D Arcturian Council",
+      "text_artifact_sha256": "f5d771ac28d1668aad231a06734e90c58d520228cf731a723f920068c5ac2286",
+      "reading_kind": "source_bound_written_discussion_control",
+      "selection_rule": "Complete bounded published message read; observations selected to distinguish narrator, proposed membership and sequence/timing claims.",
+      "coverage": {
+        "spans": [
+          {
+            "start_character": 0,
+            "end_character": 2673,
+            "span_sha256": "79a10a510b0a3d4b7b3106e4b83f8aa4376afcd7eb51bb799364f27fd664687a",
+            "words": 487
+          }
+        ],
+        "words_read": 487,
+        "full_document_read": true,
+        "human_annotation": false,
+        "audio_listened": false
+      },
+      "observations": [
+        {
+          "id": "daniel-narrator-council-distinction",
+          "paraphrase": "The message identifies its narrator as the Arcturian Council, then distinguishes those nonphysical ninth-dimensional narrators from the physical council they propose to organize. It explicitly says those narrators will not sit on that council in physical form.",
+          "qualifying_note": "This is source-local self-description, not verification of a speaker or dimensional ontology. It prevents treating the target phrase as the narrator identity.",
+          "supports": [
+            {
+              "start_character": 0,
+              "end_character": 84,
+              "span_sha256": "0c7b37786b00836ee97a967a21085a8bc267313908fa3611ce8b0ebaa7d58154",
+              "words": 15,
+              "role": "unknown",
+              "audio_alignment_verified": false,
+              "paragraph_index": 1
+            },
+            {
+              "start_character": 969,
+              "end_character": 1514,
+              "span_sha256": "d343e2c9b155ed3a070483bbddd062cdbfd13ec948c8f7c0f68a34e14f3df8b5",
+              "words": 96,
+              "role": "unknown",
+              "audio_alignment_verified": false,
+              "paragraph_index": 4
+            }
+          ]
+        },
+        {
+          "id": "daniel-participation-coordination",
+          "paraphrase": "The proposed council is described as bringing together humans and fourth-dimensional participants associated with several star systems, to coordinate agreements and improve peace and contact.",
+          "qualifying_note": "Named star-system groups are proposed participants within one message, not independent source confirmations or separately sampled medium accounts.",
+          "supports": [
+            {
+              "start_character": 86,
+              "end_character": 493,
+              "span_sha256": "bee7f4dd505ecf2cd1b467290217f931a3f10f0e6caa0a1d9bf8c3ab0e65bbd0",
+              "words": 72,
+              "role": "unknown",
+              "audio_alignment_verified": false,
+              "paragraph_index": 2
+            },
+            {
+              "start_character": 495,
+              "end_character": 967,
+              "span_sha256": "c00f981d4e4d81798234a2cb55e53586cd9e59eeec63b7baf48f8b1e758b7c06",
+              "words": 85,
+              "role": "unknown",
+              "audio_alignment_verified": false,
+              "paragraph_index": 3
+            }
+          ]
+        },
+        {
+          "id": "daniel-sequence-no-date",
+          "paraphrase": "The text places formation on an astral plane before a later physical gathering, and explicitly declines to supply a timeframe for the physical council to convene.",
+          "qualifying_note": "The stated sequence is a narrative claim. It supplies no dated prediction suitable for a timing-accuracy calculation.",
+          "supports": [
+            {
+              "start_character": 1516,
+              "end_character": 1958,
+              "span_sha256": "3e1411dcec714686f3cd1ba1bf2cc852585235b9bc6e772dbd7a7544b2a2ceb9",
+              "words": 85,
+              "role": "unknown",
+              "audio_alignment_verified": false,
+              "paragraph_index": 5
+            },
+            {
+              "start_character": 1960,
+              "end_character": 2600,
+              "span_sha256": "c7a2028e259c646388cd499af41dab4a381091d1aa24dc32737a75e612d2fcbb",
+              "words": 122,
+              "role": "unknown",
+              "audio_alignment_verified": false,
+              "paragraph_index": 6
+            }
+          ]
+        }
+      ],
+      "source_url": "https://danielscranton.com/a-4th-dimensional-galactic-council-%E2%88%9Ethe-9d-arcturian-council/",
+      "artifact_binding": {
+        "sha256": "a08f975d4e3c1f39f44eef53a4c596e2aee1d7f00e38226753414324a2abac32",
+        "bytes": 4109
+      }
+    },
+    {
+      "source_id": "council:inspire:d075f187-a23e-47a1-9fb2-308f3250d57f:asr:tiny-multilingual-council-v1",
+      "title": "Bold Election Predictions: Live Channeling with Pamela Aaralyn and the Galactic Council of 9!",
+      "text_artifact_sha256": "b5fbc413f7e3661e2a9d5739f3d0eccd0a513fa127d2cd1ea2fd216bf3ef0e7b",
+      "reading_kind": "bounded_machine_transcript_reading_mixed_interview",
+      "selection_rule": "Purposeful six-window close reading after keyword-location inspection: opening/editorial context; Council attribution and election timeline claims; dated-disruption discussion; practical advice and future-human transition; later encounter framing; closing/editorial context. This is not a random sample or full-document reading.",
+      "coverage": {
+        "spans": [
+          {
+            "start_character": 0,
+            "end_character": 6039,
+            "span_sha256": "239b471938a18e5f30685522a6961d3d995e96b99081949b855415597c1c789c",
+            "words": 1098,
+            "turn_ids": [
+              "segment-1",
+              "segment-2",
+              "segment-3",
+              "segment-4",
+              "segment-5",
+              "segment-6",
+              "segment-7",
+              "segment-8",
+              "segment-9",
+              "segment-10",
+              "segment-11",
+              "segment-12",
+              "segment-13",
+              "segment-14",
+              "segment-15",
+              "segment-16",
+              "segment-17",
+              "segment-18",
+              "segment-19",
+              "segment-20",
+              "segment-21",
+              "segment-22",
+              "segment-23",
+              "segment-24",
+              "segment-25",
+              "segment-26",
+              "segment-27",
+              "segment-28",
+              "segment-29",
+              "segment-30",
+              "segment-31",
+              "segment-32",
+              "segment-33",
+              "segment-34",
+              "segment-35",
+              "segment-36",
+              "segment-37",
+              "segment-38",
+              "segment-39",
+              "segment-40",
+              "segment-41",
+              "segment-42",
+              "segment-43",
+              "segment-44",
+              "segment-45",
+              "segment-46",
+              "segment-47",
+              "segment-48",
+              "segment-49",
+              "segment-50",
+              "segment-51",
+              "segment-52",
+              "segment-53",
+              "segment-54",
+              "segment-55",
+              "segment-56",
+              "segment-57",
+              "segment-58",
+              "segment-59",
+              "segment-60",
+              "segment-61",
+              "segment-62",
+              "segment-63",
+              "segment-64",
+              "segment-65",
+              "segment-66",
+              "segment-67",
+              "segment-68",
+              "segment-69",
+              "segment-70",
+              "segment-71",
+              "segment-72",
+              "segment-73",
+              "segment-74",
+              "segment-75",
+              "segment-76",
+              "segment-77",
+              "segment-78",
+              "segment-79",
+              "segment-80",
+              "segment-81",
+              "segment-82",
+              "segment-83",
+              "segment-84",
+              "segment-85",
+              "segment-86",
+              "segment-87",
+              "segment-88",
+              "segment-89",
+              "segment-90",
+              "segment-91",
+              "segment-92",
+              "segment-93",
+              "segment-94",
+              "segment-95",
+              "segment-96",
+              "segment-97",
+              "segment-98",
+              "segment-99",
+              "segment-100",
+              "segment-101",
+              "segment-102",
+              "segment-103",
+              "segment-104",
+              "segment-105",
+              "segment-106",
+              "segment-107",
+              "segment-108",
+              "segment-109",
+              "segment-110",
+              "segment-111",
+              "segment-112",
+              "segment-113",
+              "segment-114",
+              "segment-115",
+              "segment-116"
+            ],
+            "start_seconds": 5.58,
+            "end_seconds": 402.12
+          },
+          {
+            "start_character": 21186,
+            "end_character": 29371,
+            "span_sha256": "50f86113754dc6faffc8f954e12afd4aa0009408fa62c332f97c3da6edc17d60",
+            "words": 1506,
+            "turn_ids": [
+              "segment-350",
+              "segment-351",
+              "segment-352",
+              "segment-353",
+              "segment-354",
+              "segment-355",
+              "segment-356",
+              "segment-357",
+              "segment-358",
+              "segment-359",
+              "segment-360",
+              "segment-361",
+              "segment-362",
+              "segment-363",
+              "segment-364",
+              "segment-365",
+              "segment-366",
+              "segment-367",
+              "segment-368",
+              "segment-369",
+              "segment-370",
+              "segment-371",
+              "segment-372",
+              "segment-373",
+              "segment-374",
+              "segment-375",
+              "segment-376",
+              "segment-377",
+              "segment-378",
+              "segment-379",
+              "segment-380",
+              "segment-381",
+              "segment-382",
+              "segment-383",
+              "segment-384",
+              "segment-385",
+              "segment-386",
+              "segment-387",
+              "segment-388",
+              "segment-389",
+              "segment-390",
+              "segment-391",
+              "segment-392",
+              "segment-393",
+              "segment-394",
+              "segment-395",
+              "segment-396",
+              "segment-397",
+              "segment-398",
+              "segment-399",
+              "segment-400",
+              "segment-401",
+              "segment-402",
+              "segment-403",
+              "segment-404",
+              "segment-405",
+              "segment-406",
+              "segment-407",
+              "segment-408",
+              "segment-409",
+              "segment-410",
+              "segment-411",
+              "segment-412",
+              "segment-413",
+              "segment-414",
+              "segment-415",
+              "segment-416",
+              "segment-417",
+              "segment-418",
+              "segment-419",
+              "segment-420",
+              "segment-421",
+              "segment-422",
+              "segment-423",
+              "segment-424",
+              "segment-425",
+              "segment-426",
+              "segment-427",
+              "segment-428",
+              "segment-429",
+              "segment-430",
+              "segment-431",
+              "segment-432",
+              "segment-433",
+              "segment-434",
+              "segment-435",
+              "segment-436",
+              "segment-437",
+              "segment-438",
+              "segment-439",
+              "segment-440",
+              "segment-441",
+              "segment-442",
+              "segment-443",
+              "segment-444",
+              "segment-445",
+              "segment-446",
+              "segment-447",
+              "segment-448",
+              "segment-449",
+              "segment-450",
+              "segment-451",
+              "segment-452",
+              "segment-453",
+              "segment-454",
+              "segment-455",
+              "segment-456",
+              "segment-457",
+              "segment-458",
+              "segment-459",
+              "segment-460"
+            ],
+            "start_seconds": 1354.72,
+            "end_seconds": 1984.92
+          },
+          {
+            "start_character": 34055,
+            "end_character": 40041,
+            "span_sha256": "374a02ba13d2dabad32fa2b137e03a2b91159e43c56fb8e3f4d558154f8f70b0",
+            "words": 1106,
+            "turn_ids": [
+              "segment-520",
+              "segment-521",
+              "segment-522",
+              "segment-523",
+              "segment-524",
+              "segment-525",
+              "segment-526",
+              "segment-527",
+              "segment-528",
+              "segment-529",
+              "segment-530",
+              "segment-531",
+              "segment-532",
+              "segment-533",
+              "segment-534",
+              "segment-535",
+              "segment-536",
+              "segment-537",
+              "segment-538",
+              "segment-539",
+              "segment-540",
+              "segment-541",
+              "segment-542",
+              "segment-543",
+              "segment-544",
+              "segment-545",
+              "segment-546",
+              "segment-547",
+              "segment-548",
+              "segment-549",
+              "segment-550",
+              "segment-551",
+              "segment-552",
+              "segment-553",
+              "segment-554",
+              "segment-555",
+              "segment-556",
+              "segment-557",
+              "segment-558",
+              "segment-559",
+              "segment-560",
+              "segment-561",
+              "segment-562",
+              "segment-563",
+              "segment-564",
+              "segment-565",
+              "segment-566",
+              "segment-567",
+              "segment-568",
+              "segment-569",
+              "segment-570",
+              "segment-571",
+              "segment-572",
+              "segment-573",
+              "segment-574",
+              "segment-575",
+              "segment-576",
+              "segment-577",
+              "segment-578",
+              "segment-579",
+              "segment-580",
+              "segment-581",
+              "segment-582",
+              "segment-583",
+              "segment-584",
+              "segment-585",
+              "segment-586",
+              "segment-587",
+              "segment-588",
+              "segment-589",
+              "segment-590",
+              "segment-591",
+              "segment-592",
+              "segment-593",
+              "segment-594",
+              "segment-595",
+              "segment-596",
+              "segment-597",
+              "segment-598",
+              "segment-599",
+              "segment-600"
+            ],
+            "start_seconds": 2377.74,
+            "end_seconds": 2805.39
+          },
+          {
+            "start_character": 55992,
+            "end_character": 62065,
+            "span_sha256": "58fcc968c8cd5d6890363ba819f84c27059ff457f0a6620c5c15e1d2651967fa",
+            "words": 1126,
+            "turn_ids": [
+              "segment-840",
+              "segment-841",
+              "segment-842",
+              "segment-843",
+              "segment-844",
+              "segment-845",
+              "segment-846",
+              "segment-847",
+              "segment-848",
+              "segment-849",
+              "segment-850",
+              "segment-851",
+              "segment-852",
+              "segment-853",
+              "segment-854",
+              "segment-855",
+              "segment-856",
+              "segment-857",
+              "segment-858",
+              "segment-859",
+              "segment-860",
+              "segment-861",
+              "segment-862",
+              "segment-863",
+              "segment-864",
+              "segment-865",
+              "segment-866",
+              "segment-867",
+              "segment-868",
+              "segment-869",
+              "segment-870",
+              "segment-871",
+              "segment-872",
+              "segment-873",
+              "segment-874",
+              "segment-875",
+              "segment-876",
+              "segment-877",
+              "segment-878",
+              "segment-879",
+              "segment-880",
+              "segment-881",
+              "segment-882",
+              "segment-883",
+              "segment-884",
+              "segment-885",
+              "segment-886",
+              "segment-887",
+              "segment-888",
+              "segment-889",
+              "segment-890",
+              "segment-891",
+              "segment-892",
+              "segment-893",
+              "segment-894",
+              "segment-895",
+              "segment-896",
+              "segment-897",
+              "segment-898",
+              "segment-899",
+              "segment-900",
+              "segment-901",
+              "segment-902",
+              "segment-903",
+              "segment-904",
+              "segment-905",
+              "segment-906",
+              "segment-907",
+              "segment-908",
+              "segment-909",
+              "segment-910",
+              "segment-911",
+              "segment-912",
+              "segment-913",
+              "segment-914",
+              "segment-915",
+              "segment-916",
+              "segment-917",
+              "segment-918",
+              "segment-919",
+              "segment-920"
+            ],
+            "start_seconds": 3956.06,
+            "end_seconds": 4439.5
+          },
+          {
+            "start_character": 77464,
+            "end_character": 82936,
+            "span_sha256": "2e9767ee98916ecf78cacf39ee4b07430151493ab77b770f5f3313275009d494",
+            "words": 1012,
+            "turn_ids": [
+              "segment-1145",
+              "segment-1146",
+              "segment-1147",
+              "segment-1148",
+              "segment-1149",
+              "segment-1150",
+              "segment-1151",
+              "segment-1152",
+              "segment-1153",
+              "segment-1154",
+              "segment-1155",
+              "segment-1156",
+              "segment-1157",
+              "segment-1158",
+              "segment-1159",
+              "segment-1160",
+              "segment-1161",
+              "segment-1162",
+              "segment-1163",
+              "segment-1164",
+              "segment-1165",
+              "segment-1166",
+              "segment-1167",
+              "segment-1168",
+              "segment-1169",
+              "segment-1170",
+              "segment-1171",
+              "segment-1172",
+              "segment-1173",
+              "segment-1174",
+              "segment-1175",
+              "segment-1176",
+              "segment-1177",
+              "segment-1178",
+              "segment-1179",
+              "segment-1180",
+              "segment-1181",
+              "segment-1182",
+              "segment-1183",
+              "segment-1184",
+              "segment-1185",
+              "segment-1186",
+              "segment-1187",
+              "segment-1188",
+              "segment-1189",
+              "segment-1190",
+              "segment-1191",
+              "segment-1192",
+              "segment-1193",
+              "segment-1194",
+              "segment-1195",
+              "segment-1196",
+              "segment-1197",
+              "segment-1198",
+              "segment-1199",
+              "segment-1200",
+              "segment-1201",
+              "segment-1202",
+              "segment-1203",
+              "segment-1204",
+              "segment-1205",
+              "segment-1206",
+              "segment-1207",
+              "segment-1208",
+              "segment-1209",
+              "segment-1210",
+              "segment-1211",
+              "segment-1212",
+              "segment-1213",
+              "segment-1214",
+              "segment-1215",
+              "segment-1216",
+              "segment-1217",
+              "segment-1218",
+              "segment-1219",
+              "segment-1220",
+              "segment-1221",
+              "segment-1222",
+              "segment-1223",
+              "segment-1224",
+              "segment-1225"
+            ],
+            "start_seconds": 5767.42,
+            "end_seconds": 6191.05
+          },
+          {
+            "start_character": 89215,
+            "end_character": 91979,
+            "span_sha256": "6b99b23b74c06834c77d9ae61e6b312d822d5d4c403682b86f8a926388945035",
+            "words": 516,
+            "turn_ids": [
+              "segment-1335",
+              "segment-1336",
+              "segment-1337",
+              "segment-1338",
+              "segment-1339",
+              "segment-1340",
+              "segment-1341",
+              "segment-1342",
+              "segment-1343",
+              "segment-1344",
+              "segment-1345",
+              "segment-1346",
+              "segment-1347",
+              "segment-1348",
+              "segment-1349",
+              "segment-1350",
+              "segment-1351",
+              "segment-1352",
+              "segment-1353",
+              "segment-1354",
+              "segment-1355",
+              "segment-1356",
+              "segment-1357",
+              "segment-1358",
+              "segment-1359",
+              "segment-1360",
+              "segment-1361",
+              "segment-1362",
+              "segment-1363",
+              "segment-1364",
+              "segment-1365",
+              "segment-1366",
+              "segment-1367",
+              "segment-1368",
+              "segment-1369",
+              "segment-1370",
+              "segment-1371",
+              "segment-1372",
+              "segment-1373",
+              "segment-1374",
+              "segment-1375",
+              "segment-1376"
+            ],
+            "start_seconds": 6641.71,
+            "end_seconds": 6889.34
+          }
+        ],
+        "words_read": 6364,
+        "full_document_read": false,
+        "human_annotation": false,
+        "audio_listened": false,
+        "full_document_words": 16931,
+        "segments_read": 512,
+        "full_document_segments": 1376
+      },
+      "observations": [
+        {
+          "id": "pamela-mixed-editorial-context",
+          "paraphrase": "The recognized opening introduces Michael Sandler’s show, promotes automatic writing, and introduces a guest associated with both Council of Nine and future-human channeling. The closing again promotes subscriptions and a paid backstage offering. This is an edited interview program rather than a single uninterrupted Council message.",
+          "qualifying_note": "These are recognized textual cues, not verified voice diarization. The publisher spelling Pamela Aaralyn is retained despite several ASR name variants. Promotional words must not automatically become the claimed Council’s teachings.",
+          "supports": [
+            {
+              "start_character": 0,
+              "end_character": 2837,
+              "span_sha256": "89b508b0b6900325e729b4c913e00b87b9269d110c49b0022b8b12898505e27a",
+              "words": 488,
+              "turn_ids": [
+                "segment-1",
+                "segment-2",
+                "segment-3",
+                "segment-4",
+                "segment-5",
+                "segment-6",
+                "segment-7",
+                "segment-8",
+                "segment-9",
+                "segment-10",
+                "segment-11",
+                "segment-12",
+                "segment-13",
+                "segment-14",
+                "segment-15",
+                "segment-16",
+                "segment-17",
+                "segment-18",
+                "segment-19",
+                "segment-20",
+                "segment-21",
+                "segment-22",
+                "segment-23",
+                "segment-24",
+                "segment-25",
+                "segment-26",
+                "segment-27",
+                "segment-28",
+                "segment-29",
+                "segment-30",
+                "segment-31",
+                "segment-32",
+                "segment-33",
+                "segment-34",
+                "segment-35",
+                "segment-36",
+                "segment-37",
+                "segment-38",
+                "segment-39",
+                "segment-40",
+                "segment-41",
+                "segment-42",
+                "segment-43",
+                "segment-44",
+                "segment-45",
+                "segment-46",
+                "segment-47",
+                "segment-48",
+                "segment-49",
+                "segment-50",
+                "segment-51",
+                "segment-52",
+                "segment-53",
+                "segment-54",
+                "segment-55",
+                "segment-56",
+                "segment-57",
+                "segment-58",
+                "segment-59",
+                "segment-60"
+              ],
+              "start_seconds": 5.58,
+              "end_seconds": 186.25,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            },
+            {
+              "start_character": 91086,
+              "end_character": 91979,
+              "span_sha256": "80c14229f7c88167f46a928587b8ee220ed0b982f1f5ee56305518bb6182aa59",
+              "words": 151,
+              "turn_ids": [
+                "segment-1361",
+                "segment-1362",
+                "segment-1363",
+                "segment-1364",
+                "segment-1365",
+                "segment-1366",
+                "segment-1367",
+                "segment-1368",
+                "segment-1369",
+                "segment-1370",
+                "segment-1371",
+                "segment-1372",
+                "segment-1373",
+                "segment-1374",
+                "segment-1375",
+                "segment-1376"
+              ],
+              "start_seconds": 6776.24,
+              "end_seconds": 6889.34,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            }
+          ]
+        },
+        {
+          "id": "pamela-council-identity-and-method",
+          "paraphrase": "In the response to a question about who the Council is and how channeling works, the text describes listening and repeating, with possible takeover or trance. It portrays the Council of Nine as interdimensional guardians representing Earth, with members associated with Venus, the Pleiades and Lyra, and emphasizes safety and free will.",
+          "qualifying_note": "This records the interview’s description of the process and claimed group; it does not establish a distinct external speaker, a trance state or the existence of those beings. Automatic roles remain unknown.",
+          "supports": [
+            {
+              "start_character": 23691,
+              "end_character": 24932,
+              "span_sha256": "41f85291929c12516134a81ded001aac999917c15e6e67ef3e59f40b17ecded3",
+              "words": 229,
+              "turn_ids": [
+                "segment-388",
+                "segment-389",
+                "segment-390",
+                "segment-391",
+                "segment-392",
+                "segment-393",
+                "segment-394",
+                "segment-395",
+                "segment-396",
+                "segment-397",
+                "segment-398",
+                "segment-399",
+                "segment-400",
+                "segment-401",
+                "segment-402",
+                "segment-403"
+              ],
+              "start_seconds": 1521.54,
+              "end_seconds": 1600.46,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            }
+          ]
+        },
+        {
+          "id": "pamela-elections-and-contingent-timelines",
+          "paraphrase": "The opening revisits an earlier teaser that named Joe Biden as the winner. A later exchange treats glimpses of the future as dependent on a changing timeline. The election discussion predicts further candidate or voting changes while also stating that nothing is set in stone.",
+          "qualifying_note": "The earlier prediction is a retrospective statement within this interview; its original publication was not independently checked. The discussion contains political claims, not verified prediction performance, calibrated probabilities or a reliable election forecast.",
+          "supports": [
+            {
+              "start_character": 5565,
+              "end_character": 6039,
+              "span_sha256": "c4b2319ece70406928c697bca4a59f7dc1e0e96e940d026977f9aa3fc7e53b8d",
+              "words": 89,
+              "turn_ids": [
+                "segment-111",
+                "segment-112",
+                "segment-113",
+                "segment-114",
+                "segment-115",
+                "segment-116"
+              ],
+              "start_seconds": 373.3,
+              "end_seconds": 402.12,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            },
+            {
+              "start_character": 21630,
+              "end_character": 22587,
+              "span_sha256": "5c04e5f7fb34df440a9e8f36bad029cb99bcfc35faa223b7e276ef2099110dde",
+              "words": 172,
+              "turn_ids": [
+                "segment-357",
+                "segment-358",
+                "segment-359",
+                "segment-360",
+                "segment-361",
+                "segment-362",
+                "segment-363",
+                "segment-364",
+                "segment-365",
+                "segment-366",
+                "segment-367"
+              ],
+              "start_seconds": 1387.32,
+              "end_seconds": 1445.52,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            },
+            {
+              "start_character": 25956,
+              "end_character": 27724,
+              "span_sha256": "af22faf69adabf831f500916523ffab57d38fc44c50c97d0dedcdb3a7fc563c6",
+              "words": 338,
+              "turn_ids": [
+                "segment-417",
+                "segment-418",
+                "segment-419",
+                "segment-420",
+                "segment-421",
+                "segment-422",
+                "segment-423",
+                "segment-424",
+                "segment-425",
+                "segment-426",
+                "segment-427",
+                "segment-428",
+                "segment-429",
+                "segment-430",
+                "segment-431",
+                "segment-432",
+                "segment-433",
+                "segment-434",
+                "segment-435",
+                "segment-436",
+                "segment-437"
+              ],
+              "start_seconds": 1695.73,
+              "end_seconds": 1842.5,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            }
+          ]
+        },
+        {
+          "id": "pamela-dated-disruption-claims",
+          "paraphrase": "The recognized interview proposes a three-day internet outage about one week after the late-2024 election and a five-day disruption in June 2025, framed as potentials associated with electromagnetic disturbance. It contrasts fear with treating interruption as time for ordinary activities away from screens.",
+          "qualifying_note": "These are dated source claims, not confirmed outages, scientific explanations or advice to act on them. No outcome matching, independent event verification or audio-level recognition check was performed. The transcript also contains an inconsistent broad horizon around this passage, so the specific dates should not be silently harmonized into a coherent forecast.",
+          "supports": [
+            {
+              "start_character": 35026,
+              "end_character": 35770,
+              "span_sha256": "b328f00ce171e9b88913db940d1167dd577fc51689c37ab59be031b1e63cadfc",
+              "words": 135,
+              "turn_ids": [
+                "segment-531",
+                "segment-532",
+                "segment-533",
+                "segment-534",
+                "segment-535",
+                "segment-536",
+                "segment-537",
+                "segment-538"
+              ],
+              "start_seconds": 2453.42,
+              "end_seconds": 2503.26,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            },
+            {
+              "start_character": 36121,
+              "end_character": 38725,
+              "span_sha256": "e70cec5a2f7a7d580c32ddb1f8080ed1e9010086c69856aec0b223646caba305",
+              "words": 480,
+              "turn_ids": [
+                "segment-543",
+                "segment-544",
+                "segment-545",
+                "segment-546",
+                "segment-547",
+                "segment-548",
+                "segment-549",
+                "segment-550",
+                "segment-551",
+                "segment-552",
+                "segment-553",
+                "segment-554",
+                "segment-555",
+                "segment-556",
+                "segment-557",
+                "segment-558",
+                "segment-559",
+                "segment-560",
+                "segment-561",
+                "segment-562",
+                "segment-563",
+                "segment-564",
+                "segment-565",
+                "segment-566",
+                "segment-567",
+                "segment-568",
+                "segment-569"
+              ],
+              "start_seconds": 2534.35,
+              "end_seconds": 2721.71,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            }
+          ]
+        },
+        {
+          "id": "pamela-everyday-practices-and-reassurance",
+          "paraphrase": "In the sampled discussion of collective change, the text recommends small environmental actions and less personal blame, then asks listeners to examine whether dependence on a political outcome feels safe or empowering. It emphasizes cooperation, hope and a brief pause to breathe.",
+          "qualifying_note": "This is a description of rhetorical and practical recommendations in the source, not validation of its environmental causal claims or an assessment of their effects. The same passage’s spiritual claims and everyday advice remain separate from measured outcomes.",
+          "supports": [
+            {
+              "start_character": 55992,
+              "end_character": 56865,
+              "span_sha256": "866c8715fe1dee01447070177b18a1892205c13c29c73aba7216b7286295e907",
+              "words": 153,
+              "turn_ids": [
+                "segment-840",
+                "segment-841",
+                "segment-842",
+                "segment-843",
+                "segment-844",
+                "segment-845",
+                "segment-846",
+                "segment-847",
+                "segment-848",
+                "segment-849",
+                "segment-850"
+              ],
+              "start_seconds": 3956.06,
+              "end_seconds": 4011.52,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            },
+            {
+              "start_character": 57792,
+              "end_character": 59838,
+              "span_sha256": "d8bb1b28fd8a202b7fe0fcc23f2b96a96556f3ff95fef68d96c6acedefc81ab4",
+              "words": 369,
+              "turn_ids": [
+                "segment-861",
+                "segment-862",
+                "segment-863",
+                "segment-864",
+                "segment-865",
+                "segment-866",
+                "segment-867",
+                "segment-868",
+                "segment-869",
+                "segment-870",
+                "segment-871",
+                "segment-872",
+                "segment-873",
+                "segment-874",
+                "segment-875",
+                "segment-876",
+                "segment-877",
+                "segment-878",
+                "segment-879",
+                "segment-880",
+                "segment-881",
+                "segment-882",
+                "segment-883",
+                "segment-884",
+                "segment-885",
+                "segment-886",
+                "segment-887",
+                "segment-888",
+                "segment-889",
+                "segment-890",
+                "segment-891",
+                "segment-892",
+                "segment-893",
+                "segment-894",
+                "segment-895",
+                "segment-896"
+              ],
+              "start_seconds": 4075.33,
+              "end_seconds": 4220.18,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            }
+          ]
+        },
+        {
+          "id": "pamela-future-human-transition-and-encounters",
+          "paraphrase": "After thanking the Galactic Council, the interview explicitly shifts toward claimed humans five or twenty years in the future. A later sampled exchange portrays some humanoid visitors as future versions of humanity using time travel, rather than wholly separate beings.",
+          "qualifying_note": "The boundary is a textual transition cue, not verified speaker segmentation. The later material must not all be credited to the Council. This is a narrative account of encounters, not a formal operational definition of contact or evidence for time travel; ambiguous recognized years and names are not repaired or scored.",
+          "supports": [
+            {
+              "start_character": 59839,
+              "end_character": 62065,
+              "span_sha256": "6b522c1016e3f107e86c90fd842006b512e4d05d83911129a09523b2e83c6621",
+              "words": 436,
+              "turn_ids": [
+                "segment-897",
+                "segment-898",
+                "segment-899",
+                "segment-900",
+                "segment-901",
+                "segment-902",
+                "segment-903",
+                "segment-904",
+                "segment-905",
+                "segment-906",
+                "segment-907",
+                "segment-908",
+                "segment-909",
+                "segment-910",
+                "segment-911",
+                "segment-912",
+                "segment-913",
+                "segment-914",
+                "segment-915",
+                "segment-916",
+                "segment-917",
+                "segment-918",
+                "segment-919",
+                "segment-920"
+              ],
+              "start_seconds": 4220.18,
+              "end_seconds": 4439.5,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            },
+            {
+              "start_character": 78540,
+              "end_character": 81176,
+              "span_sha256": "e2e51e6a9106749687a955cfba8e5f759ed04c3ca0d9ea5ade00e5d3354cb767",
+              "words": 491,
+              "turn_ids": [
+                "segment-1163",
+                "segment-1164",
+                "segment-1165",
+                "segment-1166",
+                "segment-1167",
+                "segment-1168",
+                "segment-1169",
+                "segment-1170",
+                "segment-1171",
+                "segment-1172",
+                "segment-1173",
+                "segment-1174",
+                "segment-1175",
+                "segment-1176",
+                "segment-1177",
+                "segment-1178",
+                "segment-1179",
+                "segment-1180",
+                "segment-1181",
+                "segment-1182",
+                "segment-1183",
+                "segment-1184",
+                "segment-1185",
+                "segment-1186",
+                "segment-1187",
+                "segment-1188",
+                "segment-1189",
+                "segment-1190",
+                "segment-1191",
+                "segment-1192",
+                "segment-1193",
+                "segment-1194",
+                "segment-1195",
+                "segment-1196",
+                "segment-1197",
+                "segment-1198"
+              ],
+              "start_seconds": 5867.36,
+              "end_seconds": 6055.85,
+              "role": "unknown",
+              "audio_alignment_verified": false
+            }
+          ]
+        }
+      ],
+      "source_url": "https://inspirenation.libsyn.com/bold-election-predictions-live-channeling-with-pamela-aaralyn-and-the-galactic-council-of-9",
+      "artifact_binding": {
+        "sha256": "eea02e6b89a04c496bc1f3d6cbc6a120f2037b8cc3a6e8d0029999b09ebb0f5b",
+        "bytes": 31870
+      }
+    }
+  ],
+  "lexical_retrieval": {
+    "scope": "Exact phrase retrieval in the separately accepted 292-unit corpus. Hits are not new acquisitions or attributed council messages; overlapping nested phrases are counted separately.",
+    "documents_searched": 292,
+    "words_searched": 774110,
+    "queries": [
+      "Galactic Council",
+      "Council of Contract",
+      "Council of Contact",
+      "Galactic Council of Light",
+      "Galactic Council of Twelve",
+      "Galactic Council of 12"
+    ],
+    "documents_with_hits": 2,
+    "hits": [
+      {
+        "source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+        "title": "Alcyone, The Great Central Sun On Solar Light Codes, Disclosure & Your Galactic Ascension",
+        "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Alcyone--The-Great-Central-Sun-On-Solar-Light-Codes--Disclosure--Your-Galactic-Ascension-e3gdba4",
+        "group_id": "tracy_kumbera",
+        "counts": {
+          "Galactic Council": 0,
+          "Council of Contract": 0,
+          "Council of Contact": 1,
+          "Galactic Council of Light": 0,
+          "Galactic Council of Twelve": 0,
+          "Galactic Council of 12": 0
+        },
+        "total_phrase_matches": 1,
+        "text_artifact_sha256": "5b5475ed7cd167a34a057c73e3bcdce4a9a6480b37d8ca3e87cd5a11881b0b91",
+        "attribution_status": "unverified_phrase_retrieval_only"
+      },
+      {
+        "source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+        "title": "Lyran Golden Dragons Channeled Message For Your Ascension",
+        "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Lyran-Golden-Dragons-Channeled-Message-For-Your-Ascension-e3fev7l",
+        "group_id": "tracy_kumbera",
+        "counts": {
+          "Galactic Council": 0,
+          "Council of Contract": 0,
+          "Council of Contact": 1,
+          "Galactic Council of Light": 0,
+          "Galactic Council of Twelve": 0,
+          "Galactic Council of 12": 0
+        },
+        "total_phrase_matches": 1,
+        "text_artifact_sha256": "7e1684b25240129ed6d6050d69361e048fe96dd750d33f6f4037dc4cc406c58e",
+        "attribution_status": "unverified_phrase_retrieval_only"
+      }
+    ],
+    "query_counts": [
+      {
+        "query": "Galactic Council",
+        "documents": 0,
+        "occurrences": 0
+      },
+      {
+        "query": "Council of Contract",
+        "documents": 0,
+        "occurrences": 0
+      },
+      {
+        "query": "Council of Contact",
+        "documents": 2,
+        "occurrences": 2
+      },
+      {
+        "query": "Galactic Council of Light",
+        "documents": 0,
+        "occurrences": 0
+      },
+      {
+        "query": "Galactic Council of Twelve",
+        "documents": 0,
+        "occurrences": 0
+      },
+      {
+        "query": "Galactic Council of 12",
+        "documents": 0,
+        "occurrences": 0
+      }
+    ],
+    "accepted_inputs": [
+      {
+        "sha256": "e9e88095a5264ff588c52e9d9edb23bbffa57ca1e86b24b997057e08035aa476",
+        "bytes": 5520404
+      },
+      {
+        "sha256": "68e4c40a34fa0bd7efcea13a32ea501b0f7bfd55643935f01e2d8a7a68907b01",
+        "bytes": 6616234
+      },
+      {
+        "sha256": "6dceb3c3a48c16d69dc0e373e88aa4501563ea75a9f5dd64fd2a3176f446d145",
+        "bytes": 2267026
+      },
+      {
+        "sha256": "1f303635eaee27db96a25bd227a779940a14e7c60f80ac95bcb0cb35482d417d",
+        "bytes": 441275
+      },
+      {
+        "sha256": "0c1f1df4f93bccfedb2744da66b7c78feb1e76d6c5973339928f96d8c70d3b60",
+        "bytes": 90956
+      },
+      {
+        "sha256": "633a9254fd493e566ebb553cd4c3a893e432f59b63ea6bbca364421526ab621c",
+        "bytes": 859052
+      },
+      {
+        "sha256": "e9f48461d7ebe063251d563918bbd3fa405cf885b150afc50f981dcd95305b0b",
+        "bytes": 448306
+      }
+    ],
+    "context_reviews": [
+      {
+        "source_id": "@tracykumbera:rss:8be4d529e0cb2d6e:caption:c3603a2f91",
+        "query": "Council of Contact",
+        "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Alcyone--The-Great-Central-Sun-On-Solar-Light-Codes--Disclosure--Your-Galactic-Ascension-e3gdba4",
+        "text_artifact_sha256": "5b5475ed7cd167a34a057c73e3bcdce4a9a6480b37d8ca3e87cd5a11881b0b91",
+        "context_sha256": "1c7d9179cbae70699dbb846b261b7a442be20569af02ee70dec097e3f9268ee6",
+        "context_words_read": 126,
+        "matched_start_character": 4080,
+        "matched_end_character": 4098,
+        "context_kind": "cross_reference_in_differently_attributed_recording",
+        "paraphrase": "The retained context in the Alcyone-titled recording describes the Council of Contact as an intermediary and anticipates meeting it. This is a cross-reference inside another attributed context, not evidence that the retrieved passage is spoken by that council.",
+        "speaker_role": "unknown",
+        "human_annotation": false,
+        "audio_listened": false,
+        "coverage": "Only the saved match context was read for this note, not the whole recording or document."
+      },
+      {
+        "source_id": "@tracykumbera:rss:c7fe44e6afc1141d:caption:560d026a5f",
+        "query": "Council of Contact",
+        "source_url": "https://podcasters.spotify.com/pod/show/tracy-kumbera4/episodes/Lyran-Golden-Dragons-Channeled-Message-For-Your-Ascension-e3fev7l",
+        "text_artifact_sha256": "7e1684b25240129ed6d6050d69361e048fe96dd750d33f6f4037dc4cc406c58e",
+        "context_sha256": "8c5edd17bb0576b0d2fc98532a132c69ccbdca90aa13402a013b499f7f34cca4",
+        "context_words_read": 135,
+        "matched_start_character": 3632,
+        "matched_end_character": 3650,
+        "context_kind": "invitation_to_future_topics_in_differently_attributed_recording",
+        "paraphrase": "The retained context in the Lyran Golden Dragons recording invites requests for future topics and mentions having Council of Contact material. That invitation does not make the current recording a Council of Contact message.",
+        "speaker_role": "unknown",
+        "human_annotation": false,
+        "audio_listened": false,
+        "coverage": "Only the saved match context was read for this note, not the whole recording or document."
+      }
+    ],
+    "context_review_coverage": {
+      "windows_read": 2,
+      "words_in_windows": 261,
+      "full_documents_read_for_this_annotation": 0,
+      "human_annotation": false,
+      "audio_listened": false
+    },
+    "loader_sha256": "d349297faa77718a696fa79d921861c11c61c90ce5ad698bdf5a176ec4d3607a",
+    "matched_excerpt_text_public": false
+  },
+  "limitations": [
+    "A publisher title or message attribution is a source claim, not verification of a being or of every utterance in a recording.",
+    "Exact council names remain source-specific; shared labels and the word council do not establish shared identity, stable membership, or independent origin.",
+    "The purposive accessible source frame has unequal media, dates, lengths and text-generation methods. Results do not describe all channeling or all YouTube uploads.",
+    "Machine transcripts have unknown speaker roles and unmeasured accuracy. Written messages are distinct editorial editions, not verified verbatim audio references.",
+    "TF-IDF measures vocabulary overlap; NMF factors and clusters are exploratory descriptions, not doctrines, topic probabilities or paranormal validation.",
+    "Keyword counts include negation, quotation and incidental mentions. They do not measure belief, factual truth, or the prevalence of an entity.",
+    "No same-question equivalence or answer identification follows from punctuation, adjacent text, or a high similarity score.",
+    "Existing-corpus phrase hits are retrieval leads only and are kept separate from newly inspected source attributions."
+  ],
+  "figures": [
+    {
+      "file": "council-coverage.svg",
+      "title": "Council source coverage",
+      "alt": "Unequal selected text editions and words by medium and exact publisher council label; no upload-total denominator.",
+      "sha256": "b1c314a3dc7093b6f50f99842a6da2a224d932bd4d1f857cd635834c9db35767",
+      "bytes": 53804
+    },
+    {
+      "file": "council-coverage.png",
+      "title": "Council source coverage",
+      "alt": "Unequal selected text editions and words by medium and exact publisher council label; no upload-total denominator.",
+      "sha256": "1253b0d402d5c507f42c7439e56eb9f8599a2e6e4248211acbd0ac24d366df05",
+      "bytes": 51901
+    },
+    {
+      "file": "council-coverage.pdf",
+      "title": "Council source coverage",
+      "alt": "Unequal selected text editions and words by medium and exact publisher council label; no upload-total denominator.",
+      "sha256": "7e59f0345bdd5ec6524627d1716ec5205331a02bf624d5bc854c3cd0b085596f",
+      "bytes": 15406
+    },
+    {
+      "file": "council-similarity.svg",
+      "title": "Whole-text and equal-length vocabulary comparison",
+      "alt": "Fixed zero-to-one scale; numbered sources preserve matrix order. Similarity is not identity or answer agreement.",
+      "sha256": "c62a08332078acf3f80fd692f494a4ce4b8365013278489b6a935667a2d2bfc8",
+      "bytes": 102668
+    },
+    {
+      "file": "council-similarity.png",
+      "title": "Whole-text and equal-length vocabulary comparison",
+      "alt": "Fixed zero-to-one scale; numbered sources preserve matrix order. Similarity is not identity or answer agreement.",
+      "sha256": "74166fad1045465d39c3460f4499daab409295ff0aa1ff631cb323794e9cf4c9",
+      "bytes": 117535
+    },
+    {
+      "file": "council-similarity.pdf",
+      "title": "Whole-text and equal-length vocabulary comparison",
+      "alt": "Fixed zero-to-one scale; numbered sources preserve matrix order. Similarity is not identity or answer agreement.",
+      "sha256": "6dd9d6c44465095abab83334dd5d93df9a51d58415433f93338a4163ff860bfc",
+      "bytes": 27617
+    },
+    {
+      "file": "council-keywords.svg",
+      "title": "Keyword rates in unmasked text",
+      "alt": "Exact declared word forms; includes negated, quoted and incidental uses, not belief prevalence.",
+      "sha256": "ef553951e2fbf790764fd6195e7187c3ccd6a206fae6d0cc92eac1c74077723e",
+      "bytes": 100687
+    },
+    {
+      "file": "council-keywords.png",
+      "title": "Keyword rates in unmasked text",
+      "alt": "Exact declared word forms; includes negated, quoted and incidental uses, not belief prevalence.",
+      "sha256": "f6be2c57be9705a7f6a27c0c59a8df561940d855aabd0c1a20617a503713f4be",
+      "bytes": 155504
+    },
+    {
+      "file": "council-keywords.pdf",
+      "title": "Keyword rates in unmasked text",
+      "alt": "Exact declared word forms; includes negated, quoted and incidental uses, not belief prevalence.",
+      "sha256": "cde7851ccf112cef6d8e947f44b5daeac934fffcd39b8e40c0850c074faa8960",
+      "bytes": 30670
+    },
+    {
+      "file": "council-topics.svg",
+      "title": "Exploratory topic-factor profiles",
+      "alt": "Three display components; normalized factors are not probabilities or externally validated doctrines.",
+      "sha256": "9db85619c2cdbcf63308a675e498e3bccdef4af36fa8654bba332ebec76acb9b",
+      "bytes": 91650
+    },
+    {
+      "file": "council-topics.png",
+      "title": "Exploratory topic-factor profiles",
+      "alt": "Three display components; normalized factors are not probabilities or externally validated doctrines.",
+      "sha256": "eefce7951030c298d14b9bc49b1eb7faab1a6ef1b88497d74098e38a23766e26",
+      "bytes": 115978
+    },
+    {
+      "file": "council-topics.pdf",
+      "title": "Exploratory topic-factor profiles",
+      "alt": "Three display components; normalized factors are not probabilities or externally validated doctrines.",
+      "sha256": "c3dfb156187dca95ebb28a38a0d317dd3d67e312fbe5dc12e3eeb933e1693ec7",
+      "bytes": 22541
+    }
+  ],
+  "annotation_enrichment": {
+    "source_analysis_sha256": "55cb7ff1fd0a63b04a26e5dad2c65c6a1072c86b776c382634cca958fe1cac6e",
+    "source_analysis_bytes": 75587,
+    "enrichment_script_sha256": "c929ef94502f818ca198edf6d0d50ccc4b6798711cf2aa9ecf255b86dcbc81d0",
+    "enriched_at": "2026-11-08T16:43:50.346163+00:00",
+    "changed_fields": [
+      "supplemental_readings"
+    ],
+    "numerical_refit_performed": false,
+    "scope": "Exact-source reading metadata only; existing document, numerical, keyword, source-reading and figure fields are unchanged."
+  }
+}

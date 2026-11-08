@@ -21,12 +21,23 @@ try{
     const context=await browser.newContext({viewport:{width,height:980},acceptDownloads:true,serviceWorkers:'block'}),page=await context.newPage();
     page.on('pageerror',e=>receipt.runtime_errors.push({width,message:e.message}));page.on('console',m=>{if(m.type()==='error')receipt.runtime_errors.push({width,message:m.text()});});
     await page.goto(base+'/dist/channeling-network/#analysis',{waitUntil:'networkidle'});await page.locator('#collected-matrix-results table').waitFor();
-    check(actual.lexical.source_ids.length<=40,`${width}: actual publication exercises unchanged small-matrix branch`);
-    check(await page.locator('.matrix-block-controls').count()===0,`${width}: actual small matrix adds no block controls`);
-    check(await page.locator('#collected-matrix-results tbody td').count()===actual.lexical.source_ids.length**2,`${width}: all actual small-matrix cells remain visible`);
+    const actualSize=actual.lexical.source_ids.length,actualBounded=actualSize>40,actualVisible=actualBounded?20:actualSize;
+    check(await page.locator('.matrix-block-controls').count()===(actualBounded?1:0),`${width}: actual publication selects its supported whole-matrix branch`);
+    check(await page.locator('#collected-matrix-results tbody td').count()===actualVisible**2,`${width}: actual first block renders the expected bounded cells`);
     const cells=await page.locator('#collected-matrix-results tbody tr').evaluateAll(rows=>rows.map(row=>[...row.querySelectorAll('td')].map(td=>td.textContent)));
-    check(cells.every((r,i)=>r.every((v,j)=>v===actual.lexical.matrix[i][j].toLocaleString(undefined,{maximumFractionDigits:3}))),`${width}: every actual matrix cell retains its released value`);
-    await page.locator('#collected-matrix-mode').selectOption('window');check(await page.locator('#collected-matrix-results tbody tr').count()===actual.lexical.window_300_source_ids.length,`${width}: actual window membership unchanged`);await page.locator('#collected-matrix-mode').selectOption('whole');
+    check(cells.every((r,i)=>r.every((v,j)=>v===actual.lexical.matrix[i][j].toLocaleString(undefined,{maximumFractionDigits:3}))),`${width}: every visible actual first-block cell retains its released value`);
+    if(actualBounded){
+      const last=Math.floor((actualSize-1)/20),start=last*20;
+      await page.locator('#collected-matrix-rows').selectOption(String(last));await page.locator('#collected-matrix-columns').selectOption(String(last));
+      check(await page.locator('#collected-matrix-results tbody td').count()===(actualSize-start)**2,`${width}: actual partial last block has every remaining cell`);
+      const lastRows=await page.locator('#collected-matrix-results tbody tr').evaluateAll(rows=>rows.map(row=>({id:row.querySelector('[data-collected-source]').dataset.collectedSource,values:[...row.querySelectorAll('td')].map(td=>td.textContent)})));
+      check(lastRows.every((r,i)=>r.id===actual.lexical.source_ids[start+i]&&r.values.every((v,j)=>v===actual.lexical.matrix[start+i][start+j].toLocaleString(undefined,{maximumFractionDigits:3}))),`${width}: actual final block preserves all global IDs and values`);
+    }
+    await page.locator('#collected-matrix-mode').selectOption('window');const actualWindowSize=actual.lexical.window_300_source_ids.length;
+    check(await page.locator('#collected-matrix-results tbody tr').count()===(actualWindowSize>40?20:actualWindowSize),`${width}: actual window renders its eligible first block`);
+    check(await page.locator('.matrix-block-controls').count()===(actualWindowSize>40?1:0),`${width}: actual window controls use its own eligible size`);
+    const actualWindowRows=await page.locator('#collected-matrix-results tbody tr').evaluateAll(rows=>rows.map(row=>row.querySelector('[data-collected-source]').dataset.collectedSource));
+    check(actualWindowRows.every((id,i)=>id===actual.lexical.window_300_source_ids[i]),`${width}: actual window block preserves eligible source identities`);await page.locator('#collected-matrix-mode').selectOption('whole');
     const actualCsv=await download(page,'actual-source-pairs-'+width);check(actualCsv.length===actual.lexical.source_ids.length*(actual.lexical.source_ids.length-1)/2+1,`${width}: actual complete pair export unchanged`);
     check(actualCsv.slice(1).every(row=>{const i=actual.lexical.source_ids.indexOf(identity(row[0])),j=actual.lexical.source_ids.indexOf(identity(row[1]));return i>=0&&j>i&&Number(row[2])===actual.lexical.matrix[i][j];}),`${width}: actual exported pair identities and values unchanged`);
 
