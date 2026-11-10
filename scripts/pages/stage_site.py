@@ -107,6 +107,74 @@ def ensure_system_tools() -> None:
              "poppler-utils", "librsvg2-bin", "zip"])
 
 
+def probe_youtube_audio(work: Path) -> None:
+    if os.environ.get("CHANNELS_ET_AUDIO_PROBE", "1") != "1":
+        return
+    video_id, source_url = "1UufR6Wn9z8", "https://www.youtube.com/watch?v=1UufR6Wn9z8"
+    output = ROOT / "dist/research/acquisition"
+    output.mkdir(parents=True, exist_ok=True)
+    report = {
+        "schemaVersion": 1,
+        "videoId": video_id,
+        "sourceUrl": source_url,
+        "inheritedDurationSeconds": 368,
+        "sourceType": "public_youtube_audio",
+        "mediaStaged": False,
+        "rightsNote": "Research acquisition only. Downloader success does not imply redistribution rights; source-specific rights review is separate.",
+        "attempts": [],
+    }
+    payload = json.dumps({
+        "url": source_url, "downloadMode": "audio", "audioFormat": "mp3",
+        "audioBitrate": "128", "filenameStyle": "basic",
+    })
+    for base in ("https://rue-cobalt.xenon.zone/", "https://cobaltapi.cjs.nz/"):
+        attempt = {"instance": base, "mediaBytes": 0}
+        report["attempts"].append(attempt)
+        try:
+            completed = subprocess.run(
+                ["curl", "-fLsS", "-X", "POST", "-H", "Accept: application/json",
+                 "-H", "Content-Type: application/json", "-d", payload, base],
+                capture_output=True, text=True, timeout=90)
+            if completed.returncode:
+                raise RuntimeError(completed.stderr[-500:] or f"curl exit {completed.returncode}")
+            response = json.loads(completed.stdout)
+            if response.get("status") != "tunnel":
+                raise ValueError(f"Unexpected Cobalt response: {completed.stdout[:500]}")
+            tunnel = response["url"]
+            media = work / "audio-probe.mp3"
+            download(tunnel, media)
+            size = media.stat().st_size
+            if size < 10000:
+                raise ValueError(f"Zero or truncated audio response ({size} bytes)")
+            probe = json.loads(subprocess.check_output(
+                ["ffprobe", "-v", "error", "-show_entries",
+                 "format=duration:stream=codec_name", "-of", "json", str(media)], text=True))
+            duration = float(probe["format"]["duration"])
+            if abs(duration - 368) > 5:
+                raise ValueError(f"Duration mismatch: {duration} vs ~368 seconds")
+            codec = probe["streams"][0]["codec_name"]
+            attempt.update({
+                "status": "completed", "mediaBytes": size, "durationSeconds": duration,
+                "audioSha256": sha256(media), "audioCodec": codec,
+                "providerTunnelUrl": tunnel,
+            })
+            report.update({
+                "status": "completed", "mediaBytes": size,
+                "durationSeconds": duration, "audioSha256": sha256(media),
+                "audioCodec": codec, "providerTunnelUrl": tunnel,
+                "retrievalEvidence": "Nonzero MP3 validated by ffprobe on the GitHub Actions runner; recording is not staged in this release.",
+            })
+            (output / "audio-probe.json").write_text(json.dumps(report, indent=2) + "\n")
+            print(json.dumps(report, indent=2))
+            return
+        except Exception as exc:
+            attempt["status"] = "failed"
+            attempt["error"] = f"{type(exc).__name__}: {exc}"[:700]
+    report["status"] = "failed"
+    (output / "audio-probe.json").write_text(json.dumps(report, indent=2) + "\n")
+    raise RuntimeError("No valid public YouTube audio was returned by either Cobalt instance")
+
+
 def ensure_tectonic(work: Path) -> None:
     if shutil.which("tectonic"):
         return
@@ -150,6 +218,7 @@ def build_expansion() -> None:
         work = Path(temp)
         bootstrap_source(work)
         ensure_system_tools()
+        probe_youtube_audio(work)
         ensure_tectonic(work)
         run([sys_executable(), "-m", "pip", "install", "-r", ROOT / "research/expansion-2026/requirements.txt"])
         run([sys_executable(), "research/expansion-2026/acquisition/verify.py"])
