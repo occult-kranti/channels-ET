@@ -172,7 +172,8 @@ def probe_youtube_audio(work: Path) -> None:
             attempt["error"] = f"{type(exc).__name__}: {exc}"[:700]
     report["status"] = "failed"
     (output / "audio-probe.json").write_text(json.dumps(report, indent=2) + "\n")
-    raise RuntimeError("No valid public YouTube audio was returned by either Cobalt instance")
+    details = " | ".join(f"{a['instance']}: {a.get('error', 'unknown failure')}" for a in report["attempts"])
+    raise RuntimeError(f"No valid public YouTube audio was returned by either Cobalt instance: {details}")
 
 
 def ensure_tectonic(work: Path) -> None:
@@ -298,8 +299,14 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     with tempfile.TemporaryDirectory(prefix="channels-et-audio-probe-") as audio_temp:
-        ensure_system_tools()
-        probe_youtube_audio(Path(audio_temp))
+        try:
+            ensure_system_tools()
+            probe_youtube_audio(Path(audio_temp))
+        except Exception as exc:
+            import traceback
+            traceback.print_exc()
+            print(f"::error title=YouTube audio probe failed::{type(exc).__name__}: {exc}")
+            raise
     if os.environ.get("CHANNELS_ET_BUILD_EXPANSION", "1") == "1":
         try:
             build_expansion()
