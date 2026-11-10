@@ -218,7 +218,6 @@ def build_expansion() -> None:
         work = Path(temp)
         bootstrap_source(work)
         ensure_system_tools()
-        probe_youtube_audio(work)
         ensure_tectonic(work)
         run([sys_executable(), "-m", "pip", "install", "-r", ROOT / "research/expansion-2026/requirements.txt"])
         run([sys_executable(), "research/expansion-2026/acquisition/verify.py"])
@@ -298,6 +297,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
+    with tempfile.TemporaryDirectory(prefix="channels-et-audio-probe-") as audio_temp:
+        ensure_system_tools()
+        probe_youtube_audio(Path(audio_temp))
     if os.environ.get("CHANNELS_ET_BUILD_EXPANSION", "1") == "1":
         try:
             build_expansion()
