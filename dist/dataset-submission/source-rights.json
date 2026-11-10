@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-10T03:11:09.745626+00:00",
+  "status": "bounded_primary_source_review_completed; no blanket full-archive redistribution license established",
+  "scope": "Ra/Law of One and L/L Research, Natalie Glasson/OmNa, and official Bashar sources; other publisher contexts were not cleared by this audit.",
+  "public_release_choice": "User requested existing public repository on 2026-11-10. Visibility authorization does not change publisher source terms.",
+  "groups": [
+    {
+      "group_id": "ra-law-of-one",
+      "material": "106 selected Lightly Edited session texts and separately retained 2620 linked audio segments",
+      "finding": "The site identifies permission given to Tobey Wheelock by L/L Research; no downstream blanket redistribution grant was established. The linked L/L copyright policy returned HTTP403, so its main policy was not available for review.",
+      "status": "source_specific_basis_unresolved",
+      "source_url": "https://www.lawofone.info/",
+      "audio_derivative_release_basis": "not_established"
+    },
+    {
+      "group_id": "natalie-glasson-omna",
+      "material": "192 accepted publisher-linked audio/written-edition records",
+      "finding": "60 accepted source pages require the Natalie Glasson/OmNa attribution on any reproduction. This is an attribution condition; the inspected material does not clearly define a site-wide license covering all audio, machine text or Opus derivatives.",
+      "status": "attribution_condition_observed_scope_unresolved",
+      "notice_records": 60,
+      "accepted_records": 192,
+      "other_records_without_that_notice": 132,
+      "source_url": "https://omna.org/",
+      "record_ledger": "source-rights-omna-records.json"
+    },
+    {
+      "group_id": "bashar-official",
+      "material": "86 retained official publications,84 encoded-media families,82 selected English analytical texts; guest publishers separate",
+      "finding": "Official terms limit the display license and restrict copying/publication/distribution while explicitly recognizing qualifying noncommercial fair use. Sample Vimeo items reserve rights. No blanket academic archive permission established.",
+      "status": "restrictions_observed_no_blanket_grant",
+      "source_url": "https://www.bashar.org/privacypolicy",
+      "guest_publishers_cleared": false
+    }
+  ],
+  "source_receipts": [
+    {
+      "name": "lawofone",
+      "url": "https://www.lawofone.info/",
+      "final_url": "https://www.lawofone.info/",
+      "status": 200,
+      "bytes": 26364,
+      "sha256": "3789a320c2d08502b3e88b16e2b38b43e7d707fdeb3ef248ed3b032ddcb45ee2",
+      "retrieved_at": "2026-11-10T03:05:45.477699+00:00"
+    },
+    {
+      "name": "llresearch",
+      "url": "https://www.llresearch.org/",
+      "final_url": "https://www.llresearch.org/",
+      "status": 403,
+      "bytes": 124008,
+      "sha256": "164a9aecd03ac6660561d4b9cbd8446f4359883215f86a34b58c73b6521c7d4d",
+      "retrieved_at": "2026-11-10T03:05:45.206734+00:00"
+    },
+    {
+      "name": "omna",
+      "url": "https://omna.org/",
+      "final_url": "https://omna.org/",
+      "status": 200,
+      "bytes": 127495,
+      "sha256": "74505d5d923d85a416f3fb319a69dcae07bd0d4b7a9095d0237154d392a7200f",
+      "retrieved_at": "2026-11-10T03:05:45.529122+00:00"
+    },
+    {
+      "name": "llresearch-copyright",
+      "url": "https://www.llresearch.org/copyright",
+      "final_url": "https://www.llresearch.org/copyright",
+      "status": 403,
+      "bytes": 124008,
+      "sha256": "164a9aecd03ac6660561d4b9cbd8446f4359883215f86a34b58c73b6521c7d4d",
+      "retrieved_at": "2026-11-10T03:06:12.662597+00:00"
+    },
+    {
+      "name": "omna-faq",
+      "url": "https://omna.org/faq/",
+      "final_url": "https://omna.org/faq/",
+      "status": 200,
+      "bytes": 112041,
+      "sha256": "9d2c84378f6ff7a5bb296e64ebabfe3d1ee8484c1a4c53512640fe3c764e6dae",
+      "retrieved_at": "2026-11-10T03:06:12.834515+00:00"
+    },
+    {
+      "source_id": "bashar-terms",
+      "canonical_url": "https://www.bashar.org/privacypolicy",
+      "requested_url": "https://app.kartra.com/redirect_to/?asset=page&id=HFwuJyoWc3Yf",
+      "final_url": "https://www.bashar.org/privacypolicy",
+      "status": 200,
+      "sha256": "6cb1330235e159ecaed6950b4547b4205ed50336f860762c8daaafd2659dbcc1",
+      "bytes": 94076,
+      "retrieved_at": "2026-11-10T03:06:22.586682+00:00",
+      "access_status": "public_HTTP_200",
+      "last_revised": "2025-07-03",
+      "authority": "Publisher policy linked from official homepage footer"
+    },
+    {
+      "source_id": "vimeo-terms",
+      "canonical_url": "https://vimeo.com/legal/terms.md",
+      "requested_url": "https://vimeo.com/terms",
+      "final_url": "https://vimeo.com/legal/",
+      "status": 200,
+      "sha256": "ac79e57a68e8b9401e9dcfb77073ae61db8a58e682d97e6ac4c26975cf778741",
+      "bytes": 57992,
+      "retrieved_at": "2026-11-10T03:05:46.042581+00:00",
+      "access_status": "public_HTTP_200",
+      "authority": "Platform terms; current official response redirects to /legal/"
+    },
+    {
+      "source_id": "vimeo-1232083694",
+      "requested_url": "https://vimeo.com/1232083694",
+      "final_url": "https://vimeo.com/1232083694",
+      "status": 200,
+      "sha256": "8a1b50ab227a1d0c08809c2972b49423d123141755e7a8d67c3c6917a564168e",
+      "bytes": 157919,
+      "retrieved_at": "2026-11-10T03:06:22.588764+00:00",
+      "access_status": "public_HTTP_200",
+      "authority": "Sample retained publication from Bashar Communications"
+    },
+    {
+      "source_id": "vimeo-392834325",
+      "requested_url": "https://vimeo.com/392834325",
+      "final_url": "https://vimeo.com/392834325",
+      "status": 200,
+      "sha256": "c140563dce44ab2898042826172708cbed014393905f49fd367ef288230353bf",
+      "bytes": 177261,
+      "retrieved_at": "2026-11-10T03:06:22.982343+00:00",
+      "access_status": "public_HTTP_200",
+      "authority": "Sample retained publication from Bashar Communications"
+    },
+    {
+      "source_id": "handout-spectrum-of-fear",
+      "source_url": "https://d11n7da8rpqbjy.cloudfront.net/basharet/1850_1708989118894Spectrum_of_Fear.pdf",
+      "sha256": "4d24ecade830c03fb6a95ae7803d3fc045e71db06354984208ed0b915728c219",
+      "retrieved_at": "2026-11-07T01:26:54.517846+00:00",
+      "access_status": "retained_official_public_handout; not refetched"
+    }
+  ],
+  "selected_short_clauses": [
+    {
+      "clause_id": "B01",
+      "source_id": "bashar-terms",
+      "section": "18. Limited License",
+      "exact_quote": "solely for your single, personal, non-transferable and non-commercial use",
+      "source_url": "https://www.bashar.org/privacypolicy",
+      "source_sha256": "6cb1330235e159ecaed6950b4547b4205ed50336f860762c8daaafd2659dbcc1",
+      "retrieved_at": "2026-11-10T03:06:22.586682+00:00",
+      "interpretation": "The limited display license is personal and nontransferable; noncommercial is a condition, not a blanket redistribution grant."
+    },
+    {
+      "clause_id": "B03",
+      "source_id": "bashar-terms",
+      "section": "19. Examples of Limitations on Use",
+      "exact_quote": "Any non-commercial reuse of any portion of the Site Content by a Registered User that falls within what is allowed as “Fair Use” under the United States copyright and trademark law is permitted.",
+      "source_url": "https://www.bashar.org/privacypolicy",
+      "source_sha256": "6cb1330235e159ecaed6950b4547b4205ed50336f860762c8daaafd2659dbcc1",
+      "retrieved_at": "2026-11-10T03:06:22.586682+00:00",
+      "interpretation": "The publisher expressly recognizes qualifying fair use; this audit does not decide whether any particular full-corpus release qualifies, or whether the user is a Registered User."
+    },
+    {
+      "clause_id": "V01",
+      "source_id": "vimeo-terms",
+      "section": "5.3 Code of Conduct",
+      "exact_quote": "Access, download, reproduce, redistribute, frame, mirror, create derivative works from, decompile, reverse engineer, alter, archive, or disassemble any part of our Services or any content except as expressly authorized by the Service or with our prior written permission;",
+      "source_url": "https://vimeo.com/legal/terms.md",
+      "source_sha256": "ac79e57a68e8b9401e9dcfb77073ae61db8a58e682d97e6ac4c26975cf778741",
+      "retrieved_at": "2026-11-10T03:05:46.042581+00:00",
+      "interpretation": "The official terms list archiving and derivatives alongside copying; technical availability alone does not demonstrate express authorization."
+    },
+    {
+      "clause_id": "V02",
+      "source_id": "vimeo-terms",
+      "section": "6.1 Your Video Content",
+      "exact_quote": "you grant each such person permission to stream (and/or download or embed, as applicable) your video.",
+      "source_url": "https://vimeo.com/legal/terms.md",
+      "source_sha256": "ac79e57a68e8b9401e9dcfb77073ae61db8a58e682d97e6ac4c26975cf778741",
+      "retrieved_at": "2026-11-10T03:05:46.042581+00:00",
+      "interpretation": "Permission passed to viewers is tied to enabled streaming, download and embed features. This is not a general republication license."
+    },
+    {
+      "clause_id": "H01",
+      "source_id": "handout-spectrum-of-fear",
+      "section": "PDF footer, native extracted text",
+      "exact_quote": "Please do not copy or disseminate any information contained within this event to the public.",
+      "source_url": "https://d11n7da8rpqbjy.cloudfront.net/basharet/1850_1708989118894Spectrum_of_Fear.pdf",
+      "source_sha256": "4d24ecade830c03fb6a95ae7803d3fc045e71db06354984208ed0b915728c219",
+      "retrieved_at": "2026-11-07T01:26:54.517846+00:00",
+      "interpretation": "A retained handout contains an explicit public-dissemination restriction. Its free download link is not blanket permission to mirror it."
+    }
+  ],
+  "omna_notice": {
+    "attribution": "This is a Channeled Message by Natalie Glasson at OmNa Sanctuary – https://omna.org",
+    "condition": "The above must be included on any reproduction of this material",
+    "basis": "Exact retained publisher-page bytes joined by SHA256 to the accepted192-record media manifest, not duplicate physical crawl copies.",
+    "example_url": "https://omna.org/is-archangel-michael-shattering-your-boundaries-by-archangel-michael/",
+    "example_page_sha256": "4499b6f56ca18b7ba990f208d030dd5efd15ff8a474a78a83c039c7966cb6bdc"
+  },
+  "release_interpretation": "Publish the project-owned code, methods, paper, figures, metadata and source links. Do not label all underlying third-party media/text as openly licensed. A specific fair-use or permission basis can be documented per asset; this audit does not decide legal liability or categorically exclude fair use.",
+  "limitations": [
+    "Bounded source review, not a legal opinion or clearance of all26publisher contexts.",
+    "Academic or noncommercial purpose alone does not establish a source license.",
+    "A download button, transcription or audio re-encoding is not by itself proof of a republication license.",
+    "The L/L copyright-policy endpoint was unavailable; the audit does not infer its uninspected contents.",
+    "No source owners were contacted and no permissions were invented.",
+    "The frozen8Novemberdataset/manuscript remains a scientific snapshot; current10Novemberpublication policy is recorded separately."
+  ]
+}

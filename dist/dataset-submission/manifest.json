@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "Channeling discourse dataset · research release",
-  "generated_at": "2026-11-10T03:05:50.791437+00:00",
+  "generated_at": "2026-11-10T03:13:26.302467+00:00",
   "scope": "Public metadata and derived research; full source text and media are private.",
   "dataset_version": "2026-11-08",
   "modules": {
@@ -19,8 +19,8 @@
     },
     "archive": {
       "file": "archive.json",
-      "bytes": 4060,
-      "sha256": "7e3da713483f19350c6ea8dd80b6638f1fda13d32394698a97b8135c5fc48823",
+      "bytes": 4591,
+      "sha256": "322b92db5145e40eb3c44737d3bed7da976ac60c1c1f159f32d13eb391a48b27",
       "required": false
     },
     "venue": {
@@ -218,8 +218,18 @@
     },
     {
       "file": "archive.json",
-      "bytes": 4060,
-      "sha256": "7e3da713483f19350c6ea8dd80b6638f1fda13d32394698a97b8135c5fc48823"
+      "bytes": 4591,
+      "sha256": "322b92db5145e40eb3c44737d3bed7da976ac60c1c1f159f32d13eb391a48b27"
+    },
+    {
+      "file": "archive-objects.jsonl",
+      "bytes": 5938469,
+      "sha256": "bc5c4682f3efb8b888a884cd19764e2cc2d1092f30a063779cda8abbbf93b26e"
+    },
+    {
+      "file": "archive-object-summary.json",
+      "bytes": 630,
+      "sha256": "4f0a570122fc89938c91b2db8aaf8ec758bc172ebbf0236bc340d75d47af4738"
     },
     {
       "file": "channeling-discourse-metadata-2026-11-08.zip",
@@ -377,14 +387,29 @@
       "sha256": "83e88130a42d137a158d85ee69eeff67f3e714d64b532cc8eb73c2380f141a9f"
     },
     {
+      "file": "docs/PUBLIC-SOURCE-RIGHTS.md",
+      "bytes": 6697,
+      "sha256": "5f760be3cd569ce5920f7cad6ec4c09cd76a8d07195077a2a544c59e1a98a30b"
+    },
+    {
+      "file": "source-rights.json",
+      "bytes": 11369,
+      "sha256": "74f0ad6b507cb4b122327d74d680d960aa9a194871f276e2387b058dee697ae3"
+    },
+    {
+      "file": "source-rights-omna-records.json",
+      "bytes": 83515,
+      "sha256": "ca4237eb7ff2b083ccff88d2b0556fd1ba093bc751eba67ec405760fc3e3152b"
+    },
+    {
       "file": "index.html",
       "bytes": 2764,
       "sha256": "5b121a13b2aa85003a189d0aaedea78918c0df31d2c041559404ed6537fc7020"
     },
     {
       "file": "app.js",
-      "bytes": 44514,
-      "sha256": "0197d6e69ef8d8c6b16b6d286775b25b2c096013ca2f01c62bb63b864f96cab7"
+      "bytes": 44708,
+      "sha256": "2ed2d36aa50e935dc3c57921ad74b2af45acb06291db1bcfda959fdc02a677a3"
     },
     {
       "file": "styles.css",
@@ -398,8 +423,8 @@
     },
     {
       "file": "docs/README.md",
-      "bytes": 10759,
-      "sha256": "57e3e7c27a751d042dc858606579b43f9660667b4c841758237711d14351dc6c"
+      "bytes": 11371,
+      "sha256": "1cc750914f08281fa2a5bf3dd2b54c1c6b3d7954b29d0ad8c96aa8cc70c10c94"
     },
     {
       "file": "docs/REVIEW.md",

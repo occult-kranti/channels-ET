@@ -70,9 +70,18 @@ def verify(site):
         if transfer['complete']:
             assert transfer['verified_assets']>0 and transfer['verified_remote_bytes']>0
             assert destination['visibility_verified'] is True
-            assert destination['intended_visibility']=='private'
+            assert destination['intended_visibility'] in ('private','public_for_redistribution_cleared_assets')
+            if destination['intended_visibility']=='public_for_redistribution_cleared_assets':
+                assert archive['rights_review']['status']=='verified_for_all_published_assets'
         else:
             assert archive.get('status') not in ('complete','uploaded','verified_complete')
+        if 'public_object_inventory' in archive:
+            objects=rows(archive['public_object_inventory']['file'])
+            stats=read(archive['public_object_inventory']['summary_file'])
+            assert len(objects)==len({o['sha256'] for o in objects})==stats['objects']==archive['closure']['unique_content_objects']
+            assert sum(o['bytes'] for o in objects)==stats['unique_bytes']==archive['closure']['unique_content_bytes']
+            assert sum(o['logical_path_count'] for o in objects)==stats['logical_paths']==archive['closure']['logical_file_paths']
+            assert all(o['retained'] is True and o['remote_transfer_verified'] is False for o in objects)
     return {**result,'status':'passed_dataset_integrity_and_unit_reconciliation',
             'documents':len(docs),'words':summary['words'],'editions':len(editions),
             'contexts':len(channels),'joined_media':len(media),'youtube_observed_ids':len(videos),

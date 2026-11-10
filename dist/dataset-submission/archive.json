@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T03:05:18.440112+00:00",
-  "status": "public_research_ready_source_archive_upload_and_rights_review_in_progress",
+  "updated_at": "2026-11-10T03:12:57.109807+00:00",
+  "status": "public_research_published_full_source_transfer_not_completed",
   "destination": {
     "repository": "occult-kranti/channels-ET",
     "url": "https://github.com/occult-kranti/channels-ET",
@@ -12,7 +12,7 @@
   "capability": {
     "user_direction": "Use the existing public repository; no new repository or private-archive requirement.",
     "public_research_push": "authorized; existing repository accessible",
-    "release_asset_upload": "pilot returned HTTP401 at uploads.github.com; supported authentication route under investigation"
+    "release_asset_upload": "HTTP401 Bad credentials for both GitHub CLI and official REST synthetic uploads; normal Git publication works"
   },
   "closure": {
     "status": "frozen_and_content_hashed",
@@ -69,8 +69,9 @@
     }
   },
   "code_snapshot": {
-    "status": "awaiting_final_public_commit",
-    "reason": "Reproducible archive will bind the final committed code after public integration."
+    "status": "public_git_commit_available",
+    "commit": "b76e72510a9fbc617ef2117c8ac4a19e4420343e",
+    "url": "https://github.com/occult-kranti/channels-ET/commit/b76e72510a9fbc617ef2117c8ac4a19e4420343e"
   },
   "closing_provenance_supplement": {
     "status": "awaiting_final_task_freeze",
@@ -82,5 +83,18 @@
       "Final public Git commit snapshot"
     ],
     "complete": false
+  },
+  "rights_review": {
+    "file": "source-rights.json",
+    "document": "docs/PUBLIC-SOURCE-RIGHTS.md",
+    "status": "source_specific_terms_documented_no_blanket_full_archive_license_established"
+  },
+  "public_object_inventory": {
+    "file": "archive-objects.jsonl",
+    "summary_file": "archive-object-summary.json",
+    "objects": 36413,
+    "logical_paths": 39327,
+    "unique_bytes": 17806101487,
+    "scope": "bookkeeping_only_not_uploaded_source_files"
   }
 }

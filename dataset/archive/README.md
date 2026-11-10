@@ -21,3 +21,16 @@ source hashes, bounded staging, resumable uploads and restore verification.
 
 The public website and paper do not depend on completion of this separate raw
 archive transfer. Existing local originals are preserved.
+
+The [public object index](../../dist/dataset-submission/archive-objects.jsonl)
+exports every retained object hash, byte size, alias count and verified transfer
+state. [Its summary](../../dist/dataset-submission/archive-object-summary.json)
+reconciles all 36,413 objects and 39,327 aliases. It contains no original bodies
+or local filenames; publishing this index is not uploading those source files.
+
+The [bounded source-rights review](../../research/dataset-submission/PUBLIC-SOURCE-RIGHTS.md)
+records the actual inspected terms. No blanket full-archive redistribution license
+was established. GitHub Release uploads also returned HTTP 401 for both CLI and
+official REST attempts, including tiny synthetic files. Public research and this
+object index are committed normally through Git; full-source remote transfer
+remains incomplete.

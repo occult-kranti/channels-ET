@@ -1,6 +1,14 @@
 # Private research archive
 
-The user chose **private full archive + public research**. Raw recordings, complete transcript editions and source snapshots belong in the private `occult-kranti/channels-et-dataset` repository. The public research dashboard receives only a status summary and approved derived data. Private storage does not establish permission to redistribute third-party recordings publicly.
+**10 November update:** the user has authorized public storage in the existing
+`channels-ET` repository. Public research and the retained-object index are
+published through Git. Complete source publication is tracked by source-specific
+redistribution terms and verified transfer receipts. Release-asset uploads
+currently return HTTP 401, including a tiny synthetic test file. The private-only
+uploader below preserves its earlier guard and is not silently repurposed to
+publish raw sources. No new repository is required.
+
+The original 8 November archive design used **private full archive + public research**. Raw recordings, complete transcript editions and source snapshots belong in the private `occult-kranti/channels-et-dataset` repository. The public research dashboard receives only a status summary and approved derived data. Private storage does not establish permission to redistribute third-party recordings publicly.
 
 ## Storage contract
 

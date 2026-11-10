@@ -171,3 +171,13 @@ text-model reproduction additionally requires the retained source editions or
 lawful re-acquisition of equivalent content; changing online sources may prevent
 byte-identical rehydration. Public aggregate results are not a substitute for the
 private input corpus.
+
+## Public publication continuation · 10 November
+
+The user authorized public storage in the existing repository. The organized
+`dataset/` entry point, public metadata ZIP, complete paper, analysis outputs and
+all retained-object bookkeeping are published through Git and Pages. Source
+redistribution terms are recorded in [PUBLIC-SOURCE-RIGHTS.md](PUBLIC-SOURCE-RIGHTS.md).
+No blanket license for the complete original archive was established. Separate
+Release-asset upload tests returned HTTP 401; no raw-source remote transfer is
+claimed. The 8 November paper and dataset retain their explicit frozen scope.
