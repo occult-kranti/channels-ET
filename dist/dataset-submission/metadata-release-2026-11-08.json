@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "version": "2026-11-08",
+  "frame_sha256": "3eb35b14a9067e9e162862ed030c15d5b7646a38b3060ac85686f4604eb2c9c4",
+  "scope": "Public metadata only; excludes full source bodies and media",
+  "bundle": {
+    "file": "channeling-discourse-metadata-2026-11-08.zip",
+    "bytes": 1245362,
+    "sha256": "b0af3065ea7796a9444ecd5b069b42bca0cc7691063424144c13d652091037ef"
+  },
+  "members": [
+    {
+      "file": "DATASHEET.md",
+      "bytes": 8380,
+      "sha256": "d721665e6824bb4f095857ddc4be6c8138d078e0f9363f613447c7e53c4214dc"
+    },
+    {
+      "file": "LICENSE.txt",
+      "bytes": 1429,
+      "sha256": "84abe1fbaac811fee292219181d0d5521b8d4d128246d01d226b2ec6b20ffbd4"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2762,
+      "sha256": "6de50612444e19414e028754027c3f2d361171b91c780f90e1aa4a379f89990a"
+    },
+    {
+      "file": "RIGHTS.md",
+      "bytes": 1349,
+      "sha256": "c2e11c540a4974f91a3f52d3a453a677a1bea0fa7c7c7382efd4af15a82e2464"
+    },
+    {
+      "file": "channels.csv",
+      "bytes": 2837,
+      "sha256": "4d365a5fce27a9ec08a750e2f52d77ad19a8eafc3d19853cd77a54c1a9e291cc"
+    },
+    {
+      "file": "checksums.txt",
+      "bytes": 1150,
+      "sha256": "2cd77406704b35ab0f5dad5d44e5137cae8e3a2f49feced87f64fcbd6a935d2f"
+    },
+    {
+      "file": "dataset.json",
+      "bytes": 3339446,
+      "sha256": "cc4a8abef2cf39deec4a226859d814ddd27015fb4690fac66049cbc054603b96"
+    },
+    {
+      "file": "deposit-metadata.json",
+      "bytes": 2928,
+      "sha256": "ae2f7a9602c622c7fce29dc24c9b3a67ec367b47153952e09a81c9c66ddd5105"
+    },
+    {
+      "file": "documents.jsonl",
+      "bytes": 2288005,
+      "sha256": "3ee1b5df1724beea640db0bc5a0008861584ac5fcd05f5fa16bb5da9479c0d56"
+    },
+    {
+      "file": "editions.jsonl",
+      "bytes": 597180,
+      "sha256": "4d9a165336fbb8dd46fb6919639264cc503c3aa708a30e0bbc470c0ecf412ea5"
+    },
+    {
+      "file": "media.jsonl",
+      "bytes": 360508,
+      "sha256": "8a99932638dd430c550b65c61f67d5c7b1135aa3ef3aa5b85aecafacc1c4f0d0"
+    },
+    {
+      "file": "schema.json",
+      "bytes": 1657,
+      "sha256": "efa8a8c28039da9bfb4854f2df94d6e9f0c2a42363999ae7a7caa5288ce3099b"
+    },
+    {
+      "file": "youtube-account-video-links.jsonl",
+      "bytes": 608560,
+      "sha256": "b13686c82ed1744f6095fb151a7f381ad196f5a4e099004747a74f2bc38ed6e7"
+    },
+    {
+      "file": "youtube-accounts.jsonl",
+      "bytes": 595001,
+      "sha256": "3a7f6649256e16032b1861f5f02acd1ec7f231f07de1bb618b2bf9a0a97d7512"
+    },
+    {
+      "file": "youtube-videos.jsonl",
+      "bytes": 4523440,
+      "sha256": "08ae14678c9a0998f919ceab3fe4e840baf30654b213fdd43672a1c9b947e08b"
+    }
+  ],
+  "doi": null,
+  "doi_status": "TBD_not_registered",
+  "authors_status": "TBD_before_deposit",
+  "validation": "ZIP CRC, exact member bytes and SHA256 checksums verified"
+}

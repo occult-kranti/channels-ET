@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "frame_sha256": "3eb35b14a9067e9e162862ed030c15d5b7646a38b3060ac85686f4604eb2c9c4",
+  "claims": [
+    {
+      "id": "selected_frame",
+      "source": "dist/dataset-submission/dataset.json",
+      "locator": "summary",
+      "values": {
+        "documents": 683,
+        "words": 1599556,
+        "text_editions": 694,
+        "legacy_selected_editions": 493,
+        "new_publisher_editions": 192,
+        "new_publication_units": 190,
+        "new_editions_same_publication": 2,
+        "publisher_contexts": 26,
+        "creator_contexts": 14,
+        "youtube_uploaded_total": null,
+        "youtube_downloads": 0,
+        "youtube_observed_video_ids": 2812,
+        "youtube_account_references": 297,
+        "selected_linked_media_rows": 533,
+        "selected_unique_encoded_media": 533,
+        "new_publisher_audio_files": 192,
+        "new_publisher_audio_bytes": 942245703,
+        "new_publisher_audio_seconds": 160392.925125,
+        "text_origin_counts": {
+          "machine_asr": 12,
+          "local_asr": 221,
+          "platform_auto_caption": 14,
+          "publisher_written": 226,
+          "retained_local_asr": 19,
+          "publisher_labeled_transcript_pdf": 15,
+          "publisher_transcript": 106,
+          "linked_publisher_caption": 70
+        },
+        "date_missing_documents": 300
+      }
+    },
+    {
+      "id": "representation_sensitivity",
+      "source": "research/dataset-submission/analysis/public/results.json",
+      "locator": "representation_sensitivity",
+      "values": [
+        {
+          "analysis": "identity_mask",
+          "eligible_sources": 683,
+          "mean_jaccard": 0.7872888052243836,
+          "channel_macro_jaccard": 0.9398000093063763,
+          "pair_spearman": 0.9969648366405746
+        },
+        {
+          "analysis": "centered_300_word_window",
+          "eligible_sources": 683,
+          "mean_jaccard": 0.13734922958934673,
+          "channel_macro_jaccard": 0.06247692846759179,
+          "pair_spearman": 0.5361088362307906
+        },
+        {
+          "analysis": "balanced_idf",
+          "eligible_sources": 683,
+          "mean_jaccard": 0.7818680424829766,
+          "channel_macro_jaccard": 0.852957450159679,
+          "pair_spearman": 0.9913151639304287
+        },
+        {
+          "analysis": "bounded_lexical_vs_MiniLM",
+          "eligible_sources": 683,
+          "mean_jaccard": 0.11807734318715285,
+          "channel_macro_jaccard": 0.09814151511071256,
+          "pair_spearman": 0.4304082583475486
+        }
+      ]
+    },
+    {
+      "id": "topic_stability",
+      "source": "research/dataset-submission/analysis/public/results.json",
+      "locator": "topic_seed_diagnostics; balanced_topic_fit",
+      "values": {
+        "seeds": [
+          {
+            "seed": 11,
+            "components": 8,
+            "iterations": 235,
+            "reconstruction_error": 24.10131026618322,
+            "convergence_warning": false
+          },
+          {
+            "seed": 23,
+            "components": 8,
+            "iterations": 175,
+            "reconstruction_error": 24.07211007581759,
+            "convergence_warning": false,
+            "matched_topic_cosines": [
+              0.9244520187994899,
+              0.256646600519236,
+              0.9534580264378726,
+              0.1508123498569689,
+              0.9766507593248518,
+              0.985576754475422,
+              0.9995840906231359,
+              0.9135316369494891
+            ],
+            "mean_matched_topic_cosine": 0.7700890296233083,
+            "dominant_topic_ari": 0.6662288091164695,
+            "mixture_mean_absolute_change": 0.08143332584523857
+          },
+          {
+            "seed": 47,
+            "components": 8,
+            "iterations": 1126,
+            "reconstruction_error": 24.064129474396687,
+            "convergence_warning": false,
+            "matched_topic_cosines": [
+              0.9979874843090635,
+              0.18752901815933862,
+              0.9535192858501568,
+              0.3433724764962973,
+              0.9748989868943007,
+              0.9852243817556176,
+              0.9992643752525519,
+              0.914905145241674
+            ],
+            "mean_matched_topic_cosine": 0.7945876442448749,
+            "dominant_topic_ari": 0.7370709016403602,
+            "mixture_mean_absolute_change": 0.062314221473450886
+          }
+        ],
+        "balanced": {
+          "seed": 11,
+          "components": 8,
+          "iterations": 111,
+          "reconstruction_error": 8.932918991509355,
+          "convergence_warning": false,
+          "matched_topic_cosines": [
+            0.678394621010027,
+            0.7165854286660664,
+            0.17351852530748132,
+            0.2861037146173874,
+            0.46487016586044483,
+            0.702923469114964,
+            0.7962570525186848,
+            0.7879980971228236
+          ],
+          "mean_matched_topic_cosine": 0.5758313842772349,
+          "dominant_topic_ari": 0.5522327563803223,
+          "mixture_mean_absolute_change": 0.12550002449441056,
+          "fit_documents": 107
+        }
+      }
+    },
+    {
+      "id": "analysis_resources",
+      "source": "research/dataset-submission/analysis/public/results.json",
+      "locator": "wall_seconds; peak_process_rss_kib; semantic",
+      "values": {
+        "wall_seconds": 51.269038130005356,
+        "peak_process_rss_kib": 476728,
+        "semantic": {
+          "binding": {
+            "model": "sentence-transformers/all-MiniLM-L6-v2",
+            "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+            "model_manifest_sha256": "931b052d83a03d2c35854572d9038f14ed9f9da0e3383cee5e1c3912518f428d",
+            "encoder_script_sha256": "181f011a0164d508cb2cc7785603dfae8fd35c765325fbe20195108037dbb7a8",
+            "onnxruntime": "1.23.2",
+            "intra_op_threads": 1,
+            "inter_op_threads": 1,
+            "batch_size": 8,
+            "chunk_content_wordpieces": 240,
+            "wordpiece_truncation": false,
+            "token_pooling": "Attention-mask mean including CLS/SEP, then chunk L2 normalization",
+            "document_pooling": "Content-wordpiece-weighted mean of normalized chunks, then document L2 normalization",
+            "equal_chunk_sensitivity": false,
+            "training_or_weight_update": false,
+            "cache": "Exact input/model/encoder-contract cache; private vectors and hashes retained."
+          },
+          "sources": 683,
+          "chunks": 1366,
+          "content_wordpieces": 245517,
+          "invocation_encoding_seconds": 0,
+          "original_encoding_seconds": 63.63654047099408,
+          "reused_exact_cache": true,
+          "input": "Centered maximum300 lexical-word spans, masked with exactly the same phrase registry as TF-IDF.",
+          "scope": "Pinned pretrained CPU baseline. No weight update, model distillation or claim of current SOTA accuracy.",
+          "truncated_wordpieces": 0
+        }
+      }
+    },
+    {
+      "id": "publisher_request_ledger",
+      "source": "dist/youtube-archive/publisher-discovery.json",
+      "scope": "previous accepted bounded first-party crawl; not lifetime channel coverage"
+    },
+    {
+      "id": "venue_requirements",
+      "source": "research/dataset-submission/venue/sources.json",
+      "scope": "official current ICWSM2027 submission page and author kit/checklist"
+    }
+  ],
+  "input_files": [
+    {
+      "path": "research/dataset-submission/analysis/public/results.json",
+      "sha256": "4e1a2b38eae32cf0f1b2d2826d6e5687d4c0654c79f5f7846f3cca3406b27137",
+      "bytes": 17970
+    },
+    {
+      "path": "dist/dataset-submission/dataset.json",
+      "sha256": "cc4a8abef2cf39deec4a226859d814ddd27015fb4690fac66049cbc054603b96",
+      "bytes": 3339446
+    },
+    {
+      "path": "dist/youtube-archive/publisher-discovery.json",
+      "sha256": "98d4d339098b9da4248506ca867d60553752f34cd914e7fe1afd5c0009672966",
+      "bytes": 3860623
+    },
+    {
+      "path": "dist/youtube-archive/publisher-media.json",
+      "sha256": "7bac415597b5220e51e25885548e761de9098f16c2d100b5dcdf5e784a99670b",
+      "bytes": 673791
+    }
+  ],
+  "boundaries": [
+    "Exploratory selected publication units; no population or truth inference",
+    "Mean neighbor Jaccard and dependent-pair rank correlation are descriptive",
+    "Private source-body access and actual dataset DOI remain distinct from public metadata availability"
+  ]
+}

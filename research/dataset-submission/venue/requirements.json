@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-11-08T22:48:57Z",
+  "target": {
+    "conference": "ICWSM",
+    "year": 2027,
+    "track": "Datasets",
+    "deadline_aoe": "2027-01-15T23:59:00-12:00",
+    "deadline_utc": "2027-01-16T11:59:00Z",
+    "url": "https://www.icwsm.org/2027/submit/"
+  },
+  "overall_status": "working_draft_not_submission_ready",
+  "requirements": [
+    {
+      "id": "deadline",
+      "requirement": "Dataset papers are due 15 January 2027, 23:59 Anywhere on Earth.",
+      "status": "verified",
+      "evidence": "Dataset section and general deadlines; UTC conversion is 16 January 2027 11:59.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "scope",
+      "requirement": "A societally relevant web/social-media dataset, with documented research applications.",
+      "status": "draft",
+      "evidence": "The proposed contribution is an auditable archive of public channeling discourse, not a claim about extraterrestrial origin.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "pages",
+      "requirement": "Dataset papers: 2\u201310 pages excluding the paper checklist.",
+      "status": "verified_draft_build",
+      "evidence": "8 pages body/references, followed by checklist; 10 pages total. Working draft only.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "format",
+      "requirement": "AAAI two-column US Letter, high-resolution English PDF.",
+      "status": "implemented",
+      "evidence": "Unmodified AAAI2027 sty/bst copied from the official author kit; preprint working-draft mode.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "review",
+      "requirement": "Dataset papers follow single-blind review; no revise-and-resubmit option.",
+      "status": "verified",
+      "evidence": "Dataset section explicitly says single-blind; anonymity section exempts dataset papers.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "doi",
+      "requirement": "A DOI indexing the actual contributed dataset is required.",
+      "status": "TBD",
+      "evidence": "A GitHub URL or repository commit is not a DOI. No DOI has been minted or invented.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "access",
+      "requirement": "Link to actual dataset, comprehensive content/structure, collection/quality, potential applications, FAIR documentation.",
+      "status": "partial",
+      "evidence": "Public release consists of metadata/derived records/code; private media/text archive is a separate restricted layer. Verify reviewer access to every artifact needed for the claimed contribution.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "checklist",
+      "requirement": "Include all unchanged checklist questions immediately after references and before any appendix.",
+      "status": "draft_human_review_required",
+      "evidence": "35 official questions retained. Working answers require human author sign-off; no submission-ready claim.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "ai",
+      "requirement": "Disclose generative AI content creation in Acknowledgements; AI tools cannot be authors.",
+      "status": "implemented",
+      "evidence": "Draft records ChatGPT/Codex assistance with research, prose, code, tables/figures and model-agent review; no human peer-review substitution.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "authorship",
+      "requirement": "Human authors and affiliations, asset permissions, institutional determination, conflicts/funding.",
+      "status": "TBD",
+      "evidence": "No invented authors, affiliation, IRB approval, consent, DOI or dataset license.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    },
+    {
+      "id": "submission",
+      "requirement": "Human author checks final rules, PDF, checklist, access, prior/duplicate submission and venue registration obligations.",
+      "status": "not_submitted",
+      "evidence": "This project has not submitted to ICWSM.",
+      "source_url": "https://www.icwsm.org/2027/submit/"
+    }
+  ],
+  "paper": {
+    "tex_path": "research/dataset-submission/paper/paper.tex",
+    "pdf_path": "research/dataset-submission/paper/paper.pdf",
+    "pdf_built": true,
+    "review_status": "draft_not_submitted",
+    "pdf": "paper/paper.pdf",
+    "latex_zip": "paper/overleaf-source.zip",
+    "tex": "paper/paper.tex",
+    "body_and_references_pages": 8,
+    "total_pages": 10,
+    "checklist_starts_page": 9,
+    "within_page_target": true,
+    "source_ledger": "docs/venue-sources.json"
+  },
+  "open_items": [
+    "Human authorship and institutional ethics determination",
+    "Dataset DOI and final public data deposit",
+    "Asset-level redistribution/reuse rights and final release license",
+    "Human validation of text/attribution/question-answer labels",
+    "Final page-count and unchanged checklist review",
+    "Recheck live venue call immediately before submission"
+  ]
+}

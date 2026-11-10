@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-11-08T23:10:10.436Z",
+  "base": "http://127.0.0.1:8765/dist/dataset-submission/",
+  "manifest_sha256": "71fa8b4868887e6e94882290d97f869a22dee41d38f12d10430b0abc4ec23868",
+  "browser": "Chromium via Playwright",
+  "checks": [
+    {
+      "name": "reflow-320",
+      "detail": "Six views, no whole-page overflow; local table scrolling retained.",
+      "status": "passed"
+    },
+    {
+      "name": "reflow-390",
+      "detail": "Six views, no whole-page overflow; local table scrolling retained.",
+      "status": "passed"
+    },
+    {
+      "name": "reflow-1440",
+      "detail": "Six views, no whole-page overflow; local table scrolling retained.",
+      "status": "passed"
+    },
+    {
+      "name": "summary-binding",
+      "detail": "Publication count and direct YouTube download0 match producer data.",
+      "status": "passed"
+    },
+    {
+      "name": "channel-filter-export",
+      "detail": "Name filter and CSV include exactly the selected publisher context; null upload totals stay blank.",
+      "status": "passed"
+    },
+    {
+      "name": "source-inspector-keyboard",
+      "detail": "Native dialog opens, contains Tab focus, closes with Escape and restores trigger focus.",
+      "status": "passed"
+    },
+    {
+      "name": "history",
+      "detail": "Browser Back and Forward preserve selected view and context.",
+      "status": "passed"
+    },
+    {
+      "name": "publication-filter-export-pagination",
+      "detail": "106 actual records selected; export includes all pages.",
+      "status": "passed"
+    },
+    {
+      "name": "empty-and-reset",
+      "detail": "No-result selection and reset remain operational.",
+      "status": "passed"
+    },
+    {
+      "name": "invalid-context",
+      "detail": "Unknown deep-link context has a recoverable view.",
+      "status": "passed"
+    },
+    {
+      "name": "escaped-input",
+      "detail": "Query values render as text, not injected markup.",
+      "status": "passed"
+    },
+    {
+      "name": "all-context-matrix",
+      "detail": "All represented contexts selectable with stable row/column headers and numerical cells.",
+      "status": "passed"
+    },
+    {
+      "name": "research-figure-assets",
+      "detail": "Bundled research figure images load.",
+      "status": "passed"
+    },
+    {
+      "name": "zoom-reduced-motion",
+      "detail": "All six views at200%CSS zoom and reduced-motion preference preserve page reflow.",
+      "status": "passed"
+    },
+    {
+      "name": "metadata-zip-download",
+      "detail": "Actual downloaded dataset ZIP matches manifest byte count and SHA-256.",
+      "status": "passed"
+    },
+    {
+      "name": "paper-and-overleaf-downloads",
+      "detail": "Actual PDF and Overleaf ZIP download with matching bytes/hash; verified January15deadline rendered.",
+      "status": "passed"
+    },
+    {
+      "name": "runtime",
+      "detail": "No uncaught page JavaScript errors during nominal tasks.",
+      "status": "passed"
+    },
+    {
+      "name": "required-hash-corruption",
+      "detail": "SHA-256 mismatch",
+      "status": "passed"
+    },
+    {
+      "name": "required-byte-length-corruption",
+      "detail": "Byte length mismatch",
+      "status": "passed"
+    },
+    {
+      "name": "required-module-http-missing",
+      "detail": "HTTP 404",
+      "status": "passed"
+    },
+    {
+      "name": "required-module-absent",
+      "detail": "Required dataset module is absent",
+      "status": "passed"
+    },
+    {
+      "name": "unsafe-module-path",
+      "detail": "Unsafe module path",
+      "status": "passed"
+    },
+    {
+      "name": "analysis-hash-corruption",
+      "detail": "Analysis is unavailable",
+      "status": "passed"
+    },
+    {
+      "name": "analysis-http-missing",
+      "detail": "Analysis is unavailable",
+      "status": "passed"
+    },
+    {
+      "name": "archive-hash-corruption",
+      "detail": "No verified archive-upload receipt",
+      "status": "passed"
+    },
+    {
+      "name": "archive-http-missing",
+      "detail": "No verified archive-upload receipt",
+      "status": "passed"
+    },
+    {
+      "name": "venue-hash-corruption",
+      "detail": "SHA-256 mismatch",
+      "status": "passed"
+    },
+    {
+      "name": "venue-http-missing",
+      "detail": "HTTP 404",
+      "status": "passed"
+    },
+    {
+      "name": "analysis-frame-mismatch",
+      "detail": "Hash-valid analysis from a different source frame is withheld.",
+      "status": "passed"
+    }
+  ],
+  "unverified": [
+    "Screen reader testing",
+    "Cross-browser testing",
+    "Full WCAG conformance",
+    "Offline service-worker installation"
+  ],
+  "screenshots": [
+    "analysis-1440.png",
+    "channeling-discourse-metadata-2026-11-08.zip",
+    "channels-200percent.png",
+    "channels.csv",
+    "documents.csv",
+    "overleaf-source.zip",
+    "overview-1440.png",
+    "overview-320.png",
+    "overview-390.png",
+    "paper.pdf",
+    "profile-1440.png"
+  ],
+  "tested_ui_assets": [
+    {
+      "file": "index.html",
+      "bytes": 2764,
+      "sha256": "5b121a13b2aa85003a189d0aaedea78918c0df31d2c041559404ed6537fc7020"
+    },
+    {
+      "file": "app.js",
+      "bytes": 44421,
+      "sha256": "d3c9b74ec3c6ea9e36ca48a35066e5a30dae35a08d762618055a440292895cd9"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 13109,
+      "sha256": "d06e774336500366f60e436bf2dee929ee01015b6a8ab339fc89599a9e8480bd"
+    }
+  ]
+}

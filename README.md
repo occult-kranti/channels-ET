@@ -1,5 +1,20 @@
 # channels-ET
 
+
+### Versioned dataset and ICWSM working paper · 8 November 2026
+
+Open the **[dataset dashboard](https://occult-kranti.github.io/channels-ET/dist/dataset-submission/)** for the new source-bound release, per-context profiles, interactive lexical comparisons and semantic sensitivity metrics, network and topic views, downloadable tables, metadata package and paper.
+
+The frozen frame contains **683 selected publications, 694 text editions and 1,599,556 selected words across 26 publisher contexts**. All 694 full edition bodies are preserved privately. The public release provides organized JSONL/CSV metadata, source/edition hashes and links, a schema, datasheet, derived analysis and reproducible code. It separately tracks **2,812 observed YouTube IDs across 297 account references**; lifetime upload totals remain unknown and direct YouTube downloads remain zero. Publisher media, Ra audio segments and selected analytical texts use distinct units.
+
+The expanded analysis includes TF-IDF, NMF topics, cluster diagnostics, per-context/source profiles, a mutual-neighbor network and local MiniLM comparisons. Length and context sensitivities are visible rather than hidden: full-text versus centered 300-word neighbor overlap is low. The two largest contexts supply 58.7% of documents; 18 contexts have fewer than five documents. Automatic question cues remain unvalidated candidates.
+
+The official **ICWSM 2027 dataset deadline is 15 January 2027 at 23:59 AoE**, not January 17. The 10-page LaTeX/PDF working paper has eight pages of paper/references and the required two-page checklist. Human author details, an actual dataset DOI and responsible institutional determinations remain explicitly unfinished; no conference submission or acceptance is claimed.
+
+**This work now uses the existing repository.** The [organized dataset folder](dataset/README.md) links the metadata, complete paper, analysis tables, figures and archive tools. You have authorized public storage in this repository. Public research is deployed here; full-source publication is tracked by source-specific redistribution terms and verified transfers. The dashboard reports actual transfer receipts; local files are never called uploaded. Earlier separate-repository and storage notes below are historical snapshots.
+
+[Detailed methods and coverage](research/dataset-submission/README.md) · [Dataset datasheet](research/dataset-submission/dataset/DATASHEET.md) · [Step-by-step parallel plan](research/dataset-submission/PLAN.md) · [Paper and source](research/dataset-submission/paper/README.md) · [Review](research/dataset-submission/REVIEW.md)
+
 **[Open the Channeling Atlas dashboard](https://occult-kranti.github.io/channels-ET/dist/#/research-update)** · [Existing private Site](https://channeling-atlas.whatswrong-inc.chatgpt.site)
 
 ### YouTube collection repair · 8 November 2026

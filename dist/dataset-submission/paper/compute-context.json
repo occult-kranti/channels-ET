@@ -1,0 +1,10 @@
+{
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "visible_logical_cpu_count": 5,
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "cpu_max": "400000 100000",
+  "memory_max": "34359738368",
+  "gpu_devices_detected": [],
+  "scope": "Current managed Linux environment witness; analysis receipt separately records actual runtime/RSS/software. No GPU use or hardware ownership claim."
+}

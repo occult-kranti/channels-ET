@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-11-08",
+  "review_kind": "targeted primary-source review, not systematic literature review",
+  "sources": [
+    {
+      "url": "https://www.icwsm.org/2027/",
+      "status": 200,
+      "sha256": "d185cc0b304a5d2a2c465eaf62c0d00497073198bdee9a972e74310148a142d9",
+      "bytes": 21380,
+      "final_url": "https://www.icwsm.org/2027/",
+      "retrieved_at": "2026-11-08T22:48:32.814261+00:00",
+      "access_depth": "visible scope text inspected",
+      "redistributed": false
+    },
+    {
+      "url": "https://www.icwsm.org/2026/",
+      "status": 200,
+      "sha256": "da83e9de787bd0fcbef4276019f5000428e437f063195fc5b9c26056a02d707f",
+      "bytes": 13339,
+      "final_url": "https://www.icwsm.org/2026/",
+      "retrieved_at": "2026-11-08T22:48:32.814811+00:00",
+      "access_depth": "retrieved_not_claimed_read",
+      "redistributed": false
+    },
+    {
+      "url": "https://www.icwsm.org/2027/index.html",
+      "status": 200,
+      "sha256": "d185cc0b304a5d2a2c465eaf62c0d00497073198bdee9a972e74310148a142d9",
+      "bytes": 21380,
+      "final_url": "https://www.icwsm.org/2027/index.html",
+      "retrieved_at": "2026-11-08T22:48:32.815360+00:00",
+      "access_depth": "retrieved_not_claimed_read",
+      "redistributed": false
+    },
+    {
+      "url": "https://www.icwsm.org/2026/index.html",
+      "status": 200,
+      "sha256": "da83e9de787bd0fcbef4276019f5000428e437f063195fc5b9c26056a02d707f",
+      "bytes": 13339,
+      "final_url": "https://www.icwsm.org/2026/index.html",
+      "retrieved_at": "2026-11-08T22:48:32.815715+00:00",
+      "access_depth": "retrieved_not_claimed_read",
+      "redistributed": false
+    },
+    {
+      "url": "https://www.icwsm.org/2027/submit/",
+      "status": 200,
+      "sha256": "b19d00c07a9fcfeca5e3eb9d900e7c168ef9677134678a7400777249ce02d29e",
+      "bytes": 44910,
+      "final_url": "https://www.icwsm.org/2027/submit/",
+      "retrieved_at": "2026-11-08T22:48:57.285299+00:00",
+      "access_depth": "complete visible submission text inspected; exact dataset/checklist/AI/format passages",
+      "redistributed": false
+    },
+    {
+      "url": "https://www.icwsm.org/2026/submit.html",
+      "status": 200,
+      "sha256": "9d8dfd834a911b618a9649753d1481f17072837f6faa613d216845e97493247c",
+      "bytes": 74928,
+      "final_url": "https://www.icwsm.org/2026/submit.html",
+      "retrieved_at": "2026-11-08T22:48:57.664692+00:00",
+      "access_depth": "retrieved_not_claimed_read",
+      "redistributed": false
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1ELt0Y2SDNMGQrXjJCBx5PTO9zbpbDakt",
+      "status": 200,
+      "sha256": "f40129bc2a84ff3a4e7e91aae15df8269aeb7928e9feaf304e92bfe87eb658dc",
+      "bytes": 56907,
+      "final_url": "https://drive.usercontent.google.com/download?id=1ELt0Y2SDNMGQrXjJCBx5PTO9zbpbDakt&export=download",
+      "retrieved_at": "2026-11-08T22:52:22.189522+00:00",
+      "access_depth": "official linked PDF question set inspected; 35 questions transcribed from retained unchanged source",
+      "redistributed": false
+    },
+    {
+      "url": "https://aaai.org/wp-content/uploads/2026/05/AuthorKit27.zip",
+      "status": 200,
+      "sha256": "e28c6ac9bc6eb3b4e2d849547d2cefb5162610ee39d0a12e0dc62d1126b44a7d",
+      "bytes": 5495535,
+      "final_url": "https://aaai.org/wp-content/uploads/2026/05/AuthorKit27.zip",
+      "retrieved_at": "2026-11-08T22:52:23.982453+00:00",
+      "access_depth": "official ZIP hash matches retained unmodified 2027 style files; template instructions consulted",
+      "redistributed": false
+    },
+    {
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/35938/38092",
+      "status": 200,
+      "sha256": "50ee5bb196fb66076cbcecc96ec9f24aff4f19fb380fb1b61107734c8e9e9778",
+      "bytes": 6984,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/35938/38092",
+      "retrieved_at": "2026-11-08T22:52:24.503196+00:00",
+      "access_depth": "HTML anti-bot challenge; no PDF/full-text access",
+      "redistributed": false
+    },
+    {
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/35951/38105",
+      "status": 200,
+      "sha256": "1c895105286360ab90572d4171481d97f636f4f30828b4f3984573f73c7b6a52",
+      "bytes": 6983,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/35951/38105",
+      "retrieved_at": "2026-11-08T22:52:24.955089+00:00",
+      "access_depth": "HTML anti-bot challenge; no PDF/full-text access",
+      "redistributed": false
+    },
+    {
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/42784/50344",
+      "status": 200,
+      "sha256": "2b77bf29301a3d91470ca6a8eaec236ac9c561fbdc244519ebadbfa90eb8de03",
+      "bytes": 6984,
+      "final_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/42784/50344",
+      "retrieved_at": "2026-11-08T22:52:25.273227+00:00",
+      "access_depth": "HTML anti-bot challenge; no PDF/full-text access",
+      "redistributed": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/2510.23645",
+      "status": 200,
+      "sha256": "95ba08c2692a7a8fd0630fca7b3d89093da551f98572aa7fd842ec4c96d9e740",
+      "bytes": 1252365,
+      "final_url": "https://arxiv.org/pdf/2510.23645",
+      "retrieved_at": "2026-11-08T22:53:01.344115+00:00",
+      "access_depth": "author manuscript: abstract/introduction, schema/collection/coverage, applications, ethics/FAIR, limitations and figure/table design inspected; not publisher version",
+      "redistributed": false
+    },
+    {
+      "url": "https://zenodo.org/api/records/14647452",
+      "status": 200,
+      "sha256": "a82673a04a8cf409b564013c81482079b9744546b5e541d59d6f14d6d4561cce",
+      "bytes": 8685,
+      "final_url": "https://zenodo.org/api/records/14647452",
+      "retrieved_at": "2026-11-08T22:53:01.843434+00:00",
+      "access_depth": "full public record metadata/description and annotation-origin/file-structure notes inspected; data files not downloaded",
+      "redistributed": false
+    },
+    {
+      "url": "https://www.nature.com/articles/sdata201618",
+      "status": 200,
+      "sha256": "7ede2e59472797e12e4f1e16a089aad48ab55e900e5f81d7f1222d361563d6b4",
+      "bytes": 451559,
+      "final_url": "https://www.nature.com/articles/sdata201618?error=cookies_not_supported&code=e9384e03-ff4c-4db5-a14c-621935d17c7d",
+      "retrieved_at": "2026-11-08T22:53:02.958971+00:00",
+      "access_depth": "principles box and access/licensing text inspected",
+      "redistributed": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/1803.09010",
+      "status": 200,
+      "sha256": "c7f595988ee2c109631d5173fdae37ff1774c68ec17add51bd012f2a6e8792d0",
+      "bytes": 554802,
+      "final_url": "https://arxiv.org/pdf/1803.09010",
+      "retrieved_at": "2026-11-08T22:53:06.006200+00:00",
+      "access_depth": "retrieved; documentation categories consulted from established prior protocol; no full-page read claimed",
+      "redistributed": false
+    },
+    {
+      "key": "goncalves2026trending",
+      "url": "https://api.crossref.org/works/10.1609/icwsm.v20i1.42784",
+      "retrieved_at": "2026-11-08",
+      "sha256": "20f14d96a3fec7aa81f37153e56574e97eab9904c57f1d1564291a8b7f3dcd1c",
+      "bytes": 3675,
+      "access_depth": "publisher-deposited metadata and abstract inspected; publication/DOI verified, not full-paper peer-review replication",
+      "redistributed": false
+    },
+    {
+      "key": "jo2025metaharm",
+      "url": "https://api.crossref.org/works/10.1609/icwsm.v19i1.35951",
+      "retrieved_at": "2026-11-08",
+      "sha256": "29a3b1708febde950f04ef42a058ee66d06eed9e52a444d17e2c3cdf5eaa347b",
+      "bytes": 3509,
+      "access_depth": "publisher-deposited metadata and abstract inspected; publication/DOI verified, not full-paper peer-review replication",
+      "redistributed": false
+    },
+    {
+      "key": "heraki2025hijab",
+      "url": "https://api.crossref.org/works/10.1609/icwsm.v19i1.35938",
+      "retrieved_at": "2026-11-08",
+      "sha256": "57dac35fcad03fbeffe17fe038f957fe747edaf1a0bcf4fc3c830023e32adf8c",
+      "bytes": 2812,
+      "access_depth": "publisher-deposited metadata and abstract inspected; publication/DOI verified, not full-paper peer-review replication",
+      "redistributed": false
+    },
+    {
+      "key": "gebru2021datasheets",
+      "url": "https://api.crossref.org/works/10.1145/3458723",
+      "retrieved_at": "2026-11-08",
+      "sha256": "06e06c1bbd0414f6fecef81baa7a500461f39773db29f80971ae79e5def81d78",
+      "bytes": 10785,
+      "access_depth": "publisher-deposited metadata and abstract inspected; publication/DOI verified, not full-paper peer-review replication",
+      "redistributed": false
+    },
+    {
+      "key": "wilkinson2016fair",
+      "url": "https://api.crossref.org/works/10.1038/sdata.2016.18",
+      "retrieved_at": "2026-11-08",
+      "sha256": "37fba6337a20ea78f06f972dbe23db280fc8dc16146ec3f6c8b9d85b594c6858",
+      "bytes": 25378,
+      "access_depth": "publisher-deposited metadata and abstract inspected; publication/DOI verified, not full-paper peer-review replication",
+      "redistributed": false
+    },
+    {
+      "key": "ribeiro2021youniverse",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/18125",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Official9-page dataset paper read: collection, description, analysis, limitations and figure captions.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "grimmer2013text",
+      "url": "https://doi.org/10.1093/pan/mps028",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Author-hosted full paper retrieved; introductory principles and validation sections inspected.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "olteanu2019social",
+      "url": "https://doi.org/10.3389/fdata.2019.00013",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Primary abstract and metadata read; full text available/retrieved, but no deep full-paper review claimed in this phase.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "wahbeh2026semantic",
+      "url": "https://doi.org/10.1080/02604027.2026.2656120",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Institutional abstract and indexed methods; full public supplement code/results/protocol inspected; publisher full text unavailable.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "wahbeh2026qualitative",
+      "url": "https://doi.org/10.1080/02604027.2026.2656119",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Institutional abstract and publisher metadata only; publisher full text unavailable.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "doogan2021twaddle",
+      "url": "https://aclanthology.org/2021.naacl-main.300/",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Official25-page PDF; methods, results and selected appendices read.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "boesinger2024tube2vec",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/31450",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Official7-page Poster Paper read: collection, representations, human tasks, tables, discussion/limitations; repository README inspected.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "reimers2019sentencebert",
+      "url": "https://aclanthology.org/D19-1410/",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Official PDF abstract/introduction and current ACL metadata inspected; no deep complete-paper review claimed.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "schroeder2025reliability",
+      "url": "https://aclanthology.org/2025.naacl-long.134/",
+      "retrieved_at": "2026-10-23",
+      "access_depth": "prior project inspection inherited: Official14-page PDF read: definitions, simulations/application, Tables4\u20136, limitations.",
+      "current_use": "narrow conceptual/measurement-method background; no imported empirical labels or replication claim",
+      "redistributed": false
+    },
+    {
+      "key": "ribeiro2021youniverse_retained_fulltext",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18125/17928",
+      "sha256": "d96b35c7d03ecd10597acfe67040751f2865db7710ba139ec72cec3799d739b3",
+      "bytes": 435920,
+      "access_depth": "retained full PDF re-inspected this run: abstract, collection/preprocessing, schema, sampling correction and limitations; provenance includes prior source register",
+      "redistributed": false
+    }
+  ]
+}

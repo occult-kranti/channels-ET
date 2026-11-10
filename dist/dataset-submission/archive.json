@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-10T03:05:18.440112+00:00",
+  "status": "public_research_ready_source_archive_upload_and_rights_review_in_progress",
+  "destination": {
+    "repository": "occult-kranti/channels-ET",
+    "url": "https://github.com/occult-kranti/channels-ET",
+    "repository_visibility": "public",
+    "intended_visibility": "public_for_redistribution_cleared_assets",
+    "visibility_verified": true
+  },
+  "capability": {
+    "user_direction": "Use the existing public repository; no new repository or private-archive requirement.",
+    "public_research_push": "authorized; existing repository accessible",
+    "release_asset_upload": "pilot returned HTTP401 at uploads.github.com; supported authentication route under investigation"
+  },
+  "closure": {
+    "status": "frozen_and_content_hashed",
+    "logical_file_paths": 39327,
+    "unique_content_objects": 36413,
+    "logical_bytes": 29547873821,
+    "unique_content_bytes": 17806101487,
+    "shards_planned": 21,
+    "exclusions_recorded": 133,
+    "credential_bearing_files_held": 0,
+    "selected_frame_assets_matched": 1416,
+    "selected_frame_assets_missing": 0,
+    "inventory_sha256": "1d4d4ec3b293b55ff7d299b8b4937321bb740d6b8a46b021bc7a1800e01a30bb",
+    "plan_sha256": "17dc3aee577e9f7d1ec249f2234f23cf12e8ebf67b3704af59c6ca59044a82ce",
+    "independent_review": "All 39,327 paths and 36,413 objects accounted; all 1,416 selected-frame closure records matched by size and SHA-256."
+  },
+  "transfer": {
+    "verified_assets": 0,
+    "verified_remote_bytes": 0,
+    "complete": false,
+    "verification_method": "full authenticated remote download and SHA-256 comparison; no successful remote verification yet"
+  },
+  "scope": "Retained project media, text editions, source snapshots and provenance, with explicit exclusions for credentials, installed dependencies, caches and live task files awaiting final freeze. Not all possible online media have been acquired.",
+  "privacy": "User authorizes public storage. Public research metadata exclude credentials and local paths. Source files require their own redistribution basis.",
+  "limitations": [
+    "Selected analytical frame and retained-file archive have different denominators.",
+    "No remote full-source archive transfer has been verified.",
+    "Source-specific redistribution terms are being reviewed; academic purpose alone is not recorded as a license grant."
+  ],
+  "local_verification": {
+    "shards_verified": 1,
+    "compressed_bytes_verified": 751649698,
+    "uncompressed_source_bytes_verified": 754888526,
+    "verification": "Full decompression and object SHA-256 match against frozen inventory. This is local verification, not a GitHub upload.",
+    "retained_shards_planned": 21,
+    "retained_shards_verified": 1,
+    "supplement_shards_verified": 1
+  },
+  "supplement": {
+    "status": "frozen_and_locally_verified",
+    "logical_file_paths": 52,
+    "unique_content_objects": 52,
+    "source_bytes": 120575691,
+    "shards": 1,
+    "compressed_bytes": 54548852,
+    "sha256": "68415460afdf5ca93e30f7ec3eb710c4475c8e02e0b3b2b799b03fb856bcda29",
+    "contents": "Final receipt-bound SQLite, all 694 text-edition bodies, frame/media/provenance tables and final analysis matrices, embeddings, receipts, figures and tables.",
+    "remote_verified": false,
+    "scope": "Frozen corpus and analysis only; this is not the entire final task backup.",
+    "restore_verified": {
+      "logical_paths": 52,
+      "sqlite_selected_documents": 683,
+      "sqlite_text_editions": 694
+    }
+  },
+  "code_snapshot": {
+    "status": "awaiting_final_public_commit",
+    "reason": "Reproducible archive will bind the final committed code after public integration."
+  },
+  "closing_provenance_supplement": {
+    "status": "awaiting_final_task_freeze",
+    "includes": [
+      "Venue primary source snapshots",
+      "Fresh acquisition probes",
+      "Independent review receipts",
+      "Final release and deployment receipts",
+      "Final public Git commit snapshot"
+    ],
+    "complete": false
+  }
+}

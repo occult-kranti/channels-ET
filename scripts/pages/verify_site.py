@@ -18,6 +18,11 @@ from urllib.parse import quote, urljoin
 from urllib.request import Request, urlopen
 
 ROUTES = {
+    "dist/dataset-submission/": b"<html",
+    "dist/dataset-submission/manifest.json": None,
+    "dist/dataset-submission/dataset.json": None,
+    "dist/dataset-submission/paper/paper.pdf": b"%PDF-",
+    "dist/dataset-submission/paper/overleaf-source.zip": b"PK",
     "": b"./dist/research/",
     "dist/": b"<html",
     "dist/expansion/": b"<html",

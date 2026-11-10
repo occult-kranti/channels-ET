@@ -1,0 +1,72 @@
+{
+  "metadata_status": "draft_not_deposited",
+  "resource_type": "dataset",
+  "title": "A Source-Bound Dataset of Publisher-Attributed Channeling Discourse",
+  "version": "2026-11-08",
+  "publication_date": "2026-11-08",
+  "creators": [],
+  "creators_status": "TBD: author names, order, affiliations and ORCIDs require author confirmation before deposit",
+  "doi": null,
+  "doi_status": "TBD: no DOI registered or reserved by this build",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/occult-kranti/channels-ET",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "description": "Public metadata and provenance for 683 selected publication/text units, 694 textual editions and 1,599,556 selected words; 2,812 observed YouTube IDs and 297 account references. Third-party full text and media excluded.",
+  "language": "eng",
+  "keywords": [
+    "computational social science",
+    "dataset provenance",
+    "YouTube metadata",
+    "channeling discourse",
+    "transcript origins",
+    "edition reconciliation"
+  ],
+  "access_right": "open_for_this_metadata_bundle_only",
+  "license": "MIT for curator-derived data/code covered by repository license; source content excluded",
+  "license_source_url": "https://github.com/occult-kranti/channels-ET/blob/main/LICENSE",
+  "source_content_access": "private; source-specific redistribution rights unresolved",
+  "source_content_license": null,
+  "conference_submission_status": "working dataset-paper draft; no submission or acceptance claim",
+  "frozen_frame_sha256": "3eb35b14a9067e9e162862ed030c15d5b7646a38b3060ac85686f4604eb2c9c4",
+  "counts": {
+    "documents": 683,
+    "words": 1599556,
+    "text_editions": 694,
+    "legacy_selected_editions": 493,
+    "new_publisher_editions": 192,
+    "new_publication_units": 190,
+    "new_editions_same_publication": 2,
+    "publisher_contexts": 26,
+    "creator_contexts": 14,
+    "youtube_uploaded_total": null,
+    "youtube_downloads": 0,
+    "youtube_observed_video_ids": 2812,
+    "youtube_account_references": 297,
+    "selected_linked_media_rows": 533,
+    "selected_unique_encoded_media": 533,
+    "new_publisher_audio_files": 192,
+    "new_publisher_audio_bytes": 942245703,
+    "new_publisher_audio_seconds": 160392.925125,
+    "text_origin_counts": {
+      "machine_asr": 12,
+      "local_asr": 221,
+      "platform_auto_caption": 14,
+      "publisher_written": 226,
+      "retained_local_asr": 19,
+      "publisher_labeled_transcript_pdf": 15,
+      "publisher_transcript": 106,
+      "linked_publisher_caption": 70
+    },
+    "date_missing_documents": 300
+  },
+  "required_before_repository_deposit": [
+    "Confirm all authors, order, affiliations and ORCIDs",
+    "Confirm source-content exclusions and metadata rights description",
+    "Select archive/community and register or reserve actual DOI",
+    "Record actual public archive URL and verify downloaded checksums"
+  ]
+}

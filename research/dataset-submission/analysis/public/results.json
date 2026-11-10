@@ -1,0 +1,496 @@
+{
+  "status": "executed_descriptive_analysis",
+  "frame_sha256": "3eb35b14a9067e9e162862ed030c15d5b7646a38b3060ac85686f4604eb2c9c4",
+  "summary": {
+    "documents": 683,
+    "words": 1599556,
+    "publisher_contexts": 26,
+    "creator_contexts": 14,
+    "text_origins": {
+      "machine_asr": 12,
+      "local_asr": 221,
+      "platform_auto_caption": 14,
+      "publisher_written": 226,
+      "retained_local_asr": 19,
+      "publisher_labeled_transcript_pdf": 15,
+      "publisher_transcript": 106,
+      "linked_publisher_caption": 70
+    },
+    "origin_strata": {
+      "local_machine_transcript": 252,
+      "platform_automatic_caption": 14,
+      "publisher_written_message": 226,
+      "publisher_labeled_transcript": 15,
+      "publisher_transcript": 106,
+      "publisher_caption_unknown_origin": 70
+    },
+    "largest_contexts": [
+      {
+        "channel_id": "tracy-kumbera",
+        "documents": 203,
+        "fraction": 0.2972181551976574
+      },
+      {
+        "channel_id": "natalie-glasson-omna",
+        "documents": 198,
+        "fraction": 0.28989751098096633
+      },
+      {
+        "channel_id": "ra-law-of-one",
+        "documents": 106,
+        "fraction": 0.15519765739385066
+      },
+      {
+        "channel_id": "bashar-official",
+        "documents": 82,
+        "fraction": 0.12005856515373353
+      },
+      {
+        "channel_id": "daniel-scranton",
+        "documents": 22,
+        "fraction": 0.032210834553440704
+      }
+    ],
+    "top_two_context_fraction": 0.5871156661786238,
+    "singleton_contexts": 11,
+    "contexts_under_five": 18,
+    "punctuation_question_cues": 9024,
+    "unique_selected_body_hashes": 683,
+    "exact_pairwise_similarities": 232903,
+    "vocabulary_terms": 24000,
+    "near_duplicate_review_pairs_cosine_ge_095": 0,
+    "scope": "Selected text editions of finite observed publication/source units, not a YouTube census or random sample."
+  },
+  "representation_sensitivity": [
+    {
+      "analysis": "identity_mask",
+      "eligible_sources": 683,
+      "mean_jaccard": 0.7872888052243836,
+      "channel_macro_jaccard": 0.9398000093063763,
+      "pair_spearman": 0.9969648366405746
+    },
+    {
+      "analysis": "centered_300_word_window",
+      "eligible_sources": 683,
+      "mean_jaccard": 0.13734922958934673,
+      "channel_macro_jaccard": 0.06247692846759179,
+      "pair_spearman": 0.5361088362307906
+    },
+    {
+      "analysis": "balanced_idf",
+      "eligible_sources": 683,
+      "mean_jaccard": 0.7818680424829766,
+      "channel_macro_jaccard": 0.852957450159679,
+      "pair_spearman": 0.9913151639304287
+    },
+    {
+      "analysis": "bounded_lexical_vs_MiniLM",
+      "eligible_sources": 683,
+      "mean_jaccard": 0.11807734318715285,
+      "channel_macro_jaccard": 0.09814151511071256,
+      "pair_spearman": 0.4304082583475486
+    }
+  ],
+  "topic_seed_diagnostics": [
+    {
+      "seed": 11,
+      "components": 8,
+      "iterations": 235,
+      "reconstruction_error": 24.10131026618322,
+      "convergence_warning": false
+    },
+    {
+      "seed": 23,
+      "components": 8,
+      "iterations": 175,
+      "reconstruction_error": 24.07211007581759,
+      "convergence_warning": false,
+      "matched_topic_cosines": [
+        0.9244520187994899,
+        0.256646600519236,
+        0.9534580264378726,
+        0.1508123498569689,
+        0.9766507593248518,
+        0.985576754475422,
+        0.9995840906231359,
+        0.9135316369494891
+      ],
+      "mean_matched_topic_cosine": 0.7700890296233083,
+      "dominant_topic_ari": 0.6662288091164695,
+      "mixture_mean_absolute_change": 0.08143332584523857
+    },
+    {
+      "seed": 47,
+      "components": 8,
+      "iterations": 1126,
+      "reconstruction_error": 24.064129474396687,
+      "convergence_warning": false,
+      "matched_topic_cosines": [
+        0.9979874843090635,
+        0.18752901815933862,
+        0.9535192858501568,
+        0.3433724764962973,
+        0.9748989868943007,
+        0.9852243817556176,
+        0.9992643752525519,
+        0.914905145241674
+      ],
+      "mean_matched_topic_cosine": 0.7945876442448749,
+      "dominant_topic_ari": 0.7370709016403602,
+      "mixture_mean_absolute_change": 0.062314221473450886
+    }
+  ],
+  "balanced_topic_fit": {
+    "seed": 11,
+    "components": 8,
+    "iterations": 111,
+    "reconstruction_error": 8.932918991509355,
+    "convergence_warning": false,
+    "matched_topic_cosines": [
+      0.678394621010027,
+      0.7165854286660664,
+      0.17351852530748132,
+      0.2861037146173874,
+      0.46487016586044483,
+      0.702923469114964,
+      0.7962570525186848,
+      0.7879980971228236
+    ],
+    "mean_matched_topic_cosine": 0.5758313842772349,
+    "dominant_topic_ari": 0.5522327563803223,
+    "mixture_mean_absolute_change": 0.12550002449441056,
+    "fit_documents": 107
+  },
+  "cluster_trials": [
+    {
+      "k": 4,
+      "seed": 11,
+      "cosine_silhouette_svd50": 0.30237955271641737,
+      "publisher_context_ari": 0.8592418382199295,
+      "creator_context_ari": 0.8613224742228063,
+      "text_origin_ari": 0.5818867244722693
+    },
+    {
+      "k": 4,
+      "seed": 23,
+      "cosine_silhouette_svd50": 0.30237955271641737,
+      "publisher_context_ari": 0.8592418382199295,
+      "creator_context_ari": 0.8613224742228063,
+      "text_origin_ari": 0.5818867244722693
+    },
+    {
+      "k": 4,
+      "seed": 47,
+      "cosine_silhouette_svd50": 0.30237955271641737,
+      "publisher_context_ari": 0.8592418382199295,
+      "creator_context_ari": 0.8613224742228063,
+      "text_origin_ari": 0.5818867244722693
+    },
+    {
+      "k": 6,
+      "seed": 11,
+      "cosine_silhouette_svd50": 0.2852385749903764,
+      "publisher_context_ari": 0.8229953345480292,
+      "creator_context_ari": 0.825443271028528,
+      "text_origin_ari": 0.5434580663108025
+    },
+    {
+      "k": 6,
+      "seed": 23,
+      "cosine_silhouette_svd50": 0.262518925554673,
+      "publisher_context_ari": 0.7960123750839072,
+      "creator_context_ari": 0.7985033387040111,
+      "text_origin_ari": 0.5298110754175774
+    },
+    {
+      "k": 6,
+      "seed": 47,
+      "cosine_silhouette_svd50": 0.272054022236512,
+      "publisher_context_ari": 0.7846095296879313,
+      "creator_context_ari": 0.7870734131609767,
+      "text_origin_ari": 0.5976351747326573
+    },
+    {
+      "k": 8,
+      "seed": 11,
+      "cosine_silhouette_svd50": 0.2537637977872545,
+      "publisher_context_ari": 0.8076011890616966,
+      "creator_context_ari": 0.8101381833492511,
+      "text_origin_ari": 0.5163637166995657
+    },
+    {
+      "k": 8,
+      "seed": 23,
+      "cosine_silhouette_svd50": 0.27787187181934486,
+      "publisher_context_ari": 0.7726899638035286,
+      "creator_context_ari": 0.7753392427308734,
+      "text_origin_ari": 0.5431901005106153
+    },
+    {
+      "k": 8,
+      "seed": 47,
+      "cosine_silhouette_svd50": 0.2311425128724198,
+      "publisher_context_ari": 0.6802451660075198,
+      "creator_context_ari": 0.6831853709124526,
+      "text_origin_ari": 0.4057950991708705
+    },
+    {
+      "k": 10,
+      "seed": 11,
+      "cosine_silhouette_svd50": 0.17584615461258168,
+      "publisher_context_ari": 0.5491855626054613,
+      "creator_context_ari": 0.5525960136742226,
+      "text_origin_ari": 0.358466867807094
+    },
+    {
+      "k": 10,
+      "seed": 23,
+      "cosine_silhouette_svd50": 0.2427985683029314,
+      "publisher_context_ari": 0.6356455760294286,
+      "creator_context_ari": 0.6388124958763882,
+      "text_origin_ari": 0.40002978870328865
+    },
+    {
+      "k": 10,
+      "seed": 47,
+      "cosine_silhouette_svd50": 0.19353509460881624,
+      "publisher_context_ari": 0.6418641490409444,
+      "creator_context_ari": 0.6444942517472312,
+      "text_origin_ari": 0.36298223374164135
+    }
+  ],
+  "cluster_seed_stability": [
+    {
+      "k": 4,
+      "seed_left": 11,
+      "seed_right": 23,
+      "ari": 1.0
+    },
+    {
+      "k": 4,
+      "seed_left": 11,
+      "seed_right": 47,
+      "ari": 1.0
+    },
+    {
+      "k": 4,
+      "seed_left": 23,
+      "seed_right": 47,
+      "ari": 1.0
+    },
+    {
+      "k": 6,
+      "seed_left": 11,
+      "seed_right": 23,
+      "ari": 0.8809967009516457
+    },
+    {
+      "k": 6,
+      "seed_left": 11,
+      "seed_right": 47,
+      "ari": 0.8437311268716483
+    },
+    {
+      "k": 6,
+      "seed_left": 23,
+      "seed_right": 47,
+      "ari": 0.8638849061952515
+    },
+    {
+      "k": 8,
+      "seed_left": 11,
+      "seed_right": 23,
+      "ari": 0.8775828641002704
+    },
+    {
+      "k": 8,
+      "seed_left": 11,
+      "seed_right": 47,
+      "ari": 0.7838757050813389
+    },
+    {
+      "k": 8,
+      "seed_left": 23,
+      "seed_right": 47,
+      "ari": 0.7390803517305885
+    },
+    {
+      "k": 10,
+      "seed_left": 11,
+      "seed_right": 23,
+      "ari": 0.6449908817637137
+    },
+    {
+      "k": 10,
+      "seed_left": 11,
+      "seed_right": 47,
+      "ari": 0.694774593993601
+    },
+    {
+      "k": 10,
+      "seed_left": 23,
+      "seed_right": 47,
+      "ari": 0.7567127207921723
+    }
+  ],
+  "group_enrichment": {
+    "publisher_context": {
+      "macro_group_excess": 0.30121050267757987,
+      "eligible_sources": 683
+    },
+    "creator_context": {
+      "macro_group_excess": 0.5509912686927992,
+      "eligible_sources": 683
+    },
+    "text_origin": {
+      "macro_group_excess": 0.600051085876093,
+      "eligible_sources": 683
+    }
+  },
+  "projection": {
+    "available_sources": 683,
+    "explained_variance": [
+      0.0037889015064929313,
+      0.02781571585637511
+    ],
+    "trustworthiness": 0.7788497369990781,
+    "trustworthiness_k": 5,
+    "scope": "Lossy centered/RMS-scaled 2D display; original-space cosines are authoritative."
+  },
+  "semantic": {
+    "binding": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "model_manifest_sha256": "931b052d83a03d2c35854572d9038f14ed9f9da0e3383cee5e1c3912518f428d",
+      "encoder_script_sha256": "181f011a0164d508cb2cc7785603dfae8fd35c765325fbe20195108037dbb7a8",
+      "onnxruntime": "1.23.2",
+      "intra_op_threads": 1,
+      "inter_op_threads": 1,
+      "batch_size": 8,
+      "chunk_content_wordpieces": 240,
+      "wordpiece_truncation": false,
+      "token_pooling": "Attention-mask mean including CLS/SEP, then chunk L2 normalization",
+      "document_pooling": "Content-wordpiece-weighted mean of normalized chunks, then document L2 normalization",
+      "equal_chunk_sensitivity": false,
+      "training_or_weight_update": false,
+      "cache": "Exact input/model/encoder-contract cache; private vectors and hashes retained."
+    },
+    "sources": 683,
+    "chunks": 1366,
+    "content_wordpieces": 245517,
+    "invocation_encoding_seconds": 0,
+    "original_encoding_seconds": 63.63654047099408,
+    "reused_exact_cache": true,
+    "input": "Centered maximum300 lexical-word spans, masked with exactly the same phrase registry as TF-IDF.",
+    "scope": "Pinned pretrained CPU baseline. No weight update, model distillation or claim of current SOTA accuracy.",
+    "truncated_wordpieces": 0
+  },
+  "settings": {
+    "tfidf": {
+      "preprocessor": null,
+      "token_pattern": null,
+      "lowercase": false,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_features": 24000
+    },
+    "tokenizer": "Unicode alphabetic tokens; apostrophes retained; casefold; straight apostrophe normalization.",
+    "mask_scope": "Exact declared phrase registry only. Residual names/attributions may remain; masking is a sensitivity, not anonymization.",
+    "balanced_fit_cap": 10,
+    "balanced_fit_selection": "Per-context source-ID SHA256 ascending; up to10 selected source units, no minimum quota.",
+    "topic_count": 8,
+    "topic_init": "random",
+    "topic_seeds": [
+      11,
+      23,
+      47
+    ],
+    "topic_max_iter": 2000,
+    "topic_scale": "UnitL2 components and reciprocally rescaled W; document L1 mixture.",
+    "topic_scope": "Exploratory factors of this corpus. Labels concatenate top terms, not validated interpretive categories.",
+    "clustering": "Fixed illustrative k=8, seed11 on unit-normalized 50D TF-IDF SVD; k=4,6,10 are diagnostics, not a selected optimum.",
+    "svd_dimensions": 50,
+    "svd_explained_variance": 0.19943590310408804,
+    "document_weight": "Each selected source unit receives equal weight; no independence or representative-sampling claim.",
+    "pair_weight": "Similarity cells average all source pairs excluding self pairs; within-context uses unordered distinct pairs.",
+    "top_term_scores": "Document scores are L2-normalized TF-IDF weights; context scores are source means; contrast scores subtract the equally weighted mean of other context means. These are not counts.",
+    "runtime": "CPU only; one OpenMP/BLAS/ONNX intra/inter thread; shared cloud quota4CPUs and32GiB, noGPU."
+  },
+  "wall_seconds": 51.269038130005356,
+  "peak_process_rss_kib": 476728,
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "onnxruntime": "1.23.2"
+  },
+  "code": {
+    "research/dataset-submission/analysis/run_analysis.py": "6f5f10653620b2bc64944f70696e36939ccee1850626246dee5184d442027342",
+    "research/dataset-submission/analysis/plot_analysis.py": "7c26005a046bfecf3d0ee226e958a94bed8fb7fc418ebfa825d5eb990f0b260a",
+    "research/channel-lab/analyze_corpus.py": "a0db239bd3916f70d42dfaef99b3c6acb36f29ff2c3a26a7fdbcdae25b1f66b4",
+    "research/channel-lab/analyze_encoder.py": "edd711afd232a5d061666d76396cb2028a3ff275880a3ab27e5b401b4db0558d",
+    "research/channel-lab/sources.py": "13306fe4b813cba1c5380cea63645824ffd89a1cf9c1df3ec71e3a2681fb95f4"
+  },
+  "figures": [
+    {
+      "file": "figures/corpus-profile.svg",
+      "pdf": "figures/corpus-profile.pdf",
+      "png": "figures/corpus-profile.png",
+      "title": "Corpus concentration and text origin",
+      "caption": "Counts refer to selected source/publication units, not all channel uploads. * marks contexts with fewer than five documents. Boxes show median and interquartile range, whiskers1.5×IQR; outliers hidden. Text origin is a confound, not a quality ranking."
+    },
+    {
+      "file": "figures/topic-contexts.svg",
+      "pdf": "figures/topic-contexts.pdf",
+      "png": "figures/topic-contexts.png",
+      "title": "Exploratory topic mixtures",
+      "caption": "Eight fixed NMF components, seeded random initialization11, masked full-text TF-IDF. Labels are top terms. Each selected source has equal weight within its context. Low-n rows do not support generalization; seed and balanced-fit sensitivity are exported."
+    },
+    {
+      "file": "figures/similarity-contexts.svg",
+      "pdf": "figures/similarity-contexts.pdf",
+      "png": "figures/similarity-contexts.png",
+      "title": "Context similarities with dependent-pair denominators",
+      "caption": "All admitted cross-context source pairs are averaged. Diagonal cells use distinct unordered within-context pairs; self pairs removed. Only contexts with at least five sources are plotted; all26contexts and pair counts remain in JSON/CSV. Similarity is not agreement."
+    },
+    {
+      "file": "figures/sensitivity.svg",
+      "pdf": "figures/sensitivity.pdf",
+      "png": "figures/sensitivity.png",
+      "title": "Length, attribution, representation and context controls",
+      "caption": "All top5 comparisons use the same eligible source universe. Jaccard=intersection/union. Enrichment subtracts(count(group)−1)/(N−1), then averages within groups and equally across groups. Pairs and groups are dependent; these are descriptive controls, not causal tests."
+    },
+    {
+      "file": "figures/network.svg",
+      "pdf": "figures/network.pdf",
+      "png": "figures/network.png",
+      "title": "Source similarity network",
+      "caption": "888 undirected mutual5 edges, no minimum cosine threshold. Colors are observed publisher contexts, not beings or social relationships. SVD display coordinates do not preserve all cosine distances; exact edges and metrics are exported."
+    },
+    {
+      "file": "figures/projection.svg",
+      "pdf": "figures/projection.pdf",
+      "png": "figures/projection.png",
+      "title": "Text-origin and clustering diagnostics",
+      "caption": "KMeans uses normalized50D SVD features. The display uses2D SVD. Main k=8 is an illustrative fixed choice, not a validated true doctrine count; seed and alternative-k diagnostics remain visible."
+    }
+  ],
+  "limitations": [
+    "Corpus and publisher coverage are opportunistic, incomplete and strongly imbalanced; uploaded lifetime totals are unknown.",
+    "Source units, publisher contexts, creator contexts, accounts, recordings, claimed beings and text editions are different units.",
+    "Publisher-written bodies are not verbatim audio transcripts or proof of alignment; ASR accuracy is unvalidated.",
+    "Word/phrase cosine measures lexical or representation proximity, never agreement, truth, contradiction or shared origin.",
+    "Context, language style, text origin, date and length are confounded; controls are descriptive, not causal identification.",
+    "No inferential pairwise p-values: source pairs overlap and publisher episodes are not independent samples.",
+    "NMF factors and KMeans labels are illustrative choices; instability and component-count diagnostics remain visible.",
+    "Alphabetic tokenization can fragment alphanumeric labels (for example3D becomes d); factors may capture formatting or conversational register such as yeah instead of distinct doctrines.",
+    "Two-dimensional source layout is lossy; distances shown on screen are not authoritative original-space cosine.",
+    "Question punctuation cues and following context are unvalidated; no automatic common-answer/conflict labels are claimed.",
+    "Claimed-entity names are publisher/speaker attributions; sparse unharmonized labels do not justify civilization-level pooled inference."
+  ]
+}

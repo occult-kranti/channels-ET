@@ -1,0 +1,53 @@
+{
+  "retrievedAt": "2026-10-23",
+  "archiveURL": "https://aaai.org/wp-content/uploads/2026/05/AuthorKit27.zip",
+  "archiveDiscoveryURL": "https://github.com/qinyh10300/R2A-Sales-Benchmark/blob/main/paper/build_submission.sh",
+  "officialPolicyURL": "https://www.icwsm.org/2027/submit/",
+  "linkedAuthorKitURL": "https://aaai.org/authorkit27/",
+  "retrieval": "Official ZIP fetched directly from aaai.org using standard Mozilla/5.0 User-Agent after default urllib was rejected. Source bytes retained unchanged; only minimal sty/bst/anonymous example extracted.",
+  "checklistURL": "https://drive.google.com/file/d/1ELt0Y2SDNMGQrXjJCBx5PTO9zbpbDakt/view",
+  "checklistDownloadURL": "https://drive.google.com/uc?export=download&id=1ELt0Y2SDNMGQrXjJCBx5PTO9zbpbDakt",
+  "checklistVersionNote": "Linked from ICWSM2027; PDF title says2025 and overview retains2024 instructions. Preserve official questions and recheck venue before submission. AAAI ReproducibilityChecklist in author archive is NOT the ICWSM checklist.",
+  "files": [
+    {
+      "path": "AuthorKit27/AnonymousSubmission2027.tex",
+      "bytes": 59071,
+      "sha256": "035ebdb17e57885a1fd43a188fd17777bdbf90f1fda1a1e000c49c7f52ce1f9d",
+      "sourceKind": "AAAI 2027 official author archive",
+      "licenseOrUseNotice": "AAAI-provided publication template; no general reuse license identified in this file. Preserve notices and do not modify official style. No blanket CC-BY claim.",
+      "modified": false
+    },
+    {
+      "path": "AuthorKit27/aaai2027.bst",
+      "bytes": 30207,
+      "sha256": "5db7765ba99de5c1e4686f9b3940a0add9c5e702f2164514462bec130ccb6e3c",
+      "sourceKind": "AAAI 2027 official author archive",
+      "licenseOrUseNotice": "LPPL version 1 or later; see embedded notice",
+      "modified": false
+    },
+    {
+      "path": "AuthorKit27/aaai2027.sty",
+      "bytes": 16915,
+      "sha256": "391bce82815bf698b8e382dd3ae7e30c75d7ab46df140cb295b1266016bc8623",
+      "sourceKind": "AAAI 2027 official author archive",
+      "licenseOrUseNotice": "AAAI-provided publication template; no general reuse license identified in this file. Preserve notices and do not modify official style. No blanket CC-BY claim.",
+      "modified": false
+    },
+    {
+      "path": "AuthorKit27.zip",
+      "bytes": 5495535,
+      "sha256": "e28c6ac9bc6eb3b4e2d849547d2cefb5162610ee39d0a12e0dc62d1126b44a7d",
+      "sourceKind": "AAAI 2027 official author archive",
+      "licenseOrUseNotice": "AAAI-provided publication template; no general reuse license identified in this file. Preserve notices and do not modify official style. No blanket CC-BY claim.",
+      "modified": false
+    },
+    {
+      "path": "icwsm-checklist-linked-2027.pdf",
+      "bytes": 56907,
+      "sha256": "f40129bc2a84ff3a4e7e91aae15df8269aeb7928e9feaf304e92bfe87eb658dc",
+      "sourceKind": "ICWSM checklist linked from ICWSM2027",
+      "licenseOrUseNotice": "AAAI-provided publication template; no general reuse license identified in this file. Preserve notices and do not modify official style. No blanket CC-BY claim.",
+      "modified": false
+    }
+  ]
+}

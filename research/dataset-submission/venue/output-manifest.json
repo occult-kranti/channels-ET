@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "module": "venue",
+  "status": "working_draft_not_submitted",
+  "public_allowlist": [
+    {
+      "file": "docs/PAPER.md",
+      "bytes": 2097,
+      "sha256": "26ce2c8bb880691c4ffe33f8d78e40a2d7f0971c0e3301bd90699d76947874cd"
+    },
+    {
+      "file": "docs/VENUE.md",
+      "bytes": 5714,
+      "sha256": "5218a376ce211146e4857906b85229835106730dedc39a5d240ba0b86ec9e6e1"
+    },
+    {
+      "file": "docs/venue-sources.json",
+      "bytes": 13817,
+      "sha256": "2ef27e7366c0d57f4ab3581435fddf71c22583f69d3e7913da2b26a88f2144f4"
+    },
+    {
+      "file": "paper/body.tex",
+      "bytes": 26092,
+      "sha256": "858eb7de8f2c5500b24bd54e8211534f311723ff18fb530ecc10ddc1f0d4539f"
+    },
+    {
+      "file": "paper/build-receipt.json",
+      "bytes": 3382,
+      "sha256": "7199d3a3ddc87f2b1aecf50ded982b46d14378fc8460555634231b02763ad1b7"
+    },
+    {
+      "file": "paper/checklist.tex",
+      "bytes": 9217,
+      "sha256": "5a5768a0e0e521b476da1c766783a43d96b3fa110581222ad6f21e8b9ed01121"
+    },
+    {
+      "file": "paper/claims.json",
+      "bytes": 8443,
+      "sha256": "2edd1ff097f4f688dbb56380bd39eddc8230dd7f533dff4ef8b32e33925710e3"
+    },
+    {
+      "file": "paper/compute-context.json",
+      "bytes": 416,
+      "sha256": "4e7512f9e87323027d04061901303c4a21512aef68fca96e1285b2de5175045d"
+    },
+    {
+      "file": "paper/generated/analysis-results.tex",
+      "bytes": 6193,
+      "sha256": "8c66aaa2f70f46da80fe24107edea7d4d4e8937aade719f794e86cf4cda06520"
+    },
+    {
+      "file": "paper/generated/corpus-profile.pdf",
+      "bytes": 22862,
+      "sha256": "f6ffb00eb5f41518ae6543385a028644ba084e644bfe4c2ab0cba634781a43a7"
+    },
+    {
+      "file": "paper/generated/counts.tex",
+      "bytes": 293,
+      "sha256": "94405cab6193bf117009bed01e5c7c76d274528ac81eef1aec612e1b14e73d6d"
+    },
+    {
+      "file": "paper/generated/frame-binding.json",
+      "bytes": 1235,
+      "sha256": "9632c0bd27b3c673bda0fb57e4869872ac7a14c42447c444255b294d468d957c"
+    },
+    {
+      "file": "paper/generated/network.pdf",
+      "bytes": 40205,
+      "sha256": "3a081426b52da6f2eb9ebe21b001ac9872640b6d7fb39ccf17f2f390a0aeef4a"
+    },
+    {
+      "file": "paper/generated/origin-table.tex",
+      "bytes": 592,
+      "sha256": "d88c393d9840bcfa6c5ef2787f8bef73c01a85c85e59c74db6bae833288d1b9d"
+    },
+    {
+      "file": "paper/generated/projection.pdf",
+      "bytes": 32125,
+      "sha256": "4390d00f9da4d6c453d4f74d463efe2115c1e8263f777dd626a1b2a23a6149d3"
+    },
+    {
+      "file": "paper/generated/sensitivity.pdf",
+      "bytes": 15257,
+      "sha256": "b8ec129805474151c5b7920124d55063151edf75c8fea19f3c3fc53d185713cd"
+    },
+    {
+      "file": "paper/generated/similarity-contexts.pdf",
+      "bytes": 19784,
+      "sha256": "14254b7881a14bc46613585ba9b441d08da70dbe6f2fb97503409b2ad3c94dda"
+    },
+    {
+      "file": "paper/generated/topic-contexts.pdf",
+      "bytes": 23548,
+      "sha256": "0005f9f437f2fb27cc8cf9f2b26d89fdb90e9cd9534d4ab2425fbb9e488452ab"
+    },
+    {
+      "file": "paper/overleaf-source.zip",
+      "bytes": 175288,
+      "sha256": "b8c44730b1685aa550efb22225f83094d2282d1dbb2b39e99fad8a735345b8f8"
+    },
+    {
+      "file": "paper/paper.pdf",
+      "bytes": 265857,
+      "sha256": "2f17888a5679891e49da4b90dd6fa8776337db67939c790d10f699e1a99753a4"
+    },
+    {
+      "file": "paper/paper.tex",
+      "bytes": 916,
+      "sha256": "b75bb49726b61b412e578fef441b2b200e060e7736cfe085a892b7905206a4f5"
+    },
+    {
+      "file": "paper/related-work.bib",
+      "bytes": 6553,
+      "sha256": "dd2ce00fb537bffe3f693b8a28518a35eb2a263853bc2c2831dac7b678d052c3"
+    },
+    {
+      "file": "paper/verification.json",
+      "bytes": 681,
+      "sha256": "774ad7b54dee22d76df64a208c2186ff9118695377f5ea7ba9cc82c48e8e35ba"
+    },
+    {
+      "file": "venue.json",
+      "bytes": 5155,
+      "sha256": "83e88130a42d137a158d85ee69eeff67f3e714d64b532cc8eb73c2380f141a9f"
+    }
+  ],
+  "source_boundary": "Only manuscript, figures, venue guidance and their receipts; no raw source media or transcript bodies."
+}
