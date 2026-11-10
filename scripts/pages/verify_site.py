@@ -18,6 +18,9 @@ from urllib.parse import quote, urljoin
 from urllib.request import Request, urlopen
 
 ROUTES = {
+    "dist/releases/": b"Published links",
+    "dist/releases/links.json": None,
+    "dist/dataset-submission/collection-plan.json": None,
     "dist/dataset-submission/": b"<html",
     "dist/dataset-submission/manifest.json": None,
     "dist/dataset-submission/dataset.json": None,

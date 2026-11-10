@@ -16,7 +16,8 @@ guard = importlib.util.module_from_spec(spec); spec.loader.exec_module(guard)
 DATASET = ('dataset.json','documents.jsonl','editions.jsonl','media.jsonl',
            'youtube-accounts.jsonl','youtube-videos.jsonl','youtube-account-video-links.jsonl',
            'channels.csv','schema.json')
-MODULES = {'dataset.json':'dataset','analysis.json':'analysis','venue.json':'venue','archive.json':'archive'}
+MODULES = {'dataset.json':'dataset','analysis.json':'analysis','venue.json':'venue','archive.json':'archive',
+           'collection-plan.json':'collection_plan'}
 EXTENSIONS = {'.json','.jsonl','.csv','.tsv','.md','.html','.css','.js','.svg','.png','.pdf','.zip',
               '.tex','.bib','.sty','.bst','.txt'}
 ZIP_EXTENSIONS = {'.json','.jsonl','.csv','.tsv','.md','.tex','.bib','.sty','.bst','.svg','.png','.pdf','.py','.txt'}
@@ -95,7 +96,7 @@ def build(site,producers,receipt=None):
     modules={MODULES[n]:{**r,'required':n=='dataset.json'} for n,r in refs.items() if n in MODULES}
     manifest={'schema_version':1,'title':'Channeling discourse dataset · research release',
               'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),
-              'scope':'Public metadata and derived research; full source text and media are private.',
+              'scope':'Public metadata, derived research and execution plans; original source media and full text are not included in this bundle.',
               'dataset_version':json.loads((root/'dataset.json').read_text())['dataset_version'],
               'modules':modules,'artifacts':list(refs.values()),'builder_sha256':sha(Path(__file__).read_bytes())}
     raw=(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n').encode();(root/'manifest.json').write_bytes(raw)

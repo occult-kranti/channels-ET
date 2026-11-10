@@ -1,6 +1,17 @@
 # channels-ET
 
 
+### Current publication and collection plan · 10 November 2026
+
+**[All published dashboards, papers and downloads](https://occult-kranti.github.io/channels-ET/dist/releases/)** · [Repository link catalogue](DEPLOYED-LINKS.md) · **[Collection-plan dashboard](https://occult-kranti.github.io/channels-ET/dist/dataset-submission/?view=collection)**
+
+The expanded [YouTube discovery and audio collection plan](research/dataset-submission/COLLECTION-PLAN.md) is now documented for the existing repository. It covers eight query families with 62 example strings: `#channeling`, `#channelling`, `#mediumship`, `#mediums`, related civilization/entity terms and multilingual variants. These are planned search seeds, not newly verified channels.
+
+The next execution stages are account/relevance screening; complete available **Videos, Shorts and Streams** pagination; deduplication by video ID; a verified audio-first pilot; then resumable bounded parallel downloads, separate caption/ASR editions and a newly frozen analysis frame. There is **no item-count cap**. The **300-second minimum applies only to Bashar**; unknown Bashar durations remain pending and other included mediums have no duration floor.
+
+This publication updates the plan and navigation. It adds **no new YouTube queries, downloads, transcripts or analytical observations**. The earlier 683-document corpus and 2,812-ID discovery inventory remain explicit historical baselines. Current access and original-media retention must be checked before collection resumes; successful repository restoration alone does not verify them. The dashboard separates planned work, published results, unknown totals and recorded transfer failures.
+
+
 ### Versioned dataset and ICWSM working paper · 8 November 2026
 
 Open the **[dataset dashboard](https://occult-kranti.github.io/channels-ET/dist/dataset-submission/)** for the new source-bound release, per-context profiles, interactive lexical comparisons and semantic sensitivity metrics, network and topic views, downloadable tables, metadata package and paper.

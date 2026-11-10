@@ -5,6 +5,8 @@ This folder is the entry point for the dataset work in the existing
 
 | Material | Location |
 | --- | --- |
+| Expanded discovery/collection plan | [Dashboard](https://occult-kranti.github.io/channels-ET/dist/dataset-submission/?view=collection) · [Methods](../research/dataset-submission/COLLECTION-PLAN.md) |
+| All published links | [Catalogue](../DEPLOYED-LINKS.md) |
 | Versioned public dataset | [2026-11-08 release](releases/2026-11-08/README.md) |
 | Interactive dashboard | [Open the dataset workbench](https://occult-kranti.github.io/channels-ET/dist/dataset-submission/) |
 | Public metadata ZIP | [Download](../dist/dataset-submission/channeling-discourse-metadata-2026-11-08.zip) |

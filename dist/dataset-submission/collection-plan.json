@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-10",
+  "phase": "plan_published_execution_pending",
+  "summary": "Expand source-led YouTube discovery, enumerate admitted channels, and resume audio and transcript collection with explicit coverage and provenance. Publishing this plan does not execute collection.",
+  "baseline": {
+    "date": "2026-11-08",
+    "source_commit": "91b2f7098799c5e3492878c8b41e0fc99ec46374",
+    "documents": 683,
+    "editions": 694,
+    "words": 1599556,
+    "publisher_contexts": 26,
+    "observed_youtube_ids": 2812,
+    "account_references": 297,
+    "lifetime_uploaded_total": null
+  },
+  "execution": {
+    "new_queries_executed": 0,
+    "new_youtube_downloads": 0,
+    "new_transcripts": 0,
+    "new_analysis_runs": 0,
+    "note": "This publication updates the plan; it does not execute new collection. Baseline counts describe the previously published frozen frame."
+  },
+  "policy": {
+    "count_cap": null,
+    "bashar_minimum_seconds": 300,
+    "other_minimum_seconds": 0,
+    "unknown_bashar_duration": "pending metadata",
+    "screening": "Preserve existing explicit exclusions; screen art, comedy and mixed content from account and video evidence.",
+    "identity": "Keep uploader, human medium, publisher, reposter and claimed speaker separate."
+  },
+  "query_families": [
+    {
+      "id": "core",
+      "label": "Core hashtags and spelling variants",
+      "examples": [
+        "#channeling",
+        "#channelling",
+        "#mediumship",
+        "#mediums",
+        "channeled messages",
+        "channelled messages",
+        "trance medium",
+        "spirit channeling"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "civilizations",
+      "label": "Claimed extraterrestrial civilizations",
+      "examples": [
+        "channeling Arcturian",
+        "channeling Pleiadian",
+        "channeling Sirian",
+        "channeling Andromedan",
+        "channeling Lyran",
+        "channeling extraterrestrial"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "councils",
+      "label": "Councils and collective labels",
+      "examples": [
+        "channeling Galactic Council",
+        "channeling Galactic Federation",
+        "channeling Council of Nine",
+        "channeling Council of Contact",
+        "channeling Council of Contract"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "named",
+      "label": "Named communications and disambiguation",
+      "examples": [
+        "channeling Kryon Lee Carroll",
+        "channeling Ra Law of One",
+        "channeling Seth Jane Roberts",
+        "channeling Abraham Hicks",
+        "channeling Ryokah",
+        "channeling Royukh",
+        "Kristin Davies channeling",
+        "channeling Erik medium"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "angels",
+      "label": "Angelic and spiritual labels",
+      "examples": [
+        "channeling Archangel Michael",
+        "channeling Archangel Gabriel",
+        "channeling Archangel Raphael",
+        "channeling Metatron",
+        "channeling Saint Germain",
+        "channeling spirit guides"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "deities",
+      "label": "Religious and deity labels with channeling context",
+      "examples": [
+        "channeling Yeshua",
+        "channeling Jesus",
+        "channeling Mary Magdalene",
+        "channeling Quan Yin",
+        "channeling Isis",
+        "channeling Thoth",
+        "channeling Shiva",
+        "channeling Krishna"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "formats",
+      "label": "Session and publication formats",
+      "examples": [
+        "channeling session Q&A",
+        "mediumship interview",
+        "channeling live workshop",
+        "trance medium demonstration",
+        "channeled message shorts"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "languages",
+      "label": "Native-script and multilingual variants",
+      "examples": [
+        "canalización espiritual",
+        "mediumnidad",
+        "canalização espiritual",
+        "mediunidade",
+        "canalisation spirituelle",
+        "médiumnité",
+        "Jenseitskontakt",
+        "canalizzazione spirituale",
+        "mediumschap",
+        "ченнелинг",
+        "תקשור",
+        "チャネリング",
+        "채널링",
+        "通灵",
+        "通靈",
+        "चैनलिंग"
+      ],
+      "status": "planned"
+    }
+  ],
+  "stages": [
+    {
+      "id": "research",
+      "title": "Refresh documentation and access checks",
+      "status": "planned",
+      "description": "Inspect current official tool releases, extractor guidance, relevant Stack Overflow answers and reproducible GitHub issues. Record URLs, dates, access depth and what was actually tested.",
+      "acceptance": "A fresh permitted connection identifies the failure layer. Runtime, authentication and origin errors are distinct from pre-origin transport failures; no relay or blocked-endpoint evasion."
+    },
+    {
+      "id": "discovery",
+      "title": "Execute the versioned discovery manifest",
+      "status": "planned",
+      "description": "Run core hashtags, entity/civilization combinations, known aliases and reviewed language variants. Record every query, result page, limitation and evidence trail.",
+      "acceptance": "Each result has a stable video/account reference and provenance. Search completion never claims a complete global YouTube census."
+    },
+    {
+      "id": "screening",
+      "title": "Resolve identities and relevance",
+      "status": "planned",
+      "description": "Confirm canonical channel IDs where possible. Separate medium, uploader, publisher, reposter and claimed speaker. Preserve explicit exclusions and review ambiguous or mixed-content results.",
+      "acceptance": "Unresolved identities and art/comedy/metaphorical matches remain reviewable; names alone never merge accounts or entities."
+    },
+    {
+      "id": "enumeration",
+      "title": "Enumerate Videos, Shorts and Streams",
+      "status": "planned",
+      "description": "Follow supported continuation pages for all three public channel tabs, deduplicate by video ID and retain per-tab checkpoints and unavailable entries.",
+      "acceptance": "Every admitted tab has a recorded outcome. Interrupted or backend-limited results remain partial; unknown lifetime totals stay null."
+    },
+    {
+      "id": "audio",
+      "title": "Verify one audio-first pilot, then parallelize",
+      "status": "planned",
+      "description": "Use a persistent job ledger, bounded workers, disk reservations, atomic outputs, resumable downloads and rate-aware retries. Apply the Bashar-only duration rule after metadata resolution.",
+      "acceptance": "One full-duration audio passes media decoding, duration and SHA-256 checks before wider workers run. Failed or resource-held items remain in the queue."
+    },
+    {
+      "id": "transcripts",
+      "title": "Retain captions and run local speech-to-text",
+      "status": "planned",
+      "description": "Keep manual captions, automatic captions, publisher-written editions, translations and ASR outputs distinct. Reuse a pinned local model after resource and integrity checks.",
+      "acceptance": "Every transcript has source/media identity, language, engine/version or caption origin, timing where available and content hashes. Sample coverage is checked; word accuracy is not invented."
+    },
+    {
+      "id": "analysis",
+      "title": "Analyze a newly frozen admitted frame",
+      "status": "planned",
+      "description": "Add validated editions without silently overwriting prior ones. Refit topic, TF-IDF, clustering and question-bank analyses only on explicitly admitted source bodies.",
+      "acceptance": "New results bind the new frame and document deduplication, source-origin/length/context sensitivities and unvalidated Q&A candidates."
+    },
+    {
+      "id": "publication",
+      "title": "Publish measured progress and authorized artifacts",
+      "status": "planned",
+      "description": "Update per-channel coverage, storage and failure tables from actual files and receipts. Keep source-specific redistribution terms distinct from the user's public-storage preference.",
+      "acceptance": "Git and Pages checks pass; remote transfers are verified by bytes. A published plan or object index is never counted as an uploaded recording."
+    }
+  ],
+  "metrics": [
+    {
+      "key": "discovered",
+      "label": "Discovered",
+      "unit": "unique YouTube video IDs",
+      "note": "Deduplicated observations from recorded queries and publisher links; no download implied."
+    },
+    {
+      "key": "enumerated",
+      "label": "Enumerated",
+      "unit": "video IDs in recorded channel-tab runs",
+      "note": "Report tab/run completion separately; union repeated IDs across tabs."
+    },
+    {
+      "key": "audio_saved",
+      "label": "Audio saved",
+      "unit": "video/source IDs with verified retained audio",
+      "note": "Multiple encodings or aliases do not become independent recordings."
+    },
+    {
+      "key": "transcript_available",
+      "label": "Transcript available",
+      "unit": "sources with an admitted text edition",
+      "note": "Manual, automatic, written, translated and ASR origins remain explicit."
+    },
+    {
+      "key": "analyzed",
+      "label": "Analyzed",
+      "unit": "selected body units in a frozen analysis run",
+      "note": "Metadata and snippets are not counted as transcript analysis."
+    },
+    {
+      "key": "failed",
+      "label": "Failed",
+      "unit": "attempted jobs with recorded failures",
+      "note": "A global access hold does not fabricate an individual failed download for every queued video."
+    },
+    {
+      "key": "queued",
+      "label": "Queued / held",
+      "unit": "known pending jobs",
+      "note": "Show retry time, access or capacity holds and unresolved metadata; never silently remove pending work."
+    }
+  ],
+  "tool_review": [
+    {
+      "name": "yt-dlp and EJS",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "status": "refresh_planned",
+      "purpose": "Primary search/tab extraction, audio and caption workflow; verify supported JavaScript runtime and EJS requirements."
+    },
+    {
+      "name": "YouTube.js",
+      "url": "https://github.com/LuanRT/YouTube.js",
+      "status": "refresh_planned",
+      "purpose": "Compare current hashtag and continuation support in an independent unofficial implementation."
+    },
+    {
+      "name": "NewPipeExtractor",
+      "url": "https://github.com/TeamNewPipe/NewPipeExtractor",
+      "status": "refresh_planned",
+      "purpose": "Review channel-tab extraction and pagination behavior as an independent reference."
+    },
+    {
+      "name": "youtube-transcript-api",
+      "url": "https://github.com/jdepoix/youtube-transcript-api",
+      "status": "refresh_planned",
+      "purpose": "Inspect public caption-language/origin retrieval and distinct unavailable/blocked errors."
+    },
+    {
+      "name": "pytubefix",
+      "url": "https://github.com/JuanBindez/pytubefix",
+      "status": "refresh_planned",
+      "purpose": "Evaluate only against a reproducible extractor failure; compare metadata and audio results."
+    },
+    {
+      "name": "faster-whisper",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "status": "refresh_planned",
+      "purpose": "CPU-compatible local ASR with model/language/timing provenance."
+    },
+    {
+      "name": "sherpa-onnx",
+      "url": "https://github.com/k2-fsa/sherpa-onnx",
+      "status": "refresh_planned",
+      "purpose": "Review supported pinned offline speech models and bounded worker inference."
+    },
+    {
+      "name": "YouTube Data API",
+      "url": "https://developers.google.com/youtube/v3/docs",
+      "status": "refresh_planned",
+      "purpose": "When authorized credentials exist, compare uploads-playlist pagination; search and caption-management endpoints have distinct limits."
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/tagged/yt-dlp",
+      "status": "refresh_planned",
+      "purpose": "Inspect relevant answers and reproduce supported fixes; a reference link is not a new source inspection."
+    }
+  ],
+  "storage_layout": [
+    {
+      "path": "manifests/queries.jsonl",
+      "purpose": "Versioned queries and unambiguous planned/executed status."
+    },
+    {
+      "path": "metadata/channels.jsonl",
+      "purpose": "Canonical account IDs, observed aliases, roles and evidence."
+    },
+    {
+      "path": "metadata/videos.jsonl",
+      "purpose": "Video IDs, uploader bindings, durations, dates, languages and discovery paths."
+    },
+    {
+      "path": "state/collection.sqlite",
+      "purpose": "Persistent jobs, leases, retry times, checkpoints and completion receipts."
+    },
+    {
+      "path": "audio/<channel_id>/<video_id>/",
+      "purpose": "Verified audio and source/output hashes; encoding changes recorded."
+    },
+    {
+      "path": "text/<channel_id>/<video_id>/<edition_id>/",
+      "purpose": "Readable text, timed segments and caption/ASR/translation provenance."
+    },
+    {
+      "path": "analysis/<frame_version>/",
+      "purpose": "Frozen admitted frame, numerical outputs, plots and reproducible code bindings."
+    },
+    {
+      "path": "public/",
+      "purpose": "Reviewed metadata and permitted derived/source artifacts with an explicit release manifest."
+    }
+  ],
+  "limitations": [
+    "All query examples are planned seeds, not verified discoveries or identity assertions.",
+    "Council of Contract and Council of Contact are separate search terms; spelling similarity is not evidence that they identify the same claimed speaker.",
+    "No new YouTube query, download, transcription or analysis is executed by this documentation/UI publication.",
+    "The restored checkout and prior public receipts do not independently revalidate every original media file in the restored workspace.",
+    "The previous pre-origin YouTube denial and release-upload HTTP401 are historical diagnostics; current access must be tested before collection.",
+    "Public storage authorization does not provide a blanket redistribution license for all source media or text.",
+    "The existing 8 November corpus and later work must not be summed as independent datasets when sources or editions overlap."
+  ]
+}

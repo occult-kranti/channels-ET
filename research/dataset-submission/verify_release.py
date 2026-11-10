@@ -61,6 +61,22 @@ def verify(site):
     if 'analysis' in manifest['modules']:
         analysis=read('analysis.json')
         assert analysis['frame_sha256']==dataset['frame_sha256'],'Analysis frame differs or absent'
+    if 'collection_plan' in manifest['modules']:
+        plan=read('collection-plan.json')
+        assert plan['schema_version']==1 and plan['phase']=='plan_published_execution_pending'
+        bindings={'documents':'documents','editions':'text_editions','words':'words',
+                  'publisher_contexts':'publisher_contexts','observed_youtube_ids':'youtube_observed_video_ids',
+                  'account_references':'youtube_account_references'}
+        for key,other in bindings.items(): assert plan['baseline'][key]==summary[other]
+        assert plan['baseline']['lifetime_uploaded_total'] is None
+        for key in ('new_queries_executed','new_youtube_downloads','new_transcripts','new_analysis_runs'):
+            assert type(plan['execution'][key]) is int and plan['execution'][key]==0
+        assert plan['policy']['count_cap'] is None
+        assert plan['policy']['bashar_minimum_seconds']==300 and plan['policy']['other_minimum_seconds']==0
+        assert all(x['status']=='planned' for x in plan['query_families'])
+        assert all(x['status']=='planned' and x['acceptance'] for x in plan['stages'])
+        assert all(x['status']=='refresh_planned' for x in plan['tool_review'])
+        assert len({x['id'] for x in plan['query_families']})==len(plan['query_families'])
     if 'archive' in manifest['modules']:
         archive=read('archive.json')
         transfer=archive['transfer'];destination=archive['destination']

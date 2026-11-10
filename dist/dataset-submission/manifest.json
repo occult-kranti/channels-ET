@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "title": "Channeling discourse dataset · research release",
-  "generated_at": "2026-11-10T03:13:26.302467+00:00",
-  "scope": "Public metadata and derived research; full source text and media are private.",
+  "generated_at": "2026-11-10T22:41:09.496292+00:00",
+  "scope": "Public metadata, derived research and execution plans; original source media and full text are not included in this bundle.",
   "dataset_version": "2026-11-08",
   "modules": {
     "dataset": {
@@ -27,6 +27,12 @@
       "file": "venue.json",
       "bytes": 5155,
       "sha256": "83e88130a42d137a158d85ee69eeff67f3e714d64b532cc8eb73c2380f141a9f",
+      "required": false
+    },
+    "collection_plan": {
+      "file": "collection-plan.json",
+      "bytes": 14399,
+      "sha256": "a3cc7f24c4f7884035be06d78e9d05a969cb4acf6f50f60c6e2119ae8c1d03f5",
       "required": false
     }
   },
@@ -387,11 +393,6 @@
       "sha256": "83e88130a42d137a158d85ee69eeff67f3e714d64b532cc8eb73c2380f141a9f"
     },
     {
-      "file": "docs/PUBLIC-SOURCE-RIGHTS.md",
-      "bytes": 6697,
-      "sha256": "5f760be3cd569ce5920f7cad6ec4c09cd76a8d07195077a2a544c59e1a98a30b"
-    },
-    {
       "file": "source-rights.json",
       "bytes": 11369,
       "sha256": "74f0ad6b507cb4b122327d74d680d960aa9a194871f276e2387b058dee697ae3"
@@ -402,24 +403,39 @@
       "sha256": "ca4237eb7ff2b083ccff88d2b0556fd1ba093bc751eba67ec405760fc3e3152b"
     },
     {
+      "file": "collection-plan.json",
+      "bytes": 14399,
+      "sha256": "a3cc7f24c4f7884035be06d78e9d05a969cb4acf6f50f60c6e2119ae8c1d03f5"
+    },
+    {
       "file": "index.html",
-      "bytes": 2764,
-      "sha256": "5b121a13b2aa85003a189d0aaedea78918c0df31d2c041559404ed6537fc7020"
+      "bytes": 2975,
+      "sha256": "5f64a33b5753c6713a495b46f617b753ffc2ca949830c65b9b8ec604f164deac"
     },
     {
       "file": "app.js",
-      "bytes": 44708,
-      "sha256": "2ed2d36aa50e935dc3c57921ad74b2af45acb06291db1bcfda959fdc02a677a3"
+      "bytes": 53076,
+      "sha256": "aa0afef33b670c4de6f46be867badcd4f13400106f1f444d7a227198e63f61fe"
     },
     {
       "file": "styles.css",
-      "bytes": 13109,
-      "sha256": "d06e774336500366f60e436bf2dee929ee01015b6a8ab339fc89599a9e8480bd"
+      "bytes": 15614,
+      "sha256": "135f172be2e15cb607064683a93166af6644826c1e38e4dd5549a6ec7498039b"
+    },
+    {
+      "file": "docs/COLLECTION-PLAN.md",
+      "bytes": 6074,
+      "sha256": "0cb96cb4ef26226b6f6923340e3eb89a09783fc604e0a190300cde8fc915add7"
     },
     {
       "file": "docs/PLAN.md",
       "bytes": 5732,
       "sha256": "f0bc67ed26d5aacd18665946835e1bf49f623f902581da0df1f231649f7716e9"
+    },
+    {
+      "file": "docs/PUBLIC-SOURCE-RIGHTS.md",
+      "bytes": 6697,
+      "sha256": "5f760be3cd569ce5920f7cad6ec4c09cd76a8d07195077a2a544c59e1a98a30b"
     },
     {
       "file": "docs/README.md",
@@ -432,5 +448,5 @@
       "sha256": "e4d4f0b18cf73221a66fab78a33aa84c533a9639e9d96f5b14514b732eaa3030"
     }
   ],
-  "builder_sha256": "fabed734969b0166b8a9cb68ac1ef16716bc572af9d64a366b6f73166e72e2c0"
+  "builder_sha256": "af1cdd7c276dc7666773438054f9428a9ab04edf4a2a94383cee5e0cad4ea582"
 }
