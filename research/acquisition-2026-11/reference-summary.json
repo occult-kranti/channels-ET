@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-11T00:00:00Z",
+  "observedVideos": 2840,
+  "observedAccounts": 302,
+  "uploadedTotal": null,
+  "audioFiles": 35,
+  "audioBytes": 1321921399,
+  "audioDurationSeconds": 73899.368,
+  "asrWords": 146605,
+  "asrSegments": 13169,
+  "analyzedHours": 19.472,
+  "questionUnits": 572,
+  "candidateTerminal": {"analyzed": 34, "excluded": 8, "held": 1, "totalCandidates": 43},
+  "audioStatusCounts": {"completed": 35, "excluded_under_300": 7, "excluded_language_mismatch": 1},
+  "asrStatusCounts": {"completed": 34, "excluded_language_mismatch": 1},
+  "analysisStatusCounts": {"analysis_completed": 34, "analysis_excluded_under_300": 7, "analysis_excluded_language_mismatch": 1, "analysis_held_route_limit_over_150_minutes": 1},
+  "accountReconciliation": {"namedAccountVideoMemberships": 2286, "unattributedVideoRecords": 631, "multiAccountVideos": 77, "extraMembershipsFromMultiAccountVideos": 77, "uniqueVideoRecords": 2840},
+  "caveats": [
+    "Observed records are not a full-channel census; uploaded_total remains null.",
+    "Account-row counts are not directly additive; multi-account videos create extra memberships.",
+    "Raw media and full transcript bodies remain private; public artifacts contain hashes, metadata and bounded aggregates only."
+  ]
+}
