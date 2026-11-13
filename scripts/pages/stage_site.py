@@ -82,7 +82,7 @@ def bootstrap_source(work: Path) -> None:
          release["downloadPage"], "-d", work / "source-download"])
     candidates = list((work / "source-download").rglob("source-bootstrap.tar.xz"))
     if len(candidates) != 1:
-        raise ValueError(f"Expected one source archive, found {candidates}")
+        raise ValueError(f"Expected one source archive, found {len(candidates)}")
     archive_path = candidates[0]
     if sha256(archive_path) != release["archiveSha256"]:
         raise ValueError("Expansion source archive hash mismatch")
@@ -269,7 +269,14 @@ def build_acquisition_2026_11() -> None:
     raw = Path(raw_root) / "youtube-audio" if raw_root else None
     audit = Path(audit_root) if audit_root else None
     if raw and audit and raw.is_dir() and audit.is_dir():
-        run([sys_executable(), source / "verify_audio.py"])
+        if os.environ.get("CHANNELS_ET_REVERIFY_AUDIO", "1") == "1":
+            run([sys_executable(), source / "verify_audio.py"])
+        else:
+            run([sys_executable(), source / "reuse_verified_audio.py"])
+            receipt = json.loads((source / "verification-reuse.json").read_text())
+            if receipt.get("nFailed") != 0 or receipt.get("fullHashRerun") is not False:
+                raise RuntimeError("Cannot reuse a failed or incomplete audio verification receipt")
+            print("Validated current receipts against earlier full audio evidence (CHANNELS_ET_REVERIFY_AUDIO=0).")
         run([sys_executable(), source / "analysis/verify.py"])
         run([sys_executable(), source / "build_reference.py"])
     else:
