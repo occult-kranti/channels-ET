@@ -21,9 +21,17 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[2]
 REQUIRED = (
     "index.html", ".nojekyll", "dist/index.html", "dist/expansion/index.html",
-    "dist/research/index.html", "dist/research/app.js", "dist/research/data.json",
+    "dist/research/index.html", "dist/research/app.js", "dist/research/styles.css",
+    "dist/research/data.json", "dist/research/vendor/echarts.min.js",
+    "dist/research/fonts/inter-latin-wght.woff2",
+    "dist/research/fonts/jetbrains-mono-latin-wght.woff2",
+    "dist/research/fonts/space-grotesk-latin-wght.woff2",
     "dist/research/paper.pdf", "dist/research/source.zip",
     "dist/research/qwen-digest-lora-pilot.zip", "dist/research/qa-candidates.sqlite",
+    "dist/research/acquisition-2026-11/index.html",
+    "dist/research/acquisition-2026-11/manifest.json",
+    "dist/research/acquisition-2026-11/reference-summary.json",
+    "dist/research/acquisition-2026-11/analysis/analysis.json",
 )
 GOFILE_DL_COMMIT = "372c99e13b2f897c5c856c5321896eb7f1b35e0b"
 GOFILE_DL_ZIP_SHA256 = "3a6861329730726ccba0bdb33f5a2c86a88e0061c7925b1965ce341ee7a009cc"
@@ -74,7 +82,7 @@ def bootstrap_source(work: Path) -> None:
          release["downloadPage"], "-d", work / "source-download"])
     candidates = list((work / "source-download").rglob("source-bootstrap.tar.xz"))
     if len(candidates) != 1:
-        raise ValueError(f"Expected one source archive, found {len(candidates)}")
+        raise ValueError(f"Expected one source archive, found {candidates}")
     archive_path = candidates[0]
     if sha256(archive_path) != release["archiveSha256"]:
         raise ValueError("Expansion source archive hash mismatch")
@@ -108,7 +116,9 @@ def ensure_system_tools() -> None:
 
 
 def probe_youtube_audio(work: Path) -> None:
-    if os.environ.get("CHANNELS_ET_AUDIO_PROBE", "1") != "1":
+    # Retired Cobalt probe is opt-in historical evidence. November actual audio
+    # is validated by the acquisition workstream instead of blocking Pages.
+    if os.environ.get("CHANNELS_ET_AUDIO_PROBE", "0") != "1":
         return
     video_id, source_url = "1UufR6Wn9z8", "https://www.youtube.com/watch?v=1UufR6Wn9z8"
     output = ROOT / "dist/research/acquisition"
@@ -246,6 +256,39 @@ def build_expansion() -> None:
             run([sys_executable(), "research/expansion-2026/dashboard/browser_check.py"])
 
 
+def build_acquisition_2026_11() -> None:
+    """Verify/package the public acquisition workbench without publishing raw media.
+
+    With authorized private inputs, revalidate actual bytes/receipts and rebuild
+    references. Without them, validate committed passing receipts and materialize
+    only public derivatives; never reset actual states to pending.
+    """
+    source = ROOT / "research/acquisition-2026-11"
+    raw_root = os.environ.get("CHANNELS_ET_RAW_ROOT")
+    audit_root = os.environ.get("CHANNELS_ET_AUDIT_ROOT")
+    raw = Path(raw_root) / "youtube-audio" if raw_root else None
+    audit = Path(audit_root) if audit_root else None
+    if raw and audit and raw.is_dir() and audit.is_dir():
+        run([sys_executable(), source / "verify_audio.py"])
+        run([sys_executable(), source / "analysis/verify.py"])
+        run([sys_executable(), source / "build_reference.py"])
+    else:
+        for relative in ("verification.json", "analysis/verification.json"):
+            receipt = json.loads((source / relative).read_text())
+            if receipt.get("nFailed") != 0:
+                raise RuntimeError(f"Committed acquisition verification failed: {relative}")
+        gate = json.loads((source / "analysis/gate-status.json").read_text())
+        candidates = json.loads((source / "all-candidates.json").read_text())
+        candidate_ids = sorted(row["video_id"] for row in candidates)
+        expected_hash = hashlib.sha256("\n".join(candidate_ids).encode()).hexdigest()
+        if (gate.get("ready") is not True or gate.get("candidateVideos") != len(candidate_ids)
+                or gate.get("candidateIdsSha256") != expected_hash):
+            raise RuntimeError("Committed acquisition gate is not bound to the candidate set")
+        print("Private raw workspace unavailable; packaging committed verified public artifacts only.")
+    run([sys_executable(), source / "materialize_public_artifacts.py"])
+    run([sys_executable(), source / "package_acquisition.py"])
+
+
 def stage(output: Path) -> dict:
     output = output.resolve()
     if output == ROOT or output in ROOT.parents or output.is_relative_to(ROOT / "dist"):
@@ -269,11 +312,18 @@ def stage(output: Path) -> dict:
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, target)
         files.append({"path": relative, "bytes": target.stat().st_size, "sha256": sha256(target)})
-    commit = os.environ.get("GITHUB_SHA") or subprocess.check_output(
-        ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
-    static_inputs_dirty = bool(subprocess.check_output(
-        ["git", "status", "--porcelain", "--untracked-files=all", "--", "index.html", ".nojekyll", "dist"],
-        cwd=ROOT, text=True).strip())
+    commit = os.environ.get("GITHUB_SHA") or os.environ.get("CHANNELS_ET_SOURCE_COMMIT")
+    if not commit:
+        try:
+            commit = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
+        except (subprocess.CalledProcessError, FileNotFoundError) as exc:
+            raise RuntimeError("Git metadata unavailable; set CHANNELS_ET_SOURCE_COMMIT explicitly") from exc
+    try:
+        static_inputs_dirty = bool(subprocess.check_output(
+            ["git", "status", "--porcelain", "--untracked-files=all", "--", "index.html", ".nojekyll", "dist"],
+            cwd=ROOT, text=True, stderr=subprocess.DEVNULL).strip())
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        static_inputs_dirty = True
     manifest = {
         "schema_version": 1,
         "repository": "occult-kranti/channels-ET",
@@ -315,6 +365,7 @@ def main() -> None:
             traceback.print_exc()
             print(f"::error title=Expansion build failed::{type(exc).__name__}: {exc}")
             raise
+    build_acquisition_2026_11()
     manifest = stage(args.output)
     print(json.dumps({k: manifest[k] for k in ("source_commit", "file_count", "total_bytes")}))
 
