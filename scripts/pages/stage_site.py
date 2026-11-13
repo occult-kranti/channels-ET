@@ -277,7 +277,13 @@ def build_acquisition_2026_11() -> None:
             if receipt.get("nFailed") != 0 or receipt.get("fullHashRerun") is not False:
                 raise RuntimeError("Cannot reuse a failed or incomplete audio verification receipt")
             print("Validated current receipts against earlier full audio evidence (CHANNELS_ET_REVERIFY_AUDIO=0).")
-        run([sys_executable(), source / "analysis/verify.py"])
+        if os.environ.get("CHANNELS_ET_REVERIFY_ANALYSIS", "1") == "1":
+            run([sys_executable(), source / "analysis/verify.py"])
+        else:
+            receipt = json.loads((source / "analysis/verification.json").read_text())
+            if receipt.get("nFailed") != 0 or receipt.get("nPassed") != receipt.get("nChecks"):
+                raise RuntimeError("Cannot reuse a failed or incomplete analysis verification receipt")
+            print("Reusing the existing complete analysis receipt (CHANNELS_ET_REVERIFY_ANALYSIS=0).")
         run([sys_executable(), source / "build_reference.py"])
     else:
         for relative in ("verification.json", "analysis/verification.json"):
