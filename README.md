@@ -1,5 +1,17 @@
 # channels-ET
 
+### Actual YouTube audio and ASR supplement · 11 November 2026
+
+Open the **[November acquisition workbench](dist/research/acquisition-2026-11/index.html)** and [workstream handoff](research/acquisition-2026-11/HANDOFF.md). This source-bound supplement records actual public-video audio separately from the October metadata baseline and from other collection plans with different historical policies. This workstream excludes records under 300 seconds and holds Bashar-associated selection to exactly 100 across all accounts combined; other channels are uncapped.
+
+- **2,840 observed videos / 302 accounts**, not a full-channel census; `uploaded_total` remains null. The October default selection remains 733.
+- **35 real audio files**, 1,321,921,399 bytes and 73,899.368 seconds. Thirty-four English recordings have completed self-run ASR; one German recording is excluded from English-only analysis.
+- **43 terminal candidates = 34 analyzed + 8 excluded + 1 route-limit hold.** Seven under-300 records, one unsupported-language record and one over-150-minute hold are not analyzed.
+- **146,605 ASR words, 13,169 segments, 19.472 analyzed hours and 572 literal question units.** Sixty-nine fresh AI-agent verdicts bind to current question hashes; `humanValidated=false` throughout.
+- **119/119 analysis checks and 46/46 audio checks pass**, including independent recomputation of extraction, TF-IDF, NMF, KMeans with nine non-self ARI comparisons, network and sensitivity statistics. NMF stability is 0.7438 with all runs converged; maximum KMeans silhouette is 0.0070, so no cluster structure is claimed. The registry has 473 token-keyed families: 17 cross-video, three same-video-only recurrence and 63 family-less stopword-only rows.
+- **Account reconciliation:** 2,286 named memberships + 631 unattributed records − 77 extra multi-account memberships = 2,840 unique videos. Account-row counts are not directly additive.
+
+Raw audio and full transcript bodies remain in authorized private research storage pending source-specific rights. Public artifacts contain code, metadata, aggregates, bounded excerpts, SVG figures and hashes; public SQLite and PNG derivatives are materialized from those text artifacts in CI. Converter-assisted acquisition may be subject to YouTube/provider terms; public availability and technical feasibility do not establish download or redistribution permission. Preview is not publication; merge and deployment require separate review/confirmation.
 
 ### Current publication and collection plan · 10 November 2026
 
