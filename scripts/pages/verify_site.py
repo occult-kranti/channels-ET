@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 from collections import Counter
 from datetime import datetime, timezone
 from functools import partial
@@ -18,24 +19,25 @@ from urllib.parse import quote, urljoin
 from urllib.request import Request, urlopen
 
 ROUTES = {
-    "dist/releases/": b"Published links",
-    "dist/releases/links.json": None,
-    "dist/dataset-submission/collection-plan.json": None,
-    "dist/dataset-submission/": b"<html",
-    "dist/dataset-submission/manifest.json": None,
-    "dist/dataset-submission/dataset.json": None,
-    "dist/dataset-submission/paper/paper.pdf": b"%PDF-",
-    "dist/dataset-submission/paper/overleaf-source.zip": b"PK",
     "": b"./dist/research/",
     "dist/": b"<html",
     "dist/expansion/": b"<html",
     "dist/research/": b"Channels ET",
     "dist/research/app.js": None,
+    "dist/research/styles.css": b"topbar",
     "dist/research/data.json": None,
+    "dist/research/vendor/echarts.min.js": None,
+    "dist/research/fonts/inter-latin-wght.woff2": None,
+    "dist/research/fonts/jetbrains-mono-latin-wght.woff2": None,
+    "dist/research/fonts/space-grotesk-latin-wght.woff2": None,
     "dist/research/paper.pdf": b"%PDF-",
     "dist/research/source.zip": b"PK",
     "dist/research/qwen-digest-lora-pilot.zip": b"PK",
     "dist/research/qa-candidates.sqlite": b"SQLite format 3",
+    "dist/research/acquisition-2026-11/index.html": b"Acquisition workbench",
+    "dist/research/acquisition-2026-11/manifest.json": None,
+    "dist/research/acquisition-2026-11/reference-summary.json": None,
+    "dist/research/acquisition-2026-11/analysis/analysis.json": None,
 }
 
 
@@ -397,6 +399,151 @@ def verify_transcript_study(payloads: dict[str, bytes], file_manifest: dict) -> 
             "actual_local_archive_bytes": 1703879268, "drive_uploaded_files": 0, "youtube_downloaded_videos": 0}
 
 
+def verify_acquisition_2026_11(payloads: dict[str, bytes], file_manifest: dict) -> dict:
+    """Reconcile the public acquisition workbench without fetching private media."""
+    prefix = "dist/research/acquisition-2026-11/"
+    def body(relative: str) -> bytes:
+        return payloads[prefix + relative]
+    def load(relative: str):
+        return json.loads(body(relative))
+    def rows(relative: str):
+        return list(csv.DictReader(body(relative).decode("utf-8").splitlines()))
+
+    package = load("manifest.json")
+    for artifact in package["artifacts"]:
+        relative = artifact["path"]
+        path = prefix + relative
+        assert not relative.startswith("/") and ".." not in Path(relative).parts
+        assert Path(relative).suffix.lower() not in {".mp3", ".mp4", ".m4a", ".wav", ".webm", ".srt", ".vtt",
+             ".opus", ".flac", ".ogg", ".mov", ".avi"}
+        assert digest(body(relative)) == artifact["sha256"] == file_manifest[path]["sha256"]
+        assert len(body(relative)) == artifact["bytes"] == file_manifest[path]["bytes"]
+        assert all(marker not in body(relative) for marker in
+                   (b"/mnt/agents/", b"/workspace/", b"/home/", b"/Users/")), \
+            f"Workstation path leaked: {relative}"
+
+    reference = load("reference-summary.json")
+    acquisition = load("summary.json")
+    acquisition_ledger = load("acquisition-ledger.json")
+    asr = load("asr-summary.json")
+    analysis = load("analysis/analysis.json")
+    candidates = load("all-candidates.json")
+    gate = load("analysis/gate-status.json")
+    audio_verification = load("verification.json")
+    audio_reuse = load("verification-reuse.json")
+    analysis_verification = load("analysis/verification.json")
+    videos = rows("video-reference.csv")
+    channels = rows("channel-reference.csv")
+    sources = rows("analysis/sources-index.csv")
+    ledger_records = acquisition_ledger["records"]
+    ledger_ids = {row.get("video_id", row.get("videoId")) for row in ledger_records}
+    assert len(ledger_ids) == len(ledger_records) == len(candidates)
+    assert dict(Counter(row["status"] for row in ledger_records)) == {
+        "completed": 34, "excluded_under_300": 7,
+        "excluded_language_mismatch": 1, "held_route_limit_over_150_minutes": 1}
+    for row in ledger_records:
+        if row["status"] == "excluded_under_300":
+            assert row["mediaBytes"] == row["admittedMediaBytes"] == 0
+            assert row["quarantinedBytes"] > 0 and len(row["quarantinedAudioSha256"]) == 64
+    candidate_ids = {row["video_id"] for row in candidates}
+    assert len(candidate_ids) == len(candidates) == analysis["validation"]["candidateVideoCount"]
+    video_by_id = {row["video_id"]: row for row in videos}
+    selection_mismatch = [row["video_id"] for row in candidates
+                          if video_by_id[row["video_id"]]["selection"] != row["selection"]]
+    assert not selection_mismatch, f"Candidate/reference selection mismatch: {selection_mismatch}"
+    assert gate["ready"] is True and gate["candidateVideos"] == len(candidate_ids)
+    expected_gate_hash = digest("\n".join(sorted(candidate_ids)).encode())
+    assert gate["candidateIdsSha256"] == expected_gate_hash
+    assert audio_verification["nFailed"] == 0 and analysis_verification["nFailed"] == 0
+    assert audio_reuse["nFailed"] == 0 and audio_reuse["fullHashRerun"] is False
+    assert audio_reuse["nPassed"] == audio_reuse["nChecks"] == 73
+
+    assert len(videos) == reference["observedVideos"]
+    assert len(channels) == reference["observedAccounts"]
+    for field, key in (("audio_status", "audioStatusCounts"),
+                       ("asr_status", "asrStatusCounts"),
+                       ("analysis_status", "analysisStatusCounts")):
+        assert dict(Counter(row[field] for row in videos)) == reference[key]
+    assert all(row["uploaded_total"] == "" for row in channels)
+    assert reference["uploadedTotal"] is None
+    recon = reference["accountReconciliation"]
+    account_sizes = {row["video_id"]: len([a for a in row["associated_account_ids"].split(";") if a])
+                     for row in videos}
+    named = sum(account_sizes.values())
+    unattributed = sum(n == 0 for n in account_sizes.values())
+    multi = sum(n > 1 for n in account_sizes.values())
+    extra = sum(max(0, n - 1) for n in account_sizes.values())
+    assert recon["namedAccountVideoMemberships"] == named == \
+        sum(int(row["observed_videos"]) for row in channels)
+    assert recon["unattributedVideoRecords"] == unattributed
+    assert recon["multiAccountVideos"] == multi
+    assert recon["extraMembershipsFromMultiAccountVideos"] == extra
+    assert named + unattributed - extra == len(videos) == recon["uniqueVideoRecords"]
+    predicates = {
+        "observed_videos": lambda row: True,
+        "eligible_videos": lambda row: row["eligibility"] == "eligible",
+        "selected_default_videos": lambda row: row["selection"] == "selected_default",
+        "audio_downloaded_videos": lambda row: row["audio_status"] == "completed",
+        "asr_completed_videos": lambda row: row["asr_status"] == "completed",
+        "analysis_completed_videos": lambda row: row["analysis_status"] == "analysis_completed",
+        "analysis_excluded_videos": lambda row: row["analysis_status"].startswith("analysis_excluded_"),
+        "route_limit_held_videos": lambda row: row["analysis_status"] == "analysis_held_route_limit_over_150_minutes",
+    }
+    for field, predicate in predicates.items():
+        expected = sum(account_sizes[row["video_id"]] for row in videos if predicate(row))
+        assert sum(int(row[field]) for row in channels) == expected, field
+    workbench_text = body("index.html").decode()
+    assert "Unattributed video records" in workbench_text and "count memberships" in workbench_text
+
+    terminal = analysis["validation"]["terminalStateCounts"]
+    assert terminal == reference["candidateTerminal"]
+    included = set(analysis["validation"]["included"])
+    excluded = {row["videoId"] for row in analysis["validation"]["excluded"]}
+    held = {row["videoId"] for row in analysis["validation"]["held"]}
+    assert included.isdisjoint(excluded) and included.isdisjoint(held) and excluded.isdisjoint(held)
+    assert included | excluded | held == candidate_ids
+    assert terminal == {"analyzed": len(included), "excluded": len(excluded),
+                        "held": len(held), "totalCandidates": len(candidate_ids)}
+    assert {row["video_id"] for row in sources} == included
+    assert analysis["nDocuments"] == len(included)
+    assert analysis_verification["nPassed"] == analysis_verification["nChecks"]
+
+    assert acquisition["completedRecords"] == acquisition["completedAudioRecords"] == \
+        reference["audioStatusCounts"]["completed"] == 35
+    assert "including" in acquisition["completedRecordsMeaning"]
+    assert acquisition["excludedUnder300"] == reference["audioStatusCounts"]["excluded_under_300"] == 7
+    assert acquisition["mediaBytes"] == reference["audioBytes"]
+    assert math.isclose(acquisition["durationSeconds"], reference["audioDurationSeconds"], abs_tol=0.001)
+    assert asr["counts"].get("completed") == reference["asrStatusCounts"]["completed"] == len(included)
+    assert asr["counts"].get("excluded_language_mismatch") == 1
+    assert asr["totals"]["words"] == reference["asrWords"]
+    assert asr["totals"]["segments"] == reference["asrSegments"]
+    assert reference["analysisStatusCounts"]["analysis_completed"] == len(included)
+    assert reference["analysisStatusCounts"]["analysis_excluded_under_300"] == 7
+    assert reference["analysisStatusCounts"]["analysis_excluded_language_mismatch"] == 1
+    assert reference["analysisStatusCounts"]["analysis_held_route_limit_over_150_minutes"] == len(held)
+
+    with tempfile.TemporaryDirectory(prefix="acquisition-public-check-") as temp:
+        database = Path(temp) / "public.sqlite"
+        database.write_bytes(body("analysis/non-bashar-public.sqlite"))
+        with sqlite3.connect(database.as_uri() + "?mode=ro", uri=True) as connection:
+            assert connection.execute("PRAGMA quick_check").fetchone()[0] == "ok"
+            assert connection.execute("SELECT COUNT(*) FROM sources").fetchone()[0] == len(included)
+            assert connection.execute("SELECT COUNT(*) FROM qa_candidates").fetchone()[0] == analysis["qa"]["totalUnits"]
+            columns = [row[1] for row in connection.execute("PRAGMA table_info(qa_candidates)")]
+            assert "question_text" not in columns and "answer_text" not in columns
+    return {
+        "status": "passed", "scope": "Public metadata/hash/aggregate reconciliation only; no media or full transcript bodies fetched",
+        "package_artifacts": len(package["artifacts"]), "observed_videos": len(videos),
+        "observed_accounts": len(channels), "candidates": len(candidate_ids),
+        "analyzed": len(included), "excluded": len(excluded), "held": len(held),
+        "audio_files": acquisition["completedRecords"], "audio_bytes": acquisition["mediaBytes"],
+        "asr_words": asr["totals"]["words"], "asr_segments": asr["totals"]["segments"],
+        "question_units": analysis["qa"]["totalUnits"],
+        "analysis_checks": f"{analysis_verification['nPassed']}/{analysis_verification['nChecks']}",
+    }
+
+
 def http_verify(base: str, expected: dict | None = None) -> dict:
     base = base.rstrip("/") + "/"
     def get(relative: str) -> tuple[bytes, int]:
@@ -428,6 +575,11 @@ def http_verify(base: str, expected: dict | None = None) -> dict:
         for path in hashes:
             if path.startswith("dist/research/youtube-access"):
                 routes[path] = None
+    has_acquisition_2026_11 = "dist/research/acquisition-2026-11/manifest.json" in hashes
+    if has_acquisition_2026_11:
+        for path in hashes:
+            if path.startswith("dist/research/acquisition-2026-11/"):
+                routes[path] = b"SQLite format 3" if path.endswith(".sqlite") else None
     has_transcript_study = "dist/transcripts/data.json" in hashes
     if has_transcript_study:
         routes[""] = b"./dist/transcripts/"
@@ -451,6 +603,8 @@ def http_verify(base: str, expected: dict | None = None) -> dict:
         report["access_repair_checks"] = verify_access_repair(payloads, hashes)
     if has_current_collection:
         report["current_collection_checks"] = verify_current_collection(payloads, hashes)
+    if has_acquisition_2026_11:
+        report["acquisition_2026_11_checks"] = verify_acquisition_2026_11(payloads, hashes)
     if has_transcript_study:
         report["transcript_study_checks"] = verify_transcript_study(payloads, hashes)
     return report
