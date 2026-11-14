@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "round": 15,
-  "capturedAtUtc": "2026-11-14T02:38:28.527534+00:00",
+  "capturedAtUtc": "2026-11-14T02:43:07.122942+00:00",
   "baseMainCommit": "bf6a40f01fd693da00ecce6a6752273985df95a3",
   "integrationBranch": "research/acquisition-2026-11-expanded",
-  "integrationHeadCommit": "3c839de9d306e6aaab575ca8c4282f01a719fba8",
+  "integrationHeadCommit": "8eb6bb3f4cdd2589d88adac1e52fd6c37ad8ec38",
   "canonicalRoot": "integration://research/acquisition-2026-11-expanded",
   "sourceCommitRepresentsCurrentWork": true,
   "staticInputsDirty": false,
@@ -608,8 +608,8 @@
     },
     {
       "path": "research/acquisition-2026-11/reviews/round15/snapshot.json",
-      "bytes": 22293,
-      "sha256": "1ed7f02a2b676f86c00eb595668557b2d46cc9e8f823eea4dea25e0385b10c98"
+      "bytes": 26697,
+      "sha256": "ac8b1a1f412c7d2088f83d5ce8494abac6fb0784a8ca9102f299061355fc5427"
     },
     {
       "path": "research/acquisition-2026-11/reviews/round15/staged-verification.json",
@@ -677,5 +677,5 @@
       "sha256": "ec0255a6a3abee005b1565e922ad218f8cf2735d650bb0f61c9b6ca297ea3f45"
     }
   ],
-  "snapshotSha256": "9f401c8c7fb4687523a1c26fc8a6e52a4b37c37506ecc61b38fffaa6cd9a4387"
+  "snapshotSha256": "74564c990208466ba87eedef8500dbe5e70a9a9c232e237596d701889f058413"
 }
