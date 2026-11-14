@@ -115,9 +115,48 @@ def ensure_system_tools() -> None:
              "poppler-utils", "librsvg2-bin", "zip"])
 
 
+def ensure_tectonic(work: Path) -> None:
+    if shutil.which("tectonic"):
+        return
+    archive = work / "tectonic.tar.gz"
+    download("https://github.com/tectonic-typesetting/tectonic/releases/download/"
+             "tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-gnu.tar.gz", archive)
+    if sha256(archive) != TECTONIC_SHA256:
+        raise ValueError("Tectonic archive hash mismatch")
+    with tarfile.open(archive, "r:gz") as source:
+        source.extractall(work)
+    binary = work / "tectonic"
+    if not binary.is_file():
+        raise ValueError("Tectonic binary missing after extraction")
+    os.environ["PATH"] = str(work) + os.pathsep + os.environ.get("PATH", "")
+
+
+def ensure_dashboard_assets(work: Path) -> None:
+    npm = work / "channels-et-npm"
+    run(["npm", "install", "--prefix", npm, "echarts@6.1.0",
+         "@fontsource-variable/inter@5.3.0", "@fontsource-variable/jetbrains-mono@5.3.0",
+         "@fontsource-variable/space-grotesk@5.3.0"])
+    vendor, fonts = ROOT / "dist/research/vendor", ROOT / "dist/research/fonts"
+    vendor.mkdir(parents=True, exist_ok=True)
+    fonts.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(npm / "node_modules/echarts/dist/echarts.min.js", vendor / "echarts.min.js")
+    shutil.copyfile(npm / "node_modules/echarts/LICENSE", vendor / "echarts-LICENSE.txt")
+    font_files = {
+        "inter": "inter-latin-wght-normal.woff2",
+        "jetbrains-mono": "jetbrains-mono-latin-wght-normal.woff2",
+        "space-grotesk": "space-grotesk-latin-wght-normal.woff2",
+    }
+    for family, filename in font_files.items():
+        source = npm / "node_modules/@fontsource-variable" / family / "files" / filename
+        shutil.copyfile(source, fonts / filename.replace("-normal", ""))
+        shutil.copyfile(npm / "node_modules/@fontsource-variable" / family / "LICENSE",
+                        fonts / f"{family}-LICENSE.txt")
+
+
 def probe_youtube_audio(work: Path) -> None:
-    # Retired Cobalt probe is opt-in historical evidence. November actual audio
-    # is validated by the acquisition workstream instead of blocking Pages.
+    # Legacy Cobalt probe is opt-in historical evidence. The November 2026
+    # acquisition workstream uses y2mate receipts instead and must not be
+    # blocked by these retired, unavailable instances.
     if os.environ.get("CHANNELS_ET_AUDIO_PROBE", "0") != "1":
         return
     video_id, source_url = "1UufR6Wn9z8", "https://www.youtube.com/watch?v=1UufR6Wn9z8"
@@ -186,44 +225,6 @@ def probe_youtube_audio(work: Path) -> None:
     raise RuntimeError(f"No valid public YouTube audio was returned by either Cobalt instance: {details}")
 
 
-def ensure_tectonic(work: Path) -> None:
-    if shutil.which("tectonic"):
-        return
-    archive = work / "tectonic.tar.gz"
-    download("https://github.com/tectonic-typesetting/tectonic/releases/download/"
-             "tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-gnu.tar.gz", archive)
-    if sha256(archive) != TECTONIC_SHA256:
-        raise ValueError("Tectonic archive hash mismatch")
-    with tarfile.open(archive, "r:gz") as source:
-        source.extractall(work)
-    binary = work / "tectonic"
-    if not binary.is_file():
-        raise ValueError("Tectonic binary missing after extraction")
-    os.environ["PATH"] = str(work) + os.pathsep + os.environ.get("PATH", "")
-
-
-def ensure_dashboard_assets(work: Path) -> None:
-    npm = work / "channels-et-npm"
-    run(["npm", "install", "--prefix", npm, "echarts@6.1.0",
-         "@fontsource-variable/inter@5.3.0", "@fontsource-variable/jetbrains-mono@5.3.0",
-         "@fontsource-variable/space-grotesk@5.3.0"])
-    vendor, fonts = ROOT / "dist/research/vendor", ROOT / "dist/research/fonts"
-    vendor.mkdir(parents=True, exist_ok=True)
-    fonts.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(npm / "node_modules/echarts/dist/echarts.min.js", vendor / "echarts.min.js")
-    shutil.copyfile(npm / "node_modules/echarts/LICENSE", vendor / "echarts-LICENSE.txt")
-    font_files = {
-        "inter": "inter-latin-wght-normal.woff2",
-        "jetbrains-mono": "jetbrains-mono-latin-wght-normal.woff2",
-        "space-grotesk": "space-grotesk-latin-wght-normal.woff2",
-    }
-    for family, filename in font_files.items():
-        source = npm / "node_modules/@fontsource-variable" / family / "files" / filename
-        shutil.copyfile(source, fonts / filename.replace("-normal", ""))
-        shutil.copyfile(npm / "node_modules/@fontsource-variable" / family / "LICENSE",
-                        fonts / f"{family}-LICENSE.txt")
-
-
 def build_expansion() -> None:
     with tempfile.TemporaryDirectory(prefix="channels-et-build-") as temp:
         work = Path(temp)
@@ -259,9 +260,10 @@ def build_expansion() -> None:
 def build_acquisition_2026_11() -> None:
     """Verify/package the public acquisition workbench without publishing raw media.
 
-    With authorized private inputs, revalidate actual bytes/receipts and rebuild
-    references. Without them, validate committed passing receipts and materialize
-    only public derivatives; never reset actual states to pending.
+    With the authorized raw workspace mounted, revalidate actual bytes/receipts and
+    rebuild the reference joins. Without it, package only the committed, already
+    verified public artifacts; never rebuild a false all-pending reference from
+    missing private inputs.
     """
     source = ROOT / "research/acquisition-2026-11"
     raw_root = os.environ.get("CHANNELS_ET_RAW_ROOT")
@@ -347,7 +349,7 @@ def stage(output: Path) -> dict:
         "entry": "index.html",
         "current_dashboard": "dist/research/",
         "legacy_dashboard": "dist/",
-        "method": ("Copy checked-in dist tree; verify_site independently checks routes and hashes" if os.environ.get("CHANNELS_ET_BUILD_EXPANSION") == "0" else "Build verified expansion source, then copy the complete retained dist tree"),
+        "method": "Build verified expansion source, then copy the complete retained dist tree",
         "manifest_self_excluded": True,
         "files": files,
         "file_count": len(files),
