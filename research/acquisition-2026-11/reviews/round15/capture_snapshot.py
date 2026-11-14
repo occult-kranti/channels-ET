@@ -75,9 +75,11 @@ def main():
         str(p.relative_to(ROOT)) for p in sorted((ROOT / "research/acquisition-2026-11/analysis/figures").glob("*.svg"))
     ] + [
         str(p.relative_to(ROOT)) for p in sorted((ROOT / "research/acquisition-2026-11/chunks").glob("*.xz.b64.*"))
+    ] + [
+        str(p.relative_to(ROOT)) for p in sorted(p for p in (ROOT / "research/acquisition-2026-11").rglob("*")
+            if p.is_file() and p.suffix not in {".pyc", ".sqlite", ".png"} and "__pycache__" not in p.parts)
     ]
-    if len(paths) != len(set(paths)):
-        raise RuntimeError("Duplicate snapshot paths")
+    paths = sorted(set(paths))
     files = []
     for relative in paths:
         path = ROOT / relative
