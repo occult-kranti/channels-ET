@@ -6,14 +6,17 @@ sources-index.csv, non-bashar-public.csv, common-questions.csv, analysis.json,
 manual-review.json and the historical pilot manifest. Missing PNGs are rendered
 from committed SVG figures with rsvg-convert. Existing files are left intact.
 """
+import base64
 import csv
 import hashlib
 import json
+import lzma
 import os
 from pathlib import Path
 import shutil
 import sqlite3
 import subprocess
+import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / "research/acquisition-2026-11"
@@ -150,7 +153,36 @@ def create_sqlite(target):
     os.replace(temporary, target)
 
 
+def materialize_chunks(force=False):
+    manifest_path = SRC / "chunks/manifest.json"
+    if not manifest_path.exists():
+        return
+    manifest = json.loads(manifest_path.read_text())
+    for record in manifest["records"]:
+        chunks = []
+        for index in range(record["chunkCount"]):
+            chunk_path = SRC / "chunks" / f"{record['id']}.xz.b64.{index:03d}"
+            if not chunk_path.exists():
+                raise FileNotFoundError(chunk_path)
+            chunks.append(chunk_path.read_text())
+        compressed = base64.b64decode("".join(chunks))
+        if hashlib.sha256(compressed).hexdigest() != record["xzSha256"]:
+            raise RuntimeError(f"Compressed chunk hash mismatch: {record['path']}")
+        raw = lzma.decompress(compressed)
+        if len(raw) != record["originalBytes"] or hashlib.sha256(raw).hexdigest() != record["originalSha256"]:
+            raise RuntimeError(f"Reassembled source hash mismatch: {record['path']}")
+        target = SRC / record["path"]
+        if target.exists() and not force:
+            if target.read_bytes() != raw:
+                raise RuntimeError(f"Existing source differs from chunks: {record['path']}")
+        else:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(raw)
+
+
 def main():
+    force = "--force" in sys.argv
+    materialize_chunks(force=force)
     verification = json.loads((ANALYSIS / "verification.json").read_text())
     gate = json.loads((ANALYSIS / "gate-status.json").read_text())
     candidates = json.loads((SRC / "all-candidates.json").read_text())
@@ -162,17 +194,17 @@ def main():
         raise RuntimeError("Refusing to materialize an unverified or ungated corpus")
     (DEST / "analysis").mkdir(parents=True, exist_ok=True)
     database = DEST / "analysis/non-bashar-public.sqlite"
-    if not database.exists():
+    if force or not database.exists():
         create_sqlite(database)
         print("materialized analysis/non-bashar-public.sqlite")
     figure_destination = DEST / "figures"
     figure_destination.mkdir(parents=True, exist_ok=True)
     for svg in sorted((ANALYSIS / "figures").glob("*.svg")):
         target = figure_destination / svg.name
-        if not target.exists():
+        if force or not target.exists():
             target.write_bytes(svg.read_bytes())
         png = figure_destination / f"{svg.stem}.png"
-        if not png.exists():
+        if force or not png.exists():
             if shutil.which("rsvg-convert"):
                 subprocess.run(["rsvg-convert", str(svg), "-o", str(png)], check=True)
             else:

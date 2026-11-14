@@ -4,6 +4,7 @@ import csv
 import hashlib
 import html
 import json
+import os
 from pathlib import Path
 import shutil
 
@@ -11,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / 'research/acquisition-2026-11'
 DEST = ROOT / 'dist/research/acquisition-2026-11'
 FILES = [
-    'all-candidates.json', 'acquisition-ledger.json', 'summary.json', 'asr-summary.json',
+    'all-candidates.json', 'chunks/manifest.json', 'acquisition-ledger.json', 'summary.json', 'asr-summary.json',
     'asr-code-editions.json',
     'verification.json', 'verification-reuse.json', 'reference-summary.json',
     'channel-reference.csv', 'video-reference.csv',
@@ -28,7 +29,11 @@ def sha256(path):
 
 def assert_public_bytes(path):
     data = path.read_bytes()
-    for marker in (b'/' + b'mnt/agents/', b'/' + b'workspace/', b'/' + b'home/', b'/' + b'Users/'):
+    configured = [os.environ.get(name) for name in
+                  ('CHANNELS_ET_RAW_ROOT', 'CHANNELS_ET_AUDIT_ROOT', 'CHANNELS_ET_MODEL_CACHE')]
+    markers = [b'/' + b'mnt/agents/', b'/' + b'workspace/', b'/' + b'home/', b'/' + b'Users/']
+    markers += [value.encode() for value in configured if value]
+    for marker in markers:
         if marker in data:
             raise RuntimeError(f'Workstation path leaked into public artifact {path.name}: {marker!r}')
 
@@ -167,7 +172,7 @@ small{{color:#a9bdc9}}</style></head><body><main>
 <li><a href="channel-reference.csv">Per-channel reference CSV</a></li>
 <li><a href="reference-summary.json">Reference summary JSON</a></li>
 <li><a href="acquisition-ledger.json">Acquisition ledger</a> · <a href="summary.json">Acquisition summary</a> · <a href="asr-summary.json">ASR summary</a> · <a href="verification.json">Full audio verification</a> · <a href="verification-reuse.json">Current consistency verification</a></li>
-<li><a href="asr-code-editions.json">ASR code-edition provenance</a> (legacy snapshot gaps are explicit)</li>
+<li><a href="asr-code-editions.json">ASR code-edition provenance</a> (legacy snapshot gaps are explicit) · <a href="chunks/manifest.json">Compressed source-chunk manifest</a></li>
 <li><a href="analysis/non-bashar-public.sqlite">Public Q&A database (SQLite)</a> · <a href="analysis/non-bashar-public.csv">Q&A CSV</a></li>
 <li><a href="analysis/sources-index.csv">Source index</a> · <a href="analysis/common-questions.csv">Question families</a> · <a href="analysis/manual-review.json">AI review registry</a></li>
 <li><a href="analysis/analysis.json">Aggregate analysis</a> · <a href="analysis/qualitative-synthesis.md">Qualitative synthesis</a> · <a href="analysis/verification.json">Analysis verification</a></li>
