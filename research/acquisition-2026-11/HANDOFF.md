@@ -33,6 +33,8 @@ Candidate/reference selection labels agree for all 43 IDs, including the duplica
 - Document cosine mean/max 0.0495/0.1285. Maximum proper-name share 0.62%.
 - Answer orientation: 358 descriptive/explanatory, 129 `unclassified_default`, 61 conditional/hedged, 12 process/practice, six timing-specific and six not captured.
 - 119/119 analysis checks and 46/46 audio checks pass. The verifier recomputes every Q&A unit and all headline corpus/sensitivity statistics from the private segment index.
+- `verification-reuse.json` adds 73/73 current consistency checks with `fullHashRerun=false`: earlier full audio hashes still match acquisition/ledger receipts and current ffprobe durations. It is not presented as a new full hash run.
+- Nine legacy language-metadata records were backfilled from existing hash-bound ASR text without retranscription. The German partial is now an exact copy of the current final segment stream with a separate repair-script hash; future quarantine code preserves the current run’s partial. Legacy receipts are renamed and hash-bound separately.
 
 Do not turn lexical recurrence into semantic equivalence, repost evidence, entity agreement or truth. Uploader, practitioner, claimed entity, original session and speaker remain separate units.
 
@@ -44,7 +46,7 @@ Private locations are supplied through `CHANNELS_ET_RAW_ROOT`, `CHANNELS_ET_MODE
 2. `analysis/build.py`: gates on all 43 candidates reaching completed, excluded or held states, then writes a new candidate-bound gate only after all outputs succeed.
 3. `analysis/make_review.py`: binds the 69 verdicts to current question hashes and metadata. `analysis/apply_review.py` adds reviewed classes without exposing answer bodies.
 4. `analysis/verify.py`: validates raw artifacts and independently recomputes extraction, statistics and synthesis bindings. A nonzero failure count blocks packaging.
-5. `verify_audio.py`: validates all 35 audio files and the seven under-300 plus one language exclusions.
+5. `verify_audio.py`: validates all 35 audio files and the seven under-300 plus one language exclusions. `reuse_verified_audio.py` provides the faster current-consistency path when explicitly allowed with `CHANNELS_ET_REVERIFY_AUDIO=0`; it requires the earlier full receipt and never claims a new full hash.
 6. `build_reference.py`: joins actual audio/ASR/analysis states and computes account-membership reconciliation. It never runs when private inputs are absent in CI.
 7. `materialize_public_artifacts.py`: builds a missing public SQLite from public CSV/JSON and renders missing PNGs from SVG. It does not need private media or transcript bodies.
 8. `package_acquisition.py`: requires the exact candidate hash and passing analysis receipt, strips workstation paths, and writes the public workbench manifest.
@@ -81,6 +83,7 @@ The round-15 snapshot includes the transcriber, code-edition snapshots, model ma
 - Public artifacts contain code, metadata, aggregates, SVG/PNG figures, SQLite registries rebuilt from public rows, bounded excerpts and hashes only.
 - Converter-assisted acquisition may be subject to YouTube/provider terms. Technical feasibility does not establish download or redistribution permission.
 - Source-specific rights review is still required for raw redistribution. Kryon or Ashtar terms may allow particular releases only when followed exactly; no blanket license is inferred.
+- The separate first-party LoRA adapter is trained on AI-generated paraphrases and redistributed under its own documented terms; no third-party base-model weights are included.
 - The reported approximately 5 TB Drive allowance remains unverified. Folder creation is not a media upload.
 - No diarization, speaker verification, human WER, human annotation or human peer review is claimed.
 - Observed inventory is not a full-channel census; `uploaded_total` remains null. No completed 1,000-video crawl is claimed.
@@ -90,7 +93,7 @@ The round-15 snapshot includes the transcriber, code-edition snapshots, model ma
 
 1. Complete round 15 and resolve all blocker/high findings.
 2. Run analysis 119/119, audio 46/46, static dashboard checks, staged HTTP verification and desktop/mobile interaction checks on the final bytes.
-3. Push all source/public artifacts to `research/acquisition-2026-11-expanded`; let CI materialize and verify public SQLite/PNG outputs.
+3. Push all source/public artifacts to `research/acquisition-2026-11-expanded`; let CI materialize and verify public SQLite/PNG outputs. The GitHub token lacks workflow-file scope, so the existing checked-in-static workflow and its 10-minute budget remain unchanged; no scope bypass is attempted. The source-only fallback and 33-artifact package are verified locally for that path.
 4. Save a website preview version and inspect it. Preview is not publication.
 5. Create a draft pull request to current `main`, including the snapshot, checks, known limitations and account-reconciliation table.
 6. Only after separate user/maintainer review consider merge, Pages deployment, compact Drive/provenance uploads and any source-specific raw release.
