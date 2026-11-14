@@ -65,7 +65,7 @@ def main():
     if supplement_path.exists():
         for row in json.loads(supplement_path.read_text()):
             publisher = row['publisher']
-            aid = next((aid for account in account_by_id.items()
+            aid = next((aid for aid, account in account_by_id.items()
                         if account.get('display_name') == publisher),
                        'supplement-' + re.sub(r'[^a-z0-9]+', '-', publisher.lower()).strip('-'))
             if aid not in account_by_id:
