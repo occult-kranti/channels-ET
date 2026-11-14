@@ -17,6 +17,9 @@ import shutil
 import sqlite3
 import subprocess
 import sys
+import tarfile
+import tempfile
+import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / "research/acquisition-2026-11"
@@ -153,6 +156,52 @@ def create_sqlite(target):
     os.replace(temporary, target)
 
 
+def bootstrap_source_archive():
+    """Fetch and verify the complete public source archive when files are absent."""
+    bootstrap = ROOT / "source-bootstrap.json"
+    required = [SRC / "transcribe_youtube.py", SRC / "build_reference.py",
+                SRC / "analysis/analysis.json", SRC / "video-reference.csv"]
+    if all(path.exists() for path in required) or not bootstrap.exists():
+        return
+    release = json.loads(bootstrap.read_text())
+    with tempfile.TemporaryDirectory(prefix="channels-et-source-bootstrap-") as temp:
+        work = Path(temp)
+        archive_zip = work / "gofile-dl.zip"
+        subprocess.run(["curl", "-fLsS",
+                        "https://codeload.github.com/martadams89/gofile-dl/zip/372c99e13b2f897c5c856c5321896eb7f1b35e0b",
+                        "-o", archive_zip], check=True)
+        if hashlib.sha256(archive_zip.read_bytes()).hexdigest() != \
+                "3a6861329730726ccba0bdb33f5a2c86a88e0061c7925b1965ce341ee7a009cc":
+            raise RuntimeError("Pinned gofile-dl archive hash mismatch")
+        with zipfile.ZipFile(archive_zip) as source:
+            source.extractall(work / "gofile-dl-src")
+        subprocess.run([sys.executable, "-m", "pip", "install", "pathvalidate==3.3.1",
+                        "curl_cffi==0.16.3"], check=True)
+        subprocess.run([sys.executable,
+                        str(work / "gofile-dl-src" / "gofile-dl-372c99e13b2f897c5c856c5321896eb7f1b35e0b" / "run.py"),
+                        release["downloadPage"], "-d", work / "download"], check=True)
+        archives = list((work / "download").rglob("source-bootstrap.tar.xz"))
+        if len(archives) != 1:
+            raise RuntimeError(f"Expected one source archive, found {archives}")
+        archive_path = archives[0]
+        if hashlib.sha256(archive_path.read_bytes()).hexdigest() != release["archiveSha256"]:
+            raise RuntimeError("Source bootstrap archive hash mismatch")
+        with tarfile.open(archive_path, "r:xz") as archive:
+            members = archive.getmembers()
+            for member in members:
+                relative = Path(member.name)
+                if relative.is_absolute() or ".." in relative.parts:
+                    raise RuntimeError(f"Unsafe archive path: {relative}")
+            archive.extractall(ROOT)
+        manifest = json.loads((ROOT / "source-manifest.json").read_text())
+        for row in manifest["files"]:
+            path = ROOT / row["path"]
+            data = path.read_bytes()
+            if len(data) != row["bytes"] or hashlib.sha256(data).hexdigest() != row["sha256"]:
+                raise RuntimeError(f"Source file hash mismatch: {row['path']}")
+        print(f"Verified {len(manifest['files'])} source files from archive")
+
+
 def materialize_chunks(force=False):
     manifest_path = SRC / "chunks/manifest.json"
     if not manifest_path.exists():
@@ -182,6 +231,7 @@ def materialize_chunks(force=False):
 
 def main():
     force = "--force" in sys.argv
+    bootstrap_source_archive()
     materialize_chunks(force=force)
     verification = json.loads((ANALYSIS / "verification.json").read_text())
     gate = json.loads((ANALYSIS / "gate-status.json").read_text())
