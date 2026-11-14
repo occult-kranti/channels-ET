@@ -1,0 +1,910 @@
+{
+  "schemaVersion": 1,
+  "nChecks": 46,
+  "nPassed": 46,
+  "nFailed": 0,
+  "checks": [
+    {
+      "check": "valid audio and hash:-0w7wdn_t9I",
+      "ok": true,
+      "detail": "bytes=9834717 duration=1117.560 expected=None"
+    },
+    {
+      "check": "valid audio and hash:-8k6d9StYig",
+      "ok": true,
+      "detail": "bytes=17983653 duration=1446.576 expected=1447"
+    },
+    {
+      "check": "valid under-300 exclusion:-HH8KFobnHk",
+      "ok": true,
+      "detail": "100.056"
+    },
+    {
+      "check": "valid audio and hash:-JmMDcVVvuo",
+      "ok": true,
+      "detail": "bytes=15427413 duration=1216.008 expected=1216"
+    },
+    {
+      "check": "valid audio and hash:-KVKPRLFte4",
+      "ok": true,
+      "detail": "bytes=91187755 duration=3799.458 expected=None"
+    },
+    {
+      "check": "valid audio and hash:-ZkOuLa0nPc",
+      "ok": true,
+      "detail": "bytes=7465581 duration=582.360 expected=None"
+    },
+    {
+      "check": "valid audio and hash:-i0dfXWr9Vk",
+      "ok": true,
+      "detail": "bytes=88762128 duration=3698.390 expected=None"
+    },
+    {
+      "check": "valid audio and hash:-leIq8XP15k",
+      "ok": true,
+      "detail": "bytes=4752645 duration=605.880 expected=None"
+    },
+    {
+      "check": "valid audio and hash:-o4q27DpxaA",
+      "ok": true,
+      "detail": "bytes=21325197 duration=2925.384 expected=None"
+    },
+    {
+      "check": "valid audio and hash:-rdfCWf8WnA",
+      "ok": true,
+      "detail": "bytes=10267005 duration=1272.096 expected=None"
+    },
+    {
+      "check": "valid audio and hash:0DoOerBuWaQ",
+      "ok": true,
+      "detail": "bytes=108819781 duration=4534.126 expected=None"
+    },
+    {
+      "check": "valid audio and hash:0wlfYecWQ74",
+      "ok": true,
+      "detail": "bytes=11080677 duration=1322.904 expected=None"
+    },
+    {
+      "check": "valid audio and hash:1UufR6Wn9z8",
+      "ok": true,
+      "detail": "bytes=4335885 duration=368.328 expected=368"
+    },
+    {
+      "check": "valid audio and hash:1XnCFCcbunc",
+      "ok": true,
+      "detail": "bytes=92071738 duration=3836.291 expected=3836"
+    },
+    {
+      "check": "valid audio and hash:6GsKmBdXOtI",
+      "ok": true,
+      "detail": "bytes=110105632 duration=4587.703 expected=None"
+    },
+    {
+      "check": "valid under-300 exclusion:6eZDJwSzj3Y",
+      "ok": true,
+      "detail": "106.56"
+    },
+    {
+      "check": "valid audio and hash:BYdEYcZTzL0",
+      "ok": true,
+      "detail": "bytes=10044117 duration=738.048 expected=None"
+    },
+    {
+      "check": "valid under-300 exclusion:DfBrQbKIWHg",
+      "ok": true,
+      "detail": "181.176"
+    },
+    {
+      "check": "valid audio and hash:DnPz1smStuI",
+      "ok": true,
+      "detail": "bytes=7832493 duration=871.752 expected=None"
+    },
+    {
+      "check": "valid under-300 exclusion:GV8PXtHeBk8",
+      "ok": true,
+      "detail": "165.72"
+    },
+    {
+      "check": "valid audio and hash:IAwFjL6t564",
+      "ok": true,
+      "detail": "bytes=12603405 duration=931.992 expected=None"
+    },
+    {
+      "check": "valid audio and hash:IfGS1M7H5Bk",
+      "ok": true,
+      "detail": "bytes=29052285 duration=3406.464 expected=None"
+    },
+    {
+      "check": "valid audio and hash:PWeUvXtTKqc",
+      "ok": true,
+      "detail": "bytes=89560848 duration=3731.670 expected=None"
+    },
+    {
+      "check": "valid under-300 exclusion:Rus5nLjg8ZE",
+      "ok": true,
+      "detail": "270.072"
+    },
+    {
+      "check": "valid audio and hash:Szm3XXEoNVw",
+      "ok": true,
+      "detail": "bytes=10344621 duration=783.024 expected=None"
+    },
+    {
+      "check": "valid under-300 exclusion:VvOZKNFKbmo",
+      "ok": true,
+      "detail": "76.68"
+    },
+    {
+      "check": "valid audio and hash:aAKOFyq655I",
+      "ok": true,
+      "detail": "bytes=11577501 duration=851.832 expected=None"
+    },
+    {
+      "check": "valid audio and hash:cI0Doainsl4",
+      "ok": true,
+      "detail": "bytes=10693149 duration=780.000 expected=None"
+    },
+    {
+      "check": "valid audio and hash:ctgvKZcIWIg",
+      "ok": true,
+      "detail": "bytes=96433978 duration=4018.051 expected=None"
+    },
+    {
+      "check": "valid audio and hash:eh4dvev6-zo",
+      "ok": true,
+      "detail": "bytes=4919157 duration=556.920 expected=None"
+    },
+    {
+      "check": "valid audio and hash:fCE8_aaWfwc",
+      "ok": true,
+      "detail": "bytes=9660693 duration=720.792 expected=None"
+    },
+    {
+      "check": "valid audio and hash:fXKa6vguKEE",
+      "ok": true,
+      "detail": "bytes=138243271 duration=5760.104 expected=None"
+    },
+    {
+      "check": "valid audio and hash:feOgHmYKDkQ",
+      "ok": true,
+      "detail": "bytes=24122853 duration=2521.128 expected=None"
+    },
+    {
+      "check": "valid audio and hash:g8jAMtGdQDA",
+      "ok": true,
+      "detail": "bytes=8369181 duration=915.696 expected=None"
+    },
+    {
+      "check": "valid audio and hash:gyfdhVl5Ino",
+      "ok": true,
+      "detail": "bytes=10238781 duration=719.496 expected=None"
+    },
+    {
+      "check": "valid under-300 exclusion:hSlyR0POnFw",
+      "ok": true,
+      "detail": "116.064"
+    },
+    {
+      "check": "valid audio and hash:ole79YMEZ3k",
+      "ok": true,
+      "detail": "bytes=128457384 duration=5352.359 expected=None"
+    },
+    {
+      "check": "valid audio and hash:oo0vpCtR804",
+      "ok": true,
+      "detail": "bytes=41205357 duration=2766.072 expected=None"
+    },
+    {
+      "check": "valid audio and hash:pMkSD-ypZAA",
+      "ok": true,
+      "detail": "bytes=32188749 duration=3375.552 expected=None"
+    },
+    {
+      "check": "valid audio and hash:uHU7I5A92K0",
+      "ok": true,
+      "detail": "bytes=18588871 duration=774.504 expected=None"
+    },
+    {
+      "check": "valid audio and hash:w3ic_SkbO7Y",
+      "ok": true,
+      "detail": "bytes=6301845 duration=740.640 expected=None"
+    },
+    {
+      "check": "valid audio and hash:widNthTctcU",
+      "ok": true,
+      "detail": "bytes=28063053 duration=2270.208 expected=None"
+    },
+    {
+      "check": "acquisition ledger exists",
+      "ok": true,
+      "detail": "acquisition-ledger.json"
+    },
+    {
+      "check": "completed plus excluded-language media equals validated audio",
+      "ok": true,
+      "detail": "completed=34 excludedLanguage=1 media=35"
+    },
+    {
+      "check": "under-300 exclusions are explicit and not counted as completed",
+      "ok": true,
+      "detail": "excluded=7"
+    },
+    {
+      "check": "one German/unsupported-language quarantine is explicit",
+      "ok": true,
+      "detail": "excluded=1"
+    }
+  ],
+  "validatedMedia": [
+    {
+      "videoId": "-0w7wdn_t9I",
+      "bytes": 9834717,
+      "sha256": "6ed13e73c5b4dc5b0016f55c36a37495eca96817c445b03245e0cf802566ebbf",
+      "durationSeconds": 1117.56,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1117.560000"
+        }
+      }
+    },
+    {
+      "videoId": "-8k6d9StYig",
+      "bytes": 17983653,
+      "sha256": "ce8e0bdd7049bafcd65ed24b3098a7e8e0c3582de0a338590a6437b1e87039fa",
+      "durationSeconds": 1446.576,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1446.576000"
+        }
+      }
+    },
+    {
+      "videoId": "-JmMDcVVvuo",
+      "bytes": 15427413,
+      "sha256": "5ca74b62c71f29c6b68ddd06c8bd036d73dab68ea5a71a11c78ffeb55cf061b9",
+      "durationSeconds": 1216.008,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1216.008000"
+        }
+      }
+    },
+    {
+      "videoId": "-KVKPRLFte4",
+      "bytes": 91187755,
+      "sha256": "fdab53903c4c2d2433428a01361e39ea1ae4027179e763ce7f5992bc7c513087",
+      "durationSeconds": 3799.457959,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "3799.457959"
+        }
+      }
+    },
+    {
+      "videoId": "-ZkOuLa0nPc",
+      "bytes": 7465581,
+      "sha256": "f20b556e37f3780e969afcb68706e542b19ce0a36f837b19ba0f7ec6af3a48b1",
+      "durationSeconds": 582.36,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "582.360000"
+        }
+      }
+    },
+    {
+      "videoId": "-i0dfXWr9Vk",
+      "bytes": 88762128,
+      "sha256": "30ea5bf83422a0fe4066d62f93c6b0ec1a92a4a0871240c870c42e7e3787d490",
+      "durationSeconds": 3698.390204,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "3698.390204"
+        }
+      }
+    },
+    {
+      "videoId": "-leIq8XP15k",
+      "bytes": 4752645,
+      "sha256": "acec183a198672d51cee457f40f8d4758b316ad89c125a24d9c7d266983d68a8",
+      "durationSeconds": 605.88,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "605.880000"
+        }
+      }
+    },
+    {
+      "videoId": "-o4q27DpxaA",
+      "bytes": 21325197,
+      "sha256": "b7277d32fb3125a3d1f43769f8945b2d64666a147e3bc649b0ed2c4627931835",
+      "durationSeconds": 2925.384,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2925.384000"
+        }
+      }
+    },
+    {
+      "videoId": "-rdfCWf8WnA",
+      "bytes": 10267005,
+      "sha256": "59d46ca8826263b18fab383db0d7731c2128936028c7b39c8c4e985ba74423fa",
+      "durationSeconds": 1272.096,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1272.096000"
+        }
+      }
+    },
+    {
+      "videoId": "0DoOerBuWaQ",
+      "bytes": 108819781,
+      "sha256": "a00889325754edda66050a2aaa8835360eecd600f52b6d2f3e4f6f7fac4a5325",
+      "durationSeconds": 4534.125714,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "4534.125714"
+        }
+      }
+    },
+    {
+      "videoId": "0wlfYecWQ74",
+      "bytes": 11080677,
+      "sha256": "f44005dda39b469b51d14f1a9d9d3c1348a6c4a644e035a2b21ac41972620d95",
+      "durationSeconds": 1322.904,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1322.904000"
+        }
+      }
+    },
+    {
+      "videoId": "1UufR6Wn9z8",
+      "bytes": 4335885,
+      "sha256": "9feeb2306732b98e479bd414239c4fdf5e0a44fdc95d14efe17b9797374c802b",
+      "durationSeconds": 368.328,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "368.328000"
+        }
+      }
+    },
+    {
+      "videoId": "1XnCFCcbunc",
+      "bytes": 92071738,
+      "sha256": "d18d01f90c520ff392019247a2d77bb17a87526f9d23321d2d23cd62f0ca9bce",
+      "durationSeconds": 3836.290612,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "3836.290612"
+        }
+      }
+    },
+    {
+      "videoId": "6GsKmBdXOtI",
+      "bytes": 110105632,
+      "sha256": "9d6c028fb9b71a8e88a4ac42863d90d32296b24765dded3b078348ba5ebc765d",
+      "durationSeconds": 4587.702857,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "4587.702857"
+        }
+      }
+    },
+    {
+      "videoId": "BYdEYcZTzL0",
+      "bytes": 10044117,
+      "sha256": "a190389bb8071d6ea582042a07425ae6d5dfc01b4b2a61eaef017693c416265e",
+      "durationSeconds": 738.048,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "738.048000"
+        }
+      }
+    },
+    {
+      "videoId": "DnPz1smStuI",
+      "bytes": 7832493,
+      "sha256": "11c6fbdaec134d3b339679e6e8a56273c058d6d704f7b816bae250d0a0bb1477",
+      "durationSeconds": 871.752,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "871.752000"
+        }
+      }
+    },
+    {
+      "videoId": "IAwFjL6t564",
+      "bytes": 12603405,
+      "sha256": "bf24a34164f6a92a9c9e05d39cc3c9e793c88dad5de73332fa6aacdaef4ff21b",
+      "durationSeconds": 931.992,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "931.992000"
+        }
+      }
+    },
+    {
+      "videoId": "IfGS1M7H5Bk",
+      "bytes": 29052285,
+      "sha256": "fa17226a1e90f14da004cbd3976ed74611894e916a46f17d93d610661461c0ff",
+      "durationSeconds": 3406.464,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "3406.464000"
+        }
+      }
+    },
+    {
+      "videoId": "PWeUvXtTKqc",
+      "bytes": 89560848,
+      "sha256": "5cdbda501ca4e359500387d16b958e8e00df8a1fcd0366d34c27bdfb9ef79c2e",
+      "durationSeconds": 3731.670204,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "3731.670204"
+        }
+      }
+    },
+    {
+      "videoId": "Szm3XXEoNVw",
+      "bytes": 10344621,
+      "sha256": "d7533b68ef7e340e4b8c2c871ee1cc7423cb3e051b1e385295425334adaa120a",
+      "durationSeconds": 783.024,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "783.024000"
+        }
+      }
+    },
+    {
+      "videoId": "aAKOFyq655I",
+      "bytes": 11577501,
+      "sha256": "f1edc47664667a569ec01f5b83ee239a680a902db5832c91efcd9e4c0ac7bd04",
+      "durationSeconds": 851.832,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "851.832000"
+        }
+      }
+    },
+    {
+      "videoId": "cI0Doainsl4",
+      "bytes": 10693149,
+      "sha256": "f6951ab662c71f1e9f786142e8094c5bd20f8569e76fe63a008495a188067af2",
+      "durationSeconds": 780.0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "780.000000"
+        }
+      }
+    },
+    {
+      "videoId": "ctgvKZcIWIg",
+      "bytes": 96433978,
+      "sha256": "c71d5fcf23e1e69abdc18fcdfe6f50ca6f03f3b1e65c06bd8620e4c3e03c6a52",
+      "durationSeconds": 4018.050612,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "4018.050612"
+        }
+      }
+    },
+    {
+      "videoId": "eh4dvev6-zo",
+      "bytes": 4919157,
+      "sha256": "6e10acde8d408d102d0f016fff32210eb8aaaec8ff5d6dfa233ed3df59024ac1",
+      "durationSeconds": 556.92,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "556.920000"
+        }
+      }
+    },
+    {
+      "videoId": "fCE8_aaWfwc",
+      "bytes": 9660693,
+      "sha256": "b86710ebf01660a2b116a00a166cd1e0f793d815ef9e3cdef5137af569fc338e",
+      "durationSeconds": 720.792,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "720.792000"
+        }
+      }
+    },
+    {
+      "videoId": "fXKa6vguKEE",
+      "bytes": 138243271,
+      "sha256": "ba9da424373184a062cf5824d15443fb1ba31df4333de76b4d26658f3213f67a",
+      "durationSeconds": 5760.10449,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "5760.104490"
+        }
+      }
+    },
+    {
+      "videoId": "feOgHmYKDkQ",
+      "bytes": 24122853,
+      "sha256": "1c9303e28f00b13ed819f9c2f88dc28093122a38ff2df9733d5012118db7928c",
+      "durationSeconds": 2521.128,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2521.128000"
+        }
+      }
+    },
+    {
+      "videoId": "g8jAMtGdQDA",
+      "bytes": 8369181,
+      "sha256": "4a7a62aee5807b31fd05e4866de6f8dcf4444e64be897ccb6b9a467ad214be56",
+      "durationSeconds": 915.696,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "915.696000"
+        }
+      }
+    },
+    {
+      "videoId": "gyfdhVl5Ino",
+      "bytes": 10238781,
+      "sha256": "c99b17e109cdfb65060e3fc08d1bef33248280f636b2014774f63157ec4f0fca",
+      "durationSeconds": 719.496,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "719.496000"
+        }
+      }
+    },
+    {
+      "videoId": "ole79YMEZ3k",
+      "bytes": 128457384,
+      "sha256": "f854daf845d27dc290f2be1f03e1173c2255dbdb5d002665473b09dd21bb0070",
+      "durationSeconds": 5352.359184,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "5352.359184"
+        }
+      }
+    },
+    {
+      "videoId": "oo0vpCtR804",
+      "bytes": 41205357,
+      "sha256": "46cf167d575d0c4b955129394e0150156b969a24a9b9736dd82b3954f4228d41",
+      "durationSeconds": 2766.072,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2766.072000"
+        }
+      }
+    },
+    {
+      "videoId": "pMkSD-ypZAA",
+      "bytes": 32188749,
+      "sha256": "cb028945978d236f0f370c97c54a04bec0c8bb0d1a03a661d4c3af33ad757df8",
+      "durationSeconds": 3375.552,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "3375.552000"
+        }
+      }
+    },
+    {
+      "videoId": "uHU7I5A92K0",
+      "bytes": 18588871,
+      "sha256": "ba3ba544e35f9972515cb4c23a324c2d7e60232a332aa4b0bc396fa82407e845",
+      "durationSeconds": 774.50449,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "774.504490"
+        }
+      }
+    },
+    {
+      "videoId": "w3ic_SkbO7Y",
+      "bytes": 6301845,
+      "sha256": "bd6876d7e5686c9201fa05051f4b7c9fd921097c0c5cc8d2e44da0301a47941e",
+      "durationSeconds": 740.64,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "740.640000"
+        }
+      }
+    },
+    {
+      "videoId": "widNthTctcU",
+      "bytes": 28063053,
+      "sha256": "ac9a2d99111f98c5bb0993a49ede1abe06deaa92988afe99ac5342fd8df80649",
+      "durationSeconds": 2270.208,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2270.208000"
+        }
+      }
+    }
+  ],
+  "totals": {
+    "files": 35,
+    "bytes": 1321921399,
+    "durationSeconds": 73899.368326
+  }
+}

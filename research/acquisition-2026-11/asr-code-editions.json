@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "reusePolicy": "A prior result may be reused only when its code hash is allowlisted here, its audio hash and pinned settings match, and every declared output file recomputes to the receipt hash. For legacy editions without a source snapshot, this is artifact reuse, not a claim of source-code equivalence.",
+  "editions": [
+    {
+      "sha256": "91b7e8d6f2133dd59a43ecd0bd277335567831eac2f752c3c407f19b8121e6ce",
+      "status": "legacy_receipt_hash_snapshot_unavailable",
+      "snapshotPath": null,
+      "sourceSnapshotVerified": false,
+      "compatibleReuse": true
+    },
+    {
+      "sha256": "7f35d38ea2404fc602d0b90d7d8a867d09617996b7a239a8a585f80bd24a1dbf",
+      "status": "legacy_receipt_hash_snapshot_unavailable",
+      "snapshotPath": null,
+      "sourceSnapshotVerified": false,
+      "compatibleReuse": true
+    },
+    {
+      "sha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+      "status": "legacy_receipt_hash_snapshot_unavailable",
+      "snapshotPath": null,
+      "sourceSnapshotVerified": false,
+      "compatibleReuse": true
+    },
+    {
+      "sha256": "502157e1909866f96b6e765c39ea8a2b25c24a23108fdc925deb7a74614e09d1",
+      "status": "legacy_receipt_hash_snapshot_unavailable",
+      "snapshotPath": null,
+      "sourceSnapshotVerified": false,
+      "compatibleReuse": true
+    },
+    {
+      "sha256": "892ebae9b35383f98a8074c2749bf9e9b4b610651824c6dad3c10ec8103ac3ab",
+      "status": "source_snapshot_verified",
+      "snapshotPath": "research/acquisition-2026-11/code-editions/transcribe_youtube.pre_quarantine.py",
+      "sourceSnapshotVerified": true,
+      "compatibleReuse": true,
+      "snapshotSha256": "a1828b99ef2107b35b7ade8795219a330a8e3e166d2781565e54e78518fb1b3e",
+      "snapshotTransformation": "path redaction only; original receipt code hash retained separately"
+    },
+    {
+      "sha256": "3a41c113ea0f9c17be131c51826b22e658841f234d303d4911ed9e0ffe9cb102",
+      "status": "source_snapshot_verified",
+      "snapshotPath": "research/acquisition-2026-11/code-editions/transcribe_youtube.quarantine_hash.py",
+      "sourceSnapshotVerified": true,
+      "compatibleReuse": true,
+      "snapshotSha256": "08dea4af55c0e777b4add8edd7c402828e65b16e0d3a1d399799310f23cc0dc3",
+      "snapshotTransformation": "path redaction only; original receipt code hash retained separately"
+    },
+    {
+      "sha256": "5ed6c732dd83beaf491837808fcb02540a7a88945e876bcc1a7b8be6b1f27272",
+      "status": "source_snapshot_verified",
+      "snapshotPath": "research/acquisition-2026-11/code-editions/transcribe_youtube.candidate_atomic.py",
+      "sourceSnapshotVerified": true,
+      "compatibleReuse": true,
+      "snapshotSha256": "1e95816867b722597a1e20fc0defd6f69d56e08a6b377ecdb6f4100942129c09",
+      "snapshotTransformation": "path redaction only; original receipt code hash retained separately"
+    },
+    {
+      "sha256": "e53d2d5e85d4c1936e2f5ae37e51f81773b16034752815956e53ebfed916865c",
+      "status": "source_snapshot_verified",
+      "snapshotPath": "research/acquisition-2026-11/code-editions/transcribe_youtube.quarantine_atomic.py",
+      "sourceSnapshotVerified": true,
+      "compatibleReuse": true,
+      "snapshotSha256": "1f1bbeca6f000d77a00831a6d7a416a15283708f9b553f2b481b9c4ed1b1d042",
+      "snapshotTransformation": "path redaction only; original receipt code hash retained separately"
+    },
+    {
+      "sha256": "009c55c99844aed02cf223fef1877dec6f9a44fc86ec0b31da53809178b611b3",
+      "status": "source_snapshot_verified",
+      "snapshotPath": "research/acquisition-2026-11/code-editions/transcribe_youtube.public_summary.py",
+      "sourceSnapshotVerified": true,
+      "compatibleReuse": true,
+      "snapshotSha256": "009c55c99844aed02cf223fef1877dec6f9a44fc86ec0b31da53809178b611b3",
+      "snapshotTransformation": "none; snapshot bytes equal receipt code edition"
+    }
+  ],
+  "snapshotPolicy": "Public archival snapshots are path-redacted where necessary. sha256 preserves the original receipt code edition; snapshotSha256 binds the public archival file. Path redaction is documented and does not assert byte-for-byte identity when hashes differ."
+}
