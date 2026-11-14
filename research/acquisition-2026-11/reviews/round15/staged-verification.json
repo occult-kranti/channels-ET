@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-11-14T00:58:46.834662+00:00",
+  "checked_at_utc": "2026-11-14T02:31:37.244303+00:00",
   "status": "passed",
-  "local_files_verified": 507,
+  "local_files_verified": 509,
   "prefix_http": {
-    "base_url": "http://127.0.0.1:37647/channels-ET/",
-    "source_commit": "bf6a40f01fd693da00ecce6a6752273985df95a3",
+    "base_url": "http://127.0.0.1:34589/channels-ET/",
+    "source_commit": "1f370edd314c353398ecafaee7c8325f9ef6489f",
     "static_inputs_dirty": true,
     "routes": [
       {
@@ -100,20 +100,20 @@
       {
         "route": "dist/research/acquisition-2026-11/index.html",
         "status": 200,
-        "bytes": 41252,
-        "sha256": "059a7b1bf83c39eabba666526babc2c553f8fb8716c72910e5111e283ee4cbb0"
+        "bytes": 41385,
+        "sha256": "0c55aa246fdb2ec77b6f5ad1b0b1e3b06ad8d626e2f254419a976cd98ebb9739"
       },
       {
         "route": "dist/research/acquisition-2026-11/manifest.json",
         "status": 200,
-        "bytes": 5603,
-        "sha256": "02c86927e75b122ec3f10528a36ebe9b7b150382fccf54b5f269214f51e44825"
+        "bytes": 5915,
+        "sha256": "e11aea2093845fabbb90db9a517c64b4ad4048e8deb67e6a3fce719d3b614012"
       },
       {
         "route": "dist/research/acquisition-2026-11/reference-summary.json",
         "status": 200,
         "bytes": 2169,
-        "sha256": "5ddea66ca94e711889f91c1c02263dbd2243990724ff6c685e25b5236e850b07"
+        "sha256": "c38a51164971c113ff590258d198d4d90dd4a021260b1cbee82f85c890d504cb"
       },
       {
         "route": "dist/research/acquisition-2026-11/analysis/analysis.json",
@@ -496,8 +496,8 @@
       {
         "route": "dist/research/acquisition-2026-11/chunks/manifest.json",
         "status": 200,
-        "bytes": 7558,
-        "sha256": "3a94770585781914f26c1c52c95efa9288586b827643de7a933482bd01953fb6"
+        "bytes": 10088,
+        "sha256": "26efb174edd7ff6cafd1e9621e9bba37ca69d28664a56bea998621e511c7a073"
       },
       {
         "route": "dist/research/acquisition-2026-11/figures/fig1_corpus_source_coverage.png",
@@ -572,6 +572,18 @@
         "sha256": "b6f1754953ce0b8884f4c69699ac852711a51353da72973fecbbefb636936eea"
       },
       {
+        "route": "dist/research/acquisition-2026-11/source-bootstrap.json",
+        "status": 200,
+        "bytes": 297,
+        "sha256": "1ec20a847bd191768cab2cc90a927dade506423ac1a65b3e053a230797f32bb4"
+      },
+      {
+        "route": "dist/research/acquisition-2026-11/source-manifest.json",
+        "status": 200,
+        "bytes": 33523,
+        "sha256": "bd31991e5c0de9a0d5e4054599b80f5df364b011f951c58fd555fa1b81da2abc"
+      },
+      {
         "route": "dist/research/acquisition-2026-11/summary.json",
         "status": 200,
         "bytes": 531,
@@ -581,7 +593,7 @@
         "route": "dist/research/acquisition-2026-11/verification-reuse.json",
         "status": 200,
         "bytes": 18562,
-        "sha256": "87643d26846985bad87d6d41be647ad8b588aaa15549e7f0cc212b16e9ab3b9b"
+        "sha256": "b3ad554b3c65fd8bf99226e4796b9e872ea0480a249cf90d2aa50bb51689d274"
       },
       {
         "route": "dist/research/acquisition-2026-11/verification.json",
@@ -1157,7 +1169,7 @@
     "acquisition_2026_11_checks": {
       "status": "passed",
       "scope": "Public metadata/hash/aggregate reconciliation only; no media or full transcript bodies fetched",
-      "package_artifacts": 34,
+      "package_artifacts": 36,
       "observed_videos": 2840,
       "observed_accounts": 302,
       "candidates": 43,
@@ -1186,5 +1198,5 @@
       "youtube_downloaded_videos": 0
     }
   },
-  "source_commit": "bf6a40f01fd693da00ecce6a6752273985df95a3"
+  "source_commit": "1f370edd314c353398ecafaee7c8325f9ef6489f"
 }

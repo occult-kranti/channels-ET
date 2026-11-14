@@ -4,39 +4,6 @@
   "chunkBytes": 60000,
   "records": [
     {
-      "id": "21fbf0d208631e86",
-      "path": "video-reference.csv",
-      "originalBytes": 792008,
-      "originalSha256": "740e9c371a599802184e6258d8d7448524af234f817cd1bc4ff22ceb76af41f1",
-      "xzBytes": 77252,
-      "xzSha256": "f7dd30ed0751c29f6bd77e1a472237591bc63ee4bb8863c054a9679eb9847ed7",
-      "base64Bytes": 103004,
-      "chunkCount": 2,
-      "chunkBytes": 60000
-    },
-    {
-      "id": "3044d3cfbb4e6984",
-      "path": "channel-reference.csv",
-      "originalBytes": 108612,
-      "originalSha256": "917c285dd174598147a1f84314cc348520401489b12fd5bd43fd98e22a338a31",
-      "xzBytes": 18244,
-      "xzSha256": "e0ed15cb0f28ec4a9585f22201e7a52da55b43b07dacd1e50e99f50aa749d13c",
-      "base64Bytes": 24328,
-      "chunkCount": 1,
-      "chunkBytes": 60000
-    },
-    {
-      "id": "803a2e4573c19098",
-      "path": "asr-summary.json",
-      "originalBytes": 94218,
-      "originalSha256": "57f34c0e16cbaf3f93077414273c3a720b21b77a66790577d7c73d2e7e6fd67e",
-      "xzBytes": 11524,
-      "xzSha256": "ab5c4260ef453e3935c3abccb05cc67ce737542a332d27fdc67d9e6bac70f735",
-      "base64Bytes": 15368,
-      "chunkCount": 1,
-      "chunkBytes": 60000
-    },
-    {
       "id": "1ca312036993c76c",
       "path": "analysis/analysis.json",
       "originalBytes": 182331,
@@ -45,28 +12,6 @@
       "xzSha256": "637f6d3ee7bf052e8226ab43377fb0c6189f221b8e5d852c9aa8b70764753238",
       "base64Bytes": 26120,
       "chunkCount": 1,
-      "chunkBytes": 60000
-    },
-    {
-      "id": "687913e8d1b896bb",
-      "path": "analysis/non-bashar-public.csv",
-      "originalBytes": 192581,
-      "originalSha256": "3d18212b9c8f6ebf8de6252a1b1ca417aa752223fade080e9e560162fcb29b1c",
-      "xzBytes": 54876,
-      "xzSha256": "aabc7e18c6f488b6faf623bdb582c99607255bb090b3ff6b474fff98ad9f18a1",
-      "base64Bytes": 73168,
-      "chunkCount": 2,
-      "chunkBytes": 60000
-    },
-    {
-      "id": "113e1c9c516ecc15",
-      "path": "analysis/non-bashar-public.sqlite",
-      "originalBytes": 417792,
-      "originalSha256": "8fb6d2cfe80bc488943e5e15a5b4e0e49fad7a0ee70caf561de4250ed3a4adc2",
-      "xzBytes": 89412,
-      "xzSha256": "c4ba87cb3174c68f256ff1cfc7944725e751986e581b30a95c6ba35458dedd6f",
-      "base64Bytes": 119216,
-      "chunkCount": 2,
       "chunkBytes": 60000
     },
     {
@@ -199,6 +144,127 @@
       "xzSha256": "16bc27ff8347571d96b4f96d688867174e11d0acb719c4e3f94221bfad3575fd",
       "base64Bytes": 18432,
       "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "687913e8d1b896bb",
+      "path": "analysis/non-bashar-public.csv",
+      "originalBytes": 192581,
+      "originalSha256": "3d18212b9c8f6ebf8de6252a1b1ca417aa752223fade080e9e560162fcb29b1c",
+      "xzBytes": 54876,
+      "xzSha256": "aabc7e18c6f488b6faf623bdb582c99607255bb090b3ff6b474fff98ad9f18a1",
+      "base64Bytes": 73168,
+      "chunkCount": 2,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "113e1c9c516ecc15",
+      "path": "analysis/non-bashar-public.sqlite",
+      "originalBytes": 417792,
+      "originalSha256": "8fb6d2cfe80bc488943e5e15a5b4e0e49fad7a0ee70caf561de4250ed3a4adc2",
+      "xzBytes": 89412,
+      "xzSha256": "c4ba87cb3174c68f256ff1cfc7944725e751986e581b30a95c6ba35458dedd6f",
+      "base64Bytes": 119216,
+      "chunkCount": 2,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "803a2e4573c19098",
+      "path": "asr-summary.json",
+      "originalBytes": 94218,
+      "originalSha256": "57f34c0e16cbaf3f93077414273c3a720b21b77a66790577d7c73d2e7e6fd67e",
+      "xzBytes": 11524,
+      "xzSha256": "ab5c4260ef453e3935c3abccb05cc67ce737542a332d27fdc67d9e6bac70f735",
+      "base64Bytes": 15368,
+      "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "3044d3cfbb4e6984",
+      "path": "channel-reference.csv",
+      "originalBytes": 108612,
+      "originalSha256": "917c285dd174598147a1f84314cc348520401489b12fd5bd43fd98e22a338a31",
+      "xzBytes": 18244,
+      "xzSha256": "e0ed15cb0f28ec4a9585f22201e7a52da55b43b07dacd1e50e99f50aa749d13c",
+      "base64Bytes": 24328,
+      "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "a93c901b6f0efe38",
+      "path": "code-editions/transcribe_youtube.candidate_atomic.py",
+      "originalBytes": 18332,
+      "originalSha256": "1e95816867b722597a1e20fc0defd6f69d56e08a6b377ecdb6f4100942129c09",
+      "xzBytes": 5572,
+      "xzSha256": "cfddaf3b530f8c4a4efe90f96e9e6b8c66f9b34fa5dfffdbbf5b3f88ba0a4af1",
+      "base64Bytes": 7432,
+      "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "9f73f04b26b4b545",
+      "path": "code-editions/transcribe_youtube.pre_quarantine.py",
+      "originalBytes": 14939,
+      "originalSha256": "a1828b99ef2107b35b7ade8795219a330a8e3e166d2781565e54e78518fb1b3e",
+      "xzBytes": 4884,
+      "xzSha256": "6630f74edb56781d6c1f73b29b1d9713127d7215c4ace7346ac63fe74e736c40",
+      "base64Bytes": 6512,
+      "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "b062b3901c3c1bc9",
+      "path": "code-editions/transcribe_youtube.public_summary.py",
+      "originalBytes": 20039,
+      "originalSha256": "009c55c99844aed02cf223fef1877dec6f9a44fc86ec0b31da53809178b611b3",
+      "xzBytes": 5976,
+      "xzSha256": "0c84a9366457d772768c37c49955267db6485e72c87fc4df6e46af71e86d7fb6",
+      "base64Bytes": 7968,
+      "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "10abc0f22878731d",
+      "path": "code-editions/transcribe_youtube.quarantine_atomic.py",
+      "originalBytes": 19120,
+      "originalSha256": "1f1bbeca6f000d77a00831a6d7a416a15283708f9b553f2b481b9c4ed1b1d042",
+      "xzBytes": 5684,
+      "xzSha256": "cce29c3cb7d958f0eb769d904e9c4fcbb6481e9d20cfeebb89d86d9774967b6a",
+      "base64Bytes": 7580,
+      "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "79d2b9380e664303",
+      "path": "code-editions/transcribe_youtube.quarantine_hash.py",
+      "originalBytes": 15180,
+      "originalSha256": "08dea4af55c0e777b4add8edd7c402828e65b16e0d3a1d399799310f23cc0dc3",
+      "xzBytes": 4904,
+      "xzSha256": "7d476bf4b293c7c844132c1d3b4924efe631a41be8f61e730c228209401a26e9",
+      "base64Bytes": 6540,
+      "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "5007da0b75301407",
+      "path": "code-editions/transcribe_youtube.quarantine_partial.py",
+      "originalBytes": 21121,
+      "originalSha256": "685de8650b5259ba0a7bfbac561c6fd544facfbf737fa9f41bb5eb9a4e234f03",
+      "xzBytes": 6224,
+      "xzSha256": "4b7d5ec6a09636ab00f636e9422ba482a4ccc0023a68f68f58b926d1eb4bb568",
+      "base64Bytes": 8300,
+      "chunkCount": 1,
+      "chunkBytes": 60000
+    },
+    {
+      "id": "21fbf0d208631e86",
+      "path": "video-reference.csv",
+      "originalBytes": 792008,
+      "originalSha256": "740e9c371a599802184e6258d8d7448524af234f817cd1bc4ff22ceb76af41f1",
+      "xzBytes": 77252,
+      "xzSha256": "f7dd30ed0751c29f6bd77e1a472237591bc63ee4bb8863c054a9679eb9847ed7",
+      "base64Bytes": 103004,
+      "chunkCount": 2,
       "chunkBytes": 60000
     }
   ]

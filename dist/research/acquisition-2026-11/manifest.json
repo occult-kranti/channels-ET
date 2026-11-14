@@ -8,8 +8,18 @@
     },
     {
       "path": "chunks/manifest.json",
-      "bytes": 7558,
-      "sha256": "3a94770585781914f26c1c52c95efa9288586b827643de7a933482bd01953fb6"
+      "bytes": 10088,
+      "sha256": "26efb174edd7ff6cafd1e9621e9bba37ca69d28664a56bea998621e511c7a073"
+    },
+    {
+      "path": "source-bootstrap.json",
+      "bytes": 297,
+      "sha256": "1ec20a847bd191768cab2cc90a927dade506423ac1a65b3e053a230797f32bb4"
+    },
+    {
+      "path": "source-manifest.json",
+      "bytes": 33523,
+      "sha256": "bd31991e5c0de9a0d5e4054599b80f5df364b011f951c58fd555fa1b81da2abc"
     },
     {
       "path": "acquisition-ledger.json",
@@ -39,12 +49,12 @@
     {
       "path": "verification-reuse.json",
       "bytes": 18562,
-      "sha256": "740ffb6fef759b67b275f48337021ba53a8bbf0296a76dbe0bee6821532f7757"
+      "sha256": "b3ad554b3c65fd8bf99226e4796b9e872ea0480a249cf90d2aa50bb51689d274"
     },
     {
       "path": "reference-summary.json",
       "bytes": 2169,
-      "sha256": "9ab31cd8385295f3b6d1ff2c6e6954feb6117160a93b2808b36b48264b6f3db9"
+      "sha256": "c38a51164971c113ff590258d198d4d90dd4a021260b1cbee82f85c890d504cb"
     },
     {
       "path": "channel-reference.csv",
@@ -168,8 +178,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 41252,
-      "sha256": "059a7b1bf83c39eabba666526babc2c553f8fb8716c72910e5111e283ee4cbb0"
+      "bytes": 41385,
+      "sha256": "0c55aa246fdb2ec77b6f5ad1b0b1e3b06ad8d626e2f254419a976cd98ebb9739"
     }
   ]
 }
