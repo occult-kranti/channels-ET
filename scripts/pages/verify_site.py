@@ -11,6 +11,7 @@ import hashlib
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
 import math
+import os
 from pathlib import Path
 import sqlite3
 import tempfile
@@ -24,7 +25,7 @@ ROUTES = {
     "dist/expansion/": b"<html",
     "dist/research/": b"Channels ET",
     "dist/research/app.js": None,
-    "dist/research/styles.css": b"topbar",
+    "dist/research/styles.css": b"header",
     "dist/research/data.json": None,
     "dist/research/vendor/echarts.min.js": None,
     "dist/research/fonts/inter-latin-wght.woff2": None,
@@ -410,6 +411,10 @@ def verify_acquisition_2026_11(payloads: dict[str, bytes], file_manifest: dict) 
         return list(csv.DictReader(body(relative).decode("utf-8").splitlines()))
 
     package = load("manifest.json")
+    configured = [os.environ.get(name) for name in
+                  ('CHANNELS_ET_RAW_ROOT', 'CHANNELS_ET_AUDIT_ROOT', 'CHANNELS_ET_MODEL_CACHE')]
+    private_markers = [b"/mnt/agents/", b"/workspace/", b"/home/", b"/Users/"]
+    private_markers += [value.encode() for value in configured if value]
     for artifact in package["artifacts"]:
         relative = artifact["path"]
         path = prefix + relative
@@ -418,8 +423,7 @@ def verify_acquisition_2026_11(payloads: dict[str, bytes], file_manifest: dict) 
              ".opus", ".flac", ".ogg", ".mov", ".avi"}
         assert digest(body(relative)) == artifact["sha256"] == file_manifest[path]["sha256"]
         assert len(body(relative)) == artifact["bytes"] == file_manifest[path]["bytes"]
-        assert all(marker not in body(relative) for marker in
-                   (b"/mnt/agents/", b"/workspace/", b"/home/", b"/Users/")), \
+        assert all(marker not in body(relative) for marker in private_markers), \
             f"Workstation path leaked: {relative}"
 
     reference = load("reference-summary.json")

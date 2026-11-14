@@ -26,6 +26,8 @@ REQUIRED = [
     "research/acquisition-2026-11/build_reference.py",
     "research/acquisition-2026-11/download_y2mate.py",
     "research/acquisition-2026-11/materialize_public_artifacts.py",
+    "research/acquisition-2026-11/chunk_public_sources.py",
+    "research/acquisition-2026-11/chunks/manifest.json",
     "research/acquisition-2026-11/package_acquisition.py",
     "research/acquisition-2026-11/README.md",
     "research/acquisition-2026-11/HANDOFF.md",
@@ -67,6 +69,8 @@ def main():
         str(p.relative_to(ROOT)) for p in sorted((ROOT / "research/acquisition-2026-11/code-editions").glob("*.py"))
     ] + [
         str(p.relative_to(ROOT)) for p in sorted((ROOT / "research/acquisition-2026-11/analysis/figures").glob("*.svg"))
+    ] + [
+        str(p.relative_to(ROOT)) for p in sorted((ROOT / "research/acquisition-2026-11/chunks").glob("*.xz.b64.*"))
     ]
     if len(paths) != len(set(paths)):
         raise RuntimeError("Duplicate snapshot paths")
@@ -88,7 +92,7 @@ def main():
         "canonicalRoot": "integration://research/acquisition-2026-11-expanded",
         "sourceCommitRepresentsCurrentWork": remote_verified,
         "staticInputsDirty": not remote_verified,
-        "stagedDirectory": "staged://acquisition-2026-11-v5",
+        "stagedDirectory": "staged://acquisition-2026-11-v6",
         "digestRecipe": "SHA-256 of canonical compact JSON (sort_keys=True, separators=(',', ':')) with snapshotSha256 omitted",
         "files": files,
     }

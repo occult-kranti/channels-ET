@@ -93,7 +93,7 @@ The round-15 snapshot includes the transcriber, code-edition snapshots, model ma
 
 1. Complete round 15 and resolve all blocker/high findings.
 2. Run analysis 119/119, audio 46/46, static dashboard checks, staged HTTP verification and desktop/mobile interaction checks on the final bytes.
-3. Push all source/public artifacts to `research/acquisition-2026-11-expanded`; let CI materialize and verify public SQLite/PNG outputs. The GitHub token lacks workflow-file scope, so the existing checked-in-static workflow and its 10-minute budget remain unchanged; no scope bypass is attempted. The source-only fallback and 33-artifact package are verified locally for that path.
+3. Push all source/public artifacts to `research/acquisition-2026-11-expanded`; let CI materialize and verify public SQLite/PNG outputs. The GitHub token lacks workflow-file scope, so the existing checked-in-static workflow and its 10-minute budget remain unchanged; no scope bypass is attempted. The source-only fallback and 34-artifact package are verified locally for that path. Twenty-four compressed chunk records (47 payloads) reassemble and hash-verify large CSV/JSON/SQLite/PNG artifacts without whole-file API truncation.
 4. Save a website preview version and inspect it. Preview is not publication.
 5. Create a draft pull request to current `main`, including the snapshot, checks, known limitations and account-reconciliation table.
 6. Only after separate user/maintainer review consider merge, Pages deployment, compact Drive/provenance uploads and any source-specific raw release.

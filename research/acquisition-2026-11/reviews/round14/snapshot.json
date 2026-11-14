@@ -124,6 +124,6 @@
     }
   ],
   "snapshotSha256": "f5c4ff0bf01c7f1aca87700e45cbc955f522a284211159a8f2a0b063e9a8f564",
-  "digestRecipe": "SHA-256 of canonical compact JSON (sort_keys=True, separators=(",",":")) with snapshotSha256 omitted",
+  "digestRecipe": "SHA-256 of canonical compact JSON (sort_keys=True, separators=(\",\",\":\")) with snapshotSha256 omitted",
   "sanitizationNote": "Workstation paths were replaced by staged/browser evidence URIs without changing evidence content."
 }

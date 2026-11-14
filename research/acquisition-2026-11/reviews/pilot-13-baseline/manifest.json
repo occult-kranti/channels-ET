@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "scope": "historical_13_candidate_pilot_receipt",
+  "currentCorpusCertification": false,
+  "note": "Preserved before expanding to all-candidates.json. These receipts certify only the historical pilot artifacts, not the expanded corpus.",
+  "artifacts": [
+    {
+      "path": "analysis.json",
+      "bytes": 103188,
+      "sha256": "361afe6a0450bfaa57d6157095a948f4ba7deedfb150959abbc32f3eb3fac964"
+    },
+    {
+      "path": "common-questions.csv",
+      "bytes": 18033,
+      "sha256": "f092444faddabc882cd97e8290434a085efaeee1f6ac1b1fcb05c4c5a9a5683a"
+    },
+    {
+      "path": "gate-status.json",
+      "bytes": 38,
+      "sha256": "8623c1f63cd31871308f0ec3e477b66314d03617712b76f626f10bb2399e51aa"
+    },
+    {
+      "path": "make_review.py",
+      "bytes": 13659,
+      "sha256": "b0796b6ded3936ff531e6241e709198a868b7a7790329c65630c3d8416b8e313"
+    },
+    {
+      "path": "manual-review.json",
+      "bytes": 47175,
+      "sha256": "cdfefd6077bce5bd6eb8300a4522fc1074c15759c666aa1a3cc8d69d2be6d59d"
+    },
+    {
+      "path": "qualitative-synthesis.md",
+      "bytes": 8724,
+      "sha256": "5b0648079d8268c0f1f28e6d23b3c871c5731846b2663171f2b2ae00ce998eb3"
+    },
+    {
+      "path": "sources-index.csv",
+      "bytes": 14271,
+      "sha256": "a7590cfe9b46e3168725d7385b358886162b7662d818524ce3d241595aa263a0"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 10562,
+      "sha256": "789a8b5d25de4156c19ee415b9c32a0842c7dfb522d5785523613fd49693064f"
+    }
+  ]
+}

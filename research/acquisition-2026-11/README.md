@@ -40,7 +40,7 @@ python3 research/acquisition-2026-11/package_acquisition.py
 
 The transcriber is resumable. Existing results are reused only after audio, settings, allowlisted code-edition and output hashes validate. Summary updates are atomic and cannot downgrade terminal records. Four quarantined German ASR artifacts are hash-bound, including the partial segment JSONL.
 
-`materialize_public_artifacts.py` rebuilds the public SQLite database from the committed CSV/JSON registries when it is absent and renders missing PNGs from the committed SVG figures. This supports a source-only GitHub branch without corrupting binary artifacts in transit.
+`materialize_public_artifacts.py` rebuilds the public SQLite database from the committed CSV/JSON registries when it is absent and renders missing PNGs from the committed SVG figures. Twenty-four compressed chunk records (47 payloads) additionally preserve exact large CSV/JSON/SQLite/PNG bytes with original and compressed SHA-256 verification. This supports a source-only GitHub branch without corrupting artifacts in transit.
 
 ## Account reconciliation
 

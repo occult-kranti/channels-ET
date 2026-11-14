@@ -1,0 +1,70 @@
+{
+  "updatedAt": "2026-11-14T00:32:36.735636+00:00",
+  "observedVideos": 2840,
+  "observedAccounts": 302,
+  "eligibilityCounts": {
+    "eligible": 769,
+    "held_duration_unknown": 1941,
+    "excluded_under_300": 130
+  },
+  "selectionCounts": {
+    "selected_default": 733,
+    "candidate_unreviewed": 28,
+    "held_bashar_cap": 15,
+    "not_selected": 2063,
+    "held_route_limit_over_150_minutes": 1
+  },
+  "audioStatusCounts": {
+    "pending": 2797,
+    "completed": 35,
+    "excluded_under_300": 7,
+    "held_route_limit_over_150_minutes": 1
+  },
+  "asrStatusCounts": {
+    "pending": 2797,
+    "completed": 34,
+    "excluded_language_mismatch": 1,
+    "not_applicable_under_300": 7,
+    "not_attempted_route_limit": 1
+  },
+  "renderedSubtitleCounts": {
+    "not_established": 2828,
+    "provider_rendered": 12
+  },
+  "analysisStatusCounts": {
+    "pending_analysis": 2797,
+    "analysis_completed": 34,
+    "analysis_excluded_language_mismatch": 1,
+    "analysis_excluded_under_300": 7,
+    "analysis_held_route_limit_over_150_minutes": 1
+  },
+  "candidateTerminal": {
+    "analyzed": 34,
+    "excluded": 8,
+    "held": 1,
+    "totalCandidates": 43
+  },
+  "accountReconciliation": {
+    "uniqueVideoRecords": 2840,
+    "namedAccountVideoMemberships": 2286,
+    "unattributedVideoRecords": 631,
+    "membershipsIncludingUnattributedRow": 2917,
+    "multiAccountVideos": 76,
+    "extraMembershipsFromMultiAccountVideos": 77,
+    "formula": "unique videos = named memberships + unattributed - extra multi-account memberships",
+    "note": "Account-row counts describe memberships and are not additive to unique-video headline totals."
+  },
+  "audioBytes": 1321921399,
+  "audioDurationSeconds": 73899.368,
+  "asrWords": 146605,
+  "asrSegments": 13169,
+  "uploadedTotal": null,
+  "rightsStatus": {
+    "redistribution_review_required": 2840
+  },
+  "caveats": [
+    "Observed inventory is not a complete upload census; uploaded_total is null.",
+    "Bashar cap is exactly 100 across all accounts combined; other channels have no cap.",
+    "Raw audio and full third-party transcripts remain private research storage pending source-specific redistribution rights."
+  ]
+}

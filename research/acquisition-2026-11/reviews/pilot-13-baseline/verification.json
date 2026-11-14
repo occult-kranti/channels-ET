@@ -1,0 +1,482 @@
+{
+ "nChecks": 95,
+ "nPassed": 95,
+ "nFailed": 0,
+ "checks": [
+  {
+   "check": "exists:protocol.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "exists:analysis.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "exists:non-bashar-public.sqlite",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "exists:non-bashar-public.csv",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "exists:sources-index.csv",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "exists:common-questions.csv",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "exists:manual-review.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "exists:qualitative-synthesis.md",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "exists:gate-status.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "build gate was satisfied at build time",
+   "ok": true,
+   "detail": "{'ready': True, 'pilotVideos': 13}"
+  },
+  {
+   "check": "asr-summary.json shows all 13 pilot videos in terminal states",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "check": "all 13 pilot videos: audio/transcript/duration/language artifacts bind",
+   "ok": true,
+   "detail": "{}"
+  },
+  {
+   "check": "private segment-index.sqlite exists under analysis-2026-11",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "private index rows match analysis",
+   "ok": true,
+   "detail": "sources=12 docs=12; segments=4190"
+  },
+  {
+   "check": "public qa_candidates has no text columns",
+   "ok": true,
+   "detail": "['unit_id', 'video_id', 'publisher', 'claimed_group', 'language', 'start_seconds', 'end_seconds', 'n_question_sentences', 'primary_form', 'discourse_class', 'question_sha256', 'answer_status', 'answer_lines', 'answer_seconds', 'answer_sha256', 'answer_orientation', 'question_family', 'family_key', 'reviewed_class']"
+  },
+  {
+   "check": "public registry source count == included count",
+   "ok": true,
+   "detail": "12 vs 12"
+  },
+  {
+   "check": "at least 11 validated non-Bashar ASR sources",
+   "ok": true,
+   "detail": "sources=12"
+  },
+  {
+   "check": "private segment count equals source segment-count sum",
+   "ok": true,
+   "detail": "segments=4190 expected=4190"
+  },
+  {
+   "check": "public qa count == analysis total units",
+   "ok": true,
+   "detail": "164 vs 164"
+  },
+  {
+   "check": "every public qa hash links to private full row",
+   "ok": true,
+   "detail": "orphans=0"
+  },
+  {
+   "check": "public sources table has no transcript body columns",
+   "ok": true,
+   "detail": "['video_id', 'title', 'publisher', 'practitioner_context', 'claimed_group', 'source_url', 'source_type', 'asr_provider', 'audio_route', 'audio_edition', 'detected_language', 'language_note', 'retrieve"
+  },
+  {
+   "check": "uploader/practitioner/claimed-entity kept as distinct columns",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "publisher != practitioner != claimed entity in practice",
+   "ok": true,
+   "detail": "distinct-role rows=12"
+  },
+  {
+   "check": "public CSV row count == qa total",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "sources-index.csv rows == included",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "sources-index has audio+transcript hashes for every source",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "provider label is self_run_faster_whisper_tiny.en for every source",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "sourceType is public_youtube_audio_self_run_ASR for every source",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "model revision pinned to manifest for every source",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "registry hashes match raw audio/transcript/segments/SRT files",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "check": "sources-index title/publisher match pilot list",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "check": "humanValidated=false for every source",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "check": "no sampled ASR segment text leaks into any public output",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "check": "manual review covers all candidates (<=60) or a stratified >=60 sample",
+   "ok": true,
+   "detail": "reviewed=67 target=60"
+  },
+  {
+   "check": "review kind is ai_agent_review (not human)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "review spans every claimed-entity label present",
+   "ok": true,
+   "detail": "missing=set()"
+  },
+  {
+   "check": "every review item has a verdict and bounded note",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "review items contain only bounded excerpts + hashes",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "review unit IDs are unique",
+   "ok": true,
+   "detail": "unique=67 items=67"
+  },
+  {
+   "check": "every review verdict binds to current question hash and source metadata",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "check": "analysis.json has tfidfTopCorpus",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has nmf",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has kmeansDiagnostics",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has overlayByPublisher",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has overlayByPractitioner",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has overlayByClaimedGroup",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has documentNetwork",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has durationProfiles",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has sensitivity",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has qa",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has validation",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "analysis.json has tokenizationDiagnostics",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "NMF seed stability reported",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "KMeans sweep reported with cautions",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "all included documents detected English (pinned English-only model)",
+   "ok": true,
+   "detail": "{'en': 12}"
+  },
+  {
+   "check": "all protocol question families represented in codebook output",
+   "ok": true,
+   "detail": "{'contact_timing', 'predictions', 'reality_agency', 'healing', 'ascension', 'other_theme'}"
+  },
+  {
+   "check": "document-network threshold matches protocol",
+   "ok": true,
+   "detail": "actual=0.1"
+  },
+  {
+   "check": "document network contains no zero-weight pseudo-edges",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "stopword-only units are family-less rows and excluded from common families",
+   "ok": true,
+   "detail": "nullFamilies=16 badCommon=0"
+  },
+  {
+   "check": "no large document collapses to a degenerate analysis-token projection",
+   "ok": true,
+   "detail": "degenerate=[]"
+  },
+  {
+   "check": "proper-name exclusion is implemented",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "duration profiles carry temporal placement (question units by third)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "6 figures in SVG+PNG",
+   "ok": true,
+   "detail": "svg=6"
+  },
+  {
+   "check": "svg well-formed: fig1_corpus_source_coverage.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "png valid header+size: fig1_corpus_source_coverage.png",
+   "ok": true,
+   "detail": "156265 bytes"
+  },
+  {
+   "check": "svg well-formed: fig2_topic_terms.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "png valid header+size: fig2_topic_terms.png",
+   "ok": true,
+   "detail": "200148 bytes"
+  },
+  {
+   "check": "svg well-formed: fig3_topic_x_entity_heatmap.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "png valid header+size: fig3_topic_x_entity_heatmap.png",
+   "ok": true,
+   "detail": "168649 bytes"
+  },
+  {
+   "check": "svg well-formed: fig4_document_network.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "png valid header+size: fig4_document_network.png",
+   "ok": true,
+   "detail": "158590 bytes"
+  },
+  {
+   "check": "svg well-formed: fig5_question_families.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "png valid header+size: fig5_question_families.png",
+   "ok": true,
+   "detail": "204295 bytes"
+  },
+  {
+   "check": "svg well-formed: fig6_duration_question_rates.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "png valid header+size: fig6_duration_question_rates.png",
+   "ok": true,
+   "detail": "116911 bytes"
+  },
+  {
+   "check": "limits footnote in fig1_corpus_source_coverage.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "limits footnote in fig2_topic_terms.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "limits footnote in fig3_topic_x_entity_heatmap.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "limits footnote in fig4_document_network.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "limits footnote in fig5_question_families.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "limits footnote in fig6_duration_question_rates.svg",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis reports current common-family result",
+   "ok": true,
+   "detail": "families=144 shared=3"
+  },
+  {
+   "check": "synthesis and analysis name the self-run ASR provider and sourceType",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis discloses exclusions",
+   "ok": true,
+   "detail": "excluded=1"
+  },
+  {
+   "check": "synthesis states 'humanValidated=false'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis states 'not rendered subtitles'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis states 'publisher metadata'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis does not claim 'peer review'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis does not claim 'peer-reviewed'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis does not claim 'WER measured'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis does not claim 'speaker-verified'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis does not claim 'cross-ET agreement'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis does not claim 'consensus across entities'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis does not claim 'natural clusters'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "synthesis does not claim 'stable semantic structure'",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

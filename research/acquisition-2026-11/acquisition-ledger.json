@@ -1179,7 +1179,11 @@
       "quarantinedAt": "2026-11-11T00:12:56.500242+00:00",
       "humanValidated": false,
       "bytes": 91187755,
-      "durationSeconds": 3799.457959
+      "durationSeconds": 3799.457959,
+      "admittedMediaBytes": 91187755,
+      "quarantinedBytes": 0,
+      "quarantinedAsrOutputBytes": 57376,
+      "mediaBytesMeaning": "admitted_media_bytes_excluding_quarantine; quarantinedBytes refers to audio only"
     },
     {
       "videoId": "6eZDJwSzj3Y",

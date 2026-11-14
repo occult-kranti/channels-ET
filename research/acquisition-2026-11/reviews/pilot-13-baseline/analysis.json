@@ -1,0 +1,5091 @@
+{
+ "nDocuments": 12,
+ "languages": {
+  "en": 12
+ },
+ "tokenizationDiagnostics": [
+  {
+   "videoId": "-0w7wdn_t9I",
+   "detectedLanguage": "en",
+   "rawTokenCount": 2594,
+   "analysisTokenCount": 993,
+   "analysisUniqueTokenCount": 527,
+   "analysisTokenShare": 0.3828
+  },
+  {
+   "videoId": "-8k6d9StYig",
+   "detectedLanguage": "en",
+   "rawTokenCount": 3089,
+   "analysisTokenCount": 1304,
+   "analysisUniqueTokenCount": 687,
+   "analysisTokenShare": 0.4221
+  },
+  {
+   "videoId": "-JmMDcVVvuo",
+   "detectedLanguage": "en",
+   "rawTokenCount": 2297,
+   "analysisTokenCount": 1102,
+   "analysisUniqueTokenCount": 631,
+   "analysisTokenShare": 0.4798
+  },
+  {
+   "videoId": "-ZkOuLa0nPc",
+   "detectedLanguage": "en",
+   "rawTokenCount": 1473,
+   "analysisTokenCount": 516,
+   "analysisUniqueTokenCount": 281,
+   "analysisTokenShare": 0.3503
+  },
+  {
+   "videoId": "-i0dfXWr9Vk",
+   "detectedLanguage": "en",
+   "rawTokenCount": 6783,
+   "analysisTokenCount": 2547,
+   "analysisUniqueTokenCount": 704,
+   "analysisTokenShare": 0.3755
+  },
+  {
+   "videoId": "-leIq8XP15k",
+   "detectedLanguage": "en",
+   "rawTokenCount": 1140,
+   "analysisTokenCount": 451,
+   "analysisUniqueTokenCount": 247,
+   "analysisTokenShare": 0.3956
+  },
+  {
+   "videoId": "-o4q27DpxaA",
+   "detectedLanguage": "en",
+   "rawTokenCount": 5294,
+   "analysisTokenCount": 1909,
+   "analysisUniqueTokenCount": 698,
+   "analysisTokenShare": 0.3606
+  },
+  {
+   "videoId": "-rdfCWf8WnA",
+   "detectedLanguage": "en",
+   "rawTokenCount": 1745,
+   "analysisTokenCount": 560,
+   "analysisUniqueTokenCount": 322,
+   "analysisTokenShare": 0.3209
+  },
+  {
+   "videoId": "0DoOerBuWaQ",
+   "detectedLanguage": "en",
+   "rawTokenCount": 8988,
+   "analysisTokenCount": 3551,
+   "analysisUniqueTokenCount": 1592,
+   "analysisTokenShare": 0.3951
+  },
+  {
+   "videoId": "0wlfYecWQ74",
+   "detectedLanguage": "en",
+   "rawTokenCount": 2462,
+   "analysisTokenCount": 845,
+   "analysisUniqueTokenCount": 405,
+   "analysisTokenShare": 0.3432
+  },
+  {
+   "videoId": "1UufR6Wn9z8",
+   "detectedLanguage": "en",
+   "rawTokenCount": 794,
+   "analysisTokenCount": 357,
+   "analysisUniqueTokenCount": 265,
+   "analysisTokenShare": 0.4496
+  },
+  {
+   "videoId": "1XnCFCcbunc",
+   "detectedLanguage": "en",
+   "rawTokenCount": 9685,
+   "analysisTokenCount": 3484,
+   "analysisUniqueTokenCount": 1374,
+   "analysisTokenShare": 0.3597
+  }
+ ],
+ "properNamesExcludedFromTfidfNmf": true,
+ "limits": "Self-run baseline ASR (faster-whisper tiny.en int8 CPU, English-only, 300 s windows) over public YouTube audio; not rendered subtitles or original caption tracks; no diarization; no human WER; humanValidated=false; ASR accuracy unmeasured; small corpus; uploader != practitioner != claimed entity; claimed-entity labels are publisher metadata only.",
+ "tfidfTopCorpus": [
+  {
+   "term": "us",
+   "score": 0.0235
+  },
+  {
+   "term": "something",
+   "score": 0.0221
+  },
+  {
+   "term": "earth",
+   "score": 0.0207
+  },
+  {
+   "term": "part",
+   "score": 0.0202
+  },
+  {
+   "term": "world",
+   "score": 0.0197
+  },
+  {
+   "term": "within",
+   "score": 0.0197
+  },
+  {
+   "term": "feel",
+   "score": 0.0197
+  },
+  {
+   "term": "energy",
+   "score": 0.0196
+  },
+  {
+   "term": "sense",
+   "score": 0.0192
+  },
+  {
+   "term": "which",
+   "score": 0.0192
+  },
+  {
+   "term": "life",
+   "score": 0.0189
+  },
+  {
+   "term": "little",
+   "score": 0.0186
+  },
+  {
+   "term": "physical",
+   "score": 0.0183
+  },
+  {
+   "term": "ve",
+   "score": 0.0181
+  },
+  {
+   "term": "different",
+   "score": 0.0178
+  },
+  {
+   "term": "bit",
+   "score": 0.0178
+  },
+  {
+   "term": "body",
+   "score": 0.0178
+  },
+  {
+   "term": "human",
+   "score": 0.0178
+  },
+  {
+   "term": "light",
+   "score": 0.0178
+  },
+  {
+   "term": "saying",
+   "score": 0.0177
+  },
+  {
+   "term": "humans",
+   "score": 0.0175
+  },
+  {
+   "term": "new",
+   "score": 0.0173
+  },
+  {
+   "term": "good",
+   "score": 0.017
+  },
+  {
+   "term": "dna",
+   "score": 0.0168
+  },
+  {
+   "term": "don",
+   "score": 0.0168
+  },
+  {
+   "term": "yourself",
+   "score": 0.0167
+  },
+  {
+   "term": "love",
+   "score": 0.0167
+  },
+  {
+   "term": "great",
+   "score": 0.0166
+  },
+  {
+   "term": "planet",
+   "score": 0.0163
+  },
+  {
+   "term": "heart",
+   "score": 0.0163
+  },
+  {
+   "term": "around",
+   "score": 0.0162
+  },
+  {
+   "term": "reality",
+   "score": 0.0161
+  },
+  {
+   "term": "civilization",
+   "score": 0.016
+  },
+  {
+   "term": "always",
+   "score": 0.0158
+  },
+  {
+   "term": "process",
+   "score": 0.0158
+  },
+  {
+   "term": "find",
+   "score": 0.0157
+  },
+  {
+   "term": "question",
+   "score": 0.0157
+  },
+  {
+   "term": "coming",
+   "score": 0.0154
+  },
+  {
+   "term": "souls",
+   "score": 0.0153
+  },
+  {
+   "term": "past",
+   "score": 0.0153
+  }
+ ],
+ "tfidfTopPerDocument": {
+  "-0w7wdn_t9I": [
+   {
+    "term": "snake",
+    "score": 0.0957
+   },
+   {
+    "term": "tree",
+    "score": 0.0651
+   },
+   {
+    "term": "tree life",
+    "score": 0.0651
+   },
+   {
+    "term": "hurt",
+    "score": 0.0642
+   },
+   {
+    "term": "bad person",
+    "score": 0.0642
+   },
+   {
+    "term": "prefer",
+    "score": 0.0587
+   },
+   {
+    "term": "re allowed",
+    "score": 0.0587
+   },
+   {
+    "term": "slightly",
+    "score": 0.0587
+   },
+   {
+    "term": "judge",
+    "score": 0.0551
+   },
+   {
+    "term": "center",
+    "score": 0.0529
+   },
+   {
+    "term": "please don",
+    "score": 0.0516
+   },
+   {
+    "term": "shoulder blades",
+    "score": 0.0516
+   },
+   {
+    "term": "blades",
+    "score": 0.0516
+   },
+   {
+    "term": "nothing wrong",
+    "score": 0.0516
+   },
+   {
+    "term": "shoulder",
+    "score": 0.0516
+   }
+  ],
+  "-8k6d9StYig": [
+   {
+    "term": "eclipse",
+    "score": 0.0813
+   },
+   {
+    "term": "moon",
+    "score": 0.0561
+   },
+   {
+    "term": "sequence",
+    "score": 0.0554
+   },
+   {
+    "term": "galactic federation",
+    "score": 0.0537
+   },
+   {
+    "term": "evidence",
+    "score": 0.0509
+   },
+   {
+    "term": "told",
+    "score": 0.0509
+   },
+   {
+    "term": "somewhere",
+    "score": 0.0509
+   },
+   {
+    "term": "carrying",
+    "score": 0.0509
+   },
+   {
+    "term": "loud",
+    "score": 0.0506
+   },
+   {
+    "term": "arrives",
+    "score": 0.0506
+   },
+   {
+    "term": "galactic",
+    "score": 0.0496
+   },
+   {
+    "term": "august",
+    "score": 0.0496
+   },
+   {
+    "term": "everybody",
+    "score": 0.0496
+   },
+   {
+    "term": "grief",
+    "score": 0.0475
+   },
+   {
+    "term": "federation",
+    "score": 0.0474
+   }
+  ],
+  "-JmMDcVVvuo": [
+   {
+    "term": "volunteers",
+    "score": 0.0806
+   },
+   {
+    "term": "month",
+    "score": 0.0747
+   },
+   {
+    "term": "regarding",
+    "score": 0.0708
+   },
+   {
+    "term": "wonderers",
+    "score": 0.0681
+   },
+   {
+    "term": "peoples",
+    "score": 0.0675
+   },
+   {
+    "term": "session",
+    "score": 0.0646
+   },
+   {
+    "term": "predictions",
+    "score": 0.0603
+   },
+   {
+    "term": "time space",
+    "score": 0.0603
+   },
+   {
+    "term": "complexes",
+    "score": 0.0603
+   },
+   {
+    "term": "december",
+    "score": 0.0554
+   },
+   {
+    "term": "flood",
+    "score": 0.0554
+   },
+   {
+    "term": "firstly",
+    "score": 0.0552
+   },
+   {
+    "term": "soul complexes",
+    "score": 0.0552
+   },
+   {
+    "term": "entity",
+    "score": 0.0485
+   },
+   {
+    "term": "patreon",
+    "score": 0.0485
+   }
+  ],
+  "-ZkOuLa0nPc": [
+   {
+    "term": "earth humans",
+    "score": 0.09
+   },
+   {
+    "term": "extraterrestrial civilizations",
+    "score": 0.0849
+   },
+   {
+    "term": "extraterrestrial",
+    "score": 0.0795
+   },
+   {
+    "term": "civilizations",
+    "score": 0.0766
+   },
+   {
+    "term": "resonant",
+    "score": 0.0747
+   },
+   {
+    "term": "similar",
+    "score": 0.0747
+   },
+   {
+    "term": "typically",
+    "score": 0.0729
+   },
+   {
+    "term": "involved",
+    "score": 0.0729
+   },
+   {
+    "term": "dna",
+    "score": 0.0714
+   },
+   {
+    "term": "perhaps",
+    "score": 0.0704
+   },
+   {
+    "term": "civilization",
+    "score": 0.0677
+   },
+   {
+    "term": "idea",
+    "score": 0.0663
+   },
+   {
+    "term": "lifetimes",
+    "score": 0.0641
+   },
+   {
+    "term": "physical incarnations",
+    "score": 0.0603
+   },
+   {
+    "term": "immediate",
+    "score": 0.0603
+   }
+  ],
+  "-i0dfXWr9Vk": [
+   {
+    "term": "open awareness",
+    "score": 0.0691
+   },
+   {
+    "term": "conscious breath",
+    "score": 0.0668
+   },
+   {
+    "term": "new blueprint",
+    "score": 0.0624
+   },
+   {
+    "term": "eenah",
+    "score": 0.0597
+   },
+   {
+    "term": "breath",
+    "score": 0.0594
+   },
+   {
+    "term": "awareness",
+    "score": 0.0592
+   },
+   {
+    "term": "seminar",
+    "score": 0.0587
+   },
+   {
+    "term": "eenah eenah",
+    "score": 0.0576
+   },
+   {
+    "term": "stargate",
+    "score": 0.0564
+   },
+   {
+    "term": "conscious",
+    "score": 0.055
+   },
+   {
+    "term": "letting",
+    "score": 0.055
+   },
+   {
+    "term": "stargate light",
+    "score": 0.0538
+   },
+   {
+    "term": "blueprint",
+    "score": 0.0536
+   },
+   {
+    "term": "breaths",
+    "score": 0.0536
+   },
+   {
+    "term": "mary",
+    "score": 0.0523
+   }
+  ],
+  "-leIq8XP15k": [
+   {
+    "term": "similarities",
+    "score": 0.1203
+   },
+   {
+    "term": "yay",
+    "score": 0.1067
+   },
+   {
+    "term": "yay yay",
+    "score": 0.0995
+   },
+   {
+    "term": "dna",
+    "score": 0.0846
+   },
+   {
+    "term": "great deal",
+    "score": 0.079
+   },
+   {
+    "term": "unknown",
+    "score": 0.079
+   },
+   {
+    "term": "spirituality",
+    "score": 0.079
+   },
+   {
+    "term": "physical similarities",
+    "score": 0.079
+   },
+   {
+    "term": "speed",
+    "score": 0.0771
+   },
+   {
+    "term": "earth humans",
+    "score": 0.0771
+   },
+   {
+    "term": "unconditional",
+    "score": 0.0771
+   },
+   {
+    "term": "exist",
+    "score": 0.0681
+   },
+   {
+    "term": "knowingness",
+    "score": 0.0678
+   },
+   {
+    "term": "travel",
+    "score": 0.0678
+   },
+   {
+    "term": "wise",
+    "score": 0.0669
+   }
+  ],
+  "-o4q27DpxaA": [
+   {
+    "term": "dear ones",
+    "score": 0.0627
+   },
+   {
+    "term": "move move",
+    "score": 0.0627
+   },
+   {
+    "term": "love light",
+    "score": 0.0612
+   },
+   {
+    "term": "yay",
+    "score": 0.061
+   },
+   {
+    "term": "yay yay",
+    "score": 0.0602
+   },
+   {
+    "term": "dear",
+    "score": 0.0587
+   },
+   {
+    "term": "greet",
+    "score": 0.0576
+   },
+   {
+    "term": "highest",
+    "score": 0.0576
+   },
+   {
+    "term": "guides",
+    "score": 0.0554
+   },
+   {
+    "term": "gaia",
+    "score": 0.0554
+   },
+   {
+    "term": "shift",
+    "score": 0.0539
+   },
+   {
+    "term": "indeed",
+    "score": 0.0531
+   },
+   {
+    "term": "forms",
+    "score": 0.053
+   },
+   {
+    "term": "ascension process",
+    "score": 0.053
+   },
+   {
+    "term": "practical",
+    "score": 0.0511
+   }
+  ],
+  "-rdfCWf8WnA": [
+   {
+    "term": "book",
+    "score": 0.076
+   },
+   {
+    "term": "new book",
+    "score": 0.0713
+   },
+   {
+    "term": "weekend",
+    "score": 0.0713
+   },
+   {
+    "term": "swiping",
+    "score": 0.0713
+   },
+   {
+    "term": "tatyara",
+    "score": 0.0713
+   },
+   {
+    "term": "build build",
+    "score": 0.0713
+   },
+   {
+    "term": "yet showing",
+    "score": 0.0713
+   },
+   {
+    "term": "magnificent",
+    "score": 0.0697
+   },
+   {
+    "term": "showing",
+    "score": 0.0618
+   },
+   {
+    "term": "difficult",
+    "score": 0.0615
+   },
+   {
+    "term": "build",
+    "score": 0.0615
+   },
+   {
+    "term": "etc",
+    "score": 0.0613
+   },
+   {
+    "term": "extraordinary",
+    "score": 0.0613
+   },
+   {
+    "term": "lady",
+    "score": 0.0613
+   },
+   {
+    "term": "swipe",
+    "score": 0.0575
+   }
+  ],
+  "0DoOerBuWaQ": [
+   {
+    "term": "capricorn",
+    "score": 0.0472
+   },
+   {
+    "term": "pluto",
+    "score": 0.042
+   },
+   {
+    "term": "george",
+    "score": 0.042
+   },
+   {
+    "term": "anunnaki",
+    "score": 0.0392
+   },
+   {
+    "term": "manner",
+    "score": 0.0392
+   },
+   {
+    "term": "lose",
+    "score": 0.0361
+   },
+   {
+    "term": "tree",
+    "score": 0.0361
+   },
+   {
+    "term": "electromagnetic",
+    "score": 0.0355
+   },
+   {
+    "term": "grow",
+    "score": 0.0355
+   },
+   {
+    "term": "celebrate",
+    "score": 0.0355
+   },
+   {
+    "term": "sloth",
+    "score": 0.0355
+   },
+   {
+    "term": "acceleration",
+    "score": 0.0355
+   },
+   {
+    "term": "pyramids",
+    "score": 0.0355
+   },
+   {
+    "term": "integrity",
+    "score": 0.0355
+   },
+   {
+    "term": "game",
+    "score": 0.0355
+   }
+  ],
+  "0wlfYecWQ74": [
+   {
+    "term": "live streams",
+    "score": 0.0894
+   },
+   {
+    "term": "showing",
+    "score": 0.0846
+   },
+   {
+    "term": "supervisor",
+    "score": 0.0834
+   },
+   {
+    "term": "streams",
+    "score": 0.079
+   },
+   {
+    "term": "past lives",
+    "score": 0.0744
+   },
+   {
+    "term": "akashic",
+    "score": 0.0707
+   },
+   {
+    "term": "akashic records",
+    "score": 0.0707
+   },
+   {
+    "term": "judgment",
+    "score": 0.0685
+   },
+   {
+    "term": "dense",
+    "score": 0.0649
+   },
+   {
+    "term": "records",
+    "score": 0.0649
+   },
+   {
+    "term": "transcend",
+    "score": 0.0646
+   },
+   {
+    "term": "nancy",
+    "score": 0.0646
+   },
+   {
+    "term": "fast",
+    "score": 0.0574
+   },
+   {
+    "term": "records showing",
+    "score": 0.0568
+   },
+   {
+    "term": "pants",
+    "score": 0.0568
+   }
+  ],
+  "1UufR6Wn9z8": [
+   {
+    "term": "toxic",
+    "score": 0.0983
+   },
+   {
+    "term": "card",
+    "score": 0.0983
+   },
+   {
+    "term": "waves",
+    "score": 0.0923
+   },
+   {
+    "term": "ocean",
+    "score": 0.0873
+   },
+   {
+    "term": "toxicity",
+    "score": 0.0865
+   },
+   {
+    "term": "polarity",
+    "score": 0.0865
+   },
+   {
+    "term": "healing",
+    "score": 0.0783
+   },
+   {
+    "term": "suppressed",
+    "score": 0.0743
+   },
+   {
+    "term": "part experience",
+    "score": 0.0698
+   },
+   {
+    "term": "onto",
+    "score": 0.0698
+   },
+   {
+    "term": "passage",
+    "score": 0.0698
+   },
+   {
+    "term": "onto others",
+    "score": 0.0698
+   },
+   {
+    "term": "evil",
+    "score": 0.0698
+   },
+   {
+    "term": "behavior",
+    "score": 0.0698
+   },
+   {
+    "term": "happening world",
+    "score": 0.0698
+   }
+  ],
+  "1XnCFCcbunc": [
+   {
+    "term": "age",
+    "score": 0.0437
+   },
+   {
+    "term": "judah",
+    "score": 0.0437
+   },
+   {
+    "term": "future",
+    "score": 0.0429
+   },
+   {
+    "term": "ceiling",
+    "score": 0.039
+   },
+   {
+    "term": "channelers",
+    "score": 0.039
+   },
+   {
+    "term": "five years",
+    "score": 0.0369
+   },
+   {
+    "term": "mandela",
+    "score": 0.0369
+   },
+   {
+    "term": "five",
+    "score": 0.0363
+   },
+   {
+    "term": "incredible",
+    "score": 0.035
+   },
+   {
+    "term": "december",
+    "score": 0.035
+   },
+   {
+    "term": "new age",
+    "score": 0.0345
+   },
+   {
+    "term": "et contact",
+    "score": 0.0345
+   },
+   {
+    "term": "angie",
+    "score": 0.0345
+   },
+   {
+    "term": "et",
+    "score": 0.0345
+   },
+   {
+    "term": "panel",
+    "score": 0.0335
+   }
+  ]
+ },
+ "overlayByPublisher": {
+  "Aurora Ray": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "eclipse",
+     "score": 0.0813
+    },
+    {
+     "term": "moon",
+     "score": 0.0561
+    },
+    {
+     "term": "sequence",
+     "score": 0.0554
+    },
+    {
+     "term": "galactic federation",
+     "score": 0.0537
+    },
+    {
+     "term": "evidence",
+     "score": 0.0509
+    },
+    {
+     "term": "told",
+     "score": 0.0509
+    },
+    {
+     "term": "somewhere",
+     "score": 0.0509
+    },
+    {
+     "term": "carrying",
+     "score": 0.0509
+    },
+    {
+     "term": "loud",
+     "score": 0.0506
+    },
+    {
+     "term": "arrives",
+     "score": 0.0506
+    },
+    {
+     "term": "galactic",
+     "score": 0.0496
+    },
+    {
+     "term": "august",
+     "score": 0.0496
+    }
+   ]
+  },
+  "Barbara Marciniak": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "capricorn",
+     "score": 0.0472
+    },
+    {
+     "term": "pluto",
+     "score": 0.042
+    },
+    {
+     "term": "george",
+     "score": 0.042
+    },
+    {
+     "term": "anunnaki",
+     "score": 0.0392
+    },
+    {
+     "term": "manner",
+     "score": 0.0392
+    },
+    {
+     "term": "lose",
+     "score": 0.0361
+    },
+    {
+     "term": "tree",
+     "score": 0.0361
+    },
+    {
+     "term": "electromagnetic",
+     "score": 0.0355
+    },
+    {
+     "term": "grow",
+     "score": 0.0355
+    },
+    {
+     "term": "celebrate",
+     "score": 0.0355
+    },
+    {
+     "term": "sloth",
+     "score": 0.0355
+    },
+    {
+     "term": "acceleration",
+     "score": 0.0355
+    }
+   ]
+  },
+  "Blossom Goodchild": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "book",
+     "score": 0.076
+    },
+    {
+     "term": "new book",
+     "score": 0.0713
+    },
+    {
+     "term": "weekend",
+     "score": 0.0713
+    },
+    {
+     "term": "swiping",
+     "score": 0.0713
+    },
+    {
+     "term": "tatyara",
+     "score": 0.0713
+    },
+    {
+     "term": "build build",
+     "score": 0.0713
+    },
+    {
+     "term": "yet showing",
+     "score": 0.0713
+    },
+    {
+     "term": "magnificent",
+     "score": 0.0697
+    },
+    {
+     "term": "showing",
+     "score": 0.0618
+    },
+    {
+     "term": "difficult",
+     "score": 0.0615
+    },
+    {
+     "term": "build",
+     "score": 0.0615
+    },
+    {
+     "term": "etc",
+     "score": 0.0613
+    }
+   ]
+  },
+  "Calenara": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "dear ones",
+     "score": 0.0627
+    },
+    {
+     "term": "move move",
+     "score": 0.0627
+    },
+    {
+     "term": "love light",
+     "score": 0.0612
+    },
+    {
+     "term": "yay",
+     "score": 0.061
+    },
+    {
+     "term": "yay yay",
+     "score": 0.0602
+    },
+    {
+     "term": "dear",
+     "score": 0.0587
+    },
+    {
+     "term": "greet",
+     "score": 0.0576
+    },
+    {
+     "term": "highest",
+     "score": 0.0576
+    },
+    {
+     "term": "guides",
+     "score": 0.0554
+    },
+    {
+     "term": "gaia",
+     "score": 0.0554
+    },
+    {
+     "term": "shift",
+     "score": 0.0539
+    },
+    {
+     "term": "indeed",
+     "score": 0.0531
+    }
+   ]
+  },
+  "Christine Day": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "open awareness",
+     "score": 0.0691
+    },
+    {
+     "term": "conscious breath",
+     "score": 0.0668
+    },
+    {
+     "term": "new blueprint",
+     "score": 0.0624
+    },
+    {
+     "term": "eenah",
+     "score": 0.0597
+    },
+    {
+     "term": "breath",
+     "score": 0.0594
+    },
+    {
+     "term": "awareness",
+     "score": 0.0592
+    },
+    {
+     "term": "seminar",
+     "score": 0.0587
+    },
+    {
+     "term": "eenah eenah",
+     "score": 0.0576
+    },
+    {
+     "term": "stargate",
+     "score": 0.0564
+    },
+    {
+     "term": "conscious",
+     "score": 0.055
+    },
+    {
+     "term": "letting",
+     "score": 0.055
+    },
+    {
+     "term": "stargate light",
+     "score": 0.0538
+    }
+   ]
+  },
+  "Daniel Scranton": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "age",
+     "score": 0.0437
+    },
+    {
+     "term": "judah",
+     "score": 0.0437
+    },
+    {
+     "term": "future",
+     "score": 0.0429
+    },
+    {
+     "term": "ceiling",
+     "score": 0.039
+    },
+    {
+     "term": "channelers",
+     "score": 0.039
+    },
+    {
+     "term": "five years",
+     "score": 0.0369
+    },
+    {
+     "term": "mandela",
+     "score": 0.0369
+    },
+    {
+     "term": "five",
+     "score": 0.0363
+    },
+    {
+     "term": "incredible",
+     "score": 0.035
+    },
+    {
+     "term": "december",
+     "score": 0.035
+    },
+    {
+     "term": "new age",
+     "score": 0.0345
+    },
+    {
+     "term": "et contact",
+     "score": 0.0345
+    }
+   ]
+  },
+  "Ishuwa Yahyel: First ET Contact": {
+   "nDocs": 2,
+   "topTerms": [
+    {
+     "term": "earth humans",
+     "score": 0.0836
+    },
+    {
+     "term": "dna",
+     "score": 0.078
+    },
+    {
+     "term": "civilizations",
+     "score": 0.0627
+    },
+    {
+     "term": "similar",
+     "score": 0.0617
+    },
+    {
+     "term": "civilization",
+     "score": 0.0616
+    },
+    {
+     "term": "similarities",
+     "score": 0.0601
+    },
+    {
+     "term": "perhaps",
+     "score": 0.0594
+    },
+    {
+     "term": "humans",
+     "score": 0.0544
+    },
+    {
+     "term": "extraterrestrial",
+     "score": 0.054
+    },
+    {
+     "term": "yay",
+     "score": 0.0534
+    },
+    {
+     "term": "sense",
+     "score": 0.0509
+    },
+    {
+     "term": "yay yay",
+     "score": 0.0498
+    }
+   ]
+  },
+  "Megan Rose": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "live streams",
+     "score": 0.0894
+    },
+    {
+     "term": "showing",
+     "score": 0.0846
+    },
+    {
+     "term": "supervisor",
+     "score": 0.0834
+    },
+    {
+     "term": "streams",
+     "score": 0.079
+    },
+    {
+     "term": "past lives",
+     "score": 0.0744
+    },
+    {
+     "term": "akashic",
+     "score": 0.0707
+    },
+    {
+     "term": "akashic records",
+     "score": 0.0707
+    },
+    {
+     "term": "judgment",
+     "score": 0.0685
+    },
+    {
+     "term": "dense",
+     "score": 0.0649
+    },
+    {
+     "term": "records",
+     "score": 0.0649
+    },
+    {
+     "term": "transcend",
+     "score": 0.0646
+    },
+    {
+     "term": "nancy",
+     "score": 0.0646
+    }
+   ]
+  },
+  "SAM THE ILLUSIONIST": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "volunteers",
+     "score": 0.0806
+    },
+    {
+     "term": "month",
+     "score": 0.0747
+    },
+    {
+     "term": "regarding",
+     "score": 0.0708
+    },
+    {
+     "term": "wonderers",
+     "score": 0.0681
+    },
+    {
+     "term": "peoples",
+     "score": 0.0675
+    },
+    {
+     "term": "session",
+     "score": 0.0646
+    },
+    {
+     "term": "predictions",
+     "score": 0.0603
+    },
+    {
+     "term": "time space",
+     "score": 0.0603
+    },
+    {
+     "term": "complexes",
+     "score": 0.0603
+    },
+    {
+     "term": "december",
+     "score": 0.0554
+    },
+    {
+     "term": "flood",
+     "score": 0.0554
+    },
+    {
+     "term": "firstly",
+     "score": 0.0552
+    }
+   ]
+  },
+  "SOLi School | Lyssa Royal Holt": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "toxic",
+     "score": 0.0983
+    },
+    {
+     "term": "card",
+     "score": 0.0983
+    },
+    {
+     "term": "waves",
+     "score": 0.0923
+    },
+    {
+     "term": "ocean",
+     "score": 0.0873
+    },
+    {
+     "term": "toxicity",
+     "score": 0.0865
+    },
+    {
+     "term": "polarity",
+     "score": 0.0865
+    },
+    {
+     "term": "healing",
+     "score": 0.0783
+    },
+    {
+     "term": "suppressed",
+     "score": 0.0743
+    },
+    {
+     "term": "part experience",
+     "score": 0.0698
+    },
+    {
+     "term": "onto",
+     "score": 0.0698
+    },
+    {
+     "term": "passage",
+     "score": 0.0698
+    },
+    {
+     "term": "onto others",
+     "score": 0.0698
+    }
+   ]
+  },
+  "The Galactic Guide": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "snake",
+     "score": 0.0957
+    },
+    {
+     "term": "tree",
+     "score": 0.0651
+    },
+    {
+     "term": "tree life",
+     "score": 0.0651
+    },
+    {
+     "term": "hurt",
+     "score": 0.0642
+    },
+    {
+     "term": "bad person",
+     "score": 0.0642
+    },
+    {
+     "term": "prefer",
+     "score": 0.0587
+    },
+    {
+     "term": "re allowed",
+     "score": 0.0587
+    },
+    {
+     "term": "slightly",
+     "score": 0.0587
+    },
+    {
+     "term": "judge",
+     "score": 0.0551
+    },
+    {
+     "term": "center",
+     "score": 0.0529
+    },
+    {
+     "term": "please don",
+     "score": 0.0516
+    },
+    {
+     "term": "shoulder blades",
+     "score": 0.0516
+    }
+   ]
+  }
+ },
+ "overlayByPractitioner": {
+  "Aurora Ray / Galactic Federation": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "eclipse",
+     "score": 0.0813
+    },
+    {
+     "term": "moon",
+     "score": 0.0561
+    },
+    {
+     "term": "sequence",
+     "score": 0.0554
+    },
+    {
+     "term": "galactic federation",
+     "score": 0.0537
+    },
+    {
+     "term": "evidence",
+     "score": 0.0509
+    },
+    {
+     "term": "told",
+     "score": 0.0509
+    },
+    {
+     "term": "somewhere",
+     "score": 0.0509
+    },
+    {
+     "term": "carrying",
+     "score": 0.0509
+    },
+    {
+     "term": "loud",
+     "score": 0.0506
+    },
+    {
+     "term": "arrives",
+     "score": 0.0506
+    },
+    {
+     "term": "galactic",
+     "score": 0.0496
+    },
+    {
+     "term": "august",
+     "score": 0.0496
+    }
+   ]
+  },
+  "Barbara Marciniak / Pleiadians": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "capricorn",
+     "score": 0.0472
+    },
+    {
+     "term": "pluto",
+     "score": 0.042
+    },
+    {
+     "term": "george",
+     "score": 0.042
+    },
+    {
+     "term": "anunnaki",
+     "score": 0.0392
+    },
+    {
+     "term": "manner",
+     "score": 0.0392
+    },
+    {
+     "term": "lose",
+     "score": 0.0361
+    },
+    {
+     "term": "tree",
+     "score": 0.0361
+    },
+    {
+     "term": "electromagnetic",
+     "score": 0.0355
+    },
+    {
+     "term": "grow",
+     "score": 0.0355
+    },
+    {
+     "term": "celebrate",
+     "score": 0.0355
+    },
+    {
+     "term": "sloth",
+     "score": 0.0355
+    },
+    {
+     "term": "acceleration",
+     "score": 0.0355
+    }
+   ]
+  },
+  "Blossom Goodchild / Federation of Light": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "book",
+     "score": 0.076
+    },
+    {
+     "term": "new book",
+     "score": 0.0713
+    },
+    {
+     "term": "weekend",
+     "score": 0.0713
+    },
+    {
+     "term": "swiping",
+     "score": 0.0713
+    },
+    {
+     "term": "tatyara",
+     "score": 0.0713
+    },
+    {
+     "term": "build build",
+     "score": 0.0713
+    },
+    {
+     "term": "yet showing",
+     "score": 0.0713
+    },
+    {
+     "term": "magnificent",
+     "score": 0.0697
+    },
+    {
+     "term": "showing",
+     "score": 0.0618
+    },
+    {
+     "term": "difficult",
+     "score": 0.0615
+    },
+    {
+     "term": "build",
+     "score": 0.0615
+    },
+    {
+     "term": "etc",
+     "score": 0.0613
+    }
+   ]
+  },
+  "Caroline and Leo / Calenara": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "dear ones",
+     "score": 0.0627
+    },
+    {
+     "term": "move move",
+     "score": 0.0627
+    },
+    {
+     "term": "love light",
+     "score": 0.0612
+    },
+    {
+     "term": "yay",
+     "score": 0.061
+    },
+    {
+     "term": "yay yay",
+     "score": 0.0602
+    },
+    {
+     "term": "dear",
+     "score": 0.0587
+    },
+    {
+     "term": "greet",
+     "score": 0.0576
+    },
+    {
+     "term": "highest",
+     "score": 0.0576
+    },
+    {
+     "term": "guides",
+     "score": 0.0554
+    },
+    {
+     "term": "gaia",
+     "score": 0.0554
+    },
+    {
+     "term": "shift",
+     "score": 0.0539
+    },
+    {
+     "term": "indeed",
+     "score": 0.0531
+    }
+   ]
+  },
+  "Christine Day / Pleiadians": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "open awareness",
+     "score": 0.0691
+    },
+    {
+     "term": "conscious breath",
+     "score": 0.0668
+    },
+    {
+     "term": "new blueprint",
+     "score": 0.0624
+    },
+    {
+     "term": "eenah",
+     "score": 0.0597
+    },
+    {
+     "term": "breath",
+     "score": 0.0594
+    },
+    {
+     "term": "awareness",
+     "score": 0.0592
+    },
+    {
+     "term": "seminar",
+     "score": 0.0587
+    },
+    {
+     "term": "eenah eenah",
+     "score": 0.0576
+    },
+    {
+     "term": "stargate",
+     "score": 0.0564
+    },
+    {
+     "term": "conscious",
+     "score": 0.055
+    },
+    {
+     "term": "letting",
+     "score": 0.055
+    },
+    {
+     "term": "stargate light",
+     "score": 0.0538
+    }
+   ]
+  },
+  "JJ Brighton / Pamela Aaralyn / Anjie Hipple / Daniel Scranton": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "age",
+     "score": 0.0437
+    },
+    {
+     "term": "judah",
+     "score": 0.0437
+    },
+    {
+     "term": "future",
+     "score": 0.0429
+    },
+    {
+     "term": "ceiling",
+     "score": 0.039
+    },
+    {
+     "term": "channelers",
+     "score": 0.039
+    },
+    {
+     "term": "five years",
+     "score": 0.0369
+    },
+    {
+     "term": "mandela",
+     "score": 0.0369
+    },
+    {
+     "term": "five",
+     "score": 0.0363
+    },
+    {
+     "term": "incredible",
+     "score": 0.035
+    },
+    {
+     "term": "december",
+     "score": 0.035
+    },
+    {
+     "term": "new age",
+     "score": 0.0345
+    },
+    {
+     "term": "et contact",
+     "score": 0.0345
+    }
+   ]
+  },
+  "Lyssa Royal Holt / Germane": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "toxic",
+     "score": 0.0983
+    },
+    {
+     "term": "card",
+     "score": 0.0983
+    },
+    {
+     "term": "waves",
+     "score": 0.0923
+    },
+    {
+     "term": "ocean",
+     "score": 0.0873
+    },
+    {
+     "term": "toxicity",
+     "score": 0.0865
+    },
+    {
+     "term": "polarity",
+     "score": 0.0865
+    },
+    {
+     "term": "healing",
+     "score": 0.0783
+    },
+    {
+     "term": "suppressed",
+     "score": 0.0743
+    },
+    {
+     "term": "part experience",
+     "score": 0.0698
+    },
+    {
+     "term": "onto",
+     "score": 0.0698
+    },
+    {
+     "term": "passage",
+     "score": 0.0698
+    },
+    {
+     "term": "onto others",
+     "score": 0.0698
+    }
+   ]
+  },
+  "Megan Rose / Val Nek": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "live streams",
+     "score": 0.0894
+    },
+    {
+     "term": "showing",
+     "score": 0.0846
+    },
+    {
+     "term": "supervisor",
+     "score": 0.0834
+    },
+    {
+     "term": "streams",
+     "score": 0.079
+    },
+    {
+     "term": "past lives",
+     "score": 0.0744
+    },
+    {
+     "term": "akashic",
+     "score": 0.0707
+    },
+    {
+     "term": "akashic records",
+     "score": 0.0707
+    },
+    {
+     "term": "judgment",
+     "score": 0.0685
+    },
+    {
+     "term": "dense",
+     "score": 0.0649
+    },
+    {
+     "term": "records",
+     "score": 0.0649
+    },
+    {
+     "term": "transcend",
+     "score": 0.0646
+    },
+    {
+     "term": "nancy",
+     "score": 0.0646
+    }
+   ]
+  },
+  "Sam the Illusionist / Galactic Federation": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "volunteers",
+     "score": 0.0806
+    },
+    {
+     "term": "month",
+     "score": 0.0747
+    },
+    {
+     "term": "regarding",
+     "score": 0.0708
+    },
+    {
+     "term": "wonderers",
+     "score": 0.0681
+    },
+    {
+     "term": "peoples",
+     "score": 0.0675
+    },
+    {
+     "term": "session",
+     "score": 0.0646
+    },
+    {
+     "term": "predictions",
+     "score": 0.0603
+    },
+    {
+     "term": "time space",
+     "score": 0.0603
+    },
+    {
+     "term": "complexes",
+     "score": 0.0603
+    },
+    {
+     "term": "december",
+     "score": 0.0554
+    },
+    {
+     "term": "flood",
+     "score": 0.0554
+    },
+    {
+     "term": "firstly",
+     "score": 0.0552
+    }
+   ]
+  },
+  "Shaun Swanson / Ishuwa": {
+   "nDocs": 2,
+   "topTerms": [
+    {
+     "term": "earth humans",
+     "score": 0.0836
+    },
+    {
+     "term": "dna",
+     "score": 0.078
+    },
+    {
+     "term": "civilizations",
+     "score": 0.0627
+    },
+    {
+     "term": "similar",
+     "score": 0.0617
+    },
+    {
+     "term": "civilization",
+     "score": 0.0616
+    },
+    {
+     "term": "similarities",
+     "score": 0.0601
+    },
+    {
+     "term": "perhaps",
+     "score": 0.0594
+    },
+    {
+     "term": "humans",
+     "score": 0.0544
+    },
+    {
+     "term": "extraterrestrial",
+     "score": 0.054
+    },
+    {
+     "term": "yay",
+     "score": 0.0534
+    },
+    {
+     "term": "sense",
+     "score": 0.0509
+    },
+    {
+     "term": "yay yay",
+     "score": 0.0498
+    }
+   ]
+  },
+  "Tyler Ellison / Ryokah": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "snake",
+     "score": 0.0957
+    },
+    {
+     "term": "tree",
+     "score": 0.0651
+    },
+    {
+     "term": "tree life",
+     "score": 0.0651
+    },
+    {
+     "term": "hurt",
+     "score": 0.0642
+    },
+    {
+     "term": "bad person",
+     "score": 0.0642
+    },
+    {
+     "term": "prefer",
+     "score": 0.0587
+    },
+    {
+     "term": "re allowed",
+     "score": 0.0587
+    },
+    {
+     "term": "slightly",
+     "score": 0.0587
+    },
+    {
+     "term": "judge",
+     "score": 0.0551
+    },
+    {
+     "term": "center",
+     "score": 0.0529
+    },
+    {
+     "term": "please don",
+     "score": 0.0516
+    },
+    {
+     "term": "shoulder blades",
+     "score": 0.0516
+    }
+   ]
+  }
+ },
+ "overlayByClaimedGroup": {
+  "Ashtar / Ra / Translucid Collective": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "dear ones",
+     "score": 0.0627
+    },
+    {
+     "term": "move move",
+     "score": 0.0627
+    },
+    {
+     "term": "love light",
+     "score": 0.0612
+    },
+    {
+     "term": "yay",
+     "score": 0.061
+    },
+    {
+     "term": "yay yay",
+     "score": 0.0602
+    },
+    {
+     "term": "dear",
+     "score": 0.0587
+    },
+    {
+     "term": "greet",
+     "score": 0.0576
+    },
+    {
+     "term": "highest",
+     "score": 0.0576
+    },
+    {
+     "term": "guides",
+     "score": 0.0554
+    },
+    {
+     "term": "gaia",
+     "score": 0.0554
+    },
+    {
+     "term": "shift",
+     "score": 0.0539
+    },
+    {
+     "term": "indeed",
+     "score": 0.0531
+    }
+   ]
+  },
+  "Federation of Light": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "book",
+     "score": 0.076
+    },
+    {
+     "term": "new book",
+     "score": 0.0713
+    },
+    {
+     "term": "weekend",
+     "score": 0.0713
+    },
+    {
+     "term": "swiping",
+     "score": 0.0713
+    },
+    {
+     "term": "tatyara",
+     "score": 0.0713
+    },
+    {
+     "term": "build build",
+     "score": 0.0713
+    },
+    {
+     "term": "yet showing",
+     "score": 0.0713
+    },
+    {
+     "term": "magnificent",
+     "score": 0.0697
+    },
+    {
+     "term": "showing",
+     "score": 0.0618
+    },
+    {
+     "term": "difficult",
+     "score": 0.0615
+    },
+    {
+     "term": "build",
+     "score": 0.0615
+    },
+    {
+     "term": "etc",
+     "score": 0.0613
+    }
+   ]
+  },
+  "Galactic Federation": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "volunteers",
+     "score": 0.0806
+    },
+    {
+     "term": "month",
+     "score": 0.0747
+    },
+    {
+     "term": "regarding",
+     "score": 0.0708
+    },
+    {
+     "term": "wonderers",
+     "score": 0.0681
+    },
+    {
+     "term": "peoples",
+     "score": 0.0675
+    },
+    {
+     "term": "session",
+     "score": 0.0646
+    },
+    {
+     "term": "predictions",
+     "score": 0.0603
+    },
+    {
+     "term": "time space",
+     "score": 0.0603
+    },
+    {
+     "term": "complexes",
+     "score": 0.0603
+    },
+    {
+     "term": "december",
+     "score": 0.0554
+    },
+    {
+     "term": "flood",
+     "score": 0.0554
+    },
+    {
+     "term": "firstly",
+     "score": 0.0552
+    }
+   ]
+  },
+  "Galactic Federation / starseed guidance": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "eclipse",
+     "score": 0.0813
+    },
+    {
+     "term": "moon",
+     "score": 0.0561
+    },
+    {
+     "term": "sequence",
+     "score": 0.0554
+    },
+    {
+     "term": "galactic federation",
+     "score": 0.0537
+    },
+    {
+     "term": "evidence",
+     "score": 0.0509
+    },
+    {
+     "term": "told",
+     "score": 0.0509
+    },
+    {
+     "term": "somewhere",
+     "score": 0.0509
+    },
+    {
+     "term": "carrying",
+     "score": 0.0509
+    },
+    {
+     "term": "loud",
+     "score": 0.0506
+    },
+    {
+     "term": "arrives",
+     "score": 0.0506
+    },
+    {
+     "term": "galactic",
+     "score": 0.0496
+    },
+    {
+     "term": "august",
+     "score": 0.0496
+    }
+   ]
+  },
+  "Germane / Orion": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "toxic",
+     "score": 0.0983
+    },
+    {
+     "term": "card",
+     "score": 0.0983
+    },
+    {
+     "term": "waves",
+     "score": 0.0923
+    },
+    {
+     "term": "ocean",
+     "score": 0.0873
+    },
+    {
+     "term": "toxicity",
+     "score": 0.0865
+    },
+    {
+     "term": "polarity",
+     "score": 0.0865
+    },
+    {
+     "term": "healing",
+     "score": 0.0783
+    },
+    {
+     "term": "suppressed",
+     "score": 0.0743
+    },
+    {
+     "term": "part experience",
+     "score": 0.0698
+    },
+    {
+     "term": "onto",
+     "score": 0.0698
+    },
+    {
+     "term": "passage",
+     "score": 0.0698
+    },
+    {
+     "term": "onto others",
+     "score": 0.0698
+    }
+   ]
+  },
+  "Ishuwa / Yahyel": {
+   "nDocs": 2,
+   "topTerms": [
+    {
+     "term": "earth humans",
+     "score": 0.0836
+    },
+    {
+     "term": "dna",
+     "score": 0.078
+    },
+    {
+     "term": "civilizations",
+     "score": 0.0627
+    },
+    {
+     "term": "similar",
+     "score": 0.0617
+    },
+    {
+     "term": "civilization",
+     "score": 0.0616
+    },
+    {
+     "term": "similarities",
+     "score": 0.0601
+    },
+    {
+     "term": "perhaps",
+     "score": 0.0594
+    },
+    {
+     "term": "humans",
+     "score": 0.0544
+    },
+    {
+     "term": "extraterrestrial",
+     "score": 0.054
+    },
+    {
+     "term": "yay",
+     "score": 0.0534
+    },
+    {
+     "term": "sense",
+     "score": 0.0509
+    },
+    {
+     "term": "yay yay",
+     "score": 0.0498
+    }
+   ]
+  },
+  "Pleiadians": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "open awareness",
+     "score": 0.0691
+    },
+    {
+     "term": "conscious breath",
+     "score": 0.0668
+    },
+    {
+     "term": "new blueprint",
+     "score": 0.0624
+    },
+    {
+     "term": "eenah",
+     "score": 0.0597
+    },
+    {
+     "term": "breath",
+     "score": 0.0594
+    },
+    {
+     "term": "awareness",
+     "score": 0.0592
+    },
+    {
+     "term": "seminar",
+     "score": 0.0587
+    },
+    {
+     "term": "eenah eenah",
+     "score": 0.0576
+    },
+    {
+     "term": "stargate",
+     "score": 0.0564
+    },
+    {
+     "term": "conscious",
+     "score": 0.055
+    },
+    {
+     "term": "letting",
+     "score": 0.055
+    },
+    {
+     "term": "stargate light",
+     "score": 0.0538
+    }
+   ]
+  },
+  "Pleiadians / Anunnaki references": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "capricorn",
+     "score": 0.0472
+    },
+    {
+     "term": "pluto",
+     "score": 0.042
+    },
+    {
+     "term": "george",
+     "score": 0.042
+    },
+    {
+     "term": "anunnaki",
+     "score": 0.0392
+    },
+    {
+     "term": "manner",
+     "score": 0.0392
+    },
+    {
+     "term": "lose",
+     "score": 0.0361
+    },
+    {
+     "term": "tree",
+     "score": 0.0361
+    },
+    {
+     "term": "electromagnetic",
+     "score": 0.0355
+    },
+    {
+     "term": "grow",
+     "score": 0.0355
+    },
+    {
+     "term": "celebrate",
+     "score": 0.0355
+    },
+    {
+     "term": "sloth",
+     "score": 0.0355
+    },
+    {
+     "term": "acceleration",
+     "score": 0.0355
+    }
+   ]
+  },
+  "Ryokah": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "snake",
+     "score": 0.0957
+    },
+    {
+     "term": "tree",
+     "score": 0.0651
+    },
+    {
+     "term": "tree life",
+     "score": 0.0651
+    },
+    {
+     "term": "hurt",
+     "score": 0.0642
+    },
+    {
+     "term": "bad person",
+     "score": 0.0642
+    },
+    {
+     "term": "prefer",
+     "score": 0.0587
+    },
+    {
+     "term": "re allowed",
+     "score": 0.0587
+    },
+    {
+     "term": "slightly",
+     "score": 0.0587
+    },
+    {
+     "term": "judge",
+     "score": 0.0551
+    },
+    {
+     "term": "center",
+     "score": 0.0529
+    },
+    {
+     "term": "please don",
+     "score": 0.0516
+    },
+    {
+     "term": "shoulder blades",
+     "score": 0.0516
+    }
+   ]
+  },
+  "Val Nek / Galactic Federation of Worlds": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "live streams",
+     "score": 0.0894
+    },
+    {
+     "term": "showing",
+     "score": 0.0846
+    },
+    {
+     "term": "supervisor",
+     "score": 0.0834
+    },
+    {
+     "term": "streams",
+     "score": 0.079
+    },
+    {
+     "term": "past lives",
+     "score": 0.0744
+    },
+    {
+     "term": "akashic",
+     "score": 0.0707
+    },
+    {
+     "term": "akashic records",
+     "score": 0.0707
+    },
+    {
+     "term": "judgment",
+     "score": 0.0685
+    },
+    {
+     "term": "dense",
+     "score": 0.0649
+    },
+    {
+     "term": "records",
+     "score": 0.0649
+    },
+    {
+     "term": "transcend",
+     "score": 0.0646
+    },
+    {
+     "term": "nancy",
+     "score": 0.0646
+    }
+   ]
+  },
+  "multiple attributed collectives": {
+   "nDocs": 1,
+   "topTerms": [
+    {
+     "term": "age",
+     "score": 0.0437
+    },
+    {
+     "term": "judah",
+     "score": 0.0437
+    },
+    {
+     "term": "future",
+     "score": 0.0429
+    },
+    {
+     "term": "ceiling",
+     "score": 0.039
+    },
+    {
+     "term": "channelers",
+     "score": 0.039
+    },
+    {
+     "term": "five years",
+     "score": 0.0369
+    },
+    {
+     "term": "mandela",
+     "score": 0.0369
+    },
+    {
+     "term": "five",
+     "score": 0.0363
+    },
+    {
+     "term": "incredible",
+     "score": 0.035
+    },
+    {
+     "term": "december",
+     "score": 0.035
+    },
+    {
+     "term": "new age",
+     "score": 0.0345
+    },
+    {
+     "term": "et contact",
+     "score": 0.0345
+    }
+   ]
+  }
+ },
+ "nmf": {
+  "k": 6,
+  "topics": [
+   {
+    "topic": 0,
+    "topTerms": [
+     "conscious",
+     "humanity",
+     "years",
+     "opening",
+     "work",
+     "creating",
+     "bring",
+     "don",
+     "important",
+     "breath",
+     "working",
+     "us"
+    ],
+    "weights": [
+     0.0849,
+     0.0714,
+     0.0706,
+     0.0668,
+     0.0657,
+     0.0629,
+     0.0614,
+     0.0586,
+     0.0576,
+     0.0569,
+     0.0567,
+     0.0566
+    ]
+   },
+   {
+    "topic": 1,
+    "topTerms": [
+     "earth humans",
+     "dna",
+     "civilizations",
+     "similar",
+     "civilization",
+     "similarities",
+     "perhaps",
+     "humans",
+     "extraterrestrial",
+     "yay",
+     "sense",
+     "yay yay"
+    ],
+    "weights": [
+     0.1182,
+     0.1104,
+     0.0886,
+     0.0874,
+     0.0867,
+     0.085,
+     0.084,
+     0.0773,
+     0.0766,
+     0.0762,
+     0.0721,
+     0.0711
+    ]
+   },
+   {
+    "topic": 2,
+    "topTerms": [
+     "ocean",
+     "waves",
+     "card",
+     "toxic",
+     "month",
+     "healing",
+     "suppressed",
+     "toxicity",
+     "polarity",
+     "compassion",
+     "purge",
+     "january"
+    ],
+    "weights": [
+     0.1165,
+     0.1137,
+     0.1033,
+     0.1033,
+     0.0954,
+     0.0953,
+     0.0947,
+     0.0908,
+     0.0908,
+     0.0863,
+     0.0796,
+     0.0796
+    ]
+   },
+   {
+    "topic": 3,
+    "topTerms": [
+     "live streams",
+     "showing",
+     "supervisor",
+     "streams",
+     "past lives",
+     "akashic",
+     "akashic records",
+     "judgment",
+     "dense",
+     "records",
+     "transcend",
+     "nancy"
+    ],
+    "weights": [
+     0.1059,
+     0.0999,
+     0.0987,
+     0.0937,
+     0.0882,
+     0.0837,
+     0.0837,
+     0.0814,
+     0.0768,
+     0.0768,
+     0.0765,
+     0.0765
+    ]
+   },
+   {
+    "topic": 4,
+    "topTerms": [
+     "snake",
+     "person",
+     "eclipse",
+     "wrong",
+     "body",
+     "dream",
+     "didn",
+     "finger",
+     "tree life",
+     "tree",
+     "nothing",
+     "hurt"
+    ],
+    "weights": [
+     0.0924,
+     0.0813,
+     0.079,
+     0.0782,
+     0.0736,
+     0.0721,
+     0.0646,
+     0.0645,
+     0.0627,
+     0.0625,
+     0.0622,
+     0.062
+    ]
+   },
+   {
+    "topic": 5,
+    "topTerms": [
+     "dear",
+     "magnificent",
+     "book",
+     "build",
+     "yet showing",
+     "tatyara",
+     "swiping",
+     "new book",
+     "weekend",
+     "build build",
+     "indeed",
+     "souls"
+    ],
+    "weights": [
+     0.0745,
+     0.0745,
+     0.0623,
+     0.0593,
+     0.0586,
+     0.0586,
+     0.0586,
+     0.0586,
+     0.0586,
+     0.0586,
+     0.0559,
+     0.0555
+    ]
+   }
+  ],
+  "seedStabilityMeanBestMatchCosine": 0.7867,
+  "seedStabilityPerSeed": [
+   0.8115,
+   0.7504,
+   0.8546,
+   0.6787,
+   0.8217,
+   0.803,
+   0.7906,
+   0.7198,
+   0.8986,
+   0.7383
+  ],
+  "caution": "NMF on 12 short ASR documents is a diagnostic only; no population significance and no stable semantic structure is claimed. Base model uses deterministic nndsvda init; seed stability compares 10 random-init runs against it (best-match cosine).",
+  "stabilityProtocol": "base=nndsvda(seed 20261110); 10 runs init=random"
+ },
+ "nmfDocWeights": {
+  "-0w7wdn_t9I": [
+   0.0,
+   0.0072,
+   0.0,
+   0.01,
+   0.5144,
+   0.0017
+  ],
+  "-8k6d9StYig": [
+   0.0043,
+   0.0,
+   0.0029,
+   0.0,
+   0.5175,
+   0.0
+  ],
+  "-JmMDcVVvuo": [
+   0.0296,
+   0.0122,
+   0.4644,
+   0.0042,
+   0.0194,
+   0.0086
+  ],
+  "-ZkOuLa0nPc": [
+   0.0,
+   0.7069,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "-i0dfXWr9Vk": [
+   0.3967,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "-leIq8XP15k": [
+   0.0,
+   0.7062,
+   0.0,
+   0.0005,
+   0.0,
+   0.0019
+  ],
+  "-o4q27DpxaA": [
+   0.0357,
+   0.0212,
+   0.0099,
+   0.008,
+   0.0,
+   0.5938
+  ],
+  "-rdfCWf8WnA": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.74
+  ],
+  "0DoOerBuWaQ": [
+   0.4118,
+   0.001,
+   0.0,
+   0.0,
+   0.0018,
+   0.0
+  ],
+  "0wlfYecWQ74": [
+   0.0,
+   0.0,
+   0.0,
+   0.8442,
+   0.0,
+   0.0
+  ],
+  "1UufR6Wn9z8": [
+   0.0,
+   0.0,
+   0.5802,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "1XnCFCcbunc": [
+   0.4185,
+   0.0021,
+   0.0,
+   0.0102,
+   0.0092,
+   0.0
+  ]
+ },
+ "topicXEntity": {
+  "entities": [
+   "Ashtar / Ra / Translucid Collective",
+   "Federation of Light",
+   "Galactic Federation",
+   "Galactic Federation / starseed guidance",
+   "Germane / Orion",
+   "Ishuwa / Yahyel",
+   "Pleiadians",
+   "Pleiadians / Anunnaki references",
+   "Ryokah",
+   "Val Nek / Galactic Federation of Worlds",
+   "multiple attributed collectives"
+  ],
+  "matrix": [
+   [
+    0.036,
+    0.0,
+    0.03,
+    0.004,
+    0.0,
+    0.0,
+    0.397,
+    0.412,
+    0.0,
+    0.0,
+    0.418
+   ],
+   [
+    0.021,
+    0.0,
+    0.012,
+    0.0,
+    0.0,
+    1.413,
+    0.0,
+    0.001,
+    0.007,
+    0.0,
+    0.002
+   ],
+   [
+    0.01,
+    0.0,
+    0.464,
+    0.003,
+    0.58,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.008,
+    0.0,
+    0.004,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01,
+    0.844,
+    0.01
+   ],
+   [
+    0.0,
+    0.0,
+    0.019,
+    0.518,
+    0.0,
+    0.0,
+    0.0,
+    0.002,
+    0.514,
+    0.0,
+    0.009
+   ],
+   [
+    0.594,
+    0.74,
+    0.009,
+    0.0,
+    0.0,
+    0.002,
+    0.0,
+    0.0,
+    0.002,
+    0.0,
+    0.0
+   ]
+  ]
+ },
+ "kmeansDiagnostics": {
+  "sweep": [
+   {
+    "k": 2,
+    "silhouetteMean": 0.0127,
+    "silhouetteSd": 0.0,
+    "seedStabilityARIvsBase": 1.0
+   },
+   {
+    "k": 3,
+    "silhouetteMean": 0.0126,
+    "silhouetteSd": 0.001,
+    "seedStabilityARIvsBase": 0.8553
+   },
+   {
+    "k": 4,
+    "silhouetteMean": 0.0096,
+    "silhouetteSd": 0.0014,
+    "seedStabilityARIvsBase": 0.7288
+   },
+   {
+    "k": 5,
+    "silhouetteMean": 0.0084,
+    "silhouetteSd": 0.0012,
+    "seedStabilityARIvsBase": 0.5647
+   },
+   {
+    "k": 6,
+    "silhouetteMean": 0.0084,
+    "silhouetteSd": 0.0009,
+    "seedStabilityARIvsBase": 0.5025
+   },
+   {
+    "k": 7,
+    "silhouetteMean": 0.008,
+    "silhouetteSd": 0.0006,
+    "seedStabilityARIvsBase": 0.8079
+   },
+   {
+    "k": 8,
+    "silhouetteMean": 0.0077,
+    "silhouetteSd": 0.0009,
+    "seedStabilityARIvsBase": 0.9521
+   }
+  ],
+  "caution": "KMeans on 12 documents is unstable by construction; silhouettes and ARI are reported as diagnostics, not evidence of natural clusters."
+ },
+ "documentNetwork": {
+  "nodes": [
+   "-0w7wdn_t9I",
+   "-8k6d9StYig",
+   "-JmMDcVVvuo",
+   "-ZkOuLa0nPc",
+   "-i0dfXWr9Vk",
+   "-leIq8XP15k",
+   "-o4q27DpxaA",
+   "-rdfCWf8WnA",
+   "0DoOerBuWaQ",
+   "0wlfYecWQ74",
+   "1UufR6Wn9z8",
+   "1XnCFCcbunc"
+  ],
+  "edges": [
+   {
+    "a": "-0w7wdn_t9I",
+    "b": "1XnCFCcbunc",
+    "weight": 0.083
+   },
+   {
+    "a": "-8k6d9StYig",
+    "b": "0DoOerBuWaQ",
+    "weight": 0.086
+   },
+   {
+    "a": "-JmMDcVVvuo",
+    "b": "1UufR6Wn9z8",
+    "weight": 0.048
+   },
+   {
+    "a": "-JmMDcVVvuo",
+    "b": "1XnCFCcbunc",
+    "weight": 0.078
+   },
+   {
+    "a": "-ZkOuLa0nPc",
+    "b": "-leIq8XP15k",
+    "weight": 0.108
+   },
+   {
+    "a": "-i0dfXWr9Vk",
+    "b": "1XnCFCcbunc",
+    "weight": 0.097
+   },
+   {
+    "a": "-o4q27DpxaA",
+    "b": "1XnCFCcbunc",
+    "weight": 0.097
+   },
+   {
+    "a": "-rdfCWf8WnA",
+    "b": "1XnCFCcbunc",
+    "weight": 0.068
+   },
+   {
+    "a": "0DoOerBuWaQ",
+    "b": "1XnCFCcbunc",
+    "weight": 0.109
+   },
+   {
+    "a": "0wlfYecWQ74",
+    "b": "1XnCFCcbunc",
+    "weight": 0.069
+   }
+  ],
+  "threshold": 0.1,
+  "weakestEdgeRule": "each node with a positive-similarity neighbor keeps its strongest edge even below threshold; all-zero nodes remain isolated",
+  "meanSimilarity": 0.0567,
+  "maxSimilarity": 0.1089
+ },
+ "durationProfiles": [
+  {
+   "videoId": "-0w7wdn_t9I",
+   "publisher": "The Galactic Guide",
+   "claimedGroup": "Ryokah",
+   "language": "en",
+   "durationSeconds": 1117.56,
+   "decodedDurationSeconds": 1117.53,
+   "asrCoverage": 0.9979,
+   "lastSegmentEnd": 1115.22,
+   "segmentCount": 253,
+   "wordCount": 2695,
+   "wordsPerMinute": 144.7,
+   "segmentsPerMinute": 13.58,
+   "repeatedTrigramShare": 0.0854,
+   "questionUnits": 19,
+   "directQuestions": 5,
+   "questionsPer10Min": 10.2,
+   "questionUnitsByThird": {
+    "first": 9,
+    "middle": 6,
+    "last": 4
+   }
+  },
+  {
+   "videoId": "-8k6d9StYig",
+   "publisher": "Aurora Ray",
+   "claimedGroup": "Galactic Federation / starseed guidance",
+   "language": "en",
+   "durationSeconds": 1446.576,
+   "decodedDurationSeconds": 1446.534,
+   "asrCoverage": 0.9998,
+   "lastSegmentEnd": 1446.32,
+   "segmentCount": 327,
+   "wordCount": 3170,
+   "wordsPerMinute": 131.5,
+   "segmentsPerMinute": 13.56,
+   "repeatedTrigramShare": 0.0584,
+   "questionUnits": 2,
+   "directQuestions": 2,
+   "questionsPer10Min": 0.83,
+   "questionUnitsByThird": {
+    "first": 1,
+    "middle": 0,
+    "last": 1
+   }
+  },
+  {
+   "videoId": "-JmMDcVVvuo",
+   "publisher": "SAM THE ILLUSIONIST",
+   "claimedGroup": "Galactic Federation",
+   "language": "en",
+   "durationSeconds": 1216.008,
+   "decodedDurationSeconds": 1215.983,
+   "asrCoverage": 1.0,
+   "lastSegmentEnd": 1216.0,
+   "segmentCount": 192,
+   "wordCount": 2378,
+   "wordsPerMinute": 117.3,
+   "segmentsPerMinute": 9.47,
+   "repeatedTrigramShare": 0.0947,
+   "questionUnits": 2,
+   "directQuestions": 0,
+   "questionsPer10Min": 0.99,
+   "questionUnitsByThird": {
+    "first": 1,
+    "middle": 0,
+    "last": 1
+   }
+  },
+  {
+   "videoId": "-ZkOuLa0nPc",
+   "publisher": "Ishuwa Yahyel: First ET Contact",
+   "claimedGroup": "Ishuwa / Yahyel",
+   "language": "en",
+   "durationSeconds": 582.36,
+   "decodedDurationSeconds": 582.336,
+   "asrCoverage": 0.9985,
+   "lastSegmentEnd": 581.48,
+   "segmentCount": 103,
+   "wordCount": 1516,
+   "wordsPerMinute": 156.2,
+   "segmentsPerMinute": 10.61,
+   "repeatedTrigramShare": 0.1004,
+   "questionUnits": 7,
+   "directQuestions": 0,
+   "questionsPer10Min": 7.21,
+   "questionUnitsByThird": {
+    "first": 2,
+    "middle": 4,
+    "last": 1
+   }
+  },
+  {
+   "videoId": "-i0dfXWr9Vk",
+   "publisher": "Christine Day",
+   "claimedGroup": "Pleiadians",
+   "language": "en",
+   "durationSeconds": 3698.390204,
+   "decodedDurationSeconds": 3698.358,
+   "asrCoverage": 0.9941,
+   "lastSegmentEnd": 3676.4,
+   "segmentCount": 640,
+   "wordCount": 6998,
+   "wordsPerMinute": 113.5,
+   "segmentsPerMinute": 10.38,
+   "repeatedTrigramShare": 0.2101,
+   "questionUnits": 12,
+   "directQuestions": 6,
+   "questionsPer10Min": 1.95,
+   "questionUnitsByThird": {
+    "first": 4,
+    "middle": 7,
+    "last": 1
+   }
+  },
+  {
+   "videoId": "-leIq8XP15k",
+   "publisher": "Ishuwa Yahyel: First ET Contact",
+   "claimedGroup": "Ishuwa / Yahyel",
+   "language": "en",
+   "durationSeconds": 605.88,
+   "decodedDurationSeconds": 605.845,
+   "asrCoverage": 0.9238,
+   "lastSegmentEnd": 559.7,
+   "segmentCount": 108,
+   "wordCount": 1153,
+   "wordsPerMinute": 114.2,
+   "segmentsPerMinute": 10.7,
+   "repeatedTrigramShare": 0.0877,
+   "questionUnits": 3,
+   "directQuestions": 2,
+   "questionsPer10Min": 2.97,
+   "questionUnitsByThird": {
+    "first": 1,
+    "middle": 1,
+    "last": 1
+   }
+  },
+  {
+   "videoId": "-o4q27DpxaA",
+   "publisher": "Calenara",
+   "claimedGroup": "Ashtar / Ra / Translucid Collective",
+   "language": "en",
+   "durationSeconds": 2925.384,
+   "decodedDurationSeconds": 2925.355,
+   "asrCoverage": 1.0,
+   "lastSegmentEnd": 2925.44,
+   "segmentCount": 428,
+   "wordCount": 5394,
+   "wordsPerMinute": 110.6,
+   "segmentsPerMinute": 8.78,
+   "repeatedTrigramShare": 0.173,
+   "questionUnits": 22,
+   "directQuestions": 12,
+   "questionsPer10Min": 4.51,
+   "questionUnitsByThird": {
+    "first": 2,
+    "middle": 5,
+    "last": 15
+   }
+  },
+  {
+   "videoId": "-rdfCWf8WnA",
+   "publisher": "Blossom Goodchild",
+   "claimedGroup": "Federation of Light",
+   "language": "en",
+   "durationSeconds": 1272.096,
+   "decodedDurationSeconds": 1272.064,
+   "asrCoverage": 0.9913,
+   "lastSegmentEnd": 1261.05,
+   "segmentCount": 141,
+   "wordCount": 1802,
+   "wordsPerMinute": 85.0,
+   "segmentsPerMinute": 6.65,
+   "repeatedTrigramShare": 0.0656,
+   "questionUnits": 4,
+   "directQuestions": 1,
+   "questionsPer10Min": 1.89,
+   "questionUnitsByThird": {
+    "first": 3,
+    "middle": 1,
+    "last": 0
+   }
+  },
+  {
+   "videoId": "0DoOerBuWaQ",
+   "publisher": "Barbara Marciniak",
+   "claimedGroup": "Pleiadians / Anunnaki references",
+   "language": "en",
+   "durationSeconds": 4534.125714,
+   "decodedDurationSeconds": 4534.091,
+   "asrCoverage": 1.0,
+   "lastSegmentEnd": 4534.06,
+   "segmentCount": 779,
+   "wordCount": 9213,
+   "wordsPerMinute": 121.9,
+   "segmentsPerMinute": 10.31,
+   "repeatedTrigramShare": 0.0826,
+   "questionUnits": 36,
+   "directQuestions": 16,
+   "questionsPer10Min": 4.76,
+   "questionUnitsByThird": {
+    "first": 12,
+    "middle": 8,
+    "last": 16
+   }
+  },
+  {
+   "videoId": "0wlfYecWQ74",
+   "publisher": "Megan Rose",
+   "claimedGroup": "Val Nek / Galactic Federation of Worlds",
+   "language": "en",
+   "durationSeconds": 1322.904,
+   "decodedDurationSeconds": 1322.88,
+   "asrCoverage": 0.9994,
+   "lastSegmentEnd": 1322.08,
+   "segmentCount": 239,
+   "wordCount": 2513,
+   "wordsPerMinute": 114.0,
+   "segmentsPerMinute": 10.84,
+   "repeatedTrigramShare": 0.1553,
+   "questionUnits": 16,
+   "directQuestions": 4,
+   "questionsPer10Min": 7.26,
+   "questionUnitsByThird": {
+    "first": 5,
+    "middle": 6,
+    "last": 5
+   }
+  },
+  {
+   "videoId": "1UufR6Wn9z8",
+   "publisher": "SOLi School | Lyssa Royal Holt",
+   "claimedGroup": "Germane / Orion",
+   "language": "en",
+   "durationSeconds": 368.328,
+   "decodedDurationSeconds": 368.292,
+   "asrCoverage": 0.9937,
+   "lastSegmentEnd": 365.99,
+   "segmentCount": 67,
+   "wordCount": 812,
+   "wordsPerMinute": 132.3,
+   "segmentsPerMinute": 10.91,
+   "repeatedTrigramShare": 0.0222,
+   "questionUnits": 1,
+   "directQuestions": 0,
+   "questionsPer10Min": 1.63,
+   "questionUnitsByThird": {
+    "first": 1,
+    "middle": 0,
+    "last": 0
+   }
+  },
+  {
+   "videoId": "1XnCFCcbunc",
+   "publisher": "Daniel Scranton",
+   "claimedGroup": "multiple attributed collectives",
+   "language": "en",
+   "durationSeconds": 3836.290612,
+   "decodedDurationSeconds": 3836.262,
+   "asrCoverage": 1.0,
+   "lastSegmentEnd": 3836.1,
+   "segmentCount": 913,
+   "wordCount": 10059,
+   "wordsPerMinute": 157.3,
+   "segmentsPerMinute": 14.28,
+   "repeatedTrigramShare": 0.1009,
+   "questionUnits": 40,
+   "directQuestions": 18,
+   "questionsPer10Min": 6.26,
+   "questionUnitsByThird": {
+    "first": 14,
+    "middle": 12,
+    "last": 14
+   }
+  }
+ ],
+ "sensitivity": {
+  "perDocument": [
+   {
+    "videoId": "-0w7wdn_t9I",
+    "properNameHits": 6,
+    "properNameShare": 0.0023,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "-8k6d9StYig",
+    "properNameHits": 4,
+    "properNameShare": 0.0013,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "-JmMDcVVvuo",
+    "properNameHits": 0,
+    "properNameShare": 0.0,
+    "commercialHits": 3
+   },
+   {
+    "videoId": "-ZkOuLa0nPc",
+    "properNameHits": 1,
+    "properNameShare": 0.0007,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "-i0dfXWr9Vk",
+    "properNameHits": 12,
+    "properNameShare": 0.0018,
+    "commercialHits": 1
+   },
+   {
+    "videoId": "-leIq8XP15k",
+    "properNameHits": 2,
+    "properNameShare": 0.0018,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "-o4q27DpxaA",
+    "properNameHits": 13,
+    "properNameShare": 0.0025,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "-rdfCWf8WnA",
+    "properNameHits": 1,
+    "properNameShare": 0.0006,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "0DoOerBuWaQ",
+    "properNameHits": 6,
+    "properNameShare": 0.0007,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "0wlfYecWQ74",
+    "properNameHits": 2,
+    "properNameShare": 0.0008,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "1UufR6Wn9z8",
+    "properNameHits": 3,
+    "properNameShare": 0.0038,
+    "commercialHits": 0
+   },
+   {
+    "videoId": "1XnCFCcbunc",
+    "properNameHits": 40,
+    "properNameShare": 0.0041,
+    "commercialHits": 0
+   }
+  ],
+  "note": "TF-IDF/NMF already exclude the proper-name list and commercial tokens are counted with an English-oriented regex, not a cross-language advertisement detector; top terms are computed with names removed to show sensitivity."
+ },
+ "topicVsEntityNote": "Topics are compared against claimed-entity labels as publisher-attached metadata only; no physical-origin or ontological claim is made or implied.",
+ "qa": {
+  "totalUnits": 164,
+  "totalQuestionSentences": 216,
+  "perClaimedEntity": {
+   "Ashtar / Ra / Translucid Collective": {
+    "nUnits": 22,
+    "nQuestionSentences": 38,
+    "families": {
+     "other_theme": 18,
+     "ascension": 1,
+     "predictions": 2,
+     "healing": 1
+    },
+    "forms": {
+     "wh_question": 11,
+     "yes_no_question": 6,
+     "other_unclassified_qmark": 5
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 10,
+     "direct_interview_candidate": 12
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 20,
+     "conditional_hedged": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 14,
+     "interrupted_by_next_question": 7,
+     "end_of_transcript_boundary_unknown": 1
+    }
+   },
+   "Federation of Light": {
+    "nUnits": 4,
+    "nQuestionSentences": 6,
+    "families": {
+     "other_theme": 4
+    },
+    "forms": {
+     "yes_no_question": 2,
+     "other_unclassified_qmark": 1,
+     "wh_question": 1
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 3,
+     "direct_interview_candidate": 1
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 3,
+     "conditional_hedged": 1
+    },
+    "answerStatuses": {
+     "complete_line_cap": 4
+    }
+   },
+   "Galactic Federation": {
+    "nUnits": 2,
+    "nQuestionSentences": 2,
+    "families": {
+     "other_theme": 2
+    },
+    "forms": {
+     "wh_question": 1,
+     "tag_only": 1
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 1,
+     "rhetorical_candidate": 1
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 2
+    }
+   },
+   "Galactic Federation / starseed guidance": {
+    "nUnits": 2,
+    "nQuestionSentences": 2,
+    "families": {
+     "other_theme": 2
+    },
+    "forms": {
+     "wh_question": 1,
+     "other_unclassified_qmark": 1
+    },
+    "discourseClasses": {
+     "direct_interview_candidate": 2
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 2
+    }
+   },
+   "Germane / Orion": {
+    "nUnits": 1,
+    "nQuestionSentences": 1,
+    "families": {
+     "other_theme": 1
+    },
+    "forms": {
+     "wh_question": 1
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 1
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 1
+    },
+    "answerStatuses": {
+     "complete_line_cap": 1
+    }
+   },
+   "Ishuwa / Yahyel": {
+    "nUnits": 10,
+    "nQuestionSentences": 13,
+    "families": {
+     "other_theme": 9,
+     "contact_timing": 1
+    },
+    "forms": {
+     "wh_question": 4,
+     "other_unclassified_qmark": 4,
+     "yes_no_question": 1,
+     "imperative_prompt": 1
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 8,
+     "direct_interview_candidate": 2
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 8,
+     "conditional_hedged": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 9,
+     "end_of_transcript_boundary_unknown": 1
+    }
+   },
+   "Pleiadians": {
+    "nUnits": 12,
+    "nQuestionSentences": 12,
+    "families": {
+     "other_theme": 12
+    },
+    "forms": {
+     "other_unclassified_qmark": 2,
+     "wh_question": 8,
+     "yes_no_question": 2
+    },
+    "discourseClasses": {
+     "direct_interview_candidate": 6,
+     "unclear_dialogue_context": 6
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 11,
+     "process_practice_oriented": 1
+    },
+    "answerStatuses": {
+     "complete_line_cap": 10,
+     "interrupted_by_next_question": 2
+    }
+   },
+   "Pleiadians / Anunnaki references": {
+    "nUnits": 36,
+    "nQuestionSentences": 53,
+    "families": {
+     "other_theme": 36
+    },
+    "forms": {
+     "other_unclassified_qmark": 14,
+     "wh_question": 19,
+     "yes_no_question": 3
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 20,
+     "direct_interview_candidate": 16
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 29,
+     "conditional_hedged": 3,
+     "process_practice_oriented": 1,
+     "timing_specific": 3
+    },
+    "answerStatuses": {
+     "complete_line_cap": 28,
+     "interrupted_by_next_question": 8
+    }
+   },
+   "Ryokah": {
+    "nUnits": 19,
+    "nQuestionSentences": 24,
+    "families": {
+     "other_theme": 18,
+     "reality_agency": 1
+    },
+    "forms": {
+     "wh_question": 10,
+     "other_unclassified_qmark": 4,
+     "yes_no_question": 5
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 13,
+     "secondary_report": 1,
+     "direct_interview_candidate": 5
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 13,
+     "conditional_hedged": 4,
+     "process_practice_oriented": 2
+    },
+    "answerStatuses": {
+     "interrupted_by_next_question": 8,
+     "complete_line_cap": 11
+    }
+   },
+   "Val Nek / Galactic Federation of Worlds": {
+    "nUnits": 16,
+    "nQuestionSentences": 17,
+    "families": {
+     "reality_agency": 3,
+     "other_theme": 13
+    },
+    "forms": {
+     "wh_question": 8,
+     "other_unclassified_qmark": 3,
+     "yes_no_question": 4,
+     "tag_only": 1
+    },
+    "discourseClasses": {
+     "direct_interview_candidate": 4,
+     "unclear_dialogue_context": 11,
+     "rhetorical_candidate": 1
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 16
+    },
+    "answerStatuses": {
+     "complete_line_cap": 13,
+     "interrupted_by_next_question": 3
+    }
+   },
+   "multiple attributed collectives": {
+    "nUnits": 40,
+    "nQuestionSentences": 48,
+    "families": {
+     "other_theme": 31,
+     "predictions": 7,
+     "healing": 2
+    },
+    "forms": {
+     "wh_question": 16,
+     "other_unclassified_qmark": 15,
+     "yes_no_question": 6,
+     "tag_only": 3
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 19,
+     "direct_interview_candidate": 18,
+     "rhetorical_candidate": 3
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 37,
+     "timing_specific": 1,
+     "conditional_hedged": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 33,
+     "interrupted_by_next_question": 7
+    }
+   }
+  },
+  "perPublisher": {
+   "Aurora Ray": {
+    "nUnits": 2,
+    "nQuestionSentences": 2,
+    "families": {
+     "other_theme": 2
+    },
+    "forms": {
+     "wh_question": 1,
+     "other_unclassified_qmark": 1
+    },
+    "discourseClasses": {
+     "direct_interview_candidate": 2
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 2
+    }
+   },
+   "Barbara Marciniak": {
+    "nUnits": 36,
+    "nQuestionSentences": 53,
+    "families": {
+     "other_theme": 36
+    },
+    "forms": {
+     "other_unclassified_qmark": 14,
+     "wh_question": 19,
+     "yes_no_question": 3
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 20,
+     "direct_interview_candidate": 16
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 29,
+     "conditional_hedged": 3,
+     "process_practice_oriented": 1,
+     "timing_specific": 3
+    },
+    "answerStatuses": {
+     "complete_line_cap": 28,
+     "interrupted_by_next_question": 8
+    }
+   },
+   "Blossom Goodchild": {
+    "nUnits": 4,
+    "nQuestionSentences": 6,
+    "families": {
+     "other_theme": 4
+    },
+    "forms": {
+     "yes_no_question": 2,
+     "other_unclassified_qmark": 1,
+     "wh_question": 1
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 3,
+     "direct_interview_candidate": 1
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 3,
+     "conditional_hedged": 1
+    },
+    "answerStatuses": {
+     "complete_line_cap": 4
+    }
+   },
+   "Calenara": {
+    "nUnits": 22,
+    "nQuestionSentences": 38,
+    "families": {
+     "other_theme": 18,
+     "ascension": 1,
+     "predictions": 2,
+     "healing": 1
+    },
+    "forms": {
+     "wh_question": 11,
+     "yes_no_question": 6,
+     "other_unclassified_qmark": 5
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 10,
+     "direct_interview_candidate": 12
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 20,
+     "conditional_hedged": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 14,
+     "interrupted_by_next_question": 7,
+     "end_of_transcript_boundary_unknown": 1
+    }
+   },
+   "Christine Day": {
+    "nUnits": 12,
+    "nQuestionSentences": 12,
+    "families": {
+     "other_theme": 12
+    },
+    "forms": {
+     "other_unclassified_qmark": 2,
+     "wh_question": 8,
+     "yes_no_question": 2
+    },
+    "discourseClasses": {
+     "direct_interview_candidate": 6,
+     "unclear_dialogue_context": 6
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 11,
+     "process_practice_oriented": 1
+    },
+    "answerStatuses": {
+     "complete_line_cap": 10,
+     "interrupted_by_next_question": 2
+    }
+   },
+   "Daniel Scranton": {
+    "nUnits": 40,
+    "nQuestionSentences": 48,
+    "families": {
+     "other_theme": 31,
+     "predictions": 7,
+     "healing": 2
+    },
+    "forms": {
+     "wh_question": 16,
+     "other_unclassified_qmark": 15,
+     "yes_no_question": 6,
+     "tag_only": 3
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 19,
+     "direct_interview_candidate": 18,
+     "rhetorical_candidate": 3
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 37,
+     "timing_specific": 1,
+     "conditional_hedged": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 33,
+     "interrupted_by_next_question": 7
+    }
+   },
+   "Ishuwa Yahyel: First ET Contact": {
+    "nUnits": 10,
+    "nQuestionSentences": 13,
+    "families": {
+     "other_theme": 9,
+     "contact_timing": 1
+    },
+    "forms": {
+     "wh_question": 4,
+     "other_unclassified_qmark": 4,
+     "yes_no_question": 1,
+     "imperative_prompt": 1
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 8,
+     "direct_interview_candidate": 2
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 8,
+     "conditional_hedged": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 9,
+     "end_of_transcript_boundary_unknown": 1
+    }
+   },
+   "Megan Rose": {
+    "nUnits": 16,
+    "nQuestionSentences": 17,
+    "families": {
+     "reality_agency": 3,
+     "other_theme": 13
+    },
+    "forms": {
+     "wh_question": 8,
+     "other_unclassified_qmark": 3,
+     "yes_no_question": 4,
+     "tag_only": 1
+    },
+    "discourseClasses": {
+     "direct_interview_candidate": 4,
+     "unclear_dialogue_context": 11,
+     "rhetorical_candidate": 1
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 16
+    },
+    "answerStatuses": {
+     "complete_line_cap": 13,
+     "interrupted_by_next_question": 3
+    }
+   },
+   "SAM THE ILLUSIONIST": {
+    "nUnits": 2,
+    "nQuestionSentences": 2,
+    "families": {
+     "other_theme": 2
+    },
+    "forms": {
+     "wh_question": 1,
+     "tag_only": 1
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 1,
+     "rhetorical_candidate": 1
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 2
+    },
+    "answerStatuses": {
+     "complete_line_cap": 2
+    }
+   },
+   "SOLi School | Lyssa Royal Holt": {
+    "nUnits": 1,
+    "nQuestionSentences": 1,
+    "families": {
+     "other_theme": 1
+    },
+    "forms": {
+     "wh_question": 1
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 1
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 1
+    },
+    "answerStatuses": {
+     "complete_line_cap": 1
+    }
+   },
+   "The Galactic Guide": {
+    "nUnits": 19,
+    "nQuestionSentences": 24,
+    "families": {
+     "other_theme": 18,
+     "reality_agency": 1
+    },
+    "forms": {
+     "wh_question": 10,
+     "other_unclassified_qmark": 4,
+     "yes_no_question": 5
+    },
+    "discourseClasses": {
+     "unclear_dialogue_context": 13,
+     "secondary_report": 1,
+     "direct_interview_candidate": 5
+    },
+    "answerOrientations": {
+     "descriptive_explanatory": 13,
+     "conditional_hedged": 4,
+     "process_practice_oriented": 2
+    },
+    "answerStatuses": {
+     "interrupted_by_next_question": 8,
+     "complete_line_cap": 11
+    }
+   }
+  },
+  "familyTotals": {
+   "other_theme": 146,
+   "reality_agency": 4,
+   "contact_timing": 1,
+   "ascension": 1,
+   "predictions": 9,
+   "healing": 3
+  },
+  "discourseTotals": {
+   "unclear_dialogue_context": 92,
+   "secondary_report": 1,
+   "direct_interview_candidate": 66,
+   "rhetorical_candidate": 5
+  },
+  "orientationTotals": {
+   "descriptive_explanatory": 142,
+   "conditional_hedged": 14,
+   "process_practice_oriented": 4,
+   "timing_specific": 4
+  },
+  "answerStatusTotals": {
+   "interrupted_by_next_question": 35,
+   "complete_line_cap": 127,
+   "end_of_transcript_boundary_unknown": 2
+  },
+  "familylessStopwordOnlyUnits": 16,
+  "commonQuestionFamilies": {
+   "nFamilies": 144,
+   "nSharedAcrossVideos": 3,
+   "families": [
+    {
+     "familyKey": "749ab2c0d06c42ae",
+     "occurrences": 3,
+     "nPublishers": 3,
+     "nVideos": 3,
+     "repostRisk": "high",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "34df9a2fa18c0a96827ac0896f02c0511e08a6549e66481887296e8aafbc5ca0",
+     "exampleVideoId": "-o4q27DpxaA",
+     "exampleStartSeconds": 2329.21,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "10c19065c8d1bb07",
+     "occurrences": 2,
+     "nPublishers": 2,
+     "nVideos": 2,
+     "repostRisk": "high",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "27c48b4d97ed7d71a5a334a89381b29033660fbd61e223fe794e8d44962da2ef",
+     "exampleVideoId": "0DoOerBuWaQ",
+     "exampleStartSeconds": 2721.52,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "a3ce0b6106cdb398",
+     "occurrences": 2,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "8bd59fa03ac6653427bc26ea8834a98360dce9ff140c3064c93564b5fcabdbcf",
+     "exampleVideoId": "0DoOerBuWaQ",
+     "exampleStartSeconds": 1124.06,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "e3577ea65f66ae46",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "ecf06edf678fb49a5b834da62c3ea3de5713b3e56f84906e2e35521d5352713a",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 62.21,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "c9ef0f7813c8fa2c",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "b7db09bfdf8604bd54f7a0de1e99e6dfe40e13681830bc0bdf9c403340699a80",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 68.69,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "3c70528c6c10c836",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "388239ac74b126a67a62b08064d231df557b81c8cda5433395bae8250dc46619",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 98.13,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "aeeaa4366a335c46",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "8c42982d6acd63cc7821e17cbd8f16fb4576d60fb7d1b410c1ec1e051497d7bc",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 141.08,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "8ad70185a14e35ac",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "19e11c8bbb916dd20ec5d666dea09a1523cc0e1e4e407483c0fe9e5c37912f2d",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 183.12,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "e7b054e2512d8597",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "938ad4d7d21fb537801016c3779903562b5bfce66a9c555c8abec7f8ea033ea3",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 189.12,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "6c4c491906949b4c",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "c391978cca34ad5e33158d595aabfbdfcc4746fcf4509cfd00c4e98a7f26b850",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 196.4,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "130261af392cf8f0",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "4474cdec266f84955b43ec22e067cc7cb3619ec3f82ff58566a111c2049dde44",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 346.94,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "8de284a079fdd01b",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "39dba48744e2090b26c1816a7d2e0ee1ed803d54613606961b04978c28cfbd61",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 421.18,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "7a684641e84a4b97",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "reality_agency",
+     "exampleQuestionSha256": "1fb574b030b0df1610bda65402cc66c1a67009cbb929c1be0bd79dc5299b2798",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 485.25,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "159c0d587d42b3bb",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "6eadad1282ff25ef058b85a9e36e0aa41344895882e45a6e6bc73af50d39757a",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 576.53,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "19eb66f4016cc89c",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "b5e495f08ac8b1037f6d92471d2aa87852cc17c9f62d3f226236db6e6c860d2e",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 585.89,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "f899fb342831a60e",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "6188d7df8359fc080e1cf6020a2afdffa7e5ca409dda498c242c43d6778984fd",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 594.05,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "5146f25dc5079599",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "76f1f786a379741a679a347dab6aeaa3b32029cf649d53f4885104b6fb2c2609",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 683.8,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "b8c605ddd9ae234b",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "d3f1dd55869a9e4a155c5182dbd562a84eaa66b8ec251c306c8f454c05ecab09",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 795.98,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "45dece01f9a6d1b0",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "7021fcd56dabc4dda5009a3574aa03f23bd611ee3a762a0ca92f148e2ddf97d1",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 855.62,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "314b5ff2a67f469f",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "01eae2e5c084b1a9726c39c2cb0d02d7a242b7193fe5a09925cf5f5be3ac4eac",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 872.62,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "87a401698a818862",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "229824aacaff6e7eaa0885b8dd10aa95ae017ed263979a19eccf97377a3dd7a2",
+     "exampleVideoId": "-0w7wdn_t9I",
+     "exampleStartSeconds": 895.05,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "032be71a45f1bb46",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "131bb920fab75518fb10aff9c6d48ab1b231b46f4fd87fe7b7e7fd7531af30aa",
+     "exampleVideoId": "-8k6d9StYig",
+     "exampleStartSeconds": 240.88,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "3b506cc9e95b0532",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "a0deef49365ececea24a5a6bf1a7b610970af02acc6feaa58b6d54db82693c64",
+     "exampleVideoId": "-8k6d9StYig",
+     "exampleStartSeconds": 1008.28,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "e06ded13ece1cd71",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "58eccb91927f0a658f210c4813d71291d42eb4e946c44e235a880b34ebb9b040",
+     "exampleVideoId": "-JmMDcVVvuo",
+     "exampleStartSeconds": 62.14,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "0f7a8df1c4ec7fd3",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "2f9f0b5153d071414d6fcccd024b1e93823d2bef1a02c31bda59dc75d8dbd464",
+     "exampleVideoId": "-ZkOuLa0nPc",
+     "exampleStartSeconds": 0.0,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "18959c9281904a78",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "d0db778056f4369ac575e386b4a95b9323032bf403fc16698aa83b5ec210d94a",
+     "exampleVideoId": "-ZkOuLa0nPc",
+     "exampleStartSeconds": 57.32,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "9355e00d27d96abd",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "0eb6a63a5fef643b89dfb87a738be3ed408e620e0fcb21e05e90e8402a1371c0",
+     "exampleVideoId": "-ZkOuLa0nPc",
+     "exampleStartSeconds": 198.44,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "940eed5dba52a635",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "657c53d4cacbdb20eceaa4fb1d62b215d061af47e57d7bc000a244254d5feb0b",
+     "exampleVideoId": "-ZkOuLa0nPc",
+     "exampleStartSeconds": 272.72,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "a44dbae21b6aa768",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "1ce0f551d8d1d9f7e2fadf90ced01f2852fc91a7634e300f4585633a88eea66a",
+     "exampleVideoId": "-ZkOuLa0nPc",
+     "exampleStartSeconds": 318.16,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "ac64fbd0c0d68a5f",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "contact_timing",
+     "exampleQuestionSha256": "a36c331ca554a6c306a2d925051950bdadd059420032c1e884bed99d92057015",
+     "exampleVideoId": "-ZkOuLa0nPc",
+     "exampleStartSeconds": 356.4,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "37f1da2d556221dd",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "34ab660dec74200a1d7e9defce168c67d4a97c69082a0d71460175821a636658",
+     "exampleVideoId": "-ZkOuLa0nPc",
+     "exampleStartSeconds": 481.64,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "63bd7065ef1e165a",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "eaeed4469aef6e220f1a2b70b98103e365644472ce7b89ebea4d5da1eb7fc003",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 488.01,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "1705c560717b39aa",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "42d2aa5f92a7ef91c39e0da986a46d1c8c1654cc00577058b6735bda431b6029",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 673.0,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "e935fe3881e3cef8",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "ee2fd5931d834c90a4f3851cd31a3ad2daccc1da74ea9b69481bb6ff816c37d5",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 703.96,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "e8baeef589f87e7d",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "4be9e6392e0ccd29b1fb43fe527ce8ebb6b36d7b71ac31697af5c192fc7a4ee7",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 1031.2,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "46ebea3c0a9e1ebc",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "659c2d18337e068e5493b9932fc6e612c9f9b90f94adf96ab0229cf2bc43afc6",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 1338.75,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "676b717dca9ccf46",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "8d864dc8c1df90bdba19f3ced35e0d1b4a1a1ff06975f548e76b99f144bfe4fa",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 1816.18,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "0965aeed97bf0838",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "ac7f24ad28c224690bb564db1c6bd7e0487806740c07b2f7fae3b9b382d92b50",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 1881.8,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "fcbb28e4a4ad6a81",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "f4f288453974fa0ba641c9a387a5fdd5f68dc2143b1322488f2cad216a7feff7",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 2204.29,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "375fd541615750f9",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "2e2ffc0062c9a7dd95a68f1111f39dc042edc5a24ea9c680785db866fb6d6aec",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 2210.33,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "6206bbb231e02945",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "fbca4514d87258d616c884c7d4a69e69007a35e510ec45cd4d4729c979e7c5b0",
+     "exampleVideoId": "-i0dfXWr9Vk",
+     "exampleStartSeconds": 2236.05,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "fa7421db35f7e83e",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "13114a3dd01f5f6d8edbd58c9404e14a556dabb63d9b306a4e24e020875364fd",
+     "exampleVideoId": "-leIq8XP15k",
+     "exampleStartSeconds": 17.1,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "ef049332e15b8471",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "06e18e0ec3694691ad0ff97fac88b277f19881c4f58f7aa4c9774fe654a4a8ed",
+     "exampleVideoId": "-leIq8XP15k",
+     "exampleStartSeconds": 381.44,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "cb6bc5fb3fa4024f",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "fd128b1d2ddb798802e519b657862b56f0acd658def70b05213aab72fea04ff5",
+     "exampleVideoId": "-o4q27DpxaA",
+     "exampleStartSeconds": 481.64,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "5b4b0df512a2ed84",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "51dfba75300029d2f6b95ca2764257261224f3bdb67047dc0959b4f99357c370",
+     "exampleVideoId": "-o4q27DpxaA",
+     "exampleStartSeconds": 857.1,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "98977f18d7b576f3",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "ascension",
+     "exampleQuestionSha256": "09f48610b9dd433b2b2b67a2624d60ad0a0bb9a515dd736c42f0e18399b49ac2",
+     "exampleVideoId": "-o4q27DpxaA",
+     "exampleStartSeconds": 978.5,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "1298e7a91b1ffefe",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "33f2bdc941db1e28cf6c04f70847829d51c740bc9b1cc31dc7905a6663a4dd93",
+     "exampleVideoId": "-o4q27DpxaA",
+     "exampleStartSeconds": 1205.0,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "63212655f2e25a8f",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "2e5d341758e808993adc21e00ab5ae74fb96e8dc1490abf828083626c0b43950",
+     "exampleVideoId": "-o4q27DpxaA",
+     "exampleStartSeconds": 1809.84,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "367e27b1211c3b78",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "57d26de6f4c65ee9c8cfb8bc2dff5a9dd4d2a094da166fa7f9b5d2a43cc40fe5",
+     "exampleVideoId": "-o4q27DpxaA",
+     "exampleStartSeconds": 1843.2,
+     "exampleParaphraseNote": "exact text held in private index only"
+    },
+    {
+     "familyKey": "6ea3d8b9a9759df1",
+     "occurrences": 1,
+     "nPublishers": 1,
+     "nVideos": 1,
+     "repostRisk": "low",
+     "questionFamily": "other_theme",
+     "exampleQuestionSha256": "021b3c7d04234db3f395e7572c601e146e10fea042bdc57b8e4837b4adb6a039",
+     "exampleVideoId": "-o4q27DpxaA",
+     "exampleStartSeconds": 1861.84,
+     "exampleParaphraseNote": "exact text held in private index only"
+    }
+   ]
+  },
+  "caution": "Question classes are textual heuristics without diarization; orientation describes answer-text shape only; no truth/agreement/consensus assessment is made. Entity labels are publisher metadata."
+ },
+ "validation": {
+  "included": [
+   "-0w7wdn_t9I",
+   "-8k6d9StYig",
+   "-JmMDcVVvuo",
+   "-ZkOuLa0nPc",
+   "-i0dfXWr9Vk",
+   "-leIq8XP15k",
+   "-o4q27DpxaA",
+   "-rdfCWf8WnA",
+   "0DoOerBuWaQ",
+   "0wlfYecWQ74",
+   "1UufR6Wn9z8",
+   "1XnCFCcbunc"
+  ],
+  "excluded": [
+   {
+    "videoId": "-KVKPRLFte4",
+    "reason": "unsupported language for pinned English-only ASR: receipt excluded_language_mismatch (detected 'de', expected 'en', model tiny.en); quarantined ASR outputs retained under quarantine/ and not analyzed; hash-bound audio"
+   }
+  ],
+  "offPilotRecordsOnDisk": [
+   "-HH8KFobnHk",
+   "6GsKmBdXOtI",
+   "6eZDJwSzj3Y",
+   "BYdEYcZTzL0",
+   "DfBrQbKIWHg",
+   "DnPz1smStuI",
+   "GV8PXtHeBk8",
+   "IAwFjL6t564",
+   "IfGS1M7H5Bk",
+   "PWeUvXtTKqc",
+   "Rus5nLjg8ZE",
+   "Szm3XXEoNVw",
+   "VvOZKNFKbmo",
+   "aAKOFyq655I",
+   "cI0Doainsl4",
+   "ctgvKZcIWIg",
+   "eh4dvev6-zo",
+   "fCE8_aaWfwc",
+   "fXKa6vguKEE",
+   "feOgHmYKDkQ",
+   "g8jAMtGdQDA",
+   "gyfdhVl5Ino",
+   "hSlyR0POnFw",
+   "ole79YMEZ3k",
+   "oo0vpCtR804",
+   "pMkSD-ypZAA",
+   "uHU7I5A92K0",
+   "w3ic_SkbO7Y",
+   "widNthTctcU"
+  ],
+  "pilotVideoCount": 13,
+  "languageNotes": {
+   "-i0dfXWr9Vk": "elevated repeated-trigram share 0.210; ASR repetition loops possible in passages (style or hallucination); flagged, not excluded at 113.5 words/min"
+  },
+  "coverageNotes": {
+   "-leIq8XP15k": "ASR text covers 0.924 of audio duration; tail may be speech-free (VAD) or music",
+   "-o4q27DpxaA": "ASR last segment end exceeds ffprobe duration (1.0000); final segment extends beyond nominal duration"
+  },
+  "editionNotes": {
+   "-8k6d9StYig": "prior provider-rendered subtitle edition for this video was detected 'ar' while the audio ASR detects English; editions differ (subtitle edition is not the audio language)"
+  },
+  "metadataNotes": {},
+  "providers": {
+   "-0w7wdn_t9I": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "-8k6d9StYig": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "-JmMDcVVvuo": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "-ZkOuLa0nPc": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "-i0dfXWr9Vk": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "-leIq8XP15k": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "-o4q27DpxaA": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "-rdfCWf8WnA": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "7fc7d56608be4f9d5b24450860750862d1854ced28165ca576d66ad286c6aa41",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "0DoOerBuWaQ": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "502157e1909866f96b6e765c39ea8a2b25c24a23108fdc925deb7a74614e09d1",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "0wlfYecWQ74": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "502157e1909866f96b6e765c39ea8a2b25c24a23108fdc925deb7a74614e09d1",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "1UufR6Wn9z8": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "502157e1909866f96b6e765c39ea8a2b25c24a23108fdc925deb7a74614e09d1",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   },
+   "1XnCFCcbunc": {
+    "asrProvider": "self_run_faster_whisper_tiny.en",
+    "sourceType": "public_youtube_audio_self_run_ASR",
+    "audioRoute": "y2mate.gs ordinary public paste-link interface",
+    "modelId": "Systran/faster-whisper-tiny.en",
+    "modelRevision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "settingsSha256": "ff7500f4e574ce5755480ab27d83ca340b1c0249608fb56fb8deb209e32537e2",
+    "codeSha256": "502157e1909866f96b6e765c39ea8a2b25c24a23108fdc925deb7a74614e09d1",
+    "asrVersions": {
+     "faster_whisper": "1.2.1",
+     "ctranslate2": "4.8.3",
+     "av": "16.1.0"
+    }
+   }
+  }
+ },
+ "seed": 20261110,
+ "sourceBoundary": "Self-run baseline ASR (faster-whisper tiny.en int8 CPU, English-only, 300 s windows) over public YouTube audio; not rendered subtitles or original caption tracks; no diarization; no human WER; humanValidated=false; ASR accuracy unmeasured; small corpus; uploader != practitioner != claimed entity; claimed-entity labels are publisher metadata only.",
+ "generatedBy": "build.py (gated on asr-summary; deterministic seed 20261110)",
+ "manualReviewSampleSize": 67,
+ "manualReviewSampleRule": "stratified sample of 67 (>= 60) across claimed-entity labels from 164 units, seed 20261110",
+ "reviewSummary": {
+  "manualReviewKind": "ai_agent_review",
+  "nReviewed": 67,
+  "sampleRule": "stratified sample of 67 (>= 60) across every claimed-entity label present, from 164 extracted units (seed 20261110)",
+  "verdictCounts": {
+   "reclassify": 34,
+   "boundary_error": 14,
+   "confirm": 19
+  },
+  "reclassifications": {
+   "unclear_dialogue_context -> secondary_report": 5,
+   "secondary_report -> direct_interview_candidate": 1,
+   "unclear_dialogue_context -> direct_interview_candidate": 8,
+   "direct_interview_candidate -> rhetorical_candidate": 8,
+   "unclear_dialogue_context -> self_report": 2,
+   "unclear_dialogue_context -> rhetorical_candidate": 8,
+   "direct_interview_candidate -> secondary_report": 2
+  },
+  "findings": [
+   "ASR (tiny.en) emits multi-sentence segments, so mid-clause question cuts come from sentence splitting inside long segments rather than rendered-line breaks: 14/67 sampled units (21%) are boundary fragments or cut clusters.",
+   "Tag/comprehension-check questions (right?, you know?, you follow?, Okay?) are common in the panel/dialogue videos and are correctly rhetorical; they are stopword-only and family-less.",
+   "Quoted dialogue inside anecdotes (snake story, healing story) and practitioner-relayed entity speech ('he says ...') were reclassified to secondary_report; the Megan Rose relay format mixes her own narration with the entity's shown images.",
+   "Solo-monologue sources (Aurora Ray, SAM THE ILLUSIONIST, SOLi School card reading) show self-answered rhetorical framing questions; no interviewer is present in the flow.",
+   "tiny.en ASR errors deform names (e.g. Yahyel as 'Diyal'/'IELT'/'Yale', Ashtar as 'Ashir'/'Ashdar', Val Nek as 'Valek'); family keys use content tokens, so such garble keeps related questions in distinct families; counts are literal-text counts, not corrected readings.",
+   "Answer windows are usually captured (complete_line_cap dominates); captured answers are mostly descriptive_explanatory in shape; orientation says nothing about answer truth, agreement or consensus.",
+   "Review is ai_agent_review, not human annotation; every verdict binds to the current question hash and source metadata; humanValidated stays false."
+  ],
+  "caution": "AI review, not human annotation; humanValidated stays false. Reviewed classes refine textual heuristics only; no speaker attribution, truth or consensus assessment."
+ }
+}
