@@ -9,7 +9,7 @@ This workstream records actual public YouTube audio acquisition and self-run ASR
 - **43 terminal candidates = 34 analyzed + 8 excluded + 1 route-limit hold.** Seven exclusions are under 300 seconds, one is German audio unsupported by the English-only model, and the eight-hour Kryon compilation remains held above the public converter’s 150-minute route limit.
 - **34 completed English ASR documents**, 146,605 words, 13,169 segments and 19.472 hours.
 - **572 literal question units / 781 question sentences**, with 69 fresh AI-agent verdicts (7 confirm, 49 reclassify, 13 boundary errors). `humanValidated=false` throughout.
-- **119/119 analysis checks and 46/46 audio checks pass.** Verification independently recomputes Q&A extraction, TF-IDF, NMF, nine-non-self-ARI KMeans, document similarity and sensitivity values.
+- **119/119 analysis checks, 46/46 audio checks and 73/73 current consistency checks pass.** Verification independently recomputes Q&A extraction, TF-IDF, NMF, nine-non-self-ARI KMeans, document similarity and sensitivity values. The consistency receipt has `fullHashRerun=false` and is not presented as a new full hash.
 - NMF stability is 0.7438 with all runs converged; maximum KMeans silhouette is 0.0070, so no cluster structure is claimed. The registry has 473 families: 17 cross-video, three same-video-only recurrence and 63 family-less stopword-only rows.
 
 ## Public versus private artifacts
