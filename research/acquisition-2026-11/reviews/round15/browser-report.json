@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "evidenceNote": "Metadata-only HAR files contain actual public HTTP request/response records. Response metrics are computed separately from response bodies, not cache-dependent resource timing. Screenshots remain local visual evidence; HAR is the committed network receipt.",
+  "results": [
+    {
+      "name": "desktop",
+      "initialPageLoad": {
+        "url": "http://127.0.0.1:8767/research/index.html",
+        "responseCount": 13,
+        "responseBytes": 3912374
+      },
+      "allMeasuredResponses": {
+        "count": 28,
+        "bytes": 11066118
+      },
+      "consoleErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "overflow": false,
+      "dimensions": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 2911
+      },
+      "interactions": [
+        "view:harvest",
+        "view:experiments",
+        "view:collection",
+        "view:methods",
+        "view:overview",
+        "harvest-refresh",
+        "main-to-workbench",
+        "303 account rows and reconciliations",
+        "sqlite/png/json/csv/manifest downloads",
+        "workbench-to-main"
+      ],
+      "har": "desktop.har",
+      "screenshotLocalOnly": "desktop.png"
+    },
+    {
+      "name": "mobile",
+      "initialPageLoad": {
+        "url": "http://127.0.0.1:8767/research/index.html",
+        "responseCount": 13,
+        "responseBytes": 3912374
+      },
+      "allMeasuredResponses": {
+        "count": 28,
+        "bytes": 11066118
+      },
+      "consoleErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "overflow": false,
+      "dimensions": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "scrollHeight": 5412
+      },
+      "interactions": [
+        "view:harvest",
+        "view:experiments",
+        "view:collection",
+        "view:methods",
+        "view:overview",
+        "harvest-refresh",
+        "main-to-workbench",
+        "303 account rows and reconciliations",
+        "sqlite/png/json/csv/manifest downloads",
+        "workbench-to-main"
+      ],
+      "har": "mobile.har",
+      "screenshotLocalOnly": "mobile.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "mode": "raw_and_audit_roots_unset",
+  "checks": {
+    "committedAnalysisVerificationRequired": true,
+    "candidateIdsSha256Required": true,
+    "publicSqliteMaterializedFromCsvJson": true,
+    "forcedFreshMaterialization": true,
+    "sixPngsRenderedFromSvg": true,
+    "packageArtifacts": 33,
+    "completedAudio": 35,
+    "completedEnglishAsr": 34,
+    "analysisCompleted": 34,
+    "candidateTerminal": {
+      "analyzed": 34,
+      "excluded": 8,
+      "held": 1,
+      "totalCandidates": 43
+    },
+    "audioBytes": 1321921399,
+    "asrWords": 146605,
+    "noPendingResetObserved": true
+  },
+  "note": "Source-only CI fallback was executed with private environment variables unset. Materialized binaries are derived from public CSV/JSON/SVG only; no raw media or full transcript body was read."
+}

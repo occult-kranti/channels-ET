@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scope": "Public metadata/hash/aggregate reconciliation only; no media or full transcript bodies fetched",
+  "package_artifacts": 33,
+  "observed_videos": 2840,
+  "observed_accounts": 302,
+  "candidates": 43,
+  "analyzed": 34,
+  "excluded": 8,
+  "held": 1,
+  "audio_files": 35,
+  "audio_bytes": 1321921399,
+  "asr_words": 146605,
+  "asr_segments": 13169,
+  "question_units": 572,
+  "analysis_checks": "119/119"
+}
