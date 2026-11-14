@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0",
+  "kind": "non_bashar_self_run_asr_protocol",
+  "created": "2026-11-10",
+  "workstream": "research/acquisition-2026-11/analysis",
+  "scope": "Validation, corpus analysis and literal question/answer extraction over the expanded non-Bashar candidate set of self-run baseline ASR transcripts produced from public YouTube audio stored under ${CHANNELS_ET_RAW_ROOT}/youtube-audio/<video_id>/ (acquisition.json + audio.mp3 + asr-receipt.json + ASR outputs). The build is gated on every record in research/acquisition-2026-11/all-candidates.json having a terminal state: completed hash-bound ASR, excluded_under_300, excluded_language_mismatch, or held_route_limit_over_150_minutes. Included + excluded + held must equal the complete candidate set; the original 13-video pilot is retained only as historical provenance.",
+  "sourceBoundaries": {
+    "whatSourcesAre": "Self-run baseline ASR of public YouTube audio. Audio was acquired through the ordinary public y2mate.gs paste-link interface (audio.mp3, sha256-receipted) and transcribed locally with the pinned Systran/faster-whisper-tiny.en model (revision 0d3d19a32d3338f10357c0889762bd8d64bbdeba, CPU int8, beam_size=1, VAD filter, condition_on_previous_text=false) in contiguous 300 s decode windows covering 100% of each file, timestamps offset-stitched. sourceType is public_youtube_audio_self_run_ASR; provider label is self_run_faster_whisper_tiny.en.",
+    "whatSourcesAreNot": [
+      "Not rendered subtitles and not original caption tracks: this layer is independent ASR output from audio bytes, distinct from research/expansion-2026/non-bashar-analysis (provider-rendered subtitle text).",
+      "Not human validated: humanValidated == false; no human WER, no human peer review; tiny.en int8 CPU baseline accuracy is unmeasured.",
+      "Not diarized speaker turns: interviewer vs practitioner vs claimed-entity voice cannot be separated.",
+      "Not edition-equivalent to any YouTube caption track: no claim that ASR text matches any caption edition.",
+      "Not multilingual: the pinned model is English-only (tiny.en); non-English audio is unsupported and excluded with explicit evidence, never silently analyzed as English.",
+      "Window-boundary words can be split by the 300 s chunking; this is a recorded limitation of the transcription receipt."
+    ]
+  },
+  "nonClaims": [
+    "No truth, reality or physical-origin assessment of any claimed entity; claimed-entity labels are publisher metadata only.",
+    "No cross-ET agreement, consensus or disagreement assessment; the Q&A layer records question TYPES and answer ORIENTATION only.",
+    "NMF/KMeans on 34 short ASR documents (43 terminal candidates including exclusions and a hold) are diagnostics only; no natural clusters, no stable semantic structure and no population significance are claimed. All base and stability runs converged before the 1,200-iteration cap in the final expanded build; iteration counts remain exported.",
+    "Manual review is AI review (manualReviewKind=ai_agent_review), not human annotation; humanValidated stays false.",
+    "Uploader, practitioner and claimed entity are kept as three distinct metadata roles; none is equated with another.",
+    "Detected language is a text heuristic over the ASR output; the degenerate-output guard (words-per-minute and repetition evidence) exists because an English-only model forced onto unsupported audio emits repetitive hallucinated English rather than a faithful transcript."
+  ],
+  "inputs": {
+    "rawAsrRoot": "${CHANNELS_ET_RAW_ROOT}/youtube-audio",
+    "candidateList": "research/acquisition-2026-11/all-candidates.json",
+    "originalPilotHistoricalOnly": "research/expansion-2026/youtube-transcripts/pilot-videos.json",
+    "acquisitionLedger": "research/acquisition-2026-11/acquisition-ledger.json",
+    "asrSummary": "research/acquisition-2026-11/asr-summary.json",
+    "modelManifest": "research/harvest/asr/model-manifest.json",
+    "priorRenderedEditionIndex": "research/expansion-2026/non-bashar-analysis/sources-index.csv (language cross-edition notes only; never used as transcript text)"
+  },
+  "inclusionValidation": {
+    "requiredArtifacts": ["acquisition.json", "audio.mp3", "asr-receipt.json", "asr-segments.jsonl", "asr-transcript.txt", "asr-transcript.srt"],
+    "checks": [
+      "directory name == candidate video_id == acquisition.video_id == receipt.videoId; sourceUrl contains the video id and matches the candidate list",
+      "acquisition.json status == completed; audio.mp3 exists, is not a symlink, and its sha256/bytes match acquisition.json",
+      "asr-receipt.json status == completed; sourceType == public_youtube_audio_self_run_ASR; audioSha256 == audio file hash; settings equal the pinned expected settings (language en, beam_size 1, vad_filter true, condition_on_previous_text false, device cpu, compute_type int8, modelId Systran/faster-whisper-tiny.en, manifest revision, chunkSeconds 300) and settingsSha256 recomputes",
+      "every outputSha256 entry in the receipt recomputes against the on-disk asr-transcript.txt / asr-segments.jsonl / asr-transcript.srt",
+      "segment records use start/end/text (normalized to startSeconds/endSeconds for analysis); every record has numeric 0 <= start < end, non-empty text, non-decreasing starts; receipt segmentCount == jsonl line count; receipt wordCount == whitespace words of asr-transcript.txt; SRT cue count == segmentCount",
+      "durations: |acquisition.duration_seconds - receipt.ffprobeDurationSeconds| <= 0.5 s; |receipt.decodedDurationSeconds - ffprobeDurationSeconds| <= 1.0 s; chunksProcessed * 300 >= decodedDurationSeconds (full-length decode); ASR text coverage = lastSegmentEnd / ffprobeDurationSeconds must be >= 0.75 (VAD speech-free tails are legitimate); coverage in [0.75, 0.95) or > 1.0 is a non-fatal note",
+      "ledger record exists with status completed and matching sha256/bytes/duration_seconds (<= 0.5 s)",
+      "asr-summary.json shows each completed acquisition completed with audioSha256 and outputSha256 matching the on-disk receipt; explicit under-300/language exclusions and the route-limit hold are validated separately (gate for the whole candidate set)",
+      "title/publisher/practitionerContext/claimedGroup match the candidate list (uploader != practitioner != claimed entity kept as distinct roles)",
+      "language: script-aware detection over ASR text must yield English (pinned model is English-only); degenerate-output guard excludes sources whose ASR output is not a usable English transcript (words-per-minute below 45 over the audio duration, the observed signature of tiny.en forced onto non-English audio is repetitive hallucinated English at ~21 wpm versus 110-156 wpm for English audio)"
+    ],
+    "exclusionRule": "Any failed fatal check excludes the record from included analysis and records the reason; missing/mismatched audio, transcript, duration or unsupported language are fatal. The build gate refuses final outputs until all candidates resolve to completed ASR, explicit exclusion, or the route-limit hold. Holds are never counted as analyzed."
+  },
+  "segmentIndex": {
+    "privateDb": "${CHANNELS_ET_RAW_ROOT}/analysis-2026-11/segment-index.sqlite",
+    "granularity": "one row per ASR segment with exact start/end seconds and exact text; private only",
+    "publicExposure": "metadata, counts and sha256 hashes only; no transcript bodies in the repository"
+  },
+  "corpusAnalysis": {
+    "tokenization": "lowercase Unicode letter tokens (>=2 chars); per-document stoplist selected by detectedLanguage (English for all included sources; German/compact-Arabic paths retained for defense in depth); proper names excluded from TF-IDF/NMF; per-document raw/analysis token counts exported in tokenizationDiagnostics; sources-index word_count is whitespace-delimited",
+    "tfidf": "unigram+bigram TF-IDF (sublinear_tf), deterministic top terms per corpus and per publisher/practitioner/claimed-entity overlay",
+    "nmf": "NMF k=6 (n_components bounded by corpus size), init=nndsvda, seed 20261110, max_iter=1200; seed stability over 10 random-init seeds reported as mean best-match cosine of topic-term vectors. Iteration counts and convergence are exported; all runs converged before the cap in the final expanded build",
+    "kmeans": "KMeans k swept 2..8, silhouette diagnostics over 10 seeds, and adjusted Rand index vs the base seed over the other nine seeds only; the trivial base-vs-itself ARI=1 comparison is excluded and ariComparisons=9 for every k",
+    "documentNetwork": {"similarity": "cosine similarity on TF-IDF", "threshold": 0.1, "weakestEdgeRule": "each node with a positive-similarity neighbor keeps its strongest edge even below threshold; all-zero nodes remain isolated. This is a visualization rule, not evidence of substantive similarity", "layout": "spring layout seed 20261110"},
+    "temporalDurationProfiles": "per-source duration, segment and word rates (words/segments per minute), question-unit rates per 10 minutes; ASR segment cadence differs from rendered-subtitle cue cadence and is reported as-is",
+    "sensitivity": "proper-name and commercial-pattern counts per document; commercial regex is English-oriented, not a cross-language advertisement detector"
+  },
+  "questionExtraction": {
+    "sentenceSplit": "regex split after [.!?] followed by whitespace (Arabic marks retained for defense in depth though tiny.en never emits them)",
+    "questionBearingSegment": "ASR segment containing at least one sentence with ASCII '?'",
+    "mergeRule": {
+      "description": "Adjacent question-bearing segments separated by <= 2.0 s are merged into one question unit; all question sentences inside the unit are preserved with their count.",
+      "maxGapSeconds": 2.0
+    },
+    "extractionRuleId": "qmark_merge_v1_nonbashar_asr",
+    "questionFormCodebook": {
+      "tag_question": "whole question sentence is a discourse tag (right?, you know?, does that make sense?, ...)",
+      "imperative_prompt": "imperative elicitation (tell me/us about, talk about, explain, describe, walk us through, can you tell/share/explain ...)",
+      "wh_question": "contains an interrogative wh-word (what/why/how/when/where/who/which/whose/whom)",
+      "yes_no_question": "auxiliary + subject inversion pattern (do you, are they, is it, can we, ...)",
+      "other_unclassified_qmark": "carries '?' but matches none of the above transparent English patterns; conservative default",
+      "tag_only": "unit whose question sentences are all tags (unit-level primary form)"
+    },
+    "primaryFormRule": "unit primary form = form of the first non-tag question sentence, else tag_only",
+    "discourseClassCodebook": {
+      "unclear_dialogue_context": "DEFAULT; no explicit textual evidence about who is being asked (no diarization).",
+      "direct_interview_candidate": "PROMOTED only on explicit textual evidence: imperative elicitation pattern or second-person / session-subject address (you/your or entity/channeling reference) in a wh/yes-no/other unit. AI review may promote additional candidates with bounded notes.",
+      "rhetorical_candidate": "all question sentences are discourse tags, or the question is immediately answered by the same segment flow without an addressee cue.",
+      "secondary_report": "question text reports someone else's asking (people ask, he/she asked, I get asked, ...).",
+      "self_report": "speaker reports asking themselves (I ask myself, I wonder, ...)."
+    },
+    "promotionRuleId": "direct_evidence_v1_nonbashar_asr",
+    "caution": "Without diarization these classes are textual heuristics only; AI review refines all candidates when <= 60, else a stratified >= 60 sample. Speaker turns are never invented."
+  },
+  "answerWindow": {
+    "rule": "after the question unit end, take following non-question segments until the first of: 4 segments collected, 90 s elapsed since question end, or the next question-bearing segment (stop before it)",
+    "maxLines": 4,
+    "maxSeconds": 90,
+    "statusCodebook": {
+      "complete_line_cap": "4 non-question segments collected; 'complete' means the extraction window filled, not that the speaker finished the answer",
+      "complete_time_cap": "90 s cap reached before 4 segments",
+      "interrupted_by_next_question": "a following question begins; window may hold 0+ answer segments",
+      "end_of_transcript_boundary_unknown": "transcript ended before the window filled; true answer boundary unknown",
+      "no_answer_window": "next segment is already a question; no answer text captured",
+      "no_answer_end_of_transcript": "question ends the transcript; unanswered / boundary unknown"
+    },
+    "orientationCodebook": {
+      "process_practice_oriented": "answer window dominated by practice/process/inner-work verbs (focus, breathe, allow, practice, meditate, align, release, integrate)",
+      "descriptive_explanatory": "answer has a positive descriptive/explanatory pattern match; zero-pattern answers are not placed here by default",
+      "unclassified_default": "answer window exists but matches none of the four orientation patterns; this is an explicit unclassified bucket, not positive descriptive evidence",
+      "conditional_hedged": "answer dominated by conditionals/hedges (depends, may, might, could, if you, in your timing, not yet)",
+      "timing_specific": "answer gives explicit timing/window language (dates, years, soon, in the coming, within)",
+      "not_captured": "no usable answer window",
+      "not_assessed_language": "answer text exists but the English orientation codebook is not applied to an unsupported language"
+    },
+    "orientationCaution": "Orientation describes the shape of the captured answer text only. It says nothing about answer truth, agreement across entities, or consensus, which are never assessed."
+  },
+  "questionFamilyCodebook": {
+    "contact_timing": "when/how open contact, disclosure timing, first contact",
+    "dna_origins": "DNA, genetics, origins, ancestry, hybrid, lineage, starseed origins",
+    "ascension": "ascension, 5D/fifth density, shift, new earth, frequency raising, dimensions",
+    "reality_agency": "nature of reality, manifestation, belief, free will, agency, creating reality",
+    "healing": "healing, health, disease, body symptoms, energy healing",
+    "dreams_contact": "dreams, astral, sleep contact, visitation in dreams",
+    "predictions": "future events, prophecies, dates, solar flash, eclipse, event predictions",
+    "other_theme": "none of the above dominant families",
+    "not_assessed_language": "question is preserved literally, but the English family codebook is not applied to an unsupported language"
+  },
+  "commonQuestionFamilies": {
+    "familyKey": "sha256-16 of sorted unique lowercase content tokens of the question sentences (stoplist and proper-name list removed); null when no content tokens remain. Interrogative stopwords are applied uniformly (what/who/whom/whose/which as well as when/where/why/how), preventing a one-token wh-word family. Tag-only and all other stopword-only units stay family-less in the public rows and are excluded from family grouping, so no spurious empty-key common question is created",
+    "repostRisk": "review flag only: high if the same family key appears in >= 2 distinct publishers, medium if >= 2 videos of one publisher, else low. Token-key recurrence is not semantic equivalence or a repost finding. recurrence_scope distinguishes cross_video, within_single_video and singleton rows."
+  },
+  "manualReview": {
+    "kind": "ai_agent_review",
+    "sampleSize": "all extracted candidates when <= 60, else a stratified >= 60 sample across available claimed-entity labels",
+    "checks": ["rhetorical vs direct vs secondary classification", "answer completeness vs window status", "boundary errors (question/answer cut wrong)"],
+    "storage": "manual-review.json (bounded paraphrase notes + excerpts <= 150 chars + sha256 only; full text stays private)"
+  },
+  "limitsAttachedToEveryFigure": "Self-run baseline ASR (faster-whisper tiny.en int8 CPU, English-only, 300 s windows) over public YouTube audio; not rendered subtitles or original caption tracks; no diarization; no human WER; humanValidated=false; ASR accuracy unmeasured; modest corpus (34 included documents; 43 terminal candidates); uploader != practitioner != claimed entity; claimed-entity labels are publisher metadata only."
+}
