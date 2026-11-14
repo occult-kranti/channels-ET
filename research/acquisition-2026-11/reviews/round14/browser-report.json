@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "name": "workbench-desktop",
+      "url": "http://127.0.0.1:8766/dist/research/acquisition-2026-11/index.html",
+      "consoleErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "overflow": false,
+      "dimensions": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 11802,
+        "bodyScrollWidth": 1440
+      },
+      "resourceCount": 0,
+      "transferBytes": 0,
+      "screenshot": "browser-evidence://workbench-desktop.png"
+    },
+    {
+      "name": "workbench-mobile",
+      "url": "http://127.0.0.1:8766/dist/research/acquisition-2026-11/index.html",
+      "consoleErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "overflow": false,
+      "dimensions": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "scrollHeight": 13850,
+        "bodyScrollWidth": 375
+      },
+      "resourceCount": 0,
+      "transferBytes": 0,
+      "screenshot": "browser-evidence://workbench-mobile.png"
+    },
+    {
+      "name": "research-desktop",
+      "url": "http://127.0.0.1:8766/dist/research/index.html",
+      "consoleErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "overflow": false,
+      "dimensions": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 3001,
+        "bodyScrollWidth": 1440
+      },
+      "resourceCount": 7,
+      "transferBytes": 3049463,
+      "screenshot": "browser-evidence://research-desktop.png"
+    },
+    {
+      "name": "research-mobile",
+      "url": "http://127.0.0.1:8766/dist/research/index.html",
+      "consoleErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "overflow": false,
+      "dimensions": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "scrollHeight": 4389,
+        "bodyScrollWidth": 375
+      },
+      "resourceCount": 7,
+      "transferBytes": 3049463,
+      "screenshot": "browser-evidence://research-mobile.png"
+    }
+  ]
+}

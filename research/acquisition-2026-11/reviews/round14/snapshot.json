@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "round": 14,
+  "capturedAtUtc": "2026-11-11T02:01:10.240453+00:00",
+  "sourceCommit": "0930c1ded721146e0d5a430343624643cef34d4c",
+  "sourceCommitRepresentsCurrentWork": false,
+  "staticInputsDirty": true,
+  "stagedDirectory": "staged://acquisition-2026-11-v3",
+  "files": [
+    {
+      "path": "research/acquisition-2026-11/all-candidates.json",
+      "bytes": 16899,
+      "sha256": "073c504948a57603193c26cb6a530c3c6ce3c0d39b1c9a086aa2bbfc73528a4c"
+    },
+    {
+      "path": "research/acquisition-2026-11/acquisition-ledger.json",
+      "bytes": 46594,
+      "sha256": "35abce75cf9e2a0fef998daa9cd31b51c6b2fc979b1aa083f118b446f77c009b"
+    },
+    {
+      "path": "research/acquisition-2026-11/asr-summary.json",
+      "bytes": 94310,
+      "sha256": "4b8860e46b1a94c2c7d48b7dec6b168adbecdc9d07db57fdcbeac344578f68f9"
+    },
+    {
+      "path": "research/acquisition-2026-11/asr-code-editions.json",
+      "bytes": 2316,
+      "sha256": "e304037defeab372673eceb0ed3151cd3644c851e8f13793f43c8f9c3aeb39df"
+    },
+    {
+      "path": "research/acquisition-2026-11/analysis/build.py",
+      "bytes": 85666,
+      "sha256": "0d7446929f8d0d523dffa18c1d6fc7af0ce77019fc5adbaa152412c05f9c489b"
+    },
+    {
+      "path": "research/acquisition-2026-11/analysis/verify.py",
+      "bytes": 33522,
+      "sha256": "b478a0c5b6e61aa84978a15a804a78a35a49c3947513dc9210c7355d62462000"
+    },
+    {
+      "path": "research/acquisition-2026-11/analysis/analysis.json",
+      "bytes": 180715,
+      "sha256": "255ddfe196ffc4fad5a5c49caeed1123e13e1e08935811c0c8fa27f203a11147"
+    },
+    {
+      "path": "research/acquisition-2026-11/analysis/manual-review.json",
+      "bytes": 54035,
+      "sha256": "271818792ffe9ec28b2b0692b979ca51e75bc4d011e8b42a34863c2f9576762a"
+    },
+    {
+      "path": "research/acquisition-2026-11/analysis/qualitative-synthesis.md",
+      "bytes": 11080,
+      "sha256": "987ecd17a4cc1adbfdf44919dc21d8fb7d6d86dc414e9c28c30cd6d3237d4680"
+    },
+    {
+      "path": "research/acquisition-2026-11/analysis/verification.json",
+      "bytes": 12418,
+      "sha256": "3063b22ea194b735d424a78ae74d6c42d2e89427477fdf643c86d95c4eb59518"
+    },
+    {
+      "path": "research/acquisition-2026-11/reference-summary.json",
+      "bytes": 1686,
+      "sha256": "330ff2b86fb773dc33a9f8105bc9bef3b8ae5901d893e2a45f4a845566a76fcd"
+    },
+    {
+      "path": "research/acquisition-2026-11/video-reference.csv",
+      "bytes": 792008,
+      "sha256": "740e9c371a599802184e6258d8d7448524af234f817cd1bc4ff22ceb76af41f1"
+    },
+    {
+      "path": "research/acquisition-2026-11/channel-reference.csv",
+      "bytes": 108612,
+      "sha256": "917c285dd174598147a1f84314cc348520401489b12fd5bd43fd98e22a338a31"
+    },
+    {
+      "path": "research/acquisition-2026-11/package_acquisition.py",
+      "bytes": 9778,
+      "sha256": "e394c324062b5d8f0871bdb906c90b728f3aaff165eb28b7d44f9a2d2dfdf70d"
+    },
+    {
+      "path": "scripts/pages/stage_site.py",
+      "bytes": 18050,
+      "sha256": "5770ad0eed0c0761eef5106aedc6c57cee9a53352089d9edfe0231193f24948a"
+    },
+    {
+      "path": "scripts/pages/verify_site.py",
+      "bytes": 40690,
+      "sha256": "c144cd46953f11fa41c569df6199715adddc6ac377154fb0d757d659e5c90adc"
+    },
+    {
+      "path": "dist/research/index.html",
+      "bytes": 6030,
+      "sha256": "3fbacabb0d39d3cf81948570d761c344331a6a39b045321a61a824d10cf90b25"
+    },
+    {
+      "path": "dist/research/app.js",
+      "bytes": 169410,
+      "sha256": "94e2edba5adbf2989a4dfee1ef2aac3864b78555ccc59d27086180692e9cd883"
+    },
+    {
+      "path": "dist/research/styles.css",
+      "bytes": 22673,
+      "sha256": "43ff94828de0bfc2f71680badadd96ffb057fb7c715b4e4dcc1fdcf5f2f7a882"
+    },
+    {
+      "path": "dist/research/acquisition-2026-11/index.html",
+      "bytes": 40497,
+      "sha256": "61bd1174b76b29767661bd39ffeeddc90245be0c2eeb12a9d8045dbeef948848"
+    },
+    {
+      "path": "dist/research/acquisition-2026-11/manifest.json",
+      "bytes": 5289,
+      "sha256": "7243d6075ff3149ffeec29fae94c1331ec6ef92efffc416fc732a8e490e7b9a4"
+    },
+    {
+      "path": "research/acquisition-2026-11/reviews/round14/staged-verification.json",
+      "bytes": 40779,
+      "sha256": "04facd56c4f81261f737c4db7080f692bbfbcb14760b173ad62e16fd5f0525ee"
+    },
+    {
+      "path": "research/acquisition-2026-11/reviews/round14/browser-report.json",
+      "bytes": 2008,
+      "sha256": "9e9711889486701402e982bc75e5cc09e0a17932c75e90d4b0b5911ce4f988fe"
+    }
+  ],
+  "snapshotSha256": "f5c4ff0bf01c7f1aca87700e45cbc955f522a284211159a8f2a0b063e9a8f564",
+  "digestRecipe": "SHA-256 of canonical compact JSON (sort_keys=True, separators=(",",":")) with snapshotSha256 omitted",
+  "sanitizationNote": "Workstation paths were replaced by staged/browser evidence URIs without changing evidence content."
+}
